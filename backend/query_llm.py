@@ -6,6 +6,7 @@ from typing import Any, Dict, Generator, List
 
 from huggingface_hub import InferenceClient
 from transformers import AutoTokenizer
+from openai import OpenAI
 
 
 OPENAI_KEY = os.getenv("OPENAI_API_KEY")
@@ -16,7 +17,7 @@ HF_CLIENT = InferenceClient(
     os.getenv("HF_MODEL"),
     token=HF_TOKEN
 )
-OAI_CLIENT = openai.Client(api_key=OPENAI_KEY)
+OAI_CLIENT = OpenAI(api_key=OPENAI_KEY)
 
 HF_GENERATE_KWARGS = {
     'temperature': max(float(os.getenv("TEMPERATURE", 0.9)), 1e-2),
