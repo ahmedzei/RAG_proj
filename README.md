@@ -1,7 +1,10 @@
-## A template for a RAG system with Gradio UI
-Deliberately stripped down for the sake of an exercise.
-
-For [ai-dt.school/generative-ai](https://ai-dt.school/generative-ai)
-
-## Setup
-Clone the repo and follow **rag-homework.ipynb**
+---
+title: RAG
+emoji: ⚡
+colorFrom: pink
+colorTo: gray
+sdk: gradio
+sdk_version: 4.19.0
+app_file: gradio_app\app.py
+pinned: false
+---
