@@ -5,7 +5,8 @@ tqdm==4.66.1
 aiohttp==3.8.6
 huggingface-hub==0.17.3
 lancedb>=0.3
-openai==0.28
+# openai==0.28
+openai==1.2.0
 gradio==4.4.1
 markdown==3.5.1
 tiktoken==0.5.1
