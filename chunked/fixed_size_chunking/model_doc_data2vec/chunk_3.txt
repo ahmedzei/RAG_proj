@@ -1,0 +1,10 @@
+oaches.
+Models and code are available at www.github.com/pytorch/fairseq/tree/master/examples/data2vec.
+This model was contributed by edugp and patrickvonplaten.
+sayakpaul and Rocketknight1 contributed Data2Vec for vision in TensorFlow.
+The original code (for NLP and Speech) can be found here.
+The original code for vision can be found here.
+Usage tips
+
+Data2VecAudio, Data2VecText, and Data2VecVision have all been trained using the same self-supervised learning method.
+For Data2VecAudio, preprocessing is iden

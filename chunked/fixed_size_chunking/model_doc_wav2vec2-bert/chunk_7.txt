@@ -1,0 +1,9 @@
+ion of the audio instead of the raw waveform.
+Wav2Vec2-BERT can use either no relative position embeddings, Shaw-like position embeddings, Transformer-XL-like position embeddings, or
+  rotary position embeddings by setting the correct config.position_embeddings_type.
+Wav2Vec2-BERT also introduces a Conformer-based adapter network instead of a simple convolutional network.
+
+Resources
+
+[Wav2Vec2BertForCTC] is supported by this example script.
+You can also adapt these notebooks on how to finetune a speech reco

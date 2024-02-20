@@ -1,0 +1,7 @@
+ q in Q, we can consider only
+the keys k in K that are close to q. A hash function is used to determine if q and k are close. The attention mask is
+modified to mask the current token (except at the first position), because it will give a query and a key equal (so
+very similar to each other). Since the hash can be a bit random, several hash functions are used in practice
+(determined by a n_rounds parameter) and then are averaged together.
+Local attention
+Longformer uses local attention: often, the local cont

@@ -1,0 +1,8 @@
+g \left ( \sum_{x \in S(x_{i})} p(x) \right )$$
+
+SentencePiece
+All tokenization algorithms described so far have the same problem: It is assumed that the input text uses spaces to
+separate words. However, not all languages use spaces to separate words. One possible solution is to use language
+specific pre-tokenizers, e.g. XLM uses a specific Chinese, Japanese, and Thai pre-tokenizer).
+To solve this problem more generally, SentencePiece: A simple and language independent subword tokenizer and
+detokenizer for

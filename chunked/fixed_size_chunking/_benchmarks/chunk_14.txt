@@ -1,0 +1,10 @@
+rk = PyTorchBenchmark(args, configs=[config_base, config_384_hid, config_6_lay])
+benchmark.run()
+====================       INFERENCE - SPEED - RESULT       ====================
+
+Model Name             Batch Size     Seq Length       Time in s
+bert-base                  8              128            0.006
+bert-base                  8              512            0.006
+bert-base                  8              128            0.018   
+bert-base                  8              512            0.088   
+bert-384-h

@@ -1,0 +1,6 @@
+Define the training hyperparameters, and set up an optimizer and a learning rate schedule.
+2. Instantiate a pre-trained model.
+3. Convert a 🤗 Dataset to a tf.data.Dataset.
+4. Compile your model.
+5. Add callbacks and use the fit() method to run the training.
+6.

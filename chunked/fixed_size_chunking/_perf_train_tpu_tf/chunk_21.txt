@@ -1,0 +1,7 @@
+w lines to initialize your TPU, and to ensure that your model and dataset are created inside a TPUStrategy scope. Take a look at our TPU example notebook to see this in action!
+Summary
+There was a lot in here, so let’s summarize with a quick checklist you can follow when you want to get your model ready for TPU training:
+
+Make sure your code follows the three rules of XLA
+Compile your model with jit_compile=True on CPU/GPU and confirm that you can train it with XLA
+Either load your dataset into memory or us

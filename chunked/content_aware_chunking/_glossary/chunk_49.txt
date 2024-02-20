@@ -1,0 +1,2 @@
+However, other models,
+such as BERT, also deploy token type IDs (also called segment IDs).

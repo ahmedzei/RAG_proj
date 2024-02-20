@@ -1,0 +1,7 @@
+This requires a recent 
+version of CUDA and works best on modern cards.
+
+Now that we have the model loaded via the pipeline, let's explore how you can use prompts to solve NLP tasks.
+Text classification
+One of the most common forms of text classification is sentiment analysis, which assigns a label like "positive", "negative", 
+or "neutral" to a sequence of text. Let's write a prompt that instructs the model to classify a given text (a movie review).

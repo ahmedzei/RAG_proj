@@ -1,0 +1,4 @@
+ig.id2label[predicted_class_idx])
+
+Predicted class: BasketballDunk
+```

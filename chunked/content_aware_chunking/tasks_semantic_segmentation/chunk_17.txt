@@ -1,0 +1,6 @@
+Define the training hyperparameters, and set up an optimizer and a learning rate schedule.
+2. Instantiate a pretrained model.
+3. Convert a 🤗 Dataset to a tf.data.Dataset.
+4. Compile your model.
+5. Add callbacks to calculate metrics and upload your model to 🤗 Hub
+6.

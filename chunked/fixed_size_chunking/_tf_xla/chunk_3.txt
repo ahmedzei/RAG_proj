@@ -1,0 +1,14 @@
+eras.Sequential(
+    [tf.keras.layers.Dense(10, input_shape=(10,), activation="relu"), tf.keras.layers.Dense(5, activation="softmax")]
+)
+
+The above model accepts inputs having a dimension of (10, ). We can use the model for running a forward pass like so:
+
+Generate random inputs for the model.
+batch_size = 16
+input_vector_dim = 10
+random_inputs = tf.random.normal((batch_size, input_vector_dim))
+Run a forward pass.
+_ = model(random_inputs)
+
+In order to run the forward pass with an XLA-compiled function, we’d

@@ -1,0 +1,11 @@
+Let's create a "text-to-speech" pipeline with your 
+checkpoint: 
+
+from transformers import pipeline
+pipe = pipeline("text-to-speech", model="YOUR_ACCOUNT_NAME/speecht5_finetuned_voxpopuli_nl")
+
+Pick a piece of text in Dutch you'd like narrated, e.g.:
+
+text = "hallo allemaal, ik praat nederlands. groetjes aan iedereen!"
+
+To use SpeechT5 with the pipeline, you'll need a speaker embedding.

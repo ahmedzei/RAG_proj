@@ -1,0 +1,10 @@
+In addition, subword tokenization enables the model to process words it has never
+seen before, by decomposing them into known subwords. For instance, the [~transformers.BertTokenizer] tokenizes
+"I have a new GPU!" as follows:
+
+from transformers import BertTokenizer
+tokenizer = BertTokenizer.from_pretrained("google-bert/bert-base-uncased")
+tokenizer.tokenize("I have a new GPU!")
+["i", "have", "a", "new", "gp", "##u", "!"]
+
+Because we are considering the uncased model, the sentence was lowercased first.

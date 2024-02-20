@@ -1,0 +1,3 @@
+In other situations figuring out how to install the right cuda toolkit system-wide can be complicated. 
+To address these scenarios PyTorch and NVIDIA released a new version of NGC docker container which already comes with 
+everything prebuilt.

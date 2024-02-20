@@ -1,0 +1,27 @@
+.0
+framework: PyTorch
+use_torchscript: False
+framework_version: 1.4.0
+python_version: 3.6.10
+system: Linux
+cpu: x86_64
+architecture: 64bit
+date: 2020-06-29
+time: 09:35:25.143267
+fp16: False
+use_multiprocessing: True
+only_pretrain_model: False
+cpu_ram_mb: 32088
+use_gpu: True
+num_gpus: 1
+gpu: TITAN RTX
+gpu_ram_mb: 24217
+gpu_power_watts: 280.0
+gpu_performance_state: 2
+use_tpu: False
+</pt>
+<tf>py
+
+from transformers import TensorFlowBenchmark, TensorFlowBenchmarkArguments, BertConfig
+
+args = TensorFlowBenchmarkA

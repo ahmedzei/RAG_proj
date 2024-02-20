@@ -1,0 +1,6 @@
+When you use a TPU on Google Colab, you are accessing it in the TPU Node style.
+Using TPU Nodes can have some quite unexpected behaviour for people who aren’t used to them! In particular, because the TPU is located on a physically different system to the machine you’re running your Python code on, your data cannot be local to your machine - any data pipeline that loads from your machine’s internal storage will totally fail! Instead, data must be stored in Google Cloud Storage where your data pipeline can still access it, even when the pipeline is running on the remote TPU node.
+
+If you can fit all your data in memory as np.ndarray or tf.Tensor, then you can fit() on that data even when using Colab or a TPU Node, without needing to upload it to Google Cloud Storage.
+
+🤗Specific Hugging Face Tip🤗: The methods Dataset.to_tf_dataset() and its higher-level wrapper model.prepare_tf_dataset() , which you will see throughout our TF code examples, will both fail on a TPU Node.

@@ -1,0 +1,9 @@
+
+LED
+Overview
+The LED model was proposed in Longformer: The Long-Document Transformer by Iz
+Beltagy, Matthew E. Peters, Arman Cohan.
+The abstract from the paper is the following:
+Transformer-based models are unable to process long sequences due to their self-attention operation, which scales
+quadratically with the sequence length. To address this limitation, we introduce the Longformer with an attention
+mechanism that scales linearly with sequence length, making it easy to process documents of thousands of 

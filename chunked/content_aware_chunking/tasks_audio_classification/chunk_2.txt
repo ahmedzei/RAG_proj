@@ -1,0 +1,19 @@
+This'll give you a chance to experiment and make sure everything works before spending more time on the full dataset.
+
+minds = minds.train_test_split(test_size=0.2)
+
+Then take a look at the dataset:
+
+minds
+DatasetDict({
+    train: Dataset({
+        features: ['path', 'audio', 'transcription', 'english_transcription', 'intent_class', 'lang_id'],
+        num_rows: 450
+    })
+    test: Dataset({
+        features: ['path', 'audio', 'transcription', 'english_transcription', 'intent_class', 'lang_id'],
+        num_rows: 113
+    })
+})
+
+While the dataset contains a lot of useful information, like lang_id and english_transcription, you'll focus on the audio and intent_class in this guide.

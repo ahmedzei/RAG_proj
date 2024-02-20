@@ -1,0 +1,5 @@
+Some recent models, such as BLIP, BLIP-2, and InstructBLIP approach 
+VQA as a generative task. Let's take BLIP-2 as an example. It introduced a new visual-language pre-training 
+paradigm in which any combination of pre-trained vision encoder and LLM can be used (learn more in the BLIP-2 blog post). 
+This enables achieving state-of-the-art results on multiple visual-language tasks including visual question answering. 
+Let's illustrate how you can use this model for VQA. First, let's load the model.

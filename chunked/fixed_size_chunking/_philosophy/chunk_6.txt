@@ -1,0 +1,2 @@
+can be PyTorch models (torch.nn.Module), Keras models (tf.keras.Model) or JAX/Flax models (flax.linen.Module) that work with the pretrained weights provided in the library.
+Configuration classes store the hyperparameters required to build a model (such as the number of layers and hidden size). You don't always need to instantiate these yourself. In particular, if you are using a pretrained model without any modification, creating the model will automatically take care of instantiating the configuration (whi

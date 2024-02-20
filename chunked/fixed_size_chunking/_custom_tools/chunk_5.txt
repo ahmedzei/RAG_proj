@@ -1,0 +1,9 @@
+le image. The question is in French."
+I will use the following tools: translator to translate the question into English and then image_qa to answer the question on the input image.
+Answer:
+py
+translated_question = translator(question=question, src_lang="French", tgt_lang="English")
+print(f"The translated question is {translated_question}.")
+answer = image_qa(image=image, question=translated_question)
+print(f"The answer is {answer}")
+Task: "Identify the oldest person in the document and create an image showc

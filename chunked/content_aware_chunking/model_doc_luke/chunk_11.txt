@@ -1,0 +1,6 @@
+This model places a linear head on top of the output entity representations. You
+    can address NER using this model by inputting all possible entity spans in the text to the model.
+
+[LukeTokenizer] has a task argument, which enables you to easily create an input to these
+  head models by specifying task="entity_classification", task="entity_pair_classification", or
+  task="entity_span_classification".

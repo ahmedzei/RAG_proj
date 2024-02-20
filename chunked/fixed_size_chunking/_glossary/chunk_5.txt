@@ -1,0 +1,7 @@
+ithout a specific head on top. Other models can also use [VitModel] as a backbone such as DPT.
+C
+causal language modeling
+A pretraining task where the model reads the texts in order and has to predict the next word. It's usually done by
+reading the whole sentence but using a mask inside the model to hide the future tokens at a certain timestep.
+channel
+Color images are made up of some combination of values in three channels: red, green, and blue (RGB) and grayscale images only have one channel. In 🤗 Transfo

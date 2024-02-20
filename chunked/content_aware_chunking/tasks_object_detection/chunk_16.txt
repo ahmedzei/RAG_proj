@@ -1,0 +1,3 @@
+Call [~Trainer.train] to finetune your model.
+When loading the model from the same checkpoint that you used for the preprocessing, remember to pass the label2id
+and id2label maps that you created earlier from the dataset's metadata.

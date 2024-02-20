@@ -1,0 +1,10 @@
+w to translate English to French using the facebook/nllb-200-distilled-600M model.
+Note that we're using the BCP-47 code for French fra_Latn. See here
+for the list of all BCP-47 in the Flores 200 dataset.
+thon
+
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("facebook/nllb-200-distilled-600M")
+model = AutoModelForSeq2SeqLM.from_pretrained("facebook/nllb-200-distilled-600M")
+article = "UN Chief says there is no military solution in Syria"
+inputs = token

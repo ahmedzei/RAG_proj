@@ -1,0 +1,5 @@
+ine-tuned:
+| Task                           | Required inputs                                                                                                 |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Conversational                     | input_ids, attention_mask, token_type_ids, labels                                                           |
+|  Weak supervision for aggregation  | input_i

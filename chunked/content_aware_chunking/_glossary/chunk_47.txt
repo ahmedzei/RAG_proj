@@ -1,0 +1,10 @@
+This is what is sometimes called horizontal parallelism, as the splitting happens on horizontal level.
+Learn more about Tensor Parallelism here.
+token
+A part of a sentence, usually a word, but can also be a subword (non-common words are often split in subwords) or a
+punctuation symbol.
+token Type IDs
+Some models' purpose is to do classification on pairs of sentences or question answering.
+
+These require two different sequences to be joined in a single "input_ids" entry, which usually is performed with the
+help of special tokens, such as the classifier ([CLS]) and separator ([SEP]) tokens.

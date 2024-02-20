@@ -1,0 +1,14 @@
+e)
+sample = next(iter(dataset))["audio"]
+take the first half of the audio sample
+sample["array"] = sample["array"][: len(sample["array"]) // 2]
+inputs = processor(
+     audio=sample["array"],
+     sampling_rate=sample["sampling_rate"],
+     text=["80s blues track with groovy saxophone"],
+     padding=True,
+     return_tensors="pt",
+ )
+audio_values = model.generate(**inputs, do_sample=True, guidance_scale=3, max_new_tokens=256)
+
+For batched audio-prompted generation, the generated audio_values can be post-pr

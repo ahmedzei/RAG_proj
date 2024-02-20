@@ -1,0 +1,13 @@
+point as before:
+
+from transformers import AutoImageProcessor, AutoModelForDepthEstimation
+checkpoint = "vinvino02/glpn-nyu"
+image_processor = AutoImageProcessor.from_pretrained(checkpoint)
+model = AutoModelForDepthEstimation.from_pretrained(checkpoint)
+
+Prepare the image input for the model using the image_processor that will take care of the necessary image transformations
+such as resizing and normalization:
+
+pixel_values = image_processor(image, return_tensors="pt").pixel_values
+
+Pass the prepared inputs

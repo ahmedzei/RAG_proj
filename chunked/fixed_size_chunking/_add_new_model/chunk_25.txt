@@ -1,0 +1,7 @@
+ user-friendly, and beautiful as possible. This is the number-one motivation to re-implement
+models into 🤗 Transformers - trying to make complex new NLP technology accessible to everybody.
+You should start thereby by diving into the original repository.
+Successfully running the official pretrained model in the original repository is often the most difficult step.
+From our experience, it is very important to spend some time getting familiar with the original code-base. You need to
+figure out the following:
+

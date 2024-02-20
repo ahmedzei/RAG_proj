@@ -1,0 +1,7 @@
+ace and community (indicated by 🌎) resources to help you get started with OpenAI GPT. If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A blog post on outperforming OpenAI GPT-3 with SetFit for text-classification.
+See also: Text classification task guide
+
+A blog on how to Finetune a non-English GPT-2 Model with Hugging Face.
+A blog

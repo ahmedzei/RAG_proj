@@ -1,0 +1,41 @@
+You should also create some labels:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("my_awesome_swag_model")
+inputs = tokenizer([[prompt, candidate1], [prompt, candidate2]], return_tensors="pt", padding=True)
+labels = torch.tensor(0).unsqueeze(0)
+
+Pass your inputs and labels to the model and return the logits:
+
+from transformers import AutoModelForMultipleChoice
+model = AutoModelForMultipleChoice.from_pretrained("my_awesome_swag_model")
+outputs = model(**{k: v.unsqueeze(0) for k, v in inputs.items()}, labels=labels)
+logits = outputs.logits
+
+Get the class with the highest probability:
+
+predicted_class = logits.argmax().item()
+predicted_class
+'0'
+
+Tokenize each prompt and candidate answer pair and return TensorFlow tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("my_awesome_swag_model")
+inputs = tokenizer([[prompt, candidate1], [prompt, candidate2]], return_tensors="tf", padding=True)
+
+Pass your inputs to the model and return the logits:
+
+from transformers import TFAutoModelForMultipleChoice
+model = TFAutoModelForMultipleChoice.from_pretrained("my_awesome_swag_model")
+inputs = {k: tf.expand_dims(v, 0) for k, v in inputs.items()}
+outputs = model(inputs)
+logits = outputs.logits
+
+Get the class with the highest probability:
+
+predicted_class = int(tf.math.argmax(logits, axis=-1)[0])
+predicted_class
+'0'
+
+.

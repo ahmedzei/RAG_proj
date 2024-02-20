@@ -1,0 +1,15 @@
+ften, there is a need to run the same test multiple times, but with different arguments. It could be done from within
+the test, but then there is no way of running that test for just one set of arguments.
+thon
+test_this1.py
+import unittest
+from parameterized import parameterized
+class TestMathUnitTest(unittest.TestCase):
+    @parameterized.expand(
+        [
+            ("negative", -1.5, -2.0),
+            ("integer", 1, 1.0),
+            ("large fraction", 1.6, 1),
+        ]
+    )
+    def test_floor(self, 

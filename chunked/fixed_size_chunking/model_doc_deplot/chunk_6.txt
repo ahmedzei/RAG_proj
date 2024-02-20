@@ -1,0 +1,4 @@
+lse, lr=0.01, weight_decay=1e-05)
+scheduler = get_cosine_schedule_with_warmup(optimizer, num_warmup_steps=1000, num_training_steps=40000)
+
+DePlot is a model trained using Pix2Struct architecture. For API reference, see Pix2Struct documentation.

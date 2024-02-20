@@ -1,0 +1,58 @@
+The original code can be found here.
+Tips:
+- Like RoBERTa, without the sentence ordering prediction (so just trained on the MLM objective).
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+FlaubertConfig
+[[autodoc]] FlaubertConfig
+FlaubertTokenizer
+[[autodoc]] FlaubertTokenizer
+
+FlaubertModel
+[[autodoc]] FlaubertModel
+    - forward
+FlaubertWithLMHeadModel
+[[autodoc]] FlaubertWithLMHeadModel
+    - forward
+FlaubertForSequenceClassification
+[[autodoc]] FlaubertForSequenceClassification
+    - forward
+FlaubertForMultipleChoice
+[[autodoc]] FlaubertForMultipleChoice
+    - forward
+FlaubertForTokenClassification
+[[autodoc]] FlaubertForTokenClassification
+    - forward
+FlaubertForQuestionAnsweringSimple
+[[autodoc]] FlaubertForQuestionAnsweringSimple
+    - forward
+FlaubertForQuestionAnswering
+[[autodoc]] FlaubertForQuestionAnswering
+    - forward
+
+TFFlaubertModel
+[[autodoc]] TFFlaubertModel
+    - call
+TFFlaubertWithLMHeadModel
+[[autodoc]] TFFlaubertWithLMHeadModel
+    - call
+TFFlaubertForSequenceClassification
+[[autodoc]] TFFlaubertForSequenceClassification
+    - call
+TFFlaubertForMultipleChoice
+[[autodoc]] TFFlaubertForMultipleChoice
+    - call
+TFFlaubertForTokenClassification
+[[autodoc]] TFFlaubertForTokenClassification
+    - call
+TFFlaubertForQuestionAnsweringSimple
+[[autodoc]] TFFlaubertForQuestionAnsweringSimple
+    - call
+
+.

@@ -1,0 +1,8 @@
+ behave and what it should do.
+This part most likely does not need to be customized as the agent shall always behave the same way.
+The second part (the bullet points below "Tools") is dynamically added upon calling run or chat. There are 
+exactly as many bullet points as there are tools in agent.toolbox and each bullet point consists of the name 
+and description of the tool:
+text
+- <tool.name>: <tool.description>
+Let's verify this quickly by loading the document_qa tool and printing out the name and descrip

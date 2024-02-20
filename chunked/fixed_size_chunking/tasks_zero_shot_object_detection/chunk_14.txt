@@ -1,0 +1,11 @@
+raw.text((xmin, ymin), f"{text_queries[image_idx][label]}: {round(score,2)}", fill="white")
+images[image_idx]
+
+Image-guided object detection
+In addition to zero-shot object detection with text queries, OWL-ViT offers image-guided object detection. This means
+you can use an image query to find similar objects in the target image.
+Unlike text queries, only a single example image is allowed.
+Let's take an image with two cats on a couch as a target image, and an image of a single cat
+as a query:
+
+url = "http://

@@ -1,0 +1,8 @@
+Here is an example of the correct usage:
+python no-style
+@parameterized.expand()
+@slow
+def test_integration_foo():
+As explained at the beginning of this document, slow tests get to run on a scheduled basis, rather than in PRs CI
+checks. So it's possible that some problems will be missed during a PR submission and get merged. Such problems will
+get caught during the next scheduled CI job.

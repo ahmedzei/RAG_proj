@@ -1,0 +1,21 @@
+e
+
+XLMRobertaXLConfig
+[[autodoc]] XLMRobertaXLConfig
+XLMRobertaXLModel
+[[autodoc]] XLMRobertaXLModel
+    - forward
+XLMRobertaXLForCausalLM
+[[autodoc]] XLMRobertaXLForCausalLM
+    - forward
+XLMRobertaXLForMaskedLM
+[[autodoc]] XLMRobertaXLForMaskedLM
+    - forward
+XLMRobertaXLForSequenceClassification
+[[autodoc]] XLMRobertaXLForSequenceClassification
+    - forward
+XLMRobertaXLForMultipleChoice
+[[autodoc]] XLMRobertaXLForMultipleChoice
+    - forward
+XLMRobertaXLForTokenClassification
+[[autodoc]] XLMRobertaXLFo

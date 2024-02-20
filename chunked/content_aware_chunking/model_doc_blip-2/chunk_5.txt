@@ -1,0 +1,34 @@
+At inference time, it's recommended to use the [generate] method.
+One can use [Blip2Processor] to prepare images for the model, and decode the predicted tokens ID's back to text.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with BLIP-2.
+
+Demo notebooks for BLIP-2 for image captioning, visual question answering (VQA) and chat-like conversations can be found here.
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+Blip2Config
+[[autodoc]] Blip2Config
+    - from_vision_qformer_text_configs
+Blip2VisionConfig
+[[autodoc]] Blip2VisionConfig
+Blip2QFormerConfig
+[[autodoc]] Blip2QFormerConfig
+Blip2Processor
+[[autodoc]] Blip2Processor
+Blip2VisionModel
+[[autodoc]] Blip2VisionModel
+    - forward
+Blip2QFormerModel
+[[autodoc]] Blip2QFormerModel
+    - forward
+Blip2Model
+[[autodoc]] Blip2Model
+    - forward
+    - get_text_features
+    - get_image_features
+    - get_qformer_features
+Blip2ForConditionalGeneration
+[[autodoc]] Blip2ForConditionalGeneration
+    - forward
+    - generate.

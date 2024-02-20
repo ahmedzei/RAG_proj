@@ -1,0 +1,12 @@
+er to better debug any silent errors that may occur.
+
+audio_input = [dataset[0]["audio"]["array"]]
+feature_extractor(audio_input, sampling_rate=16000)
+{'input_values': [array([ 3.8106556e-04,  2.7506407e-03,  2.8015103e-03, ,
+        5.6335266e-04,  4.6588284e-06, -1.7142107e-04], dtype=float32)]}
+
+Just like the tokenizer, you can apply padding or truncation to handle variable sequences in a batch. Take a look at the sequence length of these two audio samples:
+
+dataset[0]["audio"]["array"].shape
+(173398,)
+d

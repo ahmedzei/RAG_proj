@@ -1,0 +1,6 @@
+Coupling these two designs
+enables us to train large models efficiently and effectively: we accelerate training (by 3x or more) and improve accuracy. Our scalable approach allows for learning high-capacity
+models that generalize well: e.g., a vanilla ViT-Huge model achieves the best accuracy (87.8%) among methods that use only ImageNet-1K data. Transfer performance in downstream
+tasks outperforms supervised pre-training and shows promising scaling behavior.
+ 
+ MAE architecture.

@@ -1,0 +1,3 @@
+We are very grateful to tanreinama for open-sourcing this incredibly helpful tokenizer.
+Following the recommendations from Google's research on PaLM, we have removed bias parameters from transformer blocks, achieving better model performance. Please refer this article in detail.
+Development of the model was led by Shinya Otani, Takayoshi Makabe, Anuj Arora, and Kyo Hattori from ABEJA, Inc..

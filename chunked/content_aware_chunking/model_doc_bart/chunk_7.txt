@@ -1,0 +1,5 @@
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A blog post on Distributed Training: Train BART/T5 for Summarization using 🤗 Transformers and Amazon SageMaker.
+A notebook on how to finetune BART for summarization with fastai using blurr. 🌎
+A notebook on how to finetune BART for summarization in two languages with Trainer class.

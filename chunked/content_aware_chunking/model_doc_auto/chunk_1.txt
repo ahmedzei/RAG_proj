@@ -1,0 +1,7 @@
+For instance
+python
+model = AutoModel.from_pretrained("google-bert/bert-base-cased")
+will create a model that is an instance of [BertModel].
+There is one class of AutoModel for each task, and for each backend (PyTorch, TensorFlow, or Flax).
+Extending the Auto Classes
+Each of the auto classes has a method to be extended with your custom classes.

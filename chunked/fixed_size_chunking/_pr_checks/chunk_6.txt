@@ -1,0 +1,3 @@
+ance when using MobileBertModel in the init)
+- bert by mobilebert (for instance when defining self.mobilebert)
+- BERT by MOBILEBERT (in the constant MOBILEBERT_INPUTS_DOCSTRING)

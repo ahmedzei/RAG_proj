@@ -1,0 +1,11 @@
+rresponds to the RoBERTa checkpoint you combined with the Layout Transformer.
+As lilt-roberta-en-base uses the same vocabulary as LayoutLMv3, one can use [LayoutLMv3TokenizerFast] to prepare data for the model.
+The same is true for lilt-roberta-en-base: one can use [LayoutXLMTokenizerFast] for that model.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with LiLT.
+
+Demo notebooks for LiLT can be found here.
+
+Documentation resources
+- Text classifica

@@ -1,0 +1,4 @@
+If the GPUs are on the same physical node, you can run:
+
+nvidia-smi topo -m
+and it will tell you how the GPUs are inter-connected.

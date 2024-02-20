@@ -1,0 +1,3 @@
+nabling XLA on generate() is just a single line of code. The rest of the code remains unchanged. However, there are a couple of gotchas in the above code snippet that are specific to XLA. You need to be aware of those to realize the speed-ups that XLA can bring in. We discuss these in the following section. 
+Gotchas to be aware of
+When you are executing an XLA-enabled function (like xla_generate() above) for the first time, it will internally try to infer the computation graph, which is time-consuming.  Thi

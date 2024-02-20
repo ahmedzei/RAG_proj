@@ -1,0 +1,6 @@
+Following prior work on long-sequence transformers, we
+evaluate Longformer on character-level language modeling and achieve state-of-the-art results on text8 and enwik8. In
+contrast to most prior work, we also pretrain Longformer and finetune it on a variety of downstream tasks. Our
+pretrained Longformer consistently outperforms RoBERTa on long document tasks and sets new state-of-the-art results on
+WikiHop and TriviaQA.
+This model was contributed by beltagy.

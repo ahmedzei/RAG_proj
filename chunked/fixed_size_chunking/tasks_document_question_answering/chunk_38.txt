@@ -1,0 +1,10 @@
+score': 0.9949808120727539,
+  'answer': 'Lee A. Waller',
+  'start': 55,
+  'end': 57}]
+
+You can also manually replicate the results of the pipeline if you'd like:
+1. Take an image and a question, prepare them for the model using the processor from your model.
+2. Forward the result or preprocessing through the model.
+3. The model returns start_logits and end_logits, which indicate which token is at the start of the answer and
+which token is at the end of the answer. Both have shape (batch_size, sequence_lengt

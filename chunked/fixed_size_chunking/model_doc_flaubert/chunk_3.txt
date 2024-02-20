@@ -1,0 +1,19 @@
+
+community for further reproducible experiments in French NLP.
+This model was contributed by formiel. The original code can be found here.
+Tips:
+- Like RoBERTa, without the sentence ordering prediction (so just trained on the MLM objective).
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+FlaubertConfig
+[[autodoc]] FlaubertConfig
+FlaubertTokenizer
+[[autodoc]] FlaubertTokenizer
+
+FlaubertMod

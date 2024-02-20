@@ -1,0 +1,2 @@
+en type ids can be overwritten by the predicted labels of the model to the previous question. See "Usage" section for more info.
+TAPAS is similar to BERT and therefore relies on the masked language modeling (MLM) objective. It is therefore efficient at predicting masked tokens and at NLU in general, but is not optimal for text generation. Models trained with a causal language modeling (CLM) objective are better in that regard. Note that TAPAS can be used as an encoder in the EncoderDecoderModel framework, t

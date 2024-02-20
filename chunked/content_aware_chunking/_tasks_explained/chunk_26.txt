@@ -1,0 +1,2 @@
+Object queries are learned embeddings that focus on the different regions of an image, and they're updated as they progress through each attention layer. The decoder hidden states are passed to a feedforward network that predicts the bounding box coordinates and class label for each object query, or no object if there isn't one.
+DETR decodes each object query in parallel to output N final predictions, where N is the number of queries.

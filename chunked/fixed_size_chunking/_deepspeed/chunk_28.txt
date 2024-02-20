@@ -1,0 +1,5 @@
+om_pretrained("google-t5/t5-small")
+trainer = Trainer(model=model, args=training_args, )
+
+You'll need ZeRO-3 if the fp16 weights don't fit on a single GPU. If you're able to load fp16 weights, then make sure you specify torch_dtype=torch.float16 in [~PreTrainedModel.from_pretrained].
+Another consideration for ZeRO-3 is if you have multiple GPUs, no single GPU has all the parameters unless it's the parameters for the currently executing layer. To access all parameters from all the layers at once, such as loa

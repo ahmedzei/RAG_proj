@@ -1,0 +1,14 @@
+We strongly recommend checking that your template
+isn't printing extra spaces where it shouldn't be!
+{% for message in messages %}
+    {% if message['role'] == 'user' %}
+        {{ ' ' }}
+    {% endif %}
+    {{ message['content'] }}
+    {% if not loop.last %}
+        {{ '  ' }}
+    {% endif %}
+{% endfor %}
+{{ eos_token }}
+If you've never seen one of these before, this is a Jinja template.
+Jinja is a templating language that allows you to write simple code that generates text.

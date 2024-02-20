@@ -1,0 +1,14 @@
+  \
+    --tpu name_of_tpu_resource \
+    --model_name_or_path google-t5/t5-small \
+    --dataset_name cnn_dailymail \
+    --dataset_config "3.0.0" \
+    --output_dir /tmp/tst-summarization  \
+    --per_device_train_batch_size 8 \
+    --per_device_eval_batch_size 16 \
+    --num_train_epochs 3 \
+    --do_train \
+    --do_eval
+
+Run a script with 🤗 Accelerate
+🤗 Accelerate is a PyTorch-only library that offers a unified method for training a model on several types of setups (CPU-only, multiple GPUs, TPUs) while 

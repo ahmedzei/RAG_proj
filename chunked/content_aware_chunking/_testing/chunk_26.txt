@@ -1,0 +1,4 @@
+This can be specified using the environment variable TRANSFORMERS_TEST_BACKEND:
+
+TRANSFORMERS_TEST_BACKEND="torch_npu" pytest tests/utils/test_logging.py
+Alternative backends may also require the replacement of device-specific functions. For example torch.cuda.manual_seed may need to be replaced with a device-specific seed setter like torch.npu.manual_seed to correctly set a random seed on the device.

@@ -1,0 +1,9 @@
+ the decoder (which also
+consists of Transformer blocks) takes as input. Each mask token is a shared, learned vector that indicates the presence of a missing patch to be predicted. Fixed
+sin/cos position embeddings are added both to the input of the encoder and the decoder.
+For a visual understanding of how MAEs work you can check out this post.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with ViTMAE.
+
+[ViTMAEForPreTraining] is supported by thi

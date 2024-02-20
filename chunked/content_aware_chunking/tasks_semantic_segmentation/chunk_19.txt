@@ -1,0 +1,49 @@
+Note that Transformers models all have a default task-relevant loss function, so you don't need to specify one unless you want to:
+
+from transformers import TFAutoModelForSemanticSegmentation
+model = TFAutoModelForSemanticSegmentation.from_pretrained(
+     checkpoint,
+     id2label=id2label,
+     label2id=label2id,
+ )
+model.compile(optimizer=optimizer)  # No loss argument!
+
+Convert your datasets to the tf.data.Dataset format using the [~datasets.Dataset.to_tf_dataset] and the [DefaultDataCollator]:
+
+from transformers import DefaultDataCollator
+data_collator = DefaultDataCollator(return_tensors="tf")
+tf_train_dataset = train_ds.to_tf_dataset(
+     columns=["pixel_values", "label"],
+     shuffle=True,
+     batch_size=batch_size,
+     collate_fn=data_collator,
+ )
+tf_eval_dataset = test_ds.to_tf_dataset(
+     columns=["pixel_values", "label"],
+     shuffle=True,
+     batch_size=batch_size,
+     collate_fn=data_collator,
+ )
+
+To compute the accuracy from the predictions and push your model to the 🤗 Hub, use Keras callbacks.
+Pass your compute_metrics function to [KerasMetricCallback],
+and use the [PushToHubCallback] to upload the model:
+
+from transformers.keras_callbacks import KerasMetricCallback, PushToHubCallback
+metric_callback = KerasMetricCallback(
+     metric_fn=compute_metrics, eval_dataset=tf_eval_dataset, batch_size=batch_size, label_cols=["labels"]
+ )
+push_to_hub_callback = PushToHubCallback(output_dir="scene_segmentation", tokenizer=image_processor)
+callbacks = [metric_callback, push_to_hub_callback]
+
+Finally, you are ready to train your model! Call fit() with your training and validation datasets, the number of epochs,
+and your callbacks to fine-tune the model:
+
+model.fit(
+     tf_train_dataset,
+     validation_data=tf_eval_dataset,
+     callbacks=callbacks,
+     epochs=num_epochs,
+ )
+
+Congratulations! You have fine-tuned your model and shared it on the 🤗 Hub.

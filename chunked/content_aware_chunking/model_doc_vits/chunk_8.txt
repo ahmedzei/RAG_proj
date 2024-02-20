@@ -1,0 +1,5 @@
+The original code can be found here.
+Usage examples
+Both the VITS and MMS-TTS checkpoints can be used with the same API. Since the flow-based model is non-deterministic, it 
+is good practice to set a seed to ensure reproducibility of the outputs. For languages with a Roman alphabet, 
+such as English or French, the tokenizer can be used directly to pre-process the text inputs.

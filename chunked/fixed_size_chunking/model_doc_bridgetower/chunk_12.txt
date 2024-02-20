@@ -1,0 +1,16 @@
+- preprocess
+BridgeTowerProcessor
+[[autodoc]] BridgeTowerProcessor
+    - call
+BridgeTowerModel
+[[autodoc]] BridgeTowerModel
+    - forward
+BridgeTowerForContrastiveLearning
+[[autodoc]] BridgeTowerForContrastiveLearning
+    - forward
+BridgeTowerForMaskedLM
+[[autodoc]] BridgeTowerForMaskedLM
+    - forward
+BridgeTowerForImageAndTextRetrieval
+[[autodoc]] BridgeTowerForImageAndTextRetrieval
+    - forward

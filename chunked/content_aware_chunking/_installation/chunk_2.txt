@@ -1,0 +1,5 @@
+A virtual environment makes it easier to manage different projects, and avoid compatibility issues between dependencies.
+Start by creating a virtual environment in your project directory:
+
+python -m venv .env
+Activate the virtual environment.

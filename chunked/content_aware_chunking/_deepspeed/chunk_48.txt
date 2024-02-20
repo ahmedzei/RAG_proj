@@ -1,0 +1,7 @@
+For example, choosing fp32 adds a small amount of overhead but ensures the reduction operation is accumulated in fp32 and when it is ready, it is downcasted to whichever half-precision dtype you're training in.
+yaml
+{
+    "communication_data_type": "fp32"
+}
+Deployment
+DeepSpeed can be deployed by different launchers such as torchrun, the deepspeed launcher, or Accelerate. To deploy, add --deepspeed ds_config.json to the [Trainer] command line.

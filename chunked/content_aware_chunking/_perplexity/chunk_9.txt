@@ -1,0 +1,4 @@
+With our sliding window approach, however, there is overlap in
+the tokens we pass to the model at each iteration. We don't want the log-likelihood for the tokens we're just treating
+as context to be included in our loss, so we can set these targets to -100 so that they are ignored. The following
+is an example of how we could do this with a stride of 512.

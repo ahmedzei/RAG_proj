@@ -1,0 +1,18 @@
+ieForMaskedLM
+[[autodoc]] ErnieForMaskedLM
+    - forward
+ErnieForNextSentencePrediction
+[[autodoc]] ErnieForNextSentencePrediction
+    - forward
+ErnieForSequenceClassification
+[[autodoc]] ErnieForSequenceClassification
+    - forward
+ErnieForMultipleChoice
+[[autodoc]] ErnieForMultipleChoice
+    - forward
+ErnieForTokenClassification
+[[autodoc]] ErnieForTokenClassification
+    - forward
+ErnieForQuestionAnswering
+[[autodoc]] ErnieForQuestionAnswering
+    - forward

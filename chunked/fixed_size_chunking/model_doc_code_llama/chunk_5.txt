@@ -1,0 +1,4 @@
+ this precision, so we recommend using it for further training or fine-tuning.
+float16: We recommend running inference using this precision, as it's usually faster than bfloat16, and evaluation metrics show no discernible degradation with respect to bfloat16. You can also run inference using bfloat16, and we recommend you check inference results with both float16 and bfloat16 after fine-tuning.
+
+As mentioned above, the dtype of the storage weights is mostly irrelevant unless you are using torch_dtype="auto"

@@ -1,0 +1,6 @@
+ks defined in pipelines/__init__.py.
+Then you will need to add tests. Create a new file tests/test_pipelines_MY_PIPELINE.py with examples of the other tests.
+The run_pipeline_test function will be very generic and run on small random models on every possible
+architecture as defined by model_mapping and tf_model_mapping.
+This is very important to test future compatibility, meaning if someone adds a new model for
+XXXForQuestionAnswering then the pipeline test will attempt to run on it. Because the models are 

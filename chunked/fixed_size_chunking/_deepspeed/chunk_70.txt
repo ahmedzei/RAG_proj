@@ -1,0 +1,8 @@
+oint in [TrainingArguments], you can finish training first and save the final model explicitly. Then you can reload it as shown below:
+
+from deepspeed.utils.zero_to_fp32 import load_state_dict_from_zero_checkpoint
+checkpoint_dir = os.path.join(trainer.args.output_dir, "checkpoint-final")
+trainer.deepspeed.save_checkpoint(checkpoint_dir)
+fp32_model = load_state_dict_from_zero_checkpoint(trainer.model, checkpoint_dir)
+
+Once load_state_dict_from_zero_checkpoint is run, the model is no longer usable in DeepSpee

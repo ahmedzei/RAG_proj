@@ -1,0 +1,4 @@
+) on CIFAR-10 using HuggingFace Transformers, Datasets and PyTorch Lightning | Niels Rogge | |
+| Fine-tune the Vision Transformer on CIFAR-10 using the 🤗 Trainer | How to fine-tune the Vision Transformer (ViT) on CIFAR-10 using HuggingFace Transformers, Datasets and the 🤗 Trainer | Niels Rogge | |
+| Evaluate LUKE on Open Entity, an entity typing dataset | How to evaluate LukeForEntityClassification on the Open Entity dataset | Ikuya Yamada | |
+| Evaluate LUKE on TACRED, a relation extraction dataset | How t

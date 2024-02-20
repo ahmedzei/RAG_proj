@@ -1,0 +1,6 @@
+like ResNet as visual embeddings. They also add absolute position embeddings, and feed the resulting sequence of
+vectors to a standard BERT model. The text input is concatenated in the front of the visual embeddings in the embedding
+layer, and is expected to be bound by [CLS] and a [SEP] tokens, as in BERT. The segment IDs must also be set
+appropriately for the textual and visual parts.
+The [BertTokenizer] is used to encode the text. A custom detector/image processor must be used
+to get the visual embedding

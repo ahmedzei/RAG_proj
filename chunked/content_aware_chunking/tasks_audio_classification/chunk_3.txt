@@ -1,0 +1,8 @@
+Remove the other columns with the [~datasets.Dataset.remove_columns] method:
+
+minds = minds.remove_columns(["path", "transcription", "english_transcription", "lang_id"])
+
+Take a look at an example now:
+
+minds["train"][0]
+{'audio': {'array': array([ 0.        ,  0.        ,  0.

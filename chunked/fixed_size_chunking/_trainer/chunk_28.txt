@@ -1,0 +1,16 @@
+yaml file directly in the command line:
+
+accelerate launch --num_processes=2 \
+    --use_fsdp \
+    --mixed_precision=bf16 \
+    --fsdp_auto_wrap_policy=TRANSFORMER_BASED_WRAP  \
+    --fsdp_transformer_layer_cls_to_wrap="BertLayer" \
+    --fsdp_sharding_strategy=1 \
+    --fsdp_state_dict_type=FULL_STATE_DICT \
+    ./examples/pytorch/text-classification/run_glue.py
+    --model_name_or_path google-bert/bert-base-cased \
+    --task_name $TASK_NAME \
+    --do_train \
+    --do_eval \
+    --max_seq_length 128 \
+ 

@@ -1,0 +1,8 @@
+Now, the mapping is cuda:1 for GPU 0 and cuda:0 for GPU 2.
+
+CUDA_VISIBLE_DEVICES=2,0 torchrun trainer-program.py 
+You can also set the CUDA_VISIBLE_DEVICES environment variable to an empty value to create an environment without GPUs.
+
+CUDA_VISIBLE_DEVICES= python trainer-program.py 
+
+As with any environment variable, they can be exported instead of being added to the command line.

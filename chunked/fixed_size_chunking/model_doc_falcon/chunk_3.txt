@@ -1,0 +1,16 @@
+u can immediately load it from the directory afterwards with e.g. from_pretrained(). If your model hasn't been
+uploaded to the Hub, we recommend making a backup before attempting the conversion, just in case!
+FalconConfig
+[[autodoc]] FalconConfig
+    - all
+FalconModel
+[[autodoc]] FalconModel
+    - forward
+FalconForCausalLM
+[[autodoc]] FalconForCausalLM
+    - forward
+FalconForSequenceClassification
+[[autodoc]] FalconForSequenceClassification
+    - forward
+FalconForTokenClassification
+[[autodoc]] FalconForTok

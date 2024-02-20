@@ -1,0 +1,9 @@
+e wmt16 --dataset_config ro-en 
+This script should run without hanging or waiting to timeout because it won't attempt to download the model from the Hub.
+You can also bypass loading a model from the Hub from each [~PreTrainedModel.from_pretrained] call with the [local_files_only] parameter. When set to True, only local files are loaded:
+
+from transformers import T5Model
+model = T5Model.from_pretrained("./path/to/local/directory", local_files_only=True)
+
+Fetch models and tokenizers to use offline
+Another opt

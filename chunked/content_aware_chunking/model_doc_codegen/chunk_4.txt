@@ -1,0 +1,47 @@
+This model was contributed by Hiroaki Hayashi.
+The original code can be found here.
+Checkpoint Naming
+
+CodeGen model checkpoints are available on different pre-training data with variable sizes.
+The format is: Salesforce/codegen-{size}-{data}, where
+size: 350M, 2B, 6B, 16B
+data: 
+nl: Pre-trained on the Pile
+multi: Initialized with nl, then further pre-trained on multiple programming languages data
+mono: Initialized with multi, then further pre-trained on Python data
+
+For example, Salesforce/codegen-350M-mono offers a 350 million-parameter checkpoint pre-trained sequentially on the Pile, multiple programming languages, and Python.
+
+Usage example
+thon
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+checkpoint = "Salesforce/codegen-350M-mono"
+model = AutoModelForCausalLM.from_pretrained(checkpoint)
+tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+text = "def hello_world():"
+completion = model.generate(**tokenizer(text, return_tensors="pt"))
+print(tokenizer.decode(completion[0]))
+def hello_world():
+    print("Hello World")
+
+hello_world()
+
+Resources
+
+Causal language modeling task guide
+
+CodeGenConfig
+[[autodoc]] CodeGenConfig
+    - all
+CodeGenTokenizer
+[[autodoc]] CodeGenTokenizer
+    - save_vocabulary
+CodeGenTokenizerFast
+[[autodoc]] CodeGenTokenizerFast
+CodeGenModel
+[[autodoc]] CodeGenModel
+    - forward
+CodeGenForCausalLM
+[[autodoc]] CodeGenForCausalLM
+    - forward.

@@ -1,0 +1,4 @@
+generated_caption)
+
+a drawing of a pink and blue pokemon
+Looks like the fine-tuned model generated a pretty good caption!

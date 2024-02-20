@@ -1,0 +1,17 @@
+Utilities for Trainer
+This page lists all the utility functions used by [Trainer].
+Most of those are only useful if you are studying the code of the Trainer in the library.
+Utilities
+[[autodoc]] EvalPrediction
+[[autodoc]] IntervalStrategy
+[[autodoc]] enable_full_determinism
+[[autodoc]] set_seed
+[[autodoc]] torch_distributed_zero_first
+Callbacks internals
+[[autodoc]] trainer_callback.CallbackHandler
+Distributed Evaluation
+[[autodoc]] trainer_pt_utils.DistributedTensorGatherer
+Trainer Argument Parser
+[[autodoc]] HfArgumentParser
+Debug Utilities
+[[autodoc]] debug_utils.DebugUnderflowOverflow.

@@ -1,0 +1,20 @@
+models.xlnet.modeling_tf_xlnet.TFXLNetForQuestionAnsweringSimpleOutput
+
+XLNetModel
+[[autodoc]] XLNetModel
+    - forward
+XLNetLMHeadModel
+[[autodoc]] XLNetLMHeadModel
+    - forward
+XLNetForSequenceClassification
+[[autodoc]] XLNetForSequenceClassification
+    - forward
+XLNetForMultipleChoice
+[[autodoc]] XLNetForMultipleChoice
+    - forward
+XLNetForTokenClassification
+[[autodoc]] XLNetForTokenClassification
+    - forward
+XLNetForQuestionAnsweringSimple
+[[autodoc]] XLNetForQuestionAnsweringSimple
+    - forward

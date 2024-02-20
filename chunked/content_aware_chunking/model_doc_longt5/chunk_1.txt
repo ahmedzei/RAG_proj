@@ -1,0 +1,6 @@
+LongT5 model is an extension of
+T5 model, and it enables using one of the two different efficient attention mechanisms - (1) Local attention, or (2)
+Transient-Global attention.
+The abstract from the paper is the following:
+Recent work has shown that either (1) increasing the input length or (2) increasing model size can improve the
+performance of Transformer-based neural models.

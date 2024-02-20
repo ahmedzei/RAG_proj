@@ -1,0 +1,9 @@
+Let's target Russian voice translation:
+thon
+
+audio_array_from_text = model.generate(text_inputs, tgt_lang="rus")[0].cpu().numpy().squeeze()
+audio_array_from_audio = model.generate(audio_inputs, tgt_lang="rus")[0].cpu().numpy().squeeze()
+
+With basically the same code, I've translated English text and Arabic speech to Russian speech samples.
+Text
+Similarly, you can generate translated text from audio files or from text with the same model.

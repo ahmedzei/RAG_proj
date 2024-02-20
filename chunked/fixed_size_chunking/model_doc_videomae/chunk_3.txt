@@ -1,0 +1,8 @@
+ets are important issues in SSVP. Notably, our VideoMAE with the vanilla ViT backbone can achieve 83.9% on Kinects-400, 75.3% on Something-Something V2, 90.8% on UCF101, and 61.1% on HMDB51 without using any extra data.
+
+ VideoMAE pre-training. Taken from the original paper. 
+This model was contributed by nielsr.
+The original code can be found here.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with VideoMAE. If
+you're interested in submitting a r

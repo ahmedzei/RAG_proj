@@ -1,0 +1,17 @@
+NATTEN does not support Windows devices yet.
+- Patch size of 4 is only supported at the moment.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with NAT.
+
+[NatForImageClassification] is supported by this example script and notebook.
+See also: Image classification task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+NatConfig
+[[autodoc]] NatConfig
+NatModel
+[[autodoc]] NatModel
+    - forward
+NatForImageClassification
+[[autodoc]] NatForImageClassification
+    - forward.

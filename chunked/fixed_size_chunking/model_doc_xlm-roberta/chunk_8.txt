@@ -1,0 +1,16 @@
+ by this example script.
+Question answering chapter of the 🤗 Hugging Face Course.
+Question answering task guide
+
+Multiple choice
+
+[XLMRobertaForMultipleChoice] is supported by this example script and notebook.
+[TFXLMRobertaForMultipleChoice] is supported by this example script and notebook.
+Multiple choice task guide
+
+🚀 Deploy
+
+A blog post on how to Deploy Serverless XLM RoBERTa on AWS Lambda.
+
+ 
+This implementation is the same as RoBERTa. Refer to the documentation of RoBERTa for usage examples as well as 

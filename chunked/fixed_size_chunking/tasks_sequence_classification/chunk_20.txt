@@ -1,0 +1,15 @@
+ForSequenceClassification
+model = AutoModelForSequenceClassification.from_pretrained("stevhliu/my_awesome_model")
+with torch.no_grad():
+     logits = model(**inputs).logits
+
+Get the class with the highest probability, and use the model's id2label mapping to convert it to a text label:
+
+predicted_class_id = logits.argmax().item()
+model.config.id2label[predicted_class_id]
+'POSITIVE'
+
+Tokenize the text and return TensorFlow tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrai

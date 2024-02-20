@@ -1,0 +1,5 @@
+oc]] FlavaImageModel
+    - forward
+FlavaMultimodalModel
+[[autodoc]] FlavaMultimodalModel
+    - forward

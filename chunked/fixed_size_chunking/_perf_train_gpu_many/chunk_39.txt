@@ -1,0 +1,8 @@
+ between multiple GPUs:
+
+If we split the weight matrix A column-wise across N GPUs and perform matrix multiplications XA_1 through XA_n in parallel, 
+then we will end up with N output vectors Y_1, Y_2, , Y_n which can be fed into GeLU independently:
+
+Using this principle, we can update a multi-layer perceptron of arbitrary depth, without the need for any synchronization 
+between GPUs until the very end, where we need to reconstruct the output vector from shards. The Megatron-LM paper authors 
+provide a help

@@ -1,0 +1,6 @@
+e morning they pack up their allocated type of gear and continue on their way. This is what ZeRO DP/Sharded DDP is.
+Compare this strategy to the simple one where each person has to carry their own tent, stove and axe (similar to 
+DataParallel (DP and DDP) in PyTorch), which would be far more inefficient. 
+
+While reading the literature on this topic you may encounter the following synonyms: Sharded, Partitioned.
+If you pay close attention the way ZeRO partitions the model's weights - it looks very similar to

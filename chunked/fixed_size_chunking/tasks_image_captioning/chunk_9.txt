@@ -1,0 +1,22 @@
+val_batch_size=32,
+    gradient_accumulation_steps=2,
+    save_total_limit=3,
+    evaluation_strategy="steps",
+    eval_steps=50,
+    save_strategy="steps",
+    save_steps=50,
+    logging_steps=50,
+    remove_unused_columns=False,
+    push_to_hub=True,
+    label_names=["labels"],
+    load_best_model_at_end=True,
+)
+
+Then pass them along with the datasets and the model to 🤗 Trainer. 
+python
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_ds,
+    eval_dataset=test_ds,
+    co

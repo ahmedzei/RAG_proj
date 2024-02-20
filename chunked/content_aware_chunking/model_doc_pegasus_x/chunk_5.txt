@@ -1,0 +1,16 @@
+The original code can be found here.
+Documentation resources
+
+Translation task guide
+Summarization task guide
+
+PEGASUS-X uses the same tokenizer as PEGASUS.
+
+PegasusXConfig
+[[autodoc]] PegasusXConfig
+PegasusXModel
+[[autodoc]] PegasusXModel
+    - forward
+PegasusXForConditionalGeneration
+[[autodoc]] PegasusXForConditionalGeneration
+    - forward.

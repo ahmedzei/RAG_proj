@@ -1,0 +1,75 @@
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A blog post on how to Accelerate Large Model Training using DeepSpeed with DeBERTa.
+A blog post on Supercharged Customer Service with Machine Learning with DeBERTa.
+[DebertaForSequenceClassification] is supported by this example script and notebook.
+[TFDebertaForSequenceClassification] is supported by this example script and notebook.
+Text classification task guide
+
+[DebertaForTokenClassification] is supported by this example script and notebook.
+[TFDebertaForTokenClassification] is supported by this example script and notebook.
+Token classification chapter of the 🤗 Hugging Face Course.
+Byte-Pair Encoding tokenization chapter of the 🤗 Hugging Face Course.
+Token classification task guide
+
+[DebertaForMaskedLM] is supported by this example script and notebook.
+[TFDebertaForMaskedLM] is supported by this example script and notebook.
+Masked language modeling chapter of the 🤗 Hugging Face Course.
+Masked language modeling task guide
+
+[DebertaForQuestionAnswering] is supported by this example script and notebook.
+[TFDebertaForQuestionAnswering] is supported by this example script and notebook.
+Question answering chapter of the 🤗 Hugging Face Course.
+Question answering task guide
+
+DebertaConfig
+[[autodoc]] DebertaConfig
+DebertaTokenizer
+[[autodoc]] DebertaTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+DebertaTokenizerFast
+[[autodoc]] DebertaTokenizerFast
+    - build_inputs_with_special_tokens
+    - create_token_type_ids_from_sequences
+
+DebertaModel
+[[autodoc]] DebertaModel
+    - forward
+DebertaPreTrainedModel
+[[autodoc]] DebertaPreTrainedModel
+DebertaForMaskedLM
+[[autodoc]] DebertaForMaskedLM
+    - forward
+DebertaForSequenceClassification
+[[autodoc]] DebertaForSequenceClassification
+    - forward
+DebertaForTokenClassification
+[[autodoc]] DebertaForTokenClassification
+    - forward
+DebertaForQuestionAnswering
+[[autodoc]] DebertaForQuestionAnswering
+    - forward
+
+TFDebertaModel
+[[autodoc]] TFDebertaModel
+    - call
+TFDebertaPreTrainedModel
+[[autodoc]] TFDebertaPreTrainedModel
+    - call
+TFDebertaForMaskedLM
+[[autodoc]] TFDebertaForMaskedLM
+    - call
+TFDebertaForSequenceClassification
+[[autodoc]] TFDebertaForSequenceClassification
+    - call
+TFDebertaForTokenClassification
+[[autodoc]] TFDebertaForTokenClassification
+    - call
+TFDebertaForQuestionAnswering
+[[autodoc]] TFDebertaForQuestionAnswering
+    - call
+
+.

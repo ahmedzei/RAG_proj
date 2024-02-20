@@ -1,0 +1,2 @@
+However, BrosForTokenClassification assumes input tokens are perfectly serialized (which is very challenging task since they exist in a 2D space), while BrosSpadeEEForTokenClassification allows for more flexibility in handling serialization errors as it predicts next connection tokens from one token.
+BrosSpadeELForTokenClassification perform the intra-entity linking task.

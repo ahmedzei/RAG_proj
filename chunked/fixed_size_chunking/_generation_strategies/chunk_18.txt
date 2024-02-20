@@ -1,0 +1,10 @@
+ForCausalLM.from_pretrained(checkpoint)
+outputs = model.generate(**inputs)
+tokenizer.batch_decode(outputs, skip_special_tokens=True)
+['I look forward to seeing you all again!\n\n\n\n\n\n\n\n\n\n\n']
+
+Contrastive search
+The contrastive search decoding strategy was proposed in the 2022 paper A Contrastive Framework for Neural Text Generation.
+It demonstrates superior results for generating non-repetitive yet coherent long outputs. To learn how contrastive search
+works, check out this blog post.
+The two main p

@@ -1,0 +1,8 @@
+m configuration with [TFAutoModel.from_config`]:
+
+from transformers import TFAutoModel
+my_model = TFAutoModel.from_config(my_config)
+
+Take a look at the Create a custom architecture guide for more information about building custom configurations.
+Trainer - a PyTorch optimized training loop
+All models are a standard torch.nn.Module so you can use them in any typical training loop. While you can write your own training loop, 🤗 Transformers provides a [Trainer] class for PyTorch, which contains the basic train

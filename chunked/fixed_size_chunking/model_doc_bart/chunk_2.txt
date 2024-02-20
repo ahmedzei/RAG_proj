@@ -1,0 +1,7 @@
+l was contributed by sshleifer. The authors' code can be found here.
+Usage tips:
+
+BART is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather than
+  the left.
+
+Sequence-to-sequence model with an encoder and a decoder. Encoder is fed a corrupted version of the tokens, decoder is fed the original tokens (but has a mask to hide the future words like a regular transformers decoder). A composition of the following transformations are applied on the pretraining 

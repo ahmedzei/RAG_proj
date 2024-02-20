@@ -1,0 +1,9 @@
+dictions by another model.
+We'll also take the first of the answers from the set provided by the annotators. Alternatively, you can randomly sample it.
+
+updated_dataset = dataset.map(lambda example: {"question": example["query"]["en"]}, remove_columns=["query"])
+updated_dataset = updated_dataset.map(
+     lambda example: {"answer": example["answers"][0]}, remove_columns=["answer", "answers"]
+ )
+
+Note that the LayoutLMv2 checkpoint that we use in this guide has been trained with max_position_embeddings = 512

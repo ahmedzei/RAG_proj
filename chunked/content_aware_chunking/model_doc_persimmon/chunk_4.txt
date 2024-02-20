@@ -1,0 +1,1 @@
+The dtype of the online weights is mostly irrelevant, unless you are using torch_dtype="auto" when initializing a model using model = AutoModelForCausalLM.from_pretrained("path", torch_dtype = "auto"). The reason is that the model will first be downloaded ( using the dtype of the checkpoints online) then it will be cast to the default dtype of torch (becomes torch.float32).

@@ -1,0 +1,22 @@
+todoc]] AlbertForQuestionAnswering
+    - forward
+
+TFAlbertModel
+[[autodoc]] TFAlbertModel
+    - call
+TFAlbertForPreTraining
+[[autodoc]] TFAlbertForPreTraining
+    - call
+TFAlbertForMaskedLM
+[[autodoc]] TFAlbertForMaskedLM
+    - call
+TFAlbertForSequenceClassification
+[[autodoc]] TFAlbertForSequenceClassification
+    - call
+TFAlbertForMultipleChoice
+[[autodoc]] TFAlbertForMultipleChoice
+    - call
+TFAlbertForTokenClassification
+[[autodoc]] TFAlbertForTokenClassification
+    - call
+TFAlbertForQuestionAnswering

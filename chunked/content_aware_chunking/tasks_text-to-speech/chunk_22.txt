@@ -1,0 +1,2 @@
+Create a prepare_dataset function that takes in a 
+single example and uses the SpeechT5Processor object to tokenize the input text and load the target audio into a log-mel spectrogram.

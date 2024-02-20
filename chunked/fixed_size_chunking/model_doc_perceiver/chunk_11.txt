@@ -1,0 +1,16 @@
+ask guide
+
+Perceiver specific outputs
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverModelOutput
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverDecoderOutput
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverMaskedLMOutput
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverClassifierOutput
+PerceiverConfig
+[[autodoc]] PerceiverConfig
+PerceiverTokenizer
+[[autodoc]] PerceiverTokenizer
+    - call
+PerceiverFeatureExtractor
+[[autodoc]] PerceiverFeatureExtractor
+    - call
+Perceive

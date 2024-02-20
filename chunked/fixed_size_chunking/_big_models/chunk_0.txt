@@ -1,0 +1,10 @@
+
+Instantiating a big model
+When you want to use a very big pretrained model, one challenge is to minimize the use of the RAM. The usual workflow
+from PyTorch is:
+
+Create your model with random weights.
+Load your pretrained weights.
+Put those pretrained weights in your random model.
+
+Step 1 and 2 both require a full version of the model in memory, which is not a problem in most cases, but if your model starts weighing several GigaBytes, those two copies can make you get out of RAM. Even worse, if you are usi

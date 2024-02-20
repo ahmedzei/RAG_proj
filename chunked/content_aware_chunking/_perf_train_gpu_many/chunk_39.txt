@@ -1,0 +1,8 @@
+The Megatron-LM paper authors 
+provide a helpful illustration for that:
+
+Parallelizing the multi-headed attention layers is even simpler, since they are already inherently parallel, due to having 
+multiple independent heads!
+
+Special considerations: TP requires very fast network, and therefore it's not advisable to do TP across more than one node. 
+Practically, if a node has 4 GPUs, the highest TP degree is therefore 4.

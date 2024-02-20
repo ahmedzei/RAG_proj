@@ -1,0 +1,11 @@
+isposal.
+Single execution (run)
+The single execution method is when using the [~Agent.run] method of the agent:
+py
+agent.run("Draw me a picture of rivers and lakes.")
+
+It automatically selects the tool (or tools) appropriate for the task you want to perform and runs them appropriately. It
+can perform one or several tasks in the same instruction (though the more complex your instruction, the more likely
+the agent is to fail).
+py
+agent.run("Draw me a picture of the sea then transform the picture to add an isl

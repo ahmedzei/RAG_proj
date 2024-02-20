@@ -1,0 +1,12 @@
+ation/BeiT | 16 | 52.517 | 51.691  | 
+| Object Detection/DETR | Unbatched | 28.706 | 19.077 |
+| Object Detection/DETR | 4 | 88.402 | 62.949|
+| Object Detection/DETR | 16 | OOM | OOM  |
+Reduce Overhead
+We benchmarked reduce-overhead compilation mode for A100 and T4 in Nightly.
+A100
+| Task/Model | Batch Size | torch 2.0 - no compile | torch 2.0 - compile |
+|:---:|:---:|:---:|:---:|
+| Image Classification/ConvNeXT | Unbatched | 11.758 | 7.335 | 
+| Image Classification/ConvNeXT | 4 | 23.171 | 21.490 | 
+| Image 

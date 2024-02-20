@@ -1,0 +1,9 @@
+*
+
+ Neighborhood Attention with different dilation values.
+Taken from the original paper.
+This model was contributed by Ali Hassani.
+The original code can be found here.
+Usage tips
+DiNAT can be used as a backbone. When output_hidden_states = True,
+it will output both hidden_states and reshaped_hidden_states.

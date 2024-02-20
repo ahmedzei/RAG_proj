@@ -1,0 +1,6 @@
+TimeSformer
+Overview
+The TimeSformer model was proposed in TimeSformer: Is Space-Time Attention All You Need for Video Understanding? by Facebook Research.
+This work is a milestone in action-recognition field being the first video transformer. It inspired many transformer based video understanding and classification papers.
+The abstract from the paper is the following:
+We present a convolution-free approach to video classification built exclusively on self-attention over space and time.

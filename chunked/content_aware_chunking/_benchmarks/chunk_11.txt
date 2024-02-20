@@ -1,0 +1,8 @@
+This feature can especially be helpful when deciding for which configuration the model
+should be trained.
+Benchmark best practices
+This section lists a couple of best practices one should be aware of when benchmarking a model.
+
+Currently, only single device benchmarking is supported. When benchmarking on GPU, it is recommended that the user
+  specifies on which device the code should be run by setting the CUDA_VISIBLE_DEVICES environment variable in the
+  shell, e.g.

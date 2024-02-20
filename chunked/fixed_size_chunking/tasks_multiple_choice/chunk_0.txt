@@ -1,0 +1,15 @@
+
+
+Before you begin, make sure you have all the necessary libraries installed:
+
+pip install transformers datasets evaluate
+We encourage you to login to your Hugging Face account so you can upload and share your model with the community. When prompted, enter your token to login:
+
+from huggingface_hub import notebook_login
+notebook_login()
+
+Load SWAG dataset
+Start by loading the regular configuration of the SWAG dataset from the 🤗 Datasets library:
+
+from datasets import load_dataset
+swag = load_dataset("swag",

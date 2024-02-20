@@ -1,0 +1,10 @@
+You can now use it for inference!
+
+Inference
+Great, now that you've finetuned a model, you can use it for inference!
+Load an image for inference:
+
+image = ds[0]["image"]
+image
+
+We will now see how to infer without a pipeline.

@@ -1,0 +1,13 @@
+nt. We'll benchmark the differences between DP and 
+DDP with an added context of NVLink presence:  
+
+Hardware: 2x TITAN RTX 24GB each + NVlink with 2 NVLinks (NV2 in nvidia-smi topo -m).
+Software: pytorch-1.8-to-be + cuda-11.0 / transformers==4.3.0.dev0.
+
+To disable the NVLink feature on one of the benchmarks, we use NCCL_P2P_DISABLE=1. 
+Here is the benchmarking code and outputs:
+DP
+```bash
+rm -r /tmp/test-clm; CUDA_VISIBLE_DEVICES=0,1 \
+python examples/pytorch/language-modeling/run_clm.py \
+--model_name_or

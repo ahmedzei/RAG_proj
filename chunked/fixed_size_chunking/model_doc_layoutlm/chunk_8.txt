@@ -1,0 +1,23 @@
+aset.
+Token classification task guide
+
+Other resources
+- Masked language modeling task guide
+🚀 Deploy
+
+A blog post on how to Deploy LayoutLM with Hugging Face Inference Endpoints.
+
+LayoutLMConfig
+[[autodoc]] LayoutLMConfig
+LayoutLMTokenizer
+[[autodoc]] LayoutLMTokenizer
+LayoutLMTokenizerFast
+[[autodoc]] LayoutLMTokenizerFast
+
+LayoutLMModel
+[[autodoc]] LayoutLMModel
+LayoutLMForMaskedLM
+[[autodoc]] LayoutLMForMaskedLM
+LayoutLMForSequenceClassification
+[[autodoc]] LayoutLMForSequenceClassification
+LayoutLMForT

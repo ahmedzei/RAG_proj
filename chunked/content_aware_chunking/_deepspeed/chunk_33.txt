@@ -1,0 +1,4 @@
+To enable this feature:
+
+For a Hugging Face model, set model.gradient_checkpointing_enable() or --gradient_checkpointing in the [Trainer].
+For a non-Hugging Face model, use the DeepSpeed Activation Checkpointing API. You could also replace the Transformers modeling code and replace torch.utils.checkpoint with the DeepSpeed API.

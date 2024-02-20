@@ -1,0 +1,5 @@
+run the extracted GraphModule. This is quite useful in debugging TorchDynamo issues.
+* dynamo.optimize("aot_eager") - Uses AotAutograd with no compiler, i.e, just using PyTorch eager for the AotAutograd's extracted forward and backward graphs. This is useful for debugging, and unlikely to give speedups.
+Training & inference backends:
+* dynamo.optimize("inductor") - Uses TorchInductor backend with AotAutograd and cudagraphs by leveraging codegened Triton kernels  Read more
+* dynamo.optimize("nvfuser") -  nvF

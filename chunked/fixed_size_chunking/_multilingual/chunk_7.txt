@@ -1,0 +1,10 @@
+gly.
+XLM-RoBERTa
+The following XLM-RoBERTa models can be used for multilingual tasks:
+
+FacebookAI/xlm-roberta-base (Masked language modeling, 100 languages)
+FacebookAI/xlm-roberta-large (Masked language modeling, 100 languages)
+
+XLM-RoBERTa was trained on 2.5TB of newly created and cleaned CommonCrawl data in 100 languages. It provides strong gains over previously released multilingual models like mBERT or XLM on downstream tasks like classification, sequence labeling, and question answering.
+M2M100
+The fol

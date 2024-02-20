@@ -1,0 +1,15 @@
+
+2. Instantiate a pre-trained model.
+3. Convert a 🤗 Dataset to a tf.data.Dataset.
+4. Compile your model.
+5. Add callbacks and use the fit() method to run the training.
+6. Upload your model to 🤗 Hub to share with the community.
+Start by defining the hyperparameters, optimizer and learning rate schedule:
+
+from transformers import create_optimizer
+batch_size = 16
+num_epochs = 5
+num_train_steps = len(food["train"]) * num_epochs
+learning_rate = 3e-5
+weight_decay_rate = 0.01
+optimizer, lr_schedule = create_optimi

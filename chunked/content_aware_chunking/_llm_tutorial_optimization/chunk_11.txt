@@ -1,0 +1,2 @@
+Note that all memory and speed optimizations that we will apply going forward, are equally applicable to models that require model or tensor parallelism.
+Since the model is loaded in bfloat16 precision, using our rule of thumb above, we would expect the memory requirement to run inference with bigcode/octocoder to be around 31 GB VRAM.

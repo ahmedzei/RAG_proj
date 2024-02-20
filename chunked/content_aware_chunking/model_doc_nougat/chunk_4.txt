@@ -1,0 +1,7 @@
+The model is identical to Donut in terms of architecture.
+
+Inference
+Nougat's [VisionEncoderDecoder] model accepts images as input and makes use of
+[~generation.GenerationMixin.generate] to autoregressively generate text given the input image.
+The [NougatImageProcessor] class is responsible for preprocessing the input image and
+[NougatTokenizerFast] decodes the generated target tokens to the target string.

@@ -1,0 +1,6 @@
+Just
+  separate your segments with the separation token tokenizer.sep_token (or [SEP]).
+DistilBERT doesn't have options to select the input positions (position_ids input). This could be added if
+  necessary though, just let us know if you need this option.
+
+Same as BERT but smaller. Trained by distillation of the pretrained BERT model, meaning it’s been trained to predict the same probabilities as the larger model.

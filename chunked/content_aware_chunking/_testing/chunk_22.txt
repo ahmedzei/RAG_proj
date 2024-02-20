@@ -1,0 +1,12 @@
+For example:
+python no-style
+@require_tf
+def test_tf_thing_with_tensorflow():
+These decorators can be stacked. For example, if a test is slow and requires at least one GPU under pytorch, here is
+how to set it up:
+python no-style
+@require_torch_gpu
+@slow
+def test_example_slow_on_gpu():
+Some decorators like @parametrized rewrite test names, therefore @require_* skip decorators have to be listed
+last for them to work correctly.

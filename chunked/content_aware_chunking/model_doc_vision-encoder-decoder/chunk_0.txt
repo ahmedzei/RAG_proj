@@ -1,0 +1,5 @@
+Vision Encoder Decoder Models
+Overview
+The [VisionEncoderDecoderModel] can be used to initialize an image-to-text model with any
+pretrained Transformer-based vision model as the encoder (e.g. ViT, BEiT, DeiT, Swin)
+and any pretrained language model as the decoder (e.g.

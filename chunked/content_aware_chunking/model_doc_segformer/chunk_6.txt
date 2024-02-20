@@ -1,0 +1,4 @@
+The
+  authors of SegFormer first pre-trained the Transformer encoder on ImageNet-1k to classify images. Next, they throw
+  away the classification head, and replace it by the all-MLP decode head. Next, they fine-tune the model altogether on
+  ADE20K, Cityscapes and COCO-stuff, which are important benchmarks for semantic segmentation.

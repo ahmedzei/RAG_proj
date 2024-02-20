@@ -1,0 +1,11 @@
+o contribute by adding support for a model that cannot be currently exported, you should first check if it is
+supported in optimum.exporters.onnx,
+and if it is not, contribute to 🤗 Optimum
+directly.
+Exporting a model with transformers.onnx
+
+tranformers.onnx is no longer maintained, please export models with 🤗 Optimum as described above. This section will be removed in the future versions.
+
+To export a 🤗 Transformers model to ONNX with tranformers.onnx, install extra dependencies:
+
+pip install transformers[o

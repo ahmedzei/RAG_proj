@@ -1,0 +1,3 @@
+nging to the same group / scene where group is denoted by g in the video file paths. v_ApplyEyeMakeup_g07_c04.avi and v_ApplyEyeMakeup_g07_c06.avi, for example.
+For the validation and evaluation splits, you wouldn't want to have video clips from the same group / scene to prevent data leakage. The subset that you are using in this tutorial takes this information into account.
+Next up, you will derive the set of labels present in the dataset. Also, create two dictionaries that'll be helpful when initializing 

@@ -1,0 +1,11 @@
+acting as external attention.
+The Spout Vector projected by the fully connected layer is split to be passed to all self-attentions.
+GPTSanJapaneseConfig
+[[autodoc]] GPTSanJapaneseConfig
+GPTSanJapaneseTokenizer
+[[autodoc]] GPTSanJapaneseTokenizer
+GPTSanJapaneseModel
+[[autodoc]] GPTSanJapaneseModel
+GPTSanJapaneseForConditionalGeneration
+[[autodoc]] GPTSanJapaneseForConditionalGeneration
+    - forward

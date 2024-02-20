@@ -1,0 +1,2 @@
+You can speed up map by 
+setting batched=True to process multiple elements of the dataset at once.

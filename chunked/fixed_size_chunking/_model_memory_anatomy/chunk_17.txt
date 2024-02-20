@@ -1,0 +1,7 @@
+g passed and returned by the forward and the backward functions and the 
+forward activations saved for gradient computation.
+Temporary Memory
+Additionally, there are all kinds of temporary variables which get released once the calculation is done, but in the 
+moment these could require additional memory and could push to OOM. Therefore, when coding it's crucial to think 
+strategically about such temporary variables and sometimes to explicitly free those as soon as they are no longer needed.
+Functionality-sp

@@ -1,0 +1,11 @@
+pip install pytest-random-order
+Important: the presence of pytest-random-order will automatically randomize tests, no configuration change or
+command line options is required.
+As explained earlier this allows detection of coupled tests - where one test's state affects the state of another. When
+pytest-random-order is installed it will print the random seed it used for that session, e.g:
+
+pytest tests
+[]
+Using --random-order-bucket=module
+Using --random-order-seed=573663
+So that if the given particular seque

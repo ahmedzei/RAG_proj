@@ -1,0 +1,4 @@
+PatchTSMixer
+Overview
+The PatchTSMixer model was proposed in TSMixer: Lightweight MLP-Mixer Model for Multivariate Time Series Forecasting by Vijay Ekambaram, Arindam Jati, Nam Nguyen, Phanwadee Sinthong and Jayant Kalagnanam.
+PatchTSMixer is a lightweight time-series modeling approach based on the MLP-Mixer architecture.

@@ -1,0 +1,6 @@
+Refer
+  to the documentation of byT5 which can be found here.
+
+UL2: UL2 is a T5 like model pretrained on various denoising objectives
+
+Flan-T5: Flan is a pretraining methods that is based on prompting.

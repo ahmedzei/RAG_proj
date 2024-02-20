@@ -1,0 +1,5 @@
+The generated code in
+src/transformers/models/brand_new_bert/modeling_brand_new_bert.py will either have the same architecture as BERT if
+it's an encoder-only model or BART if it's an encoder-decoder model. At this point, you should remind yourself what
+you've learned in the beginning about the theoretical aspects of the model: How is the model different from BERT or
+BART?".

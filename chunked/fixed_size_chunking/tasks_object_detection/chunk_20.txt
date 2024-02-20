@@ -1,0 +1,5 @@
+ tensor([800, 800]), 'image_id': tensor([756]), 'class_labels': tensor([4]), 'boxes': tensor([[0.7340, 0.6986, 0.3414, 0.5944]]), 'area': tensor([519544.4375]), 'iscrowd': tensor([0]), 'orig_size': tensor([480, 480])}}
+
+You have successfully augmented the individual images and prepared their annotations. However, preprocessing isn't
+complete yet. In the final step, create a custom collate_fn to batch images together.
+Pad images (which are now pixel_values) to the largest image in a batch, and create a corre

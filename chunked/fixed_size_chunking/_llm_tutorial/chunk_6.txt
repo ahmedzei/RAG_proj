@@ -1,0 +1,8 @@
+s = model.generate(**model_inputs)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+['A list of colors: red, blue, green, yellow, orange, purple, pink,',
+'Portugal is a country in southwestern Europe, on the Iber']
+
+And that's it! In a few lines of code, you can harness the power of an LLM.
+Common pitfalls
+There are many generation strategies, and sometimes the default values may not be appropriate for your use case. If your outputs aren't aligned with what you're expecting, we've created a l

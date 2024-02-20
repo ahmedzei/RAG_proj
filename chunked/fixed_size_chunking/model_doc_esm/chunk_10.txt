@@ -1,0 +1,25 @@
+zer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+
+EsmModel
+[[autodoc]] EsmModel
+    - forward
+EsmForMaskedLM
+[[autodoc]] EsmForMaskedLM
+    - forward
+EsmForSequenceClassification
+[[autodoc]] EsmForSequenceClassification
+    - forward
+EsmForTokenClassification
+[[autodoc]] EsmForTokenClassification
+    - forward
+EsmForProteinFolding
+[[autodoc]] EsmForProteinFolding
+    - forward
+
+TFEsmModel
+[[autodoc]] TFEsmModel
+    - ca

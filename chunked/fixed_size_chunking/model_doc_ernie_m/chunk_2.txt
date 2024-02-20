@@ -1,0 +1,5 @@
+nslation into the pre-training process. We generate pseudo-parallel sentence pairs on a monolingual corpus to enable the learning of semantic alignments between different languages, thereby enhancing the semantic modeling of cross-lingual models. Experimental results show that ERNIE-M outperforms existing cross-lingual models and delivers new state-of-the-art results in various cross-lingual downstream tasks.
+This model was contributed by Susnato Dhar. The original code can be found here.
+Usage tips
+
+Ernie-

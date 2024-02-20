@@ -1,0 +1,4 @@
+ | padding to specific length        | tokenizer(batch_sentences, padding='max_length', max_length=42)                      |
+|                                      | padding to a multiple of a value  | tokenizer(batch_sentences, padding=True, pad_to_multiple_of=8)                        |
+| truncation to max model input length | no padding                        | tokenizer(batch_sentences, truncation=True) or                                       |
+|                                      |                 

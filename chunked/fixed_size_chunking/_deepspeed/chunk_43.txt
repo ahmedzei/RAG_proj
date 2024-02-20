@@ -1,0 +1,10 @@
+recision.
+
+If your model doesn't work well with mixed precision, for example if it wasn't pretrained in mixed precision, you may encounter overflow or underflow issues which can cause NaN loss. For these cases, you should use full fp32 precision by explicitly disabling the default fp16 mode.
+yaml
+{
+    "fp16": {
+        "enabled": false
+    }
+}
+For Ampere GPUs and PyTorch > 1.7, it automatically switches to the more efficient tf32 format for some operations but the results are still in fp32. You can control

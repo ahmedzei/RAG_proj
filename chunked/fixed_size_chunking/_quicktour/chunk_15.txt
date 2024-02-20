@@ -1,0 +1,9 @@
+rom_pretrained(model_name)
+
+Specify the model and tokenizer in the [pipeline], and now you can apply the classifier on French text:
+
+classifier = pipeline("sentiment-analysis", model=model, tokenizer=tokenizer)
+classifier("Nous sommes très heureux de vous présenter la bibliothèque 🤗 Transformers.")
+[{'label': '5 stars', 'score': 0.7273}]
+
+If you can't find a model for your use-case, you'll need to finetune a pretrained model on your data. Take a look at our finetuning tutorial to learn how. Finally, after y

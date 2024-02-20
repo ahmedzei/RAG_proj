@@ -1,0 +1,12 @@
+o the length of the first one.
+In the first case, the list of IDs will be extended by the padding indices. We can pass a list to the tokenizer and ask
+it to pad like this:
+thon
+
+padded_sequences = tokenizer([sequence_a, sequence_b], padding=True)
+
+We can see that 0s have been added on the right of the first sentence to make it the same length as the second one:
+thon
+
+padded_sequences["input_ids"]
+[[101, 1188, 1110, 170, 1603, 4954, 119, 102, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [101, 1188, 1110, 170, 1897, 126

@@ -1,0 +1,5 @@
+Note that speech generation only supports greedy - by default - or multinomial sampling, which can be used with e.g. .generate(, speech_do_sample=True, speech_temperature=0.6).
+4. Generate speech and text at the same time
+Use return_intermediate_token_ids=True with [SeamlessM4Tv2Model] to return both speech and text !
+Model architecture
+SeamlessM4T-v2 features a versatile architecture that smoothly handles the sequential generation of text and speech.

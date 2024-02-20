@@ -1,0 +1,16 @@
+
+If you notice that the test suite starts getting slow on CI, the top listing of this report will show the slowest
+tests.
+Testing the stdout/stderr output
+In order to test functions that write to stdout and/or stderr, the test can access those streams using the
+pytest's capsys system. Here is how this is accomplished:
+thon
+import sys
+def print_to_stdout(s):
+    print(s)
+def print_to_stderr(s):
+    sys.stderr.write(s)
+def test_result_and_stdout(capsys):
+    msg = "Hello"
+    print_to_stdout(msg)
+    print_to

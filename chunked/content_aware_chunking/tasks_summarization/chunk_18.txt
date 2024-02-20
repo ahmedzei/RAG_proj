@@ -1,0 +1,31 @@
+Both are done by using Keras callbacks.
+Pass your compute_metrics function to [~transformers.KerasMetricCallback]:
+
+from transformers.keras_callbacks import KerasMetricCallback
+metric_callback = KerasMetricCallback(metric_fn=compute_metrics, eval_dataset=tf_validation_set)
+
+Specify where to push your model and tokenizer in the [~transformers.PushToHubCallback]:
+
+from transformers.keras_callbacks import PushToHubCallback
+push_to_hub_callback = PushToHubCallback(
+     output_dir="my_awesome_billsum_model",
+     tokenizer=tokenizer,
+ )
+
+Then bundle your callbacks together:
+
+callbacks = [metric_callback, push_to_hub_callback]
+
+Finally, you're ready to start training your model! Call fit with your training and validation datasets, the number of epochs, and your callbacks to finetune the model:
+
+model.fit(x=tf_train_set, validation_data=tf_test_set, epochs=3, callbacks=callbacks)
+
+Once training is completed, your model is automatically uploaded to the Hub so everyone can use it!
+
+For a more in-depth example of how to finetune a model for summarization, take a look at the corresponding
+PyTorch notebook
+or TensorFlow notebook.
+
+Inference
+Great, now that you've finetuned a model, you can use it for inference!
+Come up with some text you'd like to summarize.

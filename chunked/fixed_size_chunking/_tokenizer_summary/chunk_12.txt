@@ -1,0 +1,7 @@
+t you love 🤗 Transformers? We sure do.")
+["▁Don", "'", "t", "▁you", "▁love", "▁", "🤗", "▁", "Transform", "ers", "?", "▁We", "▁sure", "▁do", "."]
+
+We'll get back to the meaning of those "▁" when we look at SentencePiece. As one can see,
+the rare word "Transformers" has been split into the more frequent subwords "Transform" and "ers".
+Let's now look at how the different subword tokenization algorithms work. Note that all of those tokenization
+algorithms rely on some form of training which is usually done on t

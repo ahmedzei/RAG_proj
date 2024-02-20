@@ -1,0 +1,11 @@
+ your model to the Hub with the [~transformers.Trainer.push_to_hub] method so everyone can use your model:
+
+trainer.push_to_hub()
+
+For a more in-depth example of how to finetune a model for audio classification, take a look at the corresponding PyTorch notebook.
+
+Inference
+Great, now that you've finetuned a model, you can use it for inference!
+Load an audio file you'd like to run inference on. Remember to resample the sampling rate of the audio file to match the sampling rate of the model if you need to!
+
+f

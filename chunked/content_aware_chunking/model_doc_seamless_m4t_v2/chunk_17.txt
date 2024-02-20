@@ -1,0 +1,11 @@
+Please refer to Self-Attentionwith Relative Position Representations (Shaw et al.) for more details.
+- the use of a causal depth-wise convolution instead of a non-causal one.
+Generation process
+Here's how the generation process works:
+
+Input text or speech is processed through its specific encoder.
+A decoder creates text tokens in the desired language.
+If speech generation is required, the second seq2seq model, generates unit tokens in an non auto-regressive way.
+These unit tokens are then passed through the final vocoder to produce the actual speech.
+
+This model was contributed by ylacombe.

@@ -1,0 +1,8 @@
+Reformer
+
+Overview
+The Reformer model was proposed in the paper Reformer: The Efficient Transformer by Nikita Kitaev, Łukasz Kaiser, Anselm Levskaya.
+The abstract from the paper is the following:
+Large Transformer models routinely achieve state-of-the-art results on a number of tasks but training these models can
+be prohibitively costly, especially on long sequences. We introduce two techniques to improve the efficiency of
+Transformers.

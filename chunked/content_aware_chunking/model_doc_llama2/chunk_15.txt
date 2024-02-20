@@ -1,0 +1,6 @@
+🌎🇰🇷
+
+⚗️ Optimization
+- Fine-tune Llama 2 with DPO, a guide to using the TRL library's DPO method to fine tune Llama 2 on a specific dataset.
+- Extended Guide: Instruction-tune Llama 2, a guide to training Llama 2 to generate instructions from inputs, transforming the model from instruction-following to instruction-giving.
+- A notebook on how to fine-tune the Llama 2 model on a personal computer using QLoRa and TRL.

@@ -1,0 +1,7 @@
+as tmp_dir:
+     model.save_pretrained(tmp_dir, max_shard_size="200MB")
+     load_sharded_checkpoint(model, tmp_dir)
+
+Low memory loading
+Sharded checkpoints reduce the memory usage during step 2 of the workflow mentioned above, but in order to use that model in a low memory setting, we recommend leveraging our tools based on the Accelerate library.
+Please read the following guide for more information: Large model loading using Accelerate

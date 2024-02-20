@@ -1,0 +1,10 @@
+and work through the problem step by step."
+If we apply the CoT technique to the muffins example from the reasoning section and use a larger model, 
+such as (tiiuae/falcon-180B-chat) which you can play with in the HuggingChat, 
+we'll get a significant improvement on the reasoning result:
+text
+Let's go through this step-by-step:
+1. You start with 15 muffins.
+2. You eat 2 muffins, leaving you with 13 muffins.
+3. You give 5 muffins to your neighbor, leaving you with 8 muffins.
+4. Your partner buys 6 more muffi

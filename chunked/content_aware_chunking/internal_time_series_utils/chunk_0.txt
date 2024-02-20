@@ -1,0 +1,7 @@
+Time Series Utilities
+This page lists all the utility functions and classes that can be used for Time Series based models.
+Most of those are only useful if you are studying the code of the time series models or you wish to add to the collection of distributional output classes.
+Distributional Output
+[[autodoc]] time_series_utils.NormalOutput
+[[autodoc]] time_series_utils.StudentTOutput
+[[autodoc]] time_series_utils.NegativeBinomialOutput.

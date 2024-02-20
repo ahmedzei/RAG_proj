@@ -1,0 +1,17 @@
+zer(
+     init_lr=learning_rate,
+     num_train_steps=num_train_steps,
+     weight_decay_rate=weight_decay_rate,
+     num_warmup_steps=0,
+ )
+
+Then, load ViT with [TFAutoModelForImageClassification] along with the label mappings:
+
+from transformers import TFAutoModelForImageClassification
+model = TFAutoModelForImageClassification.from_pretrained(
+     checkpoint,
+     id2label=id2label,
+     label2id=label2id,
+ )
+
+Convert your datasets to the tf.data.Dataset format using the [~datasets.Dataset.to_tf_dataset]

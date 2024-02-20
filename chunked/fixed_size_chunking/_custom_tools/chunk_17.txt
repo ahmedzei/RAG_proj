@@ -1,0 +1,9 @@
+ompt. 
+The user's input is appended to behind Human: and the agent is prompted to first generate what needs to be done 
+before generating code. An exchange can be based on previous exchanges, therefore allowing the user to refer
+to past exchanges as is done e.g. above by the user's input of "I tried this code" refers to the 
+previously generated code of the agent.
+Upon running .chat, the user's input or task is cast into an unfinished example of the form:
+text
+Human: <user-input>\n\nAssistant:
+which the age

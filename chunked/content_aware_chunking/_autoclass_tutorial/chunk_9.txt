@@ -1,0 +1,4 @@
+See the Hub documentation for best practices like signed commit verification with GPG.
+TensorFlow and Flax checkpoints are not affected, and can be loaded within PyTorch architectures using the from_tf and from_flax kwargs for the from_pretrained method to circumvent this issue.
+
+Generally, we recommend using the AutoTokenizer class and the AutoModelFor class to load pretrained instances of models. This will ensure you load the correct architecture every time.

@@ -1,0 +1,3 @@
+Then we introduce a dimension-consistent pure transformer (without MobileNet blocks) as a design paradigm. 
+Finally, we perform latency-driven slimming to get a series of final models dubbed EfficientFormer. 
+Extensive experiments show the superiority of EfficientFormer in performance and speed on mobile devices.

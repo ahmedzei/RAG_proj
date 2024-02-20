@@ -1,0 +1,7 @@
+Simply make sure to call processor.tokenizer.padding_side = "left" before generating.
+
+Note the model has not been explicitly trained to process multiple images in the same prompt, although this is technically possible, you may experience inaccurate results.
+
+For better results, we recommend users to prompt the model with the correct prompt format: 
+
+A chat between a curious human and an artificial intelligence assistant.

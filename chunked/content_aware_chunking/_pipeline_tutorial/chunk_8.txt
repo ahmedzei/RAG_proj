@@ -1,0 +1,8 @@
+The reason is that batching is not necessarily faster, and can actually be quite slower in some cases.
+But if it works in your use case, you can use:
+py
+transcriber = pipeline(model="openai/whisper-large-v2", device=0, batch_size=2)
+audio_filenames = [f"https://huggingface.co/datasets/Narsil/asr_dummy/resolve/main/{i}.flac" for i in range(1, 5)]
+texts = transcriber(audio_filenames)
+This runs the pipeline on the 4 provided audio files, but it will pass them in batches of 2
+to the model (which is on a GPU, where batching is more likely to help) without requiring any further code from you.

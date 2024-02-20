@@ -1,0 +1,6 @@
+Transformers has the key-value cache enabled by default when making use of the text pipeline or the generate method.
+
+Note that, despite our advice to use key-value caches, your LLM output may be slightly different when you use them. This is a property of the matrix multiplication kernels themselves -- you can read more about it here.
+
+3.2.1 Multi-round conversation
+The key-value cache is especially useful for applications such as chat where multiple passes of auto-regressive decoding are required.

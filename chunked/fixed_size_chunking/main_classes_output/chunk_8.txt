@@ -1,0 +1,15 @@
+s.ImageClassifierOutputWithNoAttention
+DepthEstimatorOutput
+[[autodoc]] modeling_outputs.DepthEstimatorOutput
+Wav2Vec2BaseModelOutput
+[[autodoc]] modeling_outputs.Wav2Vec2BaseModelOutput
+XVectorOutput
+[[autodoc]] modeling_outputs.XVectorOutput
+Seq2SeqTSModelOutput
+[[autodoc]] modeling_outputs.Seq2SeqTSModelOutput
+Seq2SeqTSPredictionOutput
+[[autodoc]] modeling_outputs.Seq2SeqTSPredictionOutput
+SampleTSPredictionOutput
+[[autodoc]] modeling_outputs.SampleTSPredictionOutput
+TFBaseModelOutput
+[[autodoc]] modelin

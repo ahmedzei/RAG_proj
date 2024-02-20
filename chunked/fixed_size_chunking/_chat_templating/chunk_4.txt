@@ -1,0 +1,8 @@
+ ]
+tokenizer.apply_chat_template(chat, tokenize=False)
+"[INST] Hello, how are you? [/INST]I'm doing great. How can I help you today? [INST] I'd like to show off how chat templating works! [/INST]"
+
+Note that this time, the tokenizer has added the control tokens [INST] and [/INST] to indicate the start and end of 
+user messages (but not assistant messages!). Mistral-instruct was trained with these tokens, but BlenderBot was not.
+How do I use chat templates?
+As you can see in the example above, chat templates

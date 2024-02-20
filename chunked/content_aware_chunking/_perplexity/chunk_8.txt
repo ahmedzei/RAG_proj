@@ -1,0 +1,10 @@
+Since
+this dataset is small and we're just doing one forward pass over the set, we can just load and encode the entire
+dataset in memory.
+thon
+from datasets import load_dataset
+test = load_dataset("wikitext", "wikitext-2-raw-v1", split="test")
+encodings = tokenizer("\n\n".join(test["text"]), return_tensors="pt")
+
+With 🤗 Transformers, we can simply pass the input_ids as the labels to our model, and the average negative
+log-likelihood for each token is returned as the loss.

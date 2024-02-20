@@ -1,0 +1,12 @@
+parameters (e.g. 175 billion for GPT-3).
+M
+masked language modeling (MLM)
+A pretraining task where the model sees a corrupted version of the texts, usually done by
+masking some tokens randomly, and has to predict the original text.
+multimodal
+A task that combines texts with another kind of inputs (for instance images).
+N
+Natural language generation (NLG)
+All tasks related to generating text (for instance, Write With Transformers, translation).
+Natural language processing (NLP)
+A generic way to say "deal wit

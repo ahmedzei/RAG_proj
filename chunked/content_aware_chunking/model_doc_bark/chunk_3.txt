@@ -1,0 +1,5 @@
+In other words, while one sub-model is in use, the other sub-models are idle.
+If you're using a CUDA device, a simple solution to benefit from an 80% reduction in memory footprint is to offload the submodels from GPU to CPU when they're idle. This operation is called CPU offloading. You can use it with one line of code as follows:
+python
+model.enable_cpu_offload()
+Note that 🤗 Accelerate must be installed before using this feature.

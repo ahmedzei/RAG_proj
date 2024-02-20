@@ -1,0 +1,5 @@
+export CUDA_VISIBLE_DEVICES=0 before running the code.
+The option no_multi_processing should only be set to True for testing and debugging. To ensure accurate
+  memory measurement it is recommended to run each memory benchmark in a separate process by making sure
+  no_multi_processing is set to True.
+One should always state the environment information when sharing the results of a model benchmark.

@@ -1,0 +1,2 @@
+The results demonstrate Persimmon-8B's competitive performance, even with limited training data.
+In terms of model details, the work outlines the architecture and training methodology of Persimmon-8B, providing insights into its design choices, sequence length, and dataset composition. The authors present a fast inference code that outperforms traditional implementations through operator fusion and CUDA graph utilization while maintaining code coherence.

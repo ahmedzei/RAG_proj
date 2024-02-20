@@ -1,0 +1,5 @@
+ss
+
+Create a new quantization config class inside src/transformers/utils/quantization_config.py and make sure to expose the new quantization config inside Transformers main init by adding it to the _import_structure object of src/transformers/init.py.
+
+Create a new file inside src/transformers/quantizers/ named quantizer_your_method.py, and make it inherit from src/transformers/quantizers/base.py::HfQuantizer. Make sure to add the new quantizer and quantization config in the quantization auto-mapping in src

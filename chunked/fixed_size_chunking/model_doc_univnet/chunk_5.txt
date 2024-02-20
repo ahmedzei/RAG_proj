@@ -1,0 +1,9 @@
+[UnivNetModel] output through the [UnivNetFeatureExtractor.batch_decode] method, as shown in the usage example below.
+Padding the end of each waveform with silence can reduce artifacts at the end of the generated audio sample. This can be done by supplying pad_end = True to [UnivNetFeatureExtractor.__call__]. See this issue for more details.
+
+Usage Example:
+thon
+import torch
+from scipy.io.wavfile import write
+from datasets import Audio, load_dataset
+from transformers import UnivNetFeatureExtractor, UnivNetM

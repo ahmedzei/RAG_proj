@@ -1,0 +1,9 @@
+iner], set the neftune_noise_alpha parameter in [TrainingArguments] to control how much noise is added.
+
+from transformers import TrainingArguments, Trainer
+training_args = TrainingArguments(, neftune_noise_alpha=0.1)
+trainer = Trainer(, args=training_args)
+
+NEFTune is disabled after training to restore the original embedding layer to avoid any unexpected behavior.
+Accelerate and Trainer
+The [Trainer] class is powered by Accelerate, a library for easily training PyTorch models in distributed environments wi

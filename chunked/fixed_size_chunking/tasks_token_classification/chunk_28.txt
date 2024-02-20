@@ -1,0 +1,23 @@
+ification.from_pretrained("stevhliu/my_awesome_wnut_model")
+logits = model(**inputs).logits
+
+Get the class with the highest probability, and use the model's id2label mapping to convert it to a text label:
+
+predicted_token_class_ids = tf.math.argmax(logits, axis=-1)
+predicted_token_class = [model.config.id2label[t] for t in predicted_token_class_ids[0].numpy().tolist()]
+predicted_token_class
+['O',
+ 'O',
+ 'B-location',
+ 'I-location',
+ 'B-group',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'B-location',
+ 

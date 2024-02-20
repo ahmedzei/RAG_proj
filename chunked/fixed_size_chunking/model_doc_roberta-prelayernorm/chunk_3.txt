@@ -1,0 +1,15 @@
+orward
+RobertaPreLayerNormForMaskedLM
+[[autodoc]] RobertaPreLayerNormForMaskedLM
+    - forward
+RobertaPreLayerNormForSequenceClassification
+[[autodoc]] RobertaPreLayerNormForSequenceClassification
+    - forward
+RobertaPreLayerNormForMultipleChoice
+[[autodoc]] RobertaPreLayerNormForMultipleChoice
+    - forward
+RobertaPreLayerNormForTokenClassification
+[[autodoc]] RobertaPreLayerNormForTokenClassification
+    - forward
+RobertaPreLayerNormForQuestionAnswering
+[[autodoc]] RobertaPreLayerNormForQuestionAnswering

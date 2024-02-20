@@ -1,0 +1,22 @@
+nut["train"].features[f"ner_tags"].feature.names
+label_list
+[
+    "O",
+    "B-corporation",
+    "I-corporation",
+    "B-creative-work",
+    "I-creative-work",
+    "B-group",
+    "I-group",
+    "B-location",
+    "I-location",
+    "B-person",
+    "I-person",
+    "B-product",
+    "I-product",
+]
+
+The letter that prefixes each ner_tag indicates the token position of the entity:
+
+B- indicates the beginning of an entity.
+I- indicates a token is contained inside the same entity (for example, the State token is a pa

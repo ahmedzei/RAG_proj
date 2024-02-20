@@ -1,0 +1,13 @@
+ul when you set up the model later. Download the mappings from the Hub and create the id2label and label2id dictionaries:
+
+import json
+from huggingface_hub import cached_download, hf_hub_url
+repo_id = "huggingface/label-files"
+filename = "ade20k-id2label.json"
+id2label = json.load(open(cached_download(hf_hub_url(repo_id, filename, repo_type="dataset")), "r"))
+id2label = {int(k): v for k, v in id2label.items()}
+label2id = {v: k for k, v in id2label.items()}
+num_labels = len(id2label)
+
+Custom dataset
+You coul

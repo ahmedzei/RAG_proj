@@ -1,0 +1,6 @@
+This is useful for debugging, and unlikely to give speedups.
+Training & inference backends:
+* dynamo.optimize("inductor") - Uses TorchInductor backend with AotAutograd and cudagraphs by leveraging codegened Triton kernels  Read more
+* dynamo.optimize("nvfuser") -  nvFuser with TorchScript. Read more
+* dynamo.optimize("aot_nvfuser") -  nvFuser with AotAutograd. Read more
+* dynamo.optimize("aot_cudagraphs") - cudagraphs with AotAutograd.

@@ -1,0 +1,7 @@
+t-sentence objective)
+a cosine similarity between the hidden states of the student and the teacher model
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with DistilBERT. If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A blog post on Getting Started with Sentiment Analysis

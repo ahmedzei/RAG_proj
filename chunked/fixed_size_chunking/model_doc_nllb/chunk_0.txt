@@ -1,0 +1,7 @@
+
+NLLB
+Updated tokenizer behavior
+DISCLAIMER: The default behaviour for the tokenizer was fixed and thus changed in April 2023.
+The previous version adds [self.eos_token_id, self.cur_lang_code] at the end of the token sequence for both target and source tokenization. This is wrong as the NLLB paper mentions (page 48, 6.1.1. Model Architecture) :
+Note that we prefix the source sequence with the source language, as opposed to the target
+language as previously done in several works (Arivazhagan et al., 2019; Jo

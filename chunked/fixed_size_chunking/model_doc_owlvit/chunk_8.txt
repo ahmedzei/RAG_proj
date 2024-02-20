@@ -1,0 +1,11 @@
+oxes, scores, labels):
+     box = [round(i, 2) for i in box.tolist()]
+     print(f"Detected {text[label]} with confidence {round(score.item(), 3)} at location {box}")
+Detected a photo of a cat with confidence 0.707 at location [324.97, 20.44, 640.58, 373.29]
+Detected a photo of a cat with confidence 0.717 at location [1.46, 55.26, 315.55, 472.17]
+
+Resources
+A demo notebook on using OWL-ViT for zero- and one-shot (image-guided) object detection can be found here.
+OwlViTConfig
+[[autodoc]] OwlViTConfig
+    - f

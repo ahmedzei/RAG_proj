@@ -1,0 +1,6 @@
+Templates for Chat Models
+Introduction
+An increasingly common use case for LLMs is chat. In a chat context, rather than continuing a single string
+of text (as is the case with a standard language model), the model instead continues a conversation that consists
+of one or more messages, each of which includes a role, like "user" or "assistant", as well as message text.
+Much like tokenization, different models expect very different input formats for chat.

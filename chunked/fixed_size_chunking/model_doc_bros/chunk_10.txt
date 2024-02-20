@@ -1,0 +1,16 @@
+box_end_token_indices - np.array(tokens_length_list)
+
+# filter out the indices that are out of max_seq_length
+box_end_token_indices = box_end_token_indices[box_end_token_indices < max_seq_length - 1]
+if len(box_start_token_indices) > len(box_end_token_indices):
+    box_start_token_indices = box_start_token_indices[: len(box_end_token_indices)]
+
+# set box_start_token_indices to True
+box_first_token_mask[box_start_token_indices] = True
+
+return box_first_token_mask
+
+Resources
+
+Demo scripts can be found here.
+

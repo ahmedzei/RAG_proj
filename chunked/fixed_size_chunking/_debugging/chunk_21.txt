@@ -1,0 +1,13 @@
+put
+Here, encoder.block.2.layer.1.layer_norm indicates that it was a layer norm for the first layer, of the second
+block of the encoder. And the specific calls of the forward is T5LayerNorm.
+Let's look at the last few frames of that report:
+Detected inf/nan during batch_number=0
+Last 21 forward frames:
+abs min  abs max  metadata
+[]
+                  encoder.block.2.layer.1.DenseReluDense.wi_0 Linear
+2.17e-07 4.50e+00 weight
+1.79e-06 4.65e+00 input[0]
+2.68e-06 3.70e+01 output
+                  encoder.block.

@@ -1,0 +1,22 @@
+rch version of this model is only available in torch 1.10 and higher.
+
+TvltConfig
+[[autodoc]] TvltConfig
+TvltProcessor
+[[autodoc]] TvltProcessor
+    - call
+TvltImageProcessor
+[[autodoc]] TvltImageProcessor
+    - preprocess
+TvltFeatureExtractor
+[[autodoc]] TvltFeatureExtractor
+    - call
+TvltModel
+[[autodoc]] TvltModel
+    - forward
+TvltForPreTraining
+[[autodoc]] TvltForPreTraining
+    - forward
+TvltForAudioVisualClassification
+[[autodoc]] TvltForAudioVisualClassification
+    - forward

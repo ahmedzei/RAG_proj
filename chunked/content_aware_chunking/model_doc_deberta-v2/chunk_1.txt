@@ -1,0 +1,9 @@
+DeBERTa-v2
+Overview
+The DeBERTa model was proposed in DeBERTa: Decoding-enhanced BERT with Disentangled Attention by Pengcheng He, Xiaodong Liu, Jianfeng Gao, Weizhu Chen It is based on Google's
+BERT model released in 2018 and Facebook's RoBERTa model released in 2019.
+It builds on RoBERTa with disentangled attention and enhanced mask decoder training with half of the data used in
+RoBERTa.
+The abstract from the paper is the following:
+Recent progress in pre-trained neural language models has significantly improved the performance of many natural
+language processing (NLP) tasks.

@@ -1,0 +1,6 @@
+ly shrinking the sequence length
+of the Transformer as it deepens - reducing the computational cost. Additionally, a spatial-reduction attention (SRA) layer
+is used to further reduce the resource consumption when learning high-resolution features.
+The abstract from the paper is the following:
+Although convolutional neural networks (CNNs) have achieved great success in computer vision, this work investigates a 
+simpler, convolution-free backbone network useful for many dense prediction tasks. Unlike the rece

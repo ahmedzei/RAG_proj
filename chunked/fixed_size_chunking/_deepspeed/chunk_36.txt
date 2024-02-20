@@ -1,0 +1,6 @@
+uration file which are briefly described in this section.
+Activation/gradient checkpointing
+Activation and gradient checkpointing trades speed for more GPU memory which allows you to overcome scenarios where your GPU is out of memory or to increase your batch size for better performance. To enable this feature:
+
+For a Hugging Face model, set model.gradient_checkpointing_enable() or --gradient_checkpointing in the [Trainer].
+For a non-Hugging Face model, use the DeepSpeed Activation Checkpointing API. You co

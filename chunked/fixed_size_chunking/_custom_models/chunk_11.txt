@@ -1,0 +1,18 @@
+        cardinality=config.cardinality,
+        base_width=config.base_width,
+        stem_width=config.stem_width,
+        stem_type=config.stem_type,
+        avg_down=config.avg_down,
+    )
+
+def forward(self, tensor):
+    return self.model.forward_features(tensor)
+
+For the model that will classify images, we just change the forward method:
+
+import torch
+class ResnetModelForImageClassification(PreTrainedModel):
+    config_class = ResnetConfig
+def __init__(self, config):
+    super().__init__(config)
+    blo

@@ -1,0 +1,14 @@
+of ~3.5GB/s for read and ~3GB/s for write operations. Lastly, run a benchmark on your training setup to determine the optimal aio configuration.
+The example ZeRO-3/Infinity configuration file below sets most of the parameter values to auto, but you could also manually add these values.
+```yml
+{
+    "fp16": {
+        "enabled": "auto",
+        "loss_scale": 0,
+        "loss_scale_window": 1000,
+        "initial_scale_power": 16,
+        "hysteresis": 2,
+        "min_loss_scale": 1
+    },
+"optimizer": {
+    "

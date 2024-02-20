@@ -1,0 +1,4 @@
+ransform,
+ )
+
+Note: The above dataset pipelines are taken from the official PyTorchVideo example. We're using the pytorchvideo.data.Ucf101() function because it's tailored for the UCF-101 dataset. Under the hood, it returns a pytorchvideo.data.labeled_video_dataset.LabeledVideoDataset object. LabeledVideoDataset class is the base class for all things video in the PyTorchVideo dataset. So, if you want to use a custom dataset not supported off-the-shelf by PyTorchVideo, you can extend the LabeledVideoDataset 

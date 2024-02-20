@@ -1,0 +1,10 @@
+Select the model you wish to convert
+2. Prepare transformers dev environment
+3. (Optional) Understand theoretical aspects and the existing implementation
+4. Implement the model architecture
+5. Implement model tests
+6. Submit the pull request
+7. (Optional) Build demos and share with the world
+1.-3. Prepare your model contribution
+1. Select the model you wish to convert
+Let's start off with the basics: the first thing you need to know is the architecture you want to convert.

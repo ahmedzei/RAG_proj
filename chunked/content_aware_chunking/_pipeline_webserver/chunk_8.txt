@@ -1,0 +1,8 @@
+Return a 503 error instead of waiting for a super long time or a 504 after a long time.
+This is relatively easy to implement in the proposed code since there is a single queue.
+Looking at the queue size is a basic way to start returning errors before your 
+webserver fails under load.
+Blocking the main thread
+Currently PyTorch is not async aware, and computation will block the main
+thread while running. That means it would be better if PyTorch was forced to run
+on its own thread/process.

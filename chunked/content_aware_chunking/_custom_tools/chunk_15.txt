@@ -1,0 +1,14 @@
+This sentence makes up the final lines of the 
+prompt the agent is conditioned on, therefore strongly influencing the agent to finish the example 
+exactly in the same way it was previously done in the examples.
+Without going into too much detail, the chat template has the same prompt structure with the 
+examples having a slightly different style, e.g.:
+````text
+[]
+=====
+Human: Answer the question in the variable question about the image stored in the variable image.
+Assistant: I will use the tool image_qa to answer the question on the input image.
+py
+answer = image_qa(text=question, image=image)
+print(f"The answer is {answer}")
+Human: I tried this code, it worked but didn't give me a good result.

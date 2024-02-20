@@ -1,0 +1,8 @@
+ is going to lead to a numerical overflow condition.
+At the very start of the trace you can discover at which batch number the problem occurred (here Detected inf/nan during batch_number=0 means the problem occurred on the first batch).
+Each reported frame starts by declaring the fully qualified entry for the corresponding module this frame is reporting
+for. If we look just at this frame:
+encoder.block.2.layer.1.layer_norm T5LayerNorm
+8.69e-02 4.18e-01 weight
+2.65e-04 3.42e+03 input[0]
+1.79e-06 4.65e+00 out

@@ -1,0 +1,4 @@
+ward
+MgpstrForSceneTextRecognition
+[[autodoc]] MgpstrForSceneTextRecognition
+    - forward

@@ -1,0 +1,7 @@
+close
+to the state-of-the-art. The latter work proposed to use existing Large Language Models (LLMs) to
+generate “textbook quality” data as a way to enhance the learning process compared to traditional
+web data. We follow the “Textbooks Are All You Need” approach, focusing this time on common
+sense reasoning in natural language, and create a new 1.3 billion parameter model named phi-1.5,
+with performance on natural language tasks comparable to models 5x larger, and surpassing most
+non-frontier LLMs on more 

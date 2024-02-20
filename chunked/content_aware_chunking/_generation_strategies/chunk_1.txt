@@ -1,0 +1,9 @@
+Some of the models that can generate text include
+GPT2, XLNet, OpenAI GPT, CTRL, TransformerXL, XLM, Bart, T5, GIT, Whisper.
+Check out a few examples that use [~transformers.generation_utils.GenerationMixin.generate] method to produce
+text outputs for different tasks:
+* Text summarization
+* Image captioning
+* Audio transcription
+Note that the inputs to the generate method depend on the model's modality. They are returned by the model's preprocessor
+class, such as AutoTokenizer or AutoProcessor.

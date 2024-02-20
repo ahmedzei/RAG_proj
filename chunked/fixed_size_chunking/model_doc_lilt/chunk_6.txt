@@ -1,0 +1,5 @@
+] LiltForTokenClassification
+    - forward
+LiltForQuestionAnswering
+[[autodoc]] LiltForQuestionAnswering
+    - forward

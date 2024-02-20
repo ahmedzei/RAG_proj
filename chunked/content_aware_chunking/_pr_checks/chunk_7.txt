@@ -1,0 +1,8 @@
+Here is an example in MobileBertForSequenceClassification with the comment:
+
+Copied from transformers.models.bert.modeling_bert.BertForSequenceClassification with Bert->MobileBert all-casing
+
+In this case, the code is copied from BertForSequenceClassification by replacing:
+- Bert by MobileBert (for instance when using MobileBertModel in the init)
+- bert by mobilebert (for instance when defining self.mobilebert)
+- BERT by MOBILEBERT (in the constant MOBILEBERT_INPUTS_DOCSTRING).

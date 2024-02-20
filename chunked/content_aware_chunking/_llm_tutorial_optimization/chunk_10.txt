@@ -1,0 +1,10 @@
+For this more advanced pipeline parallelism is required as explained here.
+If you have access to an 8 x 80GB A100 node, you could load BLOOM as follows
+
+!pip install transformers accelerate bitsandbytes optimum
+thon
+from transformers import AutoModelForCausalLM
+model = AutoModelForCausalLM.from_pretrained("bigscience/bloom", device_map="auto", pad_token_id=0)
+
+By using device_map="auto" the attention layers would be equally distributed over all available GPUs.
+In this guide, we will use bigcode/octocoder as it can be run on a single 40 GB A100 GPU device chip.

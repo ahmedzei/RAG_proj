@@ -1,0 +1,8 @@
+s (IC15, SVTP, CUTE).
+This model was contributed by yuekun. The original code can be found here.
+Inference example
+[MgpstrModel] accepts images as input and generates three types of predictions, which represent textual information at different granularities.
+The three types of predictions are fused to give the final prediction result.
+The [ViTImageProcessor] class is responsible for preprocessing the input image and
+[MgpstrTokenizer] decodes the generated character tokens to the target string. The
+[MgpstrPr

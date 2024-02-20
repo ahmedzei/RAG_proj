@@ -1,0 +1,6 @@
+As the Perceiver's input
+length will not have an impact on the computation time of the self-attention layers, one can provide raw bytes,
+providing inputs of length 2048 to the model. If one now masks out certain of these 2048 tokens, one can define the
+outputs as being of shape: (batch_size, 2048, 768). Next, one performs cross-attention with the final hidden states
+of the latents to update the outputs tensor. After cross-attention, one still has a tensor of shape (batch_size,
+2048, 768).

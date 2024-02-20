@@ -1,0 +1,2 @@
+that supports accelerated inference on Nvidia GPUs, and AMD GPUs that use ROCm stack. ORT uses optimization techniques like fusing common operations into a single node and constant folding to reduce the number of computations performed and speedup inference. ORT also places the most computationally intensive operations on the GPU and the rest on the CPU to intelligently distribute the workload between the two devices.
+ORT is supported by 🤗 Optimum which can be used in 🤗 Transformers. You'll need to use an [

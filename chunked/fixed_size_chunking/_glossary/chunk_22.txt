@@ -1,0 +1,6 @@
+assification]), the model expects a tensor of dimension
+  (batch_size) with each value of the batch corresponding to the expected label of the entire sequence.
+For token classification models, ([BertForTokenClassification]), the model expects a tensor of dimension
+  (batch_size, seq_length) with each value corresponding to the expected label of each individual token.
+For masked language modeling, ([BertForMaskedLM]), the model expects a tensor of dimension (batch_size,
+  seq_length) with each value correspo

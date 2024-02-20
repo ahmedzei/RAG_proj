@@ -1,0 +1,14 @@
+nit function, training arguments, training and test datasets, and evaluation function:
+
+trainer = Trainer(
+     model=None,
+     args=training_args,
+     train_dataset=small_train_dataset,
+     eval_dataset=small_eval_dataset,
+     compute_metrics=compute_metrics,
+     tokenizer=tokenizer,
+     model_init=model_init,
+     data_collator=data_collator,
+ )
+
+Call hyperparameter search, get the best trial parameters, backend could be "optuna"/"sigopt"/"wandb"/"ray". direction can be"minimize" or "maximize", whic

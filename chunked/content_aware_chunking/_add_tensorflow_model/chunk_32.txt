@@ -1,0 +1,7 @@
+Regardless of the issue, don't hesitate to ask for help in your draft pull request if
+you're stuck.
+When all tests pass, congratulations, your model is nearly ready to be added to the 🤗 Transformers library! 🎉
+6.-7. Ensure everyone can use your model
+6. Submit the pull request
+Once you're done with the implementation and the tests, it's time to submit a pull request. Before pushing your code,
+run our code formatting utility, make fixup 🪄.

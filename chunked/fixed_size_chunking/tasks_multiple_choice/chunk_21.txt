@@ -1,0 +1,15 @@
+alidation_set)
+
+Specify where to push your model and tokenizer in the [~transformers.PushToHubCallback]:
+
+from transformers.keras_callbacks import PushToHubCallback
+push_to_hub_callback = PushToHubCallback(
+     output_dir="my_awesome_model",
+     tokenizer=tokenizer,
+ )
+
+Then bundle your callbacks together:
+
+callbacks = [metric_callback, push_to_hub_callback]
+
+Finally, you're ready to start training your model! Call fit with your training and validation datasets, the number of epochs, and your callbacks to

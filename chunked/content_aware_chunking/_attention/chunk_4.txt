@@ -1,0 +1,9 @@
+This is shown in Figure 2d of the paper, see below for a sample attention mask:
+
+Using those attention matrices with less parameters then allows the model to have inputs having a bigger sequence
+length.
+Other tricks
+Axial positional encodings
+Reformer uses axial positional encodings: in traditional transformer models, the positional encoding
+E is a matrix of size \(l\) by \(d\), \(l\) being the sequence length and \(d\) the dimension of the
+hidden state.

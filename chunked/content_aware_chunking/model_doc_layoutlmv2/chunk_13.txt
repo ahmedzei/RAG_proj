@@ -1,0 +1,5 @@
+More generally, the last hidden states
+  will have a shape of seq_length + image_feature_pool_shape[0] *
+  config.image_feature_pool_shape[1].
+When calling [~transformers.LayoutLMv2Model.from_pretrained], a warning will be printed with a long list of
+  parameter names that are not initialized.

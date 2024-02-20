@@ -1,0 +1,6 @@
+FSDP is integrated with the Accelerate, a library for easily managing training in distributed environments, which means it is available for use from the [Trainer] class.
+Before you start, make sure Accelerate is installed and at least PyTorch 2.1.0 or newer.
+
+pip install accelerate
+FSDP configuration
+To start, run the accelerate config command to create a configuration file for your training environment.

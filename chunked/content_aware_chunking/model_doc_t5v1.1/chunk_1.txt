@@ -1,0 +1,14 @@
+The original code can be
+found here.
+Usage tips
+One can directly plug in the weights of T5v1.1 into a T5 model, like so:
+thon
+
+from transformers import T5ForConditionalGeneration
+model = T5ForConditionalGeneration.from_pretrained("google/t5-v1_1-base")
+
+T5 Version 1.1 includes the following improvements compared to the original T5 model:
+
+GEGLU activation in the feed-forward hidden layer, rather than ReLU. See this paper.
+
+Dropout was turned off in pre-training (quality win).

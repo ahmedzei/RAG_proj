@@ -1,0 +1,7 @@
+tes (optional): the hidden states of the model, for each generation step
+attentions (optional): the attention weights of the model, for each generation step
+
+Here we have the scores since we passed along output_scores=True, but we don't have hidden_states and
+attentions because we didn't pass output_hidden_states=True or output_attentions=True.
+You can access each attribute as you would usually do, and if that attribute has not been returned by the model, you
+will get None. Here for instance generation_outp

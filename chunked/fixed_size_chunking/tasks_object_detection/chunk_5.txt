@@ -1,0 +1,15 @@
+he dataset.
+
+import numpy as np
+import os
+from PIL import Image, ImageDraw
+image = cppe5["train"][0]["image"]
+annotations = cppe5["train"][0]["objects"]
+draw = ImageDraw.Draw(image)
+categories = cppe5["train"].features["objects"].feature["category"].names
+id2label = {index: x for index, x in enumerate(categories, start=0)}
+label2id = {v: k for k, v in id2label.items()}
+for i in range(len(annotations["id"])):
+     box = annotations["bbox"][i]
+     class_idx = annotations["category"][i]
+     x, y, w, h = tupl

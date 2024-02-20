@@ -1,0 +1,3 @@
+to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+As DiT's architecture is equivalent to that of BEiT, one can refer to BEiT's documentation page for all tips, code examples and notebooks.

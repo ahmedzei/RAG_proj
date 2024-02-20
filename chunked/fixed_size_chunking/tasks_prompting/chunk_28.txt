@@ -1,0 +1,6 @@
+l on such "zero-shot" tasks. However, you may find that your task has more complexity or nuance, and, perhaps, 
+you have some requirements for the output that the model doesn't catch on just from the instructions. In this case, you can 
+try the technique called few-shot prompting. 
+In few-shot prompting, we provide examples in the prompt giving the model more context to improve the performance. 
+The examples condition the model to generate the output following the patterns in the examples.
+Here's an example

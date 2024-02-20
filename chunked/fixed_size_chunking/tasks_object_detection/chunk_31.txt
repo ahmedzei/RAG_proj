@@ -1,0 +1,12 @@
+ge"].width,
+                 "height": example["image"].height,
+                 "file_name": f"{example['image_id']}.png",
+             }
+         )
+         output_json["annotations"].extend(ann)
+     output_json["categories"] = categories_json
+     with open(path_anno, "w") as file:
+         json.dump(output_json, file, ensure_ascii=False, indent=4)
+     for im, img_id in zip(cppe5["image"], cppe5["image_id"]):
+         path_img = os.path.join(path_output_cppe5, f"{img_id}.png")
+         im.save(path_img

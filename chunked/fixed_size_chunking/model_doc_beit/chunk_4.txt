@@ -1,0 +1,6 @@
+upervised way rather than supervised. They
+  outperform both the original model (ViT) as well as Data-efficient Image Transformers (DeiT) when fine-tuned on ImageNet-1K and CIFAR-100. You can check out demo notebooks regarding inference as well as
+  fine-tuning on custom data here (you can just replace
+  [ViTFeatureExtractor] by [BeitImageProcessor] and
+  [ViTForImageClassification] by [BeitForImageClassification]).
+There's also a demo notebook available which showcases how to combine DALL-E's image tokeniz

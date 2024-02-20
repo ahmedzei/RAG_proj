@@ -1,0 +1,20 @@
+
+         [False, False, False, , False, False, False],
+         ,
+'scores': tensor([0.9972, 0.9917,
+        ,
+}
+We can visualize them like this:
+thon
+import matplotlib.pyplot as plt
+plt.imshow(image, cmap='gray')
+for i, mask in enumerate(masks["masks"]):
+    plt.imshow(mask, cmap='viridis', alpha=0.1, vmin=0, vmax=1)
+plt.axis('off')
+plt.show()
+
+Below is the original image in grayscale with colorful maps overlaid. Very impressive.
+
+Model Inference
+Point Prompting
+You can also use the model without the pipel

@@ -1,0 +1,10 @@
+Enable sampling with do_sample=True, and you can learn more about this topic in this blog post.
+
+Set seed or reproducibility -- you don't need this unless you want full reproducibility
+from transformers import set_seed
+set_seed(42)
+model_inputs = tokenizer(["I am a cat."], return_tensors="pt").to("cuda")
+LLM + greedy decoding = repetitive, boring output
+generated_ids = model.generate(**model_inputs)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+'I am a cat. I am a cat. I am a cat.

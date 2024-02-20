@@ -1,0 +1,8 @@
+
+Perplexity of fixed-length models
+[[open-in-colab]]
+Perplexity (PPL) is one of the most common metrics for evaluating language models. Before diving in, we should note
+that the metric applies specifically to classical language models (sometimes called autoregressive or causal language
+models) and is not well defined for masked language models like BERT (see summary of the models).
+Perplexity is defined as the exponentiated average negative log-likelihood of a sequence. If we have a tokenized
+sequence \(X =

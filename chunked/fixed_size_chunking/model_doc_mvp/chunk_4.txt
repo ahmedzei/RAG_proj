@@ -1,0 +1,12 @@
+kenizer(
+     "Summarize: You may want to stick it to your boss and leave your job, but don't do it if these are your reasons.",
+     return_tensors="pt",
+ )
+generated_ids = model.generate(**inputs)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+["Why You Shouldn't Quit Your Job"]
+generated_ids = model_with_prompt.generate(**inputs)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+["Don't do it if these are your reasons"]
+
+For data-to-text generation, it is an example to use 

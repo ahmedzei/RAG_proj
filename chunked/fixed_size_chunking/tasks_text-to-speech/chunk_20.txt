@@ -1,0 +1,6 @@
+ults, we recommend training an X-vector model on the target speech first. This will ensure that the model 
+is better able to capture the unique voice characteristics present in the Dutch language.
+Processing the dataset
+Finally, let's process the data into the format the model expects. Create a prepare_dataset function that takes in a 
+single example and uses the SpeechT5Processor object to tokenize the input text and load the target audio into a log-mel spectrogram. 
+It should also add the speaker embeddin

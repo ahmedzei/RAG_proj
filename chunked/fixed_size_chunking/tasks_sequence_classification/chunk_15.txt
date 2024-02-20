@@ -1,0 +1,7 @@
+ure the model for training with compile. Note that Transformers models all have a default task-relevant loss function, so you don't need to specify one unless you want to:
+
+import tensorflow as tf
+model.compile(optimizer=optimizer)  # No loss argument!
+
+The last two things to setup before you start training is to compute the accuracy from the predictions, and provide a way to push your model to the Hub. Both are done by using Keras callbacks.
+Pass your compute_metrics function to [~transformers.KerasMetricC

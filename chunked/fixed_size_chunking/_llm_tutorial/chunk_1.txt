@@ -1,0 +1,4 @@
+ke your model behave as you'd expect on your task. That is why we have a [~generation.GenerationConfig] file associated with each model, which contains a good default generative parameterization and is loaded alongside your model.
+Let's talk code!
+
+If you're interested in basic LLM usage, our high-level Pipeline interface is a great starting point. However, LLMs often require advanced features like quantization and fine control of the token selection step, which is best done through [~generation.GenerationM

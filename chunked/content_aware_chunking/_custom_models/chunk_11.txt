@@ -1,0 +1,8 @@
+The line that sets the config_class is not mandatory, unless
+you want to register your model with the auto classes (see last section).
+
+If your model is very similar to a model inside the library, you can re-use the same configuration as this model.
+
+You can have your model return anything you want, but returning a dictionary like we did for
+ResnetModelForImageClassification, with the loss included when labels are passed, will make your model directly
+usable inside the [Trainer] class.

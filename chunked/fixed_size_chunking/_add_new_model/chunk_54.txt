@@ -1,0 +1,9 @@
+correct the code iteratively with the conversion script as described in the next section. The only thing that
+has to work at this point is that you can instantiate the 🤗 Transformers implementation of brand_new_bert, i.e. the
+following command should work:
+thon
+from transformers import BrandNewBertModel, BrandNewBertConfig
+model = BrandNewBertModel(BrandNewBertConfig())
+
+The above command will create a model according to the default parameters as defined in BrandNewBertConfig() with
+random weights, thus mak

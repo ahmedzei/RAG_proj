@@ -1,0 +1,5 @@
+g to any model size.
+
+Feel free to check out the API reference for these other [Trainer]-type classes to learn more about when to use which one. In general, [Trainer] is the most versatile option and is appropriate for a broad spectrum of tasks. [Seq2SeqTrainer] is designed for sequence-to-sequence tasks and [~trl.SFTTrainer] is designed for training language models.
+
+Before you start, make sure Accelerate - a library for enabling and running PyTorch training across distributed environments - is installed.

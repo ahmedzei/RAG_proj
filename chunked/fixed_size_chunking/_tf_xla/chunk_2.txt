@@ -1,0 +1,6 @@
+ed-up is very much model-dependent, for TensorFlow text generation models inside 🤗 Transformers, we noticed a speed-up of ~100x. This document will explain how you can use XLA for these models to get the maximum amount of performance. We’ll also provide links to additional resources if you’re interested to learn more about the benchmarks and our design philosophy behind the XLA integration.
+Running TF functions with XLA
+Let us consider the following model in TensorFlow:
+
+import tensorflow as tf
+model = tf.k

@@ -1,0 +1,4 @@
+This model was contributed by nielsr.
+The original code can be found here.
+Usage example
+OWLv2 is, just like its predecessor OWL-ViT, a zero-shot text-conditioned object detection model. OWL-ViT uses CLIP as its multi-modal backbone, with a ViT-like Transformer to get visual features and a causal language model to get the text features.

@@ -1,0 +1,6 @@
+-encode the chat history again from scratch (as e.g. would be the case when using an encoder-decoder architecture).
+In transformers, a generate call will return past_key_values when return_dict_in_generate=True is passed, in addition to the default use_cache=True. Note that it is not yet available through the pipeline interface.
+thon
+Generation as usual
+prompt = system_prompt + "Question: Please write a function in Python that transforms bytes to Giga bytes.\n\nAnswer: Here"
+model_inputs = tokenizer(prompt,

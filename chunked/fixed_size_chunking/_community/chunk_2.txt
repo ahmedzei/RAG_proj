@@ -1,0 +1,5 @@
+ensorflow 2 using SQUAD | Muhammad Harris | |
+| Train T5 on TPU  | How to train T5 on SQUAD with Transformers and Nlp | Suraj Patil | |
+| Fine-tune T5 for Classification and Multiple Choice  | How to fine-tune T5 for classification and multiple choice tasks using a text-to-text format with PyTorch Lightning |  Suraj Patil |  |
+| Fine-tune DialoGPT on New Datasets and Languages  | How to fine-tune the DialoGPT model on a new dataset for open-dialog conversational chatbots |  Nathan Cooper |  |
+| Long Sequenc

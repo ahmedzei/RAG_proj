@@ -1,0 +1,45 @@
+
+Wav2Vec2-Conformer
+Overview
+The Wav2Vec2-Conformer was added to an updated version of fairseq S2T: Fast Speech-to-Text Modeling with fairseq by Changhan Wang, Yun Tang, Xutai Ma, Anne Wu, Sravya Popuri, Dmytro Okhonko, Juan Pino.
+The official results of the model can be found in Table 3 and Table 4 of the paper.
+The Wav2Vec2-Conformer weights were released by the Meta AI team within the Fairseq library.
+This model was contributed by patrickvonplaten.
+The original code can be found here.
+Usage tips
+
+Wav2Vec2-Conformer follows the same architecture as Wav2Vec2, but replaces the Attention-block with a Conformer-block
+  as introduced in Conformer: Convolution-augmented Transformer for Speech Recognition.
+For the same number of layers, Wav2Vec2-Conformer requires more parameters than Wav2Vec2, but also yields 
+an improved word error rate.
+Wav2Vec2-Conformer uses the same tokenizer and feature extractor as Wav2Vec2.
+Wav2Vec2-Conformer can use either no relative position embeddings, Transformer-XL-like position embeddings, or
+  rotary position embeddings by setting the correct config.position_embeddings_type.
+
+Resources
+
+Audio classification task guide
+Automatic speech recognition task guide
+
+Wav2Vec2ConformerConfig
+[[autodoc]] Wav2Vec2ConformerConfig
+Wav2Vec2Conformer specific outputs
+[[autodoc]] models.wav2vec2_conformer.modeling_wav2vec2_conformer.Wav2Vec2ConformerForPreTrainingOutput
+Wav2Vec2ConformerModel
+[[autodoc]] Wav2Vec2ConformerModel
+    - forward
+Wav2Vec2ConformerForCTC
+[[autodoc]] Wav2Vec2ConformerForCTC
+    - forward
+Wav2Vec2ConformerForSequenceClassification
+[[autodoc]] Wav2Vec2ConformerForSequenceClassification
+    - forward
+Wav2Vec2ConformerForAudioFrameClassification
+[[autodoc]] Wav2Vec2ConformerForAudioFrameClassification
+    - forward
+Wav2Vec2ConformerForXVector
+[[autodoc]] Wav2Vec2ConformerForXVector
+    - forward
+Wav2Vec2ConformerForPreTraining
+[[autodoc]] Wav2Vec2ConformerForPreTraining
+    - forward

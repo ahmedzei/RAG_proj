@@ -1,0 +1,2 @@
+While the required peak memory for the \( \mathbf{QK}^T \) matrix is significantly reduced, holding the key-value cache in memory can become very memory expensive for long input sequences or multi-turn chat. Remember that the key-value cache needs to store the key-value vectors for all previous input vectors \( \mathbf{x}_i \text{, for } i \in {1, \ldots, c - 1} \) for all self-attention layers and for all attention heads.
+Let's compute the number of float values that need to be stored in the key-value cach

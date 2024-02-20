@@ -1,0 +1,5 @@
+This token helps the model learn how to encode a representation of the image.
+
+The last thing to add to the patch and learnable embeddings are the position embeddings because the model doesn't know how the image patches are ordered. The position embeddings are also learnable and have the same size as the patch embeddings. Finally, all of the embeddings are passed to the Transformer encoder.
+
+The output, specifically only the output with the [CLS] token, is passed to a multilayer perceptron head (MLP).

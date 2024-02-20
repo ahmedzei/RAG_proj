@@ -1,0 +1,11 @@
+taset.
+To keep things simple in this guide, we remove these images from the data.
+
+remove_idx = [590, 821, 822, 875, 876, 878, 879]
+keep = [i for i in range(len(cppe5["train"])) if i not in remove_idx]
+cppe5["train"] = cppe5["train"].select(keep)
+
+Preprocess the data
+To finetune a model, you must preprocess the data you plan to use to match precisely the approach used for the pre-trained model.
+[AutoImageProcessor] takes care of processing image data to create pixel_values, pixel_mask, and
+labels that a DET

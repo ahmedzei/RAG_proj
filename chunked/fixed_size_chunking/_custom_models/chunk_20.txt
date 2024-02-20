@@ -1,0 +1,13 @@
+ file
+contains the code of ResnetModel and ResnetModelForImageClassification.
+.
+└── resnet_model
+    ├── __init__.py
+    ├── configuration_resnet.py
+    └── modeling_resnet.py
+The __init__.py can be empty, it's just there so that Python detects resnet_model can be use as a module.
+
+If copying a modeling files from the library, you will need to replace all the relative imports at the top of the file
+to import from the transformers package.
+
+Note that you can re-use (or subclass) an existing configuration/mod

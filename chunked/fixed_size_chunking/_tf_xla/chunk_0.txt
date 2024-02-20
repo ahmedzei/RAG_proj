@@ -1,0 +1,6 @@
+
+XLA Integration for TensorFlow Models
+[[open-in-colab]]
+Accelerated Linear Algebra, dubbed XLA, is a compiler for accelerating the runtime of TensorFlow Models. From the official documentation:
+XLA (Accelerated Linear Algebra) is a domain-specific compiler for linear algebra that can accelerate TensorFlow models with potentially no source code changes.
+Using XLA in TensorFlow is simple – it comes packaged inside the tensorflow library, and it can be triggered with the jit_compile argument in any graph-crea

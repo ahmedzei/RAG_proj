@@ -1,0 +1,4 @@
+In vision, on top of ongoing efforts into plain transformers, hierarchical transformers have
+also gained significant attention, thanks to their performance and easy integration into existing frameworks.
+These models typically employ localized attention mechanisms, such as the sliding-window Neighborhood Attention (NA)
+or Swin Transformer's Shifted Window Self Attention.

@@ -1,0 +1,14 @@
+del = TFTapasForQuestionAnswering.from_pretrained("google/tapas-base", config=config)
+optimizer = tf.keras.optimizers.Adam(learning_rate=5e-5)
+for epoch in range(2):  # loop over the dataset multiple times
+     for batch in train_dataloader:
+         # get the inputs;
+         input_ids = batch[0]
+         attention_mask = batch[1]
+         token_type_ids = batch[4]
+         labels = batch[-1]
+         numeric_values = batch[2]
+         numeric_values_scale = batch[3]
+         float_answer = batch[6]
+
+     

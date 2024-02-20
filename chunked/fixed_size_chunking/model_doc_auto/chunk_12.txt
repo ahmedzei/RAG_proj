@@ -1,0 +1,17 @@
+[autodoc]] AutoModelForAudioFrameClassification
+AutoModelForCTC
+[[autodoc]] AutoModelForCTC
+AutoModelForSpeechSeq2Seq
+[[autodoc]] AutoModelForSpeechSeq2Seq
+TFAutoModelForSpeechSeq2Seq
+[[autodoc]] TFAutoModelForSpeechSeq2Seq
+FlaxAutoModelForSpeechSeq2Seq
+[[autodoc]] FlaxAutoModelForSpeechSeq2Seq
+AutoModelForAudioXVector
+[[autodoc]] AutoModelForAudioXVector
+AutoModelForTextToSpectrogram
+[[autodoc]] AutoModelForTextToSpectrogram
+AutoModelForTextToWaveform
+[[autodoc]] AutoModelForTextToWaveform
+Multimodal
+The f

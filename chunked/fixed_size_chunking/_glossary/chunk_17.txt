@@ -1,0 +1,11 @@
+or inference tutorial to learn how to perform inference with 🤗 Transformers.
+input IDs
+The input ids are often the only required parameters to be passed to the model as input. They are token indices,
+numerical representations of tokens building the sequences that will be used as input by the model.
+
+Each tokenizer works differently but the underlying mechanism remains the same. Here's an example using the BERT
+tokenizer, which is a WordPiece tokenizer:
+thon
+
+from transformers import BertTokenizer
+tokenizer 

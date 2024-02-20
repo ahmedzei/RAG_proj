@@ -1,0 +1,15 @@
+salLM
+[[autodoc]] LlamaForCausalLM
+    - forward
+LlamaForSequenceClassification
+[[autodoc]] LlamaForSequenceClassification
+    - forward
+LlamaForQuestionAnswering
+[[autodoc]] LlamaForQuestionAnswering
+    - forward
+FlaxLlamaModel
+[[autodoc]] FlaxLlamaModel
+    - call
+FlaxLlamaForCausalLM
+[[autodoc]] FlaxLlamaForCausalLM
+    - call

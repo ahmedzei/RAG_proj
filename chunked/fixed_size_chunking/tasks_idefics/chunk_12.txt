@@ -1,0 +1,9 @@
+erate(**inputs, max_new_tokens=10, bad_words_ids=bad_words_ids)
+generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)
+print(generated_text[0])
+This is an image of the Eiffel Tower in Paris, France.
+
+Few-shot prompting
+While IDEFICS demonstrates great zero-shot results, your task may require a certain format of the caption, or come with 
+other restrictions or requirements that increase task's complexity. Few-shot prompting can be used to enable in-context learning.
+By providing exa

@@ -1,0 +1,9 @@
+ure whether the model you wish to use already has a corresponding TensorFlow architecture?
+ 
+Check the model_type field of the config.json of your model of choice
+(example). If the corresponding model folder in
+🤗 Transformers has a file whose name starts with "modeling_tf", it means that it has a corresponding TensorFlow
+architecture (example).
+
+Step-by-step guide to add TensorFlow model architecture code
+There are many ways to design a large model architecture, and multiple ways of implementing said design

@@ -1,0 +1,23 @@
+)
+def remove_non_ascii(s: str) -> str:
+    """ Remove non-ASCII characters from a string.
+
+Args:
+    s: The string to remove non-ASCII characters from.
+
+Returns:
+    The string with non-ASCII characters removed.
+"""
+result = ""
+for c in s:
+    if ord(c) < 128:
+        result += c
+return result
+
+If you only want the infilled part:
+thon
+
+from transformers import pipeline
+import torch
+generator = pipeline("text-generation",model="codellama/CodeLlama-7b-hf",torch_dtype=torch.float16, device_map="auto")
+generato

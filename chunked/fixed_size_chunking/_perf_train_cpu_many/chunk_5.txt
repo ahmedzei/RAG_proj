@@ -1,0 +1,9 @@
+se version < 1.12.0
+
+torch_ccl_path=$(python -c "import torch; import torch_ccl; import os;  print(os.path.abspath(os.path.dirname(torch_ccl.__file__)))")
+source $torch_ccl_path/env/setvars.sh
+Intel® Extension for PyTorch installation
+Intel Extension for PyTorch (IPEX) provides performance optimizations for CPU training with both Float32 and BFloat16 (refer to the single CPU section to learn more).
+The following "Usage in Trainer" takes mpirun in Intel® MPI library as an example.
+Usage in Trainer
+To enable 

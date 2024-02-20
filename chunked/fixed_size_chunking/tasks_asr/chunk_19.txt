@@ -1,0 +1,9 @@
+eech recognition, take a look at this blog post for English ASR and this post for multilingual ASR.
+
+Inference
+Great, now that you've finetuned a model, you can use it for inference!
+Load an audio file you'd like to run inference on. Remember to resample the sampling rate of the audio file to match the sampling rate of the model if you need to!
+
+from datasets import load_dataset, Audio
+dataset = load_dataset("PolyAI/minds14", "en-US", split="train")
+dataset = dataset.cast_column("audio", Audio(sampling_rate

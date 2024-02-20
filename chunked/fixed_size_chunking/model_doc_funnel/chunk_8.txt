@@ -1,0 +1,23 @@
+ FunnelForSequenceClassification
+    - forward
+FunnelForMultipleChoice
+[[autodoc]] FunnelForMultipleChoice
+    - forward
+FunnelForTokenClassification
+[[autodoc]] FunnelForTokenClassification
+    - forward
+FunnelForQuestionAnswering
+[[autodoc]] FunnelForQuestionAnswering
+    - forward
+
+TFFunnelBaseModel
+[[autodoc]] TFFunnelBaseModel
+    - call
+TFFunnelModel
+[[autodoc]] TFFunnelModel
+    - call
+TFFunnelModelForPreTraining
+[[autodoc]] TFFunnelForPreTraining
+    - call
+TFFunnelForMaskedLM
+[[autodoc]] TFFunnelFo

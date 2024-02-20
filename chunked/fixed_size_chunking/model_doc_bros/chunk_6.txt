@@ -1,0 +1,5 @@
+ or better performance compared to previous methods on four KIE benchmarks (FUNSD, SROIE, CORD, and SciTSR) without relying on visual features. This paper also reveals two real-world challenges in KIE tasks-(1) minimizing the error from incorrect text ordering and (2) efficient learning from fewer downstream examples-and demonstrates the superiority of BROS over previous methods.*
+This model was contributed by jinho8345. The original code can be found here.
+Usage tips and examples
+
+[~transformers.BrosModel.

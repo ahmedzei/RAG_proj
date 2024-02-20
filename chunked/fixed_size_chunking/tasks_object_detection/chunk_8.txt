@@ -1,0 +1,4 @@
+nding boxes assume that it is in XYWH (x,y co-ordinates and width and height of the box) format. It might not work for other formats like (x1, y1, x2, y2).  
+As a final step of getting familiar with the data, explore it for potential issues. One common problem with datasets for
+object detection is bounding boxes that "stretch" beyond the edge of the image. Such "runaway" bounding boxes can raise
+errors during training and should be addressed at this stage. There are a few examples with this issue in this da

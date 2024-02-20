@@ -1,0 +1,55 @@
+So if the
+code that's buggy causes some bad state that will affect other tests, do not use xfail.
+Implementation
+
+Here is how to skip whole test unconditionally:
+
+python no-style
+@unittest.skip("this bug needs to be fixed")
+def test_feature_x():
+or via pytest:
+python no-style
+@pytest.mark.skip(reason="this bug needs to be fixed")
+or the xfail way:
+python no-style
+@pytest.mark.xfail
+def test_feature_x():
+Here's how to skip a test based on internal checks within the test:
+python
+def test_feature_x():
+    if not has_something():
+        pytest.skip("unsupported configuration")
+or the whole module:
+thon
+import pytest
+if not pytest.config.getoption("--custom-flag"):
+    pytest.skip("--custom-flag is missing, skipping tests", allow_module_level=True)
+
+or the xfail way:
+python
+def test_feature_x():
+    pytest.xfail("expected to fail until bug XYZ is fixed")
+
+Here is how to skip all tests in a module if some import is missing:
+
+python
+docutils = pytest.importorskip("docutils", minversion="0.3")
+
+Skip a test based on a condition:
+
+python no-style
+@pytest.mark.skipif(sys.version_info < (3,6), reason="requires python3.6 or higher")
+def test_feature_x():
+or:
+python no-style
+@unittest.skipIf(torch_device == "cpu", "Can't do half precision")
+def test_feature_x():
+or skip the whole module:
+python no-style
+@pytest.mark.skipif(sys.platform == 'win32', reason="does not run on windows")
+class TestClass():
+    def test_feature_x(self):
+More details, example and ways are here.
+Slow tests
+The library of tests is ever-growing, and some of the tests take minutes to run, therefore we can't afford waiting for
+an hour for the test suite to complete on CI.

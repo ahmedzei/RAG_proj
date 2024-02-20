@@ -1,0 +1,5 @@
+We build on wav2vec 2.0 which is trained by solving a contrastive task over
+masked latent speech representations and jointly learns a quantization of the latents shared across languages. The
+resulting model is fine-tuned on labeled data and experiments show that cross-lingual pretraining significantly
+outperforms monolingual pretraining. On the CommonVoice benchmark, XLSR shows a relative phoneme error rate reduction
+of 72% compared to the best known results.

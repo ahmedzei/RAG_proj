@@ -1,0 +1,6 @@
+For models hosted on the 🤗 Hub, use our 
+Model Memory Calculator, which gives you 
+accurate calculations within a few percent margin.  
+Parallelization strategy for a single Node / multi-GPU setup
+When training a model on a single node with multiple GPUs, your choice of parallelization strategy can significantly 
+impact performance.

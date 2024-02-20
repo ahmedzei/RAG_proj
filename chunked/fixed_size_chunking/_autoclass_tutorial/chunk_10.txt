@@ -1,0 +1,2 @@
+odels, the from_pretrained() method uses torch.load() which internally uses pickle and is known to be insecure. In general, never load a model that could have come from an untrusted source, or that could have been tampered with. This security risk is partially mitigated for public models hosted on the Hugging Face Hub, which are scanned for malware at each commit. See the Hub documentation for best practices like signed commit verification with GPG.
+TensorFlow and Flax checkpoints are not affected, and can 

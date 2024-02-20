@@ -1,0 +1,6 @@
+Disable it for training.
+ 
+
+model.config.use_cache = False
+
+Define the training arguments. Here we are not computing any evaluation metrics during the training process.

@@ -1,0 +1,13 @@
+g) in which case, attributes that are None are ignored.
+
+Save a model
+
+Once your model is fine-tuned, you can save it with its tokenizer using [PreTrainedModel.save_pretrained]:
+
+pt_save_directory = "./pt_save_pretrained"
+tokenizer.save_pretrained(pt_save_directory)  # doctest: +IGNORE_RESULT
+pt_model.save_pretrained(pt_save_directory)
+
+When you are ready to use the model again, reload it with [PreTrainedModel.from_pretrained]:
+
+pt_model = AutoModelForSequenceClassification.from_pretrained("./pt_save_pretra

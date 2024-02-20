@@ -1,0 +1,7 @@
+the Yelp Reviews dataset:
+
+from datasets import load_dataset
+dataset = load_dataset("yelp_review_full")
+dataset["train"][100]
+{'label': 0,
+ 'text': 'My expectations for McDonalds are t rarely high. But for one to still fail so spectacularlythat takes something special!\nThe cashier took my friends\'s order, then promptly ignored me. I had to force myself in front of a cashier who opened his register to wait on the person BEHIND me. I waited over five minutes for a gigantic order that included precisely one 

@@ -1,0 +1,9 @@
+ like IDEFICS noticed the pumpkin on the doorstep and went with a spooky Halloween story about a ghost.
+
+For longer outputs like this, you will greatly benefit from tweaking the text generation strategy. This can help 
+you significantly improve the quality of the generated output. Check out Text generation strategies 
+to learn more. 
+
+Running inference in batch mode
+All of the earlier sections illustrated IDEFICS for a single example. In a very similar fashion, you can run inference 
+for a batch of examples

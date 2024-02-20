@@ -1,0 +1,3 @@
+BlipForConditionalGeneration
+    - forward
+    - generate

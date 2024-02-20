@@ -1,0 +1,5 @@
+e, sampling the next token, appending the next token to the input sequence, and continuing to do so until the LLM produces a token that signifies that the generation has finished.
+Please have a look at Transformer's Generate Text Tutorial to get a more visual explanation of how auto-regressive generation works.
+Let's run a quick code snippet to show how auto-regressive works in practice. We will simply take the most likely next token via torch.argmax.
+thon
+input_ids = tokenizer(prompt, return_tensors="pt")[

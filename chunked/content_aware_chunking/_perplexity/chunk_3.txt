@@ -1,0 +1,9 @@
+For more
+intuition about perplexity and its relationship to Bits Per Character (BPC) and data compression, check out this
+fantastic blog post on The Gradient.
+Calculating PPL with fixed-length models
+If we weren't limited by a model's context size, we would evaluate the model's perplexity by autoregressively
+factorizing a sequence and conditioning on the entire preceding subsequence at each step, as shown below.
+
+When working with approximate models, however, we typically have a constraint on the number of tokens the model can
+process.

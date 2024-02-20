@@ -1,0 +1,10 @@
+
+BLIP
+Overview
+The BLIP model was proposed in BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation by Junnan Li, Dongxu Li, Caiming Xiong, Steven Hoi.
+BLIP is a model that is able to perform various multi-modal tasks including:
+- Visual Question Answering 
+- Image-Text retrieval (Image-text matching)
+- Image Captioning
+The abstract from the paper is the following:
+Vision-Language Pre-training (VLP) has advanced the performance for many vision-language task

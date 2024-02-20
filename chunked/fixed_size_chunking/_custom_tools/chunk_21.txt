@@ -1,0 +1,10 @@
+.toolbox["image_generator"].description
+text
+'This is a tool that creates an image according to a prompt, which is a text description. It takes an input named `prompt` which contains the image description and outputs an image.
+The name and description make use of the keywords "image", "prompt", "create" and "generate". Using these words will most likely work better here. Let's refine our prompt a bit.
+py
+agent.run("Create an image of a tree", return_code=True)
+gives:
+``text
+==Explanation from the agent==
+I 

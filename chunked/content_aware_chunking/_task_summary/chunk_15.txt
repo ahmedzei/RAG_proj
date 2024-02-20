@@ -1,0 +1,1 @@
+It is also useful for medical imaging, where the task's finer granularity can help identify abnormal cells or organ features.

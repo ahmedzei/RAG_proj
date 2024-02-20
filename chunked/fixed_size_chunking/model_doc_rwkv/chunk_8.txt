@@ -1,0 +1,6 @@
+$
+and
+$$D_{i} = e^{u + K_{i}} + \hat{D}{i} \hbox{  where  } \hat{D}{i} = e^{K_{i-1}} + e^{w + K_{i-2}} \cdots + e^{(i-2)w + K_{1}}$$
+so \(\hat{D}_{i}\) (called denominator_state in the code) satisfies
+$$\hat{D}{0} = 0 \hbox{  and  } \hat{D}{j+1} = e^{K_{j}} + e^{w} \hat{D}_{j}$$
+The actual recurrent formula used are a tiny bit more complex, as for numerical stability we don't want to compute exponentials of big numbers. Usually the softmax is not computed as is, but the exponential of the maximum term is di

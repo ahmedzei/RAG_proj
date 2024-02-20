@@ -1,0 +1,7 @@
+Go into the clone of your 🤗 Transformers' fork:
+
+cd transformers
+In the special case that you are adding a model whose architecture exactly matches the model architecture of an
+existing model you only have to add a conversion script as described in this section.
+In this case, you can just re-use the whole model architecture of the already existing model.
+Otherwise, let's start generating a new model.

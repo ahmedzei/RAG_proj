@@ -1,0 +1,9 @@
+use a tokenizer, but instead a special collator during training.
+GraphormerConfig
+[[autodoc]] GraphormerConfig
+GraphormerModel
+[[autodoc]] GraphormerModel
+    - forward
+GraphormerForGraphClassification
+[[autodoc]] GraphormerForGraphClassification
+    - forward

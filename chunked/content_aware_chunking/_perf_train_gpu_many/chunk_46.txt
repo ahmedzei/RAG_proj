@@ -1,0 +1,6 @@
+It has already been 
+discussed in ZeRO Data Parallelism. Normally it's a standalone feature that doesn't require PP or TP. 
+But it can be combined with PP and TP.
+When ZeRO-DP is combined with PP (and optionally TP) it typically enables only ZeRO stage 1 (optimizer sharding).
+While it's theoretically possible to use ZeRO stage 2 (gradient sharding) with Pipeline Parallelism, it will have negative 
+performance impacts.

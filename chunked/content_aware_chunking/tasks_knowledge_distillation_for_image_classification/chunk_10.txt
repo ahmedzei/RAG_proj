@@ -1,0 +1,11 @@
+This function will be used during the training process to compute the accuracy & f1 of our model.
+thon
+import evaluate
+import numpy as np
+accuracy = evaluate.load("accuracy")
+def compute_metrics(eval_pred):
+    predictions, labels = eval_pred
+    acc = accuracy.compute(references=labels, predictions=np.argmax(predictions, axis=1))
+    return {"accuracy": acc["accuracy"]}
+
+Let's initialize the Trainer with the training arguments we defined.

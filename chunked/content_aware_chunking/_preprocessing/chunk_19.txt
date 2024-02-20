@@ -1,0 +1,10 @@
+You can pass your processed dataset to the model now!
+
+processed_dataset["input_values"][0].shape
+(100000,)
+processed_dataset["input_values"][1].shape
+(100000,)
+
+Computer vision
+For computer vision tasks, you'll need an image processor to prepare your dataset for the model.
+Image preprocessing consists of several steps that convert images into the input expected by the model.

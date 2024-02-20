@@ -1,0 +1,4 @@
+This will automatically fix any formatting issues, which would cause
+our automatic checks to fail.
+It's now time to convert your draft pull request into a real pull request. To do so, click on the "Ready for
+review" button and add Joao (@gante) and Matt (@Rocketknight1) as reviewers.

@@ -1,0 +1,3 @@
+This simplifies the preprocessing step and allows the model to learn the most essential features.
+Audio classification
+Audio classification is a task that labels audio data from a predefined set of classes.

@@ -1,0 +1,14 @@
+ndardized to easily switch between models.
+
+Incorporate a subjective selection of promising tools for fine-tuning and investigating these models:
+
+A simple and consistent way to add new tokens to the vocabulary and embeddings for fine-tuning.
+
+Simple ways to mask and prune Transformer heads.
+
+Easily switch between PyTorch, TensorFlow 2.0 and Flax, allowing training with one framework and inference with another.
+
+Main concepts
+The library is built around three types of classes for each model:
+
+Model classes 

@@ -1,0 +1,4 @@
+If a model's preprocessor creates more than one kind of input, pass all
+the inputs to generate(). You can learn more about the individual model's preprocessor in the corresponding model's documentation.
+The process of selecting output tokens to generate text is known as decoding, and you can customize the decoding strategy
+that the generate() method will use.

@@ -1,0 +1,8 @@
+e passing your predictions to compute, you need to convert the logits to predictions (remember all 🤗 Transformers models return logits):
+
+def compute_metrics(eval_pred):
+     logits, labels = eval_pred
+     predictions = np.argmax(logits, axis=-1)
+     return metric.compute(predictions=predictions, references=labels)
+
+If you'd like to monitor your evaluation metrics during fine-tuning, specify the evaluation_strategy parameter in your training arguments to report the evaluation metric at the end of each epo

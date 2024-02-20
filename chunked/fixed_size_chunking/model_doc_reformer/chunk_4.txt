@@ -1,0 +1,6 @@
+nd developed by the authors of this model's paper. In models that are treating very long input sequences, the
+conventional position id encodings store an embeddings vector of size \(d\) being the config.hidden_size for
+every position \(i, \ldots, n_s\), with \(n_s\) being config.max_embedding_size. This means that having
+a sequence length of \(n_s = 2^{19} \approx 0.5M\) and a config.hidden_size of \(d = 2^{10} \approx 1000\)
+would result in a position encoding matrix:
+$$X_{i,j}, \text{ with } i \in \left[1

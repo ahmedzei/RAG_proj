@@ -1,0 +1,4 @@
+For this reason, we encourage to experiment with the chunks value to 
+find the one that leads to the most efficient GPUs utilization.
+You may notice a bubble of "dead" time on the diagram that can't be parallelized because the last forward stage 
+has to wait for backward to complete the pipeline.

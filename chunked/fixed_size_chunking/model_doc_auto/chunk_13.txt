@@ -1,0 +1,12 @@
+ollowing auto classes are available for the following multimodal tasks.
+AutoModelForTableQuestionAnswering
+[[autodoc]] AutoModelForTableQuestionAnswering
+TFAutoModelForTableQuestionAnswering
+[[autodoc]] TFAutoModelForTableQuestionAnswering
+AutoModelForDocumentQuestionAnswering
+[[autodoc]] AutoModelForDocumentQuestionAnswering
+TFAutoModelForDocumentQuestionAnswering
+[[autodoc]] TFAutoModelForDocumentQuestionAnswering
+AutoModelForVisualQuestionAnswering
+[[autodoc]] AutoModelForVisualQuestionAnswering
+AutoMode

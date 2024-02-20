@@ -1,0 +1,7 @@
+BertGeneration
+Overview
+The BertGeneration model is a BERT model that can be leveraged for sequence-to-sequence tasks using
+[EncoderDecoderModel] as proposed in Leveraging Pre-trained Checkpoints for Sequence Generation
+Tasks by Sascha Rothe, Shashi Narayan, Aliaksei Severyn.
+The abstract from the paper is the following:
+Unsupervised pretraining of large neural models has recently revolutionized Natural Language Processing.

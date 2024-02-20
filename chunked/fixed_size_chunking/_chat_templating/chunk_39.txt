@@ -1,0 +1,11 @@
+led messages. Each
+message is a dictionary with two keys, role and content. You will be able to access messages in your template
+just like you can in Python, which means you can loop over it with {% for message in messages %} or access
+individual messages with, for example, {{ messages[0] }}.
+You can also use the following tips to convert your code to Jinja:
+For loops
+For loops in Jinja look like this:
+{% for message in messages %}
+{{ message['content'] }}
+{% endfor %}
+Note that whatever's inside the {{ exp

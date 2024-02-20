@@ -1,0 +1,8 @@
+arge.
+This model was contributed by shangz.
+Usage tips
+
+QDQBERT model adds fake quantization operations (pair of QuantizeLinear/DequantizeLinear ops) to (i) linear layer
+  inputs and weights, (ii) matmul inputs, (iii) residual add inputs, in BERT model.
+QDQBERT requires the dependency of Pytorch Quantization Toolkit. To install pip install pytorch-quantization --extra-index-url https://pypi.ngc.nvidia.com
+QDQBERT model can be loaded from any checkpoint of HuggingFace BERT model (for example google-bert/bert

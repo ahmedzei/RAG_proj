@@ -1,0 +1,3 @@
+ConvNeXT attempts to replicate this effect by increasing the kernel size to 7x7.
+
+ConvNeXT also makes several layer design changes that imitate Transformer models.

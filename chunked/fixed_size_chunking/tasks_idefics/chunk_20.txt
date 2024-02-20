@@ -1,0 +1,10 @@
+s image and text understanding 
+capabilities, the model can infer which category the image likely belongs to. 
+Say, we have this image of a vegetable stand: 
+
+Photo by Peter Wendt.
+We can instruct the model to classify the image into one of the categories that we have:
+
+categories = ['animals','vegetables', 'city landscape', 'cars', 'office']
+prompt = [f"Instruction: Classify the following image into a single category from the following list: {categories}.\n",
+     "https://images.unsplash.com/photo-1471193

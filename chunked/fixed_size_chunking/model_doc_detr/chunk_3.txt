@@ -1,0 +1,7 @@
+r modern detectors. DETR demonstrates accuracy and run-time performance on par with the well-established and
+highly-optimized Faster RCNN baseline on the challenging COCO object detection dataset. Moreover, DETR can be easily
+generalized to produce panoptic segmentation in a unified manner. We show that it significantly outperforms competitive
+baselines.
+This model was contributed by nielsr. The original code can be found here.
+How DETR works
+Here's a TLDR explaining how [~transformers.DetrForObjectDetectio

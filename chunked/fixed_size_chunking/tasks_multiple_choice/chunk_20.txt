@@ -1,0 +1,9 @@
+t need to specify one unless you want to:
+
+model.compile(optimizer=optimizer)  # No loss argument!
+
+The last two things to setup before you start training is to compute the accuracy from the predictions, and provide a way to push your model to the Hub. Both are done by using Keras callbacks.
+Pass your compute_metrics function to [~transformers.KerasMetricCallback]:
+
+from transformers.keras_callbacks import KerasMetricCallback
+metric_callback = KerasMetricCallback(metric_fn=compute_metrics, eval_dataset=tf_v

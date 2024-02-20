@@ -1,0 +1,7 @@
+e projecting
+  to queries and keys. For the position embeddings of the image, one can choose between fixed sinusoidal or learned
+  absolute position embeddings. By default, the parameter position_embedding_type of
+  [~transformers.DetrConfig] is set to "sine".
+During training, the authors of DETR did find it helpful to use auxiliary losses in the decoder, especially to help
+  the model output the correct number of objects of each class. If you set the parameter auxiliary_loss of
+  [~transformers.DetrConfig]

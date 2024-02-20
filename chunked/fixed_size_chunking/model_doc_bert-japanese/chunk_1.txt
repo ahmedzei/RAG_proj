@@ -1,0 +1,17 @@
+thon
+
+import torch
+from transformers import AutoModel, AutoTokenizer
+bertjapanese = AutoModel.from_pretrained("cl-tohoku/bert-base-japanese")
+tokenizer = AutoTokenizer.from_pretrained("cl-tohoku/bert-base-japanese")
+Input Japanese Text
+line = "吾輩は猫である。"
+inputs = tokenizer(line, return_tensors="pt")
+print(tokenizer.decode(inputs["input_ids"][0]))
+[CLS] 吾輩 は 猫 で ある 。 [SEP]
+outputs = bertjapanese(**inputs)
+
+Example of using a model with Character tokenization:
+thon
+
+bertjapanese = AutoModel.from_pretrained("cl

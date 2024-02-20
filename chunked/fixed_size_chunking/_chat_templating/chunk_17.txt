@@ -1,0 +1,16 @@
+t", "content": "The sun."}
+]
+chat2 = [
+    {"role": "user", "content": "Which is bigger, a virus or a bacterium?"},
+    {"role": "assistant", "content": "A bacterium."}
+]
+dataset = Dataset.from_dict({"chat": [chat1, chat2]})
+dataset = dataset.map(lambda x: {"formatted_chat": tokenizer.apply_chat_template(x["chat"], tokenize=False, add_generation_prompt=False)})
+print(dataset['formatted_chat'][0])
+And we get:text
+<|user|>
+Which is bigger, the moon or the sun?
+<|assistant|>
+The sun.
+
+From here, just continue 

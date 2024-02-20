@@ -1,0 +1,10 @@
+make sure to stop all processes that are using GPU memory. However, not all free GPU memory can be used by 
+the user. When a model is loaded to the GPU the kernels are also loaded, which can take up 1-2GB of memory. To see how 
+much it is we load a tiny tensor into the GPU which triggers the kernels to be loaded as well.
+
+import torch
+torch.ones((1, 1)).to("cuda")
+print_gpu_utilization()
+GPU memory occupied: 1343 MB.
+
+We see that the kernels alone take up 1.3GB of GPU memory. Now let's see how much space th

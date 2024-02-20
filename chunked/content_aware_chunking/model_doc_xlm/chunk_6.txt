@@ -1,0 +1,2 @@
+One of the languages is selected for each training sample, and the model input is a sentence of 256 tokens, that may span over several documents in one of those languages, with dynamic masking of the tokens.
+A combination of MLM and translation language modeling (TLM). This consists of concatenating a sentence in two different languages, with random masking.

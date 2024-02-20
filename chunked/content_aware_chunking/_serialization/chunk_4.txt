@@ -1,0 +1,1 @@
+🤗 Optimum provides support for the ONNX export by leveraging configuration objects.

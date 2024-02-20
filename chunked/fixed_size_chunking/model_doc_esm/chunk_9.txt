@@ -1,0 +1,18 @@
+ with a big thank you to Nikita Smetanin, Roshan Rao and Tom Sercu for their
+help throughout the process!
+Usage tips
+
+ESM models are trained with a masked language modeling (MLM) objective.
+The HuggingFace port of ESMFold uses portions of the openfold library. The openfold library is licensed under the Apache License 2.0.
+
+Resources
+
+Text classification task guide
+Token classification task guide
+Masked language modeling task guide
+
+EsmConfig
+[[autodoc]] EsmConfig
+    - all
+EsmTokenizer
+[[autodoc]] EsmTokeni

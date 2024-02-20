@@ -1,0 +1,2 @@
+ding pretrained model weights in [~PreTrainedModel.from_pretrained], one layer is loaded at a time and immediately partitioned to all GPUs. This is because for very large models, it isn't possible to load the weights on one GPU and then distribute them across the other GPUs due to memory limitations.
+If you encounter a model parameter weight that looks like the following, where tensor([1.]) or the parameter size is 1 instead of a larger multi-dimensional shape, this means the parameter is partitioned and th

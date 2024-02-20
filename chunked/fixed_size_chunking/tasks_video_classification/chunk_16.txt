@@ -1,0 +1,19 @@
+m", clip_duration),
+     decode_audio=False,
+     transform=train_transform,
+ )
+
+The same sequence of workflow can be applied to the validation and evaluation sets: 
+ 
+
+val_transform = Compose(
+     [
+         ApplyTransformToKey(
+             key="video",
+             transform=Compose(
+                 [
+                     UniformTemporalSubsample(num_frames_to_sample),
+                     Lambda(lambda x: x / 255.0),
+                     Normalize(mean, std),
+                     Resize(resize_to),
+  

@@ -1,0 +1,42 @@
+Data download instructions at examples/pytorch/summarization/.
+Causal language modeling task guide
+Translation task guide
+Summarization task guide
+
+PegasusConfig
+[[autodoc]] PegasusConfig
+PegasusTokenizer
+warning: add_tokens does not work at the moment.
+[[autodoc]] PegasusTokenizer
+PegasusTokenizerFast
+[[autodoc]] PegasusTokenizerFast
+
+PegasusModel
+[[autodoc]] PegasusModel
+    - forward
+PegasusForConditionalGeneration
+[[autodoc]] PegasusForConditionalGeneration
+    - forward
+PegasusForCausalLM
+[[autodoc]] PegasusForCausalLM
+    - forward
+
+TFPegasusModel
+[[autodoc]] TFPegasusModel
+    - call
+TFPegasusForConditionalGeneration
+[[autodoc]] TFPegasusForConditionalGeneration
+    - call
+
+FlaxPegasusModel
+[[autodoc]] FlaxPegasusModel
+    - call
+    - encode
+    - decode
+FlaxPegasusForConditionalGeneration
+[[autodoc]] FlaxPegasusForConditionalGeneration
+    - call
+    - encode
+    - decode
+
+.

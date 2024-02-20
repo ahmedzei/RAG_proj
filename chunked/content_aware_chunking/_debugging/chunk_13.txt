@@ -1,0 +1,2 @@
+For multiple GPUs with different architectures, list them like TORCH_CUDA_ARCH_LIST="6.1;8.6".
+It is also possible to not specify TORCH_CUDA_ARCH_LIST and the build program automatically queries the GPU architecture of the build.

@@ -1,0 +1,8 @@
+If you choose to use the "auto" option, [Trainer] sets it to the value of args.gradient_accumulation_steps.
+```yaml
+{
+    "gradient_accumulation_steps": "auto"
+}
+
+Gradient clipping
+Gradient clipping can be auto-configured or explicitly set.

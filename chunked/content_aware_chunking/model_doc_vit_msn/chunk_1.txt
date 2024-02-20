@@ -1,0 +1,6 @@
+With this setup, their method yields excellent performance in the low-shot and extreme low-shot
+regimes.
+The abstract from the paper is the following:
+We propose Masked Siamese Networks (MSN), a self-supervised learning framework for learning image representations. Our
+approach matches the representation of an image view containing randomly masked patches to the representation of the original
+unmasked image.

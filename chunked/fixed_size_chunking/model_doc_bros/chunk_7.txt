@@ -1,0 +1,7 @@
+forward] requires input_ids and bbox (bounding box). Each bounding box should be in (x0, y0, x1, y1) format (top-left corner, bottom-right corner). Obtaining of Bounding boxes depends on external OCR system. The x coordinate should be normalized by document image width, and the y coordinate should be normalized by document image height.
+
+thon
+def expand_and_normalize_bbox(bboxes, doc_width, doc_height):
+    # here, bboxes are numpy array
+# Normalize bbox -> 0 ~ 1
+bboxes[:, [0, 2]] = bboxes[:, [0, 2]] / widt

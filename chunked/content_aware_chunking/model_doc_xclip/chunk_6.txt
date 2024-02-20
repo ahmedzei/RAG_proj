@@ -1,0 +1,28 @@
+This model was contributed by nielsr.
+The original code can be found here.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with X-CLIP.
+
+Demo notebooks for X-CLIP can be found here.
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+XCLIPProcessor
+[[autodoc]] XCLIPProcessor
+XCLIPConfig
+[[autodoc]] XCLIPConfig
+    - from_text_vision_configs
+XCLIPTextConfig
+[[autodoc]] XCLIPTextConfig
+XCLIPVisionConfig
+[[autodoc]] XCLIPVisionConfig
+XCLIPModel
+[[autodoc]] XCLIPModel
+    - forward
+    - get_text_features
+    - get_video_features
+XCLIPTextModel
+[[autodoc]] XCLIPTextModel
+    - forward
+XCLIPVisionModel
+[[autodoc]] XCLIPVisionModel
+    - forward.

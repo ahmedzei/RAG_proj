@@ -1,0 +1,4 @@
+o evaluate LukeForEntityPairClassification on the TACRED dataset | Ikuya Yamada | |
+| Evaluate LUKE on CoNLL-2003, an important NER benchmark | How to evaluate LukeForEntitySpanClassification on the CoNLL-2003 dataset | Ikuya Yamada | |
+| Evaluate BigBird-Pegasus on PubMed dataset | How to evaluate BigBirdPegasusForConditionalGeneration on PubMed dataset | Vasudev Gupta |  |
+| Speech Emotion Classification with Wav2Vec2 | How to leverage a pretrained Wav2Vec2 model for Emotion Classification on the MEGA dat

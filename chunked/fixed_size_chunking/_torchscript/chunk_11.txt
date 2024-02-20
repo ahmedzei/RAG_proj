@@ -1,0 +1,16 @@
+th one line of code change to trace and optimize a TorchScript
+   model for inference in the cloud.
+Out of the box performance optimizations for improved
+   cost-performance.
+Support for Hugging Face transformers models built with either
+   PyTorch
+   or
+   TensorFlow.
+
+Implications
+Transformers models based on the BERT (Bidirectional Encoder Representations from
+Transformers)
+architecture, or its variants such as
+distilBERT and
+roBERTa run best on
+Inf1 for non-generative tasks such as extractive question a

@@ -1,0 +1,13 @@
+te the bounding boxes accordingly.
+The 🤗 Datasets library documentation has a detailed guide on how to augment images for object detection,
+and it uses the exact same dataset as an example. Apply the same approach here, resize each image to (480, 480),
+flip it horizontally, and brighten it:
+
+import albumentations
+import numpy as np
+import torch
+transform = albumentations.Compose(
+     [
+         albumentations.Resize(480, 480),
+         albumentations.HorizontalFlip(p=1.0),
+         albumentations.RandomBri

@@ -1,0 +1,13 @@
+test"] need to be formatted. However, images
+should stay as they are.
+The evaluation step requires a bit of work, but it can be split in three major steps.
+First, prepare the cppe5["test"] set: format the annotations and save the data to disk.
+
+import json
+format annotations the same as for training, no need for data augmentation
+def val_formatted_anns(image_id, objects):
+     annotations = []
+     for i in range(0, len(objects["id"])):
+         new_ann = {
+             "id": objects["id"][i],
+             

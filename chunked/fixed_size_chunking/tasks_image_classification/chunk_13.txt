@@ -1,0 +1,9 @@
+ion is ready to go now, and you'll return to it when you set up your training.
+Train
+
+If you aren't familiar with finetuning a model with the [Trainer], take a look at the basic tutorial here!
+
+You're ready to start training your model now! Load ViT with [AutoModelForImageClassification]. Specify the number of labels along with the number of expected labels, and the label mappings:
+
+from transformers import AutoModelForImageClassification, TrainingArguments, Trainer
+model = AutoModelForImageClassification.f

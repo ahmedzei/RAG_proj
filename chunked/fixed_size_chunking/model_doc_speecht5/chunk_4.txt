@@ -1,0 +1,25 @@
+sor
+[[autodoc]] SpeechT5Processor
+    - call
+    - pad
+    - from_pretrained
+    - save_pretrained
+    - batch_decode
+    - decode
+SpeechT5Model
+[[autodoc]] SpeechT5Model
+    - forward
+SpeechT5ForSpeechToText
+[[autodoc]] SpeechT5ForSpeechToText
+    - forward
+SpeechT5ForTextToSpeech
+[[autodoc]] SpeechT5ForTextToSpeech
+    - forward
+    - generate
+SpeechT5ForSpeechToSpeech
+[[autodoc]] SpeechT5ForSpeechToSpeech
+    - forward
+    - generate_speech
+SpeechT5HifiGan
+[[autodoc]] SpeechT5HifiGan
+    - forward

@@ -1,0 +1,6 @@
+The reconstruction is done efficiently via a pre-fetch.
+Then the whole process is repeated for layer Lb, then Lc forward-wise, and then backward Lc -> Lb -> La.
+
+This mechanism is similar to an efficient group backpacking strategy: person A carries the tent, person B carries the stove,
+and person C carries the axe. Each night they all share what they have with others and get from others what they don't have, 
+and in the morning they pack up their allocated type of gear and continue on their way.

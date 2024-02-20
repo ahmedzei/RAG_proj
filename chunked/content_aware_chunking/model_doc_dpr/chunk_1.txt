@@ -1,0 +1,6 @@
+It was
+introduced in Dense Passage Retrieval for Open-Domain Question Answering by
+Vladimir Karpukhin, Barlas Oğuz, Sewon Min, Patrick Lewis, Ledell Wu, Sergey Edunov, Danqi Chen, Wen-tau Yih.
+The abstract from the paper is the following:
+Open-domain question answering relies on efficient passage retrieval to select candidate contexts, where traditional
+sparse vector space models, such as TF-IDF or BM25, are the de facto method.

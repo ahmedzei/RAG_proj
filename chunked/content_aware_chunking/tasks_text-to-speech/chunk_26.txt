@@ -1,0 +1,2 @@
+This collator will pad shorter sequences with padding 
+tokens, ensuring that all examples have the same length. For the spectrogram labels, the padded portions are replaced with the special value -100.

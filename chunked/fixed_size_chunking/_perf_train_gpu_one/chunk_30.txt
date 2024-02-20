@@ -1,0 +1,15 @@
+rm])
+decay_parameters = [name for name in decay_parameters if "bias" not in name]
+optimizer_grouped_parameters = [
+    {
+        "params": [p for n, p in model.named_parameters() if n in decay_parameters],
+        "weight_decay": training_args.weight_decay,
+    },
+    {
+        "params": [p for n, p in model.named_parameters() if n not in decay_parameters],
+        "weight_decay": 0.0,
+    },
+]
+optimizer_kwargs = {
+    "betas": (training_args.adam_beta1, training_args.adam_beta2),
+    "eps": training_args.a

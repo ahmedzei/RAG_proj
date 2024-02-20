@@ -1,0 +1,13 @@
+ect repository checkout are allowed if
+an explicit tmp_dir is used, so that by mistake no /tmp or similar important part of the filesystem will
+get nuked. i.e. please always pass paths that start with ./.
+
+Each test can register multiple temporary directories and they all will get auto-removed, unless requested
+otherwise.
+
+Temporary sys.path override
+If you need to temporary override sys.path to import from another test for example, you can use the
+ExtendSysPath context manager. Example:
+thon
+import os
+from

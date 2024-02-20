@@ -1,0 +1,17 @@
+Some models, like Bark, 
+can also be conditioned to generate non-verbal communications such as laughing, sighing and crying, or even add music.
+Here's an example of how you would use the "text-to-speech" pipeline with Bark: 
+
+from transformers import pipeline
+pipe = pipeline("text-to-speech", model="suno/bark-small")
+text = "[clears throat] This is a test  and I just took a long pause."
+output = pipe(text)
+
+Here's a code snippet you can use to listen to the resulting audio in a notebook: 
+thon
+
+from IPython.display import Audio
+Audio(output["audio"], rate=output["sampling_rate"])
+
+For more examples on what Bark and other pretrained TTS models can do, refer to our 
+Audio course.

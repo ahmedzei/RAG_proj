@@ -1,0 +1,8 @@
+d = subfinder(words, example["answer"].lower().split())
+print("Question: ", example["question"])
+print("Words:", words)
+print("Answer: ", example["answer"])
+print("start_index", word_idx_start)
+print("end_index", word_idx_end)
+Question:  Who is in  cc in this letter?
+Words: ['wie', 'baw', 'brown', '&', 'williamson', 'tobacco', 'corporation', 'research', '&', 'development', 'internal', 'correspondence', 'to:', 'r.', 'h.', 'honeycutt', 'ce:', 't.f.', 'riehl', 'from:', '.', 'c.j.', 'cook', 'date:', 'may', '8,'

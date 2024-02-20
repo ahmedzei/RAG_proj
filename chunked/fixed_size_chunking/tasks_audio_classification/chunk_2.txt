@@ -1,0 +1,13 @@
+ 450
+    })
+    test: Dataset({
+        features: ['path', 'audio', 'transcription', 'english_transcription', 'intent_class', 'lang_id'],
+        num_rows: 113
+    })
+})
+
+While the dataset contains a lot of useful information, like lang_id and english_transcription, you'll focus on the audio and intent_class in this guide. Remove the other columns with the [~datasets.Dataset.remove_columns] method:
+
+minds = minds.remove_columns(["path", "transcription", "english_transcription", "lang_id"])
+
+Take a look at a

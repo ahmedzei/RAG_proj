@@ -1,0 +1,13 @@
+ use .astype(str) on a dataframe to turn it into text-only data.
+Of course, this only shows how to encode a single training example. It is advised to create a dataloader to iterate over batches:
+
+import torch
+import pandas as pd
+tsv_path = "your_path_to_the_tsv_file"
+table_csv_path = "your_path_to_a_directory_containing_all_csv_files"
+class TableDataset(torch.utils.data.Dataset):
+     def init(self, data, tokenizer):
+         self.data = data
+         self.tokenizer = tokenizer
+
+     def getitem(self, idx):

@@ -1,0 +1,4 @@
+The model takes as input multimodal information including the
+semantic, phonetic and visual features. We show all these features are important to the model robustness since the
+attack can be performed in all the three forms. Across 5 Chinese NLU tasks, ROCBERT outperforms strong baselines under
+three blackbox adversarial algorithms without sacrificing the performance on clean testset.

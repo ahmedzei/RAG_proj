@@ -1,0 +1,80 @@
+
+LLaMA
+Overview
+The LLaMA model was proposed in LLaMA: Open and Efficient Foundation Language Models by Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, Guillaume Lample. It is a collection of foundation language models ranging from 7B to 65B parameters.
+The abstract from the paper is the following:
+*We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters. We train our models on trillions of tokens, and show that it is possible to train state-of-the-art models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets. In particular, LLaMA-13B outperforms GPT-3 (175B) on most benchmarks, and LLaMA-65B is competitive with the best models, Chinchilla-70B and PaLM-540B. We release all our models to the research community. *
+This model was contributed by zphang with contributions from BlackSamorez. The code of the implementation in Hugging Face is based on GPT-NeoX here. The original code of the authors can be found here.
+Usage tips
+
+Weights for the LLaMA models can be obtained from by filling out this form
+After downloading the weights, they will need to be converted to the Hugging Face Transformers format using the conversion script. The script can be called with the following (example) command:
+
+python src/transformers/models/llama/convert_llama_weights_to_hf.py \
+    --input_dir /path/to/downloaded/llama/weights --model_size 7B --output_dir /output/path
+
+After conversion, the model and tokenizer can be loaded via:
+
+thon
+from transformers import LlamaForCausalLM, LlamaTokenizer
+tokenizer = LlamaTokenizer.from_pretrained("/output/path")
+model = LlamaForCausalLM.from_pretrained("/output/path")
+
+Note that executing the script requires enough CPU RAM to host the whole model in float16 precision (even if the biggest versions
+come in several checkpoints they each contain a part of each weight of the model, so we need to load them all in RAM). For the 65B model, it's thus 130GB of RAM needed.
+
+The LLaMA tokenizer is a BPE model based on sentencepiece. One quirk of sentencepiece is that when decoding a sequence, if the first token is the start of the word (e.g. "Banana"), the tokenizer does not prepend the prefix space to the string.
+
+This model was contributed by zphang with contributions from BlackSamorez. The code of the implementation in Hugging Face is based on GPT-NeoX here. The original code of the authors can be found here. The Flax version of the implementation was contributed by afmck with the code in the implementation based on Hugging Face's Flax GPT-Neo.
+Based on the original LLaMA model, Meta AI has released some follow-up works:
+
+Llama2: Llama2 is an improved version of Llama with some architectural tweaks (Grouped Query Attention), and is pre-trained on 2Trillion tokens. Refer to the documentation of Llama2 which can be found here.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with LLaMA. If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A notebook on how to use prompt tuning to adapt the LLaMA model for text classification task. 🌎
+
+StackLLaMA: A hands-on guide to train LLaMA with RLHF, a blog post about how to train LLaMA to answer questions on Stack Exchange with RLHF.
+
+⚗️ Optimization
+- A notebook on how to fine-tune LLaMA model using xturing library on GPU which has limited memory. 🌎 
+⚡️ Inference
+- A notebook on how to run the LLaMA Model using PeftModel from the 🤗 PEFT library. 🌎 
+- A notebook on how to load a PEFT adapter LLaMA model with LangChain. 🌎
+🚀 Deploy
+- A notebook on how to fine-tune LLaMA model using LoRA method via the 🤗 PEFT library with intuitive UI. 🌎 
+- A notebook on how to deploy Open-LLaMA model for text generation on Amazon SageMaker. 🌎 
+LlamaConfig
+[[autodoc]] LlamaConfig
+LlamaTokenizer
+[[autodoc]] LlamaTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+LlamaTokenizerFast
+[[autodoc]] LlamaTokenizerFast
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - update_post_processor
+    - save_vocabulary
+LlamaModel
+[[autodoc]] LlamaModel
+    - forward
+LlamaForCausalLM
+[[autodoc]] LlamaForCausalLM
+    - forward
+LlamaForSequenceClassification
+[[autodoc]] LlamaForSequenceClassification
+    - forward
+LlamaForQuestionAnswering
+[[autodoc]] LlamaForQuestionAnswering
+    - forward
+FlaxLlamaModel
+[[autodoc]] FlaxLlamaModel
+    - call
+FlaxLlamaForCausalLM
+[[autodoc]] FlaxLlamaForCausalLM
+    - call

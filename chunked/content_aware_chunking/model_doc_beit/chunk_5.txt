@@ -1,0 +1,5 @@
+The original code can be found here.
+Usage tips
+
+BEiT models are regular Vision Transformers, but pre-trained in a self-supervised way rather than supervised. They
+  outperform both the original model (ViT) as well as Data-efficient Image Transformers (DeiT) when fine-tuned on ImageNet-1K and CIFAR-100.

@@ -1,0 +1,4 @@
+IDEFICS
+Overview
+The IDEFICS model was proposed in OBELICS: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents
+ by Hugo Laurençon, Lucile Saulnier, Léo Tronchon, Stas Bekman, Amanpreet Singh, Anton Lozhkov, Thomas Wang, Siddharth Karamcheti, Alexander M.

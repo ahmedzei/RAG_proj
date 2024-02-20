@@ -1,0 +1,20 @@
+
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+SqueezeBertConfig
+[[autodoc]] SqueezeBertConfig
+SqueezeBertTokenizer
+[[autodoc]] SqueezeBertTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+SqueezeBertTokenizerFast
+[[autodoc]] SqueezeBertTokenizerFast
+SqueezeBertModel
+[[autodoc]] SqueezeBertModel
+SqueezeBertForMaskedLM
+[[autodoc]] SqueezeBertForMaskedLM
+SqueezeBertForS

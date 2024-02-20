@@ -1,0 +1,6 @@
+ from the paper is the following:
+We introduce a self-supervised vision representation model BEiT, which stands for Bidirectional Encoder representation
+from Image Transformers. Following BERT developed in the natural language processing area, we propose a masked image
+modeling task to pretrain vision Transformers. Specifically, each image has two views in our pre-training, i.e, image
+patches (such as 16x16 pixels), and visual tokens (i.e., discrete tokens). We first "tokenize" the original image into
+visua

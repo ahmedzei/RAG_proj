@@ -1,0 +1,22 @@
+It also has the added benefit of predicting punctuation and casing, neither of which are possible with
+Wav2Vec2.
+Let's give it a try here to see how it performs:
+
+transcriber = pipeline(model="openai/whisper-large-v2")
+transcriber("https://huggingface.co/datasets/Narsil/asr_dummy/resolve/main/mlk.flac")
+{'text': ' I have a dream that one day this nation will rise up and live out the true meaning of its creed.'}
+
+Now this result looks more accurate! For a deep-dive comparison on Wav2Vec2 vs Whisper, refer to the Audio Transformers Course.
+We really encourage you to check out the Hub for models in different languages, models specialized in your field, and more.
+You can check out and compare model results directly from your browser on the Hub to see if it fits or 
+handles corner cases better than other ones.
+And if you don't find a model for your use case, you can always start training your own!
+If you have several inputs, you can pass your input as a list:
+py
+transcriber(
+    [
+        "https://huggingface.co/datasets/Narsil/asr_dummy/resolve/main/mlk.flac",
+        "https://huggingface.co/datasets/Narsil/asr_dummy/resolve/main/1.flac",
+    ]
+)
+Pipelines are great for experimentation as switching from one model to another is trivial; however, there are some ways to optimize them for larger workloads than experimentation.

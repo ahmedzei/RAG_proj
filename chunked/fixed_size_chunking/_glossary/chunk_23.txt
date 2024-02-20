@@ -1,0 +1,6 @@
+nding to the expected label of each individual token: the labels being the token
+  ID for the masked token, and values to be ignored for the rest (usually -100).
+For sequence to sequence tasks, ([BartForConditionalGeneration], [MBartForConditionalGeneration]), the model
+  expects a tensor of dimension (batch_size, tgt_seq_length) with each value corresponding to the target sequences
+  associated with each input sequence. During training, both BART and T5 will make the appropriate
+  decoder_input_ids and dec

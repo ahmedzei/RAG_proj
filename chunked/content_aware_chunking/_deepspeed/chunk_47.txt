@@ -1,0 +1,2 @@
+For this reason, fp16 is the default for reduction operations because the loss is minimal when averaging gradients.
+You can choose the communication data type by setting the communication_data_type parameter in the config file.

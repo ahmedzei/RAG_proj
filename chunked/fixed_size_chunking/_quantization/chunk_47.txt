@@ -1,0 +1,6 @@
+|          3072.26   |           38.1731 | 4.50 GB (5.68%) |
+|            1 |              512 |             512 |          3184.74   |           31.6819 | 4.59 GB (5.80%) |
+|            1 |             1024 |            1024 |          3148.18   |           36.8031 | 4.81 GB (6.07%) |
+|            1 |             2048 |            2048 |          2927.33   |           35.2676 | 5.73 GB (7.23%) |
+Fused module
+|   Batch Size |   Prefill Length |   Decode Length |   Prefill tokens/s |   Decode tokens/s | Memo

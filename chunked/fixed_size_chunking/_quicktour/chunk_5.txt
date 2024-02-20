@@ -1,0 +1,3 @@
+                                       | Computer vision | pipeline(task=“object-detection”)             |
+| Audio classification         | assign a label to some audio data                                                                            | Audio           | pipeline(task=“audio-classification”)         |
+| Automatic speech recognition | transcribe speech into text                                                                                  | Audio           | pipeline(task=“automatic-speech-r

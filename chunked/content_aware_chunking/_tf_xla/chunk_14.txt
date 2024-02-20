@@ -1,0 +1,4 @@
+Keep in mind that any change in the generation options at any point with trigger re-tracing and thus leading to slow-downs in the generation time. 
+We didn’t cover all the text generation options 🤗 Transformers provides in this document. We encourage you to read the documentation for advanced use cases.
+Additional Resources
+Here, we leave you with some additional resources if you want to delve deeper into XLA in 🤗 Transformers and in general.

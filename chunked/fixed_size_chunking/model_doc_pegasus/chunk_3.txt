@@ -1,0 +1,12 @@
+kpoints are fine-tuned:
+
+Each checkpoint is 2.2 GB on disk and 568M parameters.
+FP16 is not supported (help/ideas on this appreciated!).
+Summarizing xsum in fp32 takes about 400ms/sample, with default parameters on a v100 GPU.
+Full replication results and correctly pre-processed data can be found in this Issue.
+Distilled checkpoints are described in this paper.
+
+Implementation Notes
+
+All models are transformer encoder-decoders with 16 layers in each component.
+The implementation is completely inherited from

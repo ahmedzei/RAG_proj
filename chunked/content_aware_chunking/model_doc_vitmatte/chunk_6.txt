@@ -1,0 +1,10 @@
+Use [ViTMatteImageProcessor] for this purpose.
+
+VitMatteConfig
+[[autodoc]] VitMatteConfig
+VitMatteImageProcessor
+[[autodoc]] VitMatteImageProcessor
+    - preprocess
+VitMatteForImageMatting
+[[autodoc]] VitMatteForImageMatting
+    - forward.

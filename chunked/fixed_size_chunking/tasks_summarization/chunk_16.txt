@@ -1,0 +1,13 @@
+ within the meaning of Section 6 of Article XIII\u2009B of the California Constitution.',
+ 'title': 'An act to add Section 10295.35 to the Public Contract Code, relating to public contracts.'}
+
+There are two fields that you'll want to use:
+
+text: the text of the bill which'll be the input to the model.
+summary: a condensed version of text which'll be the model target.
+
+Preprocess
+The next step is to load a T5 tokenizer to process text and summary:
+
+from transformers import AutoTokenizer
+checkpoint = "google

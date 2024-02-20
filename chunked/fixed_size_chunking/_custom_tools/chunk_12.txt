@@ -1,0 +1,10 @@
+te an image according to the answer.
+Answer:
+py
+answer = document_qa(document, question="What is the oldest person?")
+print(f"The answer is {answer}.")
+image = image_generator("A banner showing " + answer)
+`
+The pattern the model is prompted to repeat has three parts: The task statement, the agent's explanation of 
+what it intends to do, and finally the generated code. Every example that is part of the prompt has this exact 
+pattern, thus making sure that the agent will reproduce exactly the same pattern wh

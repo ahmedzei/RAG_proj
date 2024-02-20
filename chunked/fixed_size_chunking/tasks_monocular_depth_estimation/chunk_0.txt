@@ -1,0 +1,17 @@
+
+
+In this guide you'll learn how to:
+
+create a depth estimation pipeline
+run depth estimation inference by hand
+
+Before you begin, make sure you have all the necessary libraries installed:
+
+pip install -q transformers
+Depth estimation pipeline
+The simplest way to try out inference with a model supporting depth estimation is to use the corresponding [pipeline].
+Instantiate a pipeline from a checkpoint on the Hugging Face Hub:
+
+from transformers import pipeline
+checkpoint = "vinvino02/glpn-nyu"
+depth_estimato

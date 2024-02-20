@@ -1,0 +1,5 @@
+The model updates its weights based on how incorrect its predictions were, and the process is repeated to optimize model performance.
+T
+Tensor Parallelism (TP)
+Parallelism technique for training on multiple GPUs in which each tensor is split up into multiple chunks, so instead of 
+having the whole tensor reside on a single GPU, each shard of the tensor resides on its designated GPU.

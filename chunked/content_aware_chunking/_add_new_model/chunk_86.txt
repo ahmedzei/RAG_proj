@@ -1,0 +1,5 @@
+First, make sure that the
+hard-coded input_ids in both scripts are identical. Next, verify that the outputs of the first transformation of
+the input_ids (usually the word embeddings) are identical. And then work your way up to the very last layer of the
+network. At some point, you will notice a difference between the two implementations, which should point you to the bug
+in the 🤗 Transformers implementation.

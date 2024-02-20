@@ -1,0 +1,16 @@
+ the variable do_sample in the call to [MusicgenForConditionalGeneration.generate]
+MusicgenDecoderConfig
+[[autodoc]] MusicgenDecoderConfig
+MusicgenConfig
+[[autodoc]] MusicgenConfig
+MusicgenProcessor
+[[autodoc]] MusicgenProcessor
+MusicgenModel
+[[autodoc]] MusicgenModel
+    - forward
+MusicgenForCausalLM
+[[autodoc]] MusicgenForCausalLM
+    - forward
+MusicgenForConditionalGeneration
+[[autodoc]] MusicgenForConditionalGeneration
+    - forward

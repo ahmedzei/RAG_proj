@@ -1,0 +1,5 @@
+econd-pass model
+The second seq2seq model, named text-to-unit model, is now non-auto regressive, meaning that it computes units in a single forward pass. This achievement is made possible by:
+- the use of character-level embeddings, meaning that each character of the predicted translated text has its own embeddings, which are then used to predict the unit tokens.
+- the use of an intermediate duration predictor, that predicts speech duration at the character-level on the predicted translated text.
+- the use 

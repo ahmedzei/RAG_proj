@@ -1,0 +1,9 @@
+The authors released 2 models, one for table detection in 
+documents, one for table structure recognition 
+(the task of recognizing the individual rows, columns etc. in a table).
+This model was contributed by nielsr. The original code can be
+found here.
+Resources
+
+A demo notebook for the Table Transformer can be found here.
+It turns out padding of images is quite important for detection.

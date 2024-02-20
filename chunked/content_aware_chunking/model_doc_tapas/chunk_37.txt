@@ -1,0 +1,2 @@
+You can use .astype(str) on a dataframe to turn it into text-only data.
+Of course, this only shows how to encode a single training example.

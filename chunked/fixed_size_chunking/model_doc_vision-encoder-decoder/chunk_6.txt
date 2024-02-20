@@ -1,0 +1,8 @@
+oderModel] provides the from_pretrained() method just like any other model architecture in Transformers.
+To perform inference, one uses the [generate] method, which allows to autoregressively generate text. This method supports various forms of decoding, such as greedy, beam search and multinomial sampling.
+thon
+
+import requests
+from PIL import Image
+from transformers import GPT2TokenizerFast, ViTImageProcessor, VisionEncoderDecoderModel
+load a fine-tuned image captioning model and corresponding tokenizer a

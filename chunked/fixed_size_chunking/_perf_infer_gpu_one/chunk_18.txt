@@ -1,0 +1,10 @@
+ilable resources in the environment.
+
+from transformers import AutoModelForCausalLM
+model_name = "bigscience/bloom-2b5"
+model_4bit = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", load_in_4bit=True)
+
+To load a model in 4-bit for inference with multiple GPUs, you can control how much GPU RAM you want to allocate to each GPU. For example, to distribute 600MB of memory to the first GPU and 1GB of memory to the second GPU:
+py
+max_memory_mapping = {0: "600MB", 1: "1GB"}
+model_name = "bigscie

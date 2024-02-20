@@ -1,0 +1,10 @@
+We are
+able to achieve state-of-the-art results on several summarization tasks and outperform the original T5 models on
+question answering tasks.
+This model was contributed by stancld.
+The original code can be found here.
+Usage tips
+
+[LongT5ForConditionalGeneration] is an extension of [T5ForConditionalGeneration] exchanging the traditional
+encoder self-attention layer with efficient either local attention or transient-global (tglobal) attention.
+Unlike the T5 model, LongT5 does not use a task prefix.

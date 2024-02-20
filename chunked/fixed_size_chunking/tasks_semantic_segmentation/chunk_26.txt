@@ -1,0 +1,17 @@
+ckpoint,
+     id2label=id2label,
+     label2id=label2id,
+ )
+model.compile(optimizer=optimizer)  # No loss argument!
+
+Convert your datasets to the tf.data.Dataset format using the [~datasets.Dataset.to_tf_dataset] and the [DefaultDataCollator]:
+
+from transformers import DefaultDataCollator
+data_collator = DefaultDataCollator(return_tensors="tf")
+tf_train_dataset = train_ds.to_tf_dataset(
+     columns=["pixel_values", "label"],
+     shuffle=True,
+     batch_size=batch_size,
+     collate_fn=data_collator,
+ )
+t

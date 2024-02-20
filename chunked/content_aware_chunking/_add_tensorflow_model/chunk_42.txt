@@ -1,0 +1,7 @@
+This is
+arguably worse than a model that fails to run at all! To that end, we aim at having a framework mismatch smaller than
+1e-5 at all stages of the model.
+As in other numerical problems, the devil is in the details. And as in any detail-oriented craft, the secret
+ingredient here is patience. Here is our suggested workflow for when you come across this type of issues:
+1. Locate the source of mismatches. The model you're converting probably has near identical inner variables up to a
+   certain point.

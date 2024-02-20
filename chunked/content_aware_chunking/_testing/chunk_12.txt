@@ -1,0 +1,12 @@
+For
+example, to run all except test_modeling_*.py tests:
+
+pytest *ls -1 tests/*py | grep -v test_modeling*
+Clearing state
+CI builds and when isolation is important (against speed), cache should be cleared:
+
+pytest --cache-clear tests
+Running tests in parallel
+As mentioned earlier make test runs tests in parallel via pytest-xdist plugin (-n X argument, e.g. -n 2
+to run 2 parallel jobs).
+pytest-xdist's --dist= option allows one to control how the tests are grouped.

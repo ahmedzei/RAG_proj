@@ -1,0 +1,8 @@
+odel
+    - forward
+ConditionalDetrForObjectDetection
+[[autodoc]] ConditionalDetrForObjectDetection
+    - forward
+ConditionalDetrForSegmentation
+[[autodoc]] ConditionalDetrForSegmentation
+    - forward

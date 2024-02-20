@@ -1,0 +1,8 @@
+|
+| Parameter-Efficient Fine Tuning (PEFT)            | No                      | Yes                          |
+
+Note: when using mixed precision with a small model and a large batch size, there will be some memory savings but with a 
+large model and a small batch size, the memory use will be larger.
+
+You can combine the above methods to get a cumulative effect. These techniques are available to you whether you are 
+training your model with [Trainer] or writing a pure PyTorch loop, in which case you can co

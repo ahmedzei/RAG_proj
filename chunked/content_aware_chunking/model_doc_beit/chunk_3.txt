@@ -1,0 +1,5 @@
+The pre-training
+objective is to recover the original visual tokens based on the corrupted image patches. After pre-training BEiT, we
+directly fine-tune the model parameters on downstream tasks by appending task layers upon the pretrained encoder.
+Experimental results on image classification and semantic segmentation show that our model achieves competitive results
+with previous pre-training methods.

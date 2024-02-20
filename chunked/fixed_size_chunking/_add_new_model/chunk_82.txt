@@ -1,0 +1,8 @@
+to manage to load this file into the 🤗
+Transformers' implementation of the tokenizer.
+To ensure that the tokenizer works correctly, it is recommended to first create a script in the original repository
+that inputs a string and returns the `input_ids``. It could look similar to this (in pseudo-code):
+python
+input_str = "This is a long example input string containing special characters .$?-, numbers 2872 234 12 and words."
+model = BrandNewBertModel.load_pretrained_checkpoint("/path/to/checkpoint/")
+input_ids 

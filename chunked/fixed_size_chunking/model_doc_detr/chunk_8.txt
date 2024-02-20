@@ -1,0 +1,6 @@
+each of the N = 100 object queries to the ground truth annotations, padded up to the same length N
+(so if an image only contains 4 objects, 96 annotations will just have a "no object" as class and "no bounding box" as
+bounding box). The Hungarian matching algorithm is used to find
+an optimal one-to-one mapping of each of the N queries to each of the N annotations. Next, standard cross-entropy (for
+the classes) and a linear combination of the L1 and generalized IoU loss (for the
+bounding boxes) are used to o

@@ -1,0 +1,8 @@
+equenceClassification
+[[autodoc]] SqueezeBertForSequenceClassification
+SqueezeBertForMultipleChoice
+[[autodoc]] SqueezeBertForMultipleChoice
+SqueezeBertForTokenClassification
+[[autodoc]] SqueezeBertForTokenClassification
+SqueezeBertForQuestionAnswering
+[[autodoc]] SqueezeBertForQuestionAnswering

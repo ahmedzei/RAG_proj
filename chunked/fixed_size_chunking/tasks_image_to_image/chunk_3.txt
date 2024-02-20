@@ -1,0 +1,7 @@
+in2SRForImageSuperResolution and Swin2SRImageProcessor classes of transformers. We will use the same model checkpoint for this. Let's initialize the model and the processor.
+thon
+from transformers import Swin2SRForImageSuperResolution, Swin2SRImageProcessor 
+model = Swin2SRForImageSuperResolution.from_pretrained("caidas/swin2SR-lightweight-x2-64").to(device)
+processor = Swin2SRImageProcessor("caidas/swin2SR-lightweight-x2-64")
+
+pipeline abstracts away the preprocessing and postprocessing steps that we have 

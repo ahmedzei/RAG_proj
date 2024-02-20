@@ -1,0 +1,5 @@
+onvolutional layer in the bottleneck layer with depthwise convolution, which applies a convolution to each input channel separately and then stacks them back together at the end. This widens the network width for improved performance.
+
+ViT has a global receptive field which means it can see more of an image at once thanks to its attention mechanism. ConvNeXT attempts to replicate this effect by increasing the kernel size to 7x7.
+
+ConvNeXT also makes several layer design changes that imitate Transformer mode

@@ -1,0 +1,12 @@
+ in predictions]
+     result["gen_len"] = np.mean(prediction_lens)
+     return {k: round(v, 4) for k, v in result.items()}
+
+Your compute_metrics function is ready to go now, and you'll return to it when you setup your training.
+Train
+
+If you aren't familiar with finetuning a model with the [Trainer], take a look at the basic tutorial here!
+
+You're ready to start training your model now! Load T5 with [AutoModelForSeq2SeqLM]:
+
+from transformers import AutoModelForSeq2SeqLM, Seq2SeqTrainingArguments, Seq2SeqTr

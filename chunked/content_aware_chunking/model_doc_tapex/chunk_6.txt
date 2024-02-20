@@ -1,0 +1,5 @@
+One can directly plug in the weights of TAPEX into a BART model. 
+TAPEX has checkpoints on the hub that are either pre-trained only, or fine-tuned on WTQ, SQA, WikiSQL and TabFact.
+Sentences + tables are presented to the model as sentence + " " + linearized table. The linearized table has the following format: 
+  col: col1 | col2 | col 3 row 1 : val1 | val2 | val3 row 2 : .
+TAPEX has its own tokenizer, that allows to prepare all data for the model easily.

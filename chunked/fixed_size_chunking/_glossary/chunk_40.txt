@@ -1,0 +1,11 @@
+of a sentence, usually a word, but can also be a subword (non-common words are often split in subwords) or a
+punctuation symbol.
+token Type IDs
+Some models' purpose is to do classification on pairs of sentences or question answering.
+
+These require two different sequences to be joined in a single "input_ids" entry, which usually is performed with the
+help of special tokens, such as the classifier ([CLS]) and separator ([SEP]) tokens. For example, the BERT model
+builds its two sequence input as such:
+thon
+
+[

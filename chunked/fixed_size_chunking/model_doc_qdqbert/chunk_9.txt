@@ -1,0 +1,15 @@
+eClassification
+[[autodoc]] QDQBertForSequenceClassification
+    - forward
+QDQBertForNextSentencePrediction
+[[autodoc]] QDQBertForNextSentencePrediction
+    - forward
+QDQBertForMultipleChoice
+[[autodoc]] QDQBertForMultipleChoice
+    - forward
+QDQBertForTokenClassification
+[[autodoc]] QDQBertForTokenClassification
+    - forward
+QDQBertForQuestionAnswering
+[[autodoc]] QDQBertForQuestionAnswering
+    - forward

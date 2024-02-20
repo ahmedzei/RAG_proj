@@ -1,0 +1,10 @@
+ssistant' %}
+        {{ ' '  + message['content'] + ' ' + eos_token }}
+    {% endif %}
+{% endfor %}
+Hopefully if you stare at this for a little bit you can see what this template is doing - it adds specific tokens based
+on the "role" of each message, which represents who sent it. User, assistant and system messages are clearly
+distinguishable to the model because of the tokens they're wrapped in.
+Advanced: Adding and editing chat templates
+How do I create a chat template?
+Simple, just write a jinja template

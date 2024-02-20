@@ -1,0 +1,12 @@
+sors="pt").to("cuda")
+LLM + greedy decoding = repetitive, boring output
+generated_ids = model.generate(**model_inputs)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+'I am a cat. I am a cat. I am a cat. I am a cat'
+With sampling, the output becomes more creative!
+generated_ids = model.generate(**model_inputs, do_sample=True)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+'I am a cat.  Specifically, I am an indoor-only cat.  I'
+
+Wrong padding side
+LLMs are decoder-only

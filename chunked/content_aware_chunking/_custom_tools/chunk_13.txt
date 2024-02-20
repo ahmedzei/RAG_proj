@@ -1,0 +1,11 @@
+Every example that is part of the prompt has this exact 
+pattern, thus making sure that the agent will reproduce exactly the same pattern when generating new tokens.
+The prompt examples are curated by the Transformers team and rigorously evaluated on a set of 
+problem statements
+to ensure that the agent's prompt is as good as possible to solve real use cases of the agent.
+The final part of the prompt corresponds to:
+```text
+Task: "Draw me a picture of rivers and lakes"
+I will use the following
+
+is a final and unfinished example that the agent is tasked to complete.

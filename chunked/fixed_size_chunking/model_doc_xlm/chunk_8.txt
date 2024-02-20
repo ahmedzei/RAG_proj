@@ -1,0 +1,13 @@
+ication
+[[autodoc]] TFXLMForSequenceClassification
+    - call
+TFXLMForMultipleChoice
+[[autodoc]] TFXLMForMultipleChoice
+    - call
+TFXLMForTokenClassification
+[[autodoc]] TFXLMForTokenClassification
+    - call
+TFXLMForQuestionAnsweringSimple
+[[autodoc]] TFXLMForQuestionAnsweringSimple
+    - call
+

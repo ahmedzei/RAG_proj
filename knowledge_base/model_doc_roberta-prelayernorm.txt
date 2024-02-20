@@ -1,0 +1,92 @@
+
+RoBERTa-PreLayerNorm
+Overview
+The RoBERTa-PreLayerNorm model was proposed in fairseq: A Fast, Extensible Toolkit for Sequence Modeling by Myle Ott, Sergey Edunov, Alexei Baevski, Angela Fan, Sam Gross, Nathan Ng, David Grangier, Michael Auli.
+It is identical to using the --encoder-normalize-before flag in fairseq.
+The abstract from the paper is the following:
+fairseq is an open-source sequence modeling toolkit that allows researchers and developers to train custom models for translation, summarization, language modeling, and other text generation tasks. The toolkit is based on PyTorch and supports distributed training across multiple GPUs and machines. We also support fast mixed-precision training and inference on modern GPUs.
+This model was contributed by andreasmaden.
+The original code can be found here.
+Usage tips
+
+The implementation is the same as Roberta except instead of using Add and Norm it does Norm and Add. Add and Norm refers to the Addition and LayerNormalization as described in Attention Is All You Need.
+This is identical to using the --encoder-normalize-before flag in fairseq.
+
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+RobertaPreLayerNormConfig
+[[autodoc]] RobertaPreLayerNormConfig
+
+RobertaPreLayerNormModel
+[[autodoc]] RobertaPreLayerNormModel
+    - forward
+RobertaPreLayerNormForCausalLM
+[[autodoc]] RobertaPreLayerNormForCausalLM
+    - forward
+RobertaPreLayerNormForMaskedLM
+[[autodoc]] RobertaPreLayerNormForMaskedLM
+    - forward
+RobertaPreLayerNormForSequenceClassification
+[[autodoc]] RobertaPreLayerNormForSequenceClassification
+    - forward
+RobertaPreLayerNormForMultipleChoice
+[[autodoc]] RobertaPreLayerNormForMultipleChoice
+    - forward
+RobertaPreLayerNormForTokenClassification
+[[autodoc]] RobertaPreLayerNormForTokenClassification
+    - forward
+RobertaPreLayerNormForQuestionAnswering
+[[autodoc]] RobertaPreLayerNormForQuestionAnswering
+    - forward
+
+TFRobertaPreLayerNormModel
+[[autodoc]] TFRobertaPreLayerNormModel
+    - call
+TFRobertaPreLayerNormForCausalLM
+[[autodoc]] TFRobertaPreLayerNormForCausalLM
+    - call
+TFRobertaPreLayerNormForMaskedLM
+[[autodoc]] TFRobertaPreLayerNormForMaskedLM
+    - call
+TFRobertaPreLayerNormForSequenceClassification
+[[autodoc]] TFRobertaPreLayerNormForSequenceClassification
+    - call
+TFRobertaPreLayerNormForMultipleChoice
+[[autodoc]] TFRobertaPreLayerNormForMultipleChoice
+    - call
+TFRobertaPreLayerNormForTokenClassification
+[[autodoc]] TFRobertaPreLayerNormForTokenClassification
+    - call
+TFRobertaPreLayerNormForQuestionAnswering
+[[autodoc]] TFRobertaPreLayerNormForQuestionAnswering
+    - call
+
+FlaxRobertaPreLayerNormModel
+[[autodoc]] FlaxRobertaPreLayerNormModel
+    - call
+FlaxRobertaPreLayerNormForCausalLM
+[[autodoc]] FlaxRobertaPreLayerNormForCausalLM
+    - call
+FlaxRobertaPreLayerNormForMaskedLM
+[[autodoc]] FlaxRobertaPreLayerNormForMaskedLM
+    - call
+FlaxRobertaPreLayerNormForSequenceClassification
+[[autodoc]] FlaxRobertaPreLayerNormForSequenceClassification
+    - call
+FlaxRobertaPreLayerNormForMultipleChoice
+[[autodoc]] FlaxRobertaPreLayerNormForMultipleChoice
+    - call
+FlaxRobertaPreLayerNormForTokenClassification
+[[autodoc]] FlaxRobertaPreLayerNormForTokenClassification
+    - call
+FlaxRobertaPreLayerNormForQuestionAnswering
+[[autodoc]] FlaxRobertaPreLayerNormForQuestionAnswering
+    - call
+

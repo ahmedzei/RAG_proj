@@ -1,0 +1,7 @@
+ion, and final M2M-100 model.
+This model was contributed by valhalla.
+Usage tips and examples
+M2M100 is a multilingual encoder-decoder (seq-to-seq) model primarily intended for translation tasks. As the model is
+multilingual it expects the sequences in a certain format: A special language id token is used as prefix in both the
+source and target text. The source text format is [lang_code] X [eos], where lang_code is source language
+id for source text and target language id for target text, with X being the s

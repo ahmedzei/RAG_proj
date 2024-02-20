@@ -1,0 +1,15 @@
+],
+   [160.0, 31.0, 248.0, 616.0],
+   [741.0, 68.0, 202.0, 401.0]],
+  'category': [4, 4, 0, 0]}}
+
+The examples in the dataset have the following fields:
+- image_id: the example image id
+- image: a PIL.Image.Image object containing the image
+- width: width of the image
+- height: height of the image
+- objects: a dictionary containing bounding box metadata for the objects in the image:
+  - id: the annotation id
+  - area: the area of the bounding box
+  - bbox: the object's bounding box (in the COCO format )
+  -

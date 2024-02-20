@@ -1,0 +1,2 @@
+From there, ViLT is pretrained by image text matching, masked language modeling, and whole word masking.
+CLIP takes a different approach and makes a pair prediction of (image, text) . An image encoder (ViT) and a text encoder (Transformer) are jointly trained on a 400 million (image, text) pair dataset to maximize the similarity between the image and text embeddings of the (image, text) pairs. After pretraining, you can use natural language to instruct CLIP to predict the text given an image or vice versa.

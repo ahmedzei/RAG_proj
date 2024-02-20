@@ -1,0 +1,5 @@
+ the [Trainer].
+Installation
+DeepSpeed is available to install from PyPI or Transformers (for more detailed installation options, take a look at the DeepSpeed installation details or the GitHub README).
+
+If you're having difficulties installing DeepSpeed, check the DeepSpeed CUDA installation guide. While DeepSpeed has a pip installable PyPI package, it is highly recommended to install it from source to best match your hardware and to support certain features, like 1-bit Adam, which aren’t available in the 

@@ -1,0 +1,5 @@
+ou're interested in learning more, the following may be helpful:
+
+Follow along with the more in-depth Accelerate guide for FSDP.
+Read the Introducing PyTorch Fully Sharded Data Parallel (FSDP) API blog post.
+Read the Scaling PyTorch models on Cloud TPUs with FSDP blog post.

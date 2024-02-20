@@ -1,0 +1,9 @@
+y chatbot who always responds in the style of a thug",
+     },
+     {"role": "user", "content": "How many helicopters can a human eat in one sitting?"},
+ ]
+model_inputs = tokenizer.apply_chat_template(messages, add_generation_prompt=True, return_tensors="pt").to("cuda")
+input_length = model_inputs.shape[1]
+generated_ids = model.generate(model_inputs, do_sample=True, max_new_tokens=20)
+print(tokenizer.batch_decode(generated_ids[:, input_length:], skip_special_tokens=True)[0])
+'None, you thug. How bout you tr

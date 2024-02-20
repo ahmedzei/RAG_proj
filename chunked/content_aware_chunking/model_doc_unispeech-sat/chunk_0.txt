@@ -1,0 +1,8 @@
+UniSpeech-SAT
+Overview
+The UniSpeech-SAT model was proposed in UniSpeech-SAT: Universal Speech Representation Learning with Speaker Aware
+Pre-Training by Sanyuan Chen, Yu Wu, Chengyi Wang, Zhengyang Chen, Zhuo Chen,
+Shujie Liu, Jian Wu, Yao Qian, Furu Wei, Jinyu Li, Xiangzhan Yu .
+The abstract from the paper is the following:
+Self-supervised learning (SSL) is a long-standing goal for speech processing, since it utilizes large-scale unlabeled
+data and avoids extensive human labeling.

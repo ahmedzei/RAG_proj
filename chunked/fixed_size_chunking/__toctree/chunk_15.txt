@@ -1,0 +1,23 @@
+odel_doc/bigbird_pegasus
+    title: BigBirdPegasus
+local: model_doc/biogpt
+    title: BioGpt
+local: model_doc/blenderbot
+    title: Blenderbot
+local: model_doc/blenderbot-small
+    title: Blenderbot Small
+local: model_doc/bloom
+    title: BLOOM
+local: model_doc/bort
+    title: BORT
+local: model_doc/byt5
+    title: ByT5
+local: model_doc/camembert
+    title: CamemBERT
+local: model_doc/canine
+    title: CANINE
+local: model_doc/codegen
+    title: CodeGen
+local: model_doc/code_llama
+    title: CodeLlama
+local: m

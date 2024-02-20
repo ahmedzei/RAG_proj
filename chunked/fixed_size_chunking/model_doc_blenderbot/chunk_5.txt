@@ -1,0 +1,19 @@
+al language modeling task guide
+Translation task guide
+Summarization task guide
+
+BlenderbotConfig
+[[autodoc]] BlenderbotConfig
+BlenderbotTokenizer
+[[autodoc]] BlenderbotTokenizer
+    - build_inputs_with_special_tokens
+BlenderbotTokenizerFast
+[[autodoc]] BlenderbotTokenizerFast
+    - build_inputs_with_special_tokens
+
+BlenderbotModel
+See [~transformers.BartModel] for arguments to forward and generate
+[[autodoc]] BlenderbotModel
+    - forward
+BlenderbotForConditionalGeneration
+See [~transformers.BartForConditi

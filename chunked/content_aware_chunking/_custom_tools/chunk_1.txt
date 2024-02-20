@@ -1,0 +1,13 @@
+Results returned by the agents
+can vary as the APIs or underlying models are prone to change.
+
+Creating and using custom tools and prompts is paramount to empowering the agent and having it perform new tasks.
+In this guide we'll take a look at:
+
+How to customize the prompt
+How to use custom tools
+How to create custom tools
+
+Customizing the prompt
+As explained in Transformers Agents agents can run in [~Agent.run] and [~Agent.chat] mode.
+Both the run and chat modes underlie the same logic.

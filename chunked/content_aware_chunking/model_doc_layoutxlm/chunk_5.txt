@@ -1,0 +1,26 @@
+You can initialize it as
+follows:
+thon
+from transformers import LayoutXLMTokenizer
+tokenizer = LayoutXLMTokenizer.from_pretrained("microsoft/layoutxlm-base")
+
+Similar to LayoutLMv2, you can use [LayoutXLMProcessor] (which internally applies
+[LayoutLMv2ImageProcessor] and
+[LayoutXLMTokenizer]/[LayoutXLMTokenizerFast] in sequence) to prepare all
+data for the model.
+
+As LayoutXLM's architecture is equivalent to that of LayoutLMv2, one can refer to LayoutLMv2's documentation page for all tips, code examples and notebooks.
+
+LayoutXLMTokenizer
+[[autodoc]] LayoutXLMTokenizer
+    - call
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+LayoutXLMTokenizerFast
+[[autodoc]] LayoutXLMTokenizerFast
+    - call
+LayoutXLMProcessor
+[[autodoc]] LayoutXLMProcessor
+    - call.

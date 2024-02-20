@@ -1,0 +1,2 @@
+Leveraging this feature allows BioGPT to generate syntactically coherent text as it can be observed in the run_generation.py example script.
+The model can take the past_key_values (for PyTorch) as input, which is the previously computed key/value attention pairs. Using this (past_key_values or past) value prevents the model from re-computing pre-computed values in the context of text generation.

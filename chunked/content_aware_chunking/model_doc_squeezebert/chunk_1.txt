@@ -1,0 +1,5 @@
+The key difference between the BERT architecture and the
+SqueezeBERT architecture is that SqueezeBERT uses grouped convolutions
+instead of fully-connected layers for the Q, K, V and FFN layers.
+The abstract from the paper is the following:
+Humans read and write hundreds of billions of messages every day.

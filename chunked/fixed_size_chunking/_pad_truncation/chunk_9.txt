@@ -1,0 +1,4 @@
+                  | tokenizer(batch_sentences, truncation=STRATEGY)                                      |
+|                                      | padding to max sequence in batch  | tokenizer(batch_sentences, padding=True, truncation=True) or                         |
+|                                      |                                   | tokenizer(batch_sentences, padding=True, truncation=STRATEGY)                        |
+|                                      | padding to max model input length | 

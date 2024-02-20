@@ -1,0 +1,4 @@
+Through extensive experiments and analyses, we show a simple OCR-free VDU model, Donut, achieves state-of-the-art performances on various VDU tasks in terms of both speed and accuracy. In addition, we offer a synthetic data generator that helps the model pre-training to be flexible in various languages and domains.
+
+ Donut high-level overview. Taken from the original paper. 
+This model was contributed by nielsr.

@@ -1,0 +1,2 @@
+Results of the various sized models are shown on the original GitHub repository.
+TAPAS has checkpoints fine-tuned on SQA, which are capable of answering questions related to a table in a conversational set-up. This means that you can ask follow-up questions such as "what is his age?" related to the previous question.

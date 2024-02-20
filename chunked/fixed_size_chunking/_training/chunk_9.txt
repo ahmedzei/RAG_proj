@@ -1,0 +1,8 @@
+ation task, transferring the knowledge of the pretrained model to it.
+
+Training hyperparameters
+Next, create a [TrainingArguments] class which contains all the hyperparameters you can tune as well as flags for activating different training options. For this tutorial you can start with the default training hyperparameters, but feel free to experiment with these to find your optimal settings.
+Specify where to save the checkpoints from your training:
+
+from transformers import TrainingArguments
+training_args = 

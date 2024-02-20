@@ -1,0 +1,3 @@
+As for images, the processor will leverage [ViltImageProcessor] to resize and normalize the image, and create pixel_values and pixel_mask.
+All these preprocessing steps are done under the hood, we only need to call the processor. However, we still need to 
+prepare the target labels. In this representation, each element corresponds to a possible answer (label).

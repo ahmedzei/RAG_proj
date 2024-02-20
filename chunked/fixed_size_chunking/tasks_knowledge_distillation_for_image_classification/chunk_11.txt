@@ -1,0 +1,14 @@
+ute the accuracy & f1 of our model.
+thon
+import evaluate
+import numpy as np
+accuracy = evaluate.load("accuracy")
+def compute_metrics(eval_pred):
+    predictions, labels = eval_pred
+    acc = accuracy.compute(references=labels, predictions=np.argmax(predictions, axis=1))
+    return {"accuracy": acc["accuracy"]}
+
+Let's initialize the Trainer with the training arguments we defined. We will also initialize our data collator.
+thon
+from transformers import DefaultDataCollator
+data_collator = DefaultDataCollator()

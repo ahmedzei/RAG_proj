@@ -1,0 +1,16 @@
+rse.
+Masked language modeling task guide
+
+[DebertaForQuestionAnswering] is supported by this example script and notebook.
+[TFDebertaForQuestionAnswering] is supported by this example script and notebook.
+Question answering chapter of the 🤗 Hugging Face Course.
+Question answering task guide
+
+DebertaConfig
+[[autodoc]] DebertaConfig
+DebertaTokenizer
+[[autodoc]] DebertaTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary

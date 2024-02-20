@@ -1,0 +1,10 @@
+odoc]] LEDTokenizerFast
+LED specific outputs
+[[autodoc]] models.led.modeling_led.LEDEncoderBaseModelOutput
+[[autodoc]] models.led.modeling_led.LEDSeq2SeqModelOutput
+[[autodoc]] models.led.modeling_led.LEDSeq2SeqLMOutput
+[[autodoc]] models.led.modeling_led.LEDSeq2SeqSequenceClassifierOutput
+[[autodoc]] models.led.modeling_led.LEDSeq2SeqQuestionAnsweringModelOutput
+[[autodoc]] models.led.modeling_tf_led.TFLEDEncoderBaseModelOutput
+[[autodoc]] models.led.modeling_tf_led.TFLEDSeq2SeqModelOutput
+[[autodoc]] mode

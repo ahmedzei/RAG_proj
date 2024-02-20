@@ -1,0 +1,7 @@
+ng layer separated, which means that they should not be trained down the line.
+Training would desynchronize the two layers, leading to unexpected results.
+This is not the case for models that do not have a language model head, as those do not
+have tied weights. These models can be safely exported without the torchscript flag.
+Dummy inputs and standard lengths
+The dummy inputs are used for a models forward pass. While the inputs' values are
+propagated through the layers, PyTorch keeps track of the different 

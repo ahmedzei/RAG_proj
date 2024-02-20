@@ -1,0 +1,12 @@
+le to do in the last few years.\n\n"I have']
+
+Beam-search multinomial sampling
+As the name implies, this decoding strategy combines beam search with multinomial sampling. You need to specify
+the num_beams greater than 1, and set do_sample=True to use this decoding strategy.
+thon
+
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, set_seed
+set_seed(0)  # For reproducibility
+prompt = "translate English to German: The house is wonderful."
+checkpoint = "google-t5/t5-small"
+tokenizer = AutoTokenizer.

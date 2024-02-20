@@ -1,0 +1,11 @@
+=================================================|
+|    0   N/A  N/A      3721      C   nvs/codeparrot/bin/python     2629MiB |
++-----------------------------------------------------------------------------+
+
+We get the same number as before and you can also see that we are using a V100 GPU with 16GB of memory. So now we can 
+start training the model and see how the GPU memory consumption changes. First, we set up a few standard training 
+arguments:
+py
+default_args = {
+    "output_dir": "tmp",
+    "evaluati

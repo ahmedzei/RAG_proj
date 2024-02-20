@@ -1,0 +1,13 @@
+
+thon
+
+from transformers import SeamlessM4TForSpeechToSpeech
+model = SeamlessM4TForSpeechToSpeech.from_pretrained("facebook/hf-seamless-m4t-medium")
+
+Or you can replace the text-to-text generation snippet with the model dedicated to the T2TT task, you only have to remove generate_speech=False.
+thon
+
+from transformers import SeamlessM4TForTextToText
+model = SeamlessM4TForTextToText.from_pretrained("facebook/hf-seamless-m4t-medium")
+
+Feel free to try out [SeamlessM4TForSpeechToText] and [SeamlessM4TForTextToS

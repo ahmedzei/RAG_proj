@@ -1,0 +1,4 @@
+erent precisions:
+
+float32: PyTorch convention on model initialization is to load models in float32, no matter with which dtype the model weights were stored. transformers also follows this convention for consistency with PyTorch. This will be picked by default. If you want the AutoModel API to cast the load the checkpoints with the storage weights type, you must specify torch_dtype="auto", e.g. model = AutoModelForCausalLM.from_pretrained("path", torch_dtype = "auto").
+bfloat16: Code Llama was trained with

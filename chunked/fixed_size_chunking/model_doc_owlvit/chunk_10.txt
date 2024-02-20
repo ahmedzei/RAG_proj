@@ -1,0 +1,12 @@
+ures
+    - get_image_features
+OwlViTTextModel
+[[autodoc]] OwlViTTextModel
+    - forward
+OwlViTVisionModel
+[[autodoc]] OwlViTVisionModel
+    - forward
+OwlViTForObjectDetection
+[[autodoc]] OwlViTForObjectDetection
+    - forward
+    - image_guided_detection

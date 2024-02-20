@@ -1,0 +1,9 @@
+le "kernel" to reduce the number of computation steps
+skipping the inherent sparsity of padding tokens to avoid unnecessary computation with nested tensors
+
+BetterTransformer also converts all attention operations to use the more memory-efficient scaled dot product attention.
+
+BetterTransformer is not supported for all models. Check this list to see if a model supports BetterTransformer.
+
+Before you start, make sure you have 🤗 Optimum installed.
+Enable BetterTransformer with the [PreTrainedModel.to_bettertr

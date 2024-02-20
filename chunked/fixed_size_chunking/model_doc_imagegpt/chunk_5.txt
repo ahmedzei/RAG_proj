@@ -1,0 +1,6 @@
+of any labels), ImageGPT produces fairly
+  performant image features useful for downstream tasks, such as image classification. The authors showed that the
+  features in the middle of the network are the most performant, and can be used as-is to train a linear model (such as
+  a sklearn logistic regression model for example). This is also referred to as "linear probing". Features can be
+  easily obtained by first forwarding the image through the model, then specifying output_hidden_states=True, and
+  then a

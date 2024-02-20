@@ -1,0 +1,6 @@
+As a general rule, we want to make sure that a new model only depends on
+[PreTrainedModel]. The important functionalities that are automatically provided to every new
+model are [~PreTrainedModel.from_pretrained] and
+[~PreTrainedModel.save_pretrained], which are used for serialization and deserialization. All of the
+other important functionalities, such as BrandNewBertModel.forward should be completely defined in the new
+modeling_brand_new_bert.py script.

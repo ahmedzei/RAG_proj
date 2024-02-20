@@ -1,0 +1,29 @@
+Take the processor output and directly pass it 
+to the model, then post-process the output again.
+thon
+bounding box around the bee
+box = [2350, 1600, 2850, 2100]
+inputs = processor(
+        image,
+        input_boxes=[[[box]]],
+        return_tensors="pt"
+    ).to("cuda")
+with torch.no_grad():
+    outputs = model(**inputs)
+mask = processor.image_processor.post_process_masks(
+    outputs.pred_masks.cpu(),
+    inputs["original_sizes"].cpu(),
+    inputs["reshaped_input_sizes"].cpu()
+)[0][0][0].numpy()
+
+You can visualize the bounding box around the bee as shown below.
+thon
+import matplotlib.patches as patches
+fig, ax = plt.subplots()
+ax.imshow(image)
+rectangle = patches.Rectangle((2350, 1600, 500, 500, linewidth=2, edgecolor='r', facecolor='none')
+ax.add_patch(rectangle)
+ax.axis("off")
+plt.show()
+
+You can see the inference output below.

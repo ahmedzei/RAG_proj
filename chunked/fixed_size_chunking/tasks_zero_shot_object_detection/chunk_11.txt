@@ -1,0 +1,12 @@
+ymin, xmax, ymax), outline="red", width=1)
+     draw.text((xmin, ymin), f"{text_queries[label]}: {round(score,2)}", fill="white")
+im
+
+Batch processing
+You can pass multiple sets of images and text queries to search for different (or same) objects in several images.
+Let's use both an astronaut image and the beach image together.
+For batch processing, you should pass text queries as a nested list to the processor and images as lists of PIL images,
+PyTorch tensors, or NumPy arrays.
+
+images = [image, im]
+text_q

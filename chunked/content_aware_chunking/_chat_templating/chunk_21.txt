@@ -1,0 +1,12 @@
+In many ways, the code and
+syntax resembles Python. In pure Python, this template would look something like this:
+python
+for idx, message in enumerate(messages):
+    if message['role'] == 'user':
+        print(' ')
+    print(message['content'])
+    if not idx == len(messages) - 1:  # Check for the last message in the conversation
+        print('  ')
+print(eos_token)
+Effectively, the template does three things:
+1.

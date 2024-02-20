@@ -1,0 +1,6 @@
+y learn from a teacher (which, in the
+  DeiT paper, is a ResNet like-model). The distillation token is learned through backpropagation, by interacting with
+  the class ([CLS]) and patch tokens through the self-attention layers.
+There are 2 ways to fine-tune distilled models, either (1) in a classic way, by only placing a prediction head on top
+  of the final hidden state of the class token and not using the distillation signal, or (2) by placing both a
+  prediction head on top of the class token and on top 

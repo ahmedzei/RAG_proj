@@ -1,0 +1,13 @@
+t 1000 models use ISO-639-2 codes to identify languages, the second
+  group use a combination of ISO-639-5 codes and ISO-639-2 codes.
+
+Examples
+
+Since Marian models are smaller than many other translation models available in the library, they can be useful for
+  fine-tuning experiments and integration tests.
+Fine-tune on GPU
+
+Multilingual Models
+
+All model names use the following format: Helsinki-NLP/opus-mt-{src}-{tgt}:
+If a model can output multiple languages, and you should specify a language code by pre

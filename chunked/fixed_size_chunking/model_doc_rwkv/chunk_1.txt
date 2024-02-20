@@ -1,0 +1,14 @@
+ength for training).
+This model was contributed by sgugger.
+The original code can be found here.
+Usage example
+
+import torch
+from transformers import AutoTokenizer, RwkvConfig, RwkvModel
+model = RwkvModel.from_pretrained("sgugger/rwkv-430M-pile")
+tokenizer = AutoTokenizer.from_pretrained("sgugger/rwkv-430M-pile")
+inputs = tokenizer("This is an example.", return_tensors="pt")
+Feed everything to the model
+outputs = model(inputs["input_ids"])
+output_whole = outputs.last_hidden_state
+outputs = model(inputs["inp

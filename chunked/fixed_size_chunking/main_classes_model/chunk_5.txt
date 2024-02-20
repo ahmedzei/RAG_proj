@@ -1,0 +1,20 @@
+toModelForSeq2SeqLM
+t0pp = AutoModelForSeq2SeqLM.from_pretrained("bigscience/T0pp", device_map="auto")
+
+You can inspect how the model was split across devices by looking at its hf_device_map attribute:
+py
+t0pp.hf_device_map
+python out
+{'shared': 0,
+ 'decoder.embed_tokens': 0,
+ 'encoder': 0,
+ 'decoder.block.0': 0,
+ 'decoder.block.1': 1,
+ 'decoder.block.2': 1,
+ 'decoder.block.3': 1,
+ 'decoder.block.4': 1,
+ 'decoder.block.5': 1,
+ 'decoder.block.6': 1,
+ 'decoder.block.7': 1,
+ 'decoder.block.8': 1,
+ 'decoder.blo

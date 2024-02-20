@@ -1,0 +1,2 @@
+ses the same preprocessing and postprocessing steps as MaskFormer. Use [Mask2FormerImageProcessor] or [AutoImageProcessor] to prepare images and optional targets for the model.
+To get the final segmentation, depending on the task, you can call [~Mask2FormerImageProcessor.post_process_semantic_segmentation] or [~Mask2FormerImageProcessor.post_process_instance_segmentation] or [~Mask2FormerImageProcessor.post_process_panoptic_segmentation]. All three tasks can be solved using [Mask2FormerForUniversalSegmentat

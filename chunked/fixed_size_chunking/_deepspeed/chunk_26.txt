@@ -1,0 +1,15 @@
+b_group_size": 1e9,
+        "reduce_bucket_size": "auto",
+        "stage3_prefetch_bucket_size": "auto",
+        "stage3_param_persistence_threshold": "auto",
+        "stage3_max_live_parameters": 1e9,
+        "stage3_max_reuse_distance": 1e9,
+        "stage3_gather_16bit_weights_on_model_save": true
+    }
+}
+You can use the deepspeed.zero.Init context manager to initialize a model faster:
+
+from transformers import T5ForConditionalGeneration, T5Config
+import deepspeed
+with deepspeed.zero.Init():
+    config =

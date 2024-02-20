@@ -1,0 +1,10 @@
+existing resource.
+
+A blog post on how to finetune XLM RoBERTa for multiclass classification with Habana Gaudi on AWS
+[XLMRobertaForSequenceClassification] is supported by this example script and notebook.
+[TFXLMRobertaForSequenceClassification] is supported by this example script and notebook.
+[FlaxXLMRobertaForSequenceClassification] is supported by this example script and notebook.
+Text classification chapter of the 🤗 Hugging Face Task Guides.
+Text classification task guide
+
+[XLMRobertaForTokenClassifica

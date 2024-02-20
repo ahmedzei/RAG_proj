@@ -1,0 +1,8 @@
+a certain audio frame per second resolution. 
+The metadata such as artist, genre and timing are passed to each prior, in the form of a start token and positional embedding for the timing data.  The hidden states are mapped to the closest codebook vector from the VQVAE in order to convert them to raw audio.
+
+This model was contributed by Arthur Zucker.
+The original code can be found here.
+Usage tips
+
+This model only supports inference. This is for a few reasons, mostly because it requires a crazy amount of m

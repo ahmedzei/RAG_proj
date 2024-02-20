@@ -1,0 +1,7 @@
+ semantic (55.6 mIoU on ADE20K) and panoptic segmentation (52.7 PQ on COCO) models.
+The figure below illustrates the architecture of MaskFormer. Taken from the original paper.
+
+This model was contributed by francesco. The original code can be found here.
+Usage tips
+
+MaskFormer's Transformer decoder is identical to the decoder of DETR. During training, the authors of DETR did find it helpful to use auxiliary losses in the decoder, especially to help the model output the correct number of objects of each clas

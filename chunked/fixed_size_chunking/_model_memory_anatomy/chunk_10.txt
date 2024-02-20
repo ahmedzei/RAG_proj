@@ -1,0 +1,15 @@
+on_strategy": "steps",
+    "num_train_epochs": 1,
+    "log_level": "error",
+    "report_to": "none",
+}
+
+If you plan to run multiple experiments, in order to properly clear the memory between experiments, restart the Python 
+ kernel between experiments.
+
+Memory utilization at vanilla training
+Let's use the [Trainer] and train the model without using any GPU performance optimization techniques and a batch size of 4:
+
+from transformers import TrainingArguments, Trainer, logging
+logging.set_verbosity_error()
+tr

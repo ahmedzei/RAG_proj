@@ -1,0 +1,4 @@
+The authors train 2 DETR models, one for table detection and one for table structure recognition, dubbed Table Transformers.
+The abstract from the paper is the following:
+Recently, significant progress has been made applying machine learning to the problem of table structure inference and extraction from unstructured documents.
+However, one of the greatest challenges remains the creation of datasets with complete, unambiguous ground truth at scale.

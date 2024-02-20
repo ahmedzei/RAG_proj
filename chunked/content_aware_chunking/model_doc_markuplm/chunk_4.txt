@@ -1,0 +1,9 @@
+The original code can be found here.
+Usage tips
+
+In addition to input_ids, [~MarkupLMModel.forward] expects 2 additional inputs, namely xpath_tags_seq and xpath_subs_seq.
+These are the XPATH tags and subscripts respectively for each token in the input sequence.
+One can use [MarkupLMProcessor] to prepare all data for the model. Refer to the usage guide for more info.
+
+ 
+ MarkupLM architecture. Taken from the original paper.

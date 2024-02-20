@@ -1,0 +1,5 @@
+Having a well-defined
+name and description of the tool is paramount to having it be leveraged by the agent.
+
+Replacing existing tools
+Replacing existing tools can be done simply by assigning a new item to the agent's toolbox.

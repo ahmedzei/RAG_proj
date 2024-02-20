@@ -1,0 +1,6 @@
+We are also
+competitive with self-supervised benchmarks on ImageNet when substituting pixels for a VQVAE encoding, achieving 69.0%
+top-1 accuracy on a linear probe of our features.
+
+ Summary of the approach. Taken from the original paper. 
+This model was contributed by nielsr, based on this issue.

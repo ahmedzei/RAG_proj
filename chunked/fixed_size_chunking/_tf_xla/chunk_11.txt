@@ -1,0 +1,9 @@
+me
+import tensorflow as tf
+from transformers import AutoTokenizer, TFAutoModelForCausalLM
+tokenizer = AutoTokenizer.from_pretrained("openai-community/gpt2", padding_side="left", pad_token="")
+model = TFAutoModelForCausalLM.from_pretrained("openai-community/gpt2")
+xla_generate = tf.function(model.generate, jit_compile=True)
+for input_string in ["TensorFlow is", "TensorFlow is a", "TFLite is a"]:
+    tokenized_input = tokenizer(input_string, pad_to_multiple_of=8, padding=True, return_tensors="tf")
+    start =

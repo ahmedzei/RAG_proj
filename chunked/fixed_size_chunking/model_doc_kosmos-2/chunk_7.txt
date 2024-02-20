@@ -1,0 +1,12 @@
+smos2Config
+[[autodoc]] Kosmos2Config
+Kosmos2ImageProcessor
+Kosmos2Processor
+[[autodoc]] Kosmos2Processor
+    - call
+Kosmos2Model
+[[autodoc]] Kosmos2Model
+    - forward
+Kosmos2ForConditionalGeneration
+[[autodoc]] Kosmos2ForConditionalGeneration
+    - forward

@@ -1,0 +1,6 @@
+Code, data, and model are publicly available.
+Tips:
+
+The architecture is similar than llava architecture except that the multi-modal projector takes a set of concatenated vision hidden states and has an additional layernorm layer on that module.
+
+We advise users to use padding_side="left" when computing batched generation as it leads to more accurate results.

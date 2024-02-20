@@ -1,0 +1,9 @@
+ata.processors.utils.InputExample] can be converted to
+[~data.processors.utils.InputFeatures] in order to be fed to the model.
+[[autodoc]] data.processors.utils.DataProcessor
+[[autodoc]] data.processors.utils.InputExample
+[[autodoc]] data.processors.utils.InputFeatures
+GLUE
+General Language Understanding Evaluation (GLUE) is a benchmark that evaluates the
+performance of models across a diverse set of existing NLU tasks. It was released together with the paper GLUE: A
+multi-task benchmark and analysis platfo

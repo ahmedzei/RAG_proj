@@ -1,0 +1,8 @@
+e a look at the example again:
+
+minds["train"][0]
+{'audio': {'array': array([-0.00024414,  0.        ,  0.        , ,  0.00024414,
+          0.00024414,  0.00024414], dtype=float32),
+  'path': '/root/.cache/huggingface/datasets/downloads/extracted/f14948e0e84be638dd7943ac36518a4cf3324e8b7aa331c5ab11541518e9368c/en-US~APP_ERROR/602ba9e2963e11ccd901cd4f.wav',
+  'sampling_rate': 8000},
+ 'path': '/root/.cache/huggingface/datasets/downloads/extracted/f14948e0e84be638dd7943ac36518a4cf3324e8b7aa331c5ab11541518e936

@@ -1,0 +1,21 @@
+equenceClassification
+[[autodoc]] TFElectraForSequenceClassification
+    - call
+TFElectraForMultipleChoice
+[[autodoc]] TFElectraForMultipleChoice
+    - call
+TFElectraForTokenClassification
+[[autodoc]] TFElectraForTokenClassification
+    - call
+TFElectraForQuestionAnswering
+[[autodoc]] TFElectraForQuestionAnswering
+    - call
+
+FlaxElectraModel
+[[autodoc]] FlaxElectraModel
+    - call
+FlaxElectraForPreTraining
+[[autodoc]] FlaxElectraForPreTraining
+    - call
+FlaxElectraForCausalLM
+[[autodoc]] FlaxElectraForCau

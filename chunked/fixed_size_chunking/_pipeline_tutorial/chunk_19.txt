@@ -1,0 +1,11 @@
+untain lion, painter, panther, Felis concolor'}, {'score': 0.0324, 'label': 'snow leopard, ounce, Panthera uncia'}, {'score': 0.0239, 'label': 'Egyptian cat'}, {'score': 0.0229, 'label': 'tiger cat'}]
+
+Text pipeline
+Using a [pipeline] for NLP tasks is practically identical.
+
+from transformers import pipeline
+This model is a zero-shot-classification model.
+It will classify text, except you are free to choose any label you might imagine
+classifier = pipeline(model="facebook/bart-large-mnli")
+classifier(
+     

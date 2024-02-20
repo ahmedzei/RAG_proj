@@ -1,0 +1,6 @@
+which are quite accessible for most people.
+For more information on quantization and to see how one can quantize models to require even less GPU VRAM memory than 4-bit, we recommend looking into the AutoGPTQ implementation.
+
+As a conclusion, it is important to remember that model quantization trades improved memory efficiency against accuracy and in some cases inference time.
+
+If GPU memory is not a constraint for your use case, there is often no need to look into quantization. However many GPUs simply can'

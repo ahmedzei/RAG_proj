@@ -1,0 +1,14 @@
+nstantiate the Trainer object  and pass the model, dataset, and data collator to it.
+
+from transformers import Seq2SeqTrainer
+trainer = Seq2SeqTrainer(
+     args=training_args,
+     model=model,
+     train_dataset=dataset["train"],
+     eval_dataset=dataset["test"],
+     data_collator=data_collator,
+     tokenizer=processor,
+ )
+
+And with that, you're ready to start training! Training will take several hours. Depending on your GPU, 
+it is possible that you will encounter a CUDA "out-of-memory" error when you

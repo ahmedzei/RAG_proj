@@ -1,0 +1,10 @@
+ning job from the previous section can be deployed to a Kubernetes cluster using the
+Kubeflow PyTorchJob training operator.
+Setup
+This example assumes that you have:
+* Access to a Kubernetes cluster with Kubeflow installed
+* kubectl installed and configured to access the Kubernetes cluster
+* A Persistent Volume Claim (PVC) that can be used
+  to store datasets and model files. There are multiple options for setting up the PVC including using an NFS
+  storage class or a cloud storage bucket.
+* A Docker contai

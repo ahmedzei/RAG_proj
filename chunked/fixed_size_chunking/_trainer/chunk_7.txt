@@ -1,0 +1,8 @@
+er] class saves your model checkpoints to the directory specified in the output_dir parameter of [TrainingArguments]. You'll find the checkpoints saved in a checkpoint-000 subfolder where the numbers at the end correspond to the training step. Saving checkpoints are useful for resuming training later.
+
+resume from latest checkpoint
+trainer.train(resume_from_checkpoint=True)
+resume from specific checkpoint saved in output directory
+trainer.train(resume_from_checkpoint="your-model/checkpoint-1000")
+
+You can s

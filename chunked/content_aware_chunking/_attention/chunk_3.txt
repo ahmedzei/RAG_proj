@@ -1,0 +1,6 @@
+Also, by stacking attention layers that have a small
+window, the last layer will have a receptive field of more than just the tokens in the window, allowing them to build a
+representation of the whole sentence.
+Some preselected input tokens are also given global attention: for those few tokens, the attention matrix can access
+all tokens and this process is symmetric: all other tokens have access to those specific tokens (on top of the ones in
+their local window).

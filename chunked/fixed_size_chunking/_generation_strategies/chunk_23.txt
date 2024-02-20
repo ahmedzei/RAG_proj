@@ -1,0 +1,8 @@
+at each time step and eventually chooses
+the hypothesis that has the overall highest probability for the entire sequence. This has the advantage of identifying high-probability
+sequences that start with lower probability initial tokens and would've been ignored by the greedy search.
+To enable this decoding strategy, specify the num_beams (aka number of hypotheses to keep track of) that is greater than 1.
+thon
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+prompt = "It is astonishing how one c

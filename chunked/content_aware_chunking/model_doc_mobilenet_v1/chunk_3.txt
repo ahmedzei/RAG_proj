@@ -1,0 +1,6 @@
+The original code and weights can be found here.
+Usage tips
+
+The checkpoints are named mobilenet_v1_depth_size, for example mobilenet_v1_1.0_224, where 1.0 is the depth multiplier (sometimes also referred to as "alpha" or the width multiplier) and 224 is the resolution of the input images the model was trained on.
+
+Even though the checkpoint is trained on images of specific size, the model will work on images of any size.

@@ -1,0 +1,18 @@
+bulary
+OpenAIGPTTokenizerFast
+[[autodoc]] OpenAIGPTTokenizerFast
+OpenAI specific outputs
+[[autodoc]] models.openai.modeling_openai.OpenAIGPTDoubleHeadsModelOutput
+[[autodoc]] models.openai.modeling_tf_openai.TFOpenAIGPTDoubleHeadsModelOutput
+
+OpenAIGPTModel
+[[autodoc]] OpenAIGPTModel
+    - forward
+OpenAIGPTLMHeadModel
+[[autodoc]] OpenAIGPTLMHeadModel
+    - forward
+OpenAIGPTDoubleHeadsModel
+[[autodoc]] OpenAIGPTDoubleHeadsModel
+    - forward
+OpenAIGPTForSequenceClassification
+[[autodoc]] OpenAIGPTForSequence

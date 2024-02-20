@@ -1,0 +1,8 @@
+pe='int64', id=None), length=-1, id=None), length=-1, id=None),
+ 'start_positions': Value(dtype='int64', id=None),
+ 'end_positions': Value(dtype='int64', id=None)}
+
+Evaluation
+Evaluation for document question answering requires a significant amount of postprocessing. To avoid taking up too much
+of your time, this guide skips the evaluation step. The [Trainer] still calculates the evaluation loss during training so
+you're not completely in the dark about your model's performance. Extractive question answerin

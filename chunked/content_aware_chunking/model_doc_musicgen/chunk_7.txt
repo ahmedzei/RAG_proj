@@ -1,0 +1,5 @@
+Meaning, MusicGen cannot generate more
+than 30 seconds of audio (1503 tokens), and input audio passed by Audio-Prompted Generation contributes to this limit so,
+given an input of 20 seconds of audio, MusicGen cannot generate more than 10 seconds of additional audio.
+Transformers supports both mono (1-channel) and stereo (2-channel) variants of MusicGen. The mono channel versions 
+generate a single set of codebooks.

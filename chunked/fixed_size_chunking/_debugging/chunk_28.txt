@@ -1,0 +1,12 @@
+hidden_states
+import torch
+def forward(self, hidden_states):
+    if torch.is_autocast_enabled():
+        with torch.cuda.amp.autocast(enabled=False):
+            return self._forward(hidden_states)
+    else:
+        return self._forward(hidden_states)
+
+Since the automatic detector only reports on inputs and outputs of full frames, once you know where to look, you may
+want to analyse the intermediary stages of any specific forward function as well. In such a case you can use the
+detect_overflow helper functi

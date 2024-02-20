@@ -1,0 +1,16 @@
+Need to source the environment before using it.
+for Intel® oneCCL >= 1.12.0
+
+oneccl_bindings_for_pytorch_path=$(python -c "from oneccl_bindings_for_pytorch import cwd; print(cwd)")
+source $oneccl_bindings_for_pytorch_path/env/setvars.sh
+for Intel® oneCCL whose version < 1.12.0
+
+torch_ccl_path=$(python -c "import torch; import torch_ccl; import os;  print(os.path.abspath(os.path.dirname(torch_ccl.__file__)))")
+source $torch_ccl_path/env/setvars.sh
+Intel® Extension for PyTorch installation
+Intel Extension for PyTorch (IPEX) provides performance optimizations for CPU training with both Float32 and BFloat16 (refer to the single CPU section to learn more).
+The following "Usage in Trainer" takes mpirun in Intel® MPI library as an example.
+Usage in Trainer
+To enable multi CPU distributed training in the Trainer with the ccl backend, users should add --ddp_backend ccl in the command arguments.
+Let's see an example with the question-answering example
+The following command enables training with 2 processes on one Xeon node, with one process running per one socket.

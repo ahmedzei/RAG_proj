@@ -1,0 +1,4 @@
+rmerForSemanticSegmentation
+[[autodoc]] TFSegformerForSemanticSegmentation
+    - call
+

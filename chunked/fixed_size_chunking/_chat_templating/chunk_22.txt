@@ -1,0 +1,6 @@
+pace before it, otherwise print nothing.
+2. Add the message content
+3. If the message is not the last message, add two spaces after it. After the final message, print the EOS token.
+This is a pretty simple template - it doesn't add any control tokens, and it doesn't support "system" messages, which 
+are a common way to give the model directives about how it should behave in the subsequent conversation.
+But Jinja gives you a lot of flexibility to do those things! Let's see a Jinja template that can format in

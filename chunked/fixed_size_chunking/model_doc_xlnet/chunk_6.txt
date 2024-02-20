@@ -1,0 +1,12 @@
+pecial_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+XLNetTokenizerFast
+[[autodoc]] XLNetTokenizerFast
+XLNet specific outputs
+[[autodoc]] models.xlnet.modeling_xlnet.XLNetModelOutput
+[[autodoc]] models.xlnet.modeling_xlnet.XLNetLMHeadModelOutput
+[[autodoc]] models.xlnet.modeling_xlnet.XLNetForSequenceClassificationOutput
+[[autodoc]] models.xlnet.modeling_xlnet.XLNetForMultipleChoiceOutput
+[[autodoc]] models.xlnet.modeling_xlnet.XLNetForTokenClassificationOutput
+[[autodoc]] mod

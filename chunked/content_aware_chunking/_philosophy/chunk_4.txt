@@ -1,0 +1,2 @@
+You don't always need to instantiate these yourself. In particular, if you are using a pretrained model without any modification, creating the model will automatically take care of instantiating the configuration (which is part of the model).
+Preprocessing classes convert the raw data into a format accepted by the model. A tokenizer stores the vocabulary for each model and provide methods for encoding and decoding strings in a list of token embedding indices to be fed to a model.

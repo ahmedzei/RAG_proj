@@ -1,0 +1,7 @@
+Inference doesn't require any large additional amounts of memory for the optimizer states and gradients so you can fit much larger batches and/or sequence lengths on the same hardware.
+ZeRO Inference shares the same configuration file as ZeRO-3, and ZeRO-2 and ZeRO-1 configs won't work because they don't provide any benefits for inference.
+To run ZeRO Inference, pass your usual training arguments to the [TrainingArguments] class and add the --do_eval argument.
+
+deepspeed --num_gpus=2 your_program.py <normal cl args> --do_eval --deepspeed ds_config.json
+Non-Trainer DeepSpeed integration
+DeepSpeed also works with Transformers without the [Trainer] class.

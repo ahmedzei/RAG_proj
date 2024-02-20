@@ -1,0 +1,80 @@
+Refer to the documentation of RoBERTa for usage examples as well as the information relative to the inputs and outputs.
+
+XLMRobertaConfig
+[[autodoc]] XLMRobertaConfig
+XLMRobertaTokenizer
+[[autodoc]] XLMRobertaTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+XLMRobertaTokenizerFast
+[[autodoc]] XLMRobertaTokenizerFast
+
+XLMRobertaModel
+[[autodoc]] XLMRobertaModel
+    - forward
+XLMRobertaForCausalLM
+[[autodoc]] XLMRobertaForCausalLM
+    - forward
+XLMRobertaForMaskedLM
+[[autodoc]] XLMRobertaForMaskedLM
+    - forward
+XLMRobertaForSequenceClassification
+[[autodoc]] XLMRobertaForSequenceClassification
+    - forward
+XLMRobertaForMultipleChoice
+[[autodoc]] XLMRobertaForMultipleChoice
+    - forward
+XLMRobertaForTokenClassification
+[[autodoc]] XLMRobertaForTokenClassification
+    - forward
+XLMRobertaForQuestionAnswering
+[[autodoc]] XLMRobertaForQuestionAnswering
+    - forward
+
+TFXLMRobertaModel
+[[autodoc]] TFXLMRobertaModel
+    - call
+TFXLMRobertaForCausalLM
+[[autodoc]] TFXLMRobertaForCausalLM
+    - call
+TFXLMRobertaForMaskedLM
+[[autodoc]] TFXLMRobertaForMaskedLM
+    - call
+TFXLMRobertaForSequenceClassification
+[[autodoc]] TFXLMRobertaForSequenceClassification
+    - call
+TFXLMRobertaForMultipleChoice
+[[autodoc]] TFXLMRobertaForMultipleChoice
+    - call
+TFXLMRobertaForTokenClassification
+[[autodoc]] TFXLMRobertaForTokenClassification
+    - call
+TFXLMRobertaForQuestionAnswering
+[[autodoc]] TFXLMRobertaForQuestionAnswering
+    - call
+
+FlaxXLMRobertaModel
+[[autodoc]] FlaxXLMRobertaModel
+    - call
+FlaxXLMRobertaForCausalLM
+[[autodoc]] FlaxXLMRobertaForCausalLM
+    - call
+FlaxXLMRobertaForMaskedLM
+[[autodoc]] FlaxXLMRobertaForMaskedLM
+    - call
+FlaxXLMRobertaForSequenceClassification
+[[autodoc]] FlaxXLMRobertaForSequenceClassification
+    - call
+FlaxXLMRobertaForMultipleChoice
+[[autodoc]] FlaxXLMRobertaForMultipleChoice
+    - call
+FlaxXLMRobertaForTokenClassification
+[[autodoc]] FlaxXLMRobertaForTokenClassification
+    - call
+FlaxXLMRobertaForQuestionAnswering
+[[autodoc]] FlaxXLMRobertaForQuestionAnswering
+    - call
+
+.

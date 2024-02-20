@@ -1,0 +1,29 @@
+The original code can be found here.
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+IBertConfig
+[[autodoc]] IBertConfig
+IBertModel
+[[autodoc]] IBertModel
+    - forward
+IBertForMaskedLM
+[[autodoc]] IBertForMaskedLM
+    - forward
+IBertForSequenceClassification
+[[autodoc]] IBertForSequenceClassification
+    - forward
+IBertForMultipleChoice
+[[autodoc]] IBertForMultipleChoice
+    - forward
+IBertForTokenClassification
+[[autodoc]] IBertForTokenClassification
+    - forward
+IBertForQuestionAnswering
+[[autodoc]] IBertForQuestionAnswering
+    - forward.

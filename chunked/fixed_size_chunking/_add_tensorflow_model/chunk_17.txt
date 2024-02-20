@@ -1,0 +1,7 @@
+onds to
+  tf.keras.layers.Dense, torch.nn.Dropout corresponds to tf.keras.layers.Dropout, etc. If you're not sure
+  about a specific operation, you can use the TensorFlow documentation
+  or the PyTorch documentation.
+- Look for patterns in the 🤗 Transformers codebase. If you come across a certain operation that doesn't have a direct
+   replacement, the odds are that someone else already had the same problem.
+- By default, keep the same variable names and structure as in PyTorch. This will make it easier to 

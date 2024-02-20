@@ -1,0 +1,7 @@
+The original code can be found here.
+Usage tips
+
+Bounding boxes are not necessary to be used in the visual feature embeddings, any kind of visual-spacial features
+  will work.
+Both the language hidden states and the visual hidden states that LXMERT outputs are passed through the
+  cross-modality layer, so they contain information from both modalities.

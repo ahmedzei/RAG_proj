@@ -1,0 +1,25 @@
+code can be found here.
+Resources
+
+Jupyter notebook on how to fine-tune BLIP for image captioning on a custom dataset
+
+BlipConfig
+[[autodoc]] BlipConfig
+    - from_text_vision_configs
+BlipTextConfig
+[[autodoc]] BlipTextConfig
+BlipVisionConfig
+[[autodoc]] BlipVisionConfig
+BlipProcessor
+[[autodoc]] BlipProcessor
+BlipImageProcessor
+[[autodoc]] BlipImageProcessor
+    - preprocess
+
+BlipModel
+[[autodoc]] BlipModel
+    - forward
+    - get_text_features
+    - get_image_features
+BlipTextModel
+[[autodoc]] BlipTextMod

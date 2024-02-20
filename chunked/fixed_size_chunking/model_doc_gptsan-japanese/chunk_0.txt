@@ -1,0 +1,12 @@
+
+GPTSAN-japanese
+Overview
+The GPTSAN-japanese model was released in the repository by Toshiyuki Sakamoto (tanreinama).
+GPTSAN is a Japanese language model using Switch Transformer. It has the same structure as the model introduced as Prefix LM
+in the T5 paper, and support both Text Generation and Masked Language Modeling tasks. These basic tasks similarly can
+fine-tune for translation or summarization.
+Usage example
+The generate() method can be used to generate text using GPTSAN-Japanese model.
+thon
+
+from t

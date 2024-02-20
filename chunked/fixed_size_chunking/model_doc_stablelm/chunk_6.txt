@@ -1,0 +1,7 @@
+
+StableLmForCausalLM
+[[autodoc]] StableLmForCausalLM
+    - forward
+StableLmForSequenceClassification
+[[autodoc]] StableLmForSequenceClassification
+    - forward

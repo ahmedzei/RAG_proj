@@ -1,0 +1,13 @@
+ed from Data Movement Is All You Need: A Case Study on Optimizing Transformers 2020
+Anatomy of Model's Memory
+We've seen that training the model uses much more memory than just putting the model on the GPU. This is because there 
+are many components during training that use GPU memory. The components on GPU memory are the following:
+
+model weights
+optimizer states
+gradients
+forward activations saved for gradient computation
+temporary buffers
+functionality-specific memory
+
+A typical model trained in mixed pr

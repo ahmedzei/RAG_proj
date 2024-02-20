@@ -1,0 +1,12 @@
+_thresh=0.88)
+The masks looks like the following:
+
+{'masks': [array([[False, False, False, ,  True,  True,  True],
+         [False, False, False, ,  True,  True,  True],
+         [False, False, False, ,  True,  True,  True],
+         ,
+         [False, False, False, , False, False, False],
+         [False, False, False, , False, False, False],
+         [False, False, False, , False, False, False]]),
+  array([[False, False, False, , False, False, False],
+         [False, False, False, , False, False, False],

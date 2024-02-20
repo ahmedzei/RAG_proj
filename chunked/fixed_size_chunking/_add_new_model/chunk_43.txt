@@ -1,0 +1,6 @@
+nal repository shows examples where
+  you have to input a string, then try to find out where in the forward call the string input is changed to input ids
+  and start from this point. This might mean that you have to possibly write a small script yourself or change the
+  original code so that you can directly input the ids instead of an input string.
+Make sure that the model in your debugging setup is not in training mode, which often causes the model to yield
+  random outputs due to multiple dropout layers 

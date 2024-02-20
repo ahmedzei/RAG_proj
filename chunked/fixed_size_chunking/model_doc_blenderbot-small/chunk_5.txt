@@ -1,0 +1,21 @@
+rCausalLM
+    - forward
+
+TFBlenderbotSmallModel
+[[autodoc]] TFBlenderbotSmallModel
+    - call
+TFBlenderbotSmallForConditionalGeneration
+[[autodoc]] TFBlenderbotSmallForConditionalGeneration
+    - call
+
+FlaxBlenderbotSmallModel
+[[autodoc]] FlaxBlenderbotSmallModel
+    - call
+    - encode
+    - decode
+FlaxBlenderbotForConditionalGeneration
+[[autodoc]] FlaxBlenderbotSmallForConditionalGeneration
+    - call
+    - encode
+    - decode
+

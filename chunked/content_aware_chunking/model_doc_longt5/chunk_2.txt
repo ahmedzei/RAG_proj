@@ -1,0 +1,4 @@
+In this paper, we present a new model, called LongT5, with which we
+explore the effects of scaling both the input length and model size at the same time. Specifically, we integrated
+attention ideas from long-input transformers (ETC), and adopted pre-training strategies from summarization pre-training
+(PEGASUS) into the scalable T5 architecture.

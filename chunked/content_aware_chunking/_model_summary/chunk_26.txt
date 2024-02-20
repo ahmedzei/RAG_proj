@@ -1,0 +1,5 @@
+The decoder generates the transcript autoregressively from the encoder's hidden states and the previous tokens.
+Multimodal
+
+Encoder[[mm-encoder]]
+VisualBERT is a multimodal model for vision-language tasks released shortly after BERT. It combines BERT and a pretrained object detection system to extract image features into visual embeddings, passed alongside text embeddings to BERT.

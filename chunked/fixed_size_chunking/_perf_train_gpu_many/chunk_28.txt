@@ -1,0 +1,8 @@
+per 
+shows the naive MP on the top, and PP on the bottom:
+
+At the bottom of the diagram, you can observe that the Pipeline Parallelism (PP) approach minimizes the number of idle 
+GPU zones, referred to as 'bubbles'. Both parts of the diagram show a parallelism level of degree 4, meaning that 4 GPUs 
+are involved in the pipeline. You can see that there's a forward path of 4 pipe stages (F0, F1, F2 and F3) followed by 
+a backward path in reverse order (B3, B2, B1, and B0).
+PP introduces a new hyperparameter t

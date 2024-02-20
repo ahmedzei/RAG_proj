@@ -1,0 +1,5 @@
+In such models,
+passing the labels is the preferred way to handle training.
+Please check each model's docs to see how they handle these input IDs for sequence to sequence training.
+decoder models
+Also referred to as autoregressive models, decoder models involve a pretraining task (called causal language modeling) where the model reads the texts in order and has to predict the next word.

@@ -1,0 +1,11 @@
+uld
+wait much more than 1ms before running the inference (delaying the first request 
+by that much). 
+It would be better to have a single 1ms deadline.
+This will always wait for 1ms even if the queue is empty, which might not be the
+best since you probably want to start doing inference if there's nothing in the queue.
+But maybe it does make sense if batching is really crucial for your use case.
+Again, there's really no one best solution.
+Few things you might want to consider
+Error checking
+There's a lot tha

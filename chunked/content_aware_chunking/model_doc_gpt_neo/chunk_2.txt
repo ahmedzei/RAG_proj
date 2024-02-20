@@ -1,0 +1,14 @@
+Even more surprising to the "
+     "researchers was the fact that the unicorns spoke perfect English."
+ )
+input_ids = tokenizer(prompt, return_tensors="pt").input_ids
+gen_tokens = model.generate(
+     input_ids,
+     do_sample=True,
+     temperature=0.9,
+     max_length=100,
+ )
+gen_text = tokenizer.batch_decode(gen_tokens)[0]
+
+Combining GPT-Neo and Flash Attention 2
+First, make sure to install the latest version of Flash Attention 2 to include the sliding window attention feature, and make sure your hardware is compatible with Flash-Attention 2.

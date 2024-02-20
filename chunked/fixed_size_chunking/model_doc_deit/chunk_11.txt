@@ -1,0 +1,4 @@
+ificationWithTeacher
+[[autodoc]] TFDeiTForImageClassificationWithTeacher
+    - call
+

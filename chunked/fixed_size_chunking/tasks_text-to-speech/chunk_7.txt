@@ -1,0 +1,14 @@
+e dataset meet this requirement:
+py
+dataset = dataset.cast_column("audio", Audio(sampling_rate=16000))
+Preprocess the data
+Let's begin by defining the model checkpoint to use and loading the appropriate processor: 
+
+from transformers import SpeechT5Processor
+checkpoint = "microsoft/speecht5_tts"
+processor = SpeechT5Processor.from_pretrained(checkpoint)
+
+Text cleanup for SpeechT5 tokenization
+Start by cleaning up the text data. You'll need the tokenizer part of the processor to process the text:
+
+tokenizer =

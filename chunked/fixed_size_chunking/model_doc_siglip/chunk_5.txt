@@ -1,0 +1,13 @@
+39769.jpg'
+image = Image.open(requests.get(url, stream=True).raw)
+inference
+outputs = image_classifier(image, candidate_labels=["2 cats", "a plane", "a remote"])
+outputs = [{"score": round(output["score"], 4), "label": output["label"] } for output in outputs]
+print(outputs)
+[{'score': 0.1979, 'label': '2 cats'}, {'score': 0.0, 'label': 'a remote'}, {'score': 0.0, 'label': 'a plane'}]
+
+Using the model yourself
+If you want to do the pre- and postprocessing yourself, here's how to do that:
+thon
+
+from PIL impor

@@ -1,0 +1,9 @@
+ory store
+reduce costs because you don't need to train on cloud-based GPUs or add additional local GPUs
+
+Get started by making sure you have PyTorch installed. MPS acceleration is supported on macOS 12.3+.
+
+pip install torch torchvision torchaudio
+[TrainingArguments] uses the mps device by default if it's available which means you don't need to explicitly set the device. For example, you can run the run_glue.py script with the MPS backend automatically enabled without making any changes.
+
+export TASK_NAME=m

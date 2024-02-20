@@ -1,0 +1,14 @@
+g all other pipelines.
+Task-specific pipelines are available for audio, computer vision, natural language processing, and multimodal tasks.
+
+The pipeline abstraction
+The pipeline abstraction is a wrapper around all the other available pipelines. It is instantiated as any other
+pipeline but can provide additional quality of life.
+Simple call on one item:
+thon
+
+pipe = pipeline("text-classification")
+pipe("This restaurant is awesome")
+[{'label': 'POSITIVE', 'score': 0.9998743534088135}]
+
+If you want to use a s

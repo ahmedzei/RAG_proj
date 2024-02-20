@@ -1,0 +1,17 @@
+This will use the inputs as labels shifted to the right by one element:
+
+from transformers import DataCollatorForLanguageModeling
+data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False, return_tensors="tf")
+
+Train
+
+If you aren't familiar with finetuning a model with the [Trainer], take a look at the basic tutorial!
+
+You're ready to start training your model now! Load DistilGPT2 with [AutoModelForCausalLM]:
+
+from transformers import AutoModelForCausalLM, TrainingArguments, Trainer
+model = AutoModelForCausalLM.from_pretrained("distilbert/distilgpt2")
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [TrainingArguments].

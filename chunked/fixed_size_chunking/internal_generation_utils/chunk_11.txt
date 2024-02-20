@@ -1,0 +1,22 @@
+rocessor
+    - call
+[[autodoc]] TFNoBadWordsLogitsProcessor
+    - call
+[[autodoc]] TFNoRepeatNGramLogitsProcessor
+    - call
+[[autodoc]] TFRepetitionPenaltyLogitsProcessor
+    - call
+[[autodoc]] TFSuppressTokensAtBeginLogitsProcessor
+    - call
+[[autodoc]] TFSuppressTokensLogitsProcessor
+    - call
+[[autodoc]] TFTemperatureLogitsWarper
+    - call
+[[autodoc]] TFTopKLogitsWarper
+    - call
+[[autodoc]] TFTopPLogitsWarper
+    - call
+FLAX
+[[autodoc]] FlaxForcedBOSTokenLogitsProcessor
+    - call
+[[autodoc]] FlaxF

@@ -1,0 +1,8 @@
+FlauBERT
+
+Overview
+The FlauBERT model was proposed in the paper FlauBERT: Unsupervised Language Model Pre-training for French by Hang Le et al. It's a transformer model pretrained using a masked language
+modeling (MLM) objective (like BERT).
+The abstract from the paper is the following:
+Language models have become a key step to achieve state-of-the art results in many different Natural Language
+Processing (NLP) tasks.

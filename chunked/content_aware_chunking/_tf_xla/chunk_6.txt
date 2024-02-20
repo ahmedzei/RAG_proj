@@ -1,0 +1,14 @@
+We can use the model for running a forward pass like so:
+
+Generate random inputs for the model.
+batch_size = 16
+input_vector_dim = 10
+random_inputs = tf.random.normal((batch_size, input_vector_dim))
+Run a forward pass.
+_ = model(random_inputs)
+
+In order to run the forward pass with an XLA-compiled function, we’d need to do:
+py
+xla_fn = tf.function(model, jit_compile=True)
+_ = xla_fn(random_inputs)
+The default call() function of the model is used for compiling the XLA graph.

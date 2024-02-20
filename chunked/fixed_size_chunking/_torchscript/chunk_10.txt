@@ -1,0 +1,11 @@
+ts_tensors)
+Deploy Hugging Face TorchScript models to AWS with the Neuron SDK
+AWS introduced the Amazon EC2 Inf1
+instance family for low cost, high performance machine learning inference in the cloud.
+The Inf1 instances are powered by the AWS Inferentia chip, a custom-built hardware
+accelerator, specializing in deep learning inferencing workloads. AWS
+Neuron is the SDK for
+Inferentia that supports tracing and optimizing transformers models for deployment on
+Inf1. The Neuron SDK provides:
+
+Easy-to-use API wi

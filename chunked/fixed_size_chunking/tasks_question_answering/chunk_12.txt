@@ -1,0 +1,13 @@
+ by setting push_to_hub=True (you need to be signed in to Hugging Face to upload your model).
+Pass the training arguments to [Trainer] along with the model, dataset, tokenizer, and data collator.
+Call [~Trainer.train] to finetune your model.
+
+training_args = TrainingArguments(
+     output_dir="my_awesome_qa_model",
+     evaluation_strategy="epoch",
+     learning_rate=2e-5,
+     per_device_train_batch_size=16,
+     per_device_eval_batch_size=16,
+     num_train_epochs=3,
+     weight_decay=0.01,
+     push_to_h

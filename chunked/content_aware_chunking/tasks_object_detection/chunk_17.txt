@@ -1,0 +1,12 @@
+Additionally, we specify ignore_mismatched_sizes=True to replace the existing classification head with a new one.
+
+from transformers import AutoModelForObjectDetection
+model = AutoModelForObjectDetection.from_pretrained(
+     checkpoint,
+     id2label=id2label,
+     label2id=label2id,
+     ignore_mismatched_sizes=True,
+ )
+
+In the [TrainingArguments] use output_dir to specify where to save your model, then configure hyperparameters as you see fit.
+It is important you do not remove unused columns because this will drop the image column.

@@ -1,0 +1,9 @@
+ [BartForConditionalGeneration]
+Some key configuration differences:
+static, sinusoidal position embeddings
+the model starts generating with pad_token_id (which has 0 token_embedding) as the prefix.
+more beams are used (num_beams=8)
+All pretrained pegasus checkpoints are the same besides three attributes: tokenizer.model_max_length (maximum
+  input size), max_length (the maximum number of tokens to generate) and length_penalty.
+The code to convert checkpoints trained in the author's repo can be
+  found in co

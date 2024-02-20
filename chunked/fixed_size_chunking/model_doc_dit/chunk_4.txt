@@ -1,0 +1,10 @@
+-trained on masked image modeling. Note that this won't include the language modeling head on top, used to predict visual tokens.
+To include the head, you can load the weights into a BeitForMaskedImageModeling model, like so:
+thon
+from transformers import BeitForMaskedImageModeling
+model = BeitForMaskedImageModeling.from_pretrained("microsoft/dit-base")
+
+You can also load a fine-tuned model from the hub, like so:
+thon
+from transformers import AutoModelForImageClassification
+model = AutoModelForImageClassifi

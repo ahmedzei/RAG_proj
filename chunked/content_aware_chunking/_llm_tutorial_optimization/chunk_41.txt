@@ -1,0 +1,4 @@
+the word "love" attends to the word "Hello" with 5%, to "I" with 30%, and to itself with 65%.
+A LLM based on self-attention, but without position embeddings would have great difficulties in understanding the positions of the text inputs to each other.
+This is because the probability score computed by \( \mathbf{QK}^T \) relates each word token to each other word token in \( O(1) \) computations regardless of their relative positional distance to each other.
+Therefore, for the LLM without position embeddings each token appears to have the same distance to all other tokens, e.g.

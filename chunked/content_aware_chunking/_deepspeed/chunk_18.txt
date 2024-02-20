@@ -1,0 +1,2 @@
+You can balance, for example, whether a bigger batch size is more important than a slightly slower training time.
+round_robin_gradients is available in DeepSpeed 0.4.4 for CPU offloading. It parallelizes gradient copying to CPU memory among ranks by fine-grained gradient partitioning.

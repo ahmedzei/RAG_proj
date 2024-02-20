@@ -1,0 +1,7 @@
+The device_map parameter is optional, but we recommend setting it to "auto" to allow 🤗 Accelerate to automatically and efficiently allocate the model given the available resources in the environment.
+
+from transformers import AutoModelForCausalLM
+model_name = "bigscience/bloom-2b5"
+model_4bit = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", load_in_4bit=True)
+
+To load a model in 4-bit for inference with multiple GPUs, you can control how much GPU RAM you want to allocate to each GPU.

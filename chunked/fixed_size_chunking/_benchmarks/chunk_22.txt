@@ -1,0 +1,9 @@
+            8              128            1330
+bert-base                  8              512            1770
+bert-384-hid              8               8             1330
+bert-384-hid              8               32            1330
+bert-384-hid              8              128            1330
+bert-384-hid              8              512            1540
+bert-6-lay                 8               8             1330
+bert-6-lay                 8               32            1330
+bert-6-lay                 8       

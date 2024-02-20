@@ -1,0 +1,21 @@
+to TensorFlow?
+local: add_new_pipeline
+    title: How to add a pipeline to 🤗 Transformers?
+local: testing
+    title: Testing
+local: pr_checks
+    title: Checks on a Pull Request
+  title: Contribute
+sections:
+local: philosophy
+    title: Philosophy
+local: glossary
+    title: Glossary
+local: task_summary
+    title: What 🤗 Transformers can do
+local: tasks_explained
+    title: How 🤗 Transformers solve tasks
+local: model_summary
+    title: The Transformer model family
+local: tokenizer_summary
+    title: Summary 

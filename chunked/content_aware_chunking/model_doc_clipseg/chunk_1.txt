@@ -1,0 +1,5 @@
+Incorporating additional classes or more complex queries later is expensive
+as it requires re-training the model on a dataset that encompasses these expressions. Here we propose a system
+that can generate image segmentations based on arbitrary
+prompts at test time. A prompt can be either a text or an
+image.

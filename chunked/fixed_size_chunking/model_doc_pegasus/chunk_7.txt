@@ -1,0 +1,24 @@
+ers."
+ )
+
+Resources
+
+Script to fine-tune pegasus
+  on the XSUM dataset. Data download instructions at examples/pytorch/summarization/.
+Causal language modeling task guide
+Translation task guide
+Summarization task guide
+
+PegasusConfig
+[[autodoc]] PegasusConfig
+PegasusTokenizer
+warning: add_tokens does not work at the moment.
+[[autodoc]] PegasusTokenizer
+PegasusTokenizerFast
+[[autodoc]] PegasusTokenizerFast
+
+PegasusModel
+[[autodoc]] PegasusModel
+    - forward
+PegasusForConditionalGeneration
+[[autodoc]] Pegasu

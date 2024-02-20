@@ -1,0 +1,8 @@
+
+DETA
+Overview
+The DETA model was proposed in NMS Strikes Back by Jeffrey Ouyang-Zhang, Jang Hyun Cho, Xingyi Zhou, Philipp Krähenbühl.
+DETA (short for Detection Transformers with Assignment) improves Deformable DETR by replacing the one-to-one bipartite Hungarian matching loss
+with one-to-many label assignments used in traditional detectors with non-maximum suppression (NMS). This leads to significant gains of up to 2.5 mAP.
+The abstract from the paper is the following:
+Detection Transformer (DETR) directl

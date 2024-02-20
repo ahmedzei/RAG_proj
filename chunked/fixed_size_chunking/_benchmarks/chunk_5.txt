@@ -1,0 +1,13 @@
+yTorch and Tensorflow
+respectively.
+
+python examples/pytorch/benchmarking/run_benchmark.py --help
+An instantiated benchmark object can then simply be run by calling benchmark.run().
+
+results = benchmark.run()
+print(results)
+====================       INFERENCE - SPEED - RESULT       ====================
+
+Model Name             Batch Size     Seq Length     Time in s
+google-bert/bert-base-uncased          8               8             0.006   
+google-bert/bert-base-uncased          8               32        

@@ -1,0 +1,11 @@
+ state to 12 * 0.2 = 2.4GB.
+Read more about PEFT and its detailed usage in the PEFT documentation or PEFT repository.
+Using 🤗 Accelerate
+With 🤗 Accelerate you can use the above methods while gaining full 
+control over the training loop and can essentially write the loop in pure PyTorch with some minor modifications. 
+Suppose you have combined the methods in the [TrainingArguments] like so:
+py
+training_args = TrainingArguments(
+    per_device_train_batch_size=1,
+    gradient_accumulation_steps=4,
+    gradien

@@ -1,0 +1,14 @@
+ech encoder-only
+model.
+This model was contributed by Patrick von Platen.
+The original code can be found here.
+Usage tips
+
+Speech2Text2 achieves state-of-the-art results on the CoVoST Speech Translation dataset. For more information, see
+  the official models .
+Speech2Text2 is always used within the SpeechEncoderDecoder framework.
+Speech2Text2's tokenizer is based on fastBPE.
+
+Inference
+Speech2Text2's [SpeechEncoderDecoderModel] model accepts raw waveform input values from speech and
+makes use of [~generati

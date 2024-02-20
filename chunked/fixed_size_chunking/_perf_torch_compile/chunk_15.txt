@@ -1,0 +1,12 @@
+089 |
+| Image Segmentation/Mask2former | 249.605 | 222.801 |
+| Image Segmentation/Maskformer | 831.142 | 743.645 | 
+| Image Segmentation/MobileNet | 93.129 | 55.365 |
+| Object Detection/Resnet-101 | 482.425 | 361.843 |
+| Object Detection/Conditional-DETR | 344.661 | 255.298 |
+T4 (batch size: 1)
+| Task/Model | torch 2.0 - no compile | torch 2.0 - compile |
+|:---:|:---:|:---:|
+| Image Classification/ViT | 16.520 | 15.786 | 
+| Image Segmentation/Segformer | 16.116 | 14.205 |
+| Object Detection/OwlViT | 53.634 

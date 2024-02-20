@@ -1,0 +1,33 @@
+For example, let's define where to save the model in output_dir and push the model to the Hub after training with push_to_hub=True.
+
+from transformers import TrainingArguments
+training_args = TrainingArguments(
+    output_dir="your-model",
+    learning_rate=2e-5,
+    per_device_train_batch_size=16,
+    per_device_eval_batch_size=16,
+    num_train_epochs=2,
+    weight_decay=0.01,
+    evaluation_strategy="epoch",
+    save_strategy="epoch",
+    load_best_model_at_end=True,
+    push_to_hub=True,
+)
+
+Pass training_args to the [Trainer] along with a model, dataset, something to preprocess the dataset with (depending on your data type it could be a tokenizer, feature extractor or image processor), a data collator, and a function to compute the metrics you want to track during training.
+Finally, call [~Trainer.train] to start training!
+
+from transformers import Trainer
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=dataset["train"],
+    eval_dataset=dataset["test"],
+    tokenizer=tokenizer,
+    data_collator=data_collator,
+    compute_metrics=compute_metrics,
+)
+trainer.train()
+
+Checkpoints
+The [Trainer] class saves your model checkpoints to the directory specified in the output_dir parameter of [TrainingArguments].

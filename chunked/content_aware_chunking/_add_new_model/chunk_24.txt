@@ -1,0 +1,12 @@
+If that's the case make sure to install the Deep Learning framework you are working with
+(PyTorch, TensorFlow and/or Flax) then do:
+
+pip install -e ".[quality]"
+which should be enough for most use cases. You can then return to the parent directory
+
+cd ..
+
+We recommend adding the PyTorch version of brand_new_bert to Transformers. To install PyTorch, please follow the
+   instructions on https://pytorch.org/get-started/locally/.
+
+Note: You don't need to have CUDA installed.

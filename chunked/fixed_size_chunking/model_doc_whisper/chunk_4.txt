@@ -1,0 +1,10 @@
+ad_dataset("hf-internal-testing/librispeech_asr_dummy", "clean", split="validation")
+audio_sample = ds[0]["audio"]
+waveform = audio_sample["array"]
+sampling_rate = audio_sample["sampling_rate"]
+Load the Whisper model in Hugging Face format:
+processor = WhisperProcessor.from_pretrained("openai/whisper-tiny.en")
+model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-tiny.en")
+Use the model and processor to transcribe the audio:
+input_features = processor(
+     waveform, sampling_rate=sampling

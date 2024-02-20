@@ -1,0 +1,5 @@
+ll", torch_dtype=torch.float16, attn_implementation="flash_attention_2").to(device)
+Performance comparison
+The following diagram shows the latency for the native attention implementation (no optimisation) against Better Transformer and Flash Attention 2. In all cases, we generate 400 semantic tokens on a 40GB A100 GPU with PyTorch 2.1. Flash Attention 2 is also consistently faster than Better Transformer, and its performance improves even more as batch sizes increase:
+
+To put this into perspective, on an NV

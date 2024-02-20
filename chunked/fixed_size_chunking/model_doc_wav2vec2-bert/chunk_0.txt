@@ -1,0 +1,7 @@
+
+Wav2Vec2-BERT
+Overview
+The Wav2Vec2-BERT model was proposed in Seamless: Multilingual Expressive and Streaming Speech Translation by the Seamless Communication team from Meta AI.
+This model was pre-trained on 4.5M hours of unlabeled audio data covering more than 143 languages. It requires finetuning to be used for downstream tasks such as Automatic Speech Recognition (ASR), or Audio Classification.
+The official results of the model can be found in Section 3.2.1 of the paper.
+The abstract from the paper is 

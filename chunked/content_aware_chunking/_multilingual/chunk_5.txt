@@ -1,0 +1,9 @@
+They should identify the language from the
+context and infer accordingly.
+XLM-RoBERTa
+The following XLM-RoBERTa models can be used for multilingual tasks:
+
+FacebookAI/xlm-roberta-base (Masked language modeling, 100 languages)
+FacebookAI/xlm-roberta-large (Masked language modeling, 100 languages)
+
+XLM-RoBERTa was trained on 2.5TB of newly created and cleaned CommonCrawl data in 100 languages.

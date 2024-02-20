@@ -1,0 +1,15 @@
+          pad_to_multiple_of=self.pad_to_multiple_of,
+             return_tensors="pt",
+         )
+         batch = {k: v.view(batch_size, num_choices, -1) for k, v in batch.items()}
+         batch["labels"] = torch.tensor(labels, dtype=torch.int64)
+         return batch
+</pt>
+<tf>py
+
+from dataclasses import dataclass
+from transformers.tokenization_utils_base import PreTrainedTokenizerBase, PaddingStrategy
+from typing import Optional, Union
+import tensorflow as tf
+@dataclass
+ class DataCollatorForMultipleCh

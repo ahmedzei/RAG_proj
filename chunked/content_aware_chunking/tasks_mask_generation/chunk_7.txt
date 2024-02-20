@@ -1,0 +1,10 @@
+To do so, initialize the model and
+the processor.
+thon
+from transformers import SamModel, SamProcessor
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+model = SamModel.from_pretrained("facebook/sam-vit-base").to(device)
+processor = SamProcessor.from_pretrained("facebook/sam-vit-base")
+
+To do point prompting, pass the input point to the processor, then take the processor output
+and pass it to the model for inference.

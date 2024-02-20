@@ -1,0 +1,12 @@
+e .env/bin/activate
+pip install -e ".[dev]"
+Depending on your OS, and since the number of optional dependencies of Transformers is growing, you might get a
+failure with this command. If that's the case make sure to install the Deep Learning framework you are working with
+(PyTorch, TensorFlow and/or Flax) then do:
+
+pip install -e ".[quality]"
+which should be enough for most use cases. You can then return to the parent directory
+
+cd ..
+
+We recommend adding the PyTorch version of brand_new_bert to Transformers

@@ -1,0 +1,9 @@
+GPT-2 is one of them and is available in five
+different sizes: small, medium, large, xl and a distilled version of the small checkpoint: distilgpt-2.
+This model was contributed by thomwolf. The original code can be found here.
+Usage tips
+
+GPT-2 is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather than
+  the left.
+GPT-2 was trained with a causal language modeling (CLM) objective and is therefore powerful at predicting the next
+  token in a sequence.

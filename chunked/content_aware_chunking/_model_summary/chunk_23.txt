@@ -1,0 +1,1 @@
+It is pretrained with a contrastive task to determine the true speech representation from a set of false ones. HuBERT is similar to Wav2Vec2 but has a different training process. Target labels are created by a clustering step in which segments of similar audio are assigned to a cluster which becomes a hidden unit.

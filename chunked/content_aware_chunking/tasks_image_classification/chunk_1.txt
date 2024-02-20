@@ -1,0 +1,43 @@
+This will give you a chance to
+experiment and make sure everything works before spending more time training on the full dataset.
+
+from datasets import load_dataset
+food = load_dataset("food101", split="train[:5000]")
+
+Split the dataset's train split into a train and test set with the [~datasets.Dataset.train_test_split] method:
+
+food = food.train_test_split(test_size=0.2)
+
+Then take a look at an example:
+
+food["train"][0]
+{'image': ,
+ 'label': 79}
+
+Each example in the dataset has two fields:
+
+image: a PIL image of the food item
+label: the label class of the food item
+
+To make it easier for the model to get the label name from the label id, create a dictionary that maps the label name
+to an integer and vice versa:
+
+labels = food["train"].features["label"].names
+label2id, id2label = dict(), dict()
+for i, label in enumerate(labels):
+     label2id[label] = str(i)
+     id2label[str(i)] = label
+
+Now you can convert the label id to a label name:
+
+id2label[str(79)]
+'prime_rib'
+
+Preprocess
+The next step is to load a ViT image processor to process the image into a tensor:
+
+from transformers import AutoImageProcessor
+checkpoint = "google/vit-base-patch16-224-in21k"
+image_processor = AutoImageProcessor.from_pretrained(checkpoint)
+
+Apply some image transformations to the images to make the model more robust against overfitting.

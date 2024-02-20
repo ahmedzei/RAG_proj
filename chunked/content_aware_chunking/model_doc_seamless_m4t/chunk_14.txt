@@ -1,0 +1,44 @@
+The original code can be found here.
+SeamlessM4TModel
+[[autodoc]] SeamlessM4TModel
+    - generate
+SeamlessM4TForTextToSpeech
+[[autodoc]] SeamlessM4TForTextToSpeech
+    - generate
+SeamlessM4TForSpeechToSpeech
+[[autodoc]] SeamlessM4TForSpeechToSpeech
+    - generate
+SeamlessM4TForTextToText
+[[autodoc]] transformers.SeamlessM4TForTextToText
+    - forward
+    - generate
+SeamlessM4TForSpeechToText
+[[autodoc]] transformers.SeamlessM4TForSpeechToText
+    - forward
+    - generate
+SeamlessM4TConfig
+[[autodoc]] SeamlessM4TConfig
+SeamlessM4TTokenizer
+[[autodoc]] SeamlessM4TTokenizer
+    - call
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+SeamlessM4TTokenizerFast
+[[autodoc]] SeamlessM4TTokenizerFast
+    - call
+SeamlessM4TFeatureExtractor
+[[autodoc]] SeamlessM4TFeatureExtractor
+    - call
+SeamlessM4TProcessor
+[[autodoc]] SeamlessM4TProcessor
+    - call
+SeamlessM4TCodeHifiGan
+[[autodoc]] SeamlessM4TCodeHifiGan
+SeamlessM4THifiGan
+[[autodoc]] SeamlessM4THifiGan
+SeamlessM4TTextToUnitModel
+[[autodoc]] SeamlessM4TTextToUnitModel
+SeamlessM4TTextToUnitForConditionalGeneration
+[[autodoc]] SeamlessM4TTextToUnitForConditionalGeneration.

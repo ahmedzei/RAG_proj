@@ -1,0 +1,9 @@
+to
+construct a computational graph (often called an intermediate representation) which
+represents the flow of data through the neural network.
+By exposing a graph with standardized operators and data types, ONNX makes it easy to
+switch between frameworks. For example, a model trained in PyTorch can be exported to
+ONNX format and then imported in TensorFlow (and vice versa).
+Once exported to ONNX format, a model can be:
+- optimized for inference via techniques such as graph optimization and quantization. 
+- 

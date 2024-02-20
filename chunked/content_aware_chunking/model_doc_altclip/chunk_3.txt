@@ -1,0 +1,5 @@
+Further, we obtain very close performances with 
+CLIP on almost all tasks, suggesting that one can simply alter the text encoder in CLIP for extended capabilities such as multilingual understanding.
+This model was contributed by jongjyh.
+Usage tips and example
+The usage of AltCLIP is very similar to the CLIP. the difference between CLIP is the text encoder.

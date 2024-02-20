@@ -1,0 +1,7 @@
+Inference
+First, we install transformers and some other libraries
+```bash
+pip install torch accelerate datasets[audio]
+pip install --upgrade transformers
+`
+Next, we load a couple of audio samples via datasets.

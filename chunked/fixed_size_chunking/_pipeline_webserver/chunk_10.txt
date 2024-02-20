@@ -1,0 +1,10 @@
+ will block the main
+thread while running. That means it would be better if PyTorch was forced to run
+on its own thread/process. This wasn't done here because the code is a lot more
+complex (mostly because threads and async and queues don't play nice together).
+But ultimately it does the same thing.
+This would be important if the inference of single items were long (> 1s) because 
+in this case, it means every query during inference would have to wait for 1s before
+even receiving an error.
+Dynamic batching
+I

@@ -1,0 +1,8 @@
+
+Attention mechanisms
+Most transformer models use full attention in the sense that the attention matrix is square. It can be a big
+computational bottleneck when you have long texts. Longformer and reformer are models that try to be more efficient and
+use a sparse version of the attention matrix to speed up training.
+LSH attention
+Reformer uses LSH attention. In the softmax(QK^t), only the biggest elements (in the softmax
+dimension) of the matrix QK^t are going to give useful contributions. So for each query

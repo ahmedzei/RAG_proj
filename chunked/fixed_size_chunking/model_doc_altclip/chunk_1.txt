@@ -1,0 +1,6 @@
+al CLIP's capabilities such as multilingual understanding.
+The abstract from the paper is the following:
+In this work, we present a conceptually simple and effective method to train a strong bilingual multimodal representation model. 
+Starting from the pretrained multimodal representation model CLIP released by OpenAI, we switched its text encoder with a pretrained 
+multilingual text encoder XLM-R, and aligned both languages and image representations by a two-stage training schema consisting of 
+teacher lea

@@ -1,0 +1,6 @@
+On the other hand, BEiT is a vision model pretrained on a masked image modeling task which masks some of the image patches and requires the model to predict the masked patches (similar to the masked language modeling objective).
+R
+recurrent neural network (RNN)
+A type of model that uses a loop over a layer to process texts.
+representation learning
+A subfield of machine learning which focuses on learning meaningful representations of raw data.

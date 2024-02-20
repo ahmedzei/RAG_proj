@@ -1,0 +1,4 @@
+design enables compatibility with both supervised and masked self-supervised learning methods, making it a promising building block for time-series Foundation Models. TSMixer outperforms state-of-the-art MLP and Transformer models in forecasting by a considerable margin of 8-60%. It also outperforms the latest strong benchmarks of Patch-Transformer models (by 1-2%) with a significant reduction in memory and runtime (2-3X).
+This model was contributed by ajati, vijaye12, 
+gsinthong, namctin,
+wmgifford, kashif

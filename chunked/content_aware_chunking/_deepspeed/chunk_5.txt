@@ -1,0 +1,4 @@
+You should also consider the tradeoff between cost and speed because it'll be cheaper to rent or buy a smaller GPU but it'll take longer to train your model.
+If you have enough GPU memory make sure you disable CPU/NVMe offload to make everything faster.
+Select a ZeRO stage
+After you've installed DeepSpeed and have a better idea of your memory requirements, the next step is selecting a ZeRO stage to use.

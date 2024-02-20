@@ -1,0 +1,3 @@
+One can use [TvltProcessor] to prepare data for the model.
+  This processor wraps an image processor (for the image/video modality) and an audio feature extractor (for the audio modality) into one.
+TVLT is trained with images/videos and audios of various sizes: the authors resize and crop the input images/videos to 224 and limit the length of audio spectrogram to 2048.

@@ -1,0 +1,6 @@
+Run End-to-end integration tests
+Having added the tokenizer, you should also add a couple of end-to-end integration tests using both the model and the
+tokenizer to tests/models/brand_new_bert/test_modeling_brand_new_bert.py in 🤗 Transformers.
+Such a test should show on a meaningful
+text-to-text sample that the 🤗 Transformers implementation works as expected. A meaningful text-to-text sample can
+include e.g.

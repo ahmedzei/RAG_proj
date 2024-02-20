@@ -1,0 +1,3 @@
+ALIGN
+Overview
+The ALIGN model was proposed in Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision by Chao Jia, Yinfei Yang, Ye Xia, Yi-Ting Chen, Zarana Parekh, Hieu Pham, Quoc V. Le, Yunhsuan Sung, Zhen Li, Tom Duerig. ALIGN is a multi-modal vision and language model. It can be used for image-text similarity and for zero-shot image classification.

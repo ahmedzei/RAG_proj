@@ -1,0 +1,3 @@
+This work lays out the foundation for the development of Embodiment AI and sheds light on the big convergence of language, multimodal perception, action, and world modeling, which is a key step toward artificial general intelligence. Code and pretrained models are available at https://aka.ms/kosmos-2.
+
+ Overview of tasks that KOSMOS-2 can handle. Taken from the original paper.

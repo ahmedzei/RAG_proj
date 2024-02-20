@@ -1,0 +1,8 @@
+====================      INFERENCE - MEMORY - RESULT       ====================
+Model Name             Batch Size     Seq Length      Memory in MB
+bert-base                  8               8             1277
+bert-base                  8               32            1281
+bert-base                  8              128            1307   
+bert-base                  8              512            1539   
+bert-384-hid              8               8             1005   
+bert-384-hid              8               32  

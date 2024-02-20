@@ -1,0 +1,13 @@
+t and notebook.
+[TFDistilBertForQuestionAnswering] is supported by this example script and notebook.
+[FlaxDistilBertForQuestionAnswering] is supported by this example script.
+Question answering chapter of the 🤗 Hugging Face Course.
+Question answering task guide
+
+Multiple choice
+- [DistilBertForMultipleChoice] is supported by this example script and notebook.
+- [TFDistilBertForMultipleChoice] is supported by this example script and notebook.
+- Multiple choice task guide
+⚗️ Optimization
+
+A blog post on how to

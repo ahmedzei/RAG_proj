@@ -1,0 +1,7 @@
+ like trees, roads, sky), then freeze all the weights and train only
+the mask head for 25 epochs. Experimentally, these two approaches give similar results. Note that predicting boxes is
+required for the training to be possible, since the Hungarian matching is computed using distances between boxes.
+Usage tips
+
+DETR uses so-called object queries to detect objects in an image. The number of queries determines the maximum
+  number of objects that can be detected in a single image, and is set to 100 by default

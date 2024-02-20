@@ -1,0 +1,14 @@
+class accordingly. Refer to the data API documentation to learn more. Also, if your dataset follows a similar structure (as shown above), then using the pytorchvideo.data.Ucf101() should work just fine. 
+You can access the num_videos argument to know the number of videos in the dataset.
+
+print(train_dataset.num_videos, val_dataset.num_videos, test_dataset.num_videos)
+
+(300, 30, 75)
+
+Visualize the preprocessed video for better debugging
+ 
+
+import imageio
+import numpy as np
+from IPython.display import Image
+d

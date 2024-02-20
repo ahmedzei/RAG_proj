@@ -1,0 +1,11 @@
+bject/s (e.g. sky) together.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with OneFormer.
+
+Demo notebooks regarding inference + fine-tuning on custom data can be found here.
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we will review it.
+The resource should ideally demonstrate something new instead of duplicating an existing resource.
+OneFormer specific outputs
+[[autodoc]] models

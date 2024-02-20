@@ -1,0 +1,17 @@
+64, 128]},
+         },
+     }
+
+Define a model_init function and pass it to the [Trainer], as an example:
+
+def model_init(trial):
+     return AutoModelForSequenceClassification.from_pretrained(
+         model_args.model_name_or_path,
+         from_tf=bool(".ckpt" in model_args.model_name_or_path),
+         config=config,
+         cache_dir=model_args.cache_dir,
+         revision=model_args.model_revision,
+         token=True if model_args.use_auth_token else None,
+     )
+
+Create a [Trainer] with your model_i

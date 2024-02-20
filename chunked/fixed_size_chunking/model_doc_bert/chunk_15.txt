@@ -1,0 +1,22 @@
+
+    - call
+FlaxBertForPreTraining
+[[autodoc]] FlaxBertForPreTraining
+    - call
+FlaxBertForCausalLM
+[[autodoc]] FlaxBertForCausalLM
+    - call
+FlaxBertForMaskedLM
+[[autodoc]] FlaxBertForMaskedLM
+    - call
+FlaxBertForNextSentencePrediction
+[[autodoc]] FlaxBertForNextSentencePrediction
+    - call
+FlaxBertForSequenceClassification
+[[autodoc]] FlaxBertForSequenceClassification
+    - call
+FlaxBertForMultipleChoice
+[[autodoc]] FlaxBertForMultipleChoice
+    - call
+FlaxBertForTokenClassification
+[[autodoc]] FlaxB

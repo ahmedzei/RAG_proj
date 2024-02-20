@@ -1,0 +1,12 @@
+language model expert, so I'm a big believer in the concept that I know very well and then I try to look into"}]
+
+To run inference with an encoder-decoder, use the text2text-generation pipeline:
+thon
+
+text2text_generator = pipeline("text2text-generation", model = 'google/flan-t5-base')
+prompt = "Translate from English to French: I'm very happy to see you"
+text2text_generator(prompt)
+[{'generated_text': 'Je suis très heureuse de vous rencontrer.'}]
+
+Base vs instruct/chat models
+Most of the recent LLM checkpo

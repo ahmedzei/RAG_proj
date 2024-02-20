@@ -1,0 +1,5 @@
+These are
+randomly initialized, after which they are trained end-to-end using backpropagation.
+Internally, [PerceiverModel] will create the latents, which is a tensor of shape (batch_size, num_latents,
+d_latents). One must provide inputs (which could be text, images, audio, you name it!) to the model, which it will
+use to perform cross-attention with the latents. The output of the Perceiver encoder is a tensor of the same shape.

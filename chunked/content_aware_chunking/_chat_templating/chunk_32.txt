@@ -1,0 +1,5 @@
+This is very analogous to tokenization - you generally get the
+best performance for inference or fine-tuning when you precisely match the tokenization used during training.
+If you're training a model from scratch, or fine-tuning a base language model for chat, on the other hand,
+you have a lot of freedom to choose an appropriate template! LLMs are smart enough to learn to handle lots of different
+input formats.

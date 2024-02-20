@@ -1,0 +1,11 @@
+ent variable was setup and you end up using the wrong GPUs. Instead, it is common practice to set the environment variable for a specific training run on the same command line.
+
+CUDA_DEVICE_ORDER is an alternative environment variable you can use to control how the GPUs are ordered. You can either order them by:
+
+PCIe bus ID's that matches the order of nvidia-smi and rocm-smi for NVIDIA and AMD GPUs respectively
+
+export CUDA_DEVICE_ORDER=PCI_BUS_ID
+
+GPU compute ability
+
+export CUDA_DEVICE_ORDER=FASTEST_FIRS

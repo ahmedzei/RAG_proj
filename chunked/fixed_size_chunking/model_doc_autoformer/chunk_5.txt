@@ -1,0 +1,3 @@
+ormerForPrediction
+[[autodoc]] AutoformerForPrediction
+    - forward

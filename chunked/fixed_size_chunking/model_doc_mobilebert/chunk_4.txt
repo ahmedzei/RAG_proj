@@ -1,0 +1,18 @@
+
+  efficient at predicting masked tokens and at NLU in general, but is not optimal for text generation. Models trained
+  with a causal language modeling (CLM) objective are better in that regard.
+
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+MobileBertConfig
+[[autodoc]] MobileBertConfig
+MobileBertTokenizer
+[[autodoc]] MobileBertTokenizer
+MobileBertTokenizerFast
+[[autodoc]] MobileBertTok

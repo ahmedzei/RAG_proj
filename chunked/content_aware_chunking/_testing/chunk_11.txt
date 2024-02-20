@@ -1,0 +1,20 @@
+This is repeated until all tests pass after
+which again a full run is performed.
+
+pip install pytest-xdist
+To enter the mode: pytest -f or pytest --looponfail
+File changes are detected by looking at looponfailroots root directories and all of their contents (recursively).
+If the default for this value does not work for you, you can change it in your project by setting a configuration
+option in setup.cfg:
+ini
+[tool:pytest]
+looponfailroots = transformers tests
+or pytest.ini/tox.ini files:
+ini
+[pytest]
+looponfailroots = transformers tests
+This would lead to only looking for file changes in the respective directories, specified relatively to the ini-file’s
+directory.
+pytest-watch is an alternative implementation of this functionality.
+Skip a test module
+If you want to run all test modules, except a few you can exclude them by giving an explicit list of tests to run.

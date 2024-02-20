@@ -1,0 +1,11 @@
+rom transformers import DetrForObjectDetection
+model = DetrForObjectDetection.from_pretrained("facebook/detr-resnet-50")
+
+Option 2: Instantiate DETR with randomly initialized weights for Transformer, but pre-trained weights for backbone
+
+from transformers import DetrConfig, DetrForObjectDetection
+config = DetrConfig()
+model = DetrForObjectDetection(config)
+Option 3: Instantiate DETR with randomly initialized weights for backbone + Transformerpy
+config = DetrConfig(use_pretrained_backbone=False)
+model = Detr

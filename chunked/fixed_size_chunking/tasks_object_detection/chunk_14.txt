@@ -1,0 +1,17 @@
+mage_id": image_id,
+             "category_id": category[i],
+             "isCrowd": 0,
+             "area": area[i],
+             "bbox": list(bbox[i]),
+         }
+         annotations.append(new_ann)
+
+     return annotations
+
+Now you can combine the image and annotation transformations to use on a batch of examples:
+
+transforming a batch
+def transform_aug_ann(examples):
+     image_ids = examples["image_id"]
+     images, bboxes, area, categories = [], [], [], []
+     for image, objects in zip(examples["ima

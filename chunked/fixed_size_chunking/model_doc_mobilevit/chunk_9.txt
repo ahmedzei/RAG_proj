@@ -1,0 +1,14 @@
+ion
+[[autodoc]] MobileViTForSemanticSegmentation
+    - forward
+
+TFMobileViTModel
+[[autodoc]] TFMobileViTModel
+    - call
+TFMobileViTForImageClassification
+[[autodoc]] TFMobileViTForImageClassification
+    - call
+TFMobileViTForSemanticSegmentation
+[[autodoc]] TFMobileViTForSemanticSegmentation
+    - call
+

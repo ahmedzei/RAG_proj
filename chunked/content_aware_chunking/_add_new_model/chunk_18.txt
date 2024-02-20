@@ -1,0 +1,21 @@
+Don't hesitate to ask if you notice you are not making
+  progress.
+
+In the following, we try to give you a general recipe that we found most useful when porting a model to 🤗 Transformers.
+The following list is a summary of everything that has to be done to add a model and can be used by you as a To-Do
+List:
+☐ (Optional) Understood the model's theoretical aspects
+☐ Prepared 🤗 Transformers dev environment
+☐ Set up debugging environment of the original repository
+☐ Created script that successfully runs the forward() pass using the original repository and checkpoint
+☐ Successfully added the model skeleton to 🤗 Transformers
+☐ Successfully converted original checkpoint to 🤗 Transformers checkpoint
+☐ Successfully ran forward() pass in 🤗 Transformers that gives identical output to original checkpoint
+☐ Finished model tests in 🤗 Transformers
+☐ Successfully added tokenizer in 🤗 Transformers
+☐ Run end-to-end integration tests
+☐ Finished docs
+☐ Uploaded model weights to the Hub
+☐ Submitted the pull request
+☐ (Optional) Added a demo notebook
+To begin with, we usually recommend starting by getting a good theoretical understanding of BrandNewBert.

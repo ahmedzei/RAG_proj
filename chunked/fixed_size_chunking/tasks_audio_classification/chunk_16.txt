@@ -1,0 +1,13 @@
+ pipeline("audio-classification", model="stevhliu/my_awesome_minds_model")
+classifier(audio_file)
+[
+    {'score': 0.09766869246959686, 'label': 'cash_deposit'},
+    {'score': 0.07998877018690109, 'label': 'app_error'},
+    {'score': 0.0781070664525032, 'label': 'joint_account'},
+    {'score': 0.07667109370231628, 'label': 'pay_bill'},
+    {'score': 0.0755252093076706, 'label': 'balance'}
+]
+
+You can also manually replicate the results of the pipeline if you'd like:
+
+Load a feature extractor to preprocess the

@@ -1,0 +1,6 @@
+However, you may encounter
+encoder-decoder transformer LLMs as well, for instance, Flan-T5 and BART.
+Encoder-decoder-style models are typically used in generative tasks where the output heavily relies on the input, for 
+example, in translation and summarization. The decoder-only models are used for all other types of generative tasks.
+When using a pipeline to generate text with an LLM, it's important to know what type of LLM you are using, because 
+they use different pipelines.

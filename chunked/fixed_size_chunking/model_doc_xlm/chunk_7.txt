@@ -1,0 +1,23 @@
+ceClassification
+[[autodoc]] XLMForSequenceClassification
+    - forward
+XLMForMultipleChoice
+[[autodoc]] XLMForMultipleChoice
+    - forward
+XLMForTokenClassification
+[[autodoc]] XLMForTokenClassification
+    - forward
+XLMForQuestionAnsweringSimple
+[[autodoc]] XLMForQuestionAnsweringSimple
+    - forward
+XLMForQuestionAnswering
+[[autodoc]] XLMForQuestionAnswering
+    - forward
+
+TFXLMModel
+[[autodoc]] TFXLMModel
+    - call
+TFXLMWithLMHeadModel
+[[autodoc]] TFXLMWithLMHeadModel
+    - call
+TFXLMForSequenceClassif

@@ -1,0 +1,11 @@
+al environment. If you're unfamiliar with Python virtual environments, take a look at this guide. A virtual environment makes it easier to manage different projects, and avoid compatibility issues between dependencies.
+Start by creating a virtual environment in your project directory:
+
+python -m venv .env
+Activate the virtual environment. On Linux and MacOs:
+
+source .env/bin/activate
+Activate Virtual environment on Windows
+
+.env/Scripts/activate
+Now you're ready to install 🤗 Transformers with the following 

@@ -1,0 +1,6 @@
+This is in
+  contrast with the original ViT model, which used external data like the JFT-300M dataset/Imagenet-21k for
+  pre-training.
+The authors of LeViT released 5 trained LeViT models, which you can directly plug into [LevitModel] or [LevitForImageClassification].
+  Techniques like data augmentation, optimization, and regularization were used in order to simulate training on a much larger dataset
+  (while only using ImageNet-1k for pre-training).

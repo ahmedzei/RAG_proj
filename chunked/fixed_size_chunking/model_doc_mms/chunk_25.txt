@@ -1,0 +1,18 @@
+el.config.id2label[lang_id]
+'eng'
+Arabic
+inputs = processor(ar_sample, sampling_rate=16_000, return_tensors="pt")
+with torch.no_grad():
+    outputs = model(**inputs).logits
+lang_id = torch.argmax(outputs, dim=-1)[0].item()
+detected_lang = model.config.id2label[lang_id]
+'ara'
+
+To see all the supported languages of a checkpoint, you can print out the language ids as follows:
+py
+processor.id2label.values()
+Audio Pretrained Models
+Pretrained models are available for two different sizes - 300M , 
+1Bil. 
+
+The MMS

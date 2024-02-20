@@ -1,0 +1,6 @@
+The nodes and
+xpaths are then provided to [MarkupLMTokenizer] or [MarkupLMTokenizerFast], which converts them
+to token-level input_ids, attention_mask, token_type_ids, xpath_subs_seq, xpath_tags_seq.
+Optionally, one can provide node labels to the processor, which are turned into token-level labels.
+[MarkupLMFeatureExtractor] uses Beautiful Soup, a Python library for
+pulling data out of HTML and XML files, under the hood.

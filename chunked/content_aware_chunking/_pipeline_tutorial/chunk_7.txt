@@ -1,0 +1,10 @@
+Using the device_map argument requires the 🤗 Accelerate
+package:
+
+pip install --upgrade accelerate
+The following code automatically loads and stores model weights across devices:
+py
+transcriber = pipeline(model="openai/whisper-large-v2", device_map="auto")
+Note that if  device_map="auto" is passed, there is no need to add the argument device=device when instantiating your pipeline as you may encounter some unexpected behavior!
+Batch size
+By default, pipelines will not batch inference for reasons explained in detail here.

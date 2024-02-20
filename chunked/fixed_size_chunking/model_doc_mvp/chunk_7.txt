@@ -1,0 +1,11 @@
+ed prompts or with task-specific prompts. Our code also supports Prefix-tuning with BART following the original paper.
+thon
+
+from transformers import MvpForConditionalGeneration
+model = MvpForConditionalGeneration.from_pretrained("RUCAIBox/mvp", use_prompt=True)
+the number of trainable parameters (full tuning)
+sum(p.numel() for p in model.parameters() if p.requires_grad)
+468116832
+lightweight tuning with randomly initialized prompts
+model.set_lightweight_tuning()
+the number of trainable parameters (lightwei

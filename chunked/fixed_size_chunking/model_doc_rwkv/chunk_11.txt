@@ -1,0 +1,3 @@
+i} \hbox{  where  } q = \max(u + K{i}, M_{i})$$
+which finally gives us
+$$O_{i} = \sigma(R_{i}) \frac{N_{i}}{D_{i}}$$

@@ -1,0 +1,3 @@
+On longer sequence tasks in the Long Range Arena (LRA) benchmark, Nyströmformer performs
+favorably relative to other efficient self-attention methods. Our code is available at this https URL.
+This model was contributed by novice03.

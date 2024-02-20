@@ -1,0 +1,2 @@
+For example, google/vit-base-patch16-224 refers to a base-sized architecture with patch
+  resolution of 16x16 and fine-tuning resolution of 224x224.

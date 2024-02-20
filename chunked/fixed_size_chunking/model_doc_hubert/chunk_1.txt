@@ -1,0 +1,6 @@
+pre-training
+phase, and (3) sound units have variable lengths with no explicit segmentation. To deal with these three problems, we
+propose the Hidden-Unit BERT (HuBERT) approach for self-supervised speech representation learning, which utilizes an
+offline clustering step to provide aligned target labels for a BERT-like prediction loss. A key ingredient of our
+approach is applying the prediction loss over the masked regions only, which forces the model to learn a combined
+acoustic and language model over the

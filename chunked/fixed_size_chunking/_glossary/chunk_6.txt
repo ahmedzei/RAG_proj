@@ -1,0 +1,3 @@
+rmers, the channel can be the first or last dimension of an image's tensor: [n_channels, height, width] or [height, width, n_channels].
+connectionist temporal classification (CTC)
+An algorithm which allows a model to learn without knowing exactly how the input and output are aligned; CTC calculates the distribution of all possible outputs for a given input and chooses the most likely output from it. CTC is commonly used in speech recognition tasks because speech doesn't always cleanly align with the transcr

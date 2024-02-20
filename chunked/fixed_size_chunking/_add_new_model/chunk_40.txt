@@ -1,0 +1,7 @@
+ as possible.
+
+Find the best way of debugging intermediate results. Is the original repository written in PyTorch? Then you should
+  probably take the time to write a longer script that decomposes the original model into smaller sub-components to
+  retrieve intermediate values. Is the original repository written in Tensorflow 1? Then you might have to rely on
+  TensorFlow print operations like tf.print to output
+  intermediate values. Is the original repository written in Jax? Then make sure that the model 

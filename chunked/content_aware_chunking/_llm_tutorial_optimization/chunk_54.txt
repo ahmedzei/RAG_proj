@@ -1,0 +1,30 @@
+In order to reduce unnecessary computation, one can therefore cache each layer's key-value vectors for all previous timesteps.
+In the following, we will tell the LLM to make use of the key-value cache by retrieving and forwarding it for each forward pass.
+In Transformers, we can retrieve the key-value cache by passing the use_cache flag to the forward call and can then pass it with the current token.
+thon
+past_key_values = None # past_key_values is the key-value cache
+generated_tokens = []
+next_token_id = tokenizer(prompt, return_tensors="pt")["input_ids"].to("cuda")
+for _ in range(5):
+  next_logits, past_key_values = model(next_token_id, past_key_values=past_key_values, use_cache=True).to_tuple()
+  next_logits = next_logits[:, -1:]
+  next_token_id = torch.argmax(next_logits, dim=-1)
+print("shape of input_ids", next_token_id.shape)
+  print("length of key-value cache", len(past_key_values[0][0]))  # past_key_values are of shape [num_layers, 0 for k, 1 for v, batch_size, length, hidden_dim]
+  generated_tokens.append(next_token_id.item())
+generated_text = tokenizer.batch_decode(generated_tokens)
+generated_text
+
+Output:
+shape of input_ids torch.Size([1, 1])
+length of key-value cache 20
+shape of input_ids torch.Size([1, 1])
+length of key-value cache 21
+shape of input_ids torch.Size([1, 1])
+length of key-value cache 22
+shape of input_ids torch.Size([1, 1])
+length of key-value cache 23
+shape of input_ids torch.Size([1, 1])
+length of key-value cache 24
+[' Here', ' is', ' a', ' Python', ' function']
+As one can see, when using the key-value cache the text input tokens are not increased in length, but remain a single input vector.

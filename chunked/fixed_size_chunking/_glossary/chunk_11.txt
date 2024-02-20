@@ -1,0 +1,7 @@
+nguage modeling, which masks parts of the input sequence and forces the model to create more meaningful representations.
+
+F
+feature extraction
+The process of selecting and transforming raw data into a set of features that are more informative and useful for machine learning algorithms. Some examples of feature extraction include transforming raw text into word embeddings and extracting important features such as edges or shapes from image/video data.
+feed forward chunking
+In each residual attention block in

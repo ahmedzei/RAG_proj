@@ -1,0 +1,8 @@
+cessor(html_string, return_tensors="pt")
+print(encoding.keys())
+dict_keys(['input_ids', 'token_type_ids', 'attention_mask', 'xpath_tags_seq', 'xpath_subs_seq'])
+
+Use case 2: web page classification (training, inference) + token classification (inference), parse_html=False
+In case one already has obtained all nodes and xpaths, one doesn't need the feature extractor. In that case, one should
+provide the nodes and corresponding xpaths themselves to the processor, and make sure to set parse_html to False.
+thon

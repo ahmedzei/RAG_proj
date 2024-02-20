@@ -1,0 +1,11 @@
+our model in half-precision (e.g. torch.bfloat16).
+Now, to run the model with Flash Attention 2, refer to the snippet below:
+thon
+
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
+device = "cuda" # the device to load the model onto
+tokenizer = AutoTokenizer.from_pretrained("stabilityai/stablelm-3b-4e1t")
+model = AutoModelForCausalLM.from_pretrained("stabilityai/stablelm-3b-4e1t", torch_dtype=torch.bfloat16, attn_implementation="flash_attention_2")
+model.to(device)
+model_inputs = tok

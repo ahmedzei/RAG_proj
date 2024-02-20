@@ -1,0 +1,12 @@
+CLS] SEQUENCE_A [SEP] SEQUENCE_B [SEP]
+
+We can use our tokenizer to automatically generate such a sentence by passing the two sequences to tokenizer as two
+arguments (and not a list, like before) like this:
+thon
+
+from transformers import BertTokenizer
+tokenizer = BertTokenizer.from_pretrained("google-bert/bert-base-cased")
+sequence_a = "HuggingFace is based in NYC"
+sequence_b = "Where is HuggingFace based?"
+encoded_dict = tokenizer(sequence_a, sequence_b)
+decoded = tokenizer.decode(encoded_dict["input_ids"]

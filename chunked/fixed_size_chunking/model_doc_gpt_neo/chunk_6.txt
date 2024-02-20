@@ -1,0 +1,13 @@
+enceClassification
+    - forward
+GPTNeoForTokenClassification
+[[autodoc]] GPTNeoForTokenClassification
+    - forward
+
+FlaxGPTNeoModel
+[[autodoc]] FlaxGPTNeoModel
+    - call
+FlaxGPTNeoForCausalLM
+[[autodoc]] FlaxGPTNeoForCausalLM
+    - call
+

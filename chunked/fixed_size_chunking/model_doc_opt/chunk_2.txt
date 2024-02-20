@@ -1,0 +1,9 @@
+s we faced, along with code for experimenting with all of the released models.
+This model was contributed by Arthur Zucker, Younes Belkada, and Patrick Von Platen.
+The original code can be found here.
+Tips:
+- OPT has the same architecture as [BartDecoder].
+- Contrary to GPT2, OPT adds the EOS token </s> to the beginning of every prompt.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with OPT. If you're
+interested in submitting a resource to be incl

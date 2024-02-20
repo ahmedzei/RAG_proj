@@ -1,0 +1,2 @@
+The easiest way to enable it when training a Keras model is to pass the argument jit_compile=True to model.compile(). If you don’t get any errors and performance is good, that’s a great sign that you’re ready to move to TPU!
+Debugging on TPU is generally a bit harder than on CPU/GPU, so we recommend getting your code running on CPU/GPU with XLA first before trying it on TPU.

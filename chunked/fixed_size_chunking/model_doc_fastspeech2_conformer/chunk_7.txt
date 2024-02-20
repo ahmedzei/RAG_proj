@@ -1,0 +1,11 @@
+iGan.from_pretrained("espnet/fastspeech2_conformer_hifigan")
+waveform = hifigan(spectrogram)
+sf.write("speech.wav", waveform.squeeze().detach().numpy(), samplerate=22050)
+
+Run inference via the Transformers modelling code with the model and hifigan combined
+
+thon
+from transformers import FastSpeech2ConformerTokenizer, FastSpeech2ConformerWithHifiGan
+import soundfile as sf
+tokenizer = FastSpeech2ConformerTokenizer.from_pretrained("espnet/fastspeech2_conformer")
+inputs = tokenizer("Hello, my dog is cute.", re

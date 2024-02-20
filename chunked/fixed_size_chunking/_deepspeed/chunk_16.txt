@@ -1,0 +1,13 @@
+typos fallback on the parameter's default setting. You can watch the DeepSpeed engine startup log messages to see what values it is going to use.
+
+The following configurations must be setup with DeepSpeed because the [Trainer] doesn't provide equivalent command line arguments.
+
+ZeRO-1 shards the optimizer states across GPUs, and you can expect a tiny speed up. The ZeRO-1 config can be setup like this:
+yml
+{
+    "zero_optimization": {
+        "stage": 1
+    }
+}
+
+ZeRO-2 shards the optimizer and gradients acro

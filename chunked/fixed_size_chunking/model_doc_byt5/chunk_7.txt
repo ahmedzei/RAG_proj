@@ -1,0 +1,13 @@
+
+since the model works directly on characters, the pretraining task is a bit 
+different. Let's corrupt some characters of the 
+input sentence "The dog chases a ball in the park." and ask ByT5 to predict them 
+for us.
+thon
+
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+import torch
+tokenizer = AutoTokenizer.from_pretrained("google/byt5-base")
+model = AutoModelForSeq2SeqLM.from_pretrained("google/byt5-base")
+input_ids_prompt = "The dog chases a ball in the park."
+input_ids = tokenizer(input_id

@@ -1,0 +1,13 @@
+import pipeline
+pipe = pipeline("text-classification")
+def data():
+    while True:
+        # This could come from a dataset, a database, a queue or HTTP request
+        # in a server
+        # Caveat: because this is iterative, you cannot use num_workers > 1 variable
+        # to use multiple threads to preprocess data. You can still have 1 thread that
+        # does the preprocessing while the main runs the big inference
+        yield "This is a test"
+for out in pipe(data()):
+    print(out)
+    # {"text": 

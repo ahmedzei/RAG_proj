@@ -1,0 +1,11 @@
+quests).
+The model uses Multi Query Attention, was trained using the Fill-in-the-Middle objective, and with 8,192 tokens context window for a trillion tokens of heavily deduplicated data.
+
+Question: Write a function that takes two lists and returns a list that has alternating elements from each input list.
+Answer: Sure. Here is a function that does that.
+def alternating(list1, list2):
+   results = []
+   for i in range(len(list1)):
+       results.append(list1[i])
+       results.append(list2[i])
+   return res

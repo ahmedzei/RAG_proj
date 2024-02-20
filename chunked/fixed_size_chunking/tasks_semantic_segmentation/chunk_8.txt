@@ -1,0 +1,6 @@
+ties of an image, but you can also use any image library you like.
+
+from torchvision.transforms import ColorJitter
+jitter = ColorJitter(brightness=0.25, contrast=0.25, saturation=0.25, hue=0.1)
+
+Now create two preprocessing functions to prepare the images and annotations for the model. These functions convert the images into pixel_values and annotations to labels. For the training set, jitter is applied before providing the images to the image processor. For the test set, the image processor crops and norma

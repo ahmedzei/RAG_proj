@@ -1,0 +1,14 @@
+ingface_hub import login
+login("")
+
+Then, instantiate the agent
+
+from transformers import HfAgent
+Starcoder
+agent = HfAgent("https://api-inference.huggingface.co/models/bigcode/starcoder")
+StarcoderBase
+agent = HfAgent("https://api-inference.huggingface.co/models/bigcode/starcoderbase")
+OpenAssistant
+agent = HfAgent(url_endpoint="https://api-inference.huggingface.co/models/OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5")
+
+This is using the inference API that Hugging Face provides for free at the moment. If 

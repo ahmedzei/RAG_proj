@@ -1,0 +1,11 @@
+ing tensors, with QuantDescriptor defining how the tensor should be quantized. Refer to Pytorch
+Quantization Toolkit userguide for more details.
+Before creating QDQBERT model, one has to set the default QuantDescriptor defining default tensor quantizers.
+Example:
+thon
+
+import pytorch_quantization.nn as quant_nn
+from pytorch_quantization.tensor_quant import QuantDescriptor
+The default tensor quantizer is set to use Max calibration method
+input_desc = QuantDescriptor(num_bits=8, calib_method="max")
+The defaul

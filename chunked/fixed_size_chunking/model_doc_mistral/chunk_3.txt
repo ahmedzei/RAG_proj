@@ -1,0 +1,8 @@
+be downloaded from:
+| Model Name                 | Checkpoint                                                                              |
+|----------------------------|-----------------------------------------------------------------------------------------|
+| Mistral-7B-v0.1          | Raw Checkpoint          |
+| Mistral-7B-Instruct-v0.1 | Raw Checkpoint |
+To use these raw checkpoints with HuggingFace you can use the convert_mistral_weights_to_hf.py script to convert them to the HuggingFace format:
+
+pyt

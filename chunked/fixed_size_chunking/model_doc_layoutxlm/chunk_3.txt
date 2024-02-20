@@ -1,0 +1,13 @@
+at LayoutXLM has its own tokenizer, based on
+[LayoutXLMTokenizer]/[LayoutXLMTokenizerFast]. You can initialize it as
+follows:
+thon
+from transformers import LayoutXLMTokenizer
+tokenizer = LayoutXLMTokenizer.from_pretrained("microsoft/layoutxlm-base")
+
+Similar to LayoutLMv2, you can use [LayoutXLMProcessor] (which internally applies
+[LayoutLMv2ImageProcessor] and
+[LayoutXLMTokenizer]/[LayoutXLMTokenizerFast] in sequence) to prepare all
+data for the model.
+
+As LayoutXLM's architecture is equivalent to that of 

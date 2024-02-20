@@ -1,0 +1,5 @@
+vided of the numerator and denominator:
+$$\frac{e^{x_{i}}}{\sum_{j=1}^{n} e^{x_{j}}} = \frac{e^{x_{i} - M}}{\sum_{j=1}^{n} e^{x_{j} - M}}$$
+with \(M\) the maximum of all \(x_{j}\). So here on top of saving the numerator state (\(\hat{N}\)) and the denominator state (\(\hat{D}\)) we also keep track of the maximum of all terms encountered in the exponentials. So we actually use
+$$\tilde{N}{i} = e^{-M{i}} \hat{N}{i} \hbox{  and  } \tilde{D}{i} = e^{-M_{i}} \hat{D}_{i}$$
+defined by the following recurrent formu

@@ -1,0 +1,10 @@
+ true,
+        "reduce_bucket_size": 5e8,
+        "contiguous_gradients": true
+        "round_robin_gradients": true
+    }
+}
+
+ZeRO-3 shards the optimizer, gradient, and parameters across GPUs. Unlike ZeRO-2, ZeRO-3 can also be used for inference, in addition to training, because it allows large models to be loaded on multiple GPUs. Some important parameters to configure include:
+
+device: "cpu" can help if you're running out of GPU memory and if you have free CPU memory available. This allows offloading mode

@@ -1,0 +1,11 @@
+], dtype=float32),
+ 'path': '/root/.cache/huggingface/datasets/downloads/extracted/f14948e0e84be638dd7943ac36518a4cf3324e8b7aa331c5ab11541518e9368c/en-US~JOINT_ACCOUNT/602ba55abb1e6d0fbce92065.wav',
+ 'sampling_rate': 8000}
+
+This returns three items:
+
+array is the speech signal loaded - and potentially resampled - as a 1D array.
+path points to the location of the audio file.
+sampling_rate refers to how many data points in the speech signal are measured per second.
+
+For this tutorial, you'll use the Wav2Vec2 model.

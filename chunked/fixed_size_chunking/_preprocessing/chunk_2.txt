@@ -1,0 +1,8 @@
+in, install 🤗 Datasets so you can load some datasets to experiment with:
+
+pip install datasets
+Natural Language Processing
+
+The main tool for preprocessing textual data is a tokenizer. A tokenizer splits text into tokens according to a set of rules. The tokens are converted into numbers and then tensors, which become the model inputs. Any additional inputs required by the model are added by the tokenizer.
+
+If you plan on using a pretrained model, it's important to use the associated pretrained tokenizer. Th

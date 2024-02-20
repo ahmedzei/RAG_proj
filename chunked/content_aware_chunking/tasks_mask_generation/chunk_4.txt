@@ -1,0 +1,1 @@
+points-per-batch enables parallel inference of points in segment everything mode. This enables faster inference, but consumes more memory. Moreover, SAM only enables batching over points and not the images.

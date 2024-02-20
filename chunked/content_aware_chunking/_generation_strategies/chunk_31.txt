@@ -1,0 +1,2 @@
+The main
+model then validates the candidate tokens in a single forward pass, which speeds up the decoding process.

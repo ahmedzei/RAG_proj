@@ -1,0 +1,4 @@
+Our largest model with 7.5 billion parameters 
+sets new state of the art in few-shot learning in more than 20 representative languages, outperforming GPT-3 of comparable size 
+in multilingual commonsense reasoning (with +7.4% absolute accuracy improvement in 0-shot settings and +9.4% in 4-shot settings) 
+and natural language inference (+5.4% in each of 0-shot and 4-shot settings).

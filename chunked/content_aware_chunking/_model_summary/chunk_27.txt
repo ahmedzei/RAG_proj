@@ -1,0 +1,1 @@
+VisualBERT predicts the masked text based on the unmasked text and the visual embeddings, and it also has to predict whether the text is aligned with the image. When ViT was released, ViLT adopted ViT in its architecture because it was easier to get the image embeddings this way. The image embeddings are jointly processed with the text embeddings.

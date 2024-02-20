@@ -1,0 +1,2 @@
+Each
+message is a dictionary with two keys, role and content.

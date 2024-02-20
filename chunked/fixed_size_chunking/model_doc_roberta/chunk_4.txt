@@ -1,0 +1,8 @@
+e and for all
+together to reach 512 tokens (so the sentences are in an order than may span several documents)
+train with larger batches
+use BPE with bytes as a subunit and not characters (because of unicode characters)
+CamemBERT is a wrapper around RoBERTa. Refer to this page for usage examples.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with RoBERTa. If you're interested in submitting a resource to be included here, please feel free to open a

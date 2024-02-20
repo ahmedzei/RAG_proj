@@ -1,0 +1,4 @@
+h \(u\) and \(w\) learnable parameters called in the code time_first and time_decay respectively. The numerator and denominator can both be expressed recursively. Naming them \(N_{i}\) and \(D_{i}\) we have:
+$$N_{i} = e^{u + K_{i}} V_{i} + \hat{N}{i} \hbox{  where  } \hat{N}{i} = e^{K_{i-1}} V_{i-1} + e^{w + K_{i-2}} V_{i-2} \cdots + e^{(i-2)w + K_{1}} V_{1}$$
+so \(\hat{N}_{i}\) (called numerator_state in the code) satisfies
+$$\hat{N}{0} = 0 \hbox{  and  } \hat{N}{j+1} = e^{K_{j}} V_{j} + e^{w} \hat{N}_{j}$

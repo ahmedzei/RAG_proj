@@ -1,0 +1,7 @@
+
+Training on TPU with TensorFlow
+
+If you don't need long explanations and just want TPU code samples to get started with, check out our TPU example notebook!
+
+What is a TPU?
+A TPU is a Tensor Processing Unit. They are hardware designed by Google, which are used to greatly speed up the tensor computations within neural networks, much like GPUs. They can be used for both network training and inference. They are generally accessed through Google’s cloud services, but small TPUs can also be accessed directly fo

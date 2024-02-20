@@ -1,0 +1,27 @@
+ant = True
+Load the calibrated model
+
+ONNX export
+torch.onnx.export()
+
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+QDQBertConfig
+[[autodoc]] QDQBertConfig
+QDQBertModel
+[[autodoc]] QDQBertModel
+    - forward
+QDQBertLMHeadModel
+[[autodoc]] QDQBertLMHeadModel
+    - forward
+QDQBertForMaskedLM
+[[autodoc]] QDQBertForMaskedLM
+    - forward
+QDQBertForSequenc

@@ -1,0 +1,139 @@
+
+Installation
+Install 🤗 Transformers for whichever deep learning library you're working with, setup your cache, and optionally configure 🤗 Transformers to run offline.
+🤗 Transformers is tested on Python 3.6+, PyTorch 1.1.0+, TensorFlow 2.0+, and Flax. Follow the installation instructions below for the deep learning library you are using:
+
+PyTorch installation instructions.
+TensorFlow 2.0 installation instructions.
+Flax installation instructions.
+
+Install with pip
+You should install 🤗 Transformers in a virtual environment. If you're unfamiliar with Python virtual environments, take a look at this guide. A virtual environment makes it easier to manage different projects, and avoid compatibility issues between dependencies.
+Start by creating a virtual environment in your project directory:
+
+python -m venv .env
+Activate the virtual environment. On Linux and MacOs:
+
+source .env/bin/activate
+Activate Virtual environment on Windows
+
+.env/Scripts/activate
+Now you're ready to install 🤗 Transformers with the following command:
+
+pip install transformers
+For CPU-support only, you can conveniently install 🤗 Transformers and a deep learning library in one line. For example, install 🤗 Transformers and PyTorch with:
+
+pip install 'transformers[torch]'
+🤗 Transformers and TensorFlow 2.0:
+
+pip install 'transformers[tf-cpu]'
+
+M1 / ARM Users
+You will need to install the following before installing TensorFLow 2.0
+
+brew install cmake
+brew install pkg-config
+
+🤗 Transformers and Flax:
+
+pip install 'transformers[flax]'
+Finally, check if 🤗 Transformers has been properly installed by running the following command. It will download a pretrained model:
+
+python -c "from transformers import pipeline; print(pipeline('sentiment-analysis')('we love you'))"
+Then print out the label and score:
+
+[{'label': 'POSITIVE', 'score': 0.9998704791069031}]
+Install from source
+Install 🤗 Transformers from source with the following command:
+
+pip install git+https://github.com/huggingface/transformers
+This command installs the bleeding edge main version rather than the latest stable version. The main version is useful for staying up-to-date with the latest developments. For instance, if a bug has been fixed since the last official release but a new release hasn't been rolled out yet. However, this means the main version may not always be stable. We strive to keep the main version operational, and most issues are usually resolved within a few hours or a day. If you run into a problem, please open an Issue so we can fix it even sooner!
+Check if 🤗 Transformers has been properly installed by running the following command:
+
+python -c "from transformers import pipeline; print(pipeline('sentiment-analysis')('I love you'))"
+Editable install
+You will need an editable install if you'd like to:
+
+Use the main version of the source code.
+Contribute to 🤗 Transformers and need to test changes in the code.
+
+Clone the repository and install 🤗 Transformers with the following commands:
+
+git clone https://github.com/huggingface/transformers.git
+cd transformers
+pip install -e .
+These commands will link the folder you cloned the repository to and your Python library paths. Python will now look inside the folder you cloned to in addition to the normal library paths. For example, if your Python packages are typically installed in ~/anaconda3/envs/main/lib/python3.7/site-packages/, Python will also search the folder you cloned to: ~/transformers/.
+
+You must keep the transformers folder if you want to keep using the library.
+
+Now you can easily update your clone to the latest version of 🤗 Transformers with the following command:
+
+cd ~/transformers/
+git pull
+Your Python environment will find the main version of 🤗 Transformers on the next run.
+Install with conda
+Install from the conda channel conda-forge:
+
+conda install conda-forge::transformers
+Cache setup
+Pretrained models are downloaded and locally cached at: ~/.cache/huggingface/hub. This is the default directory given by the shell environment variable TRANSFORMERS_CACHE. On Windows, the default directory is given by C:\Users\username\.cache\huggingface\hub. You can change the shell environment variables shown below - in order of priority - to specify a different cache directory:
+
+Shell environment variable (default): HUGGINGFACE_HUB_CACHE or TRANSFORMERS_CACHE.
+Shell environment variable: HF_HOME.
+Shell environment variable: XDG_CACHE_HOME + /huggingface.
+
+🤗 Transformers will use the shell environment variables PYTORCH_TRANSFORMERS_CACHE or PYTORCH_PRETRAINED_BERT_CACHE if you are coming from an earlier iteration of this library and have set those environment variables, unless you specify the shell environment variable TRANSFORMERS_CACHE.
+
+Offline mode
+Run 🤗 Transformers in a firewalled or offline environment with locally cached files by setting the environment variable TRANSFORMERS_OFFLINE=1.
+
+Add 🤗 Datasets to your offline training workflow with the environment variable HF_DATASETS_OFFLINE=1.
+
+HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
+python examples/pytorch/translation/run_translation.py --model_name_or_path google-t5/t5-small --dataset_name wmt16 --dataset_config ro-en 
+This script should run without hanging or waiting to timeout because it won't attempt to download the model from the Hub.
+You can also bypass loading a model from the Hub from each [~PreTrainedModel.from_pretrained] call with the [local_files_only] parameter. When set to True, only local files are loaded:
+
+from transformers import T5Model
+model = T5Model.from_pretrained("./path/to/local/directory", local_files_only=True)
+
+Fetch models and tokenizers to use offline
+Another option for using 🤗 Transformers offline is to download the files ahead of time, and then point to their local path when you need to use them offline. There are three ways to do this:
+
+Download a file through the user interface on the Model Hub by clicking on the ↓ icon.
+
+Use the [PreTrainedModel.from_pretrained] and [PreTrainedModel.save_pretrained] workflow:
+
+Download your files ahead of time with [PreTrainedModel.from_pretrained]:
+
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+tokenizer = AutoTokenizer.from_pretrained("bigscience/T0_3B")
+model = AutoModelForSeq2SeqLM.from_pretrained("bigscience/T0_3B")
+
+Save your files to a specified directory with [PreTrainedModel.save_pretrained]:
+
+tokenizer.save_pretrained("./your/path/bigscience_t0")
+model.save_pretrained("./your/path/bigscience_t0")
+
+Now when you're offline, reload your files with [PreTrainedModel.from_pretrained] from the specified directory:
+
+tokenizer = AutoTokenizer.from_pretrained("./your/path/bigscience_t0")
+model = AutoModel.from_pretrained("./your/path/bigscience_t0")
+
+Programmatically download files with the huggingface_hub library:
+
+Install the huggingface_hub library in your virtual environment:
+
+python -m pip install huggingface_hub
+
+Use the hf_hub_download function to download a file to a specific path. For example, the following command downloads the config.json file from the T0 model to your desired path:
+
+from huggingface_hub import hf_hub_download
+hf_hub_download(repo_id="bigscience/T0_3B", filename="config.json", cache_dir="./your/path/bigscience_t0")
+
+Once your file is downloaded and locally cached, specify it's local path to load and use it:
+
+from transformers import AutoConfig
+config = AutoConfig.from_pretrained("./your/path/bigscience_t0/config.json")
+
+See the How to download files from the Hub section for more details on downloading files stored on the Hub.

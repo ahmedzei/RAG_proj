@@ -1,0 +1,19 @@
+Real numbers are the
+  only way to go.
+If you are latency constrained (live product doing inference), don't batch.
+If you are using CPU, don't batch.
+
+If you are using throughput (you want to run your model on a bunch of static data), on GPU, then:
+
+If you have no clue about the size of the sequence_length ("natural" data), by default don't batch, measure and
+    try tentatively to add it, add OOM checks to recover when it will fail (and it will at some point if you don't
+    control the sequence_length.)
+
+If your sequence_length is super regular, then batching is more likely to be VERY interesting, measure and push
+    it until you get OOMs.
+The larger the GPU the more likely batching is going to be more interesting
+As soon as you enable batching, make sure you can handle OOMs nicely.
+
+Pipeline chunk batching
+zero-shot-classification and question-answering are slightly specific in the sense, that a single input might yield
+multiple forward pass of a model.

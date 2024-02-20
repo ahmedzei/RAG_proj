@@ -1,0 +1,4 @@
+alf-precision (fp16 on older GPU architectures and bf16 on Ampere) over full-precision weights
+add more hardware if possible or enable Infinity to offload parameters and the optimizer to a NVMe
+once you're not running out of memory, measure effective throughput and then try to increase the batch size as large as you can to maximize GPU efficiency
+lastly, try to optimize your training setup by disabling some offload features or use a faster ZeRO stage and increasing/decreasing the batch size to find the best

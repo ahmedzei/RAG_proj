@@ -1,0 +1,7 @@
+ pages. You can complete this part entirely following the patterns in other PRs
+(example). Here's a list of the needed manual
+changes:
+- Include all public classes of BrandNewBert in src/transformers/__init__.py
+- Add BrandNewBert classes to the corresponding Auto classes in src/transformers/models/auto/modeling_tf_auto.py
+- Add the lazy loading classes related to BrandNewBert in src/transformers/utils/dummy_tf_objects.py
+- Update the import structures for the public classes in src/transformers/models/brand

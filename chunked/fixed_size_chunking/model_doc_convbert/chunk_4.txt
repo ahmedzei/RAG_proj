@@ -1,0 +1,22 @@
+ask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+ConvBertTokenizerFast
+[[autodoc]] ConvBertTokenizerFast
+
+ConvBertModel
+[[autodoc]] ConvBertModel
+    - forward
+ConvBertForMaskedLM
+[[autodoc]] ConvBertForMaskedLM
+    - forward
+ConvBertForSequenceClassification
+[[autodoc]] ConvBertForSequenceClassification
+    - forward
+ConvBertForMultipleChoice
+[[autodoc]] ConvBertForMultipleChoice
+    - forward
+ConvBertForTokenClassification
+[[autodoc]] ConvBertForTokenClassification
+    - forward
+ConvBe

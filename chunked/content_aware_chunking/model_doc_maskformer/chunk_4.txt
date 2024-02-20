@@ -1,0 +1,7 @@
+Our mask classification-based method outperforms both current state-of-the-art semantic (55.6 mIoU on ADE20K) and panoptic segmentation (52.7 PQ on COCO) models.
+The figure below illustrates the architecture of MaskFormer. Taken from the original paper.
+
+This model was contributed by francesco. The original code can be found here.
+Usage tips
+
+MaskFormer's Transformer decoder is identical to the decoder of DETR.

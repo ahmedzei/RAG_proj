@@ -1,0 +1,11 @@
+will be torch.float32.
+Finetuning the model in float16 is not recommended and known to produce nan, as such the model should be fine-tuned in bfloat16.
+
+Tips:
+
+To convert the model, you need to clone the original repository using git clone https://github.com/persimmon-ai-labs/adept-inference, then get the checkpoints:
+
+git clone https://github.com/persimmon-ai-labs/adept-inference
+wget path/to/fuyu-8b-model-weights.tar
+tar -xvf fuyu-8b-model-weights.tar
+python src/transformers/models/fuyu/convert_fuyu_weigh

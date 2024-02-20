@@ -1,0 +1,13 @@
+If you want to process images manually,
+check out the LayoutLMv2 model documentation to learn what input format the model expects.
+
+updated_dataset = updated_dataset.remove_columns("words")
+updated_dataset = updated_dataset.remove_columns("bounding_boxes")
+
+Finally, the data exploration won't be complete if we don't peek at an image example.
+
+updated_dataset["train"][11]["image"]
+
+Preprocess the data
+The Document Question Answering task is a multimodal task, and you need to make sure that the inputs from each modality
+are preprocessed according to the model's expectations.

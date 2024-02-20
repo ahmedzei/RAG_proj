@@ -1,0 +1,8 @@
+t supervision and is even sensitive to syntactic relationships, tracking, for example, associations between
+verbs and image regions corresponding to their arguments.
+This model was contributed by gchhablani. The original code can be found here.
+Usage tips
+
+Most of the checkpoints provided work with the [VisualBertForPreTraining] configuration. Other
+   checkpoints provided are the fine-tuned checkpoints for down-stream tasks - VQA ('visualbert-vqa'), VCR
+   ('visualbert-vcr'), NLVR2 ('visualbert-nlvr2'). He

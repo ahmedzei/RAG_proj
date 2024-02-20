@@ -1,0 +1,8 @@
+uts, skip_special_tokens=True)
+['Hugging Face Company is a family owned and operated business. We pride ourselves on being the best
+in the business and our customer service is second to none.\n\nIf you have any questions about our
+products or services, feel free to contact us at any time. We look forward to hearing from you!']
+
+Multinomial sampling
+As opposed to greedy search that always chooses a token with the highest probability as the
+next token, multinomial sampling (also called ancestral sampling) ran

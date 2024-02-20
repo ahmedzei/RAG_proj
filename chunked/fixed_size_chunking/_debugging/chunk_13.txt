@@ -1,0 +1,9 @@
+CCL_DEBUG=INFO environment variable as follows:
+
+NCCL_DEBUG=INFO python -m torch.distributed.run --nproc_per_node 2 --nnodes 1 torch-distributed-gpu-test.py
+This will dump a lot of NCCL-related debug information, which you can then search online if you find that some problems are reported. Or if you're not sure how to interpret the output you can share the log file in an Issue.
+Underflow and Overflow Detection
+
+This feature is currently available for PyTorch-only.
+
+For multi-GPU training it requires DDP (to

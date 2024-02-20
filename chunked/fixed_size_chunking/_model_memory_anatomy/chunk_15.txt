@@ -1,0 +1,12 @@
+ecision with AdamW requires 18 bytes per model parameter plus activation memory. For 
+inference there are no optimizer states and gradients, so we can subtract those. And thus we end up with 6 bytes per 
+model parameter for mixed precision inference, plus activation memory.
+Let's look at the details.
+Model Weights:
+
+4 bytes * number of parameters for fp32 training
+6 bytes * number of parameters for mixed precision training (maintains a model in fp32 and one in fp16 in memory)
+
+Optimizer States:
+
+8 bytes * n

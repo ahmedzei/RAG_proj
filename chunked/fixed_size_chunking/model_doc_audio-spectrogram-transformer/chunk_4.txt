@@ -1,0 +1,11 @@
+in the
+PSLA paper) and converges quickly, so please search for a suitable learning rate and learning rate scheduler for your task.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with the Audio Spectrogram Transformer.
+
+A notebook illustrating inference with AST for audio classification can be found here.
+[ASTForAudioClassification] is supported by this example script and notebook.
+See also: Audio classification.
+
+If you're interested in submitting

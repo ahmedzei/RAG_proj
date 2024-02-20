@@ -1,0 +1,15 @@
+rBase, PaddingStrategy
+from typing import Optional, Union
+import torch
+@dataclass
+ class DataCollatorForMultipleChoice:
+     """
+     Data collator that will dynamically pad the inputs for multiple choice received.
+     """
+
+     tokenizer: PreTrainedTokenizerBase
+     padding: Union[bool, str, PaddingStrategy] = True
+     max_length: Optional[int] = None
+     pad_to_multiple_of: Optional[int] = None
+     def call(self, features):
+         label_name = "label" if "label" in features[0].keys() else "labels"

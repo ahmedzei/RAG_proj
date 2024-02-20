@@ -1,0 +1,4 @@
+r free through Google Colab and Kaggle Kernels.
+Because all TensorFlow models in 🤗 Transformers are Keras models, most of the methods in this document are generally applicable to TPU training for any Keras model! However, there are a few points that are specific to the HuggingFace ecosystem (hug-o-system?) of Transformers and Datasets, and we’ll make sure to flag them up when we get to them.
+What kinds of TPU are available?
+New users are often very confused by the range of TPUs, and the different ways to ac

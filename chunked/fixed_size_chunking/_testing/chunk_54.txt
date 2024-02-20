@@ -1,0 +1,7 @@
+on and get merged. Such problems will
+get caught during the next scheduled CI job. But it also means that it's important to run the slow tests on your
+machine before submitting the PR.
+Here is a rough decision making mechanism for choosing which tests should be marked as slow:
+If the test is focused on one of the library's internal components (e.g., modeling files, tokenization files,
+pipelines), then we should run that test in the non-slow test suite. If it's focused on an other aspect of the library,
+such

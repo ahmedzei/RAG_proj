@@ -1,0 +1,9 @@
+ause PipelineParallel (PP) alone won't be sufficient to accommodate the large layer.
+If you are using ZeRO, additionally adopt techniques from the Methods and tools for efficient training on a single GPU.
+
+Parallelization strategy for a multi-Node / multi-GPU setup
+
+When you have fast inter-node connectivity (e.g., NVLINK or NVSwitch) consider using one of these options:
+
+ZeRO - as it requires close to no modifications to the model
+A combination of PipelineParallel(PP) with TensorParallel(TP) and DataParall

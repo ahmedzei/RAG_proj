@@ -1,0 +1,10 @@
+cessor = DonutProcessor.from_pretrained("naver-clova-ix/donut-base-finetuned-docvqa")
+model = VisionEncoderDecoderModel.from_pretrained("naver-clova-ix/donut-base-finetuned-docvqa")
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model.to(device)  # doctest: +IGNORE_RESULT
+load document image from the DocVQA dataset
+dataset = load_dataset("hf-internal-testing/example-documents", split="test")
+image = dataset[0]["image"]
+prepare decoder inputs
+task_prompt = "{user_input}"
+question = "When is the coff

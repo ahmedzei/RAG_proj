@@ -1,0 +1,10 @@
+
+OpenAI GPT2
+
+Overview
+OpenAI GPT-2 model was proposed in Language Models are Unsupervised Multitask Learners by Alec
+Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei and Ilya Sutskever from OpenAI. It's a causal (unidirectional)
+transformer pretrained using language modeling on a very large corpus of ~40 GB of text data.
+The abstract from the paper is the following:
+GPT-2 is a large transformer-based language model with 1.5 billion parameters, trained on a dataset[1] of 8 million
+web pages. GPT-2

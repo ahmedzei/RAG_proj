@@ -1,0 +1,19 @@
+) + token classification (inference), parse_html = True
+This is the simplest case, in which the processor will use the feature extractor to get all nodes and xpaths from the HTML.
+thon
+
+from transformers import MarkupLMProcessor
+processor = MarkupLMProcessor.from_pretrained("microsoft/markuplm-base")
+html_string = """
+  <!DOCTYPE html>
+  
+  
+  Hello world
+  
+  
+  Welcome
+  Here is my website.
+  
+  """
+note that you can also add provide all tokenizer parameters here such as padding, truncation
+encoding = pro

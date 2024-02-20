@@ -1,0 +1,6 @@
+our vocabulary are typically
+more semantically meaningful and shorter compared to XLM-R. Leveraging this improved vocabulary, we train XLM-V,
+a multilingual language model with a one million token vocabulary. XLM-V outperforms XLM-R on every task we
+tested on ranging from natural language inference (XNLI), question answering (MLQA, XQuAD, TyDiQA), and
+named entity recognition (WikiAnn) to low-resource tasks (Americas NLI, MasakhaNER).
+This model was contributed by stefan-it, including detailed experiments w

@@ -1,0 +1,2 @@
+One or multiple text queries per image can be used to perform zero-shot text-conditioned object detection.
+[Owlv2ImageProcessor] can be used to resize (or rescale) and normalize images for the model and [CLIPTokenizer] is used to encode the text. [Owlv2Processor] wraps [Owlv2ImageProcessor] and [CLIPTokenizer] into a single instance to both encode the text and prepare the images.

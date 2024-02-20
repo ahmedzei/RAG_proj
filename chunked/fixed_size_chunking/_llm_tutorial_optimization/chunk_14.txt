@@ -1,0 +1,5 @@
+.
+
+Almost all models are trained in bfloat16 nowadays, there is no reason to run the model in full float32 precision if your GPU supports bfloat16. Float32 won't give better inference results than the precision that was used to train the model.
+
+If you are unsure in which format the model weights are stored on the Hub, you can always look into the checkpoint's config under "torch_dtype", e.g. here. It is recommended to set the model to the same precision type as written in the config when loading with from_

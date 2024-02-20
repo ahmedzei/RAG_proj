@@ -1,0 +1,7 @@
+
+X-MOD
+Overview
+The X-MOD model was proposed in Lifting the Curse of Multilinguality by Pre-training Modular Transformers by Jonas Pfeiffer, Naman Goyal, Xi Lin, Xian Li, James Cross, Sebastian Riedel, and Mikel Artetxe.
+X-MOD extends multilingual masked language models like XLM-R to include language-specific modular components (language adapters) during pre-training. For fine-tuning, the language adapters in each transformer layer are frozen.
+The abstract from the paper is the following:
+Multilingual pre-t

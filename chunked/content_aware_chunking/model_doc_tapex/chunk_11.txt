@@ -1,0 +1,3 @@
+the task of determining whether a given sentence is supported or refuted by the contents
+of a table), one can instantiate a [BartForSequenceClassification] model. TAPEX has checkpoints on the hub fine-tuned on TabFact, an important
+benchmark for table fact checking (it achieves 84% accuracy).

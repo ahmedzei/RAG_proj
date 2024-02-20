@@ -1,0 +1,8 @@
+nd label classes:
+
+from transformers import AutoModelForSemanticSegmentation, TrainingArguments, Trainer
+model = AutoModelForSemanticSegmentation.from_pretrained(checkpoint, id2label=id2label, label2id=label2id)
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [TrainingArguments]. It is important you don't remove unused columns because this'll drop the image column. Without the image column, you can't create pixel_values. Set remove_unused_columns=False to prevent this behav

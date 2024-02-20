@@ -1,0 +1,6 @@
+This ensures that when the model
+generates text it will write a bot response instead of doing something unexpected, like continuing the user's 
+message. Remember, chat models are still just language models - they're trained to continue text, and chat is just a 
+special kind of text to them! You need to guide them with appropriate control tokens, so they know what they're 
+supposed to be doing.
+Not all models require generation prompts.

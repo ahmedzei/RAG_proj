@@ -1,0 +1,21 @@
+rd
+DistilBertForMultipleChoice
+[[autodoc]] DistilBertForMultipleChoice
+    - forward
+DistilBertForTokenClassification
+[[autodoc]] DistilBertForTokenClassification
+    - forward
+DistilBertForQuestionAnswering
+[[autodoc]] DistilBertForQuestionAnswering
+    - forward
+
+TFDistilBertModel
+[[autodoc]] TFDistilBertModel
+    - call
+TFDistilBertForMaskedLM
+[[autodoc]] TFDistilBertForMaskedLM
+    - call
+TFDistilBertForSequenceClassification
+[[autodoc]] TFDistilBertForSequenceClassification
+    - call
+TFDistilBertForMu

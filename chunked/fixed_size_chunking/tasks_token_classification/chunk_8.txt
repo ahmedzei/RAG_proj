@@ -1,0 +1,7 @@
+   return tokenized_inputs
+
+To apply the preprocessing function over the entire dataset, use 🤗 Datasets [~datasets.Dataset.map] function. You can speed up the map function by setting batched=True to process multiple elements of the dataset at once:
+
+tokenized_wnut = wnut.map(tokenize_and_align_labels, batched=True)
+
+Now create a batch of examples using [DataCollatorWithPadding]. It's more efficient to dynamically pad the sentences to the longest length in a batch during collation, instead of padding the who

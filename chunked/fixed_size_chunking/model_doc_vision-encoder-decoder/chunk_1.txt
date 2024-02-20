@@ -1,0 +1,6 @@
+inghao Li, Tengchao Lv, Lei Cui, Yijuan Lu, Dinei Florencio, Cha Zhang,
+Zhoujun Li, Furu Wei.
+After such a [VisionEncoderDecoderModel] has been trained/fine-tuned, it can be saved/loaded just like any other models (see the examples below
+for more information).
+An example application is image captioning, in which the encoder is used to encode the image, after which an autoregressive language model generates
+the caption. Another example is optical character recognition. Refer to TrOCR, which is an instance of

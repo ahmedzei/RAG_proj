@@ -1,0 +1,10 @@
+o each token in the sentence.
+attention_mask indicates whether a token should be attended to or not.
+token_type_ids identifies which sequence a token belongs to when there is more than one sequence.
+
+Return your input by decoding the input_ids:
+
+tokenizer.decode(encoded_input["input_ids"])
+'[CLS] Do not meddle in the affairs of wizards, for they are subtle and quick to anger. [SEP]'
+
+As you can see, the tokenizer added two special tokens - CLS and SEP (classifier and separator) - to the sentence. Not all mo

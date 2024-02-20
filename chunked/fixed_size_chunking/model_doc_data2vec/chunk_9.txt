@@ -1,0 +1,14 @@
+icSegmentation
+[[autodoc]] Data2VecVisionForSemanticSegmentation
+    - forward
+
+TFData2VecVisionModel
+[[autodoc]] TFData2VecVisionModel
+    - call
+TFData2VecVisionForImageClassification
+[[autodoc]] TFData2VecVisionForImageClassification
+    - call
+TFData2VecVisionForSemanticSegmentation
+[[autodoc]] TFData2VecVisionForSemanticSegmentation
+    - call
+

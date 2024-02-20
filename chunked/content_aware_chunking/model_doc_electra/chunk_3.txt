@@ -1,0 +1,4 @@
+Thorough experiments
+demonstrate this new pretraining task is more efficient than MLM because the task is defined over all input tokens
+rather than just the small subset that was masked out. As a result, the contextual representations learned by our
+approach substantially outperform the ones learned by BERT given the same model size, data, and compute.

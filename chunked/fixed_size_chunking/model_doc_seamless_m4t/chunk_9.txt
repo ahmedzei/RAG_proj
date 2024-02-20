@@ -1,0 +1,7 @@
+fra", generate_speech=False)
+translated_text_from_text = processor.decode(output_tokens[0].tolist()[0], skip_special_tokens=True)
+
+Tips
+1. Use dedicated models
+[SeamlessM4TModel] is transformers top level model to generate speech and text, but you can also use dedicated models that perform the task without additional components, thus reducing the memory footprint.
+For example, you can replace the audio-to-audio generation snippet with the model dedicated to the S2ST task, the rest is exactly the same code: 

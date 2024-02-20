@@ -1,0 +1,37 @@
+Kilder est l'apossible des classes moyennes, et nous sommes heureux d'être accueillis dans son évangile."]
+
+See the model hub to look for Speech2Text checkpoints.
+Speech2TextConfig
+[[autodoc]] Speech2TextConfig
+Speech2TextTokenizer
+[[autodoc]] Speech2TextTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+Speech2TextFeatureExtractor
+[[autodoc]] Speech2TextFeatureExtractor
+    - call
+Speech2TextProcessor
+[[autodoc]] Speech2TextProcessor
+    - call
+    - from_pretrained
+    - save_pretrained
+    - batch_decode
+    - decode
+
+Speech2TextModel
+[[autodoc]] Speech2TextModel
+    - forward
+Speech2TextForConditionalGeneration
+[[autodoc]] Speech2TextForConditionalGeneration
+    - forward
+
+TFSpeech2TextModel
+[[autodoc]] TFSpeech2TextModel
+    - call
+TFSpeech2TextForConditionalGeneration
+[[autodoc]] TFSpeech2TextForConditionalGeneration
+    - call
+
+.

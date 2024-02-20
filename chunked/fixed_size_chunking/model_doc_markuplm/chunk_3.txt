@@ -1,0 +1,8 @@
+ strong baseline models on several document understanding
+tasks. The pre-trained model and code will be publicly available.
+This model was contributed by nielsr. The original code can be found here.
+Usage tips
+
+In addition to input_ids, [~MarkupLMModel.forward] expects 2 additional inputs, namely xpath_tags_seq and xpath_subs_seq.
+These are the XPATH tags and subscripts respectively for each token in the input sequence.
+One can use [MarkupLMProcessor] to prepare all data for the model. Refer to the usage gu

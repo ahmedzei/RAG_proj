@@ -1,0 +1,5 @@
+But if there’s any other model function you want to compile into XLA that’s also possible with:
+py
+my_xla_fn = tf.function(model.my_xla_fn, jit_compile=True)
+Running a TF text generation model with XLA from 🤗 Transformers
+To enable XLA-accelerated generation within 🤗 Transformers, you need to have a recent version of transformers installed.

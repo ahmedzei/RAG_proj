@@ -1,0 +1,12 @@
+n/MobileNet | 14.174 | 8.515 |
+| Object Detection/Resnet-101 | 68.101 | 44.998 |
+| Object Detection/Conditional-DETR | 56.470 | 35.552 |
+A100 (batch size: 16)
+| Task/Model | torch 2.0 - no compile | torch 2.0 - compile |
+|:---:|:---:|:---:|
+| Image Classification/ViT | 40.944 | 40.010 | 
+| Image Segmentation/Segformer | 37.005 | 31.144 |
+| Image Classification/BeiT | 41.854 | 41.048 | 
+| Object Detection/DETR | 164.382 | 161.902 |
+| Image Classification/ConvNeXT | 82.258 | 75.561 | 
+| Image Classification/R

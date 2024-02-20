@@ -1,0 +1,7 @@
+However, just like for rule #1, we can often rewrite this code to yield exactly the same output without any data-dependent shapes.
+python
+label_mask = tf.cast(labels >= 0, tf.float32)
+loss = compute_loss(outputs, labels)
+loss = loss * label_mask  # Set negative label positions to 0
+mean_loss = tf.reduce_sum(loss) / tf.reduce_sum(label_mask)
+Here, we avoid data-dependent shapes by computing the loss for every position, but zeroing out the masked positions in both the numerator and denominator when we calculate the mean, which yields exactly the same result as the first block while maintaining XLA compatibility.

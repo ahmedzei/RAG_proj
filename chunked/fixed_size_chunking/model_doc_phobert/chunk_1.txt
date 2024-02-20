@@ -1,0 +1,13 @@
+art in multiple
+Vietnamese-specific NLP tasks including Part-of-speech tagging, Dependency parsing, Named-entity recognition and
+Natural language inference.
+This model was contributed by dqnguyen. The original code can be found here.
+Usage example
+thon
+
+import torch
+from transformers import AutoModel, AutoTokenizer
+phobert = AutoModel.from_pretrained("vinai/phobert-base")
+tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base")
+INPUT TEXT MUST BE ALREADY WORD-SEGMENTED!
+line = "Tôi là sinh_viên trườn

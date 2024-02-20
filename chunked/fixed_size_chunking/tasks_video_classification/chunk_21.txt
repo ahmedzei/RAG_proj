@@ -1,0 +1,13 @@
+, 0).numpy())
+         frames.append(frame_unnormalized)
+     kargs = {"duration": 0.25}
+     imageio.mimsave(filename, frames, "GIF", **kargs)
+     return filename
+def display_gif(video_tensor, gif_name="sample.gif"):
+     """Prepares and displays a GIF from a video tensor."""
+     video_tensor = video_tensor.permute(1, 0, 2, 3)
+     gif_filename = create_gif(video_tensor, gif_name)
+     return Image(filename=gif_filename)
+sample_video = next(iter(train_dataset))
+video_tensor = sample_video["video"]
+displa

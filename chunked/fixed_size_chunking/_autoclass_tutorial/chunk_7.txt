@@ -1,0 +1,16 @@
+the feature_maps object from the first stage of the backbone:
+
+list(feature_maps[0].shape)
+[1, 96, 56, 56]
+
+AutoFeatureExtractor
+For audio tasks, a feature extractor processes the audio signal the correct input format.
+Load a feature extractor with [AutoFeatureExtractor.from_pretrained]:
+
+from transformers import AutoFeatureExtractor
+feature_extractor = AutoFeatureExtractor.from_pretrained(
+     "ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition"
+ )
+
+AutoProcessor
+Multimodal tasks require a processo

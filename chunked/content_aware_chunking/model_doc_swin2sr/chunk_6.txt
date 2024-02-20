@@ -1,0 +1,16 @@
+This model was contributed by nielsr.
+The original code can be found here.
+Resources
+Demo notebooks for Swin2SR can be found here.
+A demo Space for image super-resolution with SwinSR can be found here.
+Swin2SRImageProcessor
+[[autodoc]] Swin2SRImageProcessor
+    - preprocess
+Swin2SRConfig
+[[autodoc]] Swin2SRConfig
+Swin2SRModel
+[[autodoc]] Swin2SRModel
+    - forward
+Swin2SRForImageSuperResolution
+[[autodoc]] Swin2SRForImageSuperResolution
+    - forward.

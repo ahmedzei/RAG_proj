@@ -1,0 +1,109 @@
+🌎
+[RobertaForSequenceClassification] is supported by this example script and notebook.
+[TFRobertaForSequenceClassification] is supported by this example script and notebook.
+[FlaxRobertaForSequenceClassification] is supported by this example script and notebook.
+Text classification task guide
+
+[RobertaForTokenClassification] is supported by this example script and notebook.
+[TFRobertaForTokenClassification] is supported by this example script and notebook.
+[FlaxRobertaForTokenClassification] is supported by this example script.
+Token classification chapter of the 🤗 Hugging Face Course.
+Token classification task guide
+
+A blog on How to train a new language model from scratch using Transformers and Tokenizers with RoBERTa.
+[RobertaForMaskedLM] is supported by this example script and notebook.
+[TFRobertaForMaskedLM] is supported by this example script and notebook.
+[FlaxRobertaForMaskedLM] is supported by this example script and notebook.
+Masked language modeling chapter of the 🤗 Hugging Face Course.
+Masked language modeling task guide
+
+A blog on Accelerated Inference with Optimum and Transformers Pipelines with RoBERTa for question answering.
+[RobertaForQuestionAnswering] is supported by this example script and notebook.
+[TFRobertaForQuestionAnswering] is supported by this example script and notebook.
+[FlaxRobertaForQuestionAnswering] is supported by this example script.
+Question answering chapter of the 🤗 Hugging Face Course.
+Question answering task guide
+
+Multiple choice
+- [RobertaForMultipleChoice] is supported by this example script and notebook.
+- [TFRobertaForMultipleChoice] is supported by this example script and notebook.
+- Multiple choice task guide
+RobertaConfig
+[[autodoc]] RobertaConfig
+RobertaTokenizer
+[[autodoc]] RobertaTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+RobertaTokenizerFast
+[[autodoc]] RobertaTokenizerFast
+    - build_inputs_with_special_tokens
+
+RobertaModel
+[[autodoc]] RobertaModel
+    - forward
+RobertaForCausalLM
+[[autodoc]] RobertaForCausalLM
+    - forward
+RobertaForMaskedLM
+[[autodoc]] RobertaForMaskedLM
+    - forward
+RobertaForSequenceClassification
+[[autodoc]] RobertaForSequenceClassification
+    - forward
+RobertaForMultipleChoice
+[[autodoc]] RobertaForMultipleChoice
+    - forward
+RobertaForTokenClassification
+[[autodoc]] RobertaForTokenClassification
+    - forward
+RobertaForQuestionAnswering
+[[autodoc]] RobertaForQuestionAnswering
+    - forward
+
+TFRobertaModel
+[[autodoc]] TFRobertaModel
+    - call
+TFRobertaForCausalLM
+[[autodoc]] TFRobertaForCausalLM
+    - call
+TFRobertaForMaskedLM
+[[autodoc]] TFRobertaForMaskedLM
+    - call
+TFRobertaForSequenceClassification
+[[autodoc]] TFRobertaForSequenceClassification
+    - call
+TFRobertaForMultipleChoice
+[[autodoc]] TFRobertaForMultipleChoice
+    - call
+TFRobertaForTokenClassification
+[[autodoc]] TFRobertaForTokenClassification
+    - call
+TFRobertaForQuestionAnswering
+[[autodoc]] TFRobertaForQuestionAnswering
+    - call
+
+FlaxRobertaModel
+[[autodoc]] FlaxRobertaModel
+    - call
+FlaxRobertaForCausalLM
+[[autodoc]] FlaxRobertaForCausalLM
+    - call
+FlaxRobertaForMaskedLM
+[[autodoc]] FlaxRobertaForMaskedLM
+    - call
+FlaxRobertaForSequenceClassification
+[[autodoc]] FlaxRobertaForSequenceClassification
+    - call
+FlaxRobertaForMultipleChoice
+[[autodoc]] FlaxRobertaForMultipleChoice
+    - call
+FlaxRobertaForTokenClassification
+[[autodoc]] FlaxRobertaForTokenClassification
+    - call
+FlaxRobertaForQuestionAnswering
+[[autodoc]] FlaxRobertaForQuestionAnswering
+    - call
+
+.

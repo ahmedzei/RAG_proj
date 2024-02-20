@@ -1,0 +1,15 @@
+llator = DataCollatorForMultipleChoice(tokenizer=tokenizer)
+tf_train_set = model.prepare_tf_dataset(
+     tokenized_swag["train"],
+     shuffle=True,
+     batch_size=batch_size,
+     collate_fn=data_collator,
+ )
+tf_validation_set = model.prepare_tf_dataset(
+     tokenized_swag["validation"],
+     shuffle=False,
+     batch_size=batch_size,
+     collate_fn=data_collator,
+ )
+
+Configure the model for training with compile. Note that Transformers models all have a default task-relevant loss function, so you don'

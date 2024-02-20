@@ -1,0 +1,4 @@
+Therefore, the key
+query embedding vectors are also tied. LSH self attention uses the locality sensitive hashing mechanism proposed in
+Practical and Optimal LSH for Angular Distance to assign each of the tied key
+query embedding vectors to one of config.num_buckets possible buckets.

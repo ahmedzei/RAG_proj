@@ -1,0 +1,5 @@
+sed in natural language processing (NLP). Central to the transformer model is 
+the self-attention mechanism, which captures the interactions of token pairs in the input sequences and depends quadratically 
+on the sequence length. Training such models on longer sequences is expensive. In this paper, we show that a Bernoulli sampling 
+attention mechanism based on Locality Sensitive Hashing (LSH), decreases the quadratic complexity of such models to linear. 
+We bypass the quadratic cost by considering self-att

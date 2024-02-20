@@ -1,0 +1,3 @@
+humans cannot eat helicopters. Helicopters are not food, they are flying machines. Food is meant to be eaten, like a hearty plate o' grog, a savory bowl o' stew, or a delicious loaf o' bread. But helicopters, they be for transportin' and movin' around, not for eatin'. So, I'd say none, me hearties. None at all."}
+The pipeline will take care of all the details of tokenization and calling apply_chat_template for you -
+once the model has a chat template, all you need to do is initialize the pipeline and pass i

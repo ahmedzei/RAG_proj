@@ -1,0 +1,11 @@
+e used to resize (or rescale) and normalize images for the model.
+The [AltCLIPProcessor] wraps a [CLIPImageProcessor] and a [XLMRobertaTokenizer] into a single instance to both
+encode the text and prepare the images. The following example shows how to get the image-text similarity scores using
+[AltCLIPProcessor] and [AltCLIPModel].
+thon
+
+from PIL import Image
+import requests
+from transformers import AltCLIPModel, AltCLIPProcessor
+model = AltCLIPModel.from_pretrained("BAAI/AltCLIP")
+processor = AltCLIPProces

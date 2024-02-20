@@ -1,0 +1,2 @@
+It’s a mechanism to avoid having a huge positional encoding matrix (when the sequence length is very big) by factorizing it into smaller matrices.
+Replace traditional attention by LSH (local-sensitive hashing) attention (see below for more details).

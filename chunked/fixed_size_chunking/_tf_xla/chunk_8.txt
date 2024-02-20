@@ -1,0 +1,3 @@
+s process is known as “tracing”. 
+You might notice that the generation time is not fast. Successive calls of xla_generate() (or any other XLA-enabled function) won’t have to infer the computation graph, given the inputs to the function follow the same shape with which the computation graph was initially built. While this is not a problem for modalities with fixed input shapes (e.g., images), you must pay attention if you are working with variable input shape modalities (e.g., text).
+To ensure xla_generate()

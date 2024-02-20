@@ -1,0 +1,17 @@
+"category_id": objects["category"][i],
+             "iscrowd": 0,
+             "image_id": image_id,
+             "area": objects["area"][i],
+             "bbox": objects["bbox"][i],
+         }
+         annotations.append(new_ann)
+
+     return annotations
+
+Save images and annotations into the files torchvision.datasets.CocoDetection expects
+def save_cppe5_annotation_file_images(cppe5):
+     output_json = {}
+     path_output_cppe5 = f"{os.getcwd()}/cppe5/"
+
+     if not os.path.exists(path_output_cppe5):
+    

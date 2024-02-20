@@ -1,0 +1,10 @@
+
+     ]
+     return image_processor(images=images, annotations=targets, return_tensors="pt")
+
+Apply this preprocessing function to the entire dataset using 🤗 Datasets [~datasets.Dataset.with_transform] method. This method applies
+transformations on the fly when you load an element of the dataset.
+At this point, you can check what an example from the dataset looks like after the transformations. You should see a tensor
+with pixel_values, a tensor with pixel_mask, and labels.
+
+cppe5["train"] = cppe5["train"].

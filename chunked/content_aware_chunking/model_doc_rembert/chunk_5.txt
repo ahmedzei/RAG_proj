@@ -1,0 +1,71 @@
+The tokenizer is
+also similar to the Albert one rather than the BERT one.
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+RemBertConfig
+[[autodoc]] RemBertConfig
+RemBertTokenizer
+[[autodoc]] RemBertTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+RemBertTokenizerFast
+[[autodoc]] RemBertTokenizerFast
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+
+RemBertModel
+[[autodoc]] RemBertModel
+    - forward
+RemBertForCausalLM
+[[autodoc]] RemBertForCausalLM
+    - forward
+RemBertForMaskedLM
+[[autodoc]] RemBertForMaskedLM
+    - forward
+RemBertForSequenceClassification
+[[autodoc]] RemBertForSequenceClassification
+    - forward
+RemBertForMultipleChoice
+[[autodoc]] RemBertForMultipleChoice
+    - forward
+RemBertForTokenClassification
+[[autodoc]] RemBertForTokenClassification
+    - forward
+RemBertForQuestionAnswering
+[[autodoc]] RemBertForQuestionAnswering
+    - forward
+
+TFRemBertModel
+[[autodoc]] TFRemBertModel
+    - call
+TFRemBertForMaskedLM
+[[autodoc]] TFRemBertForMaskedLM
+    - call
+TFRemBertForCausalLM
+[[autodoc]] TFRemBertForCausalLM
+    - call
+TFRemBertForSequenceClassification
+[[autodoc]] TFRemBertForSequenceClassification
+    - call
+TFRemBertForMultipleChoice
+[[autodoc]] TFRemBertForMultipleChoice
+    - call
+TFRemBertForTokenClassification
+[[autodoc]] TFRemBertForTokenClassification
+    - call
+TFRemBertForQuestionAnswering
+[[autodoc]] TFRemBertForQuestionAnswering
+    - call
+
+.

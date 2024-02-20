@@ -1,0 +1,1 @@
+Some sampling strategies, like nucleus sampling, are also not supported by the [Pipeline] for 8-bit models.

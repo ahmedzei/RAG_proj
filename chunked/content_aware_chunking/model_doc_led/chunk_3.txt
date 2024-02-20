@@ -1,0 +1,8 @@
+We finally introduce the Longformer-Encoder-Decoder (LED), a Longformer variant for supporting
+long document generative sequence-to-sequence tasks, and demonstrate its effectiveness on the arXiv summarization
+dataset.
+Usage tips
+
+[LEDForConditionalGeneration] is an extension of
+  [BartForConditionalGeneration] exchanging the traditional self-attention layer with
+  Longformer's chunked self-attention layer.

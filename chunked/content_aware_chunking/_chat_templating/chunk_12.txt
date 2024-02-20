@@ -1,0 +1,6 @@
+None at all."}
+The pipeline will take care of all the details of tokenization and calling apply_chat_template for you -
+once the model has a chat template, all you need to do is initialize the pipeline and pass it the list of messages!
+What are "generation prompts"?
+You may have noticed that the apply_chat_template method has an add_generation_prompt argument. This argument tells
+the template to add tokens that indicate the start of a bot response.

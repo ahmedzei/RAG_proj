@@ -1,0 +1,7 @@
+This method enables implementing additional features that require manipulating the model after loading the weights.
+
+Document everything! Make sure your quantization method is documented in the docs/source/en/quantization.md file.
+
+Add tests! You should add tests by first adding the package in our nightly Dockerfile inside docker/transformers-all-latest-gpu and then adding a new test file in tests/quantization/xxx. Feel free to check out how it is implemented for other quantization methods.
+
+.

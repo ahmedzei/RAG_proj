@@ -1,0 +1,29 @@
+Hyperparameter Search backend
+[Trainer] supports four hyperparameter search backends currently:
+optuna, sigopt, raytune and wandb.
+you should install them before using them as the hyperparameter search backend
+
+pip install optuna/sigopt/wandb/ray[tune]
+How to enable Hyperparameter search in example
+Define the hyperparameter search space, different backends need different format.
+For sigopt, see sigopt object_parameter, it's like following:
+
+def sigopt_hp_space(trial):
+     return [
+         {"bounds": {"min": 1e-6, "max": 1e-4}, "name": "learning_rate", "type": "double"},
+         {
+             "categorical_values": ["16", "32", "64", "128"],
+             "name": "per_device_train_batch_size",
+             "type": "categorical",
+         },
+     ]
+
+For optuna, see optuna object_parameter, it's like following:
+
+def optuna_hp_space(trial):
+     return {
+         "learning_rate": trial.suggest_float("learning_rate", 1e-6, 1e-4, log=True),
+         "per_device_train_batch_size": trial.suggest_categorical("per_device_train_batch_size", [16, 32, 64, 128]),
+     }
+
+Optuna provides multi-objective HPO.

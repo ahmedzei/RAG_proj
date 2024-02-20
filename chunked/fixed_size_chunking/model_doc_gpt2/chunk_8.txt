@@ -1,0 +1,24 @@
+rward
+GPT2DoubleHeadsModel
+[[autodoc]] GPT2DoubleHeadsModel
+    - forward
+GPT2ForQuestionAnswering
+[[autodoc]] GPT2ForQuestionAnswering
+    - forward
+GPT2ForSequenceClassification
+[[autodoc]] GPT2ForSequenceClassification
+    - forward
+GPT2ForTokenClassification
+[[autodoc]] GPT2ForTokenClassification
+    - forward
+
+TFGPT2Model
+[[autodoc]] TFGPT2Model
+    - call
+TFGPT2LMHeadModel
+[[autodoc]] TFGPT2LMHeadModel
+    - call
+TFGPT2DoubleHeadsModel
+[[autodoc]] TFGPT2DoubleHeadsModel
+    - call
+TFGPT2ForSequenceCla

@@ -1,0 +1,12 @@
+rce.
+ViTForImageClassification is supported by:
+
+A blog post on how to Fine-Tune ViT for Image Classification with Hugging Face Transformers
+A blog post on Image Classification with Hugging Face Transformers and Keras
+A notebook on Fine-tuning for Image Classification with Hugging Face Transformers
+A notebook on how to Fine-tune the Vision Transformer on CIFAR-10 with the Hugging Face Trainer
+A notebook on how to Fine-tune the Vision Transformer on CIFAR-10 with PyTorch Lightning
+
+⚗️ Optimization
+
+A blog po

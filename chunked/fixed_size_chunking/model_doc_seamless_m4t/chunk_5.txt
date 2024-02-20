@@ -1,0 +1,8 @@
+ Critically, we evaluated SeamlessM4T on gender bias and added toxicity to assess translation safety. Finally, all contributions in this work are open-sourced and accessible at https://github.com/facebookresearch/seamless_communication
+Usage
+First, load the processor and a checkpoint of the model:
+thon
+
+from transformers import AutoProcessor, SeamlessM4TModel
+processor = AutoProcessor.from_pretrained("facebook/hf-seamless-m4t-medium")
+model = SeamlessM4TModel.from_pretrained("facebook/hf-seamless-m4t-medium

@@ -1,0 +1,6 @@
+rule #2 by default. However, there are a few common cases where it becomes a problem. One very common one is when you use label masking, setting your labels to a negative value to indicate that those positions should be ignored when computing the loss. If you look at NumPy or PyTorch loss functions that support label masking, you will often see code like this that uses boolean indexing:
+python
+label_mask = labels >= 0
+masked_outputs = outputs[label_mask]
+masked_labels = labels[label_mask]
+loss = compute_los

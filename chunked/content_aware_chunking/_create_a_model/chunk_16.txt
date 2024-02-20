@@ -1,0 +1,8 @@
+The question answering head is similar to the sequence classification head except it is a linear layer on top of the hidden states output.
+
+from transformers import DistilBertForQuestionAnswering
+model = DistilBertForQuestionAnswering.from_pretrained("distilbert/distilbert-base-uncased")
+``
+</pt>
+<tf>
+For example, [TFDistilBertForSequenceClassification`] is a base DistilBERT model with a sequence classification head.

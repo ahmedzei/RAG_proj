@@ -1,0 +1,8 @@
+--dist=loadfile puts the
+tests located in one file onto the same process.
+Since the order of executed tests is different and unpredictable, if running the test suite with pytest-xdist
+produces failures (meaning we have some undetected coupled tests), use pytest-replay to replay the tests in the same order, which should help with then somehow
+reducing that failing sequence to a minimum.
+Test order and repetition
+It's good to repeat the tests several times, in sequence, randomly, or in sets, to detect any potential
+inter-dependency and state-related bugs (tear down).

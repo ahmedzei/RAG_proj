@@ -1,0 +1,7 @@
+thors' code can be
+found here.
+Usage tips
+
+Reformer does not work with torch.nn.DataParallel due to a bug in PyTorch, see issue #36035.
+Use Axial position encoding (see below for more details). It’s a mechanism to avoid having a huge positional encoding matrix (when the sequence length is very big) by factorizing it into smaller matrices.
+Replace traditional attention by LSH (local-sensitive hashing) attention (see below for more details). It’s a technique to avoid computing the full product query-key in th

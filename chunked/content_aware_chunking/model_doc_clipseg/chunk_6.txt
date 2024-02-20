@@ -1,0 +1,27 @@
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A notebook that illustrates zero-shot image segmentation with CLIPSeg.
+
+CLIPSegConfig
+[[autodoc]] CLIPSegConfig
+    - from_text_vision_configs
+CLIPSegTextConfig
+[[autodoc]] CLIPSegTextConfig
+CLIPSegVisionConfig
+[[autodoc]] CLIPSegVisionConfig
+CLIPSegProcessor
+[[autodoc]] CLIPSegProcessor
+CLIPSegModel
+[[autodoc]] CLIPSegModel
+    - forward
+    - get_text_features
+    - get_image_features
+CLIPSegTextModel
+[[autodoc]] CLIPSegTextModel
+    - forward
+CLIPSegVisionModel
+[[autodoc]] CLIPSegVisionModel
+    - forward
+CLIPSegForImageSegmentation
+[[autodoc]] CLIPSegForImageSegmentation
+    - forward.

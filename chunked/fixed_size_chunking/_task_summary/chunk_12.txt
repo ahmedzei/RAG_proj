@@ -1,0 +1,12 @@
+ection include:
+
+self-driving vehicles: detect everyday traffic objects such as other vehicles, pedestrians, and traffic lights
+remote sensing: disaster monitoring, urban planning, and weather forecasting
+defect detection: detect cracks or structural damage in buildings, and manufacturing defects
+
+from transformers import pipeline
+detector = pipeline(task="object-detection")
+preds = detector(
+     "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/pipeline-cat-chonk.jpeg"
+ )
+pred

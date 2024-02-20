@@ -1,0 +1,15 @@
+ Trainer:
+ 
+
+trainer = Trainer(
+     model,
+     args,
+     train_dataset=train_dataset,
+     eval_dataset=val_dataset,
+     tokenizer=image_processor,
+     compute_metrics=compute_metrics,
+     data_collator=collate_fn,
+ )
+
+You might wonder why you passed along the image_processor as a tokenizer when you preprocessed the data already. This is only to make sure the image processor configuration file (stored as JSON) will also be uploaded to the repo on the Hub.
+Now fine-tune our model by calling the train m

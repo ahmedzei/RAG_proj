@@ -1,0 +1,8 @@
+thon
+fig, ax = plt.subplots()
+ax.imshow(image)
+ax.imshow(mask, cmap='viridis', alpha=0.4)
+ax.axis("off")
+plt.show()
+
+.

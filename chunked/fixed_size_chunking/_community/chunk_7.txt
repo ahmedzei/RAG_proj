@@ -1,0 +1,4 @@
+summarization on a custom dataset, using the Trainer API. | Tanmay Thakur | |
+|Fine-tune Electra and interpret with Integrated Gradients | How to fine-tune Electra for sentiment analysis and interpret predictions with Captum Integrated Gradients | Eliza Szczechla | |
+|fine-tune a non-English GPT-2 Model with Trainer class | How to fine-tune a non-English GPT-2 Model with Trainer class | Philipp Schmid | |
+|Fine-tune a DistilBERT Model for Multi Label Classification task | How to fine-tune a DistilBERT Model

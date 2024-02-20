@@ -1,0 +1,9 @@
+hat allows using fused GPU kernels such as memory-efficient attention and flash attention.
+After installing the optimum package, the relevant internal modules can be 
+replaced to use PyTorch's native attention with:
+python
+model = model.to_bettertransformer()
+Once converted, train the model as usual.
+
+The PyTorch-native scaled_dot_product_attention operator can only dispatch to Flash Attention if no attention_mask is provided.
+By default, in training mode, the BetterTransformer integration drops the mask su

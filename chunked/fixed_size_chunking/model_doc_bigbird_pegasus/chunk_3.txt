@@ -1,0 +1,5 @@
+ attention model. Along the way, our
+theoretical analysis reveals some of the benefits of having O(1) global tokens (such as CLS), that attend to the entire
+sequence as part of the sparse attention mechanism. The proposed sparse attention can handle sequences of length up to
+8x of what was previously possible using similar hardware. As a consequence of the capability to handle longer context,
+BigBird drastically improves performance on various NLP tasks such as question answering and summarization. We also

@@ -1,0 +1,4 @@
+edicted_class_id = int(tf.math.argmax(logits, axis=-1)[0])
+model.config.id2label[predicted_class_id]
+'beignets'
+

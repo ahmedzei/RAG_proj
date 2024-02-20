@@ -1,0 +1,5 @@
+We evaluate ViTMatte on Composition-1k and Distinctions-646, the most commonly used benchmark for image matting, our method achieves state-of-the-art performance and outperforms prior matting works by a large margin.
+This model was contributed by nielsr.
+The original code can be found here.
+
+ ViTMatte high-level overview. Taken from the original paper.

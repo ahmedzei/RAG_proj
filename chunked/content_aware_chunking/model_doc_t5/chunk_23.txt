@@ -1,0 +1,16 @@
+Check out this blog post to know all the details about generating text with Transformers.
+There's also this blog post which explains how
+generation works in general in encoder-decoder models.
+thon
+
+from transformers import T5Tokenizer, T5ForConditionalGeneration
+tokenizer = T5Tokenizer.from_pretrained("google-t5/t5-small")
+model = T5ForConditionalGeneration.from_pretrained("google-t5/t5-small")
+input_ids = tokenizer("translate English to German: The house is wonderful.", return_tensors="pt").input_ids
+outputs = model.generate(input_ids)
+print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+Das Haus ist wunderbar.
+
+Note that T5 uses the pad_token_id as the decoder_start_token_id, so when doing generation without using
+[~generation.GenerationMixin.generate], make sure you start it with the pad_token_id.
+The example above only shows a single example.

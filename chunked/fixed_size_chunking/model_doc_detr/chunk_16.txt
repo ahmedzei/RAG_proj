@@ -1,0 +1,9 @@
+Alternatively, one can also define a custom collate_fn in order to batch images together, using
+  [~transformers.DetrImageProcessor.pad_and_create_pixel_mask].
+The size of the images will determine the amount of memory being used, and will thus determine the batch_size.
+  It is advised to use a batch size of 2 per GPU. See this Github thread for more info.
+
+There are three ways to instantiate a DETR model (depending on what you prefer):
+Option 1: Instantiate DETR with pre-trained weights for entire model
+
+f

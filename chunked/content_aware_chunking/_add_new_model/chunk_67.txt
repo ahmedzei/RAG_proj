@@ -1,0 +1,7 @@
+By setting it to
+True for module.project_q and module.project_hid, we make sure the custom initialization we did is not overridden later on,
+the _init_weights function won't be applied to them.
+6. Write a conversion script
+Next, you should write a conversion script that lets you convert the checkpoint you used to debug brand_new_bert in
+the original repository to a checkpoint compatible with your just created 🤗 Transformers implementation of
+brand_new_bert.

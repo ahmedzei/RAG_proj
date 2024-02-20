@@ -1,0 +1,14 @@
+. The Authors' code can be found here.
+ 
+BARThez implementation is the same as BART, except for tokenization. Refer to BART documentation for information on 
+configuration classes and their parameters. BARThez-specific tokenizers are documented below.  
+
+Resources
+
+BARThez can be fine-tuned on sequence-to-sequence tasks in a similar way as BART, check:
+  examples/pytorch/summarization/.
+
+BarthezTokenizer
+[[autodoc]] BarthezTokenizer
+BarthezTokenizerFast
+[[autodoc]] BarthezTokenizerFast

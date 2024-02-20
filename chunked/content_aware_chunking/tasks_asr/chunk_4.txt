@@ -1,0 +1,18 @@
+The Wav2Vec2 tokenizer is only trained on uppercase characters so you'll need to make sure the text matches the tokenizer's vocabulary:
+
+def uppercase(example):
+     return {"transcription": example["transcription"].upper()}
+minds = minds.map(uppercase)
+
+Now create a preprocessing function that:
+
+Calls the audio column to load and resample the audio file.
+Extracts the input_values from the audio file and tokenize the transcription column with the processor.
+
+def prepare_dataset(batch):
+     audio = batch["audio"]
+     batch = processor(audio["array"], sampling_rate=audio["sampling_rate"], text=batch["transcription"])
+     batch["input_length"] = len(batch["input_values"][0])
+     return batch
+
+To apply the preprocessing function over the entire dataset, use 🤗 Datasets [~datasets.Dataset.map] function.

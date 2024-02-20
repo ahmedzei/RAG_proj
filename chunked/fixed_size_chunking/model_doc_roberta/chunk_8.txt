@@ -1,0 +1,11 @@
+g.
+[RobertaForQuestionAnswering] is supported by this example script and notebook.
+[TFRobertaForQuestionAnswering] is supported by this example script and notebook.
+[FlaxRobertaForQuestionAnswering] is supported by this example script.
+Question answering chapter of the 🤗 Hugging Face Course.
+Question answering task guide
+
+Multiple choice
+- [RobertaForMultipleChoice] is supported by this example script and notebook.
+- [TFRobertaForMultipleChoice] is supported by this example script and notebook.
+- Multiple c

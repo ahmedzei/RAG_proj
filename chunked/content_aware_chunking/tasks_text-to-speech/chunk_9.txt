@@ -1,0 +1,7 @@
+You'll need the tokenizer part of the processor to process the text:
+
+tokenizer = processor.tokenizer
+
+The dataset examples contain raw_text and normalized_text features. When deciding which feature to use as the text input, 
+consider that the SpeechT5 tokenizer doesn't have any tokens for numbers. In normalized_text the numbers are written 
+out as text.

@@ -1,0 +1,14 @@
+, sentence splitting, sentence fusion and translation, no special tokens are required for the input.
+  Therefore, no EOS token should be added to the end of the input.
+
+BertGenerationConfig
+[[autodoc]] BertGenerationConfig
+BertGenerationTokenizer
+[[autodoc]] BertGenerationTokenizer
+    - save_vocabulary
+BertGenerationEncoder
+[[autodoc]] BertGenerationEncoder
+    - forward
+BertGenerationDecoder
+[[autodoc]] BertGenerationDecoder
+    - forward

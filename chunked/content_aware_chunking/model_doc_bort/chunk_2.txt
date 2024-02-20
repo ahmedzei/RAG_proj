@@ -1,0 +1,3 @@
+This optimal subset, which we refer to as
+"Bort", is demonstrably smaller, having an effective (that is, not counting the embedding layer) size of 5.5% the
+original BERT-large architecture, and 16% of the net size.

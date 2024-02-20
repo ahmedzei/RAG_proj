@@ -1,0 +1,17 @@
+ch:
+
+from transformers import TrainingArguments, Trainer
+training_args = TrainingArguments(output_dir="test_trainer", evaluation_strategy="epoch")
+
+Trainer
+Create a [Trainer] object with your model, training arguments, training and test datasets, and evaluation function:
+
+trainer = Trainer(
+     model=model,
+     args=training_args,
+     train_dataset=small_train_dataset,
+     eval_dataset=small_eval_dataset,
+     compute_metrics=compute_metrics,
+ )
+
+Then fine-tune your model by calling [~transformers.Train

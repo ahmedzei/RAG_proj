@@ -1,0 +1,27 @@
+ImageProcessor
+    - preprocess
+
+ViTModel
+[[autodoc]] ViTModel
+    - forward
+ViTForMaskedImageModeling
+[[autodoc]] ViTForMaskedImageModeling
+    - forward
+ViTForImageClassification
+[[autodoc]] ViTForImageClassification
+    - forward
+
+TFViTModel
+[[autodoc]] TFViTModel
+    - call
+TFViTForImageClassification
+[[autodoc]] TFViTForImageClassification
+    - call
+
+FlaxVitModel
+[[autodoc]] FlaxViTModel
+    - call
+FlaxViTForImageClassification
+[[autodoc]] FlaxViTForImageClassification
+    - call
+

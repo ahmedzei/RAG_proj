@@ -1,0 +1,14 @@
+ call
+VideoMAEImageProcessor
+[[autodoc]] VideoMAEImageProcessor
+    - preprocess
+VideoMAEModel
+[[autodoc]] VideoMAEModel
+    - forward
+VideoMAEForPreTraining
+VideoMAEForPreTraining includes the decoder on top for self-supervised pre-training.
+[[autodoc]] transformers.VideoMAEForPreTraining
+    - forward
+VideoMAEForVideoClassification
+[[autodoc]] transformers.VideoMAEForVideoClassification
+    - forward

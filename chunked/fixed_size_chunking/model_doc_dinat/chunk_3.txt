@@ -1,0 +1,6 @@
+vements over strong baselines such as NAT, Swin, and ConvNeXt.
+Our large model is faster and ahead of its Swin counterpart by 1.5% box AP in COCO object detection,
+1.3% mask AP in COCO instance segmentation, and 1.1% mIoU in ADE20K semantic segmentation.
+Paired with new frameworks, our large variant is the new state of the art panoptic segmentation model on COCO (58.2 PQ)
+and ADE20K (48.5 PQ), and instance segmentation model on Cityscapes (44.5 AP) and ADE20K (35.4 AP) (no extra data).
+It also matches the s

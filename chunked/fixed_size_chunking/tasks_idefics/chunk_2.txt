@@ -1,0 +1,6 @@
+oth of which are available on the 🤗 Hub. For each variant, you can also find fine-tuned instructed 
+versions of the model adapted for conversational use cases.
+This model is exceptionally versatile and can be used for a wide range of image and multimodal tasks. However, 
+being a large model means it requires significant computational resources and infrastructure. It is up to you to decide whether 
+this approach suits your use case better than fine-tuning specialized models for each individual task. 
+In this

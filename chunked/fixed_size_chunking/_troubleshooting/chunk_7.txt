@@ -1,0 +1,10 @@
+formers --upgrade
+CUDA error: device-side assert triggered
+Sometimes you may run into a generic CUDA error about an error in the device code.
+RuntimeError: CUDA error: device-side assert triggered
+You should try to run the code on a CPU first to get a more descriptive error message. Add the following environment variable to the beginning of your code to switch to a CPU:
+
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
+
+Another option is to get a better traceback from the GPU. Add the following environment

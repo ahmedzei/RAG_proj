@@ -1,0 +1,5 @@
+4.5689 which is usually stored in either float32, bfloat16, or float16 format. This allows us to easily compute the memory requirement to load the LLM into memory:
+
+Loading the weights of a model having X billion parameters requires roughly 4 * X GB of VRAM in float32 precision
+
+Nowadays, models are however rarely trained in full float32 precision, but usually in bfloat16 precision or less frequently in float16 precision.

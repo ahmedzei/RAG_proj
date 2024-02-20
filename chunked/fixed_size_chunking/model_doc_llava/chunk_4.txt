@@ -1,0 +1,11 @@
+>USER: <prompt3>ASSISTANT:"
+Using Flash Attention 2
+Flash Attention 2 is an even faster, optimized version of the previous optimization, please refer to the Flash Attention 2 section of performance docs.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with BEiT.
+
+A Google Colab demo on how to run Llava on a free-tier Google colab instance leveraging 4-bit inference.
+A similar notebook showcasing batched inference. 🌎
+
+LlavaConfig
+[[autodoc]] LlavaCon

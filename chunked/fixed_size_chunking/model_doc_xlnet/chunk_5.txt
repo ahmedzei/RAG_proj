@@ -1,0 +1,17 @@
+ n tokens for n+1, XLNet uses a mask that hides the previous tokens in some given permutation of 1,…,sequence length.
+XLNet also uses the same recurrence mechanism as Transformer-XL to build long-term dependencies.
+
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Multiple choice task guide
+
+XLNetConfig
+[[autodoc]] XLNetConfig
+XLNetTokenizer
+[[autodoc]] XLNetTokenizer
+    - build_inputs_with_special_tokens
+    - get_s

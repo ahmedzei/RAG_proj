@@ -1,0 +1,2 @@
+Backbone
+A backbone is a model used for feature extraction for higher level computer vision tasks such as object detection and image classification.

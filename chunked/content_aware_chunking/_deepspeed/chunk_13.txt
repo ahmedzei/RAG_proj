@@ -1,0 +1,12 @@
+Mismatches may cause the training to fail in very difficult to detect ways!
+
+Some configuration parameters specific to DeepSpeed only which need to be manually set based on your training needs.
+
+You could also modify the DeepSpeed configuration and edit [TrainingArguments] from it:
+
+Create or load a DeepSpeed configuration to used as the main configuration
+Create a [TrainingArguments] object based on these DeepSpeed configuration values
+
+Some values, such as scheduler.params.total_num_steps are calculated by the [Trainer] during training.
+ZeRO configuration
+There are three configurations, each corresponding to a different ZeRO stage.

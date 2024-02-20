@@ -1,0 +1,8 @@
+th support for integrations such as FullyShardedDataParallel (FSDP) and DeepSpeed.
+
+Learn more about FSDP sharding strategies, CPU offloading, and more with the [Trainer] in the Fully Sharded Data Parallel guide.
+
+To use Accelerate with [Trainer], run the accelerate.config command to set up training for your training environment. This command creates a config_file.yaml that'll be used when you launch your training script. For example, some example configurations you can setup are:
+
+yml
+compute_environment: 

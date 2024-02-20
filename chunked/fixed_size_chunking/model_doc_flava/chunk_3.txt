@@ -1,0 +1,25 @@
+r
+[[autodoc]] FlavaProcessor
+FlavaFeatureExtractor
+[[autodoc]] FlavaFeatureExtractor
+FlavaImageProcessor
+[[autodoc]] FlavaImageProcessor
+    - preprocess
+FlavaForPreTraining
+[[autodoc]] FlavaForPreTraining
+    - forward
+FlavaModel
+[[autodoc]] FlavaModel
+    - forward
+    - get_text_features
+    - get_image_features
+FlavaImageCodebook
+[[autodoc]] FlavaImageCodebook
+    - forward
+    - get_codebook_indices
+    - get_codebook_probs
+FlavaTextModel
+[[autodoc]] FlavaTextModel
+    - forward
+FlavaImageModel
+[[autod

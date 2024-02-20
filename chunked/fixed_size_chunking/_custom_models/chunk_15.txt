@@ -1,0 +1,5 @@
+can use any of the methods of [PreTrainedModel], like [~PreTrainedModel.save_pretrained] or
+[~PreTrainedModel.push_to_hub]. We will use the second in the next section, and see how to push the model weights
+with the code of our model. But first, let's load some pretrained weights inside our model.
+In your own use case, you will probably be training your custom model on your own data. To go fast for this tutorial,
+we will use the pretrained version of the resnet50d. Since our model is just a wrapper around it

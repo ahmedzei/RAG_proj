@@ -1,0 +1,13 @@
+ed TP overview.
+by @anton-l.
+Alternative names:
+- DeepSpeed calls it tensor slicing
+Implementations:
+- Megatron-LM has an internal implementation, as it's very model-specific
+- parallelformers (only inference at the moment)
+- SageMaker - this is a proprietary solution that can only be used on AWS.
+- OSLO has the tensor parallelism implementation based on the Transformers.
+SageMaker combines TP with DP for a more efficient processing.
+🤗 Transformers status:
+- core: not yet implemented in the core
+- but if yo

@@ -1,0 +1,16 @@
+data.Dataset format with [~transformers.TFPreTrainedModel.prepare_tf_dataset]:
+
+tf_train_set = model.prepare_tf_dataset(
+     tokenized_billsum["train"],
+     shuffle=True,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+tf_test_set = model.prepare_tf_dataset(
+     tokenized_billsum["test"],
+     shuffle=False,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+
+Configure the model for training with compile. Note that Transformers models all have a default task-relevant loss function, so you don't 

@@ -1,0 +1,10 @@
+publicly released to facilitate research into neural response
+generation and the development of more intelligent open-domain dialogue systems.
+The original code can be found here.
+Usage tips
+
+DialoGPT is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather
+  than the left.
+DialoGPT was trained with a causal language modeling (CLM) objective on conversational data and is therefore powerful
+  at response generation in open-domain dialogue systems.
+DialoGPT en

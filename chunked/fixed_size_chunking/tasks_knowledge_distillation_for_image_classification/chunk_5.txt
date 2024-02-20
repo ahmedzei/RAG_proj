@@ -1,0 +1,8 @@
+e explains how much extra information we need to represent P using Q. If two are identical, their KL divergence is zero, as there's no other information needed to explain P from Q. Thus, in the context of knowledge distillation, KL divergence is useful.
+thon
+from transformers import TrainingArguments, Trainer
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+class ImageDistilTrainer(Trainer):
+    def init(self, teacher_model=None, student_model=None, temperature=None, lambda_param=None,  ar

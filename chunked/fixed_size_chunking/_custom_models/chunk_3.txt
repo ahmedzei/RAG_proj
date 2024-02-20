@@ -1,0 +1,10 @@
+mpler code with a clear "source of truth" for any hyperparameters, and also makes it easier
+to reuse code from other models in transformers.
+
+In our example, we will take a couple of arguments of the ResNet class that we might want to tweak. Different
+configurations will then give us the different types of ResNets that are possible. We then just store those arguments,
+after checking the validity of a few of them.
+thon
+from transformers import PretrainedConfig
+from typing import List
+class ResnetConfig(Pretr

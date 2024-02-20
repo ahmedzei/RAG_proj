@@ -1,0 +1,10 @@
+abilities[best_class].item()
+    logits = logits.tolist()
+    return {"label": label, "score": score, "logits": logits}
+
+The implementation is framework agnostic, and will work for PyTorch and TensorFlow models. If we have saved this in
+a file named pair_classification.py, we can then import it and register it like this:
+
+from pair_classification import PairClassificationPipeline
+from transformers.pipelines import PIPELINE_REGISTRY
+from transformers import AutoModelForSequenceClassification, TFAutoModelForS

@@ -1,0 +1,12 @@
+)
+model_8bit = AutoModelForCausalLM.from_pretrained(
+    model_id,
+    device_map=device_map,
+    quantization_config=quantization_config,
+)
+
+Skip module conversion
+For some models, like Jukebox, you don't need to quantize every module to 8-bit which can actually cause instability. With Jukebox, there are several lm_head modules that should be skipped using the llm_int8_skip_modules parameter in [BitsAndBytesConfig]:
+
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+model_id 

@@ -1,0 +1,7 @@
+From the Yelp Review dataset card, you know there are five labels:
+
+from transformers import AutoModelForSequenceClassification
+model = AutoModelForSequenceClassification.from_pretrained("google-bert/bert-base-cased", num_labels=5)
+
+You will see a warning about some of the pretrained weights not being used and some weights being randomly
+initialized. Don't worry, this is completely normal! The pretrained head of the BERT model is discarded, and replaced with a randomly initialized classification head.

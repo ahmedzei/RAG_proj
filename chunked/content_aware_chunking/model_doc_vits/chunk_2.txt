@@ -1,0 +1,5 @@
+Motivated by the one-to-many nature of the TTS problem, where the same text 
+input can be spoken in multiple ways, the model also includes a stochastic duration predictor, which allows the model to 
+synthesise speech with different rhythms from the same input text. 
+The model is trained end-to-end with a combination of losses derived from variational lower bound and adversarial training. 
+To improve the expressiveness of the model, normalizing flows are applied to the conditional prior distribution.

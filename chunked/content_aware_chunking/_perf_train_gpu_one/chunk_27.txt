@@ -1,0 +1,4 @@
+Optimizer choice
+The most common optimizer used to train transformer models is Adam or AdamW (Adam with weight decay). Adam achieves 
+good convergence by storing the rolling average of the previous gradients; however, it adds an additional memory 
+footprint of the order of the number of model parameters. To remedy this, you can use an alternative optimizer.

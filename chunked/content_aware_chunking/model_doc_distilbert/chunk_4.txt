@@ -1,0 +1,8 @@
+Our smaller, faster and lighter model is cheaper to pre-train and we
+demonstrate its capabilities for on-device computations in a proof-of-concept experiment and a comparative on-device
+study.
+This model was contributed by victorsanh. This model jax version was
+contributed by kamalkraj. The original code can be found here.
+Usage tips
+
+DistilBERT doesn't have token_type_ids, you don't need to indicate which token belongs to which segment.

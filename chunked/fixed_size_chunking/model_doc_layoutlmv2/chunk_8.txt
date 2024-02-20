@@ -1,0 +1,7 @@
+ models
+  in Detectron2 are pre-trained using the BGR format. The bbox input are the bounding boxes (i.e. 2D-positions)
+  of the input text tokens. This is identical to [LayoutLMModel]. These can be obtained using an
+  external OCR engine such as Google's Tesseract (there's a Python
+  wrapper available). Each bounding box should be in (x0, y0, x1, y1)
+  format, where (x0, y0) corresponds to the position of the upper left corner in the bounding box, and (x1, y1)
+  represents the position of the lower right c

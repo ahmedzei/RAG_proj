@@ -1,0 +1,3 @@
+Consider using Optimum for quantization if you're using specific and optimized hardware like Intel CPUs, Furiosa NPUs or a model accelerator like ONNX Runtime.
+Benchmarks
+To compare the speed, throughput, and latency of each quantization scheme, check the following benchmarks obtained from the optimum-benchmark library. The benchmark was run on a NVIDIA A1000 for the TheBloke/Mistral-7B-v0.1-AWQ and TheBloke/Mistral-7B-v0.1-GPTQ models.

@@ -1,0 +1,9 @@
+We
+will make XLM-R code, data, and models publicly available.
+This model was contributed by stefan-it. The original code can be found here.
+Usage tips
+
+XLM-RoBERTa is a multilingual model trained on 100 different languages. Unlike some XLM multilingual models, it does
+  not require lang tensors to understand which language is used, and should be able to determine the correct
+  language from the input ids.
+Uses RoBERTa tricks on the XLM approach, but does not use the translation language modeling objective.

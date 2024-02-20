@@ -1,0 +1,18 @@
+zing inference
+
+local: big_models
+    title: Instantiating a big model
+local: debugging
+    title: Debugging
+local: tf_xla
+    title: XLA Integration for TensorFlow Models
+local: perf_torch_compile
+    title: Optimize inference using torch.compile()
+  title: Performance and scalability
+sections:
+local: contributing
+    title: How to contribute to 🤗 Transformers?
+local: add_new_model
+    title: How to add a model to 🤗 Transformers?
+local: add_tensorflow_model
+    title: How to convert a 🤗 Transformers model 

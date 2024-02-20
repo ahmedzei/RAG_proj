@@ -1,0 +1,5 @@
+This allows MEGA to perform competitively to Transformers on standard benchmarks including LRA 
+while also having significantly fewer parameters. MEGA's compute efficiency allows it to scale to very long sequences, making it an 
+attractive option for long-document NLP tasks.
+The abstract from the paper is the following:
+*The design choices in the Transformer attention mechanism, including weak inductive bias and quadratic computational complexity, have limited its application for modeling long sequences.

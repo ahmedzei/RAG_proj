@@ -1,0 +1,8 @@
+
+PhoBERT
+Overview
+The PhoBERT model was proposed in PhoBERT: Pre-trained language models for Vietnamese by Dat Quoc Nguyen, Anh Tuan Nguyen.
+The abstract from the paper is the following:
+We present PhoBERT with two versions, PhoBERT-base and PhoBERT-large, the first public large-scale monolingual
+language models pre-trained for Vietnamese. Experimental results show that PhoBERT consistently outperforms the recent
+best pre-trained multilingual model XLM-R (Conneau et al., 2020) and improves the state-of-the-

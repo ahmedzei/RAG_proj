@@ -1,0 +1,3 @@
+d to query an image with one or multiple text queries to search for and detect target objects described in text.
+The abstract from the paper is the following:
+Combining simple architectures with large-scale pre-training has led to massive improvements in image classification. For object detection, pre-training and scaling approaches are less well established, especially in the long-tailed and open-vocabulary setting, where training data is relatively scarce. In this paper, we propose a strong recipe for tra

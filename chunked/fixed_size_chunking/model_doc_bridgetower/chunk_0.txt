@@ -1,0 +1,5 @@
+
+BridgeTower
+Overview
+The BridgeTower model was proposed in BridgeTower: Building Bridges Between Encoders in Vision-Language Representative Learning by Xiao Xu, Chenfei Wu, Shachar Rosenman, Vasudev Lal, Wanxiang Che, Nan Duan. The goal of this model is to build a
+bridge between each uni-modal encoder and the cross-modal encoder to enable comprehensive and detailed interaction at each layer of the cross-modal encoder thus achieving remarkable performance on various downstream tasks with almost negligible a

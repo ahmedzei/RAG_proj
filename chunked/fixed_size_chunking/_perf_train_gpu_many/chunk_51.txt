@@ -1,0 +1,10 @@
+hem by attribute dimension into 2 devices, 10 x 512 will be 10 x 2 x 256.
+
+Parameter
+
+It is similar with tensor model parallelism or naive layer-wise model parallelism.
+
+The significance of this framework is that it takes resources like (1) GPU/TPU/CPU vs. (2) RAM/DRAM vs. (3) 
+fast-intra-connect/slow-inter-connect and it automatically optimizes all these algorithmically deciding which 
+parallelisation to use where.
+One very important aspect is that FlexFlow is designed for optimizing DNN parallelizations f

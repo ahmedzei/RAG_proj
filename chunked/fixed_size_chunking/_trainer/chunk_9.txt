@@ -1,0 +1,3 @@
+er in your model repository)
+
+When you resume training from a checkpoint, the [Trainer] tries to keep the Python, NumPy, and PyTorch RNG states the same as they were when the checkpoint was saved. But because PyTorch has various non-deterministic default settings, the RNG states aren't guaranteed to be the same. If you want to enable full determinism, take a look at the Controlling sources of randomness guide to learn what you can enable to make your training fully deterministic. Keep in mind though that by

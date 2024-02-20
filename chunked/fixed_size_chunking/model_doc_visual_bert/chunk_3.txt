@@ -1,0 +1,8 @@
+nce, if you are not working on these downstream tasks, it is
+   recommended that you use the pretrained checkpoints.
+
+For the VCR task, the authors use a fine-tuned detector for generating visual embeddings, for all the checkpoints.
+   We do not provide the detector and its weights as a part of the package, but it will be available in the research
+   projects, and the states can be loaded directly into the detector provided.
+
+VisualBERT is a multi-modal vision and language model. It can be used for visual q

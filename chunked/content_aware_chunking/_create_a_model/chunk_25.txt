@@ -1,0 +1,51 @@
+For example, create a default [ViTImageProcessor] if you are using ViT for image classification:
+
+from transformers import ViTImageProcessor
+vit_extractor = ViTImageProcessor()
+print(vit_extractor)
+ViTImageProcessor {
+  "do_normalize": true,
+  "do_resize": true,
+  "image_processor_type": "ViTImageProcessor",
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "resample": 2,
+  "size": 224
+}
+
+If you aren't looking for any customization, just use the from_pretrained method to load a model's default image processor parameters.
+
+Modify any of the [ViTImageProcessor] parameters to create your custom image processor:
+
+from transformers import ViTImageProcessor
+my_vit_extractor = ViTImageProcessor(resample="PIL.Image.BOX", do_normalize=False, image_mean=[0.3, 0.3, 0.3])
+print(my_vit_extractor)
+ViTImageProcessor {
+  "do_normalize": false,
+  "do_resize": true,
+  "image_processor_type": "ViTImageProcessor",
+  "image_mean": [
+    0.3,
+    0.3,
+    0.3
+  ],
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "resample": "PIL.Image.BOX",
+  "size": 224
+}
+
+Backbone
+
+Computer vision models consist of a backbone, neck, and head.

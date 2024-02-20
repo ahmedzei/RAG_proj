@@ -1,0 +1,6 @@
+ such that you can import TFBrandNewBert and
+TFBrandNewBert.from_pretrained(model_repo, from_pt=True) successfully loads a working TensorFlow BrandNewBert model.
+Sadly, there is no prescription to convert a PyTorch model into TensorFlow. You can, however, follow our selection of
+tips to make the process as smooth as possible:
+- Prepend TF to the name of all classes (e.g. BrandNewBert becomes TFBrandNewBert).
+- Most PyTorch operations have a direct TensorFlow replacement. For example, torch.nn.Linear corresp

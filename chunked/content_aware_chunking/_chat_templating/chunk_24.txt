@@ -1,0 +1,5 @@
+User, assistant and system messages are clearly
+distinguishable to the model because of the tokens they're wrapped in.
+Advanced: Adding and editing chat templates
+How do I create a chat template?
+Simple, just write a jinja template and set tokenizer.chat_template.

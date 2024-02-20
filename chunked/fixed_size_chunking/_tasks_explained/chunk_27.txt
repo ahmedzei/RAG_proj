@@ -1,0 +1,3 @@
+e decoder. Unlike cross-attention which can attend to the entire image, masked attention only focuses on a certain area of the image. This is faster and leads to better performance because the local features of an image are enough for the model to learn from.
+
+Like DETR, Mask2Former also uses learned object queries and combines them with the image features from the pixel decoder to make a set prediction (class label, mask prediction). The decoder hidden states are passed into a linear layer and transformed 

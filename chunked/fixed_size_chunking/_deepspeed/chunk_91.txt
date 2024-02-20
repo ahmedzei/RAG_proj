@@ -1,0 +1,8 @@
+ in=Is this review positive or negative? Review: this is the best cast iron skillet you will ever buy
+  out=Positive
+rank1:
+   in=Is this review positive or negative? Review: this is the worst restaurant ever
+  out=negative
+This is a very basic example and you'll want to adapt it to your use case.
+Generate
+Using multiple GPUs with ZeRO-3 for generation requires synchronizing the GPUs by setting synced_gpus=True in the [~GenerationMixin.generate] method. Otherwise, if one GPU is finished generating before an

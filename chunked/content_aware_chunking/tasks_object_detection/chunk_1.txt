@@ -1,0 +1,53 @@
+Log in to your Hugging Face account to upload it to the Hub.
+When prompted, enter your token to log in:
+
+from huggingface_hub import notebook_login
+notebook_login()
+
+Load the CPPE-5 dataset
+The CPPE-5 dataset contains images with
+annotations identifying medical personal protective equipment (PPE) in the context of the COVID-19 pandemic.
+Start by loading the dataset:
+
+from datasets import load_dataset
+cppe5 = load_dataset("cppe-5")
+cppe5
+DatasetDict({
+    train: Dataset({
+        features: ['image_id', 'image', 'width', 'height', 'objects'],
+        num_rows: 1000
+    })
+    test: Dataset({
+        features: ['image_id', 'image', 'width', 'height', 'objects'],
+        num_rows: 29
+    })
+})
+
+You'll see that this dataset already comes with a training set containing 1000 images and a test set with 29 images.
+To get familiar with the data, explore what the examples look like.
+
+cppe5["train"][0]
+{'image_id': 15,
+ 'image': ,
+ 'width': 943,
+ 'height': 663,
+ 'objects': {'id': [114, 115, 116, 117],
+  'area': [3796, 1596, 152768, 81002],
+  'bbox': [[302.0, 109.0, 73.0, 52.0],
+   [810.0, 100.0, 57.0, 28.0],
+   [160.0, 31.0, 248.0, 616.0],
+   [741.0, 68.0, 202.0, 401.0]],
+  'category': [4, 4, 0, 0]}}
+
+The examples in the dataset have the following fields:
+- image_id: the example image id
+- image: a PIL.Image.Image object containing the image
+- width: width of the image
+- height: height of the image
+- objects: a dictionary containing bounding box metadata for the objects in the image:
+  - id: the annotation id
+  - area: the area of the bounding box
+  - bbox: the object's bounding box (in the COCO format )
+  - category: the object's category, with possible values including Coverall (0), Face_Shield (1), Gloves (2), Goggles (3) and Mask (4)
+You may notice that the bbox field follows the COCO format, which is the format that the DETR model expects.
+However, the grouping of the fields inside objects differs from the annotation format DETR requires.

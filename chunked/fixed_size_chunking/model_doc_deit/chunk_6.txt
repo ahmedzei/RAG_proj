@@ -1,0 +1,7 @@
+elies on a
+  teacher that has already been fine-tuned on the downstream dataset. In terms of models, (1) corresponds to
+  [DeiTForImageClassification] and (2) corresponds to
+  [DeiTForImageClassificationWithTeacher].
+Note that the authors also did try soft distillation for (2) (in which case the distillation prediction head is
+  trained using KL divergence to match the softmax output of the teacher), but hard distillation gave the best results.
+All released checkpoints were pre-trained and fine-tuned on Ima

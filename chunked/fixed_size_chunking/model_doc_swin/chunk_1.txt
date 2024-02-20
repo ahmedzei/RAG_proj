@@ -1,0 +1,5 @@
+ domains,
+such as large variations in the scale of visual entities and the high resolution of pixels in images compared to words in text.
+To address these differences, we propose a hierarchical Transformer whose representation is computed with \bold{S}hifted
+\bold{win}dows. The shifted windowing scheme brings greater efficiency by limiting self-attention computation to non-overlapping
+local windows while also allowing for cross-window connection. This hierarchical architecture has the flexibility to model a

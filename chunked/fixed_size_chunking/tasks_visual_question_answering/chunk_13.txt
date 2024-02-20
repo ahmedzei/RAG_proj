@@ -1,0 +1,9 @@
+ask.
+All these preprocessing steps are done under the hood, we only need to call the processor. However, we still need to 
+prepare the target labels. In this representation, each element corresponds to a possible answer (label). For correct answers, the element holds 
+their respective score (weight), while the remaining elements are set to zero.
+The following function applies the processor to the images and questions and formats the labels as described above:
+
+import torch
+def preprocess_data(examples):
+   

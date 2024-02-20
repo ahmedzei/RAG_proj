@@ -1,0 +1,7 @@
+The sigmoid cross-entropy and dice loss is calculated between the logits and the ground truth mask to find the most likely mask.
+
+Ready to try your hand at object detection? Check out our complete image segmentation guide to learn how to finetune SegFormer and use it for inference!
+Depth estimation
+GLPN, Global-Local Path Network, is a Transformer for depth estimation that combines a SegFormer encoder with a lightweight decoder.
+
+Like ViT, an image is split into a sequence of patches, except these image patches are smaller.

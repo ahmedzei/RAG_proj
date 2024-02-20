@@ -1,0 +1,34 @@
+
+VAN
+
+This model is in maintenance mode only, we don't accept any new PRs changing its code.
+If you run into any issues running this model, please reinstall the last version that supported this model: v4.30.0.
+You can do so by running the following command: pip install -U transformers==4.30.0.
+
+Overview
+The VAN model was proposed in Visual Attention Network by Meng-Hao Guo, Cheng-Ze Lu, Zheng-Ning Liu, Ming-Ming Cheng, Shi-Min Hu.
+This paper introduces a new attention layer based on convolution operations able to capture both local and distant relationships. This is done by combining normal and large kernel convolution layers. The latter uses a dilated convolution to capture distant correlations.
+The abstract from the paper is the following:
+While originally designed for natural language processing tasks, the self-attention mechanism has recently taken various computer vision areas by storm. However, the 2D nature of images brings three challenges for applying self-attention in computer vision. (1) Treating images as 1D sequences neglects their 2D structures. (2) The quadratic complexity is too expensive for high-resolution images. (3) It only captures spatial adaptability but ignores channel adaptability. In this paper, we propose a novel large kernel attention (LKA) module to enable self-adaptive and long-range correlations in self-attention while avoiding the above issues. We further introduce a novel neural network based on LKA, namely Visual Attention Network (VAN). While extremely simple, VAN outperforms the state-of-the-art vision transformers and convolutional neural networks with a large margin in extensive experiments, including image classification, object detection, semantic segmentation, instance segmentation, etc. Code is available at this https URL.
+Tips:
+
+VAN does not have an embedding layer, thus the hidden_states will have a length equal to the number of stages.
+
+The figure below illustrates the architecture of a Visual Attention Layer. Taken from the original paper.
+
+This model was contributed by Francesco. The original code can be found here.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with VAN.
+
+[VanForImageClassification] is supported by this example script and notebook.
+See also: Image classification task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+VanConfig
+[[autodoc]] VanConfig
+VanModel
+[[autodoc]] VanModel
+    - forward
+VanForImageClassification
+[[autodoc]] VanForImageClassification
+    - forward

@@ -1,0 +1,10 @@
+At first, they will probably have a status of "Pending" as
+the containers get pulled and created, then the status should change to "Running".
+NAME                                                     READY   STATUS                  RESTARTS          AGE
+
+transformers-pytorchjob-worker-0                         1/1     Running                 0                 7m37s
+transformers-pytorchjob-worker-1                         1/1     Running                 0                 7m37s
+transformers-pytorchjob-worker-2                         1/1     Running                 0                 7m37s
+transformers-pytorchjob-worker-3                         1/1     Running                 0                 7m37s
+
+The logs for worker can be viewed using kubectl logs -n kubeflow <pod name>.

@@ -1,0 +1,15 @@
+eqLM
+[[autodoc]] FlaxAutoModelForSeq2SeqLM
+AutoModelForSequenceClassification
+[[autodoc]] AutoModelForSequenceClassification
+TFAutoModelForSequenceClassification
+[[autodoc]] TFAutoModelForSequenceClassification
+FlaxAutoModelForSequenceClassification
+[[autodoc]] FlaxAutoModelForSequenceClassification
+AutoModelForMultipleChoice
+[[autodoc]] AutoModelForMultipleChoice
+TFAutoModelForMultipleChoice
+[[autodoc]] TFAutoModelForMultipleChoice
+FlaxAutoModelForMultipleChoice
+[[autodoc]] FlaxAutoModelForMultipleChoice
+A

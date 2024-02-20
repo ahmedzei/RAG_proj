@@ -1,0 +1,15 @@
+They both rely on
+[~tokenization_utils_base.PreTrainedTokenizerBase] that contains the common methods, and
+[~tokenization_utils_base.SpecialTokensMixin].
+[PreTrainedTokenizer] and [PreTrainedTokenizerFast] thus implement the main
+methods for using all the tokenizers:
+
+Tokenizing (splitting strings in sub-word token strings), converting tokens strings to ids and back, and
+  encoding/decoding (i.e., tokenizing and converting to integers).
+Adding new tokens to the vocabulary in a way that is independent of the underlying structure (BPE, SentencePiece).
+Managing special tokens (like mask, beginning-of-sentence, etc.): adding them, assigning them to attributes in the
+  tokenizer for easy access and making sure they are not split during tokenization.
+
+[BatchEncoding] holds the output of the
+[~tokenization_utils_base.PreTrainedTokenizerBase]'s encoding methods (__call__,
+encode_plus and batch_encode_plus) and is derived from a Python dictionary.

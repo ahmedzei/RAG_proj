@@ -1,0 +1,4 @@
+The cross-entropy loss is calculated between the logits and the label position to find the most likely span of text corresponding to the answer.
+Ready to try your hand at question answering? Check out our complete question answering guide to learn how to finetune DistilBERT and use it for inference!
+
+💡 Notice how easy it is to use BERT for different tasks once it's been pretrained.

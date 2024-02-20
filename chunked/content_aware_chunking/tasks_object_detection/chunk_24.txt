@@ -1,0 +1,39 @@
+Instantiate a pipeline
+for object detection with your model, and pass an image to it:
+
+from transformers import pipeline
+import requests
+url = "https://i.imgur.com/2lnWoly.jpg"
+image = Image.open(requests.get(url, stream=True).raw)
+obj_detector = pipeline("object-detection", model="devonho/detr-resnet-50_finetuned_cppe5")
+obj_detector(image)
+
+You can also manually replicate the results of the pipeline if you'd like:
+
+image_processor = AutoImageProcessor.from_pretrained("devonho/detr-resnet-50_finetuned_cppe5")
+model = AutoModelForObjectDetection.from_pretrained("devonho/detr-resnet-50_finetuned_cppe5")
+with torch.no_grad():
+     inputs = image_processor(images=image, return_tensors="pt")
+     outputs = model(**inputs)
+     target_sizes = torch.tensor([image.size[::-1]])
+     results = image_processor.post_process_object_detection(outputs, threshold=0.5, target_sizes=target_sizes)[0]
+for score, label, box in zip(results["scores"], results["labels"], results["boxes"]):
+     box = [round(i, 2) for i in box.tolist()]
+     print(
+         f"Detected {model.config.id2label[label.item()]} with confidence "
+         f"{round(score.item(), 3)} at location {box}"
+     )
+Detected Coverall with confidence 0.566 at location [1215.32, 147.38, 4401.81, 3227.08]
+Detected Mask with confidence 0.584 at location [2449.06, 823.19, 3256.43, 1413.9]
+
+Let's plot the result:
+
+draw = ImageDraw.Draw(image)
+for score, label, box in zip(results["scores"], results["labels"], results["boxes"]):
+     box = [round(i, 2) for i in box.tolist()]
+     x, y, x2, y2 = tuple(box)
+     draw.rectangle((x, y, x2, y2), outline="red", width=1)
+     draw.text((x, y), model.config.id2label[label.item()], fill="white")
+image
+
+.

@@ -1,0 +1,16 @@
+minReplicas: 1
+    maxReplicas: 4
+    maxRestarts: 10
+  pytorchReplicaSpecs:
+    Worker:
+      replicas: 4  # The number of worker pods
+      restartPolicy: OnFailure
+      template:
+        spec:
+          containers:
+            - name: pytorch
+              image: <image name>:<tag>  # Specify the docker image to use for the worker pods
+              imagePullPolicy: IfNotPresent
+              command:
+                - torchrun
+                - /workspace/transformers/examples/pytorch/question-answerin

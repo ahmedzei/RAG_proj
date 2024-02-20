@@ -1,0 +1,11 @@
+it will ask the ultra-wealthy and corporations to pay their fair share.'
+``
+</pt>
+<tf>
+Tokenize the text and return theinput_ids` as TensorFlow tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("stevhliu/my_awesome_billsum_model")
+inputs = tokenizer(text, return_tensors="tf").input_ids
+
+Use the [~transformers.generation_tf_utils.TFGenerationMixin.generate] method to create the summarization.

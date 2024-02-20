@@ -1,0 +1,24 @@
+This'll give you a chance to experiment and make sure everything works before spending more time training on the full dataset.
+
+from datasets import load_dataset, Audio
+minds = load_dataset("PolyAI/minds14", name="en-US", split="train[:100]")
+
+Split the dataset's train split into a train and test set with the [~Dataset.train_test_split] method:
+
+minds = minds.train_test_split(test_size=0.2)
+
+Then take a look at the dataset:
+
+minds
+DatasetDict({
+    train: Dataset({
+        features: ['path', 'audio', 'transcription', 'english_transcription', 'intent_class', 'lang_id'],
+        num_rows: 16
+    })
+    test: Dataset({
+        features: ['path', 'audio', 'transcription', 'english_transcription', 'intent_class', 'lang_id'],
+        num_rows: 4
+    })
+})
+
+While the dataset contains a lot of useful information, like lang_id and english_transcription, you'll focus on the audio and transcription in this guide.

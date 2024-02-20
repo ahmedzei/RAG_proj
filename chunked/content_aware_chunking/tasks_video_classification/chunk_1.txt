@@ -1,0 +1,56 @@
+This will give you a chance to experiment and make sure everything works before spending more time training on the full dataset.
+
+from huggingface_hub import hf_hub_download
+hf_dataset_identifier = "sayakpaul/ucf101-subset"
+filename = "UCF101_subset.tar.gz"
+file_path = hf_hub_download(repo_id=hf_dataset_identifier, filename=filename, repo_type="dataset")
+
+After the subset has been downloaded, you need to extract the compressed archive:
+ 
+
+import tarfile
+with tarfile.open(file_path) as t:
+      t.extractall(".")
+
+At a high level, the dataset is organized like so:
+
+UCF101_subset/
+    train/
+        BandMarching/
+            video_1.mp4
+            video_2.mp4
+            
+        Archery
+            video_1.mp4
+            video_2.mp4
+            
+        
+    val/
+        BandMarching/
+            video_1.mp4
+            video_2.mp4
+            
+        Archery
+            video_1.mp4
+            video_2.mp4
+            
+        
+    test/
+        BandMarching/
+            video_1.mp4
+            video_2.mp4
+            
+        Archery
+            video_1.mp4
+            video_2.mp4
+            
+        
+The (sorted) video paths appear like so:
+
+'UCF101_subset/train/ApplyEyeMakeup/v_ApplyEyeMakeup_g07_c04.avi',
+'UCF101_subset/train/ApplyEyeMakeup/v_ApplyEyeMakeup_g07_c06.avi',
+'UCF101_subset/train/ApplyEyeMakeup/v_ApplyEyeMakeup_g08_c01.avi',
+'UCF101_subset/train/ApplyEyeMakeup/v_ApplyEyeMakeup_g09_c02.avi',
+'UCF101_subset/train/ApplyEyeMakeup/v_ApplyEyeMakeup_g09_c06.avi'
+
+You will notice that there are video clips belonging to the same group / scene where group is denoted by g in the video file paths.

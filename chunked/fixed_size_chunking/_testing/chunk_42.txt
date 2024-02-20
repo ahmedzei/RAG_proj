@@ -1,0 +1,6 @@
+e essential for parallel test running, so that the tests won't overwrite
+each other's data. Also we want to get the temporary files and directories removed at the end of each test that created
+them. Therefore, using packages like tempfile, which address these needs is essential.
+However, when debugging tests, you need to be able to see what goes into the temporary file or directory and you want
+to know it's exact path and not having it randomized on every test re-run.
+A helper class transformers.test_utils.

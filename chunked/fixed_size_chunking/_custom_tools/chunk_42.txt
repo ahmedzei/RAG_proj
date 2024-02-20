@@ -1,0 +1,11 @@
+translation it returns 'google-t5/t5-base.
+How do we convert this to a tool that the agent can leverage? All tools depend on the superclass Tool that holds the
+main attributes necessary. We'll create a class that inherits from it:
+thon
+from transformers import Tool
+class HFModelDownloadsTool(Tool):
+    pass
+
+This class has a few needs:
+- An attribute name, which corresponds to the name of the tool itself. To be in tune with other tools which have a
+  performative name, we'll name it model_download_counter.

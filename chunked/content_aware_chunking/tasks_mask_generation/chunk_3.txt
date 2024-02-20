@@ -1,0 +1,23 @@
+In this guide, you will learn how to:
+- Infer in segment everything mode with batching,
+- Infer in point prompting mode,
+- Infer in box prompting mode.
+First, let's install transformers:
+
+pip install -q transformers
+Mask Generation Pipeline
+The easiest way to infer mask generation models is to use the mask-generation pipeline.
+thon
+
+from transformers import pipeline
+checkpoint = "facebook/sam-vit-base"
+mask_generator = pipeline(model=checkpoint, task="mask-generation")
+
+Let's see the image.
+thon
+from PIL import Image
+import requests
+img_url = "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/bee.jpg"
+image = Image.open(requests.get(img_url, stream=True).raw).convert("RGB")
+
+Let's segment everything.

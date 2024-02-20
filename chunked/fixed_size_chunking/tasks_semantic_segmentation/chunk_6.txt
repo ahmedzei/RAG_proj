@@ -1,0 +1,9 @@
+ort json
+ # simple example
+ id2label = {0: 'cat', 1: 'dog'}
+ with open('id2label.json', 'w') as fp:
+ json.dump(id2label, fp)
+
+As an example, take a look at this example dataset which was created with the steps shown above.
+Preprocess
+The next step is to load a SegFormer image processor to prepare the images and annotations for the model. Some datasets, like this one, use the zero-index as the background class. However, the background class isn't actually included in the 150 classes, so you'll need to set re

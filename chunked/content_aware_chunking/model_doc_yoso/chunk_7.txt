@@ -1,0 +1,29 @@
+Taken from the original paper.
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+YosoConfig
+[[autodoc]] YosoConfig
+YosoModel
+[[autodoc]] YosoModel
+    - forward
+YosoForMaskedLM
+[[autodoc]] YosoForMaskedLM
+    - forward
+YosoForSequenceClassification
+[[autodoc]] YosoForSequenceClassification
+    - forward
+YosoForMultipleChoice
+[[autodoc]] YosoForMultipleChoice
+    - forward
+YosoForTokenClassification
+[[autodoc]] YosoForTokenClassification
+    - forward
+YosoForQuestionAnswering
+[[autodoc]] YosoForQuestionAnswering
+    - forward.

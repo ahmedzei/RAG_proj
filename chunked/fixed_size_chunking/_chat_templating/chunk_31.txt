@@ -1,0 +1,7 @@
+are ever altered or deprecated.
+What template should I use?
+When setting the template for a model that's already been trained for chat, you should ensure that the template
+exactly matches the message formatting that the model saw during training, or else you will probably experience
+performance degradation. This is true even if you're training the model further - you will probably get the best 
+performance if you keep the chat tokens constant. This is very analogous to tokenization - you generally get the
+b

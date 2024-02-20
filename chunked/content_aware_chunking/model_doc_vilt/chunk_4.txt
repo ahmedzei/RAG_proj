@@ -1,0 +1,6 @@
+The original code can be found here.
+Usage tips
+
+The quickest way to get started with ViLT is by checking the example notebooks
+  (which showcase both inference and fine-tuning on custom data).
+ViLT is a model that takes both pixel_values and input_ids as input.

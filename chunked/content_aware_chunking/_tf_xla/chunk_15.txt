@@ -1,0 +1,3 @@
+This Colab Notebook provides an interactive demonstration if you want to fiddle with the XLA-compatible encoder-decoder (like T5) and decoder-only (like GPT2) text generation models. 
+This blog post provides an overview of the comparison benchmarks for XLA-compatible models along with a friendly introduction to XLA in TensorFlow. 
+This blog post discusses our design philosophy behind adding XLA support to the TensorFlow models in 🤗 Transformers.

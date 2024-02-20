@@ -1,0 +1,18 @@
+Specify a maximum sample length, and the feature extractor will either pad or truncate the sequences to match it:
+
+def preprocess_function(examples):
+     audio_arrays = [x["array"] for x in examples["audio"]]
+     inputs = feature_extractor(
+         audio_arrays,
+         sampling_rate=16000,
+         padding=True,
+         max_length=100000,
+         truncation=True,
+     )
+     return inputs
+
+Apply the preprocess_function to the first few examples in the dataset:
+
+processed_dataset = preprocess_function(dataset[:5])
+
+The sample lengths are now the same and match the specified maximum length.

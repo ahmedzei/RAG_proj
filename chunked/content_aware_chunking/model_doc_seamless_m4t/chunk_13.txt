@@ -1,0 +1,9 @@
+Additionally, for speech output, a vocoder inspired by the HiFi-GAN architecture is placed on top of the second seq2seq model.
+Here's how the generation process works:
+
+Input text or speech is processed through its specific encoder.
+A decoder creates text tokens in the desired language.
+If speech generation is required, the second seq2seq model, following a standard encoder-decoder structure, generates unit tokens.
+These unit tokens are then passed through the final vocoder to produce the actual speech.
+
+This model was contributed by ylacombe.

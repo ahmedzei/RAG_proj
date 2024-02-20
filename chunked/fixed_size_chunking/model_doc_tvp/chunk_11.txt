@@ -1,0 +1,12 @@
+       if frame.pts > video_end_pts:
+            break
+    frames = [frames[pts] for pts in sorted(frames)]
+    return frames, fps
+def decode(container, sampling_rate, num_frames, clip_idx, num_clips, target_fps):
+    '''
+    Decode the video and perform temporal sampling.
+    Args:
+        container (container): pyav container.
+        sampling_rate (int): frame sampling rate (interval between two sampled frames).
+        num_frames (int): number of frames to sample.
+        clip_idx (int): if clip_idx is 

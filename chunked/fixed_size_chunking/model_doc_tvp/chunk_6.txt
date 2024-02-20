@@ -1,0 +1,5 @@
+pled video frames and textual features, respectively. Specially, a set of different visual prompts are applied to uniformly-sampled frames of one untrimmed video in order.
+The goal of this model is to incorporate trainable prompts into both visual inputs and textual features to temporal video grounding(TVG) problems.
+In principle, one can apply any visual, cross-modal encoder in the proposed architecture.
+The [TvpProcessor] wraps [BertTokenizer] and [TvpImageProcessor] into a single instance to both
+encode 

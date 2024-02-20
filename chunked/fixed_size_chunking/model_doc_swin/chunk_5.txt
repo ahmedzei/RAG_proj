@@ -1,0 +1,18 @@
+ide
+
+Besides that:
+
+[SwinForMaskedImageModeling] is supported by this example script.
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+SwinConfig
+[[autodoc]] SwinConfig
+
+SwinModel
+[[autodoc]] SwinModel
+    - forward
+SwinForMaskedImageModeling
+[[autodoc]] SwinForMaskedImageModeling
+    - forward
+SwinForImageClassification
+[[autodoc]

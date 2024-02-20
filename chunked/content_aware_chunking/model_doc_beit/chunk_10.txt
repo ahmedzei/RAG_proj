@@ -1,0 +1,47 @@
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with BEiT.
+
+[BeitForImageClassification] is supported by this example script and notebook.
+See also: Image classification task guide
+
+Semantic segmentation
+- Semantic segmentation task guide
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+BEiT specific outputs
+[[autodoc]] models.beit.modeling_beit.BeitModelOutputWithPooling
+[[autodoc]] models.beit.modeling_flax_beit.FlaxBeitModelOutputWithPooling
+BeitConfig
+[[autodoc]] BeitConfig
+BeitFeatureExtractor
+[[autodoc]] BeitFeatureExtractor
+    - call
+    - post_process_semantic_segmentation
+BeitImageProcessor
+[[autodoc]] BeitImageProcessor
+    - preprocess
+    - post_process_semantic_segmentation
+
+BeitModel
+[[autodoc]] BeitModel
+    - forward
+BeitForMaskedImageModeling
+[[autodoc]] BeitForMaskedImageModeling
+    - forward
+BeitForImageClassification
+[[autodoc]] BeitForImageClassification
+    - forward
+BeitForSemanticSegmentation
+[[autodoc]] BeitForSemanticSegmentation
+    - forward
+
+FlaxBeitModel
+[[autodoc]] FlaxBeitModel
+    - call
+FlaxBeitForMaskedImageModeling
+[[autodoc]] FlaxBeitForMaskedImageModeling
+    - call
+FlaxBeitForImageClassification
+[[autodoc]] FlaxBeitForImageClassification
+    - call
+
+.

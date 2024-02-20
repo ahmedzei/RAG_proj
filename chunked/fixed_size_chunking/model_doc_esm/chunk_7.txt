@@ -1,0 +1,5 @@
+what they learn about biology as they are scaled up. In this work we train models up to 15 billion parameters,
+the largest language models of proteins to be evaluated to date. We find that as models are scaled they learn
+information enabling the prediction of the three-dimensional structure of a protein at the resolution of
+individual atoms. We present ESMFold for high accuracy end-to-end atomic level structure prediction directly
+from the individual sequence of a protein. ESMFold has similar accuracy to Al

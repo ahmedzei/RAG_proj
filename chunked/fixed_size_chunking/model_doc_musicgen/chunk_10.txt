@@ -1,0 +1,11 @@
+gen-small")
+model = MusicgenForConditionalGeneration.from_pretrained("facebook/musicgen-small")
+inputs = processor(
+     text=["80s pop track with bassy drums and synth", "90s rock song with loud guitars and heavy drums"],
+     padding=True,
+     return_tensors="pt",
+ )
+audio_values = model.generate(**inputs, do_sample=True, guidance_scale=3, max_new_tokens=256)
+
+The guidance_scale is used in classifier free guidance (CFG), setting the weighting between the conditional logits
+(which are predicted from the t

@@ -1,0 +1,2 @@
+This component is part of the Intel® oneAPI HPC Toolkit.
+oneccl_bindings_for_pytorch is installed along with the MPI tool set.

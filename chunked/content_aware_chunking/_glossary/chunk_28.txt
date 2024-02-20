@@ -1,0 +1,15 @@
+These labels
+should be the expected prediction of the model: it will use the standard loss in order to compute the loss between its
+predictions and the expected value (the label).
+These labels are different according to the model head, for example:
+
+For sequence classification models, ([BertForSequenceClassification]), the model expects a tensor of dimension
+  (batch_size) with each value of the batch corresponding to the expected label of the entire sequence.
+For token classification models, ([BertForTokenClassification]), the model expects a tensor of dimension
+  (batch_size, seq_length) with each value corresponding to the expected label of each individual token.
+For masked language modeling, ([BertForMaskedLM]), the model expects a tensor of dimension (batch_size,
+  seq_length) with each value corresponding to the expected label of each individual token: the labels being the token
+  ID for the masked token, and values to be ignored for the rest (usually -100).
+For sequence to sequence tasks, ([BartForConditionalGeneration], [MBartForConditionalGeneration]), the model
+  expects a tensor of dimension (batch_size, tgt_seq_length) with each value corresponding to the target sequences
+  associated with each input sequence.

@@ -1,0 +1,9 @@
+In order of fastest and most memory-efficient:
+| Fastest          | Memory efficient |
+|------------------|------------------|
+| ZeRO-1           | ZeRO-3 + offload |
+| ZeRO-2           | ZeRO-3           |
+| ZeRO-2 + offload | ZeRO-2 + offload |
+| ZeRO-3           | ZeRO-2           |
+| ZeRO-3 + offload | ZeRO-1           |
+To find what works best for you, start with the fastest approach and if you run out of memory, try the next stage which is slower but more memory efficient.

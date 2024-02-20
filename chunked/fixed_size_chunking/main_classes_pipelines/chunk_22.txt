@@ -1,0 +1,24 @@
+onAnsweringPipeline
+    - call
+TextClassificationPipeline
+[[autodoc]] TextClassificationPipeline
+    - call
+    - all
+TextGenerationPipeline
+[[autodoc]] TextGenerationPipeline
+    - call
+    - all
+Text2TextGenerationPipeline
+[[autodoc]] Text2TextGenerationPipeline
+    - call
+    - all
+TokenClassificationPipeline
+[[autodoc]] TokenClassificationPipeline
+    - call
+    - all
+TranslationPipeline
+[[autodoc]] TranslationPipeline
+    - call
+    - all
+ZeroShotClassificationPipeline
+[[autodoc]] ZeroShotClassificatio

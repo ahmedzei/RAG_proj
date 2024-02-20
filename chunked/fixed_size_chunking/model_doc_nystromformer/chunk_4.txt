@@ -1,0 +1,11 @@
+orSequenceClassification
+    - forward
+NystromformerForMultipleChoice
+[[autodoc]] NystromformerForMultipleChoice
+    - forward
+NystromformerForTokenClassification
+[[autodoc]] NystromformerForTokenClassification
+    - forward
+NystromformerForQuestionAnswering
+[[autodoc]] NystromformerForQuestionAnswering
+    - forward

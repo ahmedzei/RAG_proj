@@ -1,0 +1,16 @@
+les)
+your model can accept multiple label arguments (use label_names in [TrainingArguments] to indicate their name to the [Trainer]) but none of them should be named "label"
+
+Trainer[[api-reference]]
+[[autodoc]] Trainer
+    - all
+Seq2SeqTrainer
+[[autodoc]] Seq2SeqTrainer
+    - evaluate
+    - predict
+TrainingArguments
+[[autodoc]] TrainingArguments
+    - all
+Seq2SeqTrainingArguments
+[[autodoc]] Seq2SeqTrainingArguments
+    - all

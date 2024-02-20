@@ -1,0 +1,9 @@
+ly queries the GPU architecture of the build. However, it may or may not match the actual GPU on the target machine which is why it is better to explicitly specify the correct architecture.
+For training on multiple machines with the same setup, you'll need to make a binary wheel:
+
+git clone https://github.com/microsoft/DeepSpeed/
+cd DeepSpeed
+rm -rf build
+TORCH_CUDA_ARCH_LIST="8.6" DS_BUILD_CPU_ADAM=1 DS_BUILD_UTILS=1 \
+python setup.py build_ext -j8 bdist_wheel
+This command generates a binary wheel that'll 

@@ -1,0 +1,21 @@
+You Need.
+This is identical to using the --encoder-normalize-before flag in fairseq.
+
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+RobertaPreLayerNormConfig
+[[autodoc]] RobertaPreLayerNormConfig
+
+RobertaPreLayerNormModel
+[[autodoc]] RobertaPreLayerNormModel
+    - forward
+RobertaPreLayerNormForCausalLM
+[[autodoc]] RobertaPreLayerNormForCausalLM
+    - f

@@ -1,0 +1,11 @@
+whisper-3" --convert_preprocessor True
+The script will automatically determine all necessary parameters from the OpenAI checkpoint. A tiktoken library needs to be installed
+to perform the conversion of the OpenAI tokenizer to the tokenizers version.
+Inference
+Here is a step-by-step guide to transcribing an audio sample using a pre-trained Whisper model:
+thon
+
+from datasets import load_dataset
+from transformers import WhisperProcessor, WhisperForConditionalGeneration
+Select an audio file and read it:
+ds = lo

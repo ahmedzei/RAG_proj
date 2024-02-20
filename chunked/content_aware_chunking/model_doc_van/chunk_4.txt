@@ -1,0 +1,6 @@
+While extremely simple, VAN outperforms the state-of-the-art vision transformers and convolutional neural networks with a large margin in extensive experiments, including image classification, object detection, semantic segmentation, instance segmentation, etc. Code is available at this https URL.
+Tips:
+
+VAN does not have an embedding layer, thus the hidden_states will have a length equal to the number of stages.
+
+The figure below illustrates the architecture of a Visual Attention Layer.

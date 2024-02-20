@@ -1,0 +1,9 @@
+he corpus the corresponding model will be trained
+on.
+
+Byte-Pair Encoding (BPE)
+Byte-Pair Encoding (BPE) was introduced in Neural Machine Translation of Rare Words with Subword Units (Sennrich et
+al., 2015). BPE relies on a pre-tokenizer that splits the training data into
+words. Pretokenization can be as simple as space tokenization, e.g. GPT-2, RoBERTa. More advanced pre-tokenization include rule-based tokenization, e.g. XLM,
+FlauBERT which uses Moses for most languages, or GPT which uses
+spaCy and ftfy, t

@@ -1,0 +1,12 @@
+l
+CodeGenTokenizer
+[[autodoc]] CodeGenTokenizer
+    - save_vocabulary
+CodeGenTokenizerFast
+[[autodoc]] CodeGenTokenizerFast
+CodeGenModel
+[[autodoc]] CodeGenModel
+    - forward
+CodeGenForCausalLM
+[[autodoc]] CodeGenForCausalLM
+    - forward

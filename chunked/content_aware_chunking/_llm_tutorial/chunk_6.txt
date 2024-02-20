@@ -1,0 +1,14 @@
+All you need to do is to make sure you pad your inputs properly (more on that below).
+
+tokenizer.pad_token = tokenizer.eos_token  # Most LLMs don't have a pad token by default
+model_inputs = tokenizer(
+     ["A list of colors: red, blue", "Portugal is"], return_tensors="pt", padding=True
+ ).to("cuda")
+generated_ids = model.generate(**model_inputs)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+['A list of colors: red, blue, green, yellow, orange, purple, pink,',
+'Portugal is a country in southwestern Europe, on the Iber']
+
+And that's it! In a few lines of code, you can harness the power of an LLM.
+Common pitfalls
+There are many generation strategies, and sometimes the default values may not be appropriate for your use case.

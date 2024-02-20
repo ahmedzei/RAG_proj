@@ -1,0 +1,11 @@
+d("naver-clova-ix/donut-base-finetuned-rvlcdip")
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model.to(device)  # doctest: +IGNORE_RESULT
+load document image
+dataset = load_dataset("hf-internal-testing/example-documents", split="test")
+image = dataset[1]["image"]
+prepare decoder inputs
+task_prompt = ""
+decoder_input_ids = processor.tokenizer(task_prompt, add_special_tokens=False, return_tensors="pt").input_ids
+pixel_values = processor(image, return_tensors="pt").pixel_values
+outputs = model.gener

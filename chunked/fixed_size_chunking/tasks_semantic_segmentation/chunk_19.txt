@@ -1,0 +1,9 @@
+ metrics.update({f"iou_{id2label[i]}": v for i, v in enumerate(per_category_iou)})
+     return {"val_" + k: v for k, v in metrics.items()}
+
+Your compute_metrics function is ready to go now, and you'll return to it when you setup your training.
+Train
+
+If you aren't familiar with finetuning a model with the [Trainer], take a look at the basic tutorial here!
+
+You're ready to start training your model now! Load SegFormer with [AutoModelForSemanticSegmentation], and pass the model the mapping between label ids a

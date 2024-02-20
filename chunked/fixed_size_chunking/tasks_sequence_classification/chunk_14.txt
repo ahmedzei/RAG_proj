@@ -1,0 +1,20 @@
+(
+     "distilbert/distilbert-base-uncased", num_labels=2, id2label=id2label, label2id=label2id
+ )
+
+Convert your datasets to the tf.data.Dataset format with [~transformers.TFPreTrainedModel.prepare_tf_dataset]:
+
+tf_train_set = model.prepare_tf_dataset(
+     tokenized_imdb["train"],
+     shuffle=True,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+tf_validation_set = model.prepare_tf_dataset(
+     tokenized_imdb["test"],
+     shuffle=False,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+
+Config

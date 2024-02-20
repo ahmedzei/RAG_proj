@@ -1,0 +1,9 @@
+'cuda', 'cpu', 'npu')
+DEVICE_NAME = 'npu'
+Specify device-specific backends to dispatch to.
+If not specified, will fallback to 'default' in 'testing_utils.py`
+MANUAL_SEED_FN = torch.npu.manual_seed
+EMPTY_CACHE_FN = torch.npu.empty_cache
+DEVICE_COUNT_FN = torch.npu.device_count
+``
+This format also allows for specification of any additional imports required.

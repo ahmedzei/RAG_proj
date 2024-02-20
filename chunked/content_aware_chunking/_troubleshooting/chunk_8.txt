@@ -1,0 +1,6 @@
+Add the following environment variable to the beginning of your code to switch to a CPU:
+
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
+
+Another option is to get a better traceback from the GPU.

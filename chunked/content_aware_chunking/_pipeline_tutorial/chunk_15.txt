@@ -1,0 +1,1 @@
+For example, a visual question answering (VQA) task combines text and image. Feel free to use any image link you like and a question you want to ask about the image.

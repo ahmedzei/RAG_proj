@@ -1,0 +1,10 @@
+vely reverse the damage caused by an infection.\n\n\nThe damage caused by an infection is caused by the immune system's ability to perform its own self-correcting tasks."}]
+
+Tokenize the text and return the input_ids as PyTorch tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("username/my_awesome_eli5_clm-model")
+inputs = tokenizer(prompt, return_tensors="pt").input_ids
+
+Use the [~transformers.generation_utils.GenerationMixin.generate] method to generate text.
+For m

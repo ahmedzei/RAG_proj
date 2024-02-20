@@ -1,0 +1,12 @@
+to be reconciled with a vastly different house bill and then passed again.',
+  'Also: does this apply to 2017 taxes? Or does it start with 2018 taxes?',
+  'This article explains both the House and senate bills, including the proposed changes to your income taxes based on your income level. URL_0'],
+ 'answers.score': [21, 19, 5, 3],
+ 'answers.text_urls': [[],
+  [],
+  [],
+  ['https://www.investopedia.com/news/trumps-tax-reform-what-can-be-done/']],
+ 'title_urls': ['url'],
+ 'selftext_urls': ['url']}
+
+Each subf

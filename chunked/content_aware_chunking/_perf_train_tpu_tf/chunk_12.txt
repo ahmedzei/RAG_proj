@@ -1,0 +1,4 @@
+Our models and loss functions generally obey rule #1 and #2 by default, so you can skip over them if you’re using transformers models. Don’t forget about these rules when writing your own models and loss functions, though!
+
+XLA Rule #1: Your code cannot have “data-dependent conditionals”
+What that means is that any if statement cannot depend on values inside a tf.Tensor.

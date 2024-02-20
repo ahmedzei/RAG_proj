@@ -1,0 +1,11 @@
+ion_2")
+tokenizer = AutoTokenizer.from_pretrained("bigcode/gpt_bigcode-santacoder")
+prompt = "def hello_world():"
+model_inputs = tokenizer([prompt], return_tensors="pt").to(device)
+model.to(device)
+generated_ids = model.generate(**model_inputs, max_new_tokens=30, do_sample=False)
+tokenizer.batch_decode(generated_ids)[0]
+'def hello_world():\n    print("hello world")\n\nif name == "main":\n    print("hello world")\n<|endoftext|>'
+
+Expected speedups
+Below is a expected speedup diagram that compares pure infere

@@ -1,0 +1,23 @@
+ the right rather than
+  the left.
+
+This model was contributed by patrickvonplaten.
+Resources
+
+A notebook showing how to evaluate LED.
+A notebook showing how to fine-tune LED.
+Text classification task guide
+Question answering task guide
+Translation task guide
+Summarization task guide
+
+LEDConfig
+[[autodoc]] LEDConfig
+LEDTokenizer
+[[autodoc]] LEDTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+LEDTokenizerFast
+[[aut

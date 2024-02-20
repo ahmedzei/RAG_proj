@@ -1,0 +1,9 @@
+izer.batch_decode(generated_tokens, skip_special_tokens=True)
+'Do not interfere with the matters of the witches, because they are delicate and will soon be angry.'
+
+MBart
+The following MBart models can be used for multilingual translation:
+
+facebook/mbart-large-50-one-to-many-mmt (One-to-many multilingual machine translation, 50 languages)
+facebook/mbart-large-50-many-to-many-mmt (Many-to-many multilingual machine translation, 50 languages)
+facebook/mbart-large-50-many-to-one-mmt (Many-to-one multilingual m

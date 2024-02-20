@@ -1,0 +1,22 @@
+   - call
+[[autodoc]] ForcedBOSTokenLogitsProcessor
+    - call
+[[autodoc]] ForcedEOSTokenLogitsProcessor
+    - call
+[[autodoc]] ForceTokensLogitsProcessor
+    - call
+[[autodoc]] HammingDiversityLogitsProcessor
+    - call
+[[autodoc]] InfNanRemoveLogitsProcessor
+    - call
+[[autodoc]] LogitNormalization
+    - call
+[[autodoc]] LogitsProcessor
+    - call
+[[autodoc]] LogitsProcessorList
+    - call
+[[autodoc]] LogitsWarper
+    - call
+[[autodoc]] MinLengthLogitsProcessor
+    - call
+[[autodoc]] MinNewTokensLengthLo

@@ -1,0 +1,12 @@
+ files, which can be filenames, URLs or pure bytes)
+Adding it to the list of supported tasks
+To register your new-task to the list of supported tasks, you have to add it to the PIPELINE_REGISTRY:
+thon
+from transformers.pipelines import PIPELINE_REGISTRY
+PIPELINE_REGISTRY.register_pipeline(
+    "new-task",
+    pipeline_class=MyPipeline,
+    pt_model=AutoModelForSequenceClassification,
+)
+
+You can specify a default model if you want, in which case it should come with a specific revision (which can be the name 

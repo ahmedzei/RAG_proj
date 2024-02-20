@@ -1,0 +1,5 @@
+Make sure you are logged into Hugging Face before you begin:
+
+huggingface-cli login
+Then add the push_to_hub argument to the script. This argument will create a repository with your Hugging Face username and the folder name specified in output_dir.
+To give your repository a specific name, use the push_to_hub_model_id argument to add it.

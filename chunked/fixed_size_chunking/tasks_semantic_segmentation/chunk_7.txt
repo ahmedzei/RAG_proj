@@ -1,0 +1,7 @@
+duce_labels=True to subtract one from all the labels. The zero-index is replaced by 255 so it's ignored by SegFormer's loss function:
+
+from transformers import AutoImageProcessor
+checkpoint = "nvidia/mit-b0"
+image_processor = AutoImageProcessor.from_pretrained(checkpoint, reduce_labels=True)
+
+It is common to apply some data augmentations to an image dataset to make a model more robust against overfitting. In this guide, you'll use the ColorJitter function from torchvision to randomly change the color proper

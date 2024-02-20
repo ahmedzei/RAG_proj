@@ -1,0 +1,32 @@
+This means the model can solve tasks it wasn't explicitly trained to do! Language models can be used to generate fluent and convincing text, though you need to be careful since the text may not always be accurate.
+There are two types of language modeling:
+
+causal: the model's objective is to predict the next token in a sequence, and future tokens are masked
+
+from transformers import pipeline
+prompt = "Hugging Face is a community-based open-source platform for machine learning."
+generator = pipeline(task="text-generation")
+generator(prompt)  # doctest: +SKIP
+
+masked: the model's objective is to predict a masked token in a sequence with full access to the tokens in the sequence
+
+text = "Hugging Face is a community-based open-source  for machine learning."
+fill_mask = pipeline(task="fill-mask")
+preds = fill_mask(text, top_k=1)
+preds = [
+     {
+         "score": round(pred["score"], 4),
+         "token": pred["token"],
+         "token_str": pred["token_str"],
+         "sequence": pred["sequence"],
+     }
+     for pred in preds
+ ]
+preds
+[{'score': 0.2236,
+  'token': 1761,
+  'token_str': ' platform',
+  'sequence': 'Hugging Face is a community-based open-source platform for machine learning.'}]
+
+Multimodal
+Multimodal tasks require a model to process multiple data modalities (text, image, audio, video) to solve a particular problem.

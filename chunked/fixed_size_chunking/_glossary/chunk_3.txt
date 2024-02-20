@@ -1,0 +1,9 @@
+3, 4954, 119, 1135, 1110, 1120, 1655, 2039, 1190, 1103, 4954, 138, 119, 102]]
+
+This can then be converted into a tensor in PyTorch or TensorFlow. The attention mask is a binary tensor indicating the
+position of the padded indices so that the model does not attend to them. For the [BertTokenizer], 1 indicates a
+value that should be attended to, while 0 indicates a padded value. This attention mask is in the dictionary returned
+by the tokenizer under the key "attention_mask":
+thon
+
+padded_sequences["attention

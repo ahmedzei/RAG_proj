@@ -1,0 +1,7 @@
+vy lifting in the previous sections, so now you are ready to train your model!
+The images in this dataset are still quite large, even after resizing. This means that finetuning this model will
+require at least one GPU.
+Training involves the following steps:
+1. Load the model with [AutoModelForObjectDetection] using the same checkpoint as in the preprocessing.
+2. Define your training hyperparameters in [TrainingArguments].
+3. Pass the training arguments to [Trainer] along with the model, dataset, image proce

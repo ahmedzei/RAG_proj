@@ -1,0 +1,12 @@
+
+Testing
+Let's take a look at how 🤗 Transformers models are tested and how you can write new tests and improve the existing ones.
+There are 2 test suites in the repository:
+
+tests -- tests for the general API
+examples -- tests primarily for various applications that aren't part of the API
+
+How transformers are tested
+
+Once a PR is submitted it gets tested with 9 CircleCi jobs. Every new commit to that PR gets retested. These jobs
+   are defined in this config file, so that if needed you can reproduce the sa

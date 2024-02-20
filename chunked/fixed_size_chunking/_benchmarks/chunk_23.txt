@@ -1,0 +1,23 @@
+       128            1330
+bert-6-lay                 8              512            1540
+
+====================        ENVIRONMENT INFORMATION         ====================
+
+transformers_version: 2.11.0
+framework: Tensorflow
+use_xla: False
+framework_version: 2.2.0
+python_version: 3.6.10
+system: Linux
+cpu: x86_64
+architecture: 64bit
+date: 2020-06-29
+time: 09:38:15.487125
+fp16: False
+use_multiprocessing: True
+only_pretrain_model: False
+cpu_ram_mb: 32088
+use_gpu: True
+num_gpus: 1
+gpu: TITAN RTX
+gpu_ram_mb: 24217

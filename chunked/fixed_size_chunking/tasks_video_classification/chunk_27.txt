@@ -1,0 +1,12 @@
+ollate_fn, which will be used to batch examples together. Each batch consists of 2 keys, namely pixel_values and labels.
+ 
+
+def collate_fn(examples):
+     # permute to (num_frames, num_channels, height, width)
+     pixel_values = torch.stack(
+         [example["video"].permute(1, 0, 2, 3) for example in examples]
+     )
+     labels = torch.tensor([example["label"] for example in examples])
+     return {"pixel_values": pixel_values, "labels": labels}
+
+Then you just pass all of this along with the datasets to

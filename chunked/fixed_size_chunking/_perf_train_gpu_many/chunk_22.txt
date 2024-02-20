@@ -1,0 +1,12 @@
+ tensor parallelism 
+which will be discussed later. This is because it partitions/shards each layer's weights, unlike vertical model parallelism 
+which is discussed next.
+Implementations:
+
+DeepSpeed ZeRO-DP stages 1+2+3
+Accelerate integration 
+transformers integration
+
+From Naive Model Parallelism to Pipeline Parallelism
+To explain Pipeline parallelism, we'll first look into Naive Model Parallelism (MP), also known as Vertical MP. This approach
+involves distributing groups of model layers across multiple GP

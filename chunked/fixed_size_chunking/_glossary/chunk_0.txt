@@ -1,0 +1,15 @@
+
+Glossary
+This glossary defines general machine learning and 🤗 Transformers terms to help you better understand the
+documentation.
+A
+attention mask
+The attention mask is an optional argument used when batching sequences together.
+
+This argument indicates to the model which tokens should be attended to, and which should not.
+For example, consider these two sequences:
+thon
+
+from transformers import BertTokenizer
+tokenizer = BertTokenizer.from_pretrained("google-bert/bert-base-cased")
+sequence_a = "This is a s

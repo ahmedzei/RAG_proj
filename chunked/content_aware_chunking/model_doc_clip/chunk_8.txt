@@ -1,0 +1,23 @@
+The following example shows how to get the image-text similarity scores using
+[CLIPProcessor] and [CLIPModel].
+thon
+
+from PIL import Image
+import requests
+from transformers import CLIPProcessor, CLIPModel
+model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
+processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
+url = "http://images.cocodataset.org/val2017/000000039769.jpg"
+image = Image.open(requests.get(url, stream=True).raw)
+inputs = processor(text=["a photo of a cat", "a photo of a dog"], images=image, return_tensors="pt", padding=True)
+outputs = model(**inputs)
+logits_per_image = outputs.logits_per_image  # this is the image-text similarity score
+probs = logits_per_image.softmax(dim=1)  # we can take the softmax to get the label probabilities
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with CLIP.
+
+Fine tuning CLIP with Remote Sensing (Satellite) images and captions, a blog post about how to fine-tune CLIP with RSICD dataset and comparison of performance changes due to data augmentation.
+This example script shows how to train a CLIP-like vision-text dual encoder model using a pre-trained vision and text encoder using COCO dataset.
+
+A notebook on how to use a pretrained CLIP for inference with beam search for image captioning.

@@ -1,0 +1,9 @@
+
+ViLT
+Overview
+The ViLT model was proposed in ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision
+by Wonjae Kim, Bokyung Son, Ildoo Kim. ViLT incorporates text embeddings into a Vision Transformer (ViT), allowing it to have a minimal design
+for Vision-and-Language Pre-training (VLP).
+The abstract from the paper is the following:
+Vision-and-Language Pre-training (VLP) has improved performance on various joint vision-and-language downstream tasks.
+Current approaches to VLP heavily 

@@ -1,0 +1,8 @@
+be found here.
+Zero-shot object detection task guide
+
+The architecture of OWLv2 is identical to OWL-ViT, however the object detection head now also includes an objectness classifier, which predicts the (query-agnostic) likelihood that a predicted box contains an object (as opposed to background). The objectness score can be used to rank or filter predictions independently of text queries.
+Usage of OWLv2 is identical to OWL-ViT with a new, updated image processor ([Owlv2ImageProcessor]).
+
+Owlv2Config
+[[autod

@@ -1,0 +1,16 @@
+ BeitForImageClassification
+    - forward
+BeitForSemanticSegmentation
+[[autodoc]] BeitForSemanticSegmentation
+    - forward
+
+FlaxBeitModel
+[[autodoc]] FlaxBeitModel
+    - call
+FlaxBeitForMaskedImageModeling
+[[autodoc]] FlaxBeitForMaskedImageModeling
+    - call
+FlaxBeitForImageClassification
+[[autodoc]] FlaxBeitForImageClassification
+    - call
+

@@ -1,0 +1,15 @@
+tokens_tensor, segments_tensors])
+torch.jit.save(traced_model, "traced_bert.pt")
+
+Loading a model
+Now you can load the previously saved BertModel, traced_bert.pt, from disk and use
+it on the previously initialised dummy_input:
+thon
+loaded_model = torch.jit.load("traced_bert.pt")
+loaded_model.eval()
+all_encoder_layers, pooled_output = loaded_model(*dummy_input)
+
+Using a traced model for inference
+Use the traced model for inference by using its __call__ dunder method:
+python
+traced_model(tokens_tensor, segmen

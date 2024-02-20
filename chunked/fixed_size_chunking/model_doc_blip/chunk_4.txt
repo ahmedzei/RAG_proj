@@ -1,0 +1,25 @@
+el
+    - forward
+BlipVisionModel
+[[autodoc]] BlipVisionModel
+    - forward
+BlipForConditionalGeneration
+[[autodoc]] BlipForConditionalGeneration
+    - forward
+BlipForImageTextRetrieval
+[[autodoc]] BlipForImageTextRetrieval
+    - forward
+BlipForQuestionAnswering
+[[autodoc]] BlipForQuestionAnswering
+    - forward
+
+TFBlipModel
+[[autodoc]] TFBlipModel
+    - call
+    - get_text_features
+    - get_image_features
+TFBlipTextModel
+[[autodoc]] TFBlipTextModel
+    - call
+TFBlipVisionModel
+[[autodoc]] TFBlipVisionModel

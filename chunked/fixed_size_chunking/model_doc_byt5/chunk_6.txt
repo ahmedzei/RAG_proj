@@ -1,0 +1,13 @@
+tokenizer = AutoTokenizer.from_pretrained("google/byt5-small")
+model_inputs = tokenizer(
+     ["Life is like a box of chocolates.", "Today is Monday."], padding="longest", return_tensors="pt"
+ )
+labels_dict = tokenizer(
+     ["La vie est comme une boîte de chocolat.", "Aujourd'hui c'est lundi."], padding="longest", return_tensors="pt"
+ )
+labels = labels_dict.input_ids
+loss = model(**model_inputs, labels=labels).loss
+loss.item()
+17.9
+
+Similar to T5, ByT5 was trained on the span-mask denoising task. However, 

@@ -1,0 +1,5 @@
+ssification
+    - forward
+UMT5ForQuestionAnswering
+[[autodoc]] UMT5ForQuestionAnswering
+    - forward

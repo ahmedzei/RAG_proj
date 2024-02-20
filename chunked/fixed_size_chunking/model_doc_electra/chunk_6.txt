@@ -1,0 +1,5 @@
+he original texts as objective, not to fool the ELECTRA model like in a traditional GAN setting) then the ELECTRA model is trained for a few steps.
+The ELECTRA checkpoints saved using Google Research's implementation
+  contain both the generator and discriminator. The conversion script requires the user to name which model to export
+  into the correct architecture. Once converted to the HuggingFace format, these checkpoints may be loaded into all
+  available ELECTRA models, however. This means that the disc

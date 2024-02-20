@@ -1,0 +1,9 @@
+
+Donut
+Overview
+The Donut model was proposed in OCR-free Document Understanding Transformer by
+Geewook Kim, Teakgyu Hong, Moonbin Yim, Jeongyeon Nam, Jinyoung Park, Jinyeong Yim, Wonseok Hwang, Sangdoo Yun, Dongyoon Han, Seunghyun Park.
+Donut consists of an image Transformer encoder and an autoregressive text Transformer decoder to perform document understanding
+tasks such as document image classification, form understanding and visual question answering.
+The abstract from the paper is the following:
+Unders

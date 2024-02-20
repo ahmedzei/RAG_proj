@@ -1,0 +1,5 @@
+These are known as tokens. Token classification assigns each token a label from a predefined set of classes. 
+Two common types of token classification are:
+
+named entity recognition (NER): label a token according to an entity category like organization, person, location or date. NER is especially popular in biomedical settings, where it can label genes, proteins, and drug names.
+part-of-speech tagging (POS): label a token according to its part-of-speech like noun, verb, or adjective.

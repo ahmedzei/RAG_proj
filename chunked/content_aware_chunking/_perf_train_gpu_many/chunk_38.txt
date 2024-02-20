@@ -1,0 +1,17 @@
+Varuna further attempts to improve the 
+schedule by using simulations to discover the most efficient scheduling.
+OSLO has pipeline parallelism implementation based on the Transformers without nn.Sequential conversion.
+Tensor Parallelism
+In Tensor Parallelism, each GPU processes a slice of a tensor and only aggregates the full tensor for operations requiring it.
+To describe this method, this section of the guide relies on the concepts and diagrams from the Megatron-LM 
+paper: Efficient Large-Scale Language Model Training on GPU Clusters.
+The main building block of any transformer is a fully connected nn.Linear followed by a nonlinear activation GeLU.
+The dot dot-product part of it, following the Megatron's paper notation, can be written as Y = GeLU(XA), where X is 
+an input vector, Y is the output vector, and A is the weight matrix.
+If we look at the computation in matrix form, you can see how the matrix multiplication can be split between multiple GPUs:
+
+If we split the weight matrix A column-wise across N GPUs and perform matrix multiplications XA_1 through XA_n in parallel, 
+then we will end up with N output vectors Y_1, Y_2, , Y_n which can be fed into GeLU independently:
+
+Using this principle, we can update a multi-layer perceptron of arbitrary depth, without the need for any synchronization 
+between GPUs until the very end, where we need to reconstruct the output vector from shards.

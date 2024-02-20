@@ -1,0 +1,18 @@
+Refer to Pytorch
+Quantization Toolkit userguide for more details.
+Before creating QDQBERT model, one has to set the default QuantDescriptor defining default tensor quantizers.
+Example:
+thon
+
+import pytorch_quantization.nn as quant_nn
+from pytorch_quantization.tensor_quant import QuantDescriptor
+The default tensor quantizer is set to use Max calibration method
+input_desc = QuantDescriptor(num_bits=8, calib_method="max")
+The default tensor quantizer is set to be per-channel quantization for weights
+weight_desc = QuantDescriptor(num_bits=8, axis=((0,)))
+quant_nn.QuantLinear.set_default_quant_desc_input(input_desc)
+quant_nn.QuantLinear.set_default_quant_desc_weight(weight_desc)
+
+Calibration
+Calibration is the terminology of passing data samples to the quantizer and deciding the best scaling factors for
+tensors.

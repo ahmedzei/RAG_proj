@@ -1,0 +1,5 @@
+y replacing some tokens with plausible alternatives sampled from a small generator network. Then, instead
+of training a model that predicts the original identities of the corrupted tokens, we train a discriminative model that
+predicts whether each token in the corrupted input was replaced by a generator sample or not. Thorough experiments
+demonstrate this new pretraining task is more efficient than MLM because the task is defined over all input tokens
+rather than just the small subset that was masked out. A

@@ -1,0 +1,21 @@
+onalGeneration] for arguments to forward and generate
+[[autodoc]] BlenderbotForConditionalGeneration
+    - forward
+BlenderbotForCausalLM
+[[autodoc]] BlenderbotForCausalLM
+    - forward
+
+TFBlenderbotModel
+[[autodoc]] TFBlenderbotModel
+    - call
+TFBlenderbotForConditionalGeneration
+[[autodoc]] TFBlenderbotForConditionalGeneration
+    - call
+
+FlaxBlenderbotModel
+[[autodoc]] FlaxBlenderbotModel
+    - call
+    - encode
+    - decode
+FlaxBlenderbotForConditionalGeneration
+[[autodoc]] FlaxBlenderbotForConditionalG

@@ -1,0 +1,5 @@
+der model now gets a significantly longer input prompt which includes a so-called system prompt. System prompts are used to steer the LLM into a better assistant that is tailored to the users' task.
+In the following, we use a system prompt that will make OctoCoder a better coding assistant.
+thon
+system_prompt = """Below are a series of dialogues between various people and an AI technical assistant.
+The assistant tries to be helpful, polite, honest, sophisticated, emotionally aware, and humble but knowledgea

@@ -1,0 +1,26 @@
+For example, what species of cat is shown below?
+
+from transformers import pipeline
+vision_classifier = pipeline(model="google/vit-base-patch16-224")
+preds = vision_classifier(
+     images="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/pipeline-cat-chonk.jpeg"
+ )
+preds = [{"score": round(pred["score"], 4), "label": pred["label"]} for pred in preds]
+preds
+[{'score': 0.4335, 'label': 'lynx, catamount'}, {'score': 0.0348, 'label': 'cougar, puma, catamount, mountain lion, painter, panther, Felis concolor'}, {'score': 0.0324, 'label': 'snow leopard, ounce, Panthera uncia'}, {'score': 0.0239, 'label': 'Egyptian cat'}, {'score': 0.0229, 'label': 'tiger cat'}]
+
+Text pipeline
+Using a [pipeline] for NLP tasks is practically identical.
+
+from transformers import pipeline
+This model is a zero-shot-classification model.
+It will classify text, except you are free to choose any label you might imagine
+classifier = pipeline(model="facebook/bart-large-mnli")
+classifier(
+     "I have a problem with my iphone that needs to be resolved asap!!",
+     candidate_labels=["urgent", "not urgent", "phone", "tablet", "computer"],
+ )
+{'sequence': 'I have a problem with my iphone that needs to be resolved asap!!', 'labels': ['urgent', 'phone', 'computer', 'not urgent', 'tablet'], 'scores': [0.504, 0.479, 0.013, 0.003, 0.002]}
+
+Multimodal pipeline
+The [pipeline] supports more than one modality.

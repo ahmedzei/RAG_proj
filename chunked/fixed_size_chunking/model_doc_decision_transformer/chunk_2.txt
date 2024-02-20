@@ -1,0 +1,9 @@
+former model can generate future actions that achieve the desired return. Despite its simplicity, 
+ Decision Transformer matches or exceeds the performance of state-of-the-art model-free offline RL baselines on 
+ Atari, OpenAI Gym, and Key-to-Door tasks.
+This version of the model is for tasks where the state is a vector.
+This model was contributed by edbeeching. The original code can be found here.
+DecisionTransformerConfig
+[[autodoc]] DecisionTransformerConfig
+DecisionTransformerGPT2Model
+[[autodoc]] Decis

@@ -1,0 +1,5 @@
+It can answer questions about images, describe visual content, 
+create stories grounded in multiple images, and so on. IDEFICS comes in two variants - 80 billion parameters 
+and 9 billion parameters, both of which are available on the 🤗 Hub. For each variant, you can also find fine-tuned instructed 
+versions of the model adapted for conversational use cases.
+This model is exceptionally versatile and can be used for a wide range of image and multimodal tasks.

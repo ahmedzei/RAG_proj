@@ -1,0 +1,5 @@
+esults on several action recognition benchmarks, including the best reported accuracy on Kinetics-400 and Kinetics-600. Finally, compared to 3D convolutional networks, our model is faster to train, it can achieve dramatically higher test efficiency (at a small drop in accuracy), and it can also be applied to much longer video clips (over one minute long). Code and models are available at: this https URL.
+This model was contributed by fcakyon.
+The original code can be found here.
+Usage tips
+There are many pr

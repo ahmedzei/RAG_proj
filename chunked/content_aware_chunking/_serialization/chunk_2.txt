@@ -1,0 +1,5 @@
+When a model is exported to the ONNX format, these operators are used to
+construct a computational graph (often called an intermediate representation) which
+represents the flow of data through the neural network.
+By exposing a graph with standardized operators and data types, ONNX makes it easy to
+switch between frameworks.

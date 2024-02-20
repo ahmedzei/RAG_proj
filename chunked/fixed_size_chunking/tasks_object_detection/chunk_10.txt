@@ -1,0 +1,11 @@
+R model can train with. The image processor has some attributes that you won't have to worry about:
+
+image_mean = [0.485, 0.456, 0.406 ]
+image_std = [0.229, 0.224, 0.225]
+
+These are the mean and standard deviation used to normalize images during the model pre-training. These values are crucial
+to replicate when doing inference or finetuning a pre-trained image model.
+Instantiate the image processor from the same checkpoint as the model you want to finetune.
+
+from transformers import AutoImageProcessor
+check

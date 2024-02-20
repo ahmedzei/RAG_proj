@@ -1,0 +1,15 @@
+in"]
+test_ds = ds["test"]
+
+Then take a look at an example:
+
+train_ds[0]
+{'image': ,
+ 'annotation': ,
+ 'scene_category': 368}
+
+image: a PIL image of the scene.
+annotation: a PIL image of the segmentation map, which is also the model's target.
+scene_category: a category id that describes the image scene like "kitchen" or "office". In this guide, you'll only need image and annotation, both of which are PIL images.
+
+You'll also want to create a dictionary that maps a label id to a label class which will be usef

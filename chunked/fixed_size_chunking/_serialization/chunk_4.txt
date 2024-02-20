@@ -1,0 +1,15 @@
+ions, please refer to 🤗 Optimum documentation.
+There are two ways to export a 🤗 Transformers model to ONNX, here we show both:
+
+export with 🤗 Optimum via CLI.
+export with 🤗 Optimum with optimum.onnxruntime.
+
+Exporting a 🤗 Transformers model to ONNX with CLI
+To export a 🤗 Transformers model to ONNX, first install an extra dependency:
+
+pip install optimum[exporters]
+To check out all available arguments, refer to the 🤗 Optimum docs, 
+or view help in command line:
+
+optimum-cli export onnx --help
+To export a mod

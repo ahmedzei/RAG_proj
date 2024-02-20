@@ -1,0 +1,10 @@
+ce the resource requirements
+
+There are other ways to initialize a model, but this is a good baseline to begin with an LLM.
+Next, you need to preprocess your text input with a tokenizer.
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1", padding_side="left")
+model_inputs = tokenizer(["A list of colors: red, blue"], return_tensors="pt").to("cuda")
+
+The model_inputs variable holds the tokenized text input, as well as the attention mask. While [~gener

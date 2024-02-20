@@ -1,0 +1,14 @@
+is already in the developer dependencies
+of transformers works for both: unittests and pytest tests.
+If, however, the test is not a unittest, you may use pytest.mark.parametrize (or you may see it being used in
+some existing tests, mostly under examples).
+Here is the same example, this time using pytest's parametrize marker:
+thon
+test_this2.py
+import pytest
+@pytest.mark.parametrize(
+    "name, input, expected",
+    [
+        ("negative", -1.5, -2.0),
+        ("integer", 1, 1.0),
+        ("large fraction", 1

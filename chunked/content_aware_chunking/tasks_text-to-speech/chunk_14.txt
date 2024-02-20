@@ -1,0 +1,22 @@
+Note that spaces are already replaced by ▁ in the tokenizer and don't need to be handled separately.
+
+replacements = [
+     ("à", "a"),
+     ("ç", "c"),
+     ("è", "e"),
+     ("ë", "e"),
+     ("í", "i"),
+     ("ï", "i"),
+     ("ö", "o"),
+     ("ü", "u"),
+ ]
+def cleanup_text(inputs):
+     for src, dst in replacements:
+         inputs["normalized_text"] = inputs["normalized_text"].replace(src, dst)
+     return inputs
+dataset = dataset.map(cleanup_text)
+
+Now that you have dealt with special characters in the text, it's time to shift focus to the audio data.
+Speakers
+The VoxPopuli dataset includes speech from multiple speakers, but how many speakers are represented in the dataset? To 
+determine this, we can count the number of unique speakers and the number of examples each speaker contributes to the dataset.

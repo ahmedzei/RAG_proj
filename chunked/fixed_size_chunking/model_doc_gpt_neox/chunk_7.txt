@@ -1,0 +1,11 @@
+PTNeoXForCausalLM
+    - forward
+GPTNeoXForQuestionAnswering
+[[autodoc]] GPTNeoXForQuestionAnswering
+    - forward
+GPTNeoXForSequenceClassification
+[[autodoc]] GPTNeoXForSequenceClassification
+    - forward
+GPTNeoXForTokenClassification
+[[autodoc]] GPTNeoXForTokenClassification
+    - forward

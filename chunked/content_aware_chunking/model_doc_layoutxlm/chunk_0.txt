@@ -1,0 +1,4 @@
+LayoutXLM
+Overview
+LayoutXLM was proposed in LayoutXLM: Multimodal Pre-training for Multilingual Visually-rich Document Understanding by Yiheng Xu, Tengchao Lv, Lei Cui, Guoxin Wang, Yijuan Lu, Dinei Florencio, Cha
+Zhang, Furu Wei.

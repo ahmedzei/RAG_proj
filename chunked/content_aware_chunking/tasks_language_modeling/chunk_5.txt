@@ -1,0 +1,10 @@
+URL_0'],
+  'score': [21, 19, 5, 3],
+  'text_urls': [[],
+   [],
+   [],
+   ['https://www.investopedia.com/news/trumps-tax-reform-what-can-be-done/']]},
+ 'title_urls': ['url'],
+ 'selftext_urls': ['url']}
+
+While this may look like a lot, you're only really interested in the text field.

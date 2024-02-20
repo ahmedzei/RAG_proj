@@ -1,0 +1,6 @@
+% for message in messages %}{% if message['role'] == 'user' %}{{ ' ' }}{% endif %}{{ message['content'] }}{% if not loop.last %}{{ '  ' }}{% endif %}{% endfor %}{{ eos_token }}"
+
+That's kind of intimidating. Let's add some newlines and indentation to make it more readable. Note that the first
+newline after each block as well as any preceding whitespace before a block are ignored by default, using the 
+Jinja trim_blocks and lstrip_blocks flags. However, be cautious - although leading whitespace on each
+line 

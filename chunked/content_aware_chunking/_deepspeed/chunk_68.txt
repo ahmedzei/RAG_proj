@@ -1,0 +1,8 @@
+The script automatically discovers the subfolder containing the checkpoint.
+py
+python zero_to_fp32.py . pytorch_model.bin
+
+Run python zero_to_fp32.py -h for more usage details. The script requires 2x the general RAM of the final fp32 weights.
+
+ZeRO Inference
+ZeRO Inference places the model weights in CPU or NVMe memory to avoid burdening the GPU which makes it possible to run inference with huge models on a GPU.

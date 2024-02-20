@@ -1,0 +1,6 @@
+Writing your model in this 
+style results in simpler code with a clear "source of truth" for any hyperparameters, and also makes it easier
+to reuse code from other models in transformers.
+
+In our example, we will take a couple of arguments of the ResNet class that we might want to tweak. Different
+configurations will then give us the different types of ResNets that are possible.

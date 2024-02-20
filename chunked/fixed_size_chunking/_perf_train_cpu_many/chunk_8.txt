@@ -1,0 +1,9 @@
+s running per one socket. The variables OMP_NUM_THREADS/CCL_WORKER_COUNT can be tuned for optimal performance.
+In node0, you need to create a configuration file which contains the IP addresses of each node (for example hostfile) and pass that configuration file path as an argument.
+shell script
+ cat hostfile
+ xxx.xxx.xxx.xxx #node0 ip
+ xxx.xxx.xxx.xxx #node1 ip
+Now, run the following command in node0 and 4DDP will be enabled in node0 and node1 with BF16 auto mixed precision:
+shell script
+ export CCL_WORKER_

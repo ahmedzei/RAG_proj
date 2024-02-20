@@ -1,0 +1,13 @@
+next(iter(stream_data))["audio"]["array"]
+Arabic
+stream_data = load_dataset("mozilla-foundation/common_voice_13_0", "ar", split="test", streaming=True)
+stream_data = stream_data.cast_column("audio", Audio(sampling_rate=16000))
+ar_sample = next(iter(stream_data))["audio"]["array"]
+
+Next, we load the model and processor
+
+from transformers import Wav2Vec2ForSequenceClassification, AutoFeatureExtractor
+import torch
+model_id = "facebook/mms-lid-126"
+processor = AutoFeatureExtractor.from_pretrained(model_id)
+mode

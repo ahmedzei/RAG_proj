@@ -1,0 +1,8 @@
+fficient compared to reduce-overhead for inference time. In this guide, we used the default mode. You can learn more about it here.
+We benchmarked torch.compile with different computer vision models, tasks, types of hardware, and batch sizes on torch version 2.0.1.
+Benchmarking code
+Below you can find the benchmarking code for each task. We warm up the GPU before inference and take the mean time of 300 inferences, using the same image each time.
+Image Classification with ViT
+thon 
+import torch
+from PIL impo

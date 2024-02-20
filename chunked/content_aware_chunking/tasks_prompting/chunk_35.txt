@@ -1,0 +1,9 @@
+There are two ways of steering a model to producing the reasoning steps:
+- few-shot prompting by illustrating examples with detailed answers to questions, showing the model how to work through a problem.
+- by instructing the model to reason by adding phrases like "Let's think step by step" or "Take a deep breath and work through the problem step by step."
+If we apply the CoT technique to the muffins example from the reasoning section and use a larger model, 
+such as (tiiuae/falcon-180B-chat) which you can play with in the HuggingChat, 
+we'll get a significant improvement on the reasoning result:
+text
+Let's go through this step-by-step:
+1.

@@ -1,0 +1,5 @@
+gradient accumulation, can help.
+However, if the preferred batch size fits into memory, there's no reason to apply memory-optimizing techniques because they can 
+slow down the training. Just because one can use a large batch size, does not necessarily mean they should. As part of 
+hyperparameter tuning, you should determine which batch size yields the best results and then optimize resources accordingly.
+The methods and tools covered in this guide can be classified based on the effect they have on the train

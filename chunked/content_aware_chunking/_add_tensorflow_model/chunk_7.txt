@@ -1,0 +1,8 @@
+If you make the life of the maintainers easy with your
+TensorFlow implementation, by replicating the same patterns as in other TensorFlow models and minimizing the mismatch
+to the PyTorch implementation, you ensure your contribution will be long lived.
+Ask for help when you're stuck! The 🤗 Transformers team is here to help, and we've probably found solutions to the same
+problems you're facing.
+
+Here's an overview of the steps needed to add a TensorFlow model architecture:
+1.

@@ -1,0 +1,33 @@
+If after reading everything, you need even more details
+you will find them here.
+Here are some most useful ways of running tests.
+Run all:
+console
+pytest
+or:
+
+make test
+Note that the latter is defined as:
+
+python -m pytest -n auto --dist=loadfile -s -v ./tests/
+which tells pytest to:
+
+run as many test processes as they are CPU cores (which could be too many if you don't have a ton of RAM!)
+ensure that all tests from the same file will be run by the same test process
+do not capture output
+run in verbose mode
+
+Getting the list of all tests
+All tests of the test suite:
+
+pytest --collect-only -q
+All tests of a given test file:
+
+pytest tests/test_optimization.py --collect-only -q
+Run a specific test module
+To run an individual test module:
+
+pytest tests/utils/test_logging.py
+Run specific tests
+Since unittest is used inside most of the tests, to run specific subtests you need to know the name of the unittest
+class containing those tests.

@@ -1,0 +1,29 @@
+Fixed
+sin/cos position embeddings are added both to the input of the encoder and the decoder.
+For a visual understanding of how MAEs work you can check out this post.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with ViTMAE.
+
+[ViTMAEForPreTraining] is supported by this example script, allowing you to pre-train the model from scratch/further pre-train the model on custom data.
+A notebook that illustrates how to visualize reconstructed pixel values with [ViTMAEForPreTraining] can be found here.
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+ViTMAEConfig
+[[autodoc]] ViTMAEConfig
+
+ViTMAEModel
+[[autodoc]] ViTMAEModel
+    - forward
+ViTMAEForPreTraining
+[[autodoc]] transformers.ViTMAEForPreTraining
+    - forward
+
+TFViTMAEModel
+[[autodoc]] TFViTMAEModel
+    - call
+TFViTMAEForPreTraining
+[[autodoc]] transformers.TFViTMAEForPreTraining
+    - call
+
+.

@@ -1,0 +1,18 @@
+enizerFast
+MobileBert specific outputs
+[[autodoc]] models.mobilebert.modeling_mobilebert.MobileBertForPreTrainingOutput
+[[autodoc]] models.mobilebert.modeling_tf_mobilebert.TFMobileBertForPreTrainingOutput
+
+MobileBertModel
+[[autodoc]] MobileBertModel
+    - forward
+MobileBertForPreTraining
+[[autodoc]] MobileBertForPreTraining
+    - forward
+MobileBertForMaskedLM
+[[autodoc]] MobileBertForMaskedLM
+    - forward
+MobileBertForNextSentencePrediction
+[[autodoc]] MobileBertForNextSentencePrediction
+    - forward
+Mob

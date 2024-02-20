@@ -1,0 +1,4 @@
+other one, the whole system hangs because the remaining GPUs haven't received the weight shard from the GPU that finished first.
+For Transformers>=4.28, if synced_gpus is automatically set to True if multiple GPUs are detected during generation.
+Troubleshoot
+When you encounter an issue, you should consider whether DeepSpeed is the cause of the problem because often it isn't (unless it's super obviously and you can see DeepSpeed modules in the exception)! The first step should be to retry your setup without 

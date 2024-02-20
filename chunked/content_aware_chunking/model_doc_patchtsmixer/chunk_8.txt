@@ -1,0 +1,4 @@
+See the respective [PatchTSMixerForTimeSeriesClassification] and [PatchTSMixerForRegression] classes.
+Resources
+
+A blog post explaining PatchTSMixer in depth can be found here.

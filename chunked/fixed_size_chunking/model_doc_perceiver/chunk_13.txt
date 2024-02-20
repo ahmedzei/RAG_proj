@@ -1,0 +1,10 @@
+utodoc]] models.perceiver.modeling_perceiver.PerceiverMultimodalPreprocessor
+PerceiverProjectionDecoder
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverProjectionDecoder
+PerceiverBasicDecoder
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverBasicDecoder
+PerceiverClassificationDecoder
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverClassificationDecoder
+PerceiverOpticalFlowDecoder
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverOpticalFlowDecoder
+PerceiverBasicVideoAutoenco

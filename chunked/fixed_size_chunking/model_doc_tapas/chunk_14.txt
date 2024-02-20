@@ -1,0 +1,5 @@
+arize:
+| Task                            | Example dataset | Description                                                                                         |
+|-------------------------------------|---------------------|---------------------------------------------------------------------------------------------------------|
+| Conversational                      | SQA                 | Conversational, only cell selection questions                                                           |
+| Weak superv

@@ -1,0 +1,79 @@
+torch.float16)
+To load and run a model using Flash Attention 2, refer to the snippet below:
+thon
+
+import torch
+from transformers import AutoTokenizer, AutoModel
+device = "cuda" # the device to load the model onto
+tokenizer = AutoTokenizer.from_pretrained('distilbert/distilbert-base-uncased')
+model = AutoModel.from_pretrained("distilbert/distilbert-base-uncased", torch_dtype=torch.float16, attn_implementation="flash_attention_2")
+text = "Replace me by any text you'd like."
+encoded_input = tokenizer(text, return_tensors='pt').to(device)
+model.to(device)
+output = model(**encoded_input)
+
+DistilBertConfig
+[[autodoc]] DistilBertConfig
+DistilBertTokenizer
+[[autodoc]] DistilBertTokenizer
+DistilBertTokenizerFast
+[[autodoc]] DistilBertTokenizerFast
+
+DistilBertModel
+[[autodoc]] DistilBertModel
+    - forward
+DistilBertForMaskedLM
+[[autodoc]] DistilBertForMaskedLM
+    - forward
+DistilBertForSequenceClassification
+[[autodoc]] DistilBertForSequenceClassification
+    - forward
+DistilBertForMultipleChoice
+[[autodoc]] DistilBertForMultipleChoice
+    - forward
+DistilBertForTokenClassification
+[[autodoc]] DistilBertForTokenClassification
+    - forward
+DistilBertForQuestionAnswering
+[[autodoc]] DistilBertForQuestionAnswering
+    - forward
+
+TFDistilBertModel
+[[autodoc]] TFDistilBertModel
+    - call
+TFDistilBertForMaskedLM
+[[autodoc]] TFDistilBertForMaskedLM
+    - call
+TFDistilBertForSequenceClassification
+[[autodoc]] TFDistilBertForSequenceClassification
+    - call
+TFDistilBertForMultipleChoice
+[[autodoc]] TFDistilBertForMultipleChoice
+    - call
+TFDistilBertForTokenClassification
+[[autodoc]] TFDistilBertForTokenClassification
+    - call
+TFDistilBertForQuestionAnswering
+[[autodoc]] TFDistilBertForQuestionAnswering
+    - call
+
+FlaxDistilBertModel
+[[autodoc]] FlaxDistilBertModel
+    - call
+FlaxDistilBertForMaskedLM
+[[autodoc]] FlaxDistilBertForMaskedLM
+    - call
+FlaxDistilBertForSequenceClassification
+[[autodoc]] FlaxDistilBertForSequenceClassification
+    - call
+FlaxDistilBertForMultipleChoice
+[[autodoc]] FlaxDistilBertForMultipleChoice
+    - call
+FlaxDistilBertForTokenClassification
+[[autodoc]] FlaxDistilBertForTokenClassification
+    - call
+FlaxDistilBertForQuestionAnswering
+[[autodoc]] FlaxDistilBertForQuestionAnswering
+    - call
+
+.

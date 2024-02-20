@@ -1,0 +1,4 @@
+GPT Neo
+Overview
+The GPTNeo model was released in the EleutherAI/gpt-neo repository by Sid
+Black, Stella Biderman, Leo Gao, Phil Wang and Connor Leahy.

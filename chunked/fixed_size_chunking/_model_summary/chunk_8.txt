@@ -1,0 +1,3 @@
+e next pixel in an image. In addition to image generation, ImageGPT could also be finetuned for image classification.
+Encoder-decoder[[cv-encoder-decoder]]
+Vision models commonly use an encoder (also known as a backbone) to extract important image features before passing them to a Transformer decoder. DETR has a pretrained backbone, but it also uses the complete Transformer encoder-decoder architecture for object detection. The encoder learns image representations and combines them with object queries (each

@@ -1,0 +1,12 @@
+For example, the following command downloads the config.json file from the T0 model to your desired path:
+
+from huggingface_hub import hf_hub_download
+hf_hub_download(repo_id="bigscience/T0_3B", filename="config.json", cache_dir="./your/path/bigscience_t0")
+
+Once your file is downloaded and locally cached, specify it's local path to load and use it:
+
+from transformers import AutoConfig
+config = AutoConfig.from_pretrained("./your/path/bigscience_t0/config.json")
+
+See the How to download files from the Hub section for more details on downloading files stored on the Hub.
+.

@@ -1,0 +1,10 @@
+nchmark, TensorFlowBenchmarkArguments
+args = TensorFlowBenchmarkArguments(
+     models=["google-bert/bert-base-uncased"], batch_sizes=[8], sequence_lengths=[8, 32, 128, 512]
+ )
+benchmark = TensorFlowBenchmark(args)
+
+Here, three arguments are given to the benchmark argument data classes, namely models, batch_sizes, and
+sequence_lengths. The argument models is required and expects a list of model identifiers from the
+model hub The list arguments batch_sizes and sequence_lengths define
+the size of the input_id

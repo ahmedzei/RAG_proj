@@ -1,0 +1,5 @@
+You can use any library you prefer, but in this tutorial, we'll use torchvision's transforms module. If you're interested in using another data augmentation library, learn how in the Albumentations or Kornia notebooks.
+
+Here we use Compose to chain together a couple of
+transforms - RandomResizedCrop and ColorJitter.
+Note that for resizing, we can get the image size requirements from the image_processor.

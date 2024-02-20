@@ -1,0 +1,10 @@
+This section covers both online and offline approaches.
+Online
+You must have saved at least one checkpoint to load the latest checkpoint as shown in the following:
+
+from transformers.trainer_utils import get_last_checkpoint
+from deepspeed.utils.zero_to_fp32 import load_state_dict_from_zero_checkpoint
+checkpoint_dir = get_last_checkpoint(trainer.args.output_dir)
+fp32_model = load_state_dict_from_zero_checkpoint(trainer.model, checkpoint_dir)
+
+If you've enabled the --load_best_model_at_end parameter to track the best checkpoint in [TrainingArguments], you can finish training first and save the final model explicitly.

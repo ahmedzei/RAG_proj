@@ -1,0 +1,9 @@
+e to have installed the tensorflow_probability dependency:
+
+from transformers import TapasConfig, TFTapasForQuestionAnswering
+for example, the base sized model with default SQA configuration
+model = TFTapasForQuestionAnswering.from_pretrained("google/tapas-base")
+or, the base sized model with WTQ configuration
+config = TapasConfig.from_pretrained("google/tapas-base-finetuned-wtq")
+model = TFTapasForQuestionAnswering.from_pretrained("google/tapas-base", config=config)
+or, the base sized model with WikiSQL co

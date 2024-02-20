@@ -1,0 +1,10 @@
+
+autoregressively generate caption (uses greedy decoding by default)
+generated_ids = model.generate(pixel_values)
+generated_text = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+print(generated_text)
+a cat laying on a blanket next to a cat laying on a bed
+
+Loading a PyTorch checkpoint into TFVisionEncoderDecoderModel.
+[TFVisionEncoderDecoderModel.from_pretrained] currently doesn't support initializing the model from a
+PyTorch checkpoint. Passing from_pt=True to this method will throw an 

@@ -1,0 +1,7 @@
+rlier entries are prioritized over later ones, and : is used to separate multiple entries. To tell the build program where to find the specific CUDA toolkit you want, insert the correct path to list first. This command prepends rather than overwrites the existing values.
+```bash
+adjust the version and full path if needed
+export PATH=/usr/local/cuda-10.2/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64:$LD_LIBRARY_PATH
+
+In addition, you should also check the directories you assign actually exist. 

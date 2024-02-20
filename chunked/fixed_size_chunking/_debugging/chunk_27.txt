@@ -1,0 +1,11 @@
+ don't overflow when multiplied
+or summed up. Of course, there might be other solutions. For example, we could turn off amp temporarily if it's
+enabled, after moving the original forward into a helper wrapper, like so:
+thon
+def _forward(self, hidden_states):
+    hidden_gelu = self.gelu_act(self.wi_0(hidden_states))
+    hidden_linear = self.wi_1(hidden_states)
+    hidden_states = hidden_gelu * hidden_linear
+    hidden_states = self.dropout(hidden_states)
+    hidden_states = self.wo(hidden_states)
+    return 

@@ -1,0 +1,11 @@
+olve that by having the webserver handle the light load of receiving
+and sending requests, and having a single thread handling the actual work.
+This example is going to use starlette. The actual framework is not really
+important, but you might have to tune or change the code if you are using another
+one to achieve the same effect.
+Create server.py:
+
+from starlette.applications import Starlette
+from starlette.responses import JSONResponse
+from starlette.routing import Route
+from transformers import pipeline

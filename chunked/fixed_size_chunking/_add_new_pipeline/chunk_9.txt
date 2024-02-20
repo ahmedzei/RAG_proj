@@ -1,0 +1,12 @@
+of a branch or a commit hash, here we took "abcdef") as well as the type:
+python
+PIPELINE_REGISTRY.register_pipeline(
+    "new-task",
+    pipeline_class=MyPipeline,
+    pt_model=AutoModelForSequenceClassification,
+    default={"pt": ("user/awesome_model", "abcdef")},
+    type="text",  # current support type: text, audio, image, multimodal
+)
+Share your pipeline on the Hub
+To share your custom pipeline on the Hub, you just have to save the custom code of your Pipeline subclass in a
+python file. For instance, 

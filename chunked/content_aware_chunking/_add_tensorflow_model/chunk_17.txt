@@ -1,0 +1,5 @@
+That being said, you don't have to spend too
+much time on the theoretical aspects, but rather focus on the practical ones, namely the existing model documentation
+page (e.g. model docs for BERT).
+After you've grasped the basics of the models you are about to implement, it's important to understand the existing
+implementation.

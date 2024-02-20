@@ -1,0 +1,15 @@
+We strongly suggest using this Dockerfile to use FlashAttention-2 on AMD GPUs.
+
+To enable FlashAttention-2, pass the argument attn_implementation="flash_attention_2" to [~AutoModelForCausalLM.from_pretrained]:
+thon
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM
+model_id = "tiiuae/falcon-7b"
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+model = AutoModelForCausalLM.from_pretrained(
+    model_id, 
+    torch_dtype=torch.bfloat16, 
+    attn_implementation="flash_attention_2",
+)
+
+FlashAttention-2 can only be used when the model's dtype is fp16 or bf16.

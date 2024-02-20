@@ -1,0 +1,12 @@
+ts.logits[0, 1].item()
+
+The following example shows how to run masked language modeling using [BridgeTowerProcessor] and [BridgeTowerForMaskedLM].
+thon
+
+from transformers import BridgeTowerProcessor, BridgeTowerForMaskedLM
+from PIL import Image
+import requests
+url = "http://images.cocodataset.org/val2017/000000360943.jpg"
+image = Image.open(requests.get(url, stream=True).raw).convert("RGB")
+text = "a  looking out of the window"
+processor = BridgeTowerProcessor.from_pretrained("BridgeTower/bridgetower-base-i

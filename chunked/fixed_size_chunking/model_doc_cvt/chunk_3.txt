@@ -1,0 +1,6 @@
+geNet-22k, our CvT-W24 obtains a top-1 accuracy of 87.7\% on the ImageNet-1k val set. Finally, our results show that the positional encoding, 
+a crucial component in existing Vision Transformers, can be safely removed in our model, simplifying the design for higher resolution vision tasks.
+This model was contributed by anugunj. The original code can be found here.
+Usage tips
+
+CvT models are regular Vision Transformers, but trained with convolutions. They outperform the original model (ViT) when fine-tuned o

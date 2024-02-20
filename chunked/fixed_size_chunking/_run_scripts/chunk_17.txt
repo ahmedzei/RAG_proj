@@ -1,0 +1,12 @@
+ "3.0.0" \
+    --source_prefix "summarize: " \
+    --output_dir /tmp/tst-summarization \
+    --per_device_train_batch_size=4 \
+    --per_device_eval_batch_size=4 \
+    --overwrite_output_dir \
+    --predict_with_generate
+Not all example scripts support the max_predict_samples argument. If you aren't sure whether your script supports this argument, add the -h argument to check:
+
+examples/pytorch/summarization/run_summarization.py -h
+Resume training from checkpoint
+Another helpful option to enable is resuming

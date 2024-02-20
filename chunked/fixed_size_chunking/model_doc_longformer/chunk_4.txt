@@ -1,0 +1,7 @@
+en attends to its \(\frac{1}{2} w\) previous tokens and
+\(\frac{1}{2} w\) succeeding tokens with \(w\) being the window length as defined in
+config.attention_window. Note that config.attention_window can be of type List to define a
+different \(w\) for each layer. A selected few tokens attend "globally" to all other tokens, as it is
+conventionally done for all tokens in BertSelfAttention.
+Note that "locally" and "globally" attending tokens are projected by different query, key and value matrices. Also note
+t

@@ -1,0 +1,8 @@
+or
+approximation of the fully-factorized perplexity and will typically yield a higher (worse) PPL because the model will
+have less context at most of the prediction steps.
+Instead, the PPL of fixed-length models should be evaluated with a sliding-window strategy. This involves repeatedly
+sliding the context window so that the model has more context when making each prediction.
+
+This is a closer approximation to the true decomposition of the sequence probability and will typically yield a more
+favorable scor

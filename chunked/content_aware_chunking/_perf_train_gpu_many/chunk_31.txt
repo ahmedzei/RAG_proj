@@ -1,0 +1,4 @@
+To calculate the global batch size of the DP + PP setup, 
+use the formula: mbs * chunks * dp_degree (8 * 32 * 4 = 1024).
+With chunks=1 you end up with the naive MP, which is inefficient. With a large chunks value you end up with 
+tiny micro-batch sizes which is also inefficient.

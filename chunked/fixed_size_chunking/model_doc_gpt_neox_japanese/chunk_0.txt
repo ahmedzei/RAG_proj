@@ -1,0 +1,7 @@
+
+GPT-NeoX-Japanese
+Overview
+We introduce GPT-NeoX-Japanese, which is an autoregressive language model for Japanese, trained on top of https://github.com/EleutherAI/gpt-neox.
+Japanese is a unique language with its large vocabulary and a combination of hiragana, katakana, and kanji writing scripts.
+To address this distinct structure of the Japanese language, we use a special sub-word tokenizer. We are very grateful to tanreinama for open-sourcing this incredibly helpful tokenizer.
+Following the recommendation

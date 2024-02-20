@@ -1,0 +1,10 @@
+
+import torch
+from transformers import IdeficsForVisionText2Text, AutoProcessor
+processor = AutoProcessor.from_pretrained(checkpoint)
+model = IdeficsForVisionText2Text.from_pretrained(checkpoint, torch_dtype=torch.bfloat16, device_map="auto")
+
+Setting device_map to "auto" will automatically determine how to load and store the model weights in the most optimized 
+manner given existing devices.
+Quantized model
+If high-memory GPU availability is an issue, you can load the quantized version of the model. To loa

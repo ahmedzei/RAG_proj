@@ -1,0 +1,4 @@
+Experiment results have illustrated that the self-supervised pre-trained DiT model achieves new state-of-the-art results on these downstream tasks, e.g. document image classification (91.11 → 92.69), document layout analysis (91.0 → 94.9) and table detection (94.23 → 96.55). *
+ 
+ Summary of the approach. Taken from the original paper. 
+This model was contributed by nielsr.

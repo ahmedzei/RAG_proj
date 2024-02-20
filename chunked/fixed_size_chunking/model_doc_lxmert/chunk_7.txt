@@ -1,0 +1,21 @@
+t
+[[autodoc]] models.lxmert.modeling_tf_lxmert.TFLxmertModelOutput
+[[autodoc]] models.lxmert.modeling_tf_lxmert.TFLxmertForPreTrainingOutput
+
+LxmertModel
+[[autodoc]] LxmertModel
+    - forward
+LxmertForPreTraining
+[[autodoc]] LxmertForPreTraining
+    - forward
+LxmertForQuestionAnswering
+[[autodoc]] LxmertForQuestionAnswering
+    - forward
+
+TFLxmertModel
+[[autodoc]] TFLxmertModel
+    - call
+TFLxmertForPreTraining
+[[autodoc]] TFLxmertForPreTraining
+    - call
+

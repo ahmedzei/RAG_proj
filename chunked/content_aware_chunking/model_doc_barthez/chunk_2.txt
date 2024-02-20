@@ -1,0 +1,4 @@
+Unlike already existing BERT-based French language models such as
+CamemBERT and FlauBERT, BARThez is particularly well-suited for generative tasks, since not only its encoder but also
+its decoder is pretrained. In addition to discriminative tasks from the FLUE benchmark, we evaluate BARThez on a novel
+summarization dataset, OrangeSum, that we release with this paper.

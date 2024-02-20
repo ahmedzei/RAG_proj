@@ -1,0 +1,7 @@
+When reloading a
+config with the from_pretrained method, those fields need to be accepted by your config and then sent to the
+superclass.
+Defining a model_type for your configuration (here model_type="resnet") is not mandatory, unless you want to
+register your model with the auto classes (see last section).
+With this done, you can easily create and save your configuration like you would do with any other model config of the
+library.

@@ -1,0 +1,10 @@
+Note that you can still use both separately, if you only want to handle one
+modality.
+thon
+from transformers import LayoutLMv2ImageProcessor, LayoutLMv2TokenizerFast, LayoutLMv2Processor
+image_processor = LayoutLMv2ImageProcessor()  # apply_ocr is set to True by default
+tokenizer = LayoutLMv2TokenizerFast.from_pretrained("microsoft/layoutlmv2-base-uncased")
+processor = LayoutLMv2Processor(image_processor, tokenizer)
+
+In short, one can provide a document image (and possibly additional data) to [LayoutLMv2Processor],
+and it will create the inputs expected by the model.

@@ -1,0 +1,6 @@
+r resolution, the authors perform
+  2D interpolation of the pre-trained position embeddings, according to their location in the original image.
+The best results are obtained with supervised pre-training, which is not the case in NLP. The authors also performed
+  an experiment with a self-supervised pre-training objective, namely masked patched prediction (inspired by masked
+  language modeling). With this approach, the smaller ViT-B/16 model achieves 79.9% accuracy on ImageNet, a significant
+  improvement o

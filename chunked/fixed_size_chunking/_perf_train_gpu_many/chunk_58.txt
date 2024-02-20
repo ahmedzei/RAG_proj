@@ -1,0 +1,2 @@
+T
+The CUDA_DEVICE_ORDER is especially useful if your training setup consists of an older and newer GPU, where the older GPU appears first, but you cannot physically swap the cards to make the newer GPU appear first. In this case, set CUDA_DEVICE_ORDER=FASTEST_FIRST to always use the newer and faster GPU first (nvidia-smi or rocm-smi still reports the GPUs in their PCIe order). Or you could also set export CUDA_VISIBLE_DEVICES=1,0.

@@ -1,0 +1,5 @@
+of the head and the ground-truth label, while the distillation prediction head is trained using hard distillation
+  (cross-entropy between the prediction of the distillation head and the label predicted by the teacher). At inference time,
+  one takes the average prediction between both heads as final prediction. (2) is also called "fine-tuning with distillation",
+  because one relies on a teacher that has already been fine-tuned on the downstream dataset. In terms of models, (1) corresponds
+  to [LevitForIm

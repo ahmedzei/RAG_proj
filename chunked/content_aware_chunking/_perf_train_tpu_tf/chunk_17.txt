@@ -1,0 +1,8 @@
+If you look at NumPy or PyTorch loss functions that support label masking, you will often see code like this that uses boolean indexing:
+python
+label_mask = labels >= 0
+masked_outputs = outputs[label_mask]
+masked_labels = labels[label_mask]
+loss = compute_loss(masked_outputs, masked_labels)
+mean_loss = torch.mean(loss)
+This code is totally fine in NumPy or PyTorch, but it breaks in XLA! Why? Because the shape of masked_outputs and masked_labels depends on how many positions are masked - that makes it a data-dependent shape.

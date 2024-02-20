@@ -1,0 +1,8 @@
+o pay their fair share. And no one making under $400,000 per year will pay a penny more in taxes."
+
+The simplest way to try out your finetuned model for inference is to use it in a [pipeline]. Instantiate a pipeline for summarization with your model, and pass your text to it:
+
+from transformers import pipeline
+summarizer = pipeline("summarization", model="stevhliu/my_awesome_billsum_model")
+summarizer(text)
+[{"summary_text": "The Inflation Reduction Act lowers prescription drug costs, health care costs, and

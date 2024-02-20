@@ -1,0 +1,13 @@
+utoModelForNextSentencePrediction
+[[autodoc]] AutoModelForNextSentencePrediction
+TFAutoModelForNextSentencePrediction
+[[autodoc]] TFAutoModelForNextSentencePrediction
+FlaxAutoModelForNextSentencePrediction
+[[autodoc]] FlaxAutoModelForNextSentencePrediction
+AutoModelForTokenClassification
+[[autodoc]] AutoModelForTokenClassification
+TFAutoModelForTokenClassification
+[[autodoc]] TFAutoModelForTokenClassification
+FlaxAutoModelForTokenClassification
+[[autodoc]] FlaxAutoModelForTokenClassification
+AutoModelForQue

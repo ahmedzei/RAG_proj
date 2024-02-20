@@ -1,0 +1,2 @@
+s which are decoder only models. They follow the architecture described in Generating Long Sequences with Sparse Transformers, modified to support longer context length.
+First, a autoencoder is used to encode the text lyrics. Next, the first (also called top_prior) prior attends to the last hidden states extracted from the lyrics encoder. The priors are linked to the previous priors respectively via an AudioConditioner module. TheAudioConditioner upsamples the outputs of the previous prior to raw tokens at 

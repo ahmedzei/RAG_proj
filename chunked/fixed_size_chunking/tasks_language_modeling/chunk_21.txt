@@ -1,0 +1,13 @@
+ets, the number of epochs, and your callback to finetune the model:
+
+model.fit(x=tf_train_set, validation_data=tf_test_set, epochs=3, callbacks=[callback])
+
+Once training is completed, your model is automatically uploaded to the Hub so everyone can use it!
+
+For a more in-depth example of how to finetune a model for causal language modeling, take a look at the corresponding
+PyTorch notebook
+or TensorFlow notebook.
+
+Inference
+Great, now that you've finetuned a model, you can use it for inference!
+Come up with

@@ -1,0 +1,24 @@
+We will also initialize our data collator.
+thon
+from transformers import DefaultDataCollator
+data_collator = DefaultDataCollator()
+trainer = ImageDistilTrainer(
+    student_model=student_model,
+    teacher_model=teacher_model,
+    training_args=training_args,
+    train_dataset=processed_datasets["train"],
+    eval_dataset=processed_datasets["validation"],
+    data_collator=data_collator,
+    tokenizer=teacher_processor,
+    compute_metrics=compute_metrics,
+    temperature=5,
+    lambda_param=0.5
+)
+
+We can now train our model.
+python
+trainer.train()
+We can evaluate the model on the test set.
+python
+trainer.evaluate(processed_datasets["test"])
+On test set, our model reaches 72 percent accuracy.

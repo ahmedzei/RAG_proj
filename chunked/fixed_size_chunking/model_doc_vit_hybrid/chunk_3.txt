@@ -1,0 +1,11 @@
+-the-art convolutional networks while requiring
+substantially fewer computational resources to train.
+This model was contributed by nielsr. The original code (written in JAX) can be
+found here.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with ViT Hybrid.
+
+[ViTHybridForImageClassification] is supported by this example script and notebook.
+See also: Image classification task guide
+
+If you're interested in submitting a resource to be included here,

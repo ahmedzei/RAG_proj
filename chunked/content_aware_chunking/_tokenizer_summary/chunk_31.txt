@@ -1,0 +1,5 @@
+Unigram is not used directly for any of the models in the transformers, but it's used in
+conjunction with SentencePiece.
+At each training step, the Unigram algorithm defines a loss (often defined as the log-likelihood) over the training
+data given the current vocabulary and a unigram language model. Then, for each symbol in the vocabulary, the algorithm
+computes how much the overall loss would increase if the symbol was to be removed from the vocabulary.

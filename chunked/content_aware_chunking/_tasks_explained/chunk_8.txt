@@ -1,0 +1,1 @@
+The classification head is a linear layer that accepts the encoder's hidden states. The hidden states represent the learned features from each audio frame which can have varying lengths. To create one vector of fixed-length, the hidden states are pooled first and then transformed into logits over the class labels.

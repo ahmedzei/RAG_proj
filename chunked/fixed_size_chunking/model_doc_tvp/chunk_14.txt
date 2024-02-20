@@ -1,0 +1,15 @@
+ame="AK2KG.mp4", repo_type="dataset")
+model = TvpForVideoGrounding.from_pretrained("Intel/tvp-base")
+decoder_kwargs = dict(
+    container=av.open(file, metadata_errors="ignore"),
+    sampling_rate=1,
+    num_frames=model.config.num_frames,
+    clip_idx=0,
+    num_clips=1,
+    target_fps=3,
+)
+raw_sampled_frms = decode(**decoder_kwargs)
+text = "a person is sitting on a bed."
+processor = AutoProcessor.from_pretrained("Intel/tvp-base")
+model_inputs = processor(
+    text=[text], videos=list(raw_sampled_frms), re

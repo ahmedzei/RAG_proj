@@ -1,0 +1,6 @@
+Instead, the model is trained directly at a Unicode character-level.
+Training at a character-level inevitably comes with a longer sequence length, which CANINE solves with an efficient
+downsampling strategy, before applying a deep Transformer encoder.
+The abstract from the paper is the following:
+Pipelined NLP systems have largely been superseded by end-to-end neural modeling, yet nearly all commonly-used models
+still require an explicit tokenization step.

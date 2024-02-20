@@ -1,0 +1,6 @@
+should be saved with fsdp_state_dict_type: SHARDED_STATE_DICT because saving the full state dict with CPU offloading on rank 0 takes a lot of time and often results in NCCL Timeout errors due to indefinite hanging during broadcasting. You can resume training with the sharded state dicts with the [~accelerate.Accelerator.load_state]` method.
+
+directory containing checkpoints
+accelerator.load_state("ckpt")
+
+However, when training ends, you want to save the full state dict because sharded state dict is only co

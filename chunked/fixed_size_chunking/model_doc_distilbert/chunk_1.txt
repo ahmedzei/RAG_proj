@@ -1,0 +1,6 @@
+nderstanding benchmark.
+The abstract from the paper is the following:
+As Transfer Learning from large-scale pre-trained models becomes more prevalent in Natural Language Processing (NLP),
+operating these large models in on-the-edge and/or under constrained computational training or inference budgets
+remains challenging. In this work, we propose a method to pre-train a smaller general-purpose language representation
+model, called DistilBERT, which can then be fine-tuned with good performances on a wide range

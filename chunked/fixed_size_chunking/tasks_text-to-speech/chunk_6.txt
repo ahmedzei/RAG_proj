@@ -1,0 +1,12 @@
+features that make it beneficial for ASR, such as excessive background noise, are 
+typically undesirable in TTS. However, finding top-quality, multilingual, and multi-speaker TTS datasets can be quite 
+challenging.
+Let's load the data:
+
+from datasets import load_dataset, Audio
+dataset = load_dataset("facebook/voxpopuli", "nl", split="train")
+len(dataset)
+20968
+
+20968 examples should be sufficient for fine-tuning. SpeechT5 expects audio data to have a sampling rate of 16 kHz, so 
+make sure the examples in th

@@ -1,0 +1,2 @@
+To improve training efficiency and balance the dataset, we can limit 
+the data to speakers with between 100 and 400 examples.

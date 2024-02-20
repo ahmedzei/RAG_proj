@@ -1,0 +1,12 @@
+For more details about the different text generation strategies and parameters for controlling generation, check out the Text Generation API.
+
+from transformers import TFAutoModelForSeq2SeqLM
+model = TFAutoModelForSeq2SeqLM.from_pretrained("my_awesome_opus_books_model")
+outputs = model.generate(inputs, max_new_tokens=40, do_sample=True, top_k=30, top_p=0.95)
+
+Decode the generated token ids back into text:
+
+tokenizer.decode(outputs[0], skip_special_tokens=True)
+'Les lugumes partagent les ressources avec des bactéries fixatrices d'azote.'
+
+.

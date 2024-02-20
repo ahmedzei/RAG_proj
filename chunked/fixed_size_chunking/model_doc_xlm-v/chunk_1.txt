@@ -1,0 +1,6 @@
+ languages.
+As these models have increased in parameter count and depth, vocabulary size has remained largely unchanged.
+This vocabulary bottleneck limits the representational capabilities of multilingual models like XLM-R.
+In this paper, we introduce a new approach for scaling to very large multilingual vocabularies by
+de-emphasizing token sharing between languages with little lexical overlap and assigning vocabulary capacity
+to achieve sufficient coverage for each individual language. Tokenizations using 

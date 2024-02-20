@@ -1,0 +1,19 @@
+nted, and the traditional transformer blocks were replaced with with conformer blocks as done in the ESPnet library.
+FastSpeech2 Model Architecture
+
+Conformer Blocks
+
+Convolution Module
+
+🤗 Transformers Usage
+You can run FastSpeech2Conformer locally with the 🤗 Transformers library.
+
+First install the 🤗 Transformers library, g2p-en:
+
+pip install --upgrade pip
+pip install --upgrade transformers g2p-en
+
+Run inference via the Transformers modelling code with the model and hifigan separately
+
+thon
+from transforme

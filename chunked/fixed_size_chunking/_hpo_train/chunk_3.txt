@@ -1,0 +1,14 @@
+ive values. The Pareto Front (List[BestRun]) will be returned in hyperparameter_search, you should refer to the test case TrainerHyperParameterMultiObjectOptunaIntegrationTest in test_trainer. It's like following
+
+best_trials = trainer.hyperparameter_search(
+     direction=["minimize", "maximize"],
+     backend="optuna",
+     hp_space=optuna_hp_space,
+     n_trials=20,
+     compute_objective=compute_objective,
+ )
+
+For raytune, see raytune object_parameter, it's like following:
+
+def ray_hp_space(trial):
+    

@@ -1,0 +1,6 @@
+lize the Accelerator 
+we can specify if we want to use mixed precision training and it will take care of it for us in the [prepare] call. 
+During the prepare 
+call the dataloader will also be distributed across workers should we use multiple GPUs. We use the same 8-bit optimizer from the earlier example.
+Finally, we can add the main training loop. Note that the backward call is handled by 🤗 Accelerate. We can also see
+how gradient accumulation works: we normalize the loss, so we get the average at the end o

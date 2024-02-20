@@ -1,0 +1,6 @@
+lForVision2Seq
+[[autodoc]] AutoModelForVision2Seq
+TFAutoModelForVision2Seq
+[[autodoc]] TFAutoModelForVision2Seq
+FlaxAutoModelForVision2Seq
+[[autodoc]] FlaxAutoModelForVision2Seq

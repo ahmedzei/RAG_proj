@@ -1,0 +1,12 @@
+esNet | 7.018 | 5.024 |
+| Image Segmentation/Mask2former | 178.945 | 154.814 |
+| Image Segmentation/Maskformer | 638.570 | 579.826 | 
+| Image Segmentation/MobileNet | 51.693 | 30.310 |
+| Object Detection/Resnet-101 | 232.887 | 155.021 |
+| Object Detection/Conditional-DETR | 180.491 | 124.032 |
+V100 (batch size: 1)
+| Task/Model | torch 2.0 - no compile | torch 2.0 - compile |
+|:---:|:---:|:---:|
+| Image Classification/ViT | 10.495 | 6.00 | 
+| Image Segmentation/Segformer | 13.321 | 5.862 | 
+| Object Detectio

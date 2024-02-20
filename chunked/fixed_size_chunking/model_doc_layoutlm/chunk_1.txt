@@ -1,0 +1,10 @@
+lection of 199 annotated
+  forms comprising more than 30,000 words).
+receipt understanding: the SROIE dataset (a collection of 626 receipts for
+  training and 347 receipts for testing).
+document image classification: the RVL-CDIP dataset (a collection of
+  400,000 images belonging to one of 16 classes).
+
+The abstract from the paper is the following:
+Pre-training techniques have been verified successfully in a variety of NLP tasks in recent years. Despite the
+widespread use of pretraining models for NLP appl

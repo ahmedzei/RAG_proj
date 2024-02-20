@@ -1,0 +1,12 @@
+f BERT encoders with lower-dimension projection for dense semantic indexing of text.
+This model was contributed by yjernite. Code to train and use the model can be
+found here.
+RetriBertConfig
+[[autodoc]] RetriBertConfig
+RetriBertTokenizer
+[[autodoc]] RetriBertTokenizer
+RetriBertTokenizerFast
+[[autodoc]] RetriBertTokenizerFast
+RetriBertModel
+[[autodoc]] RetriBertModel
+    - forward

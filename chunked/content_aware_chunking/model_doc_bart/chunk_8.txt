@@ -1,0 +1,15 @@
+🌎
+[BartForConditionalGeneration] is supported by this example script and notebook.
+[TFBartForConditionalGeneration] is supported by this example script and notebook.
+[FlaxBartForConditionalGeneration] is supported by this example script.
+An example of how to train [BartForConditionalGeneration] with a Hugging Face datasets object can be found in this forum discussion
+Summarization chapter of the 🤗 Hugging Face course.
+Summarization task guide
+
+[BartForConditionalGeneration] is supported by this example script and notebook.
+[TFBartForConditionalGeneration] is supported by this example script and notebook.
+[FlaxBartForConditionalGeneration] is supported by this example script and notebook.
+Masked language modeling chapter of the 🤗 Hugging Face Course.
+Masked language modeling task guide
+
+A notebook on how to finetune mBART using Seq2SeqTrainer for Hindi to English translation.

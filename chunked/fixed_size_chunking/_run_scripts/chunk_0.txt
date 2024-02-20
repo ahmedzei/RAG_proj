@@ -1,0 +1,5 @@
+
+Train with a script
+Along with the 🤗 Transformers notebooks, there are also example scripts demonstrating how to train a model for a task with PyTorch, TensorFlow, or JAX/Flax.
+You will also find scripts we've used in our research projects and legacy examples which are mostly community contributed. These scripts are not actively maintained and require a specific version of 🤗 Transformers that will most likely be incompatible with the latest version of the library.
+The example scripts are not expected to wo

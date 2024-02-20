@@ -1,0 +1,15 @@
+nce time between the native implementation in transformers using bigcode/starcoder checkpoint and the Flash Attention 2 version of the model using two different sequence lengths.
+
+GPTBigCodeConfig
+[[autodoc]] GPTBigCodeConfig
+GPTBigCodeModel
+[[autodoc]] GPTBigCodeModel
+    - forward
+GPTBigCodeForCausalLM
+[[autodoc]] GPTBigCodeForCausalLM
+    - forward
+GPTBigCodeForSequenceClassification
+[[autodoc]] GPTBigCodeForSequenceClassification
+    - forward
+GPTBigCodeForTokenClassification
+[[autodoc]] GPTBigCodeForTo

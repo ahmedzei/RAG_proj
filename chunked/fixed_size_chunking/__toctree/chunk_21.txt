@@ -1,0 +1,25 @@
+vp
+    title: MVP
+local: model_doc/nezha
+    title: NEZHA
+local: model_doc/nllb
+    title: NLLB
+local: model_doc/nllb-moe
+    title: NLLB-MoE
+local: model_doc/nystromformer
+    title: Nyströmformer
+local: model_doc/open-llama
+    title: Open-Llama
+local: model_doc/opt
+    title: OPT
+local: model_doc/pegasus
+    title: Pegasus
+local: model_doc/pegasus_x
+    title: PEGASUS-X
+local: model_doc/persimmon
+    title: Persimmon
+local: model_doc/phi
+    title: Phi
+local: model_doc/phobert
+    title: PhoBERT
+local: m

@@ -1,0 +1,8 @@
+ut.scores are all the generated prediction scores of the
+language modeling head, and generation_output.attentions is None.
+When using our generation_output object as a tuple, it only keeps the attributes that don't have None values.
+Here, for instance, it has two elements, loss then logits, so
+python
+generation_output[:2]
+will return the tuple (generation_output.sequences, generation_output.scores) for instance.
+When using our generation_output object as a dictionary, it only keeps the attributes that don't

@@ -1,0 +1,7 @@
+act, a large-scale dataset with 16k Wikipedia tables for table entailment (a binary classification task). For more details, see their follow-up paper: Understanding tables with intermediate pre-training by Julian Martin Eisenschlos, Syrine Krichene and Thomas Müller.
+ 
+ TAPAS architecture. Taken from the original blog post.
+This model was contributed by nielsr. The Tensorflow version of this model was contributed by kamalkraj. The original code can be found here.
+Usage tips
+
+TAPAS is a model that uses relat

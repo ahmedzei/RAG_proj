@@ -1,0 +1,7 @@
+nction which is not optimized for 8-bit models and will be slower. Some sampling strategies, like nucleus sampling, are also not supported by the [Pipeline] for 8-bit models. You should also place all inputs on the same device as the model:
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+model_name = "bigscience/bloom-2b5"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model_8bit = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", load_in_8bit=True)
+prompt = "Hello, my

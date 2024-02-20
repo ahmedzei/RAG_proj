@@ -1,0 +1,6 @@
+Other options for deciding how your checkpoints are saved are set up in the hub_strategy parameter:
+
+hub_strategy="checkpoint" pushes the latest checkpoint to a subfolder named "last-checkpoint" from which you can resume training
+hug_strategy="all_checkpoints" pushes all checkpoints to the directory defined in output_dir (you'll see one checkpoint per folder in your model repository)
+
+When you resume training from a checkpoint, the [Trainer] tries to keep the Python, NumPy, and PyTorch RNG states the same as they were when the checkpoint was saved.

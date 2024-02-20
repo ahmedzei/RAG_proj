@@ -1,0 +1,4 @@
+Optimize inference using torch.compile()
+This guide aims to provide a benchmark on the inference speed-ups introduced with torch.compile() for computer vision models in 🤗 Transformers.
+Benefits of torch.compile
+Depending on the model and the GPU, torch.compile() yields up to 30% speed-up during inference. To use torch.compile(), simply install any version of torch above 2.0.

@@ -1,0 +1,16 @@
+ght tuning)
+sum(p.numel() for p in model.parameters() if p.requires_grad)
+61823328
+lightweight tuning with task-specific prompts
+model = MvpForConditionalGeneration.from_pretrained("RUCAIBox/mtl-data-to-text")
+model.set_lightweight_tuning()
+original lightweight Prefix-tuning
+model = MvpForConditionalGeneration.from_pretrained("facebook/bart-large", use_prompt=True)
+model.set_lightweight_tuning()
+
+Resources
+
+Text classification task guide
+Question answering task guide
+Causal language modeling task guide
+Mask

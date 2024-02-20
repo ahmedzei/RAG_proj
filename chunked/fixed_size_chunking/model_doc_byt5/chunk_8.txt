@@ -1,0 +1,10 @@
+s_prompt).input_ids
+Note that we cannot add "{extra_id_}" to the string directly
+as the Byte tokenizer would incorrectly merge the tokens
+For ByT5, we need to work directly on the character level
+Contrary to T5, ByT5 does not use sentinel tokens for masking, but instead
+uses final utf character ids.
+UTF-8 is represented by 8 bits and ByT5 has 3 special tokens.
+=> There are 2**8+2 = 259 input ids and mask tokens count down from index 258.
+=> mask to "The dog [258]a ball [257]park."
+input_ids = torch.tensor([

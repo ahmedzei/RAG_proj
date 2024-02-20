@@ -1,0 +1,3 @@
+However,
+you might recall from our general overview of 🤗 Transformers
+that we are an opinionated bunch - the ease of use of 🤗 Transformers relies on consistent design choices.

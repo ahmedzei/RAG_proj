@@ -1,0 +1,4 @@
+Triton | K                   | N                  | KxN     | -        | Up to ~0.7x | ✅                  | ❌                  |
+| CUDA | 1                   | 16                  | 1x16     | Best        | Up to ~1.3x | ✅                  | ❌                  |
+| CUDA | 2                   | 8                   | 2x8      | OK          | Up to ~3.0x | ✅                  | ❌                  |
+| Numba | K                   | 8                   | Kx8      | Good        | Up to ~4.0x | ❌                  | ✅

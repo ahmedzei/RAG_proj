@@ -1,0 +1,5 @@
+For example, this code block cannot be compiled with XLA!
+python
+if tf.reduce_sum(tensor) > 10:
+    tensor = tensor / 2.0
+This might seem very restrictive at first, but most neural net code doesn’t need to do this.

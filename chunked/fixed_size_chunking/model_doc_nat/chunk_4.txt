@@ -1,0 +1,9 @@
+tation of Neighborhood Attention.
+You can install it with pre-built wheels for Linux by referring to shi-labs.com/natten,
+or build on your system by running pip install natten.
+Note that the latter will likely take time to compile. NATTEN does not support Windows devices yet.
+- Patch size of 4 is only supported at the moment.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with NAT.
+
+[NatForImageClassification] is supported by this example script an

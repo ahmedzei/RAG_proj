@@ -1,0 +1,3 @@
+This ensures the text is split the same way as the pretraining corpus, and uses the same corresponding tokens-to-index (usually referred to as the vocab) during pretraining.
+
+Get started by loading a pretrained tokenizer with the [AutoTokenizer.from_pretrained] method.

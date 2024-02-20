@@ -1,0 +1,6 @@
+Here we have the loss since we passed along labels, but we don't have
+hidden_states and attentions because we didn't pass output_hidden_states=True or
+output_attentions=True.
+
+When passing output_hidden_states=True you may expect the outputs.hidden_states[-1] to match outputs.last_hidden_states exactly.
+However, this is not always the case.

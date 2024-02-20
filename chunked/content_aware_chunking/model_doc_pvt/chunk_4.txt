@@ -1,0 +1,4 @@
+Different from ViT that typically yields low resolution outputs and 
+incurs high computational and memory costs, PVT not only can be trained on dense partitions of an image to achieve high 
+output resolution, which is important for dense prediction, but also uses a progressive shrinking pyramid to reduce the 
+computations of large feature maps.

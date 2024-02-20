@@ -1,0 +1,11 @@
+alModel
+    - forward
+BarkCoarseConfig
+[[autodoc]] BarkCoarseConfig
+    - all
+BarkFineConfig
+[[autodoc]] BarkFineConfig
+    - all
+BarkSemanticConfig
+[[autodoc]] BarkSemanticConfig
+    - all

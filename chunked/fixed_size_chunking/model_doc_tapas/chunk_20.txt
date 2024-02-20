@@ -1,0 +1,5 @@
+nfiguration
+config = TapasConfig("google-base-finetuned-wikisql-supervised")
+model = TFTapasForQuestionAnswering.from_pretrained("google/tapas-base", config=config)
+
+Of course, you don't necessarily have to follow one of these three ways in which TAPAS was fine-tuned. You can also experiment by defining any hyperparameters you want when initializing [TapasConfig], and then create a [TFTapasForQuestionAnswering] based on that configuration. For example, if you have a dataset that has both conversational ques

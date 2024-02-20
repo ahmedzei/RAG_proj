@@ -1,0 +1,4 @@
+ResNet
+Overview
+The ResNet model was proposed in Deep Residual Learning for Image Recognition by Kaiming He, Xiangyu Zhang, Shaoqing Ren and Jian Sun. Our implementation follows the small changes made by Nvidia, we apply the stride=2 for downsampling in bottleneck's 3x3 conv and not in the first 1x1. This is generally known as "ResNet v1.5".
+ResNet introduced residual connections, they allow to train networks with an unseen number of layers (up to 1000).

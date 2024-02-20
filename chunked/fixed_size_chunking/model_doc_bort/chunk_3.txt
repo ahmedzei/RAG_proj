@@ -1,0 +1,8 @@
+ge, on multiple public natural language understanding (NLU) benchmarks.
+This model was contributed by stefan-it. The original code can be found here.
+Usage tips
+
+BORT's model architecture is based on BERT, refer to BERT's documentation page for the
+  model's API reference as well as usage examples.
+BORT uses the RoBERTa tokenizer instead of the BERT tokenizer, refer to RoBERTa's documentation page for the tokenizer's API reference as well as usage examples.
+BORT requires a specific fine-tuning algorithm, ca

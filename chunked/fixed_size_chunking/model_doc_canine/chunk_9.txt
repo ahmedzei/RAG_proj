@@ -1,0 +1,16 @@
+ling_canine.CanineModelOutputWithPooling
+CanineModel
+[[autodoc]] CanineModel
+    - forward
+CanineForSequenceClassification
+[[autodoc]] CanineForSequenceClassification
+    - forward
+CanineForMultipleChoice
+[[autodoc]] CanineForMultipleChoice
+    - forward
+CanineForTokenClassification
+[[autodoc]] CanineForTokenClassification
+    - forward
+CanineForQuestionAnswering
+[[autodoc]] CanineForQuestionAnswering
+    - forward

@@ -1,0 +1,12 @@
+MVP and multi-task pre-trained variants.
+thon
+
+from transformers import MvpTokenizerFast, MvpForConditionalGeneration
+tokenizer = MvpTokenizerFast.from_pretrained("RUCAIBox/mvp")
+model = MvpForConditionalGeneration.from_pretrained("RUCAIBox/mvp")
+model_with_mtl = MvpForConditionalGeneration.from_pretrained("RUCAIBox/mtl-data-to-text")
+inputs = tokenizer(
+     "Describe the following data: Iron Man | instance of | Superhero [SEP] Stan Lee | creator | Iron Man",
+     return_tensors="pt",
+ )
+generated_ids = mo

@@ -1,0 +1,10 @@
+TrainingArguments(output_dir="test_trainer")
+
+Evaluate
+[Trainer] does not automatically evaluate model performance during training. You'll need to pass [Trainer] a function to compute and report metrics. The 🤗 Evaluate library provides a simple accuracy function you can load with the [evaluate.load] (see this quicktour for more information) function:
+
+import numpy as np
+import evaluate
+metric = evaluate.load("accuracy")
+
+Call [~evaluate.compute] on metric to calculate the accuracy of your predictions. Befor

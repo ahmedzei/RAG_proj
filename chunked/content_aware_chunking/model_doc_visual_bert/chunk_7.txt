@@ -1,0 +1,4 @@
+The authors use the features generated after passing these regions through a pre-trained
+CNN like ResNet as visual embeddings. They also add absolute position embeddings, and feed the resulting sequence of
+vectors to a standard BERT model. The text input is concatenated in the front of the visual embeddings in the embedding
+layer, and is expected to be bound by [CLS] and a [SEP] tokens, as in BERT.

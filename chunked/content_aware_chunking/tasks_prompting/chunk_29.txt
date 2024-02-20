@@ -1,0 +1,7 @@
+Version and track the performance of your prompts. 
+
+Advanced prompting techniques
+Few-shot prompting
+The basic prompts in the sections above are the examples of "zero-shot" prompts, meaning, the model has been given 
+instructions and context, but no examples with solutions. LLMs that have been fine-tuned on instruction datasets, generally 
+perform well on such "zero-shot" tasks.

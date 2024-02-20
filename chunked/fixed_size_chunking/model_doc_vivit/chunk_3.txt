@@ -1,0 +1,7 @@
+    - preprocess
+VivitModel
+[[autodoc]] VivitModel
+    - forward
+VivitForVideoClassification
+[[autodoc]] transformers.VivitForVideoClassification
+    - forward

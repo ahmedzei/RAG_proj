@@ -1,0 +1,8 @@
+ LayoutLMv2. If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A notebook on how to finetune LayoutLMv2 for text-classification on RVL-CDIP dataset.
+See also: Text classification task guide
+
+A notebook on how to finetune LayoutLMv2 for question-answering on DocVQA dataset.
+See also: Question answering task guide
+See also: Document q

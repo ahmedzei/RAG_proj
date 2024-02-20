@@ -1,0 +1,15 @@
+g example script and notebook.
+[FlaxOPTForCausalLM] is supported by this causal language modeling example script.
+
+Text classification task guide
+[OPTForSequenceClassification] is supported by this example script and notebook.
+
+[OPTForQuestionAnswering] is supported by this question answering example script and notebook.
+Question answering chapter
+  of the 🤗 Hugging Face Course.
+
+⚡️ Inference
+
+A blog post on How 🤗 Accelerate runs very large models thanks to PyTorch with OPT.
+
+Combining OPT and Flash Attenti

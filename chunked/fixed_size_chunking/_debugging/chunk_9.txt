@@ -1,0 +1,7 @@
+A_VISIBLE_DEVICES=0 python -c "import torch; \
+print(torch.cuda.get_device_properties(torch.device('cuda')))
+"_CudaDeviceProperties(name='GeForce RTX 3090', major=8, minor=6, total_memory=24268MB, multi_processor_count=82)"
+This means your GPU architecture is 8.6.
+
+If you get 8, 6, then you can set TORCH_CUDA_ARCH_LIST="8.6". For multiple GPUs with different architectures, list them like TORCH_CUDA_ARCH_LIST="6.1;8.6".
+It is also possible to not specify TORCH_CUDA_ARCH_LIST and the build program automatical

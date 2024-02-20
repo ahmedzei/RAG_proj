@@ -1,0 +1,21 @@
+odel work on CPU is sufficient.
+
+Create a branch with a descriptive name from your main branch
+
+git checkout -b add_tf_brand_new_bert
+
+Fetch and rebase to current main
+
+git fetch upstream
+git rebase upstream/main
+
+Add an empty .py file in transformers/src/models/brandnewbert/ named modeling_tf_brandnewbert.py. This will
+be your TensorFlow model file.
+
+Push the changes to your account using:
+
+git add .
+git commit -m "initial commit"
+git push -u origin add_tf_brand_new_bert
+
+Once you are satisfied, go to the 

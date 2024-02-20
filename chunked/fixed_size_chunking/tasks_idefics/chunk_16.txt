@@ -1,0 +1,8 @@
+el Tower is the same height as an 81-storey building. 
+User: Describe this image.
+Assistant: An image of the Statue of Liberty. Fun fact: the Statue of Liberty is 151 feet tall.
+
+Notice that just from a single example (i.e., 1-shot) the model has learned how to perform the task. For more complex tasks, 
+feel free to experiment with a larger number of examples (e.g., 3-shot, 5-shot, etc.).
+Visual question answering
+Visual Question Answering (VQA) is the task of answering open-ended questions based on an imag

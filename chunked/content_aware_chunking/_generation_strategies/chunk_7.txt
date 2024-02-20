@@ -1,0 +1,2 @@
+The default decoding strategy is greedy search, which is the simplest decoding strategy that picks a token with the highest probability as the next token. For many tasks
+and small output sizes this works well.

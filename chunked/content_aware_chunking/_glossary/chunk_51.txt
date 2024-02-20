@@ -1,0 +1,6 @@
+Instead of training a model from scratch, you can leverage knowledge obtained from an existing model as a starting point. This speeds up the learning process and reduces the amount of training data needed.
+transformer
+Self-attention based deep learning model architecture.
+U
+unsupervised learning
+A form of model training in which data provided to the model is not labeled.

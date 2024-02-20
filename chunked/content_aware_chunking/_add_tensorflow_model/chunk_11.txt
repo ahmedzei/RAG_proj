@@ -1,0 +1,6 @@
+Prepare transformers dev environment
+Having selected the model architecture, open a draft PR to signal your intention to work on it. Follow the
+instructions below to set up your environment and open a draft PR.
+
+Fork the repository by clicking on the 'Fork' button on the
+   repository's page.

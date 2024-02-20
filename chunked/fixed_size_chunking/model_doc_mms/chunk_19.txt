@@ -1,0 +1,13 @@
+code()[:-1]
+
+text = "이봐 무슨 일이야"
+uromaized_text = uromanize(text, uroman_path=os.environ["UROMAN"])
+inputs = tokenizer(text=uromaized_text, return_tensors="pt")
+set_seed(555)  # make deterministic
+with torch.no_grad():
+   outputs = model(inputs["input_ids"])
+waveform = outputs.waveform[0]
+
+Tips:
+
+The MMS-TTS checkpoints are trained on lower-cased, un-punctuated text. By default, the VitsTokenizer normalizes the inputs by removing any casing and punctuation, to avoid passing out-of-vocabulary characters to th

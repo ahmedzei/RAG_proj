@@ -1,0 +1,19 @@
+ck size.
+Current implementation supports only ITC.
+Current implementation doesn't support num_random_blocks = 0
+BigBird is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather than
+  the left.
+
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+BigBirdConfig
+[[autodoc]] BigBirdConfig
+BigBirdTokenizer
+[[auto

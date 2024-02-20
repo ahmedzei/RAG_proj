@@ -1,0 +1,1 @@
+You don't need to pass the device_map parameter for training because it'll automatically load your model on a GPU.

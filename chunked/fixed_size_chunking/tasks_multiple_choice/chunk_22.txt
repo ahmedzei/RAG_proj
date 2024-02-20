@@ -1,0 +1,15 @@
+ finetune the model:
+
+model.fit(x=tf_train_set, validation_data=tf_validation_set, epochs=2, callbacks=callbacks)
+
+Once training is completed, your model is automatically uploaded to the Hub so everyone can use it!
+
+For a more in-depth example of how to finetune a model for multiple choice, take a look at the corresponding
+PyTorch notebook
+or TensorFlow notebook.
+
+Inference
+Great, now that you've finetuned a model, you can use it for inference!
+Come up with some text and two candidate answers:
+
+prompt = "Fr

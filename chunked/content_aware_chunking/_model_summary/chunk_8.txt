@@ -1,0 +1,1 @@
+BeIT is trained to predict the visual tokens corresponding to the masked patches. ViTMAE has a similar pretraining objective, except it must predict the pixels instead of visual tokens. What's unusual is 75% of the image patches are masked! The decoder reconstructs the pixels from the masked tokens and encoded patches.

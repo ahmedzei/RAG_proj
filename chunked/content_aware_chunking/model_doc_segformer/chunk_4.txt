@@ -1,0 +1,7 @@
+For example, SegFormer-B4 achieves 50.3% mIoU on ADE20K with 64M parameters,
+being 5x smaller and 2.2% better than the previous best method. Our best model, SegFormer-B5, achieves 84.0% mIoU on
+Cityscapes validation set and shows excellent zero-shot robustness on Cityscapes-C.
+The figure below illustrates the architecture of SegFormer. Taken from the original paper.
+
+This model was contributed by nielsr. The TensorFlow version
+of the model was contributed by sayakpaul.

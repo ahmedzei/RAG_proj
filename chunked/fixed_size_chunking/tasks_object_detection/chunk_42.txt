@@ -1,0 +1,13 @@
+81, 3227.08]
+Detected Mask with confidence 0.584 at location [2449.06, 823.19, 3256.43, 1413.9]
+
+Let's plot the result:
+
+draw = ImageDraw.Draw(image)
+for score, label, box in zip(results["scores"], results["labels"], results["boxes"]):
+     box = [round(i, 2) for i in box.tolist()]
+     x, y, x2, y2 = tuple(box)
+     draw.rectangle((x, y, x2, y2), outline="red", width=1)
+     draw.text((x, y), model.config.id2label[label.item()], fill="white")
+image
+

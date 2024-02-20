@@ -1,0 +1,18 @@
+tle: Graph models
+title: Models
+
+sections:
+local: internal/modeling_utils
+  title: Custom Layers and Utilities
+local: internal/pipelines_utils
+  title: Utilities for pipelines
+local: internal/tokenization_utils
+  title: Utilities for Tokenizers
+local: internal/trainer_utils
+  title: Utilities for Trainer
+local: internal/generation_utils
+  title: Utilities for Generation
+local: internal/image_processing_utils
+  title: Utilities for Image Processors
+local: internal/audio_utils
+  title: Utilities for Audio pro

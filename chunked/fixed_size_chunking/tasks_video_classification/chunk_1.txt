@@ -1,0 +1,15 @@
+give you a chance to experiment and make sure everything works before spending more time training on the full dataset.
+
+from huggingface_hub import hf_hub_download
+hf_dataset_identifier = "sayakpaul/ucf101-subset"
+filename = "UCF101_subset.tar.gz"
+file_path = hf_hub_download(repo_id=hf_dataset_identifier, filename=filename, repo_type="dataset")
+
+After the subset has been downloaded, you need to extract the compressed archive:
+ 
+
+import tarfile
+with tarfile.open(file_path) as t:
+      t.extractall(".")
+
+At a

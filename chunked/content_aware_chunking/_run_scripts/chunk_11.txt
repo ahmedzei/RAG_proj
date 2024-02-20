@@ -1,0 +1,1 @@
+TensorFlow scripts utilize a TPUStrategy for training on TPUs.

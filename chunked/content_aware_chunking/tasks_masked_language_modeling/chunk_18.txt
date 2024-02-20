@@ -1,0 +1,60 @@
+You'll push this model to the Hub by setting push_to_hub=True (you need to be signed in to Hugging Face to upload your model).
+Pass the training arguments to [Trainer] along with the model, datasets, and data collator.
+Call [~Trainer.train] to finetune your model.
+
+training_args = TrainingArguments(
+     output_dir="my_awesome_eli5_mlm_model",
+     evaluation_strategy="epoch",
+     learning_rate=2e-5,
+     num_train_epochs=3,
+     weight_decay=0.01,
+     push_to_hub=True,
+ )
+trainer = Trainer(
+     model=model,
+     args=training_args,
+     train_dataset=lm_dataset["train"],
+     eval_dataset=lm_dataset["test"],
+     data_collator=data_collator,
+ )
+trainer.train()
+
+Once training is completed, use the [~transformers.Trainer.evaluate] method to evaluate your model and get its perplexity:
+
+import math
+eval_results = trainer.evaluate()
+print(f"Perplexity: {math.exp(eval_results['eval_loss']):.2f}")
+Perplexity: 8.76
+
+Then share your model to the Hub with the [~transformers.Trainer.push_to_hub] method so everyone can use your model:
+
+trainer.push_to_hub()
+
+If you aren't familiar with finetuning a model with Keras, take a look at the basic tutorial here!
+
+To finetune a model in TensorFlow, start by setting up an optimizer function, learning rate schedule, and some training hyperparameters:
+
+from transformers import create_optimizer, AdamWeightDecay
+optimizer = AdamWeightDecay(learning_rate=2e-5, weight_decay_rate=0.01)
+
+Then you can load DistilRoBERTa with [TFAutoModelForMaskedLM]:
+
+from transformers import TFAutoModelForMaskedLM
+model = TFAutoModelForMaskedLM.from_pretrained("distilbert/distilroberta-base")
+
+Convert your datasets to the tf.data.Dataset format with [~transformers.TFPreTrainedModel.prepare_tf_dataset]:
+
+tf_train_set = model.prepare_tf_dataset(
+     lm_dataset["train"],
+     shuffle=True,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+tf_test_set = model.prepare_tf_dataset(
+     lm_dataset["test"],
+     shuffle=False,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+
+Configure the model for training with compile.

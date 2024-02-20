@@ -1,0 +1,3 @@
+DePlot can then be used off-the-shelf together with LLMs in a plug-and-play fashion. Compared with a SOTA model finetuned on more than >28k data points, DePlot+LLM with just one-shot prompting achieves a 24.0% improvement over finetuned SOTA on human-written queries from the task of chart QA.
+DePlot is a model that is trained using Pix2Struct architecture. You can find more information about Pix2Struct in the Pix2Struct documentation.
+DePlot is a Visual Question Answering subset of Pix2Struct architecture.

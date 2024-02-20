@@ -1,0 +1,12 @@
+ut
+[[autodoc]] generation.TFSampleDecoderOnlyOutput
+[[autodoc]] generation.TFBeamSearchEncoderDecoderOutput
+[[autodoc]] generation.TFBeamSearchDecoderOnlyOutput
+[[autodoc]] generation.TFBeamSampleEncoderDecoderOutput
+[[autodoc]] generation.TFBeamSampleDecoderOnlyOutput
+[[autodoc]] generation.TFContrastiveSearchEncoderDecoderOutput
+[[autodoc]] generation.TFContrastiveSearchDecoderOnlyOutput
+FLAX
+[[autodoc]] generation.FlaxSampleOutput
+[[autodoc]] generation.FlaxGreedySearchOutput
+[[autodoc]] generation.FlaxB

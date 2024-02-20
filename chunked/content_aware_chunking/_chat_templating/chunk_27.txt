@@ -1,0 +1,7 @@
+Special tokens are never split, 
+ensuring that your control tokens are always handled as single tokens rather than being tokenized in pieces. You 
+should also set the tokenizer's eos_token attribute to the token that marks the end of assistant generations in your
+template. This will ensure that text generation tools can correctly figure out when to stop generating text.
+
+What are "default" templates?
+Before the introduction of chat templates, chat handling was hardcoded at the model class level.

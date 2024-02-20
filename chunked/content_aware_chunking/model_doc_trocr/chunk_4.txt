@@ -1,0 +1,6 @@
+For more
+  information, see the official models.
+TrOCR is always used within the VisionEncoderDecoder framework.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with TrOCR.

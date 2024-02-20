@@ -1,0 +1,97 @@
+Alternatively, running the following shell
+commands from root will print out a descriptive list of all configurable parameters for PyTorch and Tensorflow
+respectively.
+
+python examples/pytorch/benchmarking/run_benchmark.py --help
+An instantiated benchmark object can then simply be run by calling benchmark.run().
+
+results = benchmark.run()
+print(results)
+====================       INFERENCE - SPEED - RESULT       ====================
+
+Model Name             Batch Size     Seq Length     Time in s
+google-bert/bert-base-uncased          8               8             0.006   
+google-bert/bert-base-uncased          8               32            0.006   
+google-bert/bert-base-uncased          8              128            0.018   
+google-bert/bert-base-uncased          8              512            0.088     
+
+====================      INFERENCE - MEMORY - RESULT       ====================
+Model Name             Batch Size     Seq Length    Memory in MB
+google-bert/bert-base-uncased          8               8             1227
+google-bert/bert-base-uncased          8               32            1281
+google-bert/bert-base-uncased          8              128            1307
+google-bert/bert-base-uncased          8              512            1539
+
+====================        ENVIRONMENT INFORMATION         ====================
+
+transformers_version: 2.11.0
+framework: PyTorch
+use_torchscript: False
+framework_version: 1.4.0
+python_version: 3.6.10
+system: Linux
+cpu: x86_64
+architecture: 64bit
+date: 2020-06-29
+time: 08:58:43.371351
+fp16: False
+use_multiprocessing: True
+only_pretrain_model: False
+cpu_ram_mb: 32088
+use_gpu: True
+num_gpus: 1
+gpu: TITAN RTX
+gpu_ram_mb: 24217
+gpu_power_watts: 280.0
+gpu_performance_state: 2
+use_tpu: False
+</pt>
+<tf>bash
+python examples/tensorflow/benchmarking/run_benchmark_tf.py --help
+
+An instantiated benchmark object can then simply be run by calling benchmark.run().
+
+results = benchmark.run()
+print(results)
+results = benchmark.run()
+print(results)
+====================       INFERENCE - SPEED - RESULT       ====================
+
+Model Name             Batch Size     Seq Length     Time in s
+google-bert/bert-base-uncased          8               8             0.005
+google-bert/bert-base-uncased          8               32            0.008
+google-bert/bert-base-uncased          8              128            0.022
+google-bert/bert-base-uncased          8              512            0.105
+
+====================      INFERENCE - MEMORY - RESULT       ====================
+Model Name             Batch Size     Seq Length    Memory in MB
+google-bert/bert-base-uncased          8               8             1330
+google-bert/bert-base-uncased          8               32            1330
+google-bert/bert-base-uncased          8              128            1330
+google-bert/bert-base-uncased          8              512            1770
+
+====================        ENVIRONMENT INFORMATION         ====================
+
+transformers_version: 2.11.0
+framework: Tensorflow
+use_xla: False
+framework_version: 2.2.0
+python_version: 3.6.10
+system: Linux
+cpu: x86_64
+architecture: 64bit
+date: 2020-06-29
+time: 09:26:35.617317
+fp16: False
+use_multiprocessing: True
+only_pretrain_model: False
+cpu_ram_mb: 32088
+use_gpu: True
+num_gpus: 1
+gpu: TITAN RTX
+gpu_ram_mb: 24217
+gpu_power_watts: 280.0
+gpu_performance_state: 2
+use_tpu: False
+
+By default, the time and the required memory for inference are benchmarked.

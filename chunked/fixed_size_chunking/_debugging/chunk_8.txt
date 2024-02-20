@@ -1,0 +1,10 @@
+ify your GPU's architecture by editing the TORCH_CUDA_ARCH_LIST variable (find a complete list of NVIDIA GPUs and their corresponding architectures on this page). To check the PyTorch version that corresponds to your architecture, run the following command:
+
+python -c "import torch; print(torch.cuda.get_arch_list())"
+Find the architecture for a GPU with the following command:
+
+CUDA_VISIBLE_DEVICES=0 python -c "import torch; print(torch.cuda.get_device_capability())"
+
+To find the architecture for GPU 0:
+
+CUD

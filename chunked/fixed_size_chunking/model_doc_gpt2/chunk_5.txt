@@ -1,0 +1,8 @@
+mething new instead of duplicating an existing resource.
+
+A blog on how to Finetune a non-English GPT-2 Model with Hugging Face.
+A blog on How to generate text: using different decoding methods for language generation with Transformers with GPT-2.
+A blog on Training CodeParrot 🦜 from Scratch, a large GPT-2 model.
+A blog on Faster Text Generation with TensorFlow and XLA with GPT-2.
+A blog on How to train a Language Model with Megatron-LM with a GPT-2 model.
+A notebook on how to finetune GPT2 to generate lyri

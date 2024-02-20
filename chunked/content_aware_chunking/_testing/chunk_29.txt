@@ -1,0 +1,5 @@
+To use this file to replace equivalent methods in the test suite, set the environment variableTRANSFORMERS_TEST_DEVICE_SPEC` to the path of the spec file.
+Currently, only MANUAL_SEED_FN, EMPTY_CACHE_FN and DEVICE_COUNT_FN are supported for device-specific dispatch.
+Distributed training
+pytest can't deal with distributed training directly. If this is attempted - the sub-processes don't do the right
+thing and end up thinking they are pytest and start running the test suite in loops.

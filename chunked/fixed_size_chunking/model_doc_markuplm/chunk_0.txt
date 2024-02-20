@@ -1,0 +1,9 @@
+
+MarkupLM
+Overview
+The MarkupLM model was proposed in MarkupLM: Pre-training of Text and Markup Language for Visually-rich Document
+Understanding by Junlong Li, Yiheng Xu, Lei Cui, Furu Wei. MarkupLM is BERT, but
+applied to HTML pages instead of raw text documents. The model incorporates additional embedding layers to improve
+performance, similar to LayoutLM.
+The model can be used for tasks like question answering on web pages or information extraction from web pages. It obtains
+state-of-the-art results on 

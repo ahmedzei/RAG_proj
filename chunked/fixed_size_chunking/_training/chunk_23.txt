@@ -1,0 +1,13 @@
+loop, you can also fine-tune a 🤗 Transformers model in native PyTorch.
+At this point, you may need to restart your notebook or execute the following code to free some memory:
+py
+del model
+del trainer
+torch.cuda.empty_cache()
+Next, manually postprocess tokenized_dataset to prepare it for training.
+
+Remove the text column because the model does not accept raw text as an input:
+
+tokenized_datasets = tokenized_datasets.remove_columns(["text"])
+
+Rename the label column to labels because the model expects the arg

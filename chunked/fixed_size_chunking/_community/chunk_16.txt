@@ -1,0 +1,4 @@
+aset | Mehrdad Farahani |  |
+| Detect objects in an image with DETR | How to use a trained DetrForObjectDetection model to detect objects in an image and visualize attention | Niels Rogge |  |
+| Fine-tune DETR on a custom object detection dataset | How to fine-tune DetrForObjectDetection on a custom object detection dataset | Niels Rogge |  |
+| Finetune T5 for Named Entity Recognition | How to fine-tune T5 on a Named Entity Recognition Task | Ogundepo Odunayo |  |

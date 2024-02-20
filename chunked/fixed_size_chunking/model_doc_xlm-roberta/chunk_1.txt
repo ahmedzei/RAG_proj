@@ -1,0 +1,5 @@
+etraining multilingual language models at scale leads to significant performance gains for a
+wide range of cross-lingual transfer tasks. We train a Transformer-based masked language model on one hundred
+languages, using more than two terabytes of filtered CommonCrawl data. Our model, dubbed XLM-R, significantly
+outperforms multilingual BERT (mBERT) on a variety of cross-lingual benchmarks, including +13.8% average accuracy on
+XNLI, +12.3% average F1 score on MLQA, and +2.1% average F1 score on NER. XLM-R pe

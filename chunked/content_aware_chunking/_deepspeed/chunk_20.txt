@@ -1,0 +1,3 @@
+Unlike ZeRO-2, ZeRO-3 can also be used for inference, in addition to training, because it allows large models to be loaded on multiple GPUs. Some important parameters to configure include:
+
+device: "cpu" can help if you're running out of GPU memory and if you have free CPU memory available.

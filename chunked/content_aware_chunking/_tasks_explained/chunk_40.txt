@@ -1,0 +1,5 @@
+Some tasks lend themselves to the Transformer's encoder structure, while others are better suited for the decoder. Still, other tasks make use of both the Transformer's encoder-decoder structure.
+Text classification
+BERT is an encoder-only model and is the first model to effectively implement deep bidirectionality to learn richer representations of the text by attending to words on both sides.
+
+BERT uses WordPiece tokenization to generate a token embedding of the text.

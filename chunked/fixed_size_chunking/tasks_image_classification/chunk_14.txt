@@ -1,0 +1,10 @@
+rom_pretrained(
+     checkpoint,
+     num_labels=len(labels),
+     id2label=id2label,
+     label2id=label2id,
+ )
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [TrainingArguments]. It is important you don't remove unused columns because that'll drop the image column. Without the image column, you can't create pixel_values. Set remove_unused_columns=False to prevent this behavior! The only other required parameter is output_dir which specifies where to save your model. You'

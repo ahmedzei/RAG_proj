@@ -1,0 +1,6 @@
+With those, we can then compute
+$$N_{i} = e^{u + K_{i} - q} V_{i} + e^{M_{i}} \tilde{N}{i} \hbox{  where  } q = \max(u + K{i}, M_{i})$$
+and
+$$D_{i} = e^{u + K_{i} - q} + e^{M_{i}} \tilde{D}{i} \hbox{  where  } q = \max(u + K{i}, M_{i})$$
+which finally gives us
+$$O_{i} = \sigma(R_{i}) \frac{N_{i}}{D_{i}}$$.

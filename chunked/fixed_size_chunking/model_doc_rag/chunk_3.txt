@@ -1,0 +1,5 @@
+arametric and non-parametric memory for language generation. We introduce RAG models where the parametric memory is a
+pre-trained seq2seq model and the non-parametric memory is a dense vector index of Wikipedia, accessed with a
+pre-trained neural retriever. We compare two RAG formulations, one which conditions on the same retrieved passages
+across the whole generated sequence, the other can use different passages per token. We fine-tune and evaluate our
+models on a wide range of knowledge-intensive NLP task

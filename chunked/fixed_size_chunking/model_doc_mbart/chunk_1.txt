@@ -1,0 +1,7 @@
+ by denoising full texts in multiple languages, while previous approaches have focused only
+on the encoder, decoder, or reconstructing parts of the text.
+This model was contributed by valhalla. The Authors' code can be found here
+Training of MBart
+MBart is a multilingual encoder-decoder (sequence-to-sequence) model primarily intended for translation task. As the
+model is multilingual it expects the sequences in a different format. A special language id token is added in both the
+source and target text. The 

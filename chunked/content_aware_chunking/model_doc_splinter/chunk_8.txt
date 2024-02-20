@@ -1,0 +1,26 @@
+This is done to support randomly initializing this layer at
+  fine-tuning, as it is shown to yield better results for some cases in the paper.
+
+Resources
+
+Question answering task guide
+
+SplinterConfig
+[[autodoc]] SplinterConfig
+SplinterTokenizer
+[[autodoc]] SplinterTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+SplinterTokenizerFast
+[[autodoc]] SplinterTokenizerFast
+SplinterModel
+[[autodoc]] SplinterModel
+    - forward
+SplinterForQuestionAnswering
+[[autodoc]] SplinterForQuestionAnswering
+    - forward
+SplinterForPreTraining
+[[autodoc]] SplinterForPreTraining
+    - forward.

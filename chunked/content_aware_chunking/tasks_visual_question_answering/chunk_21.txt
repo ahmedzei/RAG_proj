@@ -1,0 +1,5 @@
+With more examples and longer training, you'll get far better results!
+You can also manually replicate the results of the pipeline if you'd like:
+1. Take an image and a question, prepare them for the model using the processor from your model.
+2. Forward the result or preprocessing through the model.
+3.

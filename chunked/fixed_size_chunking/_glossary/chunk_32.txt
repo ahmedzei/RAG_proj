@@ -1,0 +1,5 @@
+ machine learning models. For example, text is typically preprocessed by tokenization. To gain a better idea of what preprocessing looks like for other input types, check out the Preprocess tutorial.
+pretrained model
+A model that has been pretrained on some data (for instance all of Wikipedia). Pretraining methods involve a
+self-supervised objective, which can be reading the text and trying to predict the next word (see causal language
+modeling) or masking some words and trying to predict them (see masked l

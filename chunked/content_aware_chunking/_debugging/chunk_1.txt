@@ -1,0 +1,6 @@
+These errors depend on how CUDA is installed on your system, and this section focuses on PyTorch built with CUDA 10.2.
+
+For any other installation issues, please open an issue with the DeepSpeed team.
+
+Non-identical CUDA toolkits
+PyTorch comes with its own CUDA toolkit, but to use DeepSpeed with PyTorch, you need to have an identical version of CUDA installed system-wide.

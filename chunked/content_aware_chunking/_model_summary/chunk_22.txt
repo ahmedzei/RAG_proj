@@ -1,0 +1,5 @@
+T5 is a more unique model that casts all NLP tasks into a text-to-text problem using specific prefixes. For example, the prefix Summarize: indicates a summarization task. T5 is pretrained by supervised (GLUE and SuperGLUE) training and self-supervised training (randomly sample and drop out 15% of tokens).
+Audio
+
+Encoder[[audio-encoder]]
+Wav2Vec2 uses a Transformer encoder to learn speech representations directly from raw audio waveforms.

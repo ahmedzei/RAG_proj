@@ -1,0 +1,10 @@
+der the hood).
+This is important because you don't have to allocate memory for the whole dataset
+and you can feed the GPU as fast as possible.
+Since batching could speed things up, it may be useful to try tuning the batch_size parameter here.
+The simplest way to iterate over a dataset is to just load one from 🤗 Datasets:
+
+KeyDataset is a util that will just output the item we're interested in.
+from transformers.pipelines.pt_utils import KeyDataset
+from datasets import load_dataset
+pipe = pipeline(model="hf-

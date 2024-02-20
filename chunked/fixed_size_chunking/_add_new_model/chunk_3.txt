@@ -1,0 +1,5 @@
+ery opinionated library, so there is a
+chance that you don't agree with some of the library's philosophies or design choices. From our experience, however, we
+found that the fundamental design choices and philosophies of the library are crucial to efficiently scale 🤗
+Transformers while keeping maintenance costs at a reasonable level.
+A good first starting point to better understand the library is to read the documentation of our philosophy. As a result of our way of working, there are some choices that we t

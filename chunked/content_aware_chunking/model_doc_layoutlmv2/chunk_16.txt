@@ -1,0 +1,17 @@
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A notebook on how to finetune LayoutLMv2 for text-classification on RVL-CDIP dataset.
+See also: Text classification task guide
+
+A notebook on how to finetune LayoutLMv2 for question-answering on DocVQA dataset.
+See also: Question answering task guide
+See also: Document question answering task guide
+
+A notebook on how to finetune LayoutLMv2 for token-classification on CORD dataset.
+A notebook on how to finetune LayoutLMv2 for token-classification on FUNSD dataset.
+See also: Token classification task guide
+
+Usage: LayoutLMv2Processor
+The easiest way to prepare data for the model is to use [LayoutLMv2Processor], which internally
+combines a image processor ([LayoutLMv2ImageProcessor]) and a tokenizer
+([LayoutLMv2Tokenizer] or [LayoutLMv2TokenizerFast]).

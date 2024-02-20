@@ -1,0 +1,21 @@
+he non-zero-shot setting. LAION-Audio-6
+This model was contributed by Younes Belkada and Arthur Zucker .
+The original code can be found here.
+ClapConfig
+[[autodoc]] ClapConfig
+    - from_text_audio_configs
+ClapTextConfig
+[[autodoc]] ClapTextConfig
+ClapAudioConfig
+[[autodoc]] ClapAudioConfig
+ClapFeatureExtractor
+[[autodoc]] ClapFeatureExtractor
+ClapProcessor
+[[autodoc]] ClapProcessor
+ClapModel
+[[autodoc]] ClapModel
+    - forward
+    - get_text_features
+    - get_audio_features
+ClapTextModel
+[[autodoc]] ClapT

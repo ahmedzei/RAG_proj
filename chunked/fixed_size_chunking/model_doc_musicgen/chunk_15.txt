@@ -1,0 +1,12 @@
+ray"][: len(sample["array"]) // 4]
+take the first half of the audio sample
+sample_2 = sample["array"][: len(sample["array"]) // 2]
+inputs = processor(
+     audio=[sample_1, sample_2],
+     sampling_rate=sample["sampling_rate"],
+     text=["80s blues track with groovy saxophone", "90s rock song with loud guitars and heavy drums"],
+     padding=True,
+     return_tensors="pt",
+ )
+audio_values = model.generate(**inputs, do_sample=True, guidance_scale=3, max_new_tokens=256)
+post-process to remove padding from th

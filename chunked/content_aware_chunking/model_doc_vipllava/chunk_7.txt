@@ -1,0 +1,8 @@
+The assistant gives helpful, detailed, and polite answers to the human's questions.###Human: <image>\n<prompt1>###Assistant: <answer1>###Human: <prompt2>###Assistant:
+The original code can be found here.
+This model was contributed by Younes Belkada
+VipLlavaConfig
+[[autodoc]] VipLlavaConfig
+VipLlavaForConditionalGeneration
+[[autodoc]] VipLlavaForConditionalGeneration
+    - forward.

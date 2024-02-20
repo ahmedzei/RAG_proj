@@ -1,0 +1,15 @@
+```bash
+pip install accelerate
+upgrade
+pip install accelerate --upgrade
+
+This guide provides an overview of the [Trainer] class.
+Basic usage
+[Trainer] includes all the code you'll find in a basic training loop:
+
+perform a training step to calculate the loss
+calculate the gradients with the [~accelerate.Accelerator.backward] method
+update the weights based on the gradients
+repeat this process until you've reached a predetermined number of epochs
+
+The [Trainer] class abstracts all of this code away so you don

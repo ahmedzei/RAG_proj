@@ -1,0 +1,4 @@
+g=True, truncation=STRATEGY, max_length=42)         |
+|                                      | padding to max model input length | Not possible                                                                                |
+|                                      | padding to specific length        | tokenizer(batch_sentences, padding='max_length', truncation=True, max_length=42) or  |
+|                                      |                                   | tokenizer(batch_sentences, padding='max_length

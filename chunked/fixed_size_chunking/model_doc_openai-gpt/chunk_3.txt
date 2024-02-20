@@ -1,0 +1,9 @@
+ hosted by Hugging Face
+showcasing the generative capabilities of several models. GPT is one of them.
+This model was contributed by thomwolf. The original code can be found here.
+Usage tips
+
+GPT is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather than
+  the left.
+GPT was trained with a causal language modeling (CLM) objective and is therefore powerful at predicting the next
+  token in a sequence. Leveraging this feature allows GPT-2 to generate syntacti

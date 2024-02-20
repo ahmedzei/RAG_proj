@@ -1,0 +1,3 @@
+ model is saved. For large models and multiple GPUs, this is an expensive in terms of memory and speed. You should enable it if you're planning on resuming training.
+
+sub_group_size controls which parameters are updated during the optimizer step. Parameters are grouped into buckets of sub_group_size and each bucket is updated one at a time. When used with NVMe offload, sub_group_size determines when model states are moved in and out of CPU memory from during the optimization step. This prevents running out 

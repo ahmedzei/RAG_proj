@@ -1,0 +1,6 @@
+guage modeling, and other text generation tasks. The toolkit is based on PyTorch and supports distributed training across multiple GPUs and machines. We also support fast mixed-precision training and inference on modern GPUs.
+This model was contributed by andreasmaden.
+The original code can be found here.
+Usage tips
+
+The implementation is the same as Roberta except instead of using Add and Norm it does Norm and Add. Add and Norm refers to the Addition and LayerNormalization as described in Attention Is All 

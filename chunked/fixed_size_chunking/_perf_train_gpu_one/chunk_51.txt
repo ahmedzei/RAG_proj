@@ -1,0 +1,7 @@
+of many experts, with a gated function 
+that trains each expert in a balanced way depending on the input token's position in a sequence.
+
+(source: GLAM)
+You can find exhaustive details and comparison tables in the papers listed at the end of this section.
+The main drawback of this approach is that it requires staggering amounts of GPU memory - almost an order of magnitude 
+larger than its dense equivalent. Various distillation and approaches are proposed to how to overcome the much higher memory requirement

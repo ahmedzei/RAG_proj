@@ -1,0 +1,16 @@
+TestCasePlus is best used for such purposes. It's a sub-class of
+unittest.TestCase, so we can easily inherit from it in the test modules.
+Here is an example of its usage:
+thon
+from transformers.testing_utils import TestCasePlus
+class ExamplesTests(TestCasePlus):
+    def test_whatever(self):
+        tmp_dir = self.get_auto_remove_tmp_dir()
+
+This code creates a unique temporary directory, and sets tmp_dir to its location.
+
+Create a unique temporary dir:
+
+python
+def test_whatever(self):
+    tmp_dir = self.get_

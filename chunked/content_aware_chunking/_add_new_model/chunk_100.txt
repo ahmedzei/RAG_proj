@@ -1,0 +1,5 @@
+Hence, the documentation must be understandable and concise. It is very useful for
+the community to add some Tips to show how the model should be used. Don't hesitate to ping the Hugging Face team
+regarding the docstrings.
+Next, make sure that the docstring added to src/transformers/models/brand_new_bert/modeling_brand_new_bert.py is
+correct and included all necessary inputs and outputs. We have a detailed guide about writing documentation and our docstring format here.

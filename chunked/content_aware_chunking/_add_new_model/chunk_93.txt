@@ -1,0 +1,6 @@
+Usually, the tokenizer is equivalent to or very similar to an
+already existing tokenizer of 🤗 Transformers.
+It is very important to find/extract the original tokenizer file and to manage to load this file into the 🤗
+Transformers' implementation of the tokenizer.
+To ensure that the tokenizer works correctly, it is recommended to first create a script in the original repository
+that inputs a string and returns the `input_ids``.

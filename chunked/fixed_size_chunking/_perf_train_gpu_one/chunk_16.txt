@@ -1,0 +1,5 @@
+ariables require this high precision 
+level to achieve accurate results. By reducing the precision of certain variables to lower numerical formats like 16-bit 
+floating point (fp16 or float16), we can speed up the computations. Because in this approach some computations are performed 
+in half-precision, while some are still in full precision, the approach is called mixed precision training.
+Most commonly mixed precision training is achieved by using fp16 (float16) data types, however, some GPU architectures

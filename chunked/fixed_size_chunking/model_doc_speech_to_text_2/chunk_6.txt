@@ -1,0 +1,12 @@
+ecode
+    - save_vocabulary
+Speech2Text2Processor
+[[autodoc]] Speech2Text2Processor
+    - call
+    - from_pretrained
+    - save_pretrained
+    - batch_decode
+    - decode
+Speech2Text2ForCausalLM
+[[autodoc]] Speech2Text2ForCausalLM
+    - forward

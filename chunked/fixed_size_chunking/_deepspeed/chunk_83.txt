@@ -1,0 +1,18 @@
+To deploy on 1 gpu:
+
+deepspeed --num_gpus 1 t0.py
+or:
+python -m torch.distributed.run --nproc_per_node=1 t0.py
+
+To deploy on 2 gpus:
+
+deepspeed --num_gpus 2 t0.py
+or:
+python -m torch.distributed.run --nproc_per_node=2 t0.py
+from transformers import AutoTokenizer, AutoConfig, AutoModelForSeq2SeqLM
+from transformers.integrations import HfDeepSpeedConfig
+import deepspeed
+import os
+import torch
+os.environ["TOKENIZERS_PARALLELISM"] = "false"  # To avoid warnings about parallelism in tokenizers
+distributed setup

@@ -1,0 +1,9 @@
+ents].
+* Define a function to batch examples together, here the [DefaultDataCollator] will do just fine
+* Pass the training arguments to [Trainer] along with the model, dataset, and data collator.
+* Call [~Trainer.train] to finetune your model.
+
+from transformers import AutoModelForDocumentQuestionAnswering
+model = AutoModelForDocumentQuestionAnswering.from_pretrained(model_checkpoint)
+
+In the [TrainingArguments] use output_dir to specify where to save your model, and configure hyperparameters as you see fi

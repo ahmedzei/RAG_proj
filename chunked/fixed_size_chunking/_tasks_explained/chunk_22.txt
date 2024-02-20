@@ -1,0 +1,3 @@
+of queries. Unlike a typical autoregressive model that predicts one element at a time, object detection is a set prediction task (bounding box, class label) that makes N predictions in a single pass.
+
+DETR uses a bipartite matching loss during training to compare a fixed number of predictions with a fixed set of ground truth labels. If there are fewer ground truth labels in the set of N labels, then they're padded with a no object class. This loss function encourages DETR to find a one-to-one assignment bet

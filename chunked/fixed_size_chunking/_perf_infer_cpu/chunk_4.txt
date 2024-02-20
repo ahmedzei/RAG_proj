@@ -1,0 +1,9 @@
+n-time compilation (JIT). Compared to the default eager mode, JIT mode in PyTorch typically yields better performance for inference using optimization techniques like operator fusion.
+For a gentle introduction to TorchScript, see the Introduction to PyTorch TorchScript tutorial.
+With the [Trainer] class, you can enable JIT mode for CPU inference by setting the --jit_mode_eval flag:
+
+python run_qa.py \
+--model_name_or_path csarron/bert-base-uncased-squad-v1 \
+--dataset_name squad \
+--do_eval \
+--max_seq_leng

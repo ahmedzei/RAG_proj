@@ -1,0 +1,18 @@
+For example, to estimate the memory requirements for the bigscience/T0_3B model on a single GPU:
+
+$ python -c 'from transformers import AutoModel; \
+from deepspeed.runtime.zero.stage3 import estimate_zero3_model_states_mem_needs_all_live; \
+model = AutoModel.from_pretrained("bigscience/T0_3B"); \
+estimate_zero3_model_states_mem_needs_all_live(model, num_gpus_per_node=1, num_nodes=1)'
+[]
+Estimated memory needed for params, optim states and gradients for a:
+HW: Setup with 1 node, 1 GPU per node.
+SW: Model with 2783M total params, 65M largest layer params.
+  per CPU  |  per GPU |   Options
+   70.00GB |   0.25GB | offload_param=cpu , offload_optimizer=cpu , zero_init=1
+   70.00GB |   0.25GB | offload_param=cpu , offload_optimizer=cpu , zero_init=0
+   62.23GB |   5.43GB | offload_param=none, offload_optimizer=cpu , zero_init=1
+   62.23GB |   5.43GB | offload_param=none, offload_optimizer=cpu , zero_init=0
+    0.37GB |  46.91GB | offload_param=none, offload_optimizer=none, zero_init=1
+   15.56GB |  46.91GB | offload_param=none, offload_optimizer=none, zero_init=0
+This means you either need a single 80GB GPU without CPU offload or a 8GB GPU and a ~60GB CPU to offload to (these are just the memory requirements for the parameters, optimizer states and gradients, and you'll need a bit more for the CUDA kernels and activations).

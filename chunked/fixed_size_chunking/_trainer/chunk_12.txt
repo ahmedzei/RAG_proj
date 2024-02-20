@@ -1,0 +1,11 @@
+.training_step] performs the training step
+[~Trainer.prediction_step] performs the prediction and test step
+[~Trainer.evaluate] evaluates the model and returns the evaluation metrics
+[~Trainer.predict] makes predictions (with metrics if labels are available) on the test set
+
+For example, if you want to customize the [~Trainer.compute_loss] method to use a weighted loss instead.
+
+from torch import nn
+from transformers import Trainer
+class CustomTrainer(Trainer):
+    def compute_loss(self, model, inputs, retu

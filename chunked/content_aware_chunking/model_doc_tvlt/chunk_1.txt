@@ -1,0 +1,3 @@
+It can perform various audiovisual and vision-language tasks like retrieval, question answering, etc.
+The abstract from the paper is the following:
+In this work, we present the Textless Vision-Language Transformer (TVLT), where homogeneous transformer blocks take raw visual and audio inputs for vision-and-language representation learning with minimal modality-specific design, and do not use text-specific modules such as tokenization or automatic speech recognition (ASR).

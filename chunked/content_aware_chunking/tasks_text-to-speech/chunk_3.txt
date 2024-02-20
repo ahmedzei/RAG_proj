@@ -1,0 +1,1 @@
+Furthermore, SpeechT5 supports multiple speakers through x-vector speaker embeddings.

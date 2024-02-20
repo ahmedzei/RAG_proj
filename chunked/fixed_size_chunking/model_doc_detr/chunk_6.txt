@@ -1,0 +1,6 @@
+ates of the same shape (you can consider
+these as image features). Next, so-called object queries are sent through the decoder. This is a tensor of shape
+(batch_size, num_queries, d_model), with num_queries typically set to 100 and initialized with zeros.
+These input embeddings are learnt positional encodings that the authors refer to as object queries, and similarly to
+the encoder, they are added to the input of each attention layer. Each object query will look for a particular object
+in the image. The dec

@@ -1,0 +1,8 @@
+multi CPU distributed training in the Trainer with the ccl backend, users should add --ddp_backend ccl in the command arguments.
+Let's see an example with the question-answering example
+The following command enables training with 2 processes on one Xeon node, with one process running per one socket. The variables OMP_NUM_THREADS/CCL_WORKER_COUNT can be tuned for optimal performance.
+shell script
+ export CCL_WORKER_COUNT=1
+ export MASTER_ADDR=127.0.0.1
+ mpirun -n 2 -genv OMP_NUM_THREADS=23 \
+ python3 run_qa.

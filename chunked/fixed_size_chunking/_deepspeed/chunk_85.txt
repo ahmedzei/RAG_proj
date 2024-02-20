@@ -1,0 +1,11 @@
+lder GPUs you can enable fp16, but it'll only work for non-bf16 pretrained models - e.g.
+all official t5 models are bf16-pretrained
+
+- set offload_param.device to "none" or completely remove the offload_param section if you don't
+- want CPU offload
+
+- if using offload_param you can manually finetune stage3_param_persistence_threshold to control
+- which params should remain on gpus - the larger the value the smaller the offload size
+
+For in-depth info on Deepspeed config see
+https://huggingface.co/docs/trans

@@ -1,0 +1,3 @@
+Those integration tests essentially do the same as the debugging scripts
+you used earlier to implement the model to 🤗 Transformers. A template of those model tests has already added by the
+Cookiecutter, called BrandNewBertModelIntegrationTests and only has to be filled out by you.

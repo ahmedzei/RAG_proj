@@ -1,0 +1,8 @@
+ead of duplicating an existing resource.
+
+A blog post on Distributed Training: Train BART/T5 for Summarization using 🤗 Transformers and Amazon SageMaker.
+A notebook on how to finetune BART for summarization with fastai using blurr. 🌎
+A notebook on how to finetune BART for summarization in two languages with Trainer class. 🌎
+[BartForConditionalGeneration] is supported by this example script and notebook.
+[TFBartForConditionalGeneration] is supported by this example script and notebook.
+[FlaxBartForConditiona

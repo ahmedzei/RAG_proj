@@ -1,0 +1,15 @@
+ed], you will get a new folder with two files: the config of the model and its weights:
+
+import os
+import tempfile
+with tempfile.TemporaryDirectory() as tmp_dir:
+     model.save_pretrained(tmp_dir)
+     print(sorted(os.listdir(tmp_dir)))
+['config.json', 'pytorch_model.bin']
+
+Now let's use a maximum shard size of 200MB:
+
+with tempfile.TemporaryDirectory() as tmp_dir:
+     model.save_pretrained(tmp_dir, max_shard_size="200MB")
+     print(sorted(os.listdir(tmp_dir)))
+['config.json', 'pytorch_model-00001-of-000

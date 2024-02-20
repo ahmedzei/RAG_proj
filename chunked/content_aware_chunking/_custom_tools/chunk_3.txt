@@ -1,0 +1,9 @@
+This allows the agent to have access to past interactions,
+seemingly giving the agent some kind of memory.
+Structure of the prompt
+Let's take a closer look at how the prompt is structured to understand how it can be best customized.
+The prompt is structured broadly into four parts.
+
+Introduction: how the agent should behave, explanation of the concept of tools.
+
+Description of all the tools.

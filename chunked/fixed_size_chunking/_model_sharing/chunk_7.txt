@@ -1,0 +1,9 @@
+= FlaxDistilBertForSequenceClassification.from_pretrained(
+     "path/to/awesome-name-you-picked", from_pt=True
+ )
+
+Push a model during training
+
+Sharing a model to the Hub is as simple as adding an extra parameter or callback. Remember from the fine-tuning tutorial, the [TrainingArguments] class is where you specify hyperparameters and additional training options. One of these training options includes the ability to push a model directly to the Hub. Set push_to_hub=True in your [TrainingArguments]:
+
+train

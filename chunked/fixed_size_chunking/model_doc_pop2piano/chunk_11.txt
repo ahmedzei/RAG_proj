@@ -1,0 +1,12 @@
+load("", sr=44100)
+model = Pop2PianoForConditionalGeneration.from_pretrained("sweetcocoa/pop2piano")
+feature_extractor = Pop2PianoFeatureExtractor.from_pretrained("sweetcocoa/pop2piano")
+tokenizer = Pop2PianoTokenizer.from_pretrained("sweetcocoa/pop2piano")
+inputs = feature_extractor(
+     audio=[audio1, audio2], 
+     sampling_rate=[sr1, sr2], 
+     return_attention_mask=True, 
+     return_tensors="pt",
+ )
+Since we now generating in batch(2 audios) we must pass the attention_mask
+model_output = model.gener

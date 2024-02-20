@@ -1,0 +1,15 @@
+ing considerable domain overlap. You can check out this checkpoint which was obtained by fine-tuning MCG-NJU/videomae-base-finetuned-kinetics.  
+Prepare the datasets for training
+For preprocessing the videos, you will leverage the PyTorchVideo library. Start by importing the dependencies we need. 
+ 
+
+import pytorchvideo.data
+from pytorchvideo.transforms import (
+     ApplyTransformToKey,
+     Normalize,
+     RandomShortSideScale,
+     RemoveKey,
+     ShortSideScale,
+     UniformTemporalSubsample,
+ )
+from to

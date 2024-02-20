@@ -1,0 +1,11 @@
+We release the models and code to accelerate future work on scientific text recognition.
+
+ Nougat high-level overview. Taken from the original paper. 
+This model was contributed by nielsr. The original code can be found
+here.
+Usage tips
+
+The quickest way to get started with Nougat is by checking the tutorial
+  notebooks, which show how to use the model
+  at inference time as well as fine-tuning on custom data.
+Nougat is always used within the VisionEncoderDecoder framework.

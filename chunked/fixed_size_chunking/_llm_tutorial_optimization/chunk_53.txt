@@ -1,0 +1,4 @@
+e position of each token into a numerical presentation that the LLM can leverage to better understand sentence order.
+The authors of the Attention Is All You Need paper introduced sinusoidal positional embeddings \( \mathbf{P} = \mathbf{p}_1, \ldots, \mathbf{p}_N \) .
+where each vector \( \mathbf{p}_i \) is computed as a sinusoidal function of its position \( i \) .
+The positional encodings are then simply added to the input sequence vectors \( \mathbf{\hat{X}} = \mathbf{\hat{x}}_1, \ldots, \mathbf{\hat{x}}

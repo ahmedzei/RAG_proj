@@ -1,0 +1,5 @@
+, max_length=100)
+generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)
+for i, t in enumerate(generated_text):
+     print(f"{i}:\n{t}\n")
+

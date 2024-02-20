@@ -1,0 +1,10 @@
+ that a match has been found, and the function will record the match, its starting index (idx),
+and its ending index (idx + len(answer_list) - 1). If more than one match was found, the function will return only the first one.
+If no match is found, the function returns (None, 0, and 0).
+
+def subfinder(words_list, answer_list):
+     matches = []
+     start_indices = []
+     end_indices = []
+     for idx, i in enumerate(range(len(words_list))):
+         if words_list[i] == answer_list[0] and words_list[i : i +

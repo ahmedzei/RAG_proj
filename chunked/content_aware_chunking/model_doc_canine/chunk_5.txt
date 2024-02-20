@@ -1,0 +1,5 @@
+First, a "shallow" encoder is used to contextualize
+  the character embeddings, using local attention. Next, after downsampling, a "deep" encoder is applied. Finally,
+  after upsampling, a "shallow" encoder is used to create the final character embeddings. Details regarding up- and
+  downsampling can be found in the paper.
+CANINE uses a max sequence length of 2048 characters by default.

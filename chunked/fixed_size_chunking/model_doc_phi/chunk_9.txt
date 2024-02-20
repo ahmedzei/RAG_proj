@@ -1,0 +1,7 @@
+odelForCausalLM.from_pretrained("microsoft/phi-2")
+tokenizer = AutoTokenizer.from_pretrained("microsoft/phi-2")
+inputs = tokenizer('Can you help me write a formal email to a potential business partner proposing a joint venture?', return_tensors="pt", return_attention_mask=False)
+outputs = model.generate(**inputs, max_length=30)
+text = tokenizer.batch_decode(outputs)[0]
+print(text)
+'Can you help me write a formal email to a potential business partner proposing a joint venture?\nInput: Company A: ABC Inc.\nCo

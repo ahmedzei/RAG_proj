@@ -1,0 +1,6 @@
+is not jitted when
+  running the forward pass, e.g. check-out this link.
+Use the smallest pretrained checkpoint you can find. The smaller the checkpoint, the faster your debug cycle
+  becomes. It is not efficient if your pretrained model is so big that your forward pass takes more than 10 seconds.
+  In case only very large checkpoints are available, it might make more sense to create a dummy model in the new
+  environment with randomly initialized weights and save those weights for comparison with the 🤗 Tra

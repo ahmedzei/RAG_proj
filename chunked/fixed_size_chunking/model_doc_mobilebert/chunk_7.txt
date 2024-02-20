@@ -1,0 +1,18 @@
+kedLM
+[[autodoc]] TFMobileBertForMaskedLM
+    - call
+TFMobileBertForNextSentencePrediction
+[[autodoc]] TFMobileBertForNextSentencePrediction
+    - call
+TFMobileBertForSequenceClassification
+[[autodoc]] TFMobileBertForSequenceClassification
+    - call
+TFMobileBertForMultipleChoice
+[[autodoc]] TFMobileBertForMultipleChoice
+    - call
+TFMobileBertForTokenClassification
+[[autodoc]] TFMobileBertForTokenClassification
+    - call
+TFMobileBertForQuestionAnswering
+[[autodoc]] TFMobileBertForQuestionAnswering
+    - c

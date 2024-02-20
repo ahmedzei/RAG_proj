@@ -1,0 +1,4 @@
+The model is illustrated in the following figure:
+
+The abstract from the paper is the following:
+We propose an efficient design of Transformer-based models for multivariate time series forecasting and self-supervised representation learning.

@@ -1,0 +1,9 @@
+ause DeepSpeed's state_dict contains a placeholder instead of the real weights and you won't be able to load them.
+yaml
+{
+    "zero_optimization": {
+        "stage3_gather_16bit_weights_on_model_save": true
+    }
+}
+
+The full precision weights shouldn't be saved during training because it can require a lot of memory. It is usually best to save the fp32 weights offline after training is complete. But if you have a lot of free CPU memory, it is possible to save the fp32 weights during training. This section co

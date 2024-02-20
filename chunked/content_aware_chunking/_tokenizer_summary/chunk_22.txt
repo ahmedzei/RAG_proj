@@ -1,0 +1,6 @@
+Again the pair is merged and "hug" can be added to the vocabulary.
+At this stage, the vocabulary is ["b", "g", "h", "n", "p", "s", "u", "ug", "un", "hug"] and our set of unique words
+is represented as
+("hug", 10), ("p" "ug", 5), ("p" "un", 12), ("b" "un", 4), ("hug" "s", 5)
+Assuming, that the Byte-Pair Encoding training would stop at this point, the learned merge rules would then be applied
+to new words (as long as those new words do not include symbols that were not in the base vocabulary).

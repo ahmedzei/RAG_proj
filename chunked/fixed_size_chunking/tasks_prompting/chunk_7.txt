@@ -1,0 +1,6 @@
+ints available on 🤗 Hub come in two versions: base and instruct (or chat). For example, 
+tiiuae/falcon-7b and tiiuae/falcon-7b-instruct.
+Base models are excellent at completing the text when given an initial prompt, however, they are not ideal for NLP tasks 
+where they need to follow instructions, or for conversational use. This is where the instruct (chat) versions come in. 
+These checkpoints are the result of further fine-tuning of the pre-trained base versions on instructions and conversational data. 
+Th

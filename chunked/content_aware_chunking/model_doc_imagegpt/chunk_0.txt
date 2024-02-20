@@ -1,0 +1,4 @@
+ImageGPT
+Overview
+The ImageGPT model was proposed in Generative Pretraining from Pixels by Mark
+Chen, Alec Radford, Rewon Child, Jeffrey Wu, Heewoo Jun, David Luan, Ilya Sutskever.

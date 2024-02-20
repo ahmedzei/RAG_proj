@@ -1,0 +1,3 @@
+The method results in significant improvements for transfer learning.
+The abstract from the paper is the following:
+Transfer of pre-trained representations improves sample efficiency and simplifies hyperparameter tuning when training deep neural networks for vision. We revisit the paradigm of pre-training on large supervised datasets and fine-tuning the model on a target task. We scale up pre-training, and propose a simple recipe that we call Big Transfer (BiT).

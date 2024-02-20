@@ -1,0 +1,11 @@
+     use_cache=True,
+     bad_words_ids=[[processor.tokenizer.unk_token_id]],
+     return_dict_in_generate=True,
+ )
+sequence = processor.batch_decode(outputs.sequences)[0]
+sequence = sequence.replace(processor.tokenizer.eos_token, "").replace(processor.tokenizer.pad_token, "")
+sequence = re.sub(r"<.*?>", "", sequence, count=1).strip()  # remove first task start token
+print(processor.token2json(sequence))
+{'question': 'When is the coffee break?', 'answer': '11-14 to 11:39 a.m.'}
+
+See the model hub to look fo

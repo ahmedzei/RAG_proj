@@ -1,0 +1,16 @@
+references=decoded_labels)
+    return {"wer_score": wer_score}
+
+Train!
+Now, you are ready to start fine-tuning the model. You will use the 🤗 [Trainer] for this. 
+First, define the training arguments using [TrainingArguments].
+thon
+from transformers import TrainingArguments, Trainer
+model_name = checkpoint.split("/")[1]
+training_args = TrainingArguments(
+    output_dir=f"{model_name}-pokemon",
+    learning_rate=5e-5,
+    num_train_epochs=50,
+    fp16=True,
+    per_device_train_batch_size=32,
+    per_device_e

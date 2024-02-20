@@ -1,0 +1,6 @@
+Refer to the original implementation for
+  more information.
+CTRL is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather than
+  the left.
+CTRL was trained with a causal language modeling (CLM) objective and is therefore powerful at predicting the next
+  token in a sequence.

@@ -1,0 +1,18 @@
+gs as an additional input.
+
+def prepare_dataset(example):
+     audio = example["audio"]
+
+     example = processor(
+         text=example["normalized_text"],
+         audio_target=audio["array"],
+         sampling_rate=audio["sampling_rate"],
+         return_attention_mask=False,
+     )
+     # strip off the batch dimension
+     example["labels"] = example["labels"][0]
+     # use SpeechBrain to obtain x-vector
+     example["speaker_embeddings"] = create_speaker_embedding(audio["array"])
+     return example
+
+V

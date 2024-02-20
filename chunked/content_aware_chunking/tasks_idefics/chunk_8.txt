@@ -1,0 +1,7 @@
+A common application is to aid visually impaired 
+people navigate through different situations, for instance, explore image content online. 
+To illustrate the task, get an image to be captioned, e.g.:
+
+Photo by Hendo Wang. 
+IDEFICS accepts text and image prompts. However, to caption an image, you do not have to provide a text prompt to the 
+model, only the preprocessed input image.

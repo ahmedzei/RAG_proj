@@ -1,0 +1,12 @@
+-t5/t5-small"
+tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+
+The preprocessing function you want to create needs to:
+
+Prefix the input with a prompt so T5 knows this is a summarization task. Some models capable of multiple NLP tasks require prompting for specific tasks.
+Use the keyword text_target argument when tokenizing labels.
+Truncate sequences to be no longer than the maximum length set by the max_length parameter.
+
+prefix = "summarize: "
+def preprocess_function(examples):
+     inputs = [prefix

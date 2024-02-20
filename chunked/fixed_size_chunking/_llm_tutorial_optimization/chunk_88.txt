@@ -1,0 +1,4 @@
+l capacity and thus arguably less performance.
+Moreover, the authors of GQA found out that existing model checkpoints can be uptrained to have a GQA architecture with as little as 5% of the original pre-training compute. While 5% of the original pre-training compute can still be a massive amount, GQA uptraining allows existing checkpoints to be useful for longer input sequences.
+GQA was only recently proposed which is why there is less adoption at the time of writing this notebook.
+The most notable applicat

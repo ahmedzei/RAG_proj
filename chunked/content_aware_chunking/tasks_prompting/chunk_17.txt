@@ -1,0 +1,7 @@
+However, decoder-style models can be used for this task as well.
+Previously, we have placed the instructions at the very beginning of the prompt. However, the very end of the prompt can 
+also be a suitable location for instructions. Typically, it's better to place the instruction on one of the extreme ends.  
+thon
+
+torch.manual_seed(3) # doctest: +IGNORE_RESULT
+prompt = """Permaculture is a design process mimicking the diversity, functionality and resilience of natural ecosystems.

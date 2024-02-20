@@ -1,0 +1,6 @@
+ssion method. It quantizes multiple weights together and take advantage of interdependencies between them. AQLM represents groups of 8-16 weights as a sum of multiple vector codes.
+Inference support for AQLM is realised in the aqlm library. Make sure to install it to run the models (note aqlm works only with python>=3.10):
+
+pip install aqlm[gpu,cpu]
+The library provides efficient kernels for both GPU and CPU inference.
+The instructions on how to quantize models yourself, as well as all the relevant code can

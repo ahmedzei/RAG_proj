@@ -1,0 +1,9 @@
+
+RAG
+
+Overview
+Retrieval-augmented generation ("RAG") models combine the powers of pretrained dense retrieval (DPR) and
+sequence-to-sequence models. RAG models retrieve documents, pass them to a seq2seq model, then marginalize to generate
+outputs. The retriever and seq2seq modules are initialized from pretrained models, and fine-tuned jointly, allowing
+both retrieval and generation to adapt to downstream tasks.
+It is based on the paper Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks by Patr

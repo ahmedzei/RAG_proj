@@ -1,0 +1,18 @@
+w this notebook. 
+thon
+from datasets import load_dataset
+ds = load_dataset("lambdalabs/pokemon-blip-captions")
+ds
+bash
+DatasetDict({
+    train: Dataset({
+        features: ['image', 'text'],
+        num_rows: 833
+    })
+})
+
+The dataset has two features, image and text.
+
+Many image captioning datasets contain multiple captions per image. In those cases, a common strategy is to randomly sample a caption amongst the available ones during training. 
+
+Split the dataset’s train split into a train and test set wit

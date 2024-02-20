@@ -1,0 +1,4 @@
+Two general ways computer vision tasks can be solved are:
+
+Use convolutions to learn the hierarchical features of an image from low-level features to high-level abstract things.
+Split an image into patches and use a Transformer to gradually learn how each image patch is related to each other to form an image.

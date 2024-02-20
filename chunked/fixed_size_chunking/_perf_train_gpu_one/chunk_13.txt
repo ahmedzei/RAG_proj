@@ -1,0 +1,5 @@
+his is because there are other components that also require memory storage.
+Saving all activations from the forward pass in order to compute the gradients during the backward pass can result in 
+significant memory overhead. The alternative approach of discarding the activations and recalculating them when needed 
+during the backward pass, would introduce a considerable computational overhead and slow down the training process.
+Gradient checkpointing offers a compromise between these two approaches and saves

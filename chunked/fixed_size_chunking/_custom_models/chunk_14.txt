@@ -1,0 +1,10 @@
+this model.
+
+You can have your model return anything you want, but returning a dictionary like we did for
+ResnetModelForImageClassification, with the loss included when labels are passed, will make your model directly
+usable inside the [Trainer] class. Using another output format is fine as long as you are planning on using your own
+training loop or another library for training.
+Now that we have our model class, let's create one:
+py
+resnet50d = ResnetModelForImageClassification(resnet50d_config)
+Again, you 

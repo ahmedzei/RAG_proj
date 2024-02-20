@@ -1,0 +1,28 @@
+First, we set up a few standard training 
+arguments:
+py
+default_args = {
+    "output_dir": "tmp",
+    "evaluation_strategy": "steps",
+    "num_train_epochs": 1,
+    "log_level": "error",
+    "report_to": "none",
+}
+
+If you plan to run multiple experiments, in order to properly clear the memory between experiments, restart the Python 
+ kernel between experiments.
+
+Memory utilization at vanilla training
+Let's use the [Trainer] and train the model without using any GPU performance optimization techniques and a batch size of 4:
+
+from transformers import TrainingArguments, Trainer, logging
+logging.set_verbosity_error()
+training_args = TrainingArguments(per_device_train_batch_size=4, **default_args)
+trainer = Trainer(model=model, args=training_args, train_dataset=ds)
+result = trainer.train()
+print_summary(result)
+
+Time: 57.82
+Samples/second: 8.86
+GPU memory occupied: 14949 MB.
+We see that already a relatively small batch size almost fills up our GPU's entire memory.

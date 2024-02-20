@@ -1,0 +1,8 @@
+Follow the installation instructions below for the deep learning library you are using:
+
+PyTorch installation instructions.
+TensorFlow 2.0 installation instructions.
+Flax installation instructions.
+
+Install with pip
+You should install 🤗 Transformers in a virtual environment. If you're unfamiliar with Python virtual environments, take a look at this guide.

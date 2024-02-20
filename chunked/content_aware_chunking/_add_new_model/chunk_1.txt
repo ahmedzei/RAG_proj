@@ -1,0 +1,12 @@
+At Hugging Face, we're trying to empower more of the community to actively add models and we've put together this guide to walk you through the process of adding a PyTorch model (make sure you have PyTorch installed).
+
+If you're interested in implementing a TensorFlow model, take a look at the How to convert a 🤗 Transformers model to TensorFlow guide!
+
+Along the way, you'll:
+
+get insights into open-source best practices
+understand the design principles behind one of the most popular deep learning libraries
+learn how to efficiently test large models
+learn how to integrate Python utilities like black, ruff, and make fix-copies to ensure clean and readable code
+
+A Hugging Face team member will be available to help you along the way so you'll never be alone.

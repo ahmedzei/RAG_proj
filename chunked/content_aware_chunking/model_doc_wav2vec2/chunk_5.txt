@@ -1,0 +1,8 @@
+🌎
+[Wav2Vec2ForCTC] is supported by this example script and notebook.
+Audio classification task guide
+
+A blog post on boosting Wav2Vec2 with n-grams in 🤗 Transformers.
+A blog post on how to finetune Wav2Vec2 for English ASR with 🤗 Transformers.
+A blog post on finetuning XLS-R for Multi-Lingual ASR with 🤗 Transformers.
+A notebook on how to create YouTube captions from any video by transcribing audio with Wav2Vec2.

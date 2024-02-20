@@ -1,0 +1,10 @@
+n.allow_tf32 = True
+CUDA will automatically switch to using tf32 instead of fp32 where possible, assuming that the used GPU is from the Ampere series.
+According to NVIDIA research, the 
+majority of machine learning training workloads show the same perplexity and convergence with tf32 training as with fp32. 
+If you're already using fp16 or bf16 mixed precision it may help with the throughput as well.
+You can enable this mode in the 🤗 Trainer:
+python
+TrainingArguments(tf32=True, **default_args)
+
+tf32 can't be

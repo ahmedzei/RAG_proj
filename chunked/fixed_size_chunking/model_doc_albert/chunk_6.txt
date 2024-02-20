@@ -1,0 +1,13 @@
+ld ideally demonstrate something new instead of duplicating an existing resource.
+
+[AlbertForSequenceClassification] is supported by this example script.
+
+[TFAlbertForSequenceClassification] is supported by this example script.
+
+[FlaxAlbertForSequenceClassification] is supported by this example script and notebook.
+
+Check the Text classification task guide on how to use the model.
+
+[AlbertForTokenClassification] is supported by this example script.
+
+[TFAlbertForTokenClassification] is supported by this exam

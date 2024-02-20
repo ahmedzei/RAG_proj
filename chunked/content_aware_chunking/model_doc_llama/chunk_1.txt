@@ -1,0 +1,3 @@
+It is a collection of foundation language models ranging from 7B to 65B parameters.
+The abstract from the paper is the following:
+*We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters. We train our models on trillions of tokens, and show that it is possible to train state-of-the-art models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets.

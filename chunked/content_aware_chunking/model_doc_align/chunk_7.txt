@@ -1,0 +1,2 @@
+The dot product between the projected image and text features is then used as a similarity score.
+[AlignProcessor] wraps [EfficientNetImageProcessor] and [BertTokenizer] into a single instance to both encode the text and preprocess the images.

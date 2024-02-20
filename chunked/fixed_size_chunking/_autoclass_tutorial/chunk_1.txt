@@ -1,0 +1,5 @@
+ Producing this type of checkpoint-agnostic code means if your code works for one checkpoint, it will work with another checkpoint - as long as it was trained for a similar task - even if the architecture is different.
+
+Remember, architecture refers to the skeleton of the model and checkpoints are the weights for a given architecture. For example, BERT is an architecture, while google-bert/bert-base-uncased is a checkpoint. Model is a general term that can mean either architecture or checkpoint.
+
+In this tu

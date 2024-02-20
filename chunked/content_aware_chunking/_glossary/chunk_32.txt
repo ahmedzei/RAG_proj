@@ -1,0 +1,18 @@
+175 billion for GPT-3).
+M
+masked language modeling (MLM)
+A pretraining task where the model sees a corrupted version of the texts, usually done by
+masking some tokens randomly, and has to predict the original text.
+multimodal
+A task that combines texts with another kind of inputs (for instance images).
+N
+Natural language generation (NLG)
+All tasks related to generating text (for instance, Write With Transformers, translation).
+Natural language processing (NLP)
+A generic way to say "deal with texts".
+Natural language understanding (NLU)
+All tasks related to understanding what is in a text (for instance classifying the
+whole text, individual words).
+P
+pipeline
+A pipeline in 🤗 Transformers is an abstraction referring to a series of steps that are executed in a specific order to preprocess and transform data and return a prediction from a model.

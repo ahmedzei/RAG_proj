@@ -1,0 +1,5 @@
+n one example. 
+Limitations of the few-shot prompting technique: 
+- While LLMs can pick up on the patterns in the examples, these technique doesn't work well on complex reasoning tasks
+- Few-shot prompting requires creating lengthy prompts. Prompts with large number of tokens can increase computation and latency. There's also a limit to the length of the prompts.
+- Sometimes when given a number of examples, models can learn patterns that you didn't intend them to learn, e.g. that the third movie review is a

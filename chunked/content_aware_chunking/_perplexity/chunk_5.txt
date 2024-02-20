@@ -1,0 +1,8 @@
+When evaluating the model's perplexity of a
+sequence, a tempting but suboptimal approach is to break the sequence into disjoint chunks and add up the decomposed
+log-likelihoods of each segment independently.
+
+This is quick to compute since the perplexity of each segment can be computed in one forward pass, but serves as a poor
+approximation of the fully-factorized perplexity and will typically yield a higher (worse) PPL because the model will
+have less context at most of the prediction steps.
+Instead, the PPL of fixed-length models should be evaluated with a sliding-window strategy.

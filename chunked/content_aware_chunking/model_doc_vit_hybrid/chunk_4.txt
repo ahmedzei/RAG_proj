@@ -1,0 +1,5 @@
+When pre-trained on large amounts of
+data and transferred to multiple mid-sized or small image recognition benchmarks (ImageNet, CIFAR-100, VTAB, etc.),
+Vision Transformer (ViT) attains excellent results compared to state-of-the-art convolutional networks while requiring
+substantially fewer computational resources to train.
+This model was contributed by nielsr.

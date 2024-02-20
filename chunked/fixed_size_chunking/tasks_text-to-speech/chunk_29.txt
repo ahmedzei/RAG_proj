@@ -1,0 +1,12 @@
+ctor 2. In other words, it throws away every 
+other timestep from the target sequence. The decoder then predicts a sequence that is twice as long. Since the original 
+target sequence length may be odd, the data collator makes sure to round the maximum length of the batch down to be a 
+multiple of 2.
+ 
+
+data_collator = TTSDataCollatorWithPadding(processor=processor)
+
+Train the model
+Load the pre-trained model from the same checkpoint as you used for loading the processor: 
+
+from transformers import SpeechT5F

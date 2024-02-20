@@ -1,0 +1,7 @@
+Refer to BERT documentation 
+for API reference and examples.  
+
+HerbertTokenizer
+[[autodoc]] HerbertTokenizer
+HerbertTokenizerFast
+[[autodoc]] HerbertTokenizerFast.

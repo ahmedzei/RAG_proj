@@ -1,0 +1,15 @@
+For example, to save the model on a CPU:
+
+quantized_model.save_pretrained("opt-125m-gptq")
+tokenizer.save_pretrained("opt-125m-gptq")
+if quantized with device_map set
+quantized_model.to("cpu")
+quantized_model.save_pretrained("opt-125m-gptq")
+
+Reload a quantized model with the [~PreTrainedModel.from_pretrained] method, and set device_map="auto" to automatically distribute the model on all available GPUs to load the model faster without using more memory than needed.
+
+from transformers import AutoModelForCausalLM
+model = AutoModelForCausalLM.from_pretrained("{your_username}/opt-125m-gptq", device_map="auto")
+
+ExLlama
+ExLlama is a Python/C++/CUDA implementation of the Llama model that is designed for faster inference with 4-bit GPTQ weights (check out these benchmarks).

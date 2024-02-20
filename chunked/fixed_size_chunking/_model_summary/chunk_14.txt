@@ -1,0 +1,2 @@
+f the text is only sometimes accurate or true. But GPT-2 lacked the bidirectional context from BERT's pretraining, which made it unsuitable for certain tasks. XLNET combines the best of both BERT and GPT-2's pretraining objectives by using a permutation language modeling objective (PLM) that allows it to learn bidirectionally.
+After GPT-2, language models grew even bigger and are now known as large language models (LLMs). LLMs demonstrate few- or even zero-shot learning if pretrained on a large enough datas

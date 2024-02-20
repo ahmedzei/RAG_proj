@@ -1,0 +1,7 @@
+ be loaded by Hugging Face Transformers and our port of the BERT code.
+The following commands allow you to do the conversion. We assume that the folder models/megatron_bert contains
+megatron_bert_345m_v0_1_{cased, uncased}.zip and that the commands are run from inside that folder:
+
+python3 $PATH_TO_TRANSFORMERS/models/megatron_bert/convert_megatron_bert_checkpoint.py megatron_bert_345m_v0_1_uncased.zip
+
+python3 $PATH_TO_TRANSFORMERS/models/megatron_bert/convert_megatron_bert_checkpoint.py megatron_bert_345m

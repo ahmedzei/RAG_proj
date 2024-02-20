@@ -1,0 +1,9 @@
+to the original BERT. We also use a
+self-supervised loss that focuses on modeling inter-sentence coherence, and show it consistently helps downstream tasks
+with multi-sentence inputs. As a result, our best model establishes new state-of-the-art results on the GLUE, RACE, and
+SQuAD benchmarks while having fewer parameters compared to BERT-large.
+This model was contributed by lysandre. This model jax version was contributed by
+kamalkraj. The original code can be found here.
+Usage tips
+
+ALBERT is a model with 

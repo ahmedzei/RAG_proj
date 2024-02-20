@@ -1,0 +1,4 @@
+The abstract from the paper is the following:
+Transformer-based models are widely used in natural language processing (NLP). Central to the transformer model is 
+the self-attention mechanism, which captures the interactions of token pairs in the input sequences and depends quadratically 
+on the sequence length. Training such models on longer sequences is expensive.

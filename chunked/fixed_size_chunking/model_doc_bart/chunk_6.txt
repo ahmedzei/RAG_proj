@@ -1,0 +1,8 @@
+ensors="pt")
+generated_ids = model.generate(batch["input_ids"])
+assert tok.batch_decode(generated_ids, skip_special_tokens=True) == [
+    "UN Chief Says There Is No Plan to Stop Chemical Weapons in Syria"
+]
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with BART. If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new inst

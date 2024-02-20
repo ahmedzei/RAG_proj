@@ -1,0 +1,5 @@
+The authors' code can be found here.
+Generating with NLLB
+While generating the target text set the forced_bos_token_id to the target language id. The following
+example shows how to translate English to French using the facebook/nllb-200-distilled-600M model.
+Note that we're using the BCP-47 code for French fra_Latn.

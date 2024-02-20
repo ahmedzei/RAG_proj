@@ -1,0 +1,8 @@
+k token with probability 0.8
+a random token different from the one masked with probability 0.1
+the same token with probability 0.1
+
+The model must predict the original sentence, but has a second objective: inputs are two sentences A and B (with a separation token in between). With probability 50%, the sentences are consecutive in the corpus, in the remaining 50% they are not related. The model has to predict if the sentences are consecutive or not.
+
+Resources
+A list of official Hugging Face and community (i

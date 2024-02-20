@@ -1,0 +1,7 @@
+These models can be safely exported without the torchscript flag.
+Dummy inputs and standard lengths
+The dummy inputs are used for a models forward pass. While the inputs' values are
+propagated through the layers, PyTorch keeps track of the different operations executed
+on each tensor. These recorded operations are then used to create the trace of the
+model.
+The trace is created relative to the inputs' dimensions.

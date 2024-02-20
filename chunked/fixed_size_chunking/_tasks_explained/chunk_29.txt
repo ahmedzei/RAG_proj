@@ -1,0 +1,5 @@
+or inference!
+Depth estimation
+GLPN, Global-Local Path Network, is a Transformer for depth estimation that combines a SegFormer encoder with a lightweight decoder.
+
+Like ViT, an image is split into a sequence of patches, except these image patches are smaller. This is better for dense prediction tasks like segmentation or depth estimation. The image patches are transformed into patch embeddings (see the image classification section for more details about how patch embeddings are created), which are fed to t

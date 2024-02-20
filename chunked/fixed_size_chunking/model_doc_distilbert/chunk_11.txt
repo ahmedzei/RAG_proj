@@ -1,0 +1,8 @@
+istilBERT with Amazon SageMaker.
+A blog post on how to Deploy BERT with Hugging Face Transformers, Amazon SageMaker and Terraform module.
+
+Combining DistilBERT and Flash Attention 2
+First, make sure to install the latest version of Flash Attention 2 to include the sliding window attention feature.
+
+pip install -U flash-attn --no-build-isolation
+Make also sure that you have a hardware that is compatible with Flash-Attention 2. Read more about it in the official documentation of flash-attn repository. Make al

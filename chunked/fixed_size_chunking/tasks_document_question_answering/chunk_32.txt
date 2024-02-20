@@ -1,0 +1,8 @@
+g is typically evaluated using F1/exact match.
+If you'd like to implement it yourself, check out the Question Answering chapter
+of the Hugging Face course for inspiration.
+Train
+Congratulations! You've successfully navigated the toughest part of this guide and now you are ready to train your own model.
+Training involves the following steps:
+* Load the model with [AutoModelForDocumentQuestionAnswering] using the same checkpoint as in the preprocessing.
+* Define your training hyperparameters in [TrainingArgum

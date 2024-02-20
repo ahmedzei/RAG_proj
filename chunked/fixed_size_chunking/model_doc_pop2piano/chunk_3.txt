@@ -1,0 +1,11 @@
+sent Pop2Piano, a Transformer network
+that generates piano covers given waveforms of pop music. To the best
+of our knowledge, this is the first model to generate a piano cover
+directly from pop audio without using melody and chord extraction
+modules. We show that Pop2Piano, trained with our dataset, is capable
+of producing plausible piano covers.
+This model was contributed by Susnato Dhar.
+The original code can be found here.
+Usage tips
+
+To use Pop2Piano, you will need to install the 🤗 Transformers library,

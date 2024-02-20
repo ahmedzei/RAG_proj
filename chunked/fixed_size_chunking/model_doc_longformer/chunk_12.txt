@@ -1,0 +1,15 @@
+[[autodoc]] TFLongformerForMaskedLM
+    - call
+TFLongformerForQuestionAnswering
+[[autodoc]] TFLongformerForQuestionAnswering
+    - call
+TFLongformerForSequenceClassification
+[[autodoc]] TFLongformerForSequenceClassification
+    - call
+TFLongformerForTokenClassification
+[[autodoc]] TFLongformerForTokenClassification
+    - call
+TFLongformerForMultipleChoice
+[[autodoc]] TFLongformerForMultipleChoice
+    - call
+

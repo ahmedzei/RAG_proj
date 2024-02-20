@@ -1,0 +1,6 @@
+You can check out demo notebooks regarding inference as well as
+  fine-tuning on custom data here (you can just replace
+  [ViTFeatureExtractor] by [BeitImageProcessor] and
+  [ViTForImageClassification] by [BeitForImageClassification]).
+There's also a demo notebook available which showcases how to combine DALL-E's image tokenizer with BEiT for
+  performing masked image modeling.

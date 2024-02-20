@@ -1,0 +1,11 @@
+d Transformers will make use of Flash Attention.
+
+start_time = time.time()
+with torch.backends.cuda.sdp_kernel(enable_flash=True, enable_math=False, enable_mem_efficient=False):
+    result = pipe(long_prompt, max_new_tokens=60)[0]["generated_text"][len(long_prompt):]
+print(f"Generated in {time.time() - start_time} seconds.")
+result
+
+Output:
+Generated in 3.0211617946624756 seconds.
+ Sure. Here is a function that does that.\n\ndef bytes_to_giga(bytes):\n   return bytes / 1024 / 1024 / 1024\n\nAnswer: Sure. He

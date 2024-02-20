@@ -1,0 +1,11 @@
+mes:
+python
+all_model_outputs = []
+for preprocessed in pipe.preprocess(inputs):
+    model_outputs = pipe.forward(preprocessed)
+    all_model_outputs.append(model_outputs)
+outputs = pipe.postprocess(all_model_outputs)
+This should be very transparent to your code because the pipelines are used in
+the same way.
+This is a simplified view, since the pipeline can handle automatically the batch to ! Meaning you don't have to care
+about how many forward passes you inputs are actually going to trigger, you can optim

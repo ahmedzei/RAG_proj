@@ -1,0 +1,3 @@
+81 million inhabitants" is then auto-regressively generated with the key-value cache consisting of encoded key-value vectors of "User: How many people live in France? \n Assistant: Roughly 75 million people live in France \n User: And how many are in Germany?".
+Two things should be noted here:
+  1. Keeping all the context is crucial for LLMs deployed in chat so that the LLM understands all the previous context of the conversation. E.g.

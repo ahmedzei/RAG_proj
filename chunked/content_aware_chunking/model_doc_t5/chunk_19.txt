@@ -1,0 +1,2 @@
+Typically, 1e-4 and 3e-4 work well for most problems (classification, summarization, translation, question
+answering, question generation).

@@ -1,0 +1,6 @@
+                        |
+| Mixed precision training      | Yes                     | (No)                         |
+| Optimizer choice                      | Yes                     | Yes                          |
+| Data preloading                        | Yes                     | No                           |
+| DeepSpeed Zero                          | No                      | Yes                          |
+| torch.compile                       | Yes                     | No                           

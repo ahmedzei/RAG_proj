@@ -1,0 +1,11 @@
+del supports lightweight prompt tuning following Prefix-tuning with method set_lightweight_tuning().
+
+Usage examples
+For summarization, it is an example to use MVP and MVP with summarization-specific prompts.
+thon
+
+from transformers import MvpTokenizer, MvpForConditionalGeneration
+tokenizer = MvpTokenizer.from_pretrained("RUCAIBox/mvp")
+model = MvpForConditionalGeneration.from_pretrained("RUCAIBox/mvp")
+model_with_prompt = MvpForConditionalGeneration.from_pretrained("RUCAIBox/mvp-summarization")
+inputs = to

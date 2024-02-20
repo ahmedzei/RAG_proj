@@ -1,0 +1,3 @@
+]] PretrainedConfig
+    - push_to_hub
+    - all

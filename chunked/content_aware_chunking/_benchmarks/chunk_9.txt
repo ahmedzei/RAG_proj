@@ -1,0 +1,4 @@
+In this case, every section is saved in a separate
+.csv file. The path to each .csv file can optionally be defined via the argument data classes.
+Instead of benchmarking pre-trained models via their model identifier, e.g. google-bert/bert-base-uncased, the user can
+alternatively benchmark an arbitrary configuration of any available model class.

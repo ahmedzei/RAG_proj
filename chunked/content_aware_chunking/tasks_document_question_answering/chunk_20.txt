@@ -1,0 +1,6 @@
+Take an image and a question, prepare them for the model using the processor from your model.
+2. Forward the result or preprocessing through the model.
+3. The model returns start_logits and end_logits, which indicate which token is at the start of the answer and
+which token is at the end of the answer. Both have shape (batch_size, sequence_length).
+4. Take an argmax on the last dimension of both the start_logits and end_logits to get the predicted start_idx and end_idx.
+5.

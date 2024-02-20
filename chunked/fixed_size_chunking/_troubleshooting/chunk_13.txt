@@ -1,0 +1,6 @@
+ansformers import AutoProcessor, AutoModelForQuestionAnswering
+processor = AutoProcessor.from_pretrained("openai-community/gpt2-medium")
+model = AutoModelForQuestionAnswering.from_pretrained("openai-community/gpt2-medium")
+ValueError: Unrecognized configuration class  for this kind of AutoModel: AutoModelForQuestionAnswering.
+Model type should be one of AlbertConfig, BartConfig, BertConfig, BigBirdConfig, BigBirdPegasusConfig, BloomConfig, 
+

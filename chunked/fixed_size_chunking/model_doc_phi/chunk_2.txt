@@ -1,0 +1,6 @@
+nother 1.3B parameter model with performance on natural language tasks comparable
+to models 5x larger, and surpassing most non-frontier LLMs. Phi-1.5 exhibits many of the traits of much larger LLMs such as the ability
+to “think step by step” or perform some rudimentary in-context learning.
+With these two experiments the authors successfully showed the huge impact of quality of training data when training machine learning models.
+The abstract from the Phi-1 paper is the following:
+We introduce phi-1, a new l

@@ -1,0 +1,6 @@
+ending on your task, this may be undesirable; creative tasks like chatbots or writing an essay benefit from sampling. On the other hand, input-grounded tasks like audio transcription or translation benefit from greedy decoding. Enable sampling with do_sample=True, and you can learn more about this topic in this blog post.
+
+Set seed or reproducibility -- you don't need this unless you want full reproducibility
+from transformers import set_seed
+set_seed(42)
+model_inputs = tokenizer(["I am a cat."], return_ten

@@ -1,0 +1,9 @@
+        "loss_scale": 0,
+        "loss_scale_window": 1000,
+        "initial_scale_power": 16,
+        "hysteresis": 2,
+        "min_loss_scale": 1
+    }
+}
+For additional DeepSpeed fp16 training options, take a look at the FP16 Training Options reference.
+To configure Apex-like fp16 mixed precision, setup the config as shown below with "auto" or your own values. [Trainer] automatically configure amp based on the values of args.fp16_backend and args.fp16_opt_level. It can also be enabled from the command lin

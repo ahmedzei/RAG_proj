@@ -1,0 +1,25 @@
+A tokenizer converts your input into a format that can be processed by the model.
+Load a tokenizer with [AutoTokenizer.from_pretrained]:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-uncased")
+
+Then tokenize your input as shown below:
+
+sequence = "In a hole in the ground there lived a hobbit."
+print(tokenizer(sequence))
+{'input_ids': [101, 1999, 1037, 4920, 1999, 1996, 2598, 2045, 2973, 1037, 7570, 10322, 4183, 1012, 102], 
+ 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+ 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+
+AutoImageProcessor
+For vision tasks, an image processor processes the image into the correct input format.
+
+from transformers import AutoImageProcessor
+image_processor = AutoImageProcessor.from_pretrained("google/vit-base-patch16-224")
+
+AutoBackbone
+
+A Swin backbone with multiple stages for outputting a feature map.
+
+The [AutoBackbone] lets you use pretrained models as backbones to get feature maps from different stages of the backbone.

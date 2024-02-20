@@ -1,0 +1,10 @@
+Finally, we find our system to adapt well
+to generalized queries involving affordances or properties
+ 
+ CLIPSeg overview. Taken from the original paper. 
+This model was contributed by nielsr.
+The original code can be found here.
+Usage tips
+
+[CLIPSegForImageSegmentation] adds a decoder on top of [CLIPSegModel]. The latter is identical to [CLIPModel].
+[CLIPSegForImageSegmentation] can generate image segmentations based on arbitrary prompts at test time.

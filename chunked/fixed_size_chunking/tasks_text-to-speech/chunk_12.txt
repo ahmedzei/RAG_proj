@@ -1,0 +1,17 @@
+identified in the previous step, define a function that maps these characters to 
+valid tokens. Note that spaces are already replaced by ▁ in the tokenizer and don't need to be handled separately.
+
+replacements = [
+     ("à", "a"),
+     ("ç", "c"),
+     ("è", "e"),
+     ("ë", "e"),
+     ("í", "i"),
+     ("ï", "i"),
+     ("ö", "o"),
+     ("ü", "u"),
+ ]
+def cleanup_text(inputs):
+     for src, dst in replacements:
+         inputs["normalized_text"] = inputs["normalized_text"].replace(src, dst)
+     return inpu

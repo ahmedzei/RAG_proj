@@ -1,0 +1,10 @@
+scores"], results[i]["labels"]
+for box, score, label in zip(boxes, scores, labels):
+     box = [round(i, 2) for i in box.tolist()]
+     print(f"Detected {text[label]} with confidence {round(score.item(), 3)} at location {box}")
+Detected a photo of a cat with confidence 0.614 at location [341.67, 17.54, 642.32, 278.51]
+Detected a photo of a cat with confidence 0.665 at location [6.75, 38.97, 326.62, 354.85]
+
+Resources
+
+A demo notebook on using OWLv2 for zero- and one-shot (image-guided) object detection can 

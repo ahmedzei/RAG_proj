@@ -1,0 +1,8 @@
+A bf16 number can be as large as 3.39e+38 (!) which 
+is about the same as fp32 - because both have 8-bits used for the numerical range.
+You can enable BF16 in the 🤗 Trainer with:
+python
+training_args = TrainingArguments(bf16=True, **default_args)
+TF32
+The Ampere hardware uses a magical data type called tf32. It has the same numerical range as fp32 (8-bits), but instead 
+of 23 bits precision it has only 10 bits (same as fp16) and uses only 19 bits in total.

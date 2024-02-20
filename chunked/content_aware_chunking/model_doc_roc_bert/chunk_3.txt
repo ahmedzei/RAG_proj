@@ -1,0 +1,45 @@
+It also performs the best
+in the toxic content detection task under human-made attacks.
+This model was contributed by weiweishi.
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+RoCBertConfig
+[[autodoc]] RoCBertConfig
+    - all
+RoCBertTokenizer
+[[autodoc]] RoCBertTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+RoCBertModel
+[[autodoc]] RoCBertModel
+    - forward
+RoCBertForPreTraining
+[[autodoc]] RoCBertForPreTraining
+    - forward
+RoCBertForCausalLM
+[[autodoc]] RoCBertForCausalLM
+    - forward
+RoCBertForMaskedLM
+[[autodoc]] RoCBertForMaskedLM
+    - forward
+RoCBertForSequenceClassification
+[[autodoc]] transformers.RoCBertForSequenceClassification
+    - forward
+RoCBertForMultipleChoice
+[[autodoc]] transformers.RoCBertForMultipleChoice
+    - forward
+RoCBertForTokenClassification
+[[autodoc]] transformers.RoCBertForTokenClassification
+    - forward
+RoCBertForQuestionAnswering
+[[autodoc]] RoCBertForQuestionAnswering
+    - forward.

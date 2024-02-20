@@ -1,0 +1,5 @@
+You can speed up the map function by setting batched=True to process multiple elements of the dataset at once:
+
+tokenized_billsum = billsum.map(preprocess_function, batched=True)
+
+Now create a batch of examples using [DataCollatorForSeq2Seq].

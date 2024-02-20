@@ -1,0 +1,5 @@
+However, it could also be that
+PyTorch's implementation of a layer requires the weight to be transposed beforehand.
+Finally, you should also check that all required weights are initialized and print out all checkpoint weights that
+were not used for initialization to make sure the model is correctly converted. It is completely normal, that the
+conversion trials fail with either a wrong shape statement or a wrong name assignment.

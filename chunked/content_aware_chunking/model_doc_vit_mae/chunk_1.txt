@@ -1,0 +1,5 @@
+The paper shows that, by pre-training a Vision Transformer (ViT) to reconstruct pixel values for masked patches, one can get results after
+fine-tuning that outperform supervised pre-training.
+The abstract from the paper is the following:
+This paper shows that masked autoencoders (MAE) are scalable self-supervised learners for computer vision. Our MAE approach is simple: we mask random patches of the
+input image and reconstruct the missing pixels. It is based on two core designs.

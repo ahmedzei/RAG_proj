@@ -1,0 +1,5 @@
+e processing, can also provide effective solutions to the RL problem.
+To this end, we explore how RL can be tackled with the tools of sequence modeling, using a Transformer architecture
+to model distributions over trajectories and repurposing beam search as a planning algorithm. Framing RL as sequence
+modeling problem simplifies a range of design decisions, allowing us to dispense with many of the components common
+in offline RL algorithms. We demonstrate the flexibility of this approach across long-horizon

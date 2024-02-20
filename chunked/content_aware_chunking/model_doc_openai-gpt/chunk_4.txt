@@ -1,0 +1,6 @@
+Our general task-agnostic model outperforms
+discriminatively trained models that use architectures specifically crafted for each task, significantly improving upon
+the state of the art in 9 out of the 12 tasks studied.
+Write With Transformer is a webapp created and hosted by Hugging Face
+showcasing the generative capabilities of several models. GPT is one of them.
+This model was contributed by thomwolf.

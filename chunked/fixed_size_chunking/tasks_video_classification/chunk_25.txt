@@ -1,0 +1,9 @@
+sh_to_hub=True,
+     max_steps=(train_dataset.num_videos // batch_size) * num_epochs,
+ )
+
+The dataset returned by pytorchvideo.data.Ucf101() doesn't implement the __len__ method. As such, we must define max_steps when instantiating TrainingArguments. 
+Next, you need to define a function to compute the metrics from the predictions, which will use the metric you'll load now. The only preprocessing you have to do is to take the argmax of our predicted logits:
+
+import evaluate
+metric = evaluate.load("accuracy")

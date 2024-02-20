@@ -1,0 +1,12 @@
+le?
+The agent sees a list of tool names and their description in its prompt. The more tools are added the 
+more difficult it becomes for the agent to choose the correct tool and it's even more difficult to choose
+the correct sequences of tools to run. Let's look at a common failure case, here we will only return 
+the code to analyze it.
+
+from transformers import HfAgent
+agent = HfAgent("https://api-inference.huggingface.co/models/bigcode/starcoder")
+agent.run("Show me a tree", return_code=True)
+
+gives:
+``te

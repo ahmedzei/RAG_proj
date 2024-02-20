@@ -1,0 +1,31 @@
+In order automaticallay handle the device on which the model should execute, use accelerate.
+Contrary to the paper, the order of the priors goes from 0 to 1 as it felt more intuitive : we sample starting from 0.
+Primed sampling (conditioning the sampling on raw audio) requires more memory than ancestral sampling and should be used with fp16 set to True.
+
+This model was contributed by Arthur Zucker.
+The original code can be found here.
+JukeboxConfig
+[[autodoc]] JukeboxConfig
+JukeboxPriorConfig
+[[autodoc]] JukeboxPriorConfig
+JukeboxVQVAEConfig
+[[autodoc]] JukeboxVQVAEConfig
+JukeboxTokenizer
+[[autodoc]] JukeboxTokenizer
+    - save_vocabulary
+JukeboxModel
+[[autodoc]] JukeboxModel
+    - ancestral_sample
+    - primed_sample
+    - continue_sample
+    - upsample
+    - _sample
+JukeboxPrior
+[[autodoc]] JukeboxPrior
+    - sample
+    - forward
+JukeboxVQVAE
+[[autodoc]] JukeboxVQVAE
+    - forward
+    - encode
+    - decode.

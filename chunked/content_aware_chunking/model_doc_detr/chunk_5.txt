@@ -1,0 +1,5 @@
+This means that the input to the backbone is a
+tensor of shape (batch_size, 3, height, width), assuming the image has 3 color channels (RGB). The CNN backbone
+outputs a new lower-resolution feature map, typically of shape (batch_size, 2048, height/32, width/32). This is
+then projected to match the hidden dimension of the Transformer of DETR, which is 256 by default, using a
+nn.Conv2D layer. So now, we have a tensor of shape (batch_size, 256, height/32, width/32).

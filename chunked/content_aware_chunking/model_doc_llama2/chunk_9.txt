@@ -1,0 +1,2 @@
+The embed_tokens layer of the model is initialized with self.embed_tokens = nn.Embedding(config.vocab_size, config.hidden_size, self.config.padding_idx), which makes sure that encoding the padding token will output zeros, so passing it when initializing is recommended.
+After filling out the form and gaining access to the model checkpoints, you should be able to use the already converted checkpoints. Otherwise, if you are converting your own model, feel free to use the conversion script.

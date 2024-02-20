@@ -1,0 +1,12 @@
+pSpeed modules before installing them. To make a local build for DeepSpeed:
+
+git clone https://github.com/microsoft/DeepSpeed/
+cd DeepSpeed
+rm -rf build
+TORCH_CUDA_ARCH_LIST="8.6" DS_BUILD_CPU_ADAM=1 DS_BUILD_UTILS=1 pip install . \
+--global-option="build_ext" --global-option="-j8" --no-cache -v \
+--disable-pip-version-check 2>&1 | tee build.log
+
+To use NVMe offload, add the DS_BUILD_AIO=1 parameter to the build command and make sure you install the libaio-dev package system-wide.
+
+Next, you'll have to spec

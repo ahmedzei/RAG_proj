@@ -1,0 +1,12 @@
+Your configuration file is stored as a JSON file in the specified save directory:
+
+my_config.save_pretrained(save_directory="./your_model_save_path")
+
+To reuse the configuration file, load it with [~PretrainedConfig.from_pretrained]:
+
+my_config = DistilBertConfig.from_pretrained("./your_model_save_path/config.json")
+
+You can also save your configuration file as a dictionary or even just the difference between your custom configuration attributes and the default configuration attributes! See the configuration documentation for more details.
+
+Model
+The next step is to create a model.

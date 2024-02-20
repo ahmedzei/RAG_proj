@@ -1,0 +1,2 @@
+For example, the function tf.unique cannot be compiled with XLA, because it returns a tensor containing one instance of each unique value in the input. The shape of this output will obviously be different depending on how repetitive the input Tensor was, and so XLA refuses to handle it!
+In general, most neural network code obeys rule #2 by default. However, there are a few common cases where it becomes a problem.

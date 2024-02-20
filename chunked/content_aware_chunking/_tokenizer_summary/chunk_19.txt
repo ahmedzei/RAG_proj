@@ -1,0 +1,6 @@
+Splitting all words into symbols of the
+base vocabulary, we obtain:
+("h" "u" "g", 10), ("p" "u" "g", 5), ("p" "u" "n", 12), ("b" "u" "n", 4), ("h" "u" "g" "s", 5)
+BPE then counts the frequency of each possible symbol pair and picks the symbol pair that occurs most frequently. In
+the example above "h" followed by "u" is present 10 + 5 = 15 times (10 times in the 10 occurrences of
+"hug", 5 times in the 5 occurrences of "hugs").

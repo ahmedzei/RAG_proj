@@ -1,0 +1,2 @@
+ on the hub all use relative position embeddings. You can still use the ones with absolute position embeddings by passing in an additional argument revision="no_reset" when calling the from_pretrained() method. Note that it's usually advised to pad the inputs on the right rather than the left.
+TAPAS is based on BERT, so TAPAS-base for example corresponds to a BERT-base architecture. Of course, TAPAS-large will result in the best performance (the results reported in the paper are from TAPAS-large). Results o

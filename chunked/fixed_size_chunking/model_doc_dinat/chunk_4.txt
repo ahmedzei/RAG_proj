@@ -1,0 +1,10 @@
+tate of the art specialized semantic segmentation models on ADE20K (58.2 mIoU),
+and ranks second on Cityscapes (84.5 mIoU) (no extra data). *
+
+ Neighborhood Attention with different dilation values.
+Taken from the original paper.
+This model was contributed by Ali Hassani.
+The original code can be found here.
+Usage tips
+DiNAT can be used as a backbone. When output_hidden_states = True,
+it will output both hidden_states and reshaped_hidden_states. The reshaped_hidden_states have a shape of (batch, num_channel

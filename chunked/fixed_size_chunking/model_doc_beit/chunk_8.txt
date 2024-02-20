@@ -1,0 +1,10 @@
+sources to help you get started with BEiT.
+
+[BeitForImageClassification] is supported by this example script and notebook.
+See also: Image classification task guide
+
+Semantic segmentation
+- Semantic segmentation task guide
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+BEiT specific outputs
+[[autodoc]] models.beit.modeling_beit.Be

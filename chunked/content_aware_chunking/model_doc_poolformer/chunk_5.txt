@@ -1,0 +1,6 @@
+Taken from the original paper.
+
+This model was contributed by heytanay. The original code can be found here.
+Usage tips
+
+PoolFormer has a hierarchical architecture, where instead of Attention, a simple Average Pooling layer is present.

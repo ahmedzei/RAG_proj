@@ -1,0 +1,8 @@
+n research & development 
+
+We'll need to find the position of the answer in the encoded input.
+* token_type_ids tells us which tokens are part of the question, and which ones are part of the document's words.
+* tokenizer.cls_token_id will help find the special token at the beginning of the input.
+* word_ids will help match the answer found in the original words to the same answer in the full encoded input and determine
+the start/end position of the answer in the encoded input.
+With that in mind, let's creat

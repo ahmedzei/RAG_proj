@@ -1,0 +1,10 @@
+olnet_transformer:
+py
+print(f"Description: '{controlnet_transformer.description}'")
+print(f"Name: '{controlnet_transformer.name}'")
+gives 
+text
+Description: 'This is a tool that transforms an image with ControlNet according to a prompt. 
+It takes two inputs: `image`, which should be the image to transform, and `prompt`, which should be the prompt to use to change it. It returns the modified image.'
+Name: 'image_transformer'
+The name and description are accurate and fit the style of the curated set of tools.

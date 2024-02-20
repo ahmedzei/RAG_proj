@@ -1,0 +1,7 @@
+d
+UniSpeechForSequenceClassification
+[[autodoc]] UniSpeechForSequenceClassification
+    - forward
+UniSpeechForPreTraining
+[[autodoc]] UniSpeechForPreTraining
+    - forward

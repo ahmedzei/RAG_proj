@@ -1,0 +1,9 @@
+ from an existing model as a starting point. This speeds up the learning process and reduces the amount of training data needed.
+transformer
+Self-attention based deep learning model architecture.
+U
+unsupervised learning
+A form of model training in which data provided to the model is not labeled. Unsupervised learning techniques leverage statistical information of the data distribution to find patterns useful for the task at hand.
+Z
+Zero Redundancy Optimizer (ZeRO)
+Parallelism technique which performs shardi

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------------|----------------------------------------------|
+| A beaver is swimming in the water |  your browser does not support the audio element. 
+
+py
+agent.run(
+    "In the following `document`, where will the TRRF Scientific Advisory Council Meeting take place?",
+    document=document,
+)
+| Input                                                                                                                   | Output     |
+|-------

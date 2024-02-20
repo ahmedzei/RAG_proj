@@ -1,0 +1,22 @@
+Here, let's also set return_full_text = False 
+so that output doesn't contain the prompt:
+thon
+
+torch.manual_seed(1) # doctest: +IGNORE_RESULT
+prompt = """Return a list of named entities in the text.
+ Text: The Golden State Warriors are an American professional basketball team based in San Francisco.
+ Named entities:
+ """
+sequences = pipe(
+     prompt,
+     max_new_tokens=15,
+     return_full_text = False,  
+ )
+for seq in sequences:
+     print(f"{seq['generated_text']}")
+- Golden State Warriors
+- San Francisco
+
+As you can see, the model correctly identified two named entities from the given text.
+Translation
+Another task LLMs can perform is translation.

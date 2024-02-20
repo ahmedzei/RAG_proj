@@ -1,0 +1,3 @@
+ting function such as tf.function. When using Keras methods like fit() and predict(), you can enable XLA simply by passing the jit_compile argument to model.compile(). However, XLA is not limited to these methods - it can also be used to accelerate any arbitrary tf.function.
+Several TensorFlow methods in 🤗 Transformers have been rewritten to be XLA-compatible, including text generation for models such as GPT2, T5 and OPT, as well as speech processing for models such as Whisper.
+While the exact amount of spe

@@ -1,0 +1,8 @@
+ke pedestrians, traffic signs, and other vehicles are to avoid obstacles and collisions. Depth information is also helpful for constructing 3D representations from 2D images and can be used to create high-quality 3D representations of biological structures or buildings.
+There are two approaches to depth estimation:
+
+stereo: depths are estimated by comparing two images of the same image from slightly different angles
+monocular: depths are estimated from a single image
+
+from transformers import pipeline
+depth

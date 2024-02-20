@@ -1,0 +1,13 @@
+ecify a data collator explicitly.
+
+Once training is completed, share your model to the Hub with the [~transformers.Trainer.push_to_hub] method so everyone can use your model:
+
+trainer.push_to_hub()
+
+If you aren't familiar with finetuning a model with Keras, take a look at the basic tutorial here!
+
+To finetune a model in TensorFlow, start by setting up an optimizer function, learning rate schedule, and some training hyperparameters:
+
+from transformers import create_optimizer
+import tensorflow as tf
+batch_siz

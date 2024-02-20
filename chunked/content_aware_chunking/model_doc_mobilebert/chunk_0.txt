@@ -1,0 +1,4 @@
+MobileBERT
+Overview
+The MobileBERT model was proposed in MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices by Zhiqing Sun, Hongkun Yu, Xiaodan Song, Renjie Liu, Yiming Yang, and Denny
+Zhou.

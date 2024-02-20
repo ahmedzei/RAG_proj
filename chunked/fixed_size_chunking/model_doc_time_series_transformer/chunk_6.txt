@@ -1,0 +1,5 @@
+, the model needs to predict the
+next target. So the set-up of training is similar to a GPT model for language, except that there's no notion of decoder_start_token_id (we just use the last value
+of the context as initial input for the decoder).
+At inference time, we give the final value of the past_values as input to the decoder. Next, we can sample from the model to make a prediction at the next time step,
+which is then fed to the decoder in order to make the next prediction (also called autoregressive ge

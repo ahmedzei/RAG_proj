@@ -1,0 +1,16 @@
+here.
+
+Fuyu uses a sentencepiece based tokenizer, with a Unigram model. It supports bytefallback, which is only available in tokenizers==0.14.0 for the fast tokenizer.
+The LlamaTokenizer is used as it is a standard wrapper around sentencepiece. 
+
+The authors suggest to use the following prompt for image captioning: f"Generate a coco-style caption.\\n"
+
+FuyuConfig
+[[autodoc]] FuyuConfig
+FuyuForCausalLM
+[[autodoc]] FuyuForCausalLM
+    - forward
+FuyuImageProcessor
+[[autodoc]] FuyuImageProcessor
+    - call
+Fuyu

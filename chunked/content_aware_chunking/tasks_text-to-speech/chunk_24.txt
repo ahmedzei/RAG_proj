@@ -1,0 +1,8 @@
+However, when plotting spectrograms as an image using the matplotlib library, 
+the y-axis is flipped and the spectrograms appear upside down.
+Now apply the processing function to the entire dataset. This will take between 5 and 10 minutes.
+
+dataset = dataset.map(prepare_dataset, remove_columns=dataset.column_names)
+
+You'll see a warning saying that some examples in the dataset are longer than the maximum input length the model can handle (600 tokens). 
+Remove those examples from the dataset.

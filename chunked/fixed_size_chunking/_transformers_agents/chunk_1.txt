@@ -1,0 +1,7 @@
+ we curated some relevant tools, 
+but we'll show you how the system can be extended easily to use any tool developed by the community.
+Let's start with a few examples of what can be achieved with this new API. It is particularly powerful when it comes 
+to multimodal tasks, so let's take it for a spin to generate images and read text out loud.
+py
+agent.run("Caption the following image", image=image)
+| Input                                                                                                       

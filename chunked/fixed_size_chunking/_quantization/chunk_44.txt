@@ -1,0 +1,11 @@
+benchmarks obtained from the optimum-benchmark library. The benchmark was run on a NVIDIA A1000 for the TheBloke/Mistral-7B-v0.1-AWQ and TheBloke/Mistral-7B-v0.1-GPTQ models. These were also tested against the bitsandbytes quantization methods as well as a native fp16 model.
+
+forward peak memory/batch size
+
+generate peak memory/batch size
+
+generate throughput/batch size
+
+forward latency/batch size
+
+The benchmarks indicate AWQ quantization is the fastest for inference, text generation, and has the lowest pea

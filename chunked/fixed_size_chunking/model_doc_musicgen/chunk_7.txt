@@ -1,0 +1,10 @@
+nd each set of codebooks is decoded independently through the audio compression model. The audio streams for each 
+channel are combined to give the final stereo output.
+Unconditional Generation
+The inputs for unconditional (or 'null') generation can be obtained through the method
+[MusicgenForConditionalGeneration.get_unconditional_inputs]:
+thon
+
+from transformers import MusicgenForConditionalGeneration
+model = MusicgenForConditionalGeneration.from_pretrained("facebook/musicgen-small")
+unconditional_inputs =

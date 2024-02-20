@@ -1,0 +1,6 @@
+multi_tensor
+pytorch-nightly introduced torch.optim._multi_tensor which should significantly speed up the optimizers for situations 
+with lots of small feature tensors. It should eventually become the default, but if you want to experiment with it sooner, take a look at this GitHub issue.
+Data preloading
+One of the important requirements to reach great training speed is the ability to feed the GPU at the maximum speed it 
+can handle.

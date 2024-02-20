@@ -1,0 +1,5 @@
+Both parts of the diagram show a parallelism level of degree 4, meaning that 4 GPUs 
+are involved in the pipeline. You can see that there's a forward path of 4 pipe stages (F0, F1, F2 and F3) followed by 
+a backward path in reverse order (B3, B2, B1, and B0).
+PP introduces a new hyperparameter to tune - chunks, which determines how many data chunks are sent in a sequence 
+through the same pipe stage. For example, in the bottom diagram you can see chunks=4.

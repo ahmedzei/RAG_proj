@@ -1,0 +1,10 @@
+ the agents to perform actions for you. However, the agent is only generating code
+that we then execute using a very restricted Python interpreter. In case you would like to use the code generated in 
+a different setting, the agent can be prompted to return the code, along with tool definition and accurate imports.
+For example, the following instruction
+python
+agent.run("Draw me a picture of rivers and lakes", return_code=True)
+returns the following code
+thon
+from transformers import load_tool
+image_generat

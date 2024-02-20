@@ -1,0 +1,10 @@
+o open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A notebook for how to finetune T5 for classification and multiple choice.
+A notebook for how to finetune T5 for sentiment span extraction. 🌎
+
+A notebook for how to finetune T5 for named entity recognition. 🌎
+
+A notebook for Finetuning CodeT5 for generating docstrings from Ruby code.
+
+A notebook to Finetune T5-base-dutch to perform Dutch abstractive summarization on a

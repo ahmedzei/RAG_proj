@@ -1,0 +1,3 @@
+ng definitions. To make it easier, these shared configuration parameters are configured from the [Trainer] command line arguments.
+
+Some configuration parameters that are automatically derived from the model configuration so you don't need to manually adjust these values. The [Trainer] uses a configuration value auto to determine set the most correct or efficient value. You could set your own configuration parameters explicitly, but you must take care to ensure the [Trainer] arguments and DeepSpeed configur

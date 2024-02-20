@@ -1,0 +1,14 @@
+using a third-party library, e.g. scipy:
+thon
+
+import scipy
+sampling_rate = model.config.audio_encoder.sampling_rate
+scipy.io.wavfile.write("musicgen_out.wav", rate=sampling_rate, data=audio_values[0, 0].numpy())
+
+Text-Conditional Generation
+The model can generate an audio sample conditioned on a text prompt through use of the [MusicgenProcessor] to pre-process
+the inputs:
+thon
+
+from transformers import AutoProcessor, MusicgenForConditionalGeneration
+processor = AutoProcessor.from_pretrained("facebook/music

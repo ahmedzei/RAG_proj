@@ -1,0 +1,4 @@
+It takes an input named `document` which should be the document containing the information, as well as a `question` that is the question about the document. It returns a text that contains the answer to the question.
+We can see that the tool name is short and precise. The description includes two parts, the first explaining 
+what the tool does and the second states what input arguments and return values are expected.
+A good tool name and tool description are very important for the agent to correctly use it.

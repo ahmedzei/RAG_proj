@@ -1,0 +1,12 @@
+ detected in at least one element of the activations or weights, the program will assert and print a report
+like this (this was caught with google/mt5-small under fp16 mixed precision):
+Detected inf/nan during batch_number=0
+Last 21 forward frames:
+abs min  abs max  metadata
+                  encoder.block.1.layer.1.DenseReluDense.dropout Dropout
+0.00e+00 2.57e+02 input[0]
+0.00e+00 2.85e+02 output
+[]
+                  encoder.block.2.layer.0 T5LayerSelfAttention
+6.78e-04 3.15e+03 input[0]
+2.65e-04 3.42e+03 

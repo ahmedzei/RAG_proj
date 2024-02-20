@@ -1,0 +1,32 @@
+The original code can be found
+here.
+RealmConfig
+[[autodoc]] RealmConfig
+RealmTokenizer
+[[autodoc]] RealmTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+    - batch_encode_candidates
+RealmTokenizerFast
+[[autodoc]] RealmTokenizerFast
+    - batch_encode_candidates
+RealmRetriever
+[[autodoc]] RealmRetriever
+RealmEmbedder
+[[autodoc]] RealmEmbedder
+    - forward
+RealmScorer
+[[autodoc]] RealmScorer
+    - forward
+RealmKnowledgeAugEncoder
+[[autodoc]] RealmKnowledgeAugEncoder
+    - forward
+RealmReader
+[[autodoc]] RealmReader
+    - forward
+RealmForOpenQA
+[[autodoc]] RealmForOpenQA
+    - block_embedding_to
+    - forward.

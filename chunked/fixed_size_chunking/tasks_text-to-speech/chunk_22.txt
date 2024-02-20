@@ -1,0 +1,19 @@
+erify the processing is correct by looking at a single example:
+
+processed_example = prepare_dataset(dataset[0])
+list(processed_example.keys())
+['input_ids', 'labels', 'stop_labels', 'speaker_embeddings']
+
+Speaker embeddings should be a 512-element vector:
+
+processed_example["speaker_embeddings"].shape
+(512,)
+
+The labels should be a log-mel spectrogram with 80 mel bins.
+
+import matplotlib.pyplot as plt
+plt.figure()
+plt.imshow(processed_example["labels"].T)
+plt.show()
+
+Side note: If you find this spectrogram

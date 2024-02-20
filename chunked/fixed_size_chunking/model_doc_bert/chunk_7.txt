@@ -1,0 +1,5 @@
+ Finetuning BERT for named-entity recognition using only the first wordpiece of each word in the word label during tokenization. To propagate the label of the word to all wordpieces, see this version of the notebook instead.
+[BertForTokenClassification] is supported by this example script and notebook.
+[TFBertForTokenClassification] is supported by this example script and notebook.
+[FlaxBertForTokenClassification] is supported by this example script.
+Token classification chapter of the 🤗 Hugging Face Course

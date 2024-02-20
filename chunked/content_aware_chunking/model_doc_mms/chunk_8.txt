@@ -1,0 +1,8 @@
+Please have a look at:
+py
+processor.tokenizer.vocab.keys()
+to see all supported languages.
+To further improve performance from ASR models, language model decoding can be used. See the documentation here for further details.  
+Speech Synthesis (TTS)
+MMS-TTS uses the same model architecture as VITS, which was added to 🤗 Transformers in v4.33. MMS trains a separate 
+model checkpoint for each of the 1100+ languages in the project.

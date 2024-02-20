@@ -1,0 +1,9 @@
+ settings, such as data, tensor, and pipeline parallelism.
+CPU training section: learn about mixed precision training on CPU.
+Efficient Training on Multiple CPUs: learn about distributed CPU training.
+Training on TPU with TensorFlow: if you are new to TPUs, refer to this section for an opinionated introduction to training on TPUs and using XLA. 
+Custom hardware for training: find tips and tricks when building your own deep learning rig.
+Hyperparameter Search using Trainer API
+
+Inference
+Efficient inference 

@@ -1,0 +1,10 @@
+cation.from_pretrained("microsoft/dit-base-finetuned-rvlcdip")
+
+This particular checkpoint was fine-tuned on RVL-CDIP, an important benchmark for document image classification.
+A notebook that illustrates inference for document image classification can be found here.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with DiT.
+
+[BeitForImageClassification] is supported by this example script and notebook.
+
+If you're interested in submitting a resource 

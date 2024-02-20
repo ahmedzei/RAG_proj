@@ -1,0 +1,11 @@
+t.map(replace_ids)
+flat_dataset = dataset.flatten()
+flat_dataset.features
+{'question': Value(dtype='string', id=None),
+ 'image_id': Value(dtype='string', id=None),
+ 'label.ids': Sequence(feature=Value(dtype='int64', id=None), length=-1, id=None),
+ 'label.weights': Sequence(feature=Value(dtype='float64', id=None), length=-1, id=None)}
+
+Preprocessing data
+The next step is to load a ViLT processor to prepare the image and text data for the model. 
+[ViltProcessor] wraps a BERT tokenizer and ViLT image processor

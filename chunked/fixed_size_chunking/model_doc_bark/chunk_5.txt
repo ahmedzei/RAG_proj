@@ -1,0 +1,6 @@
+tertransformer()
+Note that 🤗 Optimum must be installed before using this feature. Here's how to install it.
+Using Flash Attention 2
+Flash Attention 2 is an even faster, optimized version of the previous optimization.
+Installation
+First, check whether your hardware is compatible with Flash Attention 2. The latest list of compatible hardware can be found in the official documentation. If your hardware is not compatible with Flash Attention 2, you can still benefit from attention kernel optimisations through B

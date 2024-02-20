@@ -1,0 +1,7 @@
+e. 
+Usage tips
+
+MSN (masked siamese networks) is a method for self-supervised pre-training of Vision Transformers (ViTs). The pre-training
+objective is to match the prototypes assigned to the unmasked views of the images to that of the masked views of the same images.
+The authors have only released pre-trained weights of the backbone (ImageNet-1k pre-training). So, to use that on your own image classification dataset,
+use the [ViTMSNForImageClassification] class which is initialized from [ViTMSNModel]. Foll

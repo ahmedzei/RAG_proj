@@ -1,0 +1,4 @@
+s. If you set the parameter use_auxiliary_loss of [MaskFormerConfig] to True, then prediction feedforward neural networks and Hungarian losses are added after each decoder layer (with the FFNs sharing parameters).
+If you want to train the model in a distributed environment across multiple nodes, then one should update the
+  get_num_masks function inside in the MaskFormerLoss class of modeling_maskformer.py. When training on multiple nodes, this should be
+  set to the average number of target masks across al

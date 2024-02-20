@@ -1,0 +1,11 @@
+s to monitor plant health or satellite images for land use monitoring 
+ecology: label images of animal or plant species to monitor wildlife populations or track endangered species
+
+from transformers import pipeline
+classifier = pipeline(task="image-classification")
+preds = classifier(
+     "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/pipeline-cat-chonk.jpeg"
+ )
+preds = [{"score": round(pred["score"], 4), "label": pred["label"]} for pred in preds]
+print(*preds, sep="\n")
+{'s

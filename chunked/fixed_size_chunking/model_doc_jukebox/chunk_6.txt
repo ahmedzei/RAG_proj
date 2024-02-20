@@ -1,0 +1,8 @@
+todoc]] JukeboxPrior
+    - sample
+    - forward
+JukeboxVQVAE
+[[autodoc]] JukeboxVQVAE
+    - forward
+    - encode
+    - decode

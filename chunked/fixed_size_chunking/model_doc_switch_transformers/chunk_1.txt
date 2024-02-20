@@ -1,0 +1,4 @@
+ts than their equivalent dense models, the sparsity allows better scaling and better finetuning performance at scale.
+During a forward pass, only a fraction of the weights are used. The routing mechanism allows the model to select relevant weights on the fly which increases the model capacity without increasing the number of operations.
+The abstract from the paper is the following:
+In deep learning, models typically reuse the same parameters for all inputs. Mixture of Experts (MoE) defies this and instead s

@@ -1,0 +1,19 @@
+[autodoc]] TapasForSequenceClassification
+    - forward
+TapasForQuestionAnswering
+[[autodoc]] TapasForQuestionAnswering
+    - forward
+
+TFTapasModel
+[[autodoc]] TFTapasModel
+    - call
+TFTapasForMaskedLM
+[[autodoc]] TFTapasForMaskedLM
+    - call
+TFTapasForSequenceClassification
+[[autodoc]] TFTapasForSequenceClassification
+    - call
+TFTapasForQuestionAnswering
+[[autodoc]] TFTapasForQuestionAnswering
+    - call
+

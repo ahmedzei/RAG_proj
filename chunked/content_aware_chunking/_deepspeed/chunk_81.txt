@@ -1,0 +1,16 @@
+For example, if this is your fp16 configuration:
+yaml
+{
+    "fp16": {
+        "enabled": "auto",
+        "loss_scale": 0,
+        "loss_scale_window": 1000,
+        "initial_scale_power": 16,
+        "hysteresis": 2,
+        "min_loss_scale": 1
+    }
+}
+You might see the following OVERFLOW! messages in the logs:
+
+0%|                                                                                                                             | 0/189 [00:00<?, ?it/s]
+ [deepscale] OVERFLOW! Rank 0 Skipping step.

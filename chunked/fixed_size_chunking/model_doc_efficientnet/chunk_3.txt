@@ -1,0 +1,14 @@
+ts, with an order of magnitude fewer parameters.
+This model was contributed by adirik.
+The original code can be found here.
+EfficientNetConfig
+[[autodoc]] EfficientNetConfig
+EfficientNetImageProcessor
+[[autodoc]] EfficientNetImageProcessor
+    - preprocess
+EfficientNetModel
+[[autodoc]] EfficientNetModel
+    - forward
+EfficientNetForImageClassification
+[[autodoc]] EfficientNetForImageClassification
+    - forward

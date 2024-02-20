@@ -1,0 +1,9 @@
+sor(ds[0]["audio"]["array"], return_tensors="pt").input_values
+autoregressively generate transcription (uses greedy decoding by default)
+generated_ids = model.generate(input_values)
+generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
+print(generated_text)
+Mr. Quilter ist der Apostel der Mittelschicht und wir freuen uns, sein Evangelium willkommen heißen zu können.
+
+Training
+Once the model is created, it can be fine-tuned similar to BART, T5 or any other encoder-decoder model 

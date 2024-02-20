@@ -1,0 +1,3 @@
+ailor it to your exact training needs.
+
+In addition to the [Trainer] class, Transformers also provides a [Seq2SeqTrainer] class for sequence-to-sequence tasks like translation or summarization. There is also the [~trl.SFTTrainer] class from the TRL library which wraps the [Trainer] class and is optimized for training language models like Llama-2 and Mistral with autoregressive techniques. [~trl.SFTTrainer] also supports features like sequence packing, LoRA, quantization, and DeepSpeed for efficiently scalin

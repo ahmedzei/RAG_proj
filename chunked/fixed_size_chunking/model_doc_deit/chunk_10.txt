@@ -1,0 +1,22 @@
+TModel
+    - forward
+DeiTForMaskedImageModeling
+[[autodoc]] DeiTForMaskedImageModeling
+    - forward
+DeiTForImageClassification
+[[autodoc]] DeiTForImageClassification
+    - forward
+DeiTForImageClassificationWithTeacher
+[[autodoc]] DeiTForImageClassificationWithTeacher
+    - forward
+
+TFDeiTModel
+[[autodoc]] TFDeiTModel
+    - call
+TFDeiTForMaskedImageModeling
+[[autodoc]] TFDeiTForMaskedImageModeling
+    - call
+TFDeiTForImageClassification
+[[autodoc]] TFDeiTForImageClassification
+    - call
+TFDeiTForImageClass

@@ -1,0 +1,6 @@
+In this guide, you'll use the [pipeline] for sentiment analysis as an example:
+
+from transformers import pipeline
+classifier = pipeline("sentiment-analysis")
+
+The [pipeline] downloads and caches a default pretrained model and tokenizer for sentiment analysis.

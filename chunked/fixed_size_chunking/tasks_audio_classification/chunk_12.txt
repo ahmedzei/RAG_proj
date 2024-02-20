@@ -1,0 +1,11 @@
+gging Face to upload your model). At the end of each epoch, the [Trainer] will evaluate the accuracy and save the training checkpoint.
+Pass the training arguments to [Trainer] along with the model, dataset, tokenizer, data collator, and compute_metrics function.
+Call [~Trainer.train] to finetune your model.
+
+training_args = TrainingArguments(
+     output_dir="my_awesome_mind_model",
+     evaluation_strategy="epoch",
+     save_strategy="epoch",
+     learning_rate=3e-5,
+     per_device_train_batch_size=32,
+  

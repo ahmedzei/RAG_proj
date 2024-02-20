@@ -1,0 +1,10 @@
+ a prompt you'd like to generate text from:
+
+prompt = "Somatic hypermutation allows the immune system to"
+
+The simplest way to try out your finetuned model for inference is to use it in a [pipeline]. Instantiate a pipeline for text generation with your model, and pass your text to it:
+
+from transformers import pipeline
+generator = pipeline("text-generation", model="username/my_awesome_eli5_clm-model")
+generator(prompt)
+[{'generated_text': "Somatic hypermutation allows the immune system to be able to effecti

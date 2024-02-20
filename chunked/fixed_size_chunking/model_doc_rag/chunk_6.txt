@@ -1,0 +1,23 @@
+gModel
+    - forward
+RagSequenceForGeneration
+[[autodoc]] RagSequenceForGeneration
+    - forward
+    - generate
+RagTokenForGeneration
+[[autodoc]] RagTokenForGeneration
+    - forward
+    - generate
+
+TFRagModel
+[[autodoc]] TFRagModel
+    - call
+TFRagSequenceForGeneration
+[[autodoc]] TFRagSequenceForGeneration
+    - call
+    - generate
+TFRagTokenForGeneration
+[[autodoc]] TFRagTokenForGeneration
+    - call
+    - generate
+

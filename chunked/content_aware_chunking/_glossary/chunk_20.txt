@@ -1,0 +1,5 @@
+The model head is trained on your target dataset.
+See the Fine-tune a pretrained model tutorial for more details, and learn how to fine-tune models with 🤗 Transformers.
+H
+head
+The model head refers to the last layer of a neural network that accepts the raw hidden states and projects them onto a different dimension. There is a different model head for each task.

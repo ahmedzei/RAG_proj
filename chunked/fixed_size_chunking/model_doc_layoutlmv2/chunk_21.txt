@@ -1,0 +1,10 @@
+sk', 'bbox', 'image'])
+
+Use case 2: document image classification (training, inference) + token classification (inference), apply_ocr=False
+In case one wants to do OCR themselves, one can initialize the image processor with apply_ocr set to
+False. In that case, one should provide the words and corresponding (normalized) bounding boxes themselves to
+the processor.
+thon
+from transformers import LayoutLMv2Processor
+from PIL import Image
+processor = LayoutLMv2Processor.from_pretrained("microsoft/layoutlmv2-base

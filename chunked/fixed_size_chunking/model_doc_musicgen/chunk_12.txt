@@ -1,0 +1,12 @@
+ example, we load an audio file using the 🤗 Datasets library, which can be pip installed through the command
+below:
+
+pip install --upgrade pip
+pip install datasets[audio]
+thon
+
+from transformers import AutoProcessor, MusicgenForConditionalGeneration
+from datasets import load_dataset
+processor = AutoProcessor.from_pretrained("facebook/musicgen-small")
+model = MusicgenForConditionalGeneration.from_pretrained("facebook/musicgen-small")
+dataset = load_dataset("sanchit-gandhi/gtzan", split="train", streaming=Tru

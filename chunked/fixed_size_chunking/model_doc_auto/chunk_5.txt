@@ -1,0 +1,18 @@
+LM
+FlaxAutoModelForCausalLM
+[[autodoc]] FlaxAutoModelForCausalLM
+AutoModelForMaskedLM
+[[autodoc]] AutoModelForMaskedLM
+TFAutoModelForMaskedLM
+[[autodoc]] TFAutoModelForMaskedLM
+FlaxAutoModelForMaskedLM
+[[autodoc]] FlaxAutoModelForMaskedLM
+AutoModelForMaskGeneration
+[[autodoc]] AutoModelForMaskGeneration
+TFAutoModelForMaskGeneration
+[[autodoc]] TFAutoModelForMaskGeneration
+AutoModelForSeq2SeqLM
+[[autodoc]] AutoModelForSeq2SeqLM
+TFAutoModelForSeq2SeqLM
+[[autodoc]] TFAutoModelForSeq2SeqLM
+FlaxAutoModelForSeq2S

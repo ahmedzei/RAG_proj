@@ -1,0 +1,22 @@
+s:
+
+RUN_SLOW=1 pytest tests/
+RUN_SLOW=1 pytest examples/
+The results can be observed here.
+Running tests
+Choosing which tests to run
+This document goes into many details of how tests can be run. If after reading everything, you need even more details
+you will find them here.
+Here are some most useful ways of running tests.
+Run all:
+console
+pytest
+or:
+
+make test
+Note that the latter is defined as:
+
+python -m pytest -n auto --dist=loadfile -s -v ./tests/
+which tells pytest to:
+
+run as many test processes as t

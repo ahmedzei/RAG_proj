@@ -1,0 +1,5 @@
+a series of final models dubbed EfficientFormer. 
+Extensive experiments show the superiority of EfficientFormer in performance and speed on mobile devices. 
+Our fastest model, EfficientFormer-L1, achieves 79.2% top-1 accuracy on ImageNet-1K with only 1.6 ms inference latency on 
+iPhone 12 (compiled with CoreML), which { runs as fast as MobileNetV2×1.4 (1.6 ms, 74.7% top-1),} and our largest model, 
+EfficientFormer-L7, obtains 83.3% accuracy with only 7.0 ms latency. Our work proves that properly designed tr

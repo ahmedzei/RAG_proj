@@ -1,0 +1,7 @@
+The interaction between respectable and morally strong characters is an ode to chivalry and the honor code amongst thieves and policemen.
+Sentiment:
+Positive
+
+As a result, the output contains a classification label from the list we have provided in the instructions, and it is a correct one!
+
+You may notice that in addition to the prompt, we pass a max_new_tokens parameter.

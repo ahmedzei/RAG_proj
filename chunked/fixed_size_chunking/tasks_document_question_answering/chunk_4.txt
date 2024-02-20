@@ -1,0 +1,8 @@
+e individual fields represent:
+* id: the example's id
+* image: a PIL.Image.Image object containing the document image
+* query: the question string - natural language asked question, in several languages
+* answers: a list of correct answers provided by human annotators
+* words and bounding_boxes: the results of OCR, which we will not use here
+* answer: an answer matched by a different model which we will not use here
+Let's leave only English questions, and drop the answer feature which appears to contain pre

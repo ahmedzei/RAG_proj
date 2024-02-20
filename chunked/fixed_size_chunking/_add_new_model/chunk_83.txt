@@ -1,0 +1,8 @@
+= model.tokenize(input_str)
+You might have to take a deeper look again into the original repository to find the correct tokenizer function or you
+might even have to do changes to your clone of the original repository to only output the input_ids. Having written
+a functional tokenization script that uses the original repository, an analogous script for 🤗 Transformers should be
+created. It should look similar to this:
+thon
+from transformers import BrandNewBertTokenizer
+input_str = "This is a long example inpu

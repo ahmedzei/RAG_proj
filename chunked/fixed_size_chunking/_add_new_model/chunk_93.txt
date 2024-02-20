@@ -1,0 +1,6 @@
+book that showcases in-detail how brand_new_bert can be used for inference and/or
+fine-tuned on a downstream task. This is not mandatory to merge your PR, but very useful for the community.
+14. Submit your finished PR
+You're done programming now and can move to the last step, which is getting your PR merged into main. Usually, the
+Hugging Face team should have helped you already at this point, but it is worth taking some time to give your finished
+PR a nice description and eventually add comments to your co

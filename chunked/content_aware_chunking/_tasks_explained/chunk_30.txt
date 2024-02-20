@@ -1,0 +1,1 @@
+Traditional segmentation models are typically tailored towards a particular subtask of image segmentation, like instance, semantic or panoptic segmentation. Mask2Former frames each of those tasks as a mask classification problem. Mask classification groups pixels into N segments, and predicts N masks and their corresponding class label for a given image.

@@ -1,0 +1,7 @@
+ end up with several partial checkpoints (each of which being of size < 10GB) and an index that maps parameter names to the files they are stored in.
+You can control the maximum size before sharding with the max_shard_size parameter, so for the sake of an example, we'll use a normal-size models with a small shard size: let's take a traditional BERT model.
+
+from transformers import AutoModel
+model = AutoModel.from_pretrained("google-bert/bert-base-cased")
+
+If you save it using [~PreTrainedModel.save_pretrain

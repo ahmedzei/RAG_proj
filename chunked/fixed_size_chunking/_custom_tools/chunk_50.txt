@@ -1,0 +1,8 @@
+ust the agent's prompt. This can be good if you have a better
+prompt suited for the task, but it can also result in your tool being selected way more than others or for other
+tools to be selected instead of the one you have defined.
+
+Leveraging gradio-tools
+gradio-tools is a powerful library that allows using Hugging
+Face Spaces as tools. It supports many existing Spaces as well as custom Spaces to be designed with it.
+We offer support for gradio_tools by using the Tool.from_gradio method. For example, we w

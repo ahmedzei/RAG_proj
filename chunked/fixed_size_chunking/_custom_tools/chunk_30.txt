@@ -1,0 +1,12 @@
+ilarly, one can overwrite the chat prompt template. Note that the chat mode always uses the following format for the exchanges:
+```text
+Human: <>
+Assistant:
+
+Therefore it is important that the examples of the custom chat prompt template also make use of this format.
+You can overwrite the chat template at instantiation as follows.
+thon
+template = """ [] """
+agent = HfAgent(url_endpoint=your_endpoint, chat_prompt_template=template)
+
+Please make sure to have the <<all_tools>> string defined somewhere in the te

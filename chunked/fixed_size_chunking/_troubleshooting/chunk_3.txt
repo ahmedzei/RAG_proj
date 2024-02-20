@@ -1,0 +1,7 @@
+id the connection error.
+CUDA out of memory
+Training large models with millions of parameters can be challenging without the appropriate hardware. A common error you may encounter when the GPU runs out of memory is:
+CUDA out of memory. Tried to allocate 256.00 MiB (GPU 0; 11.17 GiB total capacity; 9.70 GiB already allocated; 179.81 MiB free; 9.85 GiB reserved in total by PyTorch)
+Here are some potential solutions you can try to lessen memory use:
+
+Reduce the per_device_train_batch_size value in [TrainingArg

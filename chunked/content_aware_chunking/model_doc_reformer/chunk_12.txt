@@ -1,0 +1,6 @@
+For each chunk, the query embedding vectors attend to its key vectors
+(which are tied to themselves) and to the key embedding vectors of config.lsh_num_chunks_before previous
+neighboring chunks and config.lsh_num_chunks_after following neighboring chunks.
+For more information, see the original Paper or this great blog post.
+Note that config.num_buckets can also be factorized into a list \((n_{\text{buckets}}^1,
+n_{\text{buckets}}^2)\).

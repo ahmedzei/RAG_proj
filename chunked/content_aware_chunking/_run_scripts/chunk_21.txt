@@ -1,0 +1,17 @@
+The repository will be automatically listed under your namespace.
+The following example shows how to upload a model with a specific repository name:
+
+python examples/pytorch/summarization/run_summarization.py
+    --model_name_or_path google-t5/t5-small \
+    --do_train \
+    --do_eval \
+    --dataset_name cnn_dailymail \
+    --dataset_config "3.0.0" \
+    --source_prefix "summarize: " \
+    --push_to_hub \
+    --push_to_hub_model_id finetuned-t5-cnn_dailymail \
+    --output_dir /tmp/tst-summarization \
+    --per_device_train_batch_size=4 \
+    --per_device_eval_batch_size=4 \
+    --overwrite_output_dir \
+    --predict_with_generate.

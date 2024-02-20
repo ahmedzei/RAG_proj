@@ -1,0 +1,1 @@
+For the training set, jitter is applied before providing the images to the image processor.

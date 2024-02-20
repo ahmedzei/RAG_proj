@@ -1,0 +1,12 @@
+ preds, labels
+
+def compute_metrics(eval_preds):
+     preds, labels = eval_preds
+     if isinstance(preds, tuple):
+         preds = preds[0]
+     decoded_preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
+
+     labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
+     decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+     decoded_preds, decoded_labels = postprocess_text(decoded_preds, decoded_labels)
+     result = metric.compute(predictions=decoded_preds, re

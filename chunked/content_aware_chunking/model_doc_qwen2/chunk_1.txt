@@ -1,0 +1,4 @@
+It is based on the Transformer architecture with SwiGLU activation, attention QKV bias, group query attention, mixture of sliding window attention and full attention, etc. Additionally, we have an improved tokenizer adaptive to multiple natural languages and codes.
+Usage tips
+Qwen2-7B-beta and Qwen2-7B-Chat-beta can be found on the Huggingface Hub
+In the following, we demonstrate how to use Qwen2-7B-Chat-beta for the inference.

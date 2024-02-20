@@ -1,0 +1,11 @@
+rted model from the output/path:
+thon
+from transformers import MixtralForCausalLM, LlamaTokenizer
+tokenizer = LlamaTokenizer.from_pretrained("/output/path")
+model = MixtralForCausalLM.from_pretrained("/output/path")
+
+Combining Mixtral and Flash Attention 2
+First, make sure to install the latest version of Flash Attention 2 to include the sliding window attention feature.
+
+pip install -U flash-attn --no-build-isolation
+Make also sure that you have a hardware that is compatible with Flash-Attention 2. Read mo

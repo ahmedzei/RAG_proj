@@ -1,0 +1,6 @@
+instance and associated data (configurations' hyperparameters, tokenizers' vocabulary,
+    and models' weights) from a pretrained checkpoint provided on Hugging Face Hub or your own saved checkpoint.
+On top of those three base classes, the library provides two APIs: [pipeline] for quickly
+    using a model for inference on a given task and [Trainer] to quickly train or fine-tune a PyTorch model (all TensorFlow models are compatible with Keras.fit).
+
+As a consequence, this library is NOT a modular toolbox of

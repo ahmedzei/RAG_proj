@@ -1,0 +1,11 @@
+that your custom prompt includes an introduction section, 
+a tool section, an example section, and an unfinished example section. If you want to overwrite the run prompt template, 
+you can do as follows:
+
+template = """ [] """
+agent = HfAgent(your_endpoint, run_prompt_template=template)
+
+Please make sure to have the <<all_tools>> string and the <<prompt>> defined somewhere in the template so that the agent can be aware 
+of the tools, it has available to it as well as correctly insert the user's prompt.
+
+Sim

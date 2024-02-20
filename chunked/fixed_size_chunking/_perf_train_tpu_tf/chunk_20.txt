@@ -1,0 +1,4 @@
+ can use padding="max_length" or padding="longest" when calling tokenizers to get them to output padded data. Our tokenizers and data collators also have a pad_to_multiple_of argument that you can use to reduce the number of unique input shapes you see!
+
+How do I actually train my model on TPU?
+Once your training is XLA-compatible and (if you’re using TPU Node / Colab) your dataset has been prepared appropriately, running on TPU is surprisingly easy! All you really need to change in your code is to add a fe

@@ -1,0 +1,14 @@
+_processor.post_process_masks(
+    outputs.pred_masks.cpu(), inputs["original_sizes"].cpu(), inputs["reshaped_input_sizes"].cpu()
+)
+scores = outputs.iou_scores
+
+You can also process your own masks alongside the input images in the processor to be passed to the model.
+thon
+import torch
+from PIL import Image
+import requests
+from transformers import SamModel, SamProcessor
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model = SamModel.from_pretrained("facebook/sam-vit-huge").to(device)
+processor = Sam

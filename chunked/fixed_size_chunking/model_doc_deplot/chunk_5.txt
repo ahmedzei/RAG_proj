@@ -1,0 +1,8 @@
+tions = model.generate(**inputs, max_new_tokens=512)
+print(processor.decode(predictions[0], skip_special_tokens=True))
+
+Fine-tuning
+To fine-tune DePlot, refer to the pix2struct fine-tuning notebook. For Pix2Struct models, we have found out that fine-tuning the model with Adafactor and cosine learning rate scheduler leads to faster convergence:
+thon
+from transformers.optimization import Adafactor, get_cosine_schedule_with_warmup
+optimizer = Adafactor(self.parameters(), scale_parameter=False, relative_step=Fa

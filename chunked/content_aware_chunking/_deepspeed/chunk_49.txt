@@ -1,0 +1,4 @@
+It’s recommended to use DeepSpeed’s add_config_arguments utility to add any necessary command line arguments to your code.
+This guide will show you how to deploy DeepSpeed with the deepspeed launcher for different training setups. You can check out this post for more practical usage examples.
+
+To deploy DeepSpeed on multiple GPUs, add the --num_gpus parameter. If you want to use all available GPUs, you don't need to add --num_gpus.

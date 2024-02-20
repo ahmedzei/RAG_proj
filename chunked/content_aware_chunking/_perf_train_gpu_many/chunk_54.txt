@@ -1,0 +1,6 @@
+If you add/remove/replace any parts it'll run and re-optimize the plan 
+for that. And then you can train. A different setup will have its own custom optimization.
+🤗 Transformers status: Transformers models are FX-trace-able via transformers.utils.fx, 
+which is a prerequisite for FlexFlow, however, changes are required on the FlexFlow side to make it work with Transformers models.
+GPU selection
+When training on multiple GPUs, you can specify the number of GPUs to use and in what order.

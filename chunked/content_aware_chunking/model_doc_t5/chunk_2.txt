@@ -1,0 +1,6 @@
+By combining the insights from our exploration
+with scale and our new "Colossal Clean Crawled Corpus", we achieve state-of-the-art results on many benchmarks covering
+summarization, question answering, text classification, and more. To facilitate future work on transfer learning for
+NLP, we release our dataset, pre-trained models, and code.
+All checkpoints can be found on the hub.
+This model was contributed by thomwolf.

@@ -1,0 +1,9 @@
+u can use it for inference!
+Come up with some text you'd like the model to fill in the blank with, and use the special <mask> token to indicate the blank:
+
+text = "The Milky Way is a  galaxy."
+
+The simplest way to try out your finetuned model for inference is to use it in a [pipeline]. Instantiate a pipeline for fill-mask with your model, and pass your text to it. If you like, you can use the top_k parameter to specify how many predictions to return:
+
+from transformers import pipeline
+mask_filler = pipeline

@@ -1,0 +1,8 @@
+
+FSMT
+Overview
+FSMT (FairSeq MachineTranslation) models were introduced in Facebook FAIR's WMT19 News Translation Task Submission by Nathan Ng, Kyra Yee, Alexei Baevski, Myle Ott, Michael Auli, Sergey Edunov.
+The abstract of the paper is the following:
+This paper describes Facebook FAIR's submission to the WMT19 shared news translation task. We participate in two
+language pairs and four language directions, English <-> German and English <-> Russian. Following our submission from
+last year, our baseline sys

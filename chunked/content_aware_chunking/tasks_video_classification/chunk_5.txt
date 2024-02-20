@@ -1,0 +1,3 @@
+For each class, there are 30 videos in the training set.
+Load a model to fine-tune
+Instantiate a video classification model from a pretrained checkpoint and its associated image processor. The model's encoder comes with pre-trained parameters, and the classification head is randomly initialized.

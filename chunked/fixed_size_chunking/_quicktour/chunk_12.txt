@@ -1,0 +1,5 @@
+SOMETHING UQUETTE HAD PREFERRED TO JUST DO IT OVER THE PHONE OF POSSIBLE THINGS", 'HOW DO I FURN A JOINA COUT']
+
+For larger datasets where the inputs are big (like in speech or vision), you'll want to pass a generator instead of a list to load all the inputs in memory. Take a look at the pipeline API reference for more information.
+Use another model and tokenizer in the pipeline
+The [pipeline] can accommodate any model from the Hub, making it easy to adapt the [pipeline] for other use-cases. For example, if

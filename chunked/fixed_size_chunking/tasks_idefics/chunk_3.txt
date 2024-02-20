@@ -1,0 +1,16 @@
+ guide, you'll learn how to: 
+- Load IDEFICS and load the quantized version of the model
+- Use IDEFICS for: 
+  - Image captioning
+  - Prompted image captioning
+  - Few-shot prompting
+  - Visual question answering
+  - Image classification
+  - Image-guided text generation
+- Run inference in batch mode
+- Run IDEFICS instruct for conversational use
+Before you begin, make sure you have all the necessary libraries installed. 
+
+pip install -q bitsandbytes sentencepiece accelerate transformers
+
+To run the following

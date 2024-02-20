@@ -1,0 +1,11 @@
+
+GPT-J
+Overview
+The GPT-J model was released in the kingoflolz/mesh-transformer-jax repository by Ben Wang and Aran Komatsuzaki. It is a GPT-2-like
+causal language model trained on the Pile dataset.
+This model was contributed by Stella Biderman.
+Usage tips
+
+To load GPT-J in float32 one would need at least 2x model size
+  RAM: 1x for initial weights and another 1x to load the checkpoint. So for GPT-J it would take at least 48GB
+  RAM to just load the model. To reduce the RAM usage there are a few options. Th

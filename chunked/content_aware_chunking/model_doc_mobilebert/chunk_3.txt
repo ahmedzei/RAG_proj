@@ -1,0 +1,4 @@
+Basically, MobileBERT is a thin version of BERT_LARGE, while
+equipped with bottleneck structures and a carefully designed balance between self-attentions and feed-forward networks.
+To train MobileBERT, we first train a specially designed teacher model, an inverted-bottleneck incorporated BERT_LARGE
+model. Then, we conduct knowledge transfer from this teacher to MobileBERT.

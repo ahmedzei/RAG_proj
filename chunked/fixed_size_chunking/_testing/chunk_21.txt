@@ -1,0 +1,11 @@
+e
+second gpu if you have gpus 0 and 1, you can run:
+
+CUDA_VISIBLE_DEVICES="1" pytest tests/utils/test_logging.py
+This is handy when you want to run different tasks on different GPUs.
+Some tests must be run on CPU-only, others on either CPU or GPU or TPU, yet others on multiple-GPUs. The following skip
+decorators are used to set the requirements of tests CPU/GPU/TPU-wise:
+
+require_torch - this test will run only under torch
+require_torch_gpu - as require_torch plus requires at least 1 GPU
+require_torch_multi

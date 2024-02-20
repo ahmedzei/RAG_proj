@@ -1,0 +1,21 @@
+ongT5Model
+[[autodoc]] LongT5Model
+    - forward
+LongT5ForConditionalGeneration
+[[autodoc]] LongT5ForConditionalGeneration
+    - forward
+LongT5EncoderModel
+[[autodoc]] LongT5EncoderModel
+    - forward
+
+FlaxLongT5Model
+[[autodoc]] FlaxLongT5Model
+    - call
+    - encode
+    - decode
+FlaxLongT5ForConditionalGeneration
+[[autodoc]] FlaxLongT5ForConditionalGeneration
+    - call
+    - encode
+    - decode
+

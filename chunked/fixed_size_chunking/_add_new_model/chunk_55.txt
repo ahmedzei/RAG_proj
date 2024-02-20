@@ -1,0 +1,10 @@
+ing sure that the init() methods of all components works.
+Note that all random initialization should happen in the _init_weights method of your BrandnewBertPreTrainedModel
+class. It should initialize all leaf modules depending on the variables of the config. Here is an example with the
+BERT _init_weights method:
+py
+def _init_weights(self, module):
+    """Initialize the weights"""
+    if isinstance(module, nn.Linear):
+        module.weight.data.normal_(mean=0.0, std=self.config.initializer_range)
+        if 

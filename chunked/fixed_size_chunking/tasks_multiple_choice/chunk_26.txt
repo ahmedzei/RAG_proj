@@ -1,0 +1,8 @@
+ogits = outputs.logits
+
+Get the class with the highest probability:
+
+predicted_class = int(tf.math.argmax(logits, axis=-1)[0])
+predicted_class
+'0'
+

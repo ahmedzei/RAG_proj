@@ -1,0 +1,7 @@
+ you're stuck here.
+Lastly, it is always a good idea to refactor one's code after having ensured that the code works correctly. With all
+tests passing, now it's a good time to go over the added code again and do some refactoring.
+You have now finished the coding part, congratulation! 🎉 You are Awesome! 😎
+12. Upload the models to the model hub
+In this final part, you should convert and upload all checkpoints to the model hub and add a model card for each
+uploaded model checkpoint. You can get familiar with t

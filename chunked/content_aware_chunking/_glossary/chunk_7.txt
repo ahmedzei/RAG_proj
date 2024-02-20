@@ -1,0 +1,4 @@
+It is usually connected to a head which accepts the features as its input to make a prediction. For example, [ViTModel] is a backbone without a specific head on top. Other models can also use [VitModel] as a backbone such as DPT.
+C
+causal language modeling
+A pretraining task where the model reads the texts in order and has to predict the next word.

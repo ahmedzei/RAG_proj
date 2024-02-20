@@ -1,0 +1,14 @@
+tion] is supported by this example script and notebook.
+See also: Image classification task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+LevitConfig
+[[autodoc]] LevitConfig
+LevitFeatureExtractor
+[[autodoc]] LevitFeatureExtractor
+    - call
+LevitImageProcessor
+[[autodoc]] LevitImageProcessor
+    - preprocess
+LevitModel
+[[a

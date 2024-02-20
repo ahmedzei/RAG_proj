@@ -1,0 +1,24 @@
+ng
+[[autodoc]] GPTJForQuestionAnswering
+    - forward
+
+TFGPTJModel
+[[autodoc]] TFGPTJModel
+    - call
+TFGPTJForCausalLM
+[[autodoc]] TFGPTJForCausalLM
+    - call
+TFGPTJForSequenceClassification
+[[autodoc]] TFGPTJForSequenceClassification
+    - call
+TFGPTJForQuestionAnswering
+[[autodoc]] TFGPTJForQuestionAnswering
+    - call
+
+FlaxGPTJModel
+[[autodoc]] FlaxGPTJModel
+    - call
+FlaxGPTJForCausalLM
+[[autodoc]] FlaxGPTJForCausalLM
+    - call
+

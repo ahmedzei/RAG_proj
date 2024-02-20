@@ -1,0 +1,10 @@
+utorial here!
+
+You're ready to start training your model now! Load DistilBERT with [AutoModelForQuestionAnswering]:
+
+from transformers import AutoModelForQuestionAnswering, TrainingArguments, Trainer
+model = AutoModelForQuestionAnswering.from_pretrained("distilbert/distilbert-base-uncased")
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [TrainingArguments]. The only required parameter is output_dir which specifies where to save your model. You'll push this model to the Hub

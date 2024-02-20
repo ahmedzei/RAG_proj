@@ -1,0 +1,6 @@
+ padding your batch to the length of the longest sequence and truncating to the maximum length a model can accept works pretty well. However, the API supports more strategies if you need them. The three arguments you need to are: padding, truncation and max_length.
+The padding argument controls padding. It can be a boolean or a string:
+
+True or 'longest': pad to the longest sequence in the batch (no padding is applied if you only provide
+    a single sequence).
+'max_length': pad to a length specified by the

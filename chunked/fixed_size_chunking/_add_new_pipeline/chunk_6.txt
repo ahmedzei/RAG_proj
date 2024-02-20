@@ -1,0 +1,13 @@
+abel": "5-star", "score": 0.025}]
+pipe("This is a test", top_k=2)
+[{"label": "1-star", "score": 0.8}, {"label": "2-star", "score": 0.1}]
+
+In order to achieve that, we'll update our postprocess method with a default parameter to 5. and edit
+_sanitize_parameters to allow this new parameter.
+thon
+def postprocess(self, model_outputs, top_k=5):
+    best_class = model_outputs["logits"].softmax(-1)
+    # Add logic to handle top_k
+    return best_class
+def _sanitize_parameters(self, **kwargs):
+    preprocess_kwargs

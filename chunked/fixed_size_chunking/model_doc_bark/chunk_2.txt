@@ -1,0 +1,11 @@
+t sound according to specific predefined voice.
+This model was contributed by Yoach Lacombe (ylacombe) and Sanchit Gandhi (sanchit-gandhi).
+The original code can be found here.
+Optimizing Bark
+Bark can be optimized with just a few extra lines of code, which significantly reduces its memory footprint and accelerates inference.
+Using half-precision
+You can speed up inference and reduce memory footprint by 50% simply by loading the model in half-precision.
+thon
+from transformers import BarkModel
+import torch
+d

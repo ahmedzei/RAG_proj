@@ -1,0 +1,9 @@
+eline
+    - call
+    - all
+VisualQuestionAnsweringPipeline
+[[autodoc]] VisualQuestionAnsweringPipeline
+    - call
+    - all
+Parent class: Pipeline
+[[autodoc]] Pipeline

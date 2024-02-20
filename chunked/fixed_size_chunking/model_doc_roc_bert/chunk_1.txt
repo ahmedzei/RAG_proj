@@ -1,0 +1,6 @@
+nguages like Chinese. In this work, we propose
+ROCBERT: a pretrained Chinese Bert that is robust to various forms of adversarial attacks like word perturbation,
+synonyms, typos, etc. It is pretrained with the contrastive learning objective which maximizes the label consistency
+under different synthesized adversarial examples. The model takes as input multimodal information including the
+semantic, phonetic and visual features. We show all these features are important to the model robustness since the
+attack 

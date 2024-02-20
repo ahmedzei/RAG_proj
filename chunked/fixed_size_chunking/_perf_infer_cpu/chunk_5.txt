@@ -1,0 +1,8 @@
+th 384 \
+--doc_stride 128 \
+--output_dir /tmp/ \
+--no_cuda \
+--jit_mode_eval
+
+For PyTorch >= 1.14.0, JIT-mode could benefit any model for prediction and evaluation since the dict input is supported in jit.trace.
+For PyTorch < 1.14.0, JIT-mode could benefit a model if its forward parameter order matches the tuple input order in jit.trace, such as a question-answering model. If the forward parameter order does not match the tuple input order in jit.trace, like a text classification model, jit.trace will fail 

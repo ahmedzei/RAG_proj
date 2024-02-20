@@ -1,0 +1,8 @@
+Refer to
+ the documentation of mT5 which can be found here.
+
+Training
+T5 is an encoder-decoder model and converts all NLP problems into a text-to-text format. It is trained using teacher
+forcing. This means that for training, we always need an input sequence and a corresponding target sequence. The input
+sequence is fed to the model using input_ids. The target sequence is shifted to the right, i.e., prepended by a
+start-sequence token and fed to the decoder using the decoder_input_ids.

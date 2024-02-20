@@ -1,0 +1,30 @@
+These methods include:
+
+[~Trainer.get_train_dataloader] creates a training DataLoader
+[~Trainer.get_eval_dataloader] creates an evaluation DataLoader
+[~Trainer.get_test_dataloader] creates a test DataLoader
+[~Trainer.log] logs information on the various objects that watch training
+[~Trainer.create_optimizer_and_scheduler] creates an optimizer and learning rate scheduler if they weren't passed in the __init__; these can also be separately customized with [~Trainer.create_optimizer] and [~Trainer.create_scheduler] respectively
+[~Trainer.compute_loss] computes the loss on a batch of training inputs
+[~Trainer.training_step] performs the training step
+[~Trainer.prediction_step] performs the prediction and test step
+[~Trainer.evaluate] evaluates the model and returns the evaluation metrics
+[~Trainer.predict] makes predictions (with metrics if labels are available) on the test set
+
+For example, if you want to customize the [~Trainer.compute_loss] method to use a weighted loss instead.
+
+from torch import nn
+from transformers import Trainer
+class CustomTrainer(Trainer):
+    def compute_loss(self, model, inputs, return_outputs=False):
+        labels = inputs.pop("labels")
+        # forward pass
+        outputs = model(**inputs)
+        logits = outputs.get("logits")
+        # compute custom loss for 3 labels with different weights
+        loss_fct = nn.CrossEntropyLoss(weight=torch.tensor([1.0, 2.0, 3.0], device=model.device))
+        loss = loss_fct(logits.view(-1, self.model.config.num_labels), labels.view(-1))
+        return (loss, outputs) if return_outputs else loss
+
+Callbacks
+Another option for customizing the [Trainer] is to use callbacks.

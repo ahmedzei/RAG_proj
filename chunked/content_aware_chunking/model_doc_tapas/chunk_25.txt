@@ -1,0 +1,6 @@
+You don't need this column in case you're going for WTQ/WikiSQL-supervised.
+question: string
+table_file: string, name of a csv file containing the tabular data
+answer_coordinates: list of one or more tuples (each tuple being a cell coordinate, i.e. row, column pair that is part of the answer)
+answer_text: list of one or more strings (each string being a cell value that is part of the answer)
+aggregation_label: index of the aggregation operator.

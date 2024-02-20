@@ -1,0 +1,5 @@
+You can find the full dataset on 🤗 Hub.
+As an alternative to the Graphcore/vqa dataset, you can download the 
+same data manually from the official VQA dataset page. If you prefer to follow the 
+tutorial with your custom data, check out how to Create an image dataset
+guide in the 🤗 Datasets documentation.

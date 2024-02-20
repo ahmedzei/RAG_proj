@@ -1,0 +1,5 @@
+ndicated by 🌎) resources to help you get started with BERT. If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A blog post on BERT Text Classification in a different language.
+A notebook for Finetuning BERT (and friends) for multi-label text classification.
+A notebook on how to Finetune BERT for multi-label classification using PyTor

@@ -1,0 +1,6 @@
+During training, one needs to provide
+pairs of (past_values and future_values) to the model.
+In addition to the raw (past_values and future_values), one typically provides additional features to the model. These can be the following:
+past_time_features: temporal features which the model will add to past_values. These serve as "positional encodings" for the Transformer encoder.
+Examples are "day of the month", "month of the year", etc. as scalar values (and then stacked together as a vector).
+e.g.

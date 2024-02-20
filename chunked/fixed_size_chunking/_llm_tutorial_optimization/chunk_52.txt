@@ -1,0 +1,4 @@
+token in \( O(1) \) computations regardless of their relative positional distance to each other.
+Therefore, for the LLM without position embeddings each token appears to have the same distance to all other tokens, e.g. differentiating between "Hello I love you" and "You love I hello" would be very challenging.
+For the LLM to understand sentence order, an additional cue is needed and is usually applied in the form of positional encodings (or also called positional embeddings).
+Positional encodings, encode th

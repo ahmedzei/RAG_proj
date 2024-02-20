@@ -1,0 +1,17 @@
+_stderr(msg)
+    out, err = capsys.readouterr()  # consume the captured output streams
+    # optional: if you want to replay the consumed streams:
+    sys.stdout.write(out)
+    sys.stderr.write(err)
+    # test:
+    assert msg in out
+    assert msg in err
+
+And, of course, most of the time, stderr will come as a part of an exception, so try/except has to be used in such
+a case:
+thon
+def raise_exception(msg):
+    raise ValueError(msg)
+def test_something_exception():
+    msg = "Not a good value"
+    error = ""

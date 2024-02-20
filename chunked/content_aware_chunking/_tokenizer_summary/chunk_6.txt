@@ -1,0 +1,3 @@
+While it's the most intuitive way to split texts into smaller chunks, this
+tokenization method can lead to problems for massive text corpora. In this case, space and punctuation tokenization
+usually generates a very big vocabulary (the set of all unique words and tokens used).

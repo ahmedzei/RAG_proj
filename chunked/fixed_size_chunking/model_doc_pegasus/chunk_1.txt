@@ -1,0 +1,8 @@
+ummarization performance on all 12 downstream tasks, as measured by ROUGE and human eval.
+
+This model was contributed by sshleifer. The Authors' code can be found here.
+Usage tips
+
+Sequence-to-sequence model with the same encoder-decoder model architecture as BART. Pegasus is pre-trained jointly on two self-supervised objective functions: Masked Language Modeling (MLM) and a novel summarization specific pretraining objective, called Gap Sentence Generation (GSG).
+
+MLM: encoder input tokens are randomly repl

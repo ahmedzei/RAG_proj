@@ -1,0 +1,7 @@
+Debugging
+Training on multiple GPUs can be a tricky endeavor whether you're running into installation issues or communication problems between your GPUs. This debugging guide covers some issues you may run into and how to resolve them.
+DeepSpeed CUDA installation
+If you're using DeepSpeed, you've probably already installed it with the following command.
+
+pip install deepspeed
+DeepSpeed compiles CUDA C++ code and it can be a potential source of errors when building PyTorch extensions that require CUDA.

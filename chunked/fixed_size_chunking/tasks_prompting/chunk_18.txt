@@ -1,0 +1,10 @@
+cal knowledge of indigenous cultures combined with modern scientific understanding and technological innovations. Permaculture design provides a framework helping individuals and communities develop innovative, creative and effective strategies for meeting basic needs while preparing for and mitigating the projected impacts of climate change.
+ Write a summary of the above text.
+ Summary:
+ """
+sequences = pipe(
+     prompt,
+     max_new_tokens=30,
+     do_sample=True,
+     top_k=10,
+     return_full_text = F

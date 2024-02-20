@@ -1,0 +1,25 @@
+ BROS
+local: model_doc/chinese_clip
+    title: Chinese-CLIP
+local: model_doc/clip
+    title: CLIP
+local: model_doc/clipseg
+    title: CLIPSeg
+local: model_doc/clvp
+    title: CLVP
+local: model_doc/data2vec
+    title: Data2Vec
+local: model_doc/deplot
+    title: DePlot
+local: model_doc/donut
+    title: Donut
+local: model_doc/flava
+    title: FLAVA
+local: model_doc/git
+    title: GIT
+local: model_doc/groupvit
+    title: GroupViT
+local: model_doc/idefics
+    title: IDEFICS
+local: model_doc/instructblip
+    titl

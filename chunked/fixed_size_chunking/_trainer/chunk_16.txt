@@ -1,0 +1,12 @@
+["test"],
+    tokenizer=tokenizer,
+    data_collator=data_collator,
+    compute_metrics=compute_metrics,
+    callback=[EarlyStoppingCallback()],
+)
+
+Logging
+
+Check out the logging API reference for more information about the different logging levels.
+
+The [Trainer] is set to logging.INFO by default which reports errors, warnings, and other basic information. A [Trainer] replica - in distributed environments - is set to logging.WARNING which only reports errors and warnings. You can change the logging level w

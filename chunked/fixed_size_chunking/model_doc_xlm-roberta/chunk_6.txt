@@ -1,0 +1,11 @@
+tion] is supported by this example script and notebook.
+[TFXLMRobertaForTokenClassification] is supported by this example script and notebook.
+[FlaxXLMRobertaForTokenClassification] is supported by this example script.
+Token classification chapter of the 🤗 Hugging Face Course.
+Token classification task guide
+
+[XLMRobertaForCausalLM] is supported by this example script and notebook.
+Causal language modeling chapter of the 🤗 Hugging Face Task Guides.
+Causal language modeling task guide
+
+[XLMRobertaForMaskedLM

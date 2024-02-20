@@ -1,0 +1,10 @@
+specify the BCP-47 code in the src_lang keyword argument of the tokenizer initialization.
+See example below for a translation from romanian to german:
+
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained(
+     "facebook/nllb-200-distilled-600M", token=True, src_lang="ron_Latn"
+ )
+model = AutoModelForSeq2SeqLM.from_pretrained("facebook/nllb-200-distilled-600M", token=True)
+article = "Şeful ONU spune că nu există o soluţie militară în Siria"
+inputs = tokeniz

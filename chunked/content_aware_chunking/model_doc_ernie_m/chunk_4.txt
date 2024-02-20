@@ -1,0 +1,5 @@
+The original code can be found here.
+Usage tips
+
+Ernie-M is a BERT-like model so it is a stacked Transformer Encoder.
+Instead of using MaskedLM for pretraining (like BERT) the authors used two novel techniques: Cross-attention Masked Language Modeling and Back-translation Masked Language Modeling.

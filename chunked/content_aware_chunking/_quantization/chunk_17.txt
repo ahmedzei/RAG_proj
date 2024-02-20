@@ -1,0 +1,19 @@
+This can save your memory-usage by 4x because the int4 weights are dequantized in a fused kernel rather than a GPU's global memory, and you can also expect a speedup in inference because using a lower bitwidth takes less time to communicate.
+Before you begin, make sure the following libraries are installed:
+
+pip install auto-gptq
+pip install git+https://github.com/huggingface/optimum.git
+pip install git+https://github.com/huggingface/transformers.git
+pip install --upgrade accelerate
+To quantize a model (currently only supported for text models), you need to create a [GPTQConfig] class and set the number of bits to quantize to, a dataset to calibrate the weights for quantization, and a tokenizer to prepare the dataset.
+
+from transformers import AutoModelForCausalLM, AutoTokenizer, GPTQConfig
+model_id = "facebook/opt-125m"
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+gptq_config = GPTQConfig(bits=4, dataset="c4", tokenizer=tokenizer)
+
+You could also pass your own dataset as a list of strings, but it is highly recommended to use the same dataset from the GPTQ paper.
+py
+dataset = ["auto-gptq is an easy-to-use model quantization library with user-friendly apis, based on GPTQ algorithm."]
+gptq_config = GPTQConfig(bits=4, dataset=dataset, tokenizer=tokenizer)
+Load a model to quantize and pass the gptq_config to the [~AutoModelForCausalLM.from_pretrained] method.

@@ -1,0 +1,5 @@
+age model, and we're prompting it so that it has access to a specific set of tools.
+LLMs are pretty good at generating small samples of code, so this API takes advantage of that by prompting the 
+LLM gives a small sample of code performing a task with a set of tools. This prompt is then completed by the 
+task you give your agent and the description of the tools you give it. This way it gets access to the doc of the 
+tools you are using, especially their expected inputs and outputs, and can generate the rele

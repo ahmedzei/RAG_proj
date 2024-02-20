@@ -1,0 +1,16 @@
+ctor
+    - call
+    - post_process_semantic_segmentation
+DPTImageProcessor
+[[autodoc]] DPTImageProcessor
+    - preprocess
+    - post_process_semantic_segmentation
+DPTModel
+[[autodoc]] DPTModel
+    - forward
+DPTForDepthEstimation
+[[autodoc]] DPTForDepthEstimation
+    - forward
+DPTForSemanticSegmentation
+[[autodoc]] DPTForSemanticSegmentation
+    - forward

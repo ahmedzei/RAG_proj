@@ -1,0 +1,14 @@
+ood["test"],
+     tokenizer=image_processor,
+     compute_metrics=compute_metrics,
+ )
+trainer.train()
+
+Once training is completed, share your model to the Hub with the [~transformers.Trainer.push_to_hub] method so everyone can use your model:
+
+trainer.push_to_hub()
+
+If you are unfamiliar with fine-tuning a model with Keras, check out the basic tutorial first!
+
+To fine-tune a model in TensorFlow, follow these steps:
+1. Define the training hyperparameters, and set up an optimizer and a learning rate schedule.

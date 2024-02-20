@@ -1,0 +1,13 @@
+ samples.
+inputs = feature_extractor(
+    ds[0]["audio"]["array"], sampling_rate=ds[0]["audio"]["sampling_rate"], pad_end=True, return_tensors="pt"
+)
+with torch.no_grad():
+    audio = model(**inputs)
+Remove the extra padding at the end of the output.
+audio = feature_extractor.batch_decode(**audio)[0]
+Convert to wav file
+write("sample_audio.wav", feature_extractor.sampling_rate, audio)
+
+This model was contributed by dg845.
+To the best of my knowledge, there is no official code release, but an unofficial impl

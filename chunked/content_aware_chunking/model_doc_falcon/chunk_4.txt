@@ -1,0 +1,20 @@
+If your model hasn't been
+uploaded to the Hub, we recommend making a backup before attempting the conversion, just in case!
+FalconConfig
+[[autodoc]] FalconConfig
+    - all
+FalconModel
+[[autodoc]] FalconModel
+    - forward
+FalconForCausalLM
+[[autodoc]] FalconForCausalLM
+    - forward
+FalconForSequenceClassification
+[[autodoc]] FalconForSequenceClassification
+    - forward
+FalconForTokenClassification
+[[autodoc]] FalconForTokenClassification
+    - forward
+FalconForQuestionAnswering
+[[autodoc]] FalconForQuestionAnswering
+    - forward.

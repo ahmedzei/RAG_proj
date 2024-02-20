@@ -1,0 +1,5 @@
+This means that having
+a sequence length of \(n_s = 2^{19} \approx 0.5M\) and a config.hidden_size of \(d = 2^{10} \approx 1000\)
+would result in a position encoding matrix:
+$$X_{i,j}, \text{ with } i \in \left[1,\ldots, d\right] \text{ and } j \in \left[1,\ldots, n_s\right]$$
+which alone has over 500M parameters to store.

@@ -1,0 +1,8 @@
+ForConditionalGeneration
+Option 1: get decoder config and pass to .from_pretrained
+decoder_config = AutoConfig.from_pretrained("facebook/musicgen-small").decoder
+decoder = MusicgenForCausalLM.from_pretrained("facebook/musicgen-small", **decoder_config)
+Option 2: load the entire composite model, but only return the decoder
+decoder = MusicgenForConditionalGeneration.from_pretrained("facebook/musicgen-small").decoder
+
+Since the text encoder and audio encoder/decoder models are frozen during training, the Music

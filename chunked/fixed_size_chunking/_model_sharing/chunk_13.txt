@@ -1,0 +1,10 @@
+e. Visit huggingface.co/new to create a new repository:
+
+From here, add some information about your model:
+
+Select the owner of the repository. This can be yourself or any of the organizations you belong to.
+Pick a name for your model, which will also be the repository name.
+Choose whether your model is public or private.
+Specify the license usage for your model.
+
+Now click on the Files tab and click on the Add file button to upload a new file to your repository. Then drag-and-drop a file to upload and add 

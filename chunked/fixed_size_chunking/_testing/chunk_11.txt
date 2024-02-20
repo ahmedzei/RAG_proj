@@ -1,0 +1,8 @@
+g for you to modify files and continuously re-rerun those failing tests until they pass while you
+fix them. So that you don't need to re start pytest after you made the fix. This is repeated until all tests pass after
+which again a full run is performed.
+
+pip install pytest-xdist
+To enter the mode: pytest -f or pytest --looponfail
+File changes are detected by looking at looponfailroots root directories and all of their contents (recursively).
+If the default for this value does not work for you, you can chan

@@ -1,0 +1,9 @@
+est and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A blog post on how to Accelerate Large Model Training using DeepSpeed with DeBERTa.
+A blog post on Supercharged Customer Service with Machine Learning with DeBERTa.
+[DebertaForSequenceClassification] is supported by this example script and notebook.
+[TFDebertaForSequenceClassification] is supported by this example script and notebook.
+Text classification task guide
+
+[DebertaForTokenCl

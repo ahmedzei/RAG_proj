@@ -1,0 +1,14 @@
+tion:
+
+from transformers import AutoModel
+model = AutoModel.from_pretrained("your_username/my-awesome-model")
+
+If you belong to an organization and want to push your model under the organization name instead, just add it to the repo_id:
+
+pt_model.push_to_hub("my-awesome-org/my-awesome-model")
+
+The push_to_hub function can also be used to add other files to a model repository. For example, add a tokenizer to a model repository:
+
+tokenizer.push_to_hub("my-awesome-model")
+
+Or perhaps you'd like to add the Tens

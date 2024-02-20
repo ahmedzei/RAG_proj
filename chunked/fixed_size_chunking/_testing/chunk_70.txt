@@ -1,0 +1,9 @@
+t with either ci_ or ci- (main triggers it too, but we can't do PRs on
+   main). It also gets triggered only for specific paths - you can find the up-to-date definition in case it
+   changed since this document has been written here under push:
+Create a PR from this branch.
+Then you can see the job appear here. It may not run right away if there
+   is a backlog.
+
+Testing Experimental CI Features
+Testing CI features can be potentially problematic as it can interfere with the normal CI functioning. Therefore 

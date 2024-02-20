@@ -1,0 +1,24 @@
+rce.
+Blip2Config
+[[autodoc]] Blip2Config
+    - from_vision_qformer_text_configs
+Blip2VisionConfig
+[[autodoc]] Blip2VisionConfig
+Blip2QFormerConfig
+[[autodoc]] Blip2QFormerConfig
+Blip2Processor
+[[autodoc]] Blip2Processor
+Blip2VisionModel
+[[autodoc]] Blip2VisionModel
+    - forward
+Blip2QFormerModel
+[[autodoc]] Blip2QFormerModel
+    - forward
+Blip2Model
+[[autodoc]] Blip2Model
+    - forward
+    - get_text_features
+    - get_image_features
+    - get_qformer_features
+Blip2ForConditionalGeneration
+[[autodoc]] Blip

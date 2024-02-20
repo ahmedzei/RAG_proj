@@ -1,0 +1,10 @@
+ataset:
+
+lm_dataset = tokenized_eli5.map(group_texts, batched=True, num_proc=4)
+
+Now create a batch of examples using [DataCollatorForLanguageModeling]. It's more efficient to dynamically pad the
+sentences to the longest length in a batch during collation, instead of padding the whole dataset to the maximum length.
+
+Use the end-of-sequence token as the padding token and set mlm=False. This will use the inputs as labels shifted to the right by one element:
+
+from transformers import DataCollatorForLanguageMod

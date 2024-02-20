@@ -1,0 +1,10 @@
+omputed by the model, and outputs.attentions is
+None.
+When considering our outputs object as tuple, it only considers the attributes that don't have None values.
+Here for instance, it has two elements, loss then logits, so
+python
+outputs[:2]
+will return the tuple (outputs.loss, outputs.logits) for instance.
+When considering our outputs object as dictionary, it only considers the attributes that don't have None
+values. Here for instance, it has two keys that are loss and logits.
+We document here the generic 

@@ -1,0 +1,9 @@
+FeatureExtractionMixin] class, and may also inherit from the [SequenceFeatureExtractor] class for processing audio inputs.
+To use, create a feature extractor associated with the model you're using. For example, create a default [Wav2Vec2FeatureExtractor] if you are using Wav2Vec2 for audio classification:
+
+from transformers import Wav2Vec2FeatureExtractor
+w2v2_extractor = Wav2Vec2FeatureExtractor()
+print(w2v2_extractor)
+Wav2Vec2FeatureExtractor {
+  "do_normalize": true,
+  "feature_extractor_type": "Wav2Vec2

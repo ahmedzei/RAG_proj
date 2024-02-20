@@ -1,0 +1,11 @@
+hPooling
+[[autodoc]] models.longformer.modeling_tf_longformer.TFLongformerMaskedLMOutput
+[[autodoc]] models.longformer.modeling_tf_longformer.TFLongformerQuestionAnsweringModelOutput
+[[autodoc]] models.longformer.modeling_tf_longformer.TFLongformerSequenceClassifierOutput
+[[autodoc]] models.longformer.modeling_tf_longformer.TFLongformerMultipleChoiceModelOutput
+[[autodoc]] models.longformer.modeling_tf_longformer.TFLongformerTokenClassifierOutput
+
+LongformerModel
+[[autodoc]] LongformerModel
+    - forward
+Lo

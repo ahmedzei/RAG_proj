@@ -1,0 +1,11 @@
+, 12))
+        plt.title(caption)
+        plt.imshow(images[i])
+        plt.axis("off")
+sample_images_to_visualize = [np.array(train_ds[i]["image"]) for i in range(5)]
+sample_captions = [train_ds[i]["text"] for i in range(5)]
+plot_images(sample_images_to_visualize, sample_captions)
+
+Preprocess the dataset
+Since the dataset has two modalities (image and text), the pre-processing pipeline will preprocess images and the captions.
+To do so, load the processor class associated with the model you are about to fin

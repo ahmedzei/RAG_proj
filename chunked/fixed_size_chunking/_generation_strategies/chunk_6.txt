@@ -1,0 +1,10 @@
+arameters and their values directly to the [generate] method:
+thon
+
+my_model.generate(**inputs, num_beams=4, do_sample=True)  # doctest: +SKIP
+
+Even if the default decoding strategy mostly works for your task, you can still tweak a few things. Some of the
+commonly adjusted parameters include:
+
+max_new_tokens: the maximum number of tokens to generate. In other words, the size of the output sequence, not
+including the tokens in the prompt. As an alternative to using the output's length as a stopping criteria,

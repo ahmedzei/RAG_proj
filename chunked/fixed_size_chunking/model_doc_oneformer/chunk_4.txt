@@ -1,0 +1,9 @@
+we observe even more performance improvement. We believe OneFormer is a significant step towards making image segmentation more universal and accessible.
+The figure below illustrates the architecture of OneFormer. Taken from the original paper.
+
+This model was contributed by Jitesh Jain. The original code can be found here.
+Usage tips
+
+OneFormer requires two inputs during inference: image and task token. 
+During training, OneFormer only uses panoptic annotations.
+If you want to train the model in a distribu

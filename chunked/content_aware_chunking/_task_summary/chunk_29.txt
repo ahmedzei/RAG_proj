@@ -1,0 +1,4 @@
+It replaces the recurrent layers most commonly used in encoder-decoder architectures with multi-headed self-attention . For translation tasks, the Transformer can be trained significantly faster than architectures based on recurrent or convolutional layers .'}]
+
+Translation
+Translation converts a sequence of text in one language to another.

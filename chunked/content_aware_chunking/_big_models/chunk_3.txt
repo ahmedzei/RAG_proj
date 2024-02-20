@@ -1,0 +1,3 @@
+Note that this is an area of active development, so the APIs explained here may change slightly in the future.
+Sharded checkpoints
+Since version 4.18.0, model checkpoints that end up taking more than 10GB of space are automatically sharded in smaller pieces.

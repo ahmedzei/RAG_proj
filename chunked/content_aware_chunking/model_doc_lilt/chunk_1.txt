@@ -1,0 +1,7 @@
+LiLT
+Overview
+The LiLT model was proposed in LiLT: A Simple yet Effective Language-Independent Layout Transformer for Structured Document Understanding by Jiapeng Wang, Lianwen Jin, Kai Ding.
+LiLT allows to combine any pre-trained RoBERTa text encoder with a lightweight Layout Transformer, to enable LayoutLM-like document understanding for many
+languages.
+The abstract from the paper is the following:
+Structured document understanding has attracted considerable attention and made significant progress recently, owing to its crucial role in intelligent document processing.

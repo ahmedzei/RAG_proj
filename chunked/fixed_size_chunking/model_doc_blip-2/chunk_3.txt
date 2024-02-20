@@ -1,0 +1,9 @@
+lso demonstrate the model's emerging capabilities of zero-shot image-to-text generation that can follow natural language instructions.
+ 
+ BLIP-2 architecture. Taken from the original paper. 
+This model was contributed by nielsr.
+The original code can be found here.
+Usage tips
+
+BLIP-2 can be used for conditional text generation given an image and an optional text prompt. At inference time, it's recommended to use the [generate] method.
+One can use [Blip2Processor] to prepare images for the model, and decode 

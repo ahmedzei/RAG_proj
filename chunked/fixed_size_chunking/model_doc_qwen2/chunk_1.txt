@@ -1,0 +1,8 @@
+ttention and full attention, etc. Additionally, we have an improved tokenizer adaptive to multiple natural languages and codes.
+Usage tips
+Qwen2-7B-beta and Qwen2-7B-Chat-beta can be found on the Huggingface Hub
+In the following, we demonstrate how to use Qwen2-7B-Chat-beta for the inference. Note that we have used the ChatML format for dialog, in this demo we show how to leverage apply_chat_template for this purpose.
+thon
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+device = "cuda" # the d

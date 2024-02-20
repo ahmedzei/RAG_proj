@@ -1,0 +1,7 @@
+ other fun ways to show off your model. We highly
+   encourage you to add a notebook to our community-driven demos.
+- Share stories on social media like Twitter and LinkedIn. You should be proud of your work and share
+   your achievement with the community - your model can now be used by thousands of engineers and researchers around
+   the world 🌍! We will be happy to retweet your posts and help you share your work with the community.
+Adding TensorFlow weights to 🤗 Hub
+Assuming that the TensorFlow model arc

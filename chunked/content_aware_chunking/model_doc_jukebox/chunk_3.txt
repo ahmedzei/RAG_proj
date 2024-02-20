@@ -1,0 +1,2 @@
+The priors are linked to the previous priors respectively via an AudioConditioner module. TheAudioConditioner upsamples the outputs of the previous prior to raw tokens at a certain audio frame per second resolution. 
+The metadata such as artist, genre and timing are passed to each prior, in the form of a start token and positional embedding for the timing data.

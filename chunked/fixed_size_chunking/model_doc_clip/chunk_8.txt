@@ -1,0 +1,6 @@
+gging Face and community (indicated by 🌎) resources to help you get started with CLIP.
+
+Fine tuning CLIP with Remote Sensing (Satellite) images and captions, a blog post about how to fine-tune CLIP with RSICD dataset and comparison of performance changes due to data augmentation.
+This example script shows how to train a CLIP-like vision-text dual encoder model using a pre-trained vision and text encoder using COCO dataset.
+
+A notebook on how to use a pretrained CLIP for inference with beam search for image 

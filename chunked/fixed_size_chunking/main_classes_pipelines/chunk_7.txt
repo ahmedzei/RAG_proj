@@ -1,0 +1,14 @@
+)
+for out in pipe(KeyDataset(dataset, "text"), batch_size=8, truncation="only_first"):
+    print(out)
+    # [{'label': 'POSITIVE', 'score': 0.9998743534088135}]
+    # Exactly the same output as before, but the content are passed
+    # as batches to the model
+
+However, this is not automatically a win for performance. It can be either a 10x speedup or 5x slowdown depending
+on hardware, data and the actual model being used.
+Example where it's mostly a speedup:
+
+thon
+from transformers import pipeline
+from torch

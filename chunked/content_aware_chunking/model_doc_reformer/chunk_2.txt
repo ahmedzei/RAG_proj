@@ -1,0 +1,8 @@
+The resulting model, the Reformer, performs on par with Transformer models
+while being much more memory-efficient and much faster on long sequences.
+This model was contributed by patrickvonplaten. The Authors' code can be
+found here.
+Usage tips
+
+Reformer does not work with torch.nn.DataParallel due to a bug in PyTorch, see issue #36035.
+Use Axial position encoding (see below for more details).

@@ -1,0 +1,5 @@
+In contrast to BPE, WordPiece does not choose the most frequent
+symbol pair, but the one that maximizes the likelihood of the training data once added to the vocabulary.
+So what does this mean exactly? Referring to the previous example, maximizing the likelihood of the training data is
+equivalent to finding the symbol pair, whose probability divided by the probabilities of its first symbol followed by
+its second symbol is the greatest among all symbol pairs. E.g.

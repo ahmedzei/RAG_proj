@@ -1,0 +1,9 @@
+Let's start by loading the [LayoutLMv2Processor], which internally combines an image processor that can handle image data and a tokenizer that can encode text data.
+
+from transformers import AutoProcessor
+processor = AutoProcessor.from_pretrained(model_checkpoint)
+
+Preprocessing document images
+First, let's prepare the document images for the model with the help of the image_processor from the processor.
+By default, image processor resizes the images to 224x224, makes sure they have the correct order of color channels,
+applies OCR with tesseract to get words and normalized bounding boxes.

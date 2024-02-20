@@ -1,0 +1,10 @@
+py
+agent.run(
+    "In the following `document`, where will the TRRF Scientific Advisory Council Meeting take place?",
+    document=document,
+)
+| Input                                                                                                                   | Output     |
+|-----------------------------------------------------------------------------------------------------------------------------|----------------|
+|  | ballroom foyer |
+Quickstart
+Before being able to use agent.run, you will need to instantiate an agent, which is a large language model (LLM).

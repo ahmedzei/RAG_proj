@@ -1,0 +1,6 @@
+ing the weights of a model having X billion parameters requires roughly 2 * X GB of VRAM in bfloat16/float16 precision
+
+For shorter text inputs (less than 1024 tokens), the memory requirement for inference is very much dominated by the memory requirement to load the weights. Therefore, for now, let's assume that the memory requirement for inference is equal to the memory requirement to load the model into the GPU VRAM.
+To give some examples of how much VRAM it roughly takes to load a model in bfloat16:
+
+GPT

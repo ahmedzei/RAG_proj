@@ -1,0 +1,9 @@
+t features
+inputs = processor(text=texts, padding=True, return_tensors="pt")
+text_features = model.get_text_features(**inputs)
+text_features = text_features / text_features.norm(p=2, dim=-1, keepdim=True)  # normalize
+compute image-text similarity scores
+inputs = processor(text=texts, images=image, return_tensors="pt", padding=True)
+outputs = model(**inputs)
+logits_per_image = outputs.logits_per_image  # this is the image-text similarity score
+probs = logits_per_image.softmax(dim=1)  # probs: [[1.2686e-03, 

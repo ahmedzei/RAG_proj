@@ -1,0 +1,5 @@
+It's a causal (unidirectional) transformer pre-trained using language modeling on a very large corpus
+of ~140 GB of text data with the first token reserved as a control code (such as Links, Books, Wikipedia etc.).
+The abstract from the paper is the following:
+Large-scale language models show promising text generation capabilities, but users cannot easily control particular
+aspects of the generated text.

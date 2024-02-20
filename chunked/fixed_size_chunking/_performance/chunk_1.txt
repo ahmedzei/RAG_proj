@@ -1,0 +1,7 @@
+ctions, as each comes with different challenges and solutions. 
+Within each section you'll find separate guides for different hardware configurations, such as single GPU vs. multi-GPU 
+for training or CPU vs. GPU for inference.
+Use this document as your starting point to navigate further to the methods that match your scenario.
+Training
+Training large transformer models efficiently requires an accelerator such as a GPU or TPU. The most common case is where 
+you have a single GPU. The methods that you can ap

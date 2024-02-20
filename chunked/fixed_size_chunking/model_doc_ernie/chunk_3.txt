@@ -1,0 +1,24 @@
+urces
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+ErnieConfig
+[[autodoc]] ErnieConfig
+    - all
+Ernie specific outputs
+[[autodoc]] models.ernie.modeling_ernie.ErnieForPreTrainingOutput
+ErnieModel
+[[autodoc]] ErnieModel
+    - forward
+ErnieForPreTraining
+[[autodoc]] ErnieForPreTraining
+    - forward
+ErnieForCausalLM
+[[autodoc]] ErnieForCausalLM
+    - forward
+Ern

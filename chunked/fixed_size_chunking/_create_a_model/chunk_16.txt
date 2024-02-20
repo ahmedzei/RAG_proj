@@ -1,0 +1,8 @@
+rs import TFDistilBertForQuestionAnswering
+tf_model = TFDistilBertForQuestionAnswering.from_pretrained("distilbert/distilbert-base-uncased")
+
+Tokenizer
+The last base class you need before using a model for textual data is a tokenizer to convert raw text to tensors. There are two types of tokenizers you can use with 🤗 Transformers:
+
+[PreTrainedTokenizer]: a Python implementation of a tokenizer.
+[PreTrainedTokenizerFast]: a tokenizer from our Rust-based 🤗 Tokenizer library. This tokenizer type is significantl

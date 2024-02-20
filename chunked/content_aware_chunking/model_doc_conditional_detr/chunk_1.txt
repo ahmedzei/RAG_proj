@@ -1,0 +1,3 @@
+Conditional DETR converges 6.7× to 10× faster than DETR.
+The abstract from the paper is the following:
+The recently-developed DETR approach applies the transformer encoder and decoder architecture to object detection and achieves promising performance. In this paper, we handle the critical issue, slow training convergence, and present a conditional cross-attention mechanism for fast DETR training.

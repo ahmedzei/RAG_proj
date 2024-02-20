@@ -1,0 +1,9 @@
+m images. The trained networks are further applied to discover visual knowledge in natural scenes.
+
+ UPerNet framework. Taken from the original paper. 
+This model was contributed by nielsr. The original code is based on OpenMMLab's mmsegmentation here.
+Usage examples
+UPerNet is a general framework for semantic segmentation. It can be used with any vision backbone, like so:
+
+from transformers import SwinConfig, UperNetConfig, UperNetForSemanticSegmentation
+backbone_config = SwinConfig(out_features=["stage1",

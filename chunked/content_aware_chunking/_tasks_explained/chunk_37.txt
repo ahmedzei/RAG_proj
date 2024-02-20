@@ -1,0 +1,1 @@
+At the end of each encoder block is a patch merging layer for creating hierarchical representations. The features of each group of neighboring patches are concatenated, and a linear layer is applied to the concatenated features to reduce the number of patches to a resolution of 1/4.

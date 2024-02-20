@@ -1,0 +1,15 @@
+vironment
+
+Fork the repository by clicking on the ‘Fork' button on the
+   repository's page. This creates a copy of the code under your GitHub user account.
+
+Clone your transformers fork to your local disk, and add the base repository as a remote:
+
+git clone https://github.com/[your Github handle]/transformers.git
+cd transformers
+git remote add upstream https://github.com/huggingface/transformers.git
+
+Set up a development environment, for instance by running the following command:
+
+python -m venv .env
+sourc

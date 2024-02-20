@@ -1,0 +1,11 @@
+_idsas TensorFlow tensors. You'll also need to specify the position of the` token:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("username/my_awesome_eli5_mlm_model")
+inputs = tokenizer(text, return_tensors="tf")
+mask_token_index = tf.where(inputs["input_ids"] == tokenizer.mask_token_id)[0, 1]
+
+Pass your inputs to the model and return the logits of the masked token:
+
+from transformers import TFAutoModelForMaskedLM
+model = TFAutoModelForMaskedLM.from_pretrained("username/m

@@ -1,0 +1,8 @@
+This guide will show you how to:
+- Use an image-to-image pipeline for super resolution task,
+- Run image-to-image models for same task without a pipeline.
+Note that as of the time this guide is released, image-to-image pipeline only supports super resolution task.
+Let's begin by installing the necessary libraries.
+
+pip install transformers
+We can now initialize the pipeline with a Swin2SR model. We can then infer with the pipeline by calling it with an image.

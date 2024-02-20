@@ -1,0 +1,4 @@
+There are two types of tokenizers you can use with 🤗 Transformers:
+
+[PreTrainedTokenizer]: a Python implementation of a tokenizer.
+[PreTrainedTokenizerFast]: a tokenizer from our Rust-based 🤗 Tokenizer library. This tokenizer type is significantly faster - especially during batch tokenization - due to its Rust implementation.

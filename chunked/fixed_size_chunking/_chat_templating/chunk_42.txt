@@ -1,0 +1,9 @@
+is True:
+{% if loop.last and add_generation_prompt %}
+{{ bos_token + 'Assistant:\n' }}
+{% endif %}
+Notes on whitespace
+As much as possible, we've tried to get Jinja to ignore whitespace outside of {{ expressions }}. However, be aware
+that Jinja is a general-purpose templating engine, and it may treat whitespace between blocks on the same line
+as significant and print it to the output. We strongly recommend checking that your template isn't printing extra
+spaces where it shouldn't be before you upload it!

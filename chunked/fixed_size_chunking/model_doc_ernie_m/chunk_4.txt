@@ -1,0 +1,21 @@
+ltiple choice task guide
+
+ErnieMConfig
+[[autodoc]] ErnieMConfig
+ErnieMTokenizer
+[[autodoc]] ErnieMTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+ErnieMModel
+[[autodoc]] ErnieMModel
+    - forward
+ErnieMForSequenceClassification
+[[autodoc]] ErnieMForSequenceClassification
+    - forward
+ErnieMForMultipleChoice
+[[autodoc]] ErnieMForMultipleChoice
+    - forward
+ErnieMForTokenClassification
+[[autodoc]] ErnieMForTokenC

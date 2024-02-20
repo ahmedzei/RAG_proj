@@ -1,0 +1,9 @@
+an"
+checkpoint = "openai-community/gpt2-medium"
+tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+inputs = tokenizer(prompt, return_tensors="pt")
+model = AutoModelForCausalLM.from_pretrained(checkpoint)
+outputs = model.generate(**inputs, num_beams=5, max_new_tokens=50)
+tokenizer.batch_decode(outputs, skip_special_tokens=True)
+['It is astonishing how one can have such a profound impact on the lives of so many people in such a short period of
+time."\n\nHe added: "I am very proud of the work I have been ab

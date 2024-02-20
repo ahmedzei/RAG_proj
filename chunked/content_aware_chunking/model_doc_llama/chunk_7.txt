@@ -1,0 +1,6 @@
+Refer to the documentation of Llama2 which can be found here.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with LLaMA. If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A notebook on how to use prompt tuning to adapt the LLaMA model for text classification task.

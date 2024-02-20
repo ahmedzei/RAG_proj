@@ -1,0 +1,1 @@
+This means you can load an [AutoModel] like you would load an [AutoTokenizer]. The only difference is selecting the correct [AutoModel] for the task.

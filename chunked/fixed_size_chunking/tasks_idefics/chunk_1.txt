@@ -1,0 +1,6 @@
+age-text tasks with a large multimodal model called IDEFICS. 
+IDEFICS is an open-access vision and language model based on Flamingo, 
+a state-of-the-art visual language model initially developed by DeepMind. The model accepts arbitrary sequences of image 
+and text inputs and generates coherent text as output. It can answer questions about images, describe visual content, 
+create stories grounded in multiple images, and so on. IDEFICS comes in two variants - 80 billion parameters 
+and 9 billion parameters, b

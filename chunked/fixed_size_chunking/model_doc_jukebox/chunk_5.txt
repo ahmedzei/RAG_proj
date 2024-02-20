@@ -1,0 +1,22 @@
+emory than ancestral sampling and should be used with fp16 set to True.
+
+This model was contributed by Arthur Zucker.
+The original code can be found here.
+JukeboxConfig
+[[autodoc]] JukeboxConfig
+JukeboxPriorConfig
+[[autodoc]] JukeboxPriorConfig
+JukeboxVQVAEConfig
+[[autodoc]] JukeboxVQVAEConfig
+JukeboxTokenizer
+[[autodoc]] JukeboxTokenizer
+    - save_vocabulary
+JukeboxModel
+[[autodoc]] JukeboxModel
+    - ancestral_sample
+    - primed_sample
+    - continue_sample
+    - upsample
+    - _sample
+JukeboxPrior
+[[au

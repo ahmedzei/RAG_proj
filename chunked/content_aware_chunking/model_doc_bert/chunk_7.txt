@@ -1,0 +1,4 @@
+With probability 50%, the sentences are consecutive in the corpus, in the remaining 50% they are not related. The model has to predict if the sentences are consecutive or not.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with BERT.

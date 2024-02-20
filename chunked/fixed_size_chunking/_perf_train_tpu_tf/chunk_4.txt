@@ -1,0 +1,3 @@
+, without needing to upload it to Google Cloud Storage.
+
+🤗Specific Hugging Face Tip🤗: The methods Dataset.to_tf_dataset() and its higher-level wrapper model.prepare_tf_dataset() , which you will see throughout our TF code examples, will both fail on a TPU Node. The reason for this is that even though they create a tf.data.Dataset it is not a “pure” tf.data pipeline and uses tf.numpy_function or Dataset.from_generator() to stream data from the underlying HuggingFace Dataset. This HuggingFace Dataset is backe

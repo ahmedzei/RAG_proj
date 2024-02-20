@@ -1,0 +1,15 @@
+orTextToSpeech
+model = SpeechT5ForTextToSpeech.from_pretrained(checkpoint)
+
+The use_cache=True option is incompatible with gradient checkpointing. Disable it for training.
+ 
+
+model.config.use_cache = False
+
+Define the training arguments. Here we are not computing any evaluation metrics during the training process. Instead, we'll 
+only look at the loss:
+thon
+
+from transformers import Seq2SeqTrainingArguments
+training_args = Seq2SeqTrainingArguments(
+     output_dir="speecht5_finetuned_voxpopuli_nl",  # chang

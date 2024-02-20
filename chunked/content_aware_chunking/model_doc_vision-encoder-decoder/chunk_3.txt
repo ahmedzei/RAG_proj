@@ -1,0 +1,12 @@
+In the following example, we show how to do this using the default [ViTModel] configuration for the encoder
+and the default [BertForCausalLM] configuration for the decoder.
+thon
+
+from transformers import BertConfig, ViTConfig, VisionEncoderDecoderConfig, VisionEncoderDecoderModel
+config_encoder = ViTConfig()
+config_decoder = BertConfig()
+config = VisionEncoderDecoderConfig.from_encoder_decoder_configs(config_encoder, config_decoder)
+model = VisionEncoderDecoderModel(config=config)
+
+Initialising VisionEncoderDecoderModel from a pretrained encoder and a pretrained decoder.
+[VisionEncoderDecoderModel] can be initialized from a pretrained encoder checkpoint and a pretrained decoder checkpoint.

@@ -1,0 +1,19 @@
+eamSearchOutput
+LogitsProcessor
+A [LogitsProcessor] can be used to modify the prediction scores of a language model head for
+generation.
+PyTorch
+[[autodoc]] AlternatingCodebooksLogitsProcessor
+    - call
+[[autodoc]] ClassifierFreeGuidanceLogitsProcessor
+    - call
+[[autodoc]] EncoderNoRepeatNGramLogitsProcessor
+    - call
+[[autodoc]] EncoderRepetitionPenaltyLogitsProcessor
+    - call
+[[autodoc]] EpsilonLogitsWarper
+    - call
+[[autodoc]] EtaLogitsWarper
+    - call
+[[autodoc]] ExponentialDecayLengthPenalty
+ 

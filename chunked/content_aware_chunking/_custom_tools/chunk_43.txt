@@ -1,0 +1,11 @@
+We'll create a class that inherits from it:
+thon
+from transformers import Tool
+class HFModelDownloadsTool(Tool):
+    pass
+
+This class has a few needs:
+- An attribute name, which corresponds to the name of the tool itself. To be in tune with other tools which have a
+  performative name, we'll name it model_download_counter.
+- An attribute description, which will be used to populate the prompt of the agent.
+- inputs and outputs attributes.

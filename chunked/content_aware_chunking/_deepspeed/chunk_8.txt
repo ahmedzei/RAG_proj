@@ -1,0 +1,3 @@
+When you execute your training script, DeepSpeed logs the configuration it received from [Trainer] to the console so you can see exactly what configuration was used.
+
+Find a complete list of DeepSpeed configuration options on the DeepSpeed Configuration JSON reference. You can also find more practical examples of various DeepSpeed configuration examples on the DeepSpeedExamples repository or the main DeepSpeed repository.

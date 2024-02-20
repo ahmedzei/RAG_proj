@@ -1,0 +1,9 @@
+respective framework's usage.
+
+Load your custom configuration attributes into the model:
+
+from transformers import DistilBertModel
+my_config = DistilBertConfig.from_pretrained("./your_model_save_path/config.json")
+model = DistilBertModel(my_config)
+
+This creates a model with random values instead of pretrained weights. You won't be able to use this model for anything useful yet until you train it. Training is a costly and time-consuming process. It is generally better to use a pretrained model to obtain bet

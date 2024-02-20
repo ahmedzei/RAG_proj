@@ -1,0 +1,21 @@
+    - call
+TFXLMRobertaForMaskedLM
+[[autodoc]] TFXLMRobertaForMaskedLM
+    - call
+TFXLMRobertaForSequenceClassification
+[[autodoc]] TFXLMRobertaForSequenceClassification
+    - call
+TFXLMRobertaForMultipleChoice
+[[autodoc]] TFXLMRobertaForMultipleChoice
+    - call
+TFXLMRobertaForTokenClassification
+[[autodoc]] TFXLMRobertaForTokenClassification
+    - call
+TFXLMRobertaForQuestionAnswering
+[[autodoc]] TFXLMRobertaForQuestionAnswering
+    - call
+
+FlaxXLMRobertaModel
+[[autodoc]] FlaxXLMRobertaModel
+    - call
+Fl

@@ -1,0 +1,18 @@
+ocessor.size["height"]
+     width = image_processor.size["width"]
+resize_to = (height, width)
+num_frames_to_sample = model.config.num_frames
+sample_rate = 4
+fps = 30
+clip_duration = num_frames_to_sample * sample_rate / fps
+
+Now, define the dataset-specific transformations and the datasets respectively. Starting with the training set: 
+ 
+
+train_transform = Compose(
+     [
+         ApplyTransformToKey(
+             key="video",
+             transform=Compose(
+                 [
+                     UniformTem

@@ -1,0 +1,15 @@
+eeze()
+
+The model can also produce nonverbal communications like laughing, sighing and crying.
+thon
+
+Adding non-speech cues to the input text
+inputs = processor("Hello uh  [clears throat], my dog is cute [laughter]")
+audio_array = model.generate(**inputs)
+audio_array = audio_array.cpu().numpy().squeeze()
+
+To save the audio, simply take the sample rate from the model config and some scipy utility:
+thon
+
+from scipy.io.wavfile import write as write_wav
+save audio to disk, but first take the sample rate from th

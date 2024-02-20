@@ -1,0 +1,15 @@
+ the testing is
+done against the current repo, and finally with whatever env[PYTHONPATH] was already set to before the test was
+called if anything.
+This helper method creates a copy of the os.environ object, so the original remains intact.
+Getting reproducible results
+In some situations you may want to remove randomness for your tests. To get identical reproducible results set, you
+will need to fix the seed:
+thon
+seed = 42
+python RNG
+import random
+random.seed(seed)
+pytorch RNGs
+import torch
+torch.manual_see

@@ -1,0 +1,7 @@
+del into smaller sub-components, e.g. if the original
+code-base can easily be run in eager mode, it is usually worth the effort to do so. There are some important advantages
+to taking the more difficult road in the beginning:
+
+at a later stage when comparing the original model to the Hugging Face implementation, you can verify automatically
+  for each component individually that the corresponding component of the 🤗 Transformers implementation matches instead
+  of relying on visual comparison via print state

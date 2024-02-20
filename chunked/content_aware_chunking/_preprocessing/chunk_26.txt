@@ -1,0 +1,10 @@
+If you do not resize images during image augmentation,
+leave this parameter out. By default, ImageProcessor will handle the resizing.
+If you wish to normalize images as a part of the augmentation transformation, use the image_processor.image_mean,
+and image_processor.image_std values.
+
+Then use 🤗 Datasets[~datasets.Dataset.set_transform] to apply the transforms on the fly:
+
+dataset.set_transform(transforms)
+
+Now when you access the image, you'll notice the image processor has added pixel_values.

@@ -1,0 +1,5 @@
+Upload the models to the model hub
+In this final part, you should convert and upload all checkpoints to the model hub and add a model card for each
+uploaded model checkpoint. You can get familiar with the hub functionalities by reading our Model sharing and uploading Page. You should work alongside the Hugging Face team here to decide on a fitting name for each
+checkpoint and to get the required access rights to be able to upload the model under the author's organization of
+brand_new_bert.

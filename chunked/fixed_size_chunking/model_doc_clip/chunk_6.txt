@@ -1,0 +1,12 @@
+s for the model.
+The [CLIPTokenizer] is used to encode the text. The [CLIPProcessor] wraps
+[CLIPImageProcessor] and [CLIPTokenizer] into a single instance to both
+encode the text and prepare the images. The following example shows how to get the image-text similarity scores using
+[CLIPProcessor] and [CLIPModel].
+thon
+
+from PIL import Image
+import requests
+from transformers import CLIPProcessor, CLIPModel
+model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
+processor = CLIPProcessor.from_pretrai

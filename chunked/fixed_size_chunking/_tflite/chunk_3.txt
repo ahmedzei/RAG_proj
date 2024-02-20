@@ -1,0 +1,6 @@
+ucceeded with the warning: The maximum absolute difference between the output of the reference model and the TFLite exported model is not within the set tolerance 1e-05:
+- logits: max diff = 5.817413330078125e-05.
+ The exported model was saved at: bert_tflite
+The example above illustrates exporting a checkpoint from 🤗 Hub. When exporting a local model, first make sure that you 
+saved both the model's weights and tokenizer files in the same directory (local_path). When using CLI, pass the 
+local_path to the 

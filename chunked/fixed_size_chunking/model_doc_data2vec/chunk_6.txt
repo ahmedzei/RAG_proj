@@ -1,0 +1,14 @@
+source to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+Data2VecTextConfig
+[[autodoc]] Data2VecTextConfig
+Data2VecAudioConfig
+[[autodoc]] Data2VecAudioConfig
+Data2VecVisionConfig
+[[autodoc]] Data2VecVisionConfig
+
+Data2VecAudioModel
+[[autodoc]] Data2VecAudioModel
+    - forward
+Data2VecAudioForAudioFrameClassification
+[[autodoc]] Data2VecAudioForAudioFrameClassification
+    - for

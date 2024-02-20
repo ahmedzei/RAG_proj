@@ -1,0 +1,8 @@
+t detection: label audio with a sound event label ("car horn", "whale calling", "glass breaking")
+tagging: label audio containing multiple sounds (birdsongs, speaker identification in a meeting)
+music classification: label music with a genre label ("metal", "hip-hop", "country")
+
+from transformers import pipeline
+classifier = pipeline(task="audio-classification", model="superb/hubert-base-superb-er")
+preds = classifier("https://huggingface.co/datasets/Narsil/asr_dummy/resolve/main/mlk.flac")
+preds = [{"scor

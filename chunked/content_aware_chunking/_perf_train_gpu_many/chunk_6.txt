@@ -1,0 +1,3 @@
+However, without these, PP will be faster than TP or ZeRO. The degree of TP may also 
+make a difference. It's best to experiment with your specific setup to determine the most suitable strategy.
+TP is almost always used within a single node.

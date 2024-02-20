@@ -1,0 +1,10 @@
+uts[0], skip_special_tokens=True)
+'the inflation reduction act lowers prescription drug costs, health care costs, and energy costs. it's the most aggressive action on tackling the climate crisis in american history. it will ask the ultra-wealthy and corporations to pay their fair share.'
+``
+</pt>
+<tf>
+Tokenize the text and return theinput_ids` as TensorFlow tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("stevhliu/my_awesome_billsum_model")
+inputs = tokenizer(text,

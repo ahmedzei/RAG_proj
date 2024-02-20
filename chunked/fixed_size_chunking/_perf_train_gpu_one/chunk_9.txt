@@ -1,0 +1,6 @@
+ion
+The gradient accumulation method aims to calculate gradients in smaller increments instead of computing them for the 
+entire batch at once. This approach involves iteratively calculating gradients in smaller batches by performing forward 
+and backward passes through the model and accumulating the gradients during the process. Once a sufficient number of 
+gradients have been accumulated, the model's optimization step is executed. By employing gradient accumulation, it 
+becomes possible to increase the ef

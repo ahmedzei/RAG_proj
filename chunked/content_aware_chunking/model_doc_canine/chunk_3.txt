@@ -1,0 +1,5 @@
+In this paper, we present CANINE,
+a neural encoder that operates directly on character sequences, without explicit tokenization or vocabulary, and a
+pre-training strategy that operates either directly on characters or optionally uses subwords as a soft inductive bias.
+To use its finer-grained input effectively and efficiently, CANINE combines downsampling, which reduces the input
+sequence length, with a deep transformer stack, which encodes context.

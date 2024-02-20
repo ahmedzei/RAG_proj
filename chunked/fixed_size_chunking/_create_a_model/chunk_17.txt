@@ -1,0 +1,7 @@
+y faster - especially during batch tokenization - due to its Rust implementation. The fast tokenizer also offers additional methods like offset mapping which maps tokens to their original words or characters.
+
+Both tokenizers support common methods such as encoding and decoding, adding new tokens, and managing special tokens.
+
+Not every model supports a fast tokenizer. Take a look at this table to check if a model has fast tokenizer support.
+
+If you trained your own tokenizer, you can create one from your v

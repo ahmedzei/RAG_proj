@@ -1,0 +1,6 @@
+The authors also add absolute position embeddings, and feed the resulting sequence of
+  vectors to a standard Transformer encoder.
+As the Vision Transformer expects each image to be of the same size (resolution), one can use
+  [ViTImageProcessor] to resize (or rescale) and normalize images for the model.
+Both the patch resolution and image resolution used during pre-training or fine-tuning are reflected in the name of
+  each checkpoint.

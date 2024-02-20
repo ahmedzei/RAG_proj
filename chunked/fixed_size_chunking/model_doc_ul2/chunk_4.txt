@@ -1,0 +1,6 @@
+an encoder-decoder model pre-trained on a mixture of denoising functions as well as fine-tuned on an array of downstream tasks.
+UL2 has the same architecture as T5v1.1 but uses the Gated-SiLU activation function instead of Gated-GELU.
+The authors release checkpoints of one architecture which can be seen here
+
+ 
+As UL2 has the same architecture as T5v1.1,  refer to T5's documentation page for API reference, tips, code examples and notebooks.

@@ -1,0 +1,8 @@
+eForEntityClassification], for tasks to classify a single entity in an input text such as
+    entity typing, e.g. the Open Entity dataset.
+    This model places a linear head on top of the output entity representation.
+
+[LukeForEntityPairClassification], for tasks to classify the relationship between two entities
+    such as relation classification, e.g. the TACRED dataset. This
+    model places a linear head on top of the concatenated output representation of the pair of given entities.
+[LukeForEntitySpanC

@@ -1,0 +1,12 @@
+replica to configure what gets logged on each of the nodes.
+
+my_app.py  --log_level warning --log_level_replica error
+
+Add the log_on_each_node 0 parameter for multi-node environments.
+```bash
+my_app.py  --log_level warning --log_level_replica error --log_on_each_node 0
+set to only report errors
+my_app.py  --log_level error --log_level_replica error --log_on_each_node 0
+
+NEFTune
+NEFTune is a technique that can improve performance by adding noise to the embedding vectors during training. To enable it in [Tra

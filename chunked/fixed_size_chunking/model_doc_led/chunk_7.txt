@@ -1,0 +1,22 @@
+ls.led.modeling_tf_led.TFLEDSeq2SeqLMOutput
+
+LEDModel
+[[autodoc]] LEDModel
+    - forward
+LEDForConditionalGeneration
+[[autodoc]] LEDForConditionalGeneration
+    - forward
+LEDForSequenceClassification
+[[autodoc]] LEDForSequenceClassification
+    - forward
+LEDForQuestionAnswering
+[[autodoc]] LEDForQuestionAnswering
+    - forward
+
+TFLEDModel
+[[autodoc]] TFLEDModel
+    - call
+TFLEDForConditionalGeneration
+[[autodoc]] TFLEDForConditionalGeneration
+    - call
+

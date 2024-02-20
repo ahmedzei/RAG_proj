@@ -1,0 +1,7 @@
+quenceFeatureExtractor
+[[autodoc]] SequenceFeatureExtractor
+    - pad
+BatchFeature
+[[autodoc]] BatchFeature
+ImageFeatureExtractionMixin
+[[autodoc]] image_utils.ImageFeatureExtractionMixin

@@ -1,0 +1,35 @@
+The original code can be found here.
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+NezhaConfig
+[[autodoc]] NezhaConfig
+NezhaModel
+[[autodoc]] NezhaModel
+    - forward
+NezhaForPreTraining
+[[autodoc]] NezhaForPreTraining
+    - forward
+NezhaForMaskedLM
+[[autodoc]] NezhaForMaskedLM
+    - forward
+NezhaForNextSentencePrediction
+[[autodoc]] NezhaForNextSentencePrediction
+    - forward
+NezhaForSequenceClassification
+[[autodoc]] NezhaForSequenceClassification
+    - forward
+NezhaForMultipleChoice
+[[autodoc]] NezhaForMultipleChoice
+    - forward
+NezhaForTokenClassification
+[[autodoc]] NezhaForTokenClassification
+    - forward
+NezhaForQuestionAnswering
+[[autodoc]] NezhaForQuestionAnswering
+    - forward.

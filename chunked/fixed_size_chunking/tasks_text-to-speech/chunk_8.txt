@@ -1,0 +1,7 @@
+ processor.tokenizer
+
+The dataset examples contain raw_text and normalized_text features. When deciding which feature to use as the text input, 
+consider that the SpeechT5 tokenizer doesn't have any tokens for numbers. In normalized_text the numbers are written 
+out as text. Thus, it is a better fit, and we recommend using    normalized_text as input text.
+Because SpeechT5 was trained on the English language, it may not recognize certain characters in the Dutch dataset. If 
+left as is, these characters will

@@ -1,0 +1,5 @@
+orts into plain transformers, hierarchical transformers have
+also gained significant attention, thanks to their performance and easy integration into existing frameworks.
+These models typically employ localized attention mechanisms, such as the sliding-window Neighborhood Attention (NA)
+or Swin Transformer's Shifted Window Self Attention. While effective at reducing self attention's quadratic complexity,
+local attention weakens two of the most desirable properties of self attention: long range inter-depende

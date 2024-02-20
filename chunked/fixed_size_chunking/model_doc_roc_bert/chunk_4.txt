@@ -1,0 +1,12 @@
+ForSequenceClassification
+[[autodoc]] transformers.RoCBertForSequenceClassification
+    - forward
+RoCBertForMultipleChoice
+[[autodoc]] transformers.RoCBertForMultipleChoice
+    - forward
+RoCBertForTokenClassification
+[[autodoc]] transformers.RoCBertForTokenClassification
+    - forward
+RoCBertForQuestionAnswering
+[[autodoc]] RoCBertForQuestionAnswering
+    - forward

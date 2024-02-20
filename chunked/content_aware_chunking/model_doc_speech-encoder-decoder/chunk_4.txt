@@ -1,0 +1,14 @@
+decoder of BART, can be used as the decoder.
+Depending on which architecture you choose as the decoder, the cross-attention layers might be randomly initialized.
+Initializing [SpeechEncoderDecoderModel] from a pretrained encoder and decoder checkpoint requires the model to be fine-tuned on a downstream task, as has been shown in the Warm-starting-encoder-decoder blog post.
+To do so, the SpeechEncoderDecoderModel class provides a [SpeechEncoderDecoderModel.from_encoder_decoder_pretrained] method.
+thon
+
+from transformers import SpeechEncoderDecoderModel
+model = SpeechEncoderDecoderModel.from_encoder_decoder_pretrained(
+     "facebook/hubert-large-ll60k", "google-bert/bert-base-uncased"
+ )
+
+Loading an existing SpeechEncoderDecoderModel checkpoint and perform inference.
+To load fine-tuned checkpoints of the SpeechEncoderDecoderModel class, [SpeechEncoderDecoderModel] provides the from_pretrained() method just like any other model architecture in Transformers.
+To perform inference, one uses the [generate] method, which allows to autoregressively generate text.

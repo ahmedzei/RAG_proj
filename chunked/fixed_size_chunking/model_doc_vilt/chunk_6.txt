@@ -1,0 +1,6 @@
+TextRetrieval
+[[autodoc]] ViltForImageAndTextRetrieval
+    - forward
+ViltForTokenClassification
+[[autodoc]] ViltForTokenClassification
+    - forward

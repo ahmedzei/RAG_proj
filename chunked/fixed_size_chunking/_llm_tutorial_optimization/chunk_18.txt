@@ -1,0 +1,9 @@
+arious quantization techniques, which we won't discuss in detail here, but in general, all quantization techniques work as follows:
+
+Quantize all weights to the target precision
+
+Load the quantized weights, and pass the input sequence of vectors in bfloat16 precision
+
+Dynamically dequantize weights to bfloat16 to perform the computation with their input vectors in bfloat16 precision
+
+In a nutshell, this means that inputs-weight matrix multiplications, with \( X \) being the inputs, \( W \) being a weight ma

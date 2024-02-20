@@ -1,0 +1,5 @@
+As speech signal contains multi-faceted information including speaker
+identity, paralinguistics, spoken content, etc., learning universal representations for all speech tasks is
+challenging. In this paper, we propose a new pre-trained model, WavLM, to solve full-stack downstream speech tasks.
+WavLM is built based on the HuBERT framework, with an emphasis on both spoken content modeling and speaker identity
+preservation.

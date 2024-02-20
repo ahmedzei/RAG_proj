@@ -1,0 +1,3 @@
+The MPS backend implements PyTorch operations as custom Metal shaders and places these modules on a mps device.
+
+Some PyTorch operations are not implemented in MPS yet and will throw an error.

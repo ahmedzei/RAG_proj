@@ -1,0 +1,5 @@
+Under DP, GPU 0 performs significantly more work than other GPUs, resulting in GPU under-utilization. 
+3. DDP supports distributed training across multiple machines, whereas DP does not.
+This is not an exhaustive list of differences between DP and DDP, however, other nuances are out of scope of this guide.
+You can get a deeper understanding of these methods by reading this article.
+Let's illustrate the differences between DP and DDP with an experiment.

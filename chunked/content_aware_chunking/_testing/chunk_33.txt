@@ -1,0 +1,4 @@
+Neither parametrization, but we use the module
+parameterized that works in a similar way.
+Parametrization
+Often, there is a need to run the same test multiple times, but with different arguments.

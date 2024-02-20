@@ -1,0 +1,5 @@
+The model has to predict the true quantized speech representation of the masked prediction from a set of false ones, encouraging the model to find the most similar context vector and quantized speech unit (the target label).
+
+Now that wav2vec2 is pretrained, you can finetune it on your data for audio classification or automatic speech recognition!
+Audio classification
+To use the pretrained model for audio classification, add a sequence classification head on top of the base Wav2Vec2 model.

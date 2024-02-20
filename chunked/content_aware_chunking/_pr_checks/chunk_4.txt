@@ -1,0 +1,1 @@
+This is why # Copied from supports simple string replacements with the following syntax: Copied from xxx with foo->bar. This means the code is copied with all instances of foo being replaced by bar.

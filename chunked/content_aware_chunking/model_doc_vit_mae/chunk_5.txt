@@ -1,0 +1,5 @@
+One can use [ViTMAEForPreTraining] for this purpose.
+After pre-training, one "throws away" the decoder used to reconstruct pixels, and one uses the encoder for fine-tuning/linear probing. This means that after
+fine-tuning, one can directly plug in the weights into a [ViTForImageClassification].
+One can use [ViTImageProcessor] to prepare images for the model. See the code examples for more info.
+Note that the encoder of MAE is only used to encode the visual patches.

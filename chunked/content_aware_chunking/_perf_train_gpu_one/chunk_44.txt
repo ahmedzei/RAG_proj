@@ -1,0 +1,4 @@
+Some of the most commonly used backends are:
+Debugging backends:
+* dynamo.optimize("eager") - Uses PyTorch to run the extracted GraphModule. This is quite useful in debugging TorchDynamo issues.
+* dynamo.optimize("aot_eager") - Uses AotAutograd with no compiler, i.e, just using PyTorch eager for the AotAutograd's extracted forward and backward graphs.

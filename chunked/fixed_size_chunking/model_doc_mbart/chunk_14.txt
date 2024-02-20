@@ -1,0 +1,25 @@
+orConditionalGeneration
+[[autodoc]] TFMBartForConditionalGeneration
+    - call
+
+FlaxMBartModel
+[[autodoc]] FlaxMBartModel
+    - call
+    - encode
+    - decode
+FlaxMBartForConditionalGeneration
+[[autodoc]] FlaxMBartForConditionalGeneration
+    - call
+    - encode
+    - decode
+FlaxMBartForSequenceClassification
+[[autodoc]] FlaxMBartForSequenceClassification
+    - call
+    - encode
+    - decode
+FlaxMBartForQuestionAnswering
+[[autodoc]] FlaxMBartForQuestionAnswering
+    - call
+    - encode
+    - decode
+

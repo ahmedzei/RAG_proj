@@ -1,0 +1,7 @@
+ed input format
+5. Add model tests
+Hurray, you've implemented a TensorFlow model! Now it's time to add tests to make sure that your model behaves as
+expected. As in the previous section, we suggest you start by copying the test_modeling_brand_new_bert.py file in
+tests/models/brand_new_bert/ into test_modeling_tf_brand_new_bert.py, and continue by making the necessary
+TensorFlow replacements. For now, in all .from_pretrained() calls, you should use the from_pt=True flag to load
+the existing PyTorch weights.

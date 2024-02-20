@@ -1,0 +1,21 @@
+nizer
+
+Bert specific outputs
+[[autodoc]] models.bert.modeling_bert.BertForPreTrainingOutput
+[[autodoc]] models.bert.modeling_tf_bert.TFBertForPreTrainingOutput
+[[autodoc]] models.bert.modeling_flax_bert.FlaxBertForPreTrainingOutput
+
+BertModel
+[[autodoc]] BertModel
+    - forward
+BertForPreTraining
+[[autodoc]] BertForPreTraining
+    - forward
+BertLMHeadModel
+[[autodoc]] BertLMHeadModel
+    - forward
+BertForMaskedLM
+[[autodoc]] BertForMaskedLM
+    - forward
+BertForNextSentencePrediction
+[[autodoc]] BertForNext

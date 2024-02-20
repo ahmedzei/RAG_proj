@@ -1,0 +1,13 @@
+                  cpu: 200  # Update the CPU and memory request values based on your nodes
+                  memory: 128Gi
+              volumeMounts:
+              - name: pvc-volume
+                mountPath: /tmp/pvc-mount
+              - mountPath: /dev/shm
+                name: dshm
+          restartPolicy: Never
+          nodeSelector:  #  Optionally use the node selector to specify what types of nodes to use for the workers
+            node-type: spr
+          volumes:
+          - name: pvc-volume
+  

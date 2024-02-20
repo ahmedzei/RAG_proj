@@ -1,0 +1,7 @@
+After you're done, it's time for the moment of truth: run the tests! 😬
+
+NVIDIA_TF32_OVERRIDE=0 RUN_SLOW=1 RUN_PT_TF_CROSS_TESTS=1 \
+py.test -vv tests/models/brand_new_bert/test_modeling_tf_brand_new_bert.py
+The most likely outcome is that you'll see a bunch of errors. Don't worry, this is expected! Debugging ML models is
+notoriously hard, and the key ingredient to success is patience (and breakpoint()). In our experience, the hardest
+problems arise from subtle mismatches between ML frameworks, for which we 

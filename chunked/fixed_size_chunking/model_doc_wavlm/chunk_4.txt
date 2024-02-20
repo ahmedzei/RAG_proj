@@ -1,0 +1,22 @@
+orms especially well on speaker verification, speaker identification, and speaker diarization tasks.
+
+Resources
+
+Audio classification task guide
+Automatic speech recognition task guide
+
+WavLMConfig
+[[autodoc]] WavLMConfig
+WavLMModel
+[[autodoc]] WavLMModel
+    - forward
+WavLMForCTC
+[[autodoc]] WavLMForCTC
+    - forward
+WavLMForSequenceClassification
+[[autodoc]] WavLMForSequenceClassification
+    - forward
+WavLMForAudioFrameClassification
+[[autodoc]] WavLMForAudioFrameClassification
+    - forward
+WavLMForXVec

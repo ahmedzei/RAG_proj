@@ -1,0 +1,9 @@
+The CTC loss is calculated between the logits and targets to find the most likely sequence of tokens, which are then decoded into a transcription.
+Ready to try your hand at automatic speech recognition? Check out our complete automatic speech recognition guide to learn how to finetune Wav2Vec2 and use it for inference!
+Computer vision
+There are two ways to approach computer vision tasks:
+
+Split an image into a sequence of patches and process them in parallel with a Transformer.
+Use a modern CNN, like ConvNeXT, which relies on convolutional layers but adopts modern network designs.
+
+A third approach mixes Transformers with convolutions (for example, Convolutional Vision Transformer or LeViT).

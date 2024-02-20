@@ -1,0 +1,5 @@
+] SEWForCTC
+    - forward
+SEWForSequenceClassification
+[[autodoc]] SEWForSequenceClassification
+    - forward

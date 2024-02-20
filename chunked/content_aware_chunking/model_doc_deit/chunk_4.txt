@@ -1,0 +1,6 @@
+More importantly, we introduce a teacher-student strategy specific to transformers. It relies on a distillation
+token ensuring that the student learns from the teacher through attention. We show the interest of this token-based
+distillation, especially when using a convnet as a teacher. This leads us to report results competitive with convnets
+for both Imagenet (where we obtain up to 85.2% accuracy) and when transferring to other tasks. We share our code and
+models.
+This model was contributed by nielsr.

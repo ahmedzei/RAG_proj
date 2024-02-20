@@ -1,0 +1,9 @@
+r is the following:
+Piano covers of pop music are enjoyed by many people. However, the
+task of automatically generating piano covers of pop music is still
+understudied. This is partly due to the lack of synchronized
+{Pop, Piano Cover} data pairs, which made it challenging to apply
+the latest data-intensive deep learning-based methods. To leverage
+the power of the data-driven approach, we make a large amount of
+paired and synchronized {Pop, Piano Cover} data using an automated
+pipeline. In this paper, we pre

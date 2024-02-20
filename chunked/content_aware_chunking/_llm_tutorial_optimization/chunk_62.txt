@@ -1,0 +1,2 @@
+for the example above the LLM needs to understand that the user refers to the population when asking "And how many are in Germany".
+  2. The key-value cache is extremely useful for chat as it allows us to continuously grow the encoded chat history instead of having to re-encode the chat history again from scratch (as e.g.

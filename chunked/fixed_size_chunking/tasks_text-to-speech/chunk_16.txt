@@ -1,0 +1,6 @@
+ou are left with just under 10,000 examples from approximately 40 unique speakers, which should be sufficient.
+Note that some speakers with few examples may actually have more audio available if the examples are long. However, 
+determining the total amount of audio for each speaker requires scanning through the entire dataset, which is a 
+time-consuming process that involves loading and decoding each audio file. As such, we have chosen to skip this step here.
+Speaker embeddings
+To enable the TTS model to di

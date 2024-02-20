@@ -1,0 +1,15 @@
+ single GPU.
+
+!/usr/bin/env python
+This script demonstrates how to use Deepspeed ZeRO in an inference mode when one can't fit a model
+into a single GPU
+
+1. Use 1 GPU with CPU offload
+2. Or use multiple GPUs instead
+
+First you need to install deepspeed: pip install deepspeed
+
+Here we use a 3B "bigscience/T0_3B" model which needs about 15GB GPU RAM - so 1 largish or 2
+small GPUs can handle it. or 1 small GPU and a lot of CPU memory.
+
+To use a larger model like "bigscience/T0" which needs about 50GB, unless yo

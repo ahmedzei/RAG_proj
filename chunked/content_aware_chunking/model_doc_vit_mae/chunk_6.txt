@@ -1,0 +1,2 @@
+The encoded patches are then concatenated with mask tokens, which the decoder (which also
+consists of Transformer blocks) takes as input. Each mask token is a shared, learned vector that indicates the presence of a missing patch to be predicted.

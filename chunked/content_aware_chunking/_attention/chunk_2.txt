@@ -1,0 +1,5 @@
+Since the hash can be a bit random, several hash functions are used in practice
+(determined by a n_rounds parameter) and then are averaged together.
+Local attention
+Longformer uses local attention: often, the local context (e.g., what are the two tokens to the
+left and right?) is enough to take action for a given token.

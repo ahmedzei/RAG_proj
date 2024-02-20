@@ -1,0 +1,12 @@
+ every call. See the example below:
+thon
+
+Let's see how to use a user-managed pool for batch decoding multiple audios
+from multiprocessing import get_context
+from transformers import AutoTokenizer, AutoProcessor, AutoModelForCTC
+from datasets import load_dataset
+import datasets
+import torch
+import model, feature extractor, tokenizer
+model = AutoModelForCTC.from_pretrained("patrickvonplaten/wav2vec2-base-100h-with-lm").to("cuda")
+processor = AutoProcessor.from_pretrained("patrickvonplaten/wav2vec2-base-100h-

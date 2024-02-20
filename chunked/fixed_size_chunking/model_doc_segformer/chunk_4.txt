@@ -1,0 +1,7 @@
+ head.
+  [SegformerModel] is the hierarchical Transformer encoder (which in the paper is also referred to
+  as Mix Transformer or MiT). [SegformerForSemanticSegmentation] adds the all-MLP decoder head on
+  top to perform semantic segmentation of images. In addition, there's
+  [SegformerForImageClassification] which can be used to - you guessed it - classify images. The
+  authors of SegFormer first pre-trained the Transformer encoder on ImageNet-1k to classify images. Next, they throw
+  away the classificati

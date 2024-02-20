@@ -1,0 +1,4 @@
+Our work proves that properly designed transformers can 
+reach extremely low latency on mobile devices while maintaining high performance.
+This model was contributed by novice03 and Bearnardd.
+The original code can be found here.

@@ -1,0 +1,6 @@
+DPT
+Overview
+The DPT model was proposed in Vision Transformers for Dense Prediction by René Ranftl, Alexey Bochkovskiy, Vladlen Koltun.
+DPT is a model that leverages the Vision Transformer (ViT) as backbone for dense prediction tasks like semantic segmentation and depth estimation.
+The abstract from the paper is the following:
+We introduce dense vision transformers, an architecture that leverages vision transformers in place of convolutional networks as a backbone for dense prediction tasks.

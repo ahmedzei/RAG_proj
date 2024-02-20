@@ -1,0 +1,9 @@
+n, yellow, orange, purple, pink,'
+
+Finally, you don't need to do it one sequence at a time! You can batch your inputs, which will greatly improve the throughput at a small latency and memory cost. All you need to do is to make sure you pad your inputs properly (more on that below).
+
+tokenizer.pad_token = tokenizer.eos_token  # Most LLMs don't have a pad token by default
+model_inputs = tokenizer(
+     ["A list of colors: red, blue", "Portugal is"], return_tensors="pt", padding=True
+ ).to("cuda")
+generated_id

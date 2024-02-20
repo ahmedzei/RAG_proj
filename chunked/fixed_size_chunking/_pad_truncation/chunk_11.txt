@@ -1,0 +1,4 @@
+ch_sentences, truncation=True, max_length=42) or                        |
+|                                      |                                   | tokenizer(batch_sentences, truncation=STRATEGY, max_length=42)                       |
+|                                      | padding to max sequence in batch  | tokenizer(batch_sentences, padding=True, truncation=True, max_length=42) or          |
+|                                      |                                   | tokenizer(batch_sentences, paddin

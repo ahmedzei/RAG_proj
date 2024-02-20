@@ -1,0 +1,9 @@
+You start with 15 muffins.
+2. You eat 2 muffins, leaving you with 13 muffins.
+3. You give 5 muffins to your neighbor, leaving you with 8 muffins.
+4. Your partner buys 6 more muffins, bringing the total number of muffins to 14.
+5. Your partner eats 2 muffins, leaving you with 12 muffins.
+Therefore, you now have 12 muffins.
+Prompting vs fine-tuning
+You can achieve great results by optimizing your prompts, however, you may still ponder whether fine-tuning a model 
+would work better for your case.

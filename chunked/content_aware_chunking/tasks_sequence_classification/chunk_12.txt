@@ -1,0 +1,41 @@
+In this case, you don't need to specify a data collator explicitly.
+
+Once training is completed, share your model to the Hub with the [~transformers.Trainer.push_to_hub] method so everyone can use your model:
+
+trainer.push_to_hub()
+
+If you aren't familiar with finetuning a model with Keras, take a look at the basic tutorial here!
+
+To finetune a model in TensorFlow, start by setting up an optimizer function, learning rate schedule, and some training hyperparameters:
+
+from transformers import create_optimizer
+import tensorflow as tf
+batch_size = 16
+num_epochs = 5
+batches_per_epoch = len(tokenized_imdb["train"]) // batch_size
+total_train_steps = int(batches_per_epoch * num_epochs)
+optimizer, schedule = create_optimizer(init_lr=2e-5, num_warmup_steps=0, num_train_steps=total_train_steps)
+
+Then you can load DistilBERT with [TFAutoModelForSequenceClassification] along with the number of expected labels, and the label mappings:
+
+from transformers import TFAutoModelForSequenceClassification
+model = TFAutoModelForSequenceClassification.from_pretrained(
+     "distilbert/distilbert-base-uncased", num_labels=2, id2label=id2label, label2id=label2id
+ )
+
+Convert your datasets to the tf.data.Dataset format with [~transformers.TFPreTrainedModel.prepare_tf_dataset]:
+
+tf_train_set = model.prepare_tf_dataset(
+     tokenized_imdb["train"],
+     shuffle=True,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+tf_validation_set = model.prepare_tf_dataset(
+     tokenized_imdb["test"],
+     shuffle=False,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+
+Configure the model for training with compile.

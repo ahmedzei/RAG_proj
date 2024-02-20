@@ -1,0 +1,10 @@
+th offloading to the NVMe (estimate the memory requirements for your model).
+NaN loss
+NaN loss often occurs when a model is pretrained in bf16 and then you try to use it with fp16 (especially relevant for TPU trained models). To resolve this, use fp32 or bf16 if your hardware supports it (TPU, Ampere GPUs or newer).
+The other issue may be related to using fp16. For example, if this is your fp16 configuration:
+yaml
+{
+    "fp16": {
+        "enabled": "auto",
+        "loss_scale": 0,
+        "loss_scale_window

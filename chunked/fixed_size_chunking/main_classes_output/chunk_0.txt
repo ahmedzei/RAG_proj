@@ -1,0 +1,11 @@
+
+Model outputs
+All models have outputs that are instances of subclasses of [~utils.ModelOutput]. Those are
+data structures containing all the information returned by the model, but that can also be used as tuples or
+dictionaries.
+Let's see how this looks in an example:
+thon
+from transformers import BertTokenizer, BertForSequenceClassification
+import torch
+tokenizer = BertTokenizer.from_pretrained("google-bert/bert-base-uncased")
+model = BertForSequenceClassification.from_pretrained("google-bert/bert-base-un

@@ -1,0 +1,3 @@
+For more detail on these one can either directly consult the files
+src/transformers/benchmark/benchmark_args_utils.py, src/transformers/benchmark/benchmark_args.py (for PyTorch)
+and src/transformers/benchmark/benchmark_args_tf.py (for Tensorflow).

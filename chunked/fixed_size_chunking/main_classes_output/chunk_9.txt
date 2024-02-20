@@ -1,0 +1,11 @@
+g_tf_outputs.TFBaseModelOutput
+TFBaseModelOutputWithPooling
+[[autodoc]] modeling_tf_outputs.TFBaseModelOutputWithPooling
+TFBaseModelOutputWithPoolingAndCrossAttentions
+[[autodoc]] modeling_tf_outputs.TFBaseModelOutputWithPoolingAndCrossAttentions
+TFBaseModelOutputWithPast
+[[autodoc]] modeling_tf_outputs.TFBaseModelOutputWithPast
+TFBaseModelOutputWithPastAndCrossAttentions
+[[autodoc]] modeling_tf_outputs.TFBaseModelOutputWithPastAndCrossAttentions
+TFSeq2SeqModelOutput
+[[autodoc]] modeling_tf_outputs.TFSeq2Se

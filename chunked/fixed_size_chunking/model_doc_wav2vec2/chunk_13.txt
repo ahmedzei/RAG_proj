@@ -1,0 +1,7 @@
+v2Vec2ForCTC
+[[autodoc]] FlaxWav2Vec2ForCTC
+    - call
+FlaxWav2Vec2ForPreTraining
+[[autodoc]] FlaxWav2Vec2ForPreTraining
+    - call
+

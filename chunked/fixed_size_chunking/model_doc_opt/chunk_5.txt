@@ -1,0 +1,10 @@
+on 2
+First, make sure to install the latest version of Flash Attention 2 to include the sliding window attention feature.
+
+pip install -U flash-attn --no-build-isolation
+Make also sure that you have a hardware that is compatible with Flash-Attention 2. Read more about it in the official documentation of flash-attn repository. Make also sure to load your model in half-precision (e.g. `torch.float16``)
+To load and run a model using Flash Attention 2, refer to the snippet below:
+thon
+
+import torch
+from transfo

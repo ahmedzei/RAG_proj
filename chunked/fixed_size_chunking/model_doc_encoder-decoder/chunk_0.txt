@@ -1,0 +1,9 @@
+
+Encoder Decoder Models
+Overview
+The [EncoderDecoderModel] can be used to initialize a sequence-to-sequence model with any
+pretrained autoencoding model as the encoder and any pretrained autoregressive model as the decoder.
+The effectiveness of initializing sequence-to-sequence models with pretrained checkpoints for sequence generation tasks
+was shown in Leveraging Pre-trained Checkpoints for Sequence Generation Tasks by
+Sascha Rothe, Shashi Narayan, Aliaksei Severyn.
+After such an [EncoderDecoderModel] has

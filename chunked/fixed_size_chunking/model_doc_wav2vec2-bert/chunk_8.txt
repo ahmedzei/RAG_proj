@@ -1,0 +1,20 @@
+gnition model in English, and how to finetune a speech recognition model in any language.
+
+[Wav2Vec2BertForSequenceClassification] can be used by adapting this example script.
+See also: Audio classification task guide
+
+Wav2Vec2BertConfig
+[[autodoc]] Wav2Vec2BertConfig
+Wav2Vec2BertProcessor
+[[autodoc]] Wav2Vec2BertProcessor
+    - call
+    - pad
+    - from_pretrained
+    - save_pretrained
+    - batch_decode
+    - decode
+Wav2Vec2BertModel
+[[autodoc]] Wav2Vec2BertModel
+    - forward
+Wav2Vec2BertForCTC
+[[autodoc

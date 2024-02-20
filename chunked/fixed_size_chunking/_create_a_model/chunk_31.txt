@@ -1,0 +1,6 @@
+tractor and tokenizer in [Wav2Vec2Processor]:
+
+from transformers import Wav2Vec2Processor
+processor = Wav2Vec2Processor(feature_extractor=feature_extractor, tokenizer=tokenizer)
+
+With two basic classes - configuration and model - and an additional preprocessing class (tokenizer, image processor, feature extractor, or processor), you can create any of the models supported by 🤗 Transformers. Each of these base classes are configurable, allowing you to use the specific attributes you want. You can easily setup

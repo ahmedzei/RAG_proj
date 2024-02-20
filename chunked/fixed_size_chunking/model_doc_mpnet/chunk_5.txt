@@ -1,0 +1,23 @@
+d
+MPNetForTokenClassification
+[[autodoc]] MPNetForTokenClassification
+    - forward
+MPNetForQuestionAnswering
+[[autodoc]] MPNetForQuestionAnswering
+    - forward
+
+TFMPNetModel
+[[autodoc]] TFMPNetModel
+    - call
+TFMPNetForMaskedLM
+[[autodoc]] TFMPNetForMaskedLM
+    - call
+TFMPNetForSequenceClassification
+[[autodoc]] TFMPNetForSequenceClassification
+    - call
+TFMPNetForMultipleChoice
+[[autodoc]] TFMPNetForMultipleChoice
+    - call
+TFMPNetForTokenClassification
+[[autodoc]] TFMPNetForTokenClassification
+    -

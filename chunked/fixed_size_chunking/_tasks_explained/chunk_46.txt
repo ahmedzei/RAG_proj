@@ -1,0 +1,8 @@
+ into logits. The cross-entropy loss is calculated between the logits and the label, which is just the token shifted to the right.
+
+Ready to try your hand at summarization? Check out our complete summarization guide to learn how to finetune T5 and use it for inference!
+
+For more information about text generation, check out the text generation strategies guide!
+
+Translation
+Translation is another example of a sequence-to-sequence task, which means you can use an encoder-decoder model like BART or T5 to do it

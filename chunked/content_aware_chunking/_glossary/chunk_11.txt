@@ -1,0 +1,5 @@
+Each operation is applied to a different segment of the input matrix. Convolutional neural networks (CNNs) are commonly used in computer vision.
+D
+DataParallel (DP)
+Parallelism technique for training on multiple GPUs where the same setup is replicated multiple times, with each instance 
+receiving a distinct data slice.

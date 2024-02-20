@@ -1,0 +1,6 @@
+We should take the
+punctuation into account so that a model does not have to learn a different representation of a word and every possible
+punctuation symbol that could follow it, which would explode the number of representations the model has to learn.
+Taking punctuation into account, tokenizing our exemplary text would give:
+["Don", "'", "t", "you", "love", "🤗", "Transformers", "?", "We", "sure", "do", "."]
+Better. However, it is disadvantageous, how the tokenization dealt with the word "Don't".

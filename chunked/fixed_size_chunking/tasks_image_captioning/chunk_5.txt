@@ -1,0 +1,13 @@
+e-tune. 
+thon
+from transformers import AutoProcessor
+checkpoint = "microsoft/git-base"
+processor = AutoProcessor.from_pretrained(checkpoint)
+
+The processor will internally pre-process the image (which includes resizing, and pixel scaling) and tokenize the caption. 
+thon
+def transforms(example_batch):
+    images = [x for x in example_batch["image"]]
+    captions = [x for x in example_batch["text"]]
+    inputs = processor(images=images, text=captions, padding="max_length")
+    inputs.update({"labels": inputs[

@@ -1,0 +1,8 @@
+Phi-1.5 exhibits many of the traits of much larger LLMs such as the ability
+to “think step by step” or perform some rudimentary in-context learning.
+With these two experiments the authors successfully showed the huge impact of quality of training data when training machine learning models.
+The abstract from the Phi-1 paper is the following:
+We introduce phi-1, a new large language model for code, with significantly smaller size than
+competing models: phi-1 is a Transformer-based model with 1.3B parameters, trained for 4 days on
+8 A100s, using a selection of “textbook quality” data from the web (6B tokens) and synthetically
+generated textbooks and exercises with GPT-3.5 (1B tokens).

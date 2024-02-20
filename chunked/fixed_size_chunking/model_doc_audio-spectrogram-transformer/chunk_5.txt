@@ -1,0 +1,12 @@
+ a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+ASTConfig
+[[autodoc]] ASTConfig
+ASTFeatureExtractor
+[[autodoc]] ASTFeatureExtractor
+    - call
+ASTModel
+[[autodoc]] ASTModel
+    - forward
+ASTForAudioClassification
+[[autodoc]] ASTForAudioClassification
+    - forward

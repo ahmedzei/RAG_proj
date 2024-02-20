@@ -1,0 +1,10 @@
+rategy you choose, the recommended procedure is often the same that you should start to debug the
+starting layers first and the ending layers last.
+It is recommended that you retrieve the output, either by print statements or sub-component functions, of the following
+layers in the following order:
+
+Retrieve the input IDs passed to the model
+Retrieve the word embeddings
+Retrieve the input of the first Transformer layer
+Retrieve the output of the first Transformer layer
+Retrieve the output of the following n 

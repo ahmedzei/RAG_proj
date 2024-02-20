@@ -1,0 +1,10 @@
+ieve 58.5 mIoU for ADE20K semantic segmentation, and 57.9 PQ for COCO Panoptic Segmentation. Using huge FocalNet and DINO, we achieved 64.3 and 64.4 mAP on COCO minival and test-dev, respectively, establishing new SoTA on top of much larger attention-based models like Swinv2-G and BEIT-3.
+This model was contributed by nielsr.
+The original code can be found here.
+FocalNetConfig
+[[autodoc]] FocalNetConfig
+FocalNetModel
+[[autodoc]] FocalNetModel
+    - forward
+FocalNetForMaskedImageModeling
+[[autodoc]] FocalNet

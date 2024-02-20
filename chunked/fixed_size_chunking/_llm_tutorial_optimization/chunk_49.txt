@@ -1,0 +1,6 @@
+or task that require long text inputs, e.g.:
+-   Retrieval augmented Questions Answering,
+-   Summarization,
+-   Chat
+Note that chat not only requires the LLM to handle long text inputs, but it also necessitates that the LLM is able to efficiently handle the back-and-forth dialogue between user and assistant (such as ChatGPT).
+Once trained, the fundamental LLM architecture is difficult to change, so it is important to make considerations about the LLM's tasks beforehand and accordingly optimize the model's 

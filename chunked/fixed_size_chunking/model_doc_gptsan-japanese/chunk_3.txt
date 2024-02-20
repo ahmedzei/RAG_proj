@@ -1,0 +1,7 @@
+riginal GPTSAN repository for details.
+Prefix-LM Model
+GPTSAN has the structure of the model named Prefix-LM in the T5 paper. (The original GPTSAN repository calls it hybrid)
+In GPTSAN, the Prefix part of Prefix-LM, that is, the input position that can be referenced by both tokens, can be specified with any length.
+Arbitrary lengths can also be specified differently for each batch.
+This length applies to the text entered in prefix_text for the tokenizer.
+The tokenizer returns the mask of the Prefix part of 

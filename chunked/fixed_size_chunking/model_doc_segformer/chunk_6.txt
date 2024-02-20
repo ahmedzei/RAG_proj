@@ -1,0 +1,7 @@
+ users should refer to this repository that shows off-the-shelf inference and fine-tuning.
+One can also check out this interactive demo on Hugging Face Spaces
+  to try out a SegFormer model on custom images.
+SegFormer works on any input size, as it pads the input to be divisible by config.patch_sizes.
+One can use [SegformerImageProcessor] to prepare images and corresponding segmentation maps
+  for the model. Note that this image processor is fairly basic and does not include all data augmentations used in
+ 

@@ -1,0 +1,17 @@
+here
+        scores = scores * 100
+        # And here
+my_pipeline = MyPipeline(model=model, tokenizer=tokenizer, )
+or if you use pipeline function, then:
+my_pipeline = pipeline(model="xxxx", pipeline_class=MyPipeline)
+
+That should enable you to do all the custom code you want.
+Implementing a pipeline
+Implementing a new pipeline
+Audio
+Pipelines available for audio tasks include the following.
+AudioClassificationPipeline
+[[autodoc]] AudioClassificationPipeline
+    - call
+    - all
+AutomaticSpeechRecognitionPi

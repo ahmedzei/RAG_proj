@@ -1,0 +1,3 @@
+There are multiple options for setting up the PVC including using an NFS
+  storage class or a cloud storage bucket.
+* A Docker container that includes your model training script and all the dependencies needed to run the script.

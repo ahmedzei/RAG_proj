@@ -1,0 +1,7 @@
+uned on a downstream task it is enough to simply rely on the model tests. In a
+final step to ensure that the model is fully functional, it is advised that you also run all tests on GPU. It can
+happen that you forgot to add some .to(self.device) statements to internal tensors of the model, which in such a
+test would show in an error. In case you have no access to a GPU, the Hugging Face team can take care of running those
+tests for you.
+11. Add Docstring
+Now, all the necessary functionality for brand_new_ber

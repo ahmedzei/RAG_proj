@@ -1,0 +1,21 @@
+ward
+Data2VecAudioForCTC
+[[autodoc]] Data2VecAudioForCTC
+    - forward
+Data2VecAudioForSequenceClassification
+[[autodoc]] Data2VecAudioForSequenceClassification
+    - forward
+Data2VecAudioForXVector
+[[autodoc]] Data2VecAudioForXVector
+    - forward
+Data2VecTextModel
+[[autodoc]] Data2VecTextModel
+    - forward
+Data2VecTextForCausalLM
+[[autodoc]] Data2VecTextForCausalLM
+    - forward
+Data2VecTextForMaskedLM
+[[autodoc]] Data2VecTextForMaskedLM
+    - forward
+Data2VecTextForSequenceClassification
+[[autodoc]] Dat

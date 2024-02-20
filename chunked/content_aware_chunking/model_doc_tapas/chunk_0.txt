@@ -1,0 +1,6 @@
+TAPAS
+Overview
+The TAPAS model was proposed in TAPAS: Weakly Supervised Table Parsing via Pre-training
+by Jonathan Herzig, Paweł Krzysztof Nowak, Thomas Müller, Francesco Piccinno and Julian Martin Eisenschlos. It's a BERT-based model specifically 
+designed (and pre-trained) for answering questions about tabular data. Compared to BERT, TAPAS uses relative position embeddings and has 7 
+token types that encode tabular structure.

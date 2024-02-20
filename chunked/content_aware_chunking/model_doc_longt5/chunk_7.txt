@@ -1,0 +1,4 @@
+It, furthermore, allows each input token to
+interact with all other tokens in the layer. This is achieved via splitting an input sequence into blocks of a fixed
+length k (with a default k=16). Then, a global token for such a block is obtained via summing and normalizing the embeddings of every token
+in the block.

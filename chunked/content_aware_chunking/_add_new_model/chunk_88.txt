@@ -1,0 +1,5 @@
+Adding all necessary model tests
+At this point, you have successfully added a new model. However, it is very much possible that the model does not yet
+fully comply with the required design. To make sure, the implementation is fully compatible with 🤗 Transformers, all
+common tests should pass. The Cookiecutter should have automatically added a test file for your model, probably under
+the same tests/models/brand_new_bert/test_modeling_brand_new_bert.py.

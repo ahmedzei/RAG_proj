@@ -1,0 +1,5 @@
+Speech Encoder Decoder Models
+The [SpeechEncoderDecoderModel] can be used to initialize a speech-to-text model
+with any pretrained speech autoencoding model as the encoder (e.g. Wav2Vec2, Hubert) and any pretrained autoregressive model as the decoder.
+The effectiveness of initializing speech-sequence-to-text-sequence models with pretrained checkpoints for speech
+recognition and speech translation has e.g.

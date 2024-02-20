@@ -1,0 +1,5 @@
+You can speed up the map function by setting batched=True to process multiple elements of the dataset at once. Remove any columns you don't need:
+
+tokenized_squad = squad.map(preprocess_function, batched=True, remove_columns=squad["train"].column_names)
+
+Now create a batch of examples using [DefaultDataCollator].

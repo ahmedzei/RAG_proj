@@ -1,0 +1,3 @@
+However, this is not recommended because it can be confusing if you forget how the environment variable was setup and you end up using the wrong GPUs. Instead, it is common practice to set the environment variable for a specific training run on the same command line.
+
+CUDA_DEVICE_ORDER is an alternative environment variable you can use to control how the GPUs are ordered.

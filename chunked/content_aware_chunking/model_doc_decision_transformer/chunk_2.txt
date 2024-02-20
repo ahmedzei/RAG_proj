@@ -1,0 +1,6 @@
+By conditioning an autoregressive model on the desired return (reward), past states, and actions, our 
+ Decision Transformer model can generate future actions that achieve the desired return. Despite its simplicity, 
+ Decision Transformer matches or exceeds the performance of state-of-the-art model-free offline RL baselines on 
+ Atari, OpenAI Gym, and Key-to-Door tasks.
+This version of the model is for tasks where the state is a vector.
+This model was contributed by edbeeching.

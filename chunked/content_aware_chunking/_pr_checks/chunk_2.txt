@@ -1,0 +1,5 @@
+For instance, RobertaSelfOutput is a direct copy of the BertSelfOutput class, so you can see here it has a comment:
+
+Copied from transformers.models.bert.modeling_bert.BertSelfOutput
+
+Note that instead of applying this to a whole class, you can apply it to the relevant methods that are copied from.

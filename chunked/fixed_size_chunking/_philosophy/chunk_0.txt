@@ -1,0 +1,13 @@
+
+Philosophy
+🤗 Transformers is an opinionated library built for:
+
+machine learning researchers and educators seeking to use, study or extend large-scale Transformers models.
+hands-on practitioners who want to fine-tune those models or serve them in production, or both.
+engineers who just want to download a pretrained model and use it to solve a given machine learning task.
+
+The library was designed with two strong goals in mind:
+
+Be as easy and fast to use as possible:
+
+We strongly limited the number of user

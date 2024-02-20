@@ -1,0 +1,7 @@
+cepts text and image prompts. However, to caption an image, you do not have to provide a text prompt to the 
+model, only the preprocessed input image. Without a text prompt, the model will start generating text from the 
+BOS (beginning-of-sequence) token thus creating a caption.
+As image input to the model, you can use either an image object (PIL.Image) or a url from which the image can be retrieved.
+
+prompt = [
+     "https://images.unsplash.com/photo-1583160247711-2191776b4b91?ixlib=rb-4.0.3&ixid=M3wxMjA3f

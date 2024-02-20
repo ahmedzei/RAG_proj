@@ -1,0 +1,21 @@
+In this tutorial, all of these defaults are exactly what we need.
+Write a function that applies the default image processing to a batch of images and returns the results of OCR.
+
+image_processor = processor.image_processor
+def get_ocr_words_and_boxes(examples):
+     images = [image.convert("RGB") for image in examples["image"]]
+     encoded_inputs = image_processor(images)
+
+     examples["image"] = encoded_inputs.pixel_values
+     examples["words"] = encoded_inputs.words
+     examples["boxes"] = encoded_inputs.boxes
+     return examples
+
+To apply this preprocessing to the entire dataset in a fast way, use [~datasets.Dataset.map].
+
+dataset_with_ocr = updated_dataset.map(get_ocr_words_and_boxes, batched=True, batch_size=2)
+
+Preprocessing text data
+Once we have applied OCR to the images, we need to encode the text part of the dataset to prepare it for the model.
+This involves converting the words and boxes that we got in the previous step to token-level input_ids, attention_mask,
+token_type_ids and bbox.

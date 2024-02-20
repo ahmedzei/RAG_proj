@@ -1,0 +1,21 @@
+itModelOutputWithPooling
+[[autodoc]] models.beit.modeling_flax_beit.FlaxBeitModelOutputWithPooling
+BeitConfig
+[[autodoc]] BeitConfig
+BeitFeatureExtractor
+[[autodoc]] BeitFeatureExtractor
+    - call
+    - post_process_semantic_segmentation
+BeitImageProcessor
+[[autodoc]] BeitImageProcessor
+    - preprocess
+    - post_process_semantic_segmentation
+
+BeitModel
+[[autodoc]] BeitModel
+    - forward
+BeitForMaskedImageModeling
+[[autodoc]] BeitForMaskedImageModeling
+    - forward
+BeitForImageClassification
+[[autodoc]]

@@ -1,0 +1,2 @@
+However, excessive padding can cause severe slowdown too - if you pad all your samples to the maximum length in the whole dataset, you might end up with batches consisting endless padding tokens, which will waste a lot of compute and memory!
+There isn’t a perfect solution to this problem. However, you can try some tricks. One very useful trick is to pad batches of samples up to a multiple of a number like 32 or 64 tokens.

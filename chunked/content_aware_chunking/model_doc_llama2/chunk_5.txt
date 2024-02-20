@@ -1,0 +1,5 @@
+The original code of the authors can be found here.
+Usage tips
+
+The Llama2 models were trained using bfloat16, but the original inference uses float16. The checkpoints uploaded on the Hub use torch_dtype = 'float16', which will be
+used by the AutoModel API to cast the checkpoints from torch.float32 to torch.float16.

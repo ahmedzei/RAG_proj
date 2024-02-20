@@ -1,0 +1,7 @@
+ither be used as a standalone decoder model, corresponding to the class [MusicgenForCausalLM],
+or as a composite model that includes the text encoder and audio encoder/decoder, corresponding to the class
+[MusicgenForConditionalGeneration]. If only the decoder needs to be loaded from the pre-trained checkpoint, it can be loaded by first 
+specifying the correct config, or be accessed through the .decoder attribute of the composite model:
+thon
+
+from transformers import AutoConfig, MusicgenForCausalLM, Musicgen

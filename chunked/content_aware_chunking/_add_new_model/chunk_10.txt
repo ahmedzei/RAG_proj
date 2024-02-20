@@ -1,0 +1,2 @@
+Note that the configuration and the model are always serialized into two
+different formats - the model to a pytorch_model.bin file and the configuration to a config.json file.

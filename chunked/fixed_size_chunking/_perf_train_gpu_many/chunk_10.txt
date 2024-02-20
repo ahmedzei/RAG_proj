@@ -1,0 +1,6 @@
+istributed from GPU 0 to all GPUs, and backward is run. 
+   5. Gradients from each GPU are sent to GPU 0 and averaged. 
+Key differences include:
+1. DDP performs only a single communication per batch - sending gradients, while DP performs five different data exchanges per batch.
+DDP copies data using torch.distributed, while DP copies data within 
+the process via Python threads (which introduces limitations associated with GIL). As a result, DistributedDataParallel (DDP) is generally faster than DataParallel

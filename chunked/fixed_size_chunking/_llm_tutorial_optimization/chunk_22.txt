@@ -1,0 +1,10 @@
+iciency and more or less no degradation to the model's output. However, we can also notice a slight slow-down during inference.
+We delete the models and flush the memory again.
+python
+del model
+del pipe
+python
+flush()
+Let's see what peak GPU memory consumption 4-bit quantization gives. Quantizing the model to 4-bit can be done with the same API as before - this time by passing load_in_4bit=True instead of load_in_8bit=True.
+thon
+model = AutoModelForCausalLM.from_pretrained("bigcode/octocoder", load_in_4bit=

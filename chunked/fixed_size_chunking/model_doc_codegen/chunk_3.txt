@@ -1,0 +1,6 @@
+mergence of conversational capabilities and the effectiveness of the proposed conversational program synthesis paradigm. In addition, our model CodeGen (with up to 16B parameters trained on TPU-v4) outperforms OpenAI's Codex on the HumanEval benchmark. We make the training library JaxFormer including checkpoints available as open source contribution: this https URL. 
+This model was contributed by Hiroaki Hayashi.
+The original code can be found here.
+Checkpoint Naming
+
+CodeGen model checkpoints are available

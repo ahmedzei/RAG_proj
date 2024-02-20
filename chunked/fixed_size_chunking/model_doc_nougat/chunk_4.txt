@@ -1,0 +1,13 @@
+atProcessor] wraps [NougatImageProcessor] and [NougatTokenizerFast] classes
+into a single instance to both extract the input features and decode the predicted token ids.
+
+Step-by-step PDF transcription
+
+from huggingface_hub import hf_hub_download
+import re
+from PIL import Image
+from transformers import NougatProcessor, VisionEncoderDecoderModel
+from datasets import load_dataset
+import torch
+processor = NougatProcessor.from_pretrained("facebook/nougat-base")
+model = VisionEncoderDecoderModel.from_pretrained(

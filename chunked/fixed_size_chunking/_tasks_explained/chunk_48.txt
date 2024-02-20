@@ -1,0 +1,5 @@
+output. The model parameters are frozen in this first step, and all the model parameters are trained together in the second step.
+BART has since been followed up by a multilingual version, mBART, intended for translation and pretrained on many different languages.
+Ready to try your hand at translation? Check out our complete translation guide to learn how to finetune T5 and use it for inference!
+
+For more information about text generation, check out the text generation strategies guide!

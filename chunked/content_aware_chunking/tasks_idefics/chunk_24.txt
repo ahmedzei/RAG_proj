@@ -1,0 +1,6 @@
+This can help 
+you significantly improve the quality of the generated output. Check out Text generation strategies 
+to learn more. 
+
+Running inference in batch mode
+All of the earlier sections illustrated IDEFICS for a single example.

@@ -1,0 +1,12 @@
+next token in a sequence, and future tokens are masked
+
+from transformers import pipeline
+prompt = "Hugging Face is a community-based open-source platform for machine learning."
+generator = pipeline(task="text-generation")
+generator(prompt)  # doctest: +SKIP
+
+masked: the model's objective is to predict a masked token in a sequence with full access to the tokens in the sequence
+
+text = "Hugging Face is a community-based open-source  for machine learning."
+fill_mask = pipeline(task="fill-mask")
+preds = fill_m

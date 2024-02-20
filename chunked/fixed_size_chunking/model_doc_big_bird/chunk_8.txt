@@ -1,0 +1,20 @@
+ call
+FlaxBigBirdForCausalLM
+[[autodoc]] FlaxBigBirdForCausalLM
+    - call
+FlaxBigBirdForMaskedLM
+[[autodoc]] FlaxBigBirdForMaskedLM
+    - call
+FlaxBigBirdForSequenceClassification
+[[autodoc]] FlaxBigBirdForSequenceClassification
+    - call
+FlaxBigBirdForMultipleChoice
+[[autodoc]] FlaxBigBirdForMultipleChoice
+    - call
+FlaxBigBirdForTokenClassification
+[[autodoc]] FlaxBigBirdForTokenClassification
+    - call
+FlaxBigBirdForQuestionAnswering
+[[autodoc]] FlaxBigBirdForQuestionAnswering
+    - call
+

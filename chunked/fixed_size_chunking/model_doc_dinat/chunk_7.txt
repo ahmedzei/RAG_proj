@@ -1,0 +1,4 @@
+ forward
+DinatForImageClassification
+[[autodoc]] DinatForImageClassification
+    - forward

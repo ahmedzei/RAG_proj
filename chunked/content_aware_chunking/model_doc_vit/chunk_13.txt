@@ -1,0 +1,6 @@
+With this approach, the smaller ViT-B/16 model achieves 79.9% accuracy on ImageNet, a significant
+  improvement of 2% to training from scratch, but still 4% behind supervised pre-training.
+
+Resources
+Demo notebooks regarding inference as well as fine-tuning ViT on custom data can be found here.
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with ViT.

@@ -1,0 +1,9 @@
+nd then sent to the
+superclass.
+Defining a model_type for your configuration (here model_type="resnet") is not mandatory, unless you want to
+register your model with the auto classes (see last section).
+With this done, you can easily create and save your configuration like you would do with any other model config of the
+library. Here is how we can create a resnet50d config and save it:
+py
+resnet50d_config = ResnetConfig(block_type="bottleneck", stem_width=32, stem_type="deep", avg_down=True)
+resnet50d_confi

@@ -1,0 +1,17 @@
+TCTConfig
+MCTCTFeatureExtractor
+[[autodoc]] MCTCTFeatureExtractor
+    - call
+MCTCTProcessor
+[[autodoc]] MCTCTProcessor
+    - call
+    - from_pretrained
+    - save_pretrained
+    - batch_decode
+    - decode
+MCTCTModel
+[[autodoc]] MCTCTModel
+    - forward
+MCTCTForCTC
+[[autodoc]] MCTCTForCTC
+    - forward

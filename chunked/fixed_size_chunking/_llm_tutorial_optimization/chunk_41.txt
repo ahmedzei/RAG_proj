@@ -1,0 +1,13 @@
+  for i in range(min(len(list1), len(list2))):
+       results.append(list1[i])
+       results.append(list2[i])
+   if len(list1) > len(list2):
+       results.extend(list1[i+1:])
+   else:
+       results.extend(list2[i+1:])
+   return results
+
+"""
+``
+For demonstration purposes, we duplicate the system prompt by ten so that the input length is long enough to observe Flash Attention's memory savings.
+We append the original text prompt"Question: Please write a function in Python that transforms bytes to Giga bytes

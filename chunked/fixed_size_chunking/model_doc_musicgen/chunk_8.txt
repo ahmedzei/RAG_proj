@@ -1,0 +1,11 @@
+ model.get_unconditional_inputs(num_samples=1)
+audio_values = model.generate(**unconditional_inputs, do_sample=True, max_new_tokens=256)
+
+The audio outputs are a three-dimensional Torch tensor of shape (batch_size, num_channels, sequence_length). To listen
+to the generated audio samples, you can either play them in an ipynb notebook:
+thon
+from IPython.display import Audio
+sampling_rate = model.config.audio_encoder.sampling_rate
+Audio(audio_values[0].numpy(), rate=sampling_rate)
+
+Or save them as a .wav file 

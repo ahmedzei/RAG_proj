@@ -1,0 +1,7 @@
+ation to have to read more data in the backward than in the forward 
+(e.g. activation forward reads once, writes once, activation backward reads twice, gradOutput and output of the forward, 
+and writes once, gradInput).
+As you can see, there are potentially a few places where we could save GPU memory or speed up operations. 
+Now that you understand what affects GPU utilization and computation speed, refer to 
+the Methods and tools for efficient training on a single GPU documentation page to learn about 
+per

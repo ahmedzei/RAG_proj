@@ -1,0 +1,12 @@
+In order to transform the phonemes to a sequence of words one
+  should make use of a dictionary and language model.
+
+Wav2Vec2Phoneme's architecture is based on the Wav2Vec2 model, for API reference, check out Wav2Vec2's documentation page 
+except for the tokenizer.
+
+Wav2Vec2PhonemeCTCTokenizer
+[[autodoc]] Wav2Vec2PhonemeCTCTokenizer
+    - call
+    - batch_decode
+    - decode
+    - phonemize.

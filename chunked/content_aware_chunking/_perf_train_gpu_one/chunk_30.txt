@@ -1,0 +1,4 @@
+adamw_bnb_8bit is also available in Trainer, but a third-party integration is provided below for demonstration.
+For comparison, for a 3B-parameter model, like “google-t5/t5-3b”: 
+* A standard AdamW optimizer will need 24GB of GPU memory because it uses 8 bytes for each parameter (83 => 24GB)
+* Adafactor optimizer will need more than 12GB.

@@ -1,0 +1,21 @@
+},
+ {'entity': 'B-location',
+  'score': 0.65523505,
+  'index': 13,
+  'word': 'san',
+  'start': 80,
+  'end': 83},
+ {'entity': 'B-location',
+  'score': 0.4668663,
+  'index': 14,
+  'word': 'francisco',
+  'start': 84,
+  'end': 93}]
+
+You can also manually replicate the results of the pipeline if you'd like:
+
+Tokenize the text and return PyTorch tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("stevhliu/my_awesome_wnut_model")
+inputs = tokenizer(text, return_tensors="pt")

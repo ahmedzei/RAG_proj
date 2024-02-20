@@ -1,0 +1,6 @@
+extV2Model
+[[autodoc]] TFConvNextV2Model
+    - call
+TFConvNextV2ForImageClassification
+[[autodoc]] TFConvNextV2ForImageClassification
+    - call

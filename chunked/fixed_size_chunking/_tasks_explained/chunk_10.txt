@@ -1,0 +1,7 @@
+we examine here.
+
+ViT and ConvNeXT are commonly used for image classification, but for other vision tasks like object detection, segmentation, and depth estimation, we'll look at DETR, Mask2Former and GLPN, respectively; these models are better suited for those tasks.
+Image classification
+ViT and ConvNeXT can both be used for image classification; the main difference is that ViT uses an attention mechanism while ConvNeXT uses convolutions.
+Transformer
+ViT replaces convolutions entirely with a pure Transform

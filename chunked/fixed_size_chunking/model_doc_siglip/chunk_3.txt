@@ -1,0 +1,7 @@
+n to the logits, rather than the softmax.
+Training is not yet supported. If you want to fine-tune SigLIP or train from scratch, refer to the loss function from OpenCLIP, which leverages various torch.distributed utilities.
+When using the standalone [SiglipTokenizer] or [SiglipProcessor], make sure to pass padding="max_length" as that's how the model was trained.
+
+ SigLIP evaluation results compared to CLIP. Taken from the original paper.
+This model was contributed by nielsr.
+The original code can be found h

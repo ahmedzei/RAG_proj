@@ -1,0 +1,1 @@
+Instantiate a pipeline for fill-mask with your model, and pass your text to it.

@@ -1,0 +1,25 @@
+Let's see an example:
+thon
+from transformers import AutoTokenizer
+from datasets import Dataset
+tokenizer = AutoTokenizer.from_pretrained("HuggingFaceH4/zephyr-7b-beta")
+chat1 = [
+    {"role": "user", "content": "Which is bigger, the moon or the sun?"},
+    {"role": "assistant", "content": "The sun."}
+]
+chat2 = [
+    {"role": "user", "content": "Which is bigger, a virus or a bacterium?"},
+    {"role": "assistant", "content": "A bacterium."}
+]
+dataset = Dataset.from_dict({"chat": [chat1, chat2]})
+dataset = dataset.map(lambda x: {"formatted_chat": tokenizer.apply_chat_template(x["chat"], tokenize=False, add_generation_prompt=False)})
+print(dataset['formatted_chat'][0])
+And we get:text
+<|user|>
+Which is bigger, the moon or the sun?
+<|assistant|>
+The sun.
+
+From here, just continue training like you would with a standard language modelling task, using the formatted_chat column.
+Advanced: How do chat templates work?
+The chat template for a model is stored on the tokenizer.chat_template attribute.

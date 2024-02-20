@@ -1,0 +1,8 @@
+
+DETR
+Overview
+The DETR model was proposed in End-to-End Object Detection with Transformers by
+Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov and Sergey Zagoruyko. DETR
+consists of a convolutional backbone followed by an encoder-decoder Transformer which can be trained end-to-end for
+object detection. It greatly simplifies a lot of the complexity of models like Faster-R-CNN and Mask-R-CNN, which use
+things like region proposals, non-maximum suppression procedure and a

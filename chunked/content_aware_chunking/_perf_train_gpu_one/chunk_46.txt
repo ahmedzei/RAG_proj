@@ -1,0 +1,6 @@
+Read more
+Inference-only backends:
+* dynamo.optimize("ofi") -  Uses Torchscript optimize_for_inference.  Read more
+* dynamo.optimize("fx2trt") -  Uses NVIDIA TensorRT for inference optimizations.  Read more
+* dynamo.optimize("onnxrt") -  Uses ONNXRT for inference on CPU/GPU.  Read more
+* dynamo.optimize("ipex") -  Uses IPEX for inference on CPU.

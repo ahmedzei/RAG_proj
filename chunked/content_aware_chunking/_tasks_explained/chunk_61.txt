@@ -1,0 +1,2 @@
+We'll explain how BART works in this section, and then you can try finetuning T5 at the end.
+BART adapts to translation by adding a separate randomly initialized encoder to map a source language to an input that can be decoded into the target language. This new encoder's embeddings are passed to the pretrained encoder instead of the original word embeddings.

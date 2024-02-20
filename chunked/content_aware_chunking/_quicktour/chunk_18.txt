@@ -1,0 +1,5 @@
+You can pass the tensors as-is:
+
+tf_outputs = tf_model(tf_batch)
+
+The model outputs the final activations in the logits attribute.

@@ -1,0 +1,21 @@
+e: Share a custom model
+local: chat_templating
+    title: Templates for chat models
+local: trainer
+    title: Trainer
+local: sagemaker
+    title: Run training on Amazon SageMaker
+local: serialization
+    title: Export to ONNX
+local: tflite
+    title: Export to TFLite
+local: torchscript
+    title: Export to TorchScript
+local: benchmarks
+    title: Benchmarks
+local: notebooks
+    title: Notebooks with examples
+local: community
+    title: Community resources
+local: custom_tools
+    title: Custom Tools and Prom

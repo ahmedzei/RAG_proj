@@ -1,0 +1,31 @@
+Finally, we advance the current scale of language models by pre-training up to trillion parameter models on the "Colossal Clean Crawled Corpus" and achieve a 4x speedup over the T5-XXL model.
+This model was contributed by Younes Belkada and Arthur Zucker.
+The original code can be found here.
+Usage tips
+
+SwitchTransformers uses the [T5Tokenizer], which can be loaded directly from each model's repository.
+The released weights are pretrained on English Masked Language Modeling task, and should be finetuned.
+
+Resources
+
+Translation task guide
+Summarization task guide
+
+SwitchTransformersConfig
+[[autodoc]] SwitchTransformersConfig
+SwitchTransformersTop1Router
+[[autodoc]] SwitchTransformersTop1Router
+    - _compute_router_probabilities
+    - forward
+SwitchTransformersSparseMLP
+[[autodoc]] SwitchTransformersSparseMLP
+    - forward
+SwitchTransformersModel
+[[autodoc]] SwitchTransformersModel
+    - forward
+SwitchTransformersForConditionalGeneration
+[[autodoc]] SwitchTransformersForConditionalGeneration
+    - forward
+SwitchTransformersEncoderModel
+[[autodoc]] SwitchTransformersEncoderModel
+    - forward.

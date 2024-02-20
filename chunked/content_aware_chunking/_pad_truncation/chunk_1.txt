@@ -1,0 +1,3 @@
+Truncation works in the other direction by truncating long sequences.
+In most cases, padding your batch to the length of the longest sequence and truncating to the maximum length a model can accept works pretty well. However, the API supports more strategies if you need them. The three arguments you need to are: padding, truncation and max_length.
+The padding argument controls padding.

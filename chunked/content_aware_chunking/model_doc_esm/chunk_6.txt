@@ -1,0 +1,5 @@
+The resulting model contains information about biological
+properties in its representations. The representations are learned from sequence data alone. The learned representation
+space has a multiscale organization reflecting structure from the level of biochemical properties of amino acids to
+remote homology of proteins. Information about secondary and tertiary structure is encoded in the representations and
+can be identified by linear projections.

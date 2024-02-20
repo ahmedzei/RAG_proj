@@ -1,0 +1,11 @@
+ere.
+Usage tips
+
+BERT is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather than
+  the left.
+BERT was trained with the masked language modeling (MLM) and next sentence prediction (NSP) objectives. It is
+  efficient at predicting masked tokens and at NLU in general, but is not optimal for text generation.
+
+Corrupts the inputs by using random masking, more precisely, during pretraining, a given percentage of tokens (usually 15%) is masked by:
+
+a special mas

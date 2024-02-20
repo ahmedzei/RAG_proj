@@ -1,0 +1,12 @@
+rt of an entity like
+  Empire State Building).
+0 indicates the token doesn't correspond to any entity.
+
+Preprocess
+
+The next step is to load a DistilBERT tokenizer to preprocess the tokens field:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("distilbert/distilbert-base-uncased")
+
+As you saw in the example tokens field above, it looks like the input has already been tokenized. But the input actually hasn't been tokenized yet and you'll need to set is_split_into_words=True 

@@ -1,0 +1,6 @@
+wlv2VisionModel
+    - forward
+Owlv2ForObjectDetection
+[[autodoc]] Owlv2ForObjectDetection
+    - forward
+    - image_guided_detection

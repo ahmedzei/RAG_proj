@@ -1,0 +1,35 @@
+The differences in size are summarized in the following table:
+
+| Model variant | Depths | Hidden sizes | Decoder hidden size | Params (M) | ImageNet-1k Top 1 |
+|---|---|---|---|---|---|
+| MiT-b0 | [2, 2, 2, 2] | [32, 64, 160, 256] | 256 | 3.7 | 70.5 |
+| MiT-b1 | [2, 2, 2, 2] | [64, 128, 320, 512] | 256 | 14.0 | 78.7 |
+| MiT-b2 | [3, 4, 6, 3] | [64, 128, 320, 512] | 768 | 25.4 | 81.6 |
+| MiT-b3 | [3, 4, 18, 3] | [64, 128, 320, 512] | 768 | 45.2 | 83.1 |
+| MiT-b4 | [3, 8, 27, 3] | [64, 128, 320, 512] | 768 | 62.6 | 83.6 |
+| MiT-b5 | [3, 6, 40, 3] | [64, 128, 320, 512] | 768 | 82.0 | 83.8 |
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with ImageGPT.
+
+Demo notebooks for ImageGPT can be found here.
+[ImageGPTForImageClassification] is supported by this example script and notebook.
+See also: Image classification task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+ImageGPTConfig
+[[autodoc]] ImageGPTConfig
+ImageGPTFeatureExtractor
+[[autodoc]] ImageGPTFeatureExtractor
+    - call
+ImageGPTImageProcessor
+[[autodoc]] ImageGPTImageProcessor
+    - preprocess
+ImageGPTModel
+[[autodoc]] ImageGPTModel
+    - forward
+ImageGPTForCausalImageModeling
+[[autodoc]] ImageGPTForCausalImageModeling
+    - forward
+ImageGPTForImageClassification
+[[autodoc]] ImageGPTForImageClassification
+    - forward.

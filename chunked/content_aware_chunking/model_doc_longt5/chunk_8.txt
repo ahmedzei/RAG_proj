@@ -1,0 +1,3 @@
+Thanks to this, the attention allows each token to attend to both nearby tokens like in Local attention, and
+also every global token like in the case of standard global attention (transient represents the fact the global tokens
+are constructed dynamically within each attention operation).

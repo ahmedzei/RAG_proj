@@ -1,0 +1,6 @@
+e function [apply_chunking_to_forward], the chunk_size defines the number of output
+embeddings that are computed in parallel and thus defines the trade-off between memory and time complexity. If
+chunk_size is set to 0, no feed forward chunking is done.
+finetuned models
+Finetuning is a form of transfer learning which involves taking a pretrained model, freezing its weights, and replacing the output layer with a newly added model head. The model head is trained on your target dataset.
+See the Fine-tune a pret

@@ -1,0 +1,3 @@
+TAPAS is pre-trained on the masked language modeling (MLM) objective on a large dataset comprising 
+millions of tables from English Wikipedia and corresponding texts. 
+For question answering, TAPAS has 2 heads on top: a cell selection head and an aggregation head, for (optionally) performing aggregations (such as counting or summing) among selected cells.

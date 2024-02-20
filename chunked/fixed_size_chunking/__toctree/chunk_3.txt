@@ -1,0 +1,17 @@
+ion
+  title: Image classification
+local: tasks/semantic_segmentation
+  title: Image segmentation
+local: tasks/video_classification
+  title: Video classification
+local: tasks/object_detection
+  title: Object detection
+local: tasks/zero_shot_object_detection
+  title: Zero-shot object detection
+local: tasks/zero_shot_image_classification
+  title: Zero-shot image classification
+local: tasks/monocular_depth_estimation
+  title: Depth estimation
+local: tasks/image_to_image
+  title: Image-to-Image
+local: tasks/mask

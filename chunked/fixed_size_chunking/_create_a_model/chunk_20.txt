@@ -1,0 +1,13 @@
+ned.
+
+Image processor
+An image processor processes vision inputs. It inherits from the base [~image_processing_utils.ImageProcessingMixin] class.
+To use, create an image processor associated with the model you're using. For example, create a default [ViTImageProcessor] if you are using ViT for image classification:
+
+from transformers import ViTImageProcessor
+vit_extractor = ViTImageProcessor()
+print(vit_extractor)
+ViTImageProcessor {
+  "do_normalize": true,
+  "do_resize": true,
+  "image_processor_type": "Vi

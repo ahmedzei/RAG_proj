@@ -1,0 +1,18 @@
+une [LukeForEntityPairClassification] for relation classification
+Notebooks showcasing how you to reproduce the results as reported in the paper with the HuggingFace implementation of LUKE
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+LukeConfig
+[[autodoc]] LukeConfig
+LukeTokenizer
+[[autodoc]] LukeTokenizer
+    - call
+    - save_vocabulary
+LukeModel
+[[autodoc]] LukeModel
+    - forward
+LukeForMasked

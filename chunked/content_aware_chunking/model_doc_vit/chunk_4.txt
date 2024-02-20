@@ -1,0 +1,5 @@
+Following the original Vision Transformer, some follow-up works have been made:
+
+DeiT (Data-efficient Image Transformers) by Facebook AI. DeiT models are distilled vision transformers.
+  The authors of DeiT also released more efficiently trained ViT models, which you can directly plug into [ViTModel] or
+  [ViTForImageClassification].

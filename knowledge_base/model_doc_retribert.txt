@@ -1,0 +1,22 @@
+
+RetriBERT
+
+This model is in maintenance mode only, so we won't accept any new PRs changing its code.
+If you run into any issues running this model, please reinstall the last version that supported this model: v4.30.0.
+You can do so by running the following command: pip install -U transformers==4.30.0.
+
+Overview
+The RetriBERT model was proposed in the blog post Explain Anything Like I'm Five: A Model for Open Domain Long Form
+Question Answering. RetriBERT is a small model that uses either a single or
+pair of BERT encoders with lower-dimension projection for dense semantic indexing of text.
+This model was contributed by yjernite. Code to train and use the model can be
+found here.
+RetriBertConfig
+[[autodoc]] RetriBertConfig
+RetriBertTokenizer
+[[autodoc]] RetriBertTokenizer
+RetriBertTokenizerFast
+[[autodoc]] RetriBertTokenizerFast
+RetriBertModel
+[[autodoc]] RetriBertModel
+    - forward

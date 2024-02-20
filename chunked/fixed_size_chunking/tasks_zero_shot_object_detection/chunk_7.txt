@@ -1,0 +1,13 @@
+, ymax), outline="red", width=1)
+     draw.text((xmin, ymin), f"{label}: {round(score,2)}", fill="white")
+
+image
+
+Text-prompted zero-shot object detection by hand
+Now that you've seen how to use the zero-shot object detection pipeline, let's replicate the same
+result manually.
+Start by loading the model and associated processor from a checkpoint on the Hugging Face Hub.
+Here we'll use the same checkpoint as before:
+
+from transformers import AutoProcessor, AutoModelForZeroShotObjectDetection
+model = AutoMode

@@ -1,0 +1,3 @@
+The following
+example shows how to translate English to French using the facebook/nllb-200-distilled-600M model.
+Note that we're using the BCP-47 code for French fra_Latn.

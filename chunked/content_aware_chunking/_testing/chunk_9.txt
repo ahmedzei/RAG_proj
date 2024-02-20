@@ -1,0 +1,11 @@
+This is a great way of quickly testing your changes didn't break
+anything, since it won't run the tests related to files you didn't touch.
+
+pip install pytest-picked
+
+pytest --picked
+All tests will be run from files and folders which are modified, but not yet committed.
+Automatically rerun failed tests on source modification
+pytest-xdist provides a very useful feature of detecting all failed
+tests, and then waiting for you to modify files and continuously re-rerun those failing tests until they pass while you
+fix them.

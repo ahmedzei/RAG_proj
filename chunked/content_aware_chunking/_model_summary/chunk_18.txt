@@ -1,0 +1,2 @@
+XLNET combines the best of both BERT and GPT-2's pretraining objectives by using a permutation language modeling objective (PLM) that allows it to learn bidirectionally.
+After GPT-2, language models grew even bigger and are now known as large language models (LLMs). LLMs demonstrate few- or even zero-shot learning if pretrained on a large enough dataset. GPT-J is an LLM with 6B parameters and trained on 400B tokens.

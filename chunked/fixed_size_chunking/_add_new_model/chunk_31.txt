@@ -1,0 +1,9 @@
+ke ipdb.
+For each code-base, a good first step is always to load a small pretrained checkpoint and to be able to reproduce a
+single forward pass using a dummy integer vector of input IDs as an input. Such a script could look like this (in
+pseudocode):
+python
+model = BrandNewBertModel.load_pretrained_checkpoint("/path/to/checkpoint/")
+input_ids = [0, 4, 5, 2, 3, 7, 9]  # vector of input ids
+original_output = model.predict(input_ids)
+Next, regarding the debugging strategy, there are generally a few from which

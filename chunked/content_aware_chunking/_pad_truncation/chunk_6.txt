@@ -1,0 +1,4 @@
+This is the default behavior.
+
+The max_length argument controls the length of the padding and truncation. It can be an integer or None, in which case it will default to the maximum length the model can accept. If the model has no specific maximum input length, truncation or padding to max_length is deactivated.
+The following table summarizes the recommended way to setup padding and truncation.

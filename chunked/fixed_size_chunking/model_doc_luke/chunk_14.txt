@@ -1,0 +1,20 @@
+LM
+[[autodoc]] LukeForMaskedLM
+    - forward
+LukeForEntityClassification
+[[autodoc]] LukeForEntityClassification
+    - forward
+LukeForEntityPairClassification
+[[autodoc]] LukeForEntityPairClassification
+    - forward
+LukeForEntitySpanClassification
+[[autodoc]] LukeForEntitySpanClassification
+    - forward
+LukeForSequenceClassification
+[[autodoc]] LukeForSequenceClassification
+    - forward
+LukeForMultipleChoice
+[[autodoc]] LukeForMultipleChoice
+    - forward
+LukeForTokenClassification
+[[autodoc]] LukeForTok

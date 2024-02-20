@@ -1,0 +1,22 @@
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+XLMConfig
+[[autodoc]] XLMConfig
+XLMTokenizer
+[[autodoc]] XLMTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+XLM specific outputs
+[[autodoc]] models.xlm.modeling_xlm.XLMForQuestionAnsweringOutput
+
+XLMModel
+[[autodoc]] XLMModel
+    - forward
+XLMWithLMHeadModel
+[[autodoc]] XLMWithLMHeadModel
+    - forward
+XLMForSequen

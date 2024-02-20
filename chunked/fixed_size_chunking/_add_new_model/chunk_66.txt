@@ -1,0 +1,9 @@
+del_pointer.weight.data = torch.from_numpy(pretrained_weight)
+
+While doing so, you must verify that each randomly initialized weight of your PyTorch model and its corresponding
+pretrained checkpoint weight exactly match in both shape and name. To do so, it is necessary to add assert
+statements for the shape and print out the names of the checkpoints weights. E.g. you should add statements like:
+python
+assert (
+    model_pointer.weight.shape == pretrained_weight.shape
+), f"Pointer shape of random weight {mod

@@ -1,0 +1,3 @@
+The hidden unit is mapped to an embedding to make a prediction.
+Encoder-decoder[[audio-encoder-decoder]]
+Speech2Text is a speech model designed for automatic speech recognition (ASR) and speech translation. The model accepts log mel-filter bank features extracted from the audio waveform and pretrained autoregressively to generate a transcript or translation.

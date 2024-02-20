@@ -1,0 +1,7 @@
+okenizer = LlamaTokenizer.from_pretrained("/output/path")
+model = LlamaForCausalLM.from_pretrained("/output/path")
+
+Note that executing the script requires enough CPU RAM to host the whole model in float16 precision (even if the biggest versions
+come in several checkpoints they each contain a part of each weight of the model, so we need to load them all in RAM). For the 75B model, it's thus 145GB of RAM needed.
+
+The LLaMA tokenizer is a BPE model based on sentencepiece. One quirk of sentencepiece is that wh

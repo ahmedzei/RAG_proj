@@ -1,0 +1,1 @@
+Positional encodings are added to the token embeddings to indicate the position of each token in the sequence. The input embeddings are passed through multiple decoder blocks to output some final hidden state. Within each decoder block, GPT-2 uses a masked self-attention layer which means GPT-2 can't attend to future tokens. It is only allowed to attend to tokens on the left.

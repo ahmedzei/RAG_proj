@@ -1,0 +1,41 @@
+You can access the num_videos argument to know the number of videos in the dataset.
+
+print(train_dataset.num_videos, val_dataset.num_videos, test_dataset.num_videos)
+
+(300, 30, 75)
+
+Visualize the preprocessed video for better debugging
+ 
+
+import imageio
+import numpy as np
+from IPython.display import Image
+def unnormalize_img(img):
+     """Un-normalizes the image pixels."""
+     img = (img * std) + mean
+     img = (img * 255).astype("uint8")
+     return img.clip(0, 255)
+def create_gif(video_tensor, filename="sample.gif"):
+     """Prepares a GIF from a video tensor.
+   
+     The video tensor is expected to have the following shape:
+     (num_frames, num_channels, height, width).
+     """
+     frames = []
+     for video_frame in video_tensor:
+         frame_unnormalized = unnormalize_img(video_frame.permute(1, 2, 0).numpy())
+         frames.append(frame_unnormalized)
+     kargs = {"duration": 0.25}
+     imageio.mimsave(filename, frames, "GIF", **kargs)
+     return filename
+def display_gif(video_tensor, gif_name="sample.gif"):
+     """Prepares and displays a GIF from a video tensor."""
+     video_tensor = video_tensor.permute(1, 0, 2, 3)
+     gif_filename = create_gif(video_tensor, gif_name)
+     return Image(filename=gif_filename)
+sample_video = next(iter(train_dataset))
+video_tensor = sample_video["video"]
+display_gif(video_tensor)
+
+Train the model
+Leverage Trainer from  🤗 Transformers for training the model.

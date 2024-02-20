@@ -1,0 +1,12 @@
+Let's see if it at least 
+learned something from the data and take the first example from the dataset to illustrate inference:
+
+example = dataset[0]
+image = Image.open(example['image_id'])
+question = example['question']
+print(question)
+pipe(image, question, top_k=1)
+"Where is he looking?"
+[{'score': 0.5498199462890625, 'answer': 'down'}]
+
+Even though not very confident, the model indeed has learned something.

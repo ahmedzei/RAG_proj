@@ -1,0 +1,14 @@
+The original code can be found
+here.
+Usage tips
+
+The quickest way to get started with Donut is by checking the tutorial
+  notebooks, which show how to use the model
+  at inference time as well as fine-tuning on custom data.
+Donut is always used within the VisionEncoderDecoder framework.
+
+Inference examples
+Donut's [VisionEncoderDecoder] model accepts images as input and makes use of
+[~generation.GenerationMixin.generate] to autoregressively generate text given the input image.
+The [DonutImageProcessor] class is responsible for preprocessing the input image and
+[XLMRobertaTokenizer/XLMRobertaTokenizerFast] decodes the generated target tokens to the target string.

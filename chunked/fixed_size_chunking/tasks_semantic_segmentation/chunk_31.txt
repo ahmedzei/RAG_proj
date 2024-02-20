@@ -1,0 +1,13 @@
+rocess the image and return the input as TensorFlow tensors:
+
+from transformers import AutoImageProcessor
+image_processor = AutoImageProcessor.from_pretrained("MariaK/scene_segmentation")
+inputs = image_processor(image, return_tensors="tf")
+
+Pass your input to the model and return the logits:
+
+from transformers import TFAutoModelForSemanticSegmentation
+model = TFAutoModelForSemanticSegmentation.from_pretrained("MariaK/scene_segmentation")
+logits = model(**inputs).logits
+
+Next, rescale the logits to the orig

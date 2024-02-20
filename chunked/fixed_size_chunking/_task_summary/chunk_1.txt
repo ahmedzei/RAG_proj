@@ -1,0 +1,4 @@
+it. Want to remove a background object from a picture taken by your smartphone? This is an example of a panoptic segmentation task (don't worry if you don't know what this means yet, we'll describe it in the following sections!). 
+This page provides an overview of the different speech and audio, computer vision, and NLP tasks that can be solved with the 🤗 Transformers library in just three lines of code!
+Audio
+Audio and speech processing tasks are a little different from the other modalities mainly because 

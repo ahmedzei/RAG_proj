@@ -1,0 +1,8 @@
+M2M100
+Overview
+The M2M100 model was proposed in Beyond English-Centric Multilingual Machine Translation by Angela Fan, Shruti Bhosale, Holger Schwenk, Zhiyi Ma, Ahmed El-Kishky,
+Siddharth Goyal, Mandeep Baines, Onur Celebi, Guillaume Wenzek, Vishrav Chaudhary, Naman Goyal, Tom Birch, Vitaliy
+Liptchinsky, Sergey Edunov, Edouard Grave, Michael Auli, Armand Joulin.
+The abstract from the paper is the following:
+Existing work in translation demonstrated the potential of massively multilingual machine translation by training a
+single model able to translate between any pair of languages.

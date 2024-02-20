@@ -1,0 +1,8 @@
+l[class_idx], fill="white")
+image
+
+To visualize the bounding boxes with associated labels, you can get the labels from the dataset's metadata, specifically
+the category field.
+You'll also want to create dictionaries that map a label id to a label class (id2label) and the other way around (label2id).
+You can use them later when setting up the model. Including these maps will make your model reusable by others if you share
+it on the Hugging Face Hub. Please note that, the part of above code that draws the bou

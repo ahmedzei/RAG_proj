@@ -1,0 +1,4 @@
+In this tutorial, we will show you
+how to write a custom model and its configuration so it can be used inside Transformers, and how you can share it
+with the community (with the code it relies on) so that anyone can use it, even if it's not present in the 🤗
+Transformers library.

@@ -1,0 +1,7 @@
+ only use the encoder or decoder, while others use both. This provides a useful taxonomy to categorize and examine the high-level differences within models in the Transformer family, and it'll help you understand Transformers you haven't encountered before.
+If you aren't familiar with the original Transformer model or need a refresher, check out the How do Transformers work chapter from the Hugging Face course.
+
+Computer vision
+
+Convolutional network
+For a long time, convolutional networks (CNNs) were the d

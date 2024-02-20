@@ -1,0 +1,21 @@
+This'll give you a chance to experiment and make sure everything works before spending more time training on the full dataset.
+
+from datasets import load_dataset
+ds = load_dataset("scene_parse_150", split="train[:50]")
+
+Split the dataset's train split into a train and test set with the [~datasets.Dataset.train_test_split] method:
+
+ds = ds.train_test_split(test_size=0.2)
+train_ds = ds["train"]
+test_ds = ds["test"]
+
+Then take a look at an example:
+
+train_ds[0]
+{'image': ,
+ 'annotation': ,
+ 'scene_category': 368}
+
+image: a PIL image of the scene.
+annotation: a PIL image of the segmentation map, which is also the model's target.
+scene_category: a category id that describes the image scene like "kitchen" or "office".

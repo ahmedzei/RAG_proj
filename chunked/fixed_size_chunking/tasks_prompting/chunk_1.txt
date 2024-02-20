@@ -1,0 +1,5 @@
+prompts to ensure the optimal output is often called "prompt engineering". Prompt engineering is an 
+iterative process that requires a fair amount of experimentation. Natural languages are much more flexible and expressive 
+than programming languages, however, they can also introduce some ambiguity. At the same time, prompts in natural language 
+are quite sensitive to changes. Even minor modifications in prompts can lead to wildly different outputs.
+While there is no exact recipe for creating prompts to mat

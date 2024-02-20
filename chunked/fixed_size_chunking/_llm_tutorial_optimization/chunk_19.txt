@@ -1,0 +1,10 @@
+trix and \( Y \) being the output:
+$$ Y = X * W $$
+are changed to
+$$ Y = X * \text{dequantize}(W) $$
+for every matrix multiplication. Dequantization and re-quantization is performed sequentially for all weight matrices as the inputs run through the network graph.
+Therefore, inference time is often not reduced when using quantized weights, but rather increases.
+Enough theory, let's give it a try! To quantize the weights with Transformers, you need to make sure that
+the bitsandbytes library is installed.
+
+!pi

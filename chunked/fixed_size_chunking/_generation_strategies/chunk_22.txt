@@ -1,0 +1,10 @@
+ModelForCausalLM.from_pretrained(checkpoint)
+prompt = "Today was an amazing day because"
+inputs = tokenizer(prompt, return_tensors="pt")
+outputs = model.generate(**inputs, do_sample=True, num_beams=1, max_new_tokens=100)
+tokenizer.batch_decode(outputs, skip_special_tokens=True)
+['Today was an amazing day because when you go to the World Cup and you don\'t, or when you don\'t get invited,
+that\'s a terrible feeling."']
+
+Beam-search decoding
+Unlike greedy search, beam-search decoding keeps several hypotheses 

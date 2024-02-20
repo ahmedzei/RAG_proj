@@ -1,0 +1,6 @@
+In this tutorial, learn how to customize your native PyTorch training loop to enable training in a distributed environment.
+Setup
+Get started by installing 🤗 Accelerate:
+
+pip install accelerate
+Then import and create an [~accelerate.Accelerator] object. The [~accelerate.Accelerator] will automatically detect your type of distributed setup and initialize all the necessary components for training.

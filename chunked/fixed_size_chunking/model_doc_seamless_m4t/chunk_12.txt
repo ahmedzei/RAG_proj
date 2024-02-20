@@ -1,0 +1,5 @@
+enerate speech and text at the same time
+Use return_intermediate_token_ids=True with [SeamlessM4TModel] to return both speech and text !
+Model architecture
+SeamlessM4T features a versatile architecture that smoothly handles the sequential generation of text and speech. This setup comprises two sequence-to-sequence (seq2seq) models. The first model translates the input modality into translated text, while the second model generates speech tokens, known as "unit tokens," from the translated text.
+Each modalit

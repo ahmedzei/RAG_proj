@@ -1,0 +1,12 @@
+t.
+If you wish to share your model with the community, set push_to_hub to True (you must be signed in to Hugging Face to upload your model).
+In this case the output_dir will also be the name of the repo where your model checkpoint will be pushed.
+
+from transformers import TrainingArguments
+REPLACE THIS WITH YOUR REPO ID
+repo_id = "MariaK/layoutlmv2-base-uncased_finetuned_docvqa"
+training_args = TrainingArguments(
+     output_dir=repo_id,
+     per_device_train_batch_size=4,
+     num_train_epochs=20,
+     sav

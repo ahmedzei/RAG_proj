@@ -1,0 +1,8 @@
+Add -f to stream the logs, for example:
+
+kubectl logs -n kubeflow transformers-pytorchjob-worker-0 -f
+After the training job completes, the trained model can be copied from the PVC or storage location. When you are done
+with the job, the PyTorchJob resource can be deleted from the cluster using kubectl delete -f pytorchjob.yaml.
+Summary
+This guide covered running distributed PyTorch training jobs using multiple CPUs on bare metal and on a Kubernetes
+cluster.

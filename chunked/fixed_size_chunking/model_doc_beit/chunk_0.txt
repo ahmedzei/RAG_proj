@@ -1,0 +1,10 @@
+
+BEiT
+Overview
+The BEiT model was proposed in BEiT: BERT Pre-Training of Image Transformers by
+Hangbo Bao, Li Dong and Furu Wei. Inspired by BERT, BEiT is the first paper that makes self-supervised pre-training of
+Vision Transformers (ViTs) outperform supervised pre-training. Rather than pre-training the model to predict the class
+of an image (as done in the original ViT paper), BEiT models are pre-trained to
+predict visual tokens from the codebook of OpenAI's DALL-E model given masked
+patches.
+The abstract

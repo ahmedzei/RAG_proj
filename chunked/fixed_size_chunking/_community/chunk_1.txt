@@ -1,0 +1,6 @@
+eo on how to use the flashcards. | Darigov Research |
+Community notebooks:
+| Notebook     |      Description      |      Author      |      |
+|:----------|:-------------|:-------------|------:|
+| Fine-tune a pre-trained Transformer to generate lyrics | How to generate lyrics in the style of your favorite artist by fine-tuning a GPT-2 model |  Aleksey Korshuk |  |
+| Train T5 in Tensorflow 2 | How to train T5 for any task using Tensorflow 2. This notebook demonstrates a Question & Answer task implemented in T

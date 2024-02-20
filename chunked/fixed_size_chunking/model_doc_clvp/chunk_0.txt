@@ -1,0 +1,6 @@
+
+CLVP
+Overview
+The CLVP (Contrastive Language-Voice Pretrained Transformer) model was proposed in Better speech synthesis through scaling by James Betker.
+The abstract from the paper is the following:
+In recent years, the field of image generation has been revolutionized by the application of autoregressive transformers and DDPMs. These approaches model the process of image generation as a step-wise probabilistic processes and leverage large amounts of compute and data to learn the image distribution. This 

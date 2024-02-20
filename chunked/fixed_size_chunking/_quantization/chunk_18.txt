@@ -1,0 +1,5 @@
+ame dataset from the GPTQ paper.
+py
+dataset = ["auto-gptq is an easy-to-use model quantization library with user-friendly apis, based on GPTQ algorithm."]
+gptq_config = GPTQConfig(bits=4, dataset=dataset, tokenizer=tokenizer)
+Load a model to quantize and pass the gptq_config to the [~AutoModelForCausalLM.from_pretrained] method. Set device_map="auto" to automatically offload the model to a CPU to help fit the model in memory, and allow the model modules to be moved between the CPU and GPU for quantization.

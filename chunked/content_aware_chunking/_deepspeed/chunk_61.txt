@@ -1,0 +1,1 @@
+To save the model weights in fp16 for a model trained with ZeRO-3, you need to set "stage3_gather_16bit_weights_on_model_save": true because the model weights are partitioned across multiple GPUs. Otherwise, the [Trainer] won't save the weights in fp16 and it won't create a pytorch_model.bin file.

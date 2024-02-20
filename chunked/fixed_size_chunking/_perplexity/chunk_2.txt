@@ -1,0 +1,6 @@
+act on a model's perplexity which should always be taken into consideration when comparing different models.
+This is also equivalent to the exponentiation of the cross-entropy between the data and model predictions. For more
+intuition about perplexity and its relationship to Bits Per Character (BPC) and data compression, check out this
+fantastic blog post on The Gradient.
+Calculating PPL with fixed-length models
+If we weren't limited by a model's context size, we would evaluate the model's perplexity by aut

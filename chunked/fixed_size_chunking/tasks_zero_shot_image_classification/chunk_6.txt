@@ -1,0 +1,12 @@
+del = AutoModelForZeroShotImageClassification.from_pretrained(checkpoint)
+processor = AutoProcessor.from_pretrained(checkpoint)
+
+Let's take a different image to switch things up.
+
+from PIL import Image
+import requests
+url = "https://unsplash.com/photos/xBRQfR2bqNI/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjc4Mzg4ODEx&force=true&w=640"
+image = Image.open(requests.get(url, stream=True).raw)
+image
+
+Use the processor to prepare the inputs for the model. The processor combines an image processor that prepar

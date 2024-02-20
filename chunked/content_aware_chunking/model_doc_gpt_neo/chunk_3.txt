@@ -1,0 +1,2 @@
+More details are available here concerning the installation.
+Make sure as well to load your model in half-precision (e.g.

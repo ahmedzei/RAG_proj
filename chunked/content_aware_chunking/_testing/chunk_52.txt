@@ -1,0 +1,6 @@
+If it's focused on an other aspect of the library,
+such as the documentation or the examples, then we should run these tests in the slow test suite. And then, to refine
+this approach we should have exceptions:
+
+All tests that need to download a heavy set of weights or a dataset that is larger than ~50MB (e.g., model or
+  tokenizer integration tests, pipeline integration tests) should be set to slow.

@@ -1,0 +1,12 @@
+_pretrained("espnet/fastspeech2_conformer_hifigan")
+synthesiser = pipeline(model="espnet/fastspeech2_conformer", vocoder=vocoder)
+speech = synthesiser("Hello, my dog is cooler than you!")
+sf.write("speech.wav", speech["audio"].squeeze(), samplerate=speech["sampling_rate"])
+
+FastSpeech2ConformerConfig
+[[autodoc]] FastSpeech2ConformerConfig
+FastSpeech2ConformerHifiGanConfig
+[[autodoc]] FastSpeech2ConformerHifiGanConfig
+FastSpeech2ConformerWithHifiGanConfig
+[[autodoc]] FastSpeech2ConformerWithHifiGanConfig
+Fas

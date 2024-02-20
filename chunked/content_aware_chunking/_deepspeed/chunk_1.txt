@@ -1,0 +1,7 @@
+ZeRO works in several stages:
+
+ZeRO-1, optimizer state partioning across GPUs
+ZeRO-2, gradient partitioning across GPUs
+ZeRO-3, parameteter partitioning across GPUs
+
+In GPU-limited environments, ZeRO also enables offloading optimizer memory and computation from the GPU to the CPU to fit and train really large models on a single GPU. DeepSpeed is integrated with the Transformers [Trainer] class for all ZeRO stages and offloading. All you need to do is provide a config file or you can use a provided template.

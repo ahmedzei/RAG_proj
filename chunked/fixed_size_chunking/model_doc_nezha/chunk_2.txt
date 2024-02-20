@@ -1,0 +1,15 @@
+es when finetuned on several representative Chinese tasks, including
+named entity recognition (People's Daily NER), sentence matching (LCQMC), Chinese sentiment classification (ChnSenti)
+and natural language inference (XNLI).
+This model was contributed by sijunhe. The original code can be found here.
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+NezhaConfig
+[[autodoc]] NezhaConfig
+NezhaM

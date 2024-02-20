@@ -1,0 +1,17 @@
+[TFAlbertForMultipleChoice] is supported by this example script and notebook.
+
+Check the  Multiple choice task guide on how to use the model.
+
+AlbertConfig
+[[autodoc]] AlbertConfig
+AlbertTokenizer
+[[autodoc]] AlbertTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+AlbertTokenizerFast
+[[autodoc]] AlbertTokenizerFast
+Albert specific outputs
+[[autodoc]] models.albert.modeling_albert.AlbertForPreTrainingOutput
+[[autodo

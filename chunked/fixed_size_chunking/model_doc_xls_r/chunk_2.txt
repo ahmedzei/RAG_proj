@@ -1,0 +1,6 @@
+ BABEL, MLS, CommonVoice as well as
+VoxPopuli, lowering error rates by 14-34% relative on average. XLS-R also sets a new state of the art on VoxLingua107
+language identification. Moreover, we show that with sufficient model size, cross-lingual pretraining can outperform
+English-only pretraining when translating English speech into other languages, a setting which favors monolingual
+pretraining. We hope XLS-R can help to improve speech processing tasks for many more languages of the world.
+Relevant checkpoin

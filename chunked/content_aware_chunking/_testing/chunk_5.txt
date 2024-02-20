@@ -1,0 +1,12 @@
+For example:
+
+pytest tests/test_optimization.py::OptimizationTest
+will run all the tests inside that class.
+As mentioned earlier you can see what tests are contained inside the OptimizationTest class by running:
+
+pytest tests/test_optimization.py::OptimizationTest --collect-only -q
+You can run tests by keyword expressions.
+To run only tests whose name contains adam:
+
+pytest -k adam tests/test_optimization.py
+Logical and and or can be used to indicate whether all keywords should match or either.

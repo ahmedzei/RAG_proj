@@ -1,0 +1,7 @@
+SAM
+Overview
+SAM (Segment Anything Model) was proposed in Segment Anything by Alexander Kirillov, Eric Mintun, Nikhila Ravi, Hanzi Mao, Chloe Rolland, Laura Gustafson, Tete Xiao, Spencer Whitehead, Alex Berg, Wan-Yen Lo, Piotr Dollar, Ross Girshick.
+The model can be used to predict segmentation masks of any object of interest given an input image. 
+
+The abstract from the paper is the following:
+We introduce the Segment Anything (SA) project: a new task, model, and dataset for image segmentation.

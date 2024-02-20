@@ -1,0 +1,17 @@
+This value will then automatically be
+saved in the config and should be reused for inference.
+Using LSH self attention, the memory and time complexity of the query-key matmul operation can be reduced from
+\(\mathcal{O}(n_s \times n_s)\) to \(\mathcal{O}(n_s \times \log(n_s))\), which usually represents the memory
+and time bottleneck in a transformer model, with \(n_s\) being the sequence length.
+Local Self Attention
+Local self attention is essentially a "normal" self attention layer with key, query and value projections, but is
+chunked so that in each chunk of length config.local_chunk_length the query embedding vectors only attends to
+the key embedding vectors in its chunk and to the key embedding vectors of config.local_num_chunks_before
+previous neighboring chunks and config.local_num_chunks_after following neighboring chunks.
+Using Local self attention, the memory and time complexity of the query-key matmul operation can be reduced from
+\(\mathcal{O}(n_s \times n_s)\) to \(\mathcal{O}(n_s \times \log(n_s))\), which usually represents the memory
+and time bottleneck in a transformer model, with \(n_s\) being the sequence length.
+Training
+During training, we must ensure that the sequence length is set to a value that can be divided by the least common
+multiple of config.lsh_chunk_length and config.local_chunk_length and that the parameters of the Axial
+Positional Encodings are correctly set as described above.

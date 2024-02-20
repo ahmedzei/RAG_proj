@@ -1,0 +1,9 @@
+update your work with the current main from
+time to time by doing:
+
+git fetch upstream
+git merge upstream/main
+In general, all questions you might have regarding the model or your implementation should be asked in your PR and
+discussed/solved in the PR. This way, the Hugging Face team will always be notified when you are committing new code or
+if you have a question. It is often very helpful to point the Hugging Face team to your added code so that the Hugging
+Face team can efficiently understand your probl

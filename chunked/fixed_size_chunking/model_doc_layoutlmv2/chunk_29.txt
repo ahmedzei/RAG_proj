@@ -1,0 +1,20 @@
+cess
+LayoutLMv2Tokenizer
+[[autodoc]] LayoutLMv2Tokenizer
+    - call
+    - save_vocabulary
+LayoutLMv2TokenizerFast
+[[autodoc]] LayoutLMv2TokenizerFast
+    - call
+LayoutLMv2Processor
+[[autodoc]] LayoutLMv2Processor
+    - call
+LayoutLMv2Model
+[[autodoc]] LayoutLMv2Model
+    - forward
+LayoutLMv2ForSequenceClassification
+[[autodoc]] LayoutLMv2ForSequenceClassification
+LayoutLMv2ForTokenClassification
+[[autodoc]] LayoutLMv2ForTokenClassification
+LayoutLMv2ForQuestionAnswering
+[[autodoc]] LayoutLMv2ForQuestionAnsw

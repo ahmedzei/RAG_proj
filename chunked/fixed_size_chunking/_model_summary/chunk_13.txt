@@ -1,0 +1,3 @@
+ndowed attention (attention only calculated from fixed window size around each token) and global attention (only for specific task tokens like [CLS] for classification) to create a sparse attention matrix instead of a full attention matrix.
+Decoder[[nlp-decoder]]
+GPT-2 is a decoder-only Transformer that predicts the next word in the sequence. It masks tokens to the right so the model can't "cheat" by looking ahead. By pretraining on a massive body of text, GPT-2 became really good at generating text, even i

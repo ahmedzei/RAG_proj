@@ -1,0 +1,4 @@
+To learn more, check [StoppingCriteria].
+num_beams: by specifying a number of beams higher than 1, you are effectively switching from greedy search to
+beam search. This strategy evaluates several hypotheses at each time step and eventually chooses the hypothesis that
+has the overall highest probability for the entire sequence.

@@ -1,0 +1,8 @@
+perform zero-shot text-conditioned object detection.
+[OwlViTImageProcessor] can be used to resize (or rescale) and normalize images for the model and [CLIPTokenizer] is used to encode the text. [OwlViTProcessor] wraps [OwlViTImageProcessor] and [CLIPTokenizer] into a single instance to both encode the text and prepare the images. The following example shows how to perform object detection using [OwlViTProcessor] and [OwlViTForObjectDetection].
+thon
+
+import requests
+from PIL import Image
+import torch
+from tr

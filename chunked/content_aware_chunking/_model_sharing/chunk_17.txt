@@ -1,0 +1,6 @@
+You can add a model card by:
+
+Manually creating and uploading a README.md file.
+Clicking on the Edit model card button in your model repository.
+
+Take a look at the DistilBert model card for a good example of the type of information a model card should include. For more details about other options you can control in the README.md file such as a model's carbon footprint or widget examples, refer to the documentation here..

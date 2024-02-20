@@ -1,0 +1,4 @@
+_N \) = \( \mathbf{x}_1 + \mathbf{p}_1, \ldots, \mathbf{x}_N + \mathbf{p}_N \) thereby cueing the model to better learn sentence order.
+Instead of using fixed position embeddings, others (such as Devlin et al.) used learned positional encodings for which the positional embeddings
+\( \mathbf{P} \) are learned during training.
+Sinusoidal and learned position embeddings used to be the predominant methods to encode sentence order into LLMs, but a couple of problems related to these positional encodings were fou

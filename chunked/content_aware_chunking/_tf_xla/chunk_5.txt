@@ -1,0 +1,10 @@
+We’ll also provide links to additional resources if you’re interested to learn more about the benchmarks and our design philosophy behind the XLA integration.
+Running TF functions with XLA
+Let us consider the following model in TensorFlow:
+
+import tensorflow as tf
+model = tf.keras.Sequential(
+    [tf.keras.layers.Dense(10, input_shape=(10,), activation="relu"), tf.keras.layers.Dense(5, activation="softmax")]
+)
+
+The above model accepts inputs having a dimension of (10, ).

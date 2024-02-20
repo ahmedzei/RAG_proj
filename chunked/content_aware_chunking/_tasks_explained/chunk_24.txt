@@ -1,0 +1,7 @@
+There are fewer activation and normalization layers,  the activation function is switched to GELU instead of ReLU, and it uses LayerNorm instead of BatchNorm.
+
+The output from the convolution blocks is passed to a classification head which converts the outputs into logits and calculates the cross-entropy loss to find the most likely label.
+Object detection
+DETR, DEtection TRansformer, is an end-to-end object detection model that combines a CNN with a Transformer encoder-decoder.
+
+A pretrained CNN backbone takes an image, represented by its pixel values, and creates a low-resolution feature map of it.

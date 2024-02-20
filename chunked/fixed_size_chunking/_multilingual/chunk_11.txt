@@ -1,0 +1,9 @@
+achine translation, 50 languages)
+facebook/mbart-large-50 (Multilingual translation, 50 languages)
+facebook/mbart-large-cc25
+
+In this example, load the facebook/mbart-large-50-many-to-many-mmt checkpoint to translate Finnish to English. You can set the source language in the tokenizer:
+
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+en_text = "Do not meddle in the affairs of wizards, for they are subtle and quick to anger."
+fi_text = "Älä sekaannu velhojen asioihin, sillä ne ovat hienovaraisi

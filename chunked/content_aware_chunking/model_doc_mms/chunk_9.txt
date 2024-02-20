@@ -1,0 +1,9 @@
+All available checkpoints can be found on the Hugging 
+Face Hub: facebook/mms-tts, and the inference 
+documentation under VITS.
+Inference
+To use the MMS model, first update to the latest version of the Transformers library:
+
+pip install --upgrade transformers accelerate
+Since the flow-based model in VITS is non-deterministic, it is good practice to set a seed to ensure reproducibility of 
+the outputs.

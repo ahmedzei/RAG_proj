@@ -1,0 +1,9 @@
+and longer training, you'll get far better results!
+You can also manually replicate the results of the pipeline if you'd like:
+1. Take an image and a question, prepare them for the model using the processor from your model.
+2. Forward the result or preprocessing through the model.
+3. From the logits, get the most likely answer's id, and find the actual answer in the id2label.
+
+processor = ViltProcessor.from_pretrained("MariaK/vilt_finetuned_200")
+image = Image.open(example['image_id'])
+question = example['q

@@ -1,0 +1,18 @@
+("distilbert/distilroberta-base")
+
+Convert your datasets to the tf.data.Dataset format with [~transformers.TFPreTrainedModel.prepare_tf_dataset]:
+
+tf_train_set = model.prepare_tf_dataset(
+     lm_dataset["train"],
+     shuffle=True,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+tf_test_set = model.prepare_tf_dataset(
+     lm_dataset["test"],
+     shuffle=False,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+
+Configure the model for training with compile. Note that Transformers models all have

@@ -1,0 +1,7 @@
+aset (a collection of more
+  than 360,000 document images constructed by automatically parsing PubMed XML files).
+table detection: the ICDAR 2019 cTDaR dataset (a collection of
+  600 training images and 240 testing images).
+
+The abstract from the paper is the following:
+*Image Transformer has recently achieved significant progress for natural image understanding, either using supervised (ViT, DeiT, etc.) or self-supervised (BEiT, MAE, etc.) pre-training techniques. In this paper, we propose DiT, a self-supe

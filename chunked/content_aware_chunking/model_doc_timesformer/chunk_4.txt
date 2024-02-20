@@ -1,0 +1,14 @@
+Moreover,
+the number of input frames per clip changes based on the model size so you should consider this parameter while selecting your pretrained model.
+Resources
+
+Video classification task guide
+
+TimesformerConfig
+[[autodoc]] TimesformerConfig
+TimesformerModel
+[[autodoc]] TimesformerModel
+    - forward
+TimesformerForVideoClassification
+[[autodoc]] TimesformerForVideoClassification
+    - forward.

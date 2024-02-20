@@ -1,0 +1,5 @@
+Don't worry, this is expected! Debugging ML models is
+notoriously hard, and the key ingredient to success is patience (and breakpoint()). In our experience, the hardest
+problems arise from subtle mismatches between ML frameworks, for which we have a few pointers at the end of this guide.
+In other cases, a general test might not be directly applicable to your model, in which case we suggest an override
+at the model test class level.

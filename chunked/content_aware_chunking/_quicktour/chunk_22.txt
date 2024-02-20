@@ -1,0 +1,2 @@
+The configuration specifies a model's attributes, such as the number of hidden layers or attention heads. You start from scratch when you initialize a model from a custom configuration class. The model attributes are randomly initialized, and you'll need to train the model before you can use it to get meaningful results.
+Start by importing [AutoConfig], and then load the pretrained model you want to modify.

@@ -1,0 +1,10 @@
+ows how to transate English speech to French text using the facebook/s2t-medium-mustc-multilingual-st
+  checkpoint.
+thon
+
+import torch
+from transformers import Speech2TextProcessor, Speech2TextForConditionalGeneration
+from datasets import load_dataset
+model = Speech2TextForConditionalGeneration.from_pretrained("facebook/s2t-medium-mustc-multilingual-st")
+processor = Speech2TextProcessor.from_pretrained("facebook/s2t-medium-mustc-multilingual-st")
+ds = load_dataset("hf-internal-testing/librispeech_asr_demo",

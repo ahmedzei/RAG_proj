@@ -1,0 +1,7 @@
+
+ConvNeXt V2
+Overview
+The ConvNeXt V2 model was proposed in ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders by Sanghyun Woo, Shoubhik Debnath, Ronghang Hu, Xinlei Chen, Zhuang Liu, In So Kweon, Saining Xie.
+ConvNeXt V2 is a pure convolutional model (ConvNet), inspired by the design of Vision Transformers, and a successor of ConvNeXT.
+The abstract from the paper is the following:
+Driven by improved architectures and better representation learning frameworks, the field of visual recogn

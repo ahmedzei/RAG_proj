@@ -1,0 +1,67 @@
+The original code can be found here.
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+DebertaV2Config
+[[autodoc]] DebertaV2Config
+DebertaV2Tokenizer
+[[autodoc]] DebertaV2Tokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+DebertaV2TokenizerFast
+[[autodoc]] DebertaV2TokenizerFast
+    - build_inputs_with_special_tokens
+    - create_token_type_ids_from_sequences
+
+DebertaV2Model
+[[autodoc]] DebertaV2Model
+    - forward
+DebertaV2PreTrainedModel
+[[autodoc]] DebertaV2PreTrainedModel
+    - forward
+DebertaV2ForMaskedLM
+[[autodoc]] DebertaV2ForMaskedLM
+    - forward
+DebertaV2ForSequenceClassification
+[[autodoc]] DebertaV2ForSequenceClassification
+    - forward
+DebertaV2ForTokenClassification
+[[autodoc]] DebertaV2ForTokenClassification
+    - forward
+DebertaV2ForQuestionAnswering
+[[autodoc]] DebertaV2ForQuestionAnswering
+    - forward
+DebertaV2ForMultipleChoice
+[[autodoc]] DebertaV2ForMultipleChoice
+    - forward
+
+TFDebertaV2Model
+[[autodoc]] TFDebertaV2Model
+    - call
+TFDebertaV2PreTrainedModel
+[[autodoc]] TFDebertaV2PreTrainedModel
+    - call
+TFDebertaV2ForMaskedLM
+[[autodoc]] TFDebertaV2ForMaskedLM
+    - call
+TFDebertaV2ForSequenceClassification
+[[autodoc]] TFDebertaV2ForSequenceClassification
+    - call
+TFDebertaV2ForTokenClassification
+[[autodoc]] TFDebertaV2ForTokenClassification
+    - call
+TFDebertaV2ForQuestionAnswering
+[[autodoc]] TFDebertaV2ForQuestionAnswering
+    - call
+TFDebertaV2ForMultipleChoice
+[[autodoc]] TFDebertaV2ForMultipleChoice
+    - call
+
+.

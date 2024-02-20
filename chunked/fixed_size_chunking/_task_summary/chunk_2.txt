@@ -1,0 +1,2 @@
+audio as an input is a continuous signal. Unlike text, a raw audio waveform can't be neatly split into discrete chunks the way a sentence can be divided into words. To get around this, the raw audio signal is typically sampled at regular intervals. If you take more samples within an interval, the sampling rate is higher, and the audio more closely resembles the original audio source.
+Previous approaches preprocessed the audio to extract useful features from it. It is now more common to start audio and speec

@@ -1,0 +1,6 @@
+ from the same input text. 
+The model is trained end-to-end with a combination of losses derived from variational lower bound and adversarial training. 
+To improve the expressiveness of the model, normalizing flows are applied to the conditional prior distribution. During 
+inference, the text encodings are up-sampled based on the duration prediction module, and then mapped into the 
+waveform using a cascade of the flow module and HiFi-GAN decoder. Due to the stochastic nature of the duration predictor,
+the 

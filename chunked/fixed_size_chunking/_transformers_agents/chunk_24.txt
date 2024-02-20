@@ -1,0 +1,4 @@
+or = load_tool("huggingface-tools/text-to-image")
+image = image_generator(prompt="rivers and lakes")
+
+that you can then modify and execute yourself.

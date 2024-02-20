@@ -1,0 +1,9 @@
+ DeepSpeed-Inference on GPUs.
+⚙️ Pretraining
+- A blog post on Pre-Training BERT with Hugging Face Transformers and Habana Gaudi.
+🚀 Deploy
+- A blog post on how to Convert Transformers to ONNX with Hugging Face Optimum.
+- A blog post on how to Setup Deep Learning environment for Hugging Face Transformers with Habana Gaudi on AWS.
+- A blog post on Autoscaling BERT with Hugging Face Transformers, Amazon SageMaker and Terraform module.
+- A blog post on Serverless BERT with HuggingFace, AWS Lambda, and Docker.
+- 

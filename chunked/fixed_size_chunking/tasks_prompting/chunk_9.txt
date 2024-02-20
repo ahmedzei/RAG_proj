@@ -1,0 +1,15 @@
+okenizer = AutoTokenizer.from_pretrained(model)
+pipe = pipeline(
+     "text-generation",
+     model=model,
+     tokenizer=tokenizer,
+     torch_dtype=torch.bfloat16,
+     device_map="auto",
+ )
+
+Note that Falcon models were trained using the bfloat16 datatype, so we recommend you use the same. This requires a recent 
+version of CUDA and works best on modern cards.
+
+Now that we have the model loaded via the pipeline, let's explore how you can use prompts to solve NLP tasks.
+Text classification
+One of the most

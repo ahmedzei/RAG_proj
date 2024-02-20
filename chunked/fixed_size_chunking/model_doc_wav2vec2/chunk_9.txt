@@ -1,0 +1,12 @@
+ensors="pt")
+     inputs = {k: v.to("cuda") for k, v in inputs.items()}
+
+     with torch.no_grad():
+         logits = model(**inputs).logits
+     transcription = processor.batch_decode(logits.cpu().numpy(), pool).text
+     batch["transcription"] = transcription
+     return batch
+
+note: pool should be instantiated after Wav2Vec2ProcessorWithLM.
+otherwise, the LM won't be available to the pool's sub-processes
+select number of processes and batch_size based on number of CPU cores available and on dataset size

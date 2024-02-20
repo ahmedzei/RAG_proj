@@ -1,0 +1,14 @@
+qModelOutput
+TFCausalLMOutput
+[[autodoc]] modeling_tf_outputs.TFCausalLMOutput
+TFCausalLMOutputWithCrossAttentions
+[[autodoc]] modeling_tf_outputs.TFCausalLMOutputWithCrossAttentions
+TFCausalLMOutputWithPast
+[[autodoc]] modeling_tf_outputs.TFCausalLMOutputWithPast
+TFMaskedLMOutput
+[[autodoc]] modeling_tf_outputs.TFMaskedLMOutput
+TFSeq2SeqLMOutput
+[[autodoc]] modeling_tf_outputs.TFSeq2SeqLMOutput
+TFNextSentencePredictorOutput
+[[autodoc]] modeling_tf_outputs.TFNextSentencePredictorOutput
+TFSequenceClassifierO

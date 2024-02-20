@@ -1,0 +1,7 @@
+fault
+             encoding = {key: tf.squeeze(val, 0) for key, val in encoding.items()}
+             # add the float_answer which is also required (weak supervision for aggregation case)
+             encoding["float_answer"] = tf.convert_to_tensor(item.float_answer, dtype=tf.float32)
+             yield encoding["input_ids"], encoding["attention_mask"], encoding["numeric_values"], encoding[
+                 "numeric_values_scale"
+             ], encoding["token_type_ids"], encoding["labels"], encoding["floa

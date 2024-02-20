@@ -1,0 +1,3 @@
+
+Create a custom architecture
+An AutoClass automatically infers the model architecture and downloads pretrained configuration and weights. Generally, we recommend using an AutoClass to produce checkpoint-agnostic code. But users who want more control over specific model parameters can create a custom 🤗 Transformers model from just a few base classes. This could be particularly useful for anyone who is interested in studying, training or experimenting with a 🤗 Transformers model. In this guide, dive deeper i

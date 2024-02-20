@@ -1,0 +1,3 @@
+They first start from a high dimensional search space and iteratively reduce the search space by empirically applying constraints based on the best-performing models sampled by the current search space.
+The abstract from the paper is the following:
+In this work, we present a new network design paradigm. Our goal is to help advance the understanding of network design and discover design principles that generalize across settings.

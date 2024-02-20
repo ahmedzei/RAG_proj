@@ -1,0 +1,7 @@
+r which
+each task is converted into a text-to-text format. T5 works well on a variety of tasks out-of-the-box by prepending a
+different prefix to the input corresponding to each task, e.g., for translation: translate English to German: ,
+for summarization: summarize: .
+The pretraining includes both supervised and self-supervised training. Supervised training is conducted on downstream tasks provided by the GLUE and SuperGLUE benchmarks (converting them into text-to-text tasks as explained above).
+
+Self-supe

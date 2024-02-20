@@ -1,0 +1,7 @@
+----------------------------------------------------------------------------------------------------------------------|----------------|
+|  | ballroom foyer |
+Quickstart
+Before being able to use agent.run, you will need to instantiate an agent, which is a large language model (LLM). 
+We provide support for openAI models as well as opensource alternatives from BigCode and OpenAssistant. The openAI
+models perform better (but require you to have an openAI API key, so cannot be used for free); Hugging Face is
+p

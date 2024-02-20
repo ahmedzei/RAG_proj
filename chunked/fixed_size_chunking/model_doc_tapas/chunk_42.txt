@@ -1,0 +1,14 @@
+t_answer"]
+     def len(self):
+         return len(self.data)
+
+data = pd.read_csv(tsv_path, sep="\t")
+train_dataset = TableDataset(data, tokenizer)
+output_signature = (
+     tf.TensorSpec(shape=(512,), dtype=tf.int32),
+     tf.TensorSpec(shape=(512,), dtype=tf.int32),
+     tf.TensorSpec(shape=(512,), dtype=tf.float32),
+     tf.TensorSpec(shape=(512,), dtype=tf.float32),
+     tf.TensorSpec(shape=(512, 7), dtype=tf.int32),
+     tf.TensorSpec(shape=(512,), dtype=tf.int32),
+     tf.TensorSpec(shape=(512,), dtyp

@@ -1,0 +1,5 @@
+We explore a
+general-purpose fine-tuning recipe for retrieval-augmented generation (RAG) — models which combine pre-trained
+parametric and non-parametric memory for language generation. We introduce RAG models where the parametric memory is a
+pre-trained seq2seq model and the non-parametric memory is a dense vector index of Wikipedia, accessed with a
+pre-trained neural retriever.

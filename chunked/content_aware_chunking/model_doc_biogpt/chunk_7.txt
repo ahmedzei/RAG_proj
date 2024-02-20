@@ -1,0 +1,23 @@
+For PyTorch, see past_key_values argument of the BioGptForCausalLM.forward() method for more information on its usage.
+
+Resources
+
+Causal language modeling task guide
+
+BioGptConfig
+[[autodoc]] BioGptConfig
+BioGptTokenizer
+[[autodoc]] BioGptTokenizer
+    - save_vocabulary
+BioGptModel
+[[autodoc]] BioGptModel
+    - forward
+BioGptForCausalLM
+[[autodoc]] BioGptForCausalLM
+    - forward
+BioGptForTokenClassification
+[[autodoc]] BioGptForTokenClassification
+    - forward
+BioGptForSequenceClassification
+[[autodoc]] BioGptForSequenceClassification
+    - forward.

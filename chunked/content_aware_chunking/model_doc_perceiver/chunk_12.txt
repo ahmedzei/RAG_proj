@@ -1,0 +1,6 @@
+One can then place a regular language modeling head on top, to project the last dimension to the
+vocabulary size of the model, i.e. creating logits of shape (batch_size, 2048, 262) (as Perceiver uses a vocabulary
+size of 262 byte IDs).
+
+ Perceiver IO architecture. Taken from the original paper 
+This model was contributed by nielsr.

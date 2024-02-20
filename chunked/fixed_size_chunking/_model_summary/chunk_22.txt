@@ -1,0 +1,3 @@
+ined on a 400 million (image, text) pair dataset to maximize the similarity between the image and text embeddings of the (image, text) pairs. After pretraining, you can use natural language to instruct CLIP to predict the text given an image or vice versa. OWL-ViT builds on top of CLIP by using it as its backbone for zero-shot object detection. After pretraining, an object detection head is added to make a set prediction over the (class, bounding box) pairs.
+Encoder-decoder[[mm-encoder-decoder]]
+Optical cha

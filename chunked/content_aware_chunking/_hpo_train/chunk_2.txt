@@ -1,0 +1,1 @@
+You can pass direction in hyperparameter_search and define your own compute_objective to return multiple objective values. The Pareto Front (List[BestRun]) will be returned in hyperparameter_search, you should refer to the test case TrainerHyperParameterMultiObjectOptunaIntegrationTest in test_trainer.

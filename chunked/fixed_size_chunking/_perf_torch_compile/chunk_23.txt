@@ -1,0 +1,10 @@
+Classification/ResNet | Unbatched | 7.435 | 3.801 | 
+| Image Classification/ResNet | 4 | 7.261 | 2.187 | 
+| Object Detection/Conditional-DETR | Unbatched | 32.823 | 11.627  | 
+| Object Detection/Conditional-DETR | 4 | 50.622 | 33.831  | 
+| Image Segmentation/MobileNet | Unbatched | 9.869 | 4.244 |
+| Image Segmentation/MobileNet | 4 | 14.385 | 7.946 |
+T4
+| Task/Model | Batch Size | torch 2.0 - no compile | torch 2.0 - compile | 
+|:---:|:---:|:---:|:---:|
+| Image Classification/ConvNeXT | Unbatched | 32.137 |

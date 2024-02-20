@@ -1,0 +1,21 @@
+See the following guides that dive into iterating over whole datasets or using pipelines in a webserver:
+of the docs:
+* Using pipelines on a dataset
+* Using pipelines for a webserver
+Parameters
+[pipeline] supports many parameters; some are task specific, and some are general to all pipelines.
+In general, you can specify parameters anywhere you want:
+
+transcriber = pipeline(model="openai/whisper-large-v2", my_parameter=1)
+out = transcriber()  # This will use my_parameter=1.
+out = transcriber(, my_parameter=2)  # This will override and use my_parameter=2.
+out = transcriber()  # This will go back to using my_parameter=1.
+
+Let's check out 3 important ones:
+Device
+If you use device=n, the pipeline automatically puts the model on the specified device.
+This will work regardless of whether you are using PyTorch or Tensorflow.
+py
+transcriber = pipeline(model="openai/whisper-large-v2", device=0)
+If the model is too large for a single GPU and you are using PyTorch, you can set device_map="auto" to automatically 
+determine how to load and store the model weights.

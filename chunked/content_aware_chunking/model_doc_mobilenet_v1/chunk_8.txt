@@ -1,0 +1,23 @@
+There is currently no way to limit this to specific layers.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with MobileNetV1.
+
+[MobileNetV1ForImageClassification] is supported by this example script and notebook.
+See also: Image classification task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+MobileNetV1Config
+[[autodoc]] MobileNetV1Config
+MobileNetV1FeatureExtractor
+[[autodoc]] MobileNetV1FeatureExtractor
+    - preprocess
+MobileNetV1ImageProcessor
+[[autodoc]] MobileNetV1ImageProcessor
+    - preprocess
+MobileNetV1Model
+[[autodoc]] MobileNetV1Model
+    - forward
+MobileNetV1ForImageClassification
+[[autodoc]] MobileNetV1ForImageClassification
+    - forward.

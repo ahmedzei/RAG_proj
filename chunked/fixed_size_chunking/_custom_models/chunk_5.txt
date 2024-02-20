@@ -1,0 +1,15 @@
+p", "deep-tiered"]:
+        raise ValueError(f"`stem_type` must be '', 'deep' or 'deep-tiered', got {stem_type}.")
+
+    self.block_type = block_type
+    self.layers = layers
+    self.num_classes = num_classes
+    self.input_channels = input_channels
+    self.cardinality = cardinality
+    self.base_width = base_width
+    self.stem_width = stem_width
+    self.stem_type = stem_type
+    self.avg_down = avg_down
+    super().__init__(**kwargs)
+
+The three important things to remember when writing you own configura

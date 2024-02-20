@@ -1,0 +1,13 @@
+on to inject the detector where you want it, for example:
+thon
+from debug_utils import detect_overflow
+class T5LayerFF(nn.Module):
+    []
+def forward(self, hidden_states):
+    forwarded_states = self.layer_norm(hidden_states)
+    detect_overflow(forwarded_states, "after layer_norm")
+    forwarded_states = self.DenseReluDense(forwarded_states)
+    detect_overflow(forwarded_states, "after DenseReluDense")
+    return hidden_states + self.dropout(forwarded_states)
+
+You can see that we added 2 of these and now w

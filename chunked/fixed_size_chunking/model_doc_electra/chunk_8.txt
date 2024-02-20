@@ -1,0 +1,20 @@
+nizer
+ElectraTokenizerFast
+[[autodoc]] ElectraTokenizerFast
+Electra specific outputs
+[[autodoc]] models.electra.modeling_electra.ElectraForPreTrainingOutput
+[[autodoc]] models.electra.modeling_tf_electra.TFElectraForPreTrainingOutput
+
+ElectraModel
+[[autodoc]] ElectraModel
+    - forward
+ElectraForPreTraining
+[[autodoc]] ElectraForPreTraining
+    - forward
+ElectraForCausalLM
+[[autodoc]] ElectraForCausalLM
+    - forward
+ElectraForMaskedLM
+[[autodoc]] ElectraForMaskedLM
+    - forward
+ElectraForSequenceClassific

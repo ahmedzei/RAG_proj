@@ -1,0 +1,15 @@
+
+         item = data.iloc[idx]
+         table = pd.read_csv(table_csv_path + item.table_file).astype(
+             str
+         )  # be sure to make your table data text only
+         encoding = self.tokenizer(
+             table=table,
+             queries=item.question,
+             answer_coordinates=item.answer_coordinates,
+             answer_text=item.answer_text,
+             truncation=True,
+             padding="max_length",
+             return_tensors="pt",
+         )
+         # remove the batch 

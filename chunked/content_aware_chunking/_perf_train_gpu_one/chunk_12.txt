@@ -1,0 +1,6 @@
+This results in the same effective batch size while making better use of 
+the available GPU resources.
+For additional information, please refer to batch size and gradient accumulation benchmarks for RTX-3090
+and A100.
+Gradient Checkpointing
+Some large models may still face memory issues even when the batch size is set to 1 and gradient accumulation is used.

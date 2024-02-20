@@ -1,0 +1,10 @@
+doc]] models.detr.modeling_detr.DetrSegmentationOutput
+DetrModel
+[[autodoc]] DetrModel
+    - forward
+DetrForObjectDetection
+[[autodoc]] DetrForObjectDetection
+    - forward
+DetrForSegmentation
+[[autodoc]] DetrForSegmentation
+    - forward

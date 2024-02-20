@@ -1,0 +1,3 @@
+cess them. The first key distinction to understand is the difference between TPU Nodes and TPU VMs.
+When you use a TPU Node, you are effectively indirectly accessing a remote TPU. You will need a separate VM, which will initialize your network and data pipeline and then forward them to the remote node. When you use a TPU on Google Colab, you are accessing it in the TPU Node style.
+Using TPU Nodes can have some quite unexpected behaviour for people who aren’t used to them! In particular, because the TPU is l

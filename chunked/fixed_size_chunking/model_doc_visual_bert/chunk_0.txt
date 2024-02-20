@@ -1,0 +1,8 @@
+
+VisualBERT
+Overview
+The VisualBERT model was proposed in VisualBERT: A Simple and Performant Baseline for Vision and Language by Liunian Harold Li, Mark Yatskar, Da Yin, Cho-Jui Hsieh, Kai-Wei Chang.
+VisualBERT is a neural network trained on a variety of (image, text) pairs.
+The abstract from the paper is the following:
+We propose VisualBERT, a simple and flexible framework for modeling a broad range of vision-and-language tasks.
+VisualBERT consists of a stack of Transformer layers that implicitly align el

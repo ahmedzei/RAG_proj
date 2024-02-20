@@ -1,0 +1,6 @@
+, different backends can be deployed to lower the graph to an optimized engine. 
+You can find more details and benchmarks in PyTorch documentation.
+torch.compile has a growing list of backends, which can be found in by calling torchdynamo.list_backends(), each of which with its optional dependencies.
+Choose which backend to use by specifying it via torch_compile_backend in the [TrainingArguments].  Some of the most commonly used backends are:
+Debugging backends:
+* dynamo.optimize("eager") - Uses PyTorch to 

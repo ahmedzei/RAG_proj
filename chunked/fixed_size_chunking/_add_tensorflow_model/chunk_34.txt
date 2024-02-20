@@ -1,0 +1,6 @@
+he model.
+As in other numerical problems, the devil is in the details. And as in any detail-oriented craft, the secret
+ingredient here is patience. Here is our suggested workflow for when you come across this type of issues:
+1. Locate the source of mismatches. The model you're converting probably has near identical inner variables up to a
+   certain point. Place breakpoint() statements in the two frameworks' architectures, and compare the values of the
+   numerical variables in a top-down fashion until you 

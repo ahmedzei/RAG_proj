@@ -1,0 +1,13 @@
+The remainder of this guide illustrates how to:
+
+Fine-tune SpeechT5 that was originally trained on English speech on the Dutch (nl) language subset of the VoxPopuli dataset.
+Use your refined model for inference in one of two ways: using a pipeline or directly.
+
+Before you begin, make sure you have all the necessary libraries installed:
+
+pip install datasets soundfile speechbrain accelerate
+Install 🤗Transformers from source as not all the SpeechT5 features have been merged into an official release yet:
+
+pip install git+https://github.com/huggingface/transformers.git
+
+To follow this guide you will need a GPU.

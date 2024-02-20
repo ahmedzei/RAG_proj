@@ -1,0 +1,76 @@
+There are many more use cases, including question answering, named-entity recognition, object detection,
+audio classification, video classification, etc.
+Text classification task guide
+Masked language modeling task guide
+Image classification task guide
+
+Perceiver specific outputs
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverModelOutput
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverDecoderOutput
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverMaskedLMOutput
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverClassifierOutput
+PerceiverConfig
+[[autodoc]] PerceiverConfig
+PerceiverTokenizer
+[[autodoc]] PerceiverTokenizer
+    - call
+PerceiverFeatureExtractor
+[[autodoc]] PerceiverFeatureExtractor
+    - call
+PerceiverImageProcessor
+[[autodoc]] PerceiverImageProcessor
+    - preprocess
+PerceiverTextPreprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverTextPreprocessor
+PerceiverImagePreprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverImagePreprocessor
+PerceiverOneHotPreprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverOneHotPreprocessor
+PerceiverAudioPreprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverAudioPreprocessor
+PerceiverMultimodalPreprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverMultimodalPreprocessor
+PerceiverProjectionDecoder
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverProjectionDecoder
+PerceiverBasicDecoder
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverBasicDecoder
+PerceiverClassificationDecoder
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverClassificationDecoder
+PerceiverOpticalFlowDecoder
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverOpticalFlowDecoder
+PerceiverBasicVideoAutoencodingDecoder
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverBasicVideoAutoencodingDecoder
+PerceiverMultimodalDecoder
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverMultimodalDecoder
+PerceiverProjectionPostprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverProjectionPostprocessor
+PerceiverAudioPostprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverAudioPostprocessor
+PerceiverClassificationPostprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverClassificationPostprocessor
+PerceiverMultimodalPostprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverMultimodalPostprocessor
+PerceiverModel
+[[autodoc]] PerceiverModel
+    - forward
+PerceiverForMaskedLM
+[[autodoc]] PerceiverForMaskedLM
+    - forward
+PerceiverForSequenceClassification
+[[autodoc]] PerceiverForSequenceClassification
+    - forward
+PerceiverForImageClassificationLearned
+[[autodoc]] PerceiverForImageClassificationLearned
+    - forward
+PerceiverForImageClassificationFourier
+[[autodoc]] PerceiverForImageClassificationFourier
+    - forward
+PerceiverForImageClassificationConvProcessing
+[[autodoc]] PerceiverForImageClassificationConvProcessing
+    - forward
+PerceiverForOpticalFlow
+[[autodoc]] PerceiverForOpticalFlow
+    - forward
+PerceiverForMultimodalAutoencoding
+[[autodoc]] PerceiverForMultimodalAutoencoding
+    - forward.

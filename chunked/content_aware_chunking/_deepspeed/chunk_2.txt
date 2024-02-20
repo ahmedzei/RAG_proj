@@ -1,0 +1,6 @@
+For inference, Transformers support ZeRO-3 and offloading since it allows loading huge models.
+This guide will walk you through how to deploy DeepSpeed training, the features you can enable, how to setup the config files for different ZeRO stages, offloading, inference, and using DeepSpeed without the [Trainer].
+Installation
+DeepSpeed is available to install from PyPI or Transformers (for more detailed installation options, take a look at the DeepSpeed installation details or the GitHub README).
+
+If you're having difficulties installing DeepSpeed, check the DeepSpeed CUDA installation guide.

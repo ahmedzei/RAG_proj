@@ -1,0 +1,3 @@
+If you're using an Intel CPU, you can also use graph optimizations from Intel Extension for PyTorch to boost inference speed even more. Finally, learn how to use 🤗 Optimum to accelerate inference with ONNX Runtime or OpenVINO (if you're using an Intel CPU).
+BetterTransformer
+BetterTransformer accelerates inference with its fastpath (native PyTorch specialized implementation of Transformer functions) execution.

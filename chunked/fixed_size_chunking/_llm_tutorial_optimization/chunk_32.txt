@@ -1,0 +1,3 @@
+led the translation or summarization of a few sentences, they now manage entire pages, demanding the capability to process extensive input lengths.
+How can we get rid of the exorbitant memory requirements for large input lengths? We need a new way to compute the self-attention mechanism that gets rid of the \( QK^T \) matrix. Tri Dao et al. developed exactly such a new algorithm and called it Flash Attention.
+In a nutshell, Flash Attention breaks the  \(\mathbf{V} \times \text{Softmax}(\mathbf{QK}^T\)) comp

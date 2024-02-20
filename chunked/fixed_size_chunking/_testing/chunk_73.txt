@@ -1,0 +1,17 @@
+nd can be used:
+
+set +euo pipefail at the beginning of the run command to suppress most potential failures in the bash script.
+the last command must be a success: echo "done" or just true will do
+
+Here is an example:
+yaml
+- run:
+    name: run CI experiment
+    command: |
+        set +euo pipefail
+        echo "setting run-all-despite-any-errors-mode"
+        this_command_will_fail
+        echo "but bash continues to run"
+        # emulate another failure
+        false
+        # but the last command must be 

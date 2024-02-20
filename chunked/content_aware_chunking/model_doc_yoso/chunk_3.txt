@@ -1,0 +1,3 @@
+This leads to an efficient sampling scheme to estimate self-attention which relies on specific modifications of 
+LSH (to enable deployment on GPU architectures). We evaluate our algorithm on the GLUE benchmark with standard 512 sequence 
+length where we see favorable performance relative to a standard pretrained Transformer.

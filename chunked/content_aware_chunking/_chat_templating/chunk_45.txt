@@ -1,0 +1,4 @@
+However, be aware
+that Jinja is a general-purpose templating engine, and it may treat whitespace between blocks on the same line
+as significant and print it to the output. We strongly recommend checking that your template isn't printing extra
+spaces where it shouldn't be before you upload it!.

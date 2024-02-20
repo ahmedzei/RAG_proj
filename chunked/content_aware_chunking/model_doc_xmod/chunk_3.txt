@@ -1,0 +1,11 @@
+Furthermore, our approach enables adding languages post-hoc with no measurable drop in performance, no longer limiting the model usage to the set of pre-trained languages.
+This model was contributed by jvamvas.
+The original code can be found here and the original documentation is found here.
+Usage tips
+Tips:
+- X-MOD is similar to XLM-R, but a difference is that the input language needs to be specified so that the correct language adapter can be activated.
+- The main models – base and large – have adapters for 81 languages.
+Adapter Usage
+Input language
+There are two ways to specify the input language:
+1.

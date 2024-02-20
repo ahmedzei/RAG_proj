@@ -1,0 +1,21 @@
+with 🤗 Accelerate
+local: peft
+    title: Load and train adapters with 🤗 PEFT
+local: model_sharing
+    title: Share your model
+local: transformers_agents
+    title: Agents
+local: llm_tutorial
+    title: Generation with LLMs
+  title: Tutorials
+sections:
+isExpanded: false
+    sections:
+local: tasks/sequence_classification
+  title: Text classification
+local: tasks/token_classification
+  title: Token classification
+local: tasks/question_answering
+  title: Question answering
+local: tasks/language_modeling
+  title

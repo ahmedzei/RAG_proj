@@ -1,0 +1,38 @@
+Here is the benchmarking code and outputs:
+DP
+```bash
+rm -r /tmp/test-clm; CUDA_VISIBLE_DEVICES=0,1 \
+python examples/pytorch/language-modeling/run_clm.py \
+--model_name_or_path openai-community/gpt2 --dataset_name wikitext --dataset_config_name wikitext-2-raw-v1 \
+--do_train --output_dir /tmp/test-clm --per_device_train_batch_size 4 --max_steps 200
+{'train_runtime': 110.5948, 'train_samples_per_second': 1.808, 'epoch': 0.69}
+
+DDP w/ NVlink
+```bash
+rm -r /tmp/test-clm; CUDA_VISIBLE_DEVICES=0,1 \
+torchrun --nproc_per_node 2 examples/pytorch/language-modeling/run_clm.py \
+--model_name_or_path openai-community/gpt2 --dataset_name wikitext --dataset_config_name wikitext-2-raw-v1 \
+--do_train --output_dir /tmp/test-clm --per_device_train_batch_size 4 --max_steps 200
+{'train_runtime': 101.9003, 'train_samples_per_second': 1.963, 'epoch': 0.69}
+
+DDP w/o NVlink
+```bash
+rm -r /tmp/test-clm; NCCL_P2P_DISABLE=1 CUDA_VISIBLE_DEVICES=0,1 \
+torchrun --nproc_per_node 2 examples/pytorch/language-modeling/run_clm.py \
+--model_name_or_path openai-community/gpt2 --dataset_name wikitext --dataset_config_name wikitext-2-raw-v1 \
+--do_train --output_dir /tmp/test-clm --per_device_train_batch_size 4 --max_steps 200
+{'train_runtime': 131.4367, 'train_samples_per_second': 1.522, 'epoch': 0.69}
+
+Here are the same benchmarking results gathered in a table for convenience:
+| Type   | NVlink | Time |
+| :----- | -----  | ---: |
+| 2:DP   | Y      | 110s |
+| 2:DDP  | Y      | 101s |
+| 2:DDP  | N      | 131s |
+As you can see, in this case DP is ~10% slower than DDP with NVlink, but ~15% faster than DDP without NVlink.
+The real difference will depend on how much data each GPU needs to sync with the others - the more there is to sync, 
+the more a slow link will impede the overall runtime.
+ZeRO Data Parallelism
+ZeRO-powered data parallelism (ZeRO-DP) is illustrated in the following diagram from this blog post.
+
+While it may appear complex, it is a very similar concept to DataParallel (DP).

@@ -1,0 +1,9 @@
+We also present a workflow for 8-bit quantization that is
+able to maintain accuracy within 1% of the floating-point baseline on all networks studied, including models that are
+more difficult to quantize, such as MobileNets and BERT-large.
+This model was contributed by shangz.
+Usage tips
+
+QDQBERT model adds fake quantization operations (pair of QuantizeLinear/DequantizeLinear ops) to (i) linear layer
+  inputs and weights, (ii) matmul inputs, (iii) residual add inputs, in BERT model.
+QDQBERT requires the dependency of Pytorch Quantization Toolkit.

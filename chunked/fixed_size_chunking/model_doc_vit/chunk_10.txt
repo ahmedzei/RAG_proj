@@ -1,0 +1,5 @@
+f 2% to training from scratch, but still 4% behind supervised pre-training.
+
+Resources
+Demo notebooks regarding inference as well as fine-tuning ViT on custom data can be found here.
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with ViT. If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resou

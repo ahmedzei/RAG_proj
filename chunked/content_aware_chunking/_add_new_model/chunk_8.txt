@@ -1,0 +1,4 @@
+Next, we want to make sure that a model with a specific head layer, such as
+BrandNewBertForMaskedLM does not inherit from BrandNewBertModel, but rather uses BrandNewBertModel
+as a component that can be called in its forward pass to keep the level of abstraction low. Every new model requires a
+configuration class, called BrandNewBertConfig.

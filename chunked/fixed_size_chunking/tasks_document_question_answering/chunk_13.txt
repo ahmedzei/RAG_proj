@@ -1,0 +1,5 @@
+Define a helper function that can find a sublist (the answer split into words) in a larger list (the words list).
+This function will take two lists as input, words_list and answer_list. It will then iterate over the words_list and check
+if the current word in the words_list (words_list[i]) is equal to the first word of answer_list (answer_list[0]) and if
+the sublist of words_list starting from the current word and of the same length as answer_list is equal to answer_list.
+If this condition is true, it means

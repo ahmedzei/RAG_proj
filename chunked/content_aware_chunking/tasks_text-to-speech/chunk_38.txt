@@ -1,0 +1,4 @@
+The quality of the speaker 
+embeddings appears to be a significant factor. Since SpeechT5 was pre-trained with English x-vectors, it performs best 
+when using English speaker embeddings. If the synthesized speech sounds poor, try using a different speaker embedding.
+Increasing the training duration is also likely to enhance the quality of the results.

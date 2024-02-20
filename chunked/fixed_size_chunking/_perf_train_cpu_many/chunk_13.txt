@@ -1,0 +1,11 @@
+rchJob to the cluster.
+PyTorchJob Specification File
+The Kubeflow PyTorchJob is used to run the distributed
+training job on the cluster. The yaml file for the PyTorchJob defines parameters such as:
+ * The name of the PyTorchJob
+ * The number of replicas (workers)
+ * The python script and it's parameters that will be used to run the training job
+ * The types of resources (node selector, memory, and CPU) needed for each worker
+ * The image/tag for the Docker container to use
+ * Environment variables
+ * A volu

@@ -1,0 +1,2 @@
+The pt-to-tf CLI mentioned above has a --max-error
+flag to override the error message at weight conversion time..

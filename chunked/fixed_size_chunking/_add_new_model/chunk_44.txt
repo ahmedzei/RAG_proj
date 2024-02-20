@@ -1,0 +1,10 @@
+in the model. Make sure that the forward pass in your debugging
+  environment is deterministic so that the dropout layers are not used. Or use transformers.utils.set_seed
+  if the old and new implementations are in the same framework.
+
+The following section gives you more specific details/tips on how you can do this for brand_new_bert.
+5.-14. Port BrandNewBert to 🤗 Transformers
+Next, you can finally start adding new code to 🤗 Transformers. Go into the clone of your 🤗 Transformers' fork:
+
+cd transformers
+In 

@@ -1,0 +1,13 @@
+We can pass a list to the tokenizer and ask
+it to pad like this:
+thon
+
+padded_sequences = tokenizer([sequence_a, sequence_b], padding=True)
+
+We can see that 0s have been added on the right of the first sentence to make it the same length as the second one:
+thon
+
+padded_sequences["input_ids"]
+[[101, 1188, 1110, 170, 1603, 4954, 119, 102, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [101, 1188, 1110, 170, 1897, 1263, 4954, 119, 1135, 1110, 1120, 1655, 2039, 1190, 1103, 4954, 138, 119, 102]]
+
+This can then be converted into a tensor in PyTorch or TensorFlow.

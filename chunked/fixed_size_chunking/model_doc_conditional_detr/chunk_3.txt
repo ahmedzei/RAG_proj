@@ -1,0 +1,12 @@
+conditional DETR converges 6.7× faster for the backbones R50 and R101 and 10× faster for stronger backbones DC5-R50 and DC5-R101. Code is available at https://github.com/Atten4Vis/ConditionalDETR.
+
+ Conditional DETR shows much faster convergence compared to the original DETR. Taken from the original paper.
+This model was contributed by DepuMeng. The original code can be found here.
+Resources
+
+Object detection task guide
+
+ConditionalDetrConfig
+[[autodoc]] ConditionalDetrConfig
+ConditionalDetrImageProcessor
+[

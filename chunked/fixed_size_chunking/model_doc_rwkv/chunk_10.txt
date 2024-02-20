@@ -1,0 +1,8 @@
+las:
+$$\tilde{N}{0} = 0 \hbox{  and  } \tilde{N}{j+1} = e^{K_{j} - q} V_{j} + e^{w + M_{j} - q} \tilde{N}{j} \hbox{  where  } q = \max(K{j}, w + M_{j})$$
+and
+$$\tilde{D}{0} = 0 \hbox{  and  } \tilde{D}{j+1} = e^{K_{j} - q} + e^{w + M_{j} - q} \tilde{D}{j} \hbox{  where  } q = \max(K{j}, w + M_{j})$$
+and \(M_{j+1} = q\). With those, we can then compute
+$$N_{i} = e^{u + K_{i} - q} V_{i} + e^{M_{i}} \tilde{N}{i} \hbox{  where  } q = \max(u + K{i}, M_{i})$$
+and
+$$D_{i} = e^{u + K_{i} - q} + e^{M_{i}} \tilde{D}{

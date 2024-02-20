@@ -1,0 +1,9 @@
+=id2label,
+     label2id=label2id,
+     ignore_mismatched_sizes=True,
+ )
+
+In the [TrainingArguments] use output_dir to specify where to save your model, then configure hyperparameters as you see fit.
+It is important you do not remove unused columns because this will drop the image column. Without the image column, you
+can't create pixel_values. For this reason, set remove_unused_columns to False.
+If you wish to share your model by pushing to the Hub, set push_to_hub to True (you must be signed in to Hugging

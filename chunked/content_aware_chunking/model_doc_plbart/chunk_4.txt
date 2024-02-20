@@ -1,0 +1,6 @@
+The Authors' code can be found here.
+Usage examples
+PLBart is a multilingual encoder-decoder (sequence-to-sequence) model primarily intended for code-to-text, text-to-code, code-to-code tasks. As the
+model is multilingual it expects the sequences in a different format. A special language id token is added in both the
+source and target text. The source text format is X [eos, src_lang_code] where X is the source text. The
+target text format is [tgt_lang_code] X [eos].

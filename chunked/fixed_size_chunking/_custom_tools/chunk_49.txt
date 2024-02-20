@@ -1,0 +1,11 @@
+ined
+name and description of the tool is paramount to having it be leveraged by the agent.
+
+Replacing existing tools
+Replacing existing tools can be done simply by assigning a new item to the agent's toolbox. Here's how one would do so:
+thon
+from transformers import HfAgent, load_tool
+agent = HfAgent("https://api-inference.huggingface.co/models/bigcode/starcoder")
+agent.toolbox["image-transformation"] = load_tool("diffusers/controlnet-canny-tool")
+
+Beware when replacing tools with others! This will also adj

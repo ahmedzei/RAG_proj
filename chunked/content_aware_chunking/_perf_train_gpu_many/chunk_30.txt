@@ -1,0 +1,6 @@
+PyTorch uses chunks, while DeepSpeed refers 
+to the same hyperparameter as gradient accumulation steps.
+Because of the chunks, PP introduces the notion of micro-batches (MBS). DP splits the global data batch size into 
+mini-batches, so if you have a DP degree of 4, a global batch size of 1024 gets split up into 4 mini-batches of 
+256 each (1024/4). And if the number of chunks (or GAS) is 32 we end up with a micro-batch size of 8 (256/32). Each 
+Pipeline stage works with a single micro-batch at a time.

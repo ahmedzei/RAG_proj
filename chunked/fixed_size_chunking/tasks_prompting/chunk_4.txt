@@ -1,0 +1,10 @@
+ith LLMs
+Text generation strategies
+
+Basics of prompting
+Types of models
+The majority of modern LLMs are decoder-only transformers. Some examples include: LLaMA, 
+Llama2, Falcon, GPT2. However, you may encounter
+encoder-decoder transformer LLMs as well, for instance, Flan-T5 and BART.
+Encoder-decoder-style models are typically used in generative tasks where the output heavily relies on the input, for 
+example, in translation and summarization. The decoder-only models are used for all other types of generati

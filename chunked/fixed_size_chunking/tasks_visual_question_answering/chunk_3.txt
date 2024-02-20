@@ -1,0 +1,10 @@
+a classification problem.
+More recent models, such as BLIP, BLIP-2, and InstructBLIP, treat VQA as a generative task. Later in this guide we 
+illustrate how to use them for zero-shot VQA inference. 
+Before you begin, make sure you have all the necessary libraries installed. 
+
+pip install -q transformers datasets
+We encourage you to share your model with the community. Log in to your Hugging Face account to upload it to the 🤗 Hub.
+When prompted, enter your token to log in:
+
+from huggingface_hub import notebo

@@ -1,0 +1,6 @@
+to"
+}
+Communication data type
+For communication collectives like reduction, gathering and scattering operations, a separate data type is used.
+All gather and scatter operations are performed in the same data type the data is in. For example, if you're training with bf16, the data is also gathered in bf16 because gathering is a non-lossy operation.
+Reduce operations are lossy, for example when gradients are averaged across multiple GPUs. When the communication is done in fp16 or bf16, it is more likely to be

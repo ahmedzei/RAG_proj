@@ -1,0 +1,3 @@
+Take a look at the pipeline API reference for more information.
+Use another model and tokenizer in the pipeline
+The [pipeline] can accommodate any model from the Hub, making it easy to adapt the [pipeline] for other use-cases. For example, if you'd like a model capable of handling French text, use the tags on the Hub to filter for an appropriate model.

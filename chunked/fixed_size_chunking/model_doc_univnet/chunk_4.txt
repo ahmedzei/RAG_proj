@@ -1,0 +1,2 @@
+], noise_length, model.config.model_in_channels), where noise_length should match the length dimension (dimension 1) of the input_features argument. If not supplied, it will be randomly generated; a torch.Generator can be supplied to the generator argument so that the forward pass can be reproduced. (Note that [UnivNetFeatureExtractor] will return generated noise by default, so it shouldn't be necessary to generate noise_sequence manually.)
+Padding added by [UnivNetFeatureExtractor] can be removed from the 

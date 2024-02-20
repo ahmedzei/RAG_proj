@@ -1,0 +1,13 @@
+e a function to encode a batch of examples in the dataset:
+
+def encode_dataset(examples, max_length=512):
+     questions = examples["question"]
+     words = examples["words"]
+     boxes = examples["boxes"]
+     answers = examples["answer"]
+
+     # encode the batch of examples and initialize the start_positions and end_positions
+     encoding = tokenizer(questions, words, boxes, max_length=max_length, padding="max_length", truncation=True)
+     start_positions = []
+     end_positions = []
+     # loop through

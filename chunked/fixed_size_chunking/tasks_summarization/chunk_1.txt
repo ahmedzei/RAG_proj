@@ -1,0 +1,11 @@
+taset
+billsum = load_dataset("billsum", split="ca_test")
+
+Split the dataset into a train and test set with the [~datasets.Dataset.train_test_split] method:
+
+billsum = billsum.train_test_split(test_size=0.2)
+
+Then take a look at an example:
+
+billsum["train"][0]
+{'summary': 'Existing law authorizes state agencies to enter into contracts for the acquisition of goods or services upon approval by the Department of General Services. Existing law sets forth various requirements and prohibitions for those contracts

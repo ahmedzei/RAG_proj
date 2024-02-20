@@ -1,0 +1,3 @@
+This results in large gains over the previous state-of-the-art for zero-shot object detection.
+The abstract from the paper is the following:
+Open-vocabulary object detection has benefited greatly from pretrained vision-language models, but is still limited by the amount of available detection training data. While detection training data can be expanded by using Web image-text pairs as weak supervision, this has not been done at scales comparable to image-level pretraining.

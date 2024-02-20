@@ -1,0 +1,9 @@
+It may also include model specific post-processing such as converting logits to segmentation masks.
+ImageProcessingMixin
+[[autodoc]] image_processing_utils.ImageProcessingMixin
+    - from_pretrained
+    - save_pretrained
+BatchFeature
+[[autodoc]] BatchFeature
+BaseImageProcessor
+[[autodoc]] image_processing_utils.BaseImageProcessor.

@@ -1,0 +1,21 @@
+ulary
+FunnelTokenizerFast
+[[autodoc]] FunnelTokenizerFast
+Funnel specific outputs
+[[autodoc]] models.funnel.modeling_funnel.FunnelForPreTrainingOutput
+[[autodoc]] models.funnel.modeling_tf_funnel.TFFunnelForPreTrainingOutput
+
+FunnelBaseModel
+[[autodoc]] FunnelBaseModel
+    - forward
+FunnelModel
+[[autodoc]] FunnelModel
+    - forward
+FunnelModelForPreTraining
+[[autodoc]] FunnelForPreTraining
+    - forward
+FunnelForMaskedLM
+[[autodoc]] FunnelForMaskedLM
+    - forward
+FunnelForSequenceClassification
+[[autodoc]]

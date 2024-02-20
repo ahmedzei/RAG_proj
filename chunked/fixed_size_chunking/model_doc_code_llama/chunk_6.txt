@@ -1,0 +1,8 @@
+ when initializing a model using. The reason is that the model will first be downloaded (using the dtype of the checkpoints online) and then will be casted to the default dtype of torch (becomes torch.float32). If there is a specified torch_dtype, it will be used instead.
+
+Tips:
+- The infilling task is supported out of the box. You should be using the tokenizer.fill_token where you want your input to be filled.
+- The model conversion script is the same as for the Llama2 family:
+Here is a sample usage:
+
+pyth

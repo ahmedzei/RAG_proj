@@ -1,0 +1,6 @@
+cepts and diagrams from the Megatron-LM 
+paper: Efficient Large-Scale Language Model Training on GPU Clusters.
+The main building block of any transformer is a fully connected nn.Linear followed by a nonlinear activation GeLU.
+The dot dot-product part of it, following the Megatron's paper notation, can be written as Y = GeLU(XA), where X is 
+an input vector, Y is the output vector, and A is the weight matrix.
+If we look at the computation in matrix form, you can see how the matrix multiplication can be split

@@ -1,0 +1,4 @@
+The model obtains state-of-the-art results on
+image captioning and visual question answering benchmarks.
+The abstract from the paper is the following:
+In this paper, we design and train a Generative Image-to-text Transformer, GIT, to unify vision-language tasks such as image/video captioning and question answering.

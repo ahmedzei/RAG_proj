@@ -1,0 +1,4 @@
+The throttling down is likely to start at around 84-90C. But other than throttling performance a prolonged very high temperature is likely to reduce the lifespan of a GPU.
+Next let's have a look at one of the most important aspects when having multiple GPUs: connectivity.
+Multi-GPU Connectivity
+If you use multiple GPUs the way cards are inter-connected can have a huge impact on the total training time.

@@ -1,0 +1,11 @@
+OCR is by checking the tutorial
+  notebooks, which show how to use the model
+  at inference time as well as fine-tuning on custom data.
+TrOCR is pre-trained in 2 stages before being fine-tuned on downstream datasets. It achieves state-of-the-art results
+  on both printed (e.g. the SROIE dataset and handwritten (e.g. the IAM
+  Handwriting dataset text recognition tasks. For more
+  information, see the official models.
+TrOCR is always used within the VisionEncoderDecoder framework.
+
+Resources
+A list of offici

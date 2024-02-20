@@ -1,0 +1,14 @@
+ = load_dataset("opus_books", "en-fr")
+
+Split the dataset into a train and test set with the [~datasets.Dataset.train_test_split] method:
+
+books = books["train"].train_test_split(test_size=0.2)
+
+Then take a look at an example:
+
+books["train"][0]
+{'id': '90560',
+ 'translation': {'en': 'But this lofty plateau measured only a few fathoms, and soon we reentered Our Element.',
+  'fr': 'Mais ce plateau élevé ne mesurait que quelques toises, et bientôt nous fûmes rentrés dans notre élément.'}}
+
+translation: an Eng

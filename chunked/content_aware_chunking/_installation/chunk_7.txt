@@ -1,0 +1,16 @@
+If you run into a problem, please open an Issue so we can fix it even sooner!
+Check if 🤗 Transformers has been properly installed by running the following command:
+
+python -c "from transformers import pipeline; print(pipeline('sentiment-analysis')('I love you'))"
+Editable install
+You will need an editable install if you'd like to:
+
+Use the main version of the source code.
+Contribute to 🤗 Transformers and need to test changes in the code.
+
+Clone the repository and install 🤗 Transformers with the following commands:
+
+git clone https://github.com/huggingface/transformers.git
+cd transformers
+pip install -e .
+These commands will link the folder you cloned the repository to and your Python library paths.

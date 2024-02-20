@@ -1,0 +1,7 @@
+n it makes sense,
+particularly if you want your model to operate well with [TextGenerationPipeline]. However, you are not limited
+to these roles - templating is extremely flexible, and any string can be a role.
+I want to add some chat templates! How should I get started?
+If you have any chat models, you should set their tokenizer.chat_template attribute and test it using
+[~PreTrainedTokenizer.apply_chat_template], then push the updated tokenizer to the Hub. This applies even if you're
+not the model owner - 

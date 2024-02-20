@@ -1,0 +1,21 @@
+xt you'd like."
+encoded_input = tokenizer(text, return_tensors='pt').to(device)
+model.to(device)
+output = model(**encoded_input)
+
+DistilBertConfig
+[[autodoc]] DistilBertConfig
+DistilBertTokenizer
+[[autodoc]] DistilBertTokenizer
+DistilBertTokenizerFast
+[[autodoc]] DistilBertTokenizerFast
+
+DistilBertModel
+[[autodoc]] DistilBertModel
+    - forward
+DistilBertForMaskedLM
+[[autodoc]] DistilBertForMaskedLM
+    - forward
+DistilBertForSequenceClassification
+[[autodoc]] DistilBertForSequenceClassification
+    - forwa

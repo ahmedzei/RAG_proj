@@ -1,0 +1,9 @@
+ClassifierOutput
+FlaxMultipleChoiceModelOutput
+[[autodoc]] modeling_flax_outputs.FlaxMultipleChoiceModelOutput
+FlaxTokenClassifierOutput
+[[autodoc]] modeling_flax_outputs.FlaxTokenClassifierOutput
+FlaxQuestionAnsweringModelOutput
+[[autodoc]] modeling_flax_outputs.FlaxQuestionAnsweringModelOutput
+FlaxSeq2SeqQuestionAnsweringModelOutput
+[[autodoc]] modeling_flax_outputs.FlaxSeq2SeqQuestionAnsweringModelOutput

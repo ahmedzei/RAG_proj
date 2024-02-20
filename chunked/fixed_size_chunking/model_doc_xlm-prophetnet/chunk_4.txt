@@ -1,0 +1,12 @@
+zer
+[[autodoc]] XLMProphetNetTokenizer
+XLMProphetNetModel
+[[autodoc]] XLMProphetNetModel
+XLMProphetNetEncoder
+[[autodoc]] XLMProphetNetEncoder
+XLMProphetNetDecoder
+[[autodoc]] XLMProphetNetDecoder
+XLMProphetNetForConditionalGeneration
+[[autodoc]] XLMProphetNetForConditionalGeneration
+XLMProphetNetForCausalLM
+[[autodoc]] XLMProphetNetForCausalLM

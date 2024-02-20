@@ -1,0 +1,19 @@
+If
+do_sample=True, then the token validation with resampling introduced in the
+speculative decoding paper is used.
+Currently, only greedy search and sampling are supported with assisted decoding, and assisted decoding doesn't support batched inputs.
+To learn more about assisted decoding, check this blog post.
+To enable assisted decoding, set the assistant_model argument with a model.
+thon
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+prompt = "Alice and Bob"
+checkpoint = "EleutherAI/pythia-1.4b-deduped"
+assistant_checkpoint = "EleutherAI/pythia-160m-deduped"
+tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+inputs = tokenizer(prompt, return_tensors="pt")
+model = AutoModelForCausalLM.from_pretrained(checkpoint)
+assistant_model = AutoModelForCausalLM.from_pretrained(assistant_checkpoint)
+outputs = model.generate(**inputs, assistant_model=assistant_model)
+tokenizer.batch_decode(outputs, skip_special_tokens=True)
+['Alice and Bob are sitting in a bar.

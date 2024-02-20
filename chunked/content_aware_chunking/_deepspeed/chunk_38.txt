@@ -1,0 +1,8 @@
+For these cases, you should use full fp32 precision by explicitly disabling the default fp16 mode.
+yaml
+{
+    "fp16": {
+        "enabled": false
+    }
+}
+For Ampere GPUs and PyTorch > 1.7, it automatically switches to the more efficient tf32 format for some operations but the results are still in fp32.

@@ -1,0 +1,12 @@
+"facebook/nougat-base")
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model.to(device)  # doctest: +IGNORE_RESULT
+prepare PDF image for the model
+filepath = hf_hub_download(repo_id="hf-internal-testing/fixtures_docvqa", filename="nougat_paper.png", repo_type="dataset")
+image = Image.open(filepath)
+pixel_values = processor(image, return_tensors="pt").pixel_values
+generate transcription (here we only generate 30 tokens)
+outputs = model.generate(
+     pixel_values.to(device),
+     min_length=1,
+     

@@ -1,0 +1,11 @@
+d approach, using the [~Agent.chat] method:
+py
+agent.chat("Generate a picture of rivers and lakes")
+ 
+py
+agent.chat("Transform the picture so that there is a rock in there")
+
+This is an interesting approach when you want to keep the state across instructions. It's better for experimentation, 
+but will tend to be much better at single instructions rather than complex instructions (which the [~Agent.run]
+method is better at handling).
+This method can also take arguments if you would like to pass non-text type

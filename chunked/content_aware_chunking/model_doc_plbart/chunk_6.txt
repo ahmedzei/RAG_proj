@@ -1,0 +1,16 @@
+Please refer to the paper to learn more about this.
+In cases where the language code is needed, the regular [~PLBartTokenizer.__call__] will encode source text format 
+when you pass texts as the first argument or with the keyword argument text, and will encode target text format if
+it's passed with the text_target keyword argument.
+Supervised training
+thon
+
+from transformers import PLBartForConditionalGeneration, PLBartTokenizer
+tokenizer = PLBartTokenizer.from_pretrained("uclanlp/plbart-base", src_lang="en_XX", tgt_lang="python")
+example_python_phrase = "def maximum(a,b,c):NEW_LINE_INDENTreturn max([a,b,c])"
+expected_translation_english = "Returns the maximum value of a b c."
+inputs = tokenizer(example_python_phrase, text_target=expected_translation_english, return_tensors="pt")
+model(**inputs)
+
+Generation
+While generating the target text set the decoder_start_token_id to the target language id.

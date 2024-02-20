@@ -1,0 +1,6 @@
+It's a bidirectional transformer based on the BERT model, which is compressed and accelerated using several
+approaches.
+The abstract from the paper is the following:
+Natural Language Processing (NLP) has recently achieved great success by using huge pre-trained models with hundreds
+of millions of parameters. However, these models suffer from heavy model sizes and high latency such that they cannot
+be deployed to resource-limited mobile devices.

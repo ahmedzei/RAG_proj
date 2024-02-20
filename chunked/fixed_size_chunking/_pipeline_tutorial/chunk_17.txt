@@ -1,0 +1,14 @@
+internal-testing/tiny-random-wav2vec2", device=0)
+dataset = load_dataset("hf-internal-testing/librispeech_asr_dummy", "clean", split="validation[:10]")
+for out in pipe(KeyDataset(dataset, "audio")):
+    print(out)
+
+Using pipelines for a webserver
+
+Creating an inference engine is a complex topic which deserves it's own
+page.
+
+Link
+Vision pipeline
+Using a [pipeline] for vision tasks is practically identical.
+Specify your task and pass your image to the classifier. The image can be a link, a local path or a ba

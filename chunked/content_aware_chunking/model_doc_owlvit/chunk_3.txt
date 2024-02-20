@@ -1,0 +1,6 @@
+We provide the adaptation strategies and regularizations needed to attain very strong performance on zero-shot text-conditioned and one-shot image-conditioned object detection. Code and models are available on GitHub.
+
+ OWL-ViT architecture. Taken from the original paper. 
+This model was contributed by adirik. The original code can be found here.
+Usage tips
+OWL-ViT is a zero-shot text-conditioned object detection model.

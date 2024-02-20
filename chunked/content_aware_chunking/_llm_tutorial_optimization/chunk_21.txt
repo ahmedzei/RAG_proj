@@ -1,0 +1,4 @@
+However many GPUs simply can't run LLMs without quantization methods and in this case, 4-bit and 8-bit quantization schemes are extremely useful tools.
+For more in-detail usage information, we strongly recommend taking a look at the Transformers Quantization Docs.
+Next, let's look into how we can improve computational and memory efficiency by using better algorithms and an improved model architecture.
+2.

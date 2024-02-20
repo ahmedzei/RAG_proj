@@ -1,0 +1,11 @@
+bertForMaskedLM
+[[autodoc]] TFCamembertForMaskedLM
+TFCamembertForSequenceClassification
+[[autodoc]] TFCamembertForSequenceClassification
+TFCamembertForMultipleChoice
+[[autodoc]] TFCamembertForMultipleChoice
+TFCamembertForTokenClassification
+[[autodoc]] TFCamembertForTokenClassification
+TFCamembertForQuestionAnswering
+[[autodoc]] TFCamembertForQuestionAnswering
+

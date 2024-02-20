@@ -1,0 +1,6 @@
+Rename reorder_and_upcast_attn->attention_softmax_in_fp32
+- Cache the attention mask value to avoid recreating it every time.
+- Use jit to fuse the attention fp32 casting, masking, softmax, and scaling.
+- Combine the attention and causal masks into a single one, pre-computed for the whole model instead of every layer.
+- Merge the key and value caches into one (this changes the format of layer_past/ present, does it risk creating problems?)
+- Use the memory layout (self.num_heads, 3, self.head_dim) instead of (3, self.num_heads, self.head_dim) for the QKV tensor with MHA.

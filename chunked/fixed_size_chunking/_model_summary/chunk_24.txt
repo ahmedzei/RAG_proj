@@ -1,0 +1,4 @@
+ uses a Swin Transformer as the encoder and multilingual BART as the decoder. Donut is pretrained to read text by predicting the next word based on the image and text annotations. The decoder generates a token sequence given a prompt. The prompt is represented by a special token for each downstream task. For example, document parsing has a special parsing token that is combined with the encoder hidden states to parse the document into a structured output format (JSON).
+Reinforcement learning
+
+Decoder[[rl-de

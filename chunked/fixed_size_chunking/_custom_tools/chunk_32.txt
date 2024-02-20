@@ -1,0 +1,11 @@
+plate for the chat command in a file named chat_prompt_template.txt
+Using custom tools
+In this section, we'll be leveraging two existing custom tools that are specific to image generation:
+
+We replace huggingface-tools/image-transformation,
+  with diffusers/controlnet-canny-tool 
+  to allow for more image modifications.
+We add a new tool for image upscaling to the default toolbox: 
+  diffusers/latent-upscaler-tool replace the existing image-transformation tool.
+
+We'll start by loading the custom tools with 

@@ -1,0 +1,12 @@
+ies
+without the need for additional training data and enables users to query images with free-form text descriptions of their target objects .
+In this guide you'll learn how to:
+
+create a zero-shot image classification pipeline
+run zero-shot image classification inference by hand
+
+Before you begin, make sure you have all the necessary libraries installed:
+
+pip install -q transformers
+Zero-shot image classification pipeline
+The simplest way to try out inference with a model supporting zero-shot image classif

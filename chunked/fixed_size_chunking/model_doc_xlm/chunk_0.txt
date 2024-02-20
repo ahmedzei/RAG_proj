@@ -1,0 +1,13 @@
+
+XLM
+
+Overview
+The XLM model was proposed in Cross-lingual Language Model Pretraining by
+Guillaume Lample, Alexis Conneau. It's a transformer pretrained using one of the following objectives:
+
+a causal language modeling (CLM) objective (next token prediction),
+a masked language modeling (MLM) objective (BERT-like), or
+a Translation Language Modeling (TLM) object (extension of BERT's MLM to multiple language inputs)
+
+The abstract from the paper is the following:
+Recent studies have demonstrated the efficienc

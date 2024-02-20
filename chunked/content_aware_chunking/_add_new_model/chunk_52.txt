@@ -1,0 +1,23 @@
+“[WIP] Add brand_new_bert”, in 🤗 Transformers so that you and the Hugging Face team can work
+side-by-side on integrating the model into 🤗 Transformers.
+You should do the following:
+
+Create a branch with a descriptive name from your main branch
+
+git checkout -b add_brand_new_bert
+
+Commit the automatically generated code:
+
+git add .
+git commit
+
+Fetch and rebase to current main
+
+git fetch upstream
+git rebase upstream/main
+
+Push the changes to your account using:
+
+git push -u origin a-descriptive-name-for-my-changes
+
+Once you are satisfied, go to the webpage of your fork on GitHub.

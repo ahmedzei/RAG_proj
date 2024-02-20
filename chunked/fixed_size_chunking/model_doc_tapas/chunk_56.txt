@@ -1,0 +1,10 @@
+actor?
+Predicted answer: Brad Pitt
+How many movies has George Clooney played in?
+Predicted answer: COUNT > 69
+What is the total number of movies?
+Predicted answer: SUM > 87, 53, 69
+``
+</pt>
+<tf>
+Here we explain how you can use [TFTapasForQuestionAnswering] for inference (i.e. making predictions on new data). For inference, onlyinput_ids,attention_maskandtoken_type_ids(which you can obtain using [TapasTokenizer]) have to be provided to the model to obtain the logits. Next, you can use the handy [~models.tapa

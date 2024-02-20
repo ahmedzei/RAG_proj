@@ -1,0 +1,6 @@
+ [TFGPT2Model.call] method for more information on its usage.
+Enabling the scale_attn_by_inverse_layer_idx and reorder_and_upcast_attn flags will apply the training stability
+  improvements from Mistral (for PyTorch only).
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with GPT2. If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate so

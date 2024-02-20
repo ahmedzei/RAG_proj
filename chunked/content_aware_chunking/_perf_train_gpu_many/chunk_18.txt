@@ -1,0 +1,3 @@
+It gets a0 and a1 from GPU0 and GPU1.
+This way each of the 3 GPUs gets the full tensors reconstructed and makes a forward pass with its own mini-batch.
+As soon as the calculation is done, the data that is no longer needed gets dropped - it's only used during the calculation.

@@ -1,0 +1,9 @@
+delForAudioClassification, TrainingArguments, Trainer
+num_labels = len(id2label)
+model = AutoModelForAudioClassification.from_pretrained(
+     "facebook/wav2vec2-base", num_labels=num_labels, label2id=label2id, id2label=id2label
+ )
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [TrainingArguments]. The only required parameter is output_dir which specifies where to save your model. You'll push this model to the Hub by setting push_to_hub=True (you need to be signed in to Hu

@@ -1,0 +1,3 @@
+r(training_function)
+
+For more information about 🤗 Accelerate and its rich features, refer to the documentation.

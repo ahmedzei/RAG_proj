@@ -1,0 +1,9 @@
+What's cool about language modeling tasks is you don't need labels (also known as an unsupervised task) because the next word is the label.
+Preprocess
+
+For masked language modeling, the next step is to load a DistilRoBERTa tokenizer to process the text subfield:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("distilbert/distilroberta-base")
+
+You'll notice from the example above, the text field is actually nested inside answers.

@@ -1,0 +1,50 @@
+Taken from the original paper.
+This model was contributed by nielsr.
+The original code can be found here.
+Usage example
+There are 2 main ways to use SigLIP: either using the pipeline API, which abstracts away all the complexity for you, or by using the SiglipModel class yourself.
+Pipeline API
+The pipeline allows to use the model in a few lines of code:
+thon
+
+from transformers import pipeline
+from PIL import Image
+import requests
+load pipe
+image_classifier = pipeline(task="zero-shot-image-classification", model="google/siglip-base-patch16-224")
+load image
+url = 'http://images.cocodataset.org/val2017/000000039769.jpg'
+image = Image.open(requests.get(url, stream=True).raw)
+inference
+outputs = image_classifier(image, candidate_labels=["2 cats", "a plane", "a remote"])
+outputs = [{"score": round(output["score"], 4), "label": output["label"] } for output in outputs]
+print(outputs)
+[{'score': 0.1979, 'label': '2 cats'}, {'score': 0.0, 'label': 'a remote'}, {'score': 0.0, 'label': 'a plane'}]
+
+Using the model yourself
+If you want to do the pre- and postprocessing yourself, here's how to do that:
+thon
+
+from PIL import Image
+import requests
+from transformers import AutoProcessor, AutoModel
+import torch
+model = AutoModel.from_pretrained("google/siglip-base-patch16-224")
+processor = AutoProcessor.from_pretrained("google/siglip-base-patch16-224")
+url = "http://images.cocodataset.org/val2017/000000039769.jpg"
+image = Image.open(requests.get(url, stream=True).raw)
+texts = ["a photo of 2 cats", "a photo of 2 dogs"]
+important: we pass padding=max_length since the model was trained with this
+inputs = processor(text=texts, images=image, padding="max_length", return_tensors="pt")
+with torch.no_grad():
+     outputs = model(**inputs)
+logits_per_image = outputs.logits_per_image
+probs = torch.sigmoid(logits_per_image) # these are the probabilities
+print(f"{probs[0][0]:.1%} that image 0 is '{texts[0]}'")
+31.9% that image 0 is 'a photo of 2 cats'
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with SigLIP.
+
+Zero-shot image classification task guide
+Demo notebooks for SigLIP can be found here.

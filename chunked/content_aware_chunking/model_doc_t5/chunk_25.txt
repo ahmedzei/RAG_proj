@@ -1,0 +1,3 @@
+The former uses an optimized fused kernel which is several times faster than the latter.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with T5.

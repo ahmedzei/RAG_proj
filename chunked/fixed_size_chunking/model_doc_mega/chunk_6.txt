@@ -1,0 +1,9 @@
+ipleChoice
+[[autodoc]] MegaForMultipleChoice
+    - forward
+MegaForTokenClassification
+[[autodoc]] MegaForTokenClassification
+    - forward
+MegaForQuestionAnswering
+[[autodoc]] MegaForQuestionAnswering
+    - forward

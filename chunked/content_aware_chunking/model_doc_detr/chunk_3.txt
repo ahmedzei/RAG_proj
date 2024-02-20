@@ -1,0 +1,5 @@
+Given a fixed small set of learned object queries,
+DETR reasons about the relations of the objects and the global image context to directly output the final set of
+predictions in parallel. The new model is conceptually simple and does not require a specialized library, unlike many
+other modern detectors. DETR demonstrates accuracy and run-time performance on par with the well-established and
+highly-optimized Faster RCNN baseline on the challenging COCO object detection dataset.

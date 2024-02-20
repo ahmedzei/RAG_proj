@@ -1,0 +1,19 @@
+ang_code_to_id["en_XX"])
+tokenizer.batch_decode(generated_tokens, skip_special_tokens=True)
+=> "The Secretary-General of the United Nations says there is no military solution in Syria."
+
+Documentation resources
+
+Text classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Translation task guide
+Summarization task guide
+
+MBartConfig
+[[autodoc]] MBartConfig
+MBartTokenizer
+[[autodoc]] MBartTokenizer
+    - build_inputs_with_special_tokens
+M

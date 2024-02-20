@@ -1,0 +1,4 @@
+However, in many cases there is labeled data available for related
+languages which is not utilized by these methods. This paper extends previous work on zero-shot cross-lingual transfer
+learning by fine-tuning a multilingually pretrained wav2vec 2.0 model to transcribe unseen languages. This is done by
+mapping phonemes of the training languages to the target language using articulatory features.

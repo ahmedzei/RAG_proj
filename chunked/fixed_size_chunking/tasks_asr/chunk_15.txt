@@ -1,0 +1,12 @@
+d Wav2Vec2 with [AutoModelForCTC]. Specify the reduction to apply with the ctc_loss_reduction parameter. It is often better to use the average instead of the default summation:
+
+from transformers import AutoModelForCTC, TrainingArguments, Trainer
+model = AutoModelForCTC.from_pretrained(
+     "facebook/wav2vec2-base",
+     ctc_loss_reduction="mean",
+     pad_token_id=processor.tokenizer.pad_token_id,
+ )
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [TrainingArguments]. The

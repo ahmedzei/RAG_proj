@@ -1,0 +1,19 @@
+ranslated = model.generate(**tokenizer(src_text, return_tensors="pt", padding=True))
+tgt_text = [tokenizer.decode(t, skip_special_tokens=True) for t in translated]
+["c'est une phrase en anglais que nous voulons traduire en français", 
+ 'Isto deve ir para o português.',
+ 'Y esto al español']
+
+Resources
+
+Translation task guide
+Summarization task guide
+Causal language modeling task guide
+
+MarianConfig
+[[autodoc]] MarianConfig
+MarianTokenizer
+[[autodoc]] MarianTokenizer
+    - build_inputs_with_special_tokens
+
+M

@@ -1,0 +1,2 @@
+The [Trainer] API supports a wide range of training options and features such as logging, gradient accumulation, and mixed precision.
+Start by loading your model and specify the number of expected labels.

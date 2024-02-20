@@ -1,0 +1,5 @@
+rick von Platen | |
+|Evaluate LED on Arxiv | How to effectively evaluate LED on long-range summarization | Patrick von Platen | |
+|Fine-tune LayoutLM on RVL-CDIP (a document image classification dataset) | How to fine-tune LayoutLMForSequenceClassification on the RVL-CDIP dataset for scanned document classification | Niels Rogge | |
+|Wav2Vec2 CTC decoding with GPT2 adjustment | How to decode CTC sequence with language model adjustment | Eric Lam | |
+|Fine-tune BART for summarization in two languages with Tr

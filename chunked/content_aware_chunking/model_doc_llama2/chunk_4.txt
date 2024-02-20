@@ -1,0 +1,3 @@
+We provide a detailed description of our approach to fine-tuning and safety improvements of Llama 2-Chat in order to enable the community to build on our work and contribute to the responsible development of LLMs.
+Checkout all Llama2 model checkpoints here.
+This model was contributed by Arthur Zucker with contributions from Lysandre Debut. The code of the implementation in Hugging Face is based on GPT-NeoX here.

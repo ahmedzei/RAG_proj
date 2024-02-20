@@ -1,0 +1,10 @@
+Legislative bills, legal and financial documents, patents, and scientific papers are a few examples of documents that could be summarized to save readers time and serve as a reading aid.
+Like question answering, there are two types of summarization:
+
+extractive: identify and extract the most important sentences from the original text
+abstractive: generate the target summary (which may include new words not in the input document) from the original text; the [SummarizationPipeline] uses the abstractive approach
+
+from transformers import pipeline
+summarizer = pipeline(task="summarization")
+summarizer(
+     "In this work, we presented the Transformer, the first sequence transduction model based entirely on attention, replacing the recurrent layers most commonly used in encoder-decoder architectures with multi-headed self-attention.

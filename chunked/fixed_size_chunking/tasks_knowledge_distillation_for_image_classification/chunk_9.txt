@@ -1,0 +1,17 @@
+2Config, MobileNetV2ForImageClassification
+training_args = TrainingArguments(
+    output_dir="my-awesome-model",
+    num_train_epochs=30,
+    fp16=True,
+    logging_dir=f"{repo_name}/logs",
+    logging_strategy="epoch",
+    evaluation_strategy="epoch",
+    save_strategy="epoch",
+    load_best_model_at_end=True,
+    metric_for_best_model="accuracy",
+    report_to="tensorboard",
+    push_to_hub=True,
+    hub_strategy="every_save",
+    hub_model_id=repo_name,
+    )
+num_labels = len(processed_datasets["train"].

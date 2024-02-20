@@ -1,0 +1,4 @@
+One example of self-supervised learning is masked language modeling, where a model is passed sentences with a proportion of its tokens removed and learns to predict the missing tokens.
+semi-supervised learning
+A broad category of machine learning training techniques that leverages a small amount of labeled data with a larger quantity of unlabeled data to improve the accuracy of a model, unlike supervised learning and unsupervised learning.
+An example of a semi-supervised learning approach is "self-training", in which a model is trained on labeled data, and then used to make predictions on the unlabeled data.

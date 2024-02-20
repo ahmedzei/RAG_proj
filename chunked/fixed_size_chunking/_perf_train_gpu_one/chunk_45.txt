@@ -1,0 +1,13 @@
+am_bnb_optim, dataloader)
+model.train()
+for step, batch in enumerate(dataloader, start=1):
+    loss = model(**batch).loss
+    loss = loss / training_args.gradient_accumulation_steps
+    accelerator.backward(loss)
+    if step % training_args.gradient_accumulation_steps == 0:
+        optimizer.step()
+        optimizer.zero_grad()
+
+First we wrap the dataset in a DataLoader. 
+Then we can enable gradient checkpointing by calling the model's [~PreTrainedModel.gradient_checkpointing_enable] method. 
+When we initia

@@ -1,0 +1,13 @@
+rward
+MraForSequenceClassification
+[[autodoc]] MraForSequenceClassification
+    - forward
+MraForMultipleChoice
+[[autodoc]] MraForMultipleChoice
+    - forward
+MraForTokenClassification
+[[autodoc]] MraForTokenClassification
+    - forward
+MraForQuestionAnswering
+[[autodoc]] MraForQuestionAnswering
+    - forward

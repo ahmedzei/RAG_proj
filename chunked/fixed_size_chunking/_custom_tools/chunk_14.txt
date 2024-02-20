@@ -1,0 +1,8 @@
+r the above example, the user ran:
+py
+agent.run("Draw me a picture of rivers and lakes")
+The user input - a.k.a the task: "Draw me a picture of rivers and lakes" is cast into the 
+prompt template: "Task:  \n\n I will use the following". This sentence makes up the final lines of the 
+prompt the agent is conditioned on, therefore strongly influencing the agent to finish the example 
+exactly in the same way it was previously done in the examples.
+Without going into too much detail, the chat template has the sa

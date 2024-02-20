@@ -1,0 +1,8 @@
+It's a multilingual extension
+of the LUKE model trained on the basis of XLM-RoBERTa.
+It is based on XLM-RoBERTa and adds entity embeddings, which helps improve performance on various downstream tasks
+involving reasoning about entities such as named entity recognition, extractive question answering, relation
+classification, cloze-style knowledge completion.
+The abstract from the paper is the following:
+Recent studies have shown that multilingual pretrained language models can be effectively improved with cross-lingual
+alignment information from Wikipedia entities.

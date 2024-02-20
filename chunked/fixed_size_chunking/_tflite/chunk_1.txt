@@ -1,0 +1,11 @@
+ort 🤗 Transformers models to TFLite through the exporters.tflite module. 
+For the list of supported model architectures, please refer to 🤗 Optimum documentation.
+To export a model to TFLite, install the required dependencies:
+
+pip install optimum[exporters-tf]
+To check out all available arguments, refer to the 🤗 Optimum docs, 
+or view help in command line:
+
+optimum-cli export tflite --help
+To export a model's checkpoint from the 🤗 Hub, for example, google-bert/bert-base-uncased, run the following command:
+

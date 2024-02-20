@@ -1,0 +1,4 @@
+It is easiest to set the environment variable in a ~/bashrc or another startup config file. CUDA_VISIBLE_DEVICES is used to map which GPUs are used. For example, if you have 4 GPUs (0, 1, 2, 3) and you only want to run GPUs 0 and 2:
+
+CUDA_VISIBLE_DEVICES=0,2 torchrun trainer-program.py 
+Only the 2 physical GPUs (0 and 2) are "visible" to PyTorch and these are mapped to cuda:0 and cuda:1 respectively. You can also reverse the order of the GPUs to use 2 first.

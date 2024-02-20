@@ -1,0 +1,20 @@
+thon
+from textwrap import wrap
+import matplotlib.pyplot as plt
+import numpy as np
+def plot_images(images, captions):
+    plt.figure(figsize=(20, 20))
+    for i in range(len(images)):
+        ax = plt.subplot(1, len(images), i + 1)
+        caption = captions[i]
+        caption = "\n".join(wrap(caption, 12))
+        plt.title(caption)
+        plt.imshow(images[i])
+        plt.axis("off")
+sample_images_to_visualize = [np.array(train_ds[i]["image"]) for i in range(5)]
+sample_captions = [train_ds[i]["text"] for i in range(5)]
+plot_images(sample_images_to_visualize, sample_captions)
+
+Preprocess the dataset
+Since the dataset has two modalities (image and text), the pre-processing pipeline will preprocess images and the captions.
+To do so, load the processor class associated with the model you are about to fine-tune.

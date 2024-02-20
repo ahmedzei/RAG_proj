@@ -1,0 +1,24 @@
+arianModel
+[[autodoc]] MarianModel
+    - forward
+MarianMTModel
+[[autodoc]] MarianMTModel
+    - forward
+MarianForCausalLM
+[[autodoc]] MarianForCausalLM
+    - forward
+
+TFMarianModel
+[[autodoc]] TFMarianModel
+    - call
+TFMarianMTModel
+[[autodoc]] TFMarianMTModel
+    - call
+
+FlaxMarianModel
+[[autodoc]] FlaxMarianModel
+    - call
+FlaxMarianMTModel
+[[autodoc]] FlaxMarianMTModel
+    - call
+

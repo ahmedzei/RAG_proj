@@ -1,0 +1,4 @@
+See the respective [PatchTSTForClassification] and [PatchTSTForRegression] classes.
+Resources
+
+A blog post explaining PatchTST in depth can be found here.

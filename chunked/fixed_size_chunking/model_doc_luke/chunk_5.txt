@@ -1,0 +1,7 @@
+ties to compute entity representations: The [MASK] entity is used to mask entities to be
+    predicted during pretraining. When LUKE receives the [MASK] entity, it tries to predict the original entity by
+    gathering the information about the entity from the input text. Therefore, the [MASK] entity can be used to address
+    downstream tasks requiring the information of entities in text such as entity typing, relation classification, and
+    named entity recognition.
+
+Inputting Wikipedia entities to comput

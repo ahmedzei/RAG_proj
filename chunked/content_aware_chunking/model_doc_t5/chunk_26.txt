@@ -1,0 +1,6 @@
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A notebook for how to finetune T5 for classification and multiple choice.
+A notebook for how to finetune T5 for sentiment span extraction. 🌎
+
+A notebook for how to finetune T5 for named entity recognition.

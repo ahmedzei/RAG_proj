@@ -1,0 +1,13 @@
+xT5Model
+    - call
+    - encode
+    - decode
+FlaxT5ForConditionalGeneration
+[[autodoc]] FlaxT5ForConditionalGeneration
+    - call
+    - encode
+    - decode
+FlaxT5EncoderModel
+[[autodoc]] FlaxT5EncoderModel
+    - call
+

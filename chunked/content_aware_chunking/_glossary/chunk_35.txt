@@ -1,0 +1,6 @@
+Pooling layers are commonly found between convolutional layers to downsample the feature representation.
+position IDs
+Contrary to RNNs that have the position of each token embedded within them, transformers are unaware of the position of
+each token. Therefore, the position IDs (position_ids) are used by the model to identify each token's position in the
+list of tokens.
+They are an optional parameter.

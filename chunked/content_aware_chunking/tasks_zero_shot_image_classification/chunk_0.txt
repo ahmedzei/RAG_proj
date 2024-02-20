@@ -1,0 +1,6 @@
+Zero-shot image classification
+[[open-in-colab]]
+Zero-shot image classification is a task that involves classifying images into different categories using a model that was
+not explicitly trained on data containing labeled examples from those specific categories.
+Traditionally, image classification requires training a model on a specific set of labeled images, and this model learns to
+"map" certain image features to labels.

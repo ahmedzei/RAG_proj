@@ -1,0 +1,1 @@
+You can also save the serialized 4-bit models locally with model.save_pretrained() command.

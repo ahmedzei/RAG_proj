@@ -1,0 +1,7 @@
+                  |
+AWQ
+
+Try AWQ quantization with this notebook!
+
+Activation-aware Weight Quantization (AWQ) doesn't quantize all the weights in a model, and instead, it preserves a small percentage of weights that are important for LLM performance. This significantly reduces quantization loss such that you can run models in 4-bit precision without experiencing any performance degradation.
+There are several libraries for quantizing models with the AWQ algorithm, such as llm-awq, autoawq or optimum-intel. T

@@ -1,0 +1,9 @@
+ Byte-Pair Encoding
+(BPE), WordPiece, and SentencePiece, and show examples
+of which tokenizer type is used by which model.
+Note that on each model page, you can look at the documentation of the associated tokenizer to know which tokenizer
+type was used by the pretrained model. For instance, if we look at [BertTokenizer], we can see
+that the model uses WordPiece.
+Introduction
+Splitting a text into smaller chunks is a task that is harder than it looks, and there are multiple ways of doing so.
+For instance, le

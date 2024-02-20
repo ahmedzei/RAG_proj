@@ -1,0 +1,15 @@
+putWithPast
+MaskedLMOutput
+[[autodoc]] modeling_outputs.MaskedLMOutput
+Seq2SeqLMOutput
+[[autodoc]] modeling_outputs.Seq2SeqLMOutput
+NextSentencePredictorOutput
+[[autodoc]] modeling_outputs.NextSentencePredictorOutput
+SequenceClassifierOutput
+[[autodoc]] modeling_outputs.SequenceClassifierOutput
+Seq2SeqSequenceClassifierOutput
+[[autodoc]] modeling_outputs.Seq2SeqSequenceClassifierOutput
+MultipleChoiceModelOutput
+[[autodoc]] modeling_outputs.MultipleChoiceModelOutput
+TokenClassifierOutput
+[[autodoc]] modeling

@@ -1,0 +1,6 @@
+ training from a previous checkpoint. This will ensure you can pick up where you left off without starting over if your training gets interrupted. There are two methods to resume training from a checkpoint.
+The first method uses the output_dir previous_output_dir argument to resume training from the latest checkpoint stored in output_dir. In this case, you should remove overwrite_output_dir:
+
+python examples/pytorch/summarization/run_summarization.py
+    --model_name_or_path google-t5/t5-small \
+    --do_tr

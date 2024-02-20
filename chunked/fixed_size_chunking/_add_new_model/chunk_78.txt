@@ -1,0 +1,8 @@
+t yet
+fully comply with the required design. To make sure, the implementation is fully compatible with 🤗 Transformers, all
+common tests should pass. The Cookiecutter should have automatically added a test file for your model, probably under
+the same tests/models/brand_new_bert/test_modeling_brand_new_bert.py. Run this test file to verify that all common
+tests pass:
+
+pytest tests/models/brand_new_bert/test_modeling_brand_new_bert.py
+Having fixed all common tests, it is now crucial to ensure that all the nice

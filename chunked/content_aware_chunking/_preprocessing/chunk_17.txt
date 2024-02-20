@@ -1,0 +1,8 @@
+Take a look at the sequence length of these two audio samples:
+
+dataset[0]["audio"]["array"].shape
+(173398,)
+dataset[1]["audio"]["array"].shape
+(106496,)
+
+Create a function to preprocess the dataset so the audio samples are the same lengths.

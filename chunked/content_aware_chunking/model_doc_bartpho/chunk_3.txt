@@ -1,0 +1,23 @@
+Thus, usage examples in the documentation of BART, when adapting to use
+  with BARTpho, should be adjusted by replacing the BART-specialized classes with the mBART-specialized counterparts.
+  For example:
+
+thon
+
+from transformers import MBartForConditionalGeneration
+bartpho = MBartForConditionalGeneration.from_pretrained("vinai/bartpho-syllable")
+TXT = "Chúng tôi là  nghiên cứu viên."
+input_ids = tokenizer([TXT], return_tensors="pt")["input_ids"]
+logits = bartpho(input_ids).logits
+masked_index = (input_ids[0] == tokenizer.mask_token_id).nonzero().item()
+probs = logits[0, masked_index].softmax(dim=0)
+values, predictions = probs.topk(5)
+print(tokenizer.decode(predictions).split())
+
+This implementation is only for tokenization: "monolingual_vocab_file" consists of Vietnamese-specialized types
+  extracted from the pre-trained SentencePiece model "vocab_file" that is available from the multilingual XLM-RoBERTa.
+  Other languages, if employing this pre-trained multilingual SentencePiece model "vocab_file" for subword
+  segmentation, can reuse BartphoTokenizer with their own language-specialized "monolingual_vocab_file".
+
+BartphoTokenizer
+[[autodoc]] BartphoTokenizer.

@@ -1,0 +1,11 @@
+inates=answer_coordinates,
+     answer_text=answer_text,
+     padding="max_length",
+     return_tensors="tf",
+ )
+inputs
+{'input_ids': tensor([[  ]]), 'attention_mask': tensor([[]]), 'token_type_ids': tensor([[[]]]),
+'numeric_values': tensor([[  ]]), 'numeric_values_scale: tensor([[  ]]), labels: tensor([[  ]])}
+
+Note that [TapasTokenizer] expects the data of the table to be text-only. You can use .astype(str) on a dataframe to turn it into text-only data.
+Of course, this only shows how to encode a single tr

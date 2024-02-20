@@ -1,0 +1,9 @@
+MVP
+Overview
+The MVP model was proposed in MVP: Multi-task Supervised Pre-training for Natural Language Generation by Tianyi Tang, Junyi Li, Wayne Xin Zhao and Ji-Rong Wen.
+According to the abstract,
+
+MVP follows a standard Transformer encoder-decoder architecture.
+MVP is supervised pre-trained using labeled datasets.
+MVP also has task-specific soft prompts to stimulate the model's capacity in performing a certain task.
+MVP is specially designed for natural language generation and can be adapted to a wide range of generation tasks, including but not limited to summarization, data-to-text generation, open-ended dialogue system, story generation, question answering, question generation, task-oriented dialogue system, commonsense generation, paraphrase generation, text style transfer, and text simplification.

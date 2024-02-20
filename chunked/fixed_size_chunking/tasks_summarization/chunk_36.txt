@@ -1,0 +1,9 @@
+ return_tensors="tf").input_ids
+
+Use the [~transformers.generation_tf_utils.TFGenerationMixin.generate] method to create the summarization. For more details about the different text generation strategies and parameters for controlling generation, check out the Text Generation API.
+
+from transformers import TFAutoModelForSeq2SeqLM
+model = TFAutoModelForSeq2SeqLM.from_pretrained("stevhliu/my_awesome_billsum_model")
+outputs = model.generate(inputs, max_new_tokens=100, do_sample=False)
+
+Decode the generated tok

@@ -1,0 +1,19 @@
+e if some import is missing:
+
+python
+docutils = pytest.importorskip("docutils", minversion="0.3")
+
+Skip a test based on a condition:
+
+python no-style
+@pytest.mark.skipif(sys.version_info < (3,6), reason="requires python3.6 or higher")
+def test_feature_x():
+or:
+python no-style
+@unittest.skipIf(torch_device == "cpu", "Can't do half precision")
+def test_feature_x():
+or skip the whole module:
+python no-style
+@pytest.mark.skipif(sys.platform == 'win32', reason="does not run on windows")
+class TestClass():
+    de

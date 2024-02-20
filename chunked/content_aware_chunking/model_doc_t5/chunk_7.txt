@@ -1,0 +1,6 @@
+Refer to the documentation of T5v1.1 which can be found here.
+
+mT5: mT5 is a multilingual T5 model. It is pre-trained on the mC4 corpus, which includes 101 languages. Refer to
+  the documentation of mT5 which can be found here.
+
+byT5: byT5 is a T5 model pre-trained on byte sequences rather than SentencePiece subword token sequences.

@@ -1,0 +1,6 @@
+The most
+  important preprocessing step is that images and segmentation maps are randomly cropped and padded to the same size,
+  such as 512x512 or 640x640, after which they are normalized.
+One additional thing to keep in mind is that one can initialize [SegformerImageProcessor] with
+  reduce_labels set to True or False. In some datasets (like ADE20k), the 0 index is used in the annotated
+  segmentation maps for background.

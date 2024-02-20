@@ -1,0 +1,13 @@
+ most of the tests, to run specific subtests you need to know the name of the unittest
+class containing those tests. For example, it could be:
+
+pytest tests/test_optimization.py::OptimizationTest::test_adam_w
+Here:
+
+tests/test_optimization.py - the file with tests
+OptimizationTest - the name of the class
+test_adam_w - the name of the specific test function
+
+If the file contains multiple classes, you can choose to run only tests of a given class. For example:
+
+pytest tests/test_optimization.py::OptimizationT

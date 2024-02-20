@@ -1,0 +1,4 @@
+t problems!
+XLA Rule #2: Your code cannot have “data-dependent shapes”
+What this means is that the shape of all of the tf.Tensor objects in your code cannot depend on their values. For example, the function tf.unique cannot be compiled with XLA, because it returns a tensor containing one instance of each unique value in the input. The shape of this output will obviously be different depending on how repetitive the input Tensor was, and so XLA refuses to handle it!
+In general, most neural network code obeys 

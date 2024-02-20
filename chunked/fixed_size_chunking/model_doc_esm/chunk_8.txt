@@ -1,0 +1,10 @@
+phaFold2 and RoseTTAFold for
+sequences with low perplexity that are well understood by the language model. ESMFold inference is an
+order of magnitude faster than AlphaFold2, enabling exploration of the structural space of metagenomic
+proteins in practical timescales.
+The original code can be found here and was
+was developed by the Fundamental AI Research team at Meta AI.
+ESM-1b, ESM-1v and ESM-2 were contributed to huggingface by jasonliu
+and Matt.
+ESMFold was contributed to huggingface by Matt and
+Sylvain,

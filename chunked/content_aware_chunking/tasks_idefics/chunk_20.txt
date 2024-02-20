@@ -1,0 +1,7 @@
+This can be 
+useful to create descriptions of products, ads, descriptions of a scene, etc. 
+Let's prompt IDEFICS to write a story based on a simple image of a red door: 
+
+Photo by Craig Tidball.
+
+prompt = ["Instruction: Use the image to write a story.

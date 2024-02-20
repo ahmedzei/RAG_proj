@@ -1,0 +1,5 @@
+ds would appear more frequently while at the same time the meaning of "annoyingly" is kept by the
+composite meaning of "annoying" and "ly". This is especially useful in agglutinative languages such as Turkish,
+where you can form (almost) arbitrarily long complex words by stringing together subwords.
+Subword tokenization allows the model to have a reasonable vocabulary size while being able to learn meaningful
+context-independent representations. In addition, subword tokenization enables the model to process

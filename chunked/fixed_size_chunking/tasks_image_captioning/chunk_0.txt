@@ -1,0 +1,12 @@
+
+Image captioning
+[[open-in-colab]]
+Image captioning is the task of predicting a caption for a given image. Common real world applications of it include
+aiding visually impaired people that can help them navigate through different situations. Therefore, image captioning
+helps to improve content accessibility for people by describing images to them.
+This guide will show you how to:
+
+Fine-tune an image captioning model.
+Use the fine-tuned model for inference. 
+
+Before you begin, make sure you have all the nec

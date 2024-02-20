@@ -1,0 +1,10 @@
+TapexTokenizer] also supports batched inference. Hence, one can provide a batch of different tables/questions, or a batch of a single table
+and multiple questions, or a batch of a single query and multiple tables. Let's illustrate this:
+thon
+
+prepare table + question
+data = {"Actors": ["Brad Pitt", "Leonardo Di Caprio", "George Clooney"], "Number of movies": ["87", "53", "69"]}
+table = pd.DataFrame.from_dict(data)
+questions = [
+     "how many movies does Leonardo Di Caprio have?",
+     "which actor has 69 m

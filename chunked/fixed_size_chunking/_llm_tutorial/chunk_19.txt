@@ -1,0 +1,13 @@
+ut;
+Guide on the prompt template for chat LLMs;
+Guide on to get the most of prompt design;
+API reference on [~generation.GenerationConfig], [~generation.GenerationMixin.generate], and generate-related classes. Most of the classes, including the logits processors, have usage examples!
+
+LLM leaderboards
+
+Open LLM Leaderboard, which focuses on the quality of the open-source models;
+Open LLM-Perf Leaderboard, which focuses on LLM throughput.
+
+Latency, throughput and memory utilization
+
+Guide on how to optimize 

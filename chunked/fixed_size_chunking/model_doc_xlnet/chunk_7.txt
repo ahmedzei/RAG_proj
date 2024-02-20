@@ -1,0 +1,8 @@
+els.xlnet.modeling_xlnet.XLNetForQuestionAnsweringSimpleOutput
+[[autodoc]] models.xlnet.modeling_xlnet.XLNetForQuestionAnsweringOutput
+[[autodoc]] models.xlnet.modeling_tf_xlnet.TFXLNetModelOutput
+[[autodoc]] models.xlnet.modeling_tf_xlnet.TFXLNetLMHeadModelOutput
+[[autodoc]] models.xlnet.modeling_tf_xlnet.TFXLNetForSequenceClassificationOutput
+[[autodoc]] models.xlnet.modeling_tf_xlnet.TFXLNetForMultipleChoiceOutput
+[[autodoc]] models.xlnet.modeling_tf_xlnet.TFXLNetForTokenClassificationOutput
+[[autodoc]] 

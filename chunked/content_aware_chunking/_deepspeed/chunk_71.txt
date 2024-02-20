@@ -1,0 +1,5 @@
+The important nuance to understand here is that the way ZeRO is designed, you can process different inputs on different GPUs in parallel.
+Make sure to:
+
+disable CPU offload if you have enough GPU memory (since it slows things down).
+enable bf16 if you have an Ampere or newer GPU to make things faster.

@@ -1,0 +1,10 @@
+debug, track
+   issues, and add fixes down the line.
+- Some layers have different default values in each framework. A notable example is the batch normalization layer's
+   epsilon (1e-5 in PyTorch
+   and 1e-3 in TensorFlow).
+   Double-check the documentation!
+- PyTorch's nn.Parameter variables typically need to be initialized within TF Layer's build(). See the following
+   example: PyTorch /
+   TensorFlow
+- If the PyTorch model has a #copied from  on top of a function, the odds are that your TensorFlow mode

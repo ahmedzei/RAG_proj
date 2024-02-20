@@ -1,0 +1,5 @@
+nt forecasting model. This means that the model learns a distribution, from which one can sample. The model doesn't directly output values.
+[TimeSeriesTransformerForPrediction] consists of 2 blocks: an encoder, which takes a context_length of time series values as input (called past_values),
+and a decoder, which predicts a prediction_length of time series values into the future (called future_values). During training, one needs to provide
+pairs of (past_values and future_values) to the model.
+In addition to

@@ -1,0 +1,18 @@
+ask guide
+
+Besides that:
+
+[DeiTForMaskedImageModeling] is supported by this example script.
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+DeiTConfig
+[[autodoc]] DeiTConfig
+DeiTFeatureExtractor
+[[autodoc]] DeiTFeatureExtractor
+    - call
+DeiTImageProcessor
+[[autodoc]] DeiTImageProcessor
+    - preprocess
+
+DeiTModel
+[[autodoc]] Dei

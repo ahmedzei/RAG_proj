@@ -1,0 +1,11 @@
+Here is a list of community blog posts on how to port a model:
+
+Porting GPT2 Model by Thomas
+Porting WMT19 MT Model by Stas
+
+From experience, we can tell you that the most important things to keep in mind when adding a model are:
+
+Don't reinvent the wheel! Most parts of the code you will add for the new 🤗 Transformers model already exist
+  somewhere in 🤗 Transformers. Take some time to find similar, already existing models and tokenizers you can copy
+  from. grep and rg are your
+  friends.

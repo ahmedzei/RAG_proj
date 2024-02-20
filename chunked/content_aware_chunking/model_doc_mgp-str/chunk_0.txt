@@ -1,0 +1,3 @@
+MGP-STR
+Overview
+The MGP-STR model was proposed in Multi-Granularity Prediction for Scene Text Recognition by Peng Wang, Cheng Da, and Cong Yao. MGP-STR is a conceptually simple yet powerful vision Scene Text Recognition (STR) model, which is built upon the Vision Transformer (ViT).

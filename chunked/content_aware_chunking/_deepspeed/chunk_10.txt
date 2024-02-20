@@ -1,0 +1,16 @@
+-name '*json')
+
+The DeepSpeed configuration file is passed as a path to a JSON file if you're training from the command line interface or as a nested dict object if you're using the [Trainer] in a notebook setting.
+
+py
+TrainingArguments(, deepspeed="path/to/deepspeed_config.json")
+
+py
+ds_config_dict = dict(scheduler=scheduler_params, optimizer=optimizer_params)
+args = TrainingArguments(, deepspeed=ds_config_dict)
+trainer = Trainer(model, args, )
+
+DeepSpeed and Trainer parameters
+There are three types of configuration parameters:
+
+Some of the configuration parameters are shared by [Trainer] and DeepSpeed, and it can be difficult to identify errors when there are conflicting definitions.

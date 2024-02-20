@@ -1,0 +1,7 @@
+t's look at the sentence "Don't you love 🤗 Transformers? We sure do."
+
+A simple way of tokenizing this text is to split it by spaces, which would give:
+["Don't", "you", "love", "🤗", "Transformers?", "We", "sure", "do."]
+This is a sensible first step, but if we look at the tokens "Transformers?" and "do.", we notice that the
+punctuation is attached to the words "Transformer" and "do", which is suboptimal. We should take the
+punctuation into account so that a model does not have to learn a different represent

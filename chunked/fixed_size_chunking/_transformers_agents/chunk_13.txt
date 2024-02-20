@@ -1,0 +1,11 @@
+s or specific prompts.
+⚠️ Remote execution
+For demonstration purposes and so that it could be used with all setups, we had created remote executors for several 
+of the default tools the agent has access for the release. These are created using 
+inference endpoints.
+We have turned these off for now, but in order to see how to set up remote executors tools yourself,
+we recommend reading the custom tool guide.
+What's happening here? What are tools, and what are agents?
+
+Agents
+The "agent" here is a large langu

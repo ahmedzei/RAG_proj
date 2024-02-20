@@ -1,0 +1,10 @@
+s you can leverage additional methods outlined in the multi-GPU section.
+
+When training large models, there are two aspects that should be considered at the same time: 
+
+Data throughput/training time
+Model performance
+
+Maximizing the throughput (samples/second) leads to lower training cost. This is generally achieved by utilizing the GPU 
+as much as possible and thus filling GPU memory to its limit. If the desired batch size exceeds the limits of the GPU memory, 
+the memory optimization techniques, such as 

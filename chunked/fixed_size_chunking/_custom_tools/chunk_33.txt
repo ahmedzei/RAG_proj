@@ -1,0 +1,10 @@
+the convenient [load_tool] function:
+
+from transformers import load_tool
+controlnet_transformer = load_tool("diffusers/controlnet-canny-tool")
+upscaler = load_tool("diffusers/latent-upscaler-tool")
+
+Upon adding custom tools to an agent, the tools' descriptions and names are automatically
+included in the agents' prompts. Thus, it is imperative that custom tools have
+a well-written description and name in order for the agent to understand how to use them.
+Let's take a look at the description and name of contr

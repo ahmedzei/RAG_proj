@@ -1,0 +1,4 @@
+You just need to install your programs on it, and it will run out of the box.
+This approach is also useful if you want to tweak the pytorch source and/or make a new customized build.
+To find the docker image version you want start with PyTorch release notes, 
+choose one of the latest monthly releases.

@@ -1,0 +1,7 @@
+ectors in this setting. On multiple datasets, schedules, and architectures, we consistently show bipartite matching is unnecessary for performant detection transformers. Furthermore, we attribute the success of detection transformers to their expressive transformer architecture.
+
+ DETA overview. Taken from the original paper. 
+This model was contributed by nielsr.
+The original code can be found here.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started w

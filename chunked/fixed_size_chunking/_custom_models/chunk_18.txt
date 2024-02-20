@@ -1,0 +1,11 @@
+on
+AutoConfig.register("resnet", ResnetConfig)
+AutoModel.register(ResnetConfig, ResnetModel)
+AutoModelForImageClassification.register(ResnetConfig, ResnetModelForImageClassification)
+
+Note that the first argument used when registering your custom config to [AutoConfig] needs to match the model_type
+of your custom config, and the first argument used when registering your custom models to any auto model class needs
+to match the config_class of those models.
+Sending the code to the Hub
+
+This API is experimenta

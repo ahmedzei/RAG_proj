@@ -1,0 +1,18 @@
+al implementation can be found
+here: https://github.com/yitu-opensource/ConvBert
+Usage tips
+ConvBERT training tips are similar to those of BERT. For usage tips refer to BERT documentation.
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+ConvBertConfig
+[[autodoc]] ConvBertConfig
+ConvBertTokenizer
+[[autodoc]] ConvBertTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_m

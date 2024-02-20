@@ -1,0 +1,15 @@
+Note that the chat mode always uses the following format for the exchanges:
+```text
+Human: <>
+Assistant:
+
+Therefore it is important that the examples of the custom chat prompt template also make use of this format.
+You can overwrite the chat template at instantiation as follows.
+thon
+template = """ [] """
+agent = HfAgent(url_endpoint=your_endpoint, chat_prompt_template=template)
+
+Please make sure to have the <<all_tools>> string defined somewhere in the template so that the agent can be aware 
+of the tools, it has available to it.
+
+In both cases, you can pass a repo ID instead of the prompt template if you would like to use a template hosted by someone in the community.

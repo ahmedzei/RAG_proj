@@ -1,0 +1,9 @@
+However, when used to generate longer outputs, greedy search can start
+producing highly repetitive results.
+Customize text generation
+You can override any generation_config by passing the parameters and their values directly to the [generate] method:
+thon
+
+my_model.generate(**inputs, num_beams=4, do_sample=True)  # doctest: +SKIP
+
+Even if the default decoding strategy mostly works for your task, you can still tweak a few things.

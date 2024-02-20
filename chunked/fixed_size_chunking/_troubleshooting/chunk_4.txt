@@ -1,0 +1,7 @@
+uments].
+Try using gradient_accumulation_steps in [TrainingArguments] to effectively increase overall batch size.
+
+Refer to the Performance guide for more details about memory-saving techniques.
+
+Unable to load a saved TensorFlow model
+TensorFlow's model.save method will save the entire model - architecture, weights, training configuration - in a single file. However, when you load the model file again, you may run into an error because 🤗 Transformers may not load all the TensorFlow-related objects in the m

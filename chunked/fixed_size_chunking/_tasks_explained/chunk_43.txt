@@ -1,0 +1,8 @@
+ causal language modeling guide to learn how to finetune DistilGPT-2 and use it for inference!
+
+For more information about text generation, check out the text generation strategies guide!
+
+Summarization
+Encoder-decoder models like BART and T5 are designed for the sequence-to-sequence pattern of a summarization task. We'll explain how BART works in this section, and then you can try finetuning T5 at the end.
+
+BART's encoder architecture is very similar to BERT and accepts a token and positional embedding of 

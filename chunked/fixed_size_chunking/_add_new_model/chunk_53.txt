@@ -1,0 +1,7 @@
+sting models in Transformers to
+get a better feeling of how your model should be implemented.
+Note that at this point, you don't have to be very sure that your code is fully correct or clean. Rather, it is
+advised to add a first unclean, copy-pasted version of the original code to
+src/transformers/models/brand_new_bert/modeling_brand_new_bert.py until you feel like all the necessary code is
+added. From our experience, it is much more efficient to quickly add a first version of the required code and
+improve/

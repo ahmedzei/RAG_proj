@@ -1,0 +1,13 @@
+les in the dataset are longer than the maximum input length the model can handle (600 tokens). 
+Remove those examples from the dataset. Here we go even further and to allow for larger batch sizes we remove anything over 200 tokens.
+
+def is_not_too_long(input_ids):
+     input_length = len(input_ids)
+     return input_length < 200
+dataset = dataset.filter(is_not_too_long, input_columns=["input_ids"])
+len(dataset)
+8259
+
+Next, create a basic train/test split: 
+
+dataset = dataset.train_test_split(test_size=0.1)

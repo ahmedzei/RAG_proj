@@ -1,0 +1,20 @@
+_generation
+  title: Mask Generation
+local: tasks/knowledge_distillation_for_image_classification
+  title: Knowledge Distillation for Computer Vision
+title: Computer Vision
+
+isExpanded: false
+    sections:
+local: tasks/image_captioning
+  title: Image captioning
+local: tasks/document_question_answering
+  title: Document Question Answering
+local: tasks/visual_question_answering
+  title: Visual Question Answering
+local: tasks/text-to-speech
+  title: Text to speech
+title: Multimodal
+
+isExpanded: false
+    secti

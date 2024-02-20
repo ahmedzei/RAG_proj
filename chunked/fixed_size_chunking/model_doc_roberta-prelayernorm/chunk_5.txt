@@ -1,0 +1,17 @@
+rTokenClassification
+[[autodoc]] TFRobertaPreLayerNormForTokenClassification
+    - call
+TFRobertaPreLayerNormForQuestionAnswering
+[[autodoc]] TFRobertaPreLayerNormForQuestionAnswering
+    - call
+
+FlaxRobertaPreLayerNormModel
+[[autodoc]] FlaxRobertaPreLayerNormModel
+    - call
+FlaxRobertaPreLayerNormForCausalLM
+[[autodoc]] FlaxRobertaPreLayerNormForCausalLM
+    - call
+FlaxRobertaPreLayerNormForMaskedLM
+[[autodoc]] FlaxRobertaPreLayerNormForMaskedLM
+    - call
+FlaxRobertaPreLayerNormForSequenceClassification

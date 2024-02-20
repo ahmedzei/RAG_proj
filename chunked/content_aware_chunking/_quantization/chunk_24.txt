@@ -1,0 +1,10 @@
+To boost inference speed even further, use the ExLlamaV2 kernels by configuring the exllama_config parameter:
+
+import torch
+from transformers import AutoModelForCausalLM, GPTQConfig
+gptq_config = GPTQConfig(bits=4, exllama_config={"version":2})
+model = AutoModelForCausalLM.from_pretrained("{your_username}/opt-125m-gptq", device_map="auto", quantization_config=gptq_config)
+
+Only 4-bit models are supported, and we recommend deactivating the ExLlama kernels if you're finetuning a quantized model with PEFT.
+
+The ExLlama kernels are only supported when the entire model is on the GPU.

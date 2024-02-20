@@ -1,0 +1,11 @@
+The pre-trained checkpoints can be found on the
+Hugging Face Hub.
+Usage tips
+
+After downloading the original checkpoints from here , you can convert them using the conversion script available at
+src/transformers/models/musicgen/convert_musicgen_transformers.py with the following command:
+
+python src/transformers/models/musicgen/convert_musicgen_transformers.py \
+    --checkpoint small --pytorch_dump_folder /output/path --safe_serialization
+Generation
+MusicGen is compatible with two generation modes: greedy and sampling.

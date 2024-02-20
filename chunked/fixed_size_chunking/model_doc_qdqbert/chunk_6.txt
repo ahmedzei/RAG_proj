@@ -1,0 +1,14 @@
+er and enable calibration
+for name, module in model.named_modules():
+     if name.endswith("_input_quantizer"):
+         module.enable_calib()
+         module.disable_quant()  # Use full precision data to calibrate
+Feeding data samples
+model(x)
+
+Finalize calibration
+for name, module in model.named_modules():
+     if name.endswith("_input_quantizer"):
+         module.load_calib_amax()
+         module.enable_quant()
+If running on GPU, it needs to call .cuda() again because new tensors will be created by calib

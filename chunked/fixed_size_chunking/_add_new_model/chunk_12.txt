@@ -1,0 +1,13 @@
+e names are way more readable and
+   understandable than type annotations.
+
+Overview of tokenizers
+Not quite ready yet :-( This section will be added soon!
+Step-by-step recipe to add a model to 🤗 Transformers
+Everyone has different preferences of how to port a model so it can be very helpful for you to take a look at summaries
+of how other contributors ported models to Hugging Face. Here is a list of community blog posts on how to port a model:
+
+Porting GPT2 Model by Thomas
+Porting WMT19 MT Model by Stas
+
+F

@@ -1,0 +1,11 @@
+"]
+``
+</pt>
+<tf>
+Tokenize the text and return theinput_ids` as TensorFlow tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("username/my_awesome_eli5_clm-model")
+inputs = tokenizer(prompt, return_tensors="tf").input_ids
+
+Use the [~transformers.generation_tf_utils.TFGenerationMixin.generate] method to create the summarization. For more details about the different text generation strategies and parameters for controlling generation, check out the Text generation strate

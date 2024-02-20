@@ -1,0 +1,13 @@
+They are represented as a binary mask identifying
+the two types of sequence in the model.
+The tokenizer returns this mask as the "token_type_ids" entry:
+thon
+
+encoded_dict["token_type_ids"]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+The first sequence, the "context" used for the question, has all its tokens represented by a 0, whereas the second
+sequence, corresponding to the "question", has all its tokens represented by a 1.
+Some models, like [XLNetModel] use an additional token represented by a 2.
+transfer learning
+A technique that involves taking a pretrained model and adapting it to a dataset specific to your task.

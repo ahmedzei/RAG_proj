@@ -1,0 +1,10 @@
+odels are transformer encoder-decoders with 6 layers in each component. Each model's performance is documented
+  in a model card.
+The 80 opus models that require BPE preprocessing are not supported.
+
+The modeling code is the same as [BartForConditionalGeneration] with a few minor modifications:
+
+static (sinusoid) positional embeddings (MarianConfig.static_position_embeddings=True)
+
+no layernorm_embedding (MarianConfig.normalize_embedding=False)
+the model starts generating with pad_token_id (which has 0 as a

@@ -1,0 +1,10 @@
+nd provide a way to push your model to the Hub. Both are done by using Keras callbacks.
+Pass your compute_metrics function to [~transformers.KerasMetricCallback]:
+
+from transformers.keras_callbacks import KerasMetricCallback
+metric_callback = KerasMetricCallback(metric_fn=compute_metrics, eval_dataset=tf_validation_set)
+
+Specify where to push your model and tokenizer in the [~transformers.PushToHubCallback]:
+
+from transformers.keras_callbacks import PushToHubCallback
+push_to_hub_callback = PushToHubCallback

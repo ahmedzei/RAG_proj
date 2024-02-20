@@ -1,0 +1,18 @@
+salLM
+    - call
+FlaxElectraForMaskedLM
+[[autodoc]] FlaxElectraForMaskedLM
+    - call
+FlaxElectraForSequenceClassification
+[[autodoc]] FlaxElectraForSequenceClassification
+    - call
+FlaxElectraForMultipleChoice
+[[autodoc]] FlaxElectraForMultipleChoice
+    - call
+FlaxElectraForTokenClassification
+[[autodoc]] FlaxElectraForTokenClassification
+    - call
+FlaxElectraForQuestionAnswering
+[[autodoc]] FlaxElectraForQuestionAnswering
+    - call
+

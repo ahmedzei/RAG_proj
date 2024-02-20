@@ -1,0 +1,14 @@
+Next time you use [~PreTrainedTokenizer.apply_chat_template], it will
+use your new template! This attribute will be saved in the tokenizer_config.json file, so you can use
+[~utils.PushToHubMixin.push_to_hub] to upload your new template to the Hub and make sure everyone's using the right
+template for your model!
+python
+template = tokenizer.chat_template
+template = template.replace("SYS", "SYSTEM")  # Change the system token
+tokenizer.chat_template = template  # Set the new template
+tokenizer.push_to_hub("model_name")  # Upload your new template to the Hub!
+The method [~PreTrainedTokenizer.apply_chat_template] which uses your chat template is called by the [TextGenerationPipeline] class, so 
+once you set the correct chat template, your model will automatically become compatible with [TextGenerationPipeline].
+
+If you're fine-tuning a model for chat, in addition to setting a chat template, you should probably add any new chat
+control tokens as special tokens in the tokenizer.

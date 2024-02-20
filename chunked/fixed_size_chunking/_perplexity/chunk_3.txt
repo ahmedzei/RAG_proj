@@ -1,0 +1,7 @@
+oregressively
+factorizing a sequence and conditioning on the entire preceding subsequence at each step, as shown below.
+
+When working with approximate models, however, we typically have a constraint on the number of tokens the model can
+process. The largest version of GPT-2, for example, has a fixed length of 1024 tokens, so we
+cannot calculate \(p_\theta(x_t|x_{<t})\) directly when \(t\) is greater than 1024.
+Instead, the sequence is typically broken into subsequences equal to the model's maximum input siz

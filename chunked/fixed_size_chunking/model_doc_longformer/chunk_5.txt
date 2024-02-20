@@ -1,0 +1,10 @@
+hat every "locally" attending token not only attends to tokens within its window \(w\), but also to all "globally"
+attending tokens so that global attention is symmetric.
+The user can define which tokens attend "locally" and which tokens attend "globally" by setting the tensor
+global_attention_mask at run-time appropriately. All Longformer models employ the following logic for
+global_attention_mask:
+
+0: the token attends "locally",
+1: the token attends "globally".
+
+For more information please also refer to 

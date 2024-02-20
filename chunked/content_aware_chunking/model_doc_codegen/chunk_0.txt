@@ -1,0 +1,6 @@
+CodeGen
+Overview
+The CodeGen model was proposed in A Conversational Paradigm for Program Synthesis by Erik Nijkamp, Bo Pang, Hiroaki Hayashi, Lifu Tu, Huan Wang, Yingbo Zhou, Silvio Savarese, and Caiming Xiong.
+CodeGen is an autoregressive language model for program synthesis trained sequentially on The Pile, BigQuery, and BigPython.
+The abstract from the paper is the following:
+Program synthesis strives to generate a computer program as a solution to a given problem specification.

@@ -1,0 +1,4 @@
+Deep residual nets are foundations of our submissions to ILSVRC & COCO 2015 competitions, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.
+The figure below illustrates the architecture of ResNet. Taken from the original paper.
+
+This model was contributed by Francesco. The TensorFlow version of this model was added by amyeroberts.

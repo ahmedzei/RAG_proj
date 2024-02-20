@@ -1,0 +1,3 @@
+This method applies
+transformations on the fly when you load an element of the dataset.
+At this point, you can check what an example from the dataset looks like after the transformations.

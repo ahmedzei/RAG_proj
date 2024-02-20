@@ -1,0 +1,4 @@
+Framing RL as sequence
+modeling problem simplifies a range of design decisions, allowing us to dispense with many of the components common
+in offline RL algorithms. We demonstrate the flexibility of this approach across long-horizon dynamics prediction,
+imitation learning, goal-conditioned RL, and offline RL.

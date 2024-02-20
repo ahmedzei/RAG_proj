@@ -1,0 +1,5 @@
+Upon completion of the 7th layer, there is often 
+a need to send the data back to layer 0 where the labels are (or alternatively send the labels to the last layer). Now the loss can be 
+computed and the optimizer can do its work.
+Naive Model Parallelism comes several shortcomings:
+- All but one GPU are idle at any given moment: if 4 GPUs are used, it's nearly identical to quadrupling the amount of memory of a single GPU, and ignoring the rest of the hardware.

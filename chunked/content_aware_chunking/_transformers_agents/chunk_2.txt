@@ -1,0 +1,13 @@
+It is particularly powerful when it comes 
+to multimodal tasks, so let's take it for a spin to generate images and read text out loud.
+py
+agent.run("Caption the following image", image=image)
+| Input                                                                                                                   | Output                        |
+|-----------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
+|  | A beaver is swimming in the water |
+
+py
+agent.run("Read the following text out loud", text=text)
+| Input                                                                                                               | Output                                   |
+|-------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
+| A beaver is swimming in the water |  your browser does not support the audio element.

@@ -1,0 +1,5 @@
+ViTMSN
+Overview
+The ViTMSN model was proposed in Masked Siamese Networks for Label-Efficient Learning by Mahmoud Assran, Mathilde Caron, Ishan Misra, Piotr Bojanowski, Florian Bordes,
+Pascal Vincent, Armand Joulin, Michael Rabbat, Nicolas Ballas. The paper presents a joint-embedding architecture to match the prototypes
+of masked patches with that of the unmasked patches.

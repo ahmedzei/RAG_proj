@@ -1,0 +1,2 @@
+Finally, contributions in this work—including models, code, and a watermark detector—are publicly released and accessible at the link below.
+This model was contributed by ylacombe.

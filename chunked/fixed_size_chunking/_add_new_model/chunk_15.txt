@@ -1,0 +1,10 @@
+sk if you notice you are not making
+  progress.
+
+In the following, we try to give you a general recipe that we found most useful when porting a model to 🤗 Transformers.
+The following list is a summary of everything that has to be done to add a model and can be used by you as a To-Do
+List:
+☐ (Optional) Understood the model's theoretical aspects
+☐ Prepared 🤗 Transformers dev environment
+☐ Set up debugging environment of the original repository
+☐ Created script that successfully runs the forward() pass using t

@@ -1,0 +1,14 @@
+tm-mlm")
+model = BridgeTowerForMaskedLM.from_pretrained("BridgeTower/bridgetower-base-itm-mlm")
+prepare inputs
+encoding = processor(image, text, return_tensors="pt")
+forward pass
+outputs = model(**encoding)
+results = processor.decode(outputs.logits.argmax(dim=-1).squeeze(0).tolist())
+print(results)
+.a cat looking out of the window.
+
+Tips:
+
+This implementation of BridgeTower uses [RobertaTokenizer] to generate text embeddings and OpenAI's CLIP/ViT model to compute visual embeddings.
+Checkpoints for pre-train

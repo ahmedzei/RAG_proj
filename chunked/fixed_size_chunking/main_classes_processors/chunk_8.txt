@@ -1,0 +1,15 @@
+the data as well as with the
+tensorflow_datasets package. Examples are given below.
+Example usage
+Here is an example using the processors as well as the conversion method using data files:
+thon
+Loading a V2 processor
+processor = SquadV2Processor()
+examples = processor.get_dev_examples(squad_v2_data_dir)
+Loading a V1 processor
+processor = SquadV1Processor()
+examples = processor.get_dev_examples(squad_v1_data_dir)
+features = squad_convert_examples_to_features(
+    examples=examples,
+    tokenizer=tokenizer,
+ 

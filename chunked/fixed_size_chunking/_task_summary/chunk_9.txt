@@ -1,0 +1,8 @@
+starting out with a blurry image and then gradually bringing it into focus.
+
+Image classification
+Image classification labels an entire image from a predefined set of classes. Like most classification tasks, there are many practical use cases for image classification, some of which include:
+
+healthcare: label medical images to detect disease or monitor patient health
+environment: label satellite images to monitor deforestation, inform wildland management or detect wildfires
+agriculture: label images of crop

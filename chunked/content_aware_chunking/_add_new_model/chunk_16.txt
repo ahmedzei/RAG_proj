@@ -1,0 +1,4 @@
+Note that it might very well happen that your model's tokenizer is based on one model implementation, and
+  your model's modeling code on another one. E.g. FSMT's modeling code is based on BART, while FSMT's tokenizer code
+  is based on XLM.
+It's more of an engineering challenge than a scientific challenge.

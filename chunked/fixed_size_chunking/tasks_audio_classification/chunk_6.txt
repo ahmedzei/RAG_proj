@@ -1,0 +1,10 @@
+array([ 2.2098757e-05,  4.6582241e-05, -2.2803260e-05, ,
+         -2.8419291e-04, -2.3305941e-04, -1.1425107e-04], dtype=float32),
+  'path': '/root/.cache/huggingface/datasets/downloads/extracted/f14948e0e84be638dd7943ac36518a4cf3324e8b7aa331c5ab11541518e9368c/en-US~APP_ERROR/602b9a5fbb1e6d0fbce91f52.wav',
+  'sampling_rate': 16000},
+ 'intent_class': 2}
+
+Now create a preprocessing function that:
+
+Calls the audio column to load, and if necessary, resample the audio file.
+Checks if the sampling rate of the aud

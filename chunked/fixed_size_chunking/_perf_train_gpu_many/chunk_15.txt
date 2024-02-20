@@ -1,0 +1,11 @@
+--max_steps 200
+{'train_runtime': 131.4367, 'train_samples_per_second': 1.522, 'epoch': 0.69}
+
+Here are the same benchmarking results gathered in a table for convenience:
+| Type   | NVlink | Time |
+| :----- | -----  | ---: |
+| 2:DP   | Y      | 110s |
+| 2:DDP  | Y      | 101s |
+| 2:DDP  | N      | 131s |
+As you can see, in this case DP is ~10% slower than DDP with NVlink, but ~15% faster than DDP without NVlink.
+The real difference will depend on how much data each GPU needs to sync with the others - the mo

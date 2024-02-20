@@ -1,0 +1,6 @@
+DeiT (data-efficient image transformers) are more
+efficiently trained transformers for image classification, requiring far less data and far less computing resources
+compared to the original ViT models.
+The abstract from the paper is the following:
+Recently, neural networks purely based on attention were shown to address image understanding tasks such as image
+classification.

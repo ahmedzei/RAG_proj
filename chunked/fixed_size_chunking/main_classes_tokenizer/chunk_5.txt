@@ -1,0 +1,16 @@
+_tokens
+    - add_special_tokens
+    - apply_chat_template
+    - batch_decode
+    - decode
+    - encode
+    - push_to_hub
+    - all
+PreTrainedTokenizerFast
+The [PreTrainedTokenizerFast] depend on the tokenizers library. The tokenizers obtained from the 🤗 tokenizers library can be
+loaded very simply into 🤗 transformers. Take a look at the Using tokenizers from 🤗 tokenizers page to understand how this is done.
+[[autodoc]] PreTrainedTokenizerFast
+    - call
+    - add_tokens
+    - add_special_tokens
+    - apply

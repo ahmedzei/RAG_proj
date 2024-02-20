@@ -1,0 +1,6 @@
+on/C++/CUDA implementation of the Llama model that is designed for faster inference with 4-bit GPTQ weights (check out these benchmarks). The ExLlama kernel is activated by default when you create a [GPTQConfig] object. To boost inference speed even further, use the ExLlamaV2 kernels by configuring the exllama_config parameter:
+
+import torch
+from transformers import AutoModelForCausalLM, GPTQConfig
+gptq_config = GPTQConfig(bits=4, exllama_config={"version":2})
+model = AutoModelForCausalLM.from_pretrained("{

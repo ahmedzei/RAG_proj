@@ -1,0 +1,22 @@
+le: MMS
+local: model_doc/musicgen
+    title: MusicGen
+local: model_doc/pop2piano
+    title: Pop2Piano
+local: model_doc/seamless_m4t
+    title: Seamless-M4T
+local: model_doc/seamless_m4t_v2
+    title: SeamlessM4T-v2
+local: model_doc/sew
+    title: SEW
+local: model_doc/sew-d
+    title: SEW-D
+local: model_doc/speech_to_text
+    title: Speech2Text
+local: model_doc/speech_to_text_2
+    title: Speech2Text2
+local: model_doc/speecht5
+    title: SpeechT5
+local: model_doc/unispeech
+    title: UniSpeech
+local: model_d

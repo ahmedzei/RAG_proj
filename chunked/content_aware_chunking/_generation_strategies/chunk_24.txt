@@ -1,0 +1,18 @@
+This has the advantage of identifying high-probability
+sequences that start with lower probability initial tokens and would've been ignored by the greedy search.
+To enable this decoding strategy, specify the num_beams (aka number of hypotheses to keep track of) that is greater than 1.
+thon
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+prompt = "It is astonishing how one can"
+checkpoint = "openai-community/gpt2-medium"
+tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+inputs = tokenizer(prompt, return_tensors="pt")
+model = AutoModelForCausalLM.from_pretrained(checkpoint)
+outputs = model.generate(**inputs, num_beams=5, max_new_tokens=50)
+tokenizer.batch_decode(outputs, skip_special_tokens=True)
+['It is astonishing how one can have such a profound impact on the lives of so many people in such a short period of
+time."\n\nHe added: "I am very proud of the work I have been able to do in the last few years.\n\n"I have']
+
+Beam-search multinomial sampling
+As the name implies, this decoding strategy combines beam search with multinomial sampling.

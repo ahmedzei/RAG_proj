@@ -1,0 +1,2 @@
+If this is not the case, generation stops when some predefined maximum length is reached.
+Properly setting up the token selection step and the stopping condition is essential to make your model behave as you'd expect on your task.

@@ -1,0 +1,11 @@
+rt TFAutoModelForSequenceClassification
+model_name = "nlptown/bert-base-multilingual-uncased-sentiment"
+tf_model = TFAutoModelForSequenceClassification.from_pretrained(model_name)
+
+See the task summary for tasks supported by an [AutoModel] class.
+
+Now pass your preprocessed batch of inputs directly to the model. You can pass the tensors as-is:
+
+tf_outputs = tf_model(tf_batch)
+
+The model outputs the final activations in the logits attribute. Apply the softmax function to the logits to retrieve the probabilit

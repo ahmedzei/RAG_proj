@@ -1,0 +1,11 @@
+o Russian speech samples.
+Text
+Similarly, you can generate translated text from audio files or from text with the same model. You only have to pass generate_speech=False to [SeamlessM4TModel.generate].
+This time, let's translate to French.
+thon 
+
+from audio
+output_tokens = model.generate(**audio_inputs, tgt_lang="fra", generate_speech=False)
+translated_text_from_audio = processor.decode(output_tokens[0].tolist()[0], skip_special_tokens=True)
+from text
+output_tokens = model.generate(**text_inputs, tgt_lang="

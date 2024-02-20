@@ -1,0 +1,9 @@
+ a smaller subset of the full dataset to fine-tune on to reduce the time it takes:
+
+small_train_dataset = tokenized_datasets["train"].shuffle(seed=42).select(range(1000))
+small_eval_dataset = tokenized_datasets["test"].shuffle(seed=42).select(range(1000))
+
+Train
+At this point, you should follow the section corresponding to the framework you want to use. You can use the links
+in the right sidebar to jump to the one you want - and if you want to hide all of the content for a given framework,
+just use the butt

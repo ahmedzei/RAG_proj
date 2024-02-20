@@ -1,0 +1,7 @@
+ignal are measured per second.
+
+For this tutorial, you'll use the Wav2Vec2 model. Take a look at the model card, and you'll learn Wav2Vec2 is pretrained on 16kHz sampled speech audio. It is important your audio data's sampling rate matches the sampling rate of the dataset used to pretrain the model. If your data's sampling rate isn't the same, then you need to resample your data.
+
+Use 🤗 Datasets' [~datasets.Dataset.cast_column] method to upsample the sampling rate to 16kHz:
+
+dataset = dataset.cast_column("a

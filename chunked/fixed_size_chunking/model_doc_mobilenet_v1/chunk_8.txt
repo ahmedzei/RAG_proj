@@ -1,0 +1,5 @@
+
+    - forward
+MobileNetV1ForImageClassification
+[[autodoc]] MobileNetV1ForImageClassification
+    - forward

@@ -1,0 +1,15 @@
+n_layers and vocab_size attributes in common. These attributes specify the number of attention heads or hidden layers to construct a model with.
+Get a closer look at DistilBERT by accessing [DistilBertConfig] to inspect it's attributes:
+
+from transformers import DistilBertConfig
+config = DistilBertConfig()
+print(config)
+DistilBertConfig {
+  "activation": "gelu",
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "initializer_range": 0.02,
+  "max_position_embeddings": 512,
+  

@@ -1,0 +1,7 @@
+ every new
+model are [~PreTrainedModel.from_pretrained] and
+[~PreTrainedModel.save_pretrained], which are used for serialization and deserialization. All of the
+other important functionalities, such as BrandNewBertModel.forward should be completely defined in the new
+modeling_brand_new_bert.py script. Next, we want to make sure that a model with a specific head layer, such as
+BrandNewBertForMaskedLM does not inherit from BrandNewBertModel, but rather uses BrandNewBertModel
+as a component that can be called 

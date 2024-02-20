@@ -1,0 +1,7 @@
+r summarization, and are usually built in a
+way specific to each model.
+Most encoder-decoder models (BART, T5) create their decoder_input_ids on their own from the labels. In such models,
+passing the labels is the preferred way to handle training.
+Please check each model's docs to see how they handle these input IDs for sequence to sequence training.
+decoder models
+Also referred to as autoregressive models, decoder models involve a pretraining task (called causal language modeling) where the model reads the

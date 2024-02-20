@@ -1,0 +1,12 @@
+By tweaking the text generation parameters, you can reduce 
+repetition in the generated text and make it more coherent and human-sounding. 
+Text generation strategies and parameters are out of scope for this guide, but you can learn more about these topics in 
+the following guides: 
+
+Generation with LLMs
+Text generation strategies
+
+Basics of prompting
+Types of models
+The majority of modern LLMs are decoder-only transformers. Some examples include: LLaMA, 
+Llama2, Falcon, GPT2.

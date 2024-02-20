@@ -1,0 +1,6 @@
+nd the original model implementation don't give the exact
+same output the very first time or that the forward pass throws an error. Don't be disappointed - it's expected! First,
+you should make sure that the forward pass doesn't throw any errors. It often happens that the wrong dimensions are
+used leading to a Dimensionality mismatch error or that the wrong data type object is used, e.g. torch.long
+instead of torch.float32. Don't hesitate to ask the Hugging Face team for help, if you don't manage to solve
+c

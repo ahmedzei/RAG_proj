@@ -1,0 +1,6 @@
+ algorithm
+computes how much the overall loss would increase if the symbol was to be removed from the vocabulary. Unigram then
+removes p (with p usually being 10% or 20%) percent of the symbols whose loss increase is the lowest, i.e. those
+symbols that least affect the overall loss over the training data. This process is repeated until the vocabulary has
+reached the desired size. The Unigram algorithm always keeps the base characters so that any word can be tokenized.
+Because Unigram is not based on merge r

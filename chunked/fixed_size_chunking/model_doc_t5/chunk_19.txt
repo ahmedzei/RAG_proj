@@ -1,0 +1,16 @@
+    padding="longest",
+     max_length=max_target_length,
+     truncation=True,
+     return_tensors="pt",
+ )
+labels = target_encoding.input_ids
+replace padding token id's of the labels by -100 so it's ignored by the loss
+labels[labels == tokenizer.pad_token_id] = -100
+forward pass
+loss = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels).loss
+loss.item()
+0.188
+
+Additional training tips:
+
+T5 models need a slightly higher learning rate than the default one set in the Trainer when using t

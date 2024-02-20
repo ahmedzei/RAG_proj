@@ -1,0 +1,4 @@
+Nougat uses the same architecture as Donut, meaning an image Transformer
+encoder and an autoregressive text Transformer decoder to translate scientific PDFs to markdown, enabling easier access to them.
+The abstract from the paper is the following:
+Scientific knowledge is predominantly stored in books and scientific journals, often in the form of PDFs. However, the PDF format leads to a loss of semantic information, particularly for mathematical expressions.

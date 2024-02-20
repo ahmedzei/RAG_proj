@@ -1,0 +1,3 @@
+The lib64 sub-directory contains various CUDA .so objects (like libcudart.so) and while it is unlikely your system names them differently, you should check the actual names and change them accordingly.
+Older CUDA versions
+Sometimes, older CUDA versions may refuse to build with newer compilers. For example, if you have gcc-9 but CUDA wants gcc-7.

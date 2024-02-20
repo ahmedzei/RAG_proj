@@ -1,0 +1,2 @@
+n the Hub, there is a button to easily copy the commit
+hash of any commit.

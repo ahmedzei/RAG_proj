@@ -1,0 +1,6 @@
+This is a great chance to confirm that a working implementation matches your expectations for the
+model, as well as to foresee technical challenges on the TensorFlow side.
+It's perfectly natural that you feel overwhelmed with the amount of information that you've just absorbed. It is
+definitely not a requirement that you understand all facets of the model at this stage. Nevertheless, we highly
+encourage you to clear any pressing questions in our forum.
+4.

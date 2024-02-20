@@ -1,0 +1,9 @@
+and movin' around, not for eatin'. So, I'd say none, me hearties. None at all.
+Arr, 'twas easy after all!
+Is there an automated pipeline for chat?
+Yes, there is! Our text generation pipelines support chat inputs, which makes it easy to use chat models. In the past,
+we used to use a dedicated "ConversationalPipeline" class, but this has now been deprecated and its functionality
+has been merged into the [TextGenerationPipeline]. Let's try the Zephyr example again, but this time using 
+a pipeline:
+thon
+from tr

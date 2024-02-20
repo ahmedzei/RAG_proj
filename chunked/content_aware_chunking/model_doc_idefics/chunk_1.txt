@@ -1,0 +1,3 @@
+Rush, Douwe Kiela, Matthieu Cord, Victor Sanh
+The abstract from the paper is the following:
+Large multimodal models trained on natural documents, which interleave images and text, outperform models trained on image-text pairs on various multimodal benchmarks that require reasoning over one or multiple images to generate a text. However, the datasets used to train these models have not been released, and the collection process has not been fully specified.

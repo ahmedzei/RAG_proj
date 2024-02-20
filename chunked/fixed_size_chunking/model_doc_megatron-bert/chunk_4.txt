@@ -1,0 +1,8 @@
+ins a multi-GPU and multi-node implementation of the Megatron Language models. In particular, 
+it contains a hybrid model parallel approach using "tensor parallel" and "pipeline parallel" techniques.
+Usage tips
+We have provided pretrained BERT-345M checkpoints
+for use to evaluate or finetuning downstream tasks.
+To access these checkpoints, first sign up for and setup the NVIDIA GPU Cloud (NGC)
+Registry CLI. Further documentation for downloading models can be found in the NGC documentation.
+Alternatively, yo

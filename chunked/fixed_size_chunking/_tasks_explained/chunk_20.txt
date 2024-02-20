@@ -1,0 +1,3 @@
+ne takes an image, represented by its pixel values, and creates a low-resolution feature map of it. A 1x1 convolution is applied to the feature map to reduce dimensionality and it creates a new feature map with a high-level image representation. Since the Transformer is a sequential model, the feature map is flattened into a sequence of feature vectors that are combined with positional embeddings.
+
+The feature vectors are passed to the encoder, which learns the image representations using its attention laye

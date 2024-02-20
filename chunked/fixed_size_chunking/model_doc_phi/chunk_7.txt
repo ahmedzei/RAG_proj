@@ -1,0 +1,10 @@
+is model was contributed by Susnato Dhar.
+The original code for Phi-1, Phi-1.5 and Phi-2 can be found here, here and here, respectively.
+Usage tips
+
+This model is quite similar to Llama with the main difference in [PhiDecoderLayer], where they used [PhiAttention] and [PhiMLP] layers in parallel configuration.
+The tokenizer used for this model is identical to the [CodeGenTokenizer].
+
+How to use Phi-2
+
+Phi-2 has been integrated in the development version (4.37.0.dev) of transformers. Until the official versio

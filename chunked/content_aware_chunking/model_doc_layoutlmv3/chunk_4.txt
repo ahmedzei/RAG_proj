@@ -1,0 +1,4 @@
+Experimental results show that LayoutLMv3 achieves state-of-the-art performance not only in text-centric tasks, including form understanding, receipt understanding, and document visual question answering, but also in image-centric tasks such as document image classification and document layout analysis.
+
+ LayoutLMv3 architecture. Taken from the original paper. 
+This model was contributed by nielsr. The TensorFlow version of this model was added by chriskoo, tokec, and lre.

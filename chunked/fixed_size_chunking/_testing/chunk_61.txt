@@ -1,0 +1,19 @@
+    try:
+        raise_exception(msg)
+    except Exception as e:
+        error = str(e)
+        assert msg in error, f"{msg} is in the exception:\n{error}"
+
+Another approach to capturing stdout is via contextlib.redirect_stdout:
+thon
+from io import StringIO
+from contextlib import redirect_stdout
+def print_to_stdout(s):
+    print(s)
+def test_result_and_stdout():
+    msg = "Hello"
+    buffer = StringIO()
+    with redirect_stdout(buffer):
+        print_to_stdout(msg)
+    out = buffer.getvalue()
+    # optional:

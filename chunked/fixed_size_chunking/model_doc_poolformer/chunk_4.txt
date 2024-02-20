@@ -1,0 +1,10 @@
+tes the architecture of PoolFormer. Taken from the original paper.
+
+This model was contributed by heytanay. The original code can be found here.
+Usage tips
+
+PoolFormer has a hierarchical architecture, where instead of Attention, a simple Average Pooling layer is present. All checkpoints of the model can be found on the hub.
+One can use [PoolFormerImageProcessor] to prepare images for the model.
+As most models, PoolFormer comes in different sizes, the details of which can be found in the table below.
+
+| Mode

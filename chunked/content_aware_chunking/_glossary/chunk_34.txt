@@ -1,0 +1,5 @@
+Learn more about how PipelineParallel works here.
+pixel values
+A tensor of the numerical representations of an image that is passed to a model. The pixel values have a shape of [batch_size, num_channels, height, width], and are generated from an image processor.
+pooling
+An operation that reduces a matrix into a smaller matrix, either by taking the maximum or average of the pooled dimension(s).

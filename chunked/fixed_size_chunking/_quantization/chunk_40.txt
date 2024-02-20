@@ -1,0 +1,10 @@
+to bf16 using the bnb_4bit_compute_dtype parameter in [BitsAndBytesConfig]:
+
+import torch
+from transformers import BitsAndBytesConfig
+quantization_config = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16)
+
+Normal Float 4 (NF4)
+NF4 is a 4-bit data type from the QLoRA paper, adapted for weights initialized from a normal distribution. You should use NF4 for training 4-bit base models. This can be configured with the bnb_4bit_quant_type parameter in the [BitsAndBytesConfig]:
+
+from tr

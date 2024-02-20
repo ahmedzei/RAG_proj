@@ -1,0 +1,6 @@
+While we believe that this model will still generate 
+reasonable speaker embeddings for our Dutch dataset, this assumption may not hold true in all cases.
+For optimal results, we recommend training an X-vector model on the target speech first. This will ensure that the model 
+is better able to capture the unique voice characteristics present in the Dutch language.
+Processing the dataset
+Finally, let's process the data into the format the model expects.

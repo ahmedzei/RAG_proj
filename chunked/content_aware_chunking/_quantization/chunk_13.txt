@@ -1,0 +1,2 @@
+If you don't want to fuse these layers, pass an empty list.
+"layernorm": The names of all the LayerNorm layers you want to replace with a custom fused LayerNorm.

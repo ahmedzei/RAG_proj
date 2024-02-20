@@ -1,0 +1,10 @@
+ase a new set of
+pre-trained byte-level Transformer models based on the T5 architecture, as well as all code and data used in our
+experiments.
+This model was contributed by patrickvonplaten. The original code can be
+found here.
+
+ByT5's architecture is based on the T5v1.1 model, refer to T5v1.1's documentation page for the API reference. They
+only differ in how inputs should be prepared for the model, see the code examples below.
+
+Since ByT5 was pre-trained unsupervisedly, there's no real advantage to using 

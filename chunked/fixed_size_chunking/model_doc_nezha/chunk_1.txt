@@ -1,0 +1,6 @@
+ NEZHA (NEural contextualiZed
+representation for CHinese lAnguage understanding) on Chinese corpora and finetuning for the Chinese NLU tasks. 
+The current version of NEZHA is based on BERT with a collection of proven improvements, which include Functional 
+Relative Positional Encoding as an effective positional encoding scheme, Whole Word Masking strategy,
+Mixed Precision Training and the LAMB Optimizer in training the models. The experimental results show that NEZHA
+achieves the state-of-the-art performanc

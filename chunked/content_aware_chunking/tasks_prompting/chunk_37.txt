@@ -1,0 +1,6 @@
+Here are some scenarios when fine-tuning a smaller model may be a preferred option:
+
+Your domain is wildly different from what LLMs were pre-trained on and extensive prompt optimization did not yield sufficient results. 
+You need your model to work well in a low-resource language.
+You need the model to be trained on sensitive data that is under strict regulations. 
+You have to use a small model due to cost, privacy, infrastructure or other limitations.

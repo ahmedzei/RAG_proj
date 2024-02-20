@@ -1,0 +1,6 @@
+ntly proposed Vision 
+Transformer (ViT) that was designed for image classification specifically, we introduce the Pyramid Vision Transformer 
+(PVT), which overcomes the difficulties of porting Transformer to various dense prediction tasks. PVT has several 
+merits compared to current state of the arts. Different from ViT that typically yields low resolution outputs and 
+incurs high computational and memory costs, PVT not only can be trained on dense partitions of an image to achieve high 
+output resolution, 

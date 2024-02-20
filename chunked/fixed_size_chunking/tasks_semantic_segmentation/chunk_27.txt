@@ -1,0 +1,14 @@
+f_eval_dataset = test_ds.to_tf_dataset(
+     columns=["pixel_values", "label"],
+     shuffle=True,
+     batch_size=batch_size,
+     collate_fn=data_collator,
+ )
+
+To compute the accuracy from the predictions and push your model to the 🤗 Hub, use Keras callbacks.
+Pass your compute_metrics function to [KerasMetricCallback],
+and use the [PushToHubCallback] to upload the model:
+
+from transformers.keras_callbacks import KerasMetricCallback, PushToHubCallback
+metric_callback = KerasMetricCallback(
+     metric_fn=c

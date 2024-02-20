@@ -1,0 +1,7 @@
+CANINE outperforms a comparable mBERT model by
+2.8 F1 on TyDi QA, a challenging multilingual benchmark, despite having 28% fewer model parameters.
+This model was contributed by nielsr. The original code can be found here.
+Usage tips
+
+CANINE uses no less than 3 Transformer encoders internally: 2 "shallow" encoders (which only consist of a single
+  layer) and 1 "deep" encoder (which is a regular BERT encoder).

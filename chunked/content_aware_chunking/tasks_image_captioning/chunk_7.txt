@@ -1,0 +1,9 @@
+Load a base model
+Load the "microsoft/git-base" into a AutoModelForCausalLM object.
+thon
+from transformers import AutoModelForCausalLM
+model = AutoModelForCausalLM.from_pretrained(checkpoint)
+
+Evaluate
+Image captioning models are typically evaluated with the Rouge Score or Word Error Rate. For this guide, you will use the Word Error Rate (WER). 
+We use the 🤗 Evaluate library to do so. For potential limitations and other gotchas of the WER, refer to this guide.

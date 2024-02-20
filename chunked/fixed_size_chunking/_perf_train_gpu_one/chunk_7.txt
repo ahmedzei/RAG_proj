@@ -1,0 +1,7 @@
+ approaches are still valid in a multi-GPU setup, plus you can leverage additional parallelism 
+techniques outlined in the multi-GPU section. 
+Batch size choice
+To achieve optimal performance, start by identifying the appropriate batch size. It is recommended to use batch sizes and 
+input/output neuron counts that are of size 2^N. Often it's a multiple of 8, but it can be 
+higher depending on the hardware being used and the model's dtype.
+For reference, check out NVIDIA's recommendation for input/output neu

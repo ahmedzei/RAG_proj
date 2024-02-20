@@ -1,0 +1,5 @@
+ior! The only other required parameter is output_dir which specifies where to save your model. You'll push this model to the Hub by setting push_to_hub=True (you need to be signed in to Hugging Face to upload your model). At the end of each epoch, the [Trainer] will evaluate the IoU metric and save the training checkpoint.
+Pass the training arguments to [Trainer] along with the model, dataset, tokenizer, data collator, and compute_metrics function.
+Call [~Trainer.train] to finetune your model.
+
+training_arg

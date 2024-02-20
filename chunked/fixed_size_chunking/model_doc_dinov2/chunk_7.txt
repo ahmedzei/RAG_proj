@@ -1,0 +1,9 @@
+ating an existing resource.
+Dinov2Config
+[[autodoc]] Dinov2Config
+Dinov2Model
+[[autodoc]] Dinov2Model
+    - forward
+Dinov2ForImageClassification
+[[autodoc]] Dinov2ForImageClassification
+    - forward

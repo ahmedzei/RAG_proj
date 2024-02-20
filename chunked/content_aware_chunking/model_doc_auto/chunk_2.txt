@@ -1,0 +1,176 @@
+For instance, if you have defined a
+custom class of model NewModel, make sure you have a NewModelConfig then you can add those to the auto
+classes like this:
+thon
+from transformers import AutoConfig, AutoModel
+AutoConfig.register("new-model", NewModelConfig)
+AutoModel.register(NewModelConfig, NewModel)
+
+You will then be able to use the auto classes like you would usually do!
+
+If your NewModelConfig is a subclass of [~transformers.PretrainedConfig], make sure its
+model_type attribute is set to the same key you use when registering the config (here "new-model").
+Likewise, if your NewModel is a subclass of [PreTrainedModel], make sure its
+config_class attribute is set to the same class you use when registering the model (here
+NewModelConfig).
+
+AutoConfig
+[[autodoc]] AutoConfig
+AutoTokenizer
+[[autodoc]] AutoTokenizer
+AutoFeatureExtractor
+[[autodoc]] AutoFeatureExtractor
+AutoImageProcessor
+[[autodoc]] AutoImageProcessor
+AutoProcessor
+[[autodoc]] AutoProcessor
+Generic model classes
+The following auto classes are available for instantiating a base model class without a specific head.
+AutoModel
+[[autodoc]] AutoModel
+TFAutoModel
+[[autodoc]] TFAutoModel
+FlaxAutoModel
+[[autodoc]] FlaxAutoModel
+Generic pretraining classes
+The following auto classes are available for instantiating a model with a pretraining head.
+AutoModelForPreTraining
+[[autodoc]] AutoModelForPreTraining
+TFAutoModelForPreTraining
+[[autodoc]] TFAutoModelForPreTraining
+FlaxAutoModelForPreTraining
+[[autodoc]] FlaxAutoModelForPreTraining
+Natural Language Processing
+The following auto classes are available for the following natural language processing tasks.
+AutoModelForCausalLM
+[[autodoc]] AutoModelForCausalLM
+TFAutoModelForCausalLM
+[[autodoc]] TFAutoModelForCausalLM
+FlaxAutoModelForCausalLM
+[[autodoc]] FlaxAutoModelForCausalLM
+AutoModelForMaskedLM
+[[autodoc]] AutoModelForMaskedLM
+TFAutoModelForMaskedLM
+[[autodoc]] TFAutoModelForMaskedLM
+FlaxAutoModelForMaskedLM
+[[autodoc]] FlaxAutoModelForMaskedLM
+AutoModelForMaskGeneration
+[[autodoc]] AutoModelForMaskGeneration
+TFAutoModelForMaskGeneration
+[[autodoc]] TFAutoModelForMaskGeneration
+AutoModelForSeq2SeqLM
+[[autodoc]] AutoModelForSeq2SeqLM
+TFAutoModelForSeq2SeqLM
+[[autodoc]] TFAutoModelForSeq2SeqLM
+FlaxAutoModelForSeq2SeqLM
+[[autodoc]] FlaxAutoModelForSeq2SeqLM
+AutoModelForSequenceClassification
+[[autodoc]] AutoModelForSequenceClassification
+TFAutoModelForSequenceClassification
+[[autodoc]] TFAutoModelForSequenceClassification
+FlaxAutoModelForSequenceClassification
+[[autodoc]] FlaxAutoModelForSequenceClassification
+AutoModelForMultipleChoice
+[[autodoc]] AutoModelForMultipleChoice
+TFAutoModelForMultipleChoice
+[[autodoc]] TFAutoModelForMultipleChoice
+FlaxAutoModelForMultipleChoice
+[[autodoc]] FlaxAutoModelForMultipleChoice
+AutoModelForNextSentencePrediction
+[[autodoc]] AutoModelForNextSentencePrediction
+TFAutoModelForNextSentencePrediction
+[[autodoc]] TFAutoModelForNextSentencePrediction
+FlaxAutoModelForNextSentencePrediction
+[[autodoc]] FlaxAutoModelForNextSentencePrediction
+AutoModelForTokenClassification
+[[autodoc]] AutoModelForTokenClassification
+TFAutoModelForTokenClassification
+[[autodoc]] TFAutoModelForTokenClassification
+FlaxAutoModelForTokenClassification
+[[autodoc]] FlaxAutoModelForTokenClassification
+AutoModelForQuestionAnswering
+[[autodoc]] AutoModelForQuestionAnswering
+TFAutoModelForQuestionAnswering
+[[autodoc]] TFAutoModelForQuestionAnswering
+FlaxAutoModelForQuestionAnswering
+[[autodoc]] FlaxAutoModelForQuestionAnswering
+AutoModelForTextEncoding
+[[autodoc]] AutoModelForTextEncoding
+TFAutoModelForTextEncoding
+[[autodoc]] TFAutoModelForTextEncoding
+Computer vision
+The following auto classes are available for the following computer vision tasks.
+AutoModelForDepthEstimation
+[[autodoc]] AutoModelForDepthEstimation
+AutoModelForImageClassification
+[[autodoc]] AutoModelForImageClassification
+TFAutoModelForImageClassification
+[[autodoc]] TFAutoModelForImageClassification
+FlaxAutoModelForImageClassification
+[[autodoc]] FlaxAutoModelForImageClassification
+AutoModelForVideoClassification
+[[autodoc]] AutoModelForVideoClassification
+AutoModelForMaskedImageModeling
+[[autodoc]] AutoModelForMaskedImageModeling
+TFAutoModelForMaskedImageModeling
+[[autodoc]] TFAutoModelForMaskedImageModeling
+AutoModelForObjectDetection
+[[autodoc]] AutoModelForObjectDetection
+AutoModelForImageSegmentation
+[[autodoc]] AutoModelForImageSegmentation
+AutoModelForImageToImage
+[[autodoc]] AutoModelForImageToImage
+AutoModelForSemanticSegmentation
+[[autodoc]] AutoModelForSemanticSegmentation
+TFAutoModelForSemanticSegmentation
+[[autodoc]] TFAutoModelForSemanticSegmentation
+AutoModelForInstanceSegmentation
+[[autodoc]] AutoModelForInstanceSegmentation
+AutoModelForUniversalSegmentation
+[[autodoc]] AutoModelForUniversalSegmentation
+AutoModelForZeroShotImageClassification
+[[autodoc]] AutoModelForZeroShotImageClassification
+TFAutoModelForZeroShotImageClassification
+[[autodoc]] TFAutoModelForZeroShotImageClassification
+AutoModelForZeroShotObjectDetection
+[[autodoc]] AutoModelForZeroShotObjectDetection
+Audio
+The following auto classes are available for the following audio tasks.
+AutoModelForAudioClassification
+[[autodoc]] AutoModelForAudioClassification
+AutoModelForAudioFrameClassification
+[[autodoc]] TFAutoModelForAudioClassification
+TFAutoModelForAudioFrameClassification
+[[autodoc]] AutoModelForAudioFrameClassification
+AutoModelForCTC
+[[autodoc]] AutoModelForCTC
+AutoModelForSpeechSeq2Seq
+[[autodoc]] AutoModelForSpeechSeq2Seq
+TFAutoModelForSpeechSeq2Seq
+[[autodoc]] TFAutoModelForSpeechSeq2Seq
+FlaxAutoModelForSpeechSeq2Seq
+[[autodoc]] FlaxAutoModelForSpeechSeq2Seq
+AutoModelForAudioXVector
+[[autodoc]] AutoModelForAudioXVector
+AutoModelForTextToSpectrogram
+[[autodoc]] AutoModelForTextToSpectrogram
+AutoModelForTextToWaveform
+[[autodoc]] AutoModelForTextToWaveform
+Multimodal
+The following auto classes are available for the following multimodal tasks.
+AutoModelForTableQuestionAnswering
+[[autodoc]] AutoModelForTableQuestionAnswering
+TFAutoModelForTableQuestionAnswering
+[[autodoc]] TFAutoModelForTableQuestionAnswering
+AutoModelForDocumentQuestionAnswering
+[[autodoc]] AutoModelForDocumentQuestionAnswering
+TFAutoModelForDocumentQuestionAnswering
+[[autodoc]] TFAutoModelForDocumentQuestionAnswering
+AutoModelForVisualQuestionAnswering
+[[autodoc]] AutoModelForVisualQuestionAnswering
+AutoModelForVision2Seq
+[[autodoc]] AutoModelForVision2Seq
+TFAutoModelForVision2Seq
+[[autodoc]] TFAutoModelForVision2Seq
+FlaxAutoModelForVision2Seq
+[[autodoc]] FlaxAutoModelForVision2Seq.

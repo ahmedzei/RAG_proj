@@ -1,0 +1,38 @@
+The original code can be found here.
+Resources
+
+Causal language modeling task guide
+
+XGLMConfig
+[[autodoc]] XGLMConfig
+XGLMTokenizer
+[[autodoc]] XGLMTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+XGLMTokenizerFast
+[[autodoc]] XGLMTokenizerFast
+
+XGLMModel
+[[autodoc]] XGLMModel
+    - forward
+XGLMForCausalLM
+[[autodoc]] XGLMForCausalLM
+    - forward
+
+TFXGLMModel
+[[autodoc]] TFXGLMModel
+    - call
+TFXGLMForCausalLM
+[[autodoc]] TFXGLMForCausalLM
+    - call
+
+FlaxXGLMModel
+[[autodoc]] FlaxXGLMModel
+    - call
+FlaxXGLMForCausalLM
+[[autodoc]] FlaxXGLMForCausalLM
+    - call
+
+.

@@ -1,0 +1,8 @@
+How can I help you today?"},
+    {"role": "user", "content": "I'd like to show off how chat templating works!"},
+ ]
+tokenizer.apply_chat_template(chat, tokenize=False)
+" Hello, how are you?  I'm doing great. How can I help you today?   I'd like to show off how chat templating works!"
+
+Notice how the entire chat is condensed into a single string. If we use tokenize=True, which is the default setting,
+that string will also be tokenized for us.

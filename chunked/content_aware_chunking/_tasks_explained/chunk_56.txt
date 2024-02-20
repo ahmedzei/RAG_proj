@@ -1,0 +1,3 @@
+We'll explain how BART works in this section, and then you can try finetuning T5 at the end.
+
+BART's encoder architecture is very similar to BERT and accepts a token and positional embedding of the text. BART is pretrained by corrupting the input and then reconstructing it with the decoder. Unlike other encoders with specific corruption strategies, BART can apply any type of corruption. The text infilling corruption strategy works the best though.

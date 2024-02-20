@@ -1,0 +1,7 @@
+It's better for experimentation, 
+but will tend to be much better at single instructions rather than complex instructions (which the [~Agent.run]
+method is better at handling).
+This method can also take arguments if you would like to pass non-text types or specific prompts.
+⚠️ Remote execution
+For demonstration purposes and so that it could be used with all setups, we had created remote executors for several 
+of the default tools the agent has access for the release.

@@ -1,0 +1,15 @@
+nstantiate a pretrained model.
+3. Convert a 🤗 Dataset to a tf.data.Dataset.
+4. Compile your model.
+5. Add callbacks to calculate metrics and upload your model to 🤗 Hub
+6. Use the fit() method to run the training.
+Start by defining the hyperparameters, optimizer and learning rate schedule:
+
+from transformers import create_optimizer
+batch_size = 2
+num_epochs = 50
+num_train_steps = len(train_ds) * num_epochs
+learning_rate = 6e-5
+weight_decay_rate = 0.01
+optimizer, lr_schedule = create_optimizer(
+     init_lr=l

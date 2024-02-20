@@ -1,0 +1,15 @@
+me mount for the PVC
+The volume mount defines a path where the PVC will be mounted in the container for each worker pod. This location can be
+used for the dataset, checkpoint files, and the saved model after training completes.
+The snippet below is an example of a yaml file for a PyTorchJob with 4 workers running the
+question-answering example.
+yaml
+apiVersion: "kubeflow.org/v1"
+kind: PyTorchJob
+metadata:
+  name: transformers-pytorchjob
+  namespace: kubeflow
+spec:
+  elasticPolicy:
+    rdzvBackend: c10d
+    

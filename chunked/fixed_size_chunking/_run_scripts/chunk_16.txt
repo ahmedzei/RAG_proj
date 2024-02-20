@@ -1,0 +1,15 @@
+ks as expected before committing to an entire dataset which may take hours to complete. Use the following arguments to truncate the dataset to a maximum number of samples:
+
+max_train_samples
+max_eval_samples
+max_predict_samples
+
+python examples/pytorch/summarization/run_summarization.py \
+    --model_name_or_path google-t5/t5-small \
+    --max_train_samples 50 \
+    --max_eval_samples 50 \
+    --max_predict_samples 50 \
+    --do_train \
+    --do_eval \
+    --dataset_name cnn_dailymail \
+    --dataset_config

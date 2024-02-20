@@ -1,0 +1,9 @@
+tname1 and the second node with ssh hostname2. Both nodes must be able to communicate with each other locally over ssh without a password.
+By default, DeepSpeed expects your multi-node environment to use a shared storage. If this is not the case and each node can only see the local filesystem, you need to adjust the config file to include a checkpoint to allow loading without access to a shared filesystem:
+yaml
+{
+  "checkpoint": {
+    "use_node_local_storage": true
+  }
+}
+You could also use the [Trainer]'s -

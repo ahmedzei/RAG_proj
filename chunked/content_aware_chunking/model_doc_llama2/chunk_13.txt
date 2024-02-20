@@ -1,0 +1,6 @@
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+Llama 2 is here - get it on Hugging Face, a blog post about Llama 2 and how to use it with 🤗 Transformers and 🤗 PEFT.
+LLaMA 2 - Every Resource you need, a compilation of relevant resources to learn about LLaMA 2 and how to get started quickly.
+
+A notebook on how to fine-tune Llama 2 in Google Colab using QLoRA and 4-bit precision.

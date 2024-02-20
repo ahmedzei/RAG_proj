@@ -1,0 +1,3 @@
+Aside from the optimizer and scheduler parameters, you'll need to ensure your [Trainer] command line arguments match the DeepSpeed configuration.
+
+DeepSpeed offers several optimizers (Adam, AdamW, OneBitAdam, and LAMB) but you can also import other optimizers from PyTorch.

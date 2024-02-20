@@ -1,0 +1,9 @@
+ook at the [pipeline] documentation for a complete list of supported tasks and available parameters.
+
+Pipeline usage
+While each task has an associated [pipeline], it is simpler to use the general [pipeline] abstraction which contains 
+all the task-specific pipelines. The [pipeline] automatically loads a default model and a preprocessing class capable 
+of inference for your task. Let's take the example of using the [pipeline] for automatic speech recognition (ASR), or
+speech-to-text.
+
+Start by creating a [pi

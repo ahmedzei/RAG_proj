@@ -1,0 +1,12 @@
+esource to be included here, please feel free to open a Pull Request and we'll
+review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+Video classification
+- A notebook that shows how
+to fine-tune a VideoMAE model on a custom dataset.
+- Video classification task guide
+- A 🤗 Space showing how to perform inference with a video classification model.
+VideoMAEConfig
+[[autodoc]] VideoMAEConfig
+VideoMAEFeatureExtractor
+[[autodoc]] VideoMAEFeatureExtractor
+    -

@@ -1,0 +1,8 @@
+odel checkpoints can be split into two categories: the checkpoints that use language embeddings and those that don't.
+XLM with language embeddings
+The following XLM models use language embeddings to specify the language used at inference:
+
+FacebookAI/xlm-mlm-ende-1024 (Masked language modeling, English-German)
+FacebookAI/xlm-mlm-enfr-1024 (Masked language modeling, English-French)
+FacebookAI/xlm-mlm-enro-1024 (Masked language modeling, English-Romanian)
+FacebookAI/xlm-mlm-xnli15-1024 (Masked language modeli

@@ -1,0 +1,8 @@
+The generation will depend on your GPU architecture.
+Let's compare the execution of a openai-community/gpt2 language model training over a small sample of wikitext.
+The results are:
+| NVlink | Time |
+| -----  | ---: |
+| Y      | 101s |
+| N      | 131s |
+You can see that NVLink completes the training ~23% faster.

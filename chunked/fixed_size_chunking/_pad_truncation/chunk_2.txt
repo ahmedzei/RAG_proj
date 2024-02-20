@@ -1,0 +1,8 @@
+ max_length argument or the maximum length accepted
+    by the model if no max_length is provided (max_length=None). Padding will still be applied if you only provide a single sequence.
+False or 'do_not_pad': no padding is applied. This is the default behavior.
+
+The truncation argument controls truncation. It can be a boolean or a string:
+
+True or 'longest_first': truncate to a maximum length specified by the max_length argument or
+    the maximum length accepted by the model if no max_length is provided (m

@@ -1,0 +1,23 @@
+Experimental results show that ProphetNet achieves new
+state-of-the-art results on all these datasets compared to the models using the same scale pretraining corpus.
+The Authors' code can be found here.
+Resources
+
+Causal language modeling task guide
+Translation task guide
+Summarization task guide
+
+XLMProphetNetConfig
+[[autodoc]] XLMProphetNetConfig
+XLMProphetNetTokenizer
+[[autodoc]] XLMProphetNetTokenizer
+XLMProphetNetModel
+[[autodoc]] XLMProphetNetModel
+XLMProphetNetEncoder
+[[autodoc]] XLMProphetNetEncoder
+XLMProphetNetDecoder
+[[autodoc]] XLMProphetNetDecoder
+XLMProphetNetForConditionalGeneration
+[[autodoc]] XLMProphetNetForConditionalGeneration
+XLMProphetNetForCausalLM
+[[autodoc]] XLMProphetNetForCausalLM.

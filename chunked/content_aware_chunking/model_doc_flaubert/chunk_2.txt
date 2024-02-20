@@ -1,0 +1,5 @@
+In this paper, we introduce and share FlauBERT, a model learned on a very large and
+heterogeneous French corpus. Models of different sizes are trained using the new CNRS (French National Centre for
+Scientific Research) Jean Zay supercomputer. We apply our French language models to diverse NLP tasks (text
+classification, paraphrasing, natural language inference, parsing, word sense disambiguation) and show that most of the
+time they outperform other pretraining approaches.

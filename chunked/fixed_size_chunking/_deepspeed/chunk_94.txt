@@ -1,0 +1,13 @@
+irrelevant entries)
+
+the outputs of:
+
+python -c 'import torch; print(f"torch: {torch.__version__}")'
+python -c 'import transformers; print(f"transformers: {transformers.__version__}")'
+python -c 'import deepspeed; print(f"deepspeed: {deepspeed.__version__}")'
+
+a link to a Google Colab notebook to reproduce the issue
+
+if impossible, a standard and non-custom dataset we can use and also try to use an existing example to reproduce the issue with
+
+The following sections provide a guide for resolving two of the 

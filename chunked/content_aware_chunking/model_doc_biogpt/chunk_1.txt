@@ -1,0 +1,3 @@
+BioGPT follows the Transformer language model backbone, and is pre-trained on 15M PubMed abstracts from scratch.
+The abstract from the paper is the following:
+Pre-trained language models have attracted increasing attention in the biomedical domain, inspired by their great success in the general natural language domain. Among the two main branches of pre-trained language models in the general language domain, i.e.

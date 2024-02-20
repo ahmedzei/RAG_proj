@@ -1,0 +1,12 @@
+| 51.105 |
+| Image Classification/BeiT | 16.464 | 15.710 | 
+| Object Detection/DETR | 73.100 | 53.99 |
+| Image Classification/ConvNeXT | 32.932 | 30.845 | 
+| Image Classification/ResNet | 6.031 | 4.321 |
+| Image Segmentation/Mask2former | 79.192 | 66.815 |
+| Image Segmentation/Maskformer | 200.026 | 188.268 | 
+| Image Segmentation/MobileNet | 18.908 | 11.997 |
+| Object Detection/Resnet-101 | 106.622 | 82.566 |
+| Object Detection/Conditional-DETR | 77.594 | 56.984 |
+T4 (batch size: 4)
+| Task/Model | torch 2.

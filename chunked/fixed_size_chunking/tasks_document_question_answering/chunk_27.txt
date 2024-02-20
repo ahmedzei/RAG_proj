@@ -1,0 +1,8 @@
+         # loop over word_ids and increase token_start_index until it matches the answer position in words
+             # once it matches, save the token_start_index as the start_position of the answer in the encoding
+             for id in word_ids:
+                 if id == word_idx_start:
+                     start_position = token_start_index
+                 else:
+                     token_start_index += 1
+             # similarly loop over word_ids starting from the end to find the end_position of th

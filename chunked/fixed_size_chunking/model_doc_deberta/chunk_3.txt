@@ -1,0 +1,6 @@
+d RACE by +3.6% (83.2% vs. 86.8%). The DeBERTa code and
+pre-trained models will be made publicly available at https://github.com/microsoft/DeBERTa.
+This model was contributed by DeBERTa. This model TF 2.0 implementation was
+contributed by kamalkraj . The original code can be found here.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with DeBERTa. If you're interested in submitting a resource to be included here, please feel free to open a Pull Requ

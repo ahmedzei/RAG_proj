@@ -1,0 +1,8 @@
+tes to Giga bytes:\n\npython\ndef bytes_to_giga_bytes(bytes):\n    return bytes / 1024 / 1024 / 1024\n\n\nThis function takes a single
+Nice, we're getting the same result as before, so no loss in accuracy! Let's look at how much memory was used this time.
+python
+bytes_to_giga_bytes(torch.cuda.max_memory_allocated())
+Output:
+15.219234466552734
+Significantly less! We're down to just a bit over 15 GBs and could therefore run this model on consumer GPUs like the 4090.
+We're seeing a very nice gain in memory eff

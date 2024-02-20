@@ -1,0 +1,7 @@
+The question answering head is similar to the sequence classification head except it is a linear layer on top of the hidden states output.
+
+from transformers import TFDistilBertForQuestionAnswering
+tf_model = TFDistilBertForQuestionAnswering.from_pretrained("distilbert/distilbert-base-uncased")
+
+Tokenizer
+The last base class you need before using a model for textual data is a tokenizer to convert raw text to tensors.

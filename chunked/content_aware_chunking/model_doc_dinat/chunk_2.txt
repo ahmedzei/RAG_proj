@@ -1,0 +1,5 @@
+While effective at reducing self attention's quadratic complexity,
+local attention weakens two of the most desirable properties of self attention: long range inter-dependency modeling,
+and global receptive field. In this paper, we introduce Dilated Neighborhood Attention (DiNA), a natural, flexible and
+efficient extension to NA that can capture more global context and expand receptive fields exponentially at no
+additional cost.

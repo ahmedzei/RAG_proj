@@ -1,0 +1,14 @@
+ant to take
+advantage of the StableDiffusionPromptGeneratorTool tool offered in the gradio-tools toolkit so as to
+improve our prompts and generate better images.
+We first import the tool from gradio_tools and instantiate it:
+thon
+from gradio_tools import StableDiffusionPromptGeneratorTool
+gradio_tool = StableDiffusionPromptGeneratorTool()
+
+We pass that instance to the Tool.from_gradio method:
+thon
+from transformers import Tool
+tool = Tool.from_gradio(gradio_tool)
+
+Now we can manage it exactly as we would a 

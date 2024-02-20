@@ -1,0 +1,2 @@
+To do so, it is necessary to add assert
+statements for the shape and print out the names of the checkpoints weights. E.g.

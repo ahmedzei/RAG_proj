@@ -1,0 +1,4 @@
+To access a modality that only attends to
+  itself, select the vision/language hidden states from the first input in the tuple.
+The bidirectional cross-modality encoder attention only returns attention values when the language modality is used
+  as the input and the vision modality is used as the context vector.

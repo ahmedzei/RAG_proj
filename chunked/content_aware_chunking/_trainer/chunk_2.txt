@@ -1,0 +1,3 @@
+[~trl.SFTTrainer] also supports features like sequence packing, LoRA, quantization, and DeepSpeed for efficiently scaling to any model size.
+
+Feel free to check out the API reference for these other [Trainer]-type classes to learn more about when to use which one. In general, [Trainer] is the most versatile option and is appropriate for a broad spectrum of tasks.

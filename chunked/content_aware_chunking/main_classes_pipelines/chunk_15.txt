@@ -1,0 +1,148 @@
+The caveats from the previous section still apply.
+Pipeline custom code
+If you want to override a specific pipeline.
+Don't hesitate to create an issue for your task at hand, the goal of the pipeline is to be easy to use and support most
+cases, so transformers could maybe support your use case.
+If you want to try simply you can:
+
+Subclass your pipeline of choice
+
+thon
+class MyPipeline(TextClassificationPipeline):
+    def postprocess():
+        # Your code goes here
+        scores = scores * 100
+        # And here
+my_pipeline = MyPipeline(model=model, tokenizer=tokenizer, )
+or if you use pipeline function, then:
+my_pipeline = pipeline(model="xxxx", pipeline_class=MyPipeline)
+
+That should enable you to do all the custom code you want.
+Implementing a pipeline
+Implementing a new pipeline
+Audio
+Pipelines available for audio tasks include the following.
+AudioClassificationPipeline
+[[autodoc]] AudioClassificationPipeline
+    - call
+    - all
+AutomaticSpeechRecognitionPipeline
+[[autodoc]] AutomaticSpeechRecognitionPipeline
+    - call
+    - all
+TextToAudioPipeline
+[[autodoc]] TextToAudioPipeline
+    - call
+    - all
+ZeroShotAudioClassificationPipeline
+[[autodoc]] ZeroShotAudioClassificationPipeline
+    - call
+    - all
+Computer vision
+Pipelines available for computer vision tasks include the following.
+DepthEstimationPipeline
+[[autodoc]] DepthEstimationPipeline
+    - call
+    - all
+ImageClassificationPipeline
+[[autodoc]] ImageClassificationPipeline
+    - call
+    - all
+ImageSegmentationPipeline
+[[autodoc]] ImageSegmentationPipeline
+    - call
+    - all
+ImageToImagePipeline
+[[autodoc]] ImageToImagePipeline
+    - call
+    - all
+ObjectDetectionPipeline
+[[autodoc]] ObjectDetectionPipeline
+    - call
+    - all
+VideoClassificationPipeline
+[[autodoc]] VideoClassificationPipeline
+    - call
+    - all
+ZeroShotImageClassificationPipeline
+[[autodoc]] ZeroShotImageClassificationPipeline
+    - call
+    - all
+ZeroShotObjectDetectionPipeline
+[[autodoc]] ZeroShotObjectDetectionPipeline
+    - call
+    - all
+Natural Language Processing
+Pipelines available for natural language processing tasks include the following.
+ConversationalPipeline
+[[autodoc]] Conversation
+[[autodoc]] ConversationalPipeline
+    - call
+    - all
+FillMaskPipeline
+[[autodoc]] FillMaskPipeline
+    - call
+    - all
+QuestionAnsweringPipeline
+[[autodoc]] QuestionAnsweringPipeline
+    - call
+    - all
+SummarizationPipeline
+[[autodoc]] SummarizationPipeline
+    - call
+    - all
+TableQuestionAnsweringPipeline
+[[autodoc]] TableQuestionAnsweringPipeline
+    - call
+TextClassificationPipeline
+[[autodoc]] TextClassificationPipeline
+    - call
+    - all
+TextGenerationPipeline
+[[autodoc]] TextGenerationPipeline
+    - call
+    - all
+Text2TextGenerationPipeline
+[[autodoc]] Text2TextGenerationPipeline
+    - call
+    - all
+TokenClassificationPipeline
+[[autodoc]] TokenClassificationPipeline
+    - call
+    - all
+TranslationPipeline
+[[autodoc]] TranslationPipeline
+    - call
+    - all
+ZeroShotClassificationPipeline
+[[autodoc]] ZeroShotClassificationPipeline
+    - call
+    - all
+Multimodal
+Pipelines available for multimodal tasks include the following.
+DocumentQuestionAnsweringPipeline
+[[autodoc]] DocumentQuestionAnsweringPipeline
+    - call
+    - all
+FeatureExtractionPipeline
+[[autodoc]] FeatureExtractionPipeline
+    - call
+    - all
+ImageFeatureExtractionPipeline
+[[autodoc]] ImageFeatureExtractionPipeline
+    - call
+    - all
+ImageToTextPipeline
+[[autodoc]] ImageToTextPipeline
+    - call
+    - all
+MaskGenerationPipeline
+[[autodoc]] MaskGenerationPipeline
+    - call
+    - all
+VisualQuestionAnsweringPipeline
+[[autodoc]] VisualQuestionAnsweringPipeline
+    - call
+    - all
+Parent class: Pipeline
+[[autodoc]] Pipeline.

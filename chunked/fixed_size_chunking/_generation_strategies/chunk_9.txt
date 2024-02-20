@@ -1,0 +1,8 @@
+ecoding strategies that support multiple sequence candidates, e.g. variations of beam search and sampling. Decoding
+strategies like greedy search and contrastive search return a single output sequence.
+
+Save a custom decoding strategy with your model
+If you would like to share your fine-tuned model with a specific generation configuration, you can:
+* Create a [GenerationConfig] class instance
+* Specify the decoding strategy parameters
+* Save your generation configuration with [GenerationConfig.save_pretrain

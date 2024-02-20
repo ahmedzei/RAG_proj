@@ -1,0 +1,14 @@
+) can also call FlashAttention and memory-efficient attention kernels under the hood. SDPA support is currently being added natively in Transformers and is used by default for torch>=2.1.1 when an implementation is available.
+For now, Transformers supports SDPA inference and training for the following architectures:
+* Bart
+* GPTBigCode
+* Falcon
+* Llama
+* Phi
+* Idefics
+* Whisper
+* Mistral
+* Mixtral
+* Qwen2
+
+FlashAttention can only be used for models with the fp16 or bf16 torch type, so make sure to cast your

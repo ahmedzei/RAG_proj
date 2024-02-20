@@ -1,0 +1,22 @@
+
+[[autodoc]] TFAlbertForQuestionAnswering
+    - call
+
+FlaxAlbertModel
+[[autodoc]] FlaxAlbertModel
+    - call
+FlaxAlbertForPreTraining
+[[autodoc]] FlaxAlbertForPreTraining
+    - call
+FlaxAlbertForMaskedLM
+[[autodoc]] FlaxAlbertForMaskedLM
+    - call
+FlaxAlbertForSequenceClassification
+[[autodoc]] FlaxAlbertForSequenceClassification
+    - call
+FlaxAlbertForMultipleChoice
+[[autodoc]] FlaxAlbertForMultipleChoice
+    - call
+FlaxAlbertForTokenClassification
+[[autodoc]] FlaxAlbertForTokenClassification
+    - call

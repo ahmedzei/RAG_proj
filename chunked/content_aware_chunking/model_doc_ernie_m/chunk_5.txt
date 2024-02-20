@@ -1,0 +1,37 @@
+For now these two LMHead objectives are not implemented here.
+It is a multilingual language model.
+Next Sentence Prediction was not used in pretraining process.
+
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Multiple choice task guide
+
+ErnieMConfig
+[[autodoc]] ErnieMConfig
+ErnieMTokenizer
+[[autodoc]] ErnieMTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+ErnieMModel
+[[autodoc]] ErnieMModel
+    - forward
+ErnieMForSequenceClassification
+[[autodoc]] ErnieMForSequenceClassification
+    - forward
+ErnieMForMultipleChoice
+[[autodoc]] ErnieMForMultipleChoice
+    - forward
+ErnieMForTokenClassification
+[[autodoc]] ErnieMForTokenClassification
+    - forward
+ErnieMForQuestionAnswering
+[[autodoc]] ErnieMForQuestionAnswering
+    - forward
+ErnieMForInformationExtraction
+[[autodoc]] ErnieMForInformationExtraction
+    - forward.

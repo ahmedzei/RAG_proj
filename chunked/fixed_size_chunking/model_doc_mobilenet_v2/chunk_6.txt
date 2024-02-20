@@ -1,0 +1,5 @@
+:
+
+The [MobileNetV2Model] outputs a globally pooled version of the last hidden state. In the original model it is possible to use an average pooling layer with a fixed 7x7 window and stride 1 instead of global pooling. For inputs that are larger than the recommended image size, this gives a pooled output that is larger than 1x1. The Hugging Face implementation does not support this.
+
+The original TensorFlow checkpoints include quantized models. We do not support these models as they include additional "Fake

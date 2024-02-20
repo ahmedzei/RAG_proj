@@ -1,0 +1,8 @@
+ceived further fine-tuning are available.
+Falcon models are (as of 2023) some of the largest and most powerful open-source language models,
+and consistently rank highly in the OpenLLM leaderboard.
+Converting custom checkpoints
+
+Falcon models were initially added to the Hugging Face Hub as custom code checkpoints. However, Falcon is now fully
+supported in the Transformers library. If you fine-tuned a model from a custom code checkpoint, we recommend converting
+your checkpoint to the new in-library format, as

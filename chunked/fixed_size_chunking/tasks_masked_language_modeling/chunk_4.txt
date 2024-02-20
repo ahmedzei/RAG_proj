@@ -1,0 +1,11 @@
+ start with 2018 taxes?',
+   'This article explains both the House and senate bills, including the proposed changes to your income taxes based on your income level. URL_0'],
+  'score': [21, 19, 5, 3],
+  'text_urls': [[],
+   [],
+   [],
+   ['https://www.investopedia.com/news/trumps-tax-reform-what-can-be-done/']]},
+ 'title_urls': ['url'],
+ 'selftext_urls': ['url']}
+
+While this may look like a lot, you're only really interested in the text field. What's cool about language modeling tasks is you don't need labe

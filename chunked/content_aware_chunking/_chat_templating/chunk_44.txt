@@ -1,0 +1,7 @@
+Here's an example that puts these ideas together to add a generation prompt at the end of the
+conversation if add_generation_prompt is True:
+{% if loop.last and add_generation_prompt %}
+{{ bos_token + 'Assistant:\n' }}
+{% endif %}
+Notes on whitespace
+As much as possible, we've tried to get Jinja to ignore whitespace outside of {{ expressions }}.

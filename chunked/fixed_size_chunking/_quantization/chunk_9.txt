@@ -1,0 +1,9 @@
+ further accelerate inference:
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+model = AutoModelForCausalLM.from_pretrained("TheBloke/zephyr-7B-alpha-AWQ", attn_implementation="flash_attention_2", device_map="cuda:0")
+
+Fused modules
+Fused modules offers improved accuracy and performance and it is supported out-of-the-box for AWQ modules for Llama and Mistral architectures, but you can also fuse AWQ modules for unsupported architectures.
+
+Fused modules cannot be combined with other optimization

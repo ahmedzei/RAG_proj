@@ -1,0 +1,5 @@
+🌎
+Demo notebook for fine-tuning the model on custom data. 🌎
+
+SlimSAM
+SlimSAM, a pruned version of SAM, was proposed in 0.1% Data Makes Segment Anything Slim by Zigeng Chen et al.

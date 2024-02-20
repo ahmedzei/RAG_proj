@@ -1,0 +1,7 @@
+FocalNet
+Overview
+The FocalNet model was proposed in Focal Modulation Networks by Jianwei Yang, Chunyuan Li, Xiyang Dai, Lu Yuan, Jianfeng Gao.
+FocalNets completely replace self-attention (used in models like ViT and Swin) by a focal modulation mechanism for modeling token interactions in vision.
+The authors claim that FocalNets outperform self-attention based models with similar computational costs on the tasks of image classification, object detection, and segmentation.
+The abstract from the paper is the following:
+We propose focal modulation networks (FocalNets in short), where self-attention (SA) is completely replaced by a focal modulation mechanism for modeling token interactions in vision.

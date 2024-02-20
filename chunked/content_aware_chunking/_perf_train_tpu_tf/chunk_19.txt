@@ -1,0 +1,3 @@
+Note that we use the same trick as in rule #1 - converting a tf.bool to tf.float32 and using it as an indicator variable. This is a really useful trick, so remember it if you need to convert your own code to XLA!
+XLA Rule #3: XLA will need to recompile your model for every different input shape it sees
+This is the big one. What this means is that if your input shapes are very variable, XLA will have to recompile your model over and over, which will create huge performance problems.

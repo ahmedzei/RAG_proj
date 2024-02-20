@@ -1,0 +1,6 @@
+BrandNewBert becomes TFBrandNewBert).
+- Most PyTorch operations have a direct TensorFlow replacement. For example, torch.nn.Linear corresponds to
+  tf.keras.layers.Dense, torch.nn.Dropout corresponds to tf.keras.layers.Dropout, etc. If you're not sure
+  about a specific operation, you can use the TensorFlow documentation
+  or the PyTorch documentation.
+- Look for patterns in the 🤗 Transformers codebase.

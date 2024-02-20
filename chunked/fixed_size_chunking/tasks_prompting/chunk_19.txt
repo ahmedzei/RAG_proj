@@ -1,0 +1,12 @@
+alse,
+ )
+for seq in sequences:
+     print(f"{seq['generated_text']}")
+Permaculture is an ecological design mimicking natural ecosystems to meet basic needs and prepare for climate change. It is based on traditional knowledge and scientific understanding.
+
+Question answering
+For question answering task we can structure the prompt into the following logical components: instructions, context, question, and 
+the leading word or phrase ("Answer:") to nudge the model to start generating the answer:
+thon
+
+torch.ma

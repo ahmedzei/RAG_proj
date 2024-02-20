@@ -1,0 +1,8 @@
+lops, the RegNet models outperform the popular EfficientNet models while being up to 5x faster on GPUs.
+This model was contributed by Francesco. The TensorFlow version of the model
+was contributed by sayakpaul and ariG23498.
+The original code can be found here.
+The huge 10B model from Self-supervised Pretraining of Visual Features in the Wild, 
+trained on  one billion Instagram images, is available on the hub
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get 

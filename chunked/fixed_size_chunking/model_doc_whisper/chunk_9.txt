@@ -1,0 +1,20 @@
+tion
+    - forward
+
+TFWhisperModel
+[[autodoc]] TFWhisperModel
+    - call
+TFWhisperForConditionalGeneration
+[[autodoc]] TFWhisperForConditionalGeneration
+    - call
+
+FlaxWhisperModel
+[[autodoc]] FlaxWhisperModel
+    - call
+FlaxWhisperForConditionalGeneration
+[[autodoc]] FlaxWhisperForConditionalGeneration
+    - call
+FlaxWhisperForAudioClassification
+[[autodoc]] FlaxWhisperForAudioClassification
+    - call
+

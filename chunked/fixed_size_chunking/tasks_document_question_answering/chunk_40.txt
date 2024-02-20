@@ -1,0 +1,10 @@
+
+     encoding = processor(image.convert("RGB"), question, return_tensors="pt")
+     outputs = model(**encoding)
+     start_logits = outputs.start_logits
+     end_logits = outputs.end_logits
+     predicted_start_idx = start_logits.argmax(-1).item()
+     predicted_end_idx = end_logits.argmax(-1).item()
+processor.tokenizer.decode(encoding.input_ids.squeeze()[predicted_start_idx : predicted_end_idx + 1])
+'lee a. waller'
+

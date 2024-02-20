@@ -1,0 +1,8 @@
+s = [{"score": round(pred["score"], 4), "label": pred["label"], "box": pred["box"]} for pred in preds]
+preds
+[{'score': 0.9865,
+  'label': 'cat',
+  'box': {'xmin': 178, 'ymin': 154, 'xmax': 882, 'ymax': 598}}]
+
+Image segmentation
+Image segmentation is a pixel-level task that assigns every pixel in an image to a class. It differs from object detection, which uses bounding boxes to label and predict objects in an image because segmentation is more granular. Segmentation can detect objects at a pixel-level. Th

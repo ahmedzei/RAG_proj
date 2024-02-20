@@ -1,0 +1,19 @@
+ 2.4 - 4.0x for
+INT8 inference on a T4 GPU system as compared to FP32 inference. The framework has been developed in PyTorch and has
+been open-sourced.
+This model was contributed by kssteven. The original code can be found here.
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+IBertConfig
+[[autodoc]] IBertConfig
+IBertModel
+[[autodoc]] IBertModel
+    - forward
+IBertForMaskedLM
+[[autodoc]] IB

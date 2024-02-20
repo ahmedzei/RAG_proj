@@ -1,0 +1,12 @@
+_inputs.pixel_values
+     examples["words"] = encoded_inputs.words
+     examples["boxes"] = encoded_inputs.boxes
+     return examples
+
+To apply this preprocessing to the entire dataset in a fast way, use [~datasets.Dataset.map].
+
+dataset_with_ocr = updated_dataset.map(get_ocr_words_and_boxes, batched=True, batch_size=2)
+
+Preprocessing text data
+Once we have applied OCR to the images, we need to encode the text part of the dataset to prepare it for the model.
+This involves converting the words and boxes that

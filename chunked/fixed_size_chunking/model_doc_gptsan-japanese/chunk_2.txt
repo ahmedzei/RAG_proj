@@ -1,0 +1,3 @@
+model structure of Prefix-LM. It works as a shifted Masked Language Model for Prefix Input tokens. Un-prefixed inputs behave like normal generative models.
+The Spout vector is a GPTSAN specific input. Spout is pre-trained with random inputs, but you can specify a class of text or an arbitrary vector during fine-tuning. This allows you to indicate the tendency of the generated text.
+GPTSAN has a sparse Feed Forward based on Switch-Transformer. You can also add other layers and train them partially. See the o

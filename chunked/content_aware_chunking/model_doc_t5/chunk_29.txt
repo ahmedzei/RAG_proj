@@ -1,0 +1,7 @@
+The script also shows how to train a T5 tokenizer. [FlaxT5ForConditionalGeneration] is also supported by this notebook.
+
+[T5ForConditionalGeneration] is supported by this example script and notebook.
+[TFT5ForConditionalGeneration] is supported by this example script and notebook.
+Translation task guide
+
+A notebook on how to finetune T5 for question answering with TensorFlow 2.

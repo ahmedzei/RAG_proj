@@ -1,0 +1,8 @@
+rs import AutoModelForSequenceClassification, TrainingArguments, Trainer
+model = AutoModelForSequenceClassification.from_pretrained(
+     "distilbert/distilbert-base-uncased", num_labels=2, id2label=id2label, label2id=label2id
+ )
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [TrainingArguments]. The only required parameter is output_dir which specifies where to save your model. You'll push this model to the Hub by setting push_to_hub=True (you need to be signed in to Hugg

@@ -1,0 +1,31 @@
+You can change the logging level with the log_level and log_level_replica parameters in [TrainingArguments].
+To configure the log level setting for each node, use the log_on_each_node parameter to determine whether to use the log level on each node or only on the main node.
+
+[Trainer] sets the log level separately for each node in the [Trainer.__init__] method, so you may want to consider setting this sooner if you're using other Transformers functionalities before creating the [Trainer] object.
+
+For example, to set your main code and modules to use the same log level according to each node:
+
+logger = logging.getLogger(name)
+logging.basicConfig(
+    format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
+    datefmt="%m/%d/%Y %H:%M:%S",
+    handlers=[logging.StreamHandler(sys.stdout)],
+)
+log_level = training_args.get_process_log_level()
+logger.setLevel(log_level)
+datasets.utils.logging.set_verbosity(log_level)
+transformers.utils.logging.set_verbosity(log_level)
+trainer = Trainer()
+
+Use different combinations of log_level and log_level_replica to configure what gets logged on each of the nodes.
+
+my_app.py  --log_level warning --log_level_replica error
+
+Add the log_on_each_node 0 parameter for multi-node environments.
+```bash
+my_app.py  --log_level warning --log_level_replica error --log_on_each_node 0
+set to only report errors
+my_app.py  --log_level error --log_level_replica error --log_on_each_node 0
+
+NEFTune
+NEFTune is a technique that can improve performance by adding noise to the embedding vectors during training.

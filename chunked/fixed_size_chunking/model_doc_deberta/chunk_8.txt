@@ -1,0 +1,22 @@
+ring
+[[autodoc]] DebertaForQuestionAnswering
+    - forward
+
+TFDebertaModel
+[[autodoc]] TFDebertaModel
+    - call
+TFDebertaPreTrainedModel
+[[autodoc]] TFDebertaPreTrainedModel
+    - call
+TFDebertaForMaskedLM
+[[autodoc]] TFDebertaForMaskedLM
+    - call
+TFDebertaForSequenceClassification
+[[autodoc]] TFDebertaForSequenceClassification
+    - call
+TFDebertaForTokenClassification
+[[autodoc]] TFDebertaForTokenClassification
+    - call
+TFDebertaForQuestionAnswering
+[[autodoc]] TFDebertaForQuestionAnswering
+    - cal

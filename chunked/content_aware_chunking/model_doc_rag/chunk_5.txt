@@ -1,0 +1,7 @@
+For language generation
+tasks, we find that RAG models generate more specific, diverse and factual language than a state-of-the-art
+parametric-only seq2seq baseline.
+This model was contributed by ola13.
+Usage tips
+Retrieval-augmented generation ("RAG") models combine the powers of pretrained dense retrieval (DPR) and Seq2Seq models. 
+RAG models retrieve docs, pass them to a seq2seq model, then marginalize to generate outputs.

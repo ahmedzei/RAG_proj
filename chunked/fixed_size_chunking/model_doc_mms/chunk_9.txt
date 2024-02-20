@@ -1,0 +1,15 @@
+ter(stream_data))["audio"]["array"]
+
+Next, we load the model and processor
+
+from transformers import Wav2Vec2ForCTC, AutoProcessor
+import torch
+model_id = "facebook/mms-1b-all"
+processor = AutoProcessor.from_pretrained(model_id)
+model = Wav2Vec2ForCTC.from_pretrained(model_id)
+
+Now we process the audio data, pass the processed audio data to the model and transcribe the model output,
+just like we usually do for [Wav2Vec2ForCTC].
+
+inputs = processor(en_sample, sampling_rate=16_000, return_tensors="pt")
+with t

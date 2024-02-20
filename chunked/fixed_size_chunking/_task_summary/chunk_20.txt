@@ -1,0 +1,7 @@
+ding to some polarity like positive or negative which can inform and support decision-making in fields like politics, finance, and marketing
+content classification: label text according to some topic to help organize and filter information in news and social media feeds (weather, sports, finance, etc.)
+
+from transformers import pipeline
+classifier = pipeline(task="sentiment-analysis")
+preds = classifier("Hugging Face is the best thing since sliced bread!")
+preds = [{"score": round(pred["score"], 4), "label"

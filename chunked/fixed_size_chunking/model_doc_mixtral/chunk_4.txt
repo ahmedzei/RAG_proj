@@ -1,0 +1,12 @@
+e Apache 2.0 license.
+Usage tips
+Mixtral-8x7B can be found on the Huggingface Hub
+These ready-to-use checkpoints can be downloaded and used via the HuggingFace Hub:
+thon
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+device = "cuda" # the device to load the model onto
+model = AutoModelForCausalLM.from_pretrained("mistralai/Mixtral-8x7B-v0.1")
+tokenizer = AutoTokenizer.from_pretrained("mistralai/Mixtral-8x7B-v0.1")
+prompt = "My favourite condiment is"
+model_inputs = tokenizer([prompt], return_

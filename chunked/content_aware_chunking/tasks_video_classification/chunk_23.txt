@@ -1,0 +1,2 @@
+They evaluate the model on several clips from test videos and apply different crops to those clips and report the aggregate score. However, in the interest of simplicity and brevity, we don't consider that in this tutorial.
+Also, define a collate_fn, which will be used to batch examples together.

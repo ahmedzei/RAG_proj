@@ -1,0 +1,24 @@
+tle: ViTMAE
+local: model_doc/vitmatte
+    title: ViTMatte
+local: model_doc/vit_msn
+    title: ViTMSN
+local: model_doc/yolos
+    title: YOLOS
+  title: Vision models
+isExpanded: false
+  sections:
+local: model_doc/audio-spectrogram-transformer
+    title: Audio Spectrogram Transformer
+local: model_doc/bark
+    title: Bark
+local: model_doc/clap
+    title: CLAP
+local: model_doc/encodec
+    title: EnCodec
+local: model_doc/hubert
+    title: Hubert
+local: model_doc/mctct
+    title: MCTCT
+local: model_doc/mms
+    tit

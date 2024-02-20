@@ -1,0 +1,9 @@
+urce to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+ViTMSNConfig
+[[autodoc]] ViTMSNConfig
+ViTMSNModel
+[[autodoc]] ViTMSNModel
+    - forward
+ViTMSNForImageClassification
+[[autodoc]] ViTMSNForImageClassification
+    - forward

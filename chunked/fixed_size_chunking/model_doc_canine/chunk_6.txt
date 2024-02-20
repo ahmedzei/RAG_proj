@@ -1,0 +1,13 @@
+ple
+CANINE works on raw characters, so it can be used without a tokenizer:
+thon
+
+from transformers import CanineModel
+import torch
+model = CanineModel.from_pretrained("google/canine-c")  # model pre-trained with autoregressive character loss
+text = "hello world"
+use Python's built-in ord() function to turn each character into its unicode code point id
+input_ids = torch.tensor([[ord(char) for char in text]])
+outputs = model(input_ids)  # forward pass
+pooled_output = outputs.pooler_output
+sequence_output = ou

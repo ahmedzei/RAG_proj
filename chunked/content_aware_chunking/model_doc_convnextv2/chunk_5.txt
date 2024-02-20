@@ -1,0 +1,4 @@
+We also provide pre-trained ConvNeXt V2 models of various sizes, ranging from an efficient 3.7M-parameter Atto model with 76.7% top-1 accuracy on ImageNet, to a 650M Huge model that achieves a state-of-the-art 88.9% accuracy using only public training data.
+
+ ConvNeXt V2 architecture. Taken from the original paper.
+This model was contributed by adirik.

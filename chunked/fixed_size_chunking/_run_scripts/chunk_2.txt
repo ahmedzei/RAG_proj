@@ -1,0 +1,11 @@
+ability.
+This guide will show you how to run an example summarization training script in PyTorch and TensorFlow. All examples are expected to work with both frameworks unless otherwise specified.
+Setup
+To successfully run the latest version of the example scripts, you have to install 🤗 Transformers from source in a new virtual environment:
+
+git clone https://github.com/huggingface/transformers
+cd transformers
+pip install .
+For older versions of the example scripts, click on the toggle below:
+
+Examples for o

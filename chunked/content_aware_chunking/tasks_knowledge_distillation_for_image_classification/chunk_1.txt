@@ -1,0 +1,2 @@
+Next, we train the student model to minimize the difference between it's outputs and the teacher's outputs, thus making it mimic the behavior. It was first introduced in Distilling the Knowledge in a Neural Network by Hinton et al. In this guide, we will do task-specific knowledge distillation. We will use the beans dataset for this.
+This guide demonstrates how you can distill a fine-tuned ViT model (teacher model) to a MobileNet (student model) using the Trainer API of 🤗 Transformers.

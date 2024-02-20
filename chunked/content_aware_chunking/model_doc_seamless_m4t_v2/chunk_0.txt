@@ -1,0 +1,4 @@
+SeamlessM4T-v2
+Overview
+The SeamlessM4T-v2 model was proposed in Seamless: Multilingual Expressive and Streaming Speech Translation by the Seamless Communication team from Meta AI.
+SeamlessM4T-v2 is a collection of models designed to provide high quality translation, allowing people from different linguistic communities to communicate effortlessly through speech and text. It is an improvement on the previous version.

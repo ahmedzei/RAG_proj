@@ -1,0 +1,7 @@
+We also
+propose novel applications to genomics data.
+The original code can be found here.
+Usage tips
+
+For an in-detail explanation on how BigBird's attention works, see this blog post.
+BigBird comes with 2 implementations: original_full & block_sparse.

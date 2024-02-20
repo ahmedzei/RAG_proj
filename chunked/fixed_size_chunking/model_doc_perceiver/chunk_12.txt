@@ -1,0 +1,13 @@
+rImageProcessor
+[[autodoc]] PerceiverImageProcessor
+    - preprocess
+PerceiverTextPreprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverTextPreprocessor
+PerceiverImagePreprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverImagePreprocessor
+PerceiverOneHotPreprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverOneHotPreprocessor
+PerceiverAudioPreprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverAudioPreprocessor
+PerceiverMultimodalPreprocessor
+[[a

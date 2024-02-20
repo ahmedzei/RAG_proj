@@ -1,0 +1,22 @@
+: Causal language modeling
+local: tasks/masked_language_modeling
+  title: Masked language modeling
+local: tasks/translation
+  title: Translation
+local: tasks/summarization
+  title: Summarization
+local: tasks/multiple_choice
+  title: Multiple choice
+title: Natural Language Processing
+
+isExpanded: false
+    sections:
+local: tasks/audio_classification
+  title: Audio classification
+local: tasks/asr
+  title: Automatic speech recognition
+title: Audio
+
+isExpanded: false
+    sections:
+local: tasks/image_classificat

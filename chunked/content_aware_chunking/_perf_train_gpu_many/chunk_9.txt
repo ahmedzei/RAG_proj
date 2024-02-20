@@ -1,0 +1,7 @@
+GPU 0 reads the batch of data and then sends a mini-batch to each GPU.
+   2. The up-to-date model is replicated from GPU 0 to each GPU. 
+   3. forward is executed, and output from each GPU is sent to GPU 0 to compute the loss.
+   4. The loss is distributed from GPU 0 to all GPUs, and backward is run. 
+   5. Gradients from each GPU are sent to GPU 0 and averaged. 
+Key differences include:
+1.

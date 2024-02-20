@@ -1,0 +1,9 @@
+.0-base-zh")
+Model checkpoints
+|     Model Name      | Language |           Description           |
+|:-------------------:|:--------:|:-------------------------------:|
+|  ernie-1.0-base-zh  | Chinese  | Layer:12, Heads:12, Hidden:768  |
+|  ernie-2.0-base-en  | English  | Layer:12, Heads:12, Hidden:768  |
+| ernie-2.0-large-en  | English  | Layer:24, Heads:16, Hidden:1024 |
+|  ernie-3.0-base-zh  | Chinese  | Layer:12, Heads:12, Hidden:768  |
+| ernie-3.0-medium-zh | Chinese  |  Layer:6, Heads:12, Hidden:768  

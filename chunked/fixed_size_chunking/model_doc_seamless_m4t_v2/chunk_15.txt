@@ -1,0 +1,5 @@
+seq2seq) models. The first model translates the input modality into translated text, while the second model generates speech tokens, known as "unit tokens," from the translated text.
+Each modality has its own dedicated encoder with a unique architecture. Additionally, for speech output, a vocoder inspired by the HiFi-GAN architecture is placed on top of the second seq2seq model.
+Difference with SeamlessM4T-v1
+The architecture of this new version differs from the first in a few aspects:
+Improvements on the s

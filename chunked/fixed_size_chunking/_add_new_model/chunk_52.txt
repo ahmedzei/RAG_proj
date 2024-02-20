@@ -1,0 +1,5 @@
+odeling_brand_new_bert.py will either have the same architecture as BERT if
+it's an encoder-only model or BART if it's an encoder-decoder model. At this point, you should remind yourself what
+you've learned in the beginning about the theoretical aspects of the model: How is the model different from BERT or
+BART?". Implement those changes which often means changing the self-attention layer, the order of the normalization
+layer, etc… Again, it is often useful to look at the similar architecture of already exi

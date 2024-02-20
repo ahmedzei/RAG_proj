@@ -1,0 +1,11 @@
+_rate, return_tensors="pt"
+ ).input_features
+Generate token ids
+predicted_ids = model.generate(input_features)
+Decode token ids to text
+transcription = processor.batch_decode(predicted_ids, skip_special_tokens=True)
+transcription[0]
+' Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.'
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with Whisper. If you're interested in submitting a resource to be included here

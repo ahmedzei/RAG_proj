@@ -1,0 +1,6 @@
+In this case, we prefer to only support inference in Transformers and let the third-party library maintained by the ML community deal with the model quantization itself.
+Build a new HFQuantizer class
+
+Create a new quantization config class inside src/transformers/utils/quantization_config.py and make sure to expose the new quantization config inside Transformers main init by adding it to the _import_structure object of src/transformers/init.py.
+
+Create a new file inside src/transformers/quantizers/ named quantizer_your_method.py, and make it inherit from src/transformers/quantizers/base.py::HfQuantizer.

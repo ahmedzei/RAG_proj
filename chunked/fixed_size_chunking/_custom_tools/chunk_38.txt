@@ -1,0 +1,15 @@
+image_generator
+- video_generator
+- image_upscaler
+Note how image_upscaler is now part of the agents' toolbox.
+Let's now try out the new tools! We will re-use the image we generated in Transformers Agents Quickstart.
+
+from diffusers.utils import load_image
+image = load_image(
+    "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/rivers_and_lakes.png"
+)
+
+ 
+Let's transform the image into a beautiful winter landscape:
+py
+image = agent.run("Transform the image: 'A froze

@@ -1,0 +1,29 @@
+ken_class
+['O',
+ 'O',
+ 'B-location',
+ 'I-location',
+ 'B-group',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'B-location',
+ 'B-location',
+ 'O',
+ 'O']
+
+Tokenize the text and return TensorFlow tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("stevhliu/my_awesome_wnut_model")
+inputs = tokenizer(text, return_tensors="tf")
+
+Pass your inputs to the model and return the logits:
+
+from transformers import TFAutoModelForTokenClassification
+model = TFAutoModelForTokenClass

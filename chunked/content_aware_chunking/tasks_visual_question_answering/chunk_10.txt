@@ -1,0 +1,4 @@
+Moreover, rather than just creating a one-hot encoded vector, one creates a 
+soft encoding, based on the number of times a certain answer appeared in the annotations.
+For instance, in the example above, because the answer "down" is selected way more often than other answers, it has a 
+score (called weight in the dataset) of 1.0, and the rest of the answers have scores < 1.0.

@@ -1,0 +1,5 @@
+The model takes as input Mel filterbank features from a 16Khz audio signal.
+The abstract from the paper is the following:
+Semi-supervised learning through pseudo-labeling has become a staple of state-of-the-art monolingual
+speech recognition systems. In this work, we extend pseudo-labeling to massively multilingual speech
+recognition with 60 languages.

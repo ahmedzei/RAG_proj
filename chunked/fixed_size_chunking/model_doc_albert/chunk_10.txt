@@ -1,0 +1,21 @@
+c]] models.albert.modeling_tf_albert.TFAlbertForPreTrainingOutput
+
+AlbertModel
+[[autodoc]] AlbertModel
+    - forward
+AlbertForPreTraining
+[[autodoc]] AlbertForPreTraining
+    - forward
+AlbertForMaskedLM
+[[autodoc]] AlbertForMaskedLM
+    - forward
+AlbertForSequenceClassification
+[[autodoc]] AlbertForSequenceClassification
+    - forward
+AlbertForMultipleChoice
+[[autodoc]] AlbertForMultipleChoice
+AlbertForTokenClassification
+[[autodoc]] AlbertForTokenClassification
+    - forward
+AlbertForQuestionAnswering
+[[au

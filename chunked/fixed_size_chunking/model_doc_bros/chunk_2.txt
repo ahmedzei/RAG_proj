@@ -1,0 +1,3 @@
+rosModel. It predicts the label of each token.
+BrosSpadeEEForTokenClassification has an initial_token_classifier and subsequent_token_classifier on top of BrosModel. initial_token_classifier is used to predict the first token of each entity, and subsequent_token_classifier is used to predict the next token of within entity. BrosSpadeELForTokenClassification has an entity_linker on top of BrosModel. entity_linker is used to predict the relation between two entities.
+BrosForTokenClassification and BrosSpadeEE

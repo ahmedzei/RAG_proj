@@ -1,0 +1,2 @@
+For this, simply load the model with device="auto" which will automatically place the different layers on the available GPUs as explained here.
+Note, however that while very effective, this naive pipeline parallelism does not tackle the issues of GPU idling.

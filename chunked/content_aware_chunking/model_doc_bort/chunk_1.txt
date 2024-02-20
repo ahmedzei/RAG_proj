@@ -1,0 +1,5 @@
+It is an optimal subset of architectural parameters for the BERT, which the
+authors refer to as "Bort".
+The abstract from the paper is the following:
+We extract an optimal subset of architectural parameters for the BERT architecture from Devlin et al. (2018) by
+applying recent breakthroughs in algorithms for neural architecture search.

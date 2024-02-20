@@ -1,0 +1,4 @@
+At training time, scale augmentation is used such that the shortest side is randomly set to at
+  least 480 and at most 800 pixels. At inference time, the shortest side is set to 800. One can use
+  [~transformers.DetrImageProcessor] to prepare images (and optional annotations in COCO format) for the
+  model. Due to this resizing, images in a batch can have different sizes.

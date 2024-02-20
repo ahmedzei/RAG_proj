@@ -1,0 +1,9 @@
+s setup, the input sequence and output sequence are a standard sequence-to-sequence input-output mapping.
+Suppose that we want to fine-tune the model for translation for example, and we have a training example: the input
+sequence "The house is wonderful." and output sequence "Das Haus ist wunderbar.", then they should be prepared for
+the model as follows:
+thon
+
+from transformers import T5Tokenizer, T5ForConditionalGeneration
+tokenizer = T5Tokenizer.from_pretrained("google-t5/t5-small")
+model = T5ForConditio

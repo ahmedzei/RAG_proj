@@ -1,0 +1,6 @@
+art GPU memory management system which also allows you to fit bigger models and data batches.
+
+Set the allgather_bucket_size and reduce_bucket_size values to 2e8 in the ZeRO-2 configuration file to get better performance on a single GPU.
+
+Multi-node deployment
+A node is one or more GPUs for running a workload. A more powerful setup is a multi-node setup which can be launched with the deepspeed launcher. For this guide, let's assume there are two nodes with 8 GPUs each. The first node can be accessed ssh hos

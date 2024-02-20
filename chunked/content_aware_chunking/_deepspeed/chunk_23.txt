@@ -1,0 +1,4 @@
+But reduce this value if you encounter an OOM error.
+stage3_gather_16bit_weights_on_model_save consolidates fp16 weights when a model is saved. For large models and multiple GPUs, this is an expensive in terms of memory and speed. You should enable it if you're planning on resuming training.
+
+sub_group_size controls which parameters are updated during the optimizer step. Parameters are grouped into buckets of sub_group_size and each bucket is updated one at a time.

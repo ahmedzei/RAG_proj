@@ -1,0 +1,5 @@
+If you see something strange, file a Github Issue.
+
+Overview
+The GLPN model was proposed in Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth  by Doyeon Kim, Woonghyun Ga, Pyungwhan Ahn, Donggyu Joo, Sehwan Chun, Junmo Kim.
+GLPN combines SegFormer's hierarchical mix-Transformer with a lightweight decoder for monocular depth estimation.

@@ -1,0 +1,39 @@
+It is recommended to set the model to the same precision type as written in the config when loading with from_pretrained(, torch_dtype=) except when the original type is float32 in which case one can use both float16 or bfloat16 for inference.
+Let's define a flush() function to free all allocated memory so that we can accurately measure the peak allocated GPU memory.
+thon
+del pipe
+del model
+import gc
+import torch
+def flush():
+  gc.collect()
+  torch.cuda.empty_cache()
+  torch.cuda.reset_peak_memory_stats()
+
+Let's call it now for the next experiment.
+python
+flush()
+In the recent version of the accelerate library, you can also use an utility method called release_memory()
+thon
+from accelerate.utils import release_memory
+
+release_memory(model)
+
+Now what if your GPU does not have 32 GB of VRAM? It has been found that model weights can be quantized to 8-bit or 4-bits without a significant loss in performance (see Dettmers et al.).
+Model can be quantized to even 3 or 2 bits with an acceptable loss in performance as shown in the recent GPTQ paper 🤯.
+Without going into too many details, quantization schemes aim at reducing the precision of weights while trying to keep the model's inference results as accurate as possible (a.k.a as close as possible to bfloat16).
+Note that quantization works especially well for text generation since all we care about is choosing the set of most likely next tokens and don't really care about the exact values of the next token logit distribution.
+All that matters is that the next token logit distribution stays roughly the same so that an argmax or topk operation gives the same results.
+There are various quantization techniques, which we won't discuss in detail here, but in general, all quantization techniques work as follows:
+
+Quantize all weights to the target precision
+
+Load the quantized weights, and pass the input sequence of vectors in bfloat16 precision
+
+Dynamically dequantize weights to bfloat16 to perform the computation with their input vectors in bfloat16 precision
+
+In a nutshell, this means that inputs-weight matrix multiplications, with \( X \) being the inputs, \( W \) being a weight matrix and \( Y \) being the output:
+$$ Y = X * W $$
+are changed to
+$$ Y = X * \text{dequantize}(W) $$
+for every matrix multiplication.

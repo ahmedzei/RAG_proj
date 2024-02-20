@@ -1,0 +1,9 @@
+andNewBertMainLayer, a Keras
+   layer subclass (example).
+   TFBrandNewBertModel will simply be a wrapper around this layer.
+- Keras models need to be built in order to load pretrained weights. For that reason, TFBrandNewBertPreTrainedModel
+   will need to hold an example of inputs to the model, the dummy_inputs
+   (example).
+- If you get stuck, ask for help - we're here to help you! 🤗
+In addition to the model file itself, you will also need to add the pointers to the model classes and related
+documentation

@@ -1,0 +1,20 @@
+ngformerForMaskedLM
+[[autodoc]] LongformerForMaskedLM
+    - forward
+LongformerForSequenceClassification
+[[autodoc]] LongformerForSequenceClassification
+    - forward
+LongformerForMultipleChoice
+[[autodoc]] LongformerForMultipleChoice
+    - forward
+LongformerForTokenClassification
+[[autodoc]] LongformerForTokenClassification
+    - forward
+LongformerForQuestionAnswering
+[[autodoc]] LongformerForQuestionAnswering
+    - forward
+
+TFLongformerModel
+[[autodoc]] TFLongformerModel
+    - call
+TFLongformerForMaskedLM

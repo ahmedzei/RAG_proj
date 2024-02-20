@@ -1,0 +1,7 @@
+This is in
+  contrast with the original ViT model, which used external data like the JFT-300M dataset/Imagenet-21k for
+  pre-training.
+The authors of DeiT also released more efficiently trained ViT models, which you can directly plug into
+  [ViTModel] or [ViTForImageClassification]. Techniques like data
+  augmentation, optimization, and regularization were used in order to simulate training on a much larger dataset
+  (while only using ImageNet-1k for pre-training).

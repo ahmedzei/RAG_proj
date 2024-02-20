@@ -1,0 +1,5 @@
+odeling bidirectional contexts, denoising autoencoding based pretraining like BERT achieves
+better performance than pretraining approaches based on autoregressive language modeling. However, relying on
+corrupting the input with masks, BERT neglects dependency between the masked positions and suffers from a
+pretrain-finetune discrepancy. In light of these pros and cons, we propose XLNet, a generalized autoregressive
+pretraining method that (1) enables learning bidirectional contexts by maximizing the expecte

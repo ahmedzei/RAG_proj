@@ -1,0 +1,50 @@
+🌎
+[DistilBertForSequenceClassification] is supported by this example script and notebook.
+[TFDistilBertForSequenceClassification] is supported by this example script and notebook.
+[FlaxDistilBertForSequenceClassification] is supported by this example script and notebook.
+Text classification task guide
+
+[DistilBertForTokenClassification] is supported by this example script and notebook.
+[TFDistilBertForTokenClassification] is supported by this example script and notebook.
+[FlaxDistilBertForTokenClassification] is supported by this example script.
+Token classification chapter of the 🤗 Hugging Face Course.
+Token classification task guide
+
+[DistilBertForMaskedLM] is supported by this example script and notebook.
+[TFDistilBertForMaskedLM] is supported by this example script and notebook.
+[FlaxDistilBertForMaskedLM] is supported by this example script and notebook.
+Masked language modeling chapter of the 🤗 Hugging Face Course.
+Masked language modeling task guide
+
+[DistilBertForQuestionAnswering] is supported by this example script and notebook.
+[TFDistilBertForQuestionAnswering] is supported by this example script and notebook.
+[FlaxDistilBertForQuestionAnswering] is supported by this example script.
+Question answering chapter of the 🤗 Hugging Face Course.
+Question answering task guide
+
+Multiple choice
+- [DistilBertForMultipleChoice] is supported by this example script and notebook.
+- [TFDistilBertForMultipleChoice] is supported by this example script and notebook.
+- Multiple choice task guide
+⚗️ Optimization
+
+A blog post on how to quantize DistilBERT with 🤗 Optimum and Intel.
+A blog post on how Optimizing Transformers for GPUs with 🤗 Optimum.
+A blog post on Optimizing Transformers with Hugging Face Optimum.
+
+⚡️ Inference
+
+A blog post on how to Accelerate BERT inference with Hugging Face Transformers and AWS Inferentia with DistilBERT.
+A blog post on Serverless Inference with Hugging Face's Transformers, DistilBERT and Amazon SageMaker.
+
+🚀 Deploy
+
+A blog post on how to deploy DistilBERT on Google Cloud.
+A blog post on how to deploy DistilBERT with Amazon SageMaker.
+A blog post on how to Deploy BERT with Hugging Face Transformers, Amazon SageMaker and Terraform module.
+
+Combining DistilBERT and Flash Attention 2
+First, make sure to install the latest version of Flash Attention 2 to include the sliding window attention feature.
+
+pip install -U flash-attn --no-build-isolation
+Make also sure that you have a hardware that is compatible with Flash-Attention 2.

@@ -1,0 +1,4 @@
+In this paper, we show that a Bernoulli sampling 
+attention mechanism based on Locality Sensitive Hashing (LSH), decreases the quadratic complexity of such models to linear. 
+We bypass the quadratic cost by considering self-attention as a sum of individual tokens associated with Bernoulli random 
+variables that can, in principle, be sampled at once by a single hash (although in practice, this number may be a small constant).

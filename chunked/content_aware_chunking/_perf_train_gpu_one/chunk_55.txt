@@ -1,0 +1,14 @@
+If for some reason you get lost, here is the index of all PyTorch NGC images.
+Next follow the instructions to download and deploy the docker image.
+Mixture of Experts
+Some recent papers reported a 4-5x training speedup and a faster inference by integrating
+Mixture of Experts (MoE) into the Transformer models.
+Since it has been discovered that more parameters lead to better performance, this technique allows to increase the 
+number of parameters by an order of magnitude without increasing training costs.
+In this approach every other FFN layer is replaced with a MoE Layer which consists of many experts, with a gated function 
+that trains each expert in a balanced way depending on the input token's position in a sequence.
+
+(source: GLAM)
+You can find exhaustive details and comparison tables in the papers listed at the end of this section.
+The main drawback of this approach is that it requires staggering amounts of GPU memory - almost an order of magnitude 
+larger than its dense equivalent.

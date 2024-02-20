@@ -1,0 +1,5 @@
+h.Size([1, 25])
+[' Here is a Python function']
+As we can see every time we increase the text input tokens by the just sampled token.
+With very few exceptions, LLMs are trained using the causal language modeling objective and therefore mask the upper triangle matrix of the attention score - this is why in the two diagrams above the attention scores are left blank (a.k.a have 0 probability). For a quick recap on causal language modeling you can refer to the Illustrated Self Attention blog.
+As a consequence, t

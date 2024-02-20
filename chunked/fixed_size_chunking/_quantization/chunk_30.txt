@@ -1,0 +1,8 @@
+.push_to_hub("bloom-560m-8bit")
+
+Quantizing a model in 4-bit reduces your memory-usage by 4x, and for large models, set device_map="auto" to efficiently use the GPUs available:
+
+from transformers import AutoModelForCausalLM
+model_4bit = AutoModelForCausalLM.from_pretrained("bigscience/bloom-1b7", device_map="auto", load_in_4bit=True)
+
+By default, all the other modules such as torch.nn.LayerNorm are converted to torch.float16. You can change the data type of these modules with the torch_dtype parameter if yo

@@ -1,0 +1,16 @@
+s
+scores = dict()
+for text in texts:
+     # prepare inputs
+     encoding = processor(image, text, return_tensors="pt")
+     outputs = model(**encoding)
+     scores[text] = outputs
+
+The following example shows how to run image-text retrieval using [BridgeTowerProcessor] and [BridgeTowerForImageAndTextRetrieval].
+thon
+
+from transformers import BridgeTowerProcessor, BridgeTowerForImageAndTextRetrieval
+import requests
+from PIL import Image
+url = "http://images.cocodataset.org/val2017/000000039769.jpg"
+image = I

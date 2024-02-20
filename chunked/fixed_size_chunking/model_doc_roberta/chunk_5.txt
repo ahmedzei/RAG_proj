@@ -1,0 +1,7 @@
+ Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A blog on Getting Started with Sentiment Analysis on Twitter using RoBERTa and the Inference API.
+A blog on Opinion Classification with Kili and Hugging Face AutoTrain using RoBERTa.
+A notebook on how to finetune RoBERTa for sentiment analysis. 🌎
+[RobertaForSequenceClassification] is supported by this example script and notebook.
+[TFRobertaForSequenceClassification] is suppo

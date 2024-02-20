@@ -1,0 +1,2 @@
+rovement on ActivityNet Captions) and achieves 5× inference acceleration over TVG using 3D visual features.
+This research addresses temporal video grounding (TVG), which is the process of pinpointing the start and end times of specific events in a long video, as described by a text sentence. Text-visual prompting (TVP), is proposed to enhance TVG. TVP involves integrating specially designed patterns, known as 'prompts', into both the visual (image-based) and textual (word-based) input components of a TVG mo

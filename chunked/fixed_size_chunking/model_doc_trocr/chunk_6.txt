@@ -1,0 +1,11 @@
+geProcessor] class is responsible for preprocessing the input image and
+[RobertaTokenizer/XLMRobertaTokenizer] decodes the generated target tokens to the target string. The
+[TrOCRProcessor] wraps [ViTImageProcessor/DeiTImageProcessor] and [RobertaTokenizer/XLMRobertaTokenizer]
+into a single instance to both extract the input features and decode the predicted token ids.
+
+Step-by-step Optical Character Recognition (OCR)
+
+``` py
+
+from transformers import TrOCRProcessor, VisionEncoderDecoderModel
+import request

@@ -1,0 +1,29 @@
+The original code can be found here.
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+NystromformerConfig
+[[autodoc]] NystromformerConfig
+NystromformerModel
+[[autodoc]] NystromformerModel
+    - forward
+NystromformerForMaskedLM
+[[autodoc]] NystromformerForMaskedLM
+    - forward
+NystromformerForSequenceClassification
+[[autodoc]] NystromformerForSequenceClassification
+    - forward
+NystromformerForMultipleChoice
+[[autodoc]] NystromformerForMultipleChoice
+    - forward
+NystromformerForTokenClassification
+[[autodoc]] NystromformerForTokenClassification
+    - forward
+NystromformerForQuestionAnswering
+[[autodoc]] NystromformerForQuestionAnswering
+    - forward.

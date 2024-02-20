@@ -1,0 +1,11 @@
+ormers with the following command:
+
+cd ~/transformers/
+git pull
+Your Python environment will find the main version of 🤗 Transformers on the next run.
+Install with conda
+Install from the conda channel conda-forge:
+
+conda install conda-forge::transformers
+Cache setup
+Pretrained models are downloaded and locally cached at: ~/.cache/huggingface/hub. This is the default directory given by the shell environment variable TRANSFORMERS_CACHE. On Windows, the default directory is given by C:\Users\username\.cache\hug

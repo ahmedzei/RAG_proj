@@ -1,0 +1,5 @@
+the aim is to reduce the risk of wildfires. nearly 800, 000 customers were expected to be affected by high winds amid dry conditions. pg & e said it scheduled the blackouts to last through at least midday tomorrow.
+
+Loading a PyTorch checkpoint into TFEncoderDecoderModel.
+[TFEncoderDecoderModel.from_pretrained] currently doesn't support initializing the model from a
+pytorch checkpoint. Passing from_pt=True to this method will throw an exception.

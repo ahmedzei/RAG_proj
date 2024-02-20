@@ -1,0 +1,22 @@
+The question is in French."
+I will use the following tools: translator to translate the question into English and then image_qa to answer the question on the input image.
+Answer:
+py
+translated_question = translator(question=question, src_lang="French", tgt_lang="English")
+print(f"The translated question is {translated_question}.")
+answer = image_qa(image=image, question=translated_question)
+print(f"The answer is {answer}")
+Task: "Identify the oldest person in the document and create an image showcasing the result as a banner."
+I will use the following tools: document_qa to find the oldest person in the document, then image_generator to generate an image according to the answer.
+Answer:
+py
+answer = document_qa(document, question="What is the oldest person?")
+print(f"The answer is {answer}.")
+image = image_generator("A banner showing " + answer)
+[]
+Task: "Draw me a picture of rivers and lakes"
+I will use the following
+`
+The introduction (the text before "Tools:") explains precisely how the model shall behave and what it should do.
+This part most likely does not need to be customized as the agent shall always behave the same way.
+The second part (the bullet points below "Tools") is dynamically added upon calling run or chat.

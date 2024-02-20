@@ -1,0 +1,79 @@
+This means you have to use the deepspeed launcher which can't be emulated as shown here.
+
+DeepSpeed requires a distributed environment even when only one process is used.
+This emulates a launcher in the notebook
+import os
+os.environ["MASTER_ADDR"] = "localhost"
+os.environ["MASTER_PORT"] = "9994"  # modify if RuntimeError: Address already in use
+os.environ["RANK"] = "0"
+os.environ["LOCAL_RANK"] = "0"
+os.environ["WORLD_SIZE"] = "1"
+Now proceed as normal, plus pass the DeepSpeed config file
+training_args = TrainingArguments(, deepspeed="ds_config_zero3.json")
+trainer = Trainer()
+trainer.train()
+
+If you want to create the config file on the fly in the notebook in the current directory, you could have a dedicated cell.
+
+%%bash
+cat <<'EOT' > ds_config_zero3.json
+{
+    "fp16": {
+        "enabled": "auto",
+        "loss_scale": 0,
+        "loss_scale_window": 1000,
+        "initial_scale_power": 16,
+        "hysteresis": 2,
+        "min_loss_scale": 1
+    },
+"optimizer": {
+    "type": "AdamW",
+    "params": {
+        "lr": "auto",
+        "betas": "auto",
+        "eps": "auto",
+        "weight_decay": "auto"
+    }
+},
+
+"scheduler": {
+    "type": "WarmupLR",
+    "params": {
+        "warmup_min_lr": "auto",
+        "warmup_max_lr": "auto",
+        "warmup_num_steps": "auto"
+    }
+},
+
+"zero_optimization": {
+    "stage": 3,
+    "offload_optimizer": {
+        "device": "cpu",
+        "pin_memory": true
+    },
+    "offload_param": {
+        "device": "cpu",
+        "pin_memory": true
+    },
+    "overlap_comm": true,
+    "contiguous_gradients": true,
+    "sub_group_size": 1e9,
+    "reduce_bucket_size": "auto",
+    "stage3_prefetch_bucket_size": "auto",
+    "stage3_param_persistence_threshold": "auto",
+    "stage3_max_live_parameters": 1e9,
+    "stage3_max_reuse_distance": 1e9,
+    "stage3_gather_16bit_weights_on_model_save": true
+},
+
+"gradient_accumulation_steps": "auto",
+"gradient_clipping": "auto",
+"steps_per_print": 2000,
+"train_batch_size": "auto",
+"train_micro_batch_size_per_gpu": "auto",
+"wall_clock_breakdown": false
+
+}
+EOT
+
+If the training script is in a file and not in a notebook cell, you can launch deepspeed normally from the shell in a notebook cell.

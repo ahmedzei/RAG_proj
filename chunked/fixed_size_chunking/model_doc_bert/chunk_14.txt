@@ -1,0 +1,22 @@
+   - call
+TFBertForMaskedLM
+[[autodoc]] TFBertForMaskedLM
+    - call
+TFBertForNextSentencePrediction
+[[autodoc]] TFBertForNextSentencePrediction
+    - call
+TFBertForSequenceClassification
+[[autodoc]] TFBertForSequenceClassification
+    - call
+TFBertForMultipleChoice
+[[autodoc]] TFBertForMultipleChoice
+    - call
+TFBertForTokenClassification
+[[autodoc]] TFBertForTokenClassification
+    - call
+TFBertForQuestionAnswering
+[[autodoc]] TFBertForQuestionAnswering
+    - call
+
+FlaxBertModel
+[[autodoc]] FlaxBertModel

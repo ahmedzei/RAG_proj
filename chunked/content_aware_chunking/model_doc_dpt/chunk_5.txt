@@ -1,0 +1,38 @@
+One can create it as follows:
+thon
+from transformers import Dinov2Config, DPTConfig, DPTForDepthEstimation
+initialize with a Transformer-based backbone such as DINOv2
+in that case, we also specify reshape_hidden_states=False to get feature maps of shape (batch_size, num_channels, height, width)
+backbone_config = Dinov2Config.from_pretrained("facebook/dinov2-base", out_features=["stage1", "stage2", "stage3", "stage4"], reshape_hidden_states=False)
+config = DPTConfig(backbone_config=backbone_config)
+model = DPTForDepthEstimation(config=config)
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with DPT.
+
+Demo notebooks for [DPTForDepthEstimation] can be found here.
+
+Semantic segmentation task guide
+
+Monocular depth estimation task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+DPTConfig
+[[autodoc]] DPTConfig
+DPTFeatureExtractor
+[[autodoc]] DPTFeatureExtractor
+    - call
+    - post_process_semantic_segmentation
+DPTImageProcessor
+[[autodoc]] DPTImageProcessor
+    - preprocess
+    - post_process_semantic_segmentation
+DPTModel
+[[autodoc]] DPTModel
+    - forward
+DPTForDepthEstimation
+[[autodoc]] DPTForDepthEstimation
+    - forward
+DPTForSemanticSegmentation
+[[autodoc]] DPTForSemanticSegmentation
+    - forward.

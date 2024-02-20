@@ -1,0 +1,2 @@
+In PyTorch, the
+name of a layer is defined by the name of the class attribute you give the layer.

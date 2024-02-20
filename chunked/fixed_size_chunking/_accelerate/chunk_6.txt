@@ -1,0 +1,13 @@
+ook like Colaboratory.
+Train with a script
+If you are running your training from a script, run the following command to create and save a configuration file:
+
+accelerate config
+Then launch your training with:
+
+accelerate launch train.py
+Train with a notebook
+🤗 Accelerate can also run in a notebook if you're planning on using Colaboratory's TPUs. Wrap all the code responsible for training in a function, and pass it to [~accelerate.notebook_launcher]:
+
+from accelerate import notebook_launcher
+notebook_launche

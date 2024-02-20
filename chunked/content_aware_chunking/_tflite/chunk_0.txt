@@ -1,0 +1,6 @@
+Export to TFLite
+TensorFlow Lite is a lightweight framework for deploying machine learning models 
+on resource-constrained devices, such as mobile phones, embedded systems, and Internet of Things (IoT) devices. 
+TFLite is designed to optimize and run models efficiently on these devices with limited computational power, memory, and 
+power consumption.
+A TensorFlow Lite model is represented in a special efficient portable format identified by the .tflite file extension.

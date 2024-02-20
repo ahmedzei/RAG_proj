@@ -1,0 +1,11 @@
+dimension which the tokenizer adds by default
+         encoding = {key: val.squeeze(0) for key, val in encoding.items()}
+         # add the float_answer which is also required (weak supervision for aggregation case)
+         encoding["float_answer"] = torch.tensor(item.float_answer)
+         return encoding
+     def len(self):
+         return len(self.data)
+
+data = pd.read_csv(tsv_path, sep="\t")
+train_dataset = TableDataset(data, tokenizer)
+train_dataloader = torch.utils.data.DataLoader(train_dataset, batc

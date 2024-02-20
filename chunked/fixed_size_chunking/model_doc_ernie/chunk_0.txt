@@ -1,0 +1,13 @@
+
+ERNIE
+Overview
+ERNIE is a series of powerful models proposed by baidu, especially in Chinese tasks,
+including ERNIE1.0, ERNIE2.0,
+ERNIE3.0, ERNIE-Gram, ERNIE-health, etc.
+These models are contributed by nghuyong and the official code can be found in PaddleNLP (in PaddlePaddle).
+Usage example
+Take ernie-1.0-base-zh as an example:
+Python
+from transformers import AutoTokenizer, AutoModel
+tokenizer = AutoTokenizer.from_pretrained("nghuyong/ernie-1.0-base-zh")
+model = AutoModel.from_pretrained("nghuyong/ernie-1

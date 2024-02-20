@@ -1,0 +1,10 @@
+ be answered from the image
+* image_id: the path to the image the question refers to
+* label: the annotations
+We can remove the rest of the features as they won't be necessary: 
+ 
+
+dataset = dataset.remove_columns(['question_type', 'question_id', 'answer_type'])
+
+As you can see, the label feature contains several answers to the same question (called ids here) collected by different human annotators. 
+This is because the answer to a question can be subjective. In this case, the question is "where is he looki

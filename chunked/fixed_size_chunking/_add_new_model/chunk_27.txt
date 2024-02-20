@@ -1,0 +1,7 @@
+here multiple different attention layers,
+  e.g. self-attention, cross-attention?
+How can you debug the model in the original environment of the repo? Do you have to add print statements, can you
+  work with an interactive debugger like ipdb, or should you use an efficient IDE to debug the model, like PyCharm?
+
+It is very important that before you start the porting process, you can efficiently debug code in the original
+repository! Also, remember that you are working with an open-source library, so do not h

@@ -1,0 +1,9 @@
+score, "label": candidate_label}
+     for score, candidate_label in sorted(zip(probs, candidate_labels), key=lambda x: -x[0])
+ ]
+result
+[{'score': 0.998572, 'label': 'car'},
+ {'score': 0.0010570387, 'label': 'bike'},
+ {'score': 0.0003393686, 'label': 'tree'},
+ {'score': 3.1572064e-05, 'label': 'cat'}]
+

@@ -1,0 +1,20 @@
+e: ONNX
+local: main_classes/optimizer_schedules
+  title: Optimization
+local: main_classes/output
+  title: Model outputs
+local: main_classes/pipelines
+  title: Pipelines
+local: main_classes/processors
+  title: Processors
+local: main_classes/quantization
+  title: Quantization
+local: main_classes/tokenizer
+  title: Tokenizer
+local: main_classes/trainer
+  title: Trainer
+local: main_classes/deepspeed
+  title: DeepSpeed
+local: main_classes/feature_extractor
+  title: Feature Extractor
+local: main_classes/image_pro

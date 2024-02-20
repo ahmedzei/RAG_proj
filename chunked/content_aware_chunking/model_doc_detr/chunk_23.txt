@@ -1,0 +1,4 @@
+For evaluation, one should first convert the
+outputs of the model using one of the postprocessing methods of [~transformers.DetrImageProcessor]. These can
+be be provided to either CocoEvaluator or PanopticEvaluator, which allow you to calculate metrics like
+mean Average Precision (mAP) and Panoptic Quality (PQ). The latter objects are implemented in the original repository.

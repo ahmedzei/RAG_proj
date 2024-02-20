@@ -1,0 +1,7 @@
+} = \begin{cases}
+X^{1}{i, k}, & \text{if }\ i < d^1 \text{ with } k = j \mod n_s^1 \
+X^{2}{i - d^1, l}, & \text{if } i \ge d^1 \text{ with } l = \lfloor\frac{j}{n_s^1}\rfloor
+\end{cases}$$
+Intuitively, this means that a position embedding vector \(x_j \in \mathbb{R}^{d}\) is now the composition of two
+factorized embedding vectors: \(x^1_{k, l} + x^2_{l, k}\), where as the config.max_embedding_size dimension
+\(j\) is factorized into \(k \text{ and } l\). This design ensures that each position embedding vect

@@ -1,0 +1,6 @@
+RoCBert
+Overview
+The RoCBert model was proposed in RoCBert: Robust Chinese Bert with Multimodal Contrastive Pretraining  by HuiSu, WeiweiShi, XiaoyuShen, XiaoZhou, TuoJi, JiaruiFang, JieZhou.
+It's a pretrained Chinese language model that is robust under various forms of adversarial attacks.
+The abstract from the paper is the following:
+Large-scale pretrained language models have achieved SOTA results on NLP tasks.

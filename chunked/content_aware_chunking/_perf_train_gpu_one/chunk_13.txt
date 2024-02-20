@@ -1,0 +1,3 @@
+This is because there are other components that also require memory storage.
+Saving all activations from the forward pass in order to compute the gradients during the backward pass can result in 
+significant memory overhead.

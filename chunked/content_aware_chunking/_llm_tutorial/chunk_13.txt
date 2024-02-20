@@ -1,0 +1,4 @@
+Since LLMs are not trained to continue from pad tokens, your input needs to be left-padded. Make sure you also don't forget to pass the attention mask to generate!
+
+The tokenizer initialized above has right-padding active by default: the 1st sequence,
+which is shorter, has padding on the right side.

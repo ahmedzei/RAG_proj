@@ -1,0 +1,9 @@
+puts
+similarly to the way LLaMA formats them (note that the real LLaMA template includes handling for default system
+messages and slightly different system message handling in general - don't use this one in your actual code!)
+{% for message in messages %}
+    {% if message['role'] == 'user' %}
+        {{ bos_token + '[INST] ' + message['content'] + ' [/INST]' }}
+    {% elif message['role'] == 'system' %}
+        {{ '<<SYS>>\\n' + message['content'] + '\\n<</SYS>>\\n\\n' }}
+    {% elif message['role'] == 'a

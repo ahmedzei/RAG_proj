@@ -1,0 +1,7 @@
+ huge number of frames dumped - as many as there were forward calls in your model, so it may or may
+not what you want, but sometimes it can be easier to use for debugging purposes than a normal debugger. For example, if
+a problem starts happening at batch number 150. So you can dump traces for batches 149 and 150 and compare where
+numbers started to diverge.
+You can also specify the batch number after which to stop the training, with:
+python
+debug_overflow = DebugUnderflowOverflow(model, trace_batch_nums=[1

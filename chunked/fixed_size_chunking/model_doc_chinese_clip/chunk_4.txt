@@ -1,0 +1,10 @@
+sor.from_pretrained("OFA-Sys/chinese-clip-vit-base-patch16")
+url = "https://clip-cn-beijing.oss-cn-beijing.aliyuncs.com/pokemon.jpeg"
+image = Image.open(requests.get(url, stream=True).raw)
+Squirtle, Bulbasaur, Charmander, Pikachu in English
+texts = ["杰尼龟", "妙蛙种子", "小火龙", "皮卡丘"]
+compute image feature
+inputs = processor(images=image, return_tensors="pt")
+image_features = model.get_image_features(**inputs)
+image_features = image_features / image_features.norm(p=2, dim=-1, keepdim=True)  # normalize
+compute tex

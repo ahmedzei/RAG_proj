@@ -1,0 +1,15 @@
+mpute_metrics=compute_metrics,
+)
+To start training, simply call [~Trainer.train] on the [Trainer] object.
+python 
+trainer.train()
+You should see the training loss drop smoothly as training progresses.
+Once training is completed, share your model to the Hub with the [~Trainer.push_to_hub] method so everyone can use your model:
+python
+trainer.push_to_hub()
+Inference
+Take a sample image from test_ds to test the model.
+thon
+from PIL import Image
+import requests
+url = "https://huggingface.co/datasets/sayakpaul/s

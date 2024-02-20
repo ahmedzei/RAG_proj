@@ -1,0 +1,15 @@
+ments to [Seq2SeqTrainer] along with the model, dataset, tokenizer, data collator, and compute_metrics function.
+Call [~Trainer.train] to finetune your model.
+
+training_args = Seq2SeqTrainingArguments(
+     output_dir="my_awesome_billsum_model",
+     evaluation_strategy="epoch",
+     learning_rate=2e-5,
+     per_device_train_batch_size=16,
+     per_device_eval_batch_size=16,
+     weight_decay=0.01,
+     save_total_limit=3,
+     num_train_epochs=4,
+     predict_with_generate=True,
+     fp16=True,
+     push_t

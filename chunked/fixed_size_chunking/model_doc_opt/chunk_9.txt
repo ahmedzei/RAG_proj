@@ -1,0 +1,30 @@
+del using two different sequence lengths.
+
+OPTConfig
+[[autodoc]] OPTConfig
+
+OPTModel
+[[autodoc]] OPTModel
+    - forward
+OPTForCausalLM
+[[autodoc]] OPTForCausalLM
+    - forward
+OPTForSequenceClassification
+[[autodoc]] OPTForSequenceClassification
+    - forward
+OPTForQuestionAnswering
+[[autodoc]] OPTForQuestionAnswering
+    - forward
+
+TFOPTModel
+[[autodoc]] TFOPTModel
+    - call
+TFOPTForCausalLM
+[[autodoc]] TFOPTForCausalLM
+    - call
+
+FlaxOPTModel
+[[autodoc]] FlaxOPTModel
+    - call
+FlaxOPTForCausalLM
+[[auto

@@ -1,0 +1,7 @@
+or example,
+Perceiver IO can do BERT-style masked language modeling directly using bytes instead of tokenized inputs.
+The abstract from the paper is the following:
+The recently-proposed Perceiver model obtains good results on several domains (images, audio, multimodal, point
+clouds) while scaling linearly in compute and memory with the input size. While the Perceiver supports many kinds of
+inputs, it can only produce very simple outputs such as class scores. Perceiver IO overcomes this limitation without
+sa

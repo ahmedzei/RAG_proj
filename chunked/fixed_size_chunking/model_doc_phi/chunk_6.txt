@@ -1,0 +1,7 @@
+complex reasoning tasks such as grade-school mathematics and basic
+coding. More generally, phi-1.5 exhibits many of the traits of much larger LLMs, both good –such
+as the ability to “think step by step” or perform some rudimentary in-context learning– and bad,
+including hallucinations and the potential for toxic and biased generations –encouragingly though, we
+are seeing improvement on that front thanks to the absence of web data. We open-source phi-1.5 to
+promote further research on these urgent topics.
+Th

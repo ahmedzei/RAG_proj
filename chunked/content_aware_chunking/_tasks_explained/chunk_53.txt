@@ -1,0 +1,3 @@
+This is different from BERT's [mask] token because, in masked self-attention, an attention mask is used to set the score to 0 for future tokens.
+
+The output from the decoder is passed to a language modeling head, which performs a linear transformation to convert the hidden states into logits. The label is the next token in the sequence, which are created by shifting the logits to the right by one.

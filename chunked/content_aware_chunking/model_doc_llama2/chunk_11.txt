@@ -1,0 +1,5 @@
+For the 75B model, it's thus 145GB of RAM needed.
+
+The LLaMA tokenizer is a BPE model based on sentencepiece. One quirk of sentencepiece is that when decoding a sequence, if the first token is the start of the word (e.g. "Banana"), the tokenizer does not prepend the prefix space to the string.
+
+When using Flash Attention 2 via attn_implementation="flash_attention_2", don't pass torch_dtype to the from_pretrained class method and use Automatic Mixed-Precision training.

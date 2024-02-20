@@ -1,0 +1,7 @@
+e.g., NVLINK or NVSwitch) all three strategies (PP, ZeRO, TP) should result in 
+similar performance. However, without these, PP will be faster than TP or ZeRO. The degree of TP may also 
+make a difference. It's best to experiment with your specific setup to determine the most suitable strategy.
+TP is almost always used within a single node. That is TP size <= GPUs per node.
+Case 3: Largest layer of your model does not fit onto a single GPU
+
+If you are not using ZeRO, you have to use TensorParallel (TP), bec

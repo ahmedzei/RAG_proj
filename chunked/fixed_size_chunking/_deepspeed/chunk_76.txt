@@ -1,0 +1,7 @@
+ainingArguments] class and add the --do_eval argument.
+
+deepspeed --num_gpus=2 your_program.py <normal cl args> --do_eval --deepspeed ds_config.json
+Non-Trainer DeepSpeed integration
+DeepSpeed also works with Transformers without the [Trainer] class. This is handled by the [HfDeepSpeedConfig] which only takes care of gathering ZeRO-3 parameters and splitting a model across multiple GPUs when you call [~PreTrainedModel.from_pretrained].
+
+If you want everything automatically taken care of for you, try using D

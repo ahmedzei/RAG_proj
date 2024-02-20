@@ -1,0 +1,6 @@
+ a model more attentive to the beginning or end of a prompt than the middle.
+Clearly separate instructions from the text they apply to - more on this in the next section. 
+Be specific and descriptive about the task and the desired outcome - its format, length, style, language, etc.
+Avoid ambiguous descriptions and instructions.
+Favor instructions that say "what to do" instead of those that say "what not to do".
+"Lead" the output in the right direction by writing the first word (or even begin the first sente

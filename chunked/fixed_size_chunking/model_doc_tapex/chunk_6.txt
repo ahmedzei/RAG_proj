@@ -1,0 +1,10 @@
+eights of TAPEX into a BART model.
+We use the Auto API, which will automatically instantiate the appropriate tokenizer ([TapexTokenizer]) and model ([BartForConditionalGeneration]) for us,
+based on the configuration file of the checkpoint on the hub.
+thon
+
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+import pandas as pd
+tokenizer = AutoTokenizer.from_pretrained("microsoft/tapex-large-finetuned-wtq")
+model = AutoModelForSeq2SeqLM.from_pretrained("microsoft/tapex-large-finetuned-wtq")
+prepare

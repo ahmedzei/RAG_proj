@@ -1,0 +1,5 @@
+to the nearest neighboring pixels, and therefore enjoys a
+linear time and space complexity compared to the quadratic complexity of SA. The sliding-window pattern allows NA's
+receptive field to grow without needing extra pixel shifts, and preserves translational equivariance, unlike
+Swin Transformer's Window Self Attention (WSA). We develop NATTEN (Neighborhood Attention Extension), a Python package
+with efficient C++ and CUDA kernels, which allows NA to run up to 40% faster than Swin's WSA while using up to

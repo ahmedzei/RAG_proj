@@ -1,0 +1,7 @@
+The original code can be found here.
+Usage tips
+
+This implementation is the same as [RobertaModel] with the addition of entity embeddings as well
+  as an entity-aware self-attention mechanism, which improves performance on tasks involving reasoning about entities.
+LUKE treats entities as input tokens; therefore, it takes entity_ids, entity_attention_mask,
+  entity_token_type_ids and entity_position_ids as extra input.

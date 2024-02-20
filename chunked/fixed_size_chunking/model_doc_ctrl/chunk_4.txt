@@ -1,0 +1,22 @@
+s accepts past as input. Using the past_key_values value prevents the model from re-computing
+  pre-computed values in the context of text generation. See the forward
+  method for more information on the usage of this argument.
+
+Resources
+
+Text classification task guide
+Causal language modeling task guide
+
+CTRLConfig
+[[autodoc]] CTRLConfig
+CTRLTokenizer
+[[autodoc]] CTRLTokenizer
+    - save_vocabulary
+
+CTRLModel
+[[autodoc]] CTRLModel
+    - forward
+CTRLLMHeadModel
+[[autodoc]] CTRLLMHeadModel
+    - forward
+CTR

@@ -1,0 +1,25 @@
+The processor combines an image processor that prepares the
+image for the model by resizing and normalizing it, and a tokenizer that takes care of the text inputs.
+
+candidate_labels = ["tree", "car", "bike", "cat"]
+inputs = processor(images=image, text=candidate_labels, return_tensors="pt", padding=True)
+
+Pass the inputs through the model, and post-process the results:
+
+import torch
+with torch.no_grad():
+     outputs = model(**inputs)
+logits = outputs.logits_per_image[0]
+probs = logits.softmax(dim=-1).numpy()
+scores = probs.tolist()
+result = [
+     {"score": score, "label": candidate_label}
+     for score, candidate_label in sorted(zip(probs, candidate_labels), key=lambda x: -x[0])
+ ]
+result
+[{'score': 0.998572, 'label': 'car'},
+ {'score': 0.0010570387, 'label': 'bike'},
+ {'score': 0.0003393686, 'label': 'tree'},
+ {'score': 3.1572064e-05, 'label': 'cat'}]
+
+.

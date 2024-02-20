@@ -1,0 +1,8 @@
+ following paragraphs.
+All tests that need to do a training not specifically optimized to be fast should be set to slow.
+We can introduce exceptions if some of these should-be-non-slow tests are excruciatingly slow, and set them to
+  @slow. Auto-modeling tests, which save and load large files to disk, are a good example of tests that are marked
+  as @slow.
+If a test completes under 1 second on CI (including downloads if any) then it should be a normal test regardless.
+
+Collectively, all the non-slow tests n

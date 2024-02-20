@@ -1,0 +1,2 @@
+How 🤗 Transformers solve tasks
+In What 🤗 Transformers can do, you learned about natural language processing (NLP), speech and audio, computer vision tasks, and some important applications of them. This page will look closely at how models solve these tasks and explain what's happening under the hood. There are many ways to solve a given task, some models may implement certain techniques or even approach the task from a new angle, but for Transformer models, the general idea is the same.

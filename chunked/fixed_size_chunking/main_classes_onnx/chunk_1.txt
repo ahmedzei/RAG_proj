@@ -1,0 +1,14 @@
+nfig.OnnxConfigWithPast]
+Encoder-decoder models inherit from [~onnx.config.OnnxSeq2SeqConfigWithPast]
+
+OnnxConfig
+[[autodoc]] onnx.config.OnnxConfig
+OnnxConfigWithPast
+[[autodoc]] onnx.config.OnnxConfigWithPast
+OnnxSeq2SeqConfigWithPast
+[[autodoc]] onnx.config.OnnxSeq2SeqConfigWithPast
+ONNX Features
+Each ONNX configuration is associated with a set of features that enable you
+to export models for different types of topologies or tasks.
+FeaturesManager
+[[autodoc]] onnx.features.FeaturesManager

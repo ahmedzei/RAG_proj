@@ -1,0 +1,14 @@
+ert/distilbert-base-uncased")
+   
+
+Create a function to tokenize the dataset:
+
+def tokenize_dataset(dataset):
+        return tokenizer(dataset["text"])  # doctest: +SKIP
+   
+
+Apply the tokenizer over the entire dataset with [~datasets.Dataset.map] and then pass the dataset and tokenizer to [~TFPreTrainedModel.prepare_tf_dataset]. You can also change the batch size and shuffle the dataset here if you'd like:
+
+dataset = dataset.map(tokenize_dataset)  # doctest: +SKIP
+tf_dataset = model.prepare_tf_dataset(
+   

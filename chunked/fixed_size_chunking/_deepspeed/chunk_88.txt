@@ -1,0 +1,10 @@
+ding the model AutoModelForSeq2SeqLM.from_pretrained(model_name)
+
+otherwise the model will first be loaded normally and only partitioned at forward time which is
+less efficient and when there is little CPU RAM may fail
+dschf = HfDeepSpeedConfig(ds_config)  # keep this object alive
+now a model can be loaded.
+model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
+initialise Deepspeed ZeRO and store only the engine object
+ds_engine = deepspeed.initialize(model=model, config_params=ds_config)[0]
+ds_engine.mo

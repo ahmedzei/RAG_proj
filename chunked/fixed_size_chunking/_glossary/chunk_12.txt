@@ -1,0 +1,6 @@
+ transformers the self-attention layer is usually followed by 2 feed forward layers.
+The intermediate embedding size of the feed forward layers is often bigger than the hidden size of the model (e.g., for
+google-bert/bert-base-uncased).
+For an input of size [batch_size, sequence_length], the memory required to store the intermediate feed forward
+embeddings [batch_size, sequence_length, config.intermediate_size] can account for a large fraction of the memory
+use. The authors of Reformer: The Efficient Transf

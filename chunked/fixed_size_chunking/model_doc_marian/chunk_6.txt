@@ -1,0 +1,12 @@
+anslated = model.generate(**tokenizer(src_text, return_tensors="pt", padding=True))
+[tokenizer.decode(t, skip_special_tokens=True) for t in translated]
+["c'est une phrase en anglais que nous voulons traduire en français",
+ 'Isto deve ir para o português.',
+ 'Y esto al español']
+
+Here is the code to see all available pretrained models on the hub:
+thon
+from huggingface_hub import list_models
+model_list = list_models()
+org = "Helsinki-NLP"
+model_ids = [x.modelId for x in model_list if x.modelId.startswith(org)

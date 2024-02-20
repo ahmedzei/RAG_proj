@@ -1,0 +1,5 @@
+For T5, you need to prefix your input depending on the task you're working on. For translation from English to French, you should prefix your input as shown below:
+
+text = "translate English to French: Legumes share resources with nitrogen-fixing bacteria."
+
+The simplest way to try out your finetuned model for inference is to use it in a [pipeline].

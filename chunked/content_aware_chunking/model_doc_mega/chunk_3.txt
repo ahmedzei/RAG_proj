@@ -1,0 +1,6 @@
+Extensive experiments on a wide range of sequence modeling benchmarks, including the Long Range Arena, neural machine translation, auto-regressive language modeling, and image and speech classification, show that Mega achieves significant improvements over other sequence models, including variants of Transformers and recent state space models. *
+This model was contributed by mnaylor.
+The original code can be found here.
+Usage tips
+
+MEGA can perform quite well with relatively few parameters.

@@ -1,0 +1,18 @@
+The image can be a URL or a local path to the image.
+For example, if you use this invoice image:
+
+from transformers import pipeline
+vqa = pipeline(model="impira/layoutlm-document-qa")
+vqa(
+     image="https://huggingface.co/spaces/impira/docquery/resolve/2359223c1837a7587402bda0f2643382a6eefeab/invoice.png",
+     question="What is the invoice number?",
+ )
+[{'score': 0.42515, 'answer': 'us-001', 'start': 16, 'end': 16}]
+
+To run the example above you need to have pytesseract installed in addition to 🤗 Transformers:
+
+sudo apt install -y tesseract-ocr
+pip install pytesseract
+
+Using pipeline on large models with 🤗 accelerate:
+You can easily run pipeline on large models using 🤗 accelerate! First make sure you have installed accelerate with pip install accelerate.

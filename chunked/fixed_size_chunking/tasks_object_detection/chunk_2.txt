@@ -1,0 +1,17 @@
+      features: ['image_id', 'image', 'width', 'height', 'objects'],
+        num_rows: 29
+    })
+})
+
+You'll see that this dataset already comes with a training set containing 1000 images and a test set with 29 images.
+To get familiar with the data, explore what the examples look like.
+
+cppe5["train"][0]
+{'image_id': 15,
+ 'image': ,
+ 'width': 943,
+ 'height': 663,
+ 'objects': {'id': [114, 115, 116, 117],
+  'area': [3796, 1596, 152768, 81002],
+  'bbox': [[302.0, 109.0, 73.0, 52.0],
+   [810.0, 100.0, 57.0, 28.0

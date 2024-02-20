@@ -1,0 +1,11 @@
+But it only works with non-unittests.
+Inside tests:
+
+How many GPUs are available:
+
+thon
+from transformers.testing_utils import get_gpu_count
+n_gpu = get_gpu_count()  # works with torch and tf
+
+Testing with a specific PyTorch backend or device
+To run the test suite on a specific torch device add TRANSFORMERS_TEST_DEVICE="$device" where $device is the target backend.

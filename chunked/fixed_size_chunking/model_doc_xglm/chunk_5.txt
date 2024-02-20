@@ -1,0 +1,14 @@
+GLMModel
+[[autodoc]] TFXGLMModel
+    - call
+TFXGLMForCausalLM
+[[autodoc]] TFXGLMForCausalLM
+    - call
+
+FlaxXGLMModel
+[[autodoc]] FlaxXGLMModel
+    - call
+FlaxXGLMForCausalLM
+[[autodoc]] FlaxXGLMForCausalLM
+    - call
+

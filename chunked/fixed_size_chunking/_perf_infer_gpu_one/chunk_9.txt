@@ -1,0 +1,8 @@
+, 30% of the input is filled with padding tokens):
+
+But for larger sequence lengths, you can expect even more speedup benefits:
+
+FlashAttention is more memory efficient, meaning you can train on much larger sequence lengths without running into out-of-memory issues. You can potentially reduce memory usage up to 20x for larger sequence lengths. Take a look at the flash-attention repository for more details.
+
+PyTorch scaled dot product attention
+PyTorch's torch.nn.functional.scaled_dot_product_attention (SDPA

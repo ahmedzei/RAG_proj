@@ -1,0 +1,4 @@
+ an evaluation on a dataset containing information on hundreds of speakers, UnivNet obtained the best objective and subjective results among competing models for both seen and unseen speakers. These results, including the best subjective score for text-to-speech, demonstrate the potential for fast adaptation to new speakers without a need for training from scratch.
+Tips:
+
+The noise_sequence argument for [UnivNetModel.forward] should be standard Gaussian noise (such as from torch.randn) of shape ([batch_size

@@ -1,0 +1,5 @@
+ing from language generation (with automated and human evaluation), language understanding, text classification, question answering, commonsense reasoning, long text reasoning, structured knowledge grounding and information retrieval. Our model also achieve strong results at in-context learning, outperforming 175B GPT-3 on zero-shot SuperGLUE and tripling the performance of T5-XXL on one-shot summarization.
+This model was contributed by DanielHesslow. The original code can be found here.
+Usage tips
+
+UL2 is 

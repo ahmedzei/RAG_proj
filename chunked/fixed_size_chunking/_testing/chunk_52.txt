@@ -1,0 +1,11 @@
+f test_feature_x(self):
+More details, example and ways are here.
+Slow tests
+The library of tests is ever-growing, and some of the tests take minutes to run, therefore we can't afford waiting for
+an hour for the test suite to complete on CI. Therefore, with some exceptions for essential tests, slow tests should be
+marked as in the example below:
+python no-style
+from transformers.testing_utils import slow
+@slow
+def test_integration_foo():
+Once a test is marked as @slow, to run such tests set RUN_SLOW=1 env va

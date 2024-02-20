@@ -1,0 +1,6 @@
+l look like BERT or Bart depending on the type of model you select)
+
+In both cases, you will be prompted with a questionnaire to fill in the basic information of your model. The second command requires to install cookiecutter, you can find more information on it here.
+Open a Pull Request on the main huggingface/transformers repo
+Before starting to adapt the automatically generated code, now is the time to open a “Work in progress (WIP)” pull
+request, e.g. “[WIP] Add brand_new_bert”, in 🤗 Transformers so tha

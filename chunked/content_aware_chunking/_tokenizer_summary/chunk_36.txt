@@ -1,0 +1,5 @@
+One possible solution is to use language
+specific pre-tokenizers, e.g. XLM uses a specific Chinese, Japanese, and Thai pre-tokenizer).
+To solve this problem more generally, SentencePiece: A simple and language independent subword tokenizer and
+detokenizer for Neural Text Processing (Kudo et al., 2018) treats the input
+as a raw input stream, thus including the space in the set of characters to use.

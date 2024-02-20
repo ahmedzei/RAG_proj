@@ -1,0 +1,11 @@
+s 24GB of VRAM [SEP]
+
+because this is the way a [BertModel] is going to expect its inputs.
+L
+labels
+The labels are an optional argument which can be passed in order for the model to compute the loss itself. These labels
+should be the expected prediction of the model: it will use the standard loss in order to compute the loss between its
+predictions and the expected value (the label).
+These labels are different according to the model head, for example:
+
+For sequence classification models, ([BertForSequenceCl

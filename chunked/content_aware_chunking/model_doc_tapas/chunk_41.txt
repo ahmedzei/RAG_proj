@@ -1,0 +1,2 @@
+making predictions on new data). For inference, only input_ids, attention_mask and token_type_ids (which you can obtain using [TapasTokenizer]) have to be provided to the model to obtain the logits. Next, you can use the handy [~models.tapas.tokenization_tapas.convert_logits_to_predictions] method to convert these into predicted coordinates and optional aggregation indices.
+However, note that inference is different depending on whether or not the setup is conversational.

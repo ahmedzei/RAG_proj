@@ -1,0 +1,14 @@
+ation_labels=4,
+     use_answer_as_supervision=True,
+     answer_loss_cutoff=0.664694,
+     cell_selection_preference=0.207951,
+     huber_loss_delta=0.121194,
+     init_cell_selection_weights_to_zero=True,
+     select_one_column=True,
+     allow_empty_column_selection=False,
+     temperature=0.0352513,
+ )
+model = TapasForQuestionAnswering.from_pretrained("google/tapas-base", config=config)
+optimizer = AdamW(model.parameters(), lr=5e-5)
+model.train()
+for epoch in range(2):  # loop over the dataset multiple 

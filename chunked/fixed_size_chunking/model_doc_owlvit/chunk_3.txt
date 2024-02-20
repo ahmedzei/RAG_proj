@@ -1,0 +1,6 @@
+-conditioned and one-shot image-conditioned object detection. Code and models are available on GitHub.
+
+ OWL-ViT architecture. Taken from the original paper. 
+This model was contributed by adirik. The original code can be found here.
+Usage tips
+OWL-ViT is a zero-shot text-conditioned object detection model. OWL-ViT uses CLIP as its multi-modal backbone, with a ViT-like Transformer to get visual features and a causal language model to get the text features. To use CLIP for detection, OWL-ViT removes the fina

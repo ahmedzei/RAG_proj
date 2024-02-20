@@ -1,0 +1,5 @@
+This model can be used for several downstream tasks. For the VQA task, a classifier 
+head is placed on top (a linear layer on top of the final hidden state of the [CLS] token) and randomly initialized. 
+Visual Question Answering is thus treated as a classification problem.
+More recent models, such as BLIP, BLIP-2, and InstructBLIP, treat VQA as a generative task. Later in this guide we 
+illustrate how to use them for zero-shot VQA inference.

@@ -1,0 +1,18 @@
+ward function automatically creates the correct decoder_input_ids
+loss = model(input_ids=input_ids, labels=labels).loss
+
+Detailed colab for training.
+This model was contributed by thomwolf. This model's TensorFlow and Flax versions
+were contributed by ydshieh.
+EncoderDecoderConfig
+[[autodoc]] EncoderDecoderConfig
+
+EncoderDecoderModel
+[[autodoc]] EncoderDecoderModel
+    - forward
+    - from_encoder_decoder_pretrained
+
+TFEncoderDecoderModel
+[[autodoc]] TFEncoderDecoderModel
+    - call
+    - from_encoder_decod

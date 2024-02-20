@@ -1,0 +1,17 @@
+age3_param_persistence_threshold are dependent on a model's hidden size. It is recommended to set these values to auto and allow the [Trainer] to automatically assign the values.
+
+yml
+{
+    "zero_optimization": {
+        "stage": 3,
+        "offload_optimizer": {
+            "device": "cpu",
+            "pin_memory": true
+        },
+        "offload_param": {
+            "device": "cpu",
+            "pin_memory": true
+        },
+        "overlap_comm": true,
+        "contiguous_gradients": true,
+        "su

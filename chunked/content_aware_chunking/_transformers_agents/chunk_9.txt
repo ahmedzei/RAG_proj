@@ -1,0 +1,4 @@
+It's important to explain as clearly as possible the task you want to perform. We go more in-depth
+on how to write good prompts here.
+If you'd like to keep a state across executions or to pass non-text objects to the agent, you can do so by specifying
+variables that you would like the agent to use.

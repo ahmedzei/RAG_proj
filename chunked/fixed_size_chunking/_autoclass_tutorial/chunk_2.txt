@@ -1,0 +1,15 @@
+torial, learn to:
+
+Load a pretrained tokenizer.
+Load a pretrained image processor
+Load a pretrained feature extractor.
+Load a pretrained processor.
+Load a pretrained model.
+Load a model as a backbone.
+
+AutoTokenizer
+Nearly every NLP task begins with a tokenizer. A tokenizer converts your input into a format that can be processed by the model.
+Load a tokenizer with [AutoTokenizer.from_pretrained]:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-uncased

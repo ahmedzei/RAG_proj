@@ -1,0 +1,8 @@
+Please refer to the
+SpeechEncoderDecoder class on how to combine Speech2Text2 with any speech encoder-only
+model.
+This model was contributed by Patrick von Platen.
+The original code can be found here.
+Usage tips
+
+Speech2Text2 achieves state-of-the-art results on the CoVoST Speech Translation dataset.

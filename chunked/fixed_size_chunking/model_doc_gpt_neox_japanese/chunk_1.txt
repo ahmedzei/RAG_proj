@@ -1,0 +1,7 @@
+s from Google's research on PaLM, we have removed bias parameters from transformer blocks, achieving better model performance. Please refer this article in detail.
+Development of the model was led by Shinya Otani, Takayoshi Makabe, Anuj Arora, and Kyo Hattori from ABEJA, Inc.. For more information on this model-building activity, please refer here (ja).
+Usage example
+The generate() method can be used to generate text using GPT NeoX Japanese model.
+thon
+
+from transformers import GPTNeoXJapaneseForCausalLM, G

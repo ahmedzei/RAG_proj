@@ -1,0 +1,7 @@
+rom experience, we can tell you that the most important things to keep in mind when adding a model are:
+
+Don't reinvent the wheel! Most parts of the code you will add for the new 🤗 Transformers model already exist
+  somewhere in 🤗 Transformers. Take some time to find similar, already existing models and tokenizers you can copy
+  from. grep and rg are your
+  friends. Note that it might very well happen that your model's tokenizer is based on one model implementation, and
+  your model's modeling code on anoth

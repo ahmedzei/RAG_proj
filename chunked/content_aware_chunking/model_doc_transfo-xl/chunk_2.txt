@@ -1,0 +1,7 @@
+Le, Ruslan
+Salakhutdinov. It's a causal (uni-directional) transformer with relative positioning (sinusoïdal) embeddings which can
+reuse previously computed hidden-states to attend to longer context (memory). This model also uses adaptive softmax
+inputs and outputs (tied).
+The abstract from the paper is the following:
+Transformers have a potential of learning longer-term dependency, but are limited by a fixed-length context in the
+setting of language modeling.

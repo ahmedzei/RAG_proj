@@ -1,0 +1,6 @@
+Although 3D inputs offer more spatial-temporal detail, they are also more time-consuming to process. The use of 2D inputs with the prompting method aims to provide similar levels of context and accuracy more efficiently.
+
+ TVP architecture. Taken from the original paper. 
+This model was contributed by Jiqing Feng. The original code can be found here.
+Usage tips and examples
+Prompts are optimized perturbation patterns, which would be added to input video frames or text features.

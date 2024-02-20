@@ -1,0 +1,10 @@
+t-in features, 
+such as DataParallel (DP) and DistributedDataParallel (DDP). Note that 
+PyTorch documentation recommends to prefer 
+DistributedDataParallel (DDP) over DataParallel (DP) for multi-GPU training as it works for all models.
+Let's take a look at how these two methods work and what makes them different.
+DataParallel vs DistributedDataParallel
+To understand the key differences in inter-GPU communication overhead between the two methods, let's review the processes per batch:
+DDP:
+
+At the start time 

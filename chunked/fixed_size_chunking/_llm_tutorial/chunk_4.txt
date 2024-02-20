@@ -1,0 +1,6 @@
+ation.GenerationMixin.generate] does its best effort to infer the attention mask when it is not passed, we recommend passing it whenever possible for optimal results.
+After tokenizing the inputs, you can call the [~generation.GenerationMixin.generate] method to returns the generated tokens. The generated tokens then should be converted to text before printing.
+
+generated_ids = model.generate(**model_inputs)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+'A list of colors: red, blue, gree

@@ -1,0 +1,10 @@
+ras.losses import SparseCategoricalCrossentropy
+loss = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
+model.compile(optimizer=optimizer, loss=loss)
+
+To compute the accuracy from the predictions and push your model to the 🤗 Hub, use Keras callbacks.
+Pass your compute_metrics function to KerasMetricCallback,
+and use the PushToHubCallback to upload the model:
+
+from transformers.keras_callbacks import KerasMetricCallback, PushToHubCallback
+metric_callback = KerasMetricCallback(metric_fn=compute

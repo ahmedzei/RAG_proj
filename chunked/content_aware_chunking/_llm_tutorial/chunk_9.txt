@@ -1,0 +1,14 @@
+Keep in mind LLMs (more precisely, decoder-only models) also return the input prompt as part of the output.
+
+model_inputs = tokenizer(["A sequence of numbers: 1, 2"], return_tensors="pt").to("cuda")
+By default, the output will contain up to 20 tokens
+generated_ids = model.generate(**model_inputs)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+'A sequence of numbers: 1, 2, 3, 4, 5'
+Setting max_new_tokens allows you to control the maximum length
+generated_ids = model.generate(**model_inputs, max_new_tokens=50)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+'A sequence of numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,'
+
+Incorrect generation mode
+By default, and unless specified in the [~generation.GenerationConfig] file, generate selects the most likely token at each iteration (greedy decoding).

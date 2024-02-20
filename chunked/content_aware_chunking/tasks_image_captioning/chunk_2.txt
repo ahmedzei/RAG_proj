@@ -1,0 +1,17 @@
+To create your own image captioning dataset
+in PyTorch, you can follow this notebook. 
+thon
+from datasets import load_dataset
+ds = load_dataset("lambdalabs/pokemon-blip-captions")
+ds
+bash
+DatasetDict({
+    train: Dataset({
+        features: ['image', 'text'],
+        num_rows: 833
+    })
+})
+
+The dataset has two features, image and text.
+
+Many image captioning datasets contain multiple captions per image.

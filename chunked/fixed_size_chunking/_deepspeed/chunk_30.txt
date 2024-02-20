@@ -1,0 +1,8 @@
+is is a ZeRO-3 placeholder.
+py
+tensor([1.0], device="cuda:0", dtype=torch.float16, requires_grad=True)
+
+For more information about initializing large models with ZeRO-3 and accessing the parameters, take a look at the Constructing Massive Models and Gathering Parameters guides.
+
+NVMe configuration
+ZeRO-Infinity allows offloading model states to the CPU and/or NVMe to save even more memory. Smart partitioning and tiling algorithms allow each GPU to send and receive very small amounts of data during offloadin

@@ -1,0 +1,14 @@
+
+
+     pred_labels = tf.argmax(logits_resized, axis=-1)
+     metrics = metric.compute(
+         predictions=pred_labels,
+         references=labels,
+         num_labels=num_labels,
+         ignore_index=-1,
+         reduce_labels=image_processor.do_reduce_labels,
+     )
+     per_category_accuracy = metrics.pop("per_category_accuracy").tolist()
+     per_category_iou = metrics.pop("per_category_iou").tolist()
+     metrics.update({f"accuracy_{id2label[i]}": v for i, v in enumerate(per_category_accuracy)})
+    

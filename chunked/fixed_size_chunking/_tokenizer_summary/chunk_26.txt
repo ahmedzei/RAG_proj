@@ -1,0 +1,6 @@
+ules (in contrast to BPE and WordPiece), the algorithm has several ways of
+tokenizing new text after training. As an example, if a trained Unigram tokenizer exhibits the vocabulary:
+["b", "g", "h", "n", "p", "s", "u", "ug", "un", "hug"],
+"hugs" could be tokenized both as ["hug", "s"], ["h", "ug", "s"] or ["h", "u", "g", "s"]. So which one
+to choose? Unigram saves the probability of each token in the training corpus on top of saving the vocabulary so that
+the probability of each possible tokenization can be 

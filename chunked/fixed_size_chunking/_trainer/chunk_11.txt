@@ -1,0 +1,6 @@
+eval_dataloader] creates an evaluation DataLoader
+[~Trainer.get_test_dataloader] creates a test DataLoader
+[~Trainer.log] logs information on the various objects that watch training
+[~Trainer.create_optimizer_and_scheduler] creates an optimizer and learning rate scheduler if they weren't passed in the __init__; these can also be separately customized with [~Trainer.create_optimizer] and [~Trainer.create_scheduler] respectively
+[~Trainer.compute_loss] computes the loss on a batch of training inputs
+[~Trainer

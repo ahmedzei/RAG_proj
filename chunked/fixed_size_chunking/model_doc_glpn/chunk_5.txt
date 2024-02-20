@@ -1,0 +1,8 @@
+utodoc]] GLPNImageProcessor
+    - preprocess
+GLPNModel
+[[autodoc]] GLPNModel
+    - forward
+GLPNForDepthEstimation
+[[autodoc]] GLPNForDepthEstimation
+    - forward

@@ -1,0 +1,5 @@
+What's going on? 🤔
+First of all, let's talk about why understanding these mismatches matters. Many community members will use 🤗
+Transformers models out of the box, and trust that our models behave as expected. When there is a large mismatch
+between the two frameworks, it implies that the model is not following the reference implementation for at least one
+of the frameworks. This might lead to silent failures, in which the model runs but has poor performance.

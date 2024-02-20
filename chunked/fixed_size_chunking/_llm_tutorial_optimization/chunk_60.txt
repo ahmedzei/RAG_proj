@@ -1,0 +1,8 @@
+ most important LLMs, such as:
+
+MPT
+BLOOM
+
+Both RoPE and ALiBi position encodings can extrapolate to input lengths not seen during training whereas it has been shown that extrapolation works much better out-of-the-box for ALiBi as compared to RoPE.
+For ALiBi, one simply increases the values of the lower triangular position matrix to match the length of the input sequence.
+For RoPE, keeping the same \( \theta \) that was used during training leads to poor results when passing text inputs much longer than tho

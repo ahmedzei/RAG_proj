@@ -1,0 +1,18 @@
+riminator may be loaded in the
+  [ElectraForMaskedLM] model, and the generator may be loaded in the
+  [ElectraForPreTraining] model (the classification head will be randomly initialized as it
+  doesn't exist in the generator).
+
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+ElectraConfig
+[[autodoc]] ElectraConfig
+ElectraTokenizer
+[[autodoc]] ElectraToke

@@ -1,0 +1,6 @@
+ision for aggregation    | WTQ                 | Questions might involve aggregation, and the model must learn this given only the answer as supervision |
+| Strong supervision for aggregation  | WikiSQL-supervised  | Questions might involve aggregation, and the model must learn this given the gold aggregation operator  |
+
+Initializing a model with a pre-trained base and randomly initialized classification heads from the hub can be done as shown below.
+
+from transformers import TapasConfig, TapasForQuestionA

@@ -1,0 +1,1 @@
+If you have the latest versions, then you can push the 8-bit model to the Hub with the [~PreTrainedModel.push_to_hub] method.

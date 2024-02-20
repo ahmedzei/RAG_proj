@@ -1,0 +1,17 @@
+saturated the GPU)
+
+Example where it's most a slowdown:
+thon
+class MyDataset(Dataset):
+    def len(self):
+        return 5000
+def __getitem__(self, i):
+    if i % 64 == 0:
+        n = 100
+    else:
+        n = 1
+    return "This is a test" * n
+
+This is a occasional very long sentence compared to the other. In that case, the whole batch will need to be 400
+tokens long, so the whole batch will be [64, 400] instead of [64, 4], leading to the high slowdown. Even worse, on
+bigger batches, the program simply cras

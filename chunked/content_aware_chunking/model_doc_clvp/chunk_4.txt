@@ -1,0 +1,2 @@
+At the end, we compare each speech vector with the text vector to see which speech vector is most similar to the text vector. 
+[ClvpModelForConditionalGeneration.generate()] compresses all of the logic described above into a single method.

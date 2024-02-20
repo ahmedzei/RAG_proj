@@ -1,0 +1,12 @@
+In the following example, we show how to do this using the default [Wav2Vec2Model] configuration for the encoder
+and the default [BertForCausalLM] configuration for the decoder.
+thon
+
+from transformers import BertConfig, Wav2Vec2Config, SpeechEncoderDecoderConfig, SpeechEncoderDecoderModel
+config_encoder = Wav2Vec2Config()
+config_decoder = BertConfig()
+config = SpeechEncoderDecoderConfig.from_encoder_decoder_configs(config_encoder, config_decoder)
+model = SpeechEncoderDecoderModel(config=config)
+
+Initialising SpeechEncoderDecoderModel from a pretrained encoder and a pretrained decoder.
+[SpeechEncoderDecoderModel] can be initialized from a pretrained encoder checkpoint and a pretrained decoder checkpoint.

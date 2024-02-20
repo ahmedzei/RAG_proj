@@ -1,0 +1,9 @@
+- self.lambda_param) * student_target_loss + self.lambda_param * distillation_loss
+    return (loss, student_output) if return_outputs else loss
+
+We will now login to Hugging Face Hub so we can push our model to the Hugging Face Hub through the Trainer. 
+thon
+from huggingface_hub import notebook_login
+notebook_login()
+
+Let's set the TrainingArguments, the teacher model and the student model.

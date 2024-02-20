@@ -1,0 +1,11 @@
+PyPI distribution.
+
+pip install deepspeed
+
+pip install transformers[deepspeed]
+
+Memory requirements
+Before you begin, it is a good idea to check whether you have enough GPU and CPU memory to fit your model. DeepSpeed provides a tool for estimating the required CPU/GPU memory. For example, to estimate the memory requirements for the bigscience/T0_3B model on a single GPU:
+
+$ python -c 'from transformers import AutoModel; \
+from deepspeed.runtime.zero.stage3 import estimate_zero3_model_states_mem_needs_all_li

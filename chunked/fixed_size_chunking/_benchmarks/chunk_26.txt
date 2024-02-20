@@ -1,0 +1,8 @@
+tion when sharing the results of a model benchmark. Results can vary
+  heavily between different GPU devices, library versions, etc., so that benchmark results on their own are not very
+  useful for the community.
+
+Sharing your benchmark
+Previously all available core models (10 at the time) have been benchmarked for inference time, across many different
+settings: using PyTorch, with and without TorchScript, using TensorFlow, with and without XLA. All of those tests were
+done across CPUs (except for TensorFl

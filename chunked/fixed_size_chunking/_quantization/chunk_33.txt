@@ -1,0 +1,9 @@
+="auto")
+
+8-bit
+
+Learn more about the details of 8-bit quantization in this blog post!
+
+This section explores some of the specific features of 8-bit models, such as offloading, outlier thresholds, skipping module conversion, and finetuning.
+Offloading
+8-bit models can offload weights between the CPU and GPU to support fitting very large models into memory. The weights dispatched to the CPU are actually stored in float32, and aren't converted to 8-bit. For example, to enable offloading for the bigscience/blo

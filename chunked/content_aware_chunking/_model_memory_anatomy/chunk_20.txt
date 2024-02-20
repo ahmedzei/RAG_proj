@@ -1,0 +1,5 @@
+Activations are usually 
+bandwidth-limited, and it’s typical for an activation to have to read more data in the backward than in the forward 
+(e.g. activation forward reads once, writes once, activation backward reads twice, gradOutput and output of the forward, 
+and writes once, gradInput).
+As you can see, there are potentially a few places where we could save GPU memory or speed up operations.

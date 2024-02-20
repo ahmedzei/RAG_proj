@@ -1,0 +1,9 @@
+BlenderBot has an extremely simple default 
+template, which mostly just adds whitespace between rounds of dialogue:
+thon
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("facebook/blenderbot-400M-distill")
+chat = [
+    {"role": "user", "content": "Hello, how are you?"},
+    {"role": "assistant", "content": "I'm doing great.

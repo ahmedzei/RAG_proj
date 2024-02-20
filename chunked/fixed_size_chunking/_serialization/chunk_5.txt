@@ -1,0 +1,8 @@
+el's checkpoint from the 🤗 Hub, for example, distilbert/distilbert-base-uncased-distilled-squad, run the following command: 
+
+optimum-cli export onnx --model distilbert/distilbert-base-uncased-distilled-squad distilbert_base_uncased_squad_onnx/
+You should see the logs indicating progress and showing where the resulting model.onnx is saved, like this:
+
+Validating ONNX model distilbert_base_uncased_squad_onnx/model.onnx
+    -[✓] ONNX model output names match reference model (start_logits, end_logits)
+    - Va

@@ -1,0 +1,14 @@
+dam_epsilon,
+}
+optimizer_kwargs["lr"] = training_args.learning_rate
+adam_bnb_optim = bnb.optim.Adam8bit(
+    optimizer_grouped_parameters,
+    betas=(training_args.adam_beta1, training_args.adam_beta2),
+    eps=training_args.adam_epsilon,
+    lr=training_args.learning_rate,
+)
+
+Finally, pass the custom optimizer as an argument to the Trainer:
+py
+trainer = Trainer(model=model, args=training_args, train_dataset=ds, optimizers=(adam_bnb_optim, None))
+Combined with other approaches (gradient accumulation, gradie

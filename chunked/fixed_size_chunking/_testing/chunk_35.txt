@@ -1,0 +1,13 @@
+out the exact name of each sub-test and run any
+or all of them using their exact names.
+
+pytest test_this1.py --collect-only -q
+and it will list:
+
+test_this1.py::TestMathUnitTest::test_floor_0_negative
+test_this1.py::TestMathUnitTest::test_floor_1_integer
+test_this1.py::TestMathUnitTest::test_floor_2_large_fraction
+So now you can run just 2 specific sub-tests:
+
+pytest test_this1.py::TestMathUnitTest::test_floor_0_negative  test_this1.py::TestMathUnitTest::test_floor_1_integer
+The module parameterized which 

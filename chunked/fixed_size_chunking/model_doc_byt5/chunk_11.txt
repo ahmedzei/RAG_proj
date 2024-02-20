@@ -1,0 +1,15 @@
+put_ids_list = []
+start_token = 0
+sentinel_token = 258
+while sentinel_token in output_ids:
+     split_idx = output_ids.index(sentinel_token)
+     output_ids_list.append(output_ids[start_token:split_idx])
+     start_token = split_idx
+     sentinel_token -= 1
+output_ids_list.append(output_ids[start_token:])
+output_string = tokenizer.batch_decode(output_ids_list)
+output_string
+['', 'is the one who does', ' in the disco', 'in the park. The dog is the one who does a ball in', ' in the park.']
+
+ByT5Tokenizer
+[[au

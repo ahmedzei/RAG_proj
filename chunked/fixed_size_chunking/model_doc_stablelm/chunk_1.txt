@@ -1,0 +1,11 @@
+e-tuned version of the model that can be used for chat-based applications.
+Usage Tips
+
+The architecture is similar to LLaMA but with RoPE applied to 25% of head embedding dimensions, LayerNorm instead of RMSNorm, and optional QKV bias terms.
+StableLM 3B 4E1T-based models uses the same tokenizer as [GPTNeoXTokenizerFast].
+
+StableLM 3B 4E1T and StableLM Zephyr 3B can be found on the Huggingface Hub
+The following code snippet demonstrates how to use StableLM 3B 4E1T for inference:
+thon
+
+from transformers impor

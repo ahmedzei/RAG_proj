@@ -1,0 +1,19 @@
+00_examples")
+dataset
+DatasetDict({
+    train: Dataset({
+        features: ['id', 'image', 'query', 'answers', 'words', 'bounding_boxes', 'answer'],
+        num_rows: 1000
+    })
+    test: Dataset({
+        features: ['id', 'image', 'query', 'answers', 'words', 'bounding_boxes', 'answer'],
+        num_rows: 200
+    })
+})
+
+As you can see, the dataset is split into train and test sets already. Take a look at a random example to familiarize
+yourself with the features.
+
+dataset["train"].features
+
+Here's what th

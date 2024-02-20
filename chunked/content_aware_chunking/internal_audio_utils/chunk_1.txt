@@ -1,0 +1,12 @@
+Utilities for FeatureExtractors
+This page lists all the utility functions that can be used by the audio [FeatureExtractor] in order to compute special features from a raw audio using common algorithms such as Short Time Fourier Transform or log mel spectrogram.
+Most of those are only useful if you are studying the code of the audio processors in the library.
+Audio Transformations
+[[autodoc]] audio_utils.hertz_to_mel
+[[autodoc]] audio_utils.mel_to_hertz
+[[autodoc]] audio_utils.mel_filter_bank
+[[autodoc]] audio_utils.optimal_fft_length
+[[autodoc]] audio_utils.window_function
+[[autodoc]] audio_utils.spectrogram
+[[autodoc]] audio_utils.power_to_db
+[[autodoc]] audio_utils.amplitude_to_db.

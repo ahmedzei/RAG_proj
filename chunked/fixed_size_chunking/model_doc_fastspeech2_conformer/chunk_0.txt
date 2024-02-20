@@ -1,0 +1,6 @@
+
+FastSpeech2Conformer
+Overview
+The FastSpeech2Conformer model was proposed with the paper Recent Developments On Espnet Toolkit Boosted By Conformer by Pengcheng Guo, Florian Boyer, Xuankai Chang, Tomoki Hayashi, Yosuke Higuchi, Hirofumi Inaguma, Naoyuki Kamo, Chenda Li, Daniel Garcia-Romero, Jiatong Shi, Jing Shi, Shinji Watanabe, Kun Wei, Wangyou Zhang, and Yuekai Zhang.
+The abstract from the original FastSpeech2 paper is the following:
+Non-autoregressive text to speech (TTS) models such as FastSpeech (Re

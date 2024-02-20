@@ -1,0 +1,7 @@
+The model is trained with standard autoregressive cross-entropy loss and generates the
+transcripts/translations autoregressively. Speech2Text has been fine-tuned on several datasets for ASR and ST:
+LibriSpeech, CoVoST 2, MuST-C.
+This model was contributed by valhalla. The original code can be found here.
+Inference
+Speech2Text is a speech model that accepts a float tensor of log-mel filter-bank features extracted from the speech
+signal.

@@ -1,0 +1,13 @@
+turn_tensors="pt")
+input_ids = inputs["input_ids"]
+model = FastSpeech2ConformerWithHifiGan.from_pretrained("espnet/fastspeech2_conformer_with_hifigan")
+output_dict = model(input_ids, return_dict=True)
+waveform = output_dict["waveform"]
+sf.write("speech.wav", waveform.squeeze().detach().numpy(), samplerate=22050)
+
+Run inference with a pipeline and specify which vocoder to use
+thon
+from transformers import pipeline, FastSpeech2ConformerHifiGan
+import soundfile as sf
+
+vocoder = FastSpeech2ConformerHifiGan.from

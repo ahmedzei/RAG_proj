@@ -1,0 +1,5 @@
+age model pretraining has led to significant performance gains but careful comparison between different
+approaches is challenging. Training is computationally expensive, often done on private datasets of different sizes,
+and, as we will show, hyperparameter choices have significant impact on the final results. We present a replication
+study of BERT pretraining (Devlin et al., 2019) that carefully measures the impact of many key hyperparameters and
+training data size. We find that BERT was significantly unde

@@ -1,0 +1,40 @@
+The original code can be found here.
+FlavaConfig
+[[autodoc]] FlavaConfig
+FlavaTextConfig
+[[autodoc]] FlavaTextConfig
+FlavaImageConfig
+[[autodoc]] FlavaImageConfig
+FlavaMultimodalConfig
+[[autodoc]] FlavaMultimodalConfig
+FlavaImageCodebookConfig
+[[autodoc]] FlavaImageCodebookConfig
+FlavaProcessor
+[[autodoc]] FlavaProcessor
+FlavaFeatureExtractor
+[[autodoc]] FlavaFeatureExtractor
+FlavaImageProcessor
+[[autodoc]] FlavaImageProcessor
+    - preprocess
+FlavaForPreTraining
+[[autodoc]] FlavaForPreTraining
+    - forward
+FlavaModel
+[[autodoc]] FlavaModel
+    - forward
+    - get_text_features
+    - get_image_features
+FlavaImageCodebook
+[[autodoc]] FlavaImageCodebook
+    - forward
+    - get_codebook_indices
+    - get_codebook_probs
+FlavaTextModel
+[[autodoc]] FlavaTextModel
+    - forward
+FlavaImageModel
+[[autodoc]] FlavaImageModel
+    - forward
+FlavaMultimodalModel
+[[autodoc]] FlavaMultimodalModel
+    - forward.

@@ -1,0 +1,25 @@
+This is a machine translation model that supports many low-resource languages, and that is competitive with models that are significantly larger.
+One can directly use MADLAD-400 weights without finetuning the model:
+thon
+
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+model = AutoModelForSeq2SeqLM.from_pretrained("google/madlad400-3b-mt")
+tokenizer = AutoTokenizer.from_pretrained("google/madlad400-3b-mt")
+inputs = tokenizer("<2pt> I love pizza!", return_tensors="pt")
+outputs = model.generate(**inputs)
+print(tokenizer.batch_decode(outputs, skip_special_tokens=True))
+['Eu amo pizza!']
+
+Google has released the following variants:
+
+google/madlad400-3b-mt
+
+google/madlad400-7b-mt
+
+google/madlad400-7b-mt-bt
+
+google/madlad400-10b-mt
+
+The original checkpoints can be found here.
+
+Refer to T5's documentation page for all API references, code examples, and notebooks.

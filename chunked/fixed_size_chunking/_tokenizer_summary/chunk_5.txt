@@ -1,0 +1,6 @@
+sformers", "?", "We", "sure", "do", "."]
+As can be seen space and punctuation tokenization, as well as rule-based tokenization, is used here. Space and
+punctuation tokenization and rule-based tokenization are both examples of word tokenization, which is loosely defined
+as splitting sentences into words. While it's the most intuitive way to split texts into smaller chunks, this
+tokenization method can lead to problems for massive text corpora. In this case, space and punctuation tokenization
+usually generate

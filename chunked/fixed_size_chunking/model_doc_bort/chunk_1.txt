@@ -1,0 +1,6 @@
+ to as "Bort".
+The abstract from the paper is the following:
+We extract an optimal subset of architectural parameters for the BERT architecture from Devlin et al. (2018) by
+applying recent breakthroughs in algorithms for neural architecture search. This optimal subset, which we refer to as
+"Bort", is demonstrably smaller, having an effective (that is, not counting the embedding layer) size of 5.5% the
+original BERT-large architecture, and 16% of the net size. Bort is also able to be pretrained in 288 GPU ho

@@ -1,0 +1,2 @@
+the weights and bias of the classifier layer) and randomly initializing some others (the weights and bias of a new classifier layer). This is expected in this case, because we are adding a new head for which we don't have pretrained weights, so the library warns us we should fine-tune this model before using it for inference, which is exactly what we are going to do.
+Note that this checkpoint leads to better performance on this task as the checkpoint was obtained fine-tuning on a similar downstream task hav

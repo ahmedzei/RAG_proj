@@ -1,0 +1,4 @@
+Let's add some newlines and indentation to make it more readable. Note that the first
+newline after each block as well as any preceding whitespace before a block are ignored by default, using the 
+Jinja trim_blocks and lstrip_blocks flags. However, be cautious - although leading whitespace on each
+line is stripped, spaces between blocks on the same line are not.

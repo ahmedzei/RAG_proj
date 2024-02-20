@@ -1,0 +1,6 @@
+If you're adding a new model, you
+  should create and upload to the hub a tiny version of it (with random weights) for integration tests. This is
+  discussed in the following paragraphs.
+All tests that need to do a training not specifically optimized to be fast should be set to slow.
+We can introduce exceptions if some of these should-be-non-slow tests are excruciatingly slow, and set them to
+  @slow.

@@ -1,0 +1,12 @@
+ visualization. Let's see how it looks like.
+thon
+outputs.reconstruction.data.shape
+torch.Size([1, 3, 880, 1072])
+
+We need to squeeze the output and get rid of axis 0, clip the values, then convert it to be numpy float. Then we will arrange axes to have the shape [1072, 880], and finally, bring the output back to range [0, 255].
+thon
+import numpy as np
+squeeze, take to CPU and clip the values
+output = outputs.reconstruction.data.squeeze().cpu().clamp_(0, 1).numpy()
+rearrange the axes
+output = np.moveaxis(ou

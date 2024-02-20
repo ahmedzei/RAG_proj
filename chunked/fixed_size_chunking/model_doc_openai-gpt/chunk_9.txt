@@ -1,0 +1,16 @@
+Classification
+    - forward
+
+TFOpenAIGPTModel
+[[autodoc]] TFOpenAIGPTModel
+    - call
+TFOpenAIGPTLMHeadModel
+[[autodoc]] TFOpenAIGPTLMHeadModel
+    - call
+TFOpenAIGPTDoubleHeadsModel
+[[autodoc]] TFOpenAIGPTDoubleHeadsModel
+    - call
+TFOpenAIGPTForSequenceClassification
+[[autodoc]] TFOpenAIGPTForSequenceClassification
+    - call
+

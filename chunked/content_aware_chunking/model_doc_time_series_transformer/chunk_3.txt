@@ -1,0 +1,4 @@
+if a given time-series value was obtained on the 11th of August, then one could have [11, 8] as time feature vector (11 being "day of the month", 8 being "month of the year").
+future_time_features: temporal features which the model will add to future_values. These serve as "positional encodings" for the Transformer decoder.
+Examples are "day of the month", "month of the year", etc. as scalar values (and then stacked together as a vector).
+e.g.

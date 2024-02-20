@@ -1,0 +1,5 @@
+It's important to note that there isn't a one-size-fits-all 
+solution, and the optimal settings depend on the specific hardware configuration you are using. 
+This guide offers an in-depth overview of individual types of parallelism, as well as guidance on ways to combine 
+techniques and choosing an appropriate approach. For step-by-step tutorials on distributed training, please refer to
+the 🤗 Accelerate documentation.

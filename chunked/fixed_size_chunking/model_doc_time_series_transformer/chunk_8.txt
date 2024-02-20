@@ -1,0 +1,7 @@
+c]] TimeSeriesTransformerConfig
+TimeSeriesTransformerModel
+[[autodoc]] TimeSeriesTransformerModel
+    - forward
+TimeSeriesTransformerForPrediction
+[[autodoc]] TimeSeriesTransformerForPrediction
+    - forward

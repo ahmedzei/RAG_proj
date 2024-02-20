@@ -1,0 +1,10 @@
+step is to load a Wav2Vec2 feature extractor to process the audio signal:
+
+from transformers import AutoFeatureExtractor
+feature_extractor = AutoFeatureExtractor.from_pretrained("facebook/wav2vec2-base")
+
+The MInDS-14 dataset has a sampling rate of 8000khz (you can find this information in it's dataset card), which means you'll need to resample the dataset to 16000kHz to use the pretrained Wav2Vec2 model:
+
+minds = minds.cast_column("audio", Audio(sampling_rate=16_000))
+minds["train"][0]
+{'audio': {'array': 

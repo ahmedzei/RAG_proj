@@ -1,0 +1,13 @@
+Remove any columns you don't need:
+
+tokenized_eli5 = eli5.map(
+     preprocess_function,
+     batched=True,
+     num_proc=4,
+     remove_columns=eli5["train"].column_names,
+ )
+
+This dataset contains the token sequences, but some of these are longer than the maximum input length for the model.
+You can now use a second preprocessing function to
+- concatenate all the sequences
+- split the concatenated sequences into shorter chunks defined by block_size, which should be both shorter than the maximum input length and short enough for your GPU RAM.

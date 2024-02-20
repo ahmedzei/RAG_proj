@@ -1,0 +1,9 @@
+VAN
+
+This model is in maintenance mode only, we don't accept any new PRs changing its code.
+If you run into any issues running this model, please reinstall the last version that supported this model: v4.30.0.
+You can do so by running the following command: pip install -U transformers==4.30.0.
+
+Overview
+The VAN model was proposed in Visual Attention Network by Meng-Hao Guo, Cheng-Ze Lu, Zheng-Ning Liu, Ming-Ming Cheng, Shi-Min Hu.
+This paper introduces a new attention layer based on convolution operations able to capture both local and distant relationships.

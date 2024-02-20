@@ -1,0 +1,5 @@
+ForMaskedImageModeling
+    - forward
+FocalNetForImageClassification
+[[autodoc]] FocalNetForImageClassification
+    - forward

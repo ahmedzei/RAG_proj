@@ -1,0 +1,9 @@
+It
+can perform one or several tasks in the same instruction (though the more complex your instruction, the more likely
+the agent is to fail).
+py
+agent.run("Draw me a picture of the sea then transform the picture to add an island")
+
+Every [~Agent.run] operation is independent, so you can run it several times in a row with different tasks.
+Note that your agent is just a large-language model, so small variations in your prompt might yield completely
+different results.

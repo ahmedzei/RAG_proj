@@ -1,0 +1,8 @@
+ConvBERT
+
+Overview
+The ConvBERT model was proposed in ConvBERT: Improving BERT with Span-based Dynamic Convolution by Zihang Jiang, Weihao Yu, Daquan Zhou, Yunpeng Chen, Jiashi Feng, Shuicheng
+Yan.
+The abstract from the paper is the following:
+Pre-trained language models like BERT and its variants have recently achieved impressive performance in various
+natural language understanding tasks.

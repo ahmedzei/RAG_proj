@@ -1,0 +1,18 @@
+hub=True,
+ )
+trainer = Trainer(
+     model=model,
+     args=training_args,
+     train_dataset=encoded_minds["train"],
+     eval_dataset=encoded_minds["test"],
+     tokenizer=processor,
+     data_collator=data_collator,
+     compute_metrics=compute_metrics,
+ )
+trainer.train()
+
+Once training is completed, share your model to the Hub with the [~transformers.Trainer.push_to_hub] method so everyone can use your model:
+
+trainer.push_to_hub()
+
+For a more in-depth example of how to finetune a model for automatic sp

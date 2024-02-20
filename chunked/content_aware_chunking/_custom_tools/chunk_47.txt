@@ -1,0 +1,8 @@
+Let's name this file
+model_downloads.py, so the resulting import code looks like this:
+thon
+from model_downloads import HFModelDownloadsTool
+tool = HFModelDownloadsTool()
+
+In order to let others benefit from it and for simpler initialization, we recommend pushing it to the Hub under your 
+namespace.

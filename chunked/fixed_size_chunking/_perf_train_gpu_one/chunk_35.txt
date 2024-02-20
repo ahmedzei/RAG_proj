@@ -1,0 +1,6 @@
+that is integrated with 🤗 Transformers and 🤗 Accelerate.
+It provides a wide range of features and optimizations designed to improve the efficiency and scalability of large-scale 
+deep learning training.
+If your model fits onto a single GPU and you have enough space to fit a small batch size, you don't need to use DeepSpeed
+as it'll only slow things down. However, if the model doesn't fit onto a single GPU or you can't fit a small batch, you can 
+leverage DeepSpeed ZeRO + CPU Offload, or NVMe Offload for muc

@@ -1,0 +1,6 @@
+Therefore, the [MASK] entity can be used to address
+    downstream tasks requiring the information of entities in text such as entity typing, relation classification, and
+    named entity recognition.
+
+Inputting Wikipedia entities to compute knowledge-enhanced token representations: LUKE learns rich information
+    (or knowledge) about Wikipedia entities during pretraining and stores the information in its entity embedding.

@@ -1,0 +1,1 @@
+Callbacks don't change anything in the training loop. They inspect the training loop state and then execute some action (early stopping, logging results, etc.) depending on the state.

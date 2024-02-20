@@ -1,0 +1,13 @@
+("huggingface/cats-image")
+image = dataset["test"]["image"][0]
+pixel_values = image_processor(image, return_tensors="pt").pixel_values
+labels = tokenizer(
+     "an image of two cats chilling on a couch",
+     return_tensors="pt",
+ ).input_ids
+the forward function automatically creates the correct decoder_input_ids
+loss = model(pixel_values=pixel_values, labels=labels).loss
+
+This model was contributed by nielsr. This model's TensorFlow and Flax versions
+were contributed by ydshieh.
+VisionEncoderDecoderConfig

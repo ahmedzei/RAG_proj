@@ -1,0 +1,11 @@
+BARThez-specific tokenizers are documented below.  
+
+Resources
+
+BARThez can be fine-tuned on sequence-to-sequence tasks in a similar way as BART, check:
+  examples/pytorch/summarization/.
+
+BarthezTokenizer
+[[autodoc]] BarthezTokenizer
+BarthezTokenizerFast
+[[autodoc]] BarthezTokenizerFast.

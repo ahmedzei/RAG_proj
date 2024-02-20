@@ -1,0 +1,5 @@
+Adapt the generated models code for brand_new_bert
+At first, we will focus only on the model itself and not care about the tokenizer. All the relevant code should be
+found in the generated files src/transformers/models/brand_new_bert/modeling_brand_new_bert.py and
+src/transformers/models/brand_new_bert/configuration_brand_new_bert.py.
+Now you can finally start coding :).

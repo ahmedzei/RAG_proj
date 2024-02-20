@@ -1,0 +1,29 @@
+Otherwise, training on a CPU may take several hours instead of a couple of minutes.
+
+import torch
+device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
+model.to(device)
+
+Get free access to a cloud GPU if you don't have one with a hosted notebook like Colaboratory or SageMaker StudioLab.
+
+Great, now you are ready to train! 🥳 
+Training loop
+To keep track of your training progress, use the tqdm library to add a progress bar over the number of training steps:
+
+from tqdm.auto import tqdm
+progress_bar = tqdm(range(num_training_steps))
+model.train()
+for epoch in range(num_epochs):
+     for batch in train_dataloader:
+         batch = {k: v.to(device) for k, v in batch.items()}
+         outputs = model(**batch)
+         loss = outputs.loss
+         loss.backward()
+
+         optimizer.step()
+         lr_scheduler.step()
+         optimizer.zero_grad()
+         progress_bar.update(1)
+
+Evaluate
+Just like how you added an evaluation function to [Trainer], you need to do the same when you write your own training loop.

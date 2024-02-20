@@ -1,0 +1,7 @@
+TAPEX has been fine-tuned on several datasets: 
+- SQA (Sequential Question Answering by Microsoft)
+- WTQ (Wiki Table Questions by Stanford University)
+- WikiSQL (by Salesforce)
+- TabFact (by USCB NLP Lab).
+The abstract from the paper is the following:
+Recent progress in language model pre-training has achieved a great success via leveraging large-scale unstructured textual data.

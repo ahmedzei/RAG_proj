@@ -1,0 +1,6 @@
+ural machine translation, auto-regressive language modeling, and image and speech classification, show that Mega achieves significant improvements over other sequence models, including variants of Transformers and recent state space models. *
+This model was contributed by mnaylor.
+The original code can be found here.
+Usage tips
+
+MEGA can perform quite well with relatively few parameters. See Appendix D in the MEGA paper for examples of architectural specs which perform well in various settings. If using MEG

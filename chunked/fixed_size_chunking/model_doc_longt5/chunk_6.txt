@@ -1,0 +1,12 @@
+.  As a consequence, TGlobal attention introduces
+a few new parameters -- global relative position biases and a layer normalization for global token's embedding.
+The complexity of this mechanism is O(l(r + l/k)).
+An example showing how to evaluate a fine-tuned LongT5 model on the pubmed dataset is below.
+
+thon
+
+import evaluate
+from datasets import load_dataset
+from transformers import AutoTokenizer, LongT5ForConditionalGeneration
+dataset = load_dataset("scientific_papers", "pubmed", split="validation")
+mode

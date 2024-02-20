@@ -1,0 +1,5 @@
+However, their ability to access and precisely
+manipulate knowledge is still limited, and hence on knowledge-intensive tasks, their performance lags behind
+task-specific architectures. Additionally, providing provenance for their decisions and updating their world knowledge
+remain open research problems. Pre-trained models with a differentiable access mechanism to explicit nonparametric
+memory can overcome this issue, but have so far been only investigated for extractive downstream tasks.

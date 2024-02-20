@@ -1,0 +1,21 @@
+Agents and Tools
+local: model_doc/auto
+  title: Auto Classes
+local: main_classes/backbones
+  title: Backbones
+local: main_classes/callback
+  title: Callbacks
+local: main_classes/configuration
+  title: Configuration
+local: main_classes/data_collator
+  title: Data Collator
+local: main_classes/keras_callbacks
+  title: Keras callbacks
+local: main_classes/logging
+  title: Logging
+local: main_classes/model
+  title: Models
+local: main_classes/text_generation
+  title: Text Generation
+local: main_classes/onnx
+  titl

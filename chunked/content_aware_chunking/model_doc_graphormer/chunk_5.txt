@@ -1,0 +1,13 @@
+The original code can be found here.
+Usage tips
+This model will not work well on large graphs (more than 100 nodes/edges), as it will make the memory explode.
+You can reduce the batch size, increase your RAM, or decrease the UNREACHABLE_NODE_DISTANCE parameter in algos_graphormer.pyx, but it will be hard to go above 700 nodes/edges.
+This model does not use a tokenizer, but instead a special collator during training.
+GraphormerConfig
+[[autodoc]] GraphormerConfig
+GraphormerModel
+[[autodoc]] GraphormerModel
+    - forward
+GraphormerForGraphClassification
+[[autodoc]] GraphormerForGraphClassification
+    - forward.

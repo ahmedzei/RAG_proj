@@ -1,0 +1,4 @@
+w set of labels, fine-tuning is required to "recalibrate" the model.
+In contrast, zero-shot or open vocabulary image classification models are typically multi-modal models that have been trained on a large
+dataset of images and associated descriptions. These models learn aligned vision-language representations that can be used for many downstream tasks including zero-shot image classification.
+This is a more flexible approach to image classification that allows models to generalize to new and unseen categor

@@ -1,0 +1,6 @@
+You can check the result
+in this model repo.
+See the sharing tutorial for more information on the push to Hub method.
+Using a model with custom code
+You can use any configuration, model or tokenizer with custom code files in its repository with the auto-classes and
+the from_pretrained method.

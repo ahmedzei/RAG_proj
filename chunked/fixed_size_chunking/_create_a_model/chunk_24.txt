@@ -1,0 +1,9 @@
+ig = MaskFormerConfig(backbone="microsoft/resnet50", use_pretrained_backbone=True) # backbone and neck config
+model = MaskFormerForInstanceSegmentation(config) # head
+
+You could also load the backbone config separately and then pass it to the model config.
+
+from transformers import MaskFormerConfig, MaskFormerForInstanceSegmentation, ResNetConfig
+backbone_config = ResNetConfig.from_pretrained("microsoft/resnet-50")
+config = MaskFormerConfig(backbone_config=backbone_config)
+model = MaskFormerForInstanceSegme

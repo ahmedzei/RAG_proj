@@ -1,0 +1,3 @@
+re
+BaseImageProcessor
+[[autodoc]] image_processing_utils.BaseImageProcessor

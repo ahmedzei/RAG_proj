@@ -1,0 +1,13 @@
+and return TensorFlow tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("my_awesome_swag_model")
+inputs = tokenizer([[prompt, candidate1], [prompt, candidate2]], return_tensors="tf", padding=True)
+
+Pass your inputs to the model and return the logits:
+
+from transformers import TFAutoModelForMultipleChoice
+model = TFAutoModelForMultipleChoice.from_pretrained("my_awesome_swag_model")
+inputs = {k: tf.expand_dims(v, 0) for k, v in inputs.items()}
+outputs = model(inputs)
+l

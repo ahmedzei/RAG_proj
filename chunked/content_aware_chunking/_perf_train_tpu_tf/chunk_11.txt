@@ -1,0 +1,6 @@
+XLA compilation will happen implicitly on TPU, so remember to remove that line before actually running your code on a TPU!
+
+How do I make my model XLA compatible?
+In many cases, your code is probably XLA-compatible already! However, there are a few things that work in normal TensorFlow that don’t work in XLA. We’ve distilled them into three core rules below:
+
+🤗Specific HuggingFace Tip🤗: We’ve put a lot of effort into rewriting our TensorFlow models and loss functions to be XLA-compatible.

@@ -1,0 +1,8 @@
+
+REALM
+Overview
+The REALM model was proposed in REALM: Retrieval-Augmented Language Model Pre-Training by Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat and Ming-Wei Chang. It's a
+retrieval-augmented language model that firstly retrieves documents from a textual knowledge corpus and then
+utilizes retrieved documents to process question answering tasks.
+The abstract from the paper is the following:
+Language model pre-training has been shown to capture a surprising amount of world knowledge, crucial for 

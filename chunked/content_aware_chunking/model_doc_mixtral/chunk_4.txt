@@ -1,0 +1,39 @@
+The following implementation details are shared with Mistral AI's first model mistral:
+* Sliding Window Attention - Trained with 8k context length and fixed cache size, with a theoretical attention span of 128K tokens
+* GQA (Grouped Query Attention) - allowing faster inference and lower cache size.
+* Byte-fallback BPE tokenizer - ensures that characters are never mapped to out of vocabulary tokens.
+They also provide an instruction fine-tuned model: mistralai/Mixtral-8x7B-v0.1 which can be used for chat-based inference.
+For more details please read our release blog post
+License
+Mixtral-8x7B is released under the Apache 2.0 license.
+Usage tips
+Mixtral-8x7B can be found on the Huggingface Hub
+These ready-to-use checkpoints can be downloaded and used via the HuggingFace Hub:
+thon
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+device = "cuda" # the device to load the model onto
+model = AutoModelForCausalLM.from_pretrained("mistralai/Mixtral-8x7B-v0.1")
+tokenizer = AutoTokenizer.from_pretrained("mistralai/Mixtral-8x7B-v0.1")
+prompt = "My favourite condiment is"
+model_inputs = tokenizer([prompt], return_tensors="pt").to(device)
+model.to(device)
+generated_ids = model.generate(**model_inputs, max_new_tokens=100, do_sample=True)
+tokenizer.batch_decode(generated_ids)[0]
+"The expected output"
+
+To use the raw checkpoints with HuggingFace you can use the convert_mixtral_weights_to_hf.py script to convert them to the HuggingFace format:
+
+python src/transformers/models/mixtral/convert_mixtral_weights_to_hf.py \
+    --input_dir /path/to/downloaded/mistral/weights --output_dir /output/path
+You can then load the converted model from the output/path:
+thon
+from transformers import MixtralForCausalLM, LlamaTokenizer
+tokenizer = LlamaTokenizer.from_pretrained("/output/path")
+model = MixtralForCausalLM.from_pretrained("/output/path")
+
+Combining Mixtral and Flash Attention 2
+First, make sure to install the latest version of Flash Attention 2 to include the sliding window attention feature.
+
+pip install -U flash-attn --no-build-isolation
+Make also sure that you have a hardware that is compatible with Flash-Attention 2.

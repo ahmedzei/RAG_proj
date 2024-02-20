@@ -1,0 +1,5 @@
+This is accomplished through 
+two primary modifications: a hierarchy of Transformers containing a new convolutional token embedding, and a convolutional Transformer 
+block leveraging a convolutional projection. These changes introduce desirable properties of convolutional neural networks (CNNs) 
+to the ViT architecture (\ie shift, scale, and distortion invariance) while maintaining the merits of Transformers (\ie dynamic attention, 
+global context, and better generalization).

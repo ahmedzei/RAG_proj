@@ -1,0 +1,18 @@
+MaskedLM
+    - call
+TFRemBertForCausalLM
+[[autodoc]] TFRemBertForCausalLM
+    - call
+TFRemBertForSequenceClassification
+[[autodoc]] TFRemBertForSequenceClassification
+    - call
+TFRemBertForMultipleChoice
+[[autodoc]] TFRemBertForMultipleChoice
+    - call
+TFRemBertForTokenClassification
+[[autodoc]] TFRemBertForTokenClassification
+    - call
+TFRemBertForQuestionAnswering
+[[autodoc]] TFRemBertForQuestionAnswering
+    - call
+

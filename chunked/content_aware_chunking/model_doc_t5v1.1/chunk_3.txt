@@ -1,0 +1,16 @@
+Since t5v1.1 was pre-trained unsupervisedly, there's no real advantage to using a task prefix during single-task
+fine-tuning. If you are doing multi-task fine-tuning, you should use a prefix.
+Google has released the following variants:
+
+google/t5-v1_1-small
+
+google/t5-v1_1-base
+
+google/t5-v1_1-large
+
+google/t5-v1_1-xl
+
+google/t5-v1_1-xxl.
+
+Refer to T5's documentation page for all API reference, tips, code examples and notebooks.
+.

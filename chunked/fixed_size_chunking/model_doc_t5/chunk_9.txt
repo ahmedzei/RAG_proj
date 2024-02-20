@@ -1,0 +1,9 @@
+to the labels. The PAD token is hereby used as the
+start-sequence token. T5 can be trained / fine-tuned both in a supervised and unsupervised fashion.
+One can use [T5ForConditionalGeneration] (or the Tensorflow/Flax variant), which includes the
+language modeling head on top of the decoder.
+
+Unsupervised denoising training
+
+In this setup, spans of the input sequence are masked by so-called sentinel tokens (a.k.a unique mask tokens) and
+the output sequence is formed as a concatenation of the same sentinel tok

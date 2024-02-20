@@ -1,0 +1,8 @@
+es to help you get started with Deformable DETR.
+
+Demo notebooks regarding inference + fine-tuning on a custom dataset for [DeformableDetrForObjectDetection] can be found here.
+See also: Object detection task guide.
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+DeformableDetrImageProcessor
+[[autodoc]] DeformableDetrImageProcesso

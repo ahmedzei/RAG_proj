@@ -1,0 +1,16 @@
+解する必要があります。
+
+Resources
+
+Causal language modeling task guide
+
+GPTNeoXJapaneseConfig
+[[autodoc]] GPTNeoXJapaneseConfig
+GPTNeoXJapaneseTokenizer
+[[autodoc]] GPTNeoXJapaneseTokenizer
+GPTNeoXJapaneseModel
+[[autodoc]] GPTNeoXJapaneseModel
+    - forward
+GPTNeoXJapaneseForCausalLM
+[[autodoc]] GPTNeoXJapaneseForCausalLM
+    - forward

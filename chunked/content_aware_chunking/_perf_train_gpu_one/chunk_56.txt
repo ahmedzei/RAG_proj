@@ -1,0 +1,22 @@
+Various distillation and approaches are proposed to how to overcome the much higher memory requirements.
+There is direct trade-off though, you can use just a few experts with a 2-3x smaller base model instead of dozens or 
+hundreds experts leading to a 5x smaller model and thus increase the training speed moderately while increasing the 
+memory requirements moderately as well.
+Most related papers and implementations are built around Tensorflow/TPUs:
+
+GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding
+Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity
+GLaM: Generalist Language Model (GLaM)
+
+And for Pytorch DeepSpeed has built one as well: DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale, Mixture of Experts - blog posts:  1, 2 and specific deployment with large transformer-based natural language generation models: blog post, Megatron-Deepspeed branch.
+Using PyTorch native attention and Flash Attention
+PyTorch 2.0 released a native torch.nn.functional.scaled_dot_product_attention (SDPA), 
+that allows using fused GPU kernels such as memory-efficient attention and flash attention.
+After installing the optimum package, the relevant internal modules can be 
+replaced to use PyTorch's native attention with:
+python
+model = model.to_bettertransformer()
+Once converted, train the model as usual.
+
+The PyTorch-native scaled_dot_product_attention operator can only dispatch to Flash Attention if no attention_mask is provided.
+By default, in training mode, the BetterTransformer integration drops the mask support and can only be used for training that does not require a padding mask for batched training.

@@ -1,0 +1,16 @@
+This means the parameters num_beams is set to 1 and do_sample=False.
+thon
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+prompt = "I look forward to"
+checkpoint = "distilbert/distilgpt2"
+tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+inputs = tokenizer(prompt, return_tensors="pt")
+model = AutoModelForCausalLM.from_pretrained(checkpoint)
+outputs = model.generate(**inputs)
+tokenizer.batch_decode(outputs, skip_special_tokens=True)
+['I look forward to seeing you all again!\n\n\n\n\n\n\n\n\n\n\n']
+
+Contrastive search
+The contrastive search decoding strategy was proposed in the 2022 paper A Contrastive Framework for Neural Text Generation.
+It demonstrates superior results for generating non-repetitive yet coherent long outputs.

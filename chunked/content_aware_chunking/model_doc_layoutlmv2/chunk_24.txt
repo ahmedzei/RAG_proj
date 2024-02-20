@@ -1,0 +1,11 @@
+of your documents (PDFs must be converted to images)."
+).convert("RGB")
+words = ["hello", "world"]
+boxes = [[1, 2, 3, 4], [5, 6, 7, 8]]  # make sure to normalize your bounding boxes
+encoding = processor(image, words, boxes=boxes, return_tensors="pt")
+print(encoding.keys())
+dict_keys(['input_ids', 'token_type_ids', 'attention_mask', 'bbox', 'image'])
+
+Use case 3: token classification (training), apply_ocr=False
+For token classification tasks (such as FUNSD, CORD, SROIE, Kleister-NDA), one can also provide the corresponding word
+labels in order to train a model.

@@ -1,0 +1,11 @@
+ch all cases, researchers have worked out a number of best 
+practices that help to achieve optimal results more consistently. 
+This guide covers the prompt engineering best practices to help you craft better LLM prompts and solve various NLP tasks. 
+You'll learn:
+
+Basics of prompting
+Best practices of LLM prompting
+Advanced prompting techniques: few-shot prompting and chain-of-thought
+When to fine-tune instead of prompting
+
+Prompt engineering is only a part of the LLM output optimization process. Another es

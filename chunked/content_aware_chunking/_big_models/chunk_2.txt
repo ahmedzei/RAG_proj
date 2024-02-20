@@ -1,0 +1,3 @@
+The random initialization following the appropriate distribution for the kind of model/parameters instantiated (like a normal distribution for instance) is only performed after step 3 on the non-initialized weights, to be as fast as possible! 
+
+In this guide, we explore the solutions Transformers offer to deal with this issue.

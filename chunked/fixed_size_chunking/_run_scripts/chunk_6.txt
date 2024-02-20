@@ -1,0 +1,9 @@
+marization. The following example shows how to fine-tune T5-small on the CNN/DailyMail dataset. The T5 model requires an additional source_prefix argument due to how it was trained. This prompt lets T5 know this is a summarization task.
+
+python examples/tensorflow/summarization/run_summarization.py  \
+    --model_name_or_path google-t5/t5-small \
+    --dataset_name cnn_dailymail \
+    --dataset_config "3.0.0" \
+    --output_dir /tmp/tst-summarization  \
+    --per_device_train_batch_size 8 \
+    --per_device

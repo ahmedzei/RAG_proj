@@ -1,0 +1,4 @@
+r('def remove_non_ascii(s: str) -> str:\n    """ \n    return result', max_new_tokens = 128, return_type = 1)
+
+Under the hood, the tokenizer automatically splits by <FILL_ME> to create a formatted input string that follows the original training pattern. This is more robust than preparing the pattern yourself: it avoids pitfalls, such as token glueing, that are very hard to debug.  To see how much CPU and GPU memory you need for this model or others, try this calculator which can help determine that value.
+T

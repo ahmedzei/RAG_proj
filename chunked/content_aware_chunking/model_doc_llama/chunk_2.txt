@@ -1,0 +1,2 @@
+In particular, LLaMA-13B outperforms GPT-3 (175B) on most benchmarks, and LLaMA-65B is competitive with the best models, Chinchilla-70B and PaLM-540B. We release all our models to the research community. *
+This model was contributed by zphang with contributions from BlackSamorez. The code of the implementation in Hugging Face is based on GPT-NeoX here.

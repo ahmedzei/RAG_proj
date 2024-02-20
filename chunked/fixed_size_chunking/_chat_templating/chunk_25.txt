@@ -1,0 +1,8 @@
+ and set tokenizer.chat_template. You may find it easier to start with an 
+existing template from another model and simply edit it for your needs! For example, we could take the LLaMA template
+above and add "[ASST]" and "[/ASST]" to assistant messages:
+{% for message in messages %}
+    {% if message['role'] == 'user' %}
+        {{ bos_token + '[INST] ' + message['content'].strip() + ' [/INST]' }}
+    {% elif message['role'] == 'system' %}
+        {{ '<<SYS>>\\n' + message['content'].strip() + '\\n<</SYS>>\\

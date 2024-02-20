@@ -1,0 +1,8 @@
+ the [~PreTrainedModel.push_to_hub] method to save the [GPTQConfig]:
+py
+quantized_model.push_to_hub("opt-125m-gptq")
+tokenizer.push_to_hub("opt-125m-gptq")
+You could also save your quantized model locally with the [~PreTrainedModel.save_pretrained] method. If the model was quantized with the device_map parameter, make sure to move the entire model to a GPU or CPU before saving it. For example, to save the model on a CPU:
+
+quantized_model.save_pretrained("opt-125m-gptq")
+tokenizer.save_pretrained("opt-125m-g

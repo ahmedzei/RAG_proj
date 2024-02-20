@@ -1,0 +1,20 @@
+aV2Model
+    - forward
+DebertaV2PreTrainedModel
+[[autodoc]] DebertaV2PreTrainedModel
+    - forward
+DebertaV2ForMaskedLM
+[[autodoc]] DebertaV2ForMaskedLM
+    - forward
+DebertaV2ForSequenceClassification
+[[autodoc]] DebertaV2ForSequenceClassification
+    - forward
+DebertaV2ForTokenClassification
+[[autodoc]] DebertaV2ForTokenClassification
+    - forward
+DebertaV2ForQuestionAnswering
+[[autodoc]] DebertaV2ForQuestionAnswering
+    - forward
+DebertaV2ForMultipleChoice
+[[autodoc]] DebertaV2ForMultipleChoice
+    - f

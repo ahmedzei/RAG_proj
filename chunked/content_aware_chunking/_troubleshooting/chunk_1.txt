@@ -1,0 +1,3 @@
+Make sure you write a good descriptive forum post with some reproducible code to maximize the likelihood that your problem is solved!
+
+Create an Issue on the 🤗 Transformers repository if it is a bug related to the library.

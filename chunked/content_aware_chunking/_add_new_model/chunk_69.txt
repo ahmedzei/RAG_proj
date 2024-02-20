@@ -1,0 +1,7 @@
+Don't hesitate to ask the Hugging Face team to point you to a similar already
+existing conversion script for your model.
+
+If you are porting a model from TensorFlow to PyTorch, a good starting point might be BERT's conversion script here
+If you are porting a model from PyTorch to PyTorch, a good starting point might be BART's conversion script here
+
+In the following, we'll quickly explain how PyTorch models store layer weights and define layer names.

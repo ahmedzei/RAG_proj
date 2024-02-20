@@ -1,0 +1,4 @@
+
+CPU inference
+With some optimizations, it is possible to efficiently run large model inference on a CPU. One of these optimization techniques involves compiling the PyTorch code into an intermediate format for high-performance environments like C++. The other technique fuses multiple operations into one kernel to reduce the overhead of running each operation separately.
+You'll learn how to use BetterTransformer for faster inference, and how to convert your PyTorch code to TorchScript. If you're using an In

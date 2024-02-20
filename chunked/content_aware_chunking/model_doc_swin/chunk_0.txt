@@ -1,0 +1,7 @@
+Swin Transformer
+Overview
+The Swin Transformer was proposed in Swin Transformer: Hierarchical Vision Transformer using Shifted Windows
+by Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, Baining Guo.
+The abstract from the paper is the following:
+This paper presents a new vision Transformer, called Swin Transformer, that capably serves as a general-purpose backbone
+for computer vision.

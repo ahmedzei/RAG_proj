@@ -1,0 +1,36 @@
+For the sequence length < 1024, using
+  original_full is advised as there is no benefit in using block_sparse attention.
+The code currently uses window size of 3 blocks and 2 global blocks.
+Sequence length must be divisible by block size.
+Current implementation supports only ITC.
+Current implementation doesn't support num_random_blocks = 0.
+BigBirdPegasus uses the PegasusTokenizer.
+BigBird is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather than
+  the left.
+
+Resources
+
+Text classification task guide
+Question answering task guide
+Causal language modeling task guide
+Translation task guide
+Summarization task guide
+
+BigBirdPegasusConfig
+[[autodoc]] BigBirdPegasusConfig
+    - all
+BigBirdPegasusModel
+[[autodoc]] BigBirdPegasusModel
+    - forward
+BigBirdPegasusForConditionalGeneration
+[[autodoc]] BigBirdPegasusForConditionalGeneration
+    - forward
+BigBirdPegasusForSequenceClassification
+[[autodoc]] BigBirdPegasusForSequenceClassification
+    - forward
+BigBirdPegasusForQuestionAnswering
+[[autodoc]] BigBirdPegasusForQuestionAnswering
+    - forward
+BigBirdPegasusForCausalLM
+[[autodoc]] BigBirdPegasusForCausalLM
+    - forward.

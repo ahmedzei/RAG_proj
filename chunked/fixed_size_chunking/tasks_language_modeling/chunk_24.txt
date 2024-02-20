@@ -1,0 +1,10 @@
+ore details about the different text generation strategies and parameters for controlling generation, check out the Text generation strategies page.
+
+from transformers import AutoModelForCausalLM
+model = AutoModelForCausalLM.from_pretrained("username/my_awesome_eli5_clm-model")
+outputs = model.generate(inputs, max_new_tokens=100, do_sample=True, top_k=50, top_p=0.95)
+
+Decode the generated token ids back into text:
+
+tokenizer.batch_decode(outputs, skip_special_tokens=True)
+["Somatic hypermutation allows the 

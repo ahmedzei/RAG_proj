@@ -1,0 +1,9 @@
+          8               8             0.005
+bert-base                  8               32            0.008
+bert-base                  8              128            0.022
+bert-base                  8              512            0.106
+bert-384-hid              8               8             0.005
+bert-384-hid              8               32            0.007
+bert-384-hid              8              128            0.018
+bert-384-hid              8              512            0.064
+bert-6-lay                 8 

@@ -1,0 +1,9 @@
+For example:
+
+[GPT2ForSequenceClassification] is a sequence classification head - a linear layer - on top of the base [GPT2Model].
+[ViTForImageClassification] is an image classification head - a linear layer on top of the final hidden state of the CLS token - on top of the base [ViTModel].
+[Wav2Vec2ForCTC] is a language modeling head with CTC on top of the base [Wav2Vec2Model].
+
+I
+image patch
+Vision-based Transformers models split an image into smaller patches which are linearly embedded, and then passed as a sequence to the model.

@@ -1,0 +1,9 @@
+tional_tools`
+The set of curated tools already has an image_transformer tool which is hereby replaced with our custom tool.
+
+Overwriting existing tools can be beneficial if we want to use a custom tool exactly for the same task as an existing tool 
+because the agent is well-versed in using the specific task. Beware that the custom tool should follow the exact same API 
+as the overwritten tool in this case, or you should adapt the prompt template to make sure all examples using that
+tool are updated.
+
+The up

@@ -1,0 +1,31 @@
+This model was contributed by nielsr.
+The original code can be found here.
+Usage tips
+
+GIT is implemented in a very similar way to GPT-2, the only difference being that the model is also conditioned on pixel_values.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with GIT.
+
+Demo notebooks regarding inference + fine-tuning GIT on custom data can be found here.
+See also: Causal language modeling task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we will review it.
+The resource should ideally demonstrate something new instead of duplicating an existing resource.
+GitVisionConfig
+[[autodoc]] GitVisionConfig
+GitVisionModel
+[[autodoc]] GitVisionModel
+    - forward
+GitConfig
+[[autodoc]] GitConfig
+    - all
+GitProcessor
+[[autodoc]] GitProcessor
+    - call
+GitModel
+[[autodoc]] GitModel
+    - forward
+GitForCausalLM
+[[autodoc]] GitForCausalLM
+    - forward.

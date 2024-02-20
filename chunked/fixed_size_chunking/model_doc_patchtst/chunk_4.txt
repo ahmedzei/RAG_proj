@@ -1,0 +1,19 @@
+an be found here. The blog can also be opened in Google Colab.
+
+PatchTSTConfig
+[[autodoc]] PatchTSTConfig
+PatchTSTModel
+[[autodoc]] PatchTSTModel
+    - forward
+PatchTSTForPrediction
+[[autodoc]] PatchTSTForPrediction
+    - forward
+PatchTSTForClassification
+[[autodoc]] PatchTSTForClassification
+    - forward
+PatchTSTForPretraining
+[[autodoc]] PatchTSTForPretraining
+    - forward
+PatchTSTForRegression
+[[autodoc]] PatchTSTForRegression
+    - forward

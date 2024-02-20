@@ -1,0 +1,14 @@
+ = T5ForConditionalGeneration.from_pretrained("google-t5/t5-small")
+input_ids = tokenizer("The  walks in  park", return_tensors="pt").input_ids
+labels = tokenizer(" cute dog  the ", return_tensors="pt").input_ids
+the forward function automatically creates the correct decoder_input_ids
+loss = model(input_ids=input_ids, labels=labels).loss
+loss.item()
+3.7837
+
+If you're interested in pre-training T5 on a new corpus, check out the run_t5_mlm_flax.py script in the Examples
+directory.
+
+Supervised training
+
+In thi

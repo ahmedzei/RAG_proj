@@ -1,0 +1,8 @@
+ belonging to one of 16 classes).
+document visual question answering: the DocVQA dataset (a collection of 50,000
+  questions defined on 12,000+ document images).
+
+The abstract from the paper is the following:
+Pre-training of text and layout has proved effective in a variety of visually-rich document understanding tasks due to
+its effective model architecture and the advantage of large-scale unlabeled scanned/digital-born documents. In this
+paper, we present LayoutLMv2 by pre-training text, layout and image 

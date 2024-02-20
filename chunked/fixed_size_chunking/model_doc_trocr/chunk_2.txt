@@ -1,0 +1,12 @@
+ but
+effective, and can be pre-trained with large-scale synthetic data and fine-tuned with human-labeled datasets. Experiments
+show that the TrOCR model outperforms the current state-of-the-art models on both printed and handwritten text recognition
+tasks.
+
+ TrOCR architecture. Taken from the original paper. 
+Please refer to the [VisionEncoderDecoder] class on how to use this model.
+This model was contributed by nielsr. The original code can be found
+here.
+Usage tips
+
+The quickest way to get started with Tr

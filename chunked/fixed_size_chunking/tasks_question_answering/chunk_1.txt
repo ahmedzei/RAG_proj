@@ -1,0 +1,14 @@
+s before spending more time training on the full dataset.
+
+from datasets import load_dataset
+squad = load_dataset("squad", split="train[:5000]")
+
+Split the dataset's train split into a train and test set with the [~datasets.Dataset.train_test_split] method:
+
+squad = squad.train_test_split(test_size=0.2)
+
+Then take a look at an example:
+
+squad["train"][0]
+{'answers': {'answer_start': [515], 'text': ['Saint Bernadette Soubirous']},
+ 'context': 'Architecturally, the school has a Catholic character. Atop the Ma

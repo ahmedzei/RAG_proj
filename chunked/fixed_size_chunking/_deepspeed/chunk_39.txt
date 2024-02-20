@@ -1,0 +1,11 @@
+ptimizers from PyTorch. If you don't configure the optimizer in the config, the [Trainer] automatically selects AdamW and either uses the supplied values or the default values for the following parameters from the command line: lr, adam_beta1, adam_beta2, adam_epsilon, weight_decay.
+You can set the parameters to "auto" or manually input your own desired values.
+yaml
+{
+   "optimizer": {
+       "type": "AdamW",
+       "params": {
+         "lr": "auto",
+         "betas": "auto",
+         "eps": "auto",
+       

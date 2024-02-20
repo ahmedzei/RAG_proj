@@ -1,0 +1,14 @@
+todoc]] ReformerModel
+    - forward
+ReformerModelWithLMHead
+[[autodoc]] ReformerModelWithLMHead
+    - forward
+ReformerForMaskedLM
+[[autodoc]] ReformerForMaskedLM
+    - forward
+ReformerForSequenceClassification
+[[autodoc]] ReformerForSequenceClassification
+    - forward
+ReformerForQuestionAnswering
+[[autodoc]] ReformerForQuestionAnswering
+    - forward

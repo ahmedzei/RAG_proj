@@ -1,0 +1,7 @@
+On which dataset was the checkpoint
+pretrained/fine-tuned on? On what down-stream task should the model be used? And also include some code on how to
+correctly use the model.
+13. (Optional) Add notebook
+It is very helpful to add a notebook that showcases in-detail how brand_new_bert can be used for inference and/or
+fine-tuned on a downstream task. This is not mandatory to merge your PR, but very useful for the community.
+14.

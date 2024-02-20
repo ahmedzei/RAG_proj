@@ -1,0 +1,16 @@
+t="test")
+inputs = processor(
+     audio=ds["audio"][0]["array"], sampling_rate=ds["audio"][0]["sampling_rate"], return_tensors="pt"
+ )
+model_output = model.generate(input_features=inputs["input_features"], composer="composer1")
+tokenizer_output = processor.batch_decode(
+     token_ids=model_output, feature_extractor_output=inputs
+ )["pretty_midi_objects"][0]
+tokenizer_output.write("./Outputs/midi_output.mid")
+
+Example using your own audio file:
+
+thon
+
+import librosa
+from transformers import Pop2PianoForCon

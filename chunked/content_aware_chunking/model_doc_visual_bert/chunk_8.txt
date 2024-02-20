@@ -1,0 +1,4 @@
+The segment IDs must also be set
+appropriately for the textual and visual parts.
+The [BertTokenizer] is used to encode the text. A custom detector/image processor must be used
+to get the visual embeddings.

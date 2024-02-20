@@ -1,0 +1,26 @@
+e model config
+sample_rate = model.generation_config.sample_rate
+write_wav("bark_generation.wav", sample_rate, audio_array)
+
+BarkConfig
+[[autodoc]] BarkConfig
+    - all
+BarkProcessor
+[[autodoc]] BarkProcessor
+    - all
+    - call
+BarkModel
+[[autodoc]] BarkModel
+    - generate
+    - enable_cpu_offload
+BarkSemanticModel
+[[autodoc]] BarkSemanticModel
+    - forward
+BarkCoarseModel
+[[autodoc]] BarkCoarseModel
+    - forward
+BarkFineModel
+[[autodoc]] BarkFineModel
+    - forward
+BarkCausalModel
+[[autodoc]] BarkCaus

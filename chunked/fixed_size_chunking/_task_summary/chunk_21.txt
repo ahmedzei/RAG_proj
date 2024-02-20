@@ -1,0 +1,9 @@
+: pred["label"]} for pred in preds]
+preds
+[{'score': 0.9991, 'label': 'POSITIVE'}]
+
+Token classification
+In any NLP task, text is preprocessed by separating the sequence of text into individual words or subwords. These are known as tokens. Token classification assigns each token a label from a predefined set of classes. 
+Two common types of token classification are:
+
+named entity recognition (NER): label a token according to an entity category like organization, person, location or date. NER is especially p

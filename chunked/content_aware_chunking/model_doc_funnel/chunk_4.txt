@@ -1,0 +1,7 @@
+Empirically, with comparable or fewer FLOPs, Funnel-Transformer outperforms the standard Transformer on
+a wide variety of sequence-level prediction tasks, including text classification, language understanding, and reading
+comprehension.
+This model was contributed by sgugger. The original code can be found here.
+Usage tips
+
+Since Funnel Transformer uses pooling, the sequence length of the hidden states changes after each block of layers.

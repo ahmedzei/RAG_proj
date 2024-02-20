@@ -1,0 +1,7 @@
+You can see all tools with the [Agent.toolbox] property.
+
+The third part includes a set of curated examples that show the agent exactly what code it should produce
+for what kind of user request. The large language models empowering the agent are extremely good at 
+recognizing patterns in a prompt and repeating the pattern with new data. Therefore, it is very important
+that the examples are written in a way that maximizes the likelihood of the agent to generating correct,
+executable code in practice.

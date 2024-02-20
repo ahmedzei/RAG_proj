@@ -1,0 +1,5 @@
+Utilize chunking with MegaConfig.use_chunking and control chunk size with MegaConfig.chunk_size 
+
+Implementation Notes
+
+The original implementation of MEGA had an inconsistent expectation of attention masks for padding and causal self-attention between the softmax attention and Laplace/squared ReLU method.

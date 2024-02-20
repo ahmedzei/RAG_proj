@@ -1,0 +1,7 @@
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A blog post on Getting Started with Sentiment Analysis using Python with DistilBERT.
+A blog post on how to train DistilBERT with Blurr for sequence classification.
+A blog post on how to use Ray to tune DistilBERT hyperparameters.
+A blog post on how to train DistilBERT with Hugging Face and Amazon SageMaker.
+A notebook on how to finetune DistilBERT for multi-label classification.

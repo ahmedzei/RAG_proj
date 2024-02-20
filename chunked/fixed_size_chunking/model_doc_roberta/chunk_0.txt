@@ -1,0 +1,10 @@
+
+RoBERTa
+
+Overview
+The RoBERTa model was proposed in RoBERTa: A Robustly Optimized BERT Pretraining Approach by Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer
+Levy, Mike Lewis, Luke Zettlemoyer, Veselin Stoyanov. It is based on Google's BERT model released in 2018.
+It builds on BERT and modifies key hyperparameters, removing the next-sentence pretraining objective and training with
+much larger mini-batches and learning rates.
+The abstract from the paper is the following:
+Langu

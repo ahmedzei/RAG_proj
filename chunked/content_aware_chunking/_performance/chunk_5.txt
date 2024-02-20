@@ -1,0 +1,19 @@
+In the following 
+sections we go through the steps to run inference on CPU and single/multi-GPU setups.
+
+Inference on a single CPU
+Inference on a single GPU
+Multi-GPU inference
+XLA Integration for TensorFlow Models
+
+Training and inference
+Here you'll find techniques, tips and tricks that apply whether you are training a model, or running inference with it.
+
+Instantiating a big model
+Troubleshooting performance issues
+
+Contribute
+This document is far from being complete and a lot more needs to be added, so if you have additions or corrections to 
+make please don't hesitate to open a PR or if you aren't sure start an Issue and we can discuss the details there.
+When making contributions that A is better than B, please try to include a reproducible benchmark and/or a link to the 
+source of that information (unless it comes directly from you)..

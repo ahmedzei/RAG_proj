@@ -1,0 +1,10 @@
+criptions of a scene, etc. 
+Let's prompt IDEFICS to write a story based on a simple image of a red door: 
+
+Photo by Craig Tidball.
+
+prompt = ["Instruction: Use the image to write a story. \n",
+     "https://images.unsplash.com/photo-1517086822157-2b0358e7684a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2203&q=80",
+     "Story: \n"]
+inputs = processor(prompt, return_tensors="pt").to("cuda")
+bad_words_ids = processor.tokenizer(["", ""], add_special_tokens=Fa

@@ -1,0 +1,5 @@
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with GroupViT.
+
+The quickest way to get started with GroupViT is by checking the example notebooks (which showcase zero-shot segmentation inference).
+One can also check out the HuggingFace Spaces demo to play with GroupViT.

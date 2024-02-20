@@ -1,0 +1,1 @@
+Note that any pretrained auto-encoding model, e.g. BERT, can serve as the encoder and both pretrained auto-encoding models, e.g. BERT, pretrained causal language models, e.g. GPT2, as well as the pretrained decoder part of sequence-to-sequence models, e.g.

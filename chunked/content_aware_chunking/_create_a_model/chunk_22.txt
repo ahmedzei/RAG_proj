@@ -1,0 +1,1 @@
+You need to use a pretrained model's vocabulary if you are using a pretrained model, otherwise the inputs won't make sense.

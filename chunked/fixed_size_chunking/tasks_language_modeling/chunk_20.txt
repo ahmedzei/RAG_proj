@@ -1,0 +1,14 @@
+so you don't need to specify one unless you want to:
+
+import tensorflow as tf
+model.compile(optimizer=optimizer)  # No loss argument!
+
+This can be done by specifying where to push your model and tokenizer in the [~transformers.PushToHubCallback]:
+
+from transformers.keras_callbacks import PushToHubCallback
+callback = PushToHubCallback(
+     output_dir="my_awesome_eli5_clm-model",
+     tokenizer=tokenizer,
+ )
+
+Finally, you're ready to start training your model! Call fit with your training and validation datas

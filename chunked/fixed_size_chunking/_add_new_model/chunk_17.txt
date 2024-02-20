@@ -1,0 +1,7 @@
+k
+To begin with, we usually recommend starting by getting a good theoretical understanding of BrandNewBert. However,
+if you prefer to understand the theoretical aspects of the model on-the-job, then it is totally fine to directly dive
+into the BrandNewBert's code-base. This option might suit you better if your engineering skills are better than
+your theoretical skill, if you have trouble understanding BrandNewBert's paper, or if you just enjoy programming
+much more than reading scientific papers.
+1. (Option

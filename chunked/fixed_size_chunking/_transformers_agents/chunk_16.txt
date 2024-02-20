@@ -1,0 +1,6 @@
+ode-execution?!
+This code is then executed with our small Python interpreter on the set of inputs passed along with your tools. 
+We hear you screaming "Arbitrary code execution!" in the back, but let us explain why that is not the case.
+The only functions that can be called are the tools you provided and the print function, so you're already 
+limited in what can be executed. You should be safe if it's limited to Hugging Face tools. 
+Then, we don't allow any attribute lookup or imports (which shouldn't be ne

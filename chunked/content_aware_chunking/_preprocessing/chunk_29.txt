@@ -1,0 +1,15 @@
+You can use [DetrImageProcessor.pad]
+from [DetrImageProcessor] and define a custom collate_fn to batch images together.
+
+def collate_fn(batch):
+     pixel_values = [item["pixel_values"] for item in batch]
+     encoding = image_processor.pad(pixel_values, return_tensors="pt")
+     labels = [item["labels"] for item in batch]
+     batch = {}
+     batch["pixel_values"] = encoding["pixel_values"]
+     batch["pixel_mask"] = encoding["pixel_mask"]
+     batch["labels"] = labels
+     return batch
+
+Multimodal
+For tasks involving multimodal inputs, you'll need a processor to prepare your dataset for the model.

@@ -1,0 +1,3 @@
+Other
+   checkpoints provided are the fine-tuned checkpoints for down-stream tasks - VQA ('visualbert-vqa'), VCR
+   ('visualbert-vcr'), NLVR2 ('visualbert-nlvr2').

@@ -1,0 +1,15 @@
+ls.TestCasePlus solves this problem by sorting out all the basic paths and provides easy
+accessors to them:
+
+pathlib objects (all fully resolved):
+
+test_file_path - the current test file path, i.e. __file__
+
+test_file_dir - the directory containing the current test file
+tests_dir - the directory of the tests test suite
+examples_dir - the directory of the examples test suite
+repo_root_dir - the directory of the repository
+
+src_dir - the directory of src (i.e. where the transformers sub-dir resides)
+
+stringif

@@ -1,0 +1,6 @@
+
+VisionTextDualEncoder
+Overview
+The [VisionTextDualEncoderModel] can be used to initialize a vision-text dual encoder model with
+any pretrained vision autoencoding model as the vision encoder (e.g. ViT, BEiT, DeiT) and any pretrained text autoencoding model as the text encoder (e.g. RoBERTa, BERT). Two projection layers are added on top of both the vision and text encoder to project the output embeddings
+to a shared latent space. The projection layers are randomly initialized so the model should be fine-tun

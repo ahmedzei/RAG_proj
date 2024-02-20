@@ -1,0 +1,4 @@
+ion requires around 15 GB of RAM which is circa half as much as the model weights themselves!
+Researchers have proposed two methods that allow to significantly reduce the memory cost of storing the key-value cache, which are explored in the next subsections.
+3.2.2 Multi-Query-Attention (MQA)
+Multi-Query-Attention was proposed in Noam Shazeer's Fast Transformer Decoding: One Write-Head is All You Need paper. As the title says, Noam found out that instead of using n_head key-value projections weights, one can

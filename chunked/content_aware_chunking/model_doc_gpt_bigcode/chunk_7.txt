@@ -1,0 +1,7 @@
+(prevents an overhead with the merged key and values, but makes the checkpoints incompatible with the original openai-community/gpt2 model).
+You can read more about the optimizations in the original pull request
+Combining Starcoder and Flash Attention 2
+First, make sure to install the latest version of Flash Attention 2 to include the sliding window attention feature.
+
+pip install -U flash-attn --no-build-isolation
+Make also sure that you have a hardware that is compatible with Flash-Attention 2.

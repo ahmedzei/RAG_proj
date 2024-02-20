@@ -1,0 +1,9 @@
+
+HerBERT
+Overview
+The HerBERT model was proposed in KLEJ: Comprehensive Benchmark for Polish Language Understanding by Piotr Rybak, Robert Mroczkowski, Janusz Tracz, and
+Ireneusz Gawlik. It is a BERT-based Language Model trained on Polish Corpora using only MLM objective with dynamic
+masking of whole words.
+The abstract from the paper is the following:
+In recent years, a series of Transformer-based models unlocked major improvements in general natural language
+understanding (NLU) tasks. Such a fast pace of 

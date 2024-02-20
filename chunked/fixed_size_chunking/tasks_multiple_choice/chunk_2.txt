@@ -1,0 +1,11 @@
+ of the procession walk down the street holding small horn brass instruments. A drum line',
+ 'video-id': 'anetv_jkn6uvmqwh4'}
+
+While it looks like there are a lot of fields here, it is actually pretty straightforward:
+
+sent1 and sent2: these fields show how a sentence starts, and if you put the two together, you get the startphrase field.
+ending: suggests a possible ending for how a sentence can end, but only one of them is correct.
+label: identifies the correct sentence ending.
+
+Preprocess
+The next step is

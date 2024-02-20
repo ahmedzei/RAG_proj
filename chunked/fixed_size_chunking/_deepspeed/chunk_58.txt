@@ -1,0 +1,9 @@
+name2 slots=8
+Then you can launch the training with the following command. The deepspeed launcher automatically launches the command on both nodes at once.
+
+deepspeed --num_gpus 8 --num_nodes 2 --hostfile hostfile --master_addr hostname1 --master_port=9901 \
+your_program.py <normal cl args> --deepspeed ds_config.json
+Check out the Resource Configuration (multi-node) guide for more details about configuring multi-node compute resources.
+
+SLURM
+In a SLURM environment, you'll need to adapt your SLURM script to

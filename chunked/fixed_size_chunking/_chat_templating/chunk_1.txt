@@ -1,0 +1,9 @@
+e. Chat templates are part of the tokenizer. They specify how to convert conversations, 
+represented as lists of messages, into a single tokenizable string in the format that the model expects. 
+Let's make this concrete with a quick example using the BlenderBot model. BlenderBot has an extremely simple default 
+template, which mostly just adds whitespace between rounds of dialogue:
+thon
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("facebook/blenderbot-400M-distill")
+chat

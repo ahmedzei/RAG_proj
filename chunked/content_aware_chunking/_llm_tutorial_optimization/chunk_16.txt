@@ -1,0 +1,24 @@
+Dequantization and re-quantization is performed sequentially for all weight matrices as the inputs run through the network graph.
+Therefore, inference time is often not reduced when using quantized weights, but rather increases.
+Enough theory, let's give it a try! To quantize the weights with Transformers, you need to make sure that
+the bitsandbytes library is installed.
+
+!pip install bitsandbytes
+We can then load models in 8-bit quantization by simply adding a load_in_8bit=True flag to from_pretrained.
+python
+model = AutoModelForCausalLM.from_pretrained("bigcode/octocoder", load_in_8bit=True, pad_token_id=0)
+Now, let's run our example again and measure the memory usage.
+thon
+pipe = pipeline("text-generation", model=model, tokenizer=tokenizer)
+result = pipe(prompt, max_new_tokens=60)[0]["generated_text"][len(prompt):]
+result
+
+Output:
+Here is a Python function that transforms bytes to Giga bytes:\n\npython\ndef bytes_to_giga_bytes(bytes):\n    return bytes / 1024 / 1024 / 1024\n\n\nThis function takes a single
+Nice, we're getting the same result as before, so no loss in accuracy! Let's look at how much memory was used this time.
+python
+bytes_to_giga_bytes(torch.cuda.max_memory_allocated())
+Output:
+15.219234466552734
+Significantly less! We're down to just a bit over 15 GBs and could therefore run this model on consumer GPUs like the 4090.
+We're seeing a very nice gain in memory efficiency and more or less no degradation to the model's output.

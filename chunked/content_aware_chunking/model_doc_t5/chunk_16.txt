@@ -1,0 +1,7 @@
+In practice, one trains deep learning models in
+batches. This entails that we must pad/truncate examples to the same length. For encoder-decoder models, one
+typically defines a max_source_length and max_target_length, which determine the maximum length of the
+input and output sequences respectively (otherwise they are truncated). These should be carefully set depending on
+the task.
+In addition, we must make sure that padding token id's of the labels are not taken into account by the loss
+function.

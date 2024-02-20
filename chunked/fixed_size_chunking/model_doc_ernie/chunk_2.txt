@@ -1,0 +1,10 @@
+|
+|  ernie-3.0-mini-zh  | Chinese  |  Layer:6, Heads:12, Hidden:384  |
+| ernie-3.0-micro-zh  | Chinese  |  Layer:4, Heads:12, Hidden:384  |
+|  ernie-3.0-nano-zh  | Chinese  |  Layer:4, Heads:12, Hidden:312  |
+|   ernie-health-zh   | Chinese  | Layer:12, Heads:12, Hidden:768  |
+|    ernie-gram-zh    | Chinese  | Layer:12, Heads:12, Hidden:768  |
+You can find all the supported models from huggingface's model hub: huggingface.co/nghuyong, and model details from paddle's official
+repo: PaddleNLP
+and ERNIE.
+Reso

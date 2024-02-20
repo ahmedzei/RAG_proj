@@ -1,0 +1,5 @@
+The representations also enable cross-modality search with complex text and text + image queries.
+This model was contributed by Alara Dirik.
+The original code is not released, this implementation is based on the Kakao Brain implementation based on the original paper.
+Usage example
+ALIGN uses EfficientNet to get visual features and BERT to get the text features. Both the text and visual features are then projected to a latent space with identical dimension.

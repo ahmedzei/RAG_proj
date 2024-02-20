@@ -1,0 +1,12 @@
+ir / "fixtures/tests_samples/wmt_en_ro"
+
+If you don't need to manipulate paths via pathlib or you just need a path as a string, you can always invoked
+str() on the pathlib object or use the accessors ending with _str. For example:
+thon
+from transformers.testing_utils import TestCasePlus
+class PathExampleTest(TestCasePlus):
+    def test_something_involving_stringified_locations(self):
+        examples_dir = self.examples_dir_str
+
+Temporary files and directories
+Using unique temporary files and directories ar

@@ -1,0 +1,10 @@
+ollowing example, we show how to do this using the default [BertModel] configuration for the encoder and the default [BertForCausalLM] configuration for the decoder.
+thon
+
+from transformers import BertConfig, EncoderDecoderConfig, EncoderDecoderModel
+config_encoder = BertConfig()
+config_decoder = BertConfig()
+config = EncoderDecoderConfig.from_encoder_decoder_configs(config_encoder, config_decoder)
+model = EncoderDecoderModel(config=config)
+
+Initialising EncoderDecoderModel from a pretrained encoder and a p

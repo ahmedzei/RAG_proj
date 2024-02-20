@@ -1,0 +1,10 @@
+training like you would with a standard language modelling task, using the formatted_chat column.
+Advanced: How do chat templates work?
+The chat template for a model is stored on the tokenizer.chat_template attribute. If no chat template is set, the
+default template for that model class is used instead. Let's take a look at the template for BlenderBot:
+thon
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("facebook/blenderbot-400M-distill")
+tokenizer.default_chat_template
+"{

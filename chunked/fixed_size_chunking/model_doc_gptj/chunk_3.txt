@@ -1,0 +1,7 @@
+fine-tune the model on TPU and then convert the model to Transformers format for inference. Instructions for
+  that could be found here
+
+Although the embedding matrix has a size of 50400, only 50257 entries are used by the GPT-2 tokenizer. These extra
+  tokens are added for the sake of efficiency on TPUs. To avoid the mismatch between embedding matrix size and vocab
+  size, the tokenizer for GPT-J contains 143 extra tokens
+  <|extratoken_1|> <|extratoken_143|>, so the vocab_size of tokenizer also becomes 50

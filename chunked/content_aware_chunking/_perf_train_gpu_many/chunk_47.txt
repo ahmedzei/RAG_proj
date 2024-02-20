@@ -1,0 +1,4 @@
+There would need to be an additional reduce-scatter collective for every micro-batch to aggregate 
+the gradients before sharding, which adds a potentially significant communication overhead. By nature of Pipeline Parallelism, 
+small micro-batches are used and instead the focus is on trying to balance arithmetic intensity (micro-batch size) with
+minimizing the Pipeline bubble (number of micro-batches).

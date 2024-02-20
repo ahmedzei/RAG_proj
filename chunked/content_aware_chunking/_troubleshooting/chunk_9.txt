@@ -1,0 +1,7 @@
+Add the following environment variable to the beginning of your code to get the traceback to point to the source of the error:
+
+import os
+os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
+
+Incorrect output when padding tokens aren't masked
+In some cases, the output hidden_state may be incorrect if the input_ids include padding tokens. To demonstrate, load a model and tokenizer. You can access a model's pad_token_id to see its value.

@@ -1,0 +1,8 @@
+looks like this:
+{% for message in messages %}
+    {{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}
+{% endfor %}
+If you like this one, here it is in one-liner form, ready to copy into your code. The one-liner also includes
+handy support for generation prompts, but note that it doesn't add BOS or EOS tokens!
+If your model expects those, they won't be added automatically by apply_chat_template - in other words, the
+text will be tokenized with add_special_tokens=False. Thi

@@ -1,0 +1,14 @@
+dden_size,
+        "stage3_prefetch_bucket_size": 0.9 * model_hidden_size * model_hidden_size,
+        "stage3_param_persistence_threshold": 10 * model_hidden_size
+    },
+    "steps_per_print": 2000,
+    "train_batch_size": train_batch_size,
+    "train_micro_batch_size_per_gpu": 1,
+    "wall_clock_breakdown": False
+}
+fmt: on
+next line instructs transformers to partition the model directly over multiple gpus using
+deepspeed.zero.Init when model's from_pretrained method is called.
+
+it has to be run before loa

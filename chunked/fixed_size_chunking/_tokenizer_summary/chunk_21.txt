@@ -1,0 +1,8 @@
+orresponds to the 256 bytes base tokens, a special end-of-text token and the symbols learned
+with 50,000 merges.
+
+WordPiece
+WordPiece is the subword tokenization algorithm used for BERT, DistilBERT, and Electra. The algorithm was outlined in Japanese and Korean
+Voice Search (Schuster et al., 2012) and is very similar to
+BPE. WordPiece first initializes the vocabulary to include every character present in the training data and
+progressively learns a given number of merge rules. In contrast to BPE, WordPiece 

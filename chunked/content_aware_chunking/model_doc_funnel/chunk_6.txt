@@ -1,0 +1,4 @@
+For other
+  tasks, the full model is used; this full model has a decoder that upsamples the final hidden states to the same
+  sequence length as the input.
+For tasks such as classification, this is not a problem, but for tasks like masked language modeling or token classification, we need a hidden state with the same sequence length as the original input. In those cases, the final hidden states are upsampled to the input sequence length and go through two additional layers.

@@ -1,0 +1,7 @@
+Through the prompt, we show the agent how it would leverage tools to perform what was 
+requested in the query.
+This is using brand-new tools and not pipelines, because the agent writes better code with very atomic tools. 
+Pipelines are more refactored and often combine several tasks in one. Tools are meant to be focused on
+one very simple task only.
+Code-execution?!
+This code is then executed with our small Python interpreter on the set of inputs passed along with your tools.

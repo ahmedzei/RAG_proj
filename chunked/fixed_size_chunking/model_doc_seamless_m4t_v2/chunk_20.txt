@@ -1,0 +1,9 @@
+]] transformers.SeamlessM4Tv2ForTextToText
+    - forward
+    - generate
+SeamlessM4Tv2ForSpeechToText
+[[autodoc]] transformers.SeamlessM4Tv2ForSpeechToText
+    - forward
+    - generate
+SeamlessM4Tv2Config
+[[autodoc]] SeamlessM4Tv2Config

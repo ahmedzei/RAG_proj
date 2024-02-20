@@ -1,0 +1,4 @@
+Often, one or the other is advantageous depending on the original code
+base.
+If the original code-base allows you to decompose the model into smaller sub-components, e.g. if the original
+code-base can easily be run in eager mode, it is usually worth the effort to do so.

@@ -1,0 +1,20 @@
+For more details about the different text generation strategies and parameters for controlling generation, check out the Text Generation API.
+
+from transformers import AutoModelForSeq2SeqLM
+model = AutoModelForSeq2SeqLM.from_pretrained("my_awesome_opus_books_model")
+outputs = model.generate(inputs, max_new_tokens=40, do_sample=True, top_k=30, top_p=0.95)
+
+Decode the generated token ids back into text:
+
+tokenizer.decode(outputs[0], skip_special_tokens=True)
+'Les lignées partagent des ressources avec des bactéries enfixant l'azote.'
+``
+</pt>
+<tf>
+Tokenize the text and return theinput_ids` as TensorFlow tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("my_awesome_opus_books_model")
+inputs = tokenizer(text, return_tensors="tf").input_ids
+
+Use the [~transformers.generation_tf_utils.TFGenerationMixin.generate] method to create the translation.

@@ -1,0 +1,8 @@
+d, it keeps aggregated information 
+(sums of rolling averages row- and column-wise), significantly reducing its footprint. However, compared to Adam, 
+Adafactor may have slower convergence in certain cases.
+You can switch to Adafactor by setting optim="adafactor" in [TrainingArguments]:
+py
+training_args = TrainingArguments(per_device_train_batch_size=4, optim="adafactor", **default_args)
+Combined with other approaches (gradient accumulation, gradient checkpointing, and mixed precision training) 
+you can not

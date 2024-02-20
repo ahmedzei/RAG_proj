@@ -1,0 +1,2 @@
+coder]]
+The Decision and Trajectory Transformer casts the state, action, and reward as a sequence modeling problem. The Decision Transformer generates a series of actions that lead to a future desired return based on returns-to-go, past states, and actions. For the last K timesteps, each of the three modalities are converted into token embeddings and processed by a GPT-like model to predict a future action token. Trajectory Transformer also tokenizes the states, actions, and rewards and processes them with 

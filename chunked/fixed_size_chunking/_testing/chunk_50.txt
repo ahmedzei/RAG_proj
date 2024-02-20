@@ -1,0 +1,18 @@
+t_feature_x():
+Here's how to skip a test based on internal checks within the test:
+python
+def test_feature_x():
+    if not has_something():
+        pytest.skip("unsupported configuration")
+or the whole module:
+thon
+import pytest
+if not pytest.config.getoption("--custom-flag"):
+    pytest.skip("--custom-flag is missing, skipping tests", allow_module_level=True)
+
+or the xfail way:
+python
+def test_feature_x():
+    pytest.xfail("expected to fail until bug XYZ is fixed")
+
+Here is how to skip all tests in a modul

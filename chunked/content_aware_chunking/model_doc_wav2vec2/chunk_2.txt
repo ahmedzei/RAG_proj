@@ -1,0 +1,2 @@
+Using just ten minutes of labeled data and
+pre-training on 53k hours of unlabeled data still achieves 4.8/8.2 WER.

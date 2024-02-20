@@ -1,0 +1,8 @@
+Some examples
+- DeepSpeed
+- Megatron-LM has an internal implementation - no API.
+- Varuna
+- SageMaker - this is a proprietary solution that can only be used on AWS.
+- OSLO - this is implemented based on the Hugging Face Transformers.
+🤗 Transformers status: as of this writing none of the models supports full-PP. GPT2 and T5 models have naive MP support. 
+The main obstacle is being unable to convert the models to nn.Sequential and have all the inputs to be Tensors.

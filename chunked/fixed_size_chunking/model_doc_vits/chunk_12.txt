@@ -1,0 +1,16 @@
+s.environ["UROMAN"])
+inputs = tokenizer(text=uromaized_text, return_tensors="pt")
+set_seed(555)  # make deterministic
+with torch.no_grad():
+   outputs = model(inputs["input_ids"])
+waveform = outputs.waveform[0]
+
+VitsConfig
+[[autodoc]] VitsConfig
+VitsTokenizer
+[[autodoc]] VitsTokenizer
+    - call
+    - save_vocabulary
+VitsModel
+[[autodoc]] VitsModel
+    - forward

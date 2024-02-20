@@ -1,0 +1,5 @@
+🤗 ❤️
+To get started, open a New model addition issue for the model you want to see in 🤗 Transformers. If you're not especially picky about contributing a specific model, you can filter by the New model label to see if there are any unclaimed model requests and work on it.
+Once you've opened a new model request, the first step is to get familiar with 🤗 Transformers if you aren't already!
+General overview of 🤗 Transformers
+First, you should get a general overview of 🤗 Transformers.

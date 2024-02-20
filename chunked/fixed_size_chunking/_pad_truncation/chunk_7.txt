@@ -1,0 +1,4 @@
+                     | padding to max sequence in batch  | tokenizer(batch_sentences, padding=True) or                                          |
+|                                      |                                   | tokenizer(batch_sentences, padding='longest')                                        |
+|                                      | padding to max model input length | tokenizer(batch_sentences, padding='max_length')                                     |
+|                                     

@@ -1,0 +1,7 @@
+Finally, FNet has a light memory footprint
+and is particularly efficient at smaller model sizes; for a fixed speed and accuracy budget, small FNet models
+outperform Transformer counterparts.
+This model was contributed by gchhablani. The original code can be found here.
+Usage tips
+The model was trained without an attention mask as it is based on Fourier Transform. The model was trained with 
+maximum sequence length 512 which includes pad tokens.

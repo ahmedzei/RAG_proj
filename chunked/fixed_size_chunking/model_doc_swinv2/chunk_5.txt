@@ -1,0 +1,5 @@
+c]] Swinv2ForMaskedImageModeling
+    - forward
+Swinv2ForImageClassification
+[[autodoc]] transformers.Swinv2ForImageClassification
+    - forward

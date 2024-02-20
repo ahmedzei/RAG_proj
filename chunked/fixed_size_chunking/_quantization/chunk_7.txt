@@ -1,0 +1,18 @@
+salLM"
+  ],
+  
+  
+  
+  "quantization_config": {
+    "quant_method": "awq",
+    "zero_point": true,
+    "group_size": 128,
+    "bits": 4,
+    "version": "gemm"
+  }
+}
+A quantized model is loaded with the [~PreTrainedModel.from_pretrained] method. If you loaded your model on the CPU, make sure to move it to a GPU device first. Use the device_map parameter to specify where to place the model:
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+model_id = "TheBloke/zephyr-7B-alpha-AWQ"
+model = AutoMode

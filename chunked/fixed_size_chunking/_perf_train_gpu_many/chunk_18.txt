@@ -1,0 +1,9 @@
+the same horizontal slicing as tensor parallelism, as opposed to Vertical 
+slicing, where one puts whole layer-groups on different GPUs. Now let's see how this works: 
+Each of these GPUs will get the usual mini-batch as it works in DP:
+x0 => GPU0
+x1 => GPU1
+x2 => GPU2
+The inputs are passed without modifications as if they would be processed by the original model.
+First, the inputs get to the layer La. What happens at this point?
+On GPU0: the x0 mini-batch requires the a0, a1, a2 parameters to do its forward

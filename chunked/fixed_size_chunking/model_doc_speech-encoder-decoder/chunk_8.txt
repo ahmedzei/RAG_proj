@@ -1,0 +1,10 @@
+on a dataset of (speech, text) pairs.
+As you can see, only 2 inputs are required for the model in order to compute a loss: input_values (which are the
+speech inputs) and labels (which are the input_ids of the encoded target sequence).
+thon
+
+from transformers import AutoTokenizer, AutoFeatureExtractor, SpeechEncoderDecoderModel
+from datasets import load_dataset
+encoder_id = "facebook/wav2vec2-base-960h"  # acoustic model encoder
+decoder_id = "google-bert/bert-base-uncased"  # text decoder
+feature_extractor =

@@ -1,0 +1,4 @@
+ve filtering rules, and provide an analysis of the dataset's content. To show the viability of OBELISC, we train an 80 billion parameters vision and language model on the dataset and obtain competitive performance on various multimodal benchmarks. We release the code to reproduce the dataset along with the dataset itself.
+This model was contributed by HuggingFaceM4. The original code can be found here. (TODO: don't have a public link yet).
+
+IDEFICS modeling code in Transformers is for finetuning and inferen

@@ -1,0 +1,9 @@
+
+MobileBERT
+Overview
+The MobileBERT model was proposed in MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices by Zhiqing Sun, Hongkun Yu, Xiaodan Song, Renjie Liu, Yiming Yang, and Denny
+Zhou. It's a bidirectional transformer based on the BERT model, which is compressed and accelerated using several
+approaches.
+The abstract from the paper is the following:
+Natural Language Processing (NLP) has recently achieved great success by using huge pre-trained models with hundreds
+of millions of par

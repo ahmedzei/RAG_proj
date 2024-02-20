@@ -1,0 +1,6 @@
+robability initial tokens and would've been ignored by the greedy search.
+do_sample: if set to True, this parameter enables decoding strategies such as multinomial sampling, beam-search
+multinomial sampling, Top-K sampling and Top-p sampling. All these strategies select the next token from the probability
+distribution over the entire vocabulary with various strategy-specific adjustments.
+num_return_sequences: the number of sequence candidates to return for each input. This option is only available for
+the d

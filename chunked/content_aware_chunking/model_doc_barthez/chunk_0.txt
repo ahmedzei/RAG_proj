@@ -1,0 +1,8 @@
+BARThez
+Overview
+The BARThez model was proposed in BARThez: a Skilled Pretrained French Sequence-to-Sequence Model by Moussa Kamal Eddine, Antoine J.-P. Tixier, Michalis Vazirgiannis on 23 Oct,
+2020.
+The abstract of the paper:
+Inductive transfer learning, enabled by self-supervised learning, have taken the entire Natural Language Processing
+(NLP) field by storm, with models such as BERT and BART setting new state of the art on countless natural language
+understanding tasks.

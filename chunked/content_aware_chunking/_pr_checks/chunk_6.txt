@@ -1,0 +1,9 @@
+You can see here this is done with the comment:
+
+Copied from transformers.models.roberta.modeling_roberta.RobertaForMaskedLM with Roberta->Camembert, ROBERTA->CAMEMBERT
+
+If the order matters (because one of the replacements might conflict with a previous one), the replacements are executed from left to right.
+
+If the replacements change the formatting (if you replace a short name by a very long name for instance), the copy is checked after applying the auto-formatter.
+
+Another way when the patterns are just different casings of the same replacement (with an uppercased and a lowercased variants) is just to add the option all-casing.

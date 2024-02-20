@@ -1,0 +1,8 @@
+forms well without requiring any finetuning.
+The architecture follows a classic encoder-decoder architecture, which means that it relies on the [~generation.GenerationMixin.generate] function for inference.
+
+One can use [WhisperProcessor] to prepare audio for the model, and decode the predicted ID's back into text.
+
+To convert the model and the processor, we recommend using the following:
+
+python src/transformers/models/whisper/convert_openai_to_hf.py --checkpoint_path "" --pytorch_dump_folder_path "Arthur/

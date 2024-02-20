@@ -1,0 +1,3 @@
+These functions apply
+the image transformations and use the earlier loaded image_processor to convert the images into pixel_values and
+annotations to labels.

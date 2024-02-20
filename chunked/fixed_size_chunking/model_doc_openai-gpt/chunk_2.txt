@@ -1,0 +1,6 @@
+e input transformations during fine-tuning to achieve
+effective transfer while requiring minimal changes to the model architecture. We demonstrate the effectiveness of our
+approach on a wide range of benchmarks for natural language understanding. Our general task-agnostic model outperforms
+discriminatively trained models that use architectures specifically crafted for each task, significantly improving upon
+the state of the art in 9 out of the 12 tasks studied.
+Write With Transformer is a webapp created and

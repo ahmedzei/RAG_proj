@@ -1,0 +1,5 @@
+SigLIP
+Overview
+The SigLIP model was proposed in Sigmoid Loss for Language Image Pre-Training by Xiaohua Zhai, Basil Mustafa, Alexander Kolesnikov, Lucas Beyer. SigLIP proposes to replace the loss function used in CLIP by a simple pairwise sigmoid loss. This results in better performance in terms of zero-shot classification accuracy on ImageNet.
+The abstract from the paper is the following:
+We propose a simple pairwise Sigmoid loss for Language-Image Pre-training (SigLIP).

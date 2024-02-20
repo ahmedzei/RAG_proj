@@ -1,0 +1,9 @@
+Liu on Dec 18, 2019.
+According to the abstract,
+
+Pegasus' pretraining task is intentionally similar to summarization: important sentences are removed/masked from an
+  input document and are generated together as one output sequence from the remaining sentences, similar to an
+  extractive summary.
+Pegasus achieves SOTA summarization performance on all 12 downstream tasks, as measured by ROUGE and human eval.
+
+This model was contributed by sshleifer.

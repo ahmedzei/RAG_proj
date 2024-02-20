@@ -1,0 +1,11 @@
+If your outputs aren't aligned with what you're expecting, we've created a list of the most common pitfalls and how to avoid them.
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1")
+tokenizer.pad_token = tokenizer.eos_token  # Most LLMs don't have a pad token by default
+model = AutoModelForCausalLM.from_pretrained(
+     "mistralai/Mistral-7B-v0.1", device_map="auto", load_in_4bit=True
+ )
+
+Generated output is too short/long
+If not specified in the [~generation.GenerationConfig] file, generate returns up to 20 tokens by default.

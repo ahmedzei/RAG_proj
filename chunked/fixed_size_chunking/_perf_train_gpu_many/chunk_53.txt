@@ -1,0 +1,4 @@
+odels are FX-trace-able via transformers.utils.fx, 
+which is a prerequisite for FlexFlow, however, changes are required on the FlexFlow side to make it work with Transformers models.
+GPU selection
+When training on multiple GPUs, you can specify the number of GPUs to use and in what order. This can be useful for instance when you have GPUs with different computing power and want to use the faster GPU first. The selection process works for both DistributedDataParallel and DataParallel to use only a subset of 

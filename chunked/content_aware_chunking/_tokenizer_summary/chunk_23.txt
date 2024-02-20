@@ -1,0 +1,6 @@
+For instance,
+the word "bug" would be tokenized to ["b", "ug"] but "mug" would be tokenized as ["<unk>", "ug"] since
+the symbol "m" is not in the base vocabulary. In general, single letters such as "m" are not replaced by the
+"<unk>" symbol because the training data usually includes at least one occurrence of each letter, but it is likely
+to happen for very special characters like emojis.
+As mentioned earlier, the vocabulary size, i.e.

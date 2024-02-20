@@ -1,0 +1,9 @@
+This is not surprising as we've repeated the system prompt ten times for demonstration purposes and thus cued the model to repeat itself.
+Note that the system prompt should not be repeated ten times in real-world applications - one time is enough!
+Let's measure the peak GPU memory requirement.
+python
+bytes_to_giga_bytes(torch.cuda.max_memory_allocated())
+Output:
+
+37.668193340301514
+As we can see the peak GPU memory requirement is now significantly higher than in the beginning, which is largely due to the longer input sequence.

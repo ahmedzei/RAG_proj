@@ -1,0 +1,1 @@
+It should map all parameters of the model to a given device, but you don't have to detail where all the submodules of one layer go if that layer is entirely on the same device.

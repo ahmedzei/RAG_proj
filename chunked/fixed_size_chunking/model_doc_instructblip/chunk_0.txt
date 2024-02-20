@@ -1,0 +1,7 @@
+
+InstructBLIP
+Overview
+The InstructBLIP model was proposed in InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning by Wenliang Dai, Junnan Li, Dongxu Li, Anthony Meng Huat Tiong, Junqi Zhao, Weisheng Wang, Boyang Li, Pascale Fung, Steven Hoi.
+InstructBLIP leverages the BLIP-2 architecture for visual instruction tuning.
+The abstract from the paper is the following:
+General-purpose language models that can solve various language-domain tasks have emerged driven by the pre-train

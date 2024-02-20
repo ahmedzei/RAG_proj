@@ -1,0 +1,3 @@
+determine the true speech representation from a set of false ones. HuBERT is similar to Wav2Vec2 but has a different training process. Target labels are created by a clustering step in which segments of similar audio are assigned to a cluster which becomes a hidden unit. The hidden unit is mapped to an embedding to make a prediction.
+Encoder-decoder[[audio-encoder-decoder]]
+Speech2Text is a speech model designed for automatic speech recognition (ASR) and speech translation. The model accepts log mel-filter 

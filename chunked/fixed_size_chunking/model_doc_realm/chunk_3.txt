@@ -1,0 +1,16 @@
+perform all previous
+methods by a significant margin (4-16% absolute accuracy), while also providing qualitative benefits such as
+interpretability and modularity.
+This model was contributed by qqaatw. The original code can be found
+here.
+RealmConfig
+[[autodoc]] RealmConfig
+RealmTokenizer
+[[autodoc]] RealmTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+    - batch_encode_candidates
+RealmTokenizerFast
+[[autodoc]] R

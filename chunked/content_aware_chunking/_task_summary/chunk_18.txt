@@ -1,0 +1,14 @@
+Depth information is also helpful for constructing 3D representations from 2D images and can be used to create high-quality 3D representations of biological structures or buildings.
+There are two approaches to depth estimation:
+
+stereo: depths are estimated by comparing two images of the same image from slightly different angles
+monocular: depths are estimated from a single image
+
+from transformers import pipeline
+depth_estimator = pipeline(task="depth-estimation")
+preds = depth_estimator(
+     "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/pipeline-cat-chonk.jpeg"
+ )
+
+Natural language processing
+NLP tasks are among the most common types of tasks because text is such a natural way for us to communicate.

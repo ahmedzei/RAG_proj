@@ -1,0 +1,9 @@
+ggingface_hub import notebook_login
+notebook_login()
+
+Load the dataset
+VoxPopuli is a large-scale multilingual speech corpus consisting of 
+data sourced from 2009-2020 European Parliament event recordings. It contains labelled audio-transcription data for 15 
+European languages. In this guide, we are using the Dutch language subset, feel free to pick another subset. 
+Note that VoxPopuli or any other automated speech recognition (ASR) dataset may not be the most suitable 
+option for training TTS models. The 

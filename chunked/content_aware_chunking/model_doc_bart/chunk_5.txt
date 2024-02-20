@@ -1,0 +1,6 @@
+Use [BartTokenizer] or
+  [~BartTokenizer.encode] to get the proper splitting.
+The forward pass of [BartModel] will create the decoder_input_ids if they are not passed.
+  This is different than some other modeling APIs. A typical use case of this feature is mask filling.
+Model predictions are intended to be identical to the original implementation when
+  forced_bos_token_id=0.

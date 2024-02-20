@@ -1,0 +1,8 @@
+class_labels = sorted({str(path).split("/")[2] for path in all_video_file_paths})
+label2id = {label: i for i, label in enumerate(class_labels)}
+id2label = {i: label for label, i in label2id.items()}
+print(f"Unique classes: {list(label2id.keys())}.")
+
+Unique classes: ['ApplyEyeMakeup', 'ApplyLipstick', 'Archery', 'BabyCrawling', 'BalanceBeam', 'BandMarching', 'BaseballPitch', 'Basketball', 'BasketballDunk', 'BenchPress'].
+
+There are 10 unique classes.

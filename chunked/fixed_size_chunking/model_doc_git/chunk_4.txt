@@ -1,0 +1,19 @@
+ausal language modeling task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we will review it.
+The resource should ideally demonstrate something new instead of duplicating an existing resource.
+GitVisionConfig
+[[autodoc]] GitVisionConfig
+GitVisionModel
+[[autodoc]] GitVisionModel
+    - forward
+GitConfig
+[[autodoc]] GitConfig
+    - all
+GitProcessor
+[[autodoc]] GitProcessor
+    - call
+GitModel
+[[autodoc]] GitModel
+    - forward
+GitForCausal

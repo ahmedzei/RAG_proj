@@ -1,0 +1,20 @@
+This can be done by specifying where to push your model and tokenizer in the [~transformers.PushToHubCallback]:
+
+from transformers.keras_callbacks import PushToHubCallback
+callback = PushToHubCallback(
+     output_dir="my_awesome_qa_model",
+     tokenizer=tokenizer,
+ )
+
+Finally, you're ready to start training your model! Call fit with your training and validation datasets, the number of epochs, and your callback to finetune the model:
+
+model.fit(x=tf_train_set, validation_data=tf_validation_set, epochs=3, callbacks=[callback])
+
+Once training is completed, your model is automatically uploaded to the Hub so everyone can use it!
+
+For a more in-depth example of how to finetune a model for question answering, take a look at the corresponding
+PyTorch notebook
+or TensorFlow notebook.
+
+Evaluate
+Evaluation for question answering requires a significant amount of postprocessing.

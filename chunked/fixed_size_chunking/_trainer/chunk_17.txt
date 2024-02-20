@@ -1,0 +1,6 @@
+ith the log_level and log_level_replica parameters in [TrainingArguments].
+To configure the log level setting for each node, use the log_on_each_node parameter to determine whether to use the log level on each node or only on the main node.
+
+[Trainer] sets the log level separately for each node in the [Trainer.__init__] method, so you may want to consider setting this sooner if you're using other Transformers functionalities before creating the [Trainer] object.
+
+For example, to set your main code and modul

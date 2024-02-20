@@ -1,0 +1,23 @@
+This means
+you can use an image query to find similar objects in the target image.
+Unlike text queries, only a single example image is allowed.
+Let's take an image with two cats on a couch as a target image, and an image of a single cat
+as a query:
+
+url = "http://images.cocodataset.org/val2017/000000039769.jpg"
+image_target = Image.open(requests.get(url, stream=True).raw)
+query_url = "http://images.cocodataset.org/val2017/000000524280.jpg"
+query_image = Image.open(requests.get(query_url, stream=True).raw)
+
+Let's take a quick look at the images:
+
+import matplotlib.pyplot as plt
+fig, ax = plt.subplots(1, 2)
+ax[0].imshow(image_target)
+ax[1].imshow(query_image)
+
+In the preprocessing step, instead of text queries, you now need to use query_images:
+
+inputs = processor(images=image_target, query_images=query_image, return_tensors="pt")
+
+For predictions, instead of passing the inputs to the model, pass them to [~OwlViTForObjectDetection.image_guided_detection].

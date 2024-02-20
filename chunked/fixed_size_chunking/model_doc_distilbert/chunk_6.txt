@@ -1,0 +1,8 @@
+ using Python with DistilBERT.
+A blog post on how to train DistilBERT with Blurr for sequence classification.
+A blog post on how to use Ray to tune DistilBERT hyperparameters.
+A blog post on how to train DistilBERT with Hugging Face and Amazon SageMaker.
+A notebook on how to finetune DistilBERT for multi-label classification. 🌎
+A notebook on how to finetune DistilBERT for multiclass classification with PyTorch. 🌎
+A notebook on how to finetune DistilBERT for text classification in TensorFlow. 🌎
+[DistilBertFo

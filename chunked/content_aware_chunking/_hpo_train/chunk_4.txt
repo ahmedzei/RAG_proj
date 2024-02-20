@@ -1,0 +1,13 @@
+direction can be"minimize" or "maximize", which indicates whether to optimize greater or lower objective.
+You could define your own compute_objective function, if not defined, the default compute_objective will be called, and the sum of eval metric like f1 is returned as objective value.
+
+best_trial = trainer.hyperparameter_search(
+     direction="maximize",
+     backend="optuna",
+     hp_space=optuna_hp_space,
+     n_trials=20,
+     compute_objective=compute_objective,
+ )
+
+Hyperparameter search For DDP finetune
+Currently, Hyperparameter search for DDP is enabled for optuna and sigopt.

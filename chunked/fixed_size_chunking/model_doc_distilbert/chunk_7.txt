@@ -1,0 +1,8 @@
+rSequenceClassification] is supported by this example script and notebook.
+[TFDistilBertForSequenceClassification] is supported by this example script and notebook.
+[FlaxDistilBertForSequenceClassification] is supported by this example script and notebook.
+Text classification task guide
+
+[DistilBertForTokenClassification] is supported by this example script and notebook.
+[TFDistilBertForTokenClassification] is supported by this example script and notebook.
+[FlaxDistilBertForTokenClassification] is supported

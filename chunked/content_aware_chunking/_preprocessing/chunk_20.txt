@@ -1,0 +1,7 @@
+These steps
+include but are not limited to resizing, normalizing, color channel correction, and converting images to tensors.
+
+Image preprocessing often follows some form of image augmentation. Both image preprocessing and image augmentation
+transform image data, but they serve different purposes:
+
+Image augmentation alters images in a way that can help prevent overfitting and increase the robustness of the model.

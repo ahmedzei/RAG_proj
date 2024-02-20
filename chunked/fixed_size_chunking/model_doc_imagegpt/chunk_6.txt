@@ -1,0 +1,7 @@
+verage-pool the hidden states at whatever layer you like.
+Alternatively, one can further fine-tune the entire model on a downstream dataset, similar to BERT. For this, you can
+  use [ImageGPTForImageClassification].
+ImageGPT comes in different sizes: there's ImageGPT-small, ImageGPT-medium and ImageGPT-large. The authors did also
+  train an XL variant, which they didn't release. The differences in size are summarized in the following table:
+
+| Model variant | Depths | Hidden sizes | Decoder hidden size | Pa

@@ -1,0 +1,18 @@
+ through the final vocoder to produce the actual speech.
+
+This model was contributed by ylacombe. The original code can be found here.
+SeamlessM4TModel
+[[autodoc]] SeamlessM4TModel
+    - generate
+SeamlessM4TForTextToSpeech
+[[autodoc]] SeamlessM4TForTextToSpeech
+    - generate
+SeamlessM4TForSpeechToSpeech
+[[autodoc]] SeamlessM4TForSpeechToSpeech
+    - generate
+SeamlessM4TForTextToText
+[[autodoc]] transformers.SeamlessM4TForTextToText
+    - forward
+    - generate
+SeamlessM4TForSpeechToText
+[[autodoc]] transfo

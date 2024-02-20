@@ -1,0 +1,23 @@
+BartTokenizerFast
+[[autodoc]] MBartTokenizerFast
+MBart50Tokenizer
+[[autodoc]] MBart50Tokenizer
+MBart50TokenizerFast
+[[autodoc]] MBart50TokenizerFast
+
+MBartModel
+[[autodoc]] MBartModel
+MBartForConditionalGeneration
+[[autodoc]] MBartForConditionalGeneration
+MBartForQuestionAnswering
+[[autodoc]] MBartForQuestionAnswering
+MBartForSequenceClassification
+[[autodoc]] MBartForSequenceClassification
+MBartForCausalLM
+[[autodoc]] MBartForCausalLM
+    - forward
+
+TFMBartModel
+[[autodoc]] TFMBartModel
+    - call
+TFMBartF

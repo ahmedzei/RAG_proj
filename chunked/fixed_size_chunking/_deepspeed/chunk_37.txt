@@ -1,0 +1,4 @@
+uld also replace the Transformers modeling code and replace torch.utils.checkpoint with the DeepSpeed API. This approach is more flexible because you can offload the forward activations to the CPU memory instead of recalculating them.
+
+Optimizer and scheduler
+DeepSpeed and Transformers optimizer and scheduler can be mixed and matched as long as you don't enable offload_optimizer. When offload_optimizer is enabled, you could use a non-DeepSpeed optimizer (except for LAMB) as long as it has both a CPU and GPU

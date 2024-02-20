@@ -1,0 +1,5 @@
+90.7%) and RACE by +3.6% (83.2% vs. 86.8%). The DeBERTa code and
+pre-trained models will be made publicly available at https://github.com/microsoft/DeBERTa.
+The following information is visible directly on the original implementation
+repository. DeBERTa v2 is the second version of the DeBERTa model. It includes
+the 1.5B model used for the SuperGLUE single-model submission and achieving 89.9, versus human baseline 89.8.

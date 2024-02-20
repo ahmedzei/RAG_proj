@@ -1,0 +1,6 @@
+RoFormer
+Overview
+The RoFormer model was proposed in RoFormer: Enhanced Transformer with Rotary Position Embedding by Jianlin Su and Yu Lu and Shengfeng Pan and Bo Wen and Yunfeng Liu.
+The abstract from the paper is the following:
+Position encoding in transformer architecture provides supervision for dependency modeling between elements at
+different positions in the sequence.

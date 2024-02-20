@@ -1,0 +1,8 @@
+roducing the Audio Spectrogram Transformer (AST), the first convolution-free, purely attention-based model for audio classification. We evaluate AST on various audio classification benchmarks, where it achieves new state-of-the-art results of 0.485 mAP on AudioSet, 95.6% accuracy on ESC-50, and 98.1% accuracy on Speech Commands V2.
+
+ Audio Spectrogram Transformer architecture. Taken from the original paper.
+This model was contributed by nielsr.
+The original code can be found here.
+Usage tips
+
+When fine-tuni

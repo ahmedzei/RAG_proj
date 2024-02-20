@@ -1,0 +1,10 @@
+h).
+4. Take an argmax on the last dimension of both the start_logits and end_logits to get the predicted start_idx and end_idx.
+5. Decode the answer with the tokenizer.
+
+import torch
+from transformers import AutoProcessor
+from transformers import AutoModelForDocumentQuestionAnswering
+processor = AutoProcessor.from_pretrained("MariaK/layoutlmv2-base-uncased_finetuned_docvqa")
+model = AutoModelForDocumentQuestionAnswering.from_pretrained("MariaK/layoutlmv2-base-uncased_finetuned_docvqa")
+with torch.no_grad():

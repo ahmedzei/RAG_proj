@@ -1,0 +1,7 @@
+The Authors' code can be found here.
+Usage tips
+
+Since the Longformer is based on RoBERTa, it doesn't have token_type_ids. You don't need to indicate which
+  token belongs to which segment. Just separate your segments with the separation token tokenizer.sep_token (or
+  </s>).
+A transformer model replacing the attention matrices by sparse matrices to go faster. Often, the local context (e.g., what are the two tokens left and right?) is enough to take action for a given token.

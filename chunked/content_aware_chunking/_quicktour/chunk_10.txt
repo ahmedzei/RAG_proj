@@ -1,0 +1,4 @@
+You only need to select the appropriate AutoClass for your task and it's associated preprocessing class. 
+Let's return to the example from the previous section and see how you can use the AutoClass to replicate the results of the [pipeline].
+AutoTokenizer
+A tokenizer is responsible for preprocessing text into an array of numbers as inputs to a model.

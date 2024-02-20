@@ -1,0 +1,1 @@
+It is a mask to filter out non-first tokens of each box. You can obtain this mask by saving start token indices of bounding boxes when creating input_ids from words.

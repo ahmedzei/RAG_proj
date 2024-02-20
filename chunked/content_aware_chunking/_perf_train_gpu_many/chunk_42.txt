@@ -1,0 +1,8 @@
+And hopefully training mode will be supported too.
+- Deepspeed-Inference also supports our BERT, GPT-2, and GPT-Neo models in their super-fast CUDA-kernel-based inference mode, see more here
+🤗 Accelerate integrates with TP from Megatron-LM.
+Data Parallelism + Pipeline Parallelism
+The following diagram from the DeepSpeed pipeline tutorial demonstrates 
+how one can combine DP with PP.
+
+Here it's important to see how DP rank 0 doesn't see GPU2 and DP rank 1 doesn't see GPU3.

@@ -1,0 +1,10 @@
+*
+
+ Neighborhood Attention compared to other attention patterns.
+Taken from the original paper.
+This model was contributed by Ali Hassani.
+The original code can be found here.
+Usage tips
+
+One can use the [AutoImageProcessor] API to prepare images for the model.
+NAT can be used as a backbone.

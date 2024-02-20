@@ -1,0 +1,18 @@
+pt (instruction) to the Q-Former.
+InstructBlipConfig
+[[autodoc]] InstructBlipConfig
+    - from_vision_qformer_text_configs
+InstructBlipVisionConfig
+[[autodoc]] InstructBlipVisionConfig
+InstructBlipQFormerConfig
+[[autodoc]] InstructBlipQFormerConfig
+InstructBlipProcessor
+[[autodoc]] InstructBlipProcessor
+InstructBlipVisionModel
+[[autodoc]] InstructBlipVisionModel
+    - forward
+InstructBlipQFormerModel
+[[autodoc]] InstructBlipQFormerModel
+    - forward
+InstructBlipForConditionalGeneration
+[[autodoc]] Instruct

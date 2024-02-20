@@ -1,0 +1,5 @@
+tput, source=0, destination=-1)
+bring values back to pixel values range
+output = (output * 255.0).round().astype(np.uint8)
+Image.fromarray(output)
+

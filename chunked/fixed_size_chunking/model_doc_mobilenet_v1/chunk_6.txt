@@ -1,0 +1,9 @@
+ns to unquantize the weights.
+
+It's common to extract the output from the pointwise layers at indices 5, 11, 12, 13 for downstream purposes. Using output_hidden_states=True returns the output from all intermediate layers. There is currently no way to limit this to specific layers.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with MobileNetV1.
+
+[MobileNetV1ForImageClassification] is supported by this example script and notebook.
+See also: Image c

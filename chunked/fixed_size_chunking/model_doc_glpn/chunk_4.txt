@@ -1,0 +1,17 @@
+ness than other comparative models.
+
+ Summary of the approach. Taken from the original paper. 
+This model was contributed by nielsr. The original code can be found here.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with GLPN.
+
+Demo notebooks for [GLPNForDepthEstimation] can be found here.
+Monocular depth estimation task guide
+
+GLPNConfig
+[[autodoc]] GLPNConfig
+GLPNFeatureExtractor
+[[autodoc]] GLPNFeatureExtractor
+    - call
+GLPNImageProcessor
+[[a

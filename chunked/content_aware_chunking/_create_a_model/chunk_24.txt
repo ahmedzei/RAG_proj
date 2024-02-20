@@ -1,0 +1,5 @@
+You can disable this behavior by setting use_fast=False in from_pretrained.
+
+Image processor
+An image processor processes vision inputs. It inherits from the base [~image_processing_utils.ImageProcessingMixin] class.
+To use, create an image processor associated with the model you're using.

@@ -1,0 +1,5 @@
+Leveraging this feature allows CTRL to generate syntactically coherent text as it can be
+  observed in the run_generation.py example script.
+The PyTorch models can take the past_key_values as input, which is the previously computed key/value attention pairs.
+  TensorFlow models accepts past as input. Using the past_key_values value prevents the model from re-computing
+  pre-computed values in the context of text generation.

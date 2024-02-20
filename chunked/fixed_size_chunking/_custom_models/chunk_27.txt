@@ -1,0 +1,10 @@
+ustom-resnet50d", trust_remote_code=True)
+
+It is also strongly encouraged to pass a commit hash as a revision to make sure the author of the models did not
+update the code with some malicious new lines (unless you fully trust the authors of the models).
+py
+commit_hash = "ed94a7c6247d8aedce4647f00f20de6875b5b292"
+model = AutoModelForImageClassification.from_pretrained(
+    "sgugger/custom-resnet50d", trust_remote_code=True, revision=commit_hash
+)
+Note that when browsing the commit history of the model repo o

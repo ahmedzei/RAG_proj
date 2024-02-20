@@ -1,0 +1,9 @@
+ments
+it can give you some rope to decompose the big problem of porting a model into smaller problems of just porting
+  individual components and thus structure your work better
+separating the model into logical meaningful components will help you to get a better overview of the model's design
+  and thus to better understand the model
+at a later stage those component-by-component tests help you to ensure that no regression occurs as you continue
+  changing your code
+
+Lysandre's integration checks for ELECTR

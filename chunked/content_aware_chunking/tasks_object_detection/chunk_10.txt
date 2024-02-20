@@ -1,0 +1,37 @@
+Let's add a function to reformat annotations for a single example:
+
+def formatted_anns(image_id, category, area, bbox):
+     annotations = []
+     for i in range(0, len(category)):
+         new_ann = {
+             "image_id": image_id,
+             "category_id": category[i],
+             "isCrowd": 0,
+             "area": area[i],
+             "bbox": list(bbox[i]),
+         }
+         annotations.append(new_ann)
+
+     return annotations
+
+Now you can combine the image and annotation transformations to use on a batch of examples:
+
+transforming a batch
+def transform_aug_ann(examples):
+     image_ids = examples["image_id"]
+     images, bboxes, area, categories = [], [], [], []
+     for image, objects in zip(examples["image"], examples["objects"]):
+         image = np.array(image.convert("RGB"))[:, :, ::-1]
+         out = transform(image=image, bboxes=objects["bbox"], category=objects["category"])
+
+         area.append(objects["area"])
+         images.append(out["image"])
+         bboxes.append(out["bboxes"])
+         categories.append(out["category"])
+     targets = [
+         {"image_id": id_, "annotations": formatted_anns(id_, cat_, ar_, box_)}
+         for id_, cat_, ar_, box_ in zip(image_ids, categories, area, bboxes)
+     ]
+     return image_processor(images=images, annotations=targets, return_tensors="pt")
+
+Apply this preprocessing function to the entire dataset using 🤗 Datasets [~datasets.Dataset.with_transform] method.

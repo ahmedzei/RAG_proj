@@ -1,0 +1,8 @@
+t AutoModelForCausalLM, AutoTokenizer
+device = "cuda" # the device to load the model onto
+tokenizer = AutoTokenizer.from_pretrained("stabilityai/stablelm-3b-4e1t")
+model = AutoModelForCausalLM.from_pretrained("stabilityai/stablelm-3b-4e1t")
+model.to(device)
+model_inputs = tokenizer("The weather is always wonderful in", return_tensors="pt").to(model.device)
+generated_ids = model.generate(**model_inputs, max_length=32, do_sample=True)
+responses = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)

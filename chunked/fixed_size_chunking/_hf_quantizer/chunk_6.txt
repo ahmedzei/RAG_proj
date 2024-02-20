@@ -1,0 +1,3 @@
+/utils/import_utils.py.
+requires_parameters_quantization: Only required if your quantization method requires extra attention to the underlying nn.Parameter object. For example, bitsandbytes uses Params4bit and Int8Param, which requires some extra attention when quantizing the model. Most of the recent quantization method packs int2/int4 weights inside torch.uint8 weights, so this flag should not be really required (set to False by default).
+is_serializable: A property method to determine whether the method 

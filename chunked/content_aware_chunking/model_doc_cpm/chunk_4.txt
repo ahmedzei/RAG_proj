@@ -1,0 +1,10 @@
+The original implementation can be found
+here: https://github.com/TsinghuaAI/CPM-Generate
+
+CPM's architecture is the same as GPT-2, except for tokenization method. Refer to GPT-2 documentation for 
+API reference information.  
+
+CpmTokenizer
+[[autodoc]] CpmTokenizer
+CpmTokenizerFast
+[[autodoc]] CpmTokenizerFast.

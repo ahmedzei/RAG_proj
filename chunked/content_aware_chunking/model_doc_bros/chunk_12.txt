@@ -1,0 +1,46 @@
+You can make box_first_token_mask with following code,
+
+thon
+def make_box_first_token_mask(bboxes, words, tokenizer, max_seq_length=512):
+box_first_token_mask = np.zeros(max_seq_length, dtype=np.bool_)
+
+# encode(tokenize) each word from words (List[str])
+input_ids_list: List[List[int]] = [tokenizer.encode(e, add_special_tokens=False) for e in words]
+
+# get the length of each box
+tokens_length_list: List[int] = [len(l) for l in input_ids_list]
+
+box_end_token_indices = np.array(list(itertools.accumulate(tokens_length_list)))
+box_start_token_indices = box_end_token_indices - np.array(tokens_length_list)
+
+# filter out the indices that are out of max_seq_length
+box_end_token_indices = box_end_token_indices[box_end_token_indices < max_seq_length - 1]
+if len(box_start_token_indices) > len(box_end_token_indices):
+    box_start_token_indices = box_start_token_indices[: len(box_end_token_indices)]
+
+# set box_start_token_indices to True
+box_first_token_mask[box_start_token_indices] = True
+
+return box_first_token_mask
+
+Resources
+
+Demo scripts can be found here.
+
+BrosConfig
+[[autodoc]] BrosConfig
+BrosProcessor
+[[autodoc]] BrosProcessor
+    - call
+BrosModel
+[[autodoc]] BrosModel
+    - forward
+BrosForTokenClassification
+[[autodoc]] BrosForTokenClassification
+    - forward
+BrosSpadeEEForTokenClassification
+[[autodoc]] BrosSpadeEEForTokenClassification
+    - forward
+BrosSpadeELForTokenClassification
+[[autodoc]] BrosSpadeELForTokenClassification
+    - forward.

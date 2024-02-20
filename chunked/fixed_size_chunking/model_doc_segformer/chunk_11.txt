@@ -1,0 +1,6 @@
+, 512] | 768                     | 62.6           | 83.6                  |
+| MiT-b5            | [3, 6, 40, 3] | [64, 128, 320, 512] | 768                     | 82.0           | 83.8                  |
+Note that MiT in the above table refers to the Mix Transformer encoder backbone introduced in SegFormer. For
+SegFormer's results on the segmentation datasets like ADE20k, refer to the paper.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with SegFor

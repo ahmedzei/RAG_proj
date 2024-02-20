@@ -1,0 +1,4 @@
+Experiments on the labeled
+Common Voice and unlabeled VoxPopuli datasets show that our recipe can yield a model with better
+performance for many languages that also transfers well to LibriSpeech.
+This model was contributed by cwkeam.

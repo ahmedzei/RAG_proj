@@ -1,0 +1,21 @@
+ on very long context as the max position embeddings is limited to 2048 - but this is applicable to all gpt-neo models and not specific to FA-2
+
+Resources
+
+Text classification task guide
+Causal language modeling task guide
+
+GPTNeoConfig
+[[autodoc]] GPTNeoConfig
+
+GPTNeoModel
+[[autodoc]] GPTNeoModel
+    - forward
+GPTNeoForCausalLM
+[[autodoc]] GPTNeoForCausalLM
+    - forward
+GPTNeoForQuestionAnswering
+[[autodoc]] GPTNeoForQuestionAnswering
+    - forward
+GPTNeoForSequenceClassification
+[[autodoc]] GPTNeoForSequ

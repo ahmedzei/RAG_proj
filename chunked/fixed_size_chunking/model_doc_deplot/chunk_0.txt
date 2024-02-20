@@ -1,0 +1,6 @@
+
+DePlot
+Overview
+DePlot was proposed in the paper DePlot: One-shot visual language reasoning by plot-to-table translation from Fangyu Liu, Julian Martin Eisenschlos, Francesco Piccinno, Syrine Krichene, Chenxi Pang, Kenton Lee, Mandar Joshi, Wenhu Chen, Nigel Collier, Yasemin Altun.
+The abstract of the paper states the following:
+Visual language such as charts and plots is ubiquitous in the human world. Comprehending plots and charts requires strong reasoning skills. Prior state-of-the-art (SOTA) models req

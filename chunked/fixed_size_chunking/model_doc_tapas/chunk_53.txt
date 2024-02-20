@@ -1,0 +1,11 @@
+sTokenizer.from_pretrained(model_name)
+data = {"Actors": ["Brad Pitt", "Leonardo Di Caprio", "George Clooney"], "Number of movies": ["87", "53", "69"]}
+queries = [
+     "What is the name of the first actor?",
+     "How many movies has George Clooney played in?",
+     "What is the total number of movies?",
+ ]
+table = pd.DataFrame.from_dict(data)
+inputs = tokenizer(table=table, queries=queries, padding="max_length", return_tensors="pt")
+outputs = model(**inputs)
+predicted_answer_coordinates, predicted_aggrega

@@ -1,0 +1,7 @@
+kubectl create -f pytorchjob.yaml
+The kubectl get pods -n kubeflow command can then be used to list the pods in the kubeflow namespace. You should see
+the worker pods for the PyTorchJob that was just deployed. At first, they will probably have a status of "Pending" as
+the containers get pulled and created, then the status should change to "Running".
+NAME                                                     READY   STATUS                  RESTARTS          AGE
+
+transformers-pytorchjob-worker-0                

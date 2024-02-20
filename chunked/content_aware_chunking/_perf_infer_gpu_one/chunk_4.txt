@@ -1,0 +1,5 @@
+Make sure to cast your model to the appropriate dtype and load them on a supported device before using FlashAttention-2.
+
+You can also set use_flash_attention_2=True to enable FlashAttention-2 but it is deprecated in favor of attn_implementation="flash_attention_2".
+
+FlashAttention-2 can be combined with other optimization techniques like quantization to further speedup inference.

@@ -1,0 +1,17 @@
+axXLMRobertaForCausalLM
+[[autodoc]] FlaxXLMRobertaForCausalLM
+    - call
+FlaxXLMRobertaForMaskedLM
+[[autodoc]] FlaxXLMRobertaForMaskedLM
+    - call
+FlaxXLMRobertaForSequenceClassification
+[[autodoc]] FlaxXLMRobertaForSequenceClassification
+    - call
+FlaxXLMRobertaForMultipleChoice
+[[autodoc]] FlaxXLMRobertaForMultipleChoice
+    - call
+FlaxXLMRobertaForTokenClassification
+[[autodoc]] FlaxXLMRobertaForTokenClassification
+    - call
+FlaxXLMRobertaForQuestionAnswering
+[[autodoc]] FlaxXLMRobertaForQuestionAnswe

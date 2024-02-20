@@ -1,0 +1,14 @@
+ainer.train() 
+
+Once training is completed, share your model to the Hub with the [~Trainer.push_to_hub] method to share your final model on the 🤗 Hub:
+
+trainer.push_to_hub()
+
+Inference
+Now that you have fine-tuned a ViLT model, and uploaded it to the 🤗 Hub, you can use it for inference. The simplest
+way to try out your fine-tuned model for inference is to use it in a [Pipeline].
+
+from transformers import pipeline
+pipe = pipeline("visual-question-answering", model="MariaK/vilt_finetuned_200")
+
+The model in t

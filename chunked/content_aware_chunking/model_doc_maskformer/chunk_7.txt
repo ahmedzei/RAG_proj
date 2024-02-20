@@ -1,0 +1,4 @@
+When training on multiple nodes, this should be
+  set to the average number of target masks across all nodes, as can be seen in the original implementation here.
+One can use [MaskFormerImageProcessor] to prepare images for the model and optional targets for the model.
+To get the final segmentation, depending on the task, you can call [~MaskFormerImageProcessor.post_process_semantic_segmentation] or [~MaskFormerImageProcessor.post_process_panoptic_segmentation].

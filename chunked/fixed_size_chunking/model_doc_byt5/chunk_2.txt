@@ -1,0 +1,5 @@
+s paper, we show that a standard Transformer architecture can be used with
+minimal modifications to process byte sequences. We carefully characterize the trade-offs in terms of parameter count,
+training FLOPs, and inference speed, and show that byte-level models are competitive with their token-level
+counterparts. We also demonstrate that byte-level models are significantly more robust to noise and perform better on
+tasks that are sensitive to spelling and pronunciation. As part of our contribution, we rele

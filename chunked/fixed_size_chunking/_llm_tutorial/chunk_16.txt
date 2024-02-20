@@ -1,0 +1,10 @@
+generated_ids = model.generate(**model_inputs, max_new_tokens=20)
+print(tokenizer.batch_decode(generated_ids[:, input_length:], skip_special_tokens=True)[0])
+"I'm not a thug, but i can tell you that a human cannot eat"
+Oh no, it did not follow our instruction to reply as a thug! Let's see what happens when we write
+a better prompt and use the right template for this model (through tokenizer.apply_chat_template)
+set_seed(0)
+messages = [
+     {
+         "role": "system",
+         "content": "You are a friendl

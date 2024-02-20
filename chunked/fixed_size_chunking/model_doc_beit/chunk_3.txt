@@ -1,0 +1,8 @@
+base-size BEiT achieves 83.2% top-1 accuracy on ImageNet-1K,
+significantly outperforming from-scratch DeiT training (81.8%) with the same setup. Moreover, large-size BEiT obtains
+86.3% only using ImageNet-1K, even outperforming ViT-L with supervised pre-training on ImageNet-22K (85.2%).
+This model was contributed by nielsr. The JAX/FLAX version of this model was
+contributed by kamalkraj. The original code can be found here.
+Usage tips
+
+BEiT models are regular Vision Transformers, but pre-trained in a self-s

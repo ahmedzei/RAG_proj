@@ -1,0 +1,22 @@
+- call
+TFRobertaForSequenceClassification
+[[autodoc]] TFRobertaForSequenceClassification
+    - call
+TFRobertaForMultipleChoice
+[[autodoc]] TFRobertaForMultipleChoice
+    - call
+TFRobertaForTokenClassification
+[[autodoc]] TFRobertaForTokenClassification
+    - call
+TFRobertaForQuestionAnswering
+[[autodoc]] TFRobertaForQuestionAnswering
+    - call
+
+FlaxRobertaModel
+[[autodoc]] FlaxRobertaModel
+    - call
+FlaxRobertaForCausalLM
+[[autodoc]] FlaxRobertaForCausalLM
+    - call
+FlaxRobertaForMaskedLM
+[[autodoc]] Fla

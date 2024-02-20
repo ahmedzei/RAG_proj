@@ -1,0 +1,5 @@
+ds, attention_mask, token_type_ids, labels, numeric_values, numeric_values_scale, float_answer |
+| Strong supervision for aggregation | input ids, attention mask, token type ids, labels, aggregation_labels                                     |
+[TapasTokenizer] creates the labels, numeric_values and numeric_values_scale based on the answer_coordinates and answer_text columns of the TSV file. The float_answer and aggregation_labels are already in the TSV file of step 2. Here's an example:
+
+from transformers i

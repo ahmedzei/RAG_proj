@@ -1,0 +1,8 @@
+s.
+There is direct trade-off though, you can use just a few experts with a 2-3x smaller base model instead of dozens or 
+hundreds experts leading to a 5x smaller model and thus increase the training speed moderately while increasing the 
+memory requirements moderately as well.
+Most related papers and implementations are built around Tensorflow/TPUs:
+
+GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding
+Switch Transformers: Scaling to Trillion Parameter Models with Simple and Effi

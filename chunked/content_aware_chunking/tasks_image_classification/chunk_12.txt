@@ -1,0 +1,71 @@
+Upload your model to 🤗 Hub to share with the community.
+Start by defining the hyperparameters, optimizer and learning rate schedule:
+
+from transformers import create_optimizer
+batch_size = 16
+num_epochs = 5
+num_train_steps = len(food["train"]) * num_epochs
+learning_rate = 3e-5
+weight_decay_rate = 0.01
+optimizer, lr_schedule = create_optimizer(
+     init_lr=learning_rate,
+     num_train_steps=num_train_steps,
+     weight_decay_rate=weight_decay_rate,
+     num_warmup_steps=0,
+ )
+
+Then, load ViT with [TFAutoModelForImageClassification] along with the label mappings:
+
+from transformers import TFAutoModelForImageClassification
+model = TFAutoModelForImageClassification.from_pretrained(
+     checkpoint,
+     id2label=id2label,
+     label2id=label2id,
+ )
+
+Convert your datasets to the tf.data.Dataset format using the [~datasets.Dataset.to_tf_dataset] and your data_collator:
+
+converting our train dataset to tf.data.Dataset
+tf_train_dataset = food["train"].to_tf_dataset(
+     columns="pixel_values", label_cols="label", shuffle=True, batch_size=batch_size, collate_fn=data_collator
+ )
+converting our test dataset to tf.data.Dataset
+tf_eval_dataset = food["test"].to_tf_dataset(
+     columns="pixel_values", label_cols="label", shuffle=True, batch_size=batch_size, collate_fn=data_collator
+ )
+
+Configure the model for training with compile():
+
+from tensorflow.keras.losses import SparseCategoricalCrossentropy
+loss = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
+model.compile(optimizer=optimizer, loss=loss)
+
+To compute the accuracy from the predictions and push your model to the 🤗 Hub, use Keras callbacks.
+Pass your compute_metrics function to KerasMetricCallback,
+and use the PushToHubCallback to upload the model:
+
+from transformers.keras_callbacks import KerasMetricCallback, PushToHubCallback
+metric_callback = KerasMetricCallback(metric_fn=compute_metrics, eval_dataset=tf_eval_dataset)
+push_to_hub_callback = PushToHubCallback(
+     output_dir="food_classifier",
+     tokenizer=image_processor,
+     save_strategy="no",
+ )
+callbacks = [metric_callback, push_to_hub_callback]
+
+Finally, you are ready to train your model! Call fit() with your training and validation datasets, the number of epochs,
+and your callbacks to fine-tune the model:
+
+model.fit(tf_train_dataset, validation_data=tf_eval_dataset, epochs=num_epochs, callbacks=callbacks)
+Epoch 1/5
+250/250 [==============================] - 313s 1s/step - loss: 2.5623 - val_loss: 1.4161 - accuracy: 0.9290
+Epoch 2/5
+250/250 [==============================] - 265s 1s/step - loss: 0.9181 - val_loss: 0.6808 - accuracy: 0.9690
+Epoch 3/5
+250/250 [==============================] - 252s 1s/step - loss: 0.3910 - val_loss: 0.4303 - accuracy: 0.9820
+Epoch 4/5
+250/250 [==============================] - 251s 1s/step - loss: 0.2028 - val_loss: 0.3191 - accuracy: 0.9900
+Epoch 5/5
+250/250 [==============================] - 238s 949ms/step - loss: 0.1232 - val_loss: 0.3259 - accuracy: 0.9890
+
+Congratulations! You have fine-tuned your model and shared it on the 🤗 Hub.

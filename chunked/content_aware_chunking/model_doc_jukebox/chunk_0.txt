@@ -1,0 +1,8 @@
+Jukebox
+Overview
+The Jukebox model was proposed in Jukebox: A generative model for music
+by Prafulla Dhariwal, Heewoo Jun, Christine Payne, Jong Wook Kim, Alec Radford,
+Ilya Sutskever. It introduces a generative music model which can produce minute long samples that can be conditioned on
+an artist, genres and lyrics.
+The abstract from the paper is the following:
+We introduce Jukebox, a model that generates music with singing in the raw audio domain.

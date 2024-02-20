@@ -1,0 +1,9 @@
+             | 0/1000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/nicolas/src/transformers/test.py", line 42, in 
+    for out in tqdm(pipe(dataset, batch_size=256), total=len(dataset)):
+.
+    q = q / math.sqrt(dim_per_head)  # (bs, n_heads, q_length, dim_per_head)
+RuntimeError: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 3.95 GiB total capacity; 1.72 GiB already allocated; 354.88 MiB free; 2.46 GiB reserved in total by PyTorch)
+
+There are no good (general) solutions for th

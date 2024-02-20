@@ -1,0 +1,34 @@
+
+Backbone
+A backbone is a model used for feature extraction for higher level computer vision tasks such as object detection and image classification. Transformers provides an [AutoBackbone] class for initializing a Transformers backbone from pretrained model weights, and two utility classes:
+
+[~utils.BackboneMixin] enables initializing a backbone from Transformers or timm and includes functions for returning the output features and indices.
+[~utils.BackboneConfigMixin] sets the output features and indices of the backbone configuration.
+
+timm models are loaded with the [TimmBackbone] and [TimmBackboneConfig] classes.
+Backbones are supported for the following models:
+
+BEiT
+BiT
+ConvNet
+ConvNextV2
+DiNAT
+DINOV2
+FocalNet
+MaskFormer
+NAT
+ResNet
+Swin Transformer
+Swin Transformer v2
+ViTDet
+
+AutoBackbone
+[[autodoc]] AutoBackbone
+BackboneMixin
+[[autodoc]] utils.BackboneMixin
+BackboneConfigMixin
+[[autodoc]] utils.BackboneConfigMixin
+TimmBackbone
+[[autodoc]] models.timm_backbone.TimmBackbone
+TimmBackboneConfig
+[[autodoc]] models.timm_backbone.TimmBackboneConfig

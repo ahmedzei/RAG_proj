@@ -1,0 +1,7 @@
+ined(model_id, quantization_config=quantization_config).to(0)
+
+The parameter modules_to_fuse should include:
+
+"attention": The names of the attention layers to fuse in the following order: query, key, value and output projection layer. If you don't want to fuse these layers, pass an empty list.
+"layernorm": The names of all the LayerNorm layers you want to replace with a custom fused LayerNorm. If you don't want to fuse these layers, pass an empty list.
+"mlp": The names of the MLP layers you want to fuse in

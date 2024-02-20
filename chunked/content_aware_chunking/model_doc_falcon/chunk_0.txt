@@ -1,0 +1,7 @@
+Falcon
+Overview
+Falcon is a class of causal decoder-only models built by TII. The largest Falcon checkpoints
+have been trained on >=1T tokens of text, with a particular emphasis on the RefinedWeb
+corpus. They are made available under the Apache 2.0 license.
+Falcon's architecture is modern and optimized for inference, with multi-query attention and support for efficient
+attention variants like FlashAttention.

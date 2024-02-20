@@ -1,0 +1,5 @@
+An inverted bottleneck does the opposite by expanding the number of channels and shrinking them, which is more memory efficient.
+
+Replace the typical 3x3 convolutional layer in the bottleneck layer with depthwise convolution, which applies a convolution to each input channel separately and then stacks them back together at the end. This widens the network width for improved performance.
+
+ViT has a global receptive field which means it can see more of an image at once thanks to its attention mechanism.

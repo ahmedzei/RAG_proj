@@ -1,0 +1,21 @@
+tch of examples from your dataset:
+
+from transformers import DataCollatorWithPadding
+data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
+   
+
+Now gather all these classes in [Trainer]:
+
+from transformers import Trainer
+trainer = Trainer(
+     model=model,
+     args=training_args,
+     train_dataset=dataset["train"],
+     eval_dataset=dataset["test"],
+     tokenizer=tokenizer,
+     data_collator=data_collator,
+ )  # doctest: +SKIP
+
+When you're ready, call [~Trainer.train] to start training:
+
+trainer

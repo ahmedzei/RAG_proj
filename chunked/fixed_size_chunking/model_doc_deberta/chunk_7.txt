@@ -1,0 +1,20 @@
+DebertaTokenizerFast
+[[autodoc]] DebertaTokenizerFast
+    - build_inputs_with_special_tokens
+    - create_token_type_ids_from_sequences
+
+DebertaModel
+[[autodoc]] DebertaModel
+    - forward
+DebertaPreTrainedModel
+[[autodoc]] DebertaPreTrainedModel
+DebertaForMaskedLM
+[[autodoc]] DebertaForMaskedLM
+    - forward
+DebertaForSequenceClassification
+[[autodoc]] DebertaForSequenceClassification
+    - forward
+DebertaForTokenClassification
+[[autodoc]] DebertaForTokenClassification
+    - forward
+DebertaForQuestionAnswe

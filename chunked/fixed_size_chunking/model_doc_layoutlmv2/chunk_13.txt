@@ -1,0 +1,8 @@
+ave values when fine-tuning on a custom dataset.
+If you want to train the model in a distributed environment, make sure to call [synchronize_batch_norm] on the
+  model in order to properly synchronize the batch normalization layers of the visual backbone.
+
+In addition, there's LayoutXLM, which is a multilingual version of LayoutLMv2. More information can be found on
+LayoutXLM's documentation page.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with

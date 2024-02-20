@@ -1,0 +1,2 @@
+Here for instance, it has two keys that are loss and logits.
+We document here the generic model outputs that are used by more than one model type.

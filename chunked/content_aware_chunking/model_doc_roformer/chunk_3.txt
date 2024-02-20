@@ -1,0 +1,5 @@
+The undergoing
+experiment for English benchmark will soon be updated.
+This model was contributed by junnyu. The original code can be found here.
+Usage tips
+RoFormer is a BERT-like autoencoding model with rotary position embeddings.

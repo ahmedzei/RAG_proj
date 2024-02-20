@@ -1,0 +1,11 @@
+t the list of messages!
+What are "generation prompts"?
+You may have noticed that the apply_chat_template method has an add_generation_prompt argument. This argument tells
+the template to add tokens that indicate the start of a bot response. For example, consider the following chat:
+python
+messages = [
+    {"role": "user", "content": "Hi there!"},
+    {"role": "assistant", "content": "Nice to meet you!"},
+    {"role": "user", "content": "Can I ask a question?"}
+]
+Here's what this will look like without a gen

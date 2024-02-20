@@ -1,0 +1,13 @@
+8c/en-US~APP_ERROR/602ba9e2963e11ccd901cd4f.wav',
+ 'transcription': "hi I'm trying to use the banking app on my phone and currently my checking and savings account balance is not refreshing"}
+
+There are two fields:
+
+audio: a 1-dimensional array of the speech signal that must be called to load and resample the audio file.
+transcription: the target text.
+
+Preprocess
+The next step is to load a Wav2Vec2 processor to process the audio signal:
+
+from transformers import AutoProcessor
+processor = AutoProcessor.from

@@ -1,0 +1,4 @@
+Model implementation
+Now it's time to finally start coding. Our suggested starting point is the PyTorch file itself: copy the contents of
+modeling_brand_new_bert.py inside src/transformers/models/brand_new_bert/ into
+modeling_tf_brand_new_bert.py.

@@ -1,0 +1,9 @@
+onvNeXT for image classification
+DETR for object detection
+Mask2Former for image segmentation
+GLPN for depth estimation
+BERT for NLP tasks like text classification, token classification and question answering that use an encoder
+GPT2 for NLP tasks like text generation that use a decoder
+BART for NLP tasks like summarization and translation that use an encoder-decoder
+
+Before you go further, it is good to have some basic knowledge of the original Transformer architecture. Knowing how encoders, decoders, and 

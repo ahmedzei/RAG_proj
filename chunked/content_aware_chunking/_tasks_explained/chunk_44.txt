@@ -1,0 +1,5 @@
+The prediction, whether it is the next sentence or not, is passed to a feedforward network with a softmax over the two classes (IsNext and NotNext).
+
+The input embeddings are passed through multiple encoder layers to output some final hidden states.
+
+To use the pretrained model for text classification, add a sequence classification head on top of the base BERT model.

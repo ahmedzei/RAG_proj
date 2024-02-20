@@ -1,0 +1,7 @@
+ErnieM
+Overview
+The ErnieM model was proposed in ERNIE-M: Enhanced Multilingual Representation by Aligning
+Cross-lingual Semantics with Monolingual Corpora  by Xuan Ouyang, Shuohuan Wang, Chao Pang, Yu Sun,
+Hao Tian, Hua Wu, Haifeng Wang.
+The abstract from the paper is the following:
+Recent studies have demonstrated that pre-trained cross-lingual models achieve impressive performance in downstream cross-lingual tasks.

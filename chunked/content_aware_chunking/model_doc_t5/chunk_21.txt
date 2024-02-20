@@ -1,0 +1,6 @@
+Dynamically padding
+batches to the longest example is not recommended on TPU as it triggers a recompilation for every batch shape that is
+encountered during training thus significantly slowing down the training. only padding up to the longest example in a
+batch) leads to very slow training on TPU.
+Inference
+At inference time, it is recommended to use [~generation.GenerationMixin.generate].

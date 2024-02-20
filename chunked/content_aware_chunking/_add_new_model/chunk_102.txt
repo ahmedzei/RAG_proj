@@ -1,0 +1,10 @@
+At this point, you should correct some potential
+incorrect code style by running:
+
+make style
+and verify that your coding style passes the quality check:
+
+make quality
+There are a couple of other very strict design tests in 🤗 Transformers that might still be failing, which shows up in
+the tests of your pull request. This is often because of some missing information in the docstring or some incorrect
+naming.

@@ -1,0 +1,12 @@
+
+tool.push_to_hub("hf-model-downloads")
+You now have your code on the Hub! Let's take a look at the final step, which is to have the agent use it.
+Having the agent use the tool
+We now have our tool that lives on the Hub which can be instantiated as such (change the user name for your tool):
+thon
+from transformers import load_tool
+tool = load_tool("lysandre/hf-model-downloads")
+
+In order to use it in the agent, simply pass it in the additional_tools parameter of the agent initialization method:
+thon
+from tra

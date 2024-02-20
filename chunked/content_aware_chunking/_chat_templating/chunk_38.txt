@@ -1,0 +1,7 @@
+This applies even if you're
+not the model owner - if you're using a model with an empty chat template, or one that's still using the default class
+template, please open a pull request to the model repository so that this attribute can be set properly!
+Once the attribute is set, that's it, you're done! tokenizer.apply_chat_template will now work correctly for that
+model, which means it is also automatically supported in places like TextGenerationPipeline!
+By ensuring that models have this attribute, we can make sure that the whole community gets to use the full power of
+open-source models.

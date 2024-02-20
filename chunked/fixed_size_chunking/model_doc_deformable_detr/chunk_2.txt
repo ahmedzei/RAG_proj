@@ -1,0 +1,10 @@
+ecially on small objects) with 10 times less training epochs. Extensive experiments on the COCO benchmark demonstrate the effectiveness of our approach.
+
+ Deformable DETR architecture. Taken from the original paper.
+This model was contributed by nielsr. The original code can be found here.
+Usage tips
+
+Training Deformable DETR is equivalent to training the original DETR model. See the resources section below for demo notebooks.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resourc

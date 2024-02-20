@@ -1,0 +1,10 @@
+It is based on traditional knowledge and scientific understanding.
+
+Question answering
+For question answering task we can structure the prompt into the following logical components: instructions, context, question, and 
+the leading word or phrase ("Answer:") to nudge the model to start generating the answer:
+thon
+
+torch.manual_seed(4) # doctest: +IGNORE_RESULT
+prompt = """Answer the question using the context below.
+ Context: Gazpacho is a cold soup and drink made of raw, blended vegetables.

@@ -1,0 +1,12 @@
+|
+| Object Detection/OwlViT | 24.978 | 18.420 |
+| Image Classification/BeiT | 11.282 | 8.448 | 
+| Object Detection/DETR | 34.619 | 19.040 |
+| Image Classification/ConvNeXT | 10.410 | 10.208 | 
+| Image Classification/ResNet | 6.531 | 4.124 |
+| Image Segmentation/Mask2former | 60.188 | 49.117 |
+| Image Segmentation/Maskformer | 75.764 | 59.487 | 
+| Image Segmentation/MobileNet | 8.583 | 3.974 |
+| Object Detection/Resnet-101 | 36.276 | 18.197 |
+| Object Detection/Conditional-DETR | 31.219 | 17.993 |
+A100 (batc

@@ -1,0 +1,3 @@
+The user's input is appended to behind Human: and the agent is prompted to first generate what needs to be done 
+before generating code. An exchange can be based on previous exchanges, therefore allowing the user to refer
+to past exchanges as is done e.g.

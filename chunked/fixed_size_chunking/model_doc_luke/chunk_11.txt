@@ -1,0 +1,9 @@
+)]  # character-based entity spans corresponding to "Beyoncé" and "Los Angeles"
+inputs = tokenizer(text, entities=entities, entity_spans=entity_spans, add_prefix_space=True, return_tensors="pt")
+outputs = model(**inputs)
+word_last_hidden_state = outputs.last_hidden_state
+entity_last_hidden_state = outputs.entity_last_hidden_state
+
+Example 3: Classifying the relationship between two entities using LukeForEntityPairClassification head model
+
+model = LukeForEntityPairClassification.from_pretrained("studio-ousi

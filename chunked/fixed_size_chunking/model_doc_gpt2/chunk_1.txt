@@ -1,0 +1,6 @@
+ is trained with a simple objective: predict the next word, given all of the previous words within some
+text. The diversity of the dataset causes this simple goal to contain naturally occurring demonstrations of many tasks
+across diverse domains. GPT-2 is a direct scale-up of GPT, with more than 10X the parameters and trained on more than
+10X the amount of data.
+Write With Transformer is a webapp created and hosted by
+Hugging Face showcasing the generative capabilities of several models. GPT-2 is one of the

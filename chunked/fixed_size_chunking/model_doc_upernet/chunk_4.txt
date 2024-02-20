@@ -1,0 +1,11 @@
+n(config)
+
+Note that this will randomly initialize all the weights of the model.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with UPerNet.
+
+Demo notebooks for UPerNet can be found here.
+[UperNetForSemanticSegmentation] is supported by this example script and notebook.
+See also: Semantic segmentation task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The reso

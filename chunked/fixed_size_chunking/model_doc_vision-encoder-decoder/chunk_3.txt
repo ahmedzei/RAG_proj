@@ -1,0 +1,6 @@
+fig_decoder = BertConfig()
+config = VisionEncoderDecoderConfig.from_encoder_decoder_configs(config_encoder, config_decoder)
+model = VisionEncoderDecoderModel(config=config)
+
+Initialising VisionEncoderDecoderModel from a pretrained encoder and a pretrained decoder.
+[VisionEncoderDecoderModel] can be initialized from a pretrained encoder checkpoint and a pretrained decoder checkpoint. Note that any pretrained Transformer-based vision model, e.g. Swin, can serve as the encoder and both pretrained auto-encoding

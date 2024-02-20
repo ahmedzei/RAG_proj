@@ -1,0 +1,14 @@
+ContextEncoderTokenizerFast
+[[autodoc]] DPRContextEncoderTokenizerFast
+DPRQuestionEncoderTokenizer
+[[autodoc]] DPRQuestionEncoderTokenizer
+DPRQuestionEncoderTokenizerFast
+[[autodoc]] DPRQuestionEncoderTokenizerFast
+DPRReaderTokenizer
+[[autodoc]] DPRReaderTokenizer
+DPRReaderTokenizerFast
+[[autodoc]] DPRReaderTokenizerFast
+DPR specific outputs
+[[autodoc]] models.dpr.modeling_dpr.DPRContextEncoderOutput
+[[autodoc]] models.dpr.modeling_dpr.DPRQuestionEncoderOutput
+[[autodoc]] models.dpr.modeling_dpr.DPRReaderOu

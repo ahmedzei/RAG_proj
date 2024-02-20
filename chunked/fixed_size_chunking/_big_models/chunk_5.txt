@@ -1,0 +1,9 @@
+03.bin', 'pytorch_model-00002-of-00003.bin', 'pytorch_model-00003-of-00003.bin', 'pytorch_model.bin.index.json']
+
+On top of the configuration of the model, we see three different weights files, and an index.json file which is our index. A checkpoint like this can be fully reloaded using the [~PreTrainedModel.from_pretrained] method:
+
+with tempfile.TemporaryDirectory() as tmp_dir:
+     model.save_pretrained(tmp_dir, max_shard_size="200MB")
+     new_model = AutoModel.from_pretrained(tmp_dir)
+
+The main advanta

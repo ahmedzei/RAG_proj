@@ -1,0 +1,8 @@
+ paper, we present a minimal VLP model,
+Vision-and-Language Transformer (ViLT), monolithic in the sense that the processing of visual inputs is drastically
+simplified to just the same convolution-free manner that we process textual inputs. We show that ViLT is up to tens of
+times faster than previous VLP models, yet with competitive or better downstream task performance.
+
+ ViLT architecture. Taken from the original paper. 
+This model was contributed by nielsr. The original code can be found here.
+Usage tips

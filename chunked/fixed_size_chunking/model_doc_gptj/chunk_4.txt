@@ -1,0 +1,13 @@
+400.
+
+Usage examples
+The [~generation.GenerationMixin.generate] method can be used to generate text using GPT-J
+model.
+thon
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+model = AutoModelForCausalLM.from_pretrained("EleutherAI/gpt-j-6B")
+tokenizer = AutoTokenizer.from_pretrained("EleutherAI/gpt-j-6B")
+prompt = (
+     "In a shocking finding, scientists discovered a herd of unicorns living in a remote, "
+     "previously unexplored valley, in the Andes Mountains. Even more surprising to the "

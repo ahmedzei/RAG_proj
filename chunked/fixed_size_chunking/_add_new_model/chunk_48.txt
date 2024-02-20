@@ -1,0 +1,8 @@
+your fork on GitHub. Click on “Pull request”. Make sure to add the
+   GitHub handle of some members of the Hugging Face team as reviewers, so that the Hugging Face team gets notified for
+   future changes.
+
+Change the PR into a draft by clicking on “Convert to draft” on the right of the GitHub pull request web page.
+
+In the following, whenever you have made some progress, don't forget to commit your work and push it to your account so
+that it shows in the pull request. Additionally, you should make sure to 

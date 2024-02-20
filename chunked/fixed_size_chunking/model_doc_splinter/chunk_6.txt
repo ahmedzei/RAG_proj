@@ -1,0 +1,6 @@
+orQuestionAnswering
+[[autodoc]] SplinterForQuestionAnswering
+    - forward
+SplinterForPreTraining
+[[autodoc]] SplinterForPreTraining
+    - forward

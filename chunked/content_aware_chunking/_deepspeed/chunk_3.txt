@@ -1,0 +1,8 @@
+While DeepSpeed has a pip installable PyPI package, it is highly recommended to install it from source to best match your hardware and to support certain features, like 1-bit Adam, which aren’t available in the PyPI distribution.
+
+pip install deepspeed
+
+pip install transformers[deepspeed]
+
+Memory requirements
+Before you begin, it is a good idea to check whether you have enough GPU and CPU memory to fit your model. DeepSpeed provides a tool for estimating the required CPU/GPU memory.

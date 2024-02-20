@@ -1,0 +1,5 @@
+BEiT
+Overview
+The BEiT model was proposed in BEiT: BERT Pre-Training of Image Transformers by
+Hangbo Bao, Li Dong and Furu Wei. Inspired by BERT, BEiT is the first paper that makes self-supervised pre-training of
+Vision Transformers (ViTs) outperform supervised pre-training.

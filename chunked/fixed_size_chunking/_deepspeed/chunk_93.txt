@@ -1,0 +1,6 @@
+DeepSpeed, and if the problem persists, then you can report the issue. If the issue is a core DeepSpeed problem and unrelated to the Transformers integration, open an Issue on the DeepSpeed repository.
+For issues related to the Transformers integration, please provide the following information:
+
+the full DeepSpeed config file
+
+the command line arguments of the [Trainer], or [TrainingArguments] arguments if you're scripting the [Trainer] setup yourself (don't dump the [TrainingArguments] which has dozens of 

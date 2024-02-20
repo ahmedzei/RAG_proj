@@ -1,0 +1,6 @@
+ply to improve training efficiency on a single GPU extend to other setups 
+such as multiple GPU. However, there are also techniques that are specific to multi-GPU or CPU training. We cover them in 
+separate sections.
+
+Methods and tools for efficient training on a single GPU: start here to learn common approaches that can help optimize GPU memory utilization, speed up the training, or both. 
+Multi-GPU training section: explore this section to learn about further optimization methods that apply to a multi-GPU

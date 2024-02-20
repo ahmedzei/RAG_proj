@@ -1,0 +1,12 @@
+e batched audio
+audio_values = processor.batch_decode(audio_values, padding_mask=inputs.padding_mask)
+
+Generation Configuration
+The default parameters that control the generation process, such as sampling, guidance scale and number of generated 
+tokens, can be found in the model's generation config, and updated as desired:
+thon
+
+from transformers import MusicgenForConditionalGeneration
+model = MusicgenForConditionalGeneration.from_pretrained("facebook/musicgen-small")
+inspect the default generation config
+m

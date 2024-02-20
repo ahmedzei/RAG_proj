@@ -1,0 +1,16 @@
+- forward
+EfficientFormerForImageClassification
+[[autodoc]] EfficientFormerForImageClassification
+    - forward
+EfficientFormerForImageClassificationWithTeacher
+[[autodoc]] EfficientFormerForImageClassificationWithTeacher
+    - forward
+
+TFEfficientFormerModel
+[[autodoc]] TFEfficientFormerModel
+    - call
+TFEfficientFormerForImageClassification
+[[autodoc]] TFEfficientFormerForImageClassification
+    - call
+TFEfficientFormerForImageClassificationWithTeacher
+[[autodoc]] TFEfficientFormerForImageClassificationW

@@ -1,0 +1,8 @@
+In the case of speech recognition, this is an audio input file:
+
+transcriber("https://huggingface.co/datasets/Narsil/asr_dummy/resolve/main/mlk.flac")
+{'text': 'I HAVE A DREAM BUT ONE DAY THIS NATION WILL RISE UP LIVE UP THE TRUE MEANING OF ITS TREES'}
+
+Not the result you had in mind? Check out some of the most downloaded automatic speech recognition models 
+on the Hub to see if you can get a better transcription.
+Let's try the Whisper large-v2 model from OpenAI.

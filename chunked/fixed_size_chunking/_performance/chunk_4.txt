@@ -1,0 +1,15 @@
+with large models in a production environment can be as challenging as training them. In the following 
+sections we go through the steps to run inference on CPU and single/multi-GPU setups.
+
+Inference on a single CPU
+Inference on a single GPU
+Multi-GPU inference
+XLA Integration for TensorFlow Models
+
+Training and inference
+Here you'll find techniques, tips and tricks that apply whether you are training a model, or running inference with it.
+
+Instantiating a big model
+Troubleshooting performance issues
+
+Cont

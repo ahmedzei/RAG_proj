@@ -1,0 +1,5 @@
+They
+only differ in how inputs should be prepared for the model, see the code examples below.
+
+Since ByT5 was pre-trained unsupervisedly, there's no real advantage to using a task prefix during single-task
+fine-tuning.

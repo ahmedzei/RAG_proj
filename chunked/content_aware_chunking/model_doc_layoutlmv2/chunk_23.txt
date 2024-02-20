@@ -1,0 +1,8 @@
+In that case, one should provide the words and corresponding (normalized) bounding boxes themselves to
+the processor.
+thon
+from transformers import LayoutLMv2Processor
+from PIL import Image
+processor = LayoutLMv2Processor.from_pretrained("microsoft/layoutlmv2-base-uncased", revision="no_ocr")
+image = Image.open(
+    "name_of_your_document - can be a png, jpg, etc.

@@ -1,0 +1,14 @@
+"NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND"}
+    # {"text": .}
+    # .
+
+[[autodoc]] pipeline
+Pipeline batching
+All pipelines can use batching. This will work
+whenever the pipeline uses its streaming ability (so when passing lists or Dataset or generator).
+thon
+from transformers import pipeline
+from transformers.pipelines.pt_utils import KeyDataset
+import datasets
+dataset = datasets.load_dataset("imdb", name="plain_text", split="unsupervised")
+pipe = pipeline("text-classification", device=0

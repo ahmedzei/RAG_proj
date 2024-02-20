@@ -1,0 +1,26 @@
+For this task, load the accuracy metric (see the 🤗 Evaluate quick tour to learn more about how to load and compute a metric):
+
+import evaluate
+accuracy = evaluate.load("accuracy")
+
+Then create a function that passes your predictions and labels to [~evaluate.EvaluationModule.compute] to calculate the accuracy:
+
+import numpy as np
+def compute_metrics(eval_pred):
+     predictions, labels = eval_pred
+     predictions = np.argmax(predictions, axis=1)
+     return accuracy.compute(predictions=predictions, references=labels)
+
+Your compute_metrics function is ready to go now, and you'll return to it when you setup your training.
+Train
+
+If you aren't familiar with finetuning a model with the [Trainer], take a look at the basic tutorial here!
+
+You're ready to start training your model now! Load BERT with [AutoModelForMultipleChoice]:
+
+from transformers import AutoModelForMultipleChoice, TrainingArguments, Trainer
+model = AutoModelForMultipleChoice.from_pretrained("google-bert/bert-base-uncased")
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [TrainingArguments].

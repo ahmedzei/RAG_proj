@@ -1,0 +1,9 @@
+_pretrained("facebook/wav2vec2-base")
+
+The MInDS-14 dataset has a sampling rate of 8000kHz (you can find this information in its dataset card), which means you'll need to resample the dataset to 16000kHz to use the pretrained Wav2Vec2 model:
+
+minds = minds.cast_column("audio", Audio(sampling_rate=16_000))
+minds["train"][0]
+{'audio': {'array': array([-2.38064706e-04, -1.58618059e-04, -5.43987835e-06, ,
+          2.78103951e-04,  2.38446111e-04,  1.18740834e-04], dtype=float32),
+  'path': '/root/.cache/huggin

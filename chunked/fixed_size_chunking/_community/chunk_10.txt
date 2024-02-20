@@ -1,0 +1,4 @@
+ on BBC/XSum | Patrick von Platen | |
+|Fine-tune TAPAS on Sequential Question Answering (SQA) | How to fine-tune TapasForQuestionAnswering with a tapas-base checkpoint on the Sequential Question Answering (SQA) dataset | Niels Rogge | |
+|Evaluate TAPAS on Table Fact Checking (TabFact) | How to evaluate a fine-tuned TapasForSequenceClassification with a tapas-base-finetuned-tabfact checkpoint using a combination of the 🤗 datasets and 🤗 transformers libraries | Niels Rogge | |
+|Fine-tuning mBART for translati

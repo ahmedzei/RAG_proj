@@ -1,0 +1,7 @@
+Aborting execution.
+install PyTorch nightly
+pip3 install -U --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu118
+
+BetterTransformer
+
+Some BetterTransformer features are being upstreamed to Transformers with default support for native torch.nn.scaled_dot_product_attention.

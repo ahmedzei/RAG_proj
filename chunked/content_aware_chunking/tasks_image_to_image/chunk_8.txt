@@ -1,0 +1,12 @@
+Then we will arrange axes to have the shape [1072, 880], and finally, bring the output back to range [0, 255].
+thon
+import numpy as np
+squeeze, take to CPU and clip the values
+output = outputs.reconstruction.data.squeeze().cpu().clamp_(0, 1).numpy()
+rearrange the axes
+output = np.moveaxis(output, source=0, destination=-1)
+bring values back to pixel values range
+output = (output * 255.0).round().astype(np.uint8)
+Image.fromarray(output)
+
+.

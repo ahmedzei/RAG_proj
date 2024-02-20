@@ -1,0 +1,8 @@
+uned ViLT for inference.
+Run zero-shot VQA inference with a generative model, like BLIP-2.
+
+Fine-tuning ViLT
+ViLT model incorporates text embeddings into a Vision Transformer (ViT), allowing it to have a minimal design for 
+Vision-and-Language Pre-training (VLP). This model can be used for several downstream tasks. For the VQA task, a classifier 
+head is placed on top (a linear layer on top of the final hidden state of the [CLS] token) and randomly initialized. 
+Visual Question Answering is thus treated as 

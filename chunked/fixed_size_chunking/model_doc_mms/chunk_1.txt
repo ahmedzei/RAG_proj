@@ -1,0 +1,6 @@
+t speech technology is restricted to about one hundred languages which is a small fraction of the over 7,000
+languages spoken around the world. 
+The Massively Multilingual Speech (MMS) project increases the number of supported languages by 10-40x, depending on the task. 
+The main ingredients are a new dataset based on readings of publicly available religious texts and effectively leveraging
+self-supervised learning. We built pre-trained wav2vec 2.0 models covering 1,406 languages, 
+a single multilingual aut

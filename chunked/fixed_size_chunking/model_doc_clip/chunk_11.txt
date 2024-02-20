@@ -1,0 +1,24 @@
+- save_vocabulary
+CLIPTokenizerFast
+[[autodoc]] CLIPTokenizerFast
+CLIPImageProcessor
+[[autodoc]] CLIPImageProcessor
+    - preprocess
+CLIPFeatureExtractor
+[[autodoc]] CLIPFeatureExtractor
+CLIPProcessor
+[[autodoc]] CLIPProcessor
+
+CLIPModel
+[[autodoc]] CLIPModel
+    - forward
+    - get_text_features
+    - get_image_features
+CLIPTextModel
+[[autodoc]] CLIPTextModel
+    - forward
+CLIPTextModelWithProjection
+[[autodoc]] CLIPTextModelWithProjection
+    - forward
+CLIPVisionModelWithProjection
+[[autodoc]] CLIPVisionM

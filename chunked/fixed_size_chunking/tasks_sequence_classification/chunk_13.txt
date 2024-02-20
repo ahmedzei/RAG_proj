@@ -1,0 +1,10 @@
+e = 16
+num_epochs = 5
+batches_per_epoch = len(tokenized_imdb["train"]) // batch_size
+total_train_steps = int(batches_per_epoch * num_epochs)
+optimizer, schedule = create_optimizer(init_lr=2e-5, num_warmup_steps=0, num_train_steps=total_train_steps)
+
+Then you can load DistilBERT with [TFAutoModelForSequenceClassification] along with the number of expected labels, and the label mappings:
+
+from transformers import TFAutoModelForSequenceClassification
+model = TFAutoModelForSequenceClassification.from_pretrained

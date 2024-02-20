@@ -1,0 +1,9 @@
+izer.from_pretrained("google-bert/bert-base-cased")
+tokenized_data = tokenizer(dataset["sentence"], return_tensors="np", padding=True)
+Tokenizer returns a BatchEncoding, but we convert that to a dict for Keras
+tokenized_data = dict(tokenized_data)
+labels = np.array(dataset["label"])  # Label is already an array of 0 and 1
+
+Finally, load, compile, and fit the model. Note that Transformers models all have a default task-relevant loss function, so you don't need to specify one unless you want to:
+
+from transfo

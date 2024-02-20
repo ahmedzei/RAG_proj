@@ -1,0 +1,7 @@
+lways negative.
+Chain-of-thought
+Chain-of-thought (CoT) prompting is a technique that nudges a model to produce intermediate reasoning steps thus improving 
+the results on complex reasoning tasks. 
+There are two ways of steering a model to producing the reasoning steps:
+- few-shot prompting by illustrating examples with detailed answers to questions, showing the model how to work through a problem.
+- by instructing the model to reason by adding phrases like "Let's think step by step" or "Take a deep breath 

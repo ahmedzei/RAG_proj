@@ -1,0 +1,14 @@
+s. The following example notebooks show how to use VisualBERT with Detectron-like models:
+
+VisualBERT VQA demo notebook : This notebook
+  contains an example on VisualBERT VQA.
+
+Generate Embeddings for VisualBERT (Colab Notebook) : This notebook contains
+  an example on how to generate visual embeddings.
+
+The following example shows how to get the last hidden state using [VisualBertModel]:
+thon
+
+import torch
+from transformers import BertTokenizer, VisualBertModel
+model = VisualBertModel.from_pretrained("ucl

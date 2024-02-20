@@ -1,0 +1,7 @@
+-facing abstractions to learn, in fact, there are almost no abstractions,
+    just three standard classes required to use each model: configuration,
+    models, and a preprocessing class (tokenizer for NLP, image processor for vision, feature extractor for audio, and processor for multimodal inputs).
+
+All of these classes can be initialized in a simple and unified way from pretrained instances by using a common
+    from_pretrained() method which downloads (if needed), caches and
+    loads the related class 

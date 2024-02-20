@@ -1,0 +1,4 @@
+Instead, it is able to generate all the codebooks in a single forward pass.
+The abstract from the paper is the following:
+We tackle the task of conditional music generation. We introduce MusicGen, a single Language Model (LM) that operates
+over several streams of compressed discrete music representation, i.e., tokens.

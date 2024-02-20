@@ -1,0 +1,3 @@
+Start with a simple and short prompt, and iterate from there.
+Put the instructions at the beginning of the prompt, or at the very end. When working with large context, models apply various optimizations to prevent Attention complexity from scaling quadratically. This may make a model more attentive to the beginning or end of a prompt than the middle.
+Clearly separate instructions from the text they apply to - more on this in the next section.

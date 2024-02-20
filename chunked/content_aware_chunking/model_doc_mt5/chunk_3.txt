@@ -1,0 +1,14 @@
+If you are doing multi-task fine-tuning, you should use a prefix.
+Google has released the following variants:
+
+google/mt5-small
+
+google/mt5-base
+
+google/mt5-large
+
+google/mt5-xl
+
+google/mt5-xxl.
+
+This model was contributed by patrickvonplaten.

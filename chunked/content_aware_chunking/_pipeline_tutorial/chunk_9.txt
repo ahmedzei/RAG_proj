@@ -1,0 +1,2 @@
+The output should always match what you would have received without batching. It is only meant as a way to help you get more speed out of a pipeline.
+Pipelines can also alleviate some of the complexities of batching because, for some pipelines, a single item (like a long audio file) needs to be chunked into multiple parts to be processed by a model.

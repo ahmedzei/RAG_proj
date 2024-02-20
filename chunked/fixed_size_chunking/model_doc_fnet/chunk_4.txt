@@ -1,0 +1,21 @@
+ended to use the same maximum 
+sequence length for fine-tuning and inference.
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+FNetConfig
+[[autodoc]] FNetConfig
+FNetTokenizer
+[[autodoc]] FNetTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+FNetTokenizerFast
+[[autodoc]] FNetTokenizerFast
+FNetModel

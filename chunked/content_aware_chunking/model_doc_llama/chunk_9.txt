@@ -1,0 +1,4 @@
+🌎
+🚀 Deploy
+- A notebook on how to fine-tune LLaMA model using LoRA method via the 🤗 PEFT library with intuitive UI. 🌎 
+- A notebook on how to deploy Open-LLaMA model for text generation on Amazon SageMaker.

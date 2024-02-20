@@ -1,0 +1,9 @@
+
+T5
+
+Overview
+The T5 model was presented in Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer by Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang,
+Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu.
+The abstract from the paper is the following:
+Transfer learning, where a model is first pre-trained on a data-rich task before being fine-tuned on a downstream
+task, has emerged as a powerful technique in natural language processing (NLP). The effectiveness of 

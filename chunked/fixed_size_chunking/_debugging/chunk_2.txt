@@ -1,0 +1,10 @@
+stem-wide. If you don't have CUDA installed system-wide, you should install it first.
+The exact location may vary from system to system, but usr/local/cuda-10.2 is the most common location on many Unix systems. When CUDA is correctly setup and added to your PATH environment variable, you can find the installation location with the following command:
+
+which nvcc
+Multiple CUDA toolkits
+You may also have more than one CUDA toolkit installed system-wide.
+
+/usr/local/cuda-10.2
+/usr/local/cuda-11.0
+Typically, pac

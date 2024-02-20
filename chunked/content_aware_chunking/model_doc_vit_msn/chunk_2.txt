@@ -1,0 +1,3 @@
+This self-supervised pre-training strategy is particularly scalable when applied to Vision Transformers since only the
+unmasked patches are processed by the network. As a result, MSNs improve the scalability of joint-embedding architectures,
+while producing representations of a high semantic level that perform competitively on low-shot image classification.

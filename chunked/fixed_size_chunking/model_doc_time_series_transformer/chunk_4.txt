@@ -1,0 +1,5 @@
+c_categorical_features: categorical features which are static over time (i.e., have the same value for all past_values and future_values).
+An example here is the store ID or region ID that identifies a given time-series.
+Note that these features need to be known for ALL data points (also those in the future).
+static_real_features: real-valued features which are static over time (i.e., have the same value for all past_values and future_values).
+An example here is the image representation of the product for w

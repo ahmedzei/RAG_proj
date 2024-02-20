@@ -1,0 +1,9 @@
+ture of supervised and instruction 
+fine-tuning datasets, which boosts the downstream performance while making the models more usable in conversational settings.
+The use and prompting for the conversational use is very similar to using the base models: 
+
+import torch
+from transformers import IdeficsForVisionText2Text, AutoProcessor
+device = "cuda" if torch.cuda.is_available() else "cpu"
+checkpoint = "HuggingFaceM4/idefics-9b-instruct"
+model = IdeficsForVisionText2Text.from_pretrained(checkpoint, torch_dtype

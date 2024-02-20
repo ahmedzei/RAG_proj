@@ -1,0 +1,6 @@
+To understand a bit better why this is the case let's have a look at a model's operations and memory needs.
+Anatomy of Model's Operations
+Transformers architecture includes 3 main groups of operations grouped below by compute-intensity.
+
+Tensor Contractions
+Linear layers and components of Multi-Head Attention all do batched matrix-matrix multiplications.

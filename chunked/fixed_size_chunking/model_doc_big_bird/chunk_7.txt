@@ -1,0 +1,22 @@
+dLM
+[[autodoc]] BigBirdForMaskedLM
+    - forward
+BigBirdForSequenceClassification
+[[autodoc]] BigBirdForSequenceClassification
+    - forward
+BigBirdForMultipleChoice
+[[autodoc]] BigBirdForMultipleChoice
+    - forward
+BigBirdForTokenClassification
+[[autodoc]] BigBirdForTokenClassification
+    - forward
+BigBirdForQuestionAnswering
+[[autodoc]] BigBirdForQuestionAnswering
+    - forward
+
+FlaxBigBirdModel
+[[autodoc]] FlaxBigBirdModel
+    - call
+FlaxBigBirdForPreTraining
+[[autodoc]] FlaxBigBirdForPreTraining
+    -

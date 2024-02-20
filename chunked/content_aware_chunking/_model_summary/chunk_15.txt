@@ -1,0 +1,1 @@
+DeBERTa added a disentangled attention mechanism where the word and its position are separately encoded in two vectors. The attention is computed from these separate vectors instead of a single vector containing the word and position embeddings. Longformer also focused on making attention more efficient, especially for processing documents with longer sequence lengths.

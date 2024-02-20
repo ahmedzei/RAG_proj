@@ -1,0 +1,23 @@
+ that illustrates zero-shot image segmentation with CLIPSeg.
+
+CLIPSegConfig
+[[autodoc]] CLIPSegConfig
+    - from_text_vision_configs
+CLIPSegTextConfig
+[[autodoc]] CLIPSegTextConfig
+CLIPSegVisionConfig
+[[autodoc]] CLIPSegVisionConfig
+CLIPSegProcessor
+[[autodoc]] CLIPSegProcessor
+CLIPSegModel
+[[autodoc]] CLIPSegModel
+    - forward
+    - get_text_features
+    - get_image_features
+CLIPSegTextModel
+[[autodoc]] CLIPSegTextModel
+    - forward
+CLIPSegVisionModel
+[[autodoc]] CLIPSegVisionModel
+    - forward
+CLIPSegF

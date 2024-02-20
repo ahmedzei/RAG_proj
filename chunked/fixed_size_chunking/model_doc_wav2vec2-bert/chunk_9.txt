@@ -1,0 +1,11 @@
+]] Wav2Vec2BertForCTC
+    - forward
+Wav2Vec2BertForSequenceClassification
+[[autodoc]] Wav2Vec2BertForSequenceClassification
+    - forward
+Wav2Vec2BertForAudioFrameClassification
+[[autodoc]] Wav2Vec2BertForAudioFrameClassification
+    - forward
+Wav2Vec2BertForXVector
+[[autodoc]] Wav2Vec2BertForXVector
+    - forward

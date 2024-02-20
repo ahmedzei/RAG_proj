@@ -1,0 +1,10 @@
+sting with Informer
+
+InformerConfig
+[[autodoc]] InformerConfig
+InformerModel
+[[autodoc]] InformerModel
+    - forward
+InformerForPrediction
+[[autodoc]] InformerForPrediction
+    - forward

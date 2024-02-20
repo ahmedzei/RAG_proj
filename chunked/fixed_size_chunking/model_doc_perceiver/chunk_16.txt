@@ -1,0 +1,11 @@
+doc]] PerceiverForImageClassificationFourier
+    - forward
+PerceiverForImageClassificationConvProcessing
+[[autodoc]] PerceiverForImageClassificationConvProcessing
+    - forward
+PerceiverForOpticalFlow
+[[autodoc]] PerceiverForOpticalFlow
+    - forward
+PerceiverForMultimodalAutoencoding
+[[autodoc]] PerceiverForMultimodalAutoencoding
+    - forward

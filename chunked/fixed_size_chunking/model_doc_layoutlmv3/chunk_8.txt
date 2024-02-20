@@ -1,0 +1,23 @@
+preprocess
+LayoutLMv3Tokenizer
+[[autodoc]] LayoutLMv3Tokenizer
+    - call
+    - save_vocabulary
+LayoutLMv3TokenizerFast
+[[autodoc]] LayoutLMv3TokenizerFast
+    - call
+LayoutLMv3Processor
+[[autodoc]] LayoutLMv3Processor
+    - call
+
+LayoutLMv3Model
+[[autodoc]] LayoutLMv3Model
+    - forward
+LayoutLMv3ForSequenceClassification
+[[autodoc]] LayoutLMv3ForSequenceClassification
+    - forward
+LayoutLMv3ForTokenClassification
+[[autodoc]] LayoutLMv3ForTokenClassification
+    - forward
+LayoutLMv3ForQuestionAnswering
+[[

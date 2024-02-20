@@ -1,0 +1,14 @@
+odelForImageClassification
+[[autodoc]] AutoModelForImageClassification
+TFAutoModelForImageClassification
+[[autodoc]] TFAutoModelForImageClassification
+FlaxAutoModelForImageClassification
+[[autodoc]] FlaxAutoModelForImageClassification
+AutoModelForVideoClassification
+[[autodoc]] AutoModelForVideoClassification
+AutoModelForMaskedImageModeling
+[[autodoc]] AutoModelForMaskedImageModeling
+TFAutoModelForMaskedImageModeling
+[[autodoc]] TFAutoModelForMaskedImageModeling
+AutoModelForObjectDetection
+[[autodoc]] AutoM

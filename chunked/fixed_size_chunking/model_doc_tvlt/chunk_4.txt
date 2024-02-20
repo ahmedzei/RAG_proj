@@ -1,0 +1,3 @@
+ authors resize and crop the input images/videos to 224 and limit the length of audio spectrogram to 2048. To make batching of videos and audios possible, the authors use a pixel_mask that indicates which pixels are real/padding and audio_mask that indicates which audio values are real/padding.
+The design of TVLT is very similar to that of a standard Vision Transformer (ViT) and masked autoencoder (MAE) as in ViTMAE. The difference is that the model includes embedding layers for the audio modality.
+The PyTo

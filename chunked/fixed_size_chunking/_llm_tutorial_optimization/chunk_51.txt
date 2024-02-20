@@ -1,0 +1,3 @@
+d token is given a probability mass at which it attends all other word tokens and, therefore is put into relation with all other word tokens. E.g. the word "love" attends to the word "Hello" with 5%, to "I" with 30%, and to itself with 65%.
+A LLM based on self-attention, but without position embeddings would have great difficulties in understanding the positions of the text inputs to each other.
+This is because the probability score computed by \( \mathbf{QK}^T \) relates each word token to each other word 

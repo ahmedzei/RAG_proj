@@ -1,0 +1,25 @@
+Also note our training is much more efficient than that in Google's billion-level visual models, which consumes 40 times less labelled data and 40 times less training time.
+This model was contributed by nandwalritik.
+The original code can be found here.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with Swin Transformer v2.
+
+[Swinv2ForImageClassification] is supported by this example script and notebook.
+See also: Image classification task guide
+
+Besides that:
+
+[Swinv2ForMaskedImageModeling] is supported by this example script.
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+Swinv2Config
+[[autodoc]] Swinv2Config
+Swinv2Model
+[[autodoc]] Swinv2Model
+    - forward
+Swinv2ForMaskedImageModeling
+[[autodoc]] Swinv2ForMaskedImageModeling
+    - forward
+Swinv2ForImageClassification
+[[autodoc]] transformers.Swinv2ForImageClassification
+    - forward.

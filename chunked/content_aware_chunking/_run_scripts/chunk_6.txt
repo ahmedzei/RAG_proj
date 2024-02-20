@@ -1,0 +1,1 @@
+Then the script fine-tunes a dataset using Keras on an architecture that supports summarization. The following example shows how to fine-tune T5-small on the CNN/DailyMail dataset. The T5 model requires an additional source_prefix argument due to how it was trained.

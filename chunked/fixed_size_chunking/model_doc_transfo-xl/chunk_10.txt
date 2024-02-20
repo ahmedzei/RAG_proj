@@ -1,0 +1,7 @@
+ification
+[[autodoc]] TFTransfoXLForSequenceClassification
+    - call
+
+Internal Layers
+[[autodoc]] AdaptiveEmbedding
+[[autodoc]] TFAdaptiveEmbedding

@@ -1,0 +1,13 @@
+mmunity (indicated by 🌎) resources to help you get started with DPT.
+
+Demo notebooks for [DPTForDepthEstimation] can be found here.
+
+Semantic segmentation task guide
+
+Monocular depth estimation task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+DPTConfig
+[[autodoc]] DPTConfig
+DPTFeatureExtractor
+[[autodoc]] DPTFeatureExtra

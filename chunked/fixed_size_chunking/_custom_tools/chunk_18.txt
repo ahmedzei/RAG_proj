@@ -1,0 +1,7 @@
+nt completes. Contrary to the run command, the chat command then appends the completed example
+to the prompt, thus giving the agent more context for the next chat turn.
+Great now that we know how the prompt is structured, let's see how we can customize it!
+Writing good user inputs
+While large language models are getting better and better at understanding users' intentions, it helps 
+enormously to be as precise as possible to help the agent pick the correct task. What does it mean to be 
+as precise as possib

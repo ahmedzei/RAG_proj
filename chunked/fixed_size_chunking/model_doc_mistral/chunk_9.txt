@@ -1,0 +1,15 @@
+s, Florian Bressand, Gianna Lengyel, Guillaume Lample, Lélio Renard Lavaud, Lucile Saulnier, Marie-Anne Lachaux, Pierre Stock, Teven Le Scao, Thibaut Lavril, Thomas Wang, Timothée Lacroix, William El Sayed.
+MistralConfig
+[[autodoc]] MistralConfig
+MistralModel
+[[autodoc]] MistralModel
+    - forward
+MistralForCausalLM
+[[autodoc]] MistralForCausalLM
+    - forward
+MistralForSequenceClassification
+[[autodoc]] MistralForSequenceClassification
+    - forward
+FlaxMistralModel
+[[autodoc]] FlaxMistralModel
+    - call

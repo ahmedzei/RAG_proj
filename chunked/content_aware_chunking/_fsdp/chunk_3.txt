@@ -1,0 +1,13 @@
+To learn more about the other available FSDP options, take a look at the fsdp_config parameters.
+Sharding strategy
+FSDP offers a number of sharding strategies to select from:
+
+FULL_SHARD - shards model parameters, gradients and optimizer states across workers; select 1 for this option
+SHARD_GRAD_OP- shard gradients and optimizer states across workers; select 2 for this option
+NO_SHARD - don't shard anything (this is equivalent to DDP); select 3 for this option
+HYBRID_SHARD - shard model parameters, gradients and optimizer states within each worker where each worker also has a full copy; select 4 for this option
+HYBRID_SHARD_ZERO2 - shard gradients and optimizer states within each worker where each worker also has a full copy; select 5 for this option
+
+This is enabled by the fsdp_sharding_strategy flag.
+CPU offload
+You could also offload parameters and gradients when they are not in use to the CPU to save even more GPU memory and help you fit large models where even FSDP may not be sufficient.

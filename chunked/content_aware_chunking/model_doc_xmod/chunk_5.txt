@@ -1,0 +1,43 @@
+A method for doing this is provided:
+thon
+model.freeze_embeddings_and_language_adapters()
+Fine-tune the model 
+
+Cross-lingual transfer
+After fine-tuning, zero-shot cross-lingual transfer can be tested by activating the language adapter of the target language:
+thon
+model.set_default_language("de_DE")
+Evaluate the model on German examples 
+
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+XmodConfig
+[[autodoc]] XmodConfig
+XmodModel
+[[autodoc]] XmodModel
+    - forward
+XmodForCausalLM
+[[autodoc]] XmodForCausalLM
+    - forward
+XmodForMaskedLM
+[[autodoc]] XmodForMaskedLM
+    - forward
+XmodForSequenceClassification
+[[autodoc]] XmodForSequenceClassification
+    - forward
+XmodForMultipleChoice
+[[autodoc]] XmodForMultipleChoice
+    - forward
+XmodForTokenClassification
+[[autodoc]] XmodForTokenClassification
+    - forward
+XmodForQuestionAnswering
+[[autodoc]] XmodForQuestionAnswering
+    - forward.

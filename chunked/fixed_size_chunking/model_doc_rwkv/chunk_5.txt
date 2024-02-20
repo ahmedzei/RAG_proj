@@ -1,0 +1,4 @@
+oduct is taken, so for the sake of simplicity we only consider those two). The product \(QK^{T}\) then has shape seq_len x seq_len and we can take the matrix product with \(V\) to get the output \(O\) of the same shape as the others.  
+Replacing the softmax by its value gives:
+$$O_{i} = \frac{\sum_{j=1}^{i} e^{Q_{i} K_{j}^{T} / \sqrt{d}} V_{j}}{\sum_{j=1}^{i} e^{Q_{i} K_{j}^{T} / \sqrt{d}}}$$
+Note that the entries in \(QK^{T}\) corresponding to \(j > i\) are masked (the sum stops at j) because the attention

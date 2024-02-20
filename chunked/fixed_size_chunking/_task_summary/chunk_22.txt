@@ -1,0 +1,9 @@
+opular in biomedical settings, where it can label genes, proteins, and drug names.
+part-of-speech tagging (POS): label a token according to its part-of-speech like noun, verb, or adjective. POS is useful for helping translation systems understand how two identical words are grammatically different (bank as a noun versus bank as a verb).
+
+from transformers import pipeline
+classifier = pipeline(task="ner")
+preds = classifier("Hugging Face is a French company based in New York City.")
+preds = [
+     {
+        

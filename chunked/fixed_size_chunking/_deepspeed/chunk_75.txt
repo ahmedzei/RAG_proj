@@ -1,0 +1,3 @@
+memory to avoid burdening the GPU which makes it possible to run inference with huge models on a GPU. Inference doesn't require any large additional amounts of memory for the optimizer states and gradients so you can fit much larger batches and/or sequence lengths on the same hardware.
+ZeRO Inference shares the same configuration file as ZeRO-3, and ZeRO-2 and ZeRO-1 configs won't work because they don't provide any benefits for inference.
+To run ZeRO Inference, pass your usual training arguments to the [Tr

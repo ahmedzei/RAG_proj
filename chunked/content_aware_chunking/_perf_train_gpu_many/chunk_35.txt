@@ -1,0 +1,10 @@
+Possible improvements are being discussed here https://github.com/pytorch/pytorch/pull/50693
+- Conditional control flow at the level of pipe stages is not possible - e.g., Encoder-Decoder models like T5 require special workarounds to handle a conditional encoder stage.
+- They have to arrange each layer so that the output of one layer becomes an input to the other layer.
+More recent solutions include:
+- Varuna
+- Sagemaker
+We have not experimented with Varuna and SageMaker but their papers report that they have overcome the list of problems 
+mentioned above and that they require smaller changes to the user's model.
+Implementations:
+- PyTorch (initial support in pytorch-1.8, and progressively getting improved in 1.9 and more so in 1.10).

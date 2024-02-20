@@ -1,0 +1,39 @@
+For users who prefer to write their own training loop, you can also fine-tune a 🤗 Transformers model in native PyTorch.
+At this point, you may need to restart your notebook or execute the following code to free some memory:
+py
+del model
+del trainer
+torch.cuda.empty_cache()
+Next, manually postprocess tokenized_dataset to prepare it for training.
+
+Remove the text column because the model does not accept raw text as an input:
+
+tokenized_datasets = tokenized_datasets.remove_columns(["text"])
+
+Rename the label column to labels because the model expects the argument to be named labels:
+
+tokenized_datasets = tokenized_datasets.rename_column("label", "labels")
+
+Set the format of the dataset to return PyTorch tensors instead of lists:
+
+tokenized_datasets.set_format("torch")
+
+Then create a smaller subset of the dataset as previously shown to speed up the fine-tuning:
+
+small_train_dataset = tokenized_datasets["train"].shuffle(seed=42).select(range(1000))
+small_eval_dataset = tokenized_datasets["test"].shuffle(seed=42).select(range(1000))
+
+DataLoader
+Create a DataLoader for your training and test datasets so you can iterate over batches of data:
+
+from torch.utils.data import DataLoader
+train_dataloader = DataLoader(small_train_dataset, shuffle=True, batch_size=8)
+eval_dataloader = DataLoader(small_eval_dataset, batch_size=8)
+
+Load your model with the number of expected labels:
+
+from transformers import AutoModelForSequenceClassification
+model = AutoModelForSequenceClassification.from_pretrained("google-bert/bert-base-cased", num_labels=5)
+
+Optimizer and learning rate scheduler
+Create an optimizer and learning rate scheduler to fine-tune the model.

@@ -1,0 +1,3 @@
+Having written
+a functional tokenization script that uses the original repository, an analogous script for 🤗 Transformers should be
+created.

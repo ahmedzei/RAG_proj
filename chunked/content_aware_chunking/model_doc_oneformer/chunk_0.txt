@@ -1,0 +1,3 @@
+OneFormer
+Overview
+The OneFormer model was proposed in OneFormer: One Transformer to Rule Universal Image Segmentation by Jitesh Jain, Jiachen Li, MangTik Chiu, Ali Hassani, Nikita Orlov, Humphrey Shi. OneFormer is a universal image segmentation framework that can be trained on a single panoptic dataset to perform semantic, instance, and panoptic segmentation tasks.

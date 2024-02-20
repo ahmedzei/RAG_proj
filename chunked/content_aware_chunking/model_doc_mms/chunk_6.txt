@@ -1,0 +1,5 @@
+Language adapters only consists of roughly 2 million parameters 
+  and can therefore be efficiently loaded on the fly when needed.
+
+Loading
+By default MMS loads adapter weights for English.

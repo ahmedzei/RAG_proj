@@ -1,0 +1,8 @@
+: one that
+extracts the hidden features from a batch of images (like [BertModel]) and one that is suitable for image
+classification (like [BertForSequenceClassification]).
+As we mentioned before, we'll only write a loose wrapper of the model to keep it simple for this example. The only
+thing we need to do before writing this class is a map between the block types and actual block classes. Then the
+model is defined from the configuration by passing everything to the ResNet class:
+
+from transformers import Pr

@@ -1,0 +1,6 @@
+
+[[autodoc]] utils.replace_return_docstrings
+Special Properties
+[[autodoc]] utils.cached_property
+Other Utilities
+[[autodoc]] utils._LazyModule

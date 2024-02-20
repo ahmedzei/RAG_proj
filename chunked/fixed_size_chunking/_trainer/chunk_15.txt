@@ -1,0 +1,18 @@
+ TrainerCallback
+class EarlyStoppingCallback(TrainerCallback):
+    def init(self, num_steps=10):
+        self.num_steps = num_steps
+def on_step_end(self, args, state, control, **kwargs):
+    if state.global_step >= self.num_steps:
+        return {"should_training_stop": True}
+    else:
+        return {}
+
+Then pass it to the [Trainer]'s callback parameter.
+
+from transformers import Trainer
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=dataset["train"],
+    eval_dataset=dataset

@@ -1,0 +1,12 @@
+.\n\nAnswer: Here"`
+python
+long_prompt = 10 * system_prompt + prompt
+We instantiate our model again in bfloat16 precision.
+thon
+model = AutoModelForCausalLM.from_pretrained("bigcode/octocoder", torch_dtype=torch.bfloat16, device_map="auto")
+tokenizer = AutoTokenizer.from_pretrained("bigcode/octocoder")
+pipe = pipeline("text-generation", model=model, tokenizer=tokenizer)
+
+Let's now run the model just like before without Flash Attention and measure the peak GPU memory requirement and inference time.
+thon
+impo

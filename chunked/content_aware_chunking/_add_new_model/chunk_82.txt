@@ -1,0 +1,6 @@
+It often happens that the wrong dimensions are
+used leading to a Dimensionality mismatch error or that the wrong data type object is used, e.g. torch.long
+instead of torch.float32. Don't hesitate to ask the Hugging Face team for help, if you don't manage to solve
+certain errors.
+The final part to make sure the 🤗 Transformers implementation works correctly is to ensure that the outputs are
+equivalent to a precision of 1e-3.

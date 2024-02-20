@@ -1,0 +1,5 @@
+r
+    - call
+    - batch_decode
+    - decode
+    - phonemize

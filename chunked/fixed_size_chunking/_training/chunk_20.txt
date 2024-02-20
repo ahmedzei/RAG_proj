@@ -1,0 +1,10 @@
+nize_dataset(data):
+    # Keys of the returned dictionary will be added to the dataset as columns
+    return tokenizer(data["text"])
+dataset = dataset.map(tokenize_dataset)
+
+Remember that Hugging Face datasets are stored on disk by default, so this will not inflate your memory usage! Once the
+columns have been added, you can stream batches from the dataset and add padding to each batch, which greatly
+reduces the number of padding tokens compared to padding the entire dataset.
+
+tf_dataset = model.prepare_tf_

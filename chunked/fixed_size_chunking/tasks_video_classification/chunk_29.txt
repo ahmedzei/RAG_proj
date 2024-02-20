@@ -1,0 +1,17 @@
+ethod:
+ 
+
+train_results = trainer.train()
+
+Once training is completed, share your model to the Hub with the [~transformers.Trainer.push_to_hub] method so everyone can use your model:
+
+trainer.push_to_hub()
+
+Inference
+Great, now that you have fine-tuned a model, you can use it for inference!
+Load a video for inference:
+ 
+
+sample_test_video = next(iter(test_dataset))
+
+The simplest way to try out your fine-tuned model for inference is to use it in a pipeline. Instantiate a pipeline for video classification wit

@@ -1,0 +1,21 @@
+orcedEOSTokenLogitsProcessor
+    - call
+[[autodoc]] FlaxForceTokensLogitsProcessor
+    - call
+[[autodoc]] FlaxLogitsProcessor
+    - call
+[[autodoc]] FlaxLogitsProcessorList
+    - call
+[[autodoc]] FlaxLogitsWarper
+    - call
+[[autodoc]] FlaxMinLengthLogitsProcessor
+    - call
+[[autodoc]] FlaxSuppressTokensAtBeginLogitsProcessor
+    - call
+[[autodoc]] FlaxSuppressTokensLogitsProcessor
+    - call
+[[autodoc]] FlaxTemperatureLogitsWarper
+    - call
+[[autodoc]] FlaxTopKLogitsWarper
+    - call
+[[autodoc]] FlaxTopP

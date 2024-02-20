@@ -1,0 +1,13 @@
+ixin.generate]. Autoregressive generation with LLMs is also resource-intensive and should be executed on a GPU for adequate throughput.
+
+First, you need to load the model.
+
+from transformers import AutoModelForCausalLM
+model = AutoModelForCausalLM.from_pretrained(
+     "mistralai/Mistral-7B-v0.1", device_map="auto", load_in_4bit=True
+ )
+
+You'll notice two flags in the from_pretrained call:
+
+device_map ensures the model is moved to your GPU(s)
+load_in_4bit applies 4-bit dynamic quantization to massively redu

@@ -1,0 +1,2 @@
+It can be used to answer questions about plots.
+google/matcha-chart2text-statista: MatCha model fine-tuned on Statista dataset.

@@ -1,0 +1,8 @@
+Some examples of feature extraction include transforming raw text into word embeddings and extracting important features such as edges or shapes from image/video data.
+feed forward chunking
+In each residual attention block in transformers the self-attention layer is usually followed by 2 feed forward layers.
+The intermediate embedding size of the feed forward layers is often bigger than the hidden size of the model (e.g., for
+google-bert/bert-base-uncased).
+For an input of size [batch_size, sequence_length], the memory required to store the intermediate feed forward
+embeddings [batch_size, sequence_length, config.intermediate_size] can account for a large fraction of the memory
+use.

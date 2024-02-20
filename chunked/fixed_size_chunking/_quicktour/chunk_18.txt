@@ -1,0 +1,12 @@
+te a tokenizer with the same model name to ensure you're using the same tokenization rules a model was pretrained with.
+Load a tokenizer with [AutoTokenizer]:
+
+from transformers import AutoTokenizer
+model_name = "nlptown/bert-base-multilingual-uncased-sentiment"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+Pass your text to the tokenizer:
+
+encoding = tokenizer("We are very happy to show you the 🤗 Transformers library.")
+print(encoding)
+{'input_ids': [101, 11312, 10320, 12495, 19308, 10114, 11391, 

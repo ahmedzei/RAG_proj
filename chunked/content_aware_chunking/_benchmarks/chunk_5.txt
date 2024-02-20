@@ -1,0 +1,4 @@
+The argument models is required and expects a list of model identifiers from the
+model hub The list arguments batch_sizes and sequence_lengths define
+the size of the input_ids on which the model is benchmarked. There are many more parameters that can be configured
+via the benchmark argument data classes.

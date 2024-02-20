@@ -1,0 +1,21 @@
+
+CPMAnt
+Overview
+CPM-Ant is an open-source Chinese pre-trained language model (PLM) with 10B parameters. It is also the first milestone of the live training process of CPM-Live. The training process is cost-effective and environment-friendly. CPM-Ant also achieves promising results with delta tuning on the CUGE benchmark. Besides the full model, we also provide various compressed versions to meet the requirements of different hardware configurations. See more
+This model was contributed by OpenBMB. The original code can be found here.
+Resources
+
+A tutorial on CPM-Live.
+
+CpmAntConfig
+[[autodoc]] CpmAntConfig
+    - all
+CpmAntTokenizer
+[[autodoc]] CpmAntTokenizer
+    - all
+CpmAntModel
+[[autodoc]] CpmAntModel
+    - all
+CpmAntForCausalLM
+[[autodoc]] CpmAntForCausalLM
+    - all

@@ -1,0 +1,21 @@
+🤗 Transformers provides the [~TFPreTrainedModel.prepare_tf_dataset] method to easily load your dataset as a tf.data.Dataset so you can start training right away with Keras' compile and fit methods.
+
+You'll start with a [TFPreTrainedModel] or a tf.keras.Model:
+
+from transformers import TFAutoModelForSequenceClassification
+model = TFAutoModelForSequenceClassification.from_pretrained("distilbert/distilbert-base-uncased")
+   
+
+Load a preprocessing class like a tokenizer, image processor, feature extractor, or processor:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("distilbert/distilbert-base-uncased")
+   
+
+Create a function to tokenize the dataset:
+
+def tokenize_dataset(dataset):
+        return tokenizer(dataset["text"])  # doctest: +SKIP
+   
+
+Apply the tokenizer over the entire dataset with [~datasets.Dataset.map] and then pass the dataset and tokenizer to [~TFPreTrainedModel.prepare_tf_dataset].

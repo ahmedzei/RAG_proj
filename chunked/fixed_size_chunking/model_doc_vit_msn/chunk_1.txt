@@ -1,0 +1,5 @@
+he following:
+We propose Masked Siamese Networks (MSN), a self-supervised learning framework for learning image representations. Our
+approach matches the representation of an image view containing randomly masked patches to the representation of the original
+unmasked image. This self-supervised pre-training strategy is particularly scalable when applied to Vision Transformers since only the
+unmasked patches are processed by the network. As a result, MSNs improve the scalability of joint-embedding architectu

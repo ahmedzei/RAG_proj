@@ -1,0 +1,4 @@
+This approach
+involves distributing groups of model layers across multiple GPUs by assigning specific layers to specific GPUs with .to(). 
+As data flows through these layers, it is moved to the same GPU as the layer, while the other layers remain untouched.
+We refer to this Model parallelism as "Vertical" because of how models are typically visualized.

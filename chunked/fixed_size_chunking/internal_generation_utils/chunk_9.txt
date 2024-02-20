@@ -1,0 +1,21 @@
+gitsProcessor
+    - call
+[[autodoc]] NoBadWordsLogitsProcessor
+    - call
+[[autodoc]] NoRepeatNGramLogitsProcessor
+    - call
+[[autodoc]] PrefixConstrainedLogitsProcessor
+    - call
+[[autodoc]] RepetitionPenaltyLogitsProcessor
+    - call
+[[autodoc]] SequenceBiasLogitsProcessor
+    - call
+[[autodoc]] SuppressTokensAtBeginLogitsProcessor
+    - call
+[[autodoc]] SuppressTokensLogitsProcessor
+    - call
+[[autodoc]] TemperatureLogitsWarper
+    - call
+[[autodoc]] TopKLogitsWarper
+    - call
+[[autodoc]] TopPLogitsW

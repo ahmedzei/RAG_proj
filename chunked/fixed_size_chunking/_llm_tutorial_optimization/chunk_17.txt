@@ -1,0 +1,4 @@
+e precision of weights while trying to keep the model's inference results as accurate as possible (a.k.a as close as possible to bfloat16).
+Note that quantization works especially well for text generation since all we care about is choosing the set of most likely next tokens and don't really care about the exact values of the next token logit distribution.
+All that matters is that the next token logit distribution stays roughly the same so that an argmax or topk operation gives the same results.
+There are v

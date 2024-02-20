@@ -1,0 +1,6 @@
+tput has been trimmed in the middle for brevity.
+The second column shows the value of the absolute largest element, so if you have a closer look at the last few frames,
+the inputs and outputs were in the range of 1e4. So when this training was done under fp16 mixed precision the very
+last step overflowed (since under fp16 the largest number before inf is 64e3). To avoid overflows under
+fp16 the activations must remain way below 1e4, because 1e4 * 1e4 = 1e8 so any matrix multiplication with
+large activations

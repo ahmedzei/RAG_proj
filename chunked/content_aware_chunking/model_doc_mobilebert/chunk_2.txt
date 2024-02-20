@@ -1,0 +1,3 @@
+In this paper, we propose MobileBERT for compressing and accelerating
+the popular BERT model. Like the original BERT, MobileBERT is task-agnostic, that is, it can be generically applied to
+various downstream NLP tasks via simple fine-tuning.

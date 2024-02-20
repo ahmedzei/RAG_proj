@@ -1,0 +1,4 @@
+trace the model and optimize it for Inf1 instances.
+To learn more about AWS Neuron SDK features, tools, example tutorials and latest
+updates, please see the AWS NeuronSDK
+documentation.

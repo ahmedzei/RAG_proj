@@ -1,0 +1,4 @@
+Two RTX 3090 GPUs can be connected together for SLI using NVLink.
+(Note that 3-Way and 4-Way SLI configurations are not supported.)
+
+So the higher X you get in the report of NVX in the output of nvidia-smi topo -m the better.

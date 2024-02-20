@@ -1,0 +1,11 @@
+ing with environment variables
+If you want to test the impact of environment variables for a specific test you can use a helper decorator
+transformers.testing_utils.mockenv
+thon
+from transformers.testing_utils import mockenv
+class HfArgumentParserTest(unittest.TestCase):
+    @mockenv(TRANSFORMERS_VERBOSITY="error")
+    def test_env_override(self):
+        env_level_str = os.getenv("TRANSFORMERS_VERBOSITY", None)
+
+At times an external program needs to be called, which requires setting PYTHONPATH in os.enviro

@@ -1,0 +1,7 @@
+rained on mC4 excluding any supervised training.
+Therefore, this model has to be fine-tuned before it is usable on a downstream task, unlike the original T5 model.
+Since umT5 was pre-trained in an unsupervised manner, there's no real advantage to using a task prefix during single-task
+fine-tuning. If you are doing multi-task fine-tuning, you should use a prefix.
+
+Differences with mT5?
+UmT5 is based on mT5, with a non-shared relative positional bias that is computed for each layer. This means that the model 

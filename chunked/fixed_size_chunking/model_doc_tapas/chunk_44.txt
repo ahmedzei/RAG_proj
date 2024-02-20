@@ -1,0 +1,9 @@
+is will make sure that the prev_labels token types (see docs of [TapasTokenizer]) are set correctly. See this notebook for more info. See this notebook for more info regarding using the TensorFlow model.
+**STEP 4: Train (fine-tune) the model
+
+You can then fine-tune [TapasForQuestionAnswering] as follows (shown here for the weak supervision for aggregation case):
+
+from transformers import TapasConfig, TapasForQuestionAnswering, AdamW
+this is the default WTQ configuration
+config = TapasConfig(
+     num_aggreg

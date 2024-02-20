@@ -1,0 +1,2 @@
+You can then for example ask "what's the total number of goals Cristiano Ronaldo made in his career?". This case is also called weak supervision, since the model itself must learn the appropriate aggregation operator (SUM/COUNT/AVERAGE/NONE) given only the answer to the question as supervision.
+WikiSQL-supervised: this dataset is based on WikiSQL with the model being given the ground truth aggregation operator during training. This is also called strong supervision.

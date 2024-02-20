@@ -1,0 +1,11 @@
+The two optimizations in the fastpath execution are:
+
+fusion, which combines multiple sequential operations into a single "kernel" to reduce the number of computation steps
+skipping the inherent sparsity of padding tokens to avoid unnecessary computation with nested tensors
+
+BetterTransformer also converts all attention operations to use the more memory-efficient scaled dot product attention (SDPA), and it calls optimized kernels like FlashAttention under the hood.
+Before you start, make sure you have 🤗 Optimum installed.
+Then you can enable BetterTransformer with the [PreTrainedModel.to_bettertransformer] method:
+python
+model = model.to_bettertransformer()
+You can return the original Transformers model with the [~PreTrainedModel.reverse_bettertransformer] method.

@@ -1,0 +1,8 @@
+hould be set to
+  False, as loss should also be computed for the background class.
+As most models, SegFormer comes in different sizes, the details of which can be found in the table below
+  (taken from Table 7 of the original paper).
+
+| Model variant | Depths    | Hidden sizes    | Decoder hidden size | Params (M) | ImageNet-1k Top 1 |
+| :---------------: | ------------- | ------------------- | :---------------------: | :------------: | :-------------------: |
+| MiT-b0            | [2, 2, 2, 2]  | [32, 64, 

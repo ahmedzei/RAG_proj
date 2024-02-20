@@ -1,0 +1,39 @@
+Experimental results show that ProphetNet achieves new
+state-of-the-art results on all these datasets compared to the models using the same scale pretraining corpus.
+The Authors' code can be found here.
+Usage tips
+
+ProphetNet is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather than
+  the left.
+The model architecture is based on the original Transformer, but replaces the “standard” self-attention mechanism in the decoder by a a main self-attention mechanism and a self and n-stream (predict) self-attention mechanism.
+
+Resources
+
+Causal language modeling task guide
+Translation task guide
+Summarization task guide
+
+ProphetNetConfig
+[[autodoc]] ProphetNetConfig
+ProphetNetTokenizer
+[[autodoc]] ProphetNetTokenizer
+ProphetNet specific outputs
+[[autodoc]] models.prophetnet.modeling_prophetnet.ProphetNetSeq2SeqLMOutput
+[[autodoc]] models.prophetnet.modeling_prophetnet.ProphetNetSeq2SeqModelOutput
+[[autodoc]] models.prophetnet.modeling_prophetnet.ProphetNetDecoderModelOutput
+[[autodoc]] models.prophetnet.modeling_prophetnet.ProphetNetDecoderLMOutput
+ProphetNetModel
+[[autodoc]] ProphetNetModel
+    - forward
+ProphetNetEncoder
+[[autodoc]] ProphetNetEncoder
+    - forward
+ProphetNetDecoder
+[[autodoc]] ProphetNetDecoder
+    - forward
+ProphetNetForConditionalGeneration
+[[autodoc]] ProphetNetForConditionalGeneration
+    - forward
+ProphetNetForCausalLM
+[[autodoc]] ProphetNetForCausalLM
+    - forward.

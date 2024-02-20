@@ -1,0 +1,4 @@
+On BABEL, our approach improves word error rate by 16% relative compared to
+a comparable system. Our approach enables a single multilingual speech recognition model which is competitive to strong
+individual models. Analysis shows that the latent discrete speech representations are shared across languages with
+increased sharing for related languages.

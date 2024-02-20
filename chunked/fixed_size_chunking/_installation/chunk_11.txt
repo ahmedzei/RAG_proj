@@ -1,0 +1,10 @@
+ion for using 🤗 Transformers offline is to download the files ahead of time, and then point to their local path when you need to use them offline. There are three ways to do this:
+
+Download a file through the user interface on the Model Hub by clicking on the ↓ icon.
+
+Use the [PreTrainedModel.from_pretrained] and [PreTrainedModel.save_pretrained] workflow:
+
+Download your files ahead of time with [PreTrainedModel.from_pretrained]:
+
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+tokenizer = Aut

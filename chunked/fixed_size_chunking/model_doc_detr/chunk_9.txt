@@ -1,0 +1,6 @@
+ptimize the parameters of the model.
+DETR can be naturally extended to perform panoptic segmentation (which unifies semantic segmentation and instance
+segmentation). [~transformers.DetrForSegmentation] adds a segmentation mask head on top of
+[~transformers.DetrForObjectDetection]. The mask head can be trained either jointly, or in a two steps process,
+where one first trains a [~transformers.DetrForObjectDetection] model to detect bounding boxes around both
+"things" (instances) and "stuff" (background things

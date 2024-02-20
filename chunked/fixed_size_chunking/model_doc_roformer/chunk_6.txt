@@ -1,0 +1,20 @@
+RoFormerForQuestionAnswering
+[[autodoc]] TFRoFormerForQuestionAnswering
+    - call
+
+FlaxRoFormerModel
+[[autodoc]] FlaxRoFormerModel
+    - call
+FlaxRoFormerForMaskedLM
+[[autodoc]] FlaxRoFormerForMaskedLM
+    - call
+FlaxRoFormerForSequenceClassification
+[[autodoc]] FlaxRoFormerForSequenceClassification
+    - call
+FlaxRoFormerForMultipleChoice
+[[autodoc]] FlaxRoFormerForMultipleChoice
+    - call
+FlaxRoFormerForTokenClassification
+[[autodoc]] FlaxRoFormerForTokenClassification
+    - call
+FlaxRoFormerForQuestion

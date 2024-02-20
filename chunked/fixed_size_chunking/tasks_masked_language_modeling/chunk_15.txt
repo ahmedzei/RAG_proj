@@ -1,0 +1,10 @@
+er], take a look at the basic tutorial here!
+
+You're ready to start training your model now! Load DistilRoBERTa with [AutoModelForMaskedLM]:
+
+from transformers import AutoModelForMaskedLM
+model = AutoModelForMaskedLM.from_pretrained("distilbert/distilroberta-base")
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [TrainingArguments]. The only required parameter is output_dir which specifies where to save your model. You'll push this model to the Hub by setting push_to_hub=Tr

@@ -1,0 +1,6 @@
+ if you want to tweak the pytorch source and/or make a new customized build.
+To find the docker image version you want start with PyTorch release notes, 
+choose one of the latest monthly releases. Go into the release's notes for the desired release, check that the environment's 
+components are matching your needs (including NVIDIA Driver requirements!) and then at the very top of that document go 
+to the corresponding NGC page. If for some reason you get lost, here is the index of all PyTorch NGC images.
+Ne

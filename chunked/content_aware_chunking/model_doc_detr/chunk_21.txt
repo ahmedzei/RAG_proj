@@ -1,0 +1,5 @@
+background things like trees and roads) in an image |
+| Model | [~transformers.DetrForObjectDetection] | [~transformers.DetrForSegmentation] | [~transformers.DetrForSegmentation] |
+| Example dataset | COCO detection | COCO detection, COCO panoptic | COCO panoptic  |                                                                        |
+| Format of annotations to provide to  [~transformers.DetrImageProcessor] | {'image_id': int, 'annotations': List[Dict]} each Dict being a COCO object annotation  | {'image_id': int, 'annotations': List[Dict]}  (in case of COCO detection) or {'file_name': str, 'image_id': int, 'segments_info': List[Dict]} (in case of COCO panoptic) | {'file_name': str, 'image_id': int, 'segments_info': List[Dict]} and masks_path (path to directory containing PNG files of the masks) |
+| Postprocessing (i.e.

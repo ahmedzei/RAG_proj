@@ -1,0 +1,18 @@
+o_hub=True,
+ )
+trainer = Seq2SeqTrainer(
+     model=model,
+     args=training_args,
+     train_dataset=tokenized_billsum["train"],
+     eval_dataset=tokenized_billsum["test"],
+     tokenizer=tokenizer,
+     data_collator=data_collator,
+     compute_metrics=compute_metrics,
+ )
+trainer.train()
+
+Once training is completed, share your model to the Hub with the [~transformers.Trainer.push_to_hub] method so everyone can use your model:
+
+trainer.push_to_hub()
+
+If you aren't familiar with finetuning a model with Ke

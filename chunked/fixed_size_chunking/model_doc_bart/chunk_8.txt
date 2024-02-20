@@ -1,0 +1,9 @@
+lGeneration] is supported by this example script.
+An example of how to train [BartForConditionalGeneration] with a Hugging Face datasets object can be found in this forum discussion
+Summarization chapter of the 🤗 Hugging Face course.
+Summarization task guide
+
+[BartForConditionalGeneration] is supported by this example script and notebook.
+[TFBartForConditionalGeneration] is supported by this example script and notebook.
+[FlaxBartForConditionalGeneration] is supported by this example script and notebook.
+Mas

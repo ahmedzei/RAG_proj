@@ -1,0 +1,9 @@
+model with the custom device_map and quantization_config:
+py
+model_8bit = AutoModelForCausalLM.from_pretrained(
+    "bigscience/bloom-1b7",
+    device_map=device_map,
+    quantization_config=quantization_config,
+)
+Outlier threshold
+An "outlier" is a hidden state value greater than a certain threshold, and these values are computed in fp16. While the values are usually normally distributed ([-3.5, 3.5]), this distribution can be very different for large models ([-60, 6] or [6, 60]). 8-bit quantization works 

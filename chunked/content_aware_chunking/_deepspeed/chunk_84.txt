@@ -1,0 +1,5 @@
+Attempted loss scale: 1, reducing to 1
+ 15%|█████████████████▊                                                                                                  | 29/189 [00:15<01:13,  2.18it/s]
+ [deepscale] OVERFLOW! Rank 0 Skipping step. Attempted loss scale: 1, reducing to 1
+[]
+This means the DeepSpeed loss scaler is unable to find a scaling coefficient to overcome loss overflow.

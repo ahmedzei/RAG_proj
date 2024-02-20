@@ -1,0 +1,6 @@
+ertForTokenClassification
+    - call
+FlaxBertForQuestionAnswering
+[[autodoc]] FlaxBertForQuestionAnswering
+    - call
+

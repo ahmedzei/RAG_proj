@@ -1,0 +1,9 @@
+
+responses
+['The weather is always wonderful in Santa Barbara and, for visitors hoping to make the move to our beautiful seaside city, this town offers plenty of great places to']
+
+Combining StableLM and Flash Attention 2
+First, make sure to install the latest version of Flash Attention v2.
+
+pip install -U flash-attn --no-build-isolation
+Also make sure that your hardware is compatible with Flash-Attention 2. Read more about it in the official documentation of the flash-attn repository. Note: you must load y

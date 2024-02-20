@@ -1,0 +1,13 @@
+")
+
+You can seamlessly use this model on text or on audio, to generated either translated text or translated audio.
+Here is how to use the processor to process text and audio:
+thon
+
+let's load an audio sample from an Arabic speech corpus
+from datasets import load_dataset
+dataset = load_dataset("arabic_speech_corpus", split="test", streaming=True)
+audio_sample = next(iter(dataset))["audio"]
+now, process it
+audio_inputs = processor(audios=audio_sample["array"], return_tensors="pt")
+now, process some English t

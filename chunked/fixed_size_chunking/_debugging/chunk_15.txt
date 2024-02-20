@@ -1,0 +1,10 @@
+ arguments, or pass debug="underflow_overflow" when creating the
+[TrainingArguments] object.
+If you're using your own training loop or another Trainer you can accomplish the same with:
+thon
+from transformers.debug_utils import DebugUnderflowOverflow
+debug_overflow = DebugUnderflowOverflow(model)
+
+[~debug_utils.DebugUnderflowOverflow] inserts hooks into the model that immediately after each
+forward call will test input and output variables and also the corresponding module's weights. As soon as inf or
+nan is

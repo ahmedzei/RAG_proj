@@ -1,0 +1,6 @@
+ing an
+expensive infrastructure, thereby limiting their adoption. In this work, we produce a competitive convolution-free
+transformer by training on Imagenet only. We train them on a single computer in less than 3 days. Our reference vision
+transformer (86M parameters) achieves top-1 accuracy of 83.1% (single-crop evaluation) on ImageNet with no external
+data. More importantly, we introduce a teacher-student strategy specific to transformers. It relies on a distillation
+token ensuring that the student learn

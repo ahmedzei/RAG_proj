@@ -1,0 +1,22 @@
+toolkit. By default, config.use_expectation = True, which uses YOSO-E and 
+does not require compiling CUDA kernels.
+
+ 
+ YOSO Attention Algorithm. Taken from the original paper.
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+YosoConfig
+[[autodoc]] YosoConfig
+YosoModel
+[[autodoc]] YosoModel
+    - forward
+YosoForMaskedLM
+[[autodoc]] YosoForMaskedLM
+    - forward
+YosoForSequenceClassification

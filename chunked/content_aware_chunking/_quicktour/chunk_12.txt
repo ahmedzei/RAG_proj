@@ -1,0 +1,43 @@
+The most important thing to remember is you need to instantiate a tokenizer with the same model name to ensure you're using the same tokenization rules a model was pretrained with.
+Load a tokenizer with [AutoTokenizer]:
+
+from transformers import AutoTokenizer
+model_name = "nlptown/bert-base-multilingual-uncased-sentiment"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+Pass your text to the tokenizer:
+
+encoding = tokenizer("We are very happy to show you the 🤗 Transformers library.")
+print(encoding)
+{'input_ids': [101, 11312, 10320, 12495, 19308, 10114, 11391, 10855, 10103, 100, 58263, 13299, 119, 102],
+ 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+
+The tokenizer returns a dictionary containing:
+
+input_ids: numerical representations of your tokens.
+attention_mask: indicates which tokens should be attended to.
+
+A tokenizer can also accept a list of inputs, and pad and truncate the text to return a batch with uniform length:
+
+pt_batch = tokenizer(
+     ["We are very happy to show you the 🤗 Transformers library.", "We hope you don't hate it."],
+     padding=True,
+     truncation=True,
+     max_length=512,
+     return_tensors="pt",
+ )
+
+tf_batch = tokenizer(
+     ["We are very happy to show you the 🤗 Transformers library.", "We hope you don't hate it."],
+     padding=True,
+     truncation=True,
+     max_length=512,
+     return_tensors="tf",
+ )
+
+Check out the preprocess tutorial for more details about tokenization, and how to use an [AutoImageProcessor], [AutoFeatureExtractor] and [AutoProcessor] to preprocess image, audio, and multimodal inputs.
+
+AutoModel
+
+🤗 Transformers provides a simple and unified way to load pretrained instances.

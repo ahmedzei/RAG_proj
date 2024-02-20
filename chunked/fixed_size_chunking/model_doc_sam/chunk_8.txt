@@ -1,0 +1,10 @@
+line.
+Demo notebook for inference with MedSAM, a fine-tuned version of SAM on the medical domain. 🌎
+Demo notebook for fine-tuning the model on custom data. 🌎
+
+SlimSAM
+SlimSAM, a pruned version of SAM, was proposed in 0.1% Data Makes Segment Anything Slim by Zigeng Chen et al. SlimSAM reduces the size of the SAM models considerably while maintaining the same performance.
+Checkpoints can be found on the hub, and they can be used as a drop-in replacement of SAM.
+SamConfig
+[[autodoc]] SamConfig
+SamVisionConfig

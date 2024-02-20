@@ -1,0 +1,2 @@
+To make batching of videos and audios possible, the authors use a pixel_mask that indicates which pixels are real/padding and audio_mask that indicates which audio values are real/padding.
+The design of TVLT is very similar to that of a standard Vision Transformer (ViT) and masked autoencoder (MAE) as in ViTMAE.

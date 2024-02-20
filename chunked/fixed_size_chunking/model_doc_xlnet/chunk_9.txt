@@ -1,0 +1,21 @@
+XLNetForQuestionAnswering
+[[autodoc]] XLNetForQuestionAnswering
+    - forward
+
+TFXLNetModel
+[[autodoc]] TFXLNetModel
+    - call
+TFXLNetLMHeadModel
+[[autodoc]] TFXLNetLMHeadModel
+    - call
+TFXLNetForSequenceClassification
+[[autodoc]] TFXLNetForSequenceClassification
+    - call
+TFLNetForMultipleChoice
+[[autodoc]] TFXLNetForMultipleChoice
+    - call
+TFXLNetForTokenClassification
+[[autodoc]] TFXLNetForTokenClassification
+    - call
+TFXLNetForQuestionAnsweringSimple
+[[autodoc]] TFXLNetForQuestionAnsweringSimple

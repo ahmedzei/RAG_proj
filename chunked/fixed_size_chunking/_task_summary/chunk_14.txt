@@ -1,0 +1,6 @@
+ere are several types of image segmentation:
+
+instance segmentation: in addition to labeling the class of an object, it also labels each distinct instance of an object ("dog-1", "dog-2")
+panoptic segmentation: a combination of semantic and instance segmentation; it labels each pixel with a semantic class and each distinct instance of an object
+
+Segmentation tasks are helpful in self-driving vehicles to create a pixel-level map of the world around them so they can navigate safely around pedestrians and other

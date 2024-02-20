@@ -1,0 +1,6 @@
+As an example, activation is preferred to act.
+   One-letter variable names are strongly discouraged unless it's an index in a for loop.
+More generally we prefer longer explicit code to short magical one.
+Avoid subclassing nn.Sequential in PyTorch but subclass nn.Module and write the forward pass, so that anyone
+   using your code can quickly debug it by adding print statements or breaking points.
+Your function signature should be type-annotated.

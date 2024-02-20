@@ -1,0 +1,6 @@
+of thousands of tokens or
+longer. Longformer's attention mechanism is a drop-in replacement for the standard self-attention and combines a local
+windowed attention with a task motivated global attention. Following prior work on long-sequence transformers, we
+evaluate Longformer on character-level language modeling and achieve state-of-the-art results on text8 and enwik8. In
+contrast to most prior work, we also pretrain Longformer and finetune it on a variety of downstream tasks. Our
+pretrained Longformer co

@@ -1,0 +1,3 @@
+We built pre-trained wav2vec 2.0 models covering 1,406 languages, 
+a single multilingual automatic speech recognition model for 1,107 languages, speech synthesis models 
+for the same number of languages, as well as a language identification model for 4,017 languages.

@@ -1,0 +1,8 @@
+odel
+    - forward
+SEWDForCTC
+[[autodoc]] SEWDForCTC
+    - forward
+SEWDForSequenceClassification
+[[autodoc]] SEWDForSequenceClassification
+    - forward

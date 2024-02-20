@@ -1,0 +1,1 @@
+It is the strongest open-weight model with a permissive license and the best model overall regarding cost/performance trade-offs.

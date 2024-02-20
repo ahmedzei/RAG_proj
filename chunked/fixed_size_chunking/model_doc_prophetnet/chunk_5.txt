@@ -1,0 +1,8 @@
+ProphetNetDecoder
+    - forward
+ProphetNetForConditionalGeneration
+[[autodoc]] ProphetNetForConditionalGeneration
+    - forward
+ProphetNetForCausalLM
+[[autodoc]] ProphetNetForCausalLM
+    - forward

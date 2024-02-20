@@ -1,0 +1,7 @@
+However, the model predicts 1001 classes: the 1000 classes from ImageNet plus an extra “background” class (index 0).
+
+The original TensorFlow checkpoints use different padding rules than PyTorch, requiring the model to determine the padding amount at inference time, since this depends on the input image size. To use native PyTorch padding behavior, create a [MobileNetV1Config] with tf_padding = False.
+
+Unsupported features:
+
+The [MobileNetV1Model] outputs a globally pooled version of the last hidden state.

@@ -1,0 +1,5 @@
+Give it a go!
+
+Inference
+Now that you have finetuned a DETR model, evaluated it, and uploaded it to the Hugging Face Hub, you can use it for inference.
+The simplest way to try out your finetuned model for inference is to use it in a [Pipeline].

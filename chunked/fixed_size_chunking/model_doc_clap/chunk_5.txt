@@ -1,0 +1,11 @@
+extModel
+    - forward
+ClapTextModelWithProjection
+[[autodoc]] ClapTextModelWithProjection
+    - forward
+ClapAudioModel
+[[autodoc]] ClapAudioModel
+    - forward
+ClapAudioModelWithProjection
+[[autodoc]] ClapAudioModelWithProjection
+    - forward

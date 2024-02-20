@@ -1,0 +1,8 @@
+utodoc]] LevitModel
+    - forward
+LevitForImageClassification
+[[autodoc]] LevitForImageClassification
+    - forward
+LevitForImageClassificationWithTeacher
+[[autodoc]] LevitForImageClassificationWithTeacher
+    - forward

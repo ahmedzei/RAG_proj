@@ -1,0 +1,13 @@
+from_pt=True, decoder_from_pt=True
+ )
+This is only for copying some specific attributes of this particular model.
+model.config = _model.config
+
+Training
+Once the model is created, it can be fine-tuned similar to BART, T5 or any other encoder-decoder model.
+As you can see, only 2 inputs are required for the model in order to compute a loss: input_ids (which are the
+input_ids of the encoded input sequence) and labels (which are the input_ids of the encoded
+target sequence).
+thon
+
+from transformers import Bert

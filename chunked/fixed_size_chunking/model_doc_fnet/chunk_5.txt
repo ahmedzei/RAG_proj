@@ -1,0 +1,22 @@
+[[autodoc]] FNetModel
+    - forward
+FNetForPreTraining
+[[autodoc]] FNetForPreTraining
+    - forward
+FNetForMaskedLM
+[[autodoc]] FNetForMaskedLM
+    - forward
+FNetForNextSentencePrediction
+[[autodoc]] FNetForNextSentencePrediction
+    - forward
+FNetForSequenceClassification
+[[autodoc]] FNetForSequenceClassification
+    - forward
+FNetForMultipleChoice
+[[autodoc]] FNetForMultipleChoice
+    - forward
+FNetForTokenClassification
+[[autodoc]] FNetForTokenClassification
+    - forward
+FNetForQuestionAnswering
+[[autod

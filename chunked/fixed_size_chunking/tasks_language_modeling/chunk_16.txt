@@ -1,0 +1,16 @@
+ue (you need to be signed in to Hugging Face to upload your model).
+Pass the training arguments to [Trainer] along with the model, datasets, and data collator.
+Call [~Trainer.train] to finetune your model.
+
+training_args = TrainingArguments(
+     output_dir="my_awesome_eli5_clm-model",
+     evaluation_strategy="epoch",
+     learning_rate=2e-5,
+     weight_decay=0.01,
+     push_to_hub=True,
+ )
+trainer = Trainer(
+     model=model,
+     args=training_args,
+     train_dataset=lm_dataset["train"],
+     eval_data

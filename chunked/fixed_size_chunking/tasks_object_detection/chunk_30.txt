@@ -1,0 +1,11 @@
+     os.makedirs(path_output_cppe5)
+     path_anno = os.path.join(path_output_cppe5, "cppe5_ann.json")
+     categories_json = [{"supercategory": "none", "id": id, "name": id2label[id]} for id in id2label]
+     output_json["images"] = []
+     output_json["annotations"] = []
+     for example in cppe5:
+         ann = val_formatted_anns(example["image_id"], example["objects"])
+         output_json["images"].append(
+             {
+                 "id": example["image_id"],
+                 "width": example["ima

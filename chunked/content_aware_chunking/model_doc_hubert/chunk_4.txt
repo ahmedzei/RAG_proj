@@ -1,0 +1,35 @@
+Using a 1B parameter model, HuBERT shows up to 19% and 13% relative WER
+reduction on the more challenging dev-other and test-other evaluation subsets.
+This model was contributed by patrickvonplaten.
+Usage tips
+
+Hubert is a speech model that accepts a float array corresponding to the raw waveform of the speech signal.
+Hubert model was fine-tuned using connectionist temporal classification (CTC) so the model output has to be decoded
+  using [Wav2Vec2CTCTokenizer].
+
+Resources
+
+Audio classification task guide
+Automatic speech recognition task guide
+
+HubertConfig
+[[autodoc]] HubertConfig
+
+HubertModel
+[[autodoc]] HubertModel
+    - forward
+HubertForCTC
+[[autodoc]] HubertForCTC
+    - forward
+HubertForSequenceClassification
+[[autodoc]] HubertForSequenceClassification
+    - forward
+
+TFHubertModel
+[[autodoc]] TFHubertModel
+    - call
+TFHubertForCTC
+[[autodoc]] TFHubertForCTC
+    - call
+
+.

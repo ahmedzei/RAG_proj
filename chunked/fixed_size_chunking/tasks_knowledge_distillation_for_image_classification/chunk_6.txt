@@ -1,0 +1,12 @@
+gs, kwargs):
+        super().init(model=student_model, args, **kwargs)
+        self.teacher = teacher_model
+        self.student = student_model
+        self.loss_function = nn.KLDivLoss(reduction="batchmean")
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        self.teacher.to(device)
+        self.teacher.eval()
+        self.temperature = temperature
+        self.lambda_param = lambda_param
+def compute_loss(self, student, inputs, return_outputs=False):
+    student_output = 

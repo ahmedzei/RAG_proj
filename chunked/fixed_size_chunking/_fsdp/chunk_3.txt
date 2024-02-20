@@ -1,0 +1,8 @@
+s; select 2 for this option
+NO_SHARD - don't shard anything (this is equivalent to DDP); select 3 for this option
+HYBRID_SHARD - shard model parameters, gradients and optimizer states within each worker where each worker also has a full copy; select 4 for this option
+HYBRID_SHARD_ZERO2 - shard gradients and optimizer states within each worker where each worker also has a full copy; select 5 for this option
+
+This is enabled by the fsdp_sharding_strategy flag.
+CPU offload
+You could also offload parameters and

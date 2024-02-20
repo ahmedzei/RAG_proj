@@ -1,0 +1,8 @@
+sor] to preprocess image, audio, and multimodal inputs.
+
+AutoModel
+
+🤗 Transformers provides a simple and unified way to load pretrained instances. This means you can load an [AutoModel] like you would load an [AutoTokenizer]. The only difference is selecting the correct [AutoModel] for the task. For text (or sequence) classification, you should load [AutoModelForSequenceClassification]:
+
+from transformers import AutoModelForSequenceClassification
+model_name = "nlptown/bert-base-multilingual-uncased-sentimen

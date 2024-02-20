@@ -1,0 +1,14 @@
+et modes available in
+pytest-random-order. It has the same problem of imposing itself once installed.
+Look and feel variations
+pytest-sugar
+pytest-sugar is a plugin that improves the look-n-feel, adds a
+progressbar, and show tests that fail and the assert instantly. It gets activated automatically upon installation.
+
+pip install pytest-sugar
+To run tests without it, run:
+
+pytest -p no:sugar
+or uninstall it.
+Report each sub-test name and its progress
+For a single or a group of tests via pytest (after pip ins

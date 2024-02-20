@@ -1,0 +1,8 @@
+
+Audio Spectrogram Transformer
+Overview
+The Audio Spectrogram Transformer model was proposed in AST: Audio Spectrogram Transformer by Yuan Gong, Yu-An Chung, James Glass.
+The Audio Spectrogram Transformer applies a Vision Transformer to audio, by turning audio into an image (spectrogram). The model obtains state-of-the-art results
+for audio classification.
+The abstract from the paper is the following:
+In the past decade, convolutional neural networks (CNNs) have been widely adopted as the main building bloc

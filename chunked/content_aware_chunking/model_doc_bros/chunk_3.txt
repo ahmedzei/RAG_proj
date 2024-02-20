@@ -1,0 +1,2 @@
+BrosSpadeELForTokenClassification has an entity_linker on top of BrosModel. entity_linker is used to predict the relation between two entities.
+BrosForTokenClassification and BrosSpadeEEForTokenClassification essentially perform the same job.

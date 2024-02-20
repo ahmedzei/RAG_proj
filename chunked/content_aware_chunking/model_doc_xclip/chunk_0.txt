@@ -1,0 +1,4 @@
+X-CLIP
+Overview
+The X-CLIP model was proposed in Expanding Language-Image Pretrained Models for General Video Recognition by Bolin Ni, Houwen Peng, Minghao Chen, Songyang Zhang, Gaofeng Meng, Jianlong Fu, Shiming Xiang, Haibin Ling.
+X-CLIP is a minimal extension of CLIP for video.

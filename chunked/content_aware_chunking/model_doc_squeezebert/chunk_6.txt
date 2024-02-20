@@ -1,0 +1,35 @@
+Models trained
+  with a causal language modeling (CLM) objective are better in that regard.
+For best results when finetuning on sequence classification tasks, it is recommended to start with the
+  squeezebert/squeezebert-mnli-headless checkpoint.
+
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+SqueezeBertConfig
+[[autodoc]] SqueezeBertConfig
+SqueezeBertTokenizer
+[[autodoc]] SqueezeBertTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+SqueezeBertTokenizerFast
+[[autodoc]] SqueezeBertTokenizerFast
+SqueezeBertModel
+[[autodoc]] SqueezeBertModel
+SqueezeBertForMaskedLM
+[[autodoc]] SqueezeBertForMaskedLM
+SqueezeBertForSequenceClassification
+[[autodoc]] SqueezeBertForSequenceClassification
+SqueezeBertForMultipleChoice
+[[autodoc]] SqueezeBertForMultipleChoice
+SqueezeBertForTokenClassification
+[[autodoc]] SqueezeBertForTokenClassification
+SqueezeBertForQuestionAnswering
+[[autodoc]] SqueezeBertForQuestionAnswering.

@@ -1,0 +1,11 @@
+ inputs
+
+These necessities imply several things developers should be careful about as detailed
+below.
+TorchScript flag and tied weights
+The torchscript flag is necessary because most of the 🤗 Transformers language models
+have tied weights between their Embedding layer and their Decoding layer.
+TorchScript does not allow you to export models that have tied weights, so it is
+necessary to untie and clone the weights beforehand.
+Models instantiated with the torchscript flag have their Embedding layer and
+Decodi

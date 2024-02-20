@@ -1,0 +1,8 @@
+In those cases, a common strategy is to randomly sample a caption amongst the available ones during training. 
+
+Split the dataset’s train split into a train and test set with the [~datasets.Dataset.train_test_split] method:
+python
+ds = ds["train"].train_test_split(test_size=0.1)
+train_ds = ds["train"]
+test_ds = ds["test"]
+Let's visualize a couple of samples from the training set.

@@ -1,0 +1,2 @@
+There are two methods to resume training from a checkpoint.
+The first method uses the output_dir previous_output_dir argument to resume training from the latest checkpoint stored in output_dir.

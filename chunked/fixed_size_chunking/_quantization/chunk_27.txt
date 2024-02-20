@@ -1,0 +1,8 @@
+in_4bit parameters in the [~PreTrainedModel.from_pretrained] method. This works for any model in any modality, as long as it supports loading with Accelerate and contains torch.nn.Linear layers.
+
+Quantizing a model in 8-bit halves the memory-usage, and for large models, set device_map="auto" to efficiently use the GPUs available:
+
+from transformers import AutoModelForCausalLM
+model_8bit = AutoModelForCausalLM.from_pretrained("bigscience/bloom-1b7", device_map="auto", load_in_8bit=True)
+
+By default, all the 

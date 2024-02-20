@@ -1,0 +1,11 @@
+t = transcriber()  # This will use my_parameter=1.
+out = transcriber(, my_parameter=2)  # This will override and use my_parameter=2.
+out = transcriber()  # This will go back to using my_parameter=1.
+
+Let's check out 3 important ones:
+Device
+If you use device=n, the pipeline automatically puts the model on the specified device.
+This will work regardless of whether you are using PyTorch or Tensorflow.
+py
+transcriber = pipeline(model="openai/whisper-large-v2", device=0)
+If the model is too large for a single G

@@ -1,0 +1,14 @@
+ook on inference with TrOCR and Gradio demo.
+A notebook on finetune TrOCR on the IAM Handwriting Database using native PyTorch.
+A notebook on evaluating TrOCR on the IAM test set.
+
+Casual language modeling task guide.
+
+⚡️ Inference
+
+An interactive-demo on TrOCR handwritten character recognition.
+
+Inference
+TrOCR's [VisionEncoderDecoder] model accepts images as input and makes use of
+[~generation.GenerationMixin.generate] to autoregressively generate text given the input image.
+The [ViTImageProcessor/DeiTIma

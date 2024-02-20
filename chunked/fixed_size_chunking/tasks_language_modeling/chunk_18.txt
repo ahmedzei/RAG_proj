@@ -1,0 +1,13 @@
+ model with Keras, take a look at the basic tutorial!
+
+To finetune a model in TensorFlow, start by setting up an optimizer function, learning rate schedule, and some training hyperparameters:
+
+from transformers import create_optimizer, AdamWeightDecay
+optimizer = AdamWeightDecay(learning_rate=2e-5, weight_decay_rate=0.01)
+
+Then you can load DistilGPT2 with [TFAutoModelForCausalLM]:
+
+from transformers import TFAutoModelForCausalLM
+model = TFAutoModelForCausalLM.from_pretrained("distilbert/distilgpt2")
+
+Conve

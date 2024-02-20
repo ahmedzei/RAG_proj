@@ -1,0 +1,15 @@
+This means that the model set has_relative_bias for each layer.
+The conversion script is also different because the model was saved in t5x's latest checkpointing format.
+Sample usage
+thon
+
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+model = AutoModelForSeq2SeqLM.from_pretrained("google/umt5-small")
+tokenizer = AutoTokenizer.from_pretrained("google/umt5-small")
+inputs = tokenizer(
+     "A  walks into a bar and orders a  with  pinch of .",
+     return_tensors="pt",
+ )
+outputs = model.generate(**inputs)
+print(tokenizer.batch_decode(outputs))
+['nyone who drink a alcohol A A.

@@ -1,0 +1,32 @@
+The patch partition refers to the model stem.
+
+For example, in the above diagram, to return the feature map from the first stage of the Swin backbone, you can set out_indices=(1,):
+
+from transformers import AutoImageProcessor, AutoBackbone
+import torch
+from PIL import Image
+import requests
+url = "http://images.cocodataset.org/val2017/000000039769.jpg"
+image = Image.open(requests.get(url, stream=True).raw)
+processor = AutoImageProcessor.from_pretrained("microsoft/swin-tiny-patch4-window7-224")
+model = AutoBackbone.from_pretrained("microsoft/swin-tiny-patch4-window7-224", out_indices=(1,))
+inputs = processor(image, return_tensors="pt")
+outputs = model(**inputs)
+feature_maps = outputs.feature_maps
+
+Now you can access the feature_maps object from the first stage of the backbone:
+
+list(feature_maps[0].shape)
+[1, 96, 56, 56]
+
+AutoFeatureExtractor
+For audio tasks, a feature extractor processes the audio signal the correct input format.
+Load a feature extractor with [AutoFeatureExtractor.from_pretrained]:
+
+from transformers import AutoFeatureExtractor
+feature_extractor = AutoFeatureExtractor.from_pretrained(
+     "ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition"
+ )
+
+AutoProcessor
+Multimodal tasks require a processor that combines two types of preprocessing tools.

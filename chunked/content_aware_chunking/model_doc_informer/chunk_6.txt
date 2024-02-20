@@ -1,0 +1,5 @@
+Extensive experiments on four large-scale datasets demonstrate that Informer significantly outperforms existing methods and provides a new solution to the LSTF problem.
+This model was contributed by elisim and kashif.
+The original code can be found here.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started.

@@ -1,0 +1,6 @@
+lForCausalLM.from_pretrained("path", torch_dtype = "auto"). The reason is that the model will first be downloaded ( using the dtype of the checkpoints online) then it will be cast to the default dtype of torch (becomes torch.float32). Users should specify the torch_dtype they want, and if they don't it will be torch.float32.
+Finetuning the model in float16 is not recommended and known to produce nan, as such the model should be fine-tuned in bfloat16.
+
+Tips:
+
+To convert the model, you need to clone the orig

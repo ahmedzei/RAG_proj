@@ -1,0 +1,5 @@
+This model has four main components:
+
+A feature encoder takes the raw audio waveform, normalizes it to zero mean and unit variance, and converts it into a sequence of feature vectors that are each 20ms long.
+
+Waveforms are continuous by nature, so they can't be divided into separate units like a sequence of text can be split into words. That's why the feature vectors are passed to a quantization module, which aims to learn discrete speech units.

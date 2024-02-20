@@ -1,0 +1,24 @@
+SentencePrediction
+    - forward
+BertForSequenceClassification
+[[autodoc]] BertForSequenceClassification
+    - forward
+BertForMultipleChoice
+[[autodoc]] BertForMultipleChoice
+    - forward
+BertForTokenClassification
+[[autodoc]] BertForTokenClassification
+    - forward
+BertForQuestionAnswering
+[[autodoc]] BertForQuestionAnswering
+    - forward
+
+TFBertModel
+[[autodoc]] TFBertModel
+    - call
+TFBertForPreTraining
+[[autodoc]] TFBertForPreTraining
+    - call
+TFBertModelLMHeadModel
+[[autodoc]] TFBertLMHeadModel
+ 

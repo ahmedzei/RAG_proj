@@ -1,0 +1,12 @@
+or "RA" and "M":
+thon
+
+print(tokenized_sequence)
+['A', 'Titan', 'R', '##T', '##X', 'has', '24', '##GB', 'of', 'V', '##RA', '##M']
+
+These tokens can then be converted into IDs which are understandable by the model. This can be done by directly feeding the sentence to the tokenizer, which leverages the Rust implementation of 🤗 Tokenizers for peak performance.
+thon
+
+inputs = tokenizer(sequence)
+
+The tokenizer returns a dictionary with all the arguments necessary for its corresponding model to work properly. Th

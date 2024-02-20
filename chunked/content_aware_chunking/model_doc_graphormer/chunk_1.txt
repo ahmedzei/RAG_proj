@@ -1,0 +1,3 @@
+It is a Graph Transformer model, modified to allow computations on graphs instead of text sequences by generating embeddings and features of interest during preprocessing and collation, then using a modified attention.
+The abstract from the paper is the following:
+The Transformer architecture has become a dominant choice in many domains, such as natural language processing and computer vision.

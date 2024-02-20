@@ -1,0 +1,13 @@
+You only need to replace the 🤗 Transformers AutoClass with its equivalent [~optimum.onnxruntime.ORTModel] for the task you're solving, and load a checkpoint in the ONNX format.
+For example, if you're running inference on a question answering task, load the optimum/roberta-base-squad2 checkpoint which contains a model.onnx file:
+
+from transformers import AutoTokenizer, pipeline
+from optimum.onnxruntime import ORTModelForQuestionAnswering
+model = ORTModelForQuestionAnswering.from_pretrained("optimum/roberta-base-squad2")
+tokenizer = AutoTokenizer.from_pretrained("deepset/roberta-base-squad2")
+onnx_qa = pipeline("question-answering", model=model, tokenizer=tokenizer)
+question = "What's my name?"
+context = "My name is Philipp and I live in Nuremberg."
+pred = onnx_qa(question, context)
+
+If you have an Intel CPU, take a look at 🤗 Optimum Intel which supports a variety of compression techniques (quantization, pruning, knowledge distillation) and tools for converting models to the OpenVINO format for higher performance inference..

@@ -1,0 +1,3 @@
+BLOOM was released around the same time, and the largest model in the family has 176B parameters and is trained on 366B tokens in 46 languages and 13 programming languages.
+Encoder-decoder[[nlp-encoder-decoder]]
+BART keeps the original Transformer architecture, but it modifies the pretraining objective with text infilling corruption, where some text spans are replaced with a single mask token.

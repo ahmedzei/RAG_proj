@@ -1,0 +1,6 @@
+ces of a length up to 16,384 tokens.
+For Local Attention, the sparse sliding-window local attention operation allows a given token to attend only r
+tokens to the left and right of it (with r=127 by default). Local Attention does not introduce any new parameters
+to the model. The complexity of the mechanism is linear in input sequence length l: O(l*r).
+Transient Global Attention is an extension of the Local Attention. It, furthermore, allows each input token to
+interact with all other tokens in the layer. Th

@@ -1,0 +1,5 @@
+(Optional) Understand theoretical aspects and the existing implementation
+You should take some time to read BrandNewBert's paper, if such descriptive work exists. There might be large
+sections of the paper that are difficult to understand. If this is the case, this is fine - don't worry! The goal is
+not to get a deep theoretical understanding of the paper, but to extract the necessary information required to
+effectively re-implement the model in 🤗 Transformers using TensorFlow.

@@ -1,0 +1,5 @@
+GIT
+Overview
+The GIT model was proposed in GIT: A Generative Image-to-text Transformer for Vision and Language by
+Jianfeng Wang, Zhengyuan Yang, Xiaowei Hu, Linjie Li, Kevin Lin, Zhe Gan, Zicheng Liu, Ce Liu, Lijuan Wang. GIT is a decoder-only Transformer
+that leverages CLIP's vision encoder to condition the model on vision inputs besides text.

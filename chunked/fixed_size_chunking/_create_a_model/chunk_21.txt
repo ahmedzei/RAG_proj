@@ -1,0 +1,21 @@
+TImageProcessor",
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "resample": 2,
+  "size": 224
+}
+
+If you aren't looking for any customization, just use the from_pretrained method to load a model's default image processor parameters.
+
+Modify any of the [ViTImageProcessor] parameters to create your custom image processor:
+
+from transformers import ViTImageProcessor
+my_vit_extractor = ViTImageProcessor(resample="PIL.Image.BOX", do_normalize=False, image_mean=[

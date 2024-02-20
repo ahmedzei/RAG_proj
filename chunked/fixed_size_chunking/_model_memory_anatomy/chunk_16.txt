@@ -1,0 +1,13 @@
+umber of parameters for normal AdamW (maintains 2 states)
+2 bytes * number of parameters for 8-bit AdamW optimizers like bitsandbytes
+4 bytes * number of parameters for optimizers like SGD with momentum (maintains only 1 state)
+
+Gradients
+
+4 bytes * number of parameters for either fp32 or mixed precision training (gradients are always kept in fp32)
+
+Forward Activations
+
+size depends on many factors, the key ones being sequence length, hidden size and batch size.
+
+There are the input and output that are bein

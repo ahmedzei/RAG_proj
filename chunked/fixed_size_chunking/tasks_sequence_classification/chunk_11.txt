@@ -1,0 +1,18 @@
+t_decay=0.01,
+     evaluation_strategy="epoch",
+     save_strategy="epoch",
+     load_best_model_at_end=True,
+     push_to_hub=True,
+ )
+trainer = Trainer(
+     model=model,
+     args=training_args,
+     train_dataset=tokenized_imdb["train"],
+     eval_dataset=tokenized_imdb["test"],
+     tokenizer=tokenizer,
+     data_collator=data_collator,
+     compute_metrics=compute_metrics,
+ )
+trainer.train()
+
+[Trainer] applies dynamic padding by default when you pass tokenizer to it. In this case, you don't need to sp

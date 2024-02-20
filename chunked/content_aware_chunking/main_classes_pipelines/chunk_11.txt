@@ -1,0 +1,7 @@
+Tried to allocate 376.00 MiB (GPU 0; 3.95 GiB total capacity; 1.72 GiB already allocated; 354.88 MiB free; 2.46 GiB reserved in total by PyTorch)
+
+There are no good (general) solutions for this problem, and your mileage may vary depending on your use cases. Rule of
+thumb:
+For users, a rule of thumb is:
+
+Measure performance on your load, with your hardware. Measure, measure, and keep measuring.

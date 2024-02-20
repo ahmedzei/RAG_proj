@@ -1,0 +1,50 @@
+However, some smaller checkpoints, such as
+  facebook/blenderbot_small_90M, have a different architecture and consequently should be used with
+  BlenderbotSmall.
+
+Resources
+
+Causal language modeling task guide
+Translation task guide
+Summarization task guide
+
+BlenderbotConfig
+[[autodoc]] BlenderbotConfig
+BlenderbotTokenizer
+[[autodoc]] BlenderbotTokenizer
+    - build_inputs_with_special_tokens
+BlenderbotTokenizerFast
+[[autodoc]] BlenderbotTokenizerFast
+    - build_inputs_with_special_tokens
+
+BlenderbotModel
+See [~transformers.BartModel] for arguments to forward and generate
+[[autodoc]] BlenderbotModel
+    - forward
+BlenderbotForConditionalGeneration
+See [~transformers.BartForConditionalGeneration] for arguments to forward and generate
+[[autodoc]] BlenderbotForConditionalGeneration
+    - forward
+BlenderbotForCausalLM
+[[autodoc]] BlenderbotForCausalLM
+    - forward
+
+TFBlenderbotModel
+[[autodoc]] TFBlenderbotModel
+    - call
+TFBlenderbotForConditionalGeneration
+[[autodoc]] TFBlenderbotForConditionalGeneration
+    - call
+
+FlaxBlenderbotModel
+[[autodoc]] FlaxBlenderbotModel
+    - call
+    - encode
+    - decode
+FlaxBlenderbotForConditionalGeneration
+[[autodoc]] FlaxBlenderbotForConditionalGeneration
+    - call
+    - encode
+    - decode
+
+.

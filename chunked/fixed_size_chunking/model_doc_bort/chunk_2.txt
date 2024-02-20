@@ -1,0 +1,6 @@
+urs, which
+is 1.2% of the time required to pretrain the highest-performing BERT parametric architectural variant, RoBERTa-large
+(Liu et al., 2019), and about 33% of that of the world-record, in GPU hours, required to train BERT-large on the same
+hardware. It is also 7.9x faster on a CPU, as well as being better performing than other compressed variants of the
+architecture, and some of the non-compressed variants: it obtains performance improvements of between 0.3% and 31%,
+absolute, with respect to BERT-lar

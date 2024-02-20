@@ -1,0 +1,14 @@
+  # multiple cells
+         cell_values = []
+         for coordinate in coordinates:
+             cell_values.append(table.iat[coordinate])
+         answers.append(", ".join(cell_values))
+display(table)
+print("")
+for query, answer, predicted_agg in zip(queries, answers, aggregation_predictions_string):
+     print(query)
+     if predicted_agg == "NONE":
+         print("Predicted answer: " + answer)
+     else:
+         print("Predicted answer: " + predicted_agg + " > " + answer)
+What is the name of the first 

@@ -1,0 +1,13 @@
+auto_remove_tmp_dir()
+tmp_dir will contain the path to the created temporary dir. It will be automatically removed at the end of the
+test.
+
+Create a temporary dir of my choice, ensure it's empty before the test starts and don't empty it after the test.
+
+python
+def test_whatever(self):
+    tmp_dir = self.get_auto_remove_tmp_dir("./xxx")
+This is useful for debug when you want to monitor a specific directory and want to make sure the previous tests didn't
+leave any data in there.
+
+You can override the default 

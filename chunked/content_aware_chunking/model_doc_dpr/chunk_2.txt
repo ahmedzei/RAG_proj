@@ -1,0 +1,3 @@
+In this work, we show that retrieval can
+be practically implemented using dense representations alone, where embeddings are learned from a small number of
+questions and passages by a simple dual-encoder framework.

@@ -1,0 +1,6 @@
+You can see how it used here in RobertaAttention with the comment:
+
+Copied from transformers.models.bert.modeling_bert.BertAttention with Bert->Roberta
+
+Note that there shouldn't be any spaces around the arrow (unless that space is part of the pattern to replace of course).
+You can add several patterns separated by a comma. For instance here CamemberForMaskedLM is a direct copy of RobertaForMaskedLM with two replacements: Roberta to Camembert and ROBERTA to CAMEMBERT.

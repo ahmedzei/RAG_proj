@@ -1,0 +1,11 @@
+s demonstrates the feasibility of speech
+recognition with limited amounts of labeled data.
+This model was contributed by patrickvonplaten.
+Usage tips
+
+Wav2Vec2 is a speech model that accepts a float array corresponding to the raw waveform of the speech signal.
+Wav2Vec2 model was trained using connectionist temporal classification (CTC) so the model output has to be decoded
+  using [Wav2Vec2CTCTokenizer].
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get star

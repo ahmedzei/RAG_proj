@@ -1,0 +1,4 @@
+If you are new to this concept, we recommend reading this blog post that illustrates how common decoding strategies work.
+Here, we'll show some of the parameters that control the decoding strategies and illustrate how you can use them.
+Greedy Search
+[generate] uses greedy search decoding by default so you don't have to pass any parameters to enable it.

@@ -1,0 +1,7 @@
+h appropriate control tokens, so they know what they're 
+supposed to be doing.
+Not all models require generation prompts. Some models, like BlenderBot and LLaMA, don't have any
+special tokens before bot responses. In these cases, the add_generation_prompt argument will have no effect. The exact
+effect that add_generation_prompt has will depend on the template being used.
+Can I use chat templates in training?
+Yes! We recommend that you apply the chat template as a preprocessing step for your dataset. After t

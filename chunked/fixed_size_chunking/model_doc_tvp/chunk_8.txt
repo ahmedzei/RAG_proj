@@ -1,0 +1,9 @@
+ecoder.
+    Args:
+        container (container): pyav container.
+        sampling_rate (int): frame sampling rate (interval between two sampled frames).
+        num_frames (int): number of frames to sample.
+        clip_idx (int): if clip_idx is -1, perform random temporal sampling.
+            If clip_idx is larger than -1, uniformly split the video to num_clips
+            clips, and select the clip_idx-th video clip.
+        num_clips (int): overall number of clips to uniformly sample from the given vide

@@ -1,0 +1,3 @@
+l nodes, as can be seen in the original implementation here.
+One can use [MaskFormerImageProcessor] to prepare images for the model and optional targets for the model.
+To get the final segmentation, depending on the task, you can call [~MaskFormerImageProcessor.post_process_semantic_segmentation] or [~MaskFormerImageProcessor.post_process_panoptic_segmentation]. Both tasks can be solved using [MaskFormerForInstanceSegmentation] output, panoptic segmentation accepts an optional label_ids_to_fuse argument to 

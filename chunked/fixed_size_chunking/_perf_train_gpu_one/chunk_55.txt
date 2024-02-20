@@ -1,0 +1,3 @@
+pport and can only be used for training that does not require a padding mask for batched training. This is the case, for example, during masked language modeling or causal language modeling. BetterTransformer is not suited for fine-tuning models on tasks that require a padding mask. 
+
+Check out this blogpost to learn more about acceleration and memory-savings with SDPA.

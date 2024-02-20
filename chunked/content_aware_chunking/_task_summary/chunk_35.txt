@@ -1,0 +1,3 @@
+For a task like image captioning, the model learns relationships between image embeddings and text embeddings.
+Document question answering
+Document question answering is a task that answers natural language questions from a document. Unlike a token-level question answering task which takes text as input, document question answering takes an image of a document as input along with a question about the document and returns an answer.

@@ -1,0 +1,2 @@
+The context comes from the output of an OCR engine, here it is Google's Tesseract.
+Before you begin, make sure you have all the necessary libraries installed.

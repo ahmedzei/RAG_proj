@@ -1,0 +1,11 @@
+ = {}
+    if "maybe_arg" in kwargs:
+        preprocess_kwargs["maybe_arg"] = kwargs["maybe_arg"]
+postprocess_kwargs = {}
+if "top_k" in kwargs:
+    postprocess_kwargs["top_k"] = kwargs["top_k"]
+return preprocess_kwargs, {}, postprocess_kwargs
+
+Try to keep the inputs/outputs very simple and ideally JSON-serializable as it makes the pipeline usage very easy
+without requiring users to understand new kinds of objects. It's also relatively common to support many different types
+of arguments for ease of use (audio

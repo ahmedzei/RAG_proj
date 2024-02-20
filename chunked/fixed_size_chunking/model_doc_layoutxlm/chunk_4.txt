@@ -1,0 +1,15 @@
+LayoutLMv2, one can refer to LayoutLMv2's documentation page for all tips, code examples and notebooks.
+
+LayoutXLMTokenizer
+[[autodoc]] LayoutXLMTokenizer
+    - call
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+LayoutXLMTokenizerFast
+[[autodoc]] LayoutXLMTokenizerFast
+    - call
+LayoutXLMProcessor
+[[autodoc]] LayoutXLMProcessor
+    - call

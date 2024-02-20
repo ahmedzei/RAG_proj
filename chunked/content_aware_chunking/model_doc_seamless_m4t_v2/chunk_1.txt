@@ -1,0 +1,12 @@
+For more details on the differences between v1 and v2, refer to section Difference with SeamlessM4T-v1.
+SeamlessM4T-v2 enables multiple tasks without relying on separate models:
+
+Speech-to-speech translation (S2ST)
+Speech-to-text translation (S2TT)
+Text-to-speech translation (T2ST)
+Text-to-text translation (T2TT)
+Automatic speech recognition (ASR)
+
+[SeamlessM4Tv2Model] can perform all the above tasks, but each task also has its own dedicated sub-model.
+The abstract from the paper is the following:
+Recent advancements in automatic speech translation have dramatically expanded language coverage, improved multimodal capabilities, and enabled a wide range of tasks and functionalities.

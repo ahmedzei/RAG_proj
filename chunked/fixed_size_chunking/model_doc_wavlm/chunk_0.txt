@@ -1,0 +1,9 @@
+
+WavLM
+Overview
+The WavLM model was proposed in WavLM: Large-Scale Self-Supervised Pre-Training for Full Stack Speech Processing by Sanyuan Chen, Chengyi Wang, Zhengyang Chen, Yu Wu, Shujie Liu, Zhuo Chen,
+Jinyu Li, Naoyuki Kanda, Takuya Yoshioka, Xiong Xiao, Jian Wu, Long Zhou, Shuo Ren, Yanmin Qian, Yao Qian, Jian Wu,
+Michael Zeng, Furu Wei.
+The abstract from the paper is the following:
+Self-supervised learning (SSL) achieves great success in speech recognition, while limited exploration has been
+attempte

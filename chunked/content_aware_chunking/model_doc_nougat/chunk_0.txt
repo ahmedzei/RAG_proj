@@ -1,0 +1,4 @@
+Nougat
+Overview
+The Nougat model was proposed in Nougat: Neural Optical Understanding for Academic Documents by
+Lukas Blecher, Guillem Cucurull, Thomas Scialom, Robert Stojnic.

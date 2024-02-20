@@ -1,0 +1,12 @@
+ng?". Some people 
+annotated this with "down", others with "at table", another one with "skateboard", etc. 
+Take a look at the image and consider which answer would you give:
+thon
+
+from PIL import Image
+image = Image.open(dataset[0]['image_id'])
+image
+
+Due to the questions' and answers' ambiguity, datasets like this are treated as a multi-label classification problem (as 
+multiple answers are possibly valid). Moreover, rather than just creating a one-hot encoded vector, one creates a 
+soft encoding, based o

@@ -1,0 +1,13 @@
+rs import AutoImageProcessor
+image_processor = AutoImageProcessor.from_pretrained("MariaK/food_classifier")
+inputs = image_processor(image, return_tensors="tf")
+
+Pass your inputs to the model and return the logits:
+
+from transformers import TFAutoModelForImageClassification
+model = TFAutoModelForImageClassification.from_pretrained("MariaK/food_classifier")
+logits = model(**inputs).logits
+
+Get the predicted label with the highest probability, and use the model's id2label mapping to convert it to a label:
+
+pr

@@ -1,0 +1,141 @@
+To propagate the label of the word to all wordpieces, see this version of the notebook instead.
+[BertForTokenClassification] is supported by this example script and notebook.
+[TFBertForTokenClassification] is supported by this example script and notebook.
+[FlaxBertForTokenClassification] is supported by this example script.
+Token classification chapter of the 🤗 Hugging Face Course.
+Token classification task guide
+
+[BertForMaskedLM] is supported by this example script and notebook.
+[TFBertForMaskedLM] is supported by this example script and notebook.
+[FlaxBertForMaskedLM] is supported by this example script and notebook.
+Masked language modeling chapter of the 🤗 Hugging Face Course.
+Masked language modeling task guide
+
+[BertForQuestionAnswering] is supported by this example script and notebook.
+[TFBertForQuestionAnswering] is supported by this example script and notebook.
+[FlaxBertForQuestionAnswering] is supported by this example script.
+Question answering chapter of the 🤗 Hugging Face Course.
+Question answering task guide
+
+Multiple choice
+- [BertForMultipleChoice] is supported by this example script and notebook.
+- [TFBertForMultipleChoice] is supported by this example script and notebook.
+- Multiple choice task guide
+⚡️ Inference
+- A blog post on how to Accelerate BERT inference with Hugging Face Transformers and AWS Inferentia.
+- A blog post on how to Accelerate BERT inference with DeepSpeed-Inference on GPUs.
+⚙️ Pretraining
+- A blog post on Pre-Training BERT with Hugging Face Transformers and Habana Gaudi.
+🚀 Deploy
+- A blog post on how to Convert Transformers to ONNX with Hugging Face Optimum.
+- A blog post on how to Setup Deep Learning environment for Hugging Face Transformers with Habana Gaudi on AWS.
+- A blog post on Autoscaling BERT with Hugging Face Transformers, Amazon SageMaker and Terraform module.
+- A blog post on Serverless BERT with HuggingFace, AWS Lambda, and Docker.
+- A blog post on Hugging Face Transformers BERT fine-tuning using Amazon SageMaker and Training Compiler.
+- A blog post on Task-specific knowledge distillation for BERT using Transformers & Amazon SageMaker.
+BertConfig
+[[autodoc]] BertConfig
+    - all
+BertTokenizer
+[[autodoc]] BertTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+
+BertTokenizerFast
+[[autodoc]] BertTokenizerFast
+
+TFBertTokenizer
+[[autodoc]] TFBertTokenizer
+
+Bert specific outputs
+[[autodoc]] models.bert.modeling_bert.BertForPreTrainingOutput
+[[autodoc]] models.bert.modeling_tf_bert.TFBertForPreTrainingOutput
+[[autodoc]] models.bert.modeling_flax_bert.FlaxBertForPreTrainingOutput
+
+BertModel
+[[autodoc]] BertModel
+    - forward
+BertForPreTraining
+[[autodoc]] BertForPreTraining
+    - forward
+BertLMHeadModel
+[[autodoc]] BertLMHeadModel
+    - forward
+BertForMaskedLM
+[[autodoc]] BertForMaskedLM
+    - forward
+BertForNextSentencePrediction
+[[autodoc]] BertForNextSentencePrediction
+    - forward
+BertForSequenceClassification
+[[autodoc]] BertForSequenceClassification
+    - forward
+BertForMultipleChoice
+[[autodoc]] BertForMultipleChoice
+    - forward
+BertForTokenClassification
+[[autodoc]] BertForTokenClassification
+    - forward
+BertForQuestionAnswering
+[[autodoc]] BertForQuestionAnswering
+    - forward
+
+TFBertModel
+[[autodoc]] TFBertModel
+    - call
+TFBertForPreTraining
+[[autodoc]] TFBertForPreTraining
+    - call
+TFBertModelLMHeadModel
+[[autodoc]] TFBertLMHeadModel
+    - call
+TFBertForMaskedLM
+[[autodoc]] TFBertForMaskedLM
+    - call
+TFBertForNextSentencePrediction
+[[autodoc]] TFBertForNextSentencePrediction
+    - call
+TFBertForSequenceClassification
+[[autodoc]] TFBertForSequenceClassification
+    - call
+TFBertForMultipleChoice
+[[autodoc]] TFBertForMultipleChoice
+    - call
+TFBertForTokenClassification
+[[autodoc]] TFBertForTokenClassification
+    - call
+TFBertForQuestionAnswering
+[[autodoc]] TFBertForQuestionAnswering
+    - call
+
+FlaxBertModel
+[[autodoc]] FlaxBertModel
+    - call
+FlaxBertForPreTraining
+[[autodoc]] FlaxBertForPreTraining
+    - call
+FlaxBertForCausalLM
+[[autodoc]] FlaxBertForCausalLM
+    - call
+FlaxBertForMaskedLM
+[[autodoc]] FlaxBertForMaskedLM
+    - call
+FlaxBertForNextSentencePrediction
+[[autodoc]] FlaxBertForNextSentencePrediction
+    - call
+FlaxBertForSequenceClassification
+[[autodoc]] FlaxBertForSequenceClassification
+    - call
+FlaxBertForMultipleChoice
+[[autodoc]] FlaxBertForMultipleChoice
+    - call
+FlaxBertForTokenClassification
+[[autodoc]] FlaxBertForTokenClassification
+    - call
+FlaxBertForQuestionAnswering
+[[autodoc]] FlaxBertForQuestionAnswering
+    - call
+
+.

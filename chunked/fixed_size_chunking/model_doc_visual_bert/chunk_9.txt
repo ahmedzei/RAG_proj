@@ -1,0 +1,8 @@
+todoc]] VisualBertForMultipleChoice
+    - forward
+VisualBertForVisualReasoning
+[[autodoc]] VisualBertForVisualReasoning
+    - forward
+VisualBertForRegionToPhraseAlignment
+[[autodoc]] VisualBertForRegionToPhraseAlignment
+    - forward

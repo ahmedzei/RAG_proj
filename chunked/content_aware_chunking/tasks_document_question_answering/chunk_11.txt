@@ -1,0 +1,8 @@
+For preprocessing text, we'll need the tokenizer from the processor.
+
+tokenizer = processor.tokenizer
+
+On top of the preprocessing mentioned above, we also need to add the labels for the model. For xxxForQuestionAnswering models
+in 🤗 Transformers, the labels consist of the start_positions and end_positions, indicating which token is at the
+start and which token is at the end of the answer.
+Let's start with that.

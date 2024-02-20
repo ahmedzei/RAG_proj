@@ -1,0 +1,4 @@
+ainer class | How to fine-tune BART for summarization in two languages with Trainer class | Eliza Szczechla | |
+|Evaluate Big Bird on Trivia QA | How to evaluate BigBird on long document question answering on Trivia QA | Patrick von Platen | |
+| Create video captions using Wav2Vec2 | How to create YouTube captions from any video by transcribing the audio with Wav2Vec | Niklas Muennighoff | |
+| Fine-tune the Vision Transformer on CIFAR-10 using PyTorch Lightning | How to fine-tune the Vision Transformer (ViT

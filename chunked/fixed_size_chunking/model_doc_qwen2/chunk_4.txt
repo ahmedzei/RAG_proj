@@ -1,0 +1,3 @@
+lassification
+[[autodoc]] Qwen2ForSequenceClassification
+    - forward

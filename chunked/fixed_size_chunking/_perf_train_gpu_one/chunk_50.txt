@@ -1,0 +1,7 @@
+xt follow the instructions to download and deploy the docker image.
+Mixture of Experts
+Some recent papers reported a 4-5x training speedup and a faster inference by integrating
+Mixture of Experts (MoE) into the Transformer models.
+Since it has been discovered that more parameters lead to better performance, this technique allows to increase the 
+number of parameters by an order of magnitude without increasing training costs.
+In this approach every other FFN layer is replaced with a MoE Layer which consists 

@@ -1,0 +1,13 @@
+These jobs
+   are defined in this config file, so that if needed you can reproduce the same
+   environment on your machine.
+
+These CI jobs don't run @slow tests.
+
+There are 3 jobs run by github actions:
+
+torch hub integration: checks whether torch hub
+     integration works.
+
+self-hosted (push): runs fast tests on GPU only on commits on
+     main.

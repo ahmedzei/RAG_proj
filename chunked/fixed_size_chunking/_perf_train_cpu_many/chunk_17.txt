@@ -1,0 +1,13 @@
+ - "128"
+                - --output_dir
+                - "/tmp/pvc-mount/output"
+                - --no_cuda
+                - --ddp_backend
+                - "ccl"
+                - --use_ipex
+                - --bf16  # Specify --bf16 if your hardware supports bfloat16
+              env:
+              - name: LD_PRELOAD
+                value: "/usr/lib/x86_64-linux-gnu/libtcmalloc.so.4.5.9:/usr/local/lib/libiomp5.so"
+              - name: TRANSFORMERS_CACHE
+                value: "/tmp/pvc-mount/transfor

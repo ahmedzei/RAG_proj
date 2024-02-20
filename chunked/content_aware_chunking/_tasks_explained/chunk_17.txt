@@ -1,0 +1,6 @@
+Like other classification heads, the MLP head converts the output into logits over the class labels and calculates the cross-entropy loss to find the most likely class.
+
+Ready to try your hand at image classification? Check out our complete image classification guide to learn how to finetune ViT and use it for inference!
+CNN
+
+This section briefly explains convolutions, but it'd be helpful to have a prior understanding of how they change an image's shape and size.

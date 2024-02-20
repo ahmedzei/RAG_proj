@@ -1,0 +1,14 @@
+Luckily
+you can accomplish that easily by activating a special module that will do the detection automatically.
+If you're using [Trainer], you just need to add:
+
+--debug underflow_overflow
+to the normal command line arguments, or pass debug="underflow_overflow" when creating the
+[TrainingArguments] object.
+If you're using your own training loop or another Trainer you can accomplish the same with:
+thon
+from transformers.debug_utils import DebugUnderflowOverflow
+debug_overflow = DebugUnderflowOverflow(model)
+
+[~debug_utils.DebugUnderflowOverflow] inserts hooks into the model that immediately after each
+forward call will test input and output variables and also the corresponding module's weights.

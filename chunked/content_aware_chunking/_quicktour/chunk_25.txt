@@ -1,0 +1,60 @@
+The default values are used if you don't specify any training arguments:
+
+from transformers import TrainingArguments
+training_args = TrainingArguments(
+        output_dir="path/to/save/folder/",
+        learning_rate=2e-5,
+        per_device_train_batch_size=8,
+        per_device_eval_batch_size=8,
+        num_train_epochs=2,
+    )
+   
+
+Load a preprocessing class like a tokenizer, image processor, feature extractor, or processor:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("distilbert/distilbert-base-uncased")
+   
+
+Load a dataset:
+
+from datasets import load_dataset
+dataset = load_dataset("rotten_tomatoes")  # doctest: +IGNORE_RESULT
+   
+
+Create a function to tokenize the dataset:
+
+def tokenize_dataset(dataset):
+        return tokenizer(dataset["text"])
+   
+
+Then apply it over the entire dataset with [~datasets.Dataset.map]:
+
+dataset = dataset.map(tokenize_dataset, batched=True)
+   
+
+A [DataCollatorWithPadding] to create a batch of examples from your dataset:
+
+from transformers import DataCollatorWithPadding
+data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
+   
+
+Now gather all these classes in [Trainer]:
+
+from transformers import Trainer
+trainer = Trainer(
+     model=model,
+     args=training_args,
+     train_dataset=dataset["train"],
+     eval_dataset=dataset["test"],
+     tokenizer=tokenizer,
+     data_collator=data_collator,
+ )  # doctest: +SKIP
+
+When you're ready, call [~Trainer.train] to start training:
+
+trainer.train()  # doctest: +SKIP
+
+For tasks - like translation or summarization - that use a sequence-to-sequence model, use the [Seq2SeqTrainer] and [Seq2SeqTrainingArguments] classes instead.
+
+You can customize the training loop behavior by subclassing the methods inside [Trainer].

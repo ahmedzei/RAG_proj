@@ -1,0 +1,25 @@
+oderConfig
+ClvpDecoderConfig
+[[autodoc]] ClvpDecoderConfig
+ClvpTokenizer
+[[autodoc]] ClvpTokenizer
+    - save_vocabulary
+ClvpFeatureExtractor
+[[autodoc]] ClvpFeatureExtractor
+    - call
+ClvpProcessor
+[[autodoc]] ClvpProcessor
+    - call
+    - decode
+    - batch_decode
+ClvpModelForConditionalGeneration
+[[autodoc]] ClvpModelForConditionalGeneration
+    - forward
+    - generate
+    - get_text_features
+    - get_speech_features
+ClvpForCausalLM
+[[autodoc]] ClvpForCausalLM
+ClvpModel
+[[autodoc]] ClvpModel
+ClvpEnco

@@ -1,0 +1,2 @@
+We can see that the words ["i", "have", "a", "new"] are present in the tokenizer's vocabulary, but the word "gpu" is not. Consequently, the
+tokenizer splits "gpu" into known subwords: ["gp" and "##u"].

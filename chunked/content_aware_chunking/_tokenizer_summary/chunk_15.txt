@@ -1,0 +1,9 @@
+As one can see,
+the rare word "Transformers" has been split into the more frequent subwords "Transform" and "ers".
+Let's now look at how the different subword tokenization algorithms work. Note that all of those tokenization
+algorithms rely on some form of training which is usually done on the corpus the corresponding model will be trained
+on.
+
+Byte-Pair Encoding (BPE)
+Byte-Pair Encoding (BPE) was introduced in Neural Machine Translation of Rare Words with Subword Units (Sennrich et
+al., 2015).

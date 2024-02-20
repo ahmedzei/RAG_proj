@@ -1,0 +1,7 @@
+The benchmark classes allow us to measure the peak memory usage and required time for both inference and training.
+
+Hereby, inference is defined by a single forward pass, and training is defined by a single forward pass and
+backward pass.
+
+The benchmark classes [PyTorchBenchmark] and [TensorFlowBenchmark] expect an object of type [PyTorchBenchmarkArguments] and
+[TensorFlowBenchmarkArguments], respectively, for instantiation.

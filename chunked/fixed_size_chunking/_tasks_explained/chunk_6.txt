@@ -1,0 +1,5 @@
+nit (the target label).
+
+Now that wav2vec2 is pretrained, you can finetune it on your data for audio classification or automatic speech recognition!
+Audio classification
+To use the pretrained model for audio classification, add a sequence classification head on top of the base Wav2Vec2 model. The classification head is a linear layer that accepts the encoder's hidden states. The hidden states represent the learned features from each audio frame which can have varying lengths. To create one vector of fixed-l

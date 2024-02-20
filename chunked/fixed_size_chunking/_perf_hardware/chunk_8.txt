@@ -1,0 +1,9 @@
+ connectivity becomes super important to achieve faster training.
+NVlink
+NVLink is a wire-based serial multi-lane near-range communications link developed by Nvidia.
+Each new generation provides a faster bandwidth, e.g. here is a quote from Nvidia Ampere GA102 GPU Architecture:
+
+Third-Generation NVLink®
+GA102 GPUs utilize NVIDIA’s third-generation NVLink interface, which includes four x4 links,
+with each link providing 14.0625 GB/sec bandwidth in each direction between two GPUs. Four
+links provide 56.25 GB/

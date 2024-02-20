@@ -1,0 +1,10 @@
+
+     examples["pixel_values"] = [_transforms(img.convert("RGB")) for img in examples["image"]]
+     del examples["image"]
+     return examples
+
+To apply the preprocessing function over the entire dataset, use 🤗 Datasets [~datasets.Dataset.with_transform] method. The transforms are applied on the fly when you load an element of the dataset:
+
+food = food.with_transform(transforms)
+
+Now create a batch of examples using [DefaultDataCollator]. Unlike other data collators in 🤗 Transformers, the DefaultDataCollat

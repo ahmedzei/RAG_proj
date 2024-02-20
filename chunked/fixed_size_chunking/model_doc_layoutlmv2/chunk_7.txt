@@ -1,0 +1,5 @@
+. The image input corresponds to the original document image in which the text
+  tokens occur. The model expects each document image to be of size 224x224. This means that if you have a batch of
+  document images, image should be a tensor of shape (batch_size, 3, 224, 224). This can be either a
+  torch.Tensor or a Detectron2.structures.ImageList. You don't need to normalize the channels, as this is
+  done by the model. Important to note is that the visual backbone expects BGR channels instead of RGB, as all

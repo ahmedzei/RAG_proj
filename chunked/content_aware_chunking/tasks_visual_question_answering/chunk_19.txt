@@ -1,0 +1,7 @@
+The simplest
+way to try out your fine-tuned model for inference is to use it in a [Pipeline].
+
+from transformers import pipeline
+pipe = pipeline("visual-question-answering", model="MariaK/vilt_finetuned_200")
+
+The model in this guide has only been trained on 200 examples, so don't expect a lot from it.

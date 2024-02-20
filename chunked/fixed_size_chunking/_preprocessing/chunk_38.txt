@@ -1,0 +1,15 @@
+960h")
+
+Create a function to process the audio data contained in array to input_values, and tokenize text to labels. These are the inputs to the model:
+
+def prepare_dataset(example):
+     audio = example["audio"]
+
+     example.update(processor(audio=audio["array"], text=example["text"], sampling_rate=16000))
+     return example
+
+Apply the prepare_dataset function to a sample:
+
+prepare_dataset(lj_speech[0])
+
+The processor has now added input_values and labels, and the sampling rate has also been correctly do

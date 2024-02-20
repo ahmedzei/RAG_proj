@@ -1,0 +1,5 @@
+
+LeViT
+Overview
+The LeViT model was proposed in LeViT: Introducing Convolutions to Vision Transformers by Ben Graham, Alaaeldin El-Nouby, Hugo Touvron, Pierre Stock, Armand Joulin, Hervé Jégou, Matthijs Douze. LeViT improves the Vision Transformer (ViT) in performance and efficiency by a few architectural differences such as activation maps with decreasing resolutions in Transformers and the introduction of an attention bias to integrate positional information.
+The abstract from the paper is the following:

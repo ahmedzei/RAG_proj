@@ -1,0 +1,6 @@
+If no position_ids are passed to the model, the IDs are automatically created as
+absolute positional embeddings.
+Absolute positional embeddings are selected in the range [0, config.max_position_embeddings - 1]. Some models use
+other types of positional embeddings, such as sinusoidal position embeddings or relative position embeddings.
+preprocessing
+The task of preparing raw data into a format that can be easily consumed by machine learning models. For example, text is typically preprocessed by tokenization.

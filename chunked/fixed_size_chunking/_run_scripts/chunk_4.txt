@@ -1,0 +1,7 @@
+ments.txt
+Run a script
+
+The example script downloads and preprocesses a dataset from the 🤗 Datasets library. Then the script fine-tunes a dataset with the Trainer on an architecture that supports summarization. The following example shows how to fine-tune T5-small on the CNN/DailyMail dataset. The T5 model requires an additional source_prefix argument due to how it was trained. This prompt lets T5 know this is a summarization task.
+
+python examples/pytorch/summarization/run_summarization.py \
+    --model_na

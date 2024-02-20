@@ -1,0 +1,14 @@
+There are many practical applications for text classification, some of which include:
+
+sentiment analysis: label text according to some polarity like positive or negative which can inform and support decision-making in fields like politics, finance, and marketing
+content classification: label text according to some topic to help organize and filter information in news and social media feeds (weather, sports, finance, etc.)
+
+from transformers import pipeline
+classifier = pipeline(task="sentiment-analysis")
+preds = classifier("Hugging Face is the best thing since sliced bread!")
+preds = [{"score": round(pred["score"], 4), "label": pred["label"]} for pred in preds]
+preds
+[{'score': 0.9991, 'label': 'POSITIVE'}]
+
+Token classification
+In any NLP task, text is preprocessed by separating the sequence of text into individual words or subwords.

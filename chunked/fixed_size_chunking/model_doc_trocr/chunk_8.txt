@@ -1,0 +1,15 @@
+_ids, skip_special_tokens=True)[0]
+
+See the model hub to look for TrOCR checkpoints.
+TrOCRConfig
+[[autodoc]] TrOCRConfig
+TrOCRProcessor
+[[autodoc]] TrOCRProcessor
+    - call
+    - from_pretrained
+    - save_pretrained
+    - batch_decode
+    - decode
+TrOCRForCausalLM
+[[autodoc]] TrOCRForCausalLM
+     - forward

@@ -1,0 +1,5 @@
+~optimum.onnxruntime.ORTModel] for the task you're solving, and specify the provider parameter which can be set to either CUDAExecutionProvider, ROCMExecutionProvider or TensorrtExecutionProvider. If you want to load a model that was not yet exported to ONNX, you can set export=True to convert your model on-the-fly to the ONNX format:
+
+from optimum.onnxruntime import ORTModelForSequenceClassification
+ort_model = ORTModelForSequenceClassification.from_pretrained(
+  "distilbert/distilbert-base-uncased-finetun

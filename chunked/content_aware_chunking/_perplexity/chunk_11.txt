@@ -1,0 +1,14 @@
+the model only calculates loss over trg_len - 1 labels, because it internally shifts the labels
+    # to the left by 1.
+    neg_log_likelihood = outputs.loss
+
+nlls.append(neg_log_likelihood)
+
+prev_end_loc = end_loc
+if end_loc == seq_len:
+    break
+
+ppl = torch.exp(torch.stack(nlls).mean())
+
+Running this with the stride length equal to the max input length is equivalent to the suboptimal, non-sliding-window
+strategy we discussed above.

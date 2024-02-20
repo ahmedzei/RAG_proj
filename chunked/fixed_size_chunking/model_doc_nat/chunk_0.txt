@@ -1,0 +1,9 @@
+
+Neighborhood Attention Transformer
+Overview
+NAT was proposed in Neighborhood Attention Transformer
+by Ali Hassani, Steven Walton, Jiachen Li, Shen Li, and Humphrey Shi.
+It is a hierarchical vision transformer based on Neighborhood Attention, a sliding-window self attention pattern.
+The abstract from the paper is the following:
+*We present Neighborhood Attention (NA), the first efficient and scalable sliding-window attention mechanism for vision.
+NA is a pixel-wise operation, localizing self attention (SA) 

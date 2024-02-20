@@ -1,0 +1,13 @@
+equenceClassification
+PIPELINE_REGISTRY.register_pipeline(
+    "pair-classification",
+    pipeline_class=PairClassificationPipeline,
+    pt_model=AutoModelForSequenceClassification,
+    tf_model=TFAutoModelForSequenceClassification,
+)
+
+Once this is done, we can use it with a pretrained model. For instance sgugger/finetuned-bert-mrpc has been
+fine-tuned on the MRPC dataset, which classifies pairs of sentences as paraphrases or not.
+
+from transformers import pipeline
+classifier = pipeline("pair-classification

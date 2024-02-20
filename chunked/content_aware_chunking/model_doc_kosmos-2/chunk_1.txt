@@ -1,0 +1,3 @@
+The spatial coordinates of
+the bounding boxes in the dataset are converted to a sequence of location tokens, which are appended to their respective
+entity text spans (for example, a snowman followed by <patch_index_0044><patch_index_0863>).

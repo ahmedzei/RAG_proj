@@ -1,0 +1,7 @@
+ch CANINE solves with an efficient
+downsampling strategy, before applying a deep Transformer encoder.
+The abstract from the paper is the following:
+Pipelined NLP systems have largely been superseded by end-to-end neural modeling, yet nearly all commonly-used models
+still require an explicit tokenization step. While recent tokenization approaches based on data-derived subword
+lexicons are less brittle than manually engineered tokenizers, these techniques are not equally suited to all
+languages, and the use o

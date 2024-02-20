@@ -1,0 +1,15 @@
+aining example. It is advised to create a dataloader to iterate over batches:
+
+import tensorflow as tf
+import pandas as pd
+tsv_path = "your_path_to_the_tsv_file"
+table_csv_path = "your_path_to_a_directory_containing_all_csv_files"
+class TableDataset:
+     def init(self, data, tokenizer):
+         self.data = data
+         self.tokenizer = tokenizer
+
+     def iter(self):
+         for idx in range(self.len()):
+             item = self.data.iloc[idx]
+             table = pd.read_csv(table_csv_path + item.table

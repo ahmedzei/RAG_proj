@@ -1,0 +1,8 @@
+nto Hugging Face before you begin:
+
+huggingface-cli login
+Then add the push_to_hub argument to the script. This argument will create a repository with your Hugging Face username and the folder name specified in output_dir.
+To give your repository a specific name, use the push_to_hub_model_id argument to add it. The repository will be automatically listed under your namespace.
+The following example shows how to upload a model with a specific repository name:
+
+python examples/pytorch/summarization/run_summari

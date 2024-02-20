@@ -1,0 +1,5 @@
+Ideally, you want to
+  find the function in the original repository that only calls a single forward pass, i.e. that is often called
+  predict, evaluate, forward or __call__. You don't want to debug a function that calls forward
+  multiple times, e.g. to generate text, like autoregressive_sample, generate.
+Try to separate the tokenization from the model's forward pass.

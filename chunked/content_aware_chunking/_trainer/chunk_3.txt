@@ -1,0 +1,18 @@
+[Seq2SeqTrainer] is designed for sequence-to-sequence tasks and [~trl.SFTTrainer] is designed for training language models.
+
+Before you start, make sure Accelerate - a library for enabling and running PyTorch training across distributed environments - is installed.
+```bash
+pip install accelerate
+upgrade
+pip install accelerate --upgrade
+
+This guide provides an overview of the [Trainer] class.
+Basic usage
+[Trainer] includes all the code you'll find in a basic training loop:
+
+perform a training step to calculate the loss
+calculate the gradients with the [~accelerate.Accelerator.backward] method
+update the weights based on the gradients
+repeat this process until you've reached a predetermined number of epochs
+
+The [Trainer] class abstracts all of this code away so you don't have to worry about manually writing a training loop every time or if you're just getting started with PyTorch and training.

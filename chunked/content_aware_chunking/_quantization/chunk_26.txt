@@ -1,0 +1,8 @@
+This overwrites the attributes related to the ExLlama kernels in the quantization config of the config.json file.
+py
+import torch
+from transformers import AutoModelForCausalLM, GPTQConfig
+gptq_config = GPTQConfig(bits=4, use_exllama=False)
+model = AutoModelForCausalLM.from_pretrained("{your_username}/opt-125m-gptq", device_map="cpu", quantization_config=gptq_config)
+bitsandbytes
+bitsandbytes is the easiest option for quantizing a model to 8 and 4-bit.

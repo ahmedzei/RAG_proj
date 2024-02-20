@@ -1,0 +1,10 @@
+rmers; deepspeed examples/pytorch/translation/run_translation.py 
+You could also use %%bash magic and write multi-line code to run the shell program, but you won't be able to view the logs until training is complete. With %%bash magic, you don't need to emulate a distributed environment.
+
+%%bash
+git clone https://github.com/huggingface/transformers
+cd transformers
+deepspeed examples/pytorch/translation/run_translation.py 
+
+Save model weights
+DeepSpeed stores the main full precision fp32 weights in custom ch

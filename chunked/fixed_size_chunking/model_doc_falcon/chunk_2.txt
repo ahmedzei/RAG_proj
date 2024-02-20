@@ -1,0 +1,9 @@
+ this should give significant improvements to stability and
+performance, especially for generation, as well as removing the need to use trust_remote_code=True!
+
+You can convert custom code checkpoints to full Transformers checkpoints using the convert_custom_code_checkpoint.py 
+script located in the
+Falcon model directory
+of the Transformers library. To use this script, simply call it with 
+python convert_custom_code_checkpoint.py --checkpoint_dir my_model. This will convert your checkpoint in-place, and
+yo

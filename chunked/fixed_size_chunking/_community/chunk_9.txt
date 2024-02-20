@@ -1,0 +1,3 @@
+text with DistilBERT and Tensorflow | How to fine-tune DistilBERT for text classification in TensorFlow | Peter Bayerle | |
+|Leverage BERT for Encoder-Decoder Summarization on CNN/Dailymail | How to warm-start a EncoderDecoderModel with a google-bert/bert-base-uncased checkpoint for summarization on CNN/Dailymail | Patrick von Platen | |
+|Leverage RoBERTa for Encoder-Decoder Summarization on BBC XSum | How to warm-start a shared EncoderDecoderModel with a FacebookAI/roberta-base checkpoint for summarization

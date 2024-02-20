@@ -1,0 +1,24 @@
+tiple choice task guide
+
+RoCBertConfig
+[[autodoc]] RoCBertConfig
+    - all
+RoCBertTokenizer
+[[autodoc]] RoCBertTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+RoCBertModel
+[[autodoc]] RoCBertModel
+    - forward
+RoCBertForPreTraining
+[[autodoc]] RoCBertForPreTraining
+    - forward
+RoCBertForCausalLM
+[[autodoc]] RoCBertForCausalLM
+    - forward
+RoCBertForMaskedLM
+[[autodoc]] RoCBertForMaskedLM
+    - forward
+RoCBert

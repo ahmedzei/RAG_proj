@@ -1,0 +1,21 @@
+The original code can be found here.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with GLPN.
+
+Demo notebooks for [GLPNForDepthEstimation] can be found here.
+Monocular depth estimation task guide
+
+GLPNConfig
+[[autodoc]] GLPNConfig
+GLPNFeatureExtractor
+[[autodoc]] GLPNFeatureExtractor
+    - call
+GLPNImageProcessor
+[[autodoc]] GLPNImageProcessor
+    - preprocess
+GLPNModel
+[[autodoc]] GLPNModel
+    - forward
+GLPNForDepthEstimation
+[[autodoc]] GLPNForDepthEstimation
+    - forward.

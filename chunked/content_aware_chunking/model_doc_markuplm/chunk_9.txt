@@ -1,0 +1,3 @@
+Note that you can still use your own parsing solution of
+choice, and provide the nodes and xpaths yourself to [MarkupLMTokenizer] or [MarkupLMTokenizerFast].
+In total, there are 5 use cases that are supported by the processor. Below, we list them all.

@@ -1,0 +1,7 @@
+You can review the list of supported tasks in the 🤗 Optimum documentation.
+If task argument is not provided, it will default to the model architecture without any task specific head.
+
+optimum-cli export onnx --model local_path --task question-answering distilbert_base_uncased_squad_onnx/
+The resulting model.onnx file can then be run on one of the many
+accelerators that support the ONNX
+standard.

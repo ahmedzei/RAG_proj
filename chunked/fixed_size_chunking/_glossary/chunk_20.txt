@@ -1,0 +1,20 @@
+e
+token indices are under the key input_ids:
+thon
+
+encoded_sequence = inputs["input_ids"]
+print(encoded_sequence)
+[101, 138, 18696, 155, 1942, 3190, 1144, 1572, 13745, 1104, 159, 9664, 2107, 102]
+
+Note that the tokenizer automatically adds "special tokens" (if the associated model relies on them) which are special
+IDs the model sometimes uses.
+If we decode the previous sequence of ids,
+thon
+
+decoded_sequence = tokenizer.decode(encoded_sequence)
+
+we will see
+thon
+
+print(decoded_sequence)
+[CLS] A Titan RTX ha

@@ -1,0 +1,6 @@
+
+Efficient Training on CPU
+This guide focuses on training large models efficiently on CPU.
+Mixed precision with IPEX
+Mixed precision uses single (fp32) and half-precision (bf16/fp16) data types in a model to accelerate training or inference while still preserving much of the single-precision accuracy. Modern CPUs such as 3rd and 4th Gen Intel® Xeon® Scalable processors natively support bf16, so you should get more performance out of the box by enabling mixed precision training with bf16.
+To further maximize

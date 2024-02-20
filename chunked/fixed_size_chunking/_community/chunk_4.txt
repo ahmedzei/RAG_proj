@@ -1,0 +1,5 @@
+ integration with Hugging Face | Boris Dayma |  |
+| Pretrain Longformer  | How to build a "long" version of existing pretrained models |  Iz Beltagy |  |
+| Fine-tune Longformer for QA | How to fine-tune longformer model for QA task | Suraj Patil |  |
+| Evaluate Model with 🤗nlp | How to evaluate longformer on TriviaQA with nlp | Patrick von Platen |  |
+| Fine-tune T5 for Sentiment Span Extraction  | How to fine-tune T5 for sentiment span extraction using a text-to-text format with PyTorch Lightning |  Lorenz

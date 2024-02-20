@@ -1,0 +1,4 @@
+d by data that is on a local disc and which the remote TPU Node will not be able to read.
+
+The second way to access a TPU is via a TPU VM. When using a TPU VM, you connect directly to the machine that the TPU is attached to, much like training on a GPU VM. TPU VMs are generally easier to work with, particularly when it comes to your data pipeline. All of the above warnings do not apply to TPU VMs!
+This is an opinionated document, so here’s our opinion: Avoid using TPU Node if possible. It is more confusing 

@@ -1,0 +1,12 @@
+Us by assigning specific layers to specific GPUs with .to(). 
+As data flows through these layers, it is moved to the same GPU as the layer, while the other layers remain untouched.
+We refer to this Model parallelism as "Vertical" because of how models are typically visualized. For example, the 
+following diagram shows an 8-layer model split vertically into two slices, placing layers 0-3 onto 
+GPU0 and 4-7 to GPU1:
+
+| Layer |      |
+|   0   |      |
+|   1   | GPU0 |
+|   2   |      |
+|   3   |      |
+========

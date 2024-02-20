@@ -1,0 +1,2 @@
+This involves two steps: 
+* First, group the model's parameters into two groups - one where weight decay should be applied, and the other one where it should not. Usually, biases and layer norm parameters are not weight decayed.

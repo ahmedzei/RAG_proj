@@ -1,0 +1,9 @@
+n\\n' }}
+    {% elif message['role'] == 'assistant' %}
+        {{ '[ASST] '  + message['content'] + ' [/ASST]' + eos_token }}
+    {% endif %}
+{% endfor %}
+Now, simply set the tokenizer.chat_template attribute. Next time you use [~PreTrainedTokenizer.apply_chat_template], it will
+use your new template! This attribute will be saved in the tokenizer_config.json file, so you can use
+[~utils.PushToHubMixin.push_to_hub] to upload your new template to the Hub and make sure everyone's using the right
+template for y

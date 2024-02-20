@@ -1,0 +1,8 @@
+
+ViTMAE
+Overview
+The ViTMAE model was proposed in Masked Autoencoders Are Scalable Vision Learners by Kaiming He, Xinlei Chen, Saining Xie, Yanghao Li,
+Piotr Dollár, Ross Girshick. The paper shows that, by pre-training a Vision Transformer (ViT) to reconstruct pixel values for masked patches, one can get results after
+fine-tuning that outperform supervised pre-training.
+The abstract from the paper is the following:
+This paper shows that masked autoencoders (MAE) are scalable self-supervised learners for com

@@ -1,0 +1,10 @@
+gging Face to upload your model). At the end of each epoch, the [Trainer] will evaluate the SacreBLEU metric and save the training checkpoint.
+Pass the training arguments to [Seq2SeqTrainer] along with the model, dataset, tokenizer, data collator, and compute_metrics function.
+Call [~Trainer.train] to finetune your model.
+
+training_args = Seq2SeqTrainingArguments(
+     output_dir="my_awesome_opus_books_model",
+     evaluation_strategy="epoch",
+     learning_rate=2e-5,
+     per_device_train_batch_size=16,
+  

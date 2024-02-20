@@ -1,0 +1,18 @@
+": 1e9,
+    "stage3_gather_16bit_weights_on_model_save": true
+},
+
+"gradient_accumulation_steps": "auto",
+"gradient_clipping": "auto",
+"steps_per_print": 2000,
+"train_batch_size": "auto",
+"train_micro_batch_size_per_gpu": "auto",
+"wall_clock_breakdown": false
+
+}
+EOT
+
+If the training script is in a file and not in a notebook cell, you can launch deepspeed normally from the shell in a notebook cell. For example, to launch run_translation.py:
+py
+!git clone https://github.com/huggingface/transformers
+!cd transfo

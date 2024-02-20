@@ -1,0 +1,34 @@
+Since the image processor resized images before
+feeding them to the model, you need to use the [~OwlViTImageProcessor.post_process_object_detection] method to make sure the predicted bounding
+boxes have the correct coordinates relative to the original image:
+
+import torch
+with torch.no_grad():
+     outputs = model(**inputs)
+     target_sizes = torch.tensor([im.size[::-1]])
+     results = processor.post_process_object_detection(outputs, threshold=0.1, target_sizes=target_sizes)[0]
+draw = ImageDraw.Draw(im)
+scores = results["scores"].tolist()
+labels = results["labels"].tolist()
+boxes = results["boxes"].tolist()
+for box, score, label in zip(boxes, scores, labels):
+     xmin, ymin, xmax, ymax = box
+     draw.rectangle((xmin, ymin, xmax, ymax), outline="red", width=1)
+     draw.text((xmin, ymin), f"{text_queries[label]}: {round(score,2)}", fill="white")
+im
+
+Batch processing
+You can pass multiple sets of images and text queries to search for different (or same) objects in several images.
+Let's use both an astronaut image and the beach image together.
+For batch processing, you should pass text queries as a nested list to the processor and images as lists of PIL images,
+PyTorch tensors, or NumPy arrays.
+
+images = [image, im]
+text_queries = [
+     ["human face", "rocket", "nasa badge", "star-spangled banner"],
+     ["hat", "book", "sunglasses", "camera"],
+ ]
+inputs = processor(text=text_queries, images=images, return_tensors="pt")
+
+Previously for post-processing you passed the single image's size as a tensor, but you can also pass a tuple, or, in case
+of several images, a list of tuples.

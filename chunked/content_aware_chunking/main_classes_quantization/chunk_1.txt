@@ -1,0 +1,15 @@
+Transformers supports the AWQ and GPTQ quantization algorithms and it supports 8-bit and 4-bit quantization with bitsandbytes.
+Quantization techniques that aren't supported in Transformers can be added with the [HfQuantizer] class.
+
+Learn how to quantize models in the Quantization guide.
+
+AqlmConfig
+[[autodoc]] AqlmConfig
+AwqConfig
+[[autodoc]] AwqConfig
+GPTQConfig
+[[autodoc]] GPTQConfig
+BitsAndBytesConfig
+[[autodoc]] BitsAndBytesConfig
+HfQuantizer
+[[autodoc]] quantizers.base.HfQuantizer.

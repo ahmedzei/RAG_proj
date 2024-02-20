@@ -1,0 +1,3 @@
+This is better for dense prediction tasks like segmentation or depth estimation. The image patches are transformed into patch embeddings (see the image classification section for more details about how patch embeddings are created), which are fed to the encoder.
+
+The encoder accepts the patch embeddings, and passes them through several encoder blocks. Each block consists of attention and Mix-FFN layers. The purpose of the latter is to provide positional information.

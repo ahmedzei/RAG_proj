@@ -1,0 +1,12 @@
+], return_tensors="pt")
+now, process some English text as well
+text_inputs = processor(text = "Hello, my dog is cute", src_lang="eng", return_tensors="pt")
+
+Speech
+[SeamlessM4Tv2Model] can seamlessly generate text or speech with few or no changes. Let's target Russian voice translation:
+thon
+
+audio_array_from_text = model.generate(text_inputs, tgt_lang="rus")[0].cpu().numpy().squeeze()
+audio_array_from_audio = model.generate(audio_inputs, tgt_lang="rus")[0].cpu().numpy().squeeze()
+
+With basically the same c

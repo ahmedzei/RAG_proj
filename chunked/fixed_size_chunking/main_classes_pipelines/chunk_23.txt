@@ -1,0 +1,23 @@
+nPipeline
+    - call
+    - all
+Multimodal
+Pipelines available for multimodal tasks include the following.
+DocumentQuestionAnsweringPipeline
+[[autodoc]] DocumentQuestionAnsweringPipeline
+    - call
+    - all
+FeatureExtractionPipeline
+[[autodoc]] FeatureExtractionPipeline
+    - call
+    - all
+ImageFeatureExtractionPipeline
+[[autodoc]] ImageFeatureExtractionPipeline
+    - call
+    - all
+ImageToTextPipeline
+[[autodoc]] ImageToTextPipeline
+    - call
+    - all
+MaskGenerationPipeline
+[[autodoc]] MaskGenerationPip

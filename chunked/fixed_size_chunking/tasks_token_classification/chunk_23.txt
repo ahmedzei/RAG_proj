@@ -1,0 +1,13 @@
+ne can use it!
+
+For a more in-depth example of how to finetune a model for token classification, take a look at the corresponding
+PyTorch notebook
+or TensorFlow notebook.
+
+Inference
+Great, now that you've finetuned a model, you can use it for inference!
+Grab some text you'd like to run inference on:
+
+text = "The Golden State Warriors are an American professional basketball team based in San Francisco."
+
+The simplest way to try out your finetuned model for inference is to use it in a [pipeline]. Instantiate 

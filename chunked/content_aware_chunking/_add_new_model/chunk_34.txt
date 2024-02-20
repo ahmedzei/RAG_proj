@@ -1,0 +1,6 @@
+If you are familiar with Jupyter notebooks, we strongly recommend you work with them.
+The obvious disadvantage of Jupyter notebooks is that if you are not used to working with them you will have to spend
+some time adjusting to the new programming environment and you might not be able to use your known debugging tools
+anymore, like ipdb.
+For each code-base, a good first step is always to load a small pretrained checkpoint and to be able to reproduce a
+single forward pass using a dummy integer vector of input IDs as an input.

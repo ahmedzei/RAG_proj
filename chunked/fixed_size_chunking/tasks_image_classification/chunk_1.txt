@@ -1,0 +1,21 @@
+rks before spending more time training on the full dataset.
+
+from datasets import load_dataset
+food = load_dataset("food101", split="train[:5000]")
+
+Split the dataset's train split into a train and test set with the [~datasets.Dataset.train_test_split] method:
+
+food = food.train_test_split(test_size=0.2)
+
+Then take a look at an example:
+
+food["train"][0]
+{'image': ,
+ 'label': 79}
+
+Each example in the dataset has two fields:
+
+image: a PIL image of the food item
+label: the label class of the food item
+
+To mak

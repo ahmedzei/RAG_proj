@@ -1,0 +1,7 @@
+bFact accuracy to 84.2% (+3.2%). To our knowledge, this is the first work to exploit table pre-training via synthetic executable programs
+and to achieve new state-of-the-art results on various downstream tasks.
+Usage tips
+
+TAPEX is a generative (seq2seq) model. One can directly plug in the weights of TAPEX into a BART model. 
+TAPEX has checkpoints on the hub that are either pre-trained only, or fine-tuned on WTQ, SQA, WikiSQL and TabFact.
+Sentences + tables are presented to the model as sentence + " " + lin

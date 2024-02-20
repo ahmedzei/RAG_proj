@@ -1,0 +1,11 @@
+The relative distance that input tokens have to each other is added as a negative integer scaled by a pre-defined value m to each query-key entry of the \( \mathbf{QK}^T \) matrix right before the softmax computation.
+
+As shown in the ALiBi paper, this simple relative positional encoding allows the model to retain a high performance even at very long text input sequences.
+ALiBi is used in multiple of today's most important LLMs, such as:
+
+MPT
+BLOOM
+
+Both RoPE and ALiBi position encodings can extrapolate to input lengths not seen during training whereas it has been shown that extrapolation works much better out-of-the-box for ALiBi as compared to RoPE.
+For ALiBi, one simply increases the values of the lower triangular position matrix to match the length of the input sequence.
+For RoPE, keeping the same \( \theta \) that was used during training leads to poor results when passing text inputs much longer than those seen during training, c.f Press et al..

@@ -1,0 +1,12 @@
+ed(tmp_dir, max_shard_size="200MB")
+     with open(os.path.join(tmp_dir, "pytorch_model.bin.index.json"), "r") as f:
+         index = json.load(f)
+print(index.keys())
+dict_keys(['metadata', 'weight_map'])
+
+The metadata just consists of the total size of the model for now. We plan to add other information in the future:
+
+index["metadata"]
+{'total_size': 433245184}
+
+The weights map is the main part of this index, which maps each parameter name (as usually found in a PyTorch model state_dict) to the file it's 

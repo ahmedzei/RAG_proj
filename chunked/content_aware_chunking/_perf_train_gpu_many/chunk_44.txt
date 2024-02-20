@@ -1,0 +1,11 @@
+And GPU1 does the same by enlisting GPU3 to its aid.
+Since each dimension requires at least 2 GPUs, here you'd need at least 4 GPUs.
+Implementations:
+- DeepSpeed
+- Megatron-LM
+- Varuna
+- SageMaker
+- OSLO
+🤗 Transformers status: not yet implemented
+Data Parallelism + Pipeline Parallelism + Tensor Parallelism
+To get an even more efficient training a 3D parallelism is used where PP is combined with TP and DP.

@@ -1,0 +1,3 @@
+Follow
+this notebook for a detailed tutorial on fine-tuning.
+MSN is particularly useful in the low-shot and extreme low-shot regimes.

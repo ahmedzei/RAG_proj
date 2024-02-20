@@ -1,0 +1,13 @@
+Here is a function that does that.\n\ndef
+We're getting the exact same result as before, but can observe a very significant speed-up thanks to Flash Attention.
+Let's measure the memory consumption one last time.
+python
+bytes_to_giga_bytes(torch.cuda.max_memory_allocated())
+Output:
+32.617331981658936
+And we're almost back to our original 29GB peak GPU memory from the beginning.
+We can observe that we only use roughly 100MB more GPU memory when passing a very long input sequence with Flash Attention compared to passing a short input sequence as done in the beginning.
+py
+flush()
+For more information on how to use Flash Attention, please have a look at this doc page.
+3.

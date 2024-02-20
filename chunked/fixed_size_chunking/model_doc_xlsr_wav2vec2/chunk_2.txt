@@ -1,0 +1,8 @@
+ltilingual speech recognition model which is competitive to strong
+individual models. Analysis shows that the latent discrete speech representations are shared across languages with
+increased sharing for related languages. We hope to catalyze research in low-resource speech understanding by releasing
+XLSR-53, a large model pretrained in 53 languages.
+The original code can be found here.
+Usage tips
+
+XLSR-Wav2Vec2 is a speech model that accepts a float array corresponding to the raw waveform of the speech sig

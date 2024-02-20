@@ -1,0 +1,4 @@
+Defining this will help the python interpreter make educated choices about types,
+  and will allow for a gradio-demo to be spawned when we push our tool to the Hub. They're both a list of expected
+  values, which can be text, image, or audio.
+- A __call__ method which contains the inference code.

@@ -1,0 +1,4 @@
+It's a transformer-based seq2seq model, so the transcripts/translations are generated autoregressively. The
+generate() method can be used for inference.
+The [Speech2TextFeatureExtractor] class is responsible for extracting the log-mel filter-bank
+features.

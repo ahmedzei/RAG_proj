@@ -1,0 +1,27 @@
+
+Swin2SR
+Overview
+The Swin2SR model was proposed in Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration by Marcos V. Conde, Ui-Jin Choi, Maxime Burchi, Radu Timofte.
+Swin2R improves the SwinIR model by incorporating Swin Transformer v2 layers which mitigates issues such as training instability, resolution gaps between pre-training
+and fine-tuning, and hunger on data.
+The abstract from the paper is the following:
+Compression plays an important role on the efficient transmission and storage of images and videos through band-limited systems such as streaming services, virtual reality or videogames. However, compression unavoidably leads to artifacts and the loss of the original information, which may severely degrade the visual quality. For these reasons, quality enhancement of compressed images has become a popular research topic. While most state-of-the-art image restoration methods are based on convolutional neural networks, other transformers-based methods such as SwinIR, show impressive performance on these tasks.
+In this paper, we explore the novel Swin Transformer V2, to improve SwinIR for image super-resolution, and in particular, the compressed input scenario. Using this method we can tackle the major issues in training transformer vision models, such as training instability, resolution gaps between pre-training and fine-tuning, and hunger on data. We conduct experiments on three representative tasks: JPEG compression artifacts removal, image super-resolution (classical and lightweight), and compressed image super-resolution. Experimental results demonstrate that our method, Swin2SR, can improve the training convergence and performance of SwinIR, and is a top-5 solution at the "AIM 2022 Challenge on Super-Resolution of Compressed Image and Video".
+
+ Swin2SR architecture. Taken from the original paper. 
+This model was contributed by nielsr.
+The original code can be found here.
+Resources
+Demo notebooks for Swin2SR can be found here.
+A demo Space for image super-resolution with SwinSR can be found here.
+Swin2SRImageProcessor
+[[autodoc]] Swin2SRImageProcessor
+    - preprocess
+Swin2SRConfig
+[[autodoc]] Swin2SRConfig
+Swin2SRModel
+[[autodoc]] Swin2SRModel
+    - forward
+Swin2SRForImageSuperResolution
+[[autodoc]] Swin2SRForImageSuperResolution
+    - forward

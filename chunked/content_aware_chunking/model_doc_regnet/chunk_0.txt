@@ -1,0 +1,4 @@
+RegNet
+Overview
+The RegNet model was proposed in Designing Network Design Spaces by Ilija Radosavovic, Raj Prateek Kosaraju, Ross Girshick, Kaiming He, Piotr Dollár.
+The authors design search spaces to perform Neural Architecture Search (NAS).

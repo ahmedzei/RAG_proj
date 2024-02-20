@@ -1,0 +1,18 @@
+If you do so, to
+proceed with this guide check out how to load files into a 🤗 dataset.
+
+from datasets import load_dataset
+dataset = load_dataset("nielsr/docvqa_1200_examples")
+dataset
+DatasetDict({
+    train: Dataset({
+        features: ['id', 'image', 'query', 'answers', 'words', 'bounding_boxes', 'answer'],
+        num_rows: 1000
+    })
+    test: Dataset({
+        features: ['id', 'image', 'query', 'answers', 'words', 'bounding_boxes', 'answer'],
+        num_rows: 200
+    })
+})
+
+As you can see, the dataset is split into train and test sets already.

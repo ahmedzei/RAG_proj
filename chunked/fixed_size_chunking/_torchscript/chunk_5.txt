@@ -1,0 +1,8 @@
+put size at least as large as the
+largest input that will be fed to the model during inference. Padding can help fill the
+missing values. However, since the model is traced with a larger input size, the
+dimensions of the matrix will also be large, resulting in more calculations.
+Be careful of the total number of operations done on each input and follow the
+performance closely when exporting varying sequence-length models.
+Using TorchScript in Python
+This section demonstrates how to save and load models as w

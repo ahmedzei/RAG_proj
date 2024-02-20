@@ -1,0 +1,15 @@
+mage classification demo.
+Model card of kakaobrain/align-base model.
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we will review it. The resource should ideally demonstrate something new instead of duplicating an existing resource.
+AlignConfig
+[[autodoc]] AlignConfig
+    - from_text_vision_configs
+AlignTextConfig
+[[autodoc]] AlignTextConfig
+AlignVisionConfig
+[[autodoc]] AlignVisionConfig
+AlignProcessor
+[[autodoc]] AlignProcessor
+AlignModel
+[

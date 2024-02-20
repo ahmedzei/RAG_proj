@@ -1,0 +1,55 @@
+For
+SegFormer's results on the segmentation datasets like ADE20k, refer to the paper.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with SegFormer.
+
+[SegformerForImageClassification] is supported by this example script and notebook.
+Image classification task guide
+
+Semantic segmentation:
+
+[SegformerForSemanticSegmentation] is supported by this example script.
+A blog on fine-tuning SegFormer on a custom dataset can be found here.
+More demo notebooks on SegFormer (both inference + fine-tuning on a custom dataset) can be found here.
+[TFSegformerForSemanticSegmentation] is supported by this example notebook.
+Semantic segmentation task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+SegformerConfig
+[[autodoc]] SegformerConfig
+SegformerFeatureExtractor
+[[autodoc]] SegformerFeatureExtractor
+    - call
+    - post_process_semantic_segmentation
+SegformerImageProcessor
+[[autodoc]] SegformerImageProcessor
+    - preprocess
+    - post_process_semantic_segmentation
+
+SegformerModel
+[[autodoc]] SegformerModel
+    - forward
+SegformerDecodeHead
+[[autodoc]] SegformerDecodeHead
+    - forward
+SegformerForImageClassification
+[[autodoc]] SegformerForImageClassification
+    - forward
+SegformerForSemanticSegmentation
+[[autodoc]] SegformerForSemanticSegmentation
+    - forward
+
+TFSegformerDecodeHead
+[[autodoc]] TFSegformerDecodeHead
+    - call
+TFSegformerModel
+[[autodoc]] TFSegformerModel
+    - call
+TFSegformerForImageClassification
+[[autodoc]] TFSegformerForImageClassification
+    - call
+TFSegformerForSemanticSegmentation
+[[autodoc]] TFSegformerForSemanticSegmentation
+    - call
+
+.

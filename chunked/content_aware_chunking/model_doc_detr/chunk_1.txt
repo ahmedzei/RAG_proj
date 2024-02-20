@@ -1,0 +1,5 @@
+It greatly simplifies a lot of the complexity of models like Faster-R-CNN and Mask-R-CNN, which use
+things like region proposals, non-maximum suppression procedure and anchor generation. Moreover, DETR can also be
+naturally extended to perform panoptic segmentation, by simply adding a mask head on top of the decoder outputs.
+The abstract from the paper is the following:
+We present a new method that views object detection as a direct set prediction problem.

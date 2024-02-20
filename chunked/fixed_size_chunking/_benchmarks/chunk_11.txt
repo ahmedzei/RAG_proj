@@ -1,0 +1,15 @@
+rue
+only_pretrain_model: False
+cpu_ram_mb: 32088
+use_gpu: True
+num_gpus: 1
+gpu: TITAN RTX
+gpu_ram_mb: 24217
+gpu_power_watts: 280.0
+gpu_performance_state: 2
+use_tpu: False
+
+By default, the time and the required memory for inference are benchmarked. In the example output above the first
+two sections show the result corresponding to inference time and inference memory. In addition, all relevant
+information about the computing environment, e.g. the GPU type, the system, the library versions, etc are printed
+out

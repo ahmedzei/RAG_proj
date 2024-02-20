@@ -1,0 +1,18 @@
+cuda" if torch.cuda.is_available() else "cpu")
+     inputs = {k: v.to(device) for k, v in inputs.items()}
+     model = model.to(device)
+     # forward pass
+     with torch.no_grad():
+         outputs = model(**inputs)
+         logits = outputs.logits
+     return logits
+
+Now, pass your input to the model and return the logits:
+
+logits = run_inference(trained_model, sample_test_video["video"])
+
+Decoding the logits, we get: 
+ 
+
+predicted_class_idx = logits.argmax(-1).item()
+print("Predicted class:", model.conf

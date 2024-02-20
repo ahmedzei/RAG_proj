@@ -1,0 +1,4 @@
+ou've finetuned your pretrained model, please consider sharing the model with the community on the Hub to democratize machine learning for everyone! 🤗
+AutoClass
+
+Under the hood, the [AutoModelForSequenceClassification] and [AutoTokenizer] classes work together to power the [pipeline] you used above. An AutoClass is a shortcut that automatically retrieves the architecture of a pretrained model from its name or path. You only need to select the appropriate AutoClass for your task and it's associated preproces

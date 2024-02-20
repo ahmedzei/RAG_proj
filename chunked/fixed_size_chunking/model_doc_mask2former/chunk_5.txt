@@ -1,0 +1,13 @@
+ould ideally demonstrate something new instead of duplicating an existing resource.
+Mask2FormerConfig
+[[autodoc]] Mask2FormerConfig
+MaskFormer specific outputs
+[[autodoc]] models.mask2former.modeling_mask2former.Mask2FormerModelOutput
+[[autodoc]] models.mask2former.modeling_mask2former.Mask2FormerForUniversalSegmentationOutput
+Mask2FormerModel
+[[autodoc]] Mask2FormerModel
+    - forward
+Mask2FormerForUniversalSegmentation
+[[autodoc]] Mask2FormerForUniversalSegmentation
+    - forward
+Mask2FormerImageProcessor

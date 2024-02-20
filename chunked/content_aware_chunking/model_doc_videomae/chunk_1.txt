@@ -1,0 +1,6 @@
+VideoMAE
+Overview
+The VideoMAE model was proposed in VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training by Zhan Tong, Yibing Song, Jue Wang, Limin Wang.
+VideoMAE extends masked auto encoders (MAE) to video, claiming state-of-the-art performance on several video classification benchmarks.
+The abstract from the paper is the following:
+Pre-training video transformers on extra large-scale datasets is generally required to achieve premier performance on relatively small datasets.

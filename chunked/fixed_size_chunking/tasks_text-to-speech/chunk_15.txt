@@ -1,0 +1,19 @@
+aset have fewer than 100 examples, while 
+around ten speakers have more than 500 examples. To improve training efficiency and balance the dataset, we can limit 
+the data to speakers with between 100 and 400 examples. 
+
+def select_speaker(speaker_id):
+     return 100 <= speaker_counts[speaker_id] <= 400
+dataset = dataset.filter(select_speaker, input_columns=["speaker_id"])
+
+Let's check how many speakers remain: 
+
+len(set(dataset["speaker_id"]))
+42
+
+Let's see how many examples are left: 
+
+len(dataset)
+9973
+
+Y

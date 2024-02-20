@@ -1,0 +1,9 @@
+attention layers. During fine-tuning, each layer's relative position
+  bias is initialized with the shared relative position bias obtained after pre-training. Note that, if one wants to
+  pre-train a model from scratch, one needs to either set the use_relative_position_bias or the
+  use_relative_position_bias attribute of [BeitConfig] to True in order to add
+  position embeddings.
+
+ BEiT pre-training. Taken from the original paper. 
+Resources
+A list of official Hugging Face and community (indicated by 🌎) re

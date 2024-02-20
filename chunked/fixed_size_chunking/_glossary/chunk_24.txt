@@ -1,0 +1,6 @@
+oder attention masks internally. They usually do not need to be supplied. This does not
+  apply to models leveraging the Encoder-Decoder framework.
+For image classification models, ([ViTForImageClassification]), the model expects a tensor of dimension
+  (batch_size) with each value of the batch corresponding to the expected label of each individual image.
+For semantic segmentation models, ([SegformerForSemanticSegmentation]), the model expects a tensor of dimension
+  (batch_size, height, width) with each va

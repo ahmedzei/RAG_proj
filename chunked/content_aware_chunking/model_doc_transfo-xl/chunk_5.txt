@@ -1,0 +1,6 @@
+When trained only on WikiText-103, Transformer-XL manages to generate reasonably
+coherent, novel text articles with thousands of tokens.
+This model was contributed by thomwolf. The original code can be found here.
+Usage tips
+
+Transformer-XL uses relative sinusoidal positional embeddings. Padding can be done on the left or on the right.

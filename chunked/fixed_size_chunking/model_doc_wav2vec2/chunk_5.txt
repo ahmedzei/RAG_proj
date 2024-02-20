@@ -1,0 +1,24 @@
+ch Recognition with Hugging Face's Transformers & Amazon SageMaker.
+
+Wav2Vec2Config
+[[autodoc]] Wav2Vec2Config
+Wav2Vec2CTCTokenizer
+[[autodoc]] Wav2Vec2CTCTokenizer
+    - call
+    - save_vocabulary
+    - decode
+    - batch_decode
+    - set_target_lang
+Wav2Vec2FeatureExtractor
+[[autodoc]] Wav2Vec2FeatureExtractor
+    - call
+Wav2Vec2Processor
+[[autodoc]] Wav2Vec2Processor
+    - call
+    - pad
+    - from_pretrained
+    - save_pretrained
+    - batch_decode
+    - decode
+Wav2Vec2ProcessorWithLM
+[[autodoc]] Wav2Ve

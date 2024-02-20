@@ -1,0 +1,17 @@
+For sentence pair use KeyPairDataset
+for out in tqdm(pipe(KeyDataset(dataset, "file"))):
+    print(out)
+    # {"text": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND"}
+    # {"text": .}
+    # .
+
+For ease of use, a generator is also possible:
+thon
+from transformers import pipeline
+pipe = pipeline("text-classification")
+def data():
+    while True:
+        # This could come from a dataset, a database, a queue or HTTP request
+        # in a server
+        # Caveat: because this is iterative, you cannot use num_workers > 1 variable
+        # to use multiple threads to preprocess data.

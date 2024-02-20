@@ -1,0 +1,9 @@
+e outputs are not identical are:
+
+Some layers were not added, i.e. an activation layer was not added, or the residual connection was forgotten
+The word embedding matrix was not tied
+The wrong positional embeddings are used because the original implementation uses on offset
+Dropout is applied during the forward pass. To fix this make sure model.training is False and that no dropout
+  layer is falsely activated during the forward pass, i.e. pass self.training to PyTorch's functional dropout
+
+The best way to f

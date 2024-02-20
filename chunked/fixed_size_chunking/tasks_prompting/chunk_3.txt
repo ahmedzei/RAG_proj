@@ -1,0 +1,8 @@
+sential component is choosing the 
+optimal text generation strategy. You can customize how your LLM selects each of the subsequent tokens when generating 
+the text without modifying any of the trainable parameters. By tweaking the text generation parameters, you can reduce 
+repetition in the generated text and make it more coherent and human-sounding. 
+Text generation strategies and parameters are out of scope for this guide, but you can learn more about these topics in 
+the following guides: 
+
+Generation w

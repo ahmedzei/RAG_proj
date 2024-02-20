@@ -1,0 +1,9 @@
+ry effective, this naive pipeline parallelism does not tackle the issues of GPU idling. For this more advanced pipeline parallelism is required as explained here.
+If you have access to an 8 x 80GB A100 node, you could load BLOOM as follows
+
+!pip install transformers accelerate bitsandbytes optimum
+thon
+from transformers import AutoModelForCausalLM
+model = AutoModelForCausalLM.from_pretrained("bigscience/bloom", device_map="auto", pad_token_id=0)
+
+By using device_map="auto" the attention layers would be equa

@@ -1,0 +1,6 @@
+Pyramid Vision Transformer (PVT)
+Overview
+The PVT model was proposed in
+Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions
+by Wenhai Wang, Enze Xie, Xiang Li, Deng-Ping Fan, Kaitao Song, Ding Liang, Tong Lu, Ping Luo, Ling Shao. The PVT is a type of
+vision transformer that utilizes a pyramid structure to make it an effective backbone for dense prediction tasks.

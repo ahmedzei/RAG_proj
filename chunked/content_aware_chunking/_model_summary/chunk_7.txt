@@ -1,0 +1,2 @@
+The SegFormer also uses a Transformer encoder to build hierarchical feature maps, but it adds a simple multilayer perceptron (MLP) decoder on top to combine all the feature maps and make a prediction.
+Other vision models, like BeIT and ViTMAE, drew inspiration from BERT's pretraining objective. BeIT is pretrained by masked image modeling (MIM); the image patches are randomly masked, and the image is also tokenized into visual tokens.

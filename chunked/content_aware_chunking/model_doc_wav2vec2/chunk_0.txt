@@ -1,0 +1,6 @@
+Wav2Vec2
+Overview
+The Wav2Vec2 model was proposed in wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations by Alexei Baevski, Henry Zhou, Abdelrahman Mohamed, Michael Auli.
+The abstract from the paper is the following:
+We show for the first time that learning powerful representations from speech audio alone followed by fine-tuning on
+transcribed speech can outperform the best semi-supervised methods while being conceptually simpler.

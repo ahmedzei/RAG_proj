@@ -1,0 +1,3 @@
+A good
+example is T5's MeshTensorFlow library which is
+very complex and does not offer a simple way to decompose the model into its sub-components.

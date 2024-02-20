@@ -1,0 +1,15 @@
+For example, if your Python packages are typically installed in ~/anaconda3/envs/main/lib/python3.7/site-packages/, Python will also search the folder you cloned to: ~/transformers/.
+
+You must keep the transformers folder if you want to keep using the library.
+
+Now you can easily update your clone to the latest version of 🤗 Transformers with the following command:
+
+cd ~/transformers/
+git pull
+Your Python environment will find the main version of 🤗 Transformers on the next run.
+Install with conda
+Install from the conda channel conda-forge:
+
+conda install conda-forge::transformers
+Cache setup
+Pretrained models are downloaded and locally cached at: ~/.cache/huggingface/hub.

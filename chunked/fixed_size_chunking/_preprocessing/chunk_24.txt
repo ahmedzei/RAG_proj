@@ -1,0 +1,16 @@
+     return inputs
+
+Apply the preprocess_function to the first few examples in the dataset:
+
+processed_dataset = preprocess_function(dataset[:5])
+
+The sample lengths are now the same and match the specified maximum length. You can pass your processed dataset to the model now!
+
+processed_dataset["input_values"][0].shape
+(100000,)
+processed_dataset["input_values"][1].shape
+(100000,)
+
+Computer vision
+For computer vision tasks, you'll need an image processor to prepare your dataset for the model.
+Image preproce

@@ -1,0 +1,3 @@
+However, to remain consistent with the model weights, you should use the bnb_4bit_compute_dtype and torch_dtype values.
+Nested quantization
+Nested quantization is a technique that can save additional memory at no additional performance cost. This feature performs a second quantization of the already quantized weights to save an addition 0.4 bits/parameter.

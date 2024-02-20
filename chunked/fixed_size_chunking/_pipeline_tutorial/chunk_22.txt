@@ -1,0 +1,13 @@
+bove you need to have pytesseract installed in addition to 🤗 Transformers:
+
+sudo apt install -y tesseract-ocr
+pip install pytesseract
+
+Using pipeline on large models with 🤗 accelerate:
+You can easily run pipeline on large models using 🤗 accelerate! First make sure you have installed accelerate with pip install accelerate. 
+First load your model using device_map="auto"! We will use facebook/opt-1.3b for our example.
+
+pip install accelerate
+import torch
+from transformers import pipeline
+pipe = pipeline(model=

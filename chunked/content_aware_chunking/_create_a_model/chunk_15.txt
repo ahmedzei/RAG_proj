@@ -1,0 +1,6 @@
+The sequence classification head is a linear layer on top of the pooled outputs.
+
+from transformers import DistilBertForSequenceClassification
+model = DistilBertForSequenceClassification.from_pretrained("distilbert/distilbert-base-uncased")
+
+Easily reuse this checkpoint for another task by switching to a different model head. For a question answering task, you would use the [DistilBertForQuestionAnswering] model head.

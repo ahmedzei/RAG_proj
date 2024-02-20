@@ -1,0 +1,9 @@
+can be passed to the [PreTrainedTokenizerFast] initialization
+method using the tokenizer_file parameter:
+thon
+
+from transformers import PreTrainedTokenizerFast
+fast_tokenizer = PreTrainedTokenizerFast(tokenizer_file="tokenizer.json")
+
+This object can now be used with all the methods shared by the 🤗 Transformers tokenizers! Head to the tokenizer
+page for more information.

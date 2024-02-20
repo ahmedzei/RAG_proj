@@ -1,0 +1,20 @@
+Jeeez! Dallas all over again.",
+}
+
+There are two fields in this dataset:
+
+text: the movie review text.
+label: a value that is either 0 for a negative review or 1 for a positive review.
+
+Preprocess
+The next step is to load a DistilBERT tokenizer to preprocess the text field:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("distilbert/distilbert-base-uncased")
+
+Create a preprocessing function to tokenize text and truncate sequences to be no longer than DistilBERT's maximum input length:
+
+def preprocess_function(examples):
+     return tokenizer(examples["text"], truncation=True)
+
+To apply the preprocessing function over the entire dataset, use 🤗 Datasets [~datasets.Dataset.map] function.

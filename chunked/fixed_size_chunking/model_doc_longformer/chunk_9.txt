@@ -1,0 +1,7 @@
+utput
+[[autodoc]] models.longformer.modeling_longformer.LongformerQuestionAnsweringModelOutput
+[[autodoc]] models.longformer.modeling_longformer.LongformerSequenceClassifierOutput
+[[autodoc]] models.longformer.modeling_longformer.LongformerMultipleChoiceModelOutput
+[[autodoc]] models.longformer.modeling_longformer.LongformerTokenClassifierOutput
+[[autodoc]] models.longformer.modeling_tf_longformer.TFLongformerBaseModelOutput
+[[autodoc]] models.longformer.modeling_tf_longformer.TFLongformerBaseModelOutputWit

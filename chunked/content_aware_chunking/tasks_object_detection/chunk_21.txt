@@ -1,0 +1,3 @@
+The API to build a COCO dataset
+requires the data to be stored in a certain format, so you'll need to save images and annotations to disk first. Just like
+when you prepared your data for training, the annotations from the cppe5["test"] need to be formatted.

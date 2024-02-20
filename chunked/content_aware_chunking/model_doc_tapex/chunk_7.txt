@@ -1,0 +1,5 @@
+One can pass Pandas DataFrames and strings to the tokenizer,
+  and it will automatically create the input_ids and attention_mask (as shown in the usage examples below). 
+
+Usage: inference
+Below, we illustrate how to use TAPEX for table question answering.

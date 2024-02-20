@@ -1,0 +1,18 @@
+a2VecTextForSequenceClassification
+    - forward
+Data2VecTextForMultipleChoice
+[[autodoc]] Data2VecTextForMultipleChoice
+    - forward
+Data2VecTextForTokenClassification
+[[autodoc]] Data2VecTextForTokenClassification
+    - forward
+Data2VecTextForQuestionAnswering
+[[autodoc]] Data2VecTextForQuestionAnswering
+    - forward
+Data2VecVisionModel
+[[autodoc]] Data2VecVisionModel
+    - forward
+Data2VecVisionForImageClassification
+[[autodoc]] Data2VecVisionForImageClassification
+    - forward
+Data2VecVisionForSemant

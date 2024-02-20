@@ -1,0 +1,8 @@
+ide offers an in-depth overview of individual types of parallelism, as well as guidance on ways to combine 
+techniques and choosing an appropriate approach. For step-by-step tutorials on distributed training, please refer to
+the 🤗 Accelerate documentation. 
+
+While the main concepts discussed in this guide are likely applicable across frameworks, here we focus on 
+PyTorch-based implementations.
+
+Before diving deeper into the specifics of each technique, let's go over the rough decision process when training 

@@ -1,0 +1,12 @@
+
+[[autodoc]] YosoForSequenceClassification
+    - forward
+YosoForMultipleChoice
+[[autodoc]] YosoForMultipleChoice
+    - forward
+YosoForTokenClassification
+[[autodoc]] YosoForTokenClassification
+    - forward
+YosoForQuestionAnswering
+[[autodoc]] YosoForQuestionAnswering
+    - forward

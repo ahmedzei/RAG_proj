@@ -1,0 +1,9 @@
+webpage of your fork on GitHub. Click on “Pull request”. Make sure to add the
+   GitHub handle of some members of the Hugging Face team as reviewers, so that the Hugging Face team gets notified for
+   future changes.
+
+Change the PR into a draft by clicking on “Convert to draft” on the right of the GitHub pull request web page.
+
+Now you have set up a development environment to port BrandNewBert to TensorFlow in 🤗 Transformers.
+3. (Optional) Understand theoretical aspects and the existing implementation
+You s

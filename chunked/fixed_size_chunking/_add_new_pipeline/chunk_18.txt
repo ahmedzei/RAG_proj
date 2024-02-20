@@ -1,0 +1,6 @@
+d test the pipeline outputs. The results should be the same as test_small_model_pt.
+test_large_model_pt (optional): Tests the pipeline on a real pipeline where the results are supposed to
+  make sense. These tests are slow and should be marked as such. Here the goal is to showcase the pipeline and to make
+  sure there is no drift in future releases.
+test_large_model_tf (optional): Tests the pipeline on a real pipeline where the results are supposed to
+  make sense. These tests are slow and should be marked 

@@ -1,0 +1,7 @@
+t neural network (RNN)
+A type of model that uses a loop over a layer to process texts.
+representation learning
+A subfield of machine learning which focuses on learning meaningful representations of raw data. Some examples of representation learning techniques include word embeddings, autoencoders, and Generative Adversarial Networks (GANs).
+S
+sampling rate
+A measurement in hertz of the number of samples (the audio signal) taken per second. The sampling rate is a result of discretizing a continuous signal su

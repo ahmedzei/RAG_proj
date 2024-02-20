@@ -1,0 +1,10 @@
+enting
+  objects, without having ever been trained to do so. DINO checkpoints can be found on the hub.
+
+MAE (Masked Autoencoders) by Facebook AI. By pre-training Vision Transformers to reconstruct pixel values for a high portion
+  (75%) of masked patches (using an asymmetric encoder-decoder architecture), the authors show that this simple method outperforms
+  supervised pre-training after fine-tuning.
+
+This model was contributed by nielsr. The original code (written in JAX) can be
+found here.
+Note that we c

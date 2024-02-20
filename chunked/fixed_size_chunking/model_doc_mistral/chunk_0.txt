@@ -1,0 +1,10 @@
+
+Mistral
+Overview
+Mistral-7B-v0.1 is Mistral AI's first Large Language Model (LLM). 
+Model Details
+Mistral-7B-v0.1 is a decoder-based LM with the following architectural choices:
+* Sliding Window Attention - Trained with 8k context length and fixed cache size, with a theoretical attention span of 128K tokens
+* GQA (Grouped Query Attention) - allowing faster inference and lower cache size.
+* Byte-fallback BPE tokenizer - ensures that characters are never mapped to out of vocabulary tokens.
+We also provide an

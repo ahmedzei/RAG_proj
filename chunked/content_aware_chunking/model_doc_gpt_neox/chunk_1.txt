@@ -1,0 +1,4 @@
+In this work,
+we describe GPT-NeoX-20B's architecture and training and evaluate its performance on a range of language-understanding,
+mathematics, and knowledge-based tasks. We find that GPT-NeoX-20B is a particularly powerful few-shot reasoner and
+gains far more in performance when evaluated five-shot than similarly sized GPT-3 and FairSeq models.

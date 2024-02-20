@@ -1,0 +1,11 @@
+ple dimension into 2 devices, we get 10 x 512 which becomes be 5 x 2 x 512.
+
+Operator
+
+If we perform layer normalization, we compute std first and mean second, and then we can normalize data. 
+Operator parallelism allows computing std and mean in parallel. So if we parallelize them by operator dimension into 2 
+devices (cuda:0, cuda:1), first we copy input data into both devices, and cuda:0 computes std, cuda:1 computes mean at the same time.
+
+Attribute
+
+We have 10 batches of 512 length. If we parallelize t

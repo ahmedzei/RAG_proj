@@ -1,0 +1,4 @@
+nd:
+
+Sinusoidal and learned position embeddings are both absolute positional embeddings, i.e. encoding a unique embedding for each position id: \( 0, \ldots, N \) . As shown by Huang et al. and Su et al., absolute positional embeddings lead to poor LLM performance for long text inputs. For long text inputs, it is advantageous if the model learns the relative positional distance input tokens have to each other instead of their absolute position.
+When using learned position embeddings, the LLM has to be train

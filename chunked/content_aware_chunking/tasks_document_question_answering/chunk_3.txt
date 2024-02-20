@@ -1,0 +1,14 @@
+Log in to your Hugging Face account to upload it to the 🤗 Hub.
+When prompted, enter your token to log in:
+
+from huggingface_hub import notebook_login
+notebook_login()
+
+Let's define some global variables.
+
+model_checkpoint = "microsoft/layoutlmv2-base-uncased"
+batch_size = 4
+
+Load the data
+In this guide we use a small sample of preprocessed DocVQA that you can find on 🤗 Hub. If you'd like to use the full
+DocVQA dataset, you can register and download it on DocVQA homepage.

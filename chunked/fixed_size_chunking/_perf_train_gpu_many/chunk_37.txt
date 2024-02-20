@@ -1,0 +1,6 @@
+re the bubble (idle time) is further minimized by prioritizing backward passes. Varuna further attempts to improve the 
+schedule by using simulations to discover the most efficient scheduling.
+OSLO has pipeline parallelism implementation based on the Transformers without nn.Sequential conversion.
+Tensor Parallelism
+In Tensor Parallelism, each GPU processes a slice of a tensor and only aggregates the full tensor for operations requiring it.
+To describe this method, this section of the guide relies on the con

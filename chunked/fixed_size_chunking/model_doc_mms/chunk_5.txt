@@ -1,0 +1,9 @@
+ore_mismatched_sizes=True keyword has to be passed to allow the language model head to be resized according
+to the vocabulary of the specified language.
+Similarly, the processor should be loaded with the same target language
+
+from transformers import Wav2Vec2ForCTC, AutoProcessor
+model_id = "facebook/mms-1b-all"
+target_lang = "fra"
+processor = AutoProcessor.from_pretrained(model_id, target_lang=target_lang)
+model = Wav2Vec2ForCTC.from_pretrained(model_id, target_lang=target_lang, ignore_mismatched_sizes=Tru

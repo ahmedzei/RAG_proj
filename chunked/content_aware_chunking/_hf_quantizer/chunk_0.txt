@@ -1,0 +1,2 @@
+Contribute new quantization method
+Transformers supports and integrates many quantization methods such as QLoRA, GPTQ, LLM.int8, and AWQ. However, there are other quantization approaches that are not yet integrated. To make adding and using these quantization methods with Transformers models easier, you should use the [HfQuantizer] class.

@@ -1,0 +1,23 @@
+This is the second sentence.", add_special_tokens=False, return_tensors="pt"
+ ).input_ids
+outputs = sentence_fuser.generate(input_ids)
+print(tokenizer.decode(outputs[0]))
+
+Tips:
+
+[BertGenerationEncoder] and [BertGenerationDecoder] should be used in
+  combination with [EncoderDecoder].
+For summarization, sentence splitting, sentence fusion and translation, no special tokens are required for the input.
+  Therefore, no EOS token should be added to the end of the input.
+
+BertGenerationConfig
+[[autodoc]] BertGenerationConfig
+BertGenerationTokenizer
+[[autodoc]] BertGenerationTokenizer
+    - save_vocabulary
+BertGenerationEncoder
+[[autodoc]] BertGenerationEncoder
+    - forward
+BertGenerationDecoder
+[[autodoc]] BertGenerationDecoder
+    - forward.

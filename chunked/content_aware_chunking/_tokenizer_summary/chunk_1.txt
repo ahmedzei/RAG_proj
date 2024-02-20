@@ -1,0 +1,6 @@
+tokenizing a text).
+More specifically, we will look at the three main types of tokenizers used in 🤗 Transformers: Byte-Pair Encoding
+(BPE), WordPiece, and SentencePiece, and show examples
+of which tokenizer type is used by which model.
+Note that on each model page, you can look at the documentation of the associated tokenizer to know which tokenizer
+type was used by the pretrained model.

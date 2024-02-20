@@ -1,0 +1,3 @@
+However, a larger batch size 
+can often result in faster model convergence or better end performance. So ideally we want to tune the batch size to our
+model's needs and not to the GPU limitations. What's interesting is that we use much more memory than the size of the model.

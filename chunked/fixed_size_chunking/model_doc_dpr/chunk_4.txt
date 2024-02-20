@@ -1,0 +1,22 @@
+tput
+
+DPRContextEncoder
+[[autodoc]] DPRContextEncoder
+    - forward
+DPRQuestionEncoder
+[[autodoc]] DPRQuestionEncoder
+    - forward
+DPRReader
+[[autodoc]] DPRReader
+    - forward
+
+TFDPRContextEncoder
+[[autodoc]] TFDPRContextEncoder
+    - call
+TFDPRQuestionEncoder
+[[autodoc]] TFDPRQuestionEncoder
+    - call
+TFDPRReader
+[[autodoc]] TFDPRReader
+    - call
+

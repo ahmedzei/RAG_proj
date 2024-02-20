@@ -1,0 +1,6 @@
+able to train on comparatively small datasets. We conduct thorough ablation studies, and achieve state-of-the-art results on multiple video classification benchmarks including Kinetics 400 and 600, Epic Kitchens, Something-Something v2 and Moments in Time, outperforming prior methods based on deep 3D convolutional networks.
+This model was contributed by jegormeister. The original code (written in JAX) can be found here.
+VivitConfig
+[[autodoc]] VivitConfig
+VivitImageProcessor
+[[autodoc]] VivitImageProcessor

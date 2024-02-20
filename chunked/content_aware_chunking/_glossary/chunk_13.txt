@@ -1,0 +1,4 @@
+These
+inputs should be used for sequence to sequence tasks, such as translation or summarization, and are usually built in a
+way specific to each model.
+Most encoder-decoder models (BART, T5) create their decoder_input_ids on their own from the labels.

@@ -1,0 +1,5 @@
+ands will link the folder you cloned the repository to and your Python library paths. Python will now look inside the folder you cloned to in addition to the normal library paths. For example, if your Python packages are typically installed in ~/anaconda3/envs/main/lib/python3.7/site-packages/, Python will also search the folder you cloned to: ~/transformers/.
+
+You must keep the transformers folder if you want to keep using the library.
+
+Now you can easily update your clone to the latest version of 🤗 Transf

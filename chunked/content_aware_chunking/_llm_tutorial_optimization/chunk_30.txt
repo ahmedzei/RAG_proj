@@ -1,0 +1,3 @@
+The algorithm gives mathematically the same outputs, and is both faster and more memory-efficient.
+Let's look at a practical example.
+Our OctoCoder model now gets a significantly longer input prompt which includes a so-called system prompt.

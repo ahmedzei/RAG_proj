@@ -1,0 +1,13 @@
+features["labels"].names)
+initialize models
+teacher_model = AutoModelForImageClassification.from_pretrained(
+    "merve/beans-vit-224",
+    num_labels=num_labels,
+    ignore_mismatched_sizes=True
+)
+training MobileNetV2 from scratch
+student_config = MobileNetV2Config()
+student_config.num_labels = num_labels
+student_model = MobileNetV2ForImageClassification(student_config)
+
+We can use compute_metrics function to evaluate our model on the test set. This function will be used during the training process to comp

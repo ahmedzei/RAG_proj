@@ -1,0 +1,8 @@
+datasets: Open Entity (entity typing), TACRED (relation classification),
+CoNLL-2003 (named entity recognition), ReCoRD (cloze-style question answering), and SQuAD 1.1 (extractive question
+answering).
+This model was contributed by ikuyamada and nielsr. The original code can be found here.
+Usage tips
+
+This implementation is the same as [RobertaModel] with the addition of entity embeddings as well
+  as an entity-aware self-attention mechanism, which improves performance on tasks involving reasoning about entit

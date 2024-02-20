@@ -1,0 +1,8 @@
+n the number of times a certain answer appeared in the annotations.
+For instance, in the example above, because the answer "down" is selected way more often than other answers, it has a 
+score (called weight in the dataset) of 1.0, and the rest of the answers have scores < 1.0. 
+To later instantiate the model with an appropriate classification head, let's create two dictionaries: one that maps 
+the label name to an integer and vice versa:
+
+import itertools
+labels = [item['ids'] for item in dataset['label']]

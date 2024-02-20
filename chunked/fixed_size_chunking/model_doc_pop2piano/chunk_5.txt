@@ -1,0 +1,14 @@
+give good performance.
+Though Pop2Piano was mainly trained on Korean Pop music, it also does pretty well on other Western Pop or Hip Hop songs.
+
+Examples
+
+Example using HuggingFace Dataset:
+
+thon
+
+from datasets import load_dataset
+from transformers import Pop2PianoForConditionalGeneration, Pop2PianoProcessor
+model = Pop2PianoForConditionalGeneration.from_pretrained("sweetcocoa/pop2piano")
+processor = Pop2PianoProcessor.from_pretrained("sweetcocoa/pop2piano")
+ds = load_dataset("sweetcocoa/pop2piano_ci", spli

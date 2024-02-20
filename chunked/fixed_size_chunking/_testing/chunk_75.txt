@@ -1,0 +1,10 @@
+uld set something like allow-failure for the
+experimental step, and let it fail without impacting the overall status of PRs. But as mentioned earlier CircleCI and
+Github Actions don't support it at the moment.
+You can vote for this feature and see where it is at these CI-specific threads:
+
+Github Actions:
+CircleCI:
+
+DeepSpeed integration
+For a PR that involves the DeepSpeed integration, keep in mind our CircleCI PR CI setup doesn't have GPUs. Tests requiring GPUs are run on a different CI nightly. This mean

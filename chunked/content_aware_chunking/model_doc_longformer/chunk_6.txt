@@ -1,0 +1,3 @@
+A selected few tokens attend "globally" to all other tokens, as it is
+conventionally done for all tokens in BertSelfAttention.
+Note that "locally" and "globally" attending tokens are projected by different query, key and value matrices.

@@ -1,0 +1,5 @@
+It's the first paper that successfully trains a Transformer encoder on ImageNet, attaining
+very good results compared to familiar convolutional architectures.
+The abstract from the paper is the following:
+While the Transformer architecture has become the de-facto standard for natural language processing tasks, its
+applications to computer vision remain limited.

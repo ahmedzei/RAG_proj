@@ -1,0 +1,6 @@
+ing process:
+| Method/tool                                                | Improves training speed | Optimizes memory utilization |
+|:-----------------------------------------------------------|:------------------------|:-----------------------------|
+| Batch size choice                    | Yes                     | Yes                          |
+| Gradient accumulation            | No                      | Yes                          |
+| Gradient checkpointing          | No                      | Yes  

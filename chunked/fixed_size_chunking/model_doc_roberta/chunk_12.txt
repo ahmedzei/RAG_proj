@@ -1,0 +1,15 @@
+xRobertaForMaskedLM
+    - call
+FlaxRobertaForSequenceClassification
+[[autodoc]] FlaxRobertaForSequenceClassification
+    - call
+FlaxRobertaForMultipleChoice
+[[autodoc]] FlaxRobertaForMultipleChoice
+    - call
+FlaxRobertaForTokenClassification
+[[autodoc]] FlaxRobertaForTokenClassification
+    - call
+FlaxRobertaForQuestionAnswering
+[[autodoc]] FlaxRobertaForQuestionAnswering
+    - call
+

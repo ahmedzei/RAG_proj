@@ -1,0 +1,10 @@
+ntensive part of training a transformer.
+
+Statistical Normalizations
+Softmax and layer normalization are less compute-intensive than tensor contractions, and involve one or more reduction operations, the result of which is then applied via a map.
+
+Element-wise Operators
+These are the remaining operators: biases, dropout, activations, and residual connections. These are the least compute-intensive operations.
+
+This knowledge can be helpful to know when analyzing performance bottlenecks.
+This summary is deriv

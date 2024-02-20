@@ -1,0 +1,15 @@
+Here is what they look like:
+
+pytest test_this2.py --collect-only -q
+and it will list:
+
+test_this2.py::test_floor[integer-1-1.0]
+test_this2.py::test_floor[negative--1.5--2.0]
+test_this2.py::test_floor[large fraction-1.6-1]
+So now you can run just the specific test:
+
+pytest test_this2.py::test_floor[negative--1.5--2.0] test_this2.py::test_floor[integer-1-1.0]
+as in the previous example.
+Files and directories
+In tests often we need to know where things are relative to the current test file, and it's not trivial since the test
+could be invoked from more than one directory or could reside in sub-directories with different depths.

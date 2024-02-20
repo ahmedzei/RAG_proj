@@ -1,0 +1,6 @@
+rning and contrastive learning. We validate our method through evaluations of a wide range of tasks. We set new state-of-the-art 
+performances on a bunch of tasks including ImageNet-CN, Flicker30k- CN, and COCO-CN. Further, we obtain very close performances with 
+CLIP on almost all tasks, suggesting that one can simply alter the text encoder in CLIP for extended capabilities such as multilingual understanding.
+This model was contributed by jongjyh.
+Usage tips and example
+The usage of AltCLIP is very similar

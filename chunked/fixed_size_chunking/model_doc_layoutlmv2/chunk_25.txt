@@ -1,0 +1,11 @@
+_labels=word_labels, return_tensors="pt")
+print(encoding.keys())
+dict_keys(['input_ids', 'token_type_ids', 'attention_mask', 'bbox', 'labels', 'image'])
+
+Use case 4: visual question answering (inference), apply_ocr=True
+For visual question answering tasks (such as DocVQA), you can provide a question to the processor. By default, the
+processor will apply OCR on the image, and create [CLS] question tokens [SEP] word tokens [SEP].
+thon
+from transformers import LayoutLMv2Processor
+from PIL import Image
+processo

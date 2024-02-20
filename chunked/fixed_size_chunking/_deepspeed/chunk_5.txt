@@ -1,0 +1,6 @@
+init=0
+   62.23GB |   5.43GB | offload_param=none, offload_optimizer=cpu , zero_init=1
+   62.23GB |   5.43GB | offload_param=none, offload_optimizer=cpu , zero_init=0
+    0.37GB |  46.91GB | offload_param=none, offload_optimizer=none, zero_init=1
+   15.56GB |  46.91GB | offload_param=none, offload_optimizer=none, zero_init=0
+This means you either need a single 80GB GPU without CPU offload or a 8GB GPU and a ~60GB CPU to offload to (these are just the memory requirements for the parameters, optimizer states 

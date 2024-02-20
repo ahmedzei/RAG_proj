@@ -1,0 +1,8 @@
+
+Methods and tools for efficient training on a single GPU
+This guide demonstrates practical techniques that you can use to increase the efficiency of your model's training by 
+optimizing memory utilization, speeding up the training, or both. If you'd like to understand how GPU is utilized during 
+training, please refer to the Model training anatomy conceptual guide first. This guide 
+focuses on practical techniques.  
+
+If you have access to a machine with multiple GPUs, these approaches are still valid, plu

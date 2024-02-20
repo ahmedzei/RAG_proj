@@ -1,0 +1,8 @@
+ T5Config.from_pretrained("google-t5/t5-small")
+    model = T5ForConditionalGeneration(config)
+
+For pretrained models, the DeepSped config file needs to have is_deepspeed_zero3_enabled: true setup in [TrainingArguments] and it needs a ZeRO configuration enabled. The [TrainingArguments] object must be created before calling the model [~PreTrainedModel.from_pretrained].
+
+from transformers import AutoModel, Trainer, TrainingArguments
+training_args = TrainingArguments(, deepspeed=ds_config)
+model = AutoModel.fr

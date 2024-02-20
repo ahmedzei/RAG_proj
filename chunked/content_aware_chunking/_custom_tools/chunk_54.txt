@@ -1,0 +1,6 @@
+This implementation
+works with image and audio objects. The two are currently incompatible, but will rapidly become compatible as we
+work to improve the support.
+
+Future compatibility with Langchain
+We love Langchain and think it has a very compelling suite of tools.

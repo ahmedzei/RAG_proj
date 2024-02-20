@@ -1,0 +1,8 @@
+del.generate(**inputs)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+['Stan Lee created the character of Iron Man, a fictional superhero appearing in American comic']
+generated_ids = model_with_mtl.generate(**inputs)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+['Iron Man is a fictional superhero appearing in American comic books published by Marvel Comics.']
+
+For lightweight tuning, i.e., fixing the model and only tuning prompts, you can load MVP with randomly initializ

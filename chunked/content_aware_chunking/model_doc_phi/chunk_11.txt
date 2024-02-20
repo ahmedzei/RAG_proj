@@ -1,0 +1,34 @@
+The previous command is an alternative to cloning and installing from the source.
+
+thon
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+model = AutoModelForCausalLM.from_pretrained("microsoft/phi-2")
+tokenizer = AutoTokenizer.from_pretrained("microsoft/phi-2")
+inputs = tokenizer('Can you help me write a formal email to a potential business partner proposing a joint venture?', return_tensors="pt", return_attention_mask=False)
+outputs = model.generate(**inputs, max_length=30)
+text = tokenizer.batch_decode(outputs)[0]
+print(text)
+'Can you help me write a formal email to a potential business partner proposing a joint venture?\nInput: Company A: ABC Inc.\nCompany B: XYZ Ltd.\nJoint Venture: A new online platform for e-commerce'
+
+Example :
+thon
+
+from transformers import PhiForCausalLM, AutoTokenizer
+define the model and tokenizer.
+model = PhiForCausalLM.from_pretrained("microsoft/phi-1_5")
+tokenizer = AutoTokenizer.from_pretrained("microsoft/phi-1_5")
+feel free to change the prompt to your liking.
+prompt = "If I were an AI that had just achieved"
+apply the tokenizer.
+tokens = tokenizer(prompt, return_tensors="pt")
+use the model to generate new tokens.
+generated_output = model.generate(**tokens, use_cache=True, max_new_tokens=10)
+tokenizer.batch_decode(generated_output)[0]
+'If I were an AI that had just achieved a breakthrough in machine learning, I would be thrilled'
+
+Combining Phi and Flash Attention 2
+First, make sure to install the latest version of Flash Attention 2 to include the sliding window attention feature.
+
+pip install -U flash-attn --no-build-isolation
+Make also sure that you have a hardware that is compatible with Flash-Attention 2.

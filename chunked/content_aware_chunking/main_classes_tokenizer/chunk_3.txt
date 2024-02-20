@@ -1,0 +1,3 @@
+When the tokenizer is a pure python
+tokenizer, this class behaves just like a standard python dictionary and holds the various model inputs computed by
+these methods (input_ids, attention_mask).

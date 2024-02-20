@@ -1,0 +1,12 @@
+lizes the images, and only crops the labels because no data augmentation is applied during testing.
+
+def train_transforms(example_batch):
+     images = [jitter(x) for x in example_batch["image"]]
+     labels = [x for x in example_batch["annotation"]]
+     inputs = image_processor(images, labels)
+     return inputs
+def val_transforms(example_batch):
+     images = [x for x in example_batch["image"]]
+     labels = [x for x in example_batch["annotation"]]
+     inputs = image_processor(images, labels)
+     retur

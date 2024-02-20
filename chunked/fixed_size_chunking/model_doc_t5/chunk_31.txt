@@ -1,0 +1,21 @@
+sorFlow 2. 🌎
+A notebook on how to finetune T5 for question answering on a TPU.
+
+🚀 Deploy
+- A blog post on how to deploy T5 11B for inference for less than $500.
+T5Config
+[[autodoc]] T5Config
+T5Tokenizer
+[[autodoc]] T5Tokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+T5TokenizerFast
+[[autodoc]] T5TokenizerFast
+
+T5Model
+[[autodoc]] T5Model
+    - forward
+T5ForConditionalGeneration
+[[autodoc]] T5ForConditionalGeneratio

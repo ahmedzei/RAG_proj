@@ -1,0 +1,4 @@
+ing|How to speed up fine-tuning by a factor of 2 using dynamic padding / bucketing|Michael Benesty ||
+|Pretrain Reformer for Masked Language Modeling| How to train a Reformer model with bi-directional self-attention layers | Patrick von Platen | |
+|Expand and Fine Tune Sci-BERT| How to increase vocabulary of a pretrained SciBERT model from AllenAI on the CORD dataset and pipeline it. | Tanmay Thakur | |
+|Fine Tune BlenderBotSmall for Summarization using the Trainer API| How to fine-tune BlenderBotSmall for 

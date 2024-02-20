@@ -1,0 +1,11 @@
+ tasks without relying on separate models:
+
+Speech-to-speech translation (S2ST)
+Speech-to-text translation (S2TT)
+Text-to-speech translation (T2ST)
+Text-to-text translation (T2TT)
+Automatic speech recognition (ASR)
+
+[SeamlessM4TModel] can perform all the above tasks, but each task also has its own dedicated sub-model.
+The abstract from the paper is the following:
+What does it take to create the Babel Fish, a tool that can help individuals translate speech between any two languages? While recent breakthrough

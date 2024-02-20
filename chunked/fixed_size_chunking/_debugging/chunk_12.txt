@@ -1,0 +1,8 @@
+rs/main/scripts/distributed/torch-distributed-gpu-test.py
+For example to test how 2 GPUs interact do:
+
+python -m torch.distributed.run --nproc_per_node 2 --nnodes 1 torch-distributed-gpu-test.py
+If both processes can talk to each and allocate GPU memory each will print an OK status.
+For more GPUs or nodes adjust the arguments in the script.
+You will find a lot more details inside the diagnostics script and even a recipe to how you could run it in a SLURM environment.
+An additional level of debug is to add N

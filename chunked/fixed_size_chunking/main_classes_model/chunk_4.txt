@@ -1,0 +1,4 @@
+t fully fit in RAM (only works for inference for now). With device_map="auto", Accelerate will determine where to put each layer to maximize the use of your fastest devices (GPUs) and offload the rest on the CPU, or even the hard drive if you don't have enough GPU RAM (or CPU RAM). Even if the model is split across several devices, it will run as you would normally expect.
+When passing a device_map, low_cpu_mem_usage is automatically set to True, so you don't need to specify it:
+
+from transformers import Au

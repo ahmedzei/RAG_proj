@@ -1,0 +1,12 @@
+he Masked language modeling task guide on how to use the model.
+
+[AlbertForQuestionAnswering] is supported by this example script and notebook.
+[TFAlbertForQuestionAnswering] is supported by this example script and notebook.
+[FlaxAlbertForQuestionAnswering] is supported by this example script.
+Question answering chapter of the 🤗 Hugging Face Course.
+Check the Question answering task guide on how to use the model.
+
+Multiple choice
+
+[AlbertForMultipleChoice] is supported by this example script and notebook.
+

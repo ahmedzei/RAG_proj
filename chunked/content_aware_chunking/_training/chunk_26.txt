@@ -1,0 +1,25 @@
+But instead of calculating and reporting the metric at the end of each epoch, this time you'll accumulate all the batches with [~evaluate.add_batch] and calculate the metric at the very end.
+
+import evaluate
+metric = evaluate.load("accuracy")
+model.eval()
+for batch in eval_dataloader:
+     batch = {k: v.to(device) for k, v in batch.items()}
+     with torch.no_grad():
+         outputs = model(**batch)
+
+     logits = outputs.logits
+     predictions = torch.argmax(logits, dim=-1)
+     metric.add_batch(predictions=predictions, references=batch["labels"])
+
+metric.compute()
+
+Additional resources
+For more fine-tuning examples, refer to:
+
+🤗 Transformers Examples includes scripts
+  to train common NLP tasks in PyTorch and TensorFlow.
+
+🤗 Transformers Notebooks contains various notebooks on how to fine-tune a model for specific tasks in PyTorch and TensorFlow.
+
+.

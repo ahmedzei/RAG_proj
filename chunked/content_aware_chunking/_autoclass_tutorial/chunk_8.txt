@@ -1,0 +1,1 @@
+In general, never load a model that could have come from an untrusted source, or that could have been tampered with. This security risk is partially mitigated for public models hosted on the Hugging Face Hub, which are scanned for malware at each commit.

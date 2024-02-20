@@ -1,0 +1,22 @@
+ through the model:
+
+import torch
+with torch.no_grad():
+     outputs = model(pixel_values)
+     predicted_depth = outputs.predicted_depth
+
+Visualize the results:
+
+import numpy as np
+interpolate to original size
+prediction = torch.nn.functional.interpolate(
+     predicted_depth.unsqueeze(1),
+     size=image.size[::-1],
+     mode="bicubic",
+     align_corners=False,
+ ).squeeze()
+output = prediction.numpy()
+formatted = (output * 255 / np.max(output)).astype("uint8")
+depth = Image.fromarray(formatted)
+depth
+

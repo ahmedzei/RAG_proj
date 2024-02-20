@@ -1,0 +1,7 @@
+lso be utilized in interactive museum exhibits or historical sites.
+* Customer service and e-commerce: VQA can enhance user experience by letting users ask questions about products. 
+* Image retrieval: VQA models can be used to retrieve images with specific characteristics. For example, the user can ask "Is there a dog?" to find all images with dogs from a set of images.
+In this guide you'll learn how to:
+
+Fine-tune a classification VQA model, specifically ViLT, on the Graphcore/vqa dataset.
+Use your fine-t

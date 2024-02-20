@@ -1,0 +1,12 @@
+, can compete with the previous leading methods that were all based on hierarchical backbones, reaching up to 61.3 AP_box on the COCO dataset using only ImageNet-1K pre-training. We hope our study will draw attention to research on plain-backbone detectors.
+This model was contributed by nielsr.
+The original code can be found here.
+Tips:
+
+At the moment, only the backbone is available.
+
+VitDetConfig
+[[autodoc]] VitDetConfig
+VitDetModel
+[[autodoc]] VitDetModel
+    - forward

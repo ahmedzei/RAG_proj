@@ -1,0 +1,4 @@
+Some preselected input tokens are still given global attention, but the attention matrix has way less parameters, resulting in a speed-up. See the local attention section for more information.
+
+Longformer Self Attention
+Longformer self attention employs self attention on both a "local" context and a "global" context.

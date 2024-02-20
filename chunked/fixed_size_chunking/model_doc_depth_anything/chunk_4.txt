@@ -1,0 +1,19 @@
+ in a few lines of code:
+thon
+
+from transformers import pipeline
+from PIL import Image
+import requests
+load pipe
+pipe = pipeline(task="depth-estimation", model="LiheYoung/depth-anything-small-hf")
+load image
+url = 'http://images.cocodataset.org/val2017/000000039769.jpg'
+image = Image.open(requests.get(url, stream=True).raw)
+inference
+depth = pipe(image)["depth"]
+
+Using the model yourself
+If you want to do the pre- and postprocessing yourself, here's how to do that:
+thon
+
+from transformers import AutoImagePr

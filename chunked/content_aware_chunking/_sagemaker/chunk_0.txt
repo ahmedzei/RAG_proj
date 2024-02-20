@@ -1,0 +1,7 @@
+Run training on Amazon SageMaker
+The documentation has been moved to hf.co/docs/sagemaker. This page will be removed in transformers 5.0. 
+Table of Content
+
+Train Hugging Face models on Amazon SageMaker with the SageMaker Python SDK
+Deploy Hugging Face models to Amazon SageMaker with the SageMaker Python SDK
+.

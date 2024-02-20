@@ -1,0 +1,1 @@
+Further, we propose a Temporal-Distance IoU (TDIoU) loss for efficient learning of TVG.

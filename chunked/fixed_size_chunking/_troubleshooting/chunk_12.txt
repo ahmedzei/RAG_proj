@@ -1,0 +1,7 @@
+an automatically infer and load the correct architecture from a given checkpoint based on the configuration. If you see
+this ValueError when loading a model from a checkpoint, this means the Auto class couldn't find a mapping from
+the configuration in the given checkpoint to the kind of model you are trying to load. Most commonly, this happens when a
+checkpoint doesn't support a given task.
+For instance, you'll see this error in the following example because there is no GPT2 for question answering:
+
+from tr

@@ -1,0 +1,3 @@
+More specifically, sentence order should be cued by modifying the \( \mathbf{QK}^T \) computation.
+Without going into too many details, RoPE notes that positional information can be encoded into query-key pairs, e.g. \( \mathbf{q}_i \) and \( \mathbf{x}_j \) by rotating each vector by an angle \( \theta * i \) and \( \theta * j \) respectively with \( i, j \) describing each vectors sentence position:
+$$ \mathbf{\hat{q}}i^T \mathbf{\hat{x}}_j = \mathbf{{q}}_i^T \mathbf{R}{\theta, i -j} \mathbf{{x}}_j.

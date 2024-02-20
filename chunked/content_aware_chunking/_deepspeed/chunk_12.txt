@@ -1,0 +1,1 @@
+You could set your own configuration parameters explicitly, but you must take care to ensure the [Trainer] arguments and DeepSpeed configuration parameters agree.

@@ -1,0 +1,5 @@
+However, passing data 
+from layer 3 to 4 requires moving it from GPU0 to GPU1, introducing a communication overhead. If the participating 
+GPUs are on the same compute node (e.g. same physical machine) this copying is fast, but if the GPUs are distributed 
+across different compute nodes (e.g. multiple machines), the communication overhead could be substantially greater.
+Following that, layers 4 to 7 work as they would in the original model.

@@ -1,0 +1,6 @@
+s encoder but also
+its decoder is pretrained. In addition to discriminative tasks from the FLUE benchmark, we evaluate BARThez on a novel
+summarization dataset, OrangeSum, that we release with this paper. We also continue the pretraining of an already
+pretrained multilingual BART on BARThez's corpus, and we show that the resulting model, which we call mBARTHez,
+provides a significant boost over vanilla BARThez, and is on par with or outperforms CamemBERT and FlauBERT.
+This model was contributed by moussakam

@@ -1,0 +1,1 @@
+The only required parameter is output_dir which specifies where to save your model. You'll push this model to the Hub by setting push_to_hub=True (you need to be signed in to Hugging Face to upload your model).

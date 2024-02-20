@@ -1,0 +1,2 @@
+A more powerful setup is a multi-node setup which can be launched with the deepspeed launcher. For this guide, let's assume there are two nodes with 8 GPUs each. The first node can be accessed ssh hostname1 and the second node with ssh hostname2. Both nodes must be able to communicate with each other locally over ssh without a password.
+By default, DeepSpeed expects your multi-node environment to use a shared storage.

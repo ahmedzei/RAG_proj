@@ -1,0 +1,6 @@
+e=tf.float32),
+ )
+train_dataloader = tf.data.Dataset.from_generator(train_dataset, output_signature=output_signature).batch(32)
+
+Note that here, we encode each table-question pair independently. This is fine as long as your dataset is not conversational. In case your dataset involves conversational questions (such as in SQA), then you should first group together the queries, answer_coordinates and answer_text per table (in the order of their position
+index) and batch encode each table with its questions. Th

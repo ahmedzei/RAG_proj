@@ -1,0 +1,2 @@
+[OneformerProcessor] wraps [OneFormerImageProcessor] and [CLIPTokenizer] into a single instance to both prepare the images and encode the task inputs.
+To get the final segmentation, depending on the task, you can call [~OneFormerProcessor.post_process_semantic_segmentation] or [~OneFormerImageProcessor.post_process_instance_segmentation] or [~OneFormerImageProcessor.post_process_panoptic_segmentation].

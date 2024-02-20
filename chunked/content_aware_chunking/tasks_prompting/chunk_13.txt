@@ -1,0 +1,7 @@
+It controls the number of tokens the 
+model shall generate, and it is one of the many text generation parameters that you can learn about 
+in Text generation strategies guide.
+
+Named Entity Recognition
+Named Entity Recognition (NER) is a task of finding named entities in a piece of text, such as a person, location, or organization.
+Let's modify the instructions in the prompt to make the LLM perform this task.

@@ -1,0 +1,13 @@
+ncoding["end_positions"] = end_positions
+     return encoding
+
+Now that we have this preprocessing function, we can encode the entire dataset:
+
+encoded_train_dataset = dataset_with_ocr["train"].map(
+     encode_dataset, batched=True, batch_size=2, remove_columns=dataset_with_ocr["train"].column_names
+ )
+encoded_test_dataset = dataset_with_ocr["test"].map(
+     encode_dataset, batched=True, batch_size=2, remove_columns=dataset_with_ocr["test"].column_names
+ )
+
+Let's check what the features of the encoded dat

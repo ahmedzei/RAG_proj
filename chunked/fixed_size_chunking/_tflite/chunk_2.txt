@@ -1,0 +1,9 @@
+optimum-cli export tflite --model google-bert/bert-base-uncased --sequence_length 128 bert_tflite/
+You should see the logs indicating progress and showing where the resulting model.tflite is saved, like this:
+
+Validating TFLite model
+    -[✓] TFLite model output names match reference model (logits)
+    - Validating TFLite Model output "logits":
+        -[✓] (1, 128, 30522) matches (1, 128, 30522)
+        -[x] values not close enough, max diff: 5.817413330078125e-05 (atol: 1e-05)
+The TensorFlow Lite export s

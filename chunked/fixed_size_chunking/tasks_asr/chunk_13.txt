@@ -1,0 +1,13 @@
+valuate library. For this task, load the word error rate (WER) metric (see the 🤗 Evaluate quick tour to learn more about how to load and compute a metric):
+
+import evaluate
+wer = evaluate.load("wer")
+
+Then create a function that passes your predictions and labels to [~evaluate.EvaluationModule.compute] to calculate the WER:
+
+import numpy as np
+def compute_metrics(pred):
+     pred_logits = pred.predictions
+     pred_ids = np.argmax(pred_logits, axis=-1)
+
+     pred.label_ids[pred.label_ids == -100] = processo

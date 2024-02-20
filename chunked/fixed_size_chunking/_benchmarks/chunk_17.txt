@@ -1,0 +1,11 @@
+          1027   
+bert-384-hid              8              128            1035   
+bert-384-hid              8              512            1255   
+bert-6-lay                 8               8             1097   
+bert-6-lay                 8               32            1101   
+bert-6-lay                 8              128            1127   
+bert-6-lay                 8              512            1359
+
+====================        ENVIRONMENT INFORMATION         ====================
+
+transformers_version: 2.11

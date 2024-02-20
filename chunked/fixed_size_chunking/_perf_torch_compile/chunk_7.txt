@@ -1,0 +1,8 @@
+n find visualization of inference durations with and without torch.compile() and percentage improvements for each model in different hardware and batch sizes. 
+
+Below you can find inference durations in milliseconds for each model with and without compile(). Note that OwlViT results in OOM in larger batch sizes.
+A100 (batch size: 1)
+| Task/Model | torch 2.0 - no compile | torch 2.0 - compile |
+|:---:|:---:|:---:|
+| Image Classification/ViT | 9.325 | 7.584 | 
+| Image Segmentation/Segformer | 11.759 | 10.500 

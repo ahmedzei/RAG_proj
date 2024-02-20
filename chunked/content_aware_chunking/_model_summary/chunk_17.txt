@@ -1,0 +1,1 @@
+By pretraining on a massive body of text, GPT-2 became really good at generating text, even if the text is only sometimes accurate or true. But GPT-2 lacked the bidirectional context from BERT's pretraining, which made it unsuitable for certain tasks.

@@ -1,0 +1,5 @@
+GPT-3 are few-shot learners that can perform a wide range of language 
+tasks without fine-tuning. While these models are known to be able to jointly represent many different languages, 
+their training data is dominated by English, potentially limiting their cross-lingual generalization. 
+In this work, we train multilingual autoregressive language models on a balanced corpus covering a diverse set of languages, 
+and study their few- and zero-shot learning capabilities in a wide range of tasks. Our largest mo

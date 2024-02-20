@@ -1,0 +1,18 @@
+tor,
+     train_dataset=encoded_train_dataset,
+     eval_dataset=encoded_test_dataset,
+     tokenizer=processor,
+ )
+trainer.train()
+
+To add the final model to 🤗 Hub, create a model card and call push_to_hub:
+
+trainer.create_model_card()
+trainer.push_to_hub()
+
+Inference
+Now that you have finetuned a LayoutLMv2 model, and uploaded it to the 🤗 Hub, you can use it for inference. The simplest
+way to try out your finetuned model for inference is to use it in a [Pipeline].
+Let's take an example:
+
+example = dataset

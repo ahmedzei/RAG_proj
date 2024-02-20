@@ -1,0 +1,11 @@
+here.
+
+mT5: mT5 is a multilingual T5 model. It is pre-trained on the mC4 corpus, which includes 101 languages. Refer to
+  the documentation of mT5 which can be found here.
+
+byT5: byT5 is a T5 model pre-trained on byte sequences rather than SentencePiece subword token sequences. Refer
+  to the documentation of byT5 which can be found here.
+
+UL2: UL2 is a T5 like model pretrained on various denoising objectives
+
+Flan-T5: Flan is a pretraining methods that is based on prompting. The Flan-T5 are T5 models train

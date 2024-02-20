@@ -1,0 +1,7 @@
+These are the least compute-intensive operations.
+
+This knowledge can be helpful to know when analyzing performance bottlenecks.
+This summary is derived from Data Movement Is All You Need: A Case Study on Optimizing Transformers 2020
+Anatomy of Model's Memory
+We've seen that training the model uses much more memory than just putting the model on the GPU. This is because there 
+are many components during training that use GPU memory.

@@ -1,0 +1,9 @@
+nt the following line to push to an organization.
+brand_new_bert.push_to_hub("/brand_new_bert")
+
+It is worth spending some time to create fitting model cards for each checkpoint. The model cards should highlight the
+specific characteristics of this particular checkpoint, e.g. On which dataset was the checkpoint
+pretrained/fine-tuned on? On what down-stream task should the model be used? And also include some code on how to
+correctly use the model.
+13. (Optional) Add notebook
+It is very helpful to add a note

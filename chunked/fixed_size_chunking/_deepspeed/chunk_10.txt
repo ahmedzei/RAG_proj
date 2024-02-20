@@ -1,0 +1,6 @@
+ tradeoff between speed and memory usage
+
+DeepSpeed configuration file
+DeepSpeed works with the [Trainer] class by way of a config file containing all the parameters for configuring how you want setup your training run. When you execute your training script, DeepSpeed logs the configuration it received from [Trainer] to the console so you can see exactly what configuration was used.
+
+Find a complete list of DeepSpeed configuration options on the DeepSpeed Configuration JSON reference. You can also find more

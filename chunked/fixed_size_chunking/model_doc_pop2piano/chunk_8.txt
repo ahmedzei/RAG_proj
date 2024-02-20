@@ -1,0 +1,15 @@
+tput, feature_extractor_output=inputs
+ )["pretty_midi_objects"][0]
+tokenizer_output.write("./Outputs/midi_output.mid")
+
+Example of processing multiple audio files in batch:
+
+thon
+
+import librosa
+from transformers import Pop2PianoForConditionalGeneration, Pop2PianoProcessor
+feel free to change the sr to a suitable value.
+audio1, sr1 = librosa.load("", sr=44100)
+audio2, sr2 = librosa.load("", sr=44100)
+model = Pop2PianoForConditionalGeneration.from_pretrained("sweetcocoa/pop2piano")
+processor = Pop2PianoProce

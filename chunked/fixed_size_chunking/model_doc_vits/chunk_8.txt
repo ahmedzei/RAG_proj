@@ -1,0 +1,12 @@
+m, rate=model.config.sampling_rate)
+
+For certain languages with a non-Roman alphabet, such as Arabic, Mandarin or Hindi, the uroman 
+perl package is required to pre-process the text inputs to the Roman alphabet.
+You can check whether you require the uroman package for your language by inspecting the is_uroman attribute of 
+the pre-trained tokenizer:
+thon
+from transformers import VitsTokenizer
+tokenizer = VitsTokenizer.from_pretrained("facebook/mms-tts-eng")
+print(tokenizer.is_uroman)
+
+If required, you shoul

@@ -1,0 +1,16 @@
+)
+
+which will return:
+thon
+
+print(decoded)
+[CLS] HuggingFace is based in NYC [SEP] Where is HuggingFace based? [SEP]
+
+This is enough for some models to understand where one sequence ends and where another begins. However, other models,
+such as BERT, also deploy token type IDs (also called segment IDs). They are represented as a binary mask identifying
+the two types of sequence in the model.
+The tokenizer returns this mask as the "token_type_ids" entry:
+thon
+
+encoded_dict["token_type_ids"]
+[0, 0, 0, 0, 0, 0,

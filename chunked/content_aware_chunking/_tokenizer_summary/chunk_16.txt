@@ -1,0 +1,2 @@
+BPE relies on a pre-tokenizer that splits the training data into
+words. Pretokenization can be as simple as space tokenization, e.g. GPT-2, RoBERTa. More advanced pre-tokenization include rule-based tokenization, e.g.

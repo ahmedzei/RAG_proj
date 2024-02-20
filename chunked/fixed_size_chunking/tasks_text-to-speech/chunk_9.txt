@@ -1,0 +1,5 @@
+ be converted to <unk> tokens. However, in Dutch, certain characters like à are 
+used to stress syllables. In order to preserve the meaning of the text, we can replace this character with a regular a.
+To identify unsupported tokens, extract all unique characters in the dataset using the SpeechT5Tokenizer which 
+works with characters as tokens. To do this, write the extract_all_chars mapping function that concatenates 
+the transcriptions from all examples into one string and converts it to a set of character

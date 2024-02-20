@@ -1,0 +1,10 @@
+
+ProphetNet
+
+Overview
+The ProphetNet model was proposed in ProphetNet: Predicting Future N-gram for Sequence-to-Sequence Pre-training, by Yu Yan, Weizhen Qi, Yeyun Gong, Dayiheng Liu, Nan Duan, Jiusheng Chen, Ruofei
+Zhang, Ming Zhou on 13 Jan, 2020.
+ProphetNet is an encoder-decoder model and can predict n-future tokens for "ngram" language modeling instead of just
+the next token.
+The abstract from the paper is the following:
+In this paper, we present a new sequence-to-sequence pretraining model called Proph

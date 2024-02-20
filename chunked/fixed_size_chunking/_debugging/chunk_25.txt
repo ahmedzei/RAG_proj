@@ -1,0 +1,10 @@
+       super().init()
+        self.wi_0 = nn.Linear(config.d_model, config.d_ff, bias=False)
+        self.wi_1 = nn.Linear(config.d_model, config.d_ff, bias=False)
+        self.wo = nn.Linear(config.d_ff, config.d_model, bias=False)
+        self.dropout = nn.Dropout(config.dropout_rate)
+        self.gelu_act = ACT2FN["gelu_new"]
+def forward(self, hidden_states):
+    hidden_gelu = self.gelu_act(self.wi_0(hidden_states))
+    hidden_linear = self.wi_1(hidden_states)
+    hidden_states = hidden_gelu * hidden_lin

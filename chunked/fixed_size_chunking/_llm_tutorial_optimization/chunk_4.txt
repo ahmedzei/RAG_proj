@@ -1,0 +1,4 @@
+hms, and discuss improved LLM architectures. While doing so, we run practical examples showcasing each of the feature improvements.
+1. Lower Precision
+Memory requirements of LLMs can be best understood by seeing the LLM as a set of weight matrices and vectors and the text inputs as a sequence of vectors. In the following, the definition weights will be used to signify all model weight matrices and vectors.
+At the time of writing this guide, LLMs consist of at least a couple billion parameters. Each paramete

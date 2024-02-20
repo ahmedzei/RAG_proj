@@ -1,0 +1,9 @@
+ into a convenient single processor:
+ 
+
+from transformers import ViltProcessor
+processor = ViltProcessor.from_pretrained(model_checkpoint)
+
+To preprocess the data we need to encode the images and questions using the [ViltProcessor]. The processor will use 
+the [BertTokenizerFast] to tokenize the text and create input_ids, attention_mask and token_type_ids for the text data. 
+As for images, the processor will leverage [ViltImageProcessor] to resize and normalize the image, and create pixel_values and pixel_m

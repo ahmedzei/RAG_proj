@@ -1,0 +1,28 @@
+Please use
+  [Wav2Vec2Processor] for the feature extraction.
+WavLM model can be fine-tuned using connectionist temporal classification (CTC) so the model output has to be decoded
+  using [Wav2Vec2CTCTokenizer].
+WavLM performs especially well on speaker verification, speaker identification, and speaker diarization tasks.
+
+Resources
+
+Audio classification task guide
+Automatic speech recognition task guide
+
+WavLMConfig
+[[autodoc]] WavLMConfig
+WavLMModel
+[[autodoc]] WavLMModel
+    - forward
+WavLMForCTC
+[[autodoc]] WavLMForCTC
+    - forward
+WavLMForSequenceClassification
+[[autodoc]] WavLMForSequenceClassification
+    - forward
+WavLMForAudioFrameClassification
+[[autodoc]] WavLMForAudioFrameClassification
+    - forward
+WavLMForXVector
+[[autodoc]] WavLMForXVector
+    - forward.

@@ -1,0 +1,14 @@
+re table + sentence
+data = {"Actors": ["Brad Pitt", "Leonardo Di Caprio", "George Clooney"], "Number of movies": ["87", "53", "69"]}
+table = pd.DataFrame.from_dict(data)
+sentence = "George Clooney has 30 movies"
+encoding = tokenizer(table, sentence, return_tensors="pt")
+forward pass
+outputs = model(**encoding)
+print prediction
+predicted_class_idx = outputs.logits[0].argmax(dim=0).item()
+print(model.config.id2label[predicted_class_idx])
+Refused
+
+ 
+TAPEX architecture is the same as BART, except for tokenizati

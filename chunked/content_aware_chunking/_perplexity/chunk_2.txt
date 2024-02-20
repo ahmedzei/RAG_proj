@@ -1,0 +1,2 @@
+Importantly, this means that the tokenization procedure has a direct impact on a model's perplexity which should always be taken into consideration when comparing different models.
+This is also equivalent to the exponentiation of the cross-entropy between the data and model predictions.

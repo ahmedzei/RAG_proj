@@ -1,0 +1,16 @@
+ith DETA.
+
+Demo notebooks for DETA can be found here.
+See also: Object detection task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+DetaConfig
+[[autodoc]] DetaConfig
+DetaImageProcessor
+[[autodoc]] DetaImageProcessor
+    - preprocess
+    - post_process_object_detection
+DetaModel
+[[autodoc]] DetaModel
+    - forward
+DetaForOb

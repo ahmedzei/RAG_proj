@@ -1,0 +1,12 @@
+earning_rate,
+     num_train_steps=num_train_steps,
+     weight_decay_rate=weight_decay_rate,
+     num_warmup_steps=0,
+ )
+
+Then, load SegFormer with [TFAutoModelForSemanticSegmentation] along with the label mappings, and compile it with the
+optimizer. Note that Transformers models all have a default task-relevant loss function, so you don't need to specify one unless you want to:
+
+from transformers import TFAutoModelForSemanticSegmentation
+model = TFAutoModelForSemanticSegmentation.from_pretrained(
+     che

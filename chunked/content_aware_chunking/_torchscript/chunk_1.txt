@@ -1,0 +1,32 @@
+It is a focus of interest to
+us and we will deepen our analysis in upcoming releases, with more code examples, a more
+flexible implementation, and benchmarks comparing Python-based codes with compiled
+TorchScript.
+
+According to the TorchScript documentation:
+
+TorchScript is a way to create serializable and optimizable models from PyTorch code.
+
+There are two PyTorch modules, JIT and
+TRACE, that allow developers to export their
+models to be reused in other programs like efficiency-oriented C++ programs.
+We provide an interface that allows you to export 🤗 Transformers models to TorchScript
+so they can be reused in a different environment than PyTorch-based Python programs.
+Here, we explain how to export and use our models using TorchScript.
+Exporting a model requires two things:
+
+model instantiation with the torchscript flag
+a forward pass with dummy inputs
+
+These necessities imply several things developers should be careful about as detailed
+below.
+TorchScript flag and tied weights
+The torchscript flag is necessary because most of the 🤗 Transformers language models
+have tied weights between their Embedding layer and their Decoding layer.
+TorchScript does not allow you to export models that have tied weights, so it is
+necessary to untie and clone the weights beforehand.
+Models instantiated with the torchscript flag have their Embedding layer and
+Decoding layer separated, which means that they should not be trained down the line.
+Training would desynchronize the two layers, leading to unexpected results.
+This is not the case for models that do not have a language model head, as those do not
+have tied weights.

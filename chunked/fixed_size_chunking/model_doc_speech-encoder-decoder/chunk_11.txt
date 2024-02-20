@@ -1,0 +1,7 @@
+EncoderDecoderModel
+    - forward
+    - from_encoder_decoder_pretrained
+FlaxSpeechEncoderDecoderModel
+[[autodoc]] FlaxSpeechEncoderDecoderModel
+    - call
+    - from_encoder_decoder_pretrained

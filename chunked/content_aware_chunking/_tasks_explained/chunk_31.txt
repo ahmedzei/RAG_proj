@@ -1,0 +1,7 @@
+We'll explain how Mask2Former works in this section, and then you can try finetuning SegFormer at the end.
+
+There are three main components to Mask2Former:
+
+A Swin backbone accepts an image and creates a low-resolution image feature map from 3 consecutive 3x3 convolutions.
+
+The feature map is passed to a pixel decoder which gradually upsamples the low-resolution features into high-resolution per-pixel embeddings.

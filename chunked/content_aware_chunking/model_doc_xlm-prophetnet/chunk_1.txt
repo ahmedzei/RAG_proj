@@ -1,0 +1,2 @@
+Its architecture is identical to ProhpetNet, but the model was trained on the multi-lingual
+"wiki100" Wikipedia dump.

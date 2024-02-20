@@ -1,0 +1,4 @@
+Despite their success, most available
+models have either been trained on English data or on the concatenation of data in multiple languages. This makes
+practical use of such models --in all languages except English-- very limited. Aiming to address this issue for French,
+we release CamemBERT, a French version of the Bi-directional Encoders for Transformers (BERT).

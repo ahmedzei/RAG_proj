@@ -1,0 +1,9 @@
+dding and truncation strategy to handle any variable sequence lengths. To process your dataset in one step, use 🤗 Datasets map method to apply a preprocessing function over the entire dataset:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-cased")
+def tokenize_function(examples):
+     return tokenizer(examples["text"], padding="max_length", truncation=True)
+tokenized_datasets = dataset.map(tokenize_function, batched=True)
+
+If you like, you can create

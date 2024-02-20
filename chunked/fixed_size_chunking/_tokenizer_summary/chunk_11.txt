@@ -1,0 +1,8 @@
+the tokenizer's vocabulary, but the word "gpu" is not. Consequently, the
+tokenizer splits "gpu" into known subwords: ["gp" and "##u"]. "##" means that the rest of the token should
+be attached to the previous one, without space (for decoding or reversal of the tokenization).
+As another example, [~transformers.XLNetTokenizer] tokenizes our previously exemplary text as follows:
+
+from transformers import XLNetTokenizer
+tokenizer = XLNetTokenizer.from_pretrained("xlnet/xlnet-base-cased")
+tokenizer.tokenize("Don'

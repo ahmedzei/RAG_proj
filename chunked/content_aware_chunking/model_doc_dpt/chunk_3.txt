@@ -1,0 +1,6 @@
+When applied to semantic segmentation, dense vision transformers set a new state of the art on ADE20K with 49.02% mIoU. We further show that the architecture can be fine-tuned on smaller datasets such as NYUv2, KITTI, and Pascal Context where it also sets the new state of the art.
+
+ DPT architecture. Taken from the original paper. 
+This model was contributed by nielsr. The original code can be found here.
+Usage tips
+DPT is compatible with the [AutoBackbone] class.

@@ -1,0 +1,3 @@
+del | [~transformers.DetrForObjectDetection] | [~transformers.DetrForSegmentation] | [~transformers.DetrForSegmentation] |
+| Example dataset | COCO detection | COCO detection, COCO panoptic | COCO panoptic  |                                                                        |
+| Format of annotations to provide to  [~transformers.DetrImageProcessor] | {'image_id': int, 'annotations': List[Dict]} each Dict being a COCO object annotation  | {'image_id': int, 'annotations': List[Dict]}  (in case of COCO de

@@ -1,0 +1,8 @@
+
+FLAN-UL2
+Overview
+Flan-UL2 is an encoder decoder model based on the T5 architecture. It uses the same configuration as the UL2 model released earlier last year. 
+It was fine tuned using the "Flan" prompt tuning and dataset collection. Similar to Flan-T5,  one can directly use FLAN-UL2 weights without finetuning the model:
+According to the original blog here are the notable improvements:
+
+The original UL2 model was only trained with receptive field of 512, which made it non-ideal for N-shot prompting where 

@@ -1,0 +1,4 @@
+We also examine how well MatCha pretraining transfers to domains such as screenshots, textbook diagrams, and document figures and observe overall improvement, verifying the usefulness of MatCha pretraining on broader visual language tasks.
+Model description
+MatCha is a model that is trained using Pix2Struct architecture. You can find more information about Pix2Struct in the Pix2Struct documentation.
+MatCha is a Visual Question Answering subset of Pix2Struct architecture.

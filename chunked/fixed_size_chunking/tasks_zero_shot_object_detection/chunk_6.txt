@@ -1,0 +1,18 @@
+28412247,
+  'label': 'nasa badge',
+  'box': {'xmin': 277, 'ymin': 338, 'xmax': 327, 'ymax': 380}},
+ {'score': 0.10649408400058746,
+  'label': 'rocket',
+  'box': {'xmin': 358, 'ymin': 64, 'xmax': 424, 'ymax': 280}}]
+
+Let's visualize the predictions:
+
+from PIL import ImageDraw
+draw = ImageDraw.Draw(image)
+for prediction in predictions:
+     box = prediction["box"]
+     label = prediction["label"]
+     score = prediction["score"]
+
+     xmin, ymin, xmax, ymax = box.values()
+     draw.rectangle((xmin, ymin, xmax

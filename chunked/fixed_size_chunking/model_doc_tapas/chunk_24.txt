@@ -1,0 +1,4 @@
+r more tuples (each tuple being a cell coordinate, i.e. row, column pair that is part of the answer)
+answer_text: list of one or more strings (each string being a cell value that is part of the answer)
+aggregation_label: index of the aggregation operator. Only required in case of strong supervision for aggregation (the WikiSQL-supervised case)
+float_answer: the float answer to the question, if there is one (np.nan if there isn't). Only required in case of weak supervision for aggregation (such as WTQ and Wi

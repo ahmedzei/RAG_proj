@@ -1,0 +1,7 @@
+We
+open-source our scripts so that others may reproduce the data, evaluation, and final M2M-100 model.
+This model was contributed by valhalla.
+Usage tips and examples
+M2M100 is a multilingual encoder-decoder (seq-to-seq) model primarily intended for translation tasks. As the model is
+multilingual it expects the sequences in a certain format: A special language id token is used as prefix in both the
+source and target text.

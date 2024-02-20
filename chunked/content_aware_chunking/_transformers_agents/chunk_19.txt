@@ -1,0 +1,25 @@
+Here is an updated list of the tools we have integrated 
+in transformers:
+
+Document question answering: given a document (such as a PDF) in image format, answer a question on this document (Donut)
+Text question answering: given a long text and a question, answer the question in the text (Flan-T5)
+Unconditional image captioning: Caption the image! (BLIP)
+Image question answering: given an image, answer a question on this image (VILT)
+Image segmentation: given an image and a prompt, output the segmentation mask of that prompt (CLIPSeg)
+Speech to text: given an audio recording of a person talking, transcribe the speech into text (Whisper)
+Text to speech: convert text to speech (SpeechT5)
+Zero-shot text classification: given a text and a list of labels, identify to which label the text corresponds the most (BART)
+Text summarization: summarize a long text in one or a few sentences (BART)
+Translation: translate the text into a given language (NLLB)
+
+These tools have an integration in transformers, and can be used manually as well, for example:
+
+from transformers import load_tool
+tool = load_tool("text-to-speech")
+audio = tool("This is a text to speech tool")
+
+Custom tools
+While we identify a curated set of tools, we strongly believe that the main value provided by this implementation is 
+the ability to quickly create and share custom tools.
+By pushing the code of a tool to a Hugging Face Space or a model repository, you're then able to leverage the tool 
+directly with the agent.

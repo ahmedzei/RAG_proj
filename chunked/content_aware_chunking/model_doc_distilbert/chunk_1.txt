@@ -1,0 +1,7 @@
+It has 40% less parameters than
+google-bert/bert-base-uncased, runs 60% faster while preserving over 95% of BERT's performances as measured on the GLUE language
+understanding benchmark.
+The abstract from the paper is the following:
+As Transfer Learning from large-scale pre-trained models becomes more prevalent in Natural Language Processing (NLP),
+operating these large models in on-the-edge and/or under constrained computational training or inference budgets
+remains challenging.

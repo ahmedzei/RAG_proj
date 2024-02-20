@@ -1,0 +1,11 @@
+ks.
+Relevant checkpoints can be found under https://huggingface.co/models?other=wavlm.
+This model was contributed by patrickvonplaten. The Authors' code can be
+found here.
+Usage tips
+
+WavLM is a speech model that accepts a float array corresponding to the raw waveform of the speech signal. Please use
+  [Wav2Vec2Processor] for the feature extraction.
+WavLM model can be fine-tuned using connectionist temporal classification (CTC) so the model output has to be decoded
+  using [Wav2Vec2CTCTokenizer].
+WavLM perf

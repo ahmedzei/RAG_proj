@@ -1,0 +1,38 @@
+The retriever and seq2seq 
+modules are initialized from pretrained models, and fine-tuned jointly, allowing both retrieval and generation to adapt 
+to downstream tasks.
+RagConfig
+[[autodoc]] RagConfig
+RagTokenizer
+[[autodoc]] RagTokenizer
+Rag specific outputs
+[[autodoc]] models.rag.modeling_rag.RetrievAugLMMarginOutput
+[[autodoc]] models.rag.modeling_rag.RetrievAugLMOutput
+RagRetriever
+[[autodoc]] RagRetriever
+
+RagModel
+[[autodoc]] RagModel
+    - forward
+RagSequenceForGeneration
+[[autodoc]] RagSequenceForGeneration
+    - forward
+    - generate
+RagTokenForGeneration
+[[autodoc]] RagTokenForGeneration
+    - forward
+    - generate
+
+TFRagModel
+[[autodoc]] TFRagModel
+    - call
+TFRagSequenceForGeneration
+[[autodoc]] TFRagSequenceForGeneration
+    - call
+    - generate
+TFRagTokenForGeneration
+[[autodoc]] TFRagTokenForGeneration
+    - call
+    - generate
+
+.

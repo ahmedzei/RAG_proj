@@ -1,0 +1,19 @@
+st on how to Accelerate Vision Transformer (ViT) with Quantization using Optimum
+
+⚡️ Inference
+
+A notebook on Quick demo: Vision Transformer (ViT) by Google Brain
+
+🚀 Deploy
+
+A blog post on Deploying Tensorflow Vision Models in Hugging Face with TF Serving
+A blog post on Deploying Hugging Face ViT on Vertex AI
+A blog post on Deploying Hugging Face ViT on Kubernetes with TF Serving
+
+ViTConfig
+[[autodoc]] ViTConfig
+ViTFeatureExtractor
+[[autodoc]] ViTFeatureExtractor
+    - call
+ViTImageProcessor
+[[autodoc]] ViT

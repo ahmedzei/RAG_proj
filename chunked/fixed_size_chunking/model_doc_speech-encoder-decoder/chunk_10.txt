@@ -1,0 +1,12 @@
+ean", split="validation")
+input_values = feature_extractor(ds[0]["audio"]["array"], return_tensors="pt").input_values
+load its corresponding transcription and tokenize to generate labels
+labels = tokenizer(ds[0]["text"], return_tensors="pt").input_ids
+the forward function automatically creates the correct decoder_input_ids
+loss = model(input_values=input_values, labels=labels).loss
+loss.backward()
+
+SpeechEncoderDecoderConfig
+[[autodoc]] SpeechEncoderDecoderConfig
+SpeechEncoderDecoderModel
+[[autodoc]] Speech

@@ -1,0 +1,3 @@
+Another example is optical character recognition. Refer to TrOCR, which is an instance of [VisionEncoderDecoderModel].
+Randomly initializing VisionEncoderDecoderModel from model configurations.
+[VisionEncoderDecoderModel] can be randomly initialized from an encoder and a decoder config.

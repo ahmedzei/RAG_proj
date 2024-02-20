@@ -1,0 +1,5 @@
+At the same time, prompts in natural language 
+are quite sensitive to changes. Even minor modifications in prompts can lead to wildly different outputs.
+While there is no exact recipe for creating prompts to match all cases, researchers have worked out a number of best 
+practices that help to achieve optimal results more consistently. 
+This guide covers the prompt engineering best practices to help you craft better LLM prompts and solve various NLP tasks.

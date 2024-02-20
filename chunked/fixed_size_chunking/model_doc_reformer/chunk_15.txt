@@ -1,0 +1,20 @@
+MHead] should be used as follows:
+python
+input_ids = tokenizer.encode("This is a sentence from the training data", return_tensors="pt")
+loss = model(input_ids, labels=input_ids)[0]
+Resources
+
+Text classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+
+ReformerConfig
+[[autodoc]] ReformerConfig
+ReformerTokenizer
+[[autodoc]] ReformerTokenizer
+    - save_vocabulary
+ReformerTokenizerFast
+[[autodoc]] ReformerTokenizerFast
+ReformerModel
+[[au

@@ -1,0 +1,10 @@
+ear
+    hidden_states = self.dropout(hidden_states)
+    hidden_states = self.wo(hidden_states)
+    return hidden_states
+
+Now it's easy to see the dropout call, and all the previous calls as well.
+Since the detection is happening in a forward hook, these reports are printed immediately after each forward
+returns.
+Going back to the full report, to act on it and to fix the problem, we need to go a few frames up where the numbers
+started to go up and most likely switch to the fp32 mode here, so that the numbers

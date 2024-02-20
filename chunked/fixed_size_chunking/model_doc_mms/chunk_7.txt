@@ -1,0 +1,12 @@
+e able to use it for predictions and inference.
+
+If you want to use the ASR pipeline, you can load your chosen target language as such:
+
+from transformers import pipeline
+model_id = "facebook/mms-1b-all"
+target_lang = "fra"
+pipe = pipeline(model=model_id, model_kwargs={"target_lang": "fra", "ignore_mismatched_sizes": True})
+
+Inference
+Next, let's look at how we can run MMS in inference and change adapter layers after having called [~PretrainedModel.from_pretrained]
+First, we load audio data in different lan

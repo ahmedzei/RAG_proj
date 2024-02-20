@@ -1,0 +1,15 @@
+That being said, you don't have to spend too much time on the
+theoretical aspects, but rather focus on the practical ones, namely:
+
+What type of model is brand_new_bert? BERT-like encoder-only model? GPT2-like decoder-only model? BART-like
+  encoder-decoder model? Look at the model_summary if you're not familiar with the differences between those.
+What are the applications of brand_new_bert? Text classification? Text generation? Seq2Seq tasks, e.g.,
+  summarization?
+What is the novel feature of the model that makes it different from BERT/GPT-2/BART?
+Which of the already existing 🤗 Transformers models is most
+  similar to brand_new_bert?
+What type of tokenizer is used? A sentencepiece tokenizer? Word piece tokenizer? Is it the same tokenizer as used
+  for BERT or BART?
+
+After you feel like you have gotten a good overview of the architecture of the model, you might want to write to the
+Hugging Face team with any questions you might have.

@@ -1,0 +1,4 @@
+It is not advised to write the conversion script from scratch, but rather to look through already
+existing conversion scripts in 🤗 Transformers for one that has been used to convert a similar model that was written in
+the same framework as brand_new_bert. Usually, it is enough to copy an already existing conversion script and
+slightly adapt it for your use case.

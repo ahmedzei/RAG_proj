@@ -1,0 +1,4 @@
+These include special tokens like bos_token and eos_token, as well as the add_generation_prompt
+variable that we discussed above. You can also use the loop variable to access information about the current loop
+iteration, for example  using {% if loop.last %} to check if the current message is the last message in the 
+conversation.

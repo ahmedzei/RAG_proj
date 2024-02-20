@@ -1,0 +1,7 @@
+Result: Text: The first human went into space and orbited the Earth on April 12, 1961.
+Date: 04/12/1961
+Text: The first-ever televised presidential debate in the United States took place on September 28, 1960, between presidential candidates John F. Kennedy and Richard Nixon. 
+Date: 09/28/1960
+
+In the above code snippet we used a single example to demonstrate the desired output to the model, so this can be called a 
+"one-shot" prompting. However, depending on the task complexity you may need to use more tha

@@ -1,0 +1,3 @@
+Conditional DETR
+Overview
+The Conditional DETR model was proposed in Conditional DETR for Fast Training Convergence by Depu Meng, Xiaokang Chen, Zejia Fan, Gang Zeng, Houqiang Li, Yuhui Yuan, Lei Sun, Jingdong Wang. Conditional DETR presents a conditional cross-attention mechanism for fast DETR training.

@@ -1,0 +1,4 @@
+ure=0.5)
+tokenizer.batch_decode(outputs, skip_special_tokens=True)
+['Alice and Bob are going to the same party. It is a small party, in a small']
+

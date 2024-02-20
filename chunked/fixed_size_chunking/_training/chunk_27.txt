@@ -1,0 +1,11 @@
+ specify device to use a GPU if you have access to one. Otherwise, training on a CPU may take several hours instead of a couple of minutes.
+
+import torch
+device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
+model.to(device)
+
+Get free access to a cloud GPU if you don't have one with a hosted notebook like Colaboratory or SageMaker StudioLab.
+
+Great, now you are ready to train! 🥳 
+Training loop
+To keep track of your training progress, use the tqdm library to add a progress bar o

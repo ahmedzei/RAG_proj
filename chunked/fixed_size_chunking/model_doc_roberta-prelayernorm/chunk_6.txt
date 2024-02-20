@@ -1,0 +1,12 @@
+[[autodoc]] FlaxRobertaPreLayerNormForSequenceClassification
+    - call
+FlaxRobertaPreLayerNormForMultipleChoice
+[[autodoc]] FlaxRobertaPreLayerNormForMultipleChoice
+    - call
+FlaxRobertaPreLayerNormForTokenClassification
+[[autodoc]] FlaxRobertaPreLayerNormForTokenClassification
+    - call
+FlaxRobertaPreLayerNormForQuestionAnswering
+[[autodoc]] FlaxRobertaPreLayerNormForQuestionAnswering
+    - call
+

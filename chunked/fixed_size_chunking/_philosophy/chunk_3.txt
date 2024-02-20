@@ -1,0 +1,7 @@
+ building blocks for neural nets. If you want to
+    extend or build upon the library, just use regular Python, PyTorch, TensorFlow, Keras modules and inherit from the base
+    classes of the library to reuse functionalities like model loading and saving. If you'd like to learn more about our coding philosophy for models, check out our Repeat Yourself blog post.
+
+Provide state-of-the-art models with performances as close as possible to the original models:
+
+We provide at least one example for each architect

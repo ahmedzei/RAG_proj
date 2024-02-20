@@ -1,0 +1,3 @@
+But first, let's load some pretrained weights inside our model.
+In your own use case, you will probably be training your custom model on your own data. To go fast for this tutorial,
+we will use the pretrained version of the resnet50d.

@@ -1,0 +1,12 @@
+ have None
+values. Here, for instance, it has two keys that are sequences and scores.
+We document here all output types.
+PyTorch
+[[autodoc]] generation.GenerateDecoderOnlyOutput
+[[autodoc]] generation.GenerateEncoderDecoderOutput
+[[autodoc]] generation.GenerateBeamDecoderOnlyOutput
+[[autodoc]] generation.GenerateBeamEncoderDecoderOutput
+TensorFlow
+[[autodoc]] generation.TFGreedySearchEncoderDecoderOutput
+[[autodoc]] generation.TFGreedySearchDecoderOnlyOutput
+[[autodoc]] generation.TFSampleEncoderDecoderOutp

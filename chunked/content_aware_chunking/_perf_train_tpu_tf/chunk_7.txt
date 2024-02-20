@@ -1,0 +1,4 @@
+When you use more than a single TPU but less than a whole pod (for example, a v3-32), your TPU fleet is referred to as a pod slice.
+When you access a free TPU via Colab, you generally get a single v2-8 TPU.
+I keep hearing about this XLA thing. What’s XLA, and how does it relate to TPUs?
+XLA is an optimizing compiler, used by both TensorFlow and JAX. In JAX it is the only compiler, whereas in TensorFlow it is optional (but mandatory on TPU!).

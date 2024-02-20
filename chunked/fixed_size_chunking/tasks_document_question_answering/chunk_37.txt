@@ -1,0 +1,15 @@
+["test"][2]
+question = example["query"]["en"]
+image = example["image"]
+print(question)
+print(example["answers"])
+'Who is ‘presiding’ TRRF GENERAL SESSION (PART 1)?'
+['TRRF Vice President', 'lee a. waller']
+
+Next, instantiate a pipeline for
+document question answering with your model, and pass the image + question combination to it.
+
+from transformers import pipeline
+qa_pipeline = pipeline("document-question-answering", model="MariaK/layoutlmv2-base-uncased_finetuned_docvqa")
+qa_pipeline(image, question)
+[{'

@@ -1,0 +1,11 @@
+cific 
+GPU you are using. Note that on newer GPUs a model can sometimes take up more space since the weights are loaded in an 
+optimized fashion that speeds up the usage of the model. Now we can also quickly check if we get the same result 
+as with nvidia-smi CLI:
+
+nvidia-smi
+```bash
+Tue Jan 11 08:58:05 2022
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.91.03    Driver Version: 460.91.03    CUDA Version: 11.2     |
+|-------------------------------+---------

@@ -1,0 +1,10 @@
+Benchmarks
+
+Hugging Face's Benchmarking tools are deprecated and it is advised to use external Benchmarking libraries to measure the speed 
+and memory complexity of Transformer models.
+
+[[open-in-colab]]
+Let's take a look at how 🤗 Transformers models can be benchmarked, best practices, and already available benchmarks.
+A notebook explaining in more detail how to benchmark 🤗 Transformers models can be found here.
+How to benchmark 🤗 Transformers models
+The classes [PyTorchBenchmark] and [TensorFlowBenchmark] allow to flexibly benchmark 🤗 Transformers models.

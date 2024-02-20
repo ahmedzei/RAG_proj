@@ -1,0 +1,3 @@
+You can find out what the default
+template for your tokenizer is by checking the tokenizer.default_chat_template attribute.
+This is something we do purely for backward compatibility reasons, to avoid breaking any existing workflows.

@@ -1,0 +1,17 @@
+not can be used to
+negate.
+To run all tests except those whose name contains adam:
+
+pytest -k "not adam" tests/test_optimization.py
+And you can combine the two patterns in one:
+
+pytest -k "ada and not adam" tests/test_optimization.py
+For example to run both test_adafactor and test_adam_w you can use:
+
+pytest -k "test_adam_w or test_adam_w" tests/test_optimization.py
+Note that we use or here, since we want either of the keywords to match to include both.
+If you want to include only tests that include both patterns, and is to be used:
+
+pytest -k "test and ada" tests/test_optimization.py
+Run accelerate tests
+Sometimes you need to run accelerate tests on your models.

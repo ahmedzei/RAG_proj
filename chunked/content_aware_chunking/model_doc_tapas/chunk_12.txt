@@ -1,0 +1,2 @@
+Note that the forward pass of TAPAS is a bit different in case of a conversational set-up: in that case, you have to feed every table-question pair one by one to the model, such that the prev_labels token type ids can be overwritten by the predicted labels of the model to the previous question. See "Usage" section for more info.
+TAPAS is similar to BERT and therefore relies on the masked language modeling (MLM) objective.

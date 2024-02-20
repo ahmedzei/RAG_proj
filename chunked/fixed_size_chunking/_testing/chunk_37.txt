@@ -1,0 +1,15 @@
+.6, 1),
+    ],
+)
+def test_floor(name, input, expected):
+    assert_equal(math.floor(input), expected)
+
+Same as with parameterized, with pytest.mark.parametrize you can have a fine control over which sub-tests are
+run, if the -k filter doesn't do the job. Except, this parametrization function creates a slightly different set of
+names for the sub-tests. Here is what they look like:
+
+pytest test_this2.py --collect-only -q
+and it will list:
+
+test_this2.py::test_floor[integer-1-1.0]
+test_this2.py::test_floor[neg

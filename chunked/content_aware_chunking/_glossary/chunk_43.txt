@@ -1,0 +1,8 @@
+The portion of the unlabeled data that the model predicts with the most confidence gets added to the labeled dataset and used to retrain the model.
+sequence-to-sequence (seq2seq)
+Models that generate a new sequence from an input, like translation models, or summarization models (such as
+Bart or T5).
+Sharded DDP
+Another name for the foundational ZeRO concept as used by various other implementations of ZeRO.
+stride
+In convolution or pooling, the stride refers to the distance the kernel is moved over a matrix.

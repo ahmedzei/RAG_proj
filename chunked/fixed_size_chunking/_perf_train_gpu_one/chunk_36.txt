@@ -1,0 +1,9 @@
+h larger models. In this case, you need to separately
+install the library, then follow one of the guides to create a configuration file 
+and launch DeepSpeed: 
+
+For an in-depth guide on DeepSpeed integration with [Trainer], review the corresponding documentation, specifically the 
+section for a single GPU. Some adjustments are required to use DeepSpeed in a notebook; please take a look at the corresponding guide.
+If you prefer to use 🤗 Accelerate, refer to 🤗 Accelerate DeepSpeed guide.
+
+Using torch.compile

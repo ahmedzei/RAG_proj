@@ -1,0 +1,7 @@
+This model will treat all these elements together
+as one big sequence (a trajectory).
+TrajectoryTransformerConfig
+[[autodoc]] TrajectoryTransformerConfig
+TrajectoryTransformerModel
+[[autodoc]] TrajectoryTransformerModel
+    - forward.

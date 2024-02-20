@@ -1,0 +1,4 @@
+on | How to fine-tune mBART using Seq2SeqTrainer for Hindi to English translation | Vasudev Gupta | |
+|Fine-tune LayoutLM on FUNSD (a form understanding dataset) | How to fine-tune LayoutLMForTokenClassification on the FUNSD dataset for information extraction from scanned documents | Niels Rogge | |
+|Fine-Tune DistilGPT2 and Generate Text | How to fine-tune DistilGPT2 and generate text | Aakash Tripathi | |
+|Fine-Tune LED on up to 8K tokens | How to fine-tune LED on pubmed for long-range summarization | Pat

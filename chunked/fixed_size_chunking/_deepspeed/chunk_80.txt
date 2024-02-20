@@ -1,0 +1,7 @@
+ferent inputs on different GPUs in parallel.
+Make sure to:
+
+disable CPU offload if you have enough GPU memory (since it slows things down).
+enable bf16 if you have an Ampere or newer GPU to make things faster. If you don’t have one of these GPUs, you may enable fp16 as long as you don’t use a model pretrained in bf16 (T5 models) because it may lead to an overflow error.
+
+Take a look at the following script to get a better idea of how to run ZeRO Inference without the [Trainer] on a model that won't fit on a

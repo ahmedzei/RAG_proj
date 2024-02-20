@@ -1,0 +1,11 @@
+Are you on CPU or GPU? Do
+you want the lowest latency, the highest throughput, support for
+many models, or just highly optimize 1 specific model?
+There are many ways to tackle this topic, so what we are going to present is a good default
+to get started which may not necessarily be the most optimal solution for you.
+
+The key thing to understand is that we can use an iterator, just like you would on a
+dataset, since a webserver is basically a system that waits for requests and
+treats them as they come in.
+Usually webservers are multiplexed (multithreaded, async, etc..) to handle various
+requests concurrently.

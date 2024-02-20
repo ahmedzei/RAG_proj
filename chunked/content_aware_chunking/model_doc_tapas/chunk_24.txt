@@ -1,0 +1,5 @@
+This format is a TSV/CSV file with the following columns:
+
+id: optional, id of the table-question pair, for bookkeeping purposes.
+annotator: optional, id of the person who annotated the table-question pair, for bookkeeping purposes.
+position: integer indicating if the question is the first, second, third, related to the table. Only required in case of conversational setup (SQA).

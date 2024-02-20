@@ -1,0 +1,12 @@
+o.
+        target_fps (int): the input video may have different fps, convert it to
+            the target video fps before frame sampling.
+    Returns:
+        frames (tensor): decoded frames from the video. Return None if the no
+            video stream was found.
+        fps (float): the number of frames per second of the video.
+    '''
+    video = container.streams.video[0]
+    fps = float(video.average_rate)
+    clip_size = sampling_rate * num_frames / target_fps * fps
+    delta = max(num_frames - clip_

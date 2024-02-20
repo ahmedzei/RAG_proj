@@ -1,0 +1,6 @@
+ing a new record. Our case study on text generation further demonstrates the advantage of BioGPT on biomedical literature to generate fluent descriptions for biomedical terms.
+This model was contributed by kamalkraj. The original code can be found here.
+Usage tips
+
+BioGPT is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather than the left.
+BioGPT was trained with a causal language modeling (CLM) objective and is therefore powerful at predicting the next t

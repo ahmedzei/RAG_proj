@@ -1,0 +1,15 @@
+If you're working in a notebook, run the following line to check if a GPU is available: 
+
+!nvidia-smi
+or alternatively for AMD GPUs:
+
+!rocm-smi
+
+We encourage you to log in to your Hugging Face account to upload and share your model with the community. When prompted, enter your token to log in:
+
+from huggingface_hub import notebook_login
+notebook_login()
+
+Load the dataset
+VoxPopuli is a large-scale multilingual speech corpus consisting of 
+data sourced from 2009-2020 European Parliament event recordings.

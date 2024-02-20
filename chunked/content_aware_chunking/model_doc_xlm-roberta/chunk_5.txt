@@ -1,0 +1,4 @@
+It only uses masked language modeling on sentences coming from one language.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with XLM-RoBERTa.

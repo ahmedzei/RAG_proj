@@ -1,0 +1,17 @@
+epository
+If you want to use the advanced version of the model (triton kernels, direct flash attention integration), you can still use the original model implementation by adding trust_remote_code=True when calling from_pretrained.
+
+Resources
+
+Fine-tuning Notebook on how to fine-tune MPT-7B on a free Google Colab instance to turn the model into a Chatbot.
+
+MptConfig
+[[autodoc]] MptConfig
+    - all
+MptModel
+[[autodoc]] MptModel
+    - forward
+MptForCausalLM
+[[autodoc]] MptForCausalLM
+    - forward
+MptForSeque

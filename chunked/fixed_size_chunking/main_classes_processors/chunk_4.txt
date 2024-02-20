@@ -1,0 +1,10 @@
+eProcessor]
+[~data.processors.utils.WnliProcessor]
+
+Additionally, the following method can be used to load values from a data file and convert them to a list of
+[~data.processors.utils.InputExample].
+[[autodoc]] data.processors.glue.glue_convert_examples_to_features
+XNLI
+The Cross-Lingual NLI Corpus (XNLI) is a benchmark that evaluates the
+quality of cross-lingual text representations. XNLI is crowd-sourced dataset based on MultiNLI: pairs of text are labeled with textual entailment annotations for 15
+diffe

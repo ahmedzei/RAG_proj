@@ -1,0 +1,11 @@
+However, if you use gradient accumulation with bf16, gradients are accumulated in bf16 which may not be desired because this format's low precision can lead to lossy accumulation.
+bf16 can be setup in the config file or enabled from the command line when the following arguments are passed: --bf16 or --bf16_full_eval.
+yaml
+{
+    "bf16": {
+        "enabled": "auto"
+    }
+}
+
+Batch size
+The batch size can be auto-configured or explicitly set.

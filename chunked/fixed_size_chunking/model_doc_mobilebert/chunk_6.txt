@@ -1,0 +1,20 @@
+ileBertForSequenceClassification
+[[autodoc]] MobileBertForSequenceClassification
+    - forward
+MobileBertForMultipleChoice
+[[autodoc]] MobileBertForMultipleChoice
+    - forward
+MobileBertForTokenClassification
+[[autodoc]] MobileBertForTokenClassification
+    - forward
+MobileBertForQuestionAnswering
+[[autodoc]] MobileBertForQuestionAnswering
+    - forward
+
+TFMobileBertModel
+[[autodoc]] TFMobileBertModel
+    - call
+TFMobileBertForPreTraining
+[[autodoc]] TFMobileBertForPreTraining
+    - call
+TFMobileBertForMas

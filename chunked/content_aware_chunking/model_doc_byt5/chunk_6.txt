@@ -1,0 +1,35 @@
+If you are doing multi-task fine-tuning, you should use a prefix.
+Usage example
+ByT5 works on raw UTF-8 bytes, so it can be used without a tokenizer:
+thon
+
+from transformers import T5ForConditionalGeneration
+import torch
+model = T5ForConditionalGeneration.from_pretrained("google/byt5-small")
+num_special_tokens = 3
+Model has 3 special tokens which take up the input ids 0,1,2 of ByT5.
+=> Need to shift utf-8 character encodings by 3 before passing ids to model.
+input_ids = torch.tensor([list("Life is like a box of chocolates.".encode("utf-8"))]) + num_special_tokens
+labels = torch.tensor([list("La vie est comme une boîte de chocolat.".encode("utf-8"))]) + num_special_tokens
+loss = model(input_ids, labels=labels).loss
+loss.item()
+2.66
+
+For batched inference and training it is however recommended to make use of the tokenizer:
+thon
+
+from transformers import T5ForConditionalGeneration, AutoTokenizer
+model = T5ForConditionalGeneration.from_pretrained("google/byt5-small")
+tokenizer = AutoTokenizer.from_pretrained("google/byt5-small")
+model_inputs = tokenizer(
+     ["Life is like a box of chocolates.", "Today is Monday."], padding="longest", return_tensors="pt"
+ )
+labels_dict = tokenizer(
+     ["La vie est comme une boîte de chocolat.", "Aujourd'hui c'est lundi."], padding="longest", return_tensors="pt"
+ )
+labels = labels_dict.input_ids
+loss = model(**model_inputs, labels=labels).loss
+loss.item()
+17.9
+
+Similar to T5, ByT5 was trained on the span-mask denoising task.

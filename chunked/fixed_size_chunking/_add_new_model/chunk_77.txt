@@ -1,0 +1,6 @@
+tively, and to successively remove print statements showing the same values for intermediate presentations.
+When you're confident that both implementations yield the same output, verify the outputs with
+torch.allclose(original_output, output, atol=1e-3), you're done with the most difficult part! Congratulations - the
+work left to be done should be a cakewalk 😊.
+8. Adding all necessary model tests
+At this point, you have successfully added a new model. However, it is very much possible that the model does no

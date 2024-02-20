@@ -1,0 +1,3 @@
+If that's not the case on 
+your machine make sure to stop all processes that are using GPU memory. However, not all free GPU memory can be used by 
+the user. When a model is loaded to the GPU the kernels are also loaded, which can take up 1-2GB of memory.

@@ -1,0 +1,5 @@
+u how to integrate a new quantization method with the [HfQuantizer] class.
+Requirements
+Before integrating a new quantization method into Transformers, ensure the method you are trying to add meets the following prerequisites. Only quantization methods that can be run with PyTorch modules are currently supported.
+
+The quantization method is available through a Python package that is pip-installable by anyone (it is also fine if you can only install the package from source). Ideally, pre-compiled kernels are

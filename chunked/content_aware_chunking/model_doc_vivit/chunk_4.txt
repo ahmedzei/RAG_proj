@@ -1,0 +1,12 @@
+The original code (written in JAX) can be found here.
+VivitConfig
+[[autodoc]] VivitConfig
+VivitImageProcessor
+[[autodoc]] VivitImageProcessor
+    - preprocess
+VivitModel
+[[autodoc]] VivitModel
+    - forward
+VivitForVideoClassification
+[[autodoc]] transformers.VivitForVideoClassification
+    - forward.

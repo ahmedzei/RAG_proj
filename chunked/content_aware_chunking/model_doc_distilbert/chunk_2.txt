@@ -1,0 +1,3 @@
+In this work, we propose a method to pre-train a smaller general-purpose language representation
+model, called DistilBERT, which can then be fine-tuned with good performances on a wide range of tasks like its larger
+counterparts.

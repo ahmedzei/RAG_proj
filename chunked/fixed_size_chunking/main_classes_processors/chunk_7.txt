@@ -1,0 +1,10 @@
+s.SquadV1Processor]
+[~data.processors.utils.SquadV2Processor]
+
+They both inherit from the abstract class [~data.processors.utils.SquadProcessor]
+[[autodoc]] data.processors.squad.SquadProcessor
+    - all
+Additionally, the following method can be used to convert SQuAD examples into
+[~data.processors.utils.SquadFeatures] that can be used as model inputs.
+[[autodoc]] data.processors.squad.squad_convert_examples_to_features
+These processors as well as the aforementioned method can be used with files containing 

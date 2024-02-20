@@ -1,0 +1,6 @@
+ model (ideally a much smaller one) with the same tokenizer, to generate a few candidate tokens. The main
+model then validates the candidate tokens in a single forward pass, which speeds up the decoding process. If
+do_sample=True, then the token validation with resampling introduced in the
+speculative decoding paper is used.
+Currently, only greedy search and sampling are supported with assisted decoding, and assisted decoding doesn't support batched inputs.
+To learn more about assisted decoding, check this 

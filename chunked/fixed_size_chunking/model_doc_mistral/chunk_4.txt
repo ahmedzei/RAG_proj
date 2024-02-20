@@ -1,0 +1,10 @@
+hon src/transformers/models/mistral/convert_mistral_weights_to_hf.py \
+    --input_dir /path/to/downloaded/mistral/weights --model_size 7B --output_dir /output/path
+You can then load the converted model from the output/path:
+thon
+from transformers import MistralForCausalLM, LlamaTokenizer
+tokenizer = LlamaTokenizer.from_pretrained("/output/path")
+model = MistralForCausalLM.from_pretrained("/output/path")
+
+Combining Mistral and Flash Attention 2
+First, make sure to install the latest version of Flash Attenti

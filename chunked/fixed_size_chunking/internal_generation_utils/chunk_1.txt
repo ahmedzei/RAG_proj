@@ -1,0 +1,10 @@
+erate methods in the library.
+Generate Outputs
+The output of [~generation.GenerationMixin.generate] is an instance of a subclass of
+[~utils.ModelOutput]. This output is a data structure containing all the information returned
+by [~generation.GenerationMixin.generate], but that can also be used as tuple or dictionary.
+Here's an example:
+thon
+from transformers import GPT2Tokenizer, GPT2LMHeadModel
+tokenizer = GPT2Tokenizer.from_pretrained("openai-community/gpt2")
+model = GPT2LMHeadModel.from_pretrained("opena

@@ -1,0 +1,3 @@
+ is much less of a problem.
+How can you get around rule #3? The key is padding - if you pad all your inputs to the same length, and then use an attention_mask, you can get the same results as you’d get from variable shapes, but without any XLA issues. However, excessive padding can cause severe slowdown too - if you pad all your samples to the maximum length in the whole dataset, you might end up with batches consisting endless padding tokens, which will waste a lot of compute and memory!
+There isn’t a perf

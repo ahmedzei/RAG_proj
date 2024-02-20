@@ -1,0 +1,4 @@
+e Modeling with Reformer  | How to train on sequences as long as 500,000 tokens with Reformer |  Patrick von Platen |   |
+| Fine-tune BART for Summarization | How to fine-tune BART for summarization with fastai using blurr | Wayde Gilliam |  |
+| Fine-tune a pre-trained Transformer on anyone's tweets | How to generate tweets in the style of your favorite Twitter account by fine-tuning a GPT-2 model |  Boris Dayma |  |
+| Optimize 🤗 Hugging Face models with Weights & Biases | A complete tutorial showcasing W&B

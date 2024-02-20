@@ -1,0 +1,5 @@
+ipt for a variety of reasons such as a speaker's different speech rates.
+convolution
+A type of layer in a neural network where the input matrix is multiplied element-wise by a smaller matrix (kernel or filter) and the values are summed up in a new matrix. This is known as a convolutional operation which is repeated over the entire input matrix. Each operation is applied to a different segment of the input matrix. Convolutional neural networks (CNNs) are commonly used in computer vision.
+D
+DataParallel (DP)

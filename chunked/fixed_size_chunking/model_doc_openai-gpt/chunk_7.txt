@@ -1,0 +1,13 @@
+user. 🌎
+Causal language modeling chapter of the 🤗 Hugging Face Course.
+[OpenAIGPTLMHeadModel] is supported by this causal language modeling example script, text generation example script and notebook.
+[TFOpenAIGPTLMHeadModel] is supported by this causal language modeling example script and notebook.
+See also: Causal language modeling task guide
+
+A course material on Byte-Pair Encoding tokenization.
+
+OpenAIGPTConfig
+[[autodoc]] OpenAIGPTConfig
+OpenAIGPTTokenizer
+[[autodoc]] OpenAIGPTTokenizer
+    - save_voca

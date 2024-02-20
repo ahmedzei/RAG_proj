@@ -1,0 +1,9 @@
+e suggests MobileViT was designed to be performant and efficient on mobile phones. The TensorFlow versions of the MobileViT models are fully compatible with TensorFlow Lite.
+
+You can use the following code to convert a MobileViT checkpoint (be it image classification or semantic segmentation) to generate a
+  TensorFlow Lite model:
+
+from transformers import TFMobileViTForImageClassification
+import tensorflow as tf
+model_ckpt = "apple/mobilevit-xx-small"
+model = TFMobileViTForImageClassification.from_pretrain

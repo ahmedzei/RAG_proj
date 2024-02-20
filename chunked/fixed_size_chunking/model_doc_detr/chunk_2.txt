@@ -1,0 +1,6 @@
+out the task. The main ingredients of the
+new framework, called DEtection TRansformer or DETR, are a set-based global loss that forces unique predictions via
+bipartite matching, and a transformer encoder-decoder architecture. Given a fixed small set of learned object queries,
+DETR reasons about the relations of the objects and the global image context to directly output the final set of
+predictions in parallel. The new model is conceptually simple and does not require a specialized library, unlike many
+othe

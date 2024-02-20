@@ -1,0 +1,8 @@
+"./your/path/bigscience_t0")
+
+Once your file is downloaded and locally cached, specify it's local path to load and use it:
+
+from transformers import AutoConfig
+config = AutoConfig.from_pretrained("./your/path/bigscience_t0/config.json")
+
+See the How to download files from the Hub section for more details on downloading files stored on the Hub.

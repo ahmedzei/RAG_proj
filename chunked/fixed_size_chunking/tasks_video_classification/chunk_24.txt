@@ -1,0 +1,17 @@
+rguments, Trainer
+model_name = model_ckpt.split("/")[-1]
+new_model_name = f"{model_name}-finetuned-ucf101-subset"
+num_epochs = 4
+args = TrainingArguments(
+     new_model_name,
+     remove_unused_columns=False,
+     evaluation_strategy="epoch",
+     save_strategy="epoch",
+     learning_rate=5e-5,
+     per_device_train_batch_size=batch_size,
+     per_device_eval_batch_size=batch_size,
+     warmup_ratio=0.1,
+     logging_steps=10,
+     load_best_model_at_end=True,
+     metric_for_best_model="accuracy",
+     pu

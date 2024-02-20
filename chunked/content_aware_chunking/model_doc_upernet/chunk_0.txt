@@ -1,0 +1,4 @@
+UPerNet
+Overview
+The UPerNet model was proposed in Unified Perceptual Parsing for Scene Understanding
+by Tete Xiao, Yingcheng Liu, Bolei Zhou, Yuning Jiang, Jian Sun.

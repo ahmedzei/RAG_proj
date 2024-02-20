@@ -1,0 +1,2 @@
+The first key distinction to understand is the difference between TPU Nodes and TPU VMs.
+When you use a TPU Node, you are effectively indirectly accessing a remote TPU. You will need a separate VM, which will initialize your network and data pipeline and then forward them to the remote node.

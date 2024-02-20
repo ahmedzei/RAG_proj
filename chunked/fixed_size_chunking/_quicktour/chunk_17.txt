@@ -1,0 +1,4 @@
+sing class. 
+Let's return to the example from the previous section and see how you can use the AutoClass to replicate the results of the [pipeline].
+AutoTokenizer
+A tokenizer is responsible for preprocessing text into an array of numbers as inputs to a model. There are multiple rules that govern the tokenization process, including how to split a word and at what level words should be split (learn more about tokenization in the tokenizer summary). The most important thing to remember is you need to instantia

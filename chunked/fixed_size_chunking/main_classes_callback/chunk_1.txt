@@ -1,0 +1,9 @@
+ning loop, you should
+subclass [Trainer] and override the methods you need (see trainer for examples).
+By default, TrainingArguments.report_to is set to "all", so a [Trainer] will use the following callbacks.
+
+[DefaultFlowCallback] which handles the default behavior for logging, saving and evaluation.
+[PrinterCallback] or [ProgressCallback] to display progress and print the
+  logs (the first one is used if you deactivate tqdm through the [TrainingArguments], otherwise
+  it's the second one).
+[~integrations.

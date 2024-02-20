@@ -1,0 +1,6 @@
+You can find it here.
+As the BEiT models expect each image to be of the same size (resolution), one can use
+  [BeitImageProcessor] to resize (or rescale) and normalize images for the model.
+Both the patch resolution and image resolution used during pre-training or fine-tuning are reflected in the name of
+  each checkpoint. For example, microsoft/beit-base-patch16-224 refers to a base-sized architecture with patch
+  resolution of 16x16 and fine-tuning resolution of 224x224.

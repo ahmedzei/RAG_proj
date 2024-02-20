@@ -1,0 +1,8 @@
+ common forms of text classification is sentiment analysis, which assigns a label like "positive", "negative", 
+or "neutral" to a sequence of text. Let's write a prompt that instructs the model to classify a given text (a movie review). 
+We'll start by giving the instruction, and then specifying the text to classify. Note that instead of leaving it at that, we're 
+also adding the beginning of the response - "Sentiment: ":
+thon
+
+torch.manual_seed(0) # doctest: +IGNORE_RESULT
+prompt = """Classify the text int

@@ -1,0 +1,7 @@
+Most notably, Mask2Former sets a new state-of-the-art for panoptic segmentation (57.8 PQ on COCO), instance segmentation (50.1 AP on COCO) and semantic segmentation (57.7 mIoU on ADE20K).
+
+ Mask2Former architecture. Taken from the original paper. 
+This model was contributed by Shivalika Singh and Alara Dirik. The original code can be found here.
+Usage tips
+
+Mask2Former uses the same preprocessing and postprocessing steps as MaskFormer.

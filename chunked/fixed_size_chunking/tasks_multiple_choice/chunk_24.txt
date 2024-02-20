@@ -1,0 +1,17 @@
+"pt", padding=True)
+labels = torch.tensor(0).unsqueeze(0)
+
+Pass your inputs and labels to the model and return the logits:
+
+from transformers import AutoModelForMultipleChoice
+model = AutoModelForMultipleChoice.from_pretrained("my_awesome_swag_model")
+outputs = model(**{k: v.unsqueeze(0) for k, v in inputs.items()}, labels=labels)
+logits = outputs.logits
+
+Get the class with the highest probability:
+
+predicted_class = logits.argmax().item()
+predicted_class
+'0'
+
+Tokenize each prompt and candidate answer pair 

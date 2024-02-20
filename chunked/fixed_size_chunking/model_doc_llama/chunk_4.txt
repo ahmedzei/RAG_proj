@@ -1,0 +1,5 @@
+rt of each weight of the model, so we need to load them all in RAM). For the 65B model, it's thus 130GB of RAM needed.
+
+The LLaMA tokenizer is a BPE model based on sentencepiece. One quirk of sentencepiece is that when decoding a sequence, if the first token is the start of the word (e.g. "Banana"), the tokenizer does not prepend the prefix space to the string.
+
+This model was contributed by zphang with contributions from BlackSamorez. The code of the implementation in Hugging Face is based on GPT-NeoX here

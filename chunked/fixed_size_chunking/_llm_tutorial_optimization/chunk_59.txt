@@ -1,0 +1,8 @@
+lcon
+Llama
+PaLM
+
+As an alternative, ALiBi proposes a much simpler relative position encoding scheme. The relative distance that input tokens have to each other is added as a negative integer scaled by a pre-defined value m to each query-key entry of the \( \mathbf{QK}^T \) matrix right before the softmax computation.
+
+As shown in the ALiBi paper, this simple relative positional encoding allows the model to retain a high performance even at very long text input sequences.
+ALiBi is used in multiple of today's

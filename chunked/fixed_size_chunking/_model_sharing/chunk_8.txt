@@ -1,0 +1,13 @@
+ing_args = TrainingArguments(output_dir="my-awesome-model", push_to_hub=True)
+
+Pass your training arguments as usual to [Trainer]:
+
+trainer = Trainer(
+     model=model,
+     args=training_args,
+     train_dataset=small_train_dataset,
+     eval_dataset=small_eval_dataset,
+     compute_metrics=compute_metrics,
+ )
+
+After you fine-tune your model, call [~transformers.Trainer.push_to_hub] on [Trainer] to push the trained model to the Hub. 🤗 Transformers will even automatically add training hyperparameters, train

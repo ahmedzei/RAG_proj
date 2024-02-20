@@ -1,0 +1,6 @@
+The Hungarian matching algorithm is used to find
+an optimal one-to-one mapping of each of the N queries to each of the N annotations. Next, standard cross-entropy (for
+the classes) and a linear combination of the L1 and generalized IoU loss (for the
+bounding boxes) are used to optimize the parameters of the model.
+DETR can be naturally extended to perform panoptic segmentation (which unifies semantic segmentation and instance
+segmentation).

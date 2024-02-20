@@ -1,0 +1,3 @@
+The best starting point would be to have a look at another quantization methods such as quantizer_awq.py.
+
+Write the _process_model_after_weight_loading method.

@@ -1,0 +1,7 @@
+Make sure to add the new quantizer and quantization config in the quantization auto-mapping in src/transformers/quantizers/auto.py.
+
+Define the following class attributes/property methods for your quantization method:
+
+requires_calibration: Whether the quantization method requires a data calibration process. If set to True, you can only support inference (with quantized weights) and not inference and quantization.
+
+required_packages: A list of strings of the required packages to use the quantized weights.

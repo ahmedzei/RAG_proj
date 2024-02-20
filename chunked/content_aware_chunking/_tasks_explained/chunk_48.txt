@@ -1,0 +1,4 @@
+The cross-entropy loss is calculated between the logits and each token to find the most likely label.
+Ready to try your hand at token classification? Check out our complete token classification guide to learn how to finetune DistilBERT and use it for inference!
+Question answering
+To use BERT for question answering, add a span classification head on top of the base BERT model.

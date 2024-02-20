@@ -1,0 +1,4 @@
+Our network achieves state-of-the-art performance over the challenging depth dataset NYU Depth V2. Extensive experiments have been conducted to validate and show the effectiveness of the proposed approach. Finally, our model shows better generalisation ability and robustness than other comparative models.
+
+ Summary of the approach. Taken from the original paper. 
+This model was contributed by nielsr.

@@ -1,0 +1,4 @@
+Some models apply normalization or subsequent process to the last hidden state when it's returned.
+
+You can access each attribute as you would usually do, and if that attribute has not been returned by the model, you
+will get None.

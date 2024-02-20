@@ -1,0 +1,45 @@
+Example:
+thon
+
+from pytorch_quantization.nn import TensorQuantizer
+TensorQuantizer.use_fb_fake_quant = True
+Load the calibrated model
+
+ONNX export
+torch.onnx.export()
+
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+QDQBertConfig
+[[autodoc]] QDQBertConfig
+QDQBertModel
+[[autodoc]] QDQBertModel
+    - forward
+QDQBertLMHeadModel
+[[autodoc]] QDQBertLMHeadModel
+    - forward
+QDQBertForMaskedLM
+[[autodoc]] QDQBertForMaskedLM
+    - forward
+QDQBertForSequenceClassification
+[[autodoc]] QDQBertForSequenceClassification
+    - forward
+QDQBertForNextSentencePrediction
+[[autodoc]] QDQBertForNextSentencePrediction
+    - forward
+QDQBertForMultipleChoice
+[[autodoc]] QDQBertForMultipleChoice
+    - forward
+QDQBertForTokenClassification
+[[autodoc]] QDQBertForTokenClassification
+    - forward
+QDQBertForQuestionAnswering
+[[autodoc]] QDQBertForQuestionAnswering
+    - forward.

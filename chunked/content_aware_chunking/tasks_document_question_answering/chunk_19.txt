@@ -1,0 +1,15 @@
+waller']
+
+Next, instantiate a pipeline for
+document question answering with your model, and pass the image + question combination to it.
+
+from transformers import pipeline
+qa_pipeline = pipeline("document-question-answering", model="MariaK/layoutlmv2-base-uncased_finetuned_docvqa")
+qa_pipeline(image, question)
+[{'score': 0.9949808120727539,
+  'answer': 'Lee A. Waller',
+  'start': 55,
+  'end': 57}]
+
+You can also manually replicate the results of the pipeline if you'd like:
+1.

@@ -1,0 +1,9 @@
+t string containing special characters .$?-, numbers 2872 234 12 and words."
+tokenizer = BrandNewBertTokenizer.from_pretrained("/path/to/tokenizer/folder/")
+input_ids = tokenizer(input_str).input_ids
+
+When both input_ids yield the same values, as a final step a tokenizer test file should also be added.
+Analogous to the modeling test files of brand_new_bert, the tokenization test files of brand_new_bert should
+contain a couple of hard-coded integration tests.
+10. Run End-to-end integration tests
+Having added

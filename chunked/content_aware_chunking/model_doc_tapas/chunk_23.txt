@@ -1,0 +1,4 @@
+A note here is that the already fine-tuned checkpoint on WTQ has some issues due to the L2-loss which is somewhat brittle. See here for more info.
+For a list of all pre-trained and fine-tuned TAPAS checkpoints available on HuggingFace's  hub, see here.
+STEP 2: Prepare your data in the SQA format
+Second, no matter what you picked above, you should prepare your dataset in the SQA format.

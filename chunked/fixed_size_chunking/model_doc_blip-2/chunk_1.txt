@@ -1,0 +1,4 @@
+ by 8.7%
+on zero-shot VQAv2 with 54x fewer trainable parameters. 
+The abstract from the paper is the following:
+The cost of vision-and-language pre-training has become increasingly prohibitive due to end-to-end training of large-scale models. This paper proposes BLIP-2, a generic and efficient pre-training strategy that bootstraps vision-language pre-training from off-the-shelf frozen pre-trained image encoders and frozen large language models. BLIP-2 bridges the modality gap with a lightweight Querying Tra

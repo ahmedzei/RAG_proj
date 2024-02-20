@@ -1,0 +1,22 @@
+arper
+    - call
+[[autodoc]] TypicalLogitsWarper
+    - call
+[[autodoc]] UnbatchedClassifierFreeGuidanceLogitsProcessor
+    - call
+[[autodoc]] WhisperTimeStampLogitsProcessor
+    - call
+TensorFlow
+[[autodoc]] TFForcedBOSTokenLogitsProcessor
+    - call
+[[autodoc]] TFForcedEOSTokenLogitsProcessor
+    - call
+[[autodoc]] TFForceTokensLogitsProcessor
+    - call
+[[autodoc]] TFLogitsProcessor
+    - call
+[[autodoc]] TFLogitsProcessorList
+    - call
+[[autodoc]] TFLogitsWarper
+    - call
+[[autodoc]] TFMinLengthLogitsP

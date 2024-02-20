@@ -1,0 +1,12 @@
+"
+        "It takes the name of the category (such as text-classification, depth-estimation, etc), and "
+        "returns the name of the checkpoint."
+    )
+inputs = ["text"]
+outputs = ["text"]
+
+def __call__(self, task: str):
+    model = next(iter(list_models(filter=task, sort="downloads", direction=-1)))
+    return model.id
+
+We now have our tool handy. Save it in a file and import it from your main script.

@@ -1,0 +1,4 @@
+The processing is done in parallel and all setups are synchronized at the end of each training step.
+Learn more about how DataParallel works here.
+decoder input IDs
+This input is specific to encoder-decoder models, and contains the input IDs that will be fed to the decoder.

@@ -1,0 +1,13 @@
+Ideally, pre-compiled kernels are included in the pip package.
+The method can run on commonly-used hardware (CPU, GPU, ).
+The method is wrapped in a nn.Module (e.g., Linear8bitLt, Linear4bit), and the quantized linear layer should have the following definition:
+
+class Linear4bit(nn.Module):
+    def init(self, ):
+        
+def forward(self, x):
+    return my_4bit_kernel(x, self.weight, self.bias)
+
+This way, Transformers models can be easily quantized by replacing some instances of nn.Linear with a target class.
+
+The quantization method should be serializable.

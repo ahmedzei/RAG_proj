@@ -1,0 +1,2 @@
+Our case study on text generation further demonstrates the advantage of BioGPT on biomedical literature to generate fluent descriptions for biomedical terms.
+This model was contributed by kamalkraj.

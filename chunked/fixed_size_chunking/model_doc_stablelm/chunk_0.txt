@@ -1,0 +1,8 @@
+
+StableLM
+Overview
+StableLM 3B 4E1T was proposed in StableLM 3B 4E1T: Technical Report by Stability AI and is the first model in a series of multi-epoch pre-trained language models.
+Model Details
+StableLM 3B 4E1T is a decoder-only base language model pre-trained on 1 trillion tokens of diverse English and code datasets for four epochs.
+The model architecture is transformer-based with partial Rotary Position Embeddings, SwiGLU activation, LayerNorm, etc.
+We also provide StableLM Zephyr 3B, an instruction fin

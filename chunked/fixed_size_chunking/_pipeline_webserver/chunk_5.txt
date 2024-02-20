@@ -1,0 +1,15 @@
+that we load the model only once, so there are no copies
+of the model on the webserver. This way, no unnecessary RAM is being used.
+Then the queuing mechanism allows you to do fancy stuff like maybe accumulating a few
+items before inferring to use dynamic batching:
+
+The code sample below is intentionally written like pseudo-code for readability.
+Do not run this without checking if it makes sense for your system resources!
+
+py
+(string, rq) = await q.get()
+strings = []
+queues = []
+while True:
+    try:
+       

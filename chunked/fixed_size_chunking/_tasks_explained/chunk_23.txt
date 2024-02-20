@@ -1,0 +1,3 @@
+ween the predictions and ground truth labels. If either the bounding boxes or class labels aren't correct, a loss is incurred. Likewise, if DETR predicts an object that doesn't exist, it is penalized. This encourages DETR to find other objects in an image instead of focusing on one really prominent object.
+
+An object detection head is added on top of DETR to find the class label and the coordinates of the bounding box. There are two components to the object detection head: a linear layer to transform the de

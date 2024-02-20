@@ -1,0 +1,33 @@
+The original code can be found here.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with ResNet.
+
+[ResNetForImageClassification] is supported by this example script and notebook.
+See also: Image classification task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+ResNetConfig
+[[autodoc]] ResNetConfig
+
+ResNetModel
+[[autodoc]] ResNetModel
+    - forward
+ResNetForImageClassification
+[[autodoc]] ResNetForImageClassification
+    - forward
+
+TFResNetModel
+[[autodoc]] TFResNetModel
+    - call
+TFResNetForImageClassification
+[[autodoc]] TFResNetForImageClassification
+    - call
+
+FlaxResNetModel
+[[autodoc]] FlaxResNetModel
+    - call
+FlaxResNetForImageClassification
+[[autodoc]] FlaxResNetForImageClassification
+    - call
+
+.

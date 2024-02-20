@@ -1,0 +1,3 @@
+If your dataset is small, you can just convert the whole thing to NumPy arrays and pass it to Keras.
+Let's try that first before we do anything more complicated.
+First, load a dataset.

@@ -1,0 +1,14 @@
+_metrics, eval_dataset=tf_eval_dataset)
+push_to_hub_callback = PushToHubCallback(
+     output_dir="food_classifier",
+     tokenizer=image_processor,
+     save_strategy="no",
+ )
+callbacks = [metric_callback, push_to_hub_callback]
+
+Finally, you are ready to train your model! Call fit() with your training and validation datasets, the number of epochs,
+and your callbacks to fine-tune the model:
+
+model.fit(tf_train_dataset, validation_data=tf_eval_dataset, epochs=num_epochs, callbacks=callbacks)
+Epoch 1/5
+250/25

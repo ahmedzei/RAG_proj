@@ -1,0 +1,8 @@
+PU memory allocation.
+python
+bytes_to_giga_bytes(torch.cuda.max_memory_allocated())
+Output:
+
+29.0260648727417
+Close enough to our back-of-the-envelope computation! We can see the number is not exactly correct as going from bytes to kilobytes requires a multiplication of 1024 instead of 1000. Therefore the back-of-the-envelope formula can also be understood as an "at most X GB" computation.
+Note that if we had tried to run the model in full float32 precision, a whopping 64 GB of VRAM would have been required

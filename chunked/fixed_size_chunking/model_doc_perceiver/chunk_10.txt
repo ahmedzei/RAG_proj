@@ -1,0 +1,9 @@
+iver is by checking the tutorial
+  notebooks.
+Refer to the blog post if you want to fully understand how the model works and
+is implemented in the library. Note that the models available in the library only showcase some examples of what you can do
+with the Perceiver. There are many more use cases, including question answering, named-entity recognition, object detection,
+audio classification, video classification, etc.
+Text classification task guide
+Masked language modeling task guide
+Image classification t

@@ -1,0 +1,7 @@
+For a full documentation of all features have a look at the 
+Accelerate documentation.
+Efficient Software Prebuilds
+PyTorch's pip and conda builds come prebuilt with the cuda toolkit 
+which is enough to run PyTorch, but it is insufficient if you need to build cuda extensions.
+At times, additional efforts may be required to pre-build some components. For instance, if you're using libraries like apex that 
+don't come pre-compiled.

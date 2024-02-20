@@ -1,0 +1,11 @@
+tensor([[7592]])
+output = model(input_ids)
+print(output.logits)
+tensor([[-0.1008, -0.4061]], grad_fn=)
+
+Most of the time, you should provide an attention_mask to your model to ignore the padding tokens to avoid this silent error. Now the output of the second sequence matches its actual output:
+
+By default, the tokenizer creates an attention_mask for you based on your specific tokenizer's defaults.
+
+attention_mask = torch.tensor([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 0]])
+output = model(input_ids, attention_ma

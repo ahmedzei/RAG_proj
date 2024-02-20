@@ -1,0 +1,4 @@
+rainer] is to use callbacks. Callbacks don't change anything in the training loop. They inspect the training loop state and then execute some action (early stopping, logging results, etc.) depending on the state. In other words, a callback can't be used to implement something like a custom loss function and you'll need to subclass and override the [~Trainer.compute_loss] method for that.
+For example, if you want to add an early stopping callback to the training loop after 10 steps.
+
+from transformers import

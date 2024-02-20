@@ -1,0 +1,9 @@
+house")
+
+which is probably not exactly what we want here. It seems like the agent has a difficult time 
+to understand the difference between image_generator and image_transformer and often uses the two together.
+We can help the agent here by changing the tool name and description of image_transformer. Let's instead call it modifier
+to disassociate it a bit from "image" and "prompt":
+py
+agent.toolbox["modifier"] = agent.toolbox.pop("image_transformer")
+agent.toolbox["modifier"].description = agent.toolbox["m

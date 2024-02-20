@@ -1,0 +1,3 @@
+When used with NVMe offload, sub_group_size determines when model states are moved in and out of CPU memory from during the optimization step. This prevents running out of CPU memory for extremely large models. sub_group_size can be left to its default value if you aren't using NVMe offload, but you may want to change it if you:
+
+Run into an OOM error during the optimizer step.

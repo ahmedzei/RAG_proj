@@ -1,0 +1,8 @@
+our model!
+python
+template = tokenizer.chat_template
+template = template.replace("SYS", "SYSTEM")  # Change the system token
+tokenizer.chat_template = template  # Set the new template
+tokenizer.push_to_hub("model_name")  # Upload your new template to the Hub!
+The method [~PreTrainedTokenizer.apply_chat_template] which uses your chat template is called by the [TextGenerationPipeline] class, so 
+once you set the correct chat template, your model will automatically become compatible with [TextGenerationPipelin

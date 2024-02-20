@@ -1,0 +1,5 @@
+This model was contributed by nielsr.
+The original code can be found here.
+Usage tips
+
+BLIP-2 can be used for conditional text generation given an image and an optional text prompt.

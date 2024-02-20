@@ -1,0 +1,23 @@
+🌎
+A blog post on decoding strategies with OPT.
+Causal language modeling chapter of the 🤗 Hugging Face Course.
+[OPTForCausalLM] is supported by this causal language modeling example script and notebook.
+[TFOPTForCausalLM] is supported by this causal language modeling example script and notebook.
+[FlaxOPTForCausalLM] is supported by this causal language modeling example script.
+
+Text classification task guide
+[OPTForSequenceClassification] is supported by this example script and notebook.
+
+[OPTForQuestionAnswering] is supported by this question answering example script and notebook.
+Question answering chapter
+  of the 🤗 Hugging Face Course.
+
+⚡️ Inference
+
+A blog post on How 🤗 Accelerate runs very large models thanks to PyTorch with OPT.
+
+Combining OPT and Flash Attention 2
+First, make sure to install the latest version of Flash Attention 2 to include the sliding window attention feature.
+
+pip install -U flash-attn --no-build-isolation
+Make also sure that you have a hardware that is compatible with Flash-Attention 2.

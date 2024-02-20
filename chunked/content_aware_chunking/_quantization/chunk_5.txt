@@ -1,0 +1,12 @@
+The most popular setups, as well as inference kernels they support are:
+| Kernel | Number of codebooks | Codebook size, bits | Notation | Accuracy | Speedup     | Fast GPU inference | Fast CPU inference |
+|---|---------------------|---------------------|----------|-------------|-------------|--------------------|--------------------|
+| Triton | K                   | N                  | KxN     | -        | Up to ~0.7x | ✅                  | ❌                  |
+| CUDA | 1                   | 16                  | 1x16     | Best        | Up to ~1.3x | ✅                  | ❌                  |
+| CUDA | 2                   | 8                   | 2x8      | OK          | Up to ~3.0x | ✅                  | ❌                  |
+| Numba | K                   | 8                   | Kx8      | Good        | Up to ~4.0x | ❌                  | ✅                  |
+AWQ
+
+Try AWQ quantization with this notebook!
+
+Activation-aware Weight Quantization (AWQ) doesn't quantize all the weights in a model, and instead, it preserves a small percentage of weights that are important for LLM performance.

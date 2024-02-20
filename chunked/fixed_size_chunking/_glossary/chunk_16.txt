@@ -1,0 +1,8 @@
+final hidden state of the CLS token - on top of the base [ViTModel].
+[Wav2Vec2ForCTC] is a language modeling head with CTC on top of the base [Wav2Vec2Model].
+
+I
+image patch
+Vision-based Transformers models split an image into smaller patches which are linearly embedded, and then passed as a sequence to the model. You can find the patch_size - or resolution - of the model in its configuration.
+inference
+Inference is the process of evaluating a model on new data after training is complete. See the Pipeline f

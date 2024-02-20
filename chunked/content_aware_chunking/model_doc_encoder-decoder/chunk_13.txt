@@ -1,0 +1,21 @@
+This model's TensorFlow and Flax versions
+were contributed by ydshieh.
+EncoderDecoderConfig
+[[autodoc]] EncoderDecoderConfig
+
+EncoderDecoderModel
+[[autodoc]] EncoderDecoderModel
+    - forward
+    - from_encoder_decoder_pretrained
+
+TFEncoderDecoderModel
+[[autodoc]] TFEncoderDecoderModel
+    - call
+    - from_encoder_decoder_pretrained
+
+FlaxEncoderDecoderModel
+[[autodoc]] FlaxEncoderDecoderModel
+    - call
+    - from_encoder_decoder_pretrained
+
+.

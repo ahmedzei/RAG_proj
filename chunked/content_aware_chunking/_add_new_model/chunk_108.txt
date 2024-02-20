@@ -1,0 +1,7 @@
+Usually, the
+Hugging Face team should have helped you already at this point, but it is worth taking some time to give your finished
+PR a nice description and eventually add comments to your code, if you want to point out certain design choices to your
+reviewer.
+Share your work!!
+Now, it's time to get some credit from the community for your work! Having completed a model addition is a major
+contribution to Transformers and the whole NLP community.

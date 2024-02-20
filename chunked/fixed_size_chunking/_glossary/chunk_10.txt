@@ -1,0 +1,8 @@
+ texts in order and has to predict the next word. It's usually done by
+reading the whole sentence with a mask to hide future tokens at a certain timestep.
+
+deep learning (DL)
+Machine learning algorithms which uses neural networks with several layers.
+E
+encoder models
+Also known as autoencoding models, encoder models take an input (such as text or images) and transform them into a condensed numerical representation called an embedding. Oftentimes, encoder models are pretrained using techniques like masked la

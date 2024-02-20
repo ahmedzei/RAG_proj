@@ -1,0 +1,7 @@
+ttling performance a prolonged very high temperature is likely to reduce the lifespan of a GPU.
+Next let's have a look at one of the most important aspects when having multiple GPUs: connectivity.
+Multi-GPU Connectivity
+If you use multiple GPUs the way cards are inter-connected can have a huge impact on the total training time. If the GPUs are on the same physical node, you can run:
+
+nvidia-smi topo -m
+and it will tell you how the GPUs are inter-connected. On a machine with dual-GPU and which are connected 

@@ -1,0 +1,12 @@
+ovies?",
+     "what's the first name of the actor who has 87 movies?",
+ ]
+encoding = tokenizer(table, questions, padding=True, return_tensors="pt")
+let the model generate an answer autoregressively
+outputs = model.generate(**encoding)
+decode back to text
+tokenizer.batch_decode(outputs, skip_special_tokens=True)
+[' 53', ' george clooney', ' brad pitt']
+
+In case one wants to do table verification (i.e. the task of determining whether a given sentence is supported or refuted by the contents
+of a table), one ca

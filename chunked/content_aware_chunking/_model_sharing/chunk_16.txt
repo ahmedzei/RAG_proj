@@ -1,0 +1,4 @@
+Then drag-and-drop a file to upload and add a commit message.
+
+Add a model card
+To make sure users understand your model's capabilities, limitations, potential biases and ethical considerations, please add a model card to your repository. The model card is defined in the README.md file.

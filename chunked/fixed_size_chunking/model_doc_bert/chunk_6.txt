@@ -1,0 +1,9 @@
+ch. 🌎
+A notebook on how to warm-start an EncoderDecoder model with BERT for summarization.
+[BertForSequenceClassification] is supported by this example script and notebook.
+[TFBertForSequenceClassification] is supported by this example script and notebook.
+[FlaxBertForSequenceClassification] is supported by this example script and notebook.
+Text classification task guide
+
+A blog post on how to use Hugging Face Transformers with Keras: Fine-tune a non-English BERT for Named Entity Recognition.
+A notebook for

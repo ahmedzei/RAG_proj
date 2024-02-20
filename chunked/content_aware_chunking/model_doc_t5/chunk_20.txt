@@ -1,0 +1,8 @@
+Note that T5 was pre-trained using the AdaFactor optimizer.
+
+According to this forum post, task prefixes matter when
+(1) doing multi-task training (2) your task is similar or related to one of the supervised tasks used in T5's
+pre-training mixture (see Appendix D of the paper for the task prefixes
+used).
+If training on TPU, it is recommended to pad all examples of the dataset to the same length or make use of
+pad_to_multiple_of to have a small number of predefined bucket sizes to fit all examples in.

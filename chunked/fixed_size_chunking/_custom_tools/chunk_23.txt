@@ -1,0 +1,6 @@
+ols' names and descriptions. The base tools 
+should have very precise names and descriptions, however, you might find that it could help to change the 
+the description or name of a tool for your specific use case. This might become especially important 
+when you've added multiple tools that are very similar or if you want to use your agent only for a certain 
+domain, e.g. image generation and transformations.
+A common problem is that the agent confuses image generation with image transformation/modification

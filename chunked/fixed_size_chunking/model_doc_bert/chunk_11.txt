@@ -1,0 +1,17 @@
+A blog post on Hugging Face Transformers BERT fine-tuning using Amazon SageMaker and Training Compiler.
+- A blog post on Task-specific knowledge distillation for BERT using Transformers & Amazon SageMaker.
+BertConfig
+[[autodoc]] BertConfig
+    - all
+BertTokenizer
+[[autodoc]] BertTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+
+BertTokenizerFast
+[[autodoc]] BertTokenizerFast
+
+TFBertTokenizer
+[[autodoc]] TFBertToke

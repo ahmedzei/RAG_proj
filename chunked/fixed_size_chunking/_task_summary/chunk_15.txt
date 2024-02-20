@@ -1,0 +1,6 @@
+ vehicles. It is also useful for medical imaging, where the task's finer granularity can help identify abnormal cells or organ features. Image segmentation can also be used in ecommerce to virtually try on clothes or create augmented reality experiences by overlaying objects in the real world through your camera.
+
+from transformers import pipeline
+segmenter = pipeline(task="image-segmentation")
+preds = segmenter(
+     "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/pipeline-ca

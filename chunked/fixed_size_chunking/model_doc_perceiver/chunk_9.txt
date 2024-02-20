@@ -1,0 +1,13 @@
+n place a regular language modeling head on top, to project the last dimension to the
+vocabulary size of the model, i.e. creating logits of shape (batch_size, 2048, 262) (as Perceiver uses a vocabulary
+size of 262 byte IDs).
+
+ Perceiver IO architecture. Taken from the original paper 
+This model was contributed by nielsr. The original code can be found
+here.
+
+Perceiver does not work with torch.nn.DataParallel due to a bug in PyTorch, see issue #36035
+
+Resources
+
+The quickest way to get started with the Perce

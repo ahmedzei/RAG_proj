@@ -1,0 +1,4 @@
+There are two components to the object detection head: a linear layer to transform the decoder hidden states into logits over the class labels, and a MLP to predict the bounding box.
+Ready to try your hand at object detection? Check out our complete object detection guide to learn how to finetune DETR and use it for inference!
+Image segmentation
+Mask2Former is a universal architecture for solving all types of image segmentation tasks.

@@ -1,0 +1,16 @@
+  "weight_decay": "auto"
+       }
+   }
+}
+You can also use an unsupported optimizer by adding the following to the top level configuration.
+yaml
+{
+   "zero_allow_untested_optimizer": true
+}
+From DeepSpeed==0.8.3 on, if you want to use offload, you'll also need to the following to the top level configuration because offload works best with DeepSpeed's CPU Adam optimizer.
+yaml
+{
+   "zero_force_ds_cpu_optimizer": false
+}
+
+DeepSpeed supports the LRRangeTest, OneCycle, WarmupLR and WarmupDecayLR learning rate sch

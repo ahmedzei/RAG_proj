@@ -1,0 +1,11 @@
+r = LayoutLMv2Processor.from_pretrained("microsoft/layoutlmv2-base-uncased")
+image = Image.open(
+    "name_of_your_document - can be a png, jpg, etc. of your documents (PDFs must be converted to images)."
+).convert("RGB")
+question = "What's his name?"
+encoding = processor(image, question, return_tensors="pt")
+print(encoding.keys())
+dict_keys(['input_ids', 'token_type_ids', 'attention_mask', 'bbox', 'image'])
+
+Use case 5: visual question answering (inference), apply_ocr=False
+For visual question answering ta

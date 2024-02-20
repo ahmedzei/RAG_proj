@@ -1,0 +1,8 @@
+Even when
+the class template is appropriate for your model, we strongly recommend overriding the default template by
+setting the chat_template attribute explicitly to make it clear to users that your model has been correctly configured
+for chat, and to future-proof in case the default templates are ever altered or deprecated.
+What template should I use?
+When setting the template for a model that's already been trained for chat, you should ensure that the template
+exactly matches the message formatting that the model saw during training, or else you will probably experience
+performance degradation.

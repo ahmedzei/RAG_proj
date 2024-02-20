@@ -1,0 +1,7 @@
+CLIPSeg
+Overview
+The CLIPSeg model was proposed in Image Segmentation Using Text and Image Prompts by Timo Lüddecke
+and Alexander Ecker. CLIPSeg adds a minimal decoder on top of a frozen CLIP model for zero- and one-shot image segmentation.
+The abstract from the paper is the following:
+Image segmentation is usually addressed by training a
+model for a fixed set of object classes.

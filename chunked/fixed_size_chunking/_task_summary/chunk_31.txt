@@ -1,0 +1,2 @@
+ to another. It is important in helping people from different backgrounds communicate with each other, help translate content to reach wider audiences, and even be a learning tool to help people learn a new language. Along with summarization, translation is a sequence-to-sequence task, meaning the model receives an input sequence and returns a target output sequence. 
+In the early days, translation models were mostly monolingual, but recently, there has been increasing interest in multilingual models that c

@@ -1,0 +1,13 @@
+Critically, we evaluated the performance of over 40,000 different translation directions using
+a human-translated benchmark, Flores-200, and combined human evaluation with a novel toxicity benchmark covering all languages in Flores-200 to assess translation safety.
+Our model achieves an improvement of 44% BLEU relative to the previous state-of-the-art, laying important groundwork towards realizing a universal translation system.
+This model was contributed by Arthur Zucker.
+The original code can be found here.
+Usage tips
+
+M2M100ForConditionalGeneration is the base model for both NLLB and NLLB MoE
+The NLLB-MoE is very similar to the NLLB model, but it's feed forward layer is based on the implementation of SwitchTransformers.
+The tokenizer is the same as the NLLB models.
+
+Implementation differences with SwitchTransformers
+The biggest difference is the way the tokens are routed.

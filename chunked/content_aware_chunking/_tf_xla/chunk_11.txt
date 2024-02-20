@@ -1,0 +1,2 @@
+While this is not a problem for modalities with fixed input shapes (e.g., images), you must pay attention if you are working with variable input shape modalities (e.g., text).
+To ensure xla_generate() always operates with the same input shapes, you can specify the padding arguments when calling the tokenizer.

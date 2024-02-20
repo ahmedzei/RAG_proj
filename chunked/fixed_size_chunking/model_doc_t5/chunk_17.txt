@@ -1,0 +1,15 @@
+s.
+thon
+
+from transformers import T5Tokenizer, T5ForConditionalGeneration
+import torch
+tokenizer = T5Tokenizer.from_pretrained("google-t5/t5-small")
+model = T5ForConditionalGeneration.from_pretrained("google-t5/t5-small")
+the following 2 hyperparameters are task-specific
+max_source_length = 512
+max_target_length = 128
+Suppose we have the following 2 training examples:
+input_sequence_1 = "Welcome to NYC"
+output_sequence_1 = "Bienvenue à NYC"
+input_sequence_2 = "HuggingFace is a company"
+output_sequence_2 = "

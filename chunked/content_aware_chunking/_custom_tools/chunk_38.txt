@@ -1,0 +1,1 @@
+It takes two inputs: `image`, which should be the image to transform, and `prompt`, which should be the prompt to use to change it.

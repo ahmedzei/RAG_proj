@@ -1,0 +1,8 @@
+ loaded the checkpoint into the 🤗 Transformers implementation, you can then save
+the model under a folder of your choice /path/to/converted/checkpoint/folder that should then contain both a
+pytorch_model.bin file and a config.json file:
+python
+model.save_pretrained("/path/to/converted/checkpoint/folder")
+7. Implement the forward pass
+Having managed to correctly load the pretrained weights into the 🤗 Transformers implementation, you should now make
+sure that the forward pass is correctly implemented. In Get 

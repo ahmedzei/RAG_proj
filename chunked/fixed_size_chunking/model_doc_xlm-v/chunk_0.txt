@@ -1,0 +1,8 @@
+
+XLM-V
+Overview
+XLM-V is multilingual language model with a one million token vocabulary trained on 2.5TB of data from Common Crawl (same as XLM-R).
+It was introduced in the XLM-V: Overcoming the Vocabulary Bottleneck in Multilingual Masked Language Models
+paper by Davis Liang, Hila Gonen, Yuning Mao, Rui Hou, Naman Goyal, Marjan Ghazvininejad, Luke Zettlemoyer and Madian Khabsa.
+From the abstract of the XLM-V paper:
+Large multilingual language models typically rely on a single vocabulary shared across 100+

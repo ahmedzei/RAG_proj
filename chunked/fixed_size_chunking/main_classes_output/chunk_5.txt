@@ -1,0 +1,13 @@
+OutputWithPoolingAndCrossAttentions
+BaseModelOutputWithPast
+[[autodoc]] modeling_outputs.BaseModelOutputWithPast
+BaseModelOutputWithPastAndCrossAttentions
+[[autodoc]] modeling_outputs.BaseModelOutputWithPastAndCrossAttentions
+Seq2SeqModelOutput
+[[autodoc]] modeling_outputs.Seq2SeqModelOutput
+CausalLMOutput
+[[autodoc]] modeling_outputs.CausalLMOutput
+CausalLMOutputWithCrossAttentions
+[[autodoc]] modeling_outputs.CausalLMOutputWithCrossAttentions
+CausalLMOutputWithPast
+[[autodoc]] modeling_outputs.CausalLMOut

@@ -1,0 +1,22 @@
+r.batch_decode(outputs))
+['nyone who drink a alcohol A A. This I']
+
+ 
+Refer to T5's documentation page for more tips, code examples and notebooks.
+
+UMT5Config
+[[autodoc]] UMT5Config
+UMT5Model
+[[autodoc]] UMT5Model
+    - forward
+UMT5ForConditionalGeneration
+[[autodoc]] UMT5ForConditionalGeneration
+    - forward
+UMT5EncoderModel
+[[autodoc]] UMT5EncoderModel
+    - forward
+UMT5ForSequenceClassification
+[[autodoc]] UMT5ForSequenceClassification
+    - forward
+UMT5ForTokenClassification
+[[autodoc]] UMT5ForTokenCla

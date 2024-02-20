@@ -1,0 +1,7 @@
+LayoutLMv3
+Overview
+The LayoutLMv3 model was proposed in LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking by Yupan Huang, Tengchao Lv, Lei Cui, Yutong Lu, Furu Wei.
+LayoutLMv3 simplifies LayoutLMv2 by using patch embeddings (as in ViT) instead of leveraging a CNN backbone, and pre-trains the model on 3 objectives: masked language modeling (MLM), masked image modeling (MIM)
+and word-patch alignment (WPA).
+The abstract from the paper is the following:
+Self-supervised pre-training techniques have achieved remarkable progress in Document AI.

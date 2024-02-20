@@ -1,0 +1,10 @@
+recognition models 
+on the Hub to see if you can get a better transcription.
+Let's try the Whisper large-v2 model from OpenAI. Whisper was released 
+2 years later than Wav2Vec2, and was trained on close to 10x more data. As such, it beats Wav2Vec2 on most downstream 
+benchmarks. It also has the added benefit of predicting punctuation and casing, neither of which are possible with
+Wav2Vec2.
+Let's give it a try here to see how it performs:
+
+transcriber = pipeline(model="openai/whisper-large-v2")
+transcriber("

@@ -1,0 +1,8 @@
+The streamer input is compatible with any instance
+from a class that has the following methods: put() and end(). Internally, put() is used to push new tokens and
+end() is used to flag the end of text generation.
+
+The API for the streamer classes is still under development and may change in the future.
+
+In practice, you can craft your own streaming class for all sorts of purposes! We also have basic streaming classes
+ready for you to use.

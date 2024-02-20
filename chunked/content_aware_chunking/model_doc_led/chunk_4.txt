@@ -1,0 +1,8 @@
+[LEDTokenizer] is an alias of
+  [BartTokenizer].
+LED works very well on long-range sequence-to-sequence tasks where the input_ids largely exceed a length of
+  1024 tokens.
+LED pads the input_ids to be a multiple of config.attention_window if required. Therefore a small speed-up is
+  gained, when [LEDTokenizer] is used with the pad_to_multiple_of argument.
+LED makes use of global attention by means of the global_attention_mask (see
+  [LongformerModel]).

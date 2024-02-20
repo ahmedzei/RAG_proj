@@ -1,0 +1,2 @@
+When LUKE receives the [MASK] entity, it tries to predict the original entity by
+    gathering the information about the entity from the input text.

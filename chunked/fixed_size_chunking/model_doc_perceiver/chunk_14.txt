@@ -1,0 +1,10 @@
+dingDecoder
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverBasicVideoAutoencodingDecoder
+PerceiverMultimodalDecoder
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverMultimodalDecoder
+PerceiverProjectionPostprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverProjectionPostprocessor
+PerceiverAudioPostprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverAudioPostprocessor
+PerceiverClassificationPostprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.Perceive

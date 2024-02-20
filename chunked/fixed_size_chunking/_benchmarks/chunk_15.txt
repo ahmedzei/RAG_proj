@@ -1,0 +1,9 @@
+id              8               8             0.006   
+bert-384-hid              8               32            0.006   
+bert-384-hid              8              128            0.011   
+bert-384-hid              8              512            0.054   
+bert-6-lay                 8               8             0.003   
+bert-6-lay                 8               32            0.004   
+bert-6-lay                 8              128            0.009   
+bert-6-lay                 8              512            0.044
+

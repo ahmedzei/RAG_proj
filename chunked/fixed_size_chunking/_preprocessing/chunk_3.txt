@@ -1,0 +1,10 @@
+is ensures the text is split the same way as the pretraining corpus, and uses the same corresponding tokens-to-index (usually referred to as the vocab) during pretraining.
+
+Get started by loading a pretrained tokenizer with the [AutoTokenizer.from_pretrained] method. This downloads the vocab a model was pretrained with:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-cased")
+
+Then pass your text to the tokenizer:
+
+encoded_input = tokenizer("Do not med

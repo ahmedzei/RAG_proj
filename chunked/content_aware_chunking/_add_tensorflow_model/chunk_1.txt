@@ -1,0 +1,6 @@
+The good news is that
+adding TensorFlow compatibility to an existing model is simpler than adding a new model from scratch!
+Whether you wish to have a deeper understanding of large TensorFlow models, make a major open-source contribution, or
+enable TensorFlow for your model of choice, this guide is for you.
+This guide empowers you, a member of our community, to contribute TensorFlow model weights and/or
+architectures to be used in 🤗 Transformers, with minimal supervision from the Hugging Face team.

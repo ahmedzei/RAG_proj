@@ -1,0 +1,16 @@
+rt on multiple open-domain QA
+benchmarks.
+This model was contributed by lhoestq. The original code can be found here.
+Usage tips
+
+DPR consists in three models:
+
+Question encoder: encode questions as vectors
+Context encoder: encode contexts as vectors
+Reader: extract the answer of the questions inside retrieved contexts, along with a relevance score (high if the inferred span actually answers the question).
+
+DPRConfig
+[[autodoc]] DPRConfig
+DPRContextEncoderTokenizer
+[[autodoc]] DPRContextEncoderTokenizer
+DPR

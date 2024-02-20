@@ -1,0 +1,10 @@
+ to choose from:
+
+Decompose the original model into many small testable components and run a forward pass on each of those for
+  verification
+Decompose the original model only into the original tokenizer and the original model, run a forward pass on
+  those, and use intermediate print statements or breakpoints for verification
+
+Again, it is up to you which strategy to choose. Often, one or the other is advantageous depending on the original code
+base.
+If the original code-base allows you to decompose the mo

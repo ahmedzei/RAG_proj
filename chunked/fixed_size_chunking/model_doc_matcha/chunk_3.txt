@@ -1,0 +1,8 @@
+Answering subset of Pix2Struct architecture. It renders the input question on the image and predicts the answer.
+Usage
+Currently 6 checkpoints are available for MatCha:
+
+google/matcha: the base MatCha model, used to fine-tune MatCha on downstream tasks
+google/matcha-chartqa: MatCha model fine-tuned on ChartQA dataset. It can be used to answer questions about charts.
+google/matcha-plotqa-v1: MatCha model fine-tuned on PlotQA dataset. It can be used to answer questions about plots.
+google/matcha-plotqa-v2: Ma

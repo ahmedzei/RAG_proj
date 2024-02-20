@@ -1,0 +1,9 @@
+
+DialoGPT
+Overview
+DialoGPT was proposed in DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation by Yizhe Zhang, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao,
+Jianfeng Gao, Jingjing Liu, Bill Dolan. It's a GPT2 Model trained on 147M conversation-like exchanges extracted from
+Reddit.
+The abstract from the paper is the following:
+We present a large, tunable neural conversational response generation model, DialoGPT (dialogue generative pre-trained
+transforme

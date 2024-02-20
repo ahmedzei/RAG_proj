@@ -1,0 +1,6 @@
+ements of an input text and regions in an
+associated input image with self-attention. We further propose two visually-grounded language model objectives for
+pre-training VisualBERT on image caption data. Experiments on four vision-and-language tasks including VQA, VCR, NLVR2,
+and Flickr30K show that VisualBERT outperforms or rivals with state-of-the-art models while being significantly
+simpler. Further analysis demonstrates that VisualBERT can ground elements of language to image regions without any
+explici

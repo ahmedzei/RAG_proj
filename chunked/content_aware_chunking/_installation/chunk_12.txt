@@ -1,0 +1,7 @@
+When set to True, only local files are loaded:
+
+from transformers import T5Model
+model = T5Model.from_pretrained("./path/to/local/directory", local_files_only=True)
+
+Fetch models and tokenizers to use offline
+Another option for using 🤗 Transformers offline is to download the files ahead of time, and then point to their local path when you need to use them offline.

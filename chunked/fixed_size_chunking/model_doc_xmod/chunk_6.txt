@@ -1,0 +1,24 @@
+language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+XmodConfig
+[[autodoc]] XmodConfig
+XmodModel
+[[autodoc]] XmodModel
+    - forward
+XmodForCausalLM
+[[autodoc]] XmodForCausalLM
+    - forward
+XmodForMaskedLM
+[[autodoc]] XmodForMaskedLM
+    - forward
+XmodForSequenceClassification
+[[autodoc]] XmodForSequenceClassification
+    - forward
+XmodForMultipleChoice
+[[autodoc]] XmodForMultipleChoice
+    - forward
+XmodForTokenClassification
+[[autodoc]] XmodForTokenClassification
+ 

@@ -1,0 +1,7 @@
+ow XLA) and GPUs.
+The approach is detailed in the following blogpost and the results are
+available here.
+With the new benchmark tools, it is easier than ever to share your benchmark results with the community
+
+PyTorch Benchmarking Results.
+TensorFlow Benchmarking Results.

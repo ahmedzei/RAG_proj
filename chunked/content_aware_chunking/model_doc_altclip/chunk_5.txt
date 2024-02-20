@@ -1,0 +1,4 @@
+The dot
+product between the projected image and text features is then used as a similar score.
+To feed images to the Transformer encoder, each image is split into a sequence of fixed-size non-overlapping patches,
+which are then linearly embedded. A [CLS] token is added to serve as representation of an entire image.

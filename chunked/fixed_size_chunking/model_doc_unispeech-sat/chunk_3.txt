@@ -1,0 +1,9 @@
+fficacy of each proposed method. Finally, we scale up training
+dataset to 94 thousand hours public audio data and achieve further performance improvement in all SUPERB tasks.
+This model was contributed by patrickvonplaten. The Authors' code can be
+found here.
+Usage tips
+
+UniSpeechSat is a speech model that accepts a float array corresponding to the raw waveform of the speech signal.
+  Please use [Wav2Vec2Processor] for the feature extraction.
+UniSpeechSat model can be fine-tuned using connectionist temporal

@@ -1,0 +1,8 @@
+If anything is
+linked to a real model it belongs in the _forward method, anything else is in the preprocess/postprocess.
+postprocess methods will take the output of _forward and turn it into the final output that was decided
+earlier.
+_sanitize_parameters exists to allow users to pass any parameters whenever they wish, be it at initialization
+time pipeline(., maybe_arg=4) or at call time pipe = pipeline(); output = pipe(., maybe_arg=4).
+The returns of _sanitize_parameters are the 3 dicts of kwargs that will be passed directly to preprocess,
+_forward, and postprocess.

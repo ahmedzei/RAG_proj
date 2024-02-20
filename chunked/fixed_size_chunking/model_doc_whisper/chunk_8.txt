@@ -1,0 +1,24 @@
+eatureExtractor
+[[autodoc]] WhisperFeatureExtractor
+    - call
+WhisperProcessor
+[[autodoc]] WhisperProcessor
+    - call
+    - from_pretrained
+    - save_pretrained
+    - batch_decode
+    - decode
+
+WhisperModel
+[[autodoc]] WhisperModel
+    - forward
+    - _mask_input_features
+WhisperForConditionalGeneration
+[[autodoc]] WhisperForConditionalGeneration
+    - forward
+    - generate
+WhisperForCausalLM
+[[autodoc]] WhisperForCausalLM
+    - forward
+WhisperForAudioClassification
+[[autodoc]] WhisperForAudioClassifica

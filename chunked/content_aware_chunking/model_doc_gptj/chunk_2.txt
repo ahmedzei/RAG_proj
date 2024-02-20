@@ -1,0 +1,5 @@
+For training/fine-tuning it would take much more GPU RAM. Adam
+  optimizer for example makes four copies of the model: model, gradients, average and squared average of the gradients.
+  So it would need at least 4x model size GPU memory, even with mixed precision as gradient updates are in fp32. This
+  is not including the activations and data batches, which would again require some more GPU RAM. So one should explore
+  solutions such as DeepSpeed, to train/fine-tune the model.

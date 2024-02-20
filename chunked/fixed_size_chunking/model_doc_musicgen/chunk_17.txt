@@ -1,0 +1,12 @@
+odel.generation_config
+increase the guidance scale to 4.0
+model.generation_config.guidance_scale = 4.0
+decrease the max length to 256 tokens
+model.generation_config.max_length = 256
+
+Note that any arguments passed to the generate method will supersede those in the generation config, so setting 
+do_sample=False in the call to generate will supersede the setting of model.generation_config.do_sample in the 
+generation config.
+Model Structure
+The MusicGen model can be de-composed into three distinct stages:
+1. 

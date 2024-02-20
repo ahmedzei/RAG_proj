@@ -1,0 +1,12 @@
+it remote add upstream https://github.com/huggingface/transformers.git
+
+Set up a development environment, for instance by running the following command:
+
+python -m venv .env
+source .env/bin/activate
+pip install -e ".[dev]"
+Depending on your OS, and since the number of optional dependencies of Transformers is growing, you might get a
+failure with this command. If that's the case make sure to install TensorFlow then do:
+
+pip install -e ".[quality]"
+Note: You don't need to have CUDA installed. Making the new m

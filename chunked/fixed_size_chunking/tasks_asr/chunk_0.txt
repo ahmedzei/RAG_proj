@@ -1,0 +1,12 @@
+
+
+Before you begin, make sure you have all the necessary libraries installed:
+
+pip install transformers datasets evaluate jiwer
+We encourage you to login to your Hugging Face account so you can upload and share your model with the community. When prompted, enter your token to login:
+
+from huggingface_hub import notebook_login
+notebook_login()
+
+Load MInDS-14 dataset
+Start by loading a smaller subset of the MInDS-14 dataset from the 🤗 Datasets library. This'll give you a chance to experiment and make sure eve

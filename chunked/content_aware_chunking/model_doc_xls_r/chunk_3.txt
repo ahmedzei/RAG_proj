@@ -1,0 +1,4 @@
+XLS-R also sets a new state of the art on VoxLingua107
+language identification. Moreover, we show that with sufficient model size, cross-lingual pretraining can outperform
+English-only pretraining when translating English speech into other languages, a setting which favors monolingual
+pretraining.

@@ -1,0 +1,12 @@
+rossAttentions
+[[autodoc]] modeling_flax_outputs.FlaxCausalLMOutputWithCrossAttentions
+FlaxMaskedLMOutput
+[[autodoc]] modeling_flax_outputs.FlaxMaskedLMOutput
+FlaxSeq2SeqLMOutput
+[[autodoc]] modeling_flax_outputs.FlaxSeq2SeqLMOutput
+FlaxNextSentencePredictorOutput
+[[autodoc]] modeling_flax_outputs.FlaxNextSentencePredictorOutput
+FlaxSequenceClassifierOutput
+[[autodoc]] modeling_flax_outputs.FlaxSequenceClassifierOutput
+FlaxSeq2SeqSequenceClassifierOutput
+[[autodoc]] modeling_flax_outputs.FlaxSeq2SeqSequence

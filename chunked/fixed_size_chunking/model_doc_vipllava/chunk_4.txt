@@ -1,0 +1,8 @@
+experience inaccurate results.
+
+For better results, we recommend users to prompt the model with the correct prompt format: 
+
+A chat between a curious human and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the human's questions.###Human: <image>\n<prompt>###Assistant:
+For multiple turns conversation:
+
+A chat between a curious human and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the human's questions.

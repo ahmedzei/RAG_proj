@@ -1,0 +1,4 @@
+In addition to sparse
+attention, BigBird also applies global attention as well as random attention to the input sequence. Theoretically, it
+has been shown that applying sparse, global, and random attention approximates full attention, while being
+computationally much more efficient for longer sequences.

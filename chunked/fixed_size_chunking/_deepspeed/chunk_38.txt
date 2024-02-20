@@ -1,0 +1,5 @@
+ implementation.
+
+The optimizer and scheduler parameters for the config file can be set from the command line to avoid hard to find errors. For example, if the learning rate is set to a different value in another place you can override it from the command line. Aside from the optimizer and scheduler parameters, you'll need to ensure your [Trainer] command line arguments match the DeepSpeed configuration.
+
+DeepSpeed offers several optimizers (Adam, AdamW, OneBitAdam, and LAMB) but you can also import other o

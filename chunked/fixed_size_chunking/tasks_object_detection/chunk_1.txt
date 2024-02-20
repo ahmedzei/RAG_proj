@@ -1,0 +1,20 @@
+token to log in:
+
+from huggingface_hub import notebook_login
+notebook_login()
+
+Load the CPPE-5 dataset
+The CPPE-5 dataset contains images with
+annotations identifying medical personal protective equipment (PPE) in the context of the COVID-19 pandemic.
+Start by loading the dataset:
+
+from datasets import load_dataset
+cppe5 = load_dataset("cppe-5")
+cppe5
+DatasetDict({
+    train: Dataset({
+        features: ['image_id', 'image', 'width', 'height', 'objects'],
+        num_rows: 1000
+    })
+    test: Dataset({
+  

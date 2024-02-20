@@ -1,0 +1,9 @@
+al, can accept and return
+text, image, audio, video, among other types. In order to increase compatibility between tools, as well as to 
+correctly render these returns in ipython (jupyter, colab, ipython notebooks, ), we implement wrapper classes
+around these types.
+The wrapped objects should continue behaving as initially; a text object should still behave as a string, an image
+object should still behave as a PIL.Image.
+These types have three specific purposes:
+
+Calling to_raw on the type should return the

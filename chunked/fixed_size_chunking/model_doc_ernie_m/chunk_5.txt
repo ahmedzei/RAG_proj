@@ -1,0 +1,8 @@
+lassification
+    - forward
+ErnieMForQuestionAnswering
+[[autodoc]] ErnieMForQuestionAnswering
+    - forward
+ErnieMForInformationExtraction
+[[autodoc]] ErnieMForInformationExtraction
+    - forward

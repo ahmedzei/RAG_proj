@@ -1,0 +1,12 @@
+etrained]:
+
+from transformers import TFPreTrainedModel
+model.save_pretrained("path_to/model")
+model = TFPreTrainedModel.from_pretrained("path_to/model")
+
+ImportError
+Another common error you may encounter, especially if it is a newly released model, is ImportError:
+ImportError: cannot import name 'ImageGPTImageProcessor' from 'transformers' (unknown location)
+For these error types, check to make sure you have the latest version of 🤗 Transformers installed to access the most recent models:
+
+pip install trans

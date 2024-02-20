@@ -1,0 +1,13 @@
+ned("stevhliu/my_awesome_model")
+inputs = tokenizer(text, return_tensors="tf")
+
+Pass your inputs to the model and return the logits:
+
+from transformers import TFAutoModelForSequenceClassification
+model = TFAutoModelForSequenceClassification.from_pretrained("stevhliu/my_awesome_model")
+logits = model(**inputs).logits
+
+Get the class with the highest probability, and use the model's id2label mapping to convert it to a text label:
+
+predicted_class_id = int(tf.math.argmax(logits, axis=-1)[0])
+model.config.id2lab

@@ -1,0 +1,2 @@
+It is one of the most common audio tasks due partly to speech being such a natural form of human communication. Today, ASR systems are embedded in "smart" technology products like speakers, phones, and cars. We can ask our virtual assistants to play music, set reminders, and tell us the weather. 
+But one of the key challenges Transformer architectures have helped with is in low-resource languages.

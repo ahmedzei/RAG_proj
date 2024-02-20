@@ -1,0 +1,8 @@
+mers import AutoImageProcessor
+checkpoint = "google/vit-base-patch16-224-in21k"
+image_processor = AutoImageProcessor.from_pretrained(checkpoint)
+
+Apply some image transformations to the images to make the model more robust against overfitting. Here you'll use torchvision's transforms module, but you can also use any image library you like.
+Crop a random part of the image, resize it, and normalize it with the image mean and standard deviation:
+
+from torchvision.transforms import RandomResizedCrop, Compose, N

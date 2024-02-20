@@ -1,0 +1,12 @@
+ to allow the
+usage of pickle.load():
+thon
+import os
+from transformers import TransfoXLTokenizer, TransfoXLLMHeadModel
+os.environ["TRUST_REMOTE_CODE"] = "True"
+checkpoint = 'transfo-xl/transfo-xl-wt103'
+revision = '40a186da79458c9f9de846edfaea79c412137f97'
+tokenizer = TransfoXLTokenizer.from_pretrained(checkpoint, revision=revision)
+model = TransfoXLLMHeadModel.from_pretrained(checkpoint, revision=revision)
+
+If you run into any issues running this model, please reinstall the last version that supported this

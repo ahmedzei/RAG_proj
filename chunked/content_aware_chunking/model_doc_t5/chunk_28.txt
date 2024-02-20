@@ -1,0 +1,9 @@
+🌎
+A blog post on Distributed Training: Train BART/T5 for Summarization using 🤗 Transformers and Amazon SageMaker.
+[T5ForConditionalGeneration] is supported by this example script and notebook.
+[TFT5ForConditionalGeneration] is supported by this example script and notebook.
+[FlaxT5ForConditionalGeneration] is supported by this example script.
+Summarization chapter of the 🤗 Hugging Face course.
+Summarization task guide
+
+[FlaxT5ForConditionalGeneration] is supported by this example script for training T5 with a span-masked language model objective.

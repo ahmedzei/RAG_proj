@@ -1,0 +1,3 @@
+Be sure to note the caveats below about XLA compatibility, though!
+
+Tip born of painful experience: Although using jit_compile=True is a good way to get a speed boost and test if your CPU/GPU code is XLA-compatible, it can actually cause a lot of problems if you leave it in when actually training on TPU.

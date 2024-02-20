@@ -1,0 +1,2 @@
+tection) or {'file_name': str, 'image_id': int, 'segments_info': List[Dict]} (in case of COCO panoptic) | {'file_name': str, 'image_id': int, 'segments_info': List[Dict]} and masks_path (path to directory containing PNG files of the masks) |
+| Postprocessing (i.e. converting the output of the model to Pascal VOC format) | [~transformers.DetrImageProcessor.post_process] | [~transformers.DetrImageProcessor.post_process_segmentation] | [~transformers.DetrImageProcessor.post_process_segmentation], [~transformer

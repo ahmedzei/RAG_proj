@@ -1,0 +1,32 @@
+The objectness score can be used to rank or filter predictions independently of text queries.
+Usage of OWLv2 is identical to OWL-ViT with a new, updated image processor ([Owlv2ImageProcessor]).
+
+Owlv2Config
+[[autodoc]] Owlv2Config
+    - from_text_vision_configs
+Owlv2TextConfig
+[[autodoc]] Owlv2TextConfig
+Owlv2VisionConfig
+[[autodoc]] Owlv2VisionConfig
+Owlv2ImageProcessor
+[[autodoc]] Owlv2ImageProcessor
+    - preprocess
+    - post_process_object_detection
+    - post_process_image_guided_detection
+Owlv2Processor
+[[autodoc]] Owlv2Processor
+Owlv2Model
+[[autodoc]] Owlv2Model
+    - forward
+    - get_text_features
+    - get_image_features
+Owlv2TextModel
+[[autodoc]] Owlv2TextModel
+    - forward
+Owlv2VisionModel
+[[autodoc]] Owlv2VisionModel
+    - forward
+Owlv2ForObjectDetection
+[[autodoc]] Owlv2ForObjectDetection
+    - forward
+    - image_guided_detection.

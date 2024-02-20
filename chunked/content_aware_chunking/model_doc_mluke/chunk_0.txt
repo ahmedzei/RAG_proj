@@ -1,0 +1,3 @@
+mLUKE
+Overview
+The mLUKE model was proposed in mLUKE: The Power of Entity Representations in Multilingual Pretrained Language Models by Ryokan Ri, Ikuya Yamada, and Yoshimasa Tsuruoka.

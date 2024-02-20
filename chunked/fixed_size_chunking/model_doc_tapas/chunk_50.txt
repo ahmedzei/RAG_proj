@@ -1,0 +1,13 @@
+    # forward + backward + optimize
+         with tf.GradientTape() as tape:
+             outputs = model(
+                 input_ids=input_ids,
+                 attention_mask=attention_mask,
+                 token_type_ids=token_type_ids,
+                 labels=labels,
+                 numeric_values=numeric_values,
+                 numeric_values_scale=numeric_values_scale,
+                 float_answer=float_answer,
+             )
+         grads = tape.gradient(outputs.loss, model.trainable_weights)
+  

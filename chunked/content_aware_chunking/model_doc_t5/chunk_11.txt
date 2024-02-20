@@ -1,0 +1,3 @@
+In teacher-forcing style, the target
+sequence is then appended by the EOS token and corresponds to the labels. The PAD token is hereby used as the
+start-sequence token.

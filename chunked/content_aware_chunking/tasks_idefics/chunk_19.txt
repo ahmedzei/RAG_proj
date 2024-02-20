@@ -1,0 +1,22 @@
+Say, we have this image of a vegetable stand: 
+
+Photo by Peter Wendt.
+We can instruct the model to classify the image into one of the categories that we have:
+
+categories = ['animals','vegetables', 'city landscape', 'cars', 'office']
+prompt = [f"Instruction: Classify the following image into a single category from the following list: {categories}.\n",
+     "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",  
+     "Category: "
+ ]
+inputs = processor(prompt, return_tensors="pt").to("cuda")
+bad_words_ids = processor.tokenizer(["", ""], add_special_tokens=False).input_ids
+generated_ids = model.generate(**inputs, max_new_tokens=6, bad_words_ids=bad_words_ids)
+generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)
+print(generated_text[0])
+Instruction: Classify the following image into a single category from the following list: ['animals', 'vegetables', 'city landscape', 'cars', 'office'].
+Category: Vegetables
+```  
+
+In the example above we instruct the model to classify the image into a single category, however, you can also prompt the model to do rank classification.
+Image-guided text generation
+For more creative applications, you can use image-guided text generation to generate text based on an image.

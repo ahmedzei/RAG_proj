@@ -1,0 +1,6 @@
+kage installers set the paths to whatever the last version was installed. If the package build fails because it can't find the right CUDA version (despite it being installed system-wide already), then you need to configure the PATH and LD_LIBRARY_PATH environment variables to point to the correct path.
+Take a look at the contents of these environment variables first:
+
+echo $PATH
+echo $LD_LIBRARY_PATH
+PATH lists the locations of the executables and LD_LIBRARY_PATH lists where to look for shared libraries. Ea

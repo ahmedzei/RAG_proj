@@ -1,0 +1,7 @@
+Let's see how much memory was required.
+python
+bytes_to_giga_bytes(torch.cuda.max_memory_allocated())
+Output:
+9.543574333190918
+Just 9.5GB! That's really not a lot for a >15 billion parameter model.
+While we see very little degradation in accuracy for our model here, 4-bit quantization can in practice often lead to different results compared to 8-bit quantization or full bfloat16 inference.

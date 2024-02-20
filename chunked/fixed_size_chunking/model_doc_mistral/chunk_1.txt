@@ -1,0 +1,11 @@
+ instruction fine-tuned model: Mistral-7B-Instruct-v0.1 which can be used for chat-based inference.
+For more details please read our release blog post
+License
+Both Mistral-7B-v0.1 and Mistral-7B-Instruct-v0.1 are released under the Apache 2.0 license.
+Usage tips
+Mistral-7B-v0.1 and Mistral-7B-Instruct-v0.1 can be found on the Huggingface Hub
+These ready-to-use checkpoints can be downloaded and used via the HuggingFace Hub:
+thon
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+device = "cuda" # 

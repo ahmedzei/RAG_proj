@@ -1,0 +1,5 @@
+CLAP
+Overview
+The CLAP model was proposed in Large Scale Contrastive Language-Audio pretraining with
+feature fusion and keyword-to-caption augmentation by Yusong Wu, Ke Chen, Tianyu Zhang, Yuchen Hui, Taylor Berg-Kirkpatrick, Shlomo Dubnov.
+CLAP (Contrastive Language-Audio Pretraining) is a neural network trained on a variety of (audio, text) pairs. It can be instructed in to predict the most relevant text snippet, given an audio, without directly optimizing for the task.

@@ -1,0 +1,27 @@
+In order to specify that you'd like to translate from a different language,
+you should specify the BCP-47 code in the src_lang keyword argument of the tokenizer initialization.
+See example below for a translation from romanian to german:
+
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained(
+     "facebook/nllb-200-distilled-600M", token=True, src_lang="ron_Latn"
+ )
+model = AutoModelForSeq2SeqLM.from_pretrained("facebook/nllb-200-distilled-600M", token=True)
+article = "Şeful ONU spune că nu există o soluţie militară în Siria"
+inputs = tokenizer(article, return_tensors="pt")
+translated_tokens = model.generate(
+     **inputs, forced_bos_token_id=tokenizer.lang_code_to_id["deu_Latn"], max_length=30
+ )
+tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
+UN-Chef sagt, es gibt keine militärische Lösung in Syrien
+
+Resources
+
+Translation task guide
+Summarization task guide
+
+NllbTokenizer
+[[autodoc]] NllbTokenizer
+    - build_inputs_with_special_tokens
+NllbTokenizerFast
+[[autodoc]] NllbTokenizerFast.

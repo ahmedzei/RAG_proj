@@ -1,0 +1,5 @@
+On the FLORES-101 machine translation benchmark, 
+our model outperforms GPT-3 on 171 out of 182 translation directions with 32 training examples, while surpassing the 
+official supervised baseline in 45 directions. We present a detailed analysis of where the model succeeds and fails, 
+showing in particular that it enables cross-lingual in-context learning on some tasks, while there is still room for improvement 
+on surface form robustness and adaptation to tasks that do not have a natural cloze form.

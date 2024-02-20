@@ -1,0 +1,10 @@
+For example, the user can ask "Is there a dog?" to find all images with dogs from a set of images.
+In this guide you'll learn how to:
+
+Fine-tune a classification VQA model, specifically ViLT, on the Graphcore/vqa dataset.
+Use your fine-tuned ViLT for inference.
+Run zero-shot VQA inference with a generative model, like BLIP-2.
+
+Fine-tuning ViLT
+ViLT model incorporates text embeddings into a Vision Transformer (ViT), allowing it to have a minimal design for 
+Vision-and-Language Pre-training (VLP).

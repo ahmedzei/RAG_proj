@@ -1,0 +1,6 @@
+Tag @joaogante and @Rocketknight1 in the 🤗 Hub PR the command above has just created
+That's it! 🎉
+Debugging mismatches across ML frameworks 🐛
+At some point, when adding a new architecture or when creating TensorFlow weights for an existing architecture, you
+might come across errors complaining about mismatches between PyTorch and TensorFlow. You might even decide to open the
+model architecture code for the two frameworks, and find that they look identical.

@@ -1,0 +1,6 @@
+Then we can enable gradient checkpointing by calling the model's [~PreTrainedModel.gradient_checkpointing_enable] method. 
+When we initialize the Accelerator 
+we can specify if we want to use mixed precision training and it will take care of it for us in the [prepare] call. 
+During the prepare 
+call the dataloader will also be distributed across workers should we use multiple GPUs. We use the same 8-bit optimizer from the earlier example.
+Finally, we can add the main training loop.

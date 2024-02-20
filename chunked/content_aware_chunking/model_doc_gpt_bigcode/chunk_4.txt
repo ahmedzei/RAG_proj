@@ -1,0 +1,9 @@
+All models are released under an OpenRAIL license at this https URL.
+The model is an optimized GPT2 model with support for Multi-Query Attention.
+Implementation details
+The main differences compared to GPT2.
+- Added support for Multi-Query Attention.
+- Use gelu_pytorch_tanh instead of classic gelu.
+- Avoid unnecessary synchronizations (this has since been added to GPT2 in #20061, but wasn't in the reference codebase).
+- Use Linear layers instead of Conv1D (good speedup but makes the checkpoints incompatible).
+- Merge _attn and _upcast_and_reordered_attn.

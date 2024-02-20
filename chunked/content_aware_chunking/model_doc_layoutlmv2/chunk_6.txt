@@ -1,0 +1,8 @@
+Details can be found on page 5 of the paper.
+Demo notebooks on how to use the LayoutLMv2 model on RVL-CDIP, FUNSD, DocVQA, CORD can be found here.
+LayoutLMv2 uses Facebook AI's Detectron2 package for its visual
+  backbone. See this link for installation
+  instructions.
+In addition to input_ids, [~LayoutLMv2Model.forward] expects 2 additional inputs, namely
+  image and bbox. The image input corresponds to the original document image in which the text
+  tokens occur.

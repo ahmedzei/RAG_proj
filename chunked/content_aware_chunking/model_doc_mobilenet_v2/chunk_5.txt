@@ -1,0 +1,6 @@
+The original code and weights can be found here for the main model and here for DeepLabV3+.
+Usage tips
+
+The checkpoints are named mobilenet_v2_depth_size, for example mobilenet_v2_1.0_224, where 1.0 is the depth multiplier (sometimes also referred to as "alpha" or the width multiplier) and 224 is the resolution of the input images the model was trained on.
+
+Even though the checkpoint is trained on images of specific size, the model will work on images of any size.

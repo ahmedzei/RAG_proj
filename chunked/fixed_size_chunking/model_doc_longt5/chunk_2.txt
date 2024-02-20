@@ -1,0 +1,9 @@
+T5 architecture. The result is a new attention mechanism we call {\em Transient Global}
+(TGlobal), which mimics ETC's local/global attention mechanism, but without requiring additional side-inputs. We are
+able to achieve state-of-the-art results on several summarization tasks and outperform the original T5 models on
+question answering tasks.
+This model was contributed by stancld.
+The original code can be found here.
+Usage tips
+
+[LongT5ForConditionalGeneration] is an extension of [T5ForConditionalGeneration]

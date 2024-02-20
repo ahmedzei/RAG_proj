@@ -1,0 +1,11 @@
+.
+Usage example
+The code snippet below shows how to randomly initialize a PatchTSMixer model. The model is compatible with the Trainer API.
+thon
+from transformers import PatchTSMixerConfig, PatchTSMixerForPrediction
+from transformers import Trainer, TrainingArguments,
+config = PatchTSMixerConfig(context_length = 512, prediction_length = 96)
+model = PatchTSMixerForPrediction(config)
+trainer = Trainer(model=model, args=training_args, 
+            train_dataset=train_dataset,
+            eval_dataset=valid_dat

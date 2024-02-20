@@ -1,0 +1,4 @@
+The Convolutional vision Transformer (CvT) improves the Vision Transformer (ViT) in performance and efficiency by introducing convolutions into ViT to yield the best of both designs.
+The abstract from the paper is the following:
+We present in this paper a new architecture, named Convolutional vision Transformer (CvT), that improves Vision Transformer (ViT) 
+in performance and efficiency by introducing convolutions into ViT to yield the best of both designs.

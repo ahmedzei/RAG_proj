@@ -1,0 +1,8 @@
+e a TPU-compatible dataset loading approach (see notebook)
+Migrate your code either to Colab (with accelerator set to “TPU”) or a TPU VM on Google Cloud
+Add TPU initializer code (see notebook)
+Create your TPUStrategy and make sure dataset loading and model creation are inside the strategy.scope() (see notebook)
+Don’t forget to take jit_compile=True out again when you move to TPU!
+🙏🙏🙏🥺🥺🥺
+Call model.fit()
+You did it!

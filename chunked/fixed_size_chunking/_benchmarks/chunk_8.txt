@@ -1,0 +1,19 @@
+
+gpu_ram_mb: 24217
+gpu_power_watts: 280.0
+gpu_performance_state: 2
+use_tpu: False
+</pt>
+<tf>bash
+python examples/tensorflow/benchmarking/run_benchmark_tf.py --help
+
+An instantiated benchmark object can then simply be run by calling benchmark.run().
+
+results = benchmark.run()
+print(results)
+results = benchmark.run()
+print(results)
+====================       INFERENCE - SPEED - RESULT       ====================
+
+Model Name             Batch Size     Seq Length     Time in s
+google-bert/bert-base-uncased      

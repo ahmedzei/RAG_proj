@@ -1,0 +1,10 @@
+orrect order of color channels,
+applies OCR with tesseract to get words and normalized bounding boxes. In this tutorial, all of these defaults are exactly what we need.
+Write a function that applies the default image processing to a batch of images and returns the results of OCR.
+
+image_processor = processor.image_processor
+def get_ocr_words_and_boxes(examples):
+     images = [image.convert("RGB") for image in examples["image"]]
+     encoded_inputs = image_processor(images)
+
+     examples["image"] = encoded

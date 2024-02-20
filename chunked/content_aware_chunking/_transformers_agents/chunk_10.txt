@@ -1,0 +1,7 @@
+For example, you could generate the first image of rivers and lakes, 
+and ask the model to update that picture to add an island by doing the following:
+python
+picture = agent.run("Generate a picture of rivers and lakes.")
+updated_picture = agent.run("Transform the image in `picture` to add an island to it.", picture=picture)
+
+This can be helpful when the model is unable to understand your request and mixes tools.

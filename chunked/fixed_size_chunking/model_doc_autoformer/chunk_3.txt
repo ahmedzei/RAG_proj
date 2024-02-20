@@ -1,0 +1,5 @@
+ndencies discovery and representation aggregation at the sub-series level. Auto-Correlation outperforms self-attention in both efficiency and accuracy. In long-term forecasting, Autoformer yields state-of-the-art accuracy, with a 38% relative improvement on six benchmarks, covering five practical applications: energy, traffic, economics, weather and disease.
+This model was contributed by elisim and kashif.
+The original code can be found here.
+Resources
+A list of official Hugging Face and community (indicate

@@ -1,0 +1,8 @@
+o combine it with an autoregressive text decoder such as GPT-2.
+
+Usage: fine-tuning
+Here we explain how you can fine-tune [TapasForQuestionAnswering] on your own dataset.
+STEP 1: Choose one of the 3 ways in which you can use TAPAS - or experiment
+Basically, there are 3 different ways in which one can fine-tune [TapasForQuestionAnswering], corresponding to the different datasets on which Tapas was fine-tuned:
+
+SQA: if you're interested in asking follow-up questions related to a table, in a conversational set

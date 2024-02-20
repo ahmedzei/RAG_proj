@@ -1,0 +1,14 @@
+in enumerate(generated_text):
+     print(f"{i}:\n{t}\n") 
+0:
+This is an image of the Eiffel Tower in Paris, France.
+
+1:
+This is an image of a couple on a picnic blanket.
+2:
+This is an image of a vegetable stand.
+
+IDEFICS instruct for conversational use
+For conversational use cases, you can find fine-tuned instructed versions of the model on the 🤗 Hub: 
+HuggingFaceM4/idefics-80b-instruct and HuggingFaceM4/idefics-9b-instruct.
+These checkpoints are the result of fine-tuning the respective base models on a mix

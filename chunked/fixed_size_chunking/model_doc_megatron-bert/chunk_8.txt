@@ -1,0 +1,17 @@
+ction
+[[autodoc]] MegatronBertForNextSentencePrediction
+    - forward
+MegatronBertForPreTraining
+[[autodoc]] MegatronBertForPreTraining
+    - forward
+MegatronBertForSequenceClassification
+[[autodoc]] MegatronBertForSequenceClassification
+    - forward
+MegatronBertForMultipleChoice
+[[autodoc]] MegatronBertForMultipleChoice
+    - forward
+MegatronBertForTokenClassification
+[[autodoc]] MegatronBertForTokenClassification
+    - forward
+MegatronBertForQuestionAnswering
+[[autodoc]] MegatronBertForQuestionAnswering

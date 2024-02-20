@@ -1,0 +1,12 @@
+sinusoidal_pos_embds": false,
+  "transformers_version": "4.16.2",
+  "vocab_size": 30522
+}
+
+Pretrained model attributes can be modified in the [~PretrainedConfig.from_pretrained] function:
+
+my_config = DistilBertConfig.from_pretrained("distilbert/distilbert-base-uncased", activation="relu", attention_dropout=0.4)
+
+Once you are satisfied with your model configuration, you can save it with [~PretrainedConfig.save_pretrained]. Your configuration file is stored as a JSON file in the specified save directory:
+
+my

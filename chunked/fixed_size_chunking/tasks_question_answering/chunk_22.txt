@@ -1,0 +1,15 @@
+gmax()
+
+Decode the predicted tokens to get the answer:
+
+predict_answer_tokens = inputs.input_ids[0, answer_start_index : answer_end_index + 1]
+tokenizer.decode(predict_answer_tokens)
+'176 billion parameters and can generate text in 46 languages natural languages and 13'
+
+Tokenize the text and return TensorFlow tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("my_awesome_qa_model")
+inputs = tokenizer(question, text, return_tensors="tf")
+
+Pass your inputs to the model

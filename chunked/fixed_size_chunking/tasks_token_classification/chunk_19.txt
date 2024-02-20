@@ -1,0 +1,16 @@
+nd the label mappings:
+
+from transformers import TFAutoModelForTokenClassification
+model = TFAutoModelForTokenClassification.from_pretrained(
+     "distilbert/distilbert-base-uncased", num_labels=13, id2label=id2label, label2id=label2id
+ )
+
+Convert your datasets to the tf.data.Dataset format with [~transformers.TFPreTrainedModel.prepare_tf_dataset]:
+
+tf_train_set = model.prepare_tf_dataset(
+     tokenized_wnut["train"],
+     shuffle=True,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+tf_validation_s

@@ -1,0 +1,12 @@
+We'll add the not-so-useful yet fun task of fetching the model on the Hugging Face
+Hub with the most downloads for a given task.
+We can do that with the following code:
+thon
+from huggingface_hub import list_models
+task = "text-classification"
+model = next(iter(list_models(filter=task, sort="downloads", direction=-1)))
+print(model.id)
+
+For the task text-classification, this returns 'facebook/bart-large-mnli', for translation it returns 'google-t5/t5-base.
+How do we convert this to a tool that the agent can leverage? All tools depend on the superclass Tool that holds the
+main attributes necessary.

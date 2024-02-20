@@ -1,0 +1,12 @@
+architecture.
+There are two important components of the model architecture that quickly become memory and/or performance bottlenecks for large input sequences.
+
+The positional embeddings
+The key-value cache
+
+Let's go over each component in more detail
+3.1 Improving positional embeddings of LLMs
+Self-attention puts each token in relation to each other's tokens.
+As an example, the \( \text{Softmax}(\mathbf{QK}^T) \) matrix of the text input sequence "Hello", "I", "love", "you" could look as follows:
+
+Each wor

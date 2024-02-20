@@ -1,0 +1,6 @@
+ions.
+At times, additional efforts may be required to pre-build some components. For instance, if you're using libraries like apex that 
+don't come pre-compiled. In other situations figuring out how to install the right cuda toolkit system-wide can be complicated. 
+To address these scenarios PyTorch and NVIDIA released a new version of NGC docker container which already comes with 
+everything prebuilt. You just need to install your programs on it, and it will run out of the box.
+This approach is also useful

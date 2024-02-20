@@ -1,0 +1,2 @@
+For languages with a Roman alphabet, such as English or French, the tokenizer can be used directly to 
+pre-process the text inputs.

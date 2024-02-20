@@ -1,0 +1,15 @@
+mpany B: XYZ Ltd.\nJoint Venture: A new online platform for e-commerce'
+
+Example :
+thon
+
+from transformers import PhiForCausalLM, AutoTokenizer
+define the model and tokenizer.
+model = PhiForCausalLM.from_pretrained("microsoft/phi-1_5")
+tokenizer = AutoTokenizer.from_pretrained("microsoft/phi-1_5")
+feel free to change the prompt to your liking.
+prompt = "If I were an AI that had just achieved"
+apply the tokenizer.
+tokens = tokenizer(prompt, return_tensors="pt")
+use the model to generate new tokens.
+generated

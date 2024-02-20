@@ -1,0 +1,6 @@
+Most of the recent quantization method packs int2/int4 weights inside torch.uint8 weights, so this flag should not be really required (set to False by default).
+is_serializable: A property method to determine whether the method is serializable or not.
+
+is_trainable:  A property method to determine whether you can fine-tune models on top of the quantization method (with or without PEFT approaches).
+
+Write the validate_environment and update_torch_dtype methods.

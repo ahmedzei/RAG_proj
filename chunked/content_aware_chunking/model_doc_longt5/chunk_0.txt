@@ -1,0 +1,5 @@
+LongT5
+Overview
+The LongT5 model was proposed in LongT5: Efficient Text-To-Text Transformer for Long Sequences
+by Mandy Guo, Joshua Ainslie, David Uthus, Santiago Ontanon, Jianmo Ni, Yun-Hsuan Sung and Yinfei Yang. It's an
+encoder-decoder transformer pre-trained in a text-to-text denoising generative setting.

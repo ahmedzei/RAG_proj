@@ -1,0 +1,4 @@
+This model was contributed by nielsr.
+The original code can be found here.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with VideoMAE.

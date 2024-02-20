@@ -1,0 +1,20 @@
+] FlaubertForQuestionAnswering
+    - forward
+
+TFFlaubertModel
+[[autodoc]] TFFlaubertModel
+    - call
+TFFlaubertWithLMHeadModel
+[[autodoc]] TFFlaubertWithLMHeadModel
+    - call
+TFFlaubertForSequenceClassification
+[[autodoc]] TFFlaubertForSequenceClassification
+    - call
+TFFlaubertForMultipleChoice
+[[autodoc]] TFFlaubertForMultipleChoice
+    - call
+TFFlaubertForTokenClassification
+[[autodoc]] TFFlaubertForTokenClassification
+    - call
+TFFlaubertForQuestionAnsweringSimple
+[[autodoc]] TFFlaubertForQuestionAns

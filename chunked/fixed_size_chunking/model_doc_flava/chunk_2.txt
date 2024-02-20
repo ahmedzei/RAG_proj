@@ -1,0 +1,14 @@
+ss- and multi-modal vision and language tasks. We introduce FLAVA as such a model and demonstrate
+impressive performance on a wide range of 35 tasks spanning these target modalities.
+This model was contributed by aps. The original code can be found here.
+FlavaConfig
+[[autodoc]] FlavaConfig
+FlavaTextConfig
+[[autodoc]] FlavaTextConfig
+FlavaImageConfig
+[[autodoc]] FlavaImageConfig
+FlavaMultimodalConfig
+[[autodoc]] FlavaMultimodalConfig
+FlavaImageCodebookConfig
+[[autodoc]] FlavaImageCodebookConfig
+FlavaProcesso

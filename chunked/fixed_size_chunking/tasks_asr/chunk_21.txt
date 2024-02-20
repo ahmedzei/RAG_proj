@@ -1,0 +1,11 @@
+Y PARTNER'}
+
+The transcription is decent, but it could be better! Try finetuning your model on more examples to get even better results!
+
+You can also manually replicate the results of the pipeline if you'd like:
+
+Load a processor to preprocess the audio file and transcription and return the input as PyTorch tensors:
+
+from transformers import AutoProcessor
+processor = AutoProcessor.from_pretrained("stevhliu/my_awesome_asr_mind_model")
+inputs = processor(dataset[0]["audio"]["array"], sampling_rate=sampling_r

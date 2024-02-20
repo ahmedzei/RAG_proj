@@ -1,0 +1,12 @@
+.0 - compile |
+|:---:|:---:|:---:|:---:|
+| Image Classification/BeiT | Unbatched | 12.462 | 6.954 | 
+| Image Classification/BeiT | 4 | 14.109 | 12.851 | 
+| Image Classification/BeiT | 16 | 42.179 | 42.147 | 
+| Object Detection/DETR | Unbatched | 30.484 | 15.221 |
+| Object Detection/DETR | 4 | 46.816 | 30.942 |
+| Object Detection/DETR | 16 | 163.749 | 163.706  |
+T4
+| Task/Model | Batch Size | torch 2.0 - no compile | torch 2.0 - compile |
+|:---:|:---:|:---:|:---:|
+| Image Classification/BeiT | Unbatched | 14

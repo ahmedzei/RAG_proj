@@ -1,0 +1,6 @@
+ making certain settings deterministic, training may be slower.
+Customize the Trainer
+While the [Trainer] class is designed to be accessible and easy-to-use, it also offers a lot of customizability for more adventurous users. Many of the [Trainer]'s method can be subclassed and overridden to support the functionality you want, without having to rewrite the entire training loop from scratch to accommodate it. These methods include:
+
+[~Trainer.get_train_dataloader] creates a training DataLoader
+[~Trainer.get_

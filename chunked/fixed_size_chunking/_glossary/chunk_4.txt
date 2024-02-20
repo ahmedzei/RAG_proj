@@ -1,0 +1,10 @@
+_mask"]
+[[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+autoencoding models
+See encoder models and masked language modeling
+autoregressive models
+See causal language modeling and decoder models
+B
+backbone
+The backbone is the network (embeddings and layers) that outputs the raw hidden states or features. It is usually connected to a head which accepts the features as its input to make a prediction. For example, [ViTModel] is a backbone w

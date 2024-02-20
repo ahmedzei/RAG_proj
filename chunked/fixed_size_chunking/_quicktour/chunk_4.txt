@@ -1,0 +1,3 @@
+ssification         | assign a label to an image                                                                                   | Computer vision | pipeline(task=“image-classification”)         |
+| Image segmentation           | assign a label to each individual pixel of an image (supports semantic, panoptic, and instance segmentation) | Computer vision | pipeline(task=“image-segmentation”)           |
+| Object detection             | predict the bounding boxes and classes of objects in an image         

@@ -1,0 +1,10 @@
+aps each message in <|im_start|> and <|im_end|> tokens, and simply writes the role as a string, which
+allows for flexibility in the roles you train with. The output looks like this:
+text
+<|im_start|>system
+You are a helpful chatbot that will do its best not to say anything so stupid that people tweet about it.<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+I'm doing great!<|im_end|>
+The "user", "system" and "assistant" roles are the standard for chat, and we recommend using them whe

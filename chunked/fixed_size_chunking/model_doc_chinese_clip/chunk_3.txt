@@ -1,0 +1,11 @@
+classification based on the evaluation on the ELEVATER benchmark (Li et al., 2022). Our codes, pretrained models, and demos have been released.
+The Chinese-CLIP model was contributed by OFA-Sys.
+Usage example
+The code snippet below shows how to compute image & text features and similarities:
+thon
+
+from PIL import Image
+import requests
+from transformers import ChineseCLIPProcessor, ChineseCLIPModel
+model = ChineseCLIPModel.from_pretrained("OFA-Sys/chinese-clip-vit-base-patch16")
+processor = ChineseCLIPProces

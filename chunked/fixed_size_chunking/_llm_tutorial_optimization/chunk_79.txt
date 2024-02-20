@@ -1,0 +1,14 @@
+alues=generation_output.past_key_values,
+  max_new_tokens=60,
+  return_dict_in_generate=True
+)
+tokenizer.batch_decode(generation_output.sequences)[0][len(prompt):]
+
+Output:
+
+ is a modified version of the function that returns Mega bytes instead.
+def bytes_to_megabytes(bytes):
+   return bytes / 1024 / 1024
+Answer: The function takes a number of bytes as input and returns the number of
+
+Great, no additional time is spent recomputing the same key and values for the attention layer! There is however one catch. 

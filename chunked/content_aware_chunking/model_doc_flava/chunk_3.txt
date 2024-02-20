@@ -1,0 +1,3 @@
+We introduce FLAVA as such a model and demonstrate
+impressive performance on a wide range of 35 tasks spanning these target modalities.
+This model was contributed by aps.

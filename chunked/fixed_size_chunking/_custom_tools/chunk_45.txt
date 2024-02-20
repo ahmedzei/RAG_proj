@@ -1,0 +1,12 @@
+filter=task, sort="downloads", direction=-1)))
+    return model.id
+
+We now have our tool handy. Save it in a file and import it from your main script. Let's name this file
+model_downloads.py, so the resulting import code looks like this:
+thon
+from model_downloads import HFModelDownloadsTool
+tool = HFModelDownloadsTool()
+
+In order to let others benefit from it and for simpler initialization, we recommend pushing it to the Hub under your 
+namespace. To do so, just call push_to_hub on the tool variable:
+python

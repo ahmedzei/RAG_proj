@@ -1,0 +1,4 @@
+The model obtains state-of-the-art results
+for audio classification.
+The abstract from the paper is the following:
+In the past decade, convolutional neural networks (CNNs) have been widely adopted as the main building block for end-to-end audio classification models, which aim to learn a direct mapping from audio spectrograms to corresponding labels. To better capture long-range global context, a recent trend is to add a self-attention mechanism on top of the CNN, forming a CNN-attention hybrid model.

@@ -1,0 +1,3 @@
+model = AutoModelForCausalLM.from_pretrained("path", torch_dtype = "auto").
+bfloat16: Code Llama was trained with this precision, so we recommend using it for further training or fine-tuning.
+float16: We recommend running inference using this precision, as it's usually faster than bfloat16, and evaluation metrics show no discernible degradation with respect to bfloat16.

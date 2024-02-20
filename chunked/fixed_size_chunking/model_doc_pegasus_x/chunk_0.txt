@@ -1,0 +1,7 @@
+
+PEGASUS-X
+Overview
+The PEGASUS-X model was proposed in Investigating Efficiently Extending Transformers for Long Input Summarization  by Jason Phang, Yao Zhao and Peter J. Liu.
+PEGASUS-X (PEGASUS eXtended) extends the PEGASUS models for long input summarization through additional long input pretraining and using staggered block-local attention with global tokens in the encoder.
+The abstract from the paper is the following:
+While large pretrained Transformer models have proven highly capable at tackling nat

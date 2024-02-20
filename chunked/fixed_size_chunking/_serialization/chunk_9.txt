@@ -1,0 +1,12 @@
+="pt")
+outputs = model(**inputs)
+
+The process is identical for TensorFlow checkpoints on the Hub. For instance, here's how you would
+export a pure TensorFlow checkpoint from the Keras organization:
+
+optimum-cli export onnx --model keras-io/transformers-qa distilbert_base_cased_squad_onnx/
+Exporting a 🤗 Transformers model to ONNX with optimum.onnxruntime
+Alternative to CLI, you can export a 🤗 Transformers model to ONNX programmatically like so: 
+thon
+
+from optimum.onnxruntime import ORTModelForSequenceClassi

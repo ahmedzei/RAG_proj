@@ -1,0 +1,5 @@
+Let's install the libraries needed for distillation and evaluating the process. 
+
+pip install transformers datasets accelerate tensorboard evaluate --upgrade
+In this example, we are using the merve/beans-vit-224 model as teacher model. It's an image classification model, based on google/vit-base-patch16-224-in21k fine-tuned on beans dataset. We will distill this model to a randomly initialized MobileNetV2.
+We will now load the dataset.

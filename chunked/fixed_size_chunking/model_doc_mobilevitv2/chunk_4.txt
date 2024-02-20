@@ -1,0 +1,11 @@
+mages to be in BGR pixel order (not RGB).
+The available image classification checkpoints are pre-trained on ImageNet-1k (also referred to as ILSVRC 2012, a collection of 1.3 million images and 1,000 classes).
+The segmentation model uses a DeepLabV3 head. The available semantic segmentation checkpoints are pre-trained on PASCAL VOC.
+
+MobileViTV2Config
+[[autodoc]] MobileViTV2Config
+MobileViTV2Model
+[[autodoc]] MobileViTV2Model
+    - forward
+MobileViTV2ForImageClassification
+[[autodoc]] MobileViTV2ForImageClas

@@ -1,0 +1,9 @@
+
+MegatronBERT
+Overview
+The MegatronBERT model was proposed in Megatron-LM: Training Multi-Billion Parameter Language Models Using Model
+Parallelism by Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley,
+Jared Casper and Bryan Catanzaro.
+The abstract from the paper is the following:
+Recent work in language modeling demonstrates that training large transformer models advances the state of the art in
+Natural Language Processing applications. However, very large models can be quite difficult to tra

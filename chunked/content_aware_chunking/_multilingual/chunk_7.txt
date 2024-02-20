@@ -1,0 +1,13 @@
+You can set the source language in the tokenizer:
+
+from transformers import M2M100ForConditionalGeneration, M2M100Tokenizer
+en_text = "Do not meddle in the affairs of wizards, for they are subtle and quick to anger."
+chinese_text = "不要插手巫師的事務, 因為他們是微妙的, 很快就會發怒."
+tokenizer = M2M100Tokenizer.from_pretrained("facebook/m2m100_418M", src_lang="zh")
+model = M2M100ForConditionalGeneration.from_pretrained("facebook/m2m100_418M")
+
+Tokenize the text:
+
+encoded_zh = tokenizer(chinese_text, return_tensors="pt")
+
+M2M100 forces the target language id as the first generated token to translate to the target language.

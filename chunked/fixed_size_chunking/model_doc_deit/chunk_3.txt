@@ -1,0 +1,8 @@
+s from the teacher through attention. We show the interest of this token-based
+distillation, especially when using a convnet as a teacher. This leads us to report results competitive with convnets
+for both Imagenet (where we obtain up to 85.2% accuracy) and when transferring to other tasks. We share our code and
+models.
+This model was contributed by nielsr. The TensorFlow version of this model was added by amyeroberts.
+Usage tips
+
+Compared to ViT, DeiT models use a so-called distillation token to effectivel

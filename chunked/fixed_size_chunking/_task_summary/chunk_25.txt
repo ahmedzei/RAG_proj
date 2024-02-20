@@ -1,0 +1,5 @@
+her times without context (closed-domain). This task happens whenever we ask a virtual assistant something like whether a restaurant is open. It can also provide customer or technical support and help search engines retrieve the relevant information you're asking for. 
+There are two common types of question answering:
+
+extractive: given a question and some context, the answer is a span of text from the context the model must extract
+abstractive: given a question and some context, the answer is generated fro

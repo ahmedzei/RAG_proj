@@ -1,0 +1,9 @@
+ with [AutoImageProcessor.from_pretrained]:
+
+from transformers import AutoImageProcessor
+image_processor = AutoImageProcessor.from_pretrained("google/vit-base-patch16-224")
+
+First, let's add some image augmentation. You can use any library you prefer, but in this tutorial, we'll use torchvision's transforms module. If you're interested in using another data augmentation library, learn how in the Albumentations or Kornia notebooks.
+
+Here we use Compose to chain together a couple of
+transforms - RandomResized

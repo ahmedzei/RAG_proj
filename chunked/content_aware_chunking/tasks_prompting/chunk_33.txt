@@ -1,0 +1,7 @@
+Date: 09/28/1960
+
+In the above code snippet we used a single example to demonstrate the desired output to the model, so this can be called a 
+"one-shot" prompting. However, depending on the task complexity you may need to use more than one example. 
+Limitations of the few-shot prompting technique: 
+- While LLMs can pick up on the patterns in the examples, these technique doesn't work well on complex reasoning tasks
+- Few-shot prompting requires creating lengthy prompts.

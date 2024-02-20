@@ -1,0 +1,13 @@
+s=image, padding="max_length", return_tensors="pt")
+with torch.no_grad():
+     outputs = model(**inputs)
+logits_per_image = outputs.logits_per_image
+probs = torch.sigmoid(logits_per_image) # these are the probabilities
+print(f"{probs[0][0]:.1%} that image 0 is '{texts[0]}'")
+31.9% that image 0 is 'a photo of 2 cats'
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with SigLIP.
+
+Zero-shot image classification task guide
+Demo notebooks for SigLIP can 

@@ -1,0 +1,9 @@
+
+DeepSpeed
+DeepSpeed is a PyTorch optimization library that makes distributed training memory-efficient and fast. At it's core is the Zero Redundancy Optimizer (ZeRO) which enables training large models at scale. ZeRO works in several stages:
+
+ZeRO-1, optimizer state partioning across GPUs
+ZeRO-2, gradient partitioning across GPUs
+ZeRO-3, parameteter partitioning across GPUs
+
+In GPU-limited environments, ZeRO also enables offloading optimizer memory and computation from the GPU to the CPU to fit and train r

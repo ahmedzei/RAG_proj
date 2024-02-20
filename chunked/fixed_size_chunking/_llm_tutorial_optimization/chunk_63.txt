@@ -1,0 +1,3 @@
+oyed in tasks that require handling large text inputs are better trained with relative positional embeddings, such as RoPE and ALiBi. Also note that even if an LLM with RoPE and ALiBi has been trained only on a fixed length of say \( N_1 = 2048 \) it can still be used in practice with text inputs much larger than \( N_1 \), like \( N_2 = 8192 > N_1 \) by extrapolating the positional embeddings.
+3.2 The key-value cache
+Auto-regressive text generation with LLMs works by iteratively putting in an input sequenc

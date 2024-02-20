@@ -1,0 +1,12 @@
+ocessor] wraps [ViTImageProcessor] and [MgpstrTokenizer]
+into a single instance to both extract the input features and decode the predicted token ids.
+
+Step-by-step Optical Character Recognition (OCR)
+
+from transformers import MgpstrProcessor, MgpstrForSceneTextRecognition
+import requests
+from PIL import Image
+processor = MgpstrProcessor.from_pretrained('alibaba-damo/mgp-str-base')
+model = MgpstrForSceneTextRecognition.from_pretrained('alibaba-damo/mgp-str-base')
+load image from the IIIT-5k dataset
+url = "h

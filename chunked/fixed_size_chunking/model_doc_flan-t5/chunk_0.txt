@@ -1,0 +1,11 @@
+
+FLAN-T5
+Overview
+FLAN-T5 was released in the paper Scaling Instruction-Finetuned Language Models - it is an enhanced version of T5 that has been finetuned in a mixture of tasks.
+One can directly use FLAN-T5 weights without finetuning the model:
+thon
+
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-small")
+tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
+inputs = tokenizer("A step by step recipe to make bolognese pa

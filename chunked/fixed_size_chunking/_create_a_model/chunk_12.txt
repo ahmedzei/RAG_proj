@@ -1,0 +1,8 @@
+n attributes with your own if you'd like:
+
+tf_model = TFDistilBertModel.from_pretrained("distilbert/distilbert-base-uncased", config=my_config)
+
+Model heads
+At this point, you have a base DistilBERT model which outputs the hidden states. The hidden states are passed as inputs to a model head to produce the final output. 🤗 Transformers provides a different model head for each task as long as a model supports the task (i.e., you can't use DistilBERT for a sequence-to-sequence task like translation).
+
+For exam

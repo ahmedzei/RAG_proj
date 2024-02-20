@@ -1,0 +1,3 @@
+ALIGN features a dual-encoder architecture with EfficientNet as its vision encoder and BERT as its text encoder, and learns to align visual and text representations with contrastive learning. Unlike previous work, ALIGN leverages a massive noisy dataset and shows that the scale of the corpus can be used to achieve SOTA representations with a simple recipe.
+The abstract from the paper is the following:
+Pre-trained representations are becoming crucial for many NLP and perception tasks.

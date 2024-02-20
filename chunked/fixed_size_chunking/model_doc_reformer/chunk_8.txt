@@ -1,0 +1,7 @@
+ual to config.max_embedding_size, which during training has to be equal to the sequence
+length of the input_ids.
+LSH Self Attention
+In Locality sensitive hashing (LSH) self attention the key and query projection weights are tied. Therefore, the key
+query embedding vectors are also tied. LSH self attention uses the locality sensitive hashing mechanism proposed in
+Practical and Optimal LSH for Angular Distance to assign each of the tied key
+query embedding vectors to one of config.num_buckets possible buckets

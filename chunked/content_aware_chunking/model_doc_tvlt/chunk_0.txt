@@ -1,0 +1,4 @@
+TVLT
+Overview
+The TVLT model was proposed in TVLT: Textless Vision-Language Transformer
+by Zineng Tang, Jaemin Cho, Yixin Nie, Mohit Bansal (the first three authors contributed equally). The Textless Vision-Language Transformer (TVLT) is a model that uses raw visual and audio inputs for vision-and-language representation learning, without using text-specific modules such as tokenization or automatic speech recognition (ASR).

@@ -1,0 +1,11 @@
+nto creating a custom model without an AutoClass. Learn how to:
+
+Load and customize a model configuration.
+Create a model architecture.
+Create a slow and fast tokenizer for text.
+Create an image processor for vision tasks.
+Create a feature extractor for audio tasks.
+Create a processor for multimodal tasks.
+
+Configuration
+A configuration refers to a model's specific attributes. Each model configuration has different attributes; for instance, all NLP models have the hidden_size, num_attention_heads, num_hidde

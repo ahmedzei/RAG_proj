@@ -1,0 +1,11 @@
+he original repository and checkpoint
+☐ Successfully added the model skeleton to 🤗 Transformers
+☐ Successfully converted original checkpoint to 🤗 Transformers checkpoint
+☐ Successfully ran forward() pass in 🤗 Transformers that gives identical output to original checkpoint
+☐ Finished model tests in 🤗 Transformers
+☐ Successfully added tokenizer in 🤗 Transformers
+☐ Run end-to-end integration tests
+☐ Finished docs
+☐ Uploaded model weights to the Hub
+☐ Submitted the pull request
+☐ (Optional) Added a demo noteboo

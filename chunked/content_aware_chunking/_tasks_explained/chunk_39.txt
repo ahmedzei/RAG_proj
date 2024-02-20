@@ -1,0 +1,4 @@
+This process is repeated until the decoded features are the same size as the original image. The output is passed through two convolution layers and then a sigmoid activation is applied to predict the depth of each pixel.
+
+Natural language processing
+The Transformer was initially designed for machine translation, and since then, it has practically become the default architecture for solving all NLP tasks.

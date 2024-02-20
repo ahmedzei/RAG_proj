@@ -1,0 +1,11 @@
+ault if they are available.
+Run a script on a TPU
+
+Tensor Processing Units (TPUs) are specifically designed to accelerate performance. PyTorch supports TPUs with the XLA deep learning compiler (see here for more details). To use a TPU, launch the xla_spawn.py script and use the num_cores argument to set the number of TPU cores you want to use.
+
+python xla_spawn.py --num_cores 8 \
+    summarization/run_summarization.py \
+    --model_name_or_path google-t5/t5-small \
+    --do_train \
+    --do_eval \
+    --dat

@@ -1,0 +1,13 @@
+dels need
+special tokens, but if they do, the tokenizer automatically adds them for you.
+If there are several sentences you want to preprocess, pass them as a list to the tokenizer:
+
+batch_sentences = [
+     "But what about second breakfast?",
+     "Don't think he knows about second breakfast, Pip.",
+     "What about elevensies?",
+ ]
+encoded_inputs = tokenizer(batch_sentences)
+print(encoded_inputs)
+{'input_ids': [[101, 1252, 1184, 1164, 1248, 6462, 136, 102],
+               [101, 1790, 112, 189, 1341, 1119,

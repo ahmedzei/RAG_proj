@@ -1,0 +1,9 @@
+    0.006   
+google-bert/bert-base-uncased          8              128            0.018   
+google-bert/bert-base-uncased          8              512            0.088     
+
+====================      INFERENCE - MEMORY - RESULT       ====================
+Model Name             Batch Size     Seq Length    Memory in MB
+google-bert/bert-base-uncased          8               8             1227
+google-bert/bert-base-uncased          8               32            1281
+google-bert/bert-base-uncased          8      

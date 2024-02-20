@@ -1,0 +1,14 @@
+There are 
+exactly as many bullet points as there are tools in agent.toolbox and each bullet point consists of the name 
+and description of the tool:
+text
+- <tool.name>: <tool.description>
+Let's verify this quickly by loading the document_qa tool and printing out the name and description.
+
+from transformers import load_tool
+document_qa = load_tool("document-question-answering")
+print(f"- {document_qa.name}: {document_qa.description}")
+
+which gives:
+text
+- document_qa: This is a tool that answers a question about a document (pdf).

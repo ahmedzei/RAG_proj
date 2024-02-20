@@ -1,0 +1,12 @@
+t). For token classification tasks however, the downsampled sequence of
+  tokens needs to be upsampled again to match the length of the original character sequence (which is 2048). The
+  details for this can be found in the paper.
+
+Model checkpoints:
+
+google/canine-c: Pre-trained with autoregressive character loss,
+    12-layer, 768-hidden, 12-heads, 121M parameters (size ~500 MB).
+google/canine-s: Pre-trained with subword loss, 12-layer,
+    768-hidden, 12-heads, 121M parameters (size ~500 MB).
+
+Usage exam

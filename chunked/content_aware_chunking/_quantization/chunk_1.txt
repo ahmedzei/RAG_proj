@@ -1,0 +1,2 @@
+Lower precision can also speedup inference because it takes less time to perform calculations with fewer bits.
+Transformers supports several quantization schemes to help you run inference with large language models (LLMs) and finetune adapters on quantized models.

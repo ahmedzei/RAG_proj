@@ -1,0 +1,3 @@
+It will get a1 from GPU1 and a2 from GPU2, bringing all the pieces of the model together.
+In parallel, GPU1 gets another mini-batch - x1. GPU1 has the a1 parameter, but needs a0 and a2, so it gets those from GPU0 and GPU2.
+Same happens to GPU2 that gets the mini-batch x2.

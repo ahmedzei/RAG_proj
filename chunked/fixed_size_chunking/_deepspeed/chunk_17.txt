@@ -1,0 +1,4 @@
+ss GPUs. This stage is primarily used for training since it's features are not relevant to inference. Some important parameters to configure for better performance include:
+
+offload_optimizer should be enabled to reduce GPU memory usage.
+overlap_comm when set to true trades off increased GPU memory usage to lower allreduce latency. This feature uses 4.5x the allgather_bucket_size and reduce_bucket_size values. In this example, they're set to 5e8 which means it requires 9GB of GPU memory. If your GPU memory 

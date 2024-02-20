@@ -1,0 +1,9 @@
+Blenderbot Small
+Note that [BlenderbotSmallModel] and
+[BlenderbotSmallForConditionalGeneration] are only used in combination with the checkpoint
+facebook/blenderbot-90M. Larger Blenderbot checkpoints should
+instead be used with [BlenderbotModel] and
+[BlenderbotForConditionalGeneration]
+Overview
+The Blender chatbot model was proposed in Recipes for building an open-domain chatbot Stephen Roller, Emily Dinan, Naman Goyal, Da Ju, Mary Williamson, Yinhan Liu,
+Jing Xu, Myle Ott, Kurt Shuster, Eric M.

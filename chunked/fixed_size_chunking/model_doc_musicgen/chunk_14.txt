@@ -1,0 +1,12 @@
+ocessed to remove padding by using the
+[MusicgenProcessor] class:
+thon
+
+from transformers import AutoProcessor, MusicgenForConditionalGeneration
+from datasets import load_dataset
+processor = AutoProcessor.from_pretrained("facebook/musicgen-small")
+model = MusicgenForConditionalGeneration.from_pretrained("facebook/musicgen-small")
+dataset = load_dataset("sanchit-gandhi/gtzan", split="train", streaming=True)
+sample = next(iter(dataset))["audio"]
+take the first quarter of the audio sample
+sample_1 = sample["ar

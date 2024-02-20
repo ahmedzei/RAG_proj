@@ -1,0 +1,2 @@
+In that case, the whole batch will need to be 400
+tokens long, so the whole batch will be [64, 400] instead of [64, 4], leading to the high slowdown.

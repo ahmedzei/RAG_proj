@@ -1,0 +1,8 @@
+t helps to transfer the knowledge you have acquired during the model addition to the community by showing how the
+  special features of brand_new_bert should work.
+Future contributors can quickly test changes to the model by running those special tests.
+
+9. Implement the tokenizer
+Next, we should add the tokenizer of brand_new_bert. Usually, the tokenizer is equivalent to or very similar to an
+already existing tokenizer of 🤗 Transformers.
+It is very important to find/extract the original tokenizer file and 

@@ -1,0 +1,15 @@
+
+T5v1.1
+Overview
+T5v1.1 was released in the google-research/text-to-text-transfer-transformer
+repository by Colin Raffel et al. It's an improved version of the original T5 model.
+This model was contributed by patrickvonplaten. The original code can be
+found here.
+Usage tips
+One can directly plug in the weights of T5v1.1 into a T5 model, like so:
+thon
+
+from transformers import T5ForConditionalGeneration
+model = T5ForConditionalGeneration.from_pretrained("google/t5-v1_1-base")
+
+T5 Version 1.1 includes the fol

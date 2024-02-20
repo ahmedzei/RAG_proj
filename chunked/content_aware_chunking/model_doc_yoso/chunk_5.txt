@@ -1,0 +1,6 @@
+The original code can be found here.
+Usage tips
+
+The YOSO attention algorithm is implemented through custom CUDA kernels, functions written in CUDA C++ that can be executed multiple times
+in parallel on a GPU.
+The kernels provide a fast_hash function, which approximates the random projections of the queries and keys using the Fast Hadamard Transform.

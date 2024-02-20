@@ -1,0 +1,64 @@
+Code, models, and datasets are released.
+
+This model was contributed by ybelkada.
+The original code can be found here.
+Resources
+
+Jupyter notebook on how to fine-tune BLIP for image captioning on a custom dataset
+
+BlipConfig
+[[autodoc]] BlipConfig
+    - from_text_vision_configs
+BlipTextConfig
+[[autodoc]] BlipTextConfig
+BlipVisionConfig
+[[autodoc]] BlipVisionConfig
+BlipProcessor
+[[autodoc]] BlipProcessor
+BlipImageProcessor
+[[autodoc]] BlipImageProcessor
+    - preprocess
+
+BlipModel
+[[autodoc]] BlipModel
+    - forward
+    - get_text_features
+    - get_image_features
+BlipTextModel
+[[autodoc]] BlipTextModel
+    - forward
+BlipVisionModel
+[[autodoc]] BlipVisionModel
+    - forward
+BlipForConditionalGeneration
+[[autodoc]] BlipForConditionalGeneration
+    - forward
+BlipForImageTextRetrieval
+[[autodoc]] BlipForImageTextRetrieval
+    - forward
+BlipForQuestionAnswering
+[[autodoc]] BlipForQuestionAnswering
+    - forward
+
+TFBlipModel
+[[autodoc]] TFBlipModel
+    - call
+    - get_text_features
+    - get_image_features
+TFBlipTextModel
+[[autodoc]] TFBlipTextModel
+    - call
+TFBlipVisionModel
+[[autodoc]] TFBlipVisionModel
+    - call
+TFBlipForConditionalGeneration
+[[autodoc]] TFBlipForConditionalGeneration
+    - call
+TFBlipForImageTextRetrieval
+[[autodoc]] TFBlipForImageTextRetrieval
+    - call
+TFBlipForQuestionAnswering
+[[autodoc]] TFBlipForQuestionAnswering
+    - call
+
+.

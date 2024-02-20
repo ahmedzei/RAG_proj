@@ -1,0 +1,21 @@
+atures
+    - get_image_features
+GroupViTTextModel
+[[autodoc]] GroupViTTextModel
+    - forward
+GroupViTVisionModel
+[[autodoc]] GroupViTVisionModel
+    - forward
+
+TFGroupViTModel
+[[autodoc]] TFGroupViTModel
+    - call
+    - get_text_features
+    - get_image_features
+TFGroupViTTextModel
+[[autodoc]] TFGroupViTTextModel
+    - call
+TFGroupViTVisionModel
+[[autodoc]] TFGroupViTVisionModel
+    - call
+

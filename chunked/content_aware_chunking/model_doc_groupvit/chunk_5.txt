@@ -1,0 +1,5 @@
+The TensorFlow version was contributed by ariG23498 with the help of Yih-Dar SHIEH, Amy Roberts, and Joao Gante.
+The original code can be found here.
+Usage tips
+
+You may specify output_segmentation=True in the forward of GroupViTModel to get the segmentation logits of input texts.

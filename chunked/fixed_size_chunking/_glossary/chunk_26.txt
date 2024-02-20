@@ -1,0 +1,9 @@
+el of each individual token.
+
+Each model's labels may be different, so be sure to always check the documentation of each model for more information
+about their specific labels!
+
+The base models ([BertModel]) do not accept labels, as these are the base transformer models, simply outputting
+features.
+large language models (LLM)
+A generic term that refers to transformer language models (GPT-3, BLOOM, OPT) that were trained on a large quantity of data. These models also tend to have a large number of learnable 

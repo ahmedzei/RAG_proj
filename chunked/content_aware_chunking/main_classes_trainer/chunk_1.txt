@@ -1,0 +1,5 @@
+Together, these two classes provide a complete training API.
+[Seq2SeqTrainer] and [Seq2SeqTrainingArguments] inherit from the [Trainer] and [TrainingArgument] classes and they're adapted for training models for sequence-to-sequence tasks such as summarization or translation.
+
+The [Trainer] class is optimized for 🤗 Transformers models and can have surprising behaviors
+when used with other models.

@@ -1,0 +1,24 @@
+ok (for PyTorch) and this notebook (for TensorFlow).
+Resources
+
+Text classification task guide
+Masked language modeling task guide
+
+TAPAS specific outputs
+[[autodoc]] models.tapas.modeling_tapas.TableQuestionAnsweringOutput
+TapasConfig
+[[autodoc]] TapasConfig
+TapasTokenizer
+[[autodoc]] TapasTokenizer
+    - call
+    - convert_logits_to_predictions
+    - save_vocabulary
+
+TapasModel
+[[autodoc]] TapasModel
+    - forward
+TapasForMaskedLM
+[[autodoc]] TapasForMaskedLM
+    - forward
+TapasForSequenceClassification
+[

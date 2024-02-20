@@ -1,0 +1,4 @@
+ If the model has no specific maximum input length, truncation or padding to max_length is deactivated.
+The following table summarizes the recommended way to setup padding and truncation. If you use pairs of input sequences in any of the following examples, you can replace truncation=True by a STRATEGY selected in
+['only_first', 'only_second', 'longest_first'], i.e. truncation='only_second' or truncation='longest_first' to control how both sequences in the pair are truncated as detailed before.
+| Truncation

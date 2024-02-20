@@ -1,0 +1,7 @@
+ it in the constant FULL_COPIES of utils/check_copies.py.
+
+This mechanism relies on comments of the form # Copied from xxx. The xxx should contain the whole path to the class of function which is being copied below. For instance, RobertaSelfOutput is a direct copy of the BertSelfOutput class, so you can see here it has a comment:
+
+Copied from transformers.models.bert.modeling_bert.BertSelfOutput
+
+Note that instead of applying this to a whole class, you can apply it to the relevant methods that are copied fr

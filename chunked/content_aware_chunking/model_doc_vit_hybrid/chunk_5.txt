@@ -1,0 +1,20 @@
+The original code (written in JAX) can be
+found here.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with ViT Hybrid.
+
+[ViTHybridForImageClassification] is supported by this example script and notebook.
+See also: Image classification task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+ViTHybridConfig
+[[autodoc]] ViTHybridConfig
+ViTHybridImageProcessor
+[[autodoc]] ViTHybridImageProcessor
+    - preprocess
+ViTHybridModel
+[[autodoc]] ViTHybridModel
+    - forward
+ViTHybridForImageClassification
+[[autodoc]] ViTHybridForImageClassification
+    - forward.

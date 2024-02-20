@@ -1,0 +1,16 @@
+ate(
+     input_features=inputs["input_features"],
+     attention_mask=inputs["attention_mask"],
+     composer="composer1",
+ )
+tokenizer_output = tokenizer.batch_decode(
+     token_ids=model_output, feature_extractor_output=inputs
+ )["pretty_midi_objects"]
+Since we now have 2 generated MIDI files
+tokenizer_output[0].write("./Outputs/midi_output1.mid")
+tokenizer_output[1].write("./Outputs/midi_output2.mid")
+
+Pop2PianoConfig
+[[autodoc]] Pop2PianoConfig
+Pop2PianoFeatureExtractor
+[[autodoc]] Pop2PianoFeatureExt

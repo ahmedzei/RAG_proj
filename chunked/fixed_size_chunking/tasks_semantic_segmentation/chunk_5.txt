@@ -1,0 +1,16 @@
+n, label_paths_validation)
+# step 2: create DatasetDict
+ dataset = DatasetDict({
+      "train": train_dataset,
+      "validation": validation_dataset,
+      }
+ )
+# step 3: push to Hub (assumes you have ran the huggingface-cli login command in a terminal/notebook)
+ dataset.push_to_hub("your-name/dataset-repo")
+# optionally, you can push to a private repo on the Hub
+ # dataset.push_to_hub("name of repo on the hub", private=True)
+ 
+
+an id2label dictionary mapping the class integers to their class names
+py
+ imp

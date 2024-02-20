@@ -1,0 +1,7 @@
+For instance, for fp16 data type a multiple of 8 is recommended, unless 
+it's an A100 GPU, in which case use multiples of 64.
+For parameters that are small, consider also Dimension Quantization Effects. 
+This is where tiling happens and the right multiplier can have a significant speedup.
+Gradient Accumulation
+The gradient accumulation method aims to calculate gradients in smaller increments instead of computing them for the 
+entire batch at once.

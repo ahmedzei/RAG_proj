@@ -1,0 +1,10 @@
+process_async call in those tests.
+You will need at least 2 GPUs to see these tests in action:
+
+CUDA_VISIBLE_DEVICES=0,1 RUN_SLOW=1 pytest -sv tests/test_trainer_distributed.py
+Output capture
+During test execution any output sent to stdout and stderr is captured. If a test or a setup method fails, its
+according captured output will usually be shown along with the failure traceback.
+To disable output capturing and to get the stdout and stderr normally, use -s or --capture=no:
+
+pytest -s tests/utils/test_logg

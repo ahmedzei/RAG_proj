@@ -1,0 +1,17 @@
+("cuda")
+     output_ids = model.generate(input_ids, attention_mask=attention_mask, max_length=512, num_beams=2)
+     batch["predicted_abstract"] = tokenizer.batch_decode(output_ids, skip_special_tokens=True)
+     return batch
+result = dataset.map(generate_answer, batched=True, batch_size=2)
+rouge = evaluate.load("rouge")
+rouge.compute(predictions=result["predicted_abstract"], references=result["abstract"])
+
+Resources
+
+Translation task guide
+Summarization task guide
+
+LongT5Config
+[[autodoc]] LongT5Config
+
+L

@@ -1,0 +1,20 @@
+el
+[[autodoc]] FlaubertModel
+    - forward
+FlaubertWithLMHeadModel
+[[autodoc]] FlaubertWithLMHeadModel
+    - forward
+FlaubertForSequenceClassification
+[[autodoc]] FlaubertForSequenceClassification
+    - forward
+FlaubertForMultipleChoice
+[[autodoc]] FlaubertForMultipleChoice
+    - forward
+FlaubertForTokenClassification
+[[autodoc]] FlaubertForTokenClassification
+    - forward
+FlaubertForQuestionAnsweringSimple
+[[autodoc]] FlaubertForQuestionAnsweringSimple
+    - forward
+FlaubertForQuestionAnswering
+[[autodoc]

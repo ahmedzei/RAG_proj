@@ -1,0 +1,14 @@
+LForSequenceClassification
+[[autodoc]] CTRLForSequenceClassification
+    - forward
+
+TFCTRLModel
+[[autodoc]] TFCTRLModel
+    - call
+TFCTRLLMHeadModel
+[[autodoc]] TFCTRLLMHeadModel
+    - call
+TFCTRLForSequenceClassification
+[[autodoc]] TFCTRLForSequenceClassification
+    - call
+

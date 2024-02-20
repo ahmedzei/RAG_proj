@@ -1,0 +1,6 @@
+ the output combined with the input prompt to a maximum of 20
+tokens to avoid running into resource limitations. The default decoding strategy is greedy search, which is the simplest decoding strategy that picks a token with the highest probability as the next token. For many tasks
+and small output sizes this works well. However, when used to generate longer outputs, greedy search can start
+producing highly repetitive results.
+Customize text generation
+You can override any generation_config by passing the p

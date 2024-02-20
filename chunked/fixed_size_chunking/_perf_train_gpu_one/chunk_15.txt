@@ -1,0 +1,8 @@
+ Accelerate - find the 🤗 Accelerate example further in this guide. 
+
+While gradient checkpointing may improve memory efficiency, it slows training by approximately 20%.
+
+Mixed precision training
+Mixed precision training is a technique that aims to optimize the computational efficiency of training models by 
+utilizing lower-precision numerical formats for certain variables. Traditionally, most models use 32-bit floating point 
+precision (fp32 or float32) to represent and process variables. However, not all v

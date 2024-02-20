@@ -1,0 +1,5 @@
+In short, when you notice that the agent struggles to 
+correctly map your task to the correct tools, try looking up the most pertinent keywords of the tool's name
+and description and try refining your task request with it.
+Customizing the tool descriptions
+As we've seen before the agent has access to each of the tools' names and descriptions.

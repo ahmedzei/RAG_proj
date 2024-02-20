@@ -1,0 +1,50 @@
+Our code also supports Prefix-tuning with BART following the original paper.
+thon
+
+from transformers import MvpForConditionalGeneration
+model = MvpForConditionalGeneration.from_pretrained("RUCAIBox/mvp", use_prompt=True)
+the number of trainable parameters (full tuning)
+sum(p.numel() for p in model.parameters() if p.requires_grad)
+468116832
+lightweight tuning with randomly initialized prompts
+model.set_lightweight_tuning()
+the number of trainable parameters (lightweight tuning)
+sum(p.numel() for p in model.parameters() if p.requires_grad)
+61823328
+lightweight tuning with task-specific prompts
+model = MvpForConditionalGeneration.from_pretrained("RUCAIBox/mtl-data-to-text")
+model.set_lightweight_tuning()
+original lightweight Prefix-tuning
+model = MvpForConditionalGeneration.from_pretrained("facebook/bart-large", use_prompt=True)
+model.set_lightweight_tuning()
+
+Resources
+
+Text classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Translation task guide
+Summarization task guide
+
+MvpConfig
+[[autodoc]] MvpConfig
+MvpTokenizer
+[[autodoc]] MvpTokenizer
+MvpTokenizerFast
+[[autodoc]] MvpTokenizerFast
+MvpModel
+[[autodoc]] MvpModel
+    - forward
+MvpForConditionalGeneration
+[[autodoc]] MvpForConditionalGeneration
+    - forward
+MvpForSequenceClassification
+[[autodoc]] MvpForSequenceClassification
+    - forward
+MvpForQuestionAnswering
+[[autodoc]] MvpForQuestionAnswering
+    - forward
+MvpForCausalLM
+[[autodoc]] MvpForCausalLM
+    - forward.

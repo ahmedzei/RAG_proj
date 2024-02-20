@@ -1,0 +1,11 @@
+ge"], examples["objects"]):
+         image = np.array(image.convert("RGB"))[:, :, ::-1]
+         out = transform(image=image, bboxes=objects["bbox"], category=objects["category"])
+
+         area.append(objects["area"])
+         images.append(out["image"])
+         bboxes.append(out["bboxes"])
+         categories.append(out["category"])
+     targets = [
+         {"image_id": id_, "annotations": formatted_anns(id_, cat_, ar_, box_)}
+         for id_, cat_, ar_, box_ in zip(image_ids, categories, area, bboxes)

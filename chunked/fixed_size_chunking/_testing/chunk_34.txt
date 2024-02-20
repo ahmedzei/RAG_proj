@@ -1,0 +1,12 @@
+name, input, expected):
+        assert_equal(math.floor(input), expected)
+
+Now, by default this test will be run 3 times, each time with the last 3 arguments of test_floor being assigned the
+corresponding arguments in the parameter list.
+and you could run just the negative and integer sets of params with:
+
+pytest -k "negative and integer" tests/test_mytest.py
+or all but negative sub-tests, with:
+
+pytest -k "not negative" tests/test_mytest.py
+Besides using the -k filter that was just mentioned, you can find 

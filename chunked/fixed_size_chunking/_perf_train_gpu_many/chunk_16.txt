@@ -1,0 +1,8 @@
+re there is to sync, 
+the more a slow link will impede the overall runtime.
+ZeRO Data Parallelism
+ZeRO-powered data parallelism (ZeRO-DP) is illustrated in the following diagram from this blog post.
+
+While it may appear complex, it is a very similar concept to DataParallel (DP). The difference is that instead of 
+replicating the full model parameters, gradients and optimizer states, each GPU stores only a slice of it. Then, at 
+run-time when the full layer parameters are needed just for the given layer, all

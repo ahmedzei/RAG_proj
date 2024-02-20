@@ -1,0 +1,26 @@
+Note that each of these
+use cases work for both batched and non-batched inputs (we illustrate them for non-batched inputs).
+Use case 1: web page classification (training, inference) + token classification (inference), parse_html = True
+This is the simplest case, in which the processor will use the feature extractor to get all nodes and xpaths from the HTML.
+thon
+
+from transformers import MarkupLMProcessor
+processor = MarkupLMProcessor.from_pretrained("microsoft/markuplm-base")
+html_string = """
+  <!DOCTYPE html>
+  
+  
+  Hello world
+  
+  
+  Welcome
+  Here is my website.
+  
+  """
+note that you can also add provide all tokenizer parameters here such as padding, truncation
+encoding = processor(html_string, return_tensors="pt")
+print(encoding.keys())
+dict_keys(['input_ids', 'token_type_ids', 'attention_mask', 'xpath_tags_seq', 'xpath_subs_seq'])
+
+Use case 2: web page classification (training, inference) + token classification (inference), parse_html=False
+In case one already has obtained all nodes and xpaths, one doesn't need the feature extractor.

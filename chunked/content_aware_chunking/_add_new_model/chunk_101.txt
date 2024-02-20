@@ -1,0 +1,5 @@
+It is always to good to remind oneself that documentation should
+be treated at least as carefully as the code in 🤗 Transformers since the documentation is usually the first contact
+point of the community with the model.
+Code refactor
+Great, now you have added all the necessary code for brand_new_bert.

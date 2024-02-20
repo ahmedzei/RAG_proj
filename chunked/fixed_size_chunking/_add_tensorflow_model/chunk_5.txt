@@ -1,0 +1,5 @@
+plementations survive the test of time. This doesn't happen because the code is pretty, but rather
+because the code is clear, easy to debug and build upon. If you make the life of the maintainers easy with your
+TensorFlow implementation, by replicating the same patterns as in other TensorFlow models and minimizing the mismatch
+to the PyTorch implementation, you ensure your contribution will be long lived.
+Ask for help when you're stuck! The 🤗 Transformers team is here to help, and we've probably found solut

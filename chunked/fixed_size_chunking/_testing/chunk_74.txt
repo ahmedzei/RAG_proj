@@ -1,0 +1,9 @@
+a success
+        echo "during experiment do not remove: reporting success to CI, even if there were failures"
+For simple commands you could also do:
+
+cmd_that_may_fail || true
+Of course, once satisfied with the results, integrate the experimental step or job with the rest of the normal jobs,
+while removing set +euo pipefail or any other things you may have added to ensure that the experimental job doesn't
+interfere with the normal CI functioning.
+This whole process would have been much easier if we only co

@@ -1,0 +1,4 @@
+Most notably, BLIP-2 improves upon Flamingo, an 80 billion parameter model, by 8.7%
+on zero-shot VQAv2 with 54x fewer trainable parameters. 
+The abstract from the paper is the following:
+The cost of vision-and-language pre-training has become increasingly prohibitive due to end-to-end training of large-scale models.

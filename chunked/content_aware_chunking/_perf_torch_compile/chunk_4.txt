@@ -1,0 +1,1 @@
+Below you can find inference durations in milliseconds for each model with and without compile().

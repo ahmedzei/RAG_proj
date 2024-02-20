@@ -1,0 +1,17 @@
+If you want to load these other weights in a different format, use the torch_dtype parameter:
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+model_id = "TheBloke/zephyr-7B-alpha-AWQ"
+model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.float32)
+
+AWQ quantization can also be combined with FlashAttention-2 to further accelerate inference:
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+model = AutoModelForCausalLM.from_pretrained("TheBloke/zephyr-7B-alpha-AWQ", attn_implementation="flash_attention_2", device_map="cuda:0")
+
+Fused modules
+Fused modules offers improved accuracy and performance and it is supported out-of-the-box for AWQ modules for Llama and Mistral architectures, but you can also fuse AWQ modules for unsupported architectures.
+
+Fused modules cannot be combined with other optimization techniques such as FlashAttention-2.
+
+To enable fused modules for supported architectures, create an [AwqConfig] and set the parameters fuse_max_seq_len and do_fuse=True.

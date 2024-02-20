@@ -1,0 +1,6 @@
+he latest version of Transformers and bitsandbytes. If you have the latest versions, then you can push the 8-bit model to the Hub with the [~PreTrainedModel.push_to_hub] method. The quantization config.json file is pushed first, followed by the quantized model weights.
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+model = AutoModelForCausalLM.from_pretrained("bigscience/bloom-560m", device_map="auto", load_in_8bit=True)
+tokenizer = AutoTokenizer.from_pretrained("bigscience/bloom-560m")
+model

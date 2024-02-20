@@ -1,0 +1,9 @@
+and +3.2 mIoU on ADE20K, demonstrating the potential of Transformer-based models as vision backbones.
+The hierarchical design and the shifted window approach also prove beneficial for all-MLP architectures.
+
+ Swin Transformer architecture. Taken from the original paper.
+This model was contributed by novice03. The Tensorflow version of this model was contributed by amyeroberts. The original code can be found here.
+Usage tips
+
+Swin pads the inputs supporting any input height and width (if divisible by 32).
+Sw

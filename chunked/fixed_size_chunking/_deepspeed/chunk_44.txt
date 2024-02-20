@@ -1,0 +1,7 @@
+ it from the [Trainer] by setting --tf32 to enable it, and --tf32 0 or --no_tf32 to disable it.
+
+To configure PyTorch AMP-like fp16 mixed precision reduces memory usage and accelerates training speed. [Trainer] automatically enables or disables fp16 based on the value of args.fp16_backend, and the rest of the config can be set by you. fp16 is enabled from the command line when the following arguments are passed: --fp16, --fp16_backend amp or --fp16_full_eval.
+yaml
+{
+    "fp16": {
+        "enabled": "auto",

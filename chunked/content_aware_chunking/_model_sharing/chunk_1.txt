@@ -1,0 +1,7 @@
+We encourage you to consider sharing your model with the community to help others save time and resources.
+In this tutorial, you will learn two methods for sharing a trained or fine-tuned model on the Model Hub:
+
+Programmatically push your files to the Hub.
+Drag-and-drop your files to the Hub with the web interface.
+
+To share a model with the community, you need an account on huggingface.co.

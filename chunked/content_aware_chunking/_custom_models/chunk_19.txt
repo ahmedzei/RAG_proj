@@ -1,0 +1,17 @@
+In cases where there's more than one auto class, you can modify the config.json directly using the 
+following structure:
+json
+"auto_map": {     
+    "AutoConfig": "<your-repo-name>--<config-name>",     
+    "AutoModel": "<your-repo-name>--<config-name>",
+    "AutoModelFor<Task>": "<your-repo-name>--<config-name>",    
+},
+
+Next, let's create the config and models as we did before:
+
+resnet50d_config = ResnetConfig(block_type="bottleneck", stem_width=32, stem_type="deep", avg_down=True)
+resnet50d = ResnetModelForImageClassification(resnet50d_config)
+pretrained_model = timm.create_model("resnet50d", pretrained=True)
+resnet50d.model.load_state_dict(pretrained_model.state_dict())
+
+Now to send the model to the Hub, make sure you are logged in.

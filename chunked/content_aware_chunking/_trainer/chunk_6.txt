@@ -1,0 +1,1 @@
+You'll find the checkpoints saved in a checkpoint-000 subfolder where the numbers at the end correspond to the training step.

@@ -1,0 +1,11 @@
+lForSequenceClassification
+model = AutoModelForSequenceClassification.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+``
+</pt>
+<tf>
+Use [TFAutoModelForSequenceClassification] and [AutoTokenizer] to load the pretrained model and it's associated tokenizer (more on anTFAutoClass` in the next section):
+
+from transformers import AutoTokenizer, TFAutoModelForSequenceClassification
+model = TFAutoModelForSequenceClassification.from_pretrained(model_name)
+tokenizer = AutoTokenizer.f

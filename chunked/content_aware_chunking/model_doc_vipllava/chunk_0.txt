@@ -1,0 +1,3 @@
+VipLlava
+Overview
+The VipLlava model was proposed in Making Large Multimodal Models Understand Arbitrary Visual Prompts by Mu Cai, Haotian Liu, Siva Karthik Mustikovela, Gregory P.

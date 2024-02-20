@@ -1,0 +1,12 @@
+eRO-Offload. Since this is stage 1 optimizer states can be offloaded to CPU.
+Implementations:
+- Megatron-DeepSpeed and Megatron-Deepspeed from BigScience, which is the fork of the former repo.
+- OSLO
+Important papers:
+
+Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model
+
+🤗 Transformers status: not yet implemented, since we have no PP and TP.
+FlexFlow
+FlexFlow also solves the parallelization problem in a slightly different approach.
+Paper: "Beyond Data and 

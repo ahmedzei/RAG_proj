@@ -1,0 +1,22 @@
+        128            1307
+google-bert/bert-base-uncased          8              512            1539
+
+====================        ENVIRONMENT INFORMATION         ====================
+
+transformers_version: 2.11.0
+framework: PyTorch
+use_torchscript: False
+framework_version: 1.4.0
+python_version: 3.6.10
+system: Linux
+cpu: x86_64
+architecture: 64bit
+date: 2020-06-29
+time: 08:58:43.371351
+fp16: False
+use_multiprocessing: True
+only_pretrain_model: False
+cpu_ram_mb: 32088
+use_gpu: True
+num_gpus: 1
+gpu: TITAN RTX

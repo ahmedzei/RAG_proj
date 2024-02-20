@@ -1,0 +1,3 @@
+The model can be pretrained and subsequently used for various downstream tasks such as forecasting, classification and regression.
+The abstract from the paper is the following:
+TSMixer is a lightweight neural architecture exclusively composed of multi-layer perceptron (MLP) modules designed for multivariate forecasting and representation learning on patched time series. Our model draws inspiration from the success of MLP-Mixer models in computer vision.

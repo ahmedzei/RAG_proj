@@ -1,0 +1,7 @@
+BERTweet
+Overview
+The BERTweet model was proposed in BERTweet: A pre-trained language model for English Tweets by Dat Quoc Nguyen, Thanh Vu, Anh Tuan Nguyen.
+The abstract from the paper is the following:
+We present BERTweet, the first public large-scale pre-trained language model for English Tweets. Our BERTweet, having
+the same architecture as BERT-base (Devlin et al., 2019), is trained using the RoBERTa pre-training procedure (Liu et
+al., 2019).

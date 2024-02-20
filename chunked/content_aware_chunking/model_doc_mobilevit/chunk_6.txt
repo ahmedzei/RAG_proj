@@ -1,0 +1,63 @@
+The TensorFlow versions of the MobileViT models are fully compatible with TensorFlow Lite.
+
+You can use the following code to convert a MobileViT checkpoint (be it image classification or semantic segmentation) to generate a
+  TensorFlow Lite model:
+
+from transformers import TFMobileViTForImageClassification
+import tensorflow as tf
+model_ckpt = "apple/mobilevit-xx-small"
+model = TFMobileViTForImageClassification.from_pretrained(model_ckpt)
+converter = tf.lite.TFLiteConverter.from_keras_model(model)
+converter.optimizations = [tf.lite.Optimize.DEFAULT]
+converter.target_spec.supported_ops = [
+    tf.lite.OpsSet.TFLITE_BUILTINS,
+    tf.lite.OpsSet.SELECT_TF_OPS,
+]
+tflite_model = converter.convert()
+tflite_filename = model_ckpt.split("/")[-1] + ".tflite"
+with open(tflite_filename, "wb") as f:
+    f.write(tflite_model)
+
+The resulting model will be just about an MB making it a good fit for mobile applications where resources and network
+  bandwidth can be constrained.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with MobileViT.
+
+[MobileViTForImageClassification] is supported by this example script and notebook.
+See also: Image classification task guide
+
+Semantic segmentation
+- Semantic segmentation task guide
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+MobileViTConfig
+[[autodoc]] MobileViTConfig
+MobileViTFeatureExtractor
+[[autodoc]] MobileViTFeatureExtractor
+    - call
+    - post_process_semantic_segmentation
+MobileViTImageProcessor
+[[autodoc]] MobileViTImageProcessor
+    - preprocess
+    - post_process_semantic_segmentation
+
+MobileViTModel
+[[autodoc]] MobileViTModel
+    - forward
+MobileViTForImageClassification
+[[autodoc]] MobileViTForImageClassification
+    - forward
+MobileViTForSemanticSegmentation
+[[autodoc]] MobileViTForSemanticSegmentation
+    - forward
+
+TFMobileViTModel
+[[autodoc]] TFMobileViTModel
+    - call
+TFMobileViTForImageClassification
+[[autodoc]] TFMobileViTForImageClassification
+    - call
+TFMobileViTForSemanticSegmentation
+[[autodoc]] TFMobileViTForSemanticSegmentation
+    - call
+
+.

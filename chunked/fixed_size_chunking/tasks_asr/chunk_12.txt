@@ -1,0 +1,12 @@
+t")
+         # replace padding with -100 to ignore loss correctly
+         labels = labels_batch["input_ids"].masked_fill(labels_batch.attention_mask.ne(1), -100)
+         batch["labels"] = labels
+         return batch
+
+Now instantiate your DataCollatorForCTCWithPadding:
+
+data_collator = DataCollatorCTCWithPadding(processor=processor, padding="longest")
+
+Evaluate
+Including a metric during training is often helpful for evaluating your model's performance. You can quickly load a evaluation method with the 🤗 E

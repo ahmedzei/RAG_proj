@@ -1,0 +1,5 @@
+The encoder learns image representations and combines them with object queries (each object query is a learned embedding that focuses on a region or object in an image) in the decoder. DETR predicts the bounding box coordinates and class label for each object query.
+Natural language processing
+
+Encoder[[nlp-encoder]]
+BERT is an encoder-only Transformer that randomly masks certain tokens in the input to avoid seeing other tokens, which would allow it to "cheat".

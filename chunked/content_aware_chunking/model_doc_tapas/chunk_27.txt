@@ -1,0 +1,1 @@
+Note that the authors of the TAPAS algorithm used conversion scripts with some automated logic to convert the other datasets (WTQ, WikiSQL) into the SQA format. The author explains this here. A conversion of this script that works with HuggingFace's implementation can be found here.

@@ -1,0 +1,12 @@
+--use_cpu
+If you want to enable use_ipex and bf16 in your script, add these parameters to TrainingArguments like this:
+diff
+training_args = TrainingArguments(
+    output_dir=args.output_path,
++   bf16=True,
++   use_ipex=True,
++   use_cpu=True,
+    **kwargs
+)
+Practice example
+Blog: Accelerating PyTorch Transformers with Intel Sapphire Rapids

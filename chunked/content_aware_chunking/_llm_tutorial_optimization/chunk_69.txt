@@ -1,0 +1,2 @@
+For auto-regressive decoding, the required memory bandwidth for the constant reloading can become a serious time bottleneck. By reducing the size of the key-value vectors less memory needs to be accessed, thus reducing the memory bandwidth bottleneck. For more detail, please have a look at Noam's paper.
+The important part to understand here is that reducing the number of key-value attention heads to 1 only makes sense if a key-value cache is used.

@@ -1,0 +1,9 @@
+ide for more info.
+
+ 
+ MarkupLM architecture. Taken from the original paper. 
+Usage: MarkupLMProcessor
+The easiest way to prepare data for the model is to use [MarkupLMProcessor], which internally combines a feature extractor
+([MarkupLMFeatureExtractor]) and a tokenizer ([MarkupLMTokenizer] or [MarkupLMTokenizerFast]). The feature extractor is
+used to extract all nodes and xpaths from the HTML strings, which are then provided to the tokenizer, which turns them into the
+token-level inputs of the model (input

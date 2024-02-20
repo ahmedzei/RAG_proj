@@ -1,0 +1,5 @@
+l vision Transformer (CvT), that improves Vision Transformer (ViT) 
+in performance and efficiency by introducing convolutions into ViT to yield the best of both designs. This is accomplished through 
+two primary modifications: a hierarchy of Transformers containing a new convolutional token embedding, and a convolutional Transformer 
+block leveraging a convolutional projection. These changes introduce desirable properties of convolutional neural networks (CNNs) 
+to the ViT architecture (\ie shift, scale, an

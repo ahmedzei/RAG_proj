@@ -1,0 +1,8 @@
+benchmarks. Our final 13B checkpoint uses merely 1.2M publicly available data, and finishes full training in ∼1 day on a single 8-A100 node. We hope this can make state-of-the-art LMM research more accessible. Code and model will be publicly available
+
+ LLaVa architecture. Taken from the original paper. 
+This model was contributed by ArthurZ and ybelkada.
+The original code can be found here.
+Usage tips
+
+We advise users to use padding_side="left" when computing batched generation as it leads to more accurate

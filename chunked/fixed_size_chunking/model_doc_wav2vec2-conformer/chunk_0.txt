@@ -1,0 +1,11 @@
+
+Wav2Vec2-Conformer
+Overview
+The Wav2Vec2-Conformer was added to an updated version of fairseq S2T: Fast Speech-to-Text Modeling with fairseq by Changhan Wang, Yun Tang, Xutai Ma, Anne Wu, Sravya Popuri, Dmytro Okhonko, Juan Pino.
+The official results of the model can be found in Table 3 and Table 4 of the paper.
+The Wav2Vec2-Conformer weights were released by the Meta AI team within the Fairseq library.
+This model was contributed by patrickvonplaten.
+The original code can be found here.
+Usage tips
+
+Wav2Vec

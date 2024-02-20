@@ -1,0 +1,8 @@
+As a result of our way of working, there are some choices that we try to apply to all models:
+
+Composition is generally favored over-abstraction
+Duplicating code is not always bad if it strongly improves the readability or accessibility of a model
+Model files are as self-contained as possible so that when you read the code of a specific model, you ideally only
+  have to look into the respective modeling_.py file.
+
+In our opinion, the library's code is not just a means to provide a product, e.g.

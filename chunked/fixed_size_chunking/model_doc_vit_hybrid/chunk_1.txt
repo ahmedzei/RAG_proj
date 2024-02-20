@@ -1,0 +1,6 @@
+amiliar convolutional architectures. ViT hybrid is a slight variant of the plain Vision Transformer,
+by leveraging a convolutional backbone (specifically, BiT) whose features are used as initial "tokens" for the Transformer.
+The abstract from the paper is the following:
+While the Transformer architecture has become the de-facto standard for natural language processing tasks, its
+applications to computer vision remain limited. In vision, attention is either applied in conjunction with
+convolutional networks,

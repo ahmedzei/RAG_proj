@@ -1,0 +1,7 @@
+is to support relatively seamless support for CPU/GPU, while supporting doing
+pre/postprocessing on the CPU on different threads
+preprocess will take the originally defined inputs, and turn them into something feedable to the model. It might
+contain more information and is usually a Dict.
+_forward is the implementation detail and is not meant to be called directly. forward is the preferred
+called method as it contains safeguards to make sure everything is working on the expected device. If anything is
+linke

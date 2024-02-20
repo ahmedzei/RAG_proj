@@ -1,0 +1,6 @@
+In the example output above the first
+two sections show the result corresponding to inference time and inference memory. In addition, all relevant
+information about the computing environment, e.g. the GPU type, the system, the library versions, etc are printed
+out in the third section under ENVIRONMENT INFORMATION. This information can optionally be saved in a .csv file
+when adding the argument save_to_csv=True to [PyTorchBenchmarkArguments] and
+[TensorFlowBenchmarkArguments] respectively.

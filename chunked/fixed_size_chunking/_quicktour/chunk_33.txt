@@ -1,0 +1,15 @@
+ch size, and the number of epochs to train for. The default values are used if you don't specify any training arguments:
+
+from transformers import TrainingArguments
+training_args = TrainingArguments(
+        output_dir="path/to/save/folder/",
+        learning_rate=2e-5,
+        per_device_train_batch_size=8,
+        per_device_eval_batch_size=8,
+        num_train_epochs=2,
+    )
+   
+
+Load a preprocessing class like a tokenizer, image processor, feature extractor, or processor:
+
+from transformers import Auto

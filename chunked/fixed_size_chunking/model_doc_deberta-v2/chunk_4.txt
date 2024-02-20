@@ -1,0 +1,7 @@
+v2 the tokenizer is changed to use a new vocabulary of size 128K built from the training data.
+  Instead of a GPT2-based tokenizer, the tokenizer is now
+  sentencepiece-based tokenizer.
+nGiE(nGram Induced Input Encoding) The DeBERTa-v2 model uses an additional convolution layer aside with the first
+  transformer layer to better learn the local dependency of input tokens.
+Sharing position projection matrix with content projection matrix in attention layer Based on previous
+  experiments, this can save parame

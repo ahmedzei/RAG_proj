@@ -1,0 +1,7 @@
+the special case that you are adding a model whose architecture exactly matches the model architecture of an
+existing model you only have to add a conversion script as described in this section.
+In this case, you can just re-use the whole model architecture of the already existing model.
+Otherwise, let's start generating a new model. You have two choices here:
+
+transformers-cli add-new-model-like to add a new model like an existing one
+transformers-cli add-new-model to add a new model from our template (wil

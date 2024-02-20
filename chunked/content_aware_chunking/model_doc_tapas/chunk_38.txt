@@ -1,0 +1,50 @@
+It is advised to create a dataloader to iterate over batches:
+
+import tensorflow as tf
+import pandas as pd
+tsv_path = "your_path_to_the_tsv_file"
+table_csv_path = "your_path_to_a_directory_containing_all_csv_files"
+class TableDataset:
+     def init(self, data, tokenizer):
+         self.data = data
+         self.tokenizer = tokenizer
+
+     def iter(self):
+         for idx in range(self.len()):
+             item = self.data.iloc[idx]
+             table = pd.read_csv(table_csv_path + item.table_file).astype(
+                 str
+             )  # be sure to make your table data text only
+             encoding = self.tokenizer(
+                 table=table,
+                 queries=item.question,
+                 answer_coordinates=item.answer_coordinates,
+                 answer_text=item.answer_text,
+                 truncation=True,
+                 padding="max_length",
+                 return_tensors="tf",
+             )
+             # remove the batch dimension which the tokenizer adds by default
+             encoding = {key: tf.squeeze(val, 0) for key, val in encoding.items()}
+             # add the float_answer which is also required (weak supervision for aggregation case)
+             encoding["float_answer"] = tf.convert_to_tensor(item.float_answer, dtype=tf.float32)
+             yield encoding["input_ids"], encoding["attention_mask"], encoding["numeric_values"], encoding[
+                 "numeric_values_scale"
+             ], encoding["token_type_ids"], encoding["labels"], encoding["float_answer"]
+     def len(self):
+         return len(self.data)
+
+data = pd.read_csv(tsv_path, sep="\t")
+train_dataset = TableDataset(data, tokenizer)
+output_signature = (
+     tf.TensorSpec(shape=(512,), dtype=tf.int32),
+     tf.TensorSpec(shape=(512,), dtype=tf.int32),
+     tf.TensorSpec(shape=(512,), dtype=tf.float32),
+     tf.TensorSpec(shape=(512,), dtype=tf.float32),
+     tf.TensorSpec(shape=(512, 7), dtype=tf.int32),
+     tf.TensorSpec(shape=(512,), dtype=tf.int32),
+     tf.TensorSpec(shape=(512,), dtype=tf.float32),
+ )
+train_dataloader = tf.data.Dataset.from_generator(train_dataset, output_signature=output_signature).batch(32)
+
+Note that here, we encode each table-question pair independently.

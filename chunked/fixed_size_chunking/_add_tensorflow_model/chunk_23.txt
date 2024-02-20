@@ -1,0 +1,7 @@
+ime (e.g. Dropout) are called with a training argument, which is
+propagated all the way from the top-level classes
+2. You have used #copied from  whenever possible
+3. TFBrandNewBertMainLayer and all classes that use it have their call function decorated with @unpack_inputs
+4. TFBrandNewBertMainLayer is decorated with @keras_serializable
+5. A TensorFlow model can be loaded from PyTorch weights using TFBrandNewBert.from_pretrained(model_repo, from_pt=True)
+6. You can call the TensorFlow model using the expect

@@ -1,0 +1,12 @@
+l = (
+     LongT5ForConditionalGeneration.from_pretrained("Stancld/longt5-tglobal-large-16384-pubmed-3k_steps")
+     .to("cuda")
+     .half()
+ )
+tokenizer = AutoTokenizer.from_pretrained("Stancld/longt5-tglobal-large-16384-pubmed-3k_steps")
+def generate_answers(batch):
+     inputs_dict = tokenizer(
+         batch["article"], max_length=16384, padding="max_length", truncation=True, return_tensors="pt"
+     )
+     input_ids = inputs_dict.input_ids.to("cuda")
+     attention_mask = inputs_dict.attention_mask.to

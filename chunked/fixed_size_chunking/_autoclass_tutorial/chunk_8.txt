@@ -1,0 +1,9 @@
+r that combines two types of preprocessing tools. For example, the LayoutLMV2 model requires an image processor to handle images and a tokenizer to handle text; a processor combines both of them.
+Load a processor with [AutoProcessor.from_pretrained]:
+
+from transformers import AutoProcessor
+processor = AutoProcessor.from_pretrained("microsoft/layoutlmv2-base-uncased")
+
+AutoModel
+
+The AutoModelFor classes let you load a pretrained model for a given task (see here for a complete list of available tasks). For e

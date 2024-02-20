@@ -1,0 +1,8 @@
+ble comprehensive and detailed interaction at each layer of the cross-modal encoder.
+In principle, one can apply any visual, textual or cross-modal encoder in the proposed architecture.
+The [BridgeTowerProcessor] wraps [RobertaTokenizer] and [BridgeTowerImageProcessor] into a single instance to both
+encode the text and prepare the images respectively.
+The following example shows how to run contrastive learning using [BridgeTowerProcessor] and [BridgeTowerForContrastiveLearning].
+thon
+
+from transformers impo

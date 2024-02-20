@@ -1,0 +1,4 @@
+This approach involves iteratively calculating gradients in smaller batches by performing forward 
+and backward passes through the model and accumulating the gradients during the process. Once a sufficient number of 
+gradients have been accumulated, the model's optimization step is executed. By employing gradient accumulation, it 
+becomes possible to increase the effective batch size beyond the limitations imposed by the GPU's memory capacity.

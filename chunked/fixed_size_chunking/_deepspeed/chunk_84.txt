@@ -1,0 +1,15 @@
+local_rank = int(os.getenv("LOCAL_RANK", "0"))
+world_size = int(os.getenv("WORLD_SIZE", "1"))
+torch.cuda.set_device(local_rank)
+deepspeed.init_distributed()
+model_name = "bigscience/T0_3B"
+config = AutoConfig.from_pretrained(model_name)
+model_hidden_size = config.d_model
+batch size has to be divisible by world_size, but can be bigger than world_size
+train_batch_size = 1 * world_size
+ds_config notes
+
+- enable bf16 if you use Ampere or higher GPU - this will run in mixed precision and will be
+faster.
+
+- for o

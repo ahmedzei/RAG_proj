@@ -1,0 +1,7 @@
+
+Pix2Struct
+Overview
+The Pix2Struct model was proposed in Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding by Kenton Lee, Mandar Joshi, Iulia Turc, Hexiang Hu, Fangyu Liu, Julian Eisenschlos, Urvashi Khandelwal, Peter Shaw, Ming-Wei Chang, Kristina Toutanova.
+The abstract from the paper is the following:
+
+Visually-situated language is ubiquitous -- sources range from textbooks with diagrams to web pages with images and tables, to mobile apps with buttons and forms. Perhaps due

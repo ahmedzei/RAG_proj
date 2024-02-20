@@ -1,0 +1,17 @@
+ata_collator,
+ )
+
+Configure the model for training with compile:
+
+import tensorflow as tf
+model.compile(optimizer=optimizer)
+
+The last thing to setup before you start training is to provide a way to push your model to the Hub. This can be done by specifying where to push your model and tokenizer in the [~transformers.PushToHubCallback]:
+
+from transformers.keras_callbacks import PushToHubCallback
+callback = PushToHubCallback(
+     output_dir="my_awesome_qa_model",
+     tokenizer=tokenizer,
+ )
+
+Finally, you'r

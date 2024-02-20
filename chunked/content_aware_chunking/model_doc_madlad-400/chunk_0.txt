@@ -1,0 +1,7 @@
+MADLAD-400
+Overview
+MADLAD-400 models were released in the paper MADLAD-400: A Multilingual And Document-Level Large Audited Dataset. 
+The abstract from the paper is the following: 
+We introduce MADLAD-400, a manually audited, general domain 3T token monolingual dataset based on CommonCrawl, spanning 419 languages. We discuss 
+the limitations revealed by self-auditing MADLAD-400, and the role data auditing
+had in the dataset creation process.

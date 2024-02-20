@@ -1,0 +1,10 @@
+ be fine-tuned on multiple language at once and decode unseen languages in a single forward pass
+  to a sequence of phonemes
+By default, the model outputs a sequence of phonemes. In order to transform the phonemes to a sequence of words one
+  should make use of a dictionary and language model.
+
+Wav2Vec2Phoneme's architecture is based on the Wav2Vec2 model, for API reference, check out Wav2Vec2's documentation page 
+except for the tokenizer.
+
+Wav2Vec2PhonemeCTCTokenizer
+[[autodoc]] Wav2Vec2PhonemeCTCTokenize

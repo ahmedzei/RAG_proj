@@ -1,0 +1,15 @@
+ssification
+[[autodoc]] TFGPT2ForSequenceClassification
+    - call
+TFSequenceClassifierOutputWithPast
+[[autodoc]] modeling_tf_outputs.TFSequenceClassifierOutputWithPast
+TFGPT2Tokenizer
+[[autodoc]] TFGPT2Tokenizer
+
+FlaxGPT2Model
+[[autodoc]] FlaxGPT2Model
+    - call
+FlaxGPT2LMHeadModel
+[[autodoc]] FlaxGPT2LMHeadModel
+    - call
+

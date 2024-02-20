@@ -1,0 +1,5 @@
+Note that the backward call is handled by 🤗 Accelerate. We can also see
+how gradient accumulation works: we normalize the loss, so we get the average at the end of accumulation and once we have 
+enough steps we run the optimization. 
+Implementing these optimization techniques with 🤗 Accelerate only takes a handful of lines of code and comes with the 
+benefit of more flexibility in the training loop.

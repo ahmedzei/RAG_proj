@@ -1,0 +1,8 @@
+ts
+dataset = dataset.map(cleanup_text)
+
+Now that you have dealt with special characters in the text, it's time to shift focus to the audio data.
+Speakers
+The VoxPopuli dataset includes speech from multiple speakers, but how many speakers are represented in the dataset? To 
+determine this, we can count the number of unique speakers and the number of examples each speaker contributes to the dataset. 
+With a total of 20,968 examples in the dataset, this information will give us a better understanding of the di

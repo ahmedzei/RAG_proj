@@ -1,0 +1,4 @@
+When using Trainer, it is simply specifying either fp16 or bf16 to True. Otherwise, make sure you are using torch.autocast. This is required because the Flash Attention only support fp16 and bf16 data type.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with LLaMA2.

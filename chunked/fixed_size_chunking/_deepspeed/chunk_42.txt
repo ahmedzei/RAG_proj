@@ -1,0 +1,17 @@
+up_max_lr, warmup_num_steps, total_num_steps (automatically calculated during run time if max_steps is not provided).
+You can set the parameters to "auto" or manually input your own desired values.
+yaml
+{
+   "scheduler": {
+         "type": "WarmupDecayLR",
+         "params": {
+             "total_num_steps": "auto",
+             "warmup_min_lr": "auto",
+             "warmup_max_lr": "auto",
+             "warmup_num_steps": "auto"
+         }
+     }
+}
+
+Precision
+Deepspeed supports fp32, fp16, and bf16 mixed p

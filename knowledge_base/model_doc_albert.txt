@@ -1,0 +1,154 @@
+
+ALBERT
+
+Overview
+The ALBERT model was proposed in ALBERT: A Lite BERT for Self-supervised Learning of Language Representations by Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma,
+Radu Soricut. It presents two parameter-reduction techniques to lower memory consumption and increase the training
+speed of BERT:
+
+Splitting the embedding matrix into two smaller matrices.
+Using repeating layers split among groups.
+
+The abstract from the paper is the following:
+Increasing model size when pretraining natural language representations often results in improved performance on
+downstream tasks. However, at some point further model increases become harder due to GPU/TPU memory limitations,
+longer training times, and unexpected model degradation. To address these problems, we present two parameter-reduction
+techniques to lower memory consumption and increase the training speed of BERT. Comprehensive empirical evidence shows
+that our proposed methods lead to models that scale much better compared to the original BERT. We also use a
+self-supervised loss that focuses on modeling inter-sentence coherence, and show it consistently helps downstream tasks
+with multi-sentence inputs. As a result, our best model establishes new state-of-the-art results on the GLUE, RACE, and
+SQuAD benchmarks while having fewer parameters compared to BERT-large.
+This model was contributed by lysandre. This model jax version was contributed by
+kamalkraj. The original code can be found here.
+Usage tips
+
+ALBERT is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather
+  than the left.
+ALBERT uses repeating layers which results in a small memory footprint, however the computational cost remains
+  similar to a BERT-like architecture with the same number of hidden layers as it has to iterate through the same
+  number of (repeating) layers.
+Embedding size E is different from hidden size H justified because the embeddings are context independent (one embedding vector represents one token), whereas hidden states are context dependent (one hidden state represents a sequence of tokens) so it's more logical to have H >> E. Also, the embedding matrix is large since it's V x E (V being the vocab size). If E < H, it has less parameters.
+Layers are split in groups that share parameters (to save memory).
+Next sentence prediction is replaced by a sentence ordering prediction: in the inputs, we have two sentences A and B (that are consecutive) and we either feed A followed by B or B followed by A. The model must predict if they have been swapped or not.
+
+This model was contributed by lysandre. This model jax version was contributed by
+kamalkraj. The original code can be found here.
+Resources
+The resources provided in the following sections consist of a list of official Hugging Face and community (indicated by 🌎) resources to help you get started with AlBERT. If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+[AlbertForSequenceClassification] is supported by this example script.
+
+[TFAlbertForSequenceClassification] is supported by this example script.
+
+[FlaxAlbertForSequenceClassification] is supported by this example script and notebook.
+
+Check the Text classification task guide on how to use the model.
+
+[AlbertForTokenClassification] is supported by this example script.
+
+[TFAlbertForTokenClassification] is supported by this example script and notebook.
+
+[FlaxAlbertForTokenClassification] is supported by this example script.
+
+Token classification chapter of the 🤗 Hugging Face Course.
+Check the Token classification task guide on how to use the model.
+
+[AlbertForMaskedLM] is supported by this example script and notebook.
+[TFAlbertForMaskedLM] is supported by this example script and notebook.
+[FlaxAlbertForMaskedLM] is supported by this example script and notebook.
+Masked language modeling chapter of the 🤗 Hugging Face Course.
+Check the Masked language modeling task guide on how to use the model.
+
+[AlbertForQuestionAnswering] is supported by this example script and notebook.
+[TFAlbertForQuestionAnswering] is supported by this example script and notebook.
+[FlaxAlbertForQuestionAnswering] is supported by this example script.
+Question answering chapter of the 🤗 Hugging Face Course.
+Check the Question answering task guide on how to use the model.
+
+Multiple choice
+
+[AlbertForMultipleChoice] is supported by this example script and notebook.
+
+[TFAlbertForMultipleChoice] is supported by this example script and notebook.
+
+Check the  Multiple choice task guide on how to use the model.
+
+AlbertConfig
+[[autodoc]] AlbertConfig
+AlbertTokenizer
+[[autodoc]] AlbertTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+AlbertTokenizerFast
+[[autodoc]] AlbertTokenizerFast
+Albert specific outputs
+[[autodoc]] models.albert.modeling_albert.AlbertForPreTrainingOutput
+[[autodoc]] models.albert.modeling_tf_albert.TFAlbertForPreTrainingOutput
+
+AlbertModel
+[[autodoc]] AlbertModel
+    - forward
+AlbertForPreTraining
+[[autodoc]] AlbertForPreTraining
+    - forward
+AlbertForMaskedLM
+[[autodoc]] AlbertForMaskedLM
+    - forward
+AlbertForSequenceClassification
+[[autodoc]] AlbertForSequenceClassification
+    - forward
+AlbertForMultipleChoice
+[[autodoc]] AlbertForMultipleChoice
+AlbertForTokenClassification
+[[autodoc]] AlbertForTokenClassification
+    - forward
+AlbertForQuestionAnswering
+[[autodoc]] AlbertForQuestionAnswering
+    - forward
+
+TFAlbertModel
+[[autodoc]] TFAlbertModel
+    - call
+TFAlbertForPreTraining
+[[autodoc]] TFAlbertForPreTraining
+    - call
+TFAlbertForMaskedLM
+[[autodoc]] TFAlbertForMaskedLM
+    - call
+TFAlbertForSequenceClassification
+[[autodoc]] TFAlbertForSequenceClassification
+    - call
+TFAlbertForMultipleChoice
+[[autodoc]] TFAlbertForMultipleChoice
+    - call
+TFAlbertForTokenClassification
+[[autodoc]] TFAlbertForTokenClassification
+    - call
+TFAlbertForQuestionAnswering
+[[autodoc]] TFAlbertForQuestionAnswering
+    - call
+
+FlaxAlbertModel
+[[autodoc]] FlaxAlbertModel
+    - call
+FlaxAlbertForPreTraining
+[[autodoc]] FlaxAlbertForPreTraining
+    - call
+FlaxAlbertForMaskedLM
+[[autodoc]] FlaxAlbertForMaskedLM
+    - call
+FlaxAlbertForSequenceClassification
+[[autodoc]] FlaxAlbertForSequenceClassification
+    - call
+FlaxAlbertForMultipleChoice
+[[autodoc]] FlaxAlbertForMultipleChoice
+    - call
+FlaxAlbertForTokenClassification
+[[autodoc]] FlaxAlbertForTokenClassification
+    - call
+FlaxAlbertForQuestionAnswering
+[[autodoc]] FlaxAlbertForQuestionAnswering
+    - call
+

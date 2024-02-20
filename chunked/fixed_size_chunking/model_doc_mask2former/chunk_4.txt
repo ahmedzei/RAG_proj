@@ -1,0 +1,9 @@
+ion] output, panoptic segmentation accepts an optional label_ids_to_fuse argument to fuse instances of the target object/s (e.g. sky) together.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with Mask2Former.
+
+Demo notebooks regarding inference + fine-tuning Mask2Former on custom data can be found here.
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we will review it.
+The resource sh

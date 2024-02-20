@@ -1,0 +1,6 @@
+t from the paper is the following:
+Masked language modeling (MLM) pretraining methods such as BERT corrupt the input by replacing some tokens with [MASK]
+and then train a model to reconstruct the original tokens. While they produce good results when transferred to
+downstream NLP tasks, they generally require large amounts of compute to be effective. As an alternative, we propose a
+more sample-efficient pretraining task called replaced token detection. Instead of masking the input, our approach
+corrupts it b

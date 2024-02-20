@@ -1,0 +1,8 @@
+-lfs. In other words, you can treat one model as one repository, enabling greater access control and scalability. Version control allows revisions, a method for pinning a specific version of a model with a commit hash, tag or branch.
+As a result, you can load a specific model version with the revision parameter:
+
+model = AutoModel.from_pretrained(
+     "julien-c/EsperBERTo-small", revision="v2.0.1"  # tag name, or branch name, or commit hash
+ )
+
+Files are also easily edited in a repository, and you can view

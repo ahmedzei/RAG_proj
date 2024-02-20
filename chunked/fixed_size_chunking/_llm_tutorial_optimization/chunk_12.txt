@@ -1,0 +1,11 @@
+ to Giga bytes.\n\nAnswer:"
+result = pipe(prompt, max_new_tokens=60)[0]["generated_text"][len(prompt):]
+result
+
+Output:
+Here is a Python function that transforms bytes to Giga bytes:\n\npython\ndef bytes_to_giga_bytes(bytes):\n    return bytes / 1024 / 1024 / 1024\n\n\nThis function takes a single
+Nice, we can now directly use the result to convert bytes into Gigabytes.
+python
+def bytes_to_giga_bytes(bytes):
+  return bytes / 1024 / 1024 / 1024
+Let's call torch.cuda.max_memory_allocated to measure the peak G

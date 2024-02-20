@@ -1,0 +1,10 @@
+els that were developed by AI Sweden
+in collaboration with RISE and the WASP WARA for Media and Language. GPT-Sw3 has been trained on a dataset containing
+320B tokens in Swedish, Norwegian, Danish, Icelandic, English, and programming code. The model was pretrained using a
+causal language modeling (CLM) objective utilizing the NeMo Megatron GPT implementation.
+This model was contributed by AI Sweden Models.
+Usage example
+thon
+
+from transformers import AutoTokenizer, AutoModelForCausalLM
+tokenizer = AutoToken

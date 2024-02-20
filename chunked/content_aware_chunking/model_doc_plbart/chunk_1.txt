@@ -1,0 +1,5 @@
+The pre-trained model plbart-base has been trained using multilingual denoising task
+on Java, Python and English.
+According to the abstract
+Code summarization and generation empower conversion between programming language (PL) and natural language (NL),
+while code translation avails the migration of legacy code from one PL to another.

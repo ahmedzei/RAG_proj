@@ -1,0 +1,5 @@
+ctive
+entity text spans (for example, a snowman followed by <patch_index_0044><patch_index_0863>). The data format is
+similar to “hyperlinks” that connect the object regions in an image to their text span in the corresponding caption.
+The abstract from the paper is the following:
+We introduce Kosmos-2, a Multimodal Large Language Model (MLLM), enabling new capabilities of perceiving object descriptions (e.g., bounding boxes) and grounding text to the visual world. Specifically, we represent refer expression

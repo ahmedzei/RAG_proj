@@ -1,0 +1,14 @@
+e DP with PP.
+
+Here it's important to see how DP rank 0 doesn't see GPU2 and DP rank 1 doesn't see GPU3. To DP there is just GPUs 0 
+and 1 where it feeds data as if there were just 2 GPUs. GPU0 "secretly" offloads some of its load to GPU2 using PP. 
+And GPU1 does the same by enlisting GPU3 to its aid.
+Since each dimension requires at least 2 GPUs, here you'd need at least 4 GPUs.
+Implementations:
+- DeepSpeed
+- Megatron-LM
+- Varuna
+- SageMaker
+- OSLO
+🤗 Transformers status: not yet implemented
+Data Parallelis

@@ -1,0 +1,14 @@
+Some models capable of multiple NLP tasks require prompting for specific tasks.
+Use the keyword text_target argument when tokenizing labels.
+Truncate sequences to be no longer than the maximum length set by the max_length parameter.
+
+prefix = "summarize: "
+def preprocess_function(examples):
+     inputs = [prefix + doc for doc in examples["text"]]
+     model_inputs = tokenizer(inputs, max_length=1024, truncation=True)
+
+     labels = tokenizer(text_target=examples["summary"], max_length=128, truncation=True)
+     model_inputs["labels"] = labels["input_ids"]
+     return model_inputs
+
+To apply the preprocessing function over the entire dataset, use 🤗 Datasets [~datasets.Dataset.map] method.

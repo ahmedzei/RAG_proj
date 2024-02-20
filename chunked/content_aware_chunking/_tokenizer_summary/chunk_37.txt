@@ -1,0 +1,6 @@
+It then uses the BPE or unigram
+algorithm to construct the appropriate vocabulary.
+The [XLNetTokenizer] uses SentencePiece for example, which is also why in the example earlier the
+"▁" character was included in the vocabulary. Decoding with SentencePiece is very easy since all tokens can just be
+concatenated and "▁" is replaced by a space.
+All transformers models in the library that use SentencePiece use it in combination with unigram.

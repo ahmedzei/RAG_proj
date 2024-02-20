@@ -1,0 +1,15 @@
+)
+     return path_output_cppe5, path_anno
+
+Next, prepare an instance of a CocoDetection class that can be used with cocoevaluator.
+
+import torchvision
+class CocoDetection(torchvision.datasets.CocoDetection):
+     def init(self, img_folder, image_processor, ann_file):
+         super().init(img_folder, ann_file)
+         self.image_processor = image_processor
+
+     def getitem(self, idx):
+         # read in PIL image and target in COCO format
+         img, target = super(CocoDetection, self).getitem(idx)
+   

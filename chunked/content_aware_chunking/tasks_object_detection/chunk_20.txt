@@ -1,0 +1,9 @@
+Upon training completion, push the final model to the Hub as well by calling the [~transformers.Trainer.push_to_hub] method.
+
+trainer.push_to_hub()
+
+Evaluate
+Object detection models are commonly evaluated with a set of COCO-style metrics.
+You can use one of the existing metrics implementations, but here you'll use the one from torchvision to evaluate the final
+model that you pushed to the Hub.
+To use the torchvision evaluator, you'll need to prepare a ground truth COCO dataset.

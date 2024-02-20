@@ -1,0 +1,7 @@
+Often it's a multiple of 8, but it can be 
+higher depending on the hardware being used and the model's dtype.
+For reference, check out NVIDIA's recommendation for input/output neuron counts and 
+batch size for 
+fully connected layers (which are involved in GEMMs (General Matrix Multiplications)).
+Tensor Core Requirements 
+define the multiplier based on the dtype and the hardware.

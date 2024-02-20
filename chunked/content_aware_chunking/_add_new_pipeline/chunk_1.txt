@@ -1,0 +1,3 @@
+Those will be the inputs of the
+pipeline (preprocess).
+Then define the outputs. Same policy as the inputs. The simpler, the better.

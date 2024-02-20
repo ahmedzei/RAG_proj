@@ -1,0 +1,7 @@
+ dataset comprising 
+millions of tables from English Wikipedia and corresponding texts. 
+For question answering, TAPAS has 2 heads on top: a cell selection head and an aggregation head, for (optionally) performing aggregations (such as counting or summing) among selected cells. TAPAS has been fine-tuned on several datasets: 
+- SQA (Sequential Question Answering by Microsoft)
+- WTQ (Wiki Table Questions by Stanford University)
+- WikiSQL (by Salesforce). 
+It achieves state-of-the-art on both SQA and WTQ, whil

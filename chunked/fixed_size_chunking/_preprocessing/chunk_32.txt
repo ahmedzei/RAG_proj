@@ -1,0 +1,15 @@
+s.
+
+Then use 🤗 Datasets[~datasets.Dataset.set_transform] to apply the transforms on the fly:
+
+dataset.set_transform(transforms)
+
+Now when you access the image, you'll notice the image processor has added pixel_values. You can pass your processed dataset to the model now!
+
+dataset[0].keys()
+
+Here is what the image looks like after the transforms are applied. The image has been randomly cropped and it's color properties are different.
+
+import numpy as np
+import matplotlib.pyplot as plt
+img = dataset[0]["pixel

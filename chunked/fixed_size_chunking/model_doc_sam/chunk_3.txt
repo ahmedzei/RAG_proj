@@ -1,0 +1,12 @@
+to the paper, textual input should be also supported. However, at this time of writing this seems to be not supported according to the official repository. 
+
+This model was contributed by ybelkada and ArthurZ.
+The original code can be found here.
+Below is an example on how to run mask generation given an image and a 2D point:
+thon
+import torch
+from PIL import Image
+import requests
+from transformers import SamModel, SamProcessor
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model = SamModel.from_pr

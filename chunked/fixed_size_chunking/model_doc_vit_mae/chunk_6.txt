@@ -1,0 +1,9 @@
+s example script, allowing you to pre-train the model from scratch/further pre-train the model on custom data.
+A notebook that illustrates how to visualize reconstructed pixel values with [ViTMAEForPreTraining] can be found here.
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+ViTMAEConfig
+[[autodoc]] ViTMAEConfig
+
+ViTMAEModel
+[[a

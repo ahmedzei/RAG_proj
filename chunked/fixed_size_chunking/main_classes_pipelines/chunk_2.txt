@@ -1,0 +1,15 @@
+pecific model from the hub you can ignore the task if the model on
+the hub already defines it:
+thon
+
+pipe = pipeline(model="FacebookAI/roberta-large-mnli")
+pipe("This restaurant is awesome")
+[{'label': 'NEUTRAL', 'score': 0.7313136458396912}]
+
+To call a pipeline on many items, you can call it with a list.
+thon
+
+pipe = pipeline("text-classification")
+pipe(["This restaurant is awesome", "This restaurant is awful"])
+[{'label': 'POSITIVE', 'score': 0.9998743534088135},
+ {'label': 'NEGATIVE', 'score': 0.99966692

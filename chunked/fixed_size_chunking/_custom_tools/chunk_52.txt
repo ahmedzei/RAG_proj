@@ -1,0 +1,11 @@
+usual custom tool. We leverage it to improve our prompt
+a rabbit wearing a space suit:
+thon
+from transformers import HfAgent
+agent = HfAgent("https://api-inference.huggingface.co/models/bigcode/starcoder", additional_tools=[tool])
+agent.run("Generate an image of the prompt after improving it.", prompt="A rabbit wearing a space suit")
+
+The model adequately leverages the tool:
+``text
+==Explanation from the agent==
+I will use the following  tools:StableDiffusionPromptGeneratorto improve the prompt, thenimage_g

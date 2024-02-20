@@ -1,0 +1,4 @@
+Take a look at the flash-attention repository for more details.
+
+PyTorch scaled dot product attention
+PyTorch's torch.nn.functional.scaled_dot_product_attention (SDPA) can also call FlashAttention and memory-efficient attention kernels under the hood.

@@ -1,0 +1,23 @@
+It will be automatically removed at the end of the
+test.
+
+Create a temporary dir of my choice, ensure it's empty before the test starts and don't empty it after the test.
+
+python
+def test_whatever(self):
+    tmp_dir = self.get_auto_remove_tmp_dir("./xxx")
+This is useful for debug when you want to monitor a specific directory and want to make sure the previous tests didn't
+leave any data in there.
+
+You can override the default behavior by directly overriding the before and after args, leading to one of the
+  following behaviors:
+
+before=True: the temporary dir will always be cleared at the beginning of the test.
+
+before=False: if the temporary dir already existed, any existing files will remain there.
+after=True: the temporary dir will always be deleted at the end of the test.
+after=False: the temporary dir will always be left intact at the end of the test.
+
+In order to run the equivalent of rm -r safely, only subdirs of the project repository checkout are allowed if
+an explicit tmp_dir is used, so that by mistake no /tmp or similar important part of the filesystem will
+get nuked.

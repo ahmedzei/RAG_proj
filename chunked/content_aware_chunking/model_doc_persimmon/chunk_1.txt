@@ -1,0 +1,2 @@
+Some of the key attributes of Persimmon-8B are long context size (16K), performance, and capabilities for multimodal extensions.
+The authors showcase their approach to model evaluation, focusing on practical text generation, mirroring how users interact with language models. The work also includes a comparative analysis, pitting Persimmon-8B against other prominent models (MPT 7B Instruct and Llama 2 Base 7B 1-Shot), across various evaluation tasks.

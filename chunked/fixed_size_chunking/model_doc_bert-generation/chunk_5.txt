@@ -1,0 +1,13 @@
+ecoderModel.from_pretrained("google/roberta2roberta_L-24_discofuse")
+tokenizer = AutoTokenizer.from_pretrained("google/roberta2roberta_L-24_discofuse")
+input_ids = tokenizer(
+     "This is the first sentence. This is the second sentence.", add_special_tokens=False, return_tensors="pt"
+ ).input_ids
+outputs = sentence_fuser.generate(input_ids)
+print(tokenizer.decode(outputs[0]))
+
+Tips:
+
+[BertGenerationEncoder] and [BertGenerationDecoder] should be used in
+  combination with [EncoderDecoder].
+For summarization

@@ -1,0 +1,12 @@
+ 238s 949ms/step - loss: 0.1232 - val_loss: 0.3259 - accuracy: 0.9890
+
+Congratulations! You have fine-tuned your model and shared it on the 🤗 Hub. You can now use it for inference!
+
+For a more in-depth example of how to finetune a model for image classification, take a look at the corresponding PyTorch notebook.
+
+Inference
+Great, now that you've fine-tuned a model, you can use it for inference!
+Load an image you'd like to run inference on:
+
+ds = load_dataset("food101", split="validation[:10]")
+image = ds["i

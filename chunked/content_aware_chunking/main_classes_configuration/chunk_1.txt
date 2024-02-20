@@ -1,0 +1,6 @@
+Text models further implement:
+vocab_size.
+PretrainedConfig
+[[autodoc]] PretrainedConfig
+    - push_to_hub
+    - all.

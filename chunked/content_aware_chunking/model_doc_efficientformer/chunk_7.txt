@@ -1,0 +1,32 @@
+The TensorFlow version of this model was added by D-Roberts.
+Documentation resources
+
+Image classification task guide
+
+EfficientFormerConfig
+[[autodoc]] EfficientFormerConfig
+EfficientFormerImageProcessor
+[[autodoc]] EfficientFormerImageProcessor
+    - preprocess
+
+EfficientFormerModel
+[[autodoc]] EfficientFormerModel
+    - forward
+EfficientFormerForImageClassification
+[[autodoc]] EfficientFormerForImageClassification
+    - forward
+EfficientFormerForImageClassificationWithTeacher
+[[autodoc]] EfficientFormerForImageClassificationWithTeacher
+    - forward
+
+TFEfficientFormerModel
+[[autodoc]] TFEfficientFormerModel
+    - call
+TFEfficientFormerForImageClassification
+[[autodoc]] TFEfficientFormerForImageClassification
+    - call
+TFEfficientFormerForImageClassificationWithTeacher
+[[autodoc]] TFEfficientFormerForImageClassificationWithTeacher
+    - call
+
+.

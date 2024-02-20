@@ -1,0 +1,6 @@
+hat is your favorite place to eat?\nStatue: I love'
+
+Expected speedups
+Below is an expected speedup diagram that compares pure inference time between the native implementation in transformers using facebook/opt-2.7b checkpoint and the Flash Attention 2 version of the model using two different sequence lengths.
+
+Below is an expected speedup diagram that compares pure inference time between the native implementation in transformers using facebook/opt-350m checkpoint and the Flash Attention 2 version of the mo

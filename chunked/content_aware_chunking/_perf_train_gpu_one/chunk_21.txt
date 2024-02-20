@@ -1,0 +1,4 @@
+BF16
+If you have access to an Ampere or newer hardware you can use bf16 for mixed precision training and evaluation. While 
+bf16 has a worse precision than fp16, it has a much bigger dynamic range. In fp16 the biggest number you can have 
+is 65535 and any number above that will result in an overflow.

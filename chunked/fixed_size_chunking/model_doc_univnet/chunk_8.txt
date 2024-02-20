@@ -1,0 +1,9 @@
+ementation can be found at maum-ai/univnet with pretrained checkpoints here.
+UnivNetConfig
+[[autodoc]] UnivNetConfig
+UnivNetFeatureExtractor
+[[autodoc]] UnivNetFeatureExtractor
+    - call
+UnivNetModel
+[[autodoc]] UnivNetModel
+    - forward

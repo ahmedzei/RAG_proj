@@ -1,0 +1,12 @@
+. To install PyTorch, please follow the
+   instructions on https://pytorch.org/get-started/locally/.
+
+Note: You don't need to have CUDA installed. Making the new model work on CPU is sufficient.
+
+To port brand_new_bert, you will also need access to its original repository:
+
+git clone https://github.com/org_that_created_brand_new_bert_org/brand_new_bert.git
+cd brand_new_bert
+pip install -e .
+Now you have set up a development environment to port brand_new_bert to 🤗 Transformers.
+3.-4. Run a pretrained checkpo

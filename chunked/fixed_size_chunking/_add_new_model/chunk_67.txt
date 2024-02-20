@@ -1,0 +1,7 @@
+el_pointer.shape} and array shape of checkpoint weight {pretrained_weight.shape} mismatched"
+Besides, you should also print out the names of both weights to make sure they match, e.g.
+python
+logger.info(f"Initialize PyTorch weight {layer_name} from {pretrained_weight.name}")
+If either the shape or the name doesn't match, you probably assigned the wrong checkpoint weight to a randomly
+initialized layer of the 🤗 Transformers implementation.
+An incorrect shape is most likely due to an incorrect setting of the 

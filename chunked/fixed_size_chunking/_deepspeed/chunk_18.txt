@@ -1,0 +1,3 @@
+is 8GB or less, you should reduce overlap_comm to lower the memory requirements and prevent an out-of-memory (OOM) error.
+allgather_bucket_size and reduce_bucket_size trade off available GPU memory for communication speed. The smaller their values, the slower communication is and the more GPU memory is available. You can balance, for example, whether a bigger batch size is more important than a slightly slower training time.
+round_robin_gradients is available in DeepSpeed 0.4.4 for CPU offloading. It parall

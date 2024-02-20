@@ -1,0 +1,6 @@
+We have add them to the transformers framework, making them easier to use.
+Automatic Speech Recognition (ASR)
+The ASR model checkpoints  can be found here : mms-1b-fl102, mms-1b-l1107, mms-1b-all. For best accuracy, use the mms-1b-all model. 
+Tips:
+
+All ASR models accept a float array corresponding to the raw waveform of the speech signal.

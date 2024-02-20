@@ -1,0 +1,22 @@
+l, use it like you would use the original CLIP.
+
+AltCLIPConfig
+[[autodoc]] AltCLIPConfig
+    - from_text_vision_configs
+AltCLIPTextConfig
+[[autodoc]] AltCLIPTextConfig
+AltCLIPVisionConfig
+[[autodoc]] AltCLIPVisionConfig
+AltCLIPProcessor
+[[autodoc]] AltCLIPProcessor
+AltCLIPModel
+[[autodoc]] AltCLIPModel
+    - forward
+    - get_text_features
+    - get_image_features
+AltCLIPTextModel
+[[autodoc]] AltCLIPTextModel
+    - forward
+AltCLIPVisionModel
+[[autodoc]] AltCLIPVisionModel
+    - forward

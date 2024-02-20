@@ -1,0 +1,9 @@
+
+Pop2Piano
+
+Overview
+The Pop2Piano model was proposed in Pop2Piano : Pop Audio-based Piano Cover Generation by Jongho Choi and Kyogu Lee.
+Piano covers of pop music are widely enjoyed, but generating them from music is not a trivial task. It requires great 
+expertise with playing piano as well as knowing different characteristics and melodies of a song. With Pop2Piano you 
+can directly generate a cover from a song's audio waveform. It is the first model to directly generate a piano cover 
+from pop audio with

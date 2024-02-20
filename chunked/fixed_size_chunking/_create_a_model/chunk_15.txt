@@ -1,0 +1,8 @@
+tputs.
+
+from transformers import TFDistilBertForSequenceClassification
+tf_model = TFDistilBertForSequenceClassification.from_pretrained("distilbert/distilbert-base-uncased")
+
+Easily reuse this checkpoint for another task by switching to a different model head. For a question answering task, you would use the [TFDistilBertForQuestionAnswering] model head. The question answering head is similar to the sequence classification head except it is a linear layer on top of the hidden states output.
+
+from transforme

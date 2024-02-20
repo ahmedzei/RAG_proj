@@ -1,0 +1,7 @@
+u can also store several generation configurations in a single directory, making use of the config_file_name
+argument in [GenerationConfig.save_pretrained]. You can later instantiate them with [GenerationConfig.from_pretrained]. This is useful if you want to
+store several generation configurations for a single model (e.g. one for creative text generation with sampling, and
+one for summarization with beam search). You must have the right Hub permissions to add configuration files to a model.
+thon
+
+from trans

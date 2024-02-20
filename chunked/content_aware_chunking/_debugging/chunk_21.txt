@@ -1,0 +1,7 @@
+If we look just at this frame:
+encoder.block.2.layer.1.layer_norm T5LayerNorm
+8.69e-02 4.18e-01 weight
+2.65e-04 3.42e+03 input[0]
+1.79e-06 4.65e+00 output
+Here, encoder.block.2.layer.1.layer_norm indicates that it was a layer norm for the first layer, of the second
+block of the encoder.

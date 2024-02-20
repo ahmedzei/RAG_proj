@@ -1,0 +1,3 @@
+REALM
+Overview
+The REALM model was proposed in REALM: Retrieval-Augmented Language Model Pre-Training by Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat and Ming-Wei Chang.

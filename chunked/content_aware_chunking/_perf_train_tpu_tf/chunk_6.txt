@@ -1,0 +1,3 @@
+However, we understand that the only free TPU access is on Colab and Kaggle Kernels, which uses TPU Node - so we’ll try to explain how to handle it if you have to! Check the TPU example notebook for code samples that explain this in more detail.
+What sizes of TPU are available?
+A single TPU (a v2-8/v3-8/v4-8) runs 8 replicas. TPUs exist in pods that can run hundreds or thousands of replicas simultaneously.

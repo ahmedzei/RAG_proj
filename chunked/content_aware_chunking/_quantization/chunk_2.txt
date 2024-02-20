@@ -1,0 +1,7 @@
+This guide will show you how to use Activation-aware Weight Quantization (AWQ), AutoGPTQ, and bitsandbytes.
+
+Interested in adding a new quantization method to Transformers? Read the HfQuantizer guide to learn how!
+
+AQLM
+Try AQLM on Google Colab!
+Additive Quantization of Language Models (AQLM) is a Large Language Models compression method. It quantizes multiple weights together and take advantage of interdependencies between them.

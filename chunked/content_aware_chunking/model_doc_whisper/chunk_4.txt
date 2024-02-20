@@ -1,0 +1,4 @@
+Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.'
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with Whisper.

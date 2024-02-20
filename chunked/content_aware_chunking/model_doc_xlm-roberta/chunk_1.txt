@@ -1,0 +1,6 @@
+It is a large multi-lingual language model, trained on 2.5TB of filtered CommonCrawl
+data.
+The abstract from the paper is the following:
+This paper shows that pretraining multilingual language models at scale leads to significant performance gains for a
+wide range of cross-lingual transfer tasks. We train a Transformer-based masked language model on one hundred
+languages, using more than two terabytes of filtered CommonCrawl data.

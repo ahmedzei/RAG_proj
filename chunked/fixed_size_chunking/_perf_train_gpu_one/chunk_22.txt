@@ -1,0 +1,8 @@
+ accessed directly via tensor.to(dtype=torch.tf32) because it is an internal CUDA data type. You need torch>=1.7 to use tf32 data types.
+
+For additional information on tf32 vs other precisions, please refer to the following benchmarks: 
+RTX-3090 and
+A100.
+Flash Attention 2
+You can speedup the training throughput by using Flash Attention 2 integration in transformers. Check out the appropriate section in the single GPU section to learn more about how to load a model with Flash Attention 2 modules. 
+Optimizer

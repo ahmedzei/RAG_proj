@@ -1,0 +1,3 @@
+It is extensible by design; we curated some relevant tools, 
+but we'll show you how the system can be extended easily to use any tool developed by the community.
+Let's start with a few examples of what can be achieved with this new API.

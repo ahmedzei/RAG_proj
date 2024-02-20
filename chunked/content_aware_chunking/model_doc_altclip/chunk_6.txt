@@ -1,0 +1,5 @@
+The authors
+also add absolute position embeddings, and feed the resulting sequence of vectors to a standard Transformer encoder.
+The [CLIPImageProcessor] can be used to resize (or rescale) and normalize images for the model.
+The [AltCLIPProcessor] wraps a [CLIPImageProcessor] and a [XLMRobertaTokenizer] into a single instance to both
+encode the text and prepare the images.

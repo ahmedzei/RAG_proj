@@ -1,0 +1,5 @@
+
+SwitchTransformers
+Overview
+The SwitchTransformers model was proposed in Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity by William Fedus, Barret Zoph, Noam Shazeer.
+The Switch Transformer model uses a sparse T5 encoder-decoder architecture, where the MLP are replaced by a Mixture of Experts (MoE). A routing mechanism (top 1 in this case) associates each token to one of the expert, where each expert is a dense MLP. While switch transformers have a lot more weigh

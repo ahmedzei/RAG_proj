@@ -1,0 +1,4 @@
+Thus, it is a better fit, and we recommend using    normalized_text as input text.
+Because SpeechT5 was trained on the English language, it may not recognize certain characters in the Dutch dataset. If 
+left as is, these characters will be converted to <unk> tokens. However, in Dutch, certain characters like à are 
+used to stress syllables.

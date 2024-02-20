@@ -1,0 +1,6 @@
+o tune - chunks, which determines how many data chunks are sent in a sequence 
+through the same pipe stage. For example, in the bottom diagram you can see chunks=4. GPU0 performs the same 
+forward path on chunk 0, 1, 2 and 3 (F0,0, F0,1, F0,2, F0,3) and then it waits for other GPUs to do complete their work. 
+Only when the other GPUs begin to complete their work, GPU0 starts to work again doing the backward path for chunks 
+3, 2, 1 and 0 (B0,3, B0,2, B0,1, B0,0).
+Note that this is the same concept as gradie

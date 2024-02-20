@@ -1,0 +1,13 @@
+ interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+SegformerConfig
+[[autodoc]] SegformerConfig
+SegformerFeatureExtractor
+[[autodoc]] SegformerFeatureExtractor
+    - call
+    - post_process_semantic_segmentation
+SegformerImageProcessor
+[[autodoc]] SegformerImageProcessor
+    - preprocess
+    - post_process_semantic_segmentation
+
+SegformerModel

@@ -1,0 +1,5 @@
+This approach enables us to create a unified model
+(trained once) for three common segmentation tasks, which
+come with distinct challenges: referring expression segmentation, zero-shot segmentation and one-shot segmentation.
+We build upon the CLIP model as a backbone which we extend with a transformer-based decoder that enables dense
+prediction.

@@ -1,0 +1,7 @@
+xpected speedups
+Below is a expected speedup diagram that compares pure inference time between the native implementation in transformers using mistralai/Mistral-7B-v0.1 checkpoint and the Flash Attention 2 version of the model.
+
+Sliding window Attention
+The current implementation supports the sliding window attention mechanism and memory efficient cache management. 
+To enable sliding window attention, just make sure to have a flash-attn version that is compatible with sliding window attention (>=2.3.0). 
+Th

@@ -1,0 +1,16 @@
+-tohoku/bert-base-japanese-char")
+tokenizer = AutoTokenizer.from_pretrained("cl-tohoku/bert-base-japanese-char")
+Input Japanese Text
+line = "吾輩は猫である。"
+inputs = tokenizer(line, return_tensors="pt")
+print(tokenizer.decode(inputs["input_ids"][0]))
+[CLS] 吾 輩 は 猫 で あ る 。 [SEP]
+outputs = bertjapanese(**inputs)
+
+This model was contributed by cl-tohoku.
+ 
+This implementation is the same as BERT, except for tokenization method. Refer to BERT documentation for 
+API reference information.  
+
+BertJapaneseTokenizer
+[[au

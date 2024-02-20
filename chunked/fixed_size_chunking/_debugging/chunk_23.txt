@@ -1,0 +1,6 @@
+e reports for Dropout.forward function with the first entry for the only input and the second for the
+only output. You can see that it was called from an attribute dropout inside DenseReluDense class. We can see
+that it happened during the first layer, of the 2nd block, during the very first batch. Finally, the absolute largest
+input elements was 6.27e+04 and same for the output was inf.
+You can see here, that T5DenseGatedGeluDense.forward resulted in output activations, whose absolute max value was
+around 

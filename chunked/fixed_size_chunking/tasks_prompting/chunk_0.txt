@@ -1,0 +1,8 @@
+
+LLM prompting guide
+[[open-in-colab]]
+Large Language Models such as Falcon, LLaMA, etc. are pretrained transformer models initially trained to predict the 
+next token given some input text. They typically have billions of parameters and have been trained on trillions of 
+tokens for an extended period of time. As a result, these models become quite powerful and versatile, and you can use 
+them to solve multiple NLP tasks out of the box by instructing the models with natural language prompts.
+Designing such 

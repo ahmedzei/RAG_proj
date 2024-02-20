@@ -1,0 +1,17 @@
+val_data_augmentation = keras.Sequential(
+     [
+         layers.CenterCrop(size[0], size[1]),
+         layers.Rescaling(scale=1.0 / 127.5, offset=-1),
+     ],
+     name="val_data_augmentation",
+ )
+
+Next, create functions to apply appropriate transformations to a batch of images, instead of one image at a time.
+
+import numpy as np
+import tensorflow as tf
+from PIL import Image
+def convert_to_tf_tensor(image: Image):
+     np_image = np.array(image)
+     tf_image = tf.convert_to_tensor(np_image)
+     # expand_

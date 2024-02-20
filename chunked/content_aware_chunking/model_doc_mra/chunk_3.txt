@@ -1,0 +1,23 @@
+Code is available at https://github.com/mlpen/mra-attention.
+This model was contributed by novice03.
+The original code can be found here.
+MraConfig
+[[autodoc]] MraConfig
+MraModel
+[[autodoc]] MraModel
+    - forward
+MraForMaskedLM
+[[autodoc]] MraForMaskedLM
+    - forward
+MraForSequenceClassification
+[[autodoc]] MraForSequenceClassification
+    - forward
+MraForMultipleChoice
+[[autodoc]] MraForMultipleChoice
+    - forward
+MraForTokenClassification
+[[autodoc]] MraForTokenClassification
+    - forward
+MraForQuestionAnswering
+[[autodoc]] MraForQuestionAnswering
+    - forward.

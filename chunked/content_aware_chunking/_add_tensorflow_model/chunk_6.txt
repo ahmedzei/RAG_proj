@@ -1,0 +1,7 @@
+From
+experience, we can tell you a few important things about adding TensorFlow models:
+
+Don't reinvent the wheel! More often than not, there are at least two reference implementations you should check: the
+PyTorch equivalent of the model you are implementing and other TensorFlow models for the same class of problems.
+Great model implementations survive the test of time. This doesn't happen because the code is pretty, but rather
+because the code is clear, easy to debug and build upon.

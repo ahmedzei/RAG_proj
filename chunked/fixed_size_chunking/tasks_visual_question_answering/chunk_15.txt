@@ -1,0 +1,10 @@
+
+             target[label] = score
+         targets.append(target)
+     encoding["labels"] = targets
+     return encoding
+
+To apply the preprocessing function over the entire dataset, use 🤗 Datasets [~datasets.map] function. You can speed up map by 
+setting batched=True to process multiple elements of the dataset at once. At this point, feel free to remove the columns you don't need.
+
+processed_dataset = flat_dataset.map(preprocess_data, batched=True, remove_columns=['question','question_type',  'question_

@@ -1,0 +1,3 @@
+ models, e.g. BERT, pretrained causal language models, e.g. GPT2, as well as the pretrained decoder part of sequence-to-sequence models, e.g. decoder of BART, can be used as the decoder.
+Depending on which architecture you choose as the decoder, the cross-attention layers might be randomly initialized.
+Initializing [VisionEncoderDecoderModel] from a pretrained encoder and decoder checkpoint requires the model to be fine-tuned on a downstream task, as has been shown in the Warm-starting-encoder-decoder blog 

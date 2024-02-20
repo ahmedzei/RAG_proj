@@ -1,0 +1,8 @@
+maModel
+    - forward
+OpenLlamaForCausalLM
+[[autodoc]] OpenLlamaForCausalLM
+    - forward
+OpenLlamaForSequenceClassification
+[[autodoc]] OpenLlamaForSequenceClassification
+    - forward

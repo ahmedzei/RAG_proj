@@ -1,0 +1,16 @@
+aset)
+trainer.train()
+results = trainer.evaluate(test_dataset)
+
+Usage tips
+The model can also be used for time series classification and time series regression. See the respective [PatchTSMixerForTimeSeriesClassification] and [PatchTSMixerForRegression] classes.
+Resources
+
+A blog post explaining PatchTSMixer in depth can be found here. The blog can also be opened in Google Colab.
+
+PatchTSMixerConfig
+[[autodoc]] PatchTSMixerConfig
+PatchTSMixerModel
+[[autodoc]] PatchTSMixerModel
+    - forward
+PatchTSMixerForP

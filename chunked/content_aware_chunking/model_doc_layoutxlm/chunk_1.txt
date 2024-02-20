@@ -1,0 +1,5 @@
+It's a multilingual extension of the LayoutLMv2 model trained
+on 53 languages.
+The abstract from the paper is the following:
+Multimodal pre-training with text, layout, and image has achieved SOTA performance for visually-rich document
+understanding tasks recently, which demonstrates the great potential for joint learning across different modalities.

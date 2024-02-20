@@ -1,0 +1,9 @@
+d ablation studies to prove that both our novel
+model components and pretraining strategies significantly contribute to our strong results; and also present several
+attention visualizations for the different encoders
+This model was contributed by eltoto1219. The original code can be found here.
+Usage tips
+
+Bounding boxes are not necessary to be used in the visual feature embeddings, any kind of visual-spacial features
+  will work.
+Both the language hidden states and the visual hidden states that LXMERT outp

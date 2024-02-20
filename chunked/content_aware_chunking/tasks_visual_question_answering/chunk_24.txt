@@ -1,0 +1,31 @@
+Here we'll explicitly send the model to a 
+GPU, if available, which we didn't need to do earlier when training, as [Trainer] handles this automatically: 
+
+from transformers import AutoProcessor, Blip2ForConditionalGeneration
+import torch
+processor = AutoProcessor.from_pretrained("Salesforce/blip2-opt-2.7b")
+model = Blip2ForConditionalGeneration.from_pretrained("Salesforce/blip2-opt-2.7b", torch_dtype=torch.float16)
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model.to(device)
+
+The model takes image and text as input, so let's use the exact same image/question pair from the first example in the VQA dataset: 
+ 
+
+example = dataset[0]
+image = Image.open(example['image_id'])
+question = example['question']
+
+To use BLIP-2 for visual question answering task, the textual prompt has to follow a specific format: Question: {} Answer:.
+
+prompt = f"Question: {question} Answer:" 
+
+Now we need to preprocess the image/prompt with the model's processor, pass the processed input through the model, and decode the output:
+
+inputs = processor(image, text=prompt, return_tensors="pt").to(device, torch.float16)
+generated_ids = model.generate(**inputs, max_new_tokens=10)
+generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)[0].strip()
+print(generated_text)
+"He is looking at the crowd" 
+
+As you can see, the model recognized the crowd, and the direction of the face (looking down), however, it seems to miss 
+the fact the crowd is behind the skater.

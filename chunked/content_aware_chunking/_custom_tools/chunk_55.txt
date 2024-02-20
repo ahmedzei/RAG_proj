@@ -1,0 +1,7 @@
+In order to handle these tools,
+Langchain requires textual inputs and outputs, even when working with different modalities.
+This is often the serialized version (i.e., saved to disk) of the objects.
+This difference means that multi-modality isn't handled between transformers-agents and langchain.
+We aim for this limitation to be resolved in future versions, and welcome any help from avid langchain
+users to help us achieve this compatibility.
+We would love to have better support.

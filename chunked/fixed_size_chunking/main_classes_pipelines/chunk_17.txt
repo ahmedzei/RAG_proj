@@ -1,0 +1,14 @@
+ize the batch_size
+independently of the inputs. The caveats from the previous section still apply.
+Pipeline custom code
+If you want to override a specific pipeline.
+Don't hesitate to create an issue for your task at hand, the goal of the pipeline is to be easy to use and support most
+cases, so transformers could maybe support your use case.
+If you want to try simply you can:
+
+Subclass your pipeline of choice
+
+thon
+class MyPipeline(TextClassificationPipeline):
+    def postprocess():
+        # Your code goes 

@@ -1,0 +1,5 @@
+The results should be the same as test_small_model_tf.
+test_small_model_tf : Define 1 small model for this pipeline (doesn't matter if the results don't make sense)
+  and test the pipeline outputs. The results should be the same as test_small_model_pt.
+test_large_model_pt (optional): Tests the pipeline on a real pipeline where the results are supposed to
+  make sense. These tests are slow and should be marked as such.

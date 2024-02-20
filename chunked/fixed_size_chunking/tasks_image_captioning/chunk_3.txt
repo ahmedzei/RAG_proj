@@ -1,0 +1,16 @@
+h the [~datasets.Dataset.train_test_split] method:
+python
+ds = ds["train"].train_test_split(test_size=0.1)
+train_ds = ds["train"]
+test_ds = ds["test"]
+Let's visualize a couple of samples from the training set. 
+thon
+from textwrap import wrap
+import matplotlib.pyplot as plt
+import numpy as np
+def plot_images(images, captions):
+    plt.figure(figsize=(20, 20))
+    for i in range(len(images)):
+        ax = plt.subplot(1, len(images), i + 1)
+        caption = captions[i]
+        caption = "\n".join(wrap(caption

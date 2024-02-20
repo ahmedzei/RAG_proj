@@ -1,0 +1,24 @@
+By default, the
+processor will use the feature extractor to get all nodes and xpaths, and create [CLS] question tokens [SEP] word tokens [SEP].
+thon
+
+from transformers import MarkupLMProcessor
+processor = MarkupLMProcessor.from_pretrained("microsoft/markuplm-base")
+html_string = """
+  <!DOCTYPE html>
+  
+  
+  Hello world
+  
+  
+  Welcome
+  My name is Niels.
+  
+  """
+question = "What's his name?"
+encoding = processor(html_string, questions=question, return_tensors="pt")
+print(encoding.keys())
+dict_keys(['input_ids', 'token_type_ids', 'attention_mask', 'xpath_tags_seq', 'xpath_subs_seq'])
+
+Use case 5: web page question answering (inference), parse_html=False
+For question answering tasks (such as WebSRC), you can provide a question to the processor.

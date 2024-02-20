@@ -1,0 +1,15 @@
+fier = pipeline("sentiment-analysis", model="stevhliu/my_awesome_model")
+classifier(text)
+[{'label': 'POSITIVE', 'score': 0.9994940757751465}]
+
+You can also manually replicate the results of the pipeline if you'd like:
+
+Tokenize the text and return PyTorch tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("stevhliu/my_awesome_model")
+inputs = tokenizer(text, return_tensors="pt")
+
+Pass your inputs to the model and return the logits:
+
+from transformers import AutoModel

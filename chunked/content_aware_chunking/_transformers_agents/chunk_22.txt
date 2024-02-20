@@ -1,0 +1,12 @@
+In case you would like to use the code generated in 
+a different setting, the agent can be prompted to return the code, along with tool definition and accurate imports.
+For example, the following instruction
+python
+agent.run("Draw me a picture of rivers and lakes", return_code=True)
+returns the following code
+thon
+from transformers import load_tool
+image_generator = load_tool("huggingface-tools/text-to-image")
+image = image_generator(prompt="rivers and lakes")
+
+that you can then modify and execute yourself..

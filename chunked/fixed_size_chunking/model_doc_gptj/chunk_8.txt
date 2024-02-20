@@ -1,0 +1,8 @@
+Amazon SageMaker.
+A blog on how to Accelerate GPT-J inference with DeepSpeed-Inference on GPUs.
+A blog post introducing GPT-J-6B: 6B JAX-Based Transformer. 🌎
+A notebook for GPT-J-6B Inference Demo. 🌎
+Another notebook demonstrating Inference with GPT-J-6B.  
+Causal language modeling chapter of the 🤗 Hugging Face Course.
+[GPTJForCausalLM] is supported by this causal language modeling example script, text generation example script, and notebook.
+[TFGPTJForCausalLM] is supported by this causal language modeling

@@ -1,0 +1,6 @@
+You have two choices here:
+
+transformers-cli add-new-model-like to add a new model like an existing one
+transformers-cli add-new-model to add a new model from our template (will look like BERT or Bart depending on the type of model you select)
+
+In both cases, you will be prompted with a questionnaire to fill in the basic information of your model.

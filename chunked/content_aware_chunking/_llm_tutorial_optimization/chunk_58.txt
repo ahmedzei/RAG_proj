@@ -1,0 +1,7 @@
+Let's look at an example.
+User: How many people live in France?
+Assistant: Roughly 75 million people live in France
+User: And how many are in Germany?
+Assistant: Germany has ca. 81 million inhabitants
+In this chat, the LLM runs auto-regressive decoding twice:
+  1.

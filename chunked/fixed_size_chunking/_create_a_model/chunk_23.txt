@@ -1,0 +1,7 @@
+ask (e.g., object detection). Start by initializing a backbone in the model config and specify whether you want to load pretrained weights or load randomly initialized weights. Then you can pass the model config to the model head.
+For example, to load a ResNet backbone into a MaskFormer model with an instance segmentation head:
+
+Set use_pretrained_backbone=True to load pretrained ResNet weights for the backbone.
+
+from transformers import MaskFormerConfig, MaskFormerForInstanceSegmentation, ResNetConfig
+conf

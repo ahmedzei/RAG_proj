@@ -1,0 +1,19 @@
+ternal-testing/librispeech_asr_dummy", "clean", split="validation")
+asr = pipeline(
+     "automatic-speech-recognition",
+     model="facebook/s2t-wav2vec2-large-en-de",
+     feature_extractor="facebook/s2t-wav2vec2-large-en-de",
+ )
+translation_de = asr(librispeech_en[0]["file"])
+
+See model hub to look for Speech2Text2 checkpoints.
+Resources
+
+Causal language modeling task guide
+
+Speech2Text2Config
+[[autodoc]] Speech2Text2Config
+Speech2TextTokenizer
+[[autodoc]] Speech2Text2Tokenizer
+    - batch_decode
+    - d

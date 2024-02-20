@@ -1,0 +1,9 @@
+he LLaMA tokenizer is a BPE model based on sentencepiece. One quirk of sentencepiece is that when decoding a sequence, if the first token is the start of the word (e.g. "Banana"), the tokenizer does not prepend the prefix space to the string.
+
+Code Llama has the same architecture as the Llama2 models, refer to Llama2's documentation page for the API reference.
+Find Code Llama tokenizer reference below. 
+
+CodeLlamaTokenizer
+[[autodoc]] CodeLlamaTokenizer
+    - build_inputs_with_special_tokens
+    - get_speci

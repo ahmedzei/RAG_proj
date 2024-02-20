@@ -1,0 +1,23 @@
+a pipeline for NER with your model, and pass your text to it:
+
+from transformers import pipeline
+classifier = pipeline("ner", model="stevhliu/my_awesome_wnut_model")
+classifier(text)
+[{'entity': 'B-location',
+  'score': 0.42658573,
+  'index': 2,
+  'word': 'golden',
+  'start': 4,
+  'end': 10},
+ {'entity': 'I-location',
+  'score': 0.35856336,
+  'index': 3,
+  'word': 'state',
+  'start': 11,
+  'end': 16},
+ {'entity': 'B-group',
+  'score': 0.3064001,
+  'index': 4,
+  'word': 'warriors',
+  'start': 17,
+  'end': 25

@@ -1,0 +1,4 @@
+Implement those changes which often means changing the self-attention layer, the order of the normalization
+layer, etc… Again, it is often useful to look at the similar architecture of already existing models in Transformers to
+get a better feeling of how your model should be implemented.
+Note that at this point, you don't have to be very sure that your code is fully correct or clean.

@@ -1,0 +1,7 @@
+run with ONNX Runtime via ORTModelForXXX classes,
+which follow the same AutoModel API as the one you are used to in 🤗 Transformers.
+- run with optimized inference pipelines,
+which has the same API as the [pipeline] function in 🤗 Transformers. 
+🤗 Optimum provides support for the ONNX export by leveraging configuration objects. These configuration objects come 
+ready-made for a number of model architectures, and are designed to be easily extendable to other architectures.
+For the list of ready-made configurat

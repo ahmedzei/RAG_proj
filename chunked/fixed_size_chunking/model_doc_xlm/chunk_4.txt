@@ -1,0 +1,4 @@
+el and the library provides checkpoints for all of them:
+
+Causal language modeling (CLM) which is the traditional autoregressive training (so this model could be in the previous section as well). One of the languages is selected for each training sample, and the model input is a sentence of 256 tokens, that may span over several documents in one of those languages.
+Masked language modeling (MLM) which is like RoBERTa. One of the languages is selected for each training sample, and the model input is a senten

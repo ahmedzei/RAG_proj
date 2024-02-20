@@ -1,0 +1,6 @@
+out melody and chord extraction modules. 
+Pop2Piano is an encoder-decoder Transformer model based on T5. The input audio 
+is transformed to its waveform and passed to the encoder, which transforms it to a latent representation. The decoder 
+uses these latent representations to generate token ids in an autoregressive way. Each token id corresponds to one of four 
+different token types: time, velocity, note and 'special'. The token ids are then decoded to their equivalent MIDI file.
+The abstract from the pape

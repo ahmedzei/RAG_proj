@@ -1,0 +1,13 @@
+-it. The original code can be found here.
+Usage tips
+XLM-RoBERTa-XL is a multilingual model trained on 100 different languages. Unlike some XLM multilingual models, it does 
+not require lang tensors to understand which language is used, and should be able to determine the correct 
+language from the input ids.
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guid

@@ -1,0 +1,20 @@
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A blog post on Accelerating Document AI with TrOCR.
+A blog post on how to Document AI with TrOCR.
+A notebook on how to finetune TrOCR on IAM Handwriting Database using Seq2SeqTrainer.
+A notebook on inference with TrOCR and Gradio demo.
+A notebook on finetune TrOCR on the IAM Handwriting Database using native PyTorch.
+A notebook on evaluating TrOCR on the IAM test set.
+
+Casual language modeling task guide.
+
+⚡️ Inference
+
+An interactive-demo on TrOCR handwritten character recognition.
+
+Inference
+TrOCR's [VisionEncoderDecoder] model accepts images as input and makes use of
+[~generation.GenerationMixin.generate] to autoregressively generate text given the input image.
+The [ViTImageProcessor/DeiTImageProcessor] class is responsible for preprocessing the input image and
+[RobertaTokenizer/XLMRobertaTokenizer] decodes the generated target tokens to the target string.

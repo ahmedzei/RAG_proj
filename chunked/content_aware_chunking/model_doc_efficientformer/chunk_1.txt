@@ -1,0 +1,5 @@
+EfficientFormer proposes a
+dimension-consistent pure transformer that can be run on mobile devices for dense prediction tasks like image classification, object
+detection and semantic segmentation.
+The abstract from the paper is the following:
+Vision Transformers (ViT) have shown rapid progress in computer vision tasks, achieving promising results on various benchmarks.

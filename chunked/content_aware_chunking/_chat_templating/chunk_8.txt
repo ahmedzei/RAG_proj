@@ -1,0 +1,4 @@
+Helicopters are not food, they are flying machines. Food is meant to be eaten, like a hearty plate o' grog, a savory bowl o' stew, or a delicious loaf o' bread. But helicopters, they be for transportin' and movin' around, not for eatin'. So, I'd say none, me hearties. None at all.
+Arr, 'twas easy after all!
+Is there an automated pipeline for chat?
+Yes, there is! Our text generation pipelines support chat inputs, which makes it easy to use chat models.

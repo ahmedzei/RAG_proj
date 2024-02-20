@@ -1,0 +1,11 @@
+E.g.
+thon
+retrieve matching layer weights, e.g. by
+recursive algorithm
+layer_name = "dense"
+pretrained_weight = array_of_dense_layer
+model_pointer = getattr(model, "dense")
+model_pointer.weight.data = torch.from_numpy(pretrained_weight)
+
+While doing so, you must verify that each randomly initialized weight of your PyTorch model and its corresponding
+pretrained checkpoint weight exactly match in both shape and name.

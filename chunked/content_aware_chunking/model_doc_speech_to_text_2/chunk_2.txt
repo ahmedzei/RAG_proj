@@ -1,0 +1,11 @@
+For more information, see
+  the official models .
+Speech2Text2 is always used within the SpeechEncoderDecoder framework.
+Speech2Text2's tokenizer is based on fastBPE.
+
+Inference
+Speech2Text2's [SpeechEncoderDecoderModel] model accepts raw waveform input values from speech and
+makes use of [~generation.GenerationMixin.generate] to translate the input speech
+autoregressively to the target language.
+The [Wav2Vec2FeatureExtractor] class is responsible for preprocessing the input speech and
+[Speech2Text2Tokenizer] decodes the generated target tokens to the target string.

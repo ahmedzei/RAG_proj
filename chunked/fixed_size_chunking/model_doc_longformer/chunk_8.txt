@@ -1,0 +1,14 @@
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+LongformerConfig
+[[autodoc]] LongformerConfig
+LongformerTokenizer
+[[autodoc]] LongformerTokenizer
+LongformerTokenizerFast
+[[autodoc]] LongformerTokenizerFast
+Longformer specific outputs
+[[autodoc]] models.longformer.modeling_longformer.LongformerBaseModelOutput
+[[autodoc]] models.longformer.modeling_longformer.LongformerBaseModelOutputWithPooling
+[[autodoc]] models.longformer.modeling_longformer.LongformerMaskedLMO

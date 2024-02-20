@@ -1,0 +1,4 @@
+By switching CLIP's
+text encoder with a pretrained multilingual text encoder XLM-R, we could obtain very close performances with CLIP on almost all tasks, and extended original CLIP's capabilities such as multilingual understanding.
+The abstract from the paper is the following:
+In this work, we present a conceptually simple and effective method to train a strong bilingual multimodal representation model.

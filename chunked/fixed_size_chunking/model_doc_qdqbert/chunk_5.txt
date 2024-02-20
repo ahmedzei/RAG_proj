@@ -1,0 +1,11 @@
+t tensor quantizer is set to be per-channel quantization for weights
+weight_desc = QuantDescriptor(num_bits=8, axis=((0,)))
+quant_nn.QuantLinear.set_default_quant_desc_input(input_desc)
+quant_nn.QuantLinear.set_default_quant_desc_weight(weight_desc)
+
+Calibration
+Calibration is the terminology of passing data samples to the quantizer and deciding the best scaling factors for
+tensors. After setting up the tensor quantizers, one can use the following example to calibrate the model:
+thon
+
+Find the TensorQuantiz

@@ -1,0 +1,4 @@
+DPR
+
+Overview
+Dense Passage Retrieval (DPR) is a set of tools and models for state-of-the-art open-domain Q&A research.

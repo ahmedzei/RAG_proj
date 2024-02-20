@@ -1,0 +1,3 @@
+MaskFormer addresses semantic segmentation with a mask classification paradigm instead of performing classic pixel-level classification.
+The abstract from the paper is the following:
+Modern approaches typically formulate semantic segmentation as a per-pixel classification task, while instance-level segmentation is handled with an alternative mask classification.

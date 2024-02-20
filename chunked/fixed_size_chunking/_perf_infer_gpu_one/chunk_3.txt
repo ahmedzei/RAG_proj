@@ -1,0 +1,8 @@
+n, make sure you have FlashAttention-2 installed.
+
+pip install flash-attn --no-build-isolation
+We strongly suggest referring to the detailed installation instructions to learn more about supported hardware and data types!
+
+FlashAttention-2 is also supported on AMD GPUs and current support is limited to Instinct MI210 and Instinct MI250. We strongly suggest using this Dockerfile to use FlashAttention-2 on AMD GPUs.
+
+To enable FlashAttention-2, pass the argument attn_implementation="flash_attention_2" to [~Au

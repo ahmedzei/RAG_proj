@@ -1,0 +1,10 @@
+
+QDQBERT
+Overview
+The QDQBERT model can be referenced in Integer Quantization for Deep Learning Inference: Principles and Empirical
+Evaluation by Hao Wu, Patrick Judd, Xiaojie Zhang, Mikhail Isaev and Paulius
+Micikevicius.
+The abstract from the paper is the following:
+Quantization techniques can reduce the size of Deep Neural Networks and improve inference latency and throughput by
+taking advantage of high throughput integer instructions. In this paper we review the mathematical aspects of
+quantization para

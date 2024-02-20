@@ -1,0 +1,3 @@
+Knowledge Distillation for Computer Vision
+[[open-in-colab]]
+Knowledge distillation is a technique used to transfer knowledge from a larger, more complex model (teacher) to a smaller, simpler model (student). To distill knowledge from one model to another, we take a pre-trained teacher model trained on a certain task (image classification for this case) and randomly initialize a student model to be trained on image classification.

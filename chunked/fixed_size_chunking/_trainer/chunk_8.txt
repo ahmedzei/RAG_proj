@@ -1,0 +1,4 @@
+ave your checkpoints (the optimizer state is not saved by default) to the Hub by setting push_to_hub=True in [TrainingArguments] to commit and push them. Other options for deciding how your checkpoints are saved are set up in the hub_strategy parameter:
+
+hub_strategy="checkpoint" pushes the latest checkpoint to a subfolder named "last-checkpoint" from which you can resume training
+hug_strategy="all_checkpoints" pushes all checkpoints to the directory defined in output_dir (you'll see one checkpoint per fold

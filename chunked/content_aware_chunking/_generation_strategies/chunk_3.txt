@@ -1,0 +1,2 @@
+Modifying a decoding strategy does not change the values of any trainable parameters.
+However, it can have a noticeable impact on the quality of the generated output.

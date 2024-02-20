@@ -1,0 +1,14 @@
+🌎
+
+[Dinov2ForImageClassification] is supported by this example script and notebook.
+See also: Image classification task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+Dinov2Config
+[[autodoc]] Dinov2Config
+Dinov2Model
+[[autodoc]] Dinov2Model
+    - forward
+Dinov2ForImageClassification
+[[autodoc]] Dinov2ForImageClassification
+    - forward.

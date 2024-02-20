@@ -1,0 +1,24 @@
+language_id = tokenizer.lang2id["en"]  # 0
+langs = torch.tensor([language_id] * input_ids.shape[1])  # torch.tensor([0, 0, 0, , 0])
+We reshape it to be of size (batch_size, sequence_length)
+langs = langs.view(1, -1)  # is now of shape [1, sequence_length] (we have a batch size of 1)
+
+Now you can pass the input_ids and language embedding to the model:
+
+outputs = model(input_ids, langs=langs)
+
+The run_generation.py script can generate text with language embeddings using the xlm-clm checkpoints.
+XLM without language embeddings
+The following XLM models do not require language embeddings during inference:
+
+FacebookAI/xlm-mlm-17-1280 (Masked language modeling, 17 languages)
+FacebookAI/xlm-mlm-100-1280 (Masked language modeling, 100 languages)
+
+These models are used for generic sentence representations, unlike the previous XLM checkpoints.
+BERT
+The following BERT models can be used for multilingual tasks:
+
+google-bert/bert-base-multilingual-uncased (Masked language modeling + Next sentence prediction, 102 languages)
+google-bert/bert-base-multilingual-cased (Masked language modeling + Next sentence prediction, 104 languages)
+
+These models do not require language embeddings during inference.

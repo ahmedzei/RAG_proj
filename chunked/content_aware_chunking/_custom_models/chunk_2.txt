@@ -1,0 +1,7 @@
+We'll see how to build upon transformers and extend the framework with your hooks and
+custom code.
+We will illustrate all of this on a ResNet model, by wrapping the ResNet class of the
+timm library into a [PreTrainedModel].
+Writing a custom configuration
+Before we dive into the model, let's first write its configuration. The configuration of a model is an object that
+will contain all the necessary information to build the model.

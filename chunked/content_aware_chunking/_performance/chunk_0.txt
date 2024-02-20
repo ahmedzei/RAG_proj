@@ -1,0 +1,5 @@
+Performance and Scalability
+Training large transformer models and deploying them to production present various challenges.
+During training, the model may require more GPU memory than available or exhibit slow training speed. In the deployment 
+phase, the model can struggle to handle the required throughput in a production environment.
+This documentation aims to assist you in overcoming these challenges and finding the optimal setting for your use-case.

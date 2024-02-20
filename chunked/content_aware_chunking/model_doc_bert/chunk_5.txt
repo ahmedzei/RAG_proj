@@ -1,0 +1,6 @@
+The original code can be found here.
+Usage tips
+
+BERT is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather than
+  the left.
+BERT was trained with the masked language modeling (MLM) and next sentence prediction (NSP) objectives.

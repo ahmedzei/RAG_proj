@@ -1,0 +1,9 @@
+The result is TorToise - an expressive, multi-voice text-to-speech system.
+This model was contributed by Susnato Dhar.
+The original code can be found here.
+Usage tips
+
+CLVP is an integral part of the Tortoise TTS model.
+CLVP can be used to compare different generated speech candidates with the provided text, and the best speech tokens are forwarded to the diffusion model.
+The use of the [ClvpModelForConditionalGeneration.generate()] method is strongly recommended for tortoise usage.
+Note that the CLVP model expects the audio to be sampled at 22.05 kHz contrary to other audio models which expects 16 kHz.

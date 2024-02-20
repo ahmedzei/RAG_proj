@@ -1,0 +1,23 @@
+peline
+[[autodoc]] AutomaticSpeechRecognitionPipeline
+    - call
+    - all
+TextToAudioPipeline
+[[autodoc]] TextToAudioPipeline
+    - call
+    - all
+ZeroShotAudioClassificationPipeline
+[[autodoc]] ZeroShotAudioClassificationPipeline
+    - call
+    - all
+Computer vision
+Pipelines available for computer vision tasks include the following.
+DepthEstimationPipeline
+[[autodoc]] DepthEstimationPipeline
+    - call
+    - all
+ImageClassificationPipeline
+[[autodoc]] ImageClassificationPipeline
+    - call
+    - all
+Imag

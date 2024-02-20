@@ -1,0 +1,1 @@
+- Overhead in data transfer between devices:  E.g. 4x 6GB cards will be able to accommodate the same size as 1x 24GB card using naive MP, but a single 24GB card will complete the training faster, because it doesn't have the data copying overhead.

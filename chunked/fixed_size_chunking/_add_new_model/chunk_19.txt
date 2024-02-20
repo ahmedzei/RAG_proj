@@ -1,0 +1,8 @@
+s, but rather focus on the practical ones, namely:
+
+What type of model is brand_new_bert? BERT-like encoder-only model? GPT2-like decoder-only model? BART-like
+  encoder-decoder model? Look at the model_summary if you're not familiar with the differences between those.
+What are the applications of brand_new_bert? Text classification? Text generation? Seq2Seq tasks, e.g.,
+  summarization?
+What is the novel feature of the model that makes it different from BERT/GPT-2/BART?
+Which of the already existing 🤗 Tran

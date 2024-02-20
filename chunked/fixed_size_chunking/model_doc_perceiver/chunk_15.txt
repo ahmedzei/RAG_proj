@@ -1,0 +1,17 @@
+rClassificationPostprocessor
+PerceiverMultimodalPostprocessor
+[[autodoc]] models.perceiver.modeling_perceiver.PerceiverMultimodalPostprocessor
+PerceiverModel
+[[autodoc]] PerceiverModel
+    - forward
+PerceiverForMaskedLM
+[[autodoc]] PerceiverForMaskedLM
+    - forward
+PerceiverForSequenceClassification
+[[autodoc]] PerceiverForSequenceClassification
+    - forward
+PerceiverForImageClassificationLearned
+[[autodoc]] PerceiverForImageClassificationLearned
+    - forward
+PerceiverForImageClassificationFourier
+[[auto

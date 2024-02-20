@@ -1,0 +1,14 @@
+r the simplicity of the examples, we'll keep using Falcon-7b-instruct, which does a decent job. Once again, here's how 
+you can write a basic prompt to instruct a model to translate a piece of text from English to Italian: 
+thon
+
+torch.manual_seed(2) # doctest: +IGNORE_RESULT
+prompt = """Translate the English text to Italian.
+ Text: Sometimes, I've believed as many as six impossible things before breakfast.
+ Translation:
+ """
+sequences = pipe(
+     prompt,
+     max_new_tokens=20,
+     do_sample=True,
+     t

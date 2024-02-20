@@ -1,0 +1,12 @@
+nse and the best model overall regarding cost/performance trade-offs. In particular, it matches or outperforms GPT3.5 on most standard benchmarks.
+Tips:
+
+The model needs to be converted using the conversion script.
+If the model is quantized to 4bits, a single A100 is enough to fit the entire 45B model.
+
+This model was contributed by Younes Belkada and Arthur Zucker .
+The original code can be found here.
+Model Details
+Mixtral-45B is a decoder-based LM with the following architectural choices:
+
+Mixtral is a M

@@ -1,0 +1,8 @@
+Translations should be similar, but not identical to output in the test set linked to in each model card.
+This model was contributed by sshleifer.
+Implementation Notes
+
+Each model is about 298 MB on disk, there are more than 1,000 models.
+The list of supported language pairs can be found here.
+Models were originally trained by Jörg Tiedemann using the Marian C++ library, which supports fast training and translation.
+All models are transformer encoder-decoders with 6 layers in each component.

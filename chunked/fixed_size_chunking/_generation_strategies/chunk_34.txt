@@ -1,0 +1,10 @@
+int)
+outputs = model.generate(**inputs, assistant_model=assistant_model)
+tokenizer.batch_decode(outputs, skip_special_tokens=True)
+['Alice and Bob are sitting in a bar. Alice is drinking a beer and Bob is drinking a']
+
+When using assisted decoding with sampling methods, you can use the temperature argument to control the randomness,
+just like in multinomial sampling. However, in assisted decoding, reducing the temperature may help improve the latency.
+thon
+
+from transformers import AutoModelForCausalLM, Aut

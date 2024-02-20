@@ -1,0 +1,8 @@
+es let you load a pretrained model for a given task (see here for a complete list of available tasks). For example, load a model for sequence classification with [TFAutoModelForSequenceClassification.from_pretrained]:
+
+from transformers import TFAutoModelForSequenceClassification
+model = TFAutoModelForSequenceClassification.from_pretrained("distilbert/distilbert-base-uncased")
+
+Easily reuse the same checkpoint to load an architecture for a different task:
+
+from transformers import TFAutoModelForTokenClassif

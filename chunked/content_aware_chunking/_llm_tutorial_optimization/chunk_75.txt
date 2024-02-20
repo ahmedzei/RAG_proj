@@ -1,0 +1,3 @@
+Going into more detail is out of the scope of this notebook, but can be read upon in this nice blog post.
+The reason massive LLMs such as GPT3/4, Llama-2-70b, Claude, PaLM can run so quickly in chat-interfaces such as Hugging Face Chat or ChatGPT is to a big part thanks to the above-mentioned improvements in precision, algorithms, and architecture.
+Going forward, accelerators such as GPUs, TPUs, etc will only get faster and allow for more memory, but one should nevertheless always make sure to use the best available algorithms and architectures to get the most bang for your buck 🤗.

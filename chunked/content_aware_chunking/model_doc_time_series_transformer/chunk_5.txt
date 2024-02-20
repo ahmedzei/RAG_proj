@@ -1,0 +1,5 @@
+This means that, during training, one shifts the
+future_values one position to the right as input to the decoder, prepended by the last value of past_values. At each time step, the model needs to predict the
+next target. So the set-up of training is similar to a GPT model for language, except that there's no notion of decoder_start_token_id (we just use the last value
+of the context as initial input for the decoder).
+At inference time, we give the final value of the past_values as input to the decoder.

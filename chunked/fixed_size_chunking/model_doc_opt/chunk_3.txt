@@ -1,0 +1,8 @@
+uded here, please feel free to open a Pull Request and we will review it.
+The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+A notebook on fine-tuning OPT with PEFT, bitsandbytes, and Transformers. 🌎
+A blog post on decoding strategies with OPT.
+Causal language modeling chapter of the 🤗 Hugging Face Course.
+[OPTForCausalLM] is supported by this causal language modeling example script and notebook.
+[TFOPTForCausalLM] is supported by this causal language modelin

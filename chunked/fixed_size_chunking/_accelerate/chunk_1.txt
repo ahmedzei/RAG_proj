@@ -1,0 +1,12 @@
+ enable training in a distributed environment.
+Setup
+Get started by installing 🤗 Accelerate:
+
+pip install accelerate
+Then import and create an [~accelerate.Accelerator] object. The [~accelerate.Accelerator] will automatically detect your type of distributed setup and initialize all the necessary components for training. You don't need to explicitly place your model on a device.
+
+from accelerate import Accelerator
+accelerator = Accelerator()
+
+Prepare to accelerate
+The next step is to pass all the relevant tr

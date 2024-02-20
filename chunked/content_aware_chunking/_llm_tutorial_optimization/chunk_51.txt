@@ -1,0 +1,5 @@
+Also note that even if an LLM with RoPE and ALiBi has been trained only on a fixed length of say \( N_1 = 2048 \) it can still be used in practice with text inputs much larger than \( N_1 \), like \( N_2 = 8192 > N_1 \) by extrapolating the positional embeddings.
+3.2 The key-value cache
+Auto-regressive text generation with LLMs works by iteratively putting in an input sequence, sampling the next token, appending the next token to the input sequence, and continuing to do so until the LLM produces a token that signifies that the generation has finished.
+Please have a look at Transformer's Generate Text Tutorial to get a more visual explanation of how auto-regressive generation works.
+Let's run a quick code snippet to show how auto-regressive works in practice.

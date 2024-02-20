@@ -1,0 +1,1 @@
+This linear layer accepts the final hidden states and performs a linear transformation to compute the span start and end logits corresponding to the answer.

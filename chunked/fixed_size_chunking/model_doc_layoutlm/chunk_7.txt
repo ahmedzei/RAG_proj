@@ -1,0 +1,13 @@
+ment-understanding using Keras & Hugging Face
+  Transformers.
+
+A blog post on how to fine-tune LayoutLM for document-understanding using only Hugging Face Transformers.
+
+A notebook on how to fine-tune LayoutLM on the FUNSD dataset with image embeddings.
+
+See also: Document question answering task guide
+
+A notebook on how to fine-tune LayoutLM for sequence classification on the RVL-CDIP dataset.
+Text classification task guide
+
+A notebook on how to  fine-tune LayoutLM for token classification on the FUNSD dat

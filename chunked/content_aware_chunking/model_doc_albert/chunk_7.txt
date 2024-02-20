@@ -1,0 +1,119 @@
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+[AlbertForSequenceClassification] is supported by this example script.
+
+[TFAlbertForSequenceClassification] is supported by this example script.
+
+[FlaxAlbertForSequenceClassification] is supported by this example script and notebook.
+
+Check the Text classification task guide on how to use the model.
+
+[AlbertForTokenClassification] is supported by this example script.
+
+[TFAlbertForTokenClassification] is supported by this example script and notebook.
+
+[FlaxAlbertForTokenClassification] is supported by this example script.
+
+Token classification chapter of the 🤗 Hugging Face Course.
+Check the Token classification task guide on how to use the model.
+
+[AlbertForMaskedLM] is supported by this example script and notebook.
+[TFAlbertForMaskedLM] is supported by this example script and notebook.
+[FlaxAlbertForMaskedLM] is supported by this example script and notebook.
+Masked language modeling chapter of the 🤗 Hugging Face Course.
+Check the Masked language modeling task guide on how to use the model.
+
+[AlbertForQuestionAnswering] is supported by this example script and notebook.
+[TFAlbertForQuestionAnswering] is supported by this example script and notebook.
+[FlaxAlbertForQuestionAnswering] is supported by this example script.
+Question answering chapter of the 🤗 Hugging Face Course.
+Check the Question answering task guide on how to use the model.
+
+Multiple choice
+
+[AlbertForMultipleChoice] is supported by this example script and notebook.
+
+[TFAlbertForMultipleChoice] is supported by this example script and notebook.
+
+Check the  Multiple choice task guide on how to use the model.
+
+AlbertConfig
+[[autodoc]] AlbertConfig
+AlbertTokenizer
+[[autodoc]] AlbertTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+AlbertTokenizerFast
+[[autodoc]] AlbertTokenizerFast
+Albert specific outputs
+[[autodoc]] models.albert.modeling_albert.AlbertForPreTrainingOutput
+[[autodoc]] models.albert.modeling_tf_albert.TFAlbertForPreTrainingOutput
+
+AlbertModel
+[[autodoc]] AlbertModel
+    - forward
+AlbertForPreTraining
+[[autodoc]] AlbertForPreTraining
+    - forward
+AlbertForMaskedLM
+[[autodoc]] AlbertForMaskedLM
+    - forward
+AlbertForSequenceClassification
+[[autodoc]] AlbertForSequenceClassification
+    - forward
+AlbertForMultipleChoice
+[[autodoc]] AlbertForMultipleChoice
+AlbertForTokenClassification
+[[autodoc]] AlbertForTokenClassification
+    - forward
+AlbertForQuestionAnswering
+[[autodoc]] AlbertForQuestionAnswering
+    - forward
+
+TFAlbertModel
+[[autodoc]] TFAlbertModel
+    - call
+TFAlbertForPreTraining
+[[autodoc]] TFAlbertForPreTraining
+    - call
+TFAlbertForMaskedLM
+[[autodoc]] TFAlbertForMaskedLM
+    - call
+TFAlbertForSequenceClassification
+[[autodoc]] TFAlbertForSequenceClassification
+    - call
+TFAlbertForMultipleChoice
+[[autodoc]] TFAlbertForMultipleChoice
+    - call
+TFAlbertForTokenClassification
+[[autodoc]] TFAlbertForTokenClassification
+    - call
+TFAlbertForQuestionAnswering
+[[autodoc]] TFAlbertForQuestionAnswering
+    - call
+
+FlaxAlbertModel
+[[autodoc]] FlaxAlbertModel
+    - call
+FlaxAlbertForPreTraining
+[[autodoc]] FlaxAlbertForPreTraining
+    - call
+FlaxAlbertForMaskedLM
+[[autodoc]] FlaxAlbertForMaskedLM
+    - call
+FlaxAlbertForSequenceClassification
+[[autodoc]] FlaxAlbertForSequenceClassification
+    - call
+FlaxAlbertForMultipleChoice
+[[autodoc]] FlaxAlbertForMultipleChoice
+    - call
+FlaxAlbertForTokenClassification
+[[autodoc]] FlaxAlbertForTokenClassification
+    - call
+FlaxAlbertForQuestionAnswering
+[[autodoc]] FlaxAlbertForQuestionAnswering
+    - call
+
+.

@@ -1,0 +1,8 @@
+However, we can also notice a slight slow-down during inference.
+We delete the models and flush the memory again.
+python
+del model
+del pipe
+python
+flush()
+Let's see what peak GPU memory consumption 4-bit quantization gives.

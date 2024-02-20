@@ -1,0 +1,11 @@
+tensors="pt").to(device)
+model.to(device)
+generated_ids = model.generate(**model_inputs, max_new_tokens=100, do_sample=True)
+tokenizer.batch_decode(generated_ids)[0]
+"The expected output"
+
+To use the raw checkpoints with HuggingFace you can use the convert_mixtral_weights_to_hf.py script to convert them to the HuggingFace format:
+
+python src/transformers/models/mixtral/convert_mixtral_weights_to_hf.py \
+    --input_dir /path/to/downloaded/mistral/weights --output_dir /output/path
+You can then load the conve

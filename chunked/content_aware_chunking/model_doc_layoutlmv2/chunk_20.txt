@@ -1,0 +1,7 @@
+Optionally, one can provide word labels to the processor,
+which are turned into token-level labels.
+[LayoutLMv2Processor] uses PyTesseract, a Python
+wrapper around Google's Tesseract OCR engine, under the hood. Note that you can still use your own OCR engine of
+choice, and provide the words and normalized boxes yourself. This requires initializing
+[LayoutLMv2ImageProcessor] with apply_ocr set to False.
+In total, there are 5 use cases that are supported by the processor. Below, we list them all.

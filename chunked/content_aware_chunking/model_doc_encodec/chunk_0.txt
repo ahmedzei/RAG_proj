@@ -1,0 +1,5 @@
+EnCodec
+Overview
+The EnCodec neural codec model was proposed in High Fidelity Neural Audio Compression by Alexandre Défossez, Jade Copet, Gabriel Synnaeve, Yossi Adi.
+The abstract from the paper is the following:
+We introduce a state-of-the-art real-time, high-fidelity, audio codec leveraging neural networks. It consists in a streaming encoder-decoder architecture with quantized latent space trained in an end-to-end fashion.

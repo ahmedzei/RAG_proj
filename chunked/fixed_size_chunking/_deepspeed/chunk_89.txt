@@ -1,0 +1,10 @@
+dule.eval()  # inference
+Deepspeed ZeRO can process unrelated inputs on each GPU. So for 2 gpus you process 2 inputs at once.
+If you use more GPUs adjust for more.
+And of course if you have just one input to process you then need to pass the same string to both gpus
+If you use only one GPU, then you will have only rank 0.
+rank = torch.distributed.get_rank()
+if rank == 0:
+    text_in = "Is this review positive or negative? Review: this is the best cast iron skillet you will ever buy"
+elif rank == 1:
+    text

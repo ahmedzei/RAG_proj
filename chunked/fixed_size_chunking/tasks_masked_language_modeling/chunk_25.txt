@@ -1,0 +1,16 @@
+_mlm_model")
+logits = model(**inputs).logits
+mask_token_logits = logits[0, mask_token_index, :]
+
+Then return the three masked tokens with the highest probability and print them out:
+
+top_3_tokens = torch.topk(mask_token_logits, 3, dim=1).indices[0].tolist()
+for token in top_3_tokens:
+     print(text.replace(tokenizer.mask_token, tokenizer.decode([token])))
+The Milky Way is a spiral galaxy.
+The Milky Way is a massive galaxy.
+The Milky Way is a small galaxy.
+``
+</pt>
+<tf>
+Tokenize the text and return theinput

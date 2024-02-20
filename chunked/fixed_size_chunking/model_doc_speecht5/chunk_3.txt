@@ -1,0 +1,16 @@
+ng automatic speech recognition, speech synthesis, speech translation, voice conversion, speech enhancement, and speaker identification.
+This model was contributed by Matthijs. The original code can be found here.
+SpeechT5Config
+[[autodoc]] SpeechT5Config
+SpeechT5HifiGanConfig
+[[autodoc]] SpeechT5HifiGanConfig
+SpeechT5Tokenizer
+[[autodoc]] SpeechT5Tokenizer
+    - call
+    - save_vocabulary
+    - decode
+    - batch_decode
+SpeechT5FeatureExtractor
+[[autodoc]] SpeechT5FeatureExtractor
+    - call
+SpeechT5Proces

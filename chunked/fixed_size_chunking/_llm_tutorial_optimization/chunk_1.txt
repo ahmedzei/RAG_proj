@@ -1,0 +1,7 @@
+is consequently amplifies the memory demands for inference.
+In many real-world tasks, LLMs need to be given extensive contextual information. This necessitates the model's capability to manage very long input sequences during inference.
+
+The crux of these challenges lies in augmenting the computational and memory capabilities of LLMs, especially when handling expansive input sequences.
+In this guide, we will go over the effective techniques for efficient LLM deployment:
+
+Lower Precision: Research has shown 

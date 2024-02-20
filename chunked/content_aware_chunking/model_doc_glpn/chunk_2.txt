@@ -1,0 +1,4 @@
+The proposed decoder shows better performance than the previously proposed decoders, with considerably
+less computational complexity.
+The abstract from the paper is the following:
+Depth estimation from a single image is an important task that can be applied to various fields in computer vision, and has grown rapidly with the development of convolutional neural networks.

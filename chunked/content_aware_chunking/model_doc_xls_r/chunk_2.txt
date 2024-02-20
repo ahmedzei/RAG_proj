@@ -1,0 +1,5 @@
+Our evaluation covers a wide range
+of tasks, domains, data regimes and languages, both high and low-resource. On the CoVoST-2 speech translation
+benchmark, we improve the previous state of the art by an average of 7.4 BLEU over 21 translation directions into
+English. For speech recognition, XLS-R improves over the best known prior work on BABEL, MLS, CommonVoice as well as
+VoxPopuli, lowering error rates by 14-34% relative on average.

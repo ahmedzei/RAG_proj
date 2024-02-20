@@ -1,0 +1,4 @@
+Mask2Former is a unified framework for panoptic, instance and semantic segmentation and features significant performance and efficiency improvements over MaskFormer.
+The abstract from the paper is the following:
+Image segmentation groups pixels with different semantics, e.g., category or instance membership. Each choice
+of semantics defines a task. While only the semantics of each task differ, current research focuses on designing specialized architectures for each task.

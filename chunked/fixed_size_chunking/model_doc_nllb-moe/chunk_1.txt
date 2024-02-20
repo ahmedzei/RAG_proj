@@ -1,0 +1,5 @@
+Necip Fazil Ayan, Shruti Bhosale, Sergey Edunov, Angela Fan, Cynthia Gao, Vedanuj Goswami, Francisco Guzmán, Philipp Koehn, Alexandre Mourachko, Christophe Ropers,
+Safiyyah Saleem, Holger Schwenk, and Jeff Wang.
+The abstract of the paper is the following:
+Driven by the goal of eradicating language barriers on a global scale, machine translation has solidified itself as a key focus of artificial intelligence research today.
+However, such efforts have coalesced around a small subset of languages, leaving behi

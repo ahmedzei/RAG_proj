@@ -1,0 +1,12 @@
+h size: 4)
+| Task/Model | torch 2.0 - no compile | torch 2.0 - compile |
+|:---:|:---:|:---:|
+| Image Classification/ViT | 14.832 | 14.499 | 
+| Image Segmentation/Segformer | 18.838 | 16.476 |
+| Image Classification/BeiT | 13.205 | 13.048 | 
+| Object Detection/DETR | 48.657 | 32.418|
+| Image Classification/ConvNeXT | 22.940 | 21.631 | 
+| Image Classification/ResNet | 6.657 | 4.268 |
+| Image Segmentation/Mask2former | 74.277 | 61.781 |
+| Image Segmentation/Maskformer | 180.700 | 159.116 | 
+| Image Segmentatio

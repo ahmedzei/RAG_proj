@@ -1,0 +1,8 @@
+Unlike other data collators in 🤗 Transformers, the DefaultDataCollator does not apply additional preprocessing such as padding.
+
+from transformers import DefaultDataCollator
+data_collator = DefaultDataCollator()
+
+To avoid overfitting and to make the model more robust, add some data augmentation to the training part of the dataset.
+Here we use Keras preprocessing layers to define the transformations for the training data (includes data augmentation),
+and transformations for the validation data (only center cropping, resizing and normalizing).

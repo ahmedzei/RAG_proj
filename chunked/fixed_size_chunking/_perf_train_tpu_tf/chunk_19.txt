@@ -1,0 +1,3 @@
+ect solution to this problem. However, you can try some tricks. One very useful trick is to pad batches of samples up to a multiple of a number like 32 or 64 tokens. This often only increases the number of tokens by a small amount, but it hugely reduces the number of unique input shapes, because every input shape now has to be a multiple of 32 or 64. Fewer unique input shapes means fewer XLA compilations!
+
+🤗Specific HuggingFace Tip🤗: Our tokenizers and data collators have methods that can help you here. You

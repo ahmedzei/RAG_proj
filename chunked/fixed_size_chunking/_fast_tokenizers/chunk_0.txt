@@ -1,0 +1,13 @@
+
+Use tokenizers from 🤗 Tokenizers
+The [PreTrainedTokenizerFast] depends on the 🤗 Tokenizers library. The tokenizers obtained from the 🤗 Tokenizers library can be
+loaded very simply into 🤗 Transformers.
+Before getting in the specifics, let's first start by creating a dummy tokenizer in a few lines:
+thon
+
+from tokenizers import Tokenizer
+from tokenizers.models import BPE
+from tokenizers.trainers import BpeTrainer
+from tokenizers.pre_tokenizers import Whitespace
+tokenizer = Tokenizer(BPE(unk_token="[UNK]"))
+tr

@@ -1,0 +1,7 @@
+Our findings suggest the possibility of learning compact and efficient visual-linguistic representations from low-level visual and audio signals without assuming the prior existence of text.
+
+ TVLT architecture. Taken from the https://arxiv.org/abs/2102.03334">original paper. 
+The original code can be found here. This model was contributed by Zineng Tang.
+Usage tips
+
+TVLT is a model that takes both pixel_values and audio_values as input.

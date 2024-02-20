@@ -1,0 +1,39 @@
+Finally, learn how to use 🤗 Optimum to accelerate inference with ONNX Runtime on Nvidia and AMD GPUs.
+
+The majority of the optimizations described here also apply to multi-GPU setups!
+
+FlashAttention-2
+
+FlashAttention-2 is experimental and may change considerably in future versions.
+
+FlashAttention-2 is a faster and more efficient implementation of the standard attention mechanism that can significantly speedup inference by:
+
+additionally parallelizing the attention computation over sequence length
+partitioning the work between GPU threads to reduce communication and shared memory reads/writes between them
+
+FlashAttention-2 is currently supported for the following architectures:
+* Bark
+* Bart
+* DistilBert
+* GPTBigCode
+* GPTNeo
+* GPTNeoX
+* Falcon
+* Llama
+* Llava
+* VipLlava
+* MBart
+* Mistral
+* Mixtral
+* OPT
+* Phi
+* StableLm
+* Qwen2
+* Whisper
+You can request to add FlashAttention-2 support for another model by opening a GitHub Issue or Pull Request.
+Before you begin, make sure you have FlashAttention-2 installed.
+
+pip install flash-attn --no-build-isolation
+We strongly suggest referring to the detailed installation instructions to learn more about supported hardware and data types!
+
+FlashAttention-2 is also supported on AMD GPUs and current support is limited to Instinct MI210 and Instinct MI250.

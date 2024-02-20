@@ -1,0 +1,7 @@
+ for aggregation | input ids, attention mask, token type ids, labels, aggregation_labels                                     |
+[TapasTokenizer] creates the labels, numeric_values and numeric_values_scale based on the answer_coordinates and answer_text columns of the TSV file. The float_answer and aggregation_labels are already in the TSV file of step 2. Here's an example:
+
+from transformers import TapasTokenizer
+import pandas as pd
+model_name = "google/tapas-base"
+tokenizer = TapasTokenizer.from_pretrained(

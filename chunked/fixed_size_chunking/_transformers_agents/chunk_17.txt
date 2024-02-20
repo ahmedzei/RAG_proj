@@ -1,0 +1,6 @@
+eded anyway for passing along 
+inputs/outputs to a small set of functions) so all the most obvious attacks (and you'd need to prompt the LLM 
+to output them anyway) shouldn't be an issue. If you want to be on the super safe side, you can execute the 
+run() method with the additional argument return_code=True, in which case the agent will just return the code 
+to execute and you can decide whether to do it or not.
+The execution will stop at any line trying to perform an illegal operation or if there is a reg

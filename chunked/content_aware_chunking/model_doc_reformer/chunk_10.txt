@@ -1,0 +1,6 @@
+The premise is that the more "similar"
+key query embedding vectors (in terms of cosine similarity) are to each other, the more likely they are assigned to
+the same bucket.
+The accuracy of the LSH mechanism can be improved by increasing config.num_hashes or directly the argument
+num_hashes of the forward function so that the output of the LSH self attention better approximates the output
+of the "normal" full self attention.

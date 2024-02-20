@@ -1,0 +1,5 @@
+That is if you have 2 sockets on the GPU, you want 2 PCI-E 8-Pin cables going from your PSU to the card and not one that has 2 PCI-E 8-Pin connectors at the end! You won't get the full performance out of your card otherwise.
+Each PCI-E 8-Pin power cable needs to be plugged into a 12V rail on the PSU side and can supply up to 150W of power.
+Some other cards may use a PCI-E 12-Pin connectors, and these can deliver up to 500-600W of power.
+Low end cards may use 6-Pin connectors, which supply up to 75W of power.
+Additionally you want the high-end PSU that has stable voltage.

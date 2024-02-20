@@ -1,0 +1,13 @@
+o try out inference with OWL-ViT is to use it in a [pipeline]. Instantiate a pipeline
+for zero-shot object detection from a checkpoint on the Hugging Face Hub:
+thon
+
+from transformers import pipeline
+checkpoint = "google/owlv2-base-patch16-ensemble"
+detector = pipeline(model=checkpoint, task="zero-shot-object-detection")
+
+Next, choose an image you'd like to detect objects in. Here we'll use the image of astronaut Eileen Collins that is
+a part of the NASA Great Images dataset.
+
+import skimage
+import numpy as

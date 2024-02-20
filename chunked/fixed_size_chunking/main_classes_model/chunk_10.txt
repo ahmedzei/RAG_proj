@@ -1,0 +1,15 @@
+ils.ModuleUtilsMixin
+TFPreTrainedModel
+[[autodoc]] TFPreTrainedModel
+    - push_to_hub
+    - all
+TFModelUtilsMixin
+[[autodoc]] modeling_tf_utils.TFModelUtilsMixin
+FlaxPreTrainedModel
+[[autodoc]] FlaxPreTrainedModel
+    - push_to_hub
+    - all
+Pushing to the Hub
+[[autodoc]] utils.PushToHubMixin
+Sharded checkpoints
+[[autodoc]] modeling_utils.load_sharded_checkpoint

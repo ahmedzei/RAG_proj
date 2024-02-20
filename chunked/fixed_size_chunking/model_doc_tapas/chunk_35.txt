@@ -1,0 +1,5 @@
+                                         |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Conversational                     | input_ids, attention_mask, token_type_ids, labels                                                           |
+|  Weak supervision for aggregation  | input_ids, attention_mask, token_type_ids, labels, numeric_values, numeric_values_scale, float_answer |
+| Strong supervision

@@ -1,0 +1,3 @@
+f{QK^T} \) matrices to be \( 40 * 2 * N^2 \) bytes. For \( N=1000 \) only around 50 MB of VRAM are needed, however, for \( N=16000 \) we would need 19 GB of VRAM, and for \( N=100,000 \) we would need almost 1TB just to store the \( \mathbf{QK}^T \) matrices.
+Long story short, the default self-attention algorithm quickly becomes prohibitively memory-expensive for large input contexts.
+As LLMs improve in text comprehension and generation, they are applied to increasingly complex tasks. While models once hand

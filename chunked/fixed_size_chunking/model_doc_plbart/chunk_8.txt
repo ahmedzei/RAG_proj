@@ -1,0 +1,13 @@
+uts_with_special_tokens
+PLBartModel
+[[autodoc]] PLBartModel
+    - forward
+PLBartForConditionalGeneration
+[[autodoc]] PLBartForConditionalGeneration
+    - forward
+PLBartForSequenceClassification
+[[autodoc]] PLBartForSequenceClassification
+    - forward
+PLBartForCausalLM
+[[autodoc]] PLBartForCausalLM
+    - forward

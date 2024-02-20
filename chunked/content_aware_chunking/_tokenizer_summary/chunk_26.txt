@@ -1,0 +1,8 @@
+GPT-2 has a vocabulary
+size of 50,257, which corresponds to the 256 bytes base tokens, a special end-of-text token and the symbols learned
+with 50,000 merges.
+
+WordPiece
+WordPiece is the subword tokenization algorithm used for BERT, DistilBERT, and Electra. The algorithm was outlined in Japanese and Korean
+Voice Search (Schuster et al., 2012) and is very similar to
+BPE.

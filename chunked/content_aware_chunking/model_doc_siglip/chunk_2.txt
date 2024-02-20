@@ -1,0 +1,4 @@
+The disentanglement of the batch size from the loss further allows us to study the impact of examples vs pairs and negative to positive ratio. Finally, we push the batch size to the extreme, up to one million, and find that the benefits of growing batch size quickly diminish, with a more reasonable batch size of 32k being sufficient.
+Usage tips
+
+Usage of SigLIP is similar to CLIP.

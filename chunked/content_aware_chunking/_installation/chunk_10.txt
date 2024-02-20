@@ -1,0 +1,1 @@
+This is the default directory given by the shell environment variable TRANSFORMERS_CACHE. On Windows, the default directory is given by C:\Users\username\.cache\huggingface\hub.

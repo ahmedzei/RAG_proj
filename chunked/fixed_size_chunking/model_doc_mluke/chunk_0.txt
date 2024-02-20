@@ -1,0 +1,8 @@
+
+mLUKE
+Overview
+The mLUKE model was proposed in mLUKE: The Power of Entity Representations in Multilingual Pretrained Language Models by Ryokan Ri, Ikuya Yamada, and Yoshimasa Tsuruoka. It's a multilingual extension
+of the LUKE model trained on the basis of XLM-RoBERTa.
+It is based on XLM-RoBERTa and adds entity embeddings, which helps improve performance on various downstream tasks
+involving reasoning about entities such as named entity recognition, extractive question answering, relation
+classification, c

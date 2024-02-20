@@ -1,0 +1,17 @@
+In this case, you can reduce 
+the per_device_train_batch_size incrementally by factors of 2 and increase gradient_accumulation_steps by 2x to compensate.
+
+trainer.train()
+
+To be able to use your checkpoint with a pipeline, make sure to save the processor with the checkpoint: 
+
+processor.save_pretrained("YOUR_ACCOUNT_NAME/speecht5_finetuned_voxpopuli_nl")
+
+Push the final model to the 🤗 Hub:
+
+trainer.push_to_hub()
+
+Inference
+Inference with a pipeline
+Great, now that you've fine-tuned a model, you can use it for inference!
+First, let's see how you can use it with a corresponding pipeline.

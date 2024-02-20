@@ -1,0 +1,9 @@
+rue
+    elif isinstance(module, nn.Linear):
+        module.weight.data.normal_(mean=0.0, std=self.config.initializer_range)
+        if module.bias is not None:
+            module.bias.data.zero_()
+The _is_hf_initialized flag is internally used to make sure we only initialize a submodule once. By setting it to
+True for module.project_q and module.project_hid, we make sure the custom initialization we did is not overridden later on,
+the _init_weights function won't be applied to them.
+6. Write a conversion sc

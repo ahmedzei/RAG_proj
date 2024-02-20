@@ -1,0 +1,5 @@
+If you come across a certain operation that doesn't have a direct
+   replacement, the odds are that someone else already had the same problem.
+- By default, keep the same variable names and structure as in PyTorch. This will make it easier to debug, track
+   issues, and add fixes down the line.
+- Some layers have different default values in each framework.

@@ -1,0 +1,7 @@
+ization methods such as quantizer_awq.py.
+
+Write the _process_model_after_weight_loading method. This method enables implementing additional features that require manipulating the model after loading the weights.
+
+Document everything! Make sure your quantization method is documented in the docs/source/en/quantization.md file.
+
+Add tests! You should add tests by first adding the package in our nightly Dockerfile inside docker/transformers-all-latest-gpu and then adding a new test file in tests/quantization/x

@@ -1,0 +1,4 @@
+Recent efforts try to reduce the computation 
+complexity of ViT through network architecture search or hybrid design with MobileNet block, yet the inference speed is still 
+unsatisfactory. This leads to an important question: can transformers run as fast as MobileNet while obtaining high performance? 
+To answer this, we first revisit the network architecture and operators used in ViT-based models and identify inefficient designs.

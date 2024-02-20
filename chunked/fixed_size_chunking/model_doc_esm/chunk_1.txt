@@ -1,0 +1,8 @@
+o, Myle Ott, 
+C. Lawrence Zitnick, Jerry Ma, and Rob Fergus.
+The first version of this paper was preprinted in 2019.
+ESM-2 outperforms all tested single-sequence protein language models across a range of structure prediction tasks,
+and enables atomic resolution structure prediction.
+It was released with the paper Language models of protein sequences at the scale of evolution enable accurate
+structure prediction by Zeming Lin, Halil Akin, Roshan Rao, Brian Hie,
+Zhongkai Zhu, Wenting Lu, Allan dos Santos Cost

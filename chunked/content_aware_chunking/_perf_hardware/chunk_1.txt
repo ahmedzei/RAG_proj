@@ -1,0 +1,14 @@
+For a deep dive into GPUs make sure to check out Tim Dettmer's excellent blog post.
+Let's have a look at some practical advice for GPU setups.
+GPU
+When you train bigger models you have essentially three options:
+
+bigger GPUs
+more GPUs
+more CPU and NVMe (offloaded to by DeepSpeed-Infinity)
+
+Let's start at the case where you have a single GPU.
+Power and Cooling
+If you bought an expensive high end GPU make sure you give it the correct power and sufficient cooling.
+Power:
+Some high end consumer GPU cards have 2 and sometimes 3 PCI-E 8-Pin power sockets.

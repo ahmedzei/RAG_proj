@@ -1,0 +1,9 @@
+e for the LLM bigcode/octocoder that we used before.
+The number of float values amounts to two times the sequence length times the number of attention heads times the attention head dimension and times the number of layers.
+Computing this for our LLM at a hypothetical input sequence length of 16000 gives:
+python
+config = model.config
+2 * 16_000 * config.n_layer * config.n_head * config.n_embd // config.n_head
+Output:
+7864320000
+Roughly 8 billion float values! Storing 8 billion float values in float16 precis

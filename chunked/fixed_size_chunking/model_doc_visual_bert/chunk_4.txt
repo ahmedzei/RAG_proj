@@ -1,0 +1,7 @@
+uestion answering, multiple choice,
+visual reasoning and region-to-phrase correspondence tasks. VisualBERT uses a BERT-like transformer to prepare
+embeddings for image-text pairs. Both the text and visual features are then projected to a latent space with identical
+dimension.
+To feed images to the model, each image is passed through a pre-trained object detector and the regions and the
+bounding boxes are extracted. The authors use the features generated after passing these regions through a pre-trained
+CNN 

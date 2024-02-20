@@ -1,0 +1,6 @@
+This prompt is then completed by the 
+task you give your agent and the description of the tools you give it. This way it gets access to the doc of the 
+tools you are using, especially their expected inputs and outputs, and can generate the relevant code.
+Tools
+Tools are very simple: they're a single function, with a name, and a description. We then use these tools' descriptions 
+to prompt the agent.

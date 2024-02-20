@@ -1,0 +1,5 @@
+es, while surpassing the 
+official supervised baseline in 45 directions. We present a detailed analysis of where the model succeeds and fails, 
+showing in particular that it enables cross-lingual in-context learning on some tasks, while there is still room for improvement 
+on surface form robustness and adaptation to tasks that do not have a natural cloze form. Finally, we evaluate our models 
+in social value tasks such as hate speech detection in five languages and find it has limitations similar to compar

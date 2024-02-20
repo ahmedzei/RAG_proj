@@ -1,0 +1,8 @@
+ idle. This operation is called CPU offloading. You can use it with one line of code as follows:
+python
+model.enable_cpu_offload()
+Note that 🤗 Accelerate must be installed before using this feature. Here's how to install it.
+Using Better Transformer
+Better Transformer is an 🤗 Optimum feature that performs kernel fusion under the hood. You can gain 20% to 30% in speed with zero performance degradation. It only requires one line of code to export the model to 🤗 Better Transformer:
+python
+model =  model.to_bet

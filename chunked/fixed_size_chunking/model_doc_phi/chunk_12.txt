@@ -1,0 +1,9 @@
+it in the official documentation of flash-attn repository. Make also sure to load your model in half-precision (e.g. `torch.float16``)
+To load and run a model using Flash Attention 2, refer to the snippet below:
+thon
+
+import torch
+from transformers import PhiForCausalLM, AutoTokenizer
+define the model and tokenizer and push the model and tokens to the GPU.
+model = PhiForCausalLM.from_pretrained("microsoft/phi-1_5", torch_dtype=torch.float16, attn_implementation="flash_attention_2").to("cuda")
+tokenizer = Au

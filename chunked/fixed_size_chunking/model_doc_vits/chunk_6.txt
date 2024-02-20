@@ -1,0 +1,8 @@
+n be used with the same API. Since the flow-based model is non-deterministic, it 
+is good practice to set a seed to ensure reproducibility of the outputs. For languages with a Roman alphabet, 
+such as English or French, the tokenizer can be used directly to pre-process the text inputs. The following code example 
+runs a forward pass using the MMS-TTS English checkpoint:
+thon
+import torch
+from transformers import VitsTokenizer, VitsModel, set_seed
+tokenizer = VitsTokenizer.from_pretrained("facebook/mms-tts-e

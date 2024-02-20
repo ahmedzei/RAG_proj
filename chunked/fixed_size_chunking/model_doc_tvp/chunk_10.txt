@@ -1,0 +1,14 @@
+size, 0)
+    start_idx = delta * clip_idx / num_clips
+    end_idx = start_idx + clip_size - 1
+    timebase = video.duration / num_frames
+    video_start_pts = int(start_idx * timebase)
+    video_end_pts = int(end_idx * timebase)
+    seek_offset = max(video_start_pts - 1024, 0)
+    container.seek(seek_offset, any_frame=False, backward=True, stream=video)
+    frames = {}
+    for frame in container.decode(video=0):
+        if frame.pts < video_start_pts:
+            continue
+        frames[frame.pts] = frame
+ 

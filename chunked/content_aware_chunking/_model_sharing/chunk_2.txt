@@ -1,0 +1,5 @@
+You can also join an existing organization or create a new one.
+
+Repository features
+Each repository on the Model Hub behaves like a typical GitHub repository. Our repositories offer versioning, commit history, and the ability to visualize differences.
+The Model Hub's built-in versioning is based on git and git-lfs. In other words, you can treat one model as one repository, enabling greater access control and scalability.

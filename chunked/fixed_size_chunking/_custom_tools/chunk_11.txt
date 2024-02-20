@@ -1,0 +1,8 @@
+d at 
+recognizing patterns in a prompt and repeating the pattern with new data. Therefore, it is very important
+that the examples are written in a way that maximizes the likelihood of the agent to generating correct,
+executable code in practice. 
+Let's have a look at one example:
+```text
+Task: "Identify the oldest person in thedocument` and create an image showcasing the result as a banner."
+I will use the following tools: document_qa to find the oldest person in the document, then image_generator to genera

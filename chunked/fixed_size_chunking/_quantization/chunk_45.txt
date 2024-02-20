@@ -1,0 +1,5 @@
+k memory for text generation. However, AWQ has the largest forward latency per batch size. For a more detailed discussion about the pros and cons of each quantization method, read the Overview of natively supported quantization schemes in 🤗 Transformers blog post.
+Fused AWQ modules
+The TheBloke/Mistral-7B-OpenOrca-AWQ model was benchmarked with batch_size=1 with and without fused modules.
+Unfused module
+|   Batch Size |   Prefill Length |   Decode Length |   Prefill tokens/s |   Decode tokens/s | Memory (VR

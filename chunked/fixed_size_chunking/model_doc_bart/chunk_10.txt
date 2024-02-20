@@ -1,0 +1,25 @@
+ts are described in this paper.
+BartConfig
+[[autodoc]] BartConfig
+    - all
+BartTokenizer
+[[autodoc]] BartTokenizer
+    - all
+BartTokenizerFast
+[[autodoc]] BartTokenizerFast
+    - all
+
+BartModel
+[[autodoc]] BartModel
+    - forward
+BartForConditionalGeneration
+[[autodoc]] BartForConditionalGeneration
+    - forward
+BartForSequenceClassification
+[[autodoc]] BartForSequenceClassification
+    - forward
+BartForQuestionAnswering
+[[autodoc]] BartForQuestionAnswering
+    - forward
+BartForCausalLM
+[[autodoc]] BartFor

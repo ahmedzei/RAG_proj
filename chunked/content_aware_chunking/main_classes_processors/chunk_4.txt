@@ -1,0 +1,12 @@
+XNLI is crowd-sourced dataset based on MultiNLI: pairs of text are labeled with textual entailment annotations for 15
+different languages (including both high-resource language such as English and low-resource languages such as Swahili).
+It was released together with the paper XNLI: Evaluating Cross-lingual Sentence Representations
+This library hosts the processor to load the XNLI data:
+
+[~data.processors.utils.XnliProcessor]
+
+Please note that since the gold labels are available on the test set, evaluation is performed on the test set.
+An example using these processors is given in the run_xnli.py script.
+SQuAD
+The Stanford Question Answering Dataset (SQuAD) is a benchmark that
+evaluates the performance of models on question answering.

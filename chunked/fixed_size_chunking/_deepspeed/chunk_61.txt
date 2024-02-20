@@ -1,0 +1,7 @@
+tebook
+The deepspeed launcher doesn't support deployment from a notebook so you'll need to emulate the distributed environment. However, this only works for 1 GPU. If you want to use more than 1 GPU, you must use a multi-process environment for DeepSpeed to work. This means you have to use the deepspeed launcher which can't be emulated as shown here.
+
+DeepSpeed requires a distributed environment even when only one process is used.
+This emulates a launcher in the notebook
+import os
+os.environ["MASTER_ADDR"] 

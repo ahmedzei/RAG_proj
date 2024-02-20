@@ -1,0 +1,1 @@
+Remember from the fine-tuning tutorial, the [TrainingArguments] class is where you specify hyperparameters and additional training options. One of these training options includes the ability to push a model directly to the Hub.

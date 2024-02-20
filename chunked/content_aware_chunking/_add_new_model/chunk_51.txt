@@ -1,0 +1,4 @@
+The second command requires to install cookiecutter, you can find more information on it here.
+Open a Pull Request on the main huggingface/transformers repo
+Before starting to adapt the automatically generated code, now is the time to open a “Work in progress (WIP)” pull
+request, e.g.

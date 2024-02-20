@@ -1,0 +1,16 @@
+Config
+ImageGPTFeatureExtractor
+[[autodoc]] ImageGPTFeatureExtractor
+    - call
+ImageGPTImageProcessor
+[[autodoc]] ImageGPTImageProcessor
+    - preprocess
+ImageGPTModel
+[[autodoc]] ImageGPTModel
+    - forward
+ImageGPTForCausalImageModeling
+[[autodoc]] ImageGPTForCausalImageModeling
+    - forward
+ImageGPTForImageClassification
+[[autodoc]] ImageGPTForImageClassification
+    - forward

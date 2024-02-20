@@ -1,0 +1,10 @@
+ forward
+NllbMoeSparseMLP
+[[autodoc]] NllbMoeSparseMLP
+    - forward
+NllbMoeModel
+[[autodoc]] NllbMoeModel
+    - forward
+NllbMoeForConditionalGeneration
+[[autodoc]] NllbMoeForConditionalGeneration
+    - forward

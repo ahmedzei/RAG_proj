@@ -1,0 +1,7 @@
+so uses adaptive softmax
+inputs and outputs (tied).
+The abstract from the paper is the following:
+Transformers have a potential of learning longer-term dependency, but are limited by a fixed-length context in the
+setting of language modeling. We propose a novel neural architecture Transformer-XL that enables learning dependency
+beyond a fixed length without disrupting temporal coherence. It consists of a segment-level recurrence mechanism and a
+novel positional encoding scheme. Our method not only enables c

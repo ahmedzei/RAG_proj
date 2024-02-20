@@ -1,0 +1,8 @@
+Assuming that the training data consists of
+the words \(x_{1}, \dots, x_{N}\) and that the set of all possible tokenizations for a word \(x_{i}\) is
+defined as \(S(x_{i})\), then the overall loss is defined as
+$$\mathcal{L} = -\sum_{i=1}^{N} \log \left ( \sum_{x \in S(x_{i})} p(x) \right )$$
+
+SentencePiece
+All tokenization algorithms described so far have the same problem: It is assumed that the input text uses spaces to
+separate words. However, not all languages use spaces to separate words.

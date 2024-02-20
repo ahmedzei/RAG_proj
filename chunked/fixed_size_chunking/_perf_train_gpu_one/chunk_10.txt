@@ -1,0 +1,7 @@
+fective batch size beyond the limitations imposed by the GPU's memory capacity. 
+However, it is important to note that the additional forward and backward passes introduced by gradient accumulation can 
+slow down the training process.
+You can enable gradient accumulation by adding the gradient_accumulation_steps argument to  [TrainingArguments]: 
+py
+training_args = TrainingArguments(per_device_train_batch_size=1, gradient_accumulation_steps=4, **default_args)
+In the above example, your effective batch size 

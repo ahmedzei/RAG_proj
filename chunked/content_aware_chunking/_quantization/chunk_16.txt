@@ -1,0 +1,1 @@
+These weights are quantized to int4, but they're restored to fp16 on the fly during inference.

@@ -1,0 +1,2 @@
+'t have to worry about manually writing a training loop every time or if you're just getting started with PyTorch and training. You only need to provide the essential components required for training, such as a model and a dataset, and the [Trainer] class handles everything else.
+If you want to specify any training options or hyperparameters, you can find them in the [TrainingArguments] class. For example, let's define where to save the model in output_dir and push the model to the Hub after training with p

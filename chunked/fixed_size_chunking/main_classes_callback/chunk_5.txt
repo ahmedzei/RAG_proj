@@ -1,0 +1,16 @@
+lback
+    - setup
+[[autodoc]] integrations.AzureMLCallback
+[[autodoc]] integrations.CodeCarbonCallback
+[[autodoc]] integrations.NeptuneCallback
+[[autodoc]] integrations.ClearMLCallback
+[[autodoc]] integrations.DagsHubCallback
+[[autodoc]] integrations.FlyteCallback
+[[autodoc]] integrations.DVCLiveCallback
+    - setup
+TrainerCallback
+[[autodoc]] TrainerCallback
+Here is an example of how to register a custom callback with the PyTorch [Trainer]:
+thon
+class MyCallback(TrainerCallback):
+    "A callback that print

@@ -1,0 +1,6 @@
+These methods convert model's raw outputs into meaningful predictions such as bounding boxes,
+or segmentation maps.
+
+Pad
+In some cases, for instance, when fine-tuning DETR, the model applies scale augmentation at training
+time. This may cause images to be different sizes in a batch.

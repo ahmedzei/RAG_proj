@@ -1,0 +1,9 @@
+
+XGLM
+Overview
+The XGLM model was proposed in Few-shot Learning with Multilingual Language Models
+by Xi Victoria Lin, Todor Mihaylov, Mikel Artetxe, Tianlu Wang, Shuohui Chen, Daniel Simig, Myle Ott, Naman Goyal, 
+Shruti Bhosale, Jingfei Du, Ramakanth Pasunuru, Sam Shleifer, Punit Singh Koura, Vishrav Chaudhary, Brian O'Horo, 
+Jeff Wang, Luke Zettlemoyer, Zornitsa Kozareva, Mona Diab, Veselin Stoyanov, Xian Li.
+The abstract from the paper is the following:
+Large-scale autoregressive language models such as 

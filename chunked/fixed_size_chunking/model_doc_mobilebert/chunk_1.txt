@@ -1,0 +1,5 @@
+ameters. However, these models suffer from heavy model sizes and high latency such that they cannot
+be deployed to resource-limited mobile devices. In this paper, we propose MobileBERT for compressing and accelerating
+the popular BERT model. Like the original BERT, MobileBERT is task-agnostic, that is, it can be generically applied to
+various downstream NLP tasks via simple fine-tuning. Basically, MobileBERT is a thin version of BERT_LARGE, while
+equipped with bottleneck structures and a carefully designed 

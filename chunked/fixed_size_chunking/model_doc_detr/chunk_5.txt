@@ -1,0 +1,6 @@
+of DETR, which is 256 by default, using a
+nn.Conv2D layer. So now, we have a tensor of shape (batch_size, 256, height/32, width/32). Next, the
+feature map is flattened and transposed to obtain a tensor of shape (batch_size, seq_len, d_model) =
+(batch_size, width/32*height/32, 256). So a difference with NLP models is that the sequence length is actually
+longer than usual, but with a smaller d_model (which in NLP is typically 768 or higher).
+Next, this is sent through the encoder, outputting encoder_hidden_st

@@ -1,0 +1,14 @@
+optimizer function, learning rate schedule, and some training hyperparameters:
+
+from transformers import create_optimizer
+batch_size = 16
+num_train_epochs = 3
+num_train_steps = (len(tokenized_wnut["train"]) // batch_size) * num_train_epochs
+optimizer, lr_schedule = create_optimizer(
+     init_lr=2e-5,
+     num_train_steps=num_train_steps,
+     weight_decay_rate=0.01,
+     num_warmup_steps=0,
+ )
+
+Then you can load DistilBERT with [TFAutoModelForTokenClassification] along with the number of expected labels, a

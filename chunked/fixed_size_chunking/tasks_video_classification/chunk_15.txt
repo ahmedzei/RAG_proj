@@ -1,0 +1,14 @@
+poralSubsample(num_frames_to_sample),
+                     Lambda(lambda x: x / 255.0),
+                     Normalize(mean, std),
+                     RandomShortSideScale(min_size=256, max_size=320),
+                     RandomCrop(resize_to),
+                     RandomHorizontalFlip(p=0.5),
+                 ]
+             ),
+         ),
+     ]
+ )
+train_dataset = pytorchvideo.data.Ucf101(
+     data_path=os.path.join(dataset_root_path, "train"),
+     clip_sampler=pytorchvideo.data.make_clip_sampler("rando

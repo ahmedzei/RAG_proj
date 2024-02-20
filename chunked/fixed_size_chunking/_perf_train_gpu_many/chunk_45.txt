@@ -1,0 +1,9 @@
+aruna
+- SageMaker
+- OSLO
+🤗 Transformers status: not yet implemented, since we have no PP and TP.
+ZeRO Data Parallelism + Pipeline Parallelism + Tensor Parallelism
+One of the main features of DeepSpeed is ZeRO, which is a super-scalable extension of DP. It has already been 
+discussed in ZeRO Data Parallelism. Normally it's a standalone feature that doesn't require PP or TP. 
+But it can be combined with PP and TP.
+When ZeRO-DP is combined with PP (and optionally TP) it typically enables only ZeRO stage 1 (opt

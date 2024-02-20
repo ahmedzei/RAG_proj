@@ -1,0 +1,6 @@
+improved the performance of many natural
+language processing (NLP) tasks. In this paper we propose a new model architecture DeBERTa (Decoding-enhanced BERT with
+disentangled attention) that improves the BERT and RoBERTa models using two novel techniques. The first is the
+disentangled attention mechanism, where each word is represented using two vectors that encode its content and
+position, respectively, and the attention weights among words are computed using disentangled matrices on their
+contents and rela

@@ -1,0 +1,2 @@
+If you are looking to fine-tune a TTS model, the only text-to-speech models currently available in 🤗 Transformers 
+are SpeechT5 and FastSpeech2Conformer, though more will be added in the future. SpeechT5 is pre-trained on a combination of speech-to-text and text-to-speech data, allowing it to learn a unified space of hidden representations shared by both text and speech. This means that the same pre-trained model can be fine-tuned for different tasks.

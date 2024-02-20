@@ -1,0 +1,3 @@
+However, 
+being a large model means it requires significant computational resources and infrastructure. It is up to you to decide whether 
+this approach suits your use case better than fine-tuning specialized models for each individual task.

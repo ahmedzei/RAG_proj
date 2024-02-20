@@ -1,0 +1,11 @@
+In order to get "guaranteed"
+quality of service for the worker pods,
+set the same CPU and memory amounts for both the resource limits and requests.
+
+Deploy
+After the PyTorchJob spec has been updated with values appropriate for your cluster and training job, it can be deployed
+to the cluster using:
+
+kubectl create -f pytorchjob.yaml
+The kubectl get pods -n kubeflow command can then be used to list the pods in the kubeflow namespace. You should see
+the worker pods for the PyTorchJob that was just deployed.

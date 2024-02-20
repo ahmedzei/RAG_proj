@@ -1,0 +1,17 @@
+You should ensure you use a compatible version of the Encodec model.
+* Sampling mode tends to deliver better results than greedy - you can toggle sampling with the variable do_sample in the call to [MusicgenForConditionalGeneration.generate]
+MusicgenDecoderConfig
+[[autodoc]] MusicgenDecoderConfig
+MusicgenConfig
+[[autodoc]] MusicgenConfig
+MusicgenProcessor
+[[autodoc]] MusicgenProcessor
+MusicgenModel
+[[autodoc]] MusicgenModel
+    - forward
+MusicgenForCausalLM
+[[autodoc]] MusicgenForCausalLM
+    - forward
+MusicgenForConditionalGeneration
+[[autodoc]] MusicgenForConditionalGeneration
+    - forward.

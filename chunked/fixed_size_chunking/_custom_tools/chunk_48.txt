@@ -1,0 +1,8 @@
+most downloads is damo-vilab/text-to-video-ms-1.7b.
+
+and generates the following audio.
+| Audio                                                                                                                                            |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  |
+
+Depending on the LLM, some are quite brittle and require very exact prompts in order to work well. Having a well-def

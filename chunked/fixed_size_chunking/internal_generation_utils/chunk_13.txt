@@ -1,0 +1,16 @@
+LogitsWarper
+    - call
+[[autodoc]] FlaxWhisperTimeStampLogitsProcessor
+    - call
+StoppingCriteria
+A [StoppingCriteria] can be used to change when to stop generation (other than EOS token). Please note that this is exclusively available to our PyTorch implementations.
+[[autodoc]] StoppingCriteria
+    - call
+[[autodoc]] StoppingCriteriaList
+    - call
+[[autodoc]] MaxLengthCriteria
+    - call
+[[autodoc]] MaxTimeCriteria
+    - call
+Constraints
+A [Constraint] can be used to force the generation to include spec

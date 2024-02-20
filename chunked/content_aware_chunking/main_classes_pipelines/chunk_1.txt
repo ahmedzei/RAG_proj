@@ -1,0 +1,9 @@
+See the
+task summary for examples of use.
+There are two categories of pipeline abstractions to be aware about:
+
+The [pipeline] which is the most powerful object encapsulating all other pipelines.
+Task-specific pipelines are available for audio, computer vision, natural language processing, and multimodal tasks.
+
+The pipeline abstraction
+The pipeline abstraction is a wrapper around all the other available pipelines.

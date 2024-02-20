@@ -1,0 +1,2 @@
+This significantly reduces quantization loss such that you can run models in 4-bit precision without experiencing any performance degradation.
+There are several libraries for quantizing models with the AWQ algorithm, such as llm-awq, autoawq or optimum-intel. Transformers supports loading models quantized with the llm-awq and autoawq libraries.

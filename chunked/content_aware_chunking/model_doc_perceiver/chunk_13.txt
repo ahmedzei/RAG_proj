@@ -1,0 +1,12 @@
+The original code can be found
+here.
+
+Perceiver does not work with torch.nn.DataParallel due to a bug in PyTorch, see issue #36035
+
+Resources
+
+The quickest way to get started with the Perceiver is by checking the tutorial
+  notebooks.
+Refer to the blog post if you want to fully understand how the model works and
+is implemented in the library. Note that the models available in the library only showcase some examples of what you can do
+with the Perceiver.

@@ -1,0 +1,20 @@
+   per_device_eval_batch_size=16,
+     weight_decay=0.01,
+     save_total_limit=3,
+     num_train_epochs=2,
+     predict_with_generate=True,
+     fp16=True,
+     push_to_hub=True,
+ )
+trainer = Seq2SeqTrainer(
+     model=model,
+     args=training_args,
+     train_dataset=tokenized_books["train"],
+     eval_dataset=tokenized_books["test"],
+     tokenizer=tokenizer,
+     data_collator=data_collator,
+     compute_metrics=compute_metrics,
+ )
+trainer.train()
+
+Once training is completed, share your model to the Hu

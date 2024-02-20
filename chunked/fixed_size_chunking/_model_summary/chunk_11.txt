@@ -1,0 +1,2 @@
+ is computationally expensive. One way to reduce computational costs is using a smaller model like DistilBERT. DistilBERT uses knowledge distillation - a compression technique - to create a smaller version of BERT while keeping nearly all of its language understanding capabilities. 
+However, most Transformer models continued to trend towards more parameters, leading to new models focused on improving training efficiency. ALBERT reduces memory consumption by lowering the number of parameters in two ways: sep

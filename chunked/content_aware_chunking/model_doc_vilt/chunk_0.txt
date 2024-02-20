@@ -1,0 +1,4 @@
+ViLT
+Overview
+The ViLT model was proposed in ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision
+by Wonjae Kim, Bokyung Son, Ildoo Kim.

@@ -1,0 +1,13 @@
+ "entity": pred["entity"],
+         "score": round(pred["score"], 4),
+         "index": pred["index"],
+         "word": pred["word"],
+         "start": pred["start"],
+         "end": pred["end"],
+     }
+     for pred in preds
+ ]
+print(*preds, sep="\n")
+{'entity': 'I-ORG', 'score': 0.9968, 'index': 1, 'word': 'Hu', 'start': 0, 'end': 2}
+{'entity': 'I-ORG', 'score': 0.9293, 'index': 2, 'word': '##gging', 'start': 2, 'end': 7}
+{'entity': 'I-ORG', 'score': 0.9763, 'index': 3, 'word': 'Face', 'start': 8, 'end': 

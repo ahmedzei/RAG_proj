@@ -1,0 +1,10 @@
+ing loop and adds additional functionality for features like distributed training, mixed precision, and more.
+Depending on your task, you'll typically pass the following parameters to [Trainer]:
+
+You'll start with a [PreTrainedModel] or a torch.nn.Module:
+
+from transformers import AutoModelForSequenceClassification
+model = AutoModelForSequenceClassification.from_pretrained("distilbert/distilbert-base-uncased")
+   
+
+[TrainingArguments] contains the model hyperparameters you can change like learning rate, bat

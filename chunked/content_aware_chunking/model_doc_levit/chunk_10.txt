@@ -1,0 +1,30 @@
+Note that one should use [LevitImageProcessor] in order to
+  prepare images for the model.
+[LevitForImageClassificationWithTeacher] currently supports only inference and not training or fine-tuning.
+You can check out demo notebooks regarding inference as well as fine-tuning on custom data here
+  (you can just replace [ViTFeatureExtractor] by [LevitImageProcessor] and [ViTForImageClassification] by [LevitForImageClassification] or [LevitForImageClassificationWithTeacher]).
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with LeViT.
+
+[LevitForImageClassification] is supported by this example script and notebook.
+See also: Image classification task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+LevitConfig
+[[autodoc]] LevitConfig
+LevitFeatureExtractor
+[[autodoc]] LevitFeatureExtractor
+    - call
+LevitImageProcessor
+[[autodoc]] LevitImageProcessor
+    - preprocess
+LevitModel
+[[autodoc]] LevitModel
+    - forward
+LevitForImageClassification
+[[autodoc]] LevitForImageClassification
+    - forward
+LevitForImageClassificationWithTeacher
+[[autodoc]] LevitForImageClassificationWithTeacher
+    - forward.

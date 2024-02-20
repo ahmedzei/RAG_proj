@@ -1,0 +1,13 @@
+.0403,  0.0428,  0.1339,  0.0047,  0.1967,  0.2923,
+          0.0333, -0.0536],
+        [-0.1492, -0.1616,  0.1057,  0.1950, -0.2807, -0.2710, -0.1586,  0.0739,
+          0.2220,  0.2358]]).
+In the conversion script, you should fill those randomly initialized weights with the exact weights of the
+corresponding layer in the checkpoint. E.g.
+thon
+retrieve matching layer weights, e.g. by
+recursive algorithm
+layer_name = "dense"
+pretrained_weight = array_of_dense_layer
+model_pointer = getattr(model, "dense")
+mo

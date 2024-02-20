@@ -1,0 +1,8 @@
+attention work will aid you in understanding how different Transformer models work. If you're just getting started or need a refresher, check out our course for more information! 
+
+Speech and audio
+Wav2Vec2 is a self-supervised model pretrained on unlabeled speech data and finetuned on labeled data for audio classification and automatic speech recognition. 
+
+This model has four main components:
+
+A feature encoder takes the raw audio waveform, normalizes it to zero mean and unit variance, and converts it int

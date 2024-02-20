@@ -1,0 +1,9 @@
+ting truncation="only_second".
+Next, map the start and end positions of the answer to the original context by setting
+   return_offset_mapping=True.
+With the mapping in hand, now you can find the start and end tokens of the answer. Use the [~tokenizers.Encoding.sequence_ids] method to
+   find which part of the offset corresponds to the question and which corresponds to the context.
+
+Here is how you can create a function to truncate and map the start and end tokens of the answer to the context:
+
+def preproce

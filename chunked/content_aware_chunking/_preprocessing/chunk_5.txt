@@ -1,0 +1,3 @@
+[SEP]'
+
+As you can see, the tokenizer added two special tokens - CLS and SEP (classifier and separator) - to the sentence.

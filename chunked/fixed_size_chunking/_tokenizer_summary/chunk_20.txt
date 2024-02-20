@@ -1,0 +1,6 @@
+s all possible base characters can be quite large if e.g. all unicode characters are
+considered as base characters. To have a better base vocabulary, GPT-2 uses bytes
+as the base vocabulary, which is a clever trick to force the base vocabulary to be of size 256 while ensuring that
+every base character is included in the vocabulary. With some additional rules to deal with punctuation, the GPT2's
+tokenizer can tokenize every text without the need for the  symbol. GPT-2 has a vocabulary
+size of 50,257, which c

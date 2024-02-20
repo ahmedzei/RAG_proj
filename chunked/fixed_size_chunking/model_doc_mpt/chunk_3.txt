@@ -1,0 +1,9 @@
+nceClassification
+[[autodoc]] MptForSequenceClassification
+    - forward
+MptForTokenClassification
+[[autodoc]] MptForTokenClassification
+    - forward
+MptForQuestionAnswering
+[[autodoc]] MptForQuestionAnswering
+    - forward

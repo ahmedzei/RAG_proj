@@ -1,0 +1,5 @@
+However, 
+determining the total amount of audio for each speaker requires scanning through the entire dataset, which is a 
+time-consuming process that involves loading and decoding each audio file. As such, we have chosen to skip this step here.
+Speaker embeddings
+To enable the TTS model to differentiate between multiple speakers, you'll need to create a speaker embedding for each example.

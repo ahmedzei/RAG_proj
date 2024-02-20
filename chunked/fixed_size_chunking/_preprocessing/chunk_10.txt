@@ -1,0 +1,10 @@
+, 0, 0, 0],
+                    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                    [1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]]}
+
+The first and third sentences are now padded with 0's because they are shorter.
+Truncation
+On the other end of the spectrum, sometimes a sequence may be too long for a model to handle. In this case, you'll need to truncate the sequence to a shorter length.
+Set the truncation parameter to True to truncate a sequence to the maximum length accepted by the model:
+
+b

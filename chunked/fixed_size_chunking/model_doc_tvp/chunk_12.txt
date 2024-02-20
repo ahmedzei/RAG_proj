@@ -1,0 +1,10 @@
+-1, perform random temporal sampling.
+            If clip_idx is larger than -1, uniformly split the video to num_clips
+            clips, and select the clip_idx-th video clip.
+        num_clips (int): overall number of clips to uniformly sample from the given video.
+        target_fps (int): the input video may have different fps, convert it to
+            the target video fps before frame sampling.
+    Returns:
+        frames (tensor): decoded frames from the video.
+    '''
+    assert clip_idx >= -2, "No

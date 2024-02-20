@@ -1,0 +1,28 @@
+🌎
+🚀 Deploy
+- Fine-tune LLaMA 2 (7-70B) on Amazon SageMaker, a complete guide from setup to QLoRA fine-tuning and deployment on Amazon SageMaker.
+- Deploy Llama 2 7B/13B/70B on Amazon SageMaker, a guide on using Hugging Face's LLM DLC container for secure and scalable deployment.
+LlamaConfig
+[[autodoc]] LlamaConfig
+LlamaTokenizer
+[[autodoc]] LlamaTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+LlamaTokenizerFast
+[[autodoc]] LlamaTokenizerFast
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - update_post_processor
+    - save_vocabulary
+LlamaModel
+[[autodoc]] LlamaModel
+    - forward
+LlamaForCausalLM
+[[autodoc]] LlamaForCausalLM
+    - forward
+LlamaForSequenceClassification
+[[autodoc]] LlamaForSequenceClassification
+    - forward.

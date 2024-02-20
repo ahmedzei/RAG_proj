@@ -1,0 +1,3 @@
+It takes an input named image which should be the image to the caption and returns a text that contains the description in English.
+[]
+Task: "Answer the question in the variable question about the image stored in the variable image.

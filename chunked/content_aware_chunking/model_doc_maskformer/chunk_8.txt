@@ -1,0 +1,1 @@
+Both tasks can be solved using [MaskFormerForInstanceSegmentation] output, panoptic segmentation accepts an optional label_ids_to_fuse argument to fuse instances of the target object/s (e.g.

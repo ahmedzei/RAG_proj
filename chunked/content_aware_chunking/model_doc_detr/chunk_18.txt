@@ -1,0 +1,6 @@
+DETR solves this by padding images up to the
+  largest size in a batch, and by creating a pixel mask that indicates which pixels are real/which are padding.
+  Alternatively, one can also define a custom collate_fn in order to batch images together, using
+  [~transformers.DetrImageProcessor.pad_and_create_pixel_mask].
+The size of the images will determine the amount of memory being used, and will thus determine the batch_size.
+  It is advised to use a batch size of 2 per GPU.

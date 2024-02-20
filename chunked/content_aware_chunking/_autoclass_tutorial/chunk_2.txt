@@ -1,0 +1,13 @@
+Model is a general term that can mean either architecture or checkpoint.
+
+In this tutorial, learn to:
+
+Load a pretrained tokenizer.
+Load a pretrained image processor
+Load a pretrained feature extractor.
+Load a pretrained processor.
+Load a pretrained model.
+Load a model as a backbone.
+
+AutoTokenizer
+Nearly every NLP task begins with a tokenizer.

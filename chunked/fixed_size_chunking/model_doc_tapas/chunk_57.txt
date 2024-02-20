@@ -1,0 +1,8 @@
+s.tokenization_tapas.convert_logits_to_predictions`] method to convert these into predicted coordinates and optional aggregation indices.
+
+However, note that inference is different depending on whether or not the setup is conversational. In a non-conversational set-up, inference can be done in parallel on all table-question pairs of a batch. Here's an example of that:
+
+from transformers import TapasTokenizer, TFTapasForQuestionAnswering
+import pandas as pd
+model_name = "google/tapas-base-finetuned-wtq"
+mode

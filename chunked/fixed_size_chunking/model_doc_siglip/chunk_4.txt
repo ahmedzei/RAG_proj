@@ -1,0 +1,14 @@
+ere.
+Usage example
+There are 2 main ways to use SigLIP: either using the pipeline API, which abstracts away all the complexity for you, or by using the SiglipModel class yourself.
+Pipeline API
+The pipeline allows to use the model in a few lines of code:
+thon
+
+from transformers import pipeline
+from PIL import Image
+import requests
+load pipe
+image_classifier = pipeline(task="zero-shot-image-classification", model="google/siglip-base-patch16-224")
+load image
+url = 'http://images.cocodataset.org/val2017/0000000

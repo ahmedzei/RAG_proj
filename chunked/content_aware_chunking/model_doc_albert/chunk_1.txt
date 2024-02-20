@@ -1,0 +1,9 @@
+It presents two parameter-reduction techniques to lower memory consumption and increase the training
+speed of BERT:
+
+Splitting the embedding matrix into two smaller matrices.
+Using repeating layers split among groups.
+
+The abstract from the paper is the following:
+Increasing model size when pretraining natural language representations often results in improved performance on
+downstream tasks.

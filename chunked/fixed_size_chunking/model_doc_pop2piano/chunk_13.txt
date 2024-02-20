@@ -1,0 +1,12 @@
+ractor
+    - call
+Pop2PianoForConditionalGeneration
+[[autodoc]] Pop2PianoForConditionalGeneration
+    - forward
+    - generate
+Pop2PianoTokenizer
+[[autodoc]] Pop2PianoTokenizer
+    - call
+Pop2PianoProcessor
+[[autodoc]] Pop2PianoProcessor
+    - call

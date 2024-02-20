@@ -1,0 +1,4 @@
+EfficientNet
+Overview
+The EfficientNet model was proposed in EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks 
+by Mingxing Tan and Quoc V. Le.

@@ -1,0 +1,3 @@
+onsumption of the key-value cache. For the LLM used in this notebook we could therefore reduce the required memory consumption from 15 GB to less than 400 MB at an input sequence length of 16000.
+In addition to memory savings, MQA also leads to improved computational efficiency as explained in the following.
+In auto-regressive decoding, large key-value vectors need to be reloaded, concatenated with the current key-value vector pair to be then fed into the \( \mathbf{q}_c\mathbf{K}^T \) computation at every 

@@ -1,0 +1,6 @@
+! The bad news is
+   that you'll have to venture into the source implementation of said instruction. In some cases, you might find an
+   issue with a reference implementation - don't abstain from opening an issue in the upstream repository.
+In some cases, in discussion with the 🤗 Transformers team, we might find that fixing the mismatch is infeasible.
+When the mismatch is very small in the output layers of the model (but potentially large in the hidden states), we
+might decide to ignore it in favor of distr

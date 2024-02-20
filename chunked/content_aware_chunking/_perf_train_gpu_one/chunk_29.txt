@@ -1,0 +1,4 @@
+More optimizers can be plugged in via a third-party implementation.
+Let's take a closer look at two alternatives to AdamW optimizer:
+1. adafactor which is available in [Trainer]
+2.

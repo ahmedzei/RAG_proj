@@ -1,0 +1,14 @@
+ertForMaskedLM
+    - forward
+IBertForSequenceClassification
+[[autodoc]] IBertForSequenceClassification
+    - forward
+IBertForMultipleChoice
+[[autodoc]] IBertForMultipleChoice
+    - forward
+IBertForTokenClassification
+[[autodoc]] IBertForTokenClassification
+    - forward
+IBertForQuestionAnswering
+[[autodoc]] IBertForQuestionAnswering
+    - forward

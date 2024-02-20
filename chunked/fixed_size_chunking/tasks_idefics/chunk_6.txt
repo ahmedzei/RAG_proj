@@ -1,0 +1,14 @@
+d the model and the 
+processor in 4bit precision, pass a BitsAndBytesConfig to the from_pretrained method and the model will be compressed 
+on the fly while loading.
+
+import torch
+from transformers import IdeficsForVisionText2Text, AutoProcessor, BitsAndBytesConfig
+quantization_config = BitsAndBytesConfig(
+     load_in_4bit=True,
+     bnb_4bit_compute_dtype=torch.float16,
+ )
+processor = AutoProcessor.from_pretrained(checkpoint)
+model = IdeficsForVisionText2Text.from_pretrained(
+     checkpoint,
+     quantiz

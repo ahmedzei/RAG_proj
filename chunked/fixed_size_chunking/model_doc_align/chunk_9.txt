@@ -1,0 +1,10 @@
+[autodoc]] AlignModel
+    - forward
+    - get_text_features
+    - get_image_features
+AlignTextModel
+[[autodoc]] AlignTextModel
+    - forward
+AlignVisionModel
+[[autodoc]] AlignVisionModel
+    - forward

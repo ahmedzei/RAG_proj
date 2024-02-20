@@ -1,0 +1,8 @@
+d also create and use your own dataset if you prefer to train with the run_semantic_segmentation.py script instead of a notebook instance. The script requires:
+
+a [~datasets.DatasetDict] with two [~datasets.Image] columns, "image" and "label"
+
+ from datasets import Dataset, DatasetDict, Image
+image_paths_train = ["path/to/image_1.jpg/jpg", "path/to/image_2.jpg/jpg", , "path/to/image_n.jpg/jpg"]
+ label_paths_train = ["path/to/annotation_1.png", "path/to/annotation_2.png", , "path/to/annotation_n.png"]
+image_

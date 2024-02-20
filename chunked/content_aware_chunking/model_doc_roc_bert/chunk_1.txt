@@ -1,0 +1,5 @@
+However, they have been shown
+vulnerable to adversarial attacks especially for logographic languages like Chinese. In this work, we propose
+ROCBERT: a pretrained Chinese Bert that is robust to various forms of adversarial attacks like word perturbation,
+synonyms, typos, etc. It is pretrained with the contrastive learning objective which maximizes the label consistency
+under different synthesized adversarial examples.

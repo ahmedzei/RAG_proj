@@ -1,0 +1,13 @@
+pending the desired output
+  language to the src_text.
+You can see a models's supported language codes in its model card, under target constituents, like in opus-mt-en-roa.
+Note that if a model is only multilingual on the source side, like Helsinki-NLP/opus-mt-roa-en, no language
+  codes are required.
+
+New multi-lingual models from the Tatoeba-Challenge repo
+require 3 character language codes:
+thon
+
+from transformers import MarianMTModel, MarianTokenizer
+src_text = [
+     ">>fra<< this is a sentence in engl

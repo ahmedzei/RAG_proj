@@ -1,0 +1,8 @@
+Note that the only
+information the agent has about the tool is its name and description, so one should make sure that both 
+are precisely written and match the style of the existing tools in the toolbox. In particular make sure the description
+mentions all the arguments expected by name in code-style, along with the expected type and a description of what they
+are.
+
+Check the naming and description of the curated Transformers tools to better understand what name and 
+description a tool is expected to have.

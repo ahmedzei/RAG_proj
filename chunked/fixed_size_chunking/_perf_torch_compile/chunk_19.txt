@@ -1,0 +1,10 @@
+4 |
+| Image Segmentation/Mask2former | 756.337 | 695.291 |
+| Image Segmentation/Maskformer | 2842.940 | 2656.88 | 
+| Image Segmentation/MobileNet | 299.003 | 201.942 |
+| Object Detection/Resnet-101 |  1619.505 | 1262.758 | 
+| Object Detection/Conditional-DETR | 1137.513 | 897.390|
+PyTorch Nightly
+We also benchmarked on PyTorch nightly (2.1.0dev, find the wheel here) and observed improvement in latency both for uncompiled and compiled models. 
+A100
+| Task/Model | Batch Size | torch 2.0 - no compile | torch 2

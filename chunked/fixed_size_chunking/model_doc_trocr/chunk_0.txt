@@ -1,0 +1,9 @@
+
+TrOCR
+Overview
+The TrOCR model was proposed in TrOCR: Transformer-based Optical Character Recognition with Pre-trained
+Models by Minghao Li, Tengchao Lv, Lei Cui, Yijuan Lu, Dinei Florencio, Cha Zhang,
+Zhoujun Li, Furu Wei. TrOCR consists of an image Transformer encoder and an autoregressive text Transformer decoder to
+perform optical character recognition (OCR).
+The abstract from the paper is the following:
+Text recognition is a long-standing research problem for document digitalization. Existing approach

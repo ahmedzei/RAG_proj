@@ -1,0 +1,9 @@
+
+ImageGPT
+Overview
+The ImageGPT model was proposed in Generative Pretraining from Pixels by Mark
+Chen, Alec Radford, Rewon Child, Jeffrey Wu, Heewoo Jun, David Luan, Ilya Sutskever. ImageGPT (iGPT) is a GPT-2-like
+model trained to predict the next pixel value, allowing for both unconditional and conditional image generation.
+The abstract from the paper is the following:
+Inspired by progress in unsupervised representation learning for natural language, we examine whether similar models
+can learn useful repre

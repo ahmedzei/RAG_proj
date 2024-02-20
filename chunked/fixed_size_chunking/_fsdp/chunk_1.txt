@@ -1,0 +1,9 @@
+uted environments, which means it is available for use from the [Trainer] class.
+Before you start, make sure Accelerate is installed and at least PyTorch 2.1.0 or newer.
+
+pip install accelerate
+FSDP configuration
+To start, run the accelerate config command to create a configuration file for your training environment. Accelerate uses this configuration file to automatically setup the correct training environment based on your selected training options in accelerate config.
+
+accelerate config
+When you run acc

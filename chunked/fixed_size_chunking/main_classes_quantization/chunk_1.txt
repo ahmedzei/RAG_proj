@@ -1,0 +1,14 @@
+] class.
+
+Learn how to quantize models in the Quantization guide.
+
+AqlmConfig
+[[autodoc]] AqlmConfig
+AwqConfig
+[[autodoc]] AwqConfig
+GPTQConfig
+[[autodoc]] GPTQConfig
+BitsAndBytesConfig
+[[autodoc]] BitsAndBytesConfig
+HfQuantizer
+[[autodoc]] quantizers.base.HfQuantizer

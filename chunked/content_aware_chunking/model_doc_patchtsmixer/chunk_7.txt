@@ -1,0 +1,14 @@
+The model is compatible with the Trainer API.
+thon
+from transformers import PatchTSMixerConfig, PatchTSMixerForPrediction
+from transformers import Trainer, TrainingArguments,
+config = PatchTSMixerConfig(context_length = 512, prediction_length = 96)
+model = PatchTSMixerForPrediction(config)
+trainer = Trainer(model=model, args=training_args, 
+            train_dataset=train_dataset,
+            eval_dataset=valid_dataset)
+trainer.train()
+results = trainer.evaluate(test_dataset)
+
+Usage tips
+The model can also be used for time series classification and time series regression.

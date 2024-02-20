@@ -1,0 +1,12 @@
+vNextV2ForImageClassification] is supported by this example script and notebook.
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+ConvNextV2Config
+[[autodoc]] ConvNextV2Config
+ConvNextV2Model
+[[autodoc]] ConvNextV2Model
+    - forward
+ConvNextV2ForImageClassification
+[[autodoc]] ConvNextV2ForImageClassification
+    - forward
+TFConvN

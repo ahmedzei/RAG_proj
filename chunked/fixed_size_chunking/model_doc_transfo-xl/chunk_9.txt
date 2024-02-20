@@ -1,0 +1,20 @@
+deling_tf_transfo_xl.TFTransfoXLModelOutput
+[[autodoc]] models.deprecated.transfo_xl.modeling_tf_transfo_xl.TFTransfoXLLMHeadModelOutput
+
+TransfoXLModel
+[[autodoc]] TransfoXLModel
+    - forward
+TransfoXLLMHeadModel
+[[autodoc]] TransfoXLLMHeadModel
+    - forward
+TransfoXLForSequenceClassification
+[[autodoc]] TransfoXLForSequenceClassification
+    - forward
+
+TFTransfoXLModel
+[[autodoc]] TFTransfoXLModel
+    - call
+TFTransfoXLLMHeadModel
+[[autodoc]] TFTransfoXLLMHeadModel
+    - call
+TFTransfoXLForSequenceClass

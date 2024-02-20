@@ -1,0 +1,3 @@
+regressive decoding twice:
+  1. The first time, the key-value cache is empty and the input prompt is "User: How many people live in France?" and the model auto-regressively generates the text "Roughly 75 million people live in France" while increasing the key-value cache at every decoding step.
+  2. The second time the input prompt is "User: How many people live in France? \n Assistant: Roughly 75 million people live in France \n User: And how many in Germany?". Thanks to the cache, all key-value vectors fo

@@ -1,0 +1,4 @@
+In other words, it is an multi-modal version of LLMs fine-tuned for chat / instructions.
+The LLaVa model was proposed in Visual Instruction Tuning and improved in Improved Baselines with Visual Instruction Tuning by Haotian Liu, Chunyuan Li, Yuheng Li and Yong Jae Lee.
+The abstract from the paper is the following:
+Large multimodal models (LMM) have recently shown encouraging progress with visual instruction tuning.

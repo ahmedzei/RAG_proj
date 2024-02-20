@@ -1,0 +1,5 @@
+Calling the audio column automatically loads and resamples the audio file:
+
+dataset[0]["audio"]
+{'array': array([ 0.        ,  0.00024414, -0.00024414, , -0.00024414,
+         0.        ,  0.

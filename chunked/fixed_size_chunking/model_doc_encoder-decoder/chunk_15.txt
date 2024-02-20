@@ -1,0 +1,7 @@
+er_pretrained
+
+FlaxEncoderDecoderModel
+[[autodoc]] FlaxEncoderDecoderModel
+    - call
+    - from_encoder_decoder_pretrained
+

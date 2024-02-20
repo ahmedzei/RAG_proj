@@ -1,0 +1,14 @@
+"input_ids"]})
+    return inputs
+train_ds.set_transform(transforms)
+test_ds.set_transform(transforms)
+
+With the dataset ready, you can now set up the model for fine-tuning. 
+Load a base model
+Load the "microsoft/git-base" into a AutoModelForCausalLM object.
+thon
+from transformers import AutoModelForCausalLM
+model = AutoModelForCausalLM.from_pretrained(checkpoint)
+
+Evaluate
+Image captioning models are typically evaluated with the Rouge Score or Word Error Rate. For this guide, you will use the Word Error Rat

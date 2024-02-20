@@ -1,0 +1,8 @@
+in its forward pass to keep the level of abstraction low. Every new model requires a
+configuration class, called BrandNewBertConfig. This configuration is always stored as an attribute in
+[PreTrainedModel], and thus can be accessed via the config attribute for all classes
+inheriting from BrandNewBertPreTrainedModel:
+python
+model = BrandNewBertModel.from_pretrained("brandy/brand_new_bert")
+model.config  # model has access to its config
+Similar to the model, the configuration inherits basic serialization and 

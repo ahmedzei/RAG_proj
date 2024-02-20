@@ -1,0 +1,15 @@
+However, you can still customize the device map with the device_map parameter if you want to (device_map="auto" should only be used for inference).
+4-bit
+
+Try 4-bit quantization in this notebook and learn more about it's details in this blog post.
+
+This section explores some of the specific features of 4-bit models, such as changing the compute data type, using the Normal Float 4 (NF4) data type, and using nested quantization.
+Compute data type
+To speedup computation, you can change the data type from float32 (the default value) to bf16 using the bnb_4bit_compute_dtype parameter in [BitsAndBytesConfig]:
+
+import torch
+from transformers import BitsAndBytesConfig
+quantization_config = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16)
+
+Normal Float 4 (NF4)
+NF4 is a 4-bit data type from the QLoRA paper, adapted for weights initialized from a normal distribution.

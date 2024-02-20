@@ -1,0 +1,14 @@
+mer.
+
+[SegformerForImageClassification] is supported by this example script and notebook.
+Image classification task guide
+
+Semantic segmentation:
+
+[SegformerForSemanticSegmentation] is supported by this example script.
+A blog on fine-tuning SegFormer on a custom dataset can be found here.
+More demo notebooks on SegFormer (both inference + fine-tuning on a custom dataset) can be found here.
+[TFSegformerForSemanticSegmentation] is supported by this example notebook.
+Semantic segmentation task guide
+
+If you're

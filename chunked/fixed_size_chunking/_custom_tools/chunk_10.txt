@@ -1,0 +1,8 @@
+e arguments expected by name in code-style, along with the expected type and a description of what they
+are.
+
+Check the naming and description of the curated Transformers tools to better understand what name and 
+description a tool is expected to have. You can see all tools with the [Agent.toolbox] property.
+
+The third part includes a set of curated examples that show the agent exactly what code it should produce
+for what kind of user request. The large language models empowering the agent are extremely goo

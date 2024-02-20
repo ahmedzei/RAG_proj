@@ -1,0 +1,6 @@
+However, we can also view RL as a generic sequence
+modeling problem, with the goal being to produce a sequence of actions that leads to a sequence of high rewards.
+Viewed in this way, it is tempting to consider whether high-capacity sequence prediction models that work well
+in other domains, such as natural-language processing, can also provide effective solutions to the RL problem.
+To this end, we explore how RL can be tackled with the tools of sequence modeling, using a Transformer architecture
+to model distributions over trajectories and repurposing beam search as a planning algorithm.

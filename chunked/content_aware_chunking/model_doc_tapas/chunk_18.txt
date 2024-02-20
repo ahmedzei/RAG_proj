@@ -1,0 +1,1 @@
+You can also experiment by defining any hyperparameters you want when initializing [TapasConfig], and then create a [TapasForQuestionAnswering] based on that configuration. For example, if you have a dataset that has both conversational questions and questions that might involve aggregation, then you can do it this way.

@@ -1,0 +1,10 @@
+get (French) separately because you can't tokenize French text with a tokenizer pretrained on an English vocabulary.
+Truncate sequences to be no longer than the maximum length set by the max_length parameter.
+
+source_lang = "en"
+target_lang = "fr"
+prefix = "translate English to French: "
+def preprocess_function(examples):
+     inputs = [prefix + example[source_lang] for example in examples["translation"]]
+     targets = [example[target_lang] for example in examples["translation"]]
+     model_inputs = tokeni

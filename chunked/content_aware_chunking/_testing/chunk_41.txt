@@ -1,0 +1,4 @@
+Therefore, using packages like tempfile, which address these needs is essential.
+However, when debugging tests, you need to be able to see what goes into the temporary file or directory and you want
+to know it's exact path and not having it randomized on every test re-run.
+A helper class transformers.test_utils.TestCasePlus is best used for such purposes.

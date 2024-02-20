@@ -1,0 +1,7 @@
+This makes GPT-2 especially good at tasks that involve generating text.
+Ready to try your hand at text generation? Check out our complete causal language modeling guide to learn how to finetune DistilGPT-2 and use it for inference!
+
+For more information about text generation, check out the text generation strategies guide!
+
+Summarization
+Encoder-decoder models like BART and T5 are designed for the sequence-to-sequence pattern of a summarization task.

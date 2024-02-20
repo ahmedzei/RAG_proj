@@ -1,0 +1,9 @@
+ you'll need a processor to prepare your dataset for the model. A processor couples together two processing objects such as as tokenizer and feature extractor.
+Load the LJ Speech dataset (see the 🤗 Datasets tutorial for more details on how to load a dataset) to see how you can use a processor for automatic speech recognition (ASR):
+
+from datasets import load_dataset
+lj_speech = load_dataset("lj_speech", split="train")
+
+For ASR, you're mainly focused on audio and text so you can remove the other columns:
+
+lj

@@ -1,0 +1,19 @@
+ save_vocabulary
+MarkupLMTokenizerFast
+[[autodoc]] MarkupLMTokenizerFast
+    - all
+MarkupLMProcessor
+[[autodoc]] MarkupLMProcessor
+    - call
+MarkupLMModel
+[[autodoc]] MarkupLMModel
+    - forward
+MarkupLMForSequenceClassification
+[[autodoc]] MarkupLMForSequenceClassification
+    - forward
+MarkupLMForTokenClassification
+[[autodoc]] MarkupLMForTokenClassification
+    - forward
+MarkupLMForQuestionAnswering
+[[autodoc]] MarkupLMForQuestionAnswering
+    - forward

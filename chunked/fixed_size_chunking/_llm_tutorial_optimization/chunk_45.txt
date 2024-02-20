@@ -1,0 +1,9 @@
+h is largely due to the longer input sequence. Also the generation takes a little over a minute now.
+We call flush() to free GPU memory for our next experiment.
+python
+flush()
+For comparison, let's run the same function, but enable Flash Attention instead.
+To do so, we convert the model to BetterTransformer and by doing so enabling PyTorch's SDPA self-attention which in turn is able to use Flash Attention.
+python
+model.to_bettertransformer()
+Now we run the exact same code snippet as before and under the hoo

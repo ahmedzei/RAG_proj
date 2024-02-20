@@ -1,0 +1,2 @@
+This is fine as long as your dataset is not conversational. In case your dataset involves conversational questions (such as in SQA), then you should first group together the queries, answer_coordinates and answer_text per table (in the order of their position
+index) and batch encode each table with its questions. This will make sure that the prev_labels token types (see docs of [TapasTokenizer]) are set correctly. See this notebook for more info.

@@ -1,0 +1,14 @@
+e answer
+             for id in word_ids[::-1]:
+                 if id == word_idx_end:
+                     end_position = token_end_index
+                 else:
+                     token_end_index -= 1
+             start_positions.append(start_position)
+             end_positions.append(end_position)
+         else:
+             start_positions.append(cls_index)
+             end_positions.append(cls_index)
+     encoding["image"] = examples["image"]
+     encoding["start_positions"] = start_positions
+     e

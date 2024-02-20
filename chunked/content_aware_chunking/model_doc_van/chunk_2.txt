@@ -1,0 +1,3 @@
+This is done by combining normal and large kernel convolution layers. The latter uses a dilated convolution to capture distant correlations.
+The abstract from the paper is the following:
+While originally designed for natural language processing tasks, the self-attention mechanism has recently taken various computer vision areas by storm. However, the 2D nature of images brings three challenges for applying self-attention in computer vision. (1) Treating images as 1D sequences neglects their 2D structures.

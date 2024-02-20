@@ -1,0 +1,12 @@
+ Image.open(requests.get(url, stream=True).raw)
+image
+
+Pass the image and the candidate object labels to the pipeline. Here we pass the image directly; other suitable options
+include a local path to an image or an image url.
+The candidate labels can be simple words like in this example, or more descriptive.
+
+predictions = detector(image, candidate_labels=["fox", "bear", "seagull", "owl"])
+predictions
+[{'score': 0.9996670484542847, 'label': 'owl'},
+ {'score': 0.000199399160919711, 'label': 'seagull'},
+ {'sco

@@ -1,0 +1,8 @@
+nnx]
+Use transformers.onnx package as a Python module to export a checkpoint using a ready-made configuration:
+
+python -m transformers.onnx --model=distilbert/distilbert-base-uncased onnx/
+This exports an ONNX graph of the checkpoint defined by the --model argument. Pass any checkpoint on the 🤗 Hub or one that's stored locally.
+The resulting model.onnx file can then be run on one of the many accelerators that support the ONNX standard. For example, 
+load and run the model with ONNX Runtime as follows:
+thon

@@ -1,0 +1,38 @@
+The following example shows how to get the image-text similarity scores using
+[AltCLIPProcessor] and [AltCLIPModel].
+thon
+
+from PIL import Image
+import requests
+from transformers import AltCLIPModel, AltCLIPProcessor
+model = AltCLIPModel.from_pretrained("BAAI/AltCLIP")
+processor = AltCLIPProcessor.from_pretrained("BAAI/AltCLIP")
+url = "http://images.cocodataset.org/val2017/000000039769.jpg"
+image = Image.open(requests.get(url, stream=True).raw)
+inputs = processor(text=["a photo of a cat", "a photo of a dog"], images=image, return_tensors="pt", padding=True)
+outputs = model(**inputs)
+logits_per_image = outputs.logits_per_image  # this is the image-text similarity score
+probs = logits_per_image.softmax(dim=1)  # we can take the softmax to get the label probabilities
+
+This model is based on CLIPModel, use it like you would use the original CLIP.
+
+AltCLIPConfig
+[[autodoc]] AltCLIPConfig
+    - from_text_vision_configs
+AltCLIPTextConfig
+[[autodoc]] AltCLIPTextConfig
+AltCLIPVisionConfig
+[[autodoc]] AltCLIPVisionConfig
+AltCLIPProcessor
+[[autodoc]] AltCLIPProcessor
+AltCLIPModel
+[[autodoc]] AltCLIPModel
+    - forward
+    - get_text_features
+    - get_image_features
+AltCLIPTextModel
+[[autodoc]] AltCLIPTextModel
+    - forward
+AltCLIPVisionModel
+[[autodoc]] AltCLIPVisionModel
+    - forward.

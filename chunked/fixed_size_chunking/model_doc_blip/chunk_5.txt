@@ -1,0 +1,12 @@
+
+    - call
+TFBlipForConditionalGeneration
+[[autodoc]] TFBlipForConditionalGeneration
+    - call
+TFBlipForImageTextRetrieval
+[[autodoc]] TFBlipForImageTextRetrieval
+    - call
+TFBlipForQuestionAnswering
+[[autodoc]] TFBlipForQuestionAnswering
+    - call
+

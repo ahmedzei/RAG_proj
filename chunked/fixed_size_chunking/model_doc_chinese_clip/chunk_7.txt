@@ -1,0 +1,17 @@
+odoc]] ChineseCLIPImageProcessor
+    - preprocess
+ChineseCLIPFeatureExtractor
+[[autodoc]] ChineseCLIPFeatureExtractor
+ChineseCLIPProcessor
+[[autodoc]] ChineseCLIPProcessor
+ChineseCLIPModel
+[[autodoc]] ChineseCLIPModel
+    - forward
+    - get_text_features
+    - get_image_features
+ChineseCLIPTextModel
+[[autodoc]] ChineseCLIPTextModel
+    - forward
+ChineseCLIPVisionModel
+[[autodoc]] ChineseCLIPVisionModel
+    - forward

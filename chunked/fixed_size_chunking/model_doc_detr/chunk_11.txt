@@ -1,0 +1,6 @@
+ (see parameter
+  num_queries of [~transformers.DetrConfig]). Note that it's good to have some slack (in COCO, the
+  authors used 100, while the maximum number of objects in a COCO image is ~70).
+The decoder of DETR updates the query embeddings in parallel. This is different from language models like GPT-2,
+  which use autoregressive decoding instead of parallel. Hence, no causal attention mask is used.
+DETR adds position embeddings to the hidden states at each self-attention and cross-attention layer befor

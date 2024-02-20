@@ -1,0 +1,12 @@
+623 | 14.816 |
+| Object Detection/Resnet-101 | 134.672 | 101.304 |
+| Object Detection/Conditional-DETR | 97.464 | 69.739 |
+V100 (batch size: 16)
+| Task/Model | torch 2.0 - no compile | torch 2.0 - compile |
+|:---:|:---:|:---:|
+| Image Classification/ViT | 52.209 | 51.633 | 
+| Image Segmentation/Segformer | 61.013 | 55.499 |
+| Image Classification/BeiT | 53.938 | 53.581  |
+| Object Detection/DETR | OOM | OOM |
+| Image Classification/ConvNeXT | 109.682 | 100.771 | 
+| Image Classification/ResNet | 14.857 | 12.

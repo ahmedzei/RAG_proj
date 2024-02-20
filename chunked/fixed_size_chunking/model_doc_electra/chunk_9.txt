@@ -1,0 +1,23 @@
+ation
+[[autodoc]] ElectraForSequenceClassification
+    - forward
+ElectraForMultipleChoice
+[[autodoc]] ElectraForMultipleChoice
+    - forward
+ElectraForTokenClassification
+[[autodoc]] ElectraForTokenClassification
+    - forward
+ElectraForQuestionAnswering
+[[autodoc]] ElectraForQuestionAnswering
+    - forward
+
+TFElectraModel
+[[autodoc]] TFElectraModel
+    - call
+TFElectraForPreTraining
+[[autodoc]] TFElectraForPreTraining
+    - call
+TFElectraForMaskedLM
+[[autodoc]] TFElectraForMaskedLM
+    - call
+TFElectraForS

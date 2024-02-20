@@ -1,0 +1,7 @@
+stion"].split()) < 512)
+
+At this point let's also remove the OCR features from this dataset. These are a result of OCR for fine-tuning a different
+model. They would still require some processing if we wanted to use them, as they do not match the input requirements
+of the model we use in this guide. Instead, we can use the [LayoutLMv2Processor] on the original data for both OCR and
+tokenization. This way we'll get the inputs that match model's expected input. If you want to process images manually,
+check out

@@ -1,0 +1,7 @@
+y computer vision model of your choice, call torch.compile() on the model as shown below:
+
+from transformers import AutoModelForImageClassification
+model = AutoModelForImageClassification.from_pretrained(MODEL_ID).to("cuda")
++ model = torch.compile(model)
+
+compile() comes with multiple modes for compiling, which essentially differ in compilation time and inference overhead. max-autotune takes longer than reduce-overhead but results in faster inference. Default mode is fastest for compilation but is not as e

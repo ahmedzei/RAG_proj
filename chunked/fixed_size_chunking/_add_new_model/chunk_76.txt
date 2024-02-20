@@ -1,0 +1,6 @@
+t the outputs of the first transformation of
+the input_ids (usually the word embeddings) are identical. And then work your way up to the very last layer of the
+network. At some point, you will notice a difference between the two implementations, which should point you to the bug
+in the 🤗 Transformers implementation. From our experience, a simple and efficient way is to add many print statements
+in both the original implementation and 🤗 Transformers implementation, at the same positions in the network
+respec

@@ -1,0 +1,10 @@
+with get_context("fork").Pool(processes=2) as pool:
+     result = dataset.map(
+         map_to_pred, batched=True, batch_size=2, fn_kwargs={"pool": pool}, remove_columns=["speech"]
+     )
+result["transcription"][:2]
+['MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL', "NOR IS MISTER COULTER'S MANNER LESS INTERESTING THAN HIS MATTER"]
+
+Wav2Vec2 specific outputs
+[[autodoc]] models.wav2vec2_with_lm.processing_wav2vec2_with_lm.Wav2Vec2DecoderWithLMOutput
+[[autodoc]] mode

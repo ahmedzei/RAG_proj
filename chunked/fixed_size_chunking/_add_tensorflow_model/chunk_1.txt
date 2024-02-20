@@ -1,0 +1,6 @@
+ble TensorFlow for your model of choice, this guide is for you.
+This guide empowers you, a member of our community, to contribute TensorFlow model weights and/or
+architectures to be used in 🤗 Transformers, with minimal supervision from the Hugging Face team. Writing a new model
+is no small feat, but hopefully this guide will make it less of a rollercoaster 🎢 and more of a walk in the park 🚶.
+Harnessing our collective experiences is absolutely critical to make this process increasingly easier, and thus we
+hi

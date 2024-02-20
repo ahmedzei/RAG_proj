@@ -1,0 +1,7 @@
+In few-shot scenarios, our approach outperforms previous best methods by +32.1% and +23.1% when the labeled data is extremely limited.
+Tips:
+
+Usage of X-CLIP is identical to CLIP.
+
+ 
+ X-CLIP architecture. Taken from the original paper.

@@ -1,0 +1,24 @@
+For example, the BERT model
+builds its two sequence input as such:
+thon
+
+[CLS] SEQUENCE_A [SEP] SEQUENCE_B [SEP]
+
+We can use our tokenizer to automatically generate such a sentence by passing the two sequences to tokenizer as two
+arguments (and not a list, like before) like this:
+thon
+
+from transformers import BertTokenizer
+tokenizer = BertTokenizer.from_pretrained("google-bert/bert-base-cased")
+sequence_a = "HuggingFace is based in NYC"
+sequence_b = "Where is HuggingFace based?"
+encoded_dict = tokenizer(sequence_a, sequence_b)
+decoded = tokenizer.decode(encoded_dict["input_ids"])
+
+which will return:
+thon
+
+print(decoded)
+[CLS] HuggingFace is based in NYC [SEP] Where is HuggingFace based? [SEP]
+
+This is enough for some models to understand where one sequence ends and where another begins.

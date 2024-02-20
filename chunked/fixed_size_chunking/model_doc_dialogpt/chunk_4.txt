@@ -1,0 +1,3 @@
+re information please confer to the original paper.
+
+DialoGPT's architecture is based on the GPT2 model, refer to GPT2's documentation page for API reference and examples.

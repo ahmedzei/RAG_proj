@@ -1,0 +1,9 @@
+Of course, the problem could be elsewhere, so many workers won't necessarily lead to better performance.
+
+When using [Trainer], the corresponding [TrainingArguments] are: dataloader_pin_memory (True by default), and dataloader_num_workers (defaults to 0).
+DeepSpeed ZeRO
+DeepSpeed is an open-source deep learning optimization library that is integrated with 🤗 Transformers and 🤗 Accelerate.
+It provides a wide range of features and optimizations designed to improve the efficiency and scalability of large-scale 
+deep learning training.
+If your model fits onto a single GPU and you have enough space to fit a small batch size, you don't need to use DeepSpeed
+as it'll only slow things down.

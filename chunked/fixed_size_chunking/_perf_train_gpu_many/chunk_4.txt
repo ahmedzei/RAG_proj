@@ -1,0 +1,14 @@
+ model fits onto a single GPU
+If your model can comfortably fit onto a single GPU, you have two primary options:
+
+DDP - Distributed DataParallel
+ZeRO - depending on the situation and configuration used, this method may or may not be faster, however, it's worth experimenting with it.
+
+Case 2: Your model doesn't fit onto a single GPU:
+If your model is too large for a single GPU, you have several alternatives to consider:
+
+PipelineParallel (PP)
+ZeRO
+TensorParallel (TP)
+
+With very fast inter-node connectivity (

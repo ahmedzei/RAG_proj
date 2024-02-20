@@ -1,0 +1,8 @@
+nse
+prediction. After training on an extended version of the
+PhraseCut dataset, our system generates a binary segmentation map for an image based on a free-text prompt or on
+an additional image expressing the query. We analyze different variants of the latter image-based prompts in detail.
+This novel hybrid input allows for dynamic adaptation not
+only to the three segmentation tasks mentioned above, but
+to any binary segmentation task where a text or image query
+can be formulated. Finally, we find our syste

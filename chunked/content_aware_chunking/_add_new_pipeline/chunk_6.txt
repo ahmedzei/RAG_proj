@@ -1,0 +1,13 @@
+That
+allows to keep the default arguments in the function definition which is always more "natural".
+A classic example would be a top_k argument in the post processing in classification tasks.
+thon
+
+pipe = pipeline("my-new-task")
+pipe("This is a test")
+[{"label": "1-star", "score": 0.8}, {"label": "2-star", "score": 0.1}, {"label": "3-star", "score": 0.05}
+{"label": "4-star", "score": 0.025}, {"label": "5-star", "score": 0.025}]
+pipe("This is a test", top_k=2)
+[{"label": "1-star", "score": 0.8}, {"label": "2-star", "score": 0.1}]
+
+In order to achieve that, we'll update our postprocess method with a default parameter to 5.

@@ -1,0 +1,2 @@
+AQLM represents groups of 8-16 weights as a sum of multiple vector codes.
+Inference support for AQLM is realised in the aqlm library.

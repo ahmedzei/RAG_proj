@@ -1,0 +1,14 @@
+c]] ProphetNetTokenizer
+ProphetNet specific outputs
+[[autodoc]] models.prophetnet.modeling_prophetnet.ProphetNetSeq2SeqLMOutput
+[[autodoc]] models.prophetnet.modeling_prophetnet.ProphetNetSeq2SeqModelOutput
+[[autodoc]] models.prophetnet.modeling_prophetnet.ProphetNetDecoderModelOutput
+[[autodoc]] models.prophetnet.modeling_prophetnet.ProphetNetDecoderLMOutput
+ProphetNetModel
+[[autodoc]] ProphetNetModel
+    - forward
+ProphetNetEncoder
+[[autodoc]] ProphetNetEncoder
+    - forward
+ProphetNetDecoder
+[[autodoc]] 

@@ -1,0 +1,11 @@
+nce fails, you can reproduce it by adding that exact seed, e.g.:
+
+pytest --random-order-seed=573663
+[]
+Using --random-order-bucket=module
+Using --random-order-seed=573663
+It will only reproduce the exact order if you use the exact same list of tests (or no list at all). Once you start to
+manually narrowing down the list you can no longer rely on the seed, but have to list them manually in the exact order
+they failed and tell pytest to not randomize them instead using --random-order-bucket=none, e.g.:
+
+pytes

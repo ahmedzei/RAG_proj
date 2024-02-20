@@ -1,0 +1,3 @@
+This is enabled by setting fsdp_offload_params: true when running accelerate config.
+Wrapping policy
+FSDP is applied by wrapping each layer in the network. The wrapping is usually applied in a nested way where the full weights are discarded after each forward pass to save memory for use in the next layer. The auto wrapping policy is the simplest way to implement this and you don't need to change any code.

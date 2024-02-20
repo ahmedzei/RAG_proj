@@ -1,0 +1,3 @@
+On multiple datasets, schedules, and architectures, we consistently show bipartite matching is unnecessary for performant detection transformers. Furthermore, we attribute the success of detection transformers to their expressive transformer architecture.
+
+ DETA overview. Taken from the original paper.

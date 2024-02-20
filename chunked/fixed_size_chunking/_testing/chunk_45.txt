@@ -1,0 +1,10 @@
+behavior by directly overriding the before and after args, leading to one of the
+  following behaviors:
+
+before=True: the temporary dir will always be cleared at the beginning of the test.
+
+before=False: if the temporary dir already existed, any existing files will remain there.
+after=True: the temporary dir will always be deleted at the end of the test.
+after=False: the temporary dir will always be left intact at the end of the test.
+
+In order to run the equivalent of rm -r safely, only subdirs of the proj

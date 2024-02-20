@@ -1,0 +1,7 @@
+rained model tutorial for more details, and learn how to fine-tune models with 🤗 Transformers.
+H
+head
+The model head refers to the last layer of a neural network that accepts the raw hidden states and projects them onto a different dimension. There is a different model head for each task. For example:
+
+[GPT2ForSequenceClassification] is a sequence classification head - a linear layer - on top of the base [GPT2Model].
+[ViTForImageClassification] is an image classification head - a linear layer on top of the 

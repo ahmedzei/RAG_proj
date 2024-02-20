@@ -1,0 +1,7 @@
+Former frames each of those tasks as a mask classification problem. Mask classification groups pixels into N segments, and predicts N masks and their corresponding class label for a given image. We'll explain how Mask2Former works in this section, and then you can try finetuning SegFormer at the end.
+
+There are three main components to Mask2Former:
+
+A Swin backbone accepts an image and creates a low-resolution image feature map from 3 consecutive 3x3 convolutions.
+
+The feature map is passed to a pixel decod

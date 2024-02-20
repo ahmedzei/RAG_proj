@@ -1,0 +1,8 @@
+ to the more aggressive quantization method used for 4-bit quantization leading to \( \text{quantize} \) and \( \text{dequantize} \) taking longer during inference.
+python
+del model
+del pipe
+python
+flush()
+Overall, we saw that running OctoCoder in 8-bit precision reduced the required GPU VRAM from 32G GPU VRAM to only 15GB and running the model in 4-bit precision further reduces the required GPU VRAM to just a bit over 9GB.
+4-bit quantization allows the model to be run on GPUs such as RTX3090, V100, and T4 

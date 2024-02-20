@@ -1,0 +1,5 @@
+(Optional) Build demos and share with the world
+One of the hardest parts about open-source is discovery. How can the other users learn about the existence of your
+fabulous TensorFlow contribution? With proper communication, of course! 📣
+There are two main ways to share your model with the community:
+- Build demos. These include Gradio demos, notebooks, and other fun ways to show off your model.

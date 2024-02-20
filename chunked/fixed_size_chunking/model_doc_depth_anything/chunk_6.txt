@@ -1,0 +1,17 @@
+:
+     outputs = model(**inputs)
+     predicted_depth = outputs.predicted_depth
+interpolate to original size
+prediction = torch.nn.functional.interpolate(
+     predicted_depth.unsqueeze(1),
+     size=image.size[::-1],
+     mode="bicubic",
+     align_corners=False,
+ )
+visualize the prediction
+output = prediction.squeeze().cpu().numpy()
+formatted = (output * 255 / np.max(output)).astype("uint8")
+depth = Image.fromarray(formatted)
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resour

@@ -1,0 +1,19 @@
+rts only ITC.
+Current implementation doesn't support num_random_blocks = 0.
+BigBirdPegasus uses the PegasusTokenizer.
+BigBird is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather than
+  the left.
+
+Resources
+
+Text classification task guide
+Question answering task guide
+Causal language modeling task guide
+Translation task guide
+Summarization task guide
+
+BigBirdPegasusConfig
+[[autodoc]] BigBirdPegasusConfig
+    - all
+BigBirdPegasusModel
+[[autodoc]] BigBirdP

@@ -1,0 +1,6 @@
+ramework if you skip this step, it will be slower because 🤗 Transformers will need to convert the checkpoint on-the-fly.
+Converting a checkpoint for another framework is easy. Make sure you have PyTorch and TensorFlow installed (see here for installation instructions), and then find the specific model for your task in the other framework. 
+
+Specify from_tf=True to convert a checkpoint from TensorFlow to PyTorch:
+
+pt_model = DistilBertForSequenceClassification.from_pretrained("path/to/awesome-name-you-picked

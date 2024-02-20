@@ -1,0 +1,8 @@
+How can I help you today?"},
+   {"role": "user", "content": "I'd like to show off how chat templating works!"},
+ ]
+tokenizer.apply_chat_template(chat, tokenize=False)
+"[INST] Hello, how are you? [/INST]I'm doing great. How can I help you today? [INST] I'd like to show off how chat templating works! [/INST]"
+
+Note that this time, the tokenizer has added the control tokens [INST] and [/INST] to indicate the start and end of 
+user messages (but not assistant messages!).

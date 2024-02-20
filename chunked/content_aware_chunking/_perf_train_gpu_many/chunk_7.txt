@@ -1,0 +1,21 @@
+That is TP size <= GPUs per node.
+Case 3: Largest layer of your model does not fit onto a single GPU
+
+If you are not using ZeRO, you have to use TensorParallel (TP), because PipelineParallel (PP) alone won't be sufficient to accommodate the large layer.
+If you are using ZeRO, additionally adopt techniques from the Methods and tools for efficient training on a single GPU.
+
+Parallelization strategy for a multi-Node / multi-GPU setup
+
+When you have fast inter-node connectivity (e.g., NVLINK or NVSwitch) consider using one of these options:
+
+ZeRO - as it requires close to no modifications to the model
+A combination of PipelineParallel(PP) with TensorParallel(TP) and DataParallel(DP) - this approach will result in fewer communications, but requires significant changes to the model
+
+When you have slow inter-node connectivity and still low on GPU memory:
+
+Employ a combination of DataParallel(DP) with PipelineParallel(PP), TensorParallel(TP), and ZeRO.
+
+In the following sections of this guide we dig deeper into how these different parallelism methods work.
+Data Parallelism
+Even with only 2 GPUs, you can readily leverage the accelerated training capabilities offered by PyTorch's built-in features, 
+such as DataParallel (DP) and DistributedDataParallel (DDP).

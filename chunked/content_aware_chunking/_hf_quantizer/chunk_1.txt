@@ -1,0 +1,4 @@
+The [HfQuantizer] is designed as an internal helper class for adding a quantization method instead of something you apply to every PyTorch module.
+This guide will show you how to integrate a new quantization method with the [HfQuantizer] class.
+Requirements
+Before integrating a new quantization method into Transformers, ensure the method you are trying to add meets the following prerequisites.

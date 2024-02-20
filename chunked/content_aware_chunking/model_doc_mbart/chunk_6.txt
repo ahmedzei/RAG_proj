@@ -1,0 +1,6 @@
+It demonstrates that pretrained models
+can be extended to incorporate additional languages without loss of performance. Multilingual finetuning improves on
+average 1 BLEU over the strongest baselines (being either multilingual from scratch or bilingual finetuning) while
+improving 9.3 BLEU on average over bilingual baselines from scratch.
+Training of MBart-50
+The text format for MBart-50 is slightly different from mBART.

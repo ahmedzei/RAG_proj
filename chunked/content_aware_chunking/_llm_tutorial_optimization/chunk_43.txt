@@ -1,0 +1,1 @@
+encoding a unique embedding for each position id: \( 0, \ldots, N \) . As shown by Huang et al. and Su et al., absolute positional embeddings lead to poor LLM performance for long text inputs.

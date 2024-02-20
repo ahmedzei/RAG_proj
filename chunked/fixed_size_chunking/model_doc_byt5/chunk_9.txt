@@ -1,0 +1,7 @@
+input_ids[:8] + [258] + input_ids[14:21] + [257] + input_ids[28:]])
+input_ids
+tensor([[ 87, 107, 104,  35, 103, 114, 106,  35, 258,  35, 100,  35, 101, 100, 111, 111, 257,  35, 115, 100, 117, 110,  49,   1]])
+ByT5 produces only one char at a time so we need to produce many more output characters here -> set max_length=100.
+output_ids = model.generate(input_ids, max_length=100)[0].tolist()
+output_ids
+[0, 258, 108, 118,  35, 119, 107, 104,  35, 114, 113, 104,  35, 122, 107, 114,  35, 103, 114, 104, 118, 257, 

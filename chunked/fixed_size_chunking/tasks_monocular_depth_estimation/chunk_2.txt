@@ -1,0 +1,11 @@
+th, is a tensor with the values
+being the depth expressed in meters for each pixel.
+The second one, depth, is a PIL image that visualizes the depth estimation result.
+Let's take a look at the visualized result:
+
+predictions["depth"]
+
+Depth estimation inference by hand
+Now that you've seen how to use the depth estimation pipeline, let's see how we can replicate the same result by hand.
+Start by loading the model and associated processor from a checkpoint on the Hugging Face Hub.
+Here we'll use the same check

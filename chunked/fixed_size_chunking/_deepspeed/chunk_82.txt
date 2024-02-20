@@ -1,0 +1,9 @@
+u have an 80GB GPU -
+you will need 2-4 gpus. And then you can adapt the script to handle more gpus if you want to
+process multiple inputs at once.
+
+The provided deepspeed config also activates CPU memory offloading, so chances are that if you
+have a lot of available CPU memory and you don't mind a slowdown you should be able to load a
+model that doesn't normally fit into a single GPU. If you have enough GPU memory the program will
+run faster if you don't want offload to CPU - so disable that section then.
+

@@ -1,0 +1,9 @@
+ = billsum.map(preprocess_function, batched=True)
+
+Now create a batch of examples using [DataCollatorForSeq2Seq]. It's more efficient to dynamically pad the sentences to the longest length in a batch during collation, instead of padding the whole dataset to the maximum length.
+
+from transformers import DataCollatorForSeq2Seq
+data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer, model=checkpoint)
+
+from transformers import DataCollatorForSeq2Seq
+data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer

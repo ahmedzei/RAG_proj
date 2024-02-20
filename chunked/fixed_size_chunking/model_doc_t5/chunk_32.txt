@@ -1,0 +1,27 @@
+n
+    - forward
+T5EncoderModel
+[[autodoc]] T5EncoderModel
+    - forward
+T5ForSequenceClassification
+[[autodoc]] T5ForSequenceClassification
+    - forward
+T5ForTokenClassification
+[[autodoc]] T5ForTokenClassification
+    - forward
+T5ForQuestionAnswering
+[[autodoc]] T5ForQuestionAnswering
+    - forward
+
+TFT5Model
+[[autodoc]] TFT5Model
+    - call
+TFT5ForConditionalGeneration
+[[autodoc]] TFT5ForConditionalGeneration
+    - call
+TFT5EncoderModel
+[[autodoc]] TFT5EncoderModel
+    - call
+
+FlaxT5Model
+[[autodoc]] Fla

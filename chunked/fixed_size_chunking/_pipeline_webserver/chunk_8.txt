@@ -1,0 +1,9 @@
+t can go wrong in production: out of memory, out of space,
+loading the model might fail, the query might be wrong, the query might be
+correct but still fail to run because of a model misconfiguration, and so on.
+Generally, it's good if the server outputs the errors to the user, so
+adding a lot of try..except statements to show those errors is a good
+idea. But keep in mind it may also be a security risk to reveal all those errors depending 
+on your security context.
+Circuit breaking
+Webservers usually look b

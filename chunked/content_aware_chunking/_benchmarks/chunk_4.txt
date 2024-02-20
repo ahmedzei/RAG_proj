@@ -1,0 +1,15 @@
+In the following example, it is shown how a BERT model of type bert-base-cased can be benchmarked.
+
+from transformers import PyTorchBenchmark, PyTorchBenchmarkArguments
+args = PyTorchBenchmarkArguments(models=["google-bert/bert-base-uncased"], batch_sizes=[8], sequence_lengths=[8, 32, 128, 512])
+benchmark = PyTorchBenchmark(args)
+</pt>
+<tf>py
+from transformers import TensorFlowBenchmark, TensorFlowBenchmarkArguments
+args = TensorFlowBenchmarkArguments(
+     models=["google-bert/bert-base-uncased"], batch_sizes=[8], sequence_lengths=[8, 32, 128, 512]
+ )
+benchmark = TensorFlowBenchmark(args)
+
+Here, three arguments are given to the benchmark argument data classes, namely models, batch_sizes, and
+sequence_lengths.

@@ -1,0 +1,2 @@
+You should select fsdp_auto_wrap_policy: TRANSFORMER_BASED_WRAP to wrap a Transformer layer and fsdp_transformer_layer_cls_to_wrap to specify which layer to wrap (for example BertLayer).
+Otherwise, you can choose a size-based wrapping policy where FSDP is applied to a layer if it exceeds a certain number of parameters.

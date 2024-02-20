@@ -1,0 +1,7 @@
+n pass an instance of the callback class
+trainer.add_callback(MyCallback())
+
+TrainerState
+[[autodoc]] TrainerState
+TrainerControl
+[[autodoc]] TrainerControl

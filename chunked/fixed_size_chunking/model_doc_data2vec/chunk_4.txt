@@ -1,0 +1,9 @@
+tical to [Wav2Vec2Model], including feature extraction
+For Data2VecText, preprocessing is identical to [RobertaModel], including tokenization.
+For Data2VecVision, preprocessing is identical to [BeitModel], including feature extraction.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with Data2Vec.
+
+[Data2VecVisionForImageClassification] is supported by this example script and notebook.
+To fine-tune [TFData2VecVisionForImageClassification] on a cust

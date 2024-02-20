@@ -1,0 +1,8 @@
+ns, bringing the total number of muffins to 14.
+5. Your partner eats 2 muffins, leaving you with 12 muffins.
+Therefore, you now have 12 muffins.
+Prompting vs fine-tuning
+You can achieve great results by optimizing your prompts, however, you may still ponder whether fine-tuning a model 
+would work better for your case. Here are some scenarios when fine-tuning a smaller model may be a preferred option:
+
+Your domain is wildly different from what LLMs were pre-trained on and extensive prompt optimization did no

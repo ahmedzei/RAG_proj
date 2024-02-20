@@ -1,0 +1,5 @@
+doesn't have a data collator for multiple choice, so you'll need to adapt the [DataCollatorWithPadding] to create a batch of examples. It's more efficient to dynamically pad the sentences to the longest length in a batch during collation, instead of padding the whole dataset to the maximum length.
+DataCollatorForMultipleChoice flattens all the model inputs, applies padding, and then unflattens the results:
+
+from dataclasses import dataclass
+from transformers.tokenization_utils_base import PreTrainedTokenize

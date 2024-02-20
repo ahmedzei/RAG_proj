@@ -1,0 +1,17 @@
+_inputs
+    - post_process_semantic_segmentation
+    - post_process_instance_segmentation
+    - post_process_panoptic_segmentation
+MaskFormerFeatureExtractor
+[[autodoc]] MaskFormerFeatureExtractor
+    - call
+    - encode_inputs
+    - post_process_semantic_segmentation
+    - post_process_instance_segmentation
+    - post_process_panoptic_segmentation
+MaskFormerModel
+[[autodoc]] MaskFormerModel
+    - forward
+MaskFormerForInstanceSegmentation
+[[autodoc]] MaskFormerForInstanceSegmentation
+    - forward

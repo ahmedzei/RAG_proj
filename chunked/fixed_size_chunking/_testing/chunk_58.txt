@@ -1,0 +1,6 @@
+19-en-de. You can easily adjust it to your specific
+model's architecture.
+It's easy to measure the run-time incorrectly if for example there is an overheard of downloading a huge model, but if
+you test it locally the downloaded files would be cached and thus the download time not measured. Hence check the
+execution speed report in CI logs instead (the output of pytest --durations=0 tests).
+That report is also useful to find slow outliers that aren't marked as such, or which need to be re-written to be fast.

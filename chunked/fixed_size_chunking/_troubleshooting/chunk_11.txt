@@ -1,0 +1,13 @@
+sk=attention_mask)
+print(output.logits)
+tensor([[ 0.0082, -0.2307],
+        [-0.1008, -0.4061]], grad_fn=)
+
+🤗 Transformers doesn't automatically create an attention_mask to mask a padding token if it is provided because:
+
+Some models don't have a padding token.
+For some use-cases, users want a model to attend to a padding token.
+
+ValueError: Unrecognized configuration class XYZ for this kind of AutoModel
+Generally, we recommend using the [AutoModel] class to load pretrained instances of models. This class
+c

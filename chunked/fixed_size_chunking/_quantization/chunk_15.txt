@@ -1,0 +1,7 @@
+"hidden_size": The dimension of the hidden representations.
+
+AutoGPTQ
+
+Try GPTQ quantization with PEFT in this notebook and learn more about it's details in this blog post!
+
+The AutoGPTQ library implements the GPTQ algorithm, a post-training quantization technique where each row of the weight matrix is quantized independently to find a version of the weights that minimizes the error. These weights are quantized to int4, but they're restored to fp16 on the fly during inference. This can save your memory-usag

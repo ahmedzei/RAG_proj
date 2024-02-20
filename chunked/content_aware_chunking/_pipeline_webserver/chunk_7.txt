@@ -1,0 +1,5 @@
+But keep in mind it may also be a security risk to reveal all those errors depending 
+on your security context.
+Circuit breaking
+Webservers usually look better when they do circuit breaking. It means they 
+return proper errors when they're overloaded instead of just waiting for the query indefinitely.

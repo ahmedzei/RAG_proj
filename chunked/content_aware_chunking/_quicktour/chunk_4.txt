@@ -1,0 +1,14 @@
+Now you can use the classifier on your target text:
+
+classifier("We are very happy to show you the 🤗 Transformers library.")
+[{'label': 'POSITIVE', 'score': 0.9998}]
+
+If you have more than one input, pass your inputs as a list to the [pipeline] to return a list of dictionaries:
+
+results = classifier(["We are very happy to show you the 🤗 Transformers library.", "We hope you don't hate it."])
+for result in results:
+     print(f"label: {result['label']}, with score: {round(result['score'], 4)}")
+label: POSITIVE, with score: 0.9998
+label: NEGATIVE, with score: 0.5309
+
+The [pipeline] can also iterate over an entire dataset for any task you like.

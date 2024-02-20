@@ -1,0 +1,7 @@
+s(masked_outputs, masked_labels)
+mean_loss = torch.mean(loss)
+This code is totally fine in NumPy or PyTorch, but it breaks in XLA! Why? Because the shape of masked_outputs and masked_labels depends on how many positions are masked - that makes it a data-dependent shape. However, just like for rule #1, we can often rewrite this code to yield exactly the same output without any data-dependent shapes.
+python
+label_mask = tf.cast(labels >= 0, tf.float32)
+loss = compute_loss(outputs, labels)
+loss = loss * label_

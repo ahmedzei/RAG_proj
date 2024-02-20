@@ -1,0 +1,23 @@
+This model was contributed by nielsr.
+The original code can be found here.
+Usage tips
+InstructBLIP uses the same architecture as BLIP-2 with a tiny but important difference: it also feeds the text prompt (instruction) to the Q-Former.
+InstructBlipConfig
+[[autodoc]] InstructBlipConfig
+    - from_vision_qformer_text_configs
+InstructBlipVisionConfig
+[[autodoc]] InstructBlipVisionConfig
+InstructBlipQFormerConfig
+[[autodoc]] InstructBlipQFormerConfig
+InstructBlipProcessor
+[[autodoc]] InstructBlipProcessor
+InstructBlipVisionModel
+[[autodoc]] InstructBlipVisionModel
+    - forward
+InstructBlipQFormerModel
+[[autodoc]] InstructBlipQFormerModel
+    - forward
+InstructBlipForConditionalGeneration
+[[autodoc]] InstructBlipForConditionalGeneration
+    - forward
+    - generate.

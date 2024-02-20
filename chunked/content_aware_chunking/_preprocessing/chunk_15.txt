@@ -1,0 +1,7 @@
+When padding textual data, a 0 is added for shorter sequences. The same idea applies to audio data. The feature extractor adds a 0 - interpreted as silence - to array.
+Load the feature extractor with [AutoFeatureExtractor.from_pretrained]:
+
+from transformers import AutoFeatureExtractor
+feature_extractor = AutoFeatureExtractor.from_pretrained("facebook/wav2vec2-base")
+
+Pass the audio array to the feature extractor.

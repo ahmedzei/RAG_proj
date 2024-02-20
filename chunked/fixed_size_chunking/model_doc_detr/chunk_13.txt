@@ -1,0 +1,6 @@
+ to True, then prediction feedforward neural networks and Hungarian losses
+  are added after each decoder layer (with the FFNs sharing parameters).
+If you want to train the model in a distributed environment across multiple nodes, then one should update the
+  num_boxes variable in the DetrLoss class of modeling_detr.py. When training on multiple nodes, this should be
+  set to the average number of target boxes across all nodes, as can be seen in the original implementation here.
+[~transformers.DetrForObject

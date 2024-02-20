@@ -1,0 +1,8 @@
+For example, a model trained in PyTorch can be exported to
+ONNX format and then imported in TensorFlow (and vice versa).
+Once exported to ONNX format, a model can be:
+- optimized for inference via techniques such as graph optimization and quantization. 
+- run with ONNX Runtime via ORTModelForXXX classes,
+which follow the same AutoModel API as the one you are used to in 🤗 Transformers.
+- run with optimized inference pipelines,
+which has the same API as the [pipeline] function in 🤗 Transformers.

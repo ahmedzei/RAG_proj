@@ -1,0 +1,7 @@
+
+VipLlava
+Overview
+The VipLlava model was proposed in Making Large Multimodal Models Understand Arbitrary Visual Prompts by Mu Cai, Haotian Liu, Siva Karthik Mustikovela, Gregory P. Meyer, Yuning Chai, Dennis Park, Yong Jae Lee.
+VipLlava enhances the training protocol of Llava by marking images and interact with the model using natural cues like a "red bounding box" or "pointed arrow" during training.
+The abstract from the paper is the following:
+While existing large vision-language multimodal models focus 

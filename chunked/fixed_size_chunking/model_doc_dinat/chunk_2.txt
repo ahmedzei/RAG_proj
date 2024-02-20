@@ -1,0 +1,6 @@
+ncy modeling,
+and global receptive field. In this paper, we introduce Dilated Neighborhood Attention (DiNA), a natural, flexible and
+efficient extension to NA that can capture more global context and expand receptive fields exponentially at no
+additional cost. NA's local attention and DiNA's sparse global attention complement each other, and therefore we
+introduce Dilated Neighborhood Attention Transformer (DiNAT), a new hierarchical vision transformer built upon both.
+DiNAT variants enjoy significant impro

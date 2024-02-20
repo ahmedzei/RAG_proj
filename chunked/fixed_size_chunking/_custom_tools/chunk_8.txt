@@ -1,0 +1,10 @@
+tion.
+
+from transformers import load_tool
+document_qa = load_tool("document-question-answering")
+print(f"- {document_qa.name}: {document_qa.description}")
+
+which gives:
+text
+- document_qa: This is a tool that answers a question about a document (pdf). It takes an input named `document` which should be the document containing the information, as well as a `question` that is the question about the document. It returns a text that contains the answer to the question.
+We can see that the tool name is short and 

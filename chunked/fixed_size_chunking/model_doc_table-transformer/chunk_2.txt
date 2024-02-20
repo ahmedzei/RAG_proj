@@ -1,0 +1,4 @@
+rts multiple input
+modalities, and contains detailed header and location information for table structures, making it useful for a wide variety of modeling approaches. It also addresses a significant
+source of ground truth inconsistency observed in prior datasets called oversegmentation, using a novel canonicalization procedure. We demonstrate that these improvements lead to a
+significant increase in training performance and a more reliable estimate of model performance at evaluation for table structure reco

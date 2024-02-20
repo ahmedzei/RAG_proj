@@ -1,0 +1,4 @@
+ce
+[[autodoc]] TFDebertaV2ForMultipleChoice
+    - call
+

@@ -1,0 +1,9 @@
+ you need, a compilation of relevant resources to learn about LLaMA 2 and how to get started quickly.
+
+A notebook on how to fine-tune Llama 2 in Google Colab using QLoRA and 4-bit precision. 🌎
+A notebook on how to fine-tune the "Llama-v2-7b-guanaco" model with 4-bit QLoRA and generate Q&A datasets from PDFs. 🌎
+
+A notebook on how to fine-tune the Llama 2 model with QLoRa, TRL, and Korean text classification dataset. 🌎🇰🇷
+
+⚗️ Optimization
+- Fine-tune Llama 2 with DPO, a guide to using the TRL library's DPO met

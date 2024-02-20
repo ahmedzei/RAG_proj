@@ -1,0 +1,7 @@
+igurations with your fine-tuned model on 🤗 Hub
+Default text generation configuration
+A decoding strategy for a model is defined in its generation configuration. When using pre-trained models for inference
+within a [pipeline], the models call the PreTrainedModel.generate() method that applies a default generation
+configuration under the hood. The default configuration is also used when no custom configuration has been saved with
+the model.
+When you load a model explicitly, you can inspect the generation conf

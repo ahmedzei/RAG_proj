@@ -1,0 +1,6 @@
+https://huggingface.co/datasets/Narsil/asr_dummy/resolve/main/mlk.flac")
+{'text': ' I have a dream that one day this nation will rise up and live out the true meaning of its creed.'}
+
+Now this result looks more accurate! For a deep-dive comparison on Wav2Vec2 vs Whisper, refer to the Audio Transformers Course.
+We really encourage you to check out the Hub for models in different languages, models specialized in your field, and more.
+You can check out and compare model results directly from your browser on th

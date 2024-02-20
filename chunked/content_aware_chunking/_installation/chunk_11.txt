@@ -1,0 +1,17 @@
+You can change the shell environment variables shown below - in order of priority - to specify a different cache directory:
+
+Shell environment variable (default): HUGGINGFACE_HUB_CACHE or TRANSFORMERS_CACHE.
+Shell environment variable: HF_HOME.
+Shell environment variable: XDG_CACHE_HOME + /huggingface.
+
+🤗 Transformers will use the shell environment variables PYTORCH_TRANSFORMERS_CACHE or PYTORCH_PRETRAINED_BERT_CACHE if you are coming from an earlier iteration of this library and have set those environment variables, unless you specify the shell environment variable TRANSFORMERS_CACHE.
+
+Offline mode
+Run 🤗 Transformers in a firewalled or offline environment with locally cached files by setting the environment variable TRANSFORMERS_OFFLINE=1.
+
+Add 🤗 Datasets to your offline training workflow with the environment variable HF_DATASETS_OFFLINE=1.
+
+HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
+python examples/pytorch/translation/run_translation.py --model_name_or_path google-t5/t5-small --dataset_name wmt16 --dataset_config ro-en 
+This script should run without hanging or waiting to timeout because it won't attempt to download the model from the Hub.
+You can also bypass loading a model from the Hub from each [~PreTrainedModel.from_pretrained] call with the [local_files_only] parameter.

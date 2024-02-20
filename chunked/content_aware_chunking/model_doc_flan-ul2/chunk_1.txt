@@ -1,0 +1,6 @@
+Similar to Flan-T5,  one can directly use FLAN-UL2 weights without finetuning the model:
+According to the original blog here are the notable improvements:
+
+The original UL2 model was only trained with receptive field of 512, which made it non-ideal for N-shot prompting where N is large.
+The Flan-UL2 checkpoint uses a receptive field of 2048 which makes it more usable for few-shot in-context learning.
+The original UL2 model also had mode switch tokens that was rather mandatory to get good performance.

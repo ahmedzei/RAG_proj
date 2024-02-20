@@ -1,0 +1,6 @@
+oder updates these embeddings through multiple self-attention and encoder-decoder attention layers
+to output decoder_hidden_states of the same shape: (batch_size, num_queries, d_model). Next, two heads
+are added on top for object detection: a linear layer for classifying each object query into one of the objects or "no
+object", and a MLP to predict bounding boxes for each query.
+The model is trained using a bipartite matching loss: so what we actually do is compare the predicted classes +
+bounding boxes of 

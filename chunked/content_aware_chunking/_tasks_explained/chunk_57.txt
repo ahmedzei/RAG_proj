@@ -1,0 +1,1 @@
+In text infilling, a number of text spans are replaced with a single [mask] token. This is important because the model has to predict the masked tokens, and it teaches the model to predict the number of missing tokens.

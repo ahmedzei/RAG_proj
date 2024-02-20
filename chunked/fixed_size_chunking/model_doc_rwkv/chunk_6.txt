@@ -1,0 +1,6 @@
+ is not allowed to look at future tokens (only past ones).
+In comparison, the RWKV attention is given by
+$$O_{i} = \sigma(R_{i}) \frac{\sum_{j=1}^{i} e^{W_{i-j} + K_{j}} V_{j}}{\sum_{j=1}^{i} e^{W_{i-j} + K_{j}}}$$
+where \(R\) is a new matrix called receptance by the author, \(K\) and \(V\) are still the key and value (\(\sigma\) here is the sigmoid function). \(W\) is a new vector that represents the position of the token and is given by
+$$W_{0} = u \hbox{  and  } W_{k} = (k-1)w \hbox{ for } k \geq 1$$
+wit

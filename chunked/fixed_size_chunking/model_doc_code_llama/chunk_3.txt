@@ -1,0 +1,6 @@
+r publicly available model on MultiPL-E. We release Code Llama under a permissive license that allows for both research and commercial use.
+Check out all Code Llama model checkpoints here and the officially released ones in the codellama org.
+This model was contributed by ArthurZucker. The original code of the authors can be found here.
+Usage tips and examples
+
+The Llama2 family models, on which Code Llama is based, were trained using bfloat16, but the original inference uses float16. Let's look at the diff

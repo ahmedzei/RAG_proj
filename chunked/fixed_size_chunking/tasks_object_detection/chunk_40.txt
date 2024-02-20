@@ -1,0 +1,12 @@
+)
+obj_detector = pipeline("object-detection", model="devonho/detr-resnet-50_finetuned_cppe5")
+obj_detector(image)
+
+You can also manually replicate the results of the pipeline if you'd like:
+
+image_processor = AutoImageProcessor.from_pretrained("devonho/detr-resnet-50_finetuned_cppe5")
+model = AutoModelForObjectDetection.from_pretrained("devonho/detr-resnet-50_finetuned_cppe5")
+with torch.no_grad():
+     inputs = image_processor(images=image, return_tensors="pt")
+     outputs = model(**inputs)
+     target_si

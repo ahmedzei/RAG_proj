@@ -1,0 +1,15 @@
+along with the label mappings:
+
+from transformers import ViltForQuestionAnswering
+model = ViltForQuestionAnswering.from_pretrained(model_checkpoint, num_labels=len(id2label), id2label=id2label, label2id=label2id)
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [TrainingArguments]:
+
+from transformers import TrainingArguments
+repo_id = "MariaK/vilt_finetuned_200"
+training_args = TrainingArguments(
+     output_dir=repo_id,
+     per_device_train_batch_size=4,
+     num_train_epo

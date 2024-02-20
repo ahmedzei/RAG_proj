@@ -1,0 +1,5 @@
+s=4, ) - spawn several workers to preload data faster. During training, watch the GPU utilization stats; if it's far from 100%, experiment with increasing the number of workers. Of course, the problem could be elsewhere, so many workers won't necessarily lead to better performance.
+
+When using [Trainer], the corresponding [TrainingArguments] are: dataloader_pin_memory (True by default), and dataloader_num_workers (defaults to 0).
+DeepSpeed ZeRO
+DeepSpeed is an open-source deep learning optimization library 

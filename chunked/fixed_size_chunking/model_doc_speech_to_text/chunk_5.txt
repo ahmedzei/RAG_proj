@@ -1,0 +1,10 @@
+ch_decode(generated_ids, skip_special_tokens=True)
+transcription
+['mister quilter is the apostle of the middle classes and we are glad to welcome his gospel']
+
+Multilingual speech translation
+
+For multilingual speech translation models, eos_token_id is used as the decoder_start_token_id and
+  the target language id is forced as the first generated token. To force the target language id as the first
+  generated token, pass the forced_bos_token_id parameter to the generate() method. The following
+  example sh

@@ -1,0 +1,10 @@
+ examples with a non-quantized version of the model checkpoint you will need at least 20GB of GPU memory.
+
+Loading the model
+Let's start by loading the model's 9 billion parameters checkpoint: 
+
+checkpoint = "HuggingFaceM4/idefics-9b"
+
+Just like for other Transformers models, you need to load a processor and the model itself from the checkpoint. 
+The IDEFICS processor wraps a [LlamaTokenizer] and IDEFICS image processor into a single processor to take care of 
+preparing text and image inputs for the model.

@@ -1,0 +1,3 @@
+LXMERT
+Overview
+The LXMERT model was proposed in LXMERT: Learning Cross-Modality Encoder Representations from Transformers by Hao Tan & Mohit Bansal.

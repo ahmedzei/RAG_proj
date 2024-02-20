@@ -1,0 +1,17 @@
+LayoutLMV2 improves LayoutLM to obtain
+state-of-the-art results across several document image understanding benchmarks:
+
+information extraction from scanned documents: the FUNSD dataset (a
+  collection of 199 annotated forms comprising more than 30,000 words), the CORD
+  dataset (a collection of 800 receipts for training, 100 for validation and 100 for testing), the SROIE dataset (a collection of 626 receipts for training and 347 receipts for testing)
+  and the Kleister-NDA dataset (a collection of non-disclosure
+  agreements from the EDGAR database, including 254 documents for training, 83 documents for validation, and 203
+  documents for testing).
+document image classification: the RVL-CDIP dataset (a collection of
+  400,000 images belonging to one of 16 classes).
+document visual question answering: the DocVQA dataset (a collection of 50,000
+  questions defined on 12,000+ document images).
+
+The abstract from the paper is the following:
+Pre-training of text and layout has proved effective in a variety of visually-rich document understanding tasks due to
+its effective model architecture and the advantage of large-scale unlabeled scanned/digital-born documents.

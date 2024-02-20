@@ -1,0 +1,10 @@
+oks, take care to use [LayoutLMv2Processor] instead when preparing data for the model!
+
+Demo notebooks for LayoutLMv3 can be found here.
+Demo scripts can be found here.
+
+[LayoutLMv2ForSequenceClassification] is supported by this notebook.
+Text classification task guide
+
+[LayoutLMv3ForTokenClassification] is supported by this example script and notebook.
+A notebook for how to perform inference with [LayoutLMv2ForTokenClassification] and a notebook for how to perform inference when no labels are available wit

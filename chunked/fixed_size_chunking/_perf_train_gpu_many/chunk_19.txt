@@ -1,0 +1,6 @@
+ path through the layer, but the GPU0 has only a0. 
+It will get a1 from GPU1 and a2 from GPU2, bringing all the pieces of the model together.
+In parallel, GPU1 gets another mini-batch - x1. GPU1 has the a1 parameter, but needs a0 and a2, so it gets those from GPU0 and GPU2.
+Same happens to GPU2 that gets the mini-batch x2. It gets a0 and a1 from GPU0 and GPU1.
+This way each of the 3 GPUs gets the full tensors reconstructed and makes a forward pass with its own mini-batch.
+As soon as the calculation is done,

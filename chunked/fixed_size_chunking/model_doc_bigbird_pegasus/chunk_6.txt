@@ -1,0 +1,14 @@
+egasusModel
+    - forward
+BigBirdPegasusForConditionalGeneration
+[[autodoc]] BigBirdPegasusForConditionalGeneration
+    - forward
+BigBirdPegasusForSequenceClassification
+[[autodoc]] BigBirdPegasusForSequenceClassification
+    - forward
+BigBirdPegasusForQuestionAnswering
+[[autodoc]] BigBirdPegasusForQuestionAnswering
+    - forward
+BigBirdPegasusForCausalLM
+[[autodoc]] BigBirdPegasusForCausalLM
+    - forward

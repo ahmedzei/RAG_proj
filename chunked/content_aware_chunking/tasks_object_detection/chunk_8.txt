@@ -1,0 +1,4 @@
+Here we use Albumentations 
+This library ensures that transformations affect the image and update the bounding boxes accordingly.
+The 🤗 Datasets library documentation has a detailed guide on how to augment images for object detection,
+and it uses the exact same dataset as an example.

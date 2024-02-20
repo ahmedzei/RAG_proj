@@ -1,0 +1,8 @@
+ightweight), and compressed image super-resolution. Experimental results demonstrate that our method, Swin2SR, can improve the training convergence and performance of SwinIR, and is a top-5 solution at the "AIM 2022 Challenge on Super-Resolution of Compressed Image and Video".
+
+ Swin2SR architecture. Taken from the original paper. 
+This model was contributed by nielsr.
+The original code can be found here.
+Resources
+Demo notebooks for Swin2SR can be found here.
+A demo Space for image super-resolution with Sw

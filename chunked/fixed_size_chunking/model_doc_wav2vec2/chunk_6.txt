@@ -1,0 +1,10 @@
+c2ProcessorWithLM
+    - call
+    - pad
+    - from_pretrained
+    - save_pretrained
+    - batch_decode
+    - decode
+Decoding multiple audios
+If you are planning to decode multiple batches of audios, you should consider using [~Wav2Vec2ProcessorWithLM.batch_decode] and passing an instantiated multiprocessing.Pool.
+Otherwise, [~Wav2Vec2ProcessorWithLM.batch_decode] performance will be slower than calling [~Wav2Vec2ProcessorWithLM.decode] for each audio individually, as it internally instantiates a new Pool for

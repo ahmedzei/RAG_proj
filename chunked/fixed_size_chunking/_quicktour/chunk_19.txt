@@ -1,0 +1,13 @@
+10855, 10103, 100, 58263, 13299, 119, 102],
+ 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+
+The tokenizer returns a dictionary containing:
+
+input_ids: numerical representations of your tokens.
+attention_mask: indicates which tokens should be attended to.
+
+A tokenizer can also accept a list of inputs, and pad and truncate the text to return a batch with uniform length:
+
+pt_batch = tokenizer(
+     ["We are very happy to show you th

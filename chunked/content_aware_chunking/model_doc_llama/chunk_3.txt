@@ -1,0 +1,5 @@
+The original code of the authors can be found here.
+Usage tips
+
+Weights for the LLaMA models can be obtained from by filling out this form
+After downloading the weights, they will need to be converted to the Hugging Face Transformers format using the conversion script.

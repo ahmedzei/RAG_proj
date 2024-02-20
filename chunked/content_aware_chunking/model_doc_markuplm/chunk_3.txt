@@ -1,0 +1,4 @@
+Experiment results show that the
+pre-trained MarkupLM significantly outperforms the existing strong baseline models on several document understanding
+tasks. The pre-trained model and code will be publicly available.
+This model was contributed by nielsr.

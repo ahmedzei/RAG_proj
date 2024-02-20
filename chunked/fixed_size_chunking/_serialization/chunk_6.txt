@@ -1,0 +1,9 @@
+lidating ONNX Model output "start_logits":
+        -[✓] (2, 16) matches (2, 16)
+        -[✓] all values close (atol: 0.0001)
+    - Validating ONNX Model output "end_logits":
+        -[✓] (2, 16) matches (2, 16)
+        -[✓] all values close (atol: 0.0001)
+The ONNX export succeeded and the exported model was saved at: distilbert_base_uncased_squad_onnx
+The example above illustrates exporting a checkpoint from 🤗 Hub. When exporting a local model, first make sure that you 
+saved both the model's weights and to

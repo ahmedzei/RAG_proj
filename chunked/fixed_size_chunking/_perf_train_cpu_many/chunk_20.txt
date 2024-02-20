@@ -1,0 +1,10 @@
+          persistentVolumeClaim:
+              claimName: transformers-pvc
+          - name: dshm
+            emptyDir:
+              medium: Memory
+To run this example, update the yaml based on your training script and the nodes in your cluster.
+
+The CPU resource limits/requests in the yaml are defined in cpu units
+where 1 CPU unit is equivalent to 1 physical CPU core or 1 virtual core (depending on whether the node is a physical
+host or a VM). The amount of CPU and memory limits/requests defined in the ya

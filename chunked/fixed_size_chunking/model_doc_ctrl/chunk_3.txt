@@ -1,0 +1,7 @@
+osition embeddings so it's usually advised to pad the inputs on the right rather than
+  the left.
+CTRL was trained with a causal language modeling (CLM) objective and is therefore powerful at predicting the next
+  token in a sequence. Leveraging this feature allows CTRL to generate syntactically coherent text as it can be
+  observed in the run_generation.py example script.
+The PyTorch models can take the past_key_values as input, which is the previously computed key/value attention pairs.
+  TensorFlow model

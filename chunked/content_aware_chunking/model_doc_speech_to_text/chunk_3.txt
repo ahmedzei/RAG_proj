@@ -1,0 +1,5 @@
+The [Speech2TextProcessor] wraps [Speech2TextFeatureExtractor] and
+[Speech2TextTokenizer] into a single instance to both extract the input features and decode the
+predicted token ids.
+The feature extractor depends on torchaudio and the tokenizer depends on sentencepiece so be sure to
+install those packages before running the examples.

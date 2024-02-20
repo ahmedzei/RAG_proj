@@ -1,0 +1,5 @@
+sting custom or less common PyTorch backends such as mps. It can also be used to achieve the same effect as CUDA_VISIBLE_DEVICES by targeting specific GPUs or testing in CPU-only mode.
+Certain devices will require an additional import after importing torch for the first time. This can be specified using the environment variable TRANSFORMERS_TEST_BACKEND:
+
+TRANSFORMERS_TEST_BACKEND="torch_npu" pytest tests/utils/test_logging.py
+Alternative backends may also require the replacement of device-specific function

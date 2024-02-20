@@ -1,0 +1,8 @@
+The push_to_hub method, present in all models in transformers, is a quick and efficient way to push your checkpoint to the hub. A little snippet is pasted below:
+thon
+brand_new_bert.push_to_hub("brand_new_bert")
+Uncomment the following line to push to an organization.
+brand_new_bert.push_to_hub("/brand_new_bert")
+
+It is worth spending some time to create fitting model cards for each checkpoint. The model cards should highlight the
+specific characteristics of this particular checkpoint, e.g.

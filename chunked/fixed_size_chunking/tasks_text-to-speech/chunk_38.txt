@@ -1,0 +1,11 @@
+d.
+
+with torch.no_grad():
+     speech = vocoder(spectrogram)
+from IPython.display import Audio
+Audio(speech.numpy(), rate=16000)
+
+In our experience, obtaining satisfactory results from this model can be challenging. The quality of the speaker 
+embeddings appears to be a significant factor. Since SpeechT5 was pre-trained with English x-vectors, it performs best 
+when using English speaker embeddings. If the synthesized speech sounds poor, try using a different speaker embedding.
+Increasing the training durat

@@ -1,0 +1,11 @@
+(starting with the most memory efficient or fastest) to discover the appropriate balance between speed and memory usage.
+A general process you can use is (start with batch size of 1):
+
+enable gradient checkpointing
+try ZeRO-2
+try ZeRO-2 and offload the optimizer
+try ZeRO-3
+try ZeRO-3 and offload parameters to the CPU
+try ZeRO-3 and offload parameters and the optimizer to the CPU
+try lowering various default values like a narrower search beam if you're using the [~GenerationMixin.generate] method
+try mixed h

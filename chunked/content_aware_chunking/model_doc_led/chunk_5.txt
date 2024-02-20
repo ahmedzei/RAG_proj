@@ -1,0 +1,4 @@
+For summarization, it is advised to put global attention only on the first
+  <s> token. For question answering, it is advised to put global attention on all tokens of the question.
+To fine-tune LED on all 16384, gradient checkpointing can be enabled in case training leads to out-of-memory (OOM)
+  errors. This can be done by executing model.gradient_checkpointing_enable().

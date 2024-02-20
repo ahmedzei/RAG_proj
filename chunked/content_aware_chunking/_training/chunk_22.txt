@@ -1,0 +1,11 @@
+See our
+examples or
+notebooks to see this approach in action.
+Once you've created a tf.data.Dataset, you can compile and fit the model as before:
+
+model.compile(optimizer=Adam(3e-5))  # No loss argument!
+model.fit(tf_dataset)
+
+Train in native PyTorch
+
+[Trainer] takes care of the training loop and allows you to fine-tune a model in a single line of code.

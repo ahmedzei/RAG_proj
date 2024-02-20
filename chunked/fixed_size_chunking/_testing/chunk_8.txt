@@ -1,0 +1,10 @@
+on
+    >>> import torch
+    >>> from transformers import WhisperModel, WhisperFeatureExtractor
+    >>> from datasets import load_dataset
+>>> model = WhisperModel.from_pretrained("openai/whisper-base")
+>>> feature_extractor = WhisperFeatureExtractor.from_pretrained("openai/whisper-base")
+>>> ds = load_dataset("hf-internal-testing/librispeech_asr_dummy", "clean", split="validation")
+>>> inputs = feature_extractor(ds[0]["audio"]["array"], return_tensors="pt")
+>>> input_features = inputs.input_features
+>>> deco

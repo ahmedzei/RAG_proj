@@ -1,0 +1,15 @@
+n terms of engagingness and humanness measurements. We then discuss the limitations of this work by analyzing
+failure cases of our models.
+This model was contributed by patrickvonplaten. The authors' code can be
+found here.
+Usage tips
+Blenderbot Small is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather than 
+the left.
+Resources
+
+Causal language modeling task guide
+Translation task guide
+Summarization task guide
+
+BlenderbotSmallConfig
+[[autodoc]] Blender

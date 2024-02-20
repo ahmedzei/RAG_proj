@@ -1,0 +1,3 @@
+For fine-tuning, the language adapters in each transformer layer are frozen.
+The abstract from the paper is the following:
+Multilingual pre-trained models are known to suffer from the curse of multilinguality, which causes per-language performance to drop as they cover more languages. We address this issue by introducing language-specific modules, which allows us to grow the total capacity of the model, while keeping the total number of trainable parameters per language constant.

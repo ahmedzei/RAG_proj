@@ -1,0 +1,9 @@
+
+
+Before you begin, make sure you have all the necessary libraries installed:
+
+pip install -q datasets transformers evaluate timm albumentations
+You'll use 🤗 Datasets to load a dataset from the Hugging Face Hub, 🤗 Transformers to train your model,
+and albumentations to augment the data. timm is currently required to load a convolutional backbone for the DETR model.
+We encourage you to share your model with the community. Log in to your Hugging Face account to upload it to the Hub.
+When prompted, enter your 

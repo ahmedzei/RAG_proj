@@ -1,0 +1,7 @@
+out when to stop generating text.
+
+What are "default" templates?
+Before the introduction of chat templates, chat handling was hardcoded at the model class level. For backwards 
+compatibility, we have retained this class-specific handling as default templates, also set at the class level. If a
+model does not have a chat template set, but there is a default template for its model class, the TextGenerationPipeline
+class and methods like apply_chat_template will use the class template instead. You can find out 

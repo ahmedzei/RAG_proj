@@ -1,0 +1,2 @@
+This commonly arises in NLP models, where input texts have variable lengths after tokenization. In other modalities, static shapes are more common and this rule is much less of a problem.
+How can you get around rule #3? The key is padding - if you pad all your inputs to the same length, and then use an attention_mask, you can get the same results as you’d get from variable shapes, but without any XLA issues.

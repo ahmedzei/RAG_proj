@@ -1,0 +1,14 @@
+on.GenerationMixin.generate] to translate the input speech
+autoregressively to the target language.
+The [Wav2Vec2FeatureExtractor] class is responsible for preprocessing the input speech and
+[Speech2Text2Tokenizer] decodes the generated target tokens to the target string. The
+[Speech2Text2Processor] wraps [Wav2Vec2FeatureExtractor] and
+[Speech2Text2Tokenizer] into a single instance to both extract the input features and decode the
+predicted token ids.
+
+Step-by-step Speech Translation
+
+thon
+
+import torch
+fro

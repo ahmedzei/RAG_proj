@@ -1,0 +1,25 @@
+With a similar inference
+time, SEW reduces word error rate by 25-50% across different model sizes.
+This model was contributed by anton-l.
+Usage tips
+
+SEW-D is a speech model that accepts a float array corresponding to the raw waveform of the speech signal.
+SEWDForCTC is fine-tuned using connectionist temporal classification (CTC) so the model output has to be decoded
+  using [Wav2Vec2CTCTokenizer].
+
+Resources
+
+Audio classification task guide
+Automatic speech recognition task guide
+
+SEWDConfig
+[[autodoc]] SEWDConfig
+SEWDModel
+[[autodoc]] SEWDModel
+    - forward
+SEWDForCTC
+[[autodoc]] SEWDForCTC
+    - forward
+SEWDForSequenceClassification
+[[autodoc]] SEWDForSequenceClassification
+    - forward.

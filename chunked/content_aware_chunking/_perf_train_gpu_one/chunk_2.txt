@@ -1,0 +1,4 @@
+If the desired batch size exceeds the limits of the GPU memory, 
+the memory optimization techniques, such as gradient accumulation, can help.
+However, if the preferred batch size fits into memory, there's no reason to apply memory-optimizing techniques because they can 
+slow down the training. Just because one can use a large batch size, does not necessarily mean they should.

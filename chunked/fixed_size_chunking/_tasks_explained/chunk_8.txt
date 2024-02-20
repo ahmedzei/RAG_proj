@@ -1,0 +1,2 @@
+connectionist temporal classification (CTC). The language modeling head is a linear layer that accepts the encoder's hidden states and transforms them into logits. Each logit represents a token class (the number of tokens comes from the task vocabulary). The CTC loss is calculated between the logits and targets to find the most likely sequence of tokens, which are then decoded into a transcription.
+Ready to try your hand at automatic speech recognition? Check out our complete automatic speech recognition gu

@@ -1,0 +1,12 @@
+hon
+from transformers import LayoutLMv2Processor
+from PIL import Image
+processor = LayoutLMv2Processor.from_pretrained("microsoft/layoutlmv2-base-uncased")
+image = Image.open(
+    "name_of_your_document - can be a png, jpg, etc. of your documents (PDFs must be converted to images)."
+).convert("RGB")
+encoding = processor(
+    image, return_tensors="pt"
+)  # you can also add all tokenizer parameters here such as padding, truncation
+print(encoding.keys())
+dict_keys(['input_ids', 'token_type_ids', 'attention_ma

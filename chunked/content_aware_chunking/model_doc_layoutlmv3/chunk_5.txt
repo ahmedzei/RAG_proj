@@ -1,0 +1,5 @@
+The original code can be found here.
+Usage tips
+
+In terms of data processing, LayoutLMv3 is identical to its predecessor LayoutLMv2, except that:
+images need to be resized and normalized with channels in regular RGB format.

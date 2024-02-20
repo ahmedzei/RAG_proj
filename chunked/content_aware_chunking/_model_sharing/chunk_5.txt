@@ -1,0 +1,10 @@
+This library allows you to programmatically interact with the Hub.
+
+pip install huggingface_hub
+Then use notebook_login to sign-in to the Hub, and follow the link here to generate a token to login with:
+
+from huggingface_hub import notebook_login
+notebook_login()
+
+Convert a model for all frameworks
+To ensure your model can be used by someone working with a different framework, we recommend you convert and upload your model with both PyTorch and TensorFlow checkpoints.

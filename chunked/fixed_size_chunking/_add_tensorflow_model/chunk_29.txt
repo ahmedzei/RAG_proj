@@ -1,0 +1,8 @@
+OSS_TESTS=1 \
+py.test -vv tests/models/brand_new_bert/test_modeling_tf_brand_new_bert.py
+and we will merge your PR! Congratulations on the milestone 🎉
+7. (Optional) Build demos and share with the world
+One of the hardest parts about open-source is discovery. How can the other users learn about the existence of your
+fabulous TensorFlow contribution? With proper communication, of course! 📣
+There are two main ways to share your model with the community:
+- Build demos. These include Gradio demos, notebooks, and

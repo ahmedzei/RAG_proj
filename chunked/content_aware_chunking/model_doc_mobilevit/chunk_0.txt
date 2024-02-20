@@ -1,0 +1,5 @@
+MobileViT
+Overview
+The MobileViT model was proposed in MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer by Sachin Mehta and Mohammad Rastegari. MobileViT introduces a new layer that replaces local processing in convolutions with global processing using transformers.
+The abstract from the paper is the following:
+Light-weight convolutional neural networks (CNNs) are the de-facto for mobile vision tasks.

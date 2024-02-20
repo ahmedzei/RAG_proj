@@ -1,0 +1,6 @@
+The Flan-T5 are T5 models trained on the Flan collection of 
+    datasets which include: taskmaster2, djaym7/wiki_dialog, deepmind/code_contests, lambada, gsm8k, aqua_rat, esnli, quasc and qed.
+
+FLan-UL2 : the UL2 model finetuned using the "Flan" prompt tuning and dataset collection.
+
+UMT5: UmT5 is a multilingual T5 model trained on an improved and refreshed mC4 multilingual corpus,  29 trillion characters across 107 language, using a new sampling method, UniMax.

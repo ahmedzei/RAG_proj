@@ -1,0 +1,10 @@
+For example, it could be:
+
+pytest tests/test_optimization.py::OptimizationTest::test_adam_w
+Here:
+
+tests/test_optimization.py - the file with tests
+OptimizationTest - the name of the class
+test_adam_w - the name of the specific test function
+
+If the file contains multiple classes, you can choose to run only tests of a given class.

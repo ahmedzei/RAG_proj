@@ -1,0 +1,10 @@
+ansformers import BitsAndBytesConfig
+nf4_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+)
+model_nf4 = AutoModelForCausalLM.from_pretrained(model_id, quantization_config=nf4_config)
+
+For inference, the bnb_4bit_quant_type does not have a huge impact on performance. However, to remain consistent with the model weights, you should use the bnb_4bit_compute_dtype and torch_dtype values.
+Nested quantization
+Nested quantization is a technique that can save additional memory at n

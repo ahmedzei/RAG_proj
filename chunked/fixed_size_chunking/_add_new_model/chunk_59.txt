@@ -1,0 +1,6 @@
+ript
+Next, you should write a conversion script that lets you convert the checkpoint you used to debug brand_new_bert in
+the original repository to a checkpoint compatible with your just created 🤗 Transformers implementation of
+brand_new_bert. It is not advised to write the conversion script from scratch, but rather to look through already
+existing conversion scripts in 🤗 Transformers for one that has been used to convert a similar model that was written in
+the same framework as brand_new_bert. Usually, it 

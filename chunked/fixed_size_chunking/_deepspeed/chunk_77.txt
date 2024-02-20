@@ -1,0 +1,9 @@
+eepSpeed with the [Trainer]! You'll need to follow the DeepSpeed documentation, and manually configure the parameter values in the config file (you can't use the "auto" value).
+
+To efficiently deploy ZeRO-3, you must instantiate the [HfDeepSpeedConfig] object before the model and keep that object alive:
+
+from transformers.integrations import HfDeepSpeedConfig
+from transformers import AutoModel
+import deepspeed
+ds_config = {}  # deepspeed config object or path to the file
+must run before instantiating the mo

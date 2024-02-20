@@ -1,0 +1,13 @@
+ell as how to use the trace
+for inference.
+Saving a model
+To export a BertModel with TorchScript, instantiate BertModel from the BertConfig
+class and then save it to disk under the filename traced_bert.pt:
+thon
+from transformers import BertModel, BertTokenizer, BertConfig
+import torch
+enc = BertTokenizer.from_pretrained("google-bert/bert-base-uncased")
+Tokenizing input text
+text = "[CLS] Who was Jim Henson ? [SEP] Jim Henson was a puppeteer [SEP]"
+tokenized_text = enc.tokenize(text)
+Masking one of the input

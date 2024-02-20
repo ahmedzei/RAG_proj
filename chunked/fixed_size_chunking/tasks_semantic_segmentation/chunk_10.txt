@@ -1,0 +1,9 @@
+n inputs
+
+To apply the jitter over the entire dataset, use the 🤗 Datasets [~datasets.Dataset.set_transform] function. The transform is applied on the fly which is faster and consumes less disk space:
+
+train_ds.set_transform(train_transforms)
+test_ds.set_transform(val_transforms)
+
+It is common to apply some data augmentations to an image dataset to make a model more robust against overfitting.
+In this guide, you'll use tf.image to randomly change the color properties of an image, but you can also use any ima

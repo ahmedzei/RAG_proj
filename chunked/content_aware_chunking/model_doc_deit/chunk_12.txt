@@ -1,0 +1,50 @@
+Note that one should use [DeiTImageProcessor] in order to
+  prepare images for the model.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with DeiT.
+
+[DeiTForImageClassification] is supported by this example script and notebook.
+See also: Image classification task guide
+
+Besides that:
+
+[DeiTForMaskedImageModeling] is supported by this example script.
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+DeiTConfig
+[[autodoc]] DeiTConfig
+DeiTFeatureExtractor
+[[autodoc]] DeiTFeatureExtractor
+    - call
+DeiTImageProcessor
+[[autodoc]] DeiTImageProcessor
+    - preprocess
+
+DeiTModel
+[[autodoc]] DeiTModel
+    - forward
+DeiTForMaskedImageModeling
+[[autodoc]] DeiTForMaskedImageModeling
+    - forward
+DeiTForImageClassification
+[[autodoc]] DeiTForImageClassification
+    - forward
+DeiTForImageClassificationWithTeacher
+[[autodoc]] DeiTForImageClassificationWithTeacher
+    - forward
+
+TFDeiTModel
+[[autodoc]] TFDeiTModel
+    - call
+TFDeiTForMaskedImageModeling
+[[autodoc]] TFDeiTForMaskedImageModeling
+    - call
+TFDeiTForImageClassification
+[[autodoc]] TFDeiTForImageClassification
+    - call
+TFDeiTForImageClassificationWithTeacher
+[[autodoc]] TFDeiTForImageClassificationWithTeacher
+    - call
+
+.

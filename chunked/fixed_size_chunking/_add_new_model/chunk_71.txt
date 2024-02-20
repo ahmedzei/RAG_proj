@@ -1,0 +1,8 @@
+familiar with the original repository, you have already created a script that runs a forward
+pass of the model using the original repository. Now you should write an analogous script using the 🤗 Transformers
+implementation instead of the original one. It should look as follows:
+python
+model = BrandNewBertModel.from_pretrained("/path/to/converted/checkpoint/folder")
+input_ids = [0, 4, 4, 3, 2, 4, 1, 7, 19]
+output = model(input_ids).last_hidden_states
+It is very likely that the 🤗 Transformers implementation a

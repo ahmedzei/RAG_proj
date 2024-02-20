@@ -1,0 +1,17 @@
+d as it helps keep the gazpacho cool and avoids the foam and silky consistency of smoothie versions made in blenders or food processors.
+ Question: What modern tool is used to make gazpacho?
+ Answer:
+ """
+sequences = pipe(
+     prompt,
+     max_new_tokens=10,
+     do_sample=True,
+     top_k=10,
+     return_full_text = False,
+ )
+for seq in sequences:
+     print(f"Result: {seq['generated_text']}")
+Result: Modern tools are used, such as immersion blenders
+
+Reasoning
+Reasoning is one of the most difficult tasks

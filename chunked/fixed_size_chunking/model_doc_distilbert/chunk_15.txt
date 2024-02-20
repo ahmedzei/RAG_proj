@@ -1,0 +1,20 @@
+ltipleChoice
+[[autodoc]] TFDistilBertForMultipleChoice
+    - call
+TFDistilBertForTokenClassification
+[[autodoc]] TFDistilBertForTokenClassification
+    - call
+TFDistilBertForQuestionAnswering
+[[autodoc]] TFDistilBertForQuestionAnswering
+    - call
+
+FlaxDistilBertModel
+[[autodoc]] FlaxDistilBertModel
+    - call
+FlaxDistilBertForMaskedLM
+[[autodoc]] FlaxDistilBertForMaskedLM
+    - call
+FlaxDistilBertForSequenceClassification
+[[autodoc]] FlaxDistilBertForSequenceClassification
+    - call
+FlaxDistilBertForMulti

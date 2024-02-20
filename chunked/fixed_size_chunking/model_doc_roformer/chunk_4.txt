@@ -1,0 +1,21 @@
+   - build_inputs_with_special_tokens
+
+RoFormerModel
+[[autodoc]] RoFormerModel
+    - forward
+RoFormerForCausalLM
+[[autodoc]] RoFormerForCausalLM
+    - forward
+RoFormerForMaskedLM
+[[autodoc]] RoFormerForMaskedLM
+    - forward
+RoFormerForSequenceClassification
+[[autodoc]] RoFormerForSequenceClassification
+    - forward
+RoFormerForMultipleChoice
+[[autodoc]] RoFormerForMultipleChoice
+    - forward
+RoFormerForTokenClassification
+[[autodoc]] RoFormerForTokenClassification
+    - forward
+RoFormerForQuestionAnswerin

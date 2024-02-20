@@ -1,0 +1,56 @@
+Moreover, the use_cache=False
+  flag can be used to disable the caching mechanism to save memory.
+LED is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather than
+  the left.
+
+This model was contributed by patrickvonplaten.
+Resources
+
+A notebook showing how to evaluate LED.
+A notebook showing how to fine-tune LED.
+Text classification task guide
+Question answering task guide
+Translation task guide
+Summarization task guide
+
+LEDConfig
+[[autodoc]] LEDConfig
+LEDTokenizer
+[[autodoc]] LEDTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+LEDTokenizerFast
+[[autodoc]] LEDTokenizerFast
+LED specific outputs
+[[autodoc]] models.led.modeling_led.LEDEncoderBaseModelOutput
+[[autodoc]] models.led.modeling_led.LEDSeq2SeqModelOutput
+[[autodoc]] models.led.modeling_led.LEDSeq2SeqLMOutput
+[[autodoc]] models.led.modeling_led.LEDSeq2SeqSequenceClassifierOutput
+[[autodoc]] models.led.modeling_led.LEDSeq2SeqQuestionAnsweringModelOutput
+[[autodoc]] models.led.modeling_tf_led.TFLEDEncoderBaseModelOutput
+[[autodoc]] models.led.modeling_tf_led.TFLEDSeq2SeqModelOutput
+[[autodoc]] models.led.modeling_tf_led.TFLEDSeq2SeqLMOutput
+
+LEDModel
+[[autodoc]] LEDModel
+    - forward
+LEDForConditionalGeneration
+[[autodoc]] LEDForConditionalGeneration
+    - forward
+LEDForSequenceClassification
+[[autodoc]] LEDForSequenceClassification
+    - forward
+LEDForQuestionAnswering
+[[autodoc]] LEDForQuestionAnswering
+    - forward
+
+TFLEDModel
+[[autodoc]] TFLEDModel
+    - call
+TFLEDForConditionalGeneration
+[[autodoc]] TFLEDForConditionalGeneration
+    - call
+
+.

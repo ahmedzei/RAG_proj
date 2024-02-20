@@ -1,0 +1,7 @@
+Such models
+have the very minimal number of layers (e.g., 2), vocab size (e.g., 1000), etc. Then the @slow tests can use large
+slow models to do qualitative testing. To see the use of these simply look for tiny models with:
+
+grep tiny tests examples
+Here is a an example of a script that created the tiny model
+stas/tiny-wmt19-en-de.

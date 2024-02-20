@@ -1,0 +1,16 @@
+autodoc]] LayoutLMv3ForQuestionAnswering
+    - forward
+
+TFLayoutLMv3Model
+[[autodoc]] TFLayoutLMv3Model
+    - call
+TFLayoutLMv3ForSequenceClassification
+[[autodoc]] TFLayoutLMv3ForSequenceClassification
+    - call
+TFLayoutLMv3ForTokenClassification
+[[autodoc]] TFLayoutLMv3ForTokenClassification
+    - call
+TFLayoutLMv3ForQuestionAnswering
+[[autodoc]] TFLayoutLMv3ForQuestionAnswering
+    - call
+

@@ -1,0 +1,5 @@
+apid progress in computer vision tasks, achieving promising results on various benchmarks. 
+However, due to the massive number of parameters and model design, e.g., attention mechanism, ViT-based models are generally 
+times slower than lightweight convolutional networks. Therefore, the deployment of ViT for real-time applications is particularly 
+challenging, especially on resource-constrained hardware such as mobile devices. Recent efforts try to reduce the computation 
+complexity of ViT through network ar

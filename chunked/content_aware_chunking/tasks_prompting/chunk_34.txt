@@ -1,0 +1,5 @@
+Prompts with large number of tokens can increase computation and latency. There's also a limit to the length of the prompts.
+- Sometimes when given a number of examples, models can learn patterns that you didn't intend them to learn, e.g. that the third movie review is always negative.
+Chain-of-thought
+Chain-of-thought (CoT) prompting is a technique that nudges a model to produce intermediate reasoning steps thus improving 
+the results on complex reasoning tasks.

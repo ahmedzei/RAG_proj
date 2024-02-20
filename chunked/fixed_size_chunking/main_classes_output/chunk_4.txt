@@ -1,0 +1,13 @@
+model outputs that are used by more than one model type. Specific output types are
+documented on their corresponding model page.
+ModelOutput
+[[autodoc]] utils.ModelOutput
+    - to_tuple
+BaseModelOutput
+[[autodoc]] modeling_outputs.BaseModelOutput
+BaseModelOutputWithPooling
+[[autodoc]] modeling_outputs.BaseModelOutputWithPooling
+BaseModelOutputWithCrossAttentions
+[[autodoc]] modeling_outputs.BaseModelOutputWithCrossAttentions
+BaseModelOutputWithPoolingAndCrossAttentions
+[[autodoc]] modeling_outputs.BaseModel

@@ -1,0 +1,12 @@
+etrained("./your/path/bigscience_t0")
+
+Programmatically download files with the huggingface_hub library:
+
+Install the huggingface_hub library in your virtual environment:
+
+python -m pip install huggingface_hub
+
+Use the hf_hub_download function to download a file to a specific path. For example, the following command downloads the config.json file from the T0 model to your desired path:
+
+from huggingface_hub import hf_hub_download
+hf_hub_download(repo_id="bigscience/T0_3B", filename="config.json", cache_dir=

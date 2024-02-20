@@ -1,0 +1,2 @@
+For a quick recap on causal language modeling you can refer to the Illustrated Self Attention blog.
+As a consequence, tokens never depend on previous tokens, more specifically the \( \mathbf{q}i \) vector is never put in relation with any key, values vectors \( \mathbf{k}_j, \mathbf{v}_j \) if \( j > i \) . Instead \( \mathbf{q}_i \) only attends to previous key-value vectors \( \mathbf{k}{m < i}, \mathbf{v}_{m < i} \text{ , for } m \in {0, \ldots i - 1} \).

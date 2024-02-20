@@ -1,0 +1,5 @@
+This allows us to draw upon the simplicity and scalability of the Transformer architecture, and associated advances
+ in language modeling such as GPT-x and BERT. In particular, we present Decision Transformer, an architecture that 
+ casts the problem of RL as conditional sequence modeling. Unlike prior approaches to RL that fit value functions or 
+ compute policy gradients, Decision Transformer simply outputs the optimal actions by leveraging a causally masked 
+ Transformer.

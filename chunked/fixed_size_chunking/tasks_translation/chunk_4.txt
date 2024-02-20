@@ -1,0 +1,8 @@
+zer(inputs, text_target=targets, max_length=128, truncation=True)
+     return model_inputs
+
+To apply the preprocessing function over the entire dataset, use 🤗 Datasets [~datasets.Dataset.map] method. You can speed up the map function by setting batched=True to process multiple elements of the dataset at once:
+
+tokenized_books = books.map(preprocess_function, batched=True)
+
+Now create a batch of examples using [DataCollatorForSeq2Seq]. It's more efficient to dynamically pad the sentences to the longest lengt

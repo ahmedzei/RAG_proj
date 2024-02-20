@@ -1,0 +1,2 @@
+Model outputs
+All models have outputs that are instances of subclasses of [~utils.ModelOutput].

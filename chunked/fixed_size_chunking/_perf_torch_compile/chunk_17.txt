@@ -1,0 +1,11 @@
+0 - no compile | torch 2.0 - compile |
+|:---:|:---:|:---:|
+| Image Classification/ViT | 43.653 | 43.626 | 
+| Image Segmentation/Segformer | 45.327 | 42.445 |
+| Image Classification/BeiT | 52.007 | 51.354 | 
+| Object Detection/DETR | 277.850 | 268.003 |
+| Image Classification/ConvNeXT | 119.259 | 105.580 | 
+| Image Classification/ResNet | 13.039 | 11.388 |
+| Image Segmentation/Mask2former | 201.540 | 184.670 |
+| Image Segmentation/Maskformer | 764.052 | 711.280 | 
+| Image Segmentation/MobileNet | 74.289 | 48

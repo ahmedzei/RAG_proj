@@ -1,0 +1,22 @@
+Note that this won't include the language modeling head on top, used to predict visual tokens.
+To include the head, you can load the weights into a BeitForMaskedImageModeling model, like so:
+thon
+from transformers import BeitForMaskedImageModeling
+model = BeitForMaskedImageModeling.from_pretrained("microsoft/dit-base")
+
+You can also load a fine-tuned model from the hub, like so:
+thon
+from transformers import AutoModelForImageClassification
+model = AutoModelForImageClassification.from_pretrained("microsoft/dit-base-finetuned-rvlcdip")
+
+This particular checkpoint was fine-tuned on RVL-CDIP, an important benchmark for document image classification.
+A notebook that illustrates inference for document image classification can be found here.
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with DiT.
+
+[BeitForImageClassification] is supported by this example script and notebook.
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+As DiT's architecture is equivalent to that of BEiT, one can refer to BEiT's documentation page for all tips, code examples and notebooks.
+.

@@ -1,0 +1,9 @@
+You can obtain those using
+  [LukeTokenizer].
+
+[LukeTokenizer] takes entities and entity_spans (character-based start and end
+  positions of the entities in the input text) as extra input. entities typically consist of [MASK] entities or
+  Wikipedia entities. The brief description when inputting these entities are as follows:
+
+Inputting [MASK] entities to compute entity representations: The [MASK] entity is used to mask entities to be
+    predicted during pretraining.

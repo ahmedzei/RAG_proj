@@ -1,0 +1,5 @@
+If you set the parameter auxiliary_loss of
+  [~transformers.DetrConfig] to True, then prediction feedforward neural networks and Hungarian losses
+  are added after each decoder layer (with the FFNs sharing parameters).
+If you want to train the model in a distributed environment across multiple nodes, then one should update the
+  num_boxes variable in the DetrLoss class of modeling_detr.py.

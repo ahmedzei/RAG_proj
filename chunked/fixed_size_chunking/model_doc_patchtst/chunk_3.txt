@@ -1,0 +1,7 @@
+rvised training on large datasets. Transferring of masked pre-trained representation on one dataset to others also produces SOTA forecasting accuracy.
+This model was contributed by namctin, gsinthong, diepi, vijaye12, wmgifford, and kashif. The original code can be found here.
+Usage tips
+The model can also be used for time series classification and time series regression. See the respective [PatchTSTForClassification] and [PatchTSTForRegression] classes.
+Resources
+
+A blog post explaining PatchTST in depth c

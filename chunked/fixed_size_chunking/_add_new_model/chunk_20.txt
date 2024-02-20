@@ -1,0 +1,9 @@
+sformers models is most
+  similar to brand_new_bert?
+What type of tokenizer is used? A sentencepiece tokenizer? Word piece tokenizer? Is it the same tokenizer as used
+  for BERT or BART?
+
+After you feel like you have gotten a good overview of the architecture of the model, you might want to write to the
+Hugging Face team with any questions you might have. This might include questions regarding the model's architecture,
+its attention layer, etc. We will be more than happy to help you.
+2. Next prepare your en

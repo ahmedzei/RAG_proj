@@ -1,0 +1,13 @@
+port matplotlib.pyplot as plt
+import numpy as np
+color_seg = np.zeros((pred_seg.shape[0], pred_seg.shape[1], 3), dtype=np.uint8)
+palette = np.array(ade_palette())
+for label, color in enumerate(palette):
+     color_seg[pred_seg == label, :] = color
+color_seg = color_seg[, ::-1]  # convert to BGR
+img = np.array(image) * 0.5 + color_seg * 0.5  # plot the image with the segmentation map
+img = img.astype(np.uint8)
+plt.figure(figsize=(15, 10))
+plt.imshow(img)
+plt.show()
+

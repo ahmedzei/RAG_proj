@@ -1,0 +1,12 @@
+ please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+ViTHybridConfig
+[[autodoc]] ViTHybridConfig
+ViTHybridImageProcessor
+[[autodoc]] ViTHybridImageProcessor
+    - preprocess
+ViTHybridModel
+[[autodoc]] ViTHybridModel
+    - forward
+ViTHybridForImageClassification
+[[autodoc]] ViTHybridForImageClassification
+    - forward

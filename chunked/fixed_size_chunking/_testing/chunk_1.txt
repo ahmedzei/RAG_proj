@@ -1,0 +1,16 @@
+me
+   environment on your machine.
+
+These CI jobs don't run @slow tests.
+
+There are 3 jobs run by github actions:
+
+torch hub integration: checks whether torch hub
+     integration works.
+
+self-hosted (push): runs fast tests on GPU only on commits on
+     main. It only runs if a commit on main has updated the code in one of the following folders: src,
+     tests, .github (to prevent running on added model cards, notebooks, etc.)
+
+self-hosted runner: runs normal and slow tests on GPU in
+     tests and example

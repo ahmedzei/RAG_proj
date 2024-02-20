@@ -1,0 +1,2 @@
+ again in the future, and it helps decide whether to throw the parameter away or to keep it. If the parameter is going to be reused (if the value is less than stage3_max_reuse_distance), then it is kept to reduce communication overhead. This is super helpful when activation checkpointing is enabled and you want to keep the parameter in the forward recompute until the backward pass. But reduce this value if you encounter an OOM error.
+stage3_gather_16bit_weights_on_model_save consolidates fp16 weights when a

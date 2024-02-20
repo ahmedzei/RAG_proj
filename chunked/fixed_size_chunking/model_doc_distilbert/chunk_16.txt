@@ -1,0 +1,10 @@
+pleChoice
+[[autodoc]] FlaxDistilBertForMultipleChoice
+    - call
+FlaxDistilBertForTokenClassification
+[[autodoc]] FlaxDistilBertForTokenClassification
+    - call
+FlaxDistilBertForQuestionAnswering
+[[autodoc]] FlaxDistilBertForQuestionAnswering
+    - call
+

@@ -1,0 +1,7 @@
+TAPAS has been fine-tuned on several datasets: 
+- SQA (Sequential Question Answering by Microsoft)
+- WTQ (Wiki Table Questions by Stanford University)
+- WikiSQL (by Salesforce). 
+It achieves state-of-the-art on both SQA and WTQ, while having comparable performance to SOTA on WikiSQL, with a much simpler architecture.
+The abstract from the paper is the following:
+Answering natural language questions over tables is usually seen as a semantic parsing task.

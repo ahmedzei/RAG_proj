@@ -1,0 +1,27 @@
+In such a case you can use the
+detect_overflow helper function to inject the detector where you want it, for example:
+thon
+from debug_utils import detect_overflow
+class T5LayerFF(nn.Module):
+    []
+def forward(self, hidden_states):
+    forwarded_states = self.layer_norm(hidden_states)
+    detect_overflow(forwarded_states, "after layer_norm")
+    forwarded_states = self.DenseReluDense(forwarded_states)
+    detect_overflow(forwarded_states, "after DenseReluDense")
+    return hidden_states + self.dropout(forwarded_states)
+
+You can see that we added 2 of these and now we track if inf or nan for forwarded_states was detected
+somewhere in between.
+Actually, the detector already reports these because each of the calls in the example above is a nn.Module, but
+let's say if you had some local direct calculations this is how you'd do that.
+Additionally, if you're instantiating the debugger in your own code, you can adjust the number of frames printed from
+its default, e.g.:
+thon
+from transformers.debug_utils import DebugUnderflowOverflow
+debug_overflow = DebugUnderflowOverflow(model, max_frames_to_save=100)
+
+Specific batch absolute min and max value tracing
+The same debugging class can be used for per-batch tracing with the underflow/overflow detection feature turned off.
+Let's say you want to watch the absolute min and max values for all the ingredients of each forward call of a given
+batch, and only do that for batches 1 and 3.

@@ -1,0 +1,24 @@
+sForConditionalGeneration
+    - forward
+PegasusForCausalLM
+[[autodoc]] PegasusForCausalLM
+    - forward
+
+TFPegasusModel
+[[autodoc]] TFPegasusModel
+    - call
+TFPegasusForConditionalGeneration
+[[autodoc]] TFPegasusForConditionalGeneration
+    - call
+
+FlaxPegasusModel
+[[autodoc]] FlaxPegasusModel
+    - call
+    - encode
+    - decode
+FlaxPegasusForConditionalGeneration
+[[autodoc]] FlaxPegasusForConditionalGeneration
+    - call
+    - encode
+    - decode
+

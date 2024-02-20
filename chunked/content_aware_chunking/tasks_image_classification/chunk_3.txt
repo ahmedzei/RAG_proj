@@ -1,0 +1,5 @@
+The transforms are applied on the fly when you load an element of the dataset:
+
+food = food.with_transform(transforms)
+
+Now create a batch of examples using [DefaultDataCollator].

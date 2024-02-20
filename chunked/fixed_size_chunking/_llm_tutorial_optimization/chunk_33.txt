@@ -1,0 +1,4 @@
+utation apart and instead computes smaller chunks of the output by iterating over multiple softmax computation steps:
+$$ \textbf{O}i \leftarrow s^a{ij} * \textbf{O}i + s^b{ij} * \mathbf{V}{j} \times \text{Softmax}(\mathbf{QK}^T{i,j}) \text{ for multiple } i, j \text{ iterations} $$
+with \( s^a_{ij} \) and \( s^b_{ij} \) being some softmax normalization statistics that need to be recomputed for every \( i \) and \( j \) .
+Please note that the whole Flash Attention is a bit more complex and is greatly simplif

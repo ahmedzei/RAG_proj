@@ -1,0 +1,21 @@
+the information relative to the inputs and outputs.
+
+XLMRobertaConfig
+[[autodoc]] XLMRobertaConfig
+XLMRobertaTokenizer
+[[autodoc]] XLMRobertaTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+XLMRobertaTokenizerFast
+[[autodoc]] XLMRobertaTokenizerFast
+
+XLMRobertaModel
+[[autodoc]] XLMRobertaModel
+    - forward
+XLMRobertaForCausalLM
+[[autodoc]] XLMRobertaForCausalLM
+    - forward
+XLMRobertaForMaskedLM
+[[autodoc]] XLMR

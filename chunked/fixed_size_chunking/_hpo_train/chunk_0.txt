@@ -1,0 +1,7 @@
+
+Hyperparameter Search using Trainer API
+🤗 Transformers provides a [Trainer] class optimized for training 🤗 Transformers models, making it easier to start training without manually writing your own training loop. The [Trainer] provides API for hyperparameter search. This doc shows how to enable it in example. 
+Hyperparameter Search backend
+[Trainer] supports four hyperparameter search backends currently:
+optuna, sigopt, raytune and wandb.
+you should install them before using them as the hyperparameter searc

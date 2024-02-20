@@ -1,0 +1,12 @@
+You can still have 1 thread that
+        # does the preprocessing while the main runs the big inference
+        yield "This is a test"
+for out in pipe(data()):
+    print(out)
+    # {"text": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND"}
+    # {"text": .}
+    # .
+
+[[autodoc]] pipeline
+Pipeline batching
+All pipelines can use batching.

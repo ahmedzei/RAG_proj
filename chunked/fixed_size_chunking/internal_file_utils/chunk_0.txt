@@ -1,0 +1,13 @@
+
+General Utilities
+This page lists all of Transformers general utility functions that are found in the file utils.py.
+Most of those are only useful if you are studying the general code in the library.
+Enums and namedtuples
+[[autodoc]] utils.ExplicitEnum
+[[autodoc]] utils.PaddingStrategy
+[[autodoc]] utils.TensorType
+Special Decorators
+[[autodoc]] utils.add_start_docstrings
+[[autodoc]] utils.add_start_docstrings_to_model_forward
+[[autodoc]] utils.add_end_docstrings
+[[autodoc]] utils.add_code_sample_docstrings

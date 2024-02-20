@@ -1,0 +1,6 @@
+If name is not
+   properly set, you will see it in the error message when loading the model weights.
+- The logic of the base model class, BrandNewBertModel, will actually reside in TFBrandNewBertMainLayer, a Keras
+   layer subclass (example).
+   TFBrandNewBertModel will simply be a wrapper around this layer.
+- Keras models need to be built in order to load pretrained weights.

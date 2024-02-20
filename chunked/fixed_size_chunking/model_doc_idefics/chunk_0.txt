@@ -1,0 +1,7 @@
+
+IDEFICS
+Overview
+The IDEFICS model was proposed in OBELICS: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents
+ by Hugo Laurençon, Lucile Saulnier, Léo Tronchon, Stas Bekman, Amanpreet Singh, Anton Lozhkov, Thomas Wang, Siddharth Karamcheti, Alexander M. Rush, Douwe Kiela, Matthieu Cord, Victor Sanh
+The abstract from the paper is the following:
+Large multimodal models trained on natural documents, which interleave images and text, outperform models trained on image-text pairs on various

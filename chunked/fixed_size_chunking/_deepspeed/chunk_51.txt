@@ -1,0 +1,8 @@
+, it is downcasted to whichever half-precision dtype you're training in.
+yaml
+{
+    "communication_data_type": "fp32"
+}
+Deployment
+DeepSpeed can be deployed by different launchers such as torchrun, the deepspeed launcher, or Accelerate. To deploy, add --deepspeed ds_config.json to the [Trainer] command line. It’s recommended to use DeepSpeed’s add_config_arguments utility to add any necessary command line arguments to your code.
+This guide will show you how to deploy DeepSpeed with the deepspeed launcher fo

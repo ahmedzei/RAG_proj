@@ -1,0 +1,3 @@
+These methods are called before creating the quantized model to ensure users use the right configuration. You can have a look at how this is done on other quantizers.
+
+Write the _process_model_before_weight_loading method. In Transformers, the quantized models are initialized first on the "meta" device before loading the weights.

@@ -1,0 +1,4 @@
+
+Contribute new quantization method
+Transformers supports and integrates many quantization methods such as QLoRA, GPTQ, LLM.int8, and AWQ. However, there are other quantization approaches that are not yet integrated. To make adding and using these quantization methods with Transformers models easier, you should use the [HfQuantizer] class. The [HfQuantizer] is designed as an internal helper class for adding a quantization method instead of something you apply to every PyTorch module.
+This guide will show yo

@@ -1,0 +1,11 @@
+forward pass without key-value cache stays unchanged as every attention head still has a unique query vector so that each attention head still has a different \( \mathbf{QK}^T \) matrix.
+MQA has seen wide adoption by the community and is now used by many of the most popular LLMs:
+
+Falcon
+PaLM
+MPT
+BLOOM
+
+Also, the checkpoint used in this notebook - bigcode/octocoder - makes use of MQA.
+3.2.3 Grouped-Query-Attention (GQA)
+Grouped-Query-Attention, as proposed by Ainslie et al. from Google, found that using MQA

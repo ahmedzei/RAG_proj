@@ -1,0 +1,5 @@
+s on which the model is benchmarked. There are many more parameters that can be configured
+via the benchmark argument data classes. For more detail on these one can either directly consult the files
+src/transformers/benchmark/benchmark_args_utils.py, src/transformers/benchmark/benchmark_args.py (for PyTorch)
+and src/transformers/benchmark/benchmark_args_tf.py (for Tensorflow). Alternatively, running the following shell
+commands from root will print out a descriptive list of all configurable parameters for P

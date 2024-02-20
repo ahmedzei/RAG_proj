@@ -1,0 +1,11 @@
+on, and natural language inference. CamemBERT improves the state of the art
+for most of the tasks considered. We release the pretrained model for CamemBERT hoping to foster research and
+downstream applications for French NLP.
+This model was contributed by the ALMAnaCH team (Inria). The original code can be found here.
+
+This implementation is the same as RoBERTa. Refer to the documentation of RoBERTa for usage examples as well 
+as the information relative to the inputs and outputs.
+
+Resources
+
+Text classific

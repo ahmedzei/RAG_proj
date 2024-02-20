@@ -1,0 +1,2 @@
+EncoderModel, DecoderModel? Where is the self-attention layer? Are there multiple different attention layers,
+  e.g.

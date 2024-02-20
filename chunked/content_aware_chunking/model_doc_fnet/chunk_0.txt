@@ -1,0 +1,6 @@
+FNet
+Overview
+The FNet model was proposed in FNet: Mixing Tokens with Fourier Transforms by
+James Lee-Thorp, Joshua Ainslie, Ilya Eckstein, Santiago Ontanon. The model replaces the self-attention layer in a BERT
+model with a fourier transform which returns only the real parts of the transform. The model is significantly faster
+than the BERT model because it has fewer parameters and is more memory efficient.

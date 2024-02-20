@@ -1,0 +1,26 @@
+The configuration file contains the code for ResnetConfig and the modeling file
+contains the code of ResnetModel and ResnetModelForImageClassification.
+.
+└── resnet_model
+    ├── __init__.py
+    ├── configuration_resnet.py
+    └── modeling_resnet.py
+The __init__.py can be empty, it's just there so that Python detects resnet_model can be use as a module.
+
+If copying a modeling files from the library, you will need to replace all the relative imports at the top of the file
+to import from the transformers package.
+
+Note that you can re-use (or subclass) an existing configuration/model.
+To share your model with the community, follow those steps: first import the ResNet model and config from the newly
+created files:
+py
+from resnet_model.configuration_resnet import ResnetConfig
+from resnet_model.modeling_resnet import ResnetModel, ResnetModelForImageClassification
+Then you have to tell the library you want to copy the code files of those objects when using the save_pretrained
+method and properly register them with a given Auto class (especially for models), just run:
+py
+ResnetConfig.register_for_auto_class()
+ResnetModel.register_for_auto_class("AutoModel")
+ResnetModelForImageClassification.register_for_auto_class("AutoModelForImageClassification")
+Note that there is no need to specify an auto class for the configuration (there is only one auto class for them,
+[AutoConfig]) but it's different for models.

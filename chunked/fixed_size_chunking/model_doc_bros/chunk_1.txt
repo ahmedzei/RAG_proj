@@ -1,0 +1,5 @@
+information.
+It is pre-trained with two objectives: a token-masked language modeling objective (TMLM) used in BERT, and a novel area-masked language modeling objective (AMLM)
+In TMLM, tokens are randomly masked, and the model predicts the masked tokens using spatial information and other unmasked tokens.
+AMLM is a 2D version of TMLM. It randomly masks text tokens and predicts with the same information as TMLM, but it masks text blocks (areas).
+BrosForTokenClassification has a simple linear layer on top of B

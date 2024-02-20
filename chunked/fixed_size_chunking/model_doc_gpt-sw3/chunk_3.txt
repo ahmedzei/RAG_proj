@@ -1,0 +1,9 @@
+task guide
+
+The implementation uses the GPT2Model coupled with our GPTSw3Tokenizer. Refer to GPT2Model documentation 
+for API reference and examples.  
+Note that sentencepiece is required to use our tokenizer and can be installed with pip install transformers[sentencepiece] or pip install sentencepiece
+
+GPTSw3Tokenizer
+[[autodoc]] GPTSw3Tokenizer
+    - save_vocabulary

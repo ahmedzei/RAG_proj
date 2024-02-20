@@ -1,0 +1,5 @@
+It contains labelled audio-transcription data for 15 
+European languages. In this guide, we are using the Dutch language subset, feel free to pick another subset. 
+Note that VoxPopuli or any other automated speech recognition (ASR) dataset may not be the most suitable 
+option for training TTS models. The features that make it beneficial for ASR, such as excessive background noise, are 
+typically undesirable in TTS.

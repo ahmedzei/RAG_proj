@@ -1,0 +1,9 @@
+taset = load_dataset("PolyAI/minds14", name="en-US", split="train")  # doctest: +IGNORE_RESULT
+
+You need to make sure the sampling rate of the dataset matches the sampling 
+rate facebook/wav2vec2-base-960h was trained on:
+
+dataset = dataset.cast_column("audio", Audio(sampling_rate=speech_recognizer.feature_extractor.sampling_rate))
+
+The audio files are automatically loaded and resampled when calling the "audio" column.
+Extract the raw waveform arrays from the first 4 samples and pass it as a list to the pip

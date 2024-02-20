@@ -1,0 +1,8 @@
+on layers might be randomly initialized.
+Initializing [EncoderDecoderModel] from a pretrained encoder and decoder checkpoint requires the model to be fine-tuned on a downstream task, as has been shown in the Warm-starting-encoder-decoder blog post.
+To do so, the EncoderDecoderModel class provides a [EncoderDecoderModel.from_encoder_decoder_pretrained] method.
+thon
+
+from transformers import EncoderDecoderModel, BertTokenizer
+tokenizer = BertTokenizer.from_pretrained("google-bert/bert-base-uncased")
+model = E

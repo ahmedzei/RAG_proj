@@ -1,0 +1,13 @@
+ame dataset. BLOOM is available in the following versions:
+
+bloom-560m
+bloom-1b1
+bloom-1b7
+bloom-3b
+bloom-7b1
+bloom (176B parameters)
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with BLOOM. If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+[BloomForCausalLM] is supporte

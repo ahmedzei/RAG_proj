@@ -1,0 +1,2 @@
+We additionally find that transfer learning, which is trivial in our setting, from WIKISQL to WIKITQ, yields 48.7 accuracy, 4.2 points above the state-of-the-art.
+In addition, the authors have further pre-trained TAPAS to recognize table entailment, by creating a balanced dataset of millions of automatically created training examples which are learned in an intermediate step prior to fine-tuning.

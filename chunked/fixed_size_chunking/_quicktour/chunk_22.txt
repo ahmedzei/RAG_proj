@@ -1,0 +1,13 @@
+t"
+pt_model = AutoModelForSequenceClassification.from_pretrained(model_name)
+
+See the task summary for tasks supported by an [AutoModel] class.
+
+Now pass your preprocessed batch of inputs directly to the model. You just have to unpack the dictionary by adding **:
+
+pt_outputs = pt_model(**pt_batch)
+
+The model outputs the final activations in the logits attribute. Apply the softmax function to the logits to retrieve the probabilities:
+
+from torch import nn
+pt_predictions = nn.functional.softmax(pt_outputs.log

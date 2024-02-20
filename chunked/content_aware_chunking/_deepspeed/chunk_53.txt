@@ -1,0 +1,10 @@
+If this is not the case and each node can only see the local filesystem, you need to adjust the config file to include a checkpoint to allow loading without access to a shared filesystem:
+yaml
+{
+  "checkpoint": {
+    "use_node_local_storage": true
+  }
+}
+You could also use the [Trainer]'s --save_on_each_node argument to automatically add the above checkpoint to your config.
+
+For torchrun, you have to ssh to each node and run the following command on both of them.

@@ -1,0 +1,8 @@
+The [TrainingArguments] object must be created before calling the model [~PreTrainedModel.from_pretrained].
+
+from transformers import AutoModel, Trainer, TrainingArguments
+training_args = TrainingArguments(, deepspeed=ds_config)
+model = AutoModel.from_pretrained("google-t5/t5-small")
+trainer = Trainer(model=model, args=training_args, )
+
+You'll need ZeRO-3 if the fp16 weights don't fit on a single GPU.

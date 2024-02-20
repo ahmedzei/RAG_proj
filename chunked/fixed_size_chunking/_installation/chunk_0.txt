@@ -1,0 +1,11 @@
+
+Installation
+Install 🤗 Transformers for whichever deep learning library you're working with, setup your cache, and optionally configure 🤗 Transformers to run offline.
+🤗 Transformers is tested on Python 3.6+, PyTorch 1.1.0+, TensorFlow 2.0+, and Flax. Follow the installation instructions below for the deep learning library you are using:
+
+PyTorch installation instructions.
+TensorFlow 2.0 installation instructions.
+Flax installation instructions.
+
+Install with pip
+You should install 🤗 Transformers in a virtu

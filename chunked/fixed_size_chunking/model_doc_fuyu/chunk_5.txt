@@ -1,0 +1,10 @@
+ = FuyuConfig()
+model = FuyuForCausalLM(model_config).from_pretrained('/output/path')
+Inputs need to be passed through a specific Processor to have the correct formats.
+A processor requires an image_processor and a tokenizer. Hence, inputs can be loaded via:
+
+from PIL import Image
+from transformers import AutoTokenizer
+from transformers.models.fuyu.processing_fuyu import FuyuProcessor
+from transformers.models.fuyu.image_processing_fuyu import FuyuImageProcessor
+tokenizer = AutoTokenizer.from_pretrained('ade

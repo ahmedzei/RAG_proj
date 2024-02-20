@@ -1,0 +1,25 @@
+ard
+Wav2Vec2ForAudioFrameClassification
+[[autodoc]] Wav2Vec2ForAudioFrameClassification
+    - forward
+Wav2Vec2ForXVector
+[[autodoc]] Wav2Vec2ForXVector
+    - forward
+Wav2Vec2ForPreTraining
+[[autodoc]] Wav2Vec2ForPreTraining
+    - forward
+
+TFWav2Vec2Model
+[[autodoc]] TFWav2Vec2Model
+    - call
+TFWav2Vec2ForSequenceClassification
+[[autodoc]] TFWav2Vec2ForSequenceClassification
+    - call
+TFWav2Vec2ForCTC
+[[autodoc]] TFWav2Vec2ForCTC
+    - call
+
+FlaxWav2Vec2Model
+[[autodoc]] FlaxWav2Vec2Model
+    - call
+FlaxWa

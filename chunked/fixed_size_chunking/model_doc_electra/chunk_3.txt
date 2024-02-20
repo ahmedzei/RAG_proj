@@ -1,0 +1,5 @@
+s a result, the contextual representations learned by our
+approach substantially outperform the ones learned by BERT given the same model size, data, and compute. The gains are
+particularly strong for small models; for example, we train a model on one GPU for 4 days that outperforms GPT (trained
+using 30x more compute) on the GLUE natural language understanding benchmark. Our approach also works well at scale,
+where it performs comparably to RoBERTa and XLNet while using less than 1/4 of their compute and o

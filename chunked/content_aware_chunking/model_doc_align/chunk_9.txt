@@ -1,0 +1,21 @@
+The resource should ideally demonstrate something new instead of duplicating an existing resource.
+AlignConfig
+[[autodoc]] AlignConfig
+    - from_text_vision_configs
+AlignTextConfig
+[[autodoc]] AlignTextConfig
+AlignVisionConfig
+[[autodoc]] AlignVisionConfig
+AlignProcessor
+[[autodoc]] AlignProcessor
+AlignModel
+[[autodoc]] AlignModel
+    - forward
+    - get_text_features
+    - get_image_features
+AlignTextModel
+[[autodoc]] AlignTextModel
+    - forward
+AlignVisionModel
+[[autodoc]] AlignVisionModel
+    - forward.

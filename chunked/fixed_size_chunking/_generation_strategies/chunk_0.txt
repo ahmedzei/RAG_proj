@@ -1,0 +1,7 @@
+
+Text generation strategies
+Text generation is essential to many NLP tasks, such as open-ended text generation, summarization, translation, and
+more. It also plays a role in a variety of mixed-modality applications that have text as an output like speech-to-text
+and vision-to-text. Some of the models that can generate text include
+GPT2, XLNet, OpenAI GPT, CTRL, TransformerXL, XLM, Bart, T5, GIT, Whisper.
+Check out a few examples that use [~transformers.generation_utils.GenerationMixin.generate] method to pr

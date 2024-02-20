@@ -1,0 +1,11 @@
+ to fit, and 🤗 Transformers will push the trained model to the Hub:
+
+model.fit(tf_train_dataset, validation_data=tf_validation_dataset, epochs=3, callbacks=push_to_hub_callback)
+
+Use the push_to_hub function
+You can also call push_to_hub directly on your model to upload it to the Hub.
+Specify your model name in push_to_hub:
+
+pt_model.push_to_hub("my-awesome-model")
+
+This creates a repository under your username with the model name my-awesome-model. Users can now load your model with the from_pretrained func

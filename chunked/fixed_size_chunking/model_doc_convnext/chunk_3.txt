@@ -1,0 +1,7 @@
+onvNeXts compete favorably with Transformers in terms of accuracy and scalability, achieving 87.8% ImageNet top-1 accuracy
+and outperforming Swin Transformers on COCO detection and ADE20K segmentation, while maintaining the simplicity and efficiency of standard ConvNets.
+
+ ConvNeXT architecture. Taken from the original paper.
+This model was contributed by nielsr. TensorFlow version of the model was contributed by ariG23498,
+gante, and sayakpaul (equal contribution). The original code can be found here.
+Reso

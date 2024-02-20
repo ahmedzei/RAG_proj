@@ -1,0 +1,7 @@
+Are they trying to lose weight or are they just trying to be healthier?"]
+
+Implementation Notes
+
+Blenderbot uses a standard seq2seq model transformer based architecture.
+Available checkpoints can be found in the model hub.
+This is the default Blenderbot model class.

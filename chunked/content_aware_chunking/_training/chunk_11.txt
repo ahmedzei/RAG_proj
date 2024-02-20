@@ -1,0 +1,8 @@
+For this tutorial you can start with the default training hyperparameters, but feel free to experiment with these to find your optimal settings.
+Specify where to save the checkpoints from your training:
+
+from transformers import TrainingArguments
+training_args = TrainingArguments(output_dir="test_trainer")
+
+Evaluate
+[Trainer] does not automatically evaluate model performance during training. You'll need to pass [Trainer] a function to compute and report metrics.

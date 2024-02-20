@@ -1,0 +1,3 @@
+VQA can also be utilized in interactive museum exhibits or historical sites.
+* Customer service and e-commerce: VQA can enhance user experience by letting users ask questions about products. 
+* Image retrieval: VQA models can be used to retrieve images with specific characteristics.

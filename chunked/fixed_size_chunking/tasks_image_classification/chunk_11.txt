@@ -1,0 +1,10 @@
+cessing step, create a batch of examples using DefaultDataCollator. Unlike other data collators in 🤗 Transformers, the
+DefaultDataCollator does not apply additional preprocessing, such as padding.
+
+from transformers import DefaultDataCollator
+data_collator = DefaultDataCollator(return_tensors="tf")
+
+Evaluate
+Including a metric during training is often helpful for evaluating your model's performance. You can quickly load an
+evaluation method with the 🤗 Evaluate library. For this task, load
+the accuracy metri

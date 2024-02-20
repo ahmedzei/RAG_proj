@@ -1,0 +1,16 @@
+e necessary libraries installed:
+
+!pip install transformers datasets
+You'll also need to install your preferred machine learning framework:
+
+pip install torch
+
+pip install tensorflow
+
+Pipeline
+
+The [pipeline] is the easiest and fastest way to use a pretrained model for inference. You can use the [pipeline] out-of-the-box for many tasks across different modalities, some of which are shown in the table below:
+
+For a complete list of available tasks, check out the pipeline API reference.
+
+| Task               

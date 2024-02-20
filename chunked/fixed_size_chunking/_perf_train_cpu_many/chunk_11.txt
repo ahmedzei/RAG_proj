@@ -1,0 +1,5 @@
+ner that includes your model training script and all the dependencies needed to run the script. For
+  distributed CPU training jobs, this typically includes PyTorch, Transformers, Intel Extension for PyTorch, Intel
+  oneCCL Bindings for PyTorch, and OpenSSH to communicate between the containers.
+The snippet below is an example of a Dockerfile that uses a base image that supports distributed CPU training and then
+extracts a Transformers release to the /workspace directory, so that the example scripts are inc

@@ -1,0 +1,5 @@
+A notable example is the batch normalization layer's
+   epsilon (1e-5 in PyTorch
+   and 1e-3 in TensorFlow).
+   Double-check the documentation!
+- PyTorch's nn.Parameter variables typically need to be initialized within TF Layer's build().

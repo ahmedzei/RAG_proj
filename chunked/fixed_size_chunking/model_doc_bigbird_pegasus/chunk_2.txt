@@ -1,0 +1,5 @@
+uch as BERT, have been one of the most successful deep learning models for NLP.
+Unfortunately, one of their core limitations is the quadratic dependency (mainly in terms of memory) on the sequence
+length due to their full attention mechanism. To remedy this, we propose, BigBird, a sparse attention mechanism that
+reduces this quadratic dependency to linear. We show that BigBird is a universal approximator of sequence functions and
+is Turing complete, thereby preserving these properties of the quadratic, full

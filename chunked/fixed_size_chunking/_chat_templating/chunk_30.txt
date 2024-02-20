@@ -1,0 +1,6 @@
+what the default
+template for your tokenizer is by checking the tokenizer.default_chat_template attribute.
+This is something we do purely for backward compatibility reasons, to avoid breaking any existing workflows. Even when
+the class template is appropriate for your model, we strongly recommend overriding the default template by
+setting the chat_template attribute explicitly to make it clear to users that your model has been correctly configured
+for chat, and to future-proof in case the default templates 

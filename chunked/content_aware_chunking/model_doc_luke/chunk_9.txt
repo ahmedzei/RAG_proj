@@ -1,0 +1,9 @@
+By
+    using Wikipedia entities as input tokens, LUKE outputs token representations enriched by the information stored in
+    the embeddings of these entities. This is particularly effective for tasks requiring real-world knowledge, such as
+    question answering.
+
+There are three head models for the former use case:
+
+[LukeForEntityClassification], for tasks to classify a single entity in an input text such as
+    entity typing, e.g.

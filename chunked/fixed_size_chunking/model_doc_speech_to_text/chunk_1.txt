@@ -1,0 +1,8 @@
+ntropy loss and generates the
+transcripts/translations autoregressively. Speech2Text has been fine-tuned on several datasets for ASR and ST:
+LibriSpeech, CoVoST 2, MuST-C.
+This model was contributed by valhalla. The original code can be found here.
+Inference
+Speech2Text is a speech model that accepts a float tensor of log-mel filter-bank features extracted from the speech
+signal. It's a transformer-based seq2seq model, so the transcripts/translations are generated autoregressively. The
+generate() method can

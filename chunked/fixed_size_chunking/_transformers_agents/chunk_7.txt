@@ -1,0 +1,8 @@
+you have your own inference
+endpoint for this model (or another one) you can replace the URL above with your URL endpoint.
+
+StarCoder and OpenAssistant are free to use and perform admirably well on simple tasks. However, the checkpoints
+don't hold up when handling more complex prompts. If you're facing such an issue, we recommend trying out the OpenAI
+model which, while sadly not open-source, performs better at this given time.
+
+You're now good to go! Let's dive into the two APIs that you now have at your d

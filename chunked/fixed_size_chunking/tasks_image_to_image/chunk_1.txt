@@ -1,0 +1,9 @@
+peline only supports super resolution task.
+Let's begin by installing the necessary libraries.
+
+pip install transformers
+We can now initialize the pipeline with a Swin2SR model. We can then infer with the pipeline by calling it with an image. As of now, only Swin2SR models are supported in this pipeline. 
+thon
+from transformers import pipeline
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+pipe = pipeline(task="image-to-image", model="caidas/swin2SR-lightweight-x2-64", device=device)

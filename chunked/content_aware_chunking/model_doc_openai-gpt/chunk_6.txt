@@ -1,0 +1,13 @@
+Leveraging this feature allows GPT-2 to generate syntactically coherent text as it can be
+  observed in the run_generation.py example script.
+
+Note:
+If you want to reproduce the original tokenization process of the OpenAI GPT paper, you will need to install ftfy
+and SpaCy:
+
+pip install spacy ftfy==4.4.3
+python -m spacy download en
+If you don't install ftfy and SpaCy, the [OpenAIGPTTokenizer] will default to tokenize
+using BERT's BasicTokenizer followed by Byte-Pair Encoding (which should be fine for most usage, don't worry).
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with OpenAI GPT.

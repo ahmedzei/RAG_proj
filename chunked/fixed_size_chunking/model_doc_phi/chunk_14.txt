@@ -1,0 +1,17 @@
+an expected speedup diagram that compares pure inference time between the native implementation in transformers using microsoft/phi-1 checkpoint and the Flash Attention 2 version of the model using a sequence length of 2048.
+
+PhiConfig
+[[autodoc]] PhiConfig
+
+PhiModel
+[[autodoc]] PhiModel
+    - forward
+PhiForCausalLM
+[[autodoc]] PhiForCausalLM
+    - forward
+    - generate
+PhiForSequenceClassification
+[[autodoc]] PhiForSequenceClassification
+    - forward
+PhiForTokenClassification
+[[autodoc]] PhiForTokenClass

@@ -1,0 +1,5 @@
+dditional performance and computational costs.
+This paper has been accepted to the AAAI'23 conference. 
+The abstract from the paper is the following:
+Vision-Language (VL) models with the TWO-TOWER architecture have dominated visual-language representation learning in recent years.
+Current VL models either use lightweight uni-modal encoders and learn to extract, align and fuse both modalities simultaneously in a deep cross-modal encoder, or feed the last-layer uni-modal representations from the deep pre-trai

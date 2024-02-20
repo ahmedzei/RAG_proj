@@ -1,0 +1,72 @@
+If you want to load adapter weights of another language 
+make sure to specify target_lang=<your-chosen-target-lang> as well as "ignore_mismatched_sizes=True.
+The ignore_mismatched_sizes=True keyword has to be passed to allow the language model head to be resized according
+to the vocabulary of the specified language.
+Similarly, the processor should be loaded with the same target language
+
+from transformers import Wav2Vec2ForCTC, AutoProcessor
+model_id = "facebook/mms-1b-all"
+target_lang = "fra"
+processor = AutoProcessor.from_pretrained(model_id, target_lang=target_lang)
+model = Wav2Vec2ForCTC.from_pretrained(model_id, target_lang=target_lang, ignore_mismatched_sizes=True)
+
+You can safely ignore a warning such as:
+text
+Some weights of Wav2Vec2ForCTC were not initialized from the model checkpoint at facebook/mms-1b-all and are newly initialized because the shapes did not match:
+- lm_head.bias: found shape torch.Size([154]) in the checkpoint and torch.Size([314]) in the model instantiated
+- lm_head.weight: found shape torch.Size([154, 1280]) in the checkpoint and torch.Size([314, 1280]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+If you want to use the ASR pipeline, you can load your chosen target language as such:
+
+from transformers import pipeline
+model_id = "facebook/mms-1b-all"
+target_lang = "fra"
+pipe = pipeline(model=model_id, model_kwargs={"target_lang": "fra", "ignore_mismatched_sizes": True})
+
+Inference
+Next, let's look at how we can run MMS in inference and change adapter layers after having called [~PretrainedModel.from_pretrained]
+First, we load audio data in different languages using the Datasets.
+
+from datasets import load_dataset, Audio
+English
+stream_data = load_dataset("mozilla-foundation/common_voice_13_0", "en", split="test", streaming=True)
+stream_data = stream_data.cast_column("audio", Audio(sampling_rate=16000))
+en_sample = next(iter(stream_data))["audio"]["array"]
+French
+stream_data = load_dataset("mozilla-foundation/common_voice_13_0", "fr", split="test", streaming=True)
+stream_data = stream_data.cast_column("audio", Audio(sampling_rate=16000))
+fr_sample = next(iter(stream_data))["audio"]["array"]
+
+Next, we load the model and processor
+
+from transformers import Wav2Vec2ForCTC, AutoProcessor
+import torch
+model_id = "facebook/mms-1b-all"
+processor = AutoProcessor.from_pretrained(model_id)
+model = Wav2Vec2ForCTC.from_pretrained(model_id)
+
+Now we process the audio data, pass the processed audio data to the model and transcribe the model output,
+just like we usually do for [Wav2Vec2ForCTC].
+
+inputs = processor(en_sample, sampling_rate=16_000, return_tensors="pt")
+with torch.no_grad():
+    outputs = model(**inputs).logits
+ids = torch.argmax(outputs, dim=-1)[0]
+transcription = processor.decode(ids)
+'joe keton disapproved of films and buster also had reservations about the media'
+
+We can now keep the same model in memory and simply switch out the language adapters by
+calling the convenient [~Wav2Vec2ForCTC.load_adapter] function for the model and [~Wav2Vec2CTCTokenizer.set_target_lang] for the tokenizer.
+We pass the target language as an input - "fra" for French.
+
+processor.tokenizer.set_target_lang("fra")
+model.load_adapter("fra")
+inputs = processor(fr_sample, sampling_rate=16_000, return_tensors="pt")
+with torch.no_grad():
+    outputs = model(**inputs).logits
+ids = torch.argmax(outputs, dim=-1)[0]
+transcription = processor.decode(ids)
+"ce dernier est volé tout au long de l'histoire romaine"
+
+In the same way the language can be switched out for all other supported languages.

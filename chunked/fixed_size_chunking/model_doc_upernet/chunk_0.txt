@@ -1,0 +1,8 @@
+
+UPerNet
+Overview
+The UPerNet model was proposed in Unified Perceptual Parsing for Scene Understanding
+by Tete Xiao, Yingcheng Liu, Bolei Zhou, Yuning Jiang, Jian Sun. UPerNet is a general framework to effectively segment
+a wide range of concepts from images, leveraging any vision backbone like ConvNeXt or Swin.
+The abstract from the paper is the following:
+Humans recognize the visual world at multiple levels: we effortlessly categorize scenes and detect objects inside, while also identifying the textures a

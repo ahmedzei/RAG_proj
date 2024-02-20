@@ -1,0 +1,19 @@
+omething new instead of duplicating an existing resource.
+MobileViTConfig
+[[autodoc]] MobileViTConfig
+MobileViTFeatureExtractor
+[[autodoc]] MobileViTFeatureExtractor
+    - call
+    - post_process_semantic_segmentation
+MobileViTImageProcessor
+[[autodoc]] MobileViTImageProcessor
+    - preprocess
+    - post_process_semantic_segmentation
+
+MobileViTModel
+[[autodoc]] MobileViTModel
+    - forward
+MobileViTForImageClassification
+[[autodoc]] MobileViTForImageClassification
+    - forward
+MobileViTForSemanticSegmentat

@@ -1,0 +1,5 @@
+ageClassification
+    - forward
+MobileNetV2ForSemanticSegmentation
+[[autodoc]] MobileNetV2ForSemanticSegmentation
+    - forward

@@ -1,0 +1,7 @@
+full power of
+open-source models. Formatting mismatches have been haunting the field and silently harming performance for too long - 
+it's time to put an end to them!
+Advanced: Template writing tips
+If you're unfamiliar with Jinja, we generally find that the easiest way to write a chat template is to first
+write a short Python script that formats messages the way you want, and then convert that script into a template.
+Remember that the template handler will receive the conversation history as a variable cal

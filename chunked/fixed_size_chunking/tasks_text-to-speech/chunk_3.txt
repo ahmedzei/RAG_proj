@@ -1,0 +1,10 @@
+r different tasks. Furthermore, SpeechT5 supports multiple speakers through x-vector speaker embeddings. 
+The remainder of this guide illustrates how to:
+
+Fine-tune SpeechT5 that was originally trained on English speech on the Dutch (nl) language subset of the VoxPopuli dataset.
+Use your refined model for inference in one of two ways: using a pipeline or directly.
+
+Before you begin, make sure you have all the necessary libraries installed:
+
+pip install datasets soundfile speechbrain accelerate
+Install 🤗Tran

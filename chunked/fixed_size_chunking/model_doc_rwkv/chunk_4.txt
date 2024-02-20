@@ -1,0 +1,10 @@
+l
+[[autodoc]] RwkvModel
+    - forward
+RwkvLMHeadModel
+[[autodoc]] RwkvForCausalLM
+    - forward
+Rwkv attention and the recurrent formulas
+In a traditional auto-regressive Transformer, attention is written as
+$$O = \hbox{softmax}(QK^{T} / \sqrt{d}) V$$
+with \(Q\), \(K\) and \(V\) are matrices of shape seq_len x hidden_size named query, key and value (they are actually bigger matrices with a batch dimension and an attention head dimension but we're only interested in the last two, which is where the matrix pr

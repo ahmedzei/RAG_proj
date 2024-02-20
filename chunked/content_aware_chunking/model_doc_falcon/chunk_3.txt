@@ -1,0 +1,3 @@
+To use this script, simply call it with 
+python convert_custom_code_checkpoint.py --checkpoint_dir my_model. This will convert your checkpoint in-place, and
+you can immediately load it from the directory afterwards with e.g. from_pretrained().

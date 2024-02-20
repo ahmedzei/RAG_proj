@@ -1,0 +1,18 @@
+
+Optimization
+The .optimization module provides:
+
+an optimizer with weight decay fixed that can be used to fine-tuned models, and
+several schedules in the form of schedule objects that inherit from _LRSchedule:
+a gradient accumulation class to accumulate the gradients of multiple batches
+
+AdamW (PyTorch)
+[[autodoc]] AdamW
+AdaFactor (PyTorch)
+[[autodoc]] Adafactor
+AdamWeightDecay (TensorFlow)
+[[autodoc]] AdamWeightDecay
+[[autodoc]] create_optimizer
+Schedules
+Learning Rate Schedules (Pytorch)
+[[autodoc]] Sche

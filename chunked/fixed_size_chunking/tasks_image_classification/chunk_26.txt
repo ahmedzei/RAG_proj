@@ -1,0 +1,15 @@
+022331520915031, 'label': 'pork_chop'},
+ {'score': 0.012728818692266941, 'label': 'prime_rib'}]
+
+You can also manually replicate the results of the pipeline if you'd like:
+
+Load an image processor to preprocess the image and return the input as PyTorch tensors:
+
+from transformers import AutoImageProcessor
+import torch
+image_processor = AutoImageProcessor.from_pretrained("my_awesome_food_model")
+inputs = image_processor(image, return_tensors="pt")
+
+Pass your inputs to the model and return the logits:
+
+from t

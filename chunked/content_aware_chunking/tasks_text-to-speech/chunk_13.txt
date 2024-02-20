@@ -1,0 +1,8 @@
+To identify any unsupported characters in the dataset, you can take the difference between these two sets. The resulting 
+set will contain the characters that are in the dataset but not in the tokenizer.
+
+dataset_vocab - tokenizer_vocab
+{' ', 'à', 'ç', 'è', 'ë', 'í', 'ï', 'ö', 'ü'}
+
+To handle the unsupported characters identified in the previous step, define a function that maps these characters to 
+valid tokens.

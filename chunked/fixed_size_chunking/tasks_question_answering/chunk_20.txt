@@ -1,0 +1,14 @@
+s import pipeline
+question_answerer = pipeline("question-answering", model="my_awesome_qa_model")
+question_answerer(question=question, context=context)
+{'score': 0.2058267742395401,
+ 'start': 10,
+ 'end': 95,
+ 'answer': '176 billion parameters and can generate text in 46 languages natural languages and 13'}
+
+You can also manually replicate the results of the pipeline if you'd like:
+
+Tokenize the text and return PyTorch tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained

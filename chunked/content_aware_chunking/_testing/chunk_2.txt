@@ -1,0 +1,12 @@
+It only runs if a commit on main has updated the code in one of the following folders: src,
+     tests, .github (to prevent running on added model cards, notebooks, etc.)
+
+self-hosted runner: runs normal and slow tests on GPU in
+     tests and examples:
+
+RUN_SLOW=1 pytest tests/
+RUN_SLOW=1 pytest examples/
+The results can be observed here.
+Running tests
+Choosing which tests to run
+This document goes into many details of how tests can be run.

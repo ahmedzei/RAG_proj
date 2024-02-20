@@ -1,0 +1,5 @@
+It is a conditional variational 
+autoencoder (VAE) comprised of a posterior encoder, decoder, and conditional prior.
+A set of spectrogram-based acoustic features are predicted by the flow-based module, which is formed of a Transformer-based
+text encoder and multiple coupling layers. The spectrogram is decoded using a stack of transposed convolutional layers,
+much in the same style as the HiFi-GAN vocoder.

@@ -1,0 +1,15 @@
+etune a model in TensorFlow, start by setting up an optimizer function, learning rate schedule, and some training hyperparameters:
+
+from transformers import create_optimizer
+batch_size = 16
+num_epochs = 2
+total_train_steps = (len(tokenized_squad["train"]) // batch_size) * num_epochs
+optimizer, schedule = create_optimizer(
+     init_lr=2e-5,
+     num_warmup_steps=0,
+     num_train_steps=total_train_steps,
+ )
+
+Then you can load DistilBERT with [TFAutoModelForQuestionAnswering]:
+
+from transformers import TFAut

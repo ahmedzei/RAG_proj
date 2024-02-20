@@ -1,0 +1,9 @@
+d like to get the feature map from
+
+These parameters can be used interchangeably, but if you use both, make sure they're aligned with each other! If you don't pass any of these parameters, the backbone returns the feature map from the last layer.
+
+A feature map from the first stage of the backbone. The patch partition refers to the model stem.
+
+For example, in the above diagram, to return the feature map from the first stage of the Swin backbone, you can set out_indices=(1,):
+
+from transformers import AutoI

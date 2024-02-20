@@ -1,0 +1,7 @@
+Rather than pre-training the model to predict the class
+of an image (as done in the original ViT paper), BEiT models are pre-trained to
+predict visual tokens from the codebook of OpenAI's DALL-E model given masked
+patches.
+The abstract from the paper is the following:
+We introduce a self-supervised vision representation model BEiT, which stands for Bidirectional Encoder representation
+from Image Transformers.

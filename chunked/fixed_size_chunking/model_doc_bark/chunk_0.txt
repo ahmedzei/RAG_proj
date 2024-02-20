@@ -1,0 +1,8 @@
+
+Bark
+Overview
+Bark is a transformer-based text-to-speech model proposed by Suno AI in suno-ai/bark.
+Bark is made of 4 main models:
+
+[BarkSemanticModel] (also referred to as the 'text' model): a causal auto-regressive transformer model that takes as input tokenized text, and predicts semantic text tokens that capture the meaning of the text.
+[BarkCoarseModel] (also referred to as the 'coarse acoustics' model): a causal autoregressive transformer, that takes as input the results of the [BarkSemanticModel] mo

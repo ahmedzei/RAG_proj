@@ -1,0 +1,7 @@
+PyTorch 2.0 introduced a new compile function that doesn't require any modification to existing PyTorch code but can 
+optimize your code by adding a single line of code: model = torch.compile(model).
+If using [Trainer], you only need to pass the torch_compile option in the [TrainingArguments]: 
+python
+training_args = TrainingArguments(torch_compile=True, **default_args)
+torch.compile uses Python's frame evaluation API to automatically create a graph from existing PyTorch programs. After 
+capturing the graph

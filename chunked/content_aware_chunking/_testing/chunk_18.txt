@@ -1,0 +1,5 @@
+It has the same problem of imposing itself once installed.
+Look and feel variations
+pytest-sugar
+pytest-sugar is a plugin that improves the look-n-feel, adds a
+progressbar, and show tests that fail and the assert instantly.

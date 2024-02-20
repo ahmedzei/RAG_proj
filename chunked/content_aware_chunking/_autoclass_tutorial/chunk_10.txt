@@ -1,0 +1,3 @@
+In the next tutorial, learn how to use your newly loaded tokenizer, image processor, feature extractor and processor to preprocess a dataset for fine-tuning.
+
+Finally, the TFAutoModelFor classes let you load a pretrained model for a given task (see here for a complete list of available tasks).

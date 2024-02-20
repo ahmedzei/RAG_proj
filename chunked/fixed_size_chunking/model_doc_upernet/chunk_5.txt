@@ -1,0 +1,6 @@
+urce should ideally demonstrate something new instead of duplicating an existing resource.
+UperNetConfig
+[[autodoc]] UperNetConfig
+UperNetForSemanticSegmentation
+[[autodoc]] UperNetForSemanticSegmentation
+    - forward

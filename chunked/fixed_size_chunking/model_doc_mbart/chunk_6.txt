@@ -1,0 +1,7 @@
+ for an extra set of 25 language tokens and then pretrained on 50
+languages.
+According to the abstract
+Multilingual translation models can be created through multilingual finetuning. Instead of finetuning on one
+direction, a pretrained model is finetuned on many directions at the same time. It demonstrates that pretrained models
+can be extended to incorporate additional languages without loss of performance. Multilingual finetuning improves on
+average 1 BLEU over the strongest baselines (being either multil

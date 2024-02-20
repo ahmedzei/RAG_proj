@@ -1,0 +1,3 @@
+s. You can use callbacks to integrate with other libraries and inspect the training loop to report on progress or stop the training early. Callbacks do not modify anything in the training loop itself. To customize something like the loss function, you need to subclass the [Trainer] instead.
+Train with TensorFlow
+All models are a standard tf.keras.Model so they can be trained in TensorFlow with the Keras API. 🤗 Transformers provides the [~TFPreTrainedModel.prepare_tf_dataset] method to easily load your datas

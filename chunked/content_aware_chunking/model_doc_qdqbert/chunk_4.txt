@@ -1,0 +1,2 @@
+TensorQuantizer is the module
+for quantizing tensors, with QuantDescriptor defining how the tensor should be quantized.

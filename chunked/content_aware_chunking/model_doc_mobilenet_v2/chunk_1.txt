@@ -1,0 +1,1 @@
+We also describe efficient ways of applying these mobile models to object detection in a novel framework we call SSDLite.

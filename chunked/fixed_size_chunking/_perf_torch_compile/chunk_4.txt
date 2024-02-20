@@ -1,0 +1,14 @@
+uda")
+with torch.no_grad():
+    _ = model(**processed_input)
+
+Object Detection with DETR
+thon 
+from transformers import AutoImageProcessor, AutoModelForObjectDetection
+processor = AutoImageProcessor.from_pretrained("facebook/detr-resnet-50")
+model = AutoModelForObjectDetection.from_pretrained("facebook/detr-resnet-50").to("cuda")
+model = torch.compile(model)
+texts = ["a photo of a cat", "a photo of a dog"]
+inputs = processor(text=texts, images=image, return_tensors="pt").to("cuda")
+with torch.no_grad():
+   

@@ -1,0 +1,28 @@
+ high level, the dataset is organized like so:
+
+UCF101_subset/
+    train/
+        BandMarching/
+            video_1.mp4
+            video_2.mp4
+            
+        Archery
+            video_1.mp4
+            video_2.mp4
+            
+        
+    val/
+        BandMarching/
+            video_1.mp4
+            video_2.mp4
+            
+        Archery
+            video_1.mp4
+            video_2.mp4
+            
+        
+    test/
+        BandMarching/
+            video_1.mp4
+            video_2.mp4
+           

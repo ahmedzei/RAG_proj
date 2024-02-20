@@ -1,0 +1,11 @@
+source text format is X [eos, src_lang_code] where X is the source text. The
+target text format is [tgt_lang_code] X [eos]. bos is never used.
+The regular [~MBartTokenizer.__call__] will encode source text format passed as first argument or with the text
+keyword, and target text format passed with the text_label keyword argument.
+
+Supervised training
+
+thon
+
+from transformers import MBartForConditionalGeneration, MBartTokenizer
+tokenizer = MBartTokenizer.from_pretrained("facebook/mbart-large-en-ro", src_lang

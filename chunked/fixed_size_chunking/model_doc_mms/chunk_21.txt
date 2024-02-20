@@ -1,0 +1,13 @@
+tokenizer = VitsTokenizer.from_pretrained("facebook/mms-tts-eng")
+model = VitsModel.from_pretrained("facebook/mms-tts-eng")
+inputs = tokenizer(text="Hello - my dog is cute", return_tensors="pt")
+make deterministic
+set_seed(555)  
+make speech faster and more noisy
+model.speaking_rate = 1.5
+model.noise_scale = 0.8
+with torch.no_grad():
+   outputs = model(**inputs)
+
+Language Identification (LID)
+Different LID models are available based on the number of languages they can recognize - 126, 256, 512, 1024, 2048, 

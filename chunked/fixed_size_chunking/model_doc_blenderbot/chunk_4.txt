@@ -1,0 +1,15 @@
+s)
+print(tokenizer.batch_decode(reply_ids))
+[" That's unfortunate. Are they trying to lose weight or are they just trying to be healthier?"]
+
+Implementation Notes
+
+Blenderbot uses a standard seq2seq model transformer based architecture.
+Available checkpoints can be found in the model hub.
+This is the default Blenderbot model class. However, some smaller checkpoints, such as
+  facebook/blenderbot_small_90M, have a different architecture and consequently should be used with
+  BlenderbotSmall.
+
+Resources
+
+Caus

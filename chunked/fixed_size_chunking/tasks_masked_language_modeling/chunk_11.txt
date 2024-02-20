@@ -1,0 +1,11 @@
+h for the model.
+You can now use a second preprocessing function to
+- concatenate all the sequences
+- split the concatenated sequences into shorter chunks defined by block_size, which should be both shorter than the maximum input length and short enough for your GPU RAM. 
+
+block_size = 128
+def group_texts(examples):
+     # Concatenate all texts.
+     concatenated_examples = {k: sum(examples[k], []) for k in examples.keys()}
+     total_length = len(concatenated_examples[list(examples.keys())[0]])
+     # We d

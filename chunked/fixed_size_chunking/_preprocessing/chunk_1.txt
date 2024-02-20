@@ -1,0 +1,8 @@
+e them into tensors.
+Speech and audio, use a Feature extractor to extract sequential features from audio waveforms and convert them into tensors.
+Image inputs use a ImageProcessor to convert images into tensors.
+Multimodal inputs, use a Processor to combine a tokenizer and a feature extractor or image processor.
+
+AutoProcessor always works and automatically chooses the correct class for the model you're using, whether you're using a tokenizer, image processor, feature extractor or processor.
+
+Before you beg

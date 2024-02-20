@@ -1,0 +1,8 @@
+lues"]
+     return examples
+
+In the example above we set do_resize=False because we have already resized the images in the image augmentation transformation,
+and leveraged the size attribute from the appropriate image_processor. If you do not resize images during image augmentation,
+leave this parameter out. By default, ImageProcessor will handle the resizing.
+If you wish to normalize images as a part of the augmentation transformation, use the image_processor.image_mean,
+and image_processor.image_std value

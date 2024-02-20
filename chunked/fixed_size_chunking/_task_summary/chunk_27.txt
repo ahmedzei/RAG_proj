@@ -1,0 +1,4 @@
+327, start: 30, end: 54, answer: huggingface/transformers
+
+Summarization
+Summarization creates a shorter version of a text from a longer one while trying to preserve most of the meaning of the original document. Summarization is a sequence-to-sequence task; it outputs a shorter text sequence than the input. There are a lot of long-form documents that can be summarized to help readers quickly understand the main points. Legislative bills, legal and financial documents, patents, and scientific papers are a fe

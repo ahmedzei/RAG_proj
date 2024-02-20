@@ -1,0 +1,9 @@
+ better than the previous best method. Our best model, SegFormer-B5, achieves 84.0% mIoU on
+Cityscapes validation set and shows excellent zero-shot robustness on Cityscapes-C.
+The figure below illustrates the architecture of SegFormer. Taken from the original paper.
+
+This model was contributed by nielsr. The TensorFlow version
+of the model was contributed by sayakpaul. The original code can be found here.
+Usage tips
+
+SegFormer consists of a hierarchical Transformer encoder, and a lightweight all-MLP decoder

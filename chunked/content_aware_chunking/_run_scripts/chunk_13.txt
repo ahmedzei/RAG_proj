@@ -1,0 +1,7 @@
+Make sure you have 🤗 Accelerate installed if you don't already have it:
+
+Note: As Accelerate is rapidly developing, the git version of accelerate must be installed to run the scripts
+
+pip install git+https://github.com/huggingface/accelerate
+
+Instead of the run_summarization.py script, you need to use the run_summarization_no_trainer.py script. 🤗 Accelerate supported scripts will have a task_no_trainer.py file in the folder.

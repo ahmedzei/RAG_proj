@@ -1,0 +1,7 @@
+er], Transformers provides a [HfDeepSpeedConfig] class.
+
+Learn more about using DeepSpeed with [Trainer] in the DeepSpeed guide.
+
+HfDeepSpeedConfig
+[[autodoc]] integrations.HfDeepSpeedConfig
+    - all

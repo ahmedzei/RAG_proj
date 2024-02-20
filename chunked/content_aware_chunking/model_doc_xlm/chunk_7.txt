@@ -1,0 +1,64 @@
+To predict one of the masked tokens, the model can use both, the surrounding context in language 1 and the context given by language 2.
+
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+XLMConfig
+[[autodoc]] XLMConfig
+XLMTokenizer
+[[autodoc]] XLMTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+XLM specific outputs
+[[autodoc]] models.xlm.modeling_xlm.XLMForQuestionAnsweringOutput
+
+XLMModel
+[[autodoc]] XLMModel
+    - forward
+XLMWithLMHeadModel
+[[autodoc]] XLMWithLMHeadModel
+    - forward
+XLMForSequenceClassification
+[[autodoc]] XLMForSequenceClassification
+    - forward
+XLMForMultipleChoice
+[[autodoc]] XLMForMultipleChoice
+    - forward
+XLMForTokenClassification
+[[autodoc]] XLMForTokenClassification
+    - forward
+XLMForQuestionAnsweringSimple
+[[autodoc]] XLMForQuestionAnsweringSimple
+    - forward
+XLMForQuestionAnswering
+[[autodoc]] XLMForQuestionAnswering
+    - forward
+
+TFXLMModel
+[[autodoc]] TFXLMModel
+    - call
+TFXLMWithLMHeadModel
+[[autodoc]] TFXLMWithLMHeadModel
+    - call
+TFXLMForSequenceClassification
+[[autodoc]] TFXLMForSequenceClassification
+    - call
+TFXLMForMultipleChoice
+[[autodoc]] TFXLMForMultipleChoice
+    - call
+TFXLMForTokenClassification
+[[autodoc]] TFXLMForTokenClassification
+    - call
+TFXLMForQuestionAnsweringSimple
+[[autodoc]] TFXLMForQuestionAnsweringSimple
+    - call
+
+.

@@ -1,0 +1,4 @@
+It takes an input named document which should be the document containing the information, as well as a question that is the question about the document. It returns a text that contains the answer to the question.
+- image_captioner: This is a tool that generates a description of an image. It takes an input named image which should be the image to the caption and returns a text that contains the description in English.
+[]
+Task: "Answer the question in the variable question about the image stored in the variab

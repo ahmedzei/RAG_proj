@@ -1,0 +1,7 @@
+Representation learning produces features that generalize across a range of
+applications, enabling state-of-the-art supervised prediction of mutational effect and secondary structure and
+improving state-of-the-art features for long-range contact prediction.
+The abstract from
+"Language models of protein sequences at the scale of evolution enable accurate structure prediction" is
+Large language models have recently been shown to develop emergent capabilities with scale, going beyond
+simple pattern matching to perform higher level reasoning and generate lifelike images and text.

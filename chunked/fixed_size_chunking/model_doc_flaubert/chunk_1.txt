@@ -1,0 +1,6 @@
+nt way
+to pre-train continuous word representations that can be fine-tuned for a downstream task, along with their
+contextualization at the sentence level. This has been widely demonstrated for English using contextualized
+representations (Dai and Le, 2015; Peters et al., 2018; Howard and Ruder, 2018; Radford et al., 2018; Devlin et al.,
+2019; Yang et al., 2019b). In this paper, we introduce and share FlauBERT, a model learned on a very large and
+heterogeneous French corpus. Models of different sizes are tr

@@ -1,0 +1,5 @@
+ncoderDecoderModel.from_encoder_decoder_pretrained("google-bert/bert-base-uncased", "google-bert/bert-base-uncased")
+
+Loading an existing EncoderDecoderModel checkpoint and perform inference.
+To load fine-tuned checkpoints of the EncoderDecoderModel class, [EncoderDecoderModel] provides the from_pretrained() method just like any other model architecture in Transformers.
+To perform inference, one uses the [generate] method, which allows to autoregressively generate text. This method supports various forms of

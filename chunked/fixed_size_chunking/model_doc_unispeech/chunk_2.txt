@@ -1,0 +1,9 @@
+one error rate reductions respectively (averaged over all
+testing languages). The transferability of UniSpeech is also demonstrated on a domain-shift speech recognition task,
+i.e., a relative word error rate reduction of 6% against the previous approach.
+This model was contributed by patrickvonplaten. The Authors' code can be
+found here.
+Usage tips
+
+UniSpeech is a speech model that accepts a float array corresponding to the raw waveform of the speech signal. Please
+  use [Wav2Vec2Processor] for the feature 

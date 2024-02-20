@@ -1,0 +1,30 @@
+, ,  0.00024414,
+          0.00024414,  0.00024414], dtype=float32),
+  'path': '/root/.cache/huggingface/datasets/downloads/extracted/f14948e0e84be638dd7943ac36518a4cf3324e8b7aa331c5ab11541518e9368c/en-US~APP_ERROR/602ba9e2963e11ccd901cd4f.wav',
+  'sampling_rate': 8000},
+ 'path': '/root/.cache/huggingface/datasets/downloads/extracted/f14948e0e84be638dd7943ac36518a4cf3324e8b7aa331c5ab11541518e9368c/en-US~APP_ERROR/602ba9e2963e11ccd901cd4f.wav',
+ 'transcription': "hi I'm trying to use the banking app on my phone and currently my checking and savings account balance is not refreshing"}
+
+There are two fields:
+
+audio: a 1-dimensional array of the speech signal that must be called to load and resample the audio file.
+transcription: the target text.
+
+Preprocess
+The next step is to load a Wav2Vec2 processor to process the audio signal:
+
+from transformers import AutoProcessor
+processor = AutoProcessor.from_pretrained("facebook/wav2vec2-base")
+
+The MInDS-14 dataset has a sampling rate of 8000kHz (you can find this information in its dataset card), which means you'll need to resample the dataset to 16000kHz to use the pretrained Wav2Vec2 model:
+
+minds = minds.cast_column("audio", Audio(sampling_rate=16_000))
+minds["train"][0]
+{'audio': {'array': array([-2.38064706e-04, -1.58618059e-04, -5.43987835e-06, ,
+          2.78103951e-04,  2.38446111e-04,  1.18740834e-04], dtype=float32),
+  'path': '/root/.cache/huggingface/datasets/downloads/extracted/f14948e0e84be638dd7943ac36518a4cf3324e8b7aa331c5ab11541518e9368c/en-US~APP_ERROR/602ba9e2963e11ccd901cd4f.wav',
+  'sampling_rate': 16000},
+ 'path': '/root/.cache/huggingface/datasets/downloads/extracted/f14948e0e84be638dd7943ac36518a4cf3324e8b7aa331c5ab11541518e9368c/en-US~APP_ERROR/602ba9e2963e11ccd901cd4f.wav',
+ 'transcription': "hi I'm trying to use the banking app on my phone and currently my checking and savings account balance is not refreshing"}
+
+As you can see in the transcription above, the text contains a mix of upper and lowercase characters.

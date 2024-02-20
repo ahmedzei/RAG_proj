@@ -1,0 +1,2 @@
+would be the case when using an encoder-decoder architecture).
+In transformers, a generate call will return past_key_values when return_dict_in_generate=True is passed, in addition to the default use_cache=True.

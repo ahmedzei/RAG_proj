@@ -1,0 +1,10 @@
+max_new_tokens=30,
+     bad_words_ids=[[processor.tokenizer.unk_token_id]],
+ )
+sequence = processor.batch_decode(outputs, skip_special_tokens=True)[0]
+sequence = processor.post_process_generation(sequence, fix_markdown=False)
+note: we're using repr here such for the sake of printing the \n characters, feel free to just print the sequence
+print(repr(sequence))
+'\n\n# Nougat: Neural Optical Understanding for Academic Documents\n\n Lukas Blecher\n\nCorrespondence to: lblecher@'
+
+See the model hub to look for N

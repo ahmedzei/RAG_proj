@@ -1,0 +1,18 @@
+ing_rate': 16000}
+
+You can then listen to the result:
+
+from IPython.display import Audio
+Audio(output['audio'], rate=output['sampling_rate']) 
+
+Run inference manually
+You can achieve the same inference results without using the pipeline, however, more steps will be required. 
+Load the model from the 🤗 Hub: 
+
+model = SpeechT5ForTextToSpeech.from_pretrained("YOUR_ACCOUNT/speecht5_finetuned_voxpopuli_nl")
+
+Pick an example from the test dataset obtain a speaker embedding. 
+ 
+
+example = dataset["test"][304]
+spea

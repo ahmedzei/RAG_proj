@@ -1,0 +1,23 @@
+This downloads the vocab a model was pretrained with:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-cased")
+
+Then pass your text to the tokenizer:
+
+encoded_input = tokenizer("Do not meddle in the affairs of wizards, for they are subtle and quick to anger.")
+print(encoded_input)
+{'input_ids': [101, 2079, 2025, 19960, 10362, 1999, 1996, 3821, 1997, 16657, 1010, 2005, 2027, 2024, 11259, 1998, 4248, 2000, 4963, 1012, 102],
+ 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+
+The tokenizer returns a dictionary with three important items:
+
+input_ids are the indices corresponding to each token in the sentence.
+attention_mask indicates whether a token should be attended to or not.
+token_type_ids identifies which sequence a token belongs to when there is more than one sequence.
+
+Return your input by decoding the input_ids:
+
+tokenizer.decode(encoded_input["input_ids"])
+'[CLS] Do not meddle in the affairs of wizards, for they are subtle and quick to anger.

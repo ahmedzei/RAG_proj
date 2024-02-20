@@ -1,0 +1,11 @@
+with-lm")
+load example dataset
+dataset = load_dataset("hf-internal-testing/librispeech_asr_dummy", "clean", split="validation")
+dataset = dataset.cast_column("audio", datasets.Audio(sampling_rate=16_000))
+def map_to_array(batch):
+     batch["speech"] = batch["audio"]["array"]
+     return batch
+prepare speech data for batch inference
+dataset = dataset.map(map_to_array, remove_columns=["audio"])
+def map_to_pred(batch, pool):
+     inputs = processor(batch["speech"], sampling_rate=16_000, padding=True, return_t

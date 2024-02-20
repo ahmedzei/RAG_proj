@@ -1,0 +1,10 @@
+language id. The following
+  example shows how to translate English to Romanian using the facebook/mbart-large-en-ro model.
+thon
+
+from transformers import MBartForConditionalGeneration, MBartTokenizer
+tokenizer = MBartTokenizer.from_pretrained("facebook/mbart-large-en-ro", src_lang="en_XX")
+article = "UN Chief Says There Is No Military Solution in Syria"
+inputs = tokenizer(article, return_tensors="pt")
+translated_tokens = model.generate(**inputs, decoder_start_token_id=tokenizer.lang_code_to_id["ro_RO"])
+to

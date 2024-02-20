@@ -1,0 +1,11 @@
+ energy costs. It's the most aggressive action on tackling the climate crisis in American history, which will lift up American workers and create good-paying, union jobs across the country."}]
+
+You can also manually replicate the results of the pipeline if you'd like:
+
+Tokenize the text and return the input_ids as PyTorch tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("stevhliu/my_awesome_billsum_model")
+inputs = tokenizer(text, return_tensors="pt").input_ids
+
+Use

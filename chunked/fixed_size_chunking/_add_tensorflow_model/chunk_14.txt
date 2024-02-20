@@ -1,0 +1,7 @@
+ractical ones, namely the existing model documentation
+page (e.g. model docs for BERT).
+After you've grasped the basics of the models you are about to implement, it's important to understand the existing
+implementation. This is a great chance to confirm that a working implementation matches your expectations for the
+model, as well as to foresee technical challenges on the TensorFlow side.
+It's perfectly natural that you feel overwhelmed with the amount of information that you've just absorbed. It is
+definit

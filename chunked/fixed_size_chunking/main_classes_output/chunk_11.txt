@@ -1,0 +1,12 @@
+utput
+[[autodoc]] modeling_tf_outputs.TFSequenceClassifierOutput
+TFSeq2SeqSequenceClassifierOutput
+[[autodoc]] modeling_tf_outputs.TFSeq2SeqSequenceClassifierOutput
+TFMultipleChoiceModelOutput
+[[autodoc]] modeling_tf_outputs.TFMultipleChoiceModelOutput
+TFTokenClassifierOutput
+[[autodoc]] modeling_tf_outputs.TFTokenClassifierOutput
+TFQuestionAnsweringModelOutput
+[[autodoc]] modeling_tf_outputs.TFQuestionAnsweringModelOutput
+TFSeq2SeqQuestionAnsweringModelOutput
+[[autodoc]] modeling_tf_outputs.TFSeq2SeqQuesti

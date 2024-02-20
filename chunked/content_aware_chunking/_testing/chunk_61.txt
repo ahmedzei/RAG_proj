@@ -1,0 +1,29 @@
+To get identical reproducible results set, you
+will need to fix the seed:
+thon
+seed = 42
+python RNG
+import random
+random.seed(seed)
+pytorch RNGs
+import torch
+torch.manual_seed(seed)
+torch.backends.cudnn.deterministic = True
+if torch.cuda.is_available():
+    torch.cuda.manual_seed_all(seed)
+numpy RNG
+import numpy as np
+np.random.seed(seed)
+tf RNG
+tf.random.set_seed(seed)
+
+Debugging tests
+To start a debugger at the point of the warning, do this:
+
+pytest tests/utils/test_logging.py -W error::UserWarning --pdb
+Working with github actions workflows
+To trigger a self-push workflow CI job, you must:
+
+Create a new branch on transformers origin (not a fork!).
+The branch name has to start with either ci_ or ci- (main triggers it too, but we can't do PRs on
+   main).

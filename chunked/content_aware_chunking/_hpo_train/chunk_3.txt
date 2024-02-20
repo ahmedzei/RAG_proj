@@ -1,0 +1,56 @@
+It's like following
+
+best_trials = trainer.hyperparameter_search(
+     direction=["minimize", "maximize"],
+     backend="optuna",
+     hp_space=optuna_hp_space,
+     n_trials=20,
+     compute_objective=compute_objective,
+ )
+
+For raytune, see raytune object_parameter, it's like following:
+
+def ray_hp_space(trial):
+     return {
+         "learning_rate": tune.loguniform(1e-6, 1e-4),
+         "per_device_train_batch_size": tune.choice([16, 32, 64, 128]),
+     }
+
+For wandb, see wandb object_parameter, it's like following:
+
+def wandb_hp_space(trial):
+     return {
+         "method": "random",
+         "metric": {"name": "objective", "goal": "minimize"},
+         "parameters": {
+             "learning_rate": {"distribution": "uniform", "min": 1e-6, "max": 1e-4},
+             "per_device_train_batch_size": {"values": [16, 32, 64, 128]},
+         },
+     }
+
+Define a model_init function and pass it to the [Trainer], as an example:
+
+def model_init(trial):
+     return AutoModelForSequenceClassification.from_pretrained(
+         model_args.model_name_or_path,
+         from_tf=bool(".ckpt" in model_args.model_name_or_path),
+         config=config,
+         cache_dir=model_args.cache_dir,
+         revision=model_args.model_revision,
+         token=True if model_args.use_auth_token else None,
+     )
+
+Create a [Trainer] with your model_init function, training arguments, training and test datasets, and evaluation function:
+
+trainer = Trainer(
+     model=None,
+     args=training_args,
+     train_dataset=small_train_dataset,
+     eval_dataset=small_eval_dataset,
+     compute_metrics=compute_metrics,
+     tokenizer=tokenizer,
+     model_init=model_init,
+     data_collator=data_collator,
+ )
+
+Call hyperparameter search, get the best trial parameters, backend could be "optuna"/"sigopt"/"wandb"/"ray".

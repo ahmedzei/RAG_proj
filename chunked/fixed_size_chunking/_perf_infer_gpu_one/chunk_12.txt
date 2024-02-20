@@ -1,0 +1,13 @@
+to BetterTransformer
+model.to_bettertransformer()
+input_text = "Hello my dog is cute and"
+inputs = tokenizer(input_text, return_tensors="pt").to("cuda")
+
+with torch.backends.cuda.sdp_kernel(enable_flash=True, enable_math=False, enable_mem_efficient=False):
+    outputs = model.generate(**inputs)
+
+print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+
+If you see a bug with the traceback below, try using the nightly version of PyTorch which may have broader coverage for FlashAttention:
+```bash
+RuntimeE

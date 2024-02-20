@@ -1,0 +1,13 @@
+
+flattened_labels = list(itertools.chain(*labels))
+unique_labels = list(set(flattened_labels))
+label2id = {label: idx for idx, label in enumerate(unique_labels)}
+id2label = {idx: label for label, idx in label2id.items()} 
+
+Now that we have the mappings, we can replace the string answers with their ids, and flatten the dataset for a more convenient further preprocessing. 
+thon
+
+def replace_ids(inputs):
+   inputs["label"]["ids"] = [label2id[x] for x in inputs["label"]["ids"]]
+   return inputs
+dataset = datase

@@ -1,0 +1,12 @@
+dependencies with
+pip install transformers"[speech, sentencepiece]" or install the packages separately with pip install torchaudio sentencepiece. Also torchaudio requires the development version of the libsndfile package which can be installed via a system package manager. On Ubuntu it can
+be installed as follows: apt install libsndfile1-dev
+
+ASR and Speech Translation
+
+thon
+
+import torch
+from transformers import Speech2TextProcessor, Speech2TextForConditionalGeneration
+from datasets import load_dataset
+mod

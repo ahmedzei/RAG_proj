@@ -1,0 +1,10 @@
+ questions on Stack Exchange with RLHF.
+
+⚗️ Optimization
+- A notebook on how to fine-tune LLaMA model using xturing library on GPU which has limited memory. 🌎 
+⚡️ Inference
+- A notebook on how to run the LLaMA Model using PeftModel from the 🤗 PEFT library. 🌎 
+- A notebook on how to load a PEFT adapter LLaMA model with LangChain. 🌎
+🚀 Deploy
+- A notebook on how to fine-tune LLaMA model using LoRA method via the 🤗 PEFT library with intuitive UI. 🌎 
+- A notebook on how to deploy Open-LLaMA model for text genera

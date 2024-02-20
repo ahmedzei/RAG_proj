@@ -1,0 +1,20 @@
+doc]] BigBirdTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+BigBirdTokenizerFast
+[[autodoc]] BigBirdTokenizerFast
+BigBird specific outputs
+[[autodoc]] models.big_bird.modeling_big_bird.BigBirdForPreTrainingOutput
+
+BigBirdModel
+[[autodoc]] BigBirdModel
+    - forward
+BigBirdForPreTraining
+[[autodoc]] BigBirdForPreTraining
+    - forward
+BigBirdForCausalLM
+[[autodoc]] BigBirdForCausalLM
+    - forward
+BigBirdForMaske

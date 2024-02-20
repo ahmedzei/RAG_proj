@@ -1,0 +1,12 @@
+et as a tf.data.Dataset so you can start training right away with Keras' compile and fit methods.
+
+You'll start with a [TFPreTrainedModel] or a tf.keras.Model:
+
+from transformers import TFAutoModelForSequenceClassification
+model = TFAutoModelForSequenceClassification.from_pretrained("distilbert/distilbert-base-uncased")
+   
+
+Load a preprocessing class like a tokenizer, image processor, feature extractor, or processor:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("distilb

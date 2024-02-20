@@ -1,0 +1,44 @@
+Instantiate a pipeline for video classification with your model, and pass your video to it:
+
+from transformers import pipeline
+video_cls = pipeline(model="my_awesome_video_cls_model")
+video_cls("https://huggingface.co/datasets/sayakpaul/ucf101-subset/resolve/main/v_BasketballDunk_g14_c06.avi")
+[{'score': 0.9272987842559814, 'label': 'BasketballDunk'},
+ {'score': 0.017777055501937866, 'label': 'BabyCrawling'},
+ {'score': 0.01663011871278286, 'label': 'BalanceBeam'},
+ {'score': 0.009560945443809032, 'label': 'BandMarching'},
+ {'score': 0.0068979403004050255, 'label': 'BaseballPitch'}]
+
+You can also manually replicate the results of the pipeline if you'd like.
+
+def run_inference(model, video):
+     # (num_frames, num_channels, height, width)
+     perumuted_sample_test_video = video.permute(1, 0, 2, 3)
+     inputs = {
+         "pixel_values": perumuted_sample_test_video.unsqueeze(0),
+         "labels": torch.tensor(
+             [sample_test_video["label"]]
+         ),  # this can be skipped if you don't have labels available.
+     }
+
+     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+     inputs = {k: v.to(device) for k, v in inputs.items()}
+     model = model.to(device)
+     # forward pass
+     with torch.no_grad():
+         outputs = model(**inputs)
+         logits = outputs.logits
+     return logits
+
+Now, pass your input to the model and return the logits:
+
+logits = run_inference(trained_model, sample_test_video["video"])
+
+Decoding the logits, we get: 
+ 
+
+predicted_class_idx = logits.argmax(-1).item()
+print("Predicted class:", model.config.id2label[predicted_class_idx])
+
+Predicted class: BasketballDunk
+```.

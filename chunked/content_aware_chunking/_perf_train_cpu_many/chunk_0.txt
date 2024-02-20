@@ -1,0 +1,5 @@
+Efficient Training on Multiple CPUs
+When training on a single CPU is too slow, we can use multiple CPUs. This guide focuses on PyTorch-based DDP enabling
+distributed CPU training efficiently on bare metal and Kubernetes.
+Intel® oneCCL Bindings for PyTorch
+Intel® oneCCL (collective communications library) is a library for efficient distributed deep learning training implementing such collectives like allreduce, allgather, alltoall.

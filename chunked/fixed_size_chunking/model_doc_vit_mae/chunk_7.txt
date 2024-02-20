@@ -1,0 +1,13 @@
+utodoc]] ViTMAEModel
+    - forward
+ViTMAEForPreTraining
+[[autodoc]] transformers.ViTMAEForPreTraining
+    - forward
+
+TFViTMAEModel
+[[autodoc]] TFViTMAEModel
+    - call
+TFViTMAEForPreTraining
+[[autodoc]] transformers.TFViTMAEForPreTraining
+    - call
+

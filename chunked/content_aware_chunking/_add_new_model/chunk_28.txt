@@ -1,0 +1,10 @@
+You need to
+figure out the following:
+
+Where to find the pretrained weights?
+How to load the pretrained weights into the corresponding model?
+How to run the tokenizer independently from the model?
+Trace one forward pass so that you know which classes and functions are required for a simple forward pass. Usually,
+  you only have to reimplement those functions.
+Be able to locate the important components of the model: Where is the model's class? Are there model sub-classes,
+  e.g.

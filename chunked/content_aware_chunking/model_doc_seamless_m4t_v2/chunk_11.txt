@@ -1,0 +1,16 @@
+Use dedicated models
+[SeamlessM4Tv2Model] is transformers top level model to generate speech and text, but you can also use dedicated models that perform the task without additional components, thus reducing the memory footprint.
+For example, you can replace the audio-to-audio generation snippet with the model dedicated to the S2ST task, the rest is exactly the same code: 
+thon
+
+from transformers import SeamlessM4Tv2ForSpeechToSpeech
+model = SeamlessM4Tv2ForSpeechToSpeech.from_pretrained("facebook/seamless-m4t-v2-large")
+
+Or you can replace the text-to-text generation snippet with the model dedicated to the T2TT task, you only have to remove generate_speech=False.
+thon
+
+from transformers import SeamlessM4Tv2ForTextToText
+model = SeamlessM4Tv2ForTextToText.from_pretrained("facebook/seamless-m4t-v2-large")
+
+Feel free to try out [SeamlessM4Tv2ForSpeechToText] and [SeamlessM4Tv2ForTextToSpeech] as well.
+2.

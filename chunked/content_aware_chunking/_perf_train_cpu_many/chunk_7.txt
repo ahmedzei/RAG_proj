@@ -1,0 +1,18 @@
+For
+  distributed CPU training jobs, this typically includes PyTorch, Transformers, Intel Extension for PyTorch, Intel
+  oneCCL Bindings for PyTorch, and OpenSSH to communicate between the containers.
+The snippet below is an example of a Dockerfile that uses a base image that supports distributed CPU training and then
+extracts a Transformers release to the /workspace directory, so that the example scripts are included in the image:
+```dockerfile
+FROM intel/ai-workflows:torch-2.0.1-huggingface-multinode-py3.9
+WORKDIR /workspace
+Download and extract the transformers code
+ARG HF_TRANSFORMERS_VER="4.35.2"
+RUN mkdir transformers && \
+    curl -sSL --retry 5 https://github.com/huggingface/transformers/archive/refs/tags/v${HF_TRANSFORMERS_VER}.tar.gz | tar -C transformers --strip-components=1 -xzf -
+
+The image needs to be built and copied to the cluster's nodes or pushed to a container registry prior to deploying the
+PyTorchJob to the cluster.
+PyTorchJob Specification File
+The Kubeflow PyTorchJob is used to run the distributed
+training job on the cluster.

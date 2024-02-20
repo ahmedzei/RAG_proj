@@ -1,0 +1,4 @@
+The algorithm simply picks the most
+likely tokenization in practice, but also offers the possibility to sample a possible tokenization according to their
+probabilities.
+Those probabilities are defined by the loss the tokenizer is trained on.

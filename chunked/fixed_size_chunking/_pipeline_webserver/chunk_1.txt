@@ -1,0 +1,7 @@
+can use an iterator, just like you would on a
+dataset, since a webserver is basically a system that waits for requests and
+treats them as they come in.
+Usually webservers are multiplexed (multithreaded, async, etc..) to handle various
+requests concurrently. Pipelines on the other hand (and mostly the underlying models)
+are not really great for parallelism; they take up a lot of RAM, so it's best to give them all the available resources when they are running or it's a compute-intensive job.
+We are going to s

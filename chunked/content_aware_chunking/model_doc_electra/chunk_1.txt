@@ -1,0 +1,6 @@
+The discriminator, which is the model we're interested in, tries to
+identify which tokens were replaced by the generator in the sequence.
+The abstract from the paper is the following:
+Masked language modeling (MLM) pretraining methods such as BERT corrupt the input by replacing some tokens with [MASK]
+and then train a model to reconstruct the original tokens. While they produce good results when transferred to
+downstream NLP tasks, they generally require large amounts of compute to be effective.

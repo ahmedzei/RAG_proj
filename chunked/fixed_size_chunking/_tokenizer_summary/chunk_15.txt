@@ -1,0 +1,9 @@
+a hyperparameter to
+define before training the tokenizer.
+As an example, let's assume that after pre-tokenization, the following set of words including their frequency has been
+determined:
+("hug", 10), ("pug", 5), ("pun", 12), ("bun", 4), ("hugs", 5)
+Consequently, the base vocabulary is ["b", "g", "h", "n", "p", "s", "u"]. Splitting all words into symbols of the
+base vocabulary, we obtain:
+("h" "u" "g", 10), ("p" "u" "g", 5), ("p" "u" "n", 12), ("b" "u" "n", 4), ("h" "u" "g" "s", 5)
+BPE then counts the freq

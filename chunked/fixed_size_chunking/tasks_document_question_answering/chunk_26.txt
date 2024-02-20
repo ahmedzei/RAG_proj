@@ -1,0 +1,11 @@
+   token_type_ids = encoding["token_type_ids"][i]
+             token_start_index = 0
+             while token_type_ids[token_start_index] != 1:
+                 token_start_index += 1
+             token_end_index = len(encoding["input_ids"][i]) - 1
+             while token_type_ids[token_end_index] != 1:
+                 token_end_index -= 1
+             word_ids = encoding.word_ids(i)[token_start_index : token_end_index + 1]
+             start_position = cls_index
+             end_position = cls_index
+    

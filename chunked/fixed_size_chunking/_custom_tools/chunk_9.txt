@@ -1,0 +1,6 @@
+precise. The description includes two parts, the first explaining 
+what the tool does and the second states what input arguments and return values are expected.
+A good tool name and tool description are very important for the agent to correctly use it. Note that the only
+information the agent has about the tool is its name and description, so one should make sure that both 
+are precisely written and match the style of the existing tools in the toolbox. In particular make sure the description
+mentions all th

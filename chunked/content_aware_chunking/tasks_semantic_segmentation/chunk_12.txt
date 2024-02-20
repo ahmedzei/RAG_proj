@@ -1,0 +1,21 @@
+ImageProcessor also takes care of resizing and normalizing the images.
+
+def train_transforms(example_batch):
+     images = [aug_transforms(x.convert("RGB")) for x in example_batch["image"]]
+     labels = [x for x in example_batch["annotation"]]
+     inputs = image_processor(images, labels)
+     return inputs
+def val_transforms(example_batch):
+     images = [transforms(x.convert("RGB")) for x in example_batch["image"]]
+     labels = [x for x in example_batch["annotation"]]
+     inputs = image_processor(images, labels)
+     return inputs
+
+To apply the preprocessing transformations over the entire dataset, use the 🤗 Datasets [~datasets.Dataset.set_transform] function.
+The transform is applied on the fly which is faster and consumes less disk space:
+
+train_ds.set_transform(train_transforms)
+test_ds.set_transform(val_transforms)
+
+Evaluate
+Including a metric during training is often helpful for evaluating your model's performance.

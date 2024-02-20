@@ -1,0 +1,14 @@
+,
+ )
+for seq in sequences:
+     print(f"Result: {seq['generated_text']}")
+Result: 
+There are a total of 5 groups, so there are 5 x 4=20 students in the class.
+
+Correct! Let's increase the complexity a little and see if we can still get away with a basic prompt:
+thon
+
+torch.manual_seed(6) # doctest: +IGNORE_RESULT
+prompt = """I baked 15 muffins. I ate 2 muffins and gave 5 muffins to a neighbor. My partner then bought 6 more muffins and ate 2. How many muffins do we now have?"""
+sequences = pipe(
+     prompt,

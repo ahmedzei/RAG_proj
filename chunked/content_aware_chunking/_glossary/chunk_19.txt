@@ -1,0 +1,4 @@
+If
+chunk_size is set to 0, no feed forward chunking is done.
+finetuned models
+Finetuning is a form of transfer learning which involves taking a pretrained model, freezing its weights, and replacing the output layer with a newly added model head.

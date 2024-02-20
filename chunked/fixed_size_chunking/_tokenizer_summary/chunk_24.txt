@@ -1,0 +1,6 @@
+ly trims down each
+symbol to obtain a smaller vocabulary. The base vocabulary could for instance correspond to all pre-tokenized words and
+the most common substrings. Unigram is not used directly for any of the models in the transformers, but it's used in
+conjunction with SentencePiece.
+At each training step, the Unigram algorithm defines a loss (often defined as the log-likelihood) over the training
+data given the current vocabulary and a unigram language model. Then, for each symbol in the vocabulary, the

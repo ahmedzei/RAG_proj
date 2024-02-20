@@ -1,0 +1,13 @@
+ following auto classes are available for instantiating a model with a pretraining head.
+AutoModelForPreTraining
+[[autodoc]] AutoModelForPreTraining
+TFAutoModelForPreTraining
+[[autodoc]] TFAutoModelForPreTraining
+FlaxAutoModelForPreTraining
+[[autodoc]] FlaxAutoModelForPreTraining
+Natural Language Processing
+The following auto classes are available for the following natural language processing tasks.
+AutoModelForCausalLM
+[[autodoc]] AutoModelForCausalLM
+TFAutoModelForCausalLM
+[[autodoc]] TFAutoModelForCausal

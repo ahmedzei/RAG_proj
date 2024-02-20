@@ -1,0 +1,19 @@
+      num_warmup_steps=0,
+      num_training_steps=num_training_steps
+  )
+progress_bar = tqdm(range(num_training_steps))
+model.train()
+  for epoch in range(num_epochs):
+      for batch in train_dataloader:
+
+          outputs = model(**batch)
+          loss = outputs.loss
+
++         accelerator.backward(loss)
+      optimizer.step()
+      lr_scheduler.step()
+      optimizer.zero_grad()
+      progress_bar.update(1)
+
+Train
+Once you've added the relevant lines of code, launch your training in a script or a noteb

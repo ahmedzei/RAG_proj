@@ -1,0 +1,12 @@
+ (preprocess).
+Then define the outputs. Same policy as the inputs. The simpler, the better. Those will be the outputs of
+postprocess method.
+Start by inheriting the base class Pipeline with the 4 methods needed to implement preprocess,
+_forward, postprocess, and _sanitize_parameters.
+thon
+from transformers import Pipeline
+class MyPipeline(Pipeline):
+    def _sanitize_parameters(self, **kwargs):
+        preprocess_kwargs = {}
+        if "maybe_arg" in kwargs:
+            preprocess_kwargs["maybe_arg"] = kwar

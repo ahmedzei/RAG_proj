@@ -1,0 +1,6 @@
+Critically, we evaluated the performance of over 40,000 different translation directions using
+a human-translated benchmark, Flores-200, and combined human evaluation with a novel toxicity benchmark covering all languages in Flores-200 to assess translation safety.
+Our model achieves an improvement of 44% BLEU relative to the previous state-of-the-art, laying important groundwork towards realizing a universal translation system.
+This implementation contains the dense models available on release.
+The sparse model NLLB-MoE (Mixture of Expert) is now available! More details here
+This model was contributed by Lysandre.

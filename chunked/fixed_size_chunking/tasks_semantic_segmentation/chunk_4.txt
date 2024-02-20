@@ -1,0 +1,11 @@
+paths_validation = []
+ label_paths_validation = []
+def create_dataset(image_paths, label_paths):
+     dataset = Dataset.from_dict({"image": sorted(image_paths),
+                                 "label": sorted(label_paths)})
+     dataset = dataset.cast_column("image", Image())
+     dataset = dataset.cast_column("label", Image())
+     return dataset
+# step 1: create Dataset objects
+ train_dataset = create_dataset(image_paths_train, label_paths_train)
+ validation_dataset = create_dataset(image_paths_validatio

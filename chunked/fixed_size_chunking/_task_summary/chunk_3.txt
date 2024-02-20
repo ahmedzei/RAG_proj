@@ -1,0 +1,6 @@
+h processing tasks by directly feeding the raw audio waveform to a feature encoder to extract an audio representation. This simplifies the preprocessing step and allows the model to learn the most essential features.
+Audio classification
+Audio classification is a task that labels audio data from a predefined set of classes. It is a broad category with many specific applications, some of which include:
+
+acoustic scene classification: label audio with a scene label ("office", "beach", "stadium")
+acoustic even

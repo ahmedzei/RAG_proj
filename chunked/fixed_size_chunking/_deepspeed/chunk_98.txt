@@ -1,0 +1,8 @@
+                       | 1/189 [00:00<01:26,  2.17it/s]
+ [deepscale] OVERFLOW! Rank 0 Skipping step. Attempted loss scale: 262144, reducing to 131072.0
+  1%|█▏
+ []
+ [deepscale] OVERFLOW! Rank 0 Skipping step. Attempted loss scale: 1, reducing to 1
+ 14%|████████████████▌                                                                                                   | 27/189 [00:14<01:13,  2.21it/s]
+ [deepscale] OVERFLOW! Rank 0 Skipping step. Attempted loss scale: 1, reducing to 1
+ 15%|█████████████████▏  

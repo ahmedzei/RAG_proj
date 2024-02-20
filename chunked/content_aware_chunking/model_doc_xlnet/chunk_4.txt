@@ -1,0 +1,7 @@
+The original code can be found here.
+Usage tips
+
+The specific attention pattern can be controlled at training and test time using the perm_mask input.
+Due to the difficulty of training a fully auto-regressive model over various factorization order, XLNet is pretrained
+  using only a sub-set of the output tokens as target which are selected with the target_mapping input.
+To use XLNet for sequential decoding (i.e.

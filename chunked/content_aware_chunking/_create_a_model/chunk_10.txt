@@ -1,0 +1,11 @@
+However, you can still replace - some or all of - the default model configuration attributes with your own if you'd like:
+
+model = DistilBertModel.from_pretrained("distilbert/distilbert-base-uncased", config=my_config)
+
+Load your custom configuration attributes into the model:
+
+from transformers import TFDistilBertModel
+my_config = DistilBertConfig.from_pretrained("./your_model_save_path/my_config.json")
+tf_model = TFDistilBertModel(my_config)
+
+This creates a model with random values instead of pretrained weights.

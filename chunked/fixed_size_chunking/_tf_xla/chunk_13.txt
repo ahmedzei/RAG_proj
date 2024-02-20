@@ -1,0 +1,6 @@
+int with trigger re-tracing and thus leading to slow-downs in the generation time. 
+We didn’t cover all the text generation options 🤗 Transformers provides in this document. We encourage you to read the documentation for advanced use cases.
+Additional Resources
+Here, we leave you with some additional resources if you want to delve deeper into XLA in 🤗 Transformers and in general. 
+
+This Colab Notebook provides an interactive demonstration if you want to fiddle with the XLA-compatible encoder-decoder (like T

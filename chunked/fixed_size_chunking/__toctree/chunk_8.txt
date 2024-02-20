@@ -1,0 +1,20 @@
+
+  title: Efficient training on CPU
+local: perf_train_cpu_many
+  title: Distributed CPU training
+local: perf_train_tpu_tf
+  title: Training on TPU with TensorFlow
+local: perf_train_special
+  title: PyTorch training on Apple silicon
+local: perf_hardware
+  title: Custom hardware for training
+local: hpo_train
+  title: Hyperparameter Search using Trainer API
+title: Efficient training techniques
+
+sections:
+local: perf_infer_cpu
+  title: CPU inference
+local: perf_infer_gpu_one
+  title: GPU inference
+title: Optimi

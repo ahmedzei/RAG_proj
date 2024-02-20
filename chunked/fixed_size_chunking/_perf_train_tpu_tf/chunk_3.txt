@@ -1,0 +1,3 @@
+ocated on a physically different system to the machine you’re running your Python code on, your data cannot be local to your machine - any data pipeline that loads from your machine’s internal storage will totally fail! Instead, data must be stored in Google Cloud Storage where your data pipeline can still access it, even when the pipeline is running on the remote TPU node.
+
+If you can fit all your data in memory as np.ndarray or tf.Tensor, then you can fit() on that data even when using Colab or a TPU Node

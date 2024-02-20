@@ -1,0 +1,8 @@
+mT5
+
+Overview
+The mT5 model was presented in mT5: A massively multilingual pre-trained text-to-text transformer by Linting Xue, Noah Constant, Adam Roberts, Mihir Kale, Rami Al-Rfou, Aditya
+Siddhant, Aditya Barua, Colin Raffel.
+The abstract from the paper is the following:
+The recent "Text-to-Text Transfer Transformer" (T5) leveraged a unified text-to-text format and scale to attain
+state-of-the-art results on a wide variety of English-language NLP tasks.

@@ -1,0 +1,5 @@
+On unsupervised machine translation, we
+obtain 34.3 BLEU on WMT'16 German-English, improving the previous state of the art by more than 9 BLEU. On supervised
+machine translation, we obtain a new state of the art of 38.5 BLEU on WMT'16 Romanian-English, outperforming the
+previous best approach by more than 4 BLEU. Our code and pretrained models will be made publicly available.
+This model was contributed by thomwolf.

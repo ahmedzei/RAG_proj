@@ -1,0 +1,10 @@
+Logging
+🤗 Transformers has a centralized logging system, so that you can setup the verbosity of the library easily.
+Currently the default verbosity of the library is WARNING.
+To change the level of verbosity, just use one of the direct setters. For instance, here is how to change the verbosity
+to the INFO level.
+thon
+import transformers
+transformers.logging.set_verbosity_info()
+
+You can also use the environment variable TRANSFORMERS_VERBOSITY to override the default verbosity.

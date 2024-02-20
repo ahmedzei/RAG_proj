@@ -1,0 +1,11 @@
+ey-value pairs are manually labeled
+for each language. Experiment results show that the LayoutXLM model has significantly outperformed the existing SOTA
+cross-lingual pre-trained models on the XFUN dataset.
+This model was contributed by nielsr. The original code can be found here.
+Usage tips and examples
+One can directly plug in the weights of LayoutXLM into a LayoutLMv2 model, like so:
+thon
+from transformers import LayoutLMv2Model
+model = LayoutLMv2Model.from_pretrained("microsoft/layoutxlm-base")
+
+Note th

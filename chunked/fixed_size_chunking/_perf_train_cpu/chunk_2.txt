@@ -1,0 +1,7 @@
+ Precision (AMP) for CPU backends has been enabled since PyTorch 1.10. AMP support for bf16 on CPUs and bf16 operator optimization is also supported in IPEX and partially upstreamed to the main PyTorch branch. You can get better performance and user experience with IPEX AMP.
+Check more detailed information for Auto Mixed Precision.
+IPEX installation:
+IPEX release is following PyTorch, to install via pip:
+| PyTorch Version   | IPEX version   |
+| :---------------: | :----------:   |
+| 2.1.x             |  2.1

@@ -1,0 +1,10 @@
+
+Dilated Neighborhood Attention Transformer
+Overview
+DiNAT was proposed in Dilated Neighborhood Attention Transformer
+by Ali Hassani and Humphrey Shi.
+It extends NAT by adding a Dilated Neighborhood Attention pattern to capture global context,
+and shows significant performance improvements over it.
+The abstract from the paper is the following:
+*Transformers are quickly becoming one of the most heavily applied deep learning architectures across modalities,
+domains, and tasks. In vision, on top of ongoing eff

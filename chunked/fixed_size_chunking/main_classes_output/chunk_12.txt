@@ -1,0 +1,12 @@
+onAnsweringModelOutput
+FlaxBaseModelOutput
+[[autodoc]] modeling_flax_outputs.FlaxBaseModelOutput
+FlaxBaseModelOutputWithPast
+[[autodoc]] modeling_flax_outputs.FlaxBaseModelOutputWithPast
+FlaxBaseModelOutputWithPooling
+[[autodoc]] modeling_flax_outputs.FlaxBaseModelOutputWithPooling
+FlaxBaseModelOutputWithPastAndCrossAttentions
+[[autodoc]] modeling_flax_outputs.FlaxBaseModelOutputWithPastAndCrossAttentions
+FlaxSeq2SeqModelOutput
+[[autodoc]] modeling_flax_outputs.FlaxSeq2SeqModelOutput
+FlaxCausalLMOutputWithC

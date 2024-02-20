@@ -1,0 +1,8 @@
+it is now taller than the chrysler building by 5. 2 metres ( 17 ft ) and is the second tallest free - standing structure in paris.",
+     return_tensors="pt",
+ ).input_ids
+the forward function automatically creates the correct decoder_input_ids
+loss = model(input_ids=input_ids, labels=labels).loss
+
+Detailed colab for training.
+This model was contributed by thomwolf.

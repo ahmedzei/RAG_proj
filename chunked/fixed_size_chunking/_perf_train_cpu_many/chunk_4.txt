@@ -1,0 +1,7 @@
+Use this standards-based MPI implementation to deliver flexible, efficient, scalable cluster messaging on Intel® architecture. This component is part of the Intel® oneAPI HPC Toolkit.
+oneccl_bindings_for_pytorch is installed along with the MPI tool set. Need to source the environment before using it.
+for Intel® oneCCL >= 1.12.0
+
+oneccl_bindings_for_pytorch_path=$(python -c "from oneccl_bindings_for_pytorch import cwd; print(cwd)")
+source $oneccl_bindings_for_pytorch_path/env/setvars.sh
+for Intel® oneCCL who

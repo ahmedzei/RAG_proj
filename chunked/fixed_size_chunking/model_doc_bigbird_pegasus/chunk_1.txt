@@ -1,0 +1,7 @@
+ as random attention to the input sequence. Theoretically, it
+has been shown that applying sparse, global, and random attention approximates full attention, while being
+computationally much more efficient for longer sequences. As a consequence of the capability to handle longer context,
+BigBird has shown improved performance on various long document NLP tasks, such as question answering and
+summarization, compared to BERT or RoBERTa.
+The abstract from the paper is the following:
+Transformers-based models, s

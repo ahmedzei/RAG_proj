@@ -1,0 +1,3 @@
+(Note that [UnivNetFeatureExtractor] will return generated noise by default, so it shouldn't be necessary to generate noise_sequence manually.)
+Padding added by [UnivNetFeatureExtractor] can be removed from the [UnivNetModel] output through the [UnivNetFeatureExtractor.batch_decode] method, as shown in the usage example below.
+Padding the end of each waveform with silence can reduce artifacts at the end of the generated audio sample.

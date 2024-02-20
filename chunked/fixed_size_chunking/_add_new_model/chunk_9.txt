@@ -1,0 +1,7 @@
+deserialization functionalities from
+[PretrainedConfig]. Note that the configuration and the model are always serialized into two
+different formats - the model to a pytorch_model.bin file and the configuration to a config.json file. Calling
+[~PreTrainedModel.save_pretrained] will automatically call
+[~PretrainedConfig.save_pretrained], so that both model and configuration are saved.
+Code style
+When coding your new model, keep in mind that Transformers is an opinionated library and we have a few quirks of our

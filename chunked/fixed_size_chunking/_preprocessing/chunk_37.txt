@@ -1,0 +1,10 @@
+ only sense with which we are at present concerned, differs from most if not from all the arts and crafts represented in the Exhibition'
+
+Remember you should always resample your audio dataset's sampling rate to match the sampling rate of the dataset used to pretrain a model!
+
+lj_speech = lj_speech.cast_column("audio", Audio(sampling_rate=16_000))
+
+Load a processor with [AutoProcessor.from_pretrained]:
+
+from transformers import AutoProcessor
+processor = AutoProcessor.from_pretrained("facebook/wav2vec2-base-

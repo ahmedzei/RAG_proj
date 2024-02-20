@@ -1,0 +1,27 @@
+torch.bfloat16).
+Now, to run the model with Flash Attention 2, refer to the snippet below:
+thon
+
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
+device = "cuda" # the device to load the model onto
+tokenizer = AutoTokenizer.from_pretrained("stabilityai/stablelm-3b-4e1t")
+model = AutoModelForCausalLM.from_pretrained("stabilityai/stablelm-3b-4e1t", torch_dtype=torch.bfloat16, attn_implementation="flash_attention_2")
+model.to(device)
+model_inputs = tokenizer("The weather is always wonderful in", return_tensors="pt").to(model.device)
+generated_ids = model.generate(**model_inputs, max_length=32, do_sample=True)
+responses = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+responses
+['The weather is always wonderful in Santa Barbara and, for visitors hoping to make the move to our beautiful seaside city, this town offers plenty of great places to']
+
+StableLmConfig
+[[autodoc]] StableLmConfig
+StableLmModel
+[[autodoc]] StableLmModel
+    - forward
+StableLmForCausalLM
+[[autodoc]] StableLmForCausalLM
+    - forward
+StableLmForSequenceClassification
+[[autodoc]] StableLmForSequenceClassification
+    - forward.

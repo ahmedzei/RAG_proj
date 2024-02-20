@@ -1,0 +1,4 @@
+sm.
+🤗 Transformers does not support tensor parallelism out of the box as it requires the model architecture to be written in a specific way. If you're interested in writing models in a tensor-parallelism-friendly way, feel free to have a look at the text-generation-inference library.
+Naive pipeline parallelism is supported out of the box. For this, simply load the model with device="auto" which will automatically place the different layers on the available GPUs as explained here.
+Note, however that while ve

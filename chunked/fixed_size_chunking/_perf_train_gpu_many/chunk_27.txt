@@ -1,0 +1,5 @@
+ings: Shared embeddings may need to get copied back and forth between GPUs.
+Now that you are familiar with how the naive approach to model parallelism works and its shortcomings, let's look at Pipeline Parallelism (PP).
+PP is almost identical to a naive MP, but it solves the GPU idling problem by chunking the incoming batch into micro-batches 
+and artificially creating a pipeline, which allows different GPUs to concurrently participate in the computation process.
+The following illustration from the GPipe pa

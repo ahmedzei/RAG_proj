@@ -1,0 +1,32 @@
+StableLM
+Overview
+StableLM 3B 4E1T was proposed in StableLM 3B 4E1T: Technical Report by Stability AI and is the first model in a series of multi-epoch pre-trained language models.
+Model Details
+StableLM 3B 4E1T is a decoder-only base language model pre-trained on 1 trillion tokens of diverse English and code datasets for four epochs.
+The model architecture is transformer-based with partial Rotary Position Embeddings, SwiGLU activation, LayerNorm, etc.
+We also provide StableLM Zephyr 3B, an instruction fine-tuned version of the model that can be used for chat-based applications.
+Usage Tips
+
+The architecture is similar to LLaMA but with RoPE applied to 25% of head embedding dimensions, LayerNorm instead of RMSNorm, and optional QKV bias terms.
+StableLM 3B 4E1T-based models uses the same tokenizer as [GPTNeoXTokenizerFast].
+
+StableLM 3B 4E1T and StableLM Zephyr 3B can be found on the Huggingface Hub
+The following code snippet demonstrates how to use StableLM 3B 4E1T for inference:
+thon
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+device = "cuda" # the device to load the model onto
+tokenizer = AutoTokenizer.from_pretrained("stabilityai/stablelm-3b-4e1t")
+model = AutoModelForCausalLM.from_pretrained("stabilityai/stablelm-3b-4e1t")
+model.to(device)
+model_inputs = tokenizer("The weather is always wonderful in", return_tensors="pt").to(model.device)
+generated_ids = model.generate(**model_inputs, max_length=32, do_sample=True)
+responses = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+responses
+['The weather is always wonderful in Santa Barbara and, for visitors hoping to make the move to our beautiful seaside city, this town offers plenty of great places to']
+
+Combining StableLM and Flash Attention 2
+First, make sure to install the latest version of Flash Attention v2.
+
+pip install -U flash-attn --no-build-isolation
+Also make sure that your hardware is compatible with Flash-Attention 2.

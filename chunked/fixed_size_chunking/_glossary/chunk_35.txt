@@ -1,0 +1,6 @@
+ch as speech.
+self-attention
+Each element of the input finds out which other elements of the input they should attend to.
+self-supervised learning
+A category of machine learning techniques in which a model creates its own learning objective from unlabeled data. It differs from unsupervised learning and supervised learning in that the learning process is supervised, but not explicitly from the user. 
+One example of self-supervised learning is masked language modeling, where a model is passed sentences with a

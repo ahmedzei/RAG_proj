@@ -1,0 +1,1 @@
+There are multiple rules that govern the tokenization process, including how to split a word and at what level words should be split (learn more about tokenization in the tokenizer summary).

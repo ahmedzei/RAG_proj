@@ -1,0 +1,9 @@
+ damo-vilab
+
+The text-to-image tool we have been using since the beginning is a remote tool that lives in 
+huggingface-tools/text-to-image! We will
+continue releasing such tools on this and other organizations, to further supercharge this implementation.
+The agents have by default access to tools that reside on huggingface-tools.
+We explain how to you can write and share your tools as well as leverage any custom tool that resides on the Hub in following guide.
+Code generation
+So far we have shown how to use

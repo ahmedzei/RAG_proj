@@ -1,0 +1,8 @@
+sh Attention 2 is an faster, optimized version of the model.
+Installation
+First, check whether your hardware is compatible with Flash Attention 2. The latest list of compatible hardware can be found in the official documentation. If your hardware is not compatible with Flash Attention 2, you can still benefit from attention kernel optimisations through Better Transformer support covered above.
+Next, install the latest version of Flash Attention 2:
+
+pip install -U flash-attn --no-build-isolation
+Usage
+To loa

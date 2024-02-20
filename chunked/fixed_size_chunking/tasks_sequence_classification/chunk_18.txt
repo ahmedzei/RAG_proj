@@ -1,0 +1,12 @@
+w notebook.
+
+Inference
+Great, now that you've finetuned a model, you can use it for inference!
+Grab some text you'd like to run inference on:
+
+text = "This was a masterpiece. Not completely faithful to the books, but enthralling from beginning to end. Might be my favorite of the three."
+
+The simplest way to try out your finetuned model for inference is to use it in a [pipeline]. Instantiate a pipeline for sentiment analysis with your model, and pass your text to it:
+
+from transformers import pipeline
+classi

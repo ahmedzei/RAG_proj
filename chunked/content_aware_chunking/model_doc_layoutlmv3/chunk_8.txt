@@ -1,0 +1,64 @@
+For these notebooks, take care to use [LayoutLMv2Processor] instead when preparing data for the model!
+
+Demo notebooks for LayoutLMv3 can be found here.
+Demo scripts can be found here.
+
+[LayoutLMv2ForSequenceClassification] is supported by this notebook.
+Text classification task guide
+
+[LayoutLMv3ForTokenClassification] is supported by this example script and notebook.
+A notebook for how to perform inference with [LayoutLMv2ForTokenClassification] and a notebook for how to perform inference when no labels are available with [LayoutLMv2ForTokenClassification].
+A notebook for how to finetune [LayoutLMv2ForTokenClassification] with the 🤗 Trainer.
+Token classification task guide
+
+[LayoutLMv2ForQuestionAnswering] is supported by this notebook.
+Question answering task guide
+
+Document question answering
+- Document question answering task guide
+LayoutLMv3Config
+[[autodoc]] LayoutLMv3Config
+LayoutLMv3FeatureExtractor
+[[autodoc]] LayoutLMv3FeatureExtractor
+    - call
+LayoutLMv3ImageProcessor
+[[autodoc]] LayoutLMv3ImageProcessor
+    - preprocess
+LayoutLMv3Tokenizer
+[[autodoc]] LayoutLMv3Tokenizer
+    - call
+    - save_vocabulary
+LayoutLMv3TokenizerFast
+[[autodoc]] LayoutLMv3TokenizerFast
+    - call
+LayoutLMv3Processor
+[[autodoc]] LayoutLMv3Processor
+    - call
+
+LayoutLMv3Model
+[[autodoc]] LayoutLMv3Model
+    - forward
+LayoutLMv3ForSequenceClassification
+[[autodoc]] LayoutLMv3ForSequenceClassification
+    - forward
+LayoutLMv3ForTokenClassification
+[[autodoc]] LayoutLMv3ForTokenClassification
+    - forward
+LayoutLMv3ForQuestionAnswering
+[[autodoc]] LayoutLMv3ForQuestionAnswering
+    - forward
+
+TFLayoutLMv3Model
+[[autodoc]] TFLayoutLMv3Model
+    - call
+TFLayoutLMv3ForSequenceClassification
+[[autodoc]] TFLayoutLMv3ForSequenceClassification
+    - call
+TFLayoutLMv3ForTokenClassification
+[[autodoc]] TFLayoutLMv3ForTokenClassification
+    - call
+TFLayoutLMv3ForQuestionAnswering
+[[autodoc]] TFLayoutLMv3ForQuestionAnswering
+    - call
+
+.

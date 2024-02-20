@@ -1,0 +1,5 @@
+sification
+    - forward
+MobileViTV2ForSemanticSegmentation
+[[autodoc]] MobileViTV2ForSemanticSegmentation
+    - forward

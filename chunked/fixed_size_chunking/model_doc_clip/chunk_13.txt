@@ -1,0 +1,9 @@
+ FlaxCLIPTextModel
+    - call
+FlaxCLIPTextModelWithProjection
+[[autodoc]] FlaxCLIPTextModelWithProjection
+    - call
+FlaxCLIPVisionModel
+[[autodoc]] FlaxCLIPVisionModel
+    - call
+

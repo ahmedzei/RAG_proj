@@ -1,0 +1,10 @@
+ImageProcessor can take care of normalizing the images, and generating appropriate tensors.
+Create a function that combines image augmentation and image preprocessing for a batch of images and generates pixel_values:
+
+def transforms(examples):
+     images = [_transforms(img.convert("RGB")) for img in examples["image"]]
+     examples["pixel_values"] = image_processor(images, do_resize=False, return_tensors="pt")["pixel_values"]
+     return examples
+
+In the example above we set do_resize=False because we have already resized the images in the image augmentation transformation,
+and leveraged the size attribute from the appropriate image_processor.

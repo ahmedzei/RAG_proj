@@ -1,0 +1,8 @@
+if a
+new CI feature is to be added, it should be done as following.
+
+Create a new dedicated job that tests what needs to be tested
+The new job must always succeed so that it gives us a green ✓ (details below).
+Let it run for some days to see that a variety of different PR types get to run on it (user fork branches,
+   non-forked branches, branches originating from github.com UI direct file edit, various forced pushes, etc. - there
+   are so many) while monitoring the experimental job's logs (not the overall

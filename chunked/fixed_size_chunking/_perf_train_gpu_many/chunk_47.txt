@@ -1,0 +1,5 @@
+nimizing the Pipeline bubble (number of micro-batches). Therefore those communication costs are going to impact the performance.
+In addition, there are already fewer layers than normal due to PP and so the memory savings won't be huge. PP already 
+reduces gradient size by 1/PP, and so gradient sharding savings on top of that are less significant than pure DP.
+ZeRO stage 3 is not a good choice either for the same reason - more inter-node communications required.
+And since we have ZeRO, the other benefit is Z

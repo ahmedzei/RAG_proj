@@ -1,0 +1,6 @@
+BertJapanese
+Overview
+The BERT models trained on Japanese text.
+There are models with two different tokenization methods:
+
+Tokenize with MeCab and WordPiece.

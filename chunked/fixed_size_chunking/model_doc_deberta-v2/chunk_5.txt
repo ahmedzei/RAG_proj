@@ -1,0 +1,12 @@
+ters without affecting the performance.
+Apply bucket to encode relative positions The DeBERTa-v2 model uses log bucket to encode relative positions
+  similar to T5.
+900M model & 1.5B model Two additional model sizes are available: 900M and 1.5B, which significantly improves the
+  performance of downstream tasks.
+
+This model was contributed by DeBERTa. This model TF 2.0 implementation was
+contributed by kamalkraj. The original code can be found here.
+Resources
+
+Text classification task guide
+Token classifica

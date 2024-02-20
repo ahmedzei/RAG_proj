@@ -1,0 +1,37 @@
+The TensorFlow version of the model
+was contributed by sayakpaul and ariG23498.
+The original code can be found here.
+The huge 10B model from Self-supervised Pretraining of Visual Features in the Wild, 
+trained on  one billion Instagram images, is available on the hub
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with RegNet.
+
+[RegNetForImageClassification] is supported by this example script and notebook.
+See also: Image classification task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+RegNetConfig
+[[autodoc]] RegNetConfig
+
+RegNetModel
+[[autodoc]] RegNetModel
+    - forward
+RegNetForImageClassification
+[[autodoc]] RegNetForImageClassification
+    - forward
+
+TFRegNetModel
+[[autodoc]] TFRegNetModel
+    - call
+TFRegNetForImageClassification
+[[autodoc]] TFRegNetForImageClassification
+    - call
+
+FlaxRegNetModel
+[[autodoc]] FlaxRegNetModel
+    - call
+FlaxRegNetForImageClassification
+[[autodoc]] FlaxRegNetForImageClassification
+    - call
+
+.

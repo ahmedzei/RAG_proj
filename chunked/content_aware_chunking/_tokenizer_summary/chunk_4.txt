@@ -1,0 +1,7 @@
+"Don't" stands for
+"do not", so it would be better tokenized as ["Do", "n't"]. This is where things start getting complicated, and
+part of the reason each model has its own tokenizer type. Depending on the rules we apply for tokenizing a text, a
+different tokenized output is generated for the same text. A pretrained model only performs properly if you feed it an
+input that was tokenized with the same rules that were used to tokenize its training data.
+spaCy and Moses are two popular
+rule-based tokenizers.

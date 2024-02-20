@@ -1,0 +1,7 @@
+Use the image to answer.
+ Question: Where are these people and what's the weather like? Answer: They're in a park in New York City, and it's a beautiful day.
+
+Image classification
+IDEFICS is capable of classifying images into different categories without being explicitly trained on data containing 
+labeled examples from those specific categories. Given a list of categories and using its image and text understanding 
+capabilities, the model can infer which category the image likely belongs to.

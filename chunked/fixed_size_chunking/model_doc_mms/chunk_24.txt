@@ -1,0 +1,10 @@
+l = Wav2Vec2ForSequenceClassification.from_pretrained(model_id)
+
+Now we process the audio data, pass the processed audio data to the model to classify it into a language, just like we usually do for Wav2Vec2 audio classification models such as ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition
+
+English
+inputs = processor(en_sample, sampling_rate=16_000, return_tensors="pt")
+with torch.no_grad():
+    outputs = model(**inputs).logits
+lang_id = torch.argmax(outputs, dim=-1)[0].item()
+detected_lang = mod

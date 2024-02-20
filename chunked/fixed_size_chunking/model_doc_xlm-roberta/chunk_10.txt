@@ -1,0 +1,20 @@
+obertaForMaskedLM
+    - forward
+XLMRobertaForSequenceClassification
+[[autodoc]] XLMRobertaForSequenceClassification
+    - forward
+XLMRobertaForMultipleChoice
+[[autodoc]] XLMRobertaForMultipleChoice
+    - forward
+XLMRobertaForTokenClassification
+[[autodoc]] XLMRobertaForTokenClassification
+    - forward
+XLMRobertaForQuestionAnswering
+[[autodoc]] XLMRobertaForQuestionAnswering
+    - forward
+
+TFXLMRobertaModel
+[[autodoc]] TFXLMRobertaModel
+    - call
+TFXLMRobertaForCausalLM
+[[autodoc]] TFXLMRobertaForCausalLM

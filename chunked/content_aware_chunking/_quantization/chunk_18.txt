@@ -1,0 +1,4 @@
+Set device_map="auto" to automatically offload the model to a CPU to help fit the model in memory, and allow the model modules to be moved between the CPU and GPU for quantization.
+py
+quantized_model = AutoModelForCausalLM.from_pretrained(model_id, device_map="auto", quantization_config=gptq_config)
+If you're running out of memory because a dataset is too large, disk offloading is not supported.

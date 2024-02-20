@@ -1,0 +1,4 @@
+When we bring all these separate  principles together, we can "
+     "create a design system that both looks at whole systems, the parts that these systems "
+     "consist of, and how those parts interact with each other to create a complex, dynamic, "
+     "living system.

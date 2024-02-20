@@ -1,0 +1,22 @@
+[[autodoc]] SegformerModel
+    - forward
+SegformerDecodeHead
+[[autodoc]] SegformerDecodeHead
+    - forward
+SegformerForImageClassification
+[[autodoc]] SegformerForImageClassification
+    - forward
+SegformerForSemanticSegmentation
+[[autodoc]] SegformerForSemanticSegmentation
+    - forward
+
+TFSegformerDecodeHead
+[[autodoc]] TFSegformerDecodeHead
+    - call
+TFSegformerModel
+[[autodoc]] TFSegformerModel
+    - call
+TFSegformerForImageClassification
+[[autodoc]] TFSegformerForImageClassification
+    - call
+TFSegfo

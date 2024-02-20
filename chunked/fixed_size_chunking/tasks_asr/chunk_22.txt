@@ -1,0 +1,15 @@
+ate, return_tensors="pt")
+
+Pass your inputs to the model and return the logits:
+
+from transformers import AutoModelForCTC
+model = AutoModelForCTC.from_pretrained("stevhliu/my_awesome_asr_mind_model")
+with torch.no_grad():
+     logits = model(**inputs).logits
+
+Get the predicted input_ids with the highest probability, and use the processor to decode the predicted input_ids back into text:
+
+import torch
+predicted_ids = torch.argmax(logits, dim=-1)
+transcription = processor.batch_decode(predicted_ids)
+transcrip

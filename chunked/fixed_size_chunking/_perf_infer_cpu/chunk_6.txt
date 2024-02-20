@@ -1,0 +1,5 @@
+and we are capturing this with the exception here to make it fallback. Logging is used to notify users.
+
+IPEX graph optimization
+Intel® Extension for PyTorch (IPEX) provides further optimizations in JIT mode for Intel CPUs, and we recommend combining it with TorchScript for even faster performance. The IPEX graph optimization fuses operations like Multi-head attention, Concat Linear, Linear + Add, Linear + Gelu, Add + LayerNorm, and more.
+To take advantage of these graph optimizations, make sure you have IP

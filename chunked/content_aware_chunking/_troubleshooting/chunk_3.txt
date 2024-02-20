@@ -1,0 +1,6 @@
+When your script attempts to download model weights or datasets, the download will hang and then timeout with the following message:
+ValueError: Connection error, and we cannot find the requested files in the cached path.
+Please try again or make sure your Internet connection is on.
+In this case, you should try to run 🤗 Transformers on offline mode to avoid the connection error.
+CUDA out of memory
+Training large models with millions of parameters can be challenging without the appropriate hardware.

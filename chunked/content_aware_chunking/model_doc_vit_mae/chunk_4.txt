@@ -1,0 +1,7 @@
+Taken from the original paper. 
+This model was contributed by nielsr. TensorFlow version of the model was contributed by sayakpaul and 
+ariG23498 (equal contribution). The original code can be found here. 
+Usage tips
+
+MAE (masked auto encoding) is a method for self-supervised pre-training of Vision Transformers (ViTs). The pre-training objective is relatively simple:
+by masking a large portion (75%) of the image patches, the model must reconstruct raw pixel values.

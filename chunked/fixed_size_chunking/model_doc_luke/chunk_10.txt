@@ -1,0 +1,13 @@
+o "Beyoncé"
+inputs = tokenizer(text, entity_spans=entity_spans, add_prefix_space=True, return_tensors="pt")
+outputs = model(**inputs)
+word_last_hidden_state = outputs.last_hidden_state
+entity_last_hidden_state = outputs.entity_last_hidden_state
+
+Example 2: Inputting Wikipedia entities to obtain enriched contextualized representations
+
+entities = [
+     "Beyoncé",
+     "Los Angeles",
+ ]  # Wikipedia entity titles corresponding to the entity mentions "Beyoncé" and "Los Angeles"
+entity_spans = [(0, 7), (17, 28

@@ -1,0 +1,2 @@
+Our model also achieve strong results at in-context learning, outperforming 175B GPT-3 on zero-shot SuperGLUE and tripling the performance of T5-XXL on one-shot summarization.
+This model was contributed by DanielHesslow.

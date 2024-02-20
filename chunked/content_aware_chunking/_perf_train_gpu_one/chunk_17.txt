@@ -1,0 +1,3 @@
+However, not all variables require this high precision 
+level to achieve accurate results. By reducing the precision of certain variables to lower numerical formats like 16-bit 
+floating point (fp16 or float16), we can speed up the computations.

@@ -1,0 +1,3 @@
+It can take ~5 minutes to quantize the facebook/opt-350m model on a free-tier Google Colab GPU, but it'll take ~4 hours to quantize a 175B parameter model on a NVIDIA A100. Before you quantize a model, it is a good idea to check the Hub if a GPTQ-quantized version of the model already exists.
+
+Once your model is quantized, you can push the model and tokenizer to the Hub where it can be easily shared and accessed.

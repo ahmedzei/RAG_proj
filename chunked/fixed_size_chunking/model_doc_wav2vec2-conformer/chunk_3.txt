@@ -1,0 +1,14 @@
+
+    - forward
+Wav2Vec2ConformerForSequenceClassification
+[[autodoc]] Wav2Vec2ConformerForSequenceClassification
+    - forward
+Wav2Vec2ConformerForAudioFrameClassification
+[[autodoc]] Wav2Vec2ConformerForAudioFrameClassification
+    - forward
+Wav2Vec2ConformerForXVector
+[[autodoc]] Wav2Vec2ConformerForXVector
+    - forward
+Wav2Vec2ConformerForPreTraining
+[[autodoc]] Wav2Vec2ConformerForPreTraining
+    - forward

@@ -1,0 +1,9 @@
+utperforms them when
+using the same amount of compute.
+This model was contributed by lysandre. The original code can be found here.
+Usage tips
+
+ELECTRA is the pretraining approach, therefore there is nearly no changes done to the underlying model: BERT. The
+  only change is the separation of the embedding size and the hidden size: the embedding size is generally smaller,
+  while the hidden size is larger. An additional projection layer (linear) is used to project the embeddings from their
+  embedding size t

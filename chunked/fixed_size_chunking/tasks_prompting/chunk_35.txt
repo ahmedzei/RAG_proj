@@ -1,0 +1,8 @@
+t yield sufficient results. 
+You need your model to work well in a low-resource language.
+You need the model to be trained on sensitive data that is under strict regulations. 
+You have to use a small model due to cost, privacy, infrastructure or other limitations. 
+
+In all of the above examples, you will need to make sure that you either already have or can easily obtain a large enough 
+domain-specific dataset at a reasonable cost to fine-tune a model. You will also need to have enough time and resources 
+t

@@ -1,0 +1,9 @@
+ the [~transformers.generation_utils.GenerationMixin.generate] method to create the summarization. For more details about the different text generation strategies and parameters for controlling generation, check out the Text Generation API.
+
+from transformers import AutoModelForSeq2SeqLM
+model = AutoModelForSeq2SeqLM.from_pretrained("stevhliu/my_awesome_billsum_model")
+outputs = model.generate(inputs, max_new_tokens=100, do_sample=False)
+
+Decode the generated token ids back into text:
+
+tokenizer.decode(outp

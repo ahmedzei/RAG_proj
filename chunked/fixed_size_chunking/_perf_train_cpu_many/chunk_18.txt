@@ -1,0 +1,14 @@
+mers_cache"
+              - name: HF_DATASETS_CACHE
+                value: "/tmp/pvc-mount/hf_datasets_cache"
+              - name: LOGLEVEL
+                value: "INFO"
+              - name: CCL_WORKER_COUNT
+                value: "1"
+              - name: OMP_NUM_THREADS  # Can be tuned for optimal performance
+
+              resources:
+                limits:
+                  cpu: 200  # Update the CPU and memory limit values based on your nodes
+                  memory: 128Gi
+                requests:

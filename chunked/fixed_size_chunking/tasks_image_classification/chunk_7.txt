@@ -1,0 +1,15 @@
+ library you prefer.
+
+from tensorflow import keras
+from tensorflow.keras import layers
+size = (image_processor.size["height"], image_processor.size["width"])
+train_data_augmentation = keras.Sequential(
+     [
+         layers.RandomCrop(size[0], size[1]),
+         layers.Rescaling(scale=1.0 / 127.5, offset=-1),
+         layers.RandomFlip("horizontal"),
+         layers.RandomRotation(factor=0.02),
+         layers.RandomZoom(height_factor=0.2, width_factor=0.2),
+     ],
+     name="train_data_augmentation",
+ )

@@ -1,0 +1,2 @@
+You might need to define some new utility methods such as is_auto_awq_available in transformers/src/utils/import_utils.py.
+requires_parameters_quantization: Only required if your quantization method requires extra attention to the underlying nn.Parameter object. For example, bitsandbytes uses Params4bit and Int8Param, which requires some extra attention when quantizing the model.

@@ -1,0 +1,41 @@
+
+GPT-NeoX-Japanese
+Overview
+We introduce GPT-NeoX-Japanese, which is an autoregressive language model for Japanese, trained on top of https://github.com/EleutherAI/gpt-neox.
+Japanese is a unique language with its large vocabulary and a combination of hiragana, katakana, and kanji writing scripts.
+To address this distinct structure of the Japanese language, we use a special sub-word tokenizer. We are very grateful to tanreinama for open-sourcing this incredibly helpful tokenizer.
+Following the recommendations from Google's research on PaLM, we have removed bias parameters from transformer blocks, achieving better model performance. Please refer this article in detail.
+Development of the model was led by Shinya Otani, Takayoshi Makabe, Anuj Arora, and Kyo Hattori from ABEJA, Inc.. For more information on this model-building activity, please refer here (ja).
+Usage example
+The generate() method can be used to generate text using GPT NeoX Japanese model.
+thon
+
+from transformers import GPTNeoXJapaneseForCausalLM, GPTNeoXJapaneseTokenizer
+model = GPTNeoXJapaneseForCausalLM.from_pretrained("abeja/gpt-neox-japanese-2.7b")
+tokenizer = GPTNeoXJapaneseTokenizer.from_pretrained("abeja/gpt-neox-japanese-2.7b")
+prompt = "人とAIが協調するためには、"
+input_ids = tokenizer(prompt, return_tensors="pt").input_ids
+gen_tokens = model.generate(
+     input_ids,
+     do_sample=True,
+     temperature=0.9,
+     max_length=100,
+ )
+gen_text = tokenizer.batch_decode(gen_tokens, skip_special_tokens=True)[0]
+print(gen_text)
+人とAIが協調するためには、AIと人が共存し、AIを正しく理解する必要があります。
+
+Resources
+
+Causal language modeling task guide
+
+GPTNeoXJapaneseConfig
+[[autodoc]] GPTNeoXJapaneseConfig
+GPTNeoXJapaneseTokenizer
+[[autodoc]] GPTNeoXJapaneseTokenizer
+GPTNeoXJapaneseModel
+[[autodoc]] GPTNeoXJapaneseModel
+    - forward
+GPTNeoXJapaneseForCausalLM
+[[autodoc]] GPTNeoXJapaneseForCausalLM
+    - forward

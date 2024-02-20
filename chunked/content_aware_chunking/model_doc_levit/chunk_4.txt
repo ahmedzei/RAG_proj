@@ -1,0 +1,7 @@
+For example, at 80% ImageNet top-1 accuracy, LeViT is 5 times faster than EfficientNet on CPU. *
+
+ LeViT Architecture. Taken from the original paper.
+This model was contributed by anugunj. The original code can be found here.
+Usage tips
+
+Compared to ViT, LeViT models use an additional distillation head to effectively learn from a teacher (which, in the LeViT paper, is a ResNet like-model). The distillation head is learned through backpropagation under supervision of a ResNet like-model.

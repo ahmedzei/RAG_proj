@@ -1,0 +1,10 @@
+se Beam Search: Decoding Diverse Solutions from Neural Sequence Models.
+This approach has three main parameters: num_beams, num_beam_groups, and diversity_penalty.
+The diversity penalty ensures the outputs are distinct across groups, and beam search is used within each group.
+thon
+
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+checkpoint = "google/pegasus-xsum"
+prompt = (
+     "The Permaculture Design Principles are a set of universal design principles "
+     "that can be applied to any loca

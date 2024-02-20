@@ -1,0 +1,13 @@
+ve tasks.
+When using a pipeline to generate text with an LLM, it's important to know what type of LLM you are using, because 
+they use different pipelines. 
+Run inference with decoder-only models with the text-generation pipeline:
+thon
+
+from transformers import pipeline
+import torch
+torch.manual_seed(0) # doctest: +IGNORE_RESULT
+generator = pipeline('text-generation', model = 'openai-community/gpt2')
+prompt = "Hello, I'm a language model"
+generator(prompt, max_length = 30)
+[{'generated_text': "Hello, I'm a 

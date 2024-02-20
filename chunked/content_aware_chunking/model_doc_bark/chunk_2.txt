@@ -1,0 +1,19 @@
+It aims at predicting the first two audio codebooks necessary for EnCodec.
+[BarkFineModel] (the 'fine acoustics' model), this time a non-causal autoencoder transformer, which iteratively predicts the last codebooks based on the sum of the previous codebooks embeddings.
+having predicted all the codebook channels from the [EncodecModel], Bark uses it to decode the output audio array.
+
+It should be noted that each of the first three modules can support conditional speaker embeddings to condition the output sound according to specific predefined voice.
+This model was contributed by Yoach Lacombe (ylacombe) and Sanchit Gandhi (sanchit-gandhi).
+The original code can be found here.
+Optimizing Bark
+Bark can be optimized with just a few extra lines of code, which significantly reduces its memory footprint and accelerates inference.
+Using half-precision
+You can speed up inference and reduce memory footprint by 50% simply by loading the model in half-precision.
+thon
+from transformers import BarkModel
+import torch
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model = BarkModel.from_pretrained("suno/bark-small", torch_dtype=torch.float16).to(device)
+
+Using CPU offload
+As mentioned above, Bark is made up of 4 sub-models, which are called up sequentially during audio generation.

@@ -1,0 +1,13 @@
+tion_indices = tokenizer.convert_logits_to_predictions(
+     inputs, outputs.logits.detach(), outputs.logits_aggregation.detach()
+ )
+let's print out the results:
+id2aggregation = {0: "NONE", 1: "SUM", 2: "AVERAGE", 3: "COUNT"}
+aggregation_predictions_string = [id2aggregation[x] for x in predicted_aggregation_indices]
+answers = []
+for coordinates in predicted_answer_coordinates:
+     if len(coordinates) == 1:
+         # only a single cell:
+         answers.append(table.iat[coordinates[0]])
+     else:
+       

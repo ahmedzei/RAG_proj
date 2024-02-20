@@ -1,0 +1,2 @@
+For example, if you're training with bf16, the data is also gathered in bf16 because gathering is a non-lossy operation.
+Reduce operations are lossy, for example when gradients are averaged across multiple GPUs. When the communication is done in fp16 or bf16, it is more likely to be lossy because adding multiple numbers in low precision isn't exact. This is especially the case with bf16 which has a lower precision than fp16.

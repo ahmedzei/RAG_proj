@@ -1,0 +1,8 @@
+Hubert
+Overview
+Hubert was proposed in HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units by Wei-Ning Hsu, Benjamin Bolte, Yao-Hung Hubert Tsai, Kushal Lakhotia, Ruslan
+Salakhutdinov, Abdelrahman Mohamed.
+The abstract from the paper is the following:
+Self-supervised approaches for speech representation learning are challenged by three unique problems: (1) there are
+multiple sound units in each input utterance, (2) there is no lexicon of input sound units during the pre-training
+phase, and (3) sound units have variable lengths with no explicit segmentation.

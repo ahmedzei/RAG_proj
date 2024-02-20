@@ -1,0 +1,17 @@
+and cross-attention, only the cross attention is returned and
+  both self attention outputs are disregarded.
+
+Resources
+
+Question answering task guide
+
+LxmertConfig
+[[autodoc]] LxmertConfig
+LxmertTokenizer
+[[autodoc]] LxmertTokenizer
+LxmertTokenizerFast
+[[autodoc]] LxmertTokenizerFast
+Lxmert specific outputs
+[[autodoc]] models.lxmert.modeling_lxmert.LxmertModelOutput
+[[autodoc]] models.lxmert.modeling_lxmert.LxmertForPreTrainingOutput
+[[autodoc]] models.lxmert.modeling_lxmert.LxmertForQuestionAnsweringOutpu

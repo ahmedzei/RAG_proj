@@ -1,0 +1,3 @@
+When training on multiple nodes, this should be
+  set to the average number of target masks across all nodes, as can be seen in the original implementation here.
+One can use [OneFormerProcessor] to prepare input images and task inputs for the model and optional targets for the model.

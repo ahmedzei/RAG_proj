@@ -1,0 +1,1 @@
+During training, watch the GPU utilization stats; if it's far from 100%, experiment with increasing the number of workers.

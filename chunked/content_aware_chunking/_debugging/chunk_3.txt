@@ -1,0 +1,9 @@
+When CUDA is correctly setup and added to your PATH environment variable, you can find the installation location with the following command:
+
+which nvcc
+Multiple CUDA toolkits
+You may also have more than one CUDA toolkit installed system-wide.
+
+/usr/local/cuda-10.2
+/usr/local/cuda-11.0
+Typically, package installers set the paths to whatever the last version was installed.

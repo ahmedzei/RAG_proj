@@ -1,0 +1,2 @@
+It takes an input named `prompt` which contains the image description and outputs an image.
+The name and description make use of the keywords "image", "prompt", "create" and "generate". Using these words will most likely work better here.

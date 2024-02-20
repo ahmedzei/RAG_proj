@@ -1,0 +1,18 @@
+mbertForCausalLM
+[[autodoc]] CamembertForCausalLM
+CamembertForMaskedLM
+[[autodoc]] CamembertForMaskedLM
+CamembertForSequenceClassification
+[[autodoc]] CamembertForSequenceClassification
+CamembertForMultipleChoice
+[[autodoc]] CamembertForMultipleChoice
+CamembertForTokenClassification
+[[autodoc]] CamembertForTokenClassification
+CamembertForQuestionAnswering
+[[autodoc]] CamembertForQuestionAnswering
+
+TFCamembertModel
+[[autodoc]] TFCamembertModel
+TFCamembertForCasualLM
+[[autodoc]] TFCamembertForCausalLM
+TFCamem

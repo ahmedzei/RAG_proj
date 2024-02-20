@@ -1,0 +1,7 @@
+tion. Next, after downsampling, a "deep" encoder is applied. Finally,
+  after upsampling, a "shallow" encoder is used to create the final character embeddings. Details regarding up- and
+  downsampling can be found in the paper.
+CANINE uses a max sequence length of 2048 characters by default. One can use [CanineTokenizer]
+  to prepare text for the model.
+Classification can be done by placing a linear layer on top of the final hidden state of the special [CLS] token
+  (which has a predefined Unicode code poin

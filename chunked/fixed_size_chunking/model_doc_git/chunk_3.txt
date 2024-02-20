@@ -1,0 +1,14 @@
+ce on standard benchmarks.
+
+ GIT architecture. Taken from the original paper. 
+This model was contributed by nielsr.
+The original code can be found here.
+Usage tips
+
+GIT is implemented in a very similar way to GPT-2, the only difference being that the model is also conditioned on pixel_values.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with GIT.
+
+Demo notebooks regarding inference + fine-tuning GIT on custom data can be found here.
+See also: C

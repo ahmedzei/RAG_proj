@@ -1,0 +1,6 @@
+l can also
+   borrow that function from the architecture it was copied from, assuming it has a TensorFlow architecture.
+- Assigning the name attribute correctly in TensorFlow functions is critical to do the from_pt=True weight
+   cross-loading. name is almost always the name of the corresponding variable in the PyTorch code. If name is not
+   properly set, you will see it in the error message when loading the model weights.
+- The logic of the base model class, BrandNewBertModel, will actually reside in TFBr

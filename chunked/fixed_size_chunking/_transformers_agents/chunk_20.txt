@@ -1,0 +1,13 @@
+s (BART)
+Translation: translate the text into a given language (NLLB)
+
+These tools have an integration in transformers, and can be used manually as well, for example:
+
+from transformers import load_tool
+tool = load_tool("text-to-speech")
+audio = tool("This is a text to speech tool")
+
+Custom tools
+While we identify a curated set of tools, we strongly believe that the main value provided by this implementation is 
+the ability to quickly create and share custom tools.
+By pushing the code of a tool to a Hugging

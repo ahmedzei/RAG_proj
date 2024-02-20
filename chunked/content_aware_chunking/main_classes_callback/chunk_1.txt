@@ -1,0 +1,24 @@
+For customizations that require changes in the training loop, you should
+subclass [Trainer] and override the methods you need (see trainer for examples).
+By default, TrainingArguments.report_to is set to "all", so a [Trainer] will use the following callbacks.
+
+[DefaultFlowCallback] which handles the default behavior for logging, saving and evaluation.
+[PrinterCallback] or [ProgressCallback] to display progress and print the
+  logs (the first one is used if you deactivate tqdm through the [TrainingArguments], otherwise
+  it's the second one).
+[~integrations.TensorBoardCallback] if tensorboard is accessible (either through PyTorch >= 1.4
+  or tensorboardX).
+[~integrations.WandbCallback] if wandb is installed.
+[~integrations.CometCallback] if comet_ml is installed.
+[~integrations.MLflowCallback] if mlflow is installed.
+[~integrations.NeptuneCallback] if neptune is installed.
+[~integrations.AzureMLCallback] if azureml-sdk is
+  installed.
+[~integrations.CodeCarbonCallback] if codecarbon is
+  installed.
+[~integrations.ClearMLCallback] if clearml is installed.
+[~integrations.DagsHubCallback] if dagshub is installed.
+[~integrations.FlyteCallback] if flyte is installed.
+[~integrations.DVCLiveCallback] if dvclive is installed.
+
+If a package is installed but you don't wish to use the accompanying integration, you can change TrainingArguments.report_to to a list of just those integrations you want to use (e.g.

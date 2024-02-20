@@ -1,0 +1,12 @@
+ev environment
+Having selected the model architecture, open a draft PR to signal your intention to work on it. Follow the
+instructions below to set up your environment and open a draft PR.
+
+Fork the repository by clicking on the 'Fork' button on the
+   repository's page. This creates a copy of the code under your GitHub user account.
+
+Clone your transformers fork to your local disk, and add the base repository as a remote:
+
+git clone https://github.com/[your Github handle]/transformers.git
+cd transformers
+g

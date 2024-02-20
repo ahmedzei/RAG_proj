@@ -1,0 +1,28 @@
+odelWithProjection
+    - forward
+CLIPVisionModel
+[[autodoc]] CLIPVisionModel
+    - forward
+CLIPForImageClassification
+[[autodoc]] CLIPForImageClassification
+    - forward
+
+TFCLIPModel
+[[autodoc]] TFCLIPModel
+    - call
+    - get_text_features
+    - get_image_features
+TFCLIPTextModel
+[[autodoc]] TFCLIPTextModel
+    - call
+TFCLIPVisionModel
+[[autodoc]] TFCLIPVisionModel
+    - call
+
+FlaxCLIPModel
+[[autodoc]] FlaxCLIPModel
+    - call
+    - get_text_features
+    - get_image_features
+FlaxCLIPTextModel
+[[autodoc]]

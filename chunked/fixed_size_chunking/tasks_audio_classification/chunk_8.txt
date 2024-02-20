@@ -1,0 +1,7 @@
+er the entire dataset, use 🤗 Datasets [~datasets.Dataset.map] function. You can speed up map by setting batched=True to process multiple elements of the dataset at once. Remove the columns you don't need, and rename intent_class to label because that's the name the model expects:
+
+encoded_minds = minds.map(preprocess_function, remove_columns="audio", batched=True)
+encoded_minds = encoded_minds.rename_column("intent_class", "label")
+
+Evaluate
+Including a metric during training is often helpful for evaluating

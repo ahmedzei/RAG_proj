@@ -1,0 +1,15 @@
+However, text generation tasks can still be
+adapted to run on Inf1 according to this AWS Neuron MarianMT
+tutorial.
+More information about models that can be converted out of the box on Inferentia can be
+found in the Model Architecture
+Fit
+section of the Neuron documentation.
+Dependencies
+Using AWS Neuron to convert models requires a Neuron SDK
+environment
+which comes preconfigured on AWS Deep Learning
+AMI.
+Converting a model for AWS Neuron
+Convert a model for AWS NEURON using the same code from Using TorchScript in
+Python to trace a BertModel.

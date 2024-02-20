@@ -1,0 +1,7 @@
+To quickly find specific examples, you can:
+```bash
+git clone https://github.com/microsoft/DeepSpeedExamples
+cd DeepSpeedExamples
+find . -name '*json'
+find examples with the Lamb optimizer
+grep -i Lamb $(find .

@@ -1,0 +1,8 @@
+Model (SAM) and corresponding dataset (SA-1B) of 1B masks and 11M images at https://segment-anything.com to foster research into foundation models for computer vision.
+Tips:
+
+The model predicts binary masks that states the presence or not of the object of interest given an image.
+The model predicts much better results if input 2D points and/or input bounding boxes are provided
+You can prompt multiple points for the same image, and predict a single mask. 
+Fine-tuning the model is not supported yet
+According 

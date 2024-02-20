@@ -1,0 +1,4 @@
+Model Architecture) :
+Note that we prefix the source sequence with the source language, as opposed to the target
+language as previously done in several works (Arivazhagan et al., 2019; Johnson et al.,
+2017).

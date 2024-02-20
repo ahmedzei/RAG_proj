@@ -1,0 +1,11 @@
+mage"][0]
+
+The simplest way to try out your finetuned model for inference is to use it in a [pipeline]. Instantiate a pipeline for image classification with your model, and pass your image to it:
+
+from transformers import pipeline
+classifier = pipeline("image-classification", model="my_awesome_food_model")
+classifier(image)
+[{'score': 0.31856709718704224, 'label': 'beignets'},
+ {'score': 0.015232225880026817, 'label': 'bruschetta'},
+ {'score': 0.01519392803311348, 'label': 'chicken_wings'},
+ {'score': 0.013

@@ -1,0 +1,7 @@
+From our experience, a simple and efficient way is to add many print statements
+in both the original implementation and 🤗 Transformers implementation, at the same positions in the network
+respectively, and to successively remove print statements showing the same values for intermediate presentations.
+When you're confident that both implementations yield the same output, verify the outputs with
+torch.allclose(original_output, output, atol=1e-3), you're done with the most difficult part! Congratulations - the
+work left to be done should be a cakewalk 😊.
+8.

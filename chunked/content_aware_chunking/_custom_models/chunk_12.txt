@@ -1,0 +1,8 @@
+Using another output format is fine as long as you are planning on using your own
+training loop or another library for training.
+Now that we have our model class, let's create one:
+py
+resnet50d = ResnetModelForImageClassification(resnet50d_config)
+Again, you can use any of the methods of [PreTrainedModel], like [~PreTrainedModel.save_pretrained] or
+[~PreTrainedModel.push_to_hub]. We will use the second in the next section, and see how to push the model weights
+with the code of our model.

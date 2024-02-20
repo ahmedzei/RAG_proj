@@ -1,0 +1,4 @@
+Building custom models
+The 🤗 Transformers library is designed to be easily extensible. Every model is fully coded in a given subfolder
+of the repository with no abstraction, so you can easily copy a modeling file and tweak it to your needs.
+If you are writing a brand new model, it might be easier to start from scratch.

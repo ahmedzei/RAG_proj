@@ -1,0 +1,6 @@
+ated with a set of COCO-style metrics.
+You can use one of the existing metrics implementations, but here you'll use the one from torchvision to evaluate the final
+model that you pushed to the Hub.
+To use the torchvision evaluator, you'll need to prepare a ground truth COCO dataset. The API to build a COCO dataset
+requires the data to be stored in a certain format, so you'll need to save images and annotations to disk first. Just like
+when you prepared your data for training, the annotations from the cppe5["

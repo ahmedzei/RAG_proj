@@ -1,0 +1,6 @@
+The gains are
+particularly strong for small models; for example, we train a model on one GPU for 4 days that outperforms GPT (trained
+using 30x more compute) on the GLUE natural language understanding benchmark. Our approach also works well at scale,
+where it performs comparably to RoBERTa and XLNet while using less than 1/4 of their compute and outperforms them when
+using the same amount of compute.
+This model was contributed by lysandre.

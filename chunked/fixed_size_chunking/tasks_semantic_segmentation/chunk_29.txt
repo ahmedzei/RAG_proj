@@ -1,0 +1,15 @@
+    epochs=num_epochs,
+ )
+
+Congratulations! You have fine-tuned your model and shared it on the 🤗 Hub. You can now use it for inference!
+
+Inference
+Great, now that you've finetuned a model, you can use it for inference!
+Load an image for inference:
+
+image = ds[0]["image"]
+image
+
+We will now see how to infer without a pipeline. Process the image with an image processor and place the pixel_values on a GPU:
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")  # use GPU if available, otherwis

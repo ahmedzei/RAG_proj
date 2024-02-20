@@ -1,0 +1,13 @@
+Either run in your terminal:
+
+huggingface-cli login
+or from a notebook:
+
+from huggingface_hub import notebook_login
+notebook_login()
+
+You can then push to your own namespace (or an organization you are a member of) like this:
+py
+resnet50d.push_to_hub("custom-resnet50d")
+On top of the modeling weights and the configuration in json format, this also copied the modeling and
+configuration .py files in the folder custom-resnet50d and uploaded the result to the Hub.

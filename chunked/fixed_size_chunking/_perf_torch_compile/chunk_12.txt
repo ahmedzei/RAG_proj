@@ -1,0 +1,12 @@
+n/OwlViT | 25.769 | 22.395 | 
+| Image Classification/BeiT | 11.347 | 7.234 | 
+| Object Detection/DETR | 33.951 | 19.388 |
+| Image Classification/ConvNeXT | 11.623 | 10.412 | 
+| Image Classification/ResNet | 6.484 | 3.820 |
+| Image Segmentation/Mask2former | 64.640 | 49.873 |
+| Image Segmentation/Maskformer | 95.532 | 72.207 | 
+| Image Segmentation/MobileNet | 9.217 | 4.753 |
+| Object Detection/Resnet-101 | 52.818 | 28.367 |
+| Object Detection/Conditional-DETR | 39.512 | 20.816 |
+V100 (batch size: 4)
+| Task/

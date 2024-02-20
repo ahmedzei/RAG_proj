@@ -1,0 +1,10 @@
+This will
+be your TensorFlow model file.
+
+Push the changes to your account using:
+
+git add .
+git commit -m "initial commit"
+git push -u origin add_tf_brand_new_bert
+
+Once you are satisfied, go to the webpage of your fork on GitHub. Click on “Pull request”.

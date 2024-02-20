@@ -1,0 +1,19 @@
+With a total of 20,968 examples in the dataset, this information will give us a better understanding of the distribution of 
+speakers and examples in the data.
+
+from collections import defaultdict
+speaker_counts = defaultdict(int)
+for speaker_id in dataset["speaker_id"]:
+     speaker_counts[speaker_id] += 1
+
+By plotting a histogram you can get a sense of how much data there is for each speaker.
+
+import matplotlib.pyplot as plt
+plt.figure()
+plt.hist(speaker_counts.values(), bins=20)
+plt.ylabel("Speakers")
+plt.xlabel("Examples")
+plt.show()
+
+The histogram reveals that approximately one-third of the speakers in the dataset have fewer than 100 examples, while 
+around ten speakers have more than 500 examples.

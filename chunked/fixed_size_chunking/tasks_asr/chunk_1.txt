@@ -1,0 +1,15 @@
+rything works before spending more time training on the full dataset.
+
+from datasets import load_dataset, Audio
+minds = load_dataset("PolyAI/minds14", name="en-US", split="train[:100]")
+
+Split the dataset's train split into a train and test set with the [~Dataset.train_test_split] method:
+
+minds = minds.train_test_split(test_size=0.2)
+
+Then take a look at the dataset:
+
+minds
+DatasetDict({
+    train: Dataset({
+        features: ['path', 'audio', 'transcription', 'english_transcription', 'intent_class', 'lang

@@ -1,0 +1,2 @@
+Open-vocabulary detection is achieved by embedding free-text queries with the text encoder of CLIP and using them as input to the object classification and localization heads.
+associate images and their corresponding textual descriptions, and ViT processes image patches as inputs.

@@ -1,0 +1,8 @@
+ work you have done is well tested, so that
+
+a) The community can easily understand your work by looking at specific tests of brand_new_bert
+b) Future changes to your model will not break any important feature of the model.
+
+At first, integration tests should be added. Those integration tests essentially do the same as the debugging scripts
+you used earlier to implement the model to 🤗 Transformers. A template of those model tests has already added by the
+Cookiecutter, called BrandNewBertModelIntegrationTest

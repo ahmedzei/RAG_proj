@@ -1,0 +1,69 @@
+At the end of each epoch, the [Trainer] will evaluate the seqeval scores and save the training checkpoint.
+Pass the training arguments to [Trainer] along with the model, dataset, tokenizer, data collator, and compute_metrics function.
+Call [~Trainer.train] to finetune your model.
+
+training_args = TrainingArguments(
+     output_dir="my_awesome_wnut_model",
+     learning_rate=2e-5,
+     per_device_train_batch_size=16,
+     per_device_eval_batch_size=16,
+     num_train_epochs=2,
+     weight_decay=0.01,
+     evaluation_strategy="epoch",
+     save_strategy="epoch",
+     load_best_model_at_end=True,
+     push_to_hub=True,
+ )
+trainer = Trainer(
+     model=model,
+     args=training_args,
+     train_dataset=tokenized_wnut["train"],
+     eval_dataset=tokenized_wnut["test"],
+     tokenizer=tokenizer,
+     data_collator=data_collator,
+     compute_metrics=compute_metrics,
+ )
+trainer.train()
+
+Once training is completed, share your model to the Hub with the [~transformers.Trainer.push_to_hub] method so everyone can use your model:
+
+trainer.push_to_hub()
+
+If you aren't familiar with finetuning a model with Keras, take a look at the basic tutorial here!
+
+To finetune a model in TensorFlow, start by setting up an optimizer function, learning rate schedule, and some training hyperparameters:
+
+from transformers import create_optimizer
+batch_size = 16
+num_train_epochs = 3
+num_train_steps = (len(tokenized_wnut["train"]) // batch_size) * num_train_epochs
+optimizer, lr_schedule = create_optimizer(
+     init_lr=2e-5,
+     num_train_steps=num_train_steps,
+     weight_decay_rate=0.01,
+     num_warmup_steps=0,
+ )
+
+Then you can load DistilBERT with [TFAutoModelForTokenClassification] along with the number of expected labels, and the label mappings:
+
+from transformers import TFAutoModelForTokenClassification
+model = TFAutoModelForTokenClassification.from_pretrained(
+     "distilbert/distilbert-base-uncased", num_labels=13, id2label=id2label, label2id=label2id
+ )
+
+Convert your datasets to the tf.data.Dataset format with [~transformers.TFPreTrainedModel.prepare_tf_dataset]:
+
+tf_train_set = model.prepare_tf_dataset(
+     tokenized_wnut["train"],
+     shuffle=True,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+tf_validation_set = model.prepare_tf_dataset(
+     tokenized_wnut["validation"],
+     shuffle=False,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+
+Configure the model for training with compile.

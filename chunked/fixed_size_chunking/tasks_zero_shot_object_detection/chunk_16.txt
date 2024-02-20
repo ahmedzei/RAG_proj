@@ -1,0 +1,10 @@
+ges=image_target, query_images=query_image, return_tensors="pt")
+
+For predictions, instead of passing the inputs to the model, pass them to [~OwlViTForObjectDetection.image_guided_detection]. Draw the predictions
+as before except now there are no labels.
+
+with torch.no_grad():
+     outputs = model.image_guided_detection(**inputs)
+     target_sizes = torch.tensor([image_target.size[::-1]])
+     results = processor.post_process_image_guided_detection(outputs=outputs, target_sizes=target_sizes)[0]
+draw = Image

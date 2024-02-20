@@ -1,0 +1,12 @@
+In particular, it matches or outperforms GPT3.5 on most standard benchmarks.
+Tips:
+
+The model needs to be converted using the conversion script.
+If the model is quantized to 4bits, a single A100 is enough to fit the entire 45B model.
+
+This model was contributed by Younes Belkada and Arthur Zucker .
+The original code can be found here.
+Model Details
+Mixtral-45B is a decoder-based LM with the following architectural choices:
+
+Mixtral is a Mixture of Expert (MOE) model with 8 experts per MLP, with a total of 45B paramateres but the compute required is the same as a 14B model.

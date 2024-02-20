@@ -1,0 +1,14 @@
+roviding free access to endpoints for BigCode and OpenAssistant models.
+To start with, please install the agents extras in order to install all default dependencies.
+
+pip install transformers[agents]
+To use openAI models, you instantiate an [OpenAiAgent] after installing the openai dependency:
+
+pip install openai
+
+from transformers import OpenAiAgent
+agent = OpenAiAgent(model="text-davinci-003", api_key="")
+
+To use BigCode or OpenAssistant, start by logging in to have access to the Inference API:
+
+from hugg

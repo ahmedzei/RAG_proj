@@ -1,0 +1,3 @@
+The embedding for time
+step \(j\) in E is obtained by concatenating the embeddings for timestep \(j \% l1\) in E1 and \(j // l1\)
+in E2..

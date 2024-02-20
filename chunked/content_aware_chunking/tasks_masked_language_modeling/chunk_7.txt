@@ -1,0 +1,11 @@
+This means you'll need to extract the text subfield from its nested structure with the flatten method:
+
+eli5 = eli5.flatten()
+eli5["train"][0]
+{'q_id': '7h191n',
+ 'title': 'What does the tax bill that was passed today mean? How will it affect Americans in each tax bracket?',
+ 'selftext': '',
+ 'category': 'Economics',
+ 'subreddit': 'explainlikeimfive',
+ 'answers.a_id': ['dqnds8l', 'dqnd1jl', 'dqng3i1', 'dqnku5x'],
+ 'answers.text': ["The tax bill is 500 pages long and there were a lot of changes still going on right to the end.

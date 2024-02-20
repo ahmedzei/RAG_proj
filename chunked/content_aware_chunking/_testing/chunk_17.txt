@@ -1,0 +1,6 @@
+It can also
+shuffle on class, package, global and none levels. For the complete details please see its
+documentation.
+Another randomization alternative is: pytest-randomly. This
+module has a very similar functionality/interface, but it doesn't have the bucket modes available in
+pytest-random-order.

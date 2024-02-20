@@ -1,0 +1,6 @@
+In this guide, you'll use the ColorJitter function from torchvision to randomly change the color properties of an image, but you can also use any image library you like.
+
+from torchvision.transforms import ColorJitter
+jitter = ColorJitter(brightness=0.25, contrast=0.25, saturation=0.25, hue=0.1)
+
+Now create two preprocessing functions to prepare the images and annotations for the model. These functions convert the images into pixel_values and annotations to labels.

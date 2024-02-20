@@ -1,0 +1,4 @@
+They are token indices,
+numerical representations of tokens building the sequences that will be used as input by the model.
+
+Each tokenizer works differently but the underlying mechanism remains the same.

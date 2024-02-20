@@ -1,0 +1,9 @@
+ance has a bread law, Le Décret Pain, with strict rules on what is allowed in a traditional baguette."
+candidate1 = "The law does not apply to croissants and brioche."
+candidate2 = "The law applies to baguettes."
+
+Tokenize each prompt and candidate answer pair and return PyTorch tensors. You should also create some labels:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("my_awesome_swag_model")
+inputs = tokenizer([[prompt, candidate1], [prompt, candidate2]], return_tensors=

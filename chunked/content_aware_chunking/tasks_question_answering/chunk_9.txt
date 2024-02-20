@@ -1,0 +1,68 @@
+You'll push this model to the Hub by setting push_to_hub=True (you need to be signed in to Hugging Face to upload your model).
+Pass the training arguments to [Trainer] along with the model, dataset, tokenizer, and data collator.
+Call [~Trainer.train] to finetune your model.
+
+training_args = TrainingArguments(
+     output_dir="my_awesome_qa_model",
+     evaluation_strategy="epoch",
+     learning_rate=2e-5,
+     per_device_train_batch_size=16,
+     per_device_eval_batch_size=16,
+     num_train_epochs=3,
+     weight_decay=0.01,
+     push_to_hub=True,
+ )
+trainer = Trainer(
+     model=model,
+     args=training_args,
+     train_dataset=tokenized_squad["train"],
+     eval_dataset=tokenized_squad["test"],
+     tokenizer=tokenizer,
+     data_collator=data_collator,
+ )
+trainer.train()
+
+Once training is completed, share your model to the Hub with the [~transformers.Trainer.push_to_hub] method so everyone can use your model:
+
+trainer.push_to_hub()
+
+If you aren't familiar with finetuning a model with Keras, take a look at the basic tutorial here!
+
+To finetune a model in TensorFlow, start by setting up an optimizer function, learning rate schedule, and some training hyperparameters:
+
+from transformers import create_optimizer
+batch_size = 16
+num_epochs = 2
+total_train_steps = (len(tokenized_squad["train"]) // batch_size) * num_epochs
+optimizer, schedule = create_optimizer(
+     init_lr=2e-5,
+     num_warmup_steps=0,
+     num_train_steps=total_train_steps,
+ )
+
+Then you can load DistilBERT with [TFAutoModelForQuestionAnswering]:
+
+from transformers import TFAutoModelForQuestionAnswering
+model = TFAutoModelForQuestionAnswering.from_pretrained("distilbert/distilbert-base-uncased")
+
+Convert your datasets to the tf.data.Dataset format with [~transformers.TFPreTrainedModel.prepare_tf_dataset]:
+
+tf_train_set = model.prepare_tf_dataset(
+     tokenized_squad["train"],
+     shuffle=True,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+tf_validation_set = model.prepare_tf_dataset(
+     tokenized_squad["test"],
+     shuffle=False,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+
+Configure the model for training with compile:
+
+import tensorflow as tf
+model.compile(optimizer=optimizer)
+
+The last thing to setup before you start training is to provide a way to push your model to the Hub.

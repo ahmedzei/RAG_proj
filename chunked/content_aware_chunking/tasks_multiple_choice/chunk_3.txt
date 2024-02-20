@@ -1,0 +1,4 @@
+You can speed up the map function by setting batched=True to process multiple elements of the dataset at once:
+py
+tokenized_swag = swag.map(preprocess_function, batched=True)
+🤗 Transformers doesn't have a data collator for multiple choice, so you'll need to adapt the [DataCollatorWithPadding] to create a batch of examples.

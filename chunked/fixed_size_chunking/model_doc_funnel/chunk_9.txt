@@ -1,0 +1,15 @@
+rMaskedLM
+    - call
+TFFunnelForSequenceClassification
+[[autodoc]] TFFunnelForSequenceClassification
+    - call
+TFFunnelForMultipleChoice
+[[autodoc]] TFFunnelForMultipleChoice
+    - call
+TFFunnelForTokenClassification
+[[autodoc]] TFFunnelForTokenClassification
+    - call
+TFFunnelForQuestionAnswering
+[[autodoc]] TFFunnelForQuestionAnswering
+    - call
+

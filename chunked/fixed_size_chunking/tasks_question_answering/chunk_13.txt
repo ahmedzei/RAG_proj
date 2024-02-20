@@ -1,0 +1,19 @@
+ub=True,
+ )
+trainer = Trainer(
+     model=model,
+     args=training_args,
+     train_dataset=tokenized_squad["train"],
+     eval_dataset=tokenized_squad["test"],
+     tokenizer=tokenizer,
+     data_collator=data_collator,
+ )
+trainer.train()
+
+Once training is completed, share your model to the Hub with the [~transformers.Trainer.push_to_hub] method so everyone can use your model:
+
+trainer.push_to_hub()
+
+If you aren't familiar with finetuning a model with Keras, take a look at the basic tutorial here!
+
+To fin

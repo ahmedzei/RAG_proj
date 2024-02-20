@@ -1,0 +1,13 @@
+     start_char = answer["answer_start"][0]
+         end_char = answer["answer_start"][0] + len(answer["text"][0])
+         sequence_ids = inputs.sequence_ids(i)
+         # Find the start and end of the context
+         idx = 0
+         while sequence_ids[idx] != 1:
+             idx += 1
+         context_start = idx
+         while sequence_ids[idx] == 1:
+             idx += 1
+         context_end = idx - 1
+         # If the answer is not fully inside the context, label it (0, 0)
+         if offset[context_s

@@ -1,0 +1,3 @@
+Whisper was released 
+2 years later than Wav2Vec2, and was trained on close to 10x more data. As such, it beats Wav2Vec2 on most downstream 
+benchmarks.

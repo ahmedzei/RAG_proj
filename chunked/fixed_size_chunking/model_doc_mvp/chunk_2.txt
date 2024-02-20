@@ -1,0 +1,7 @@
+on and instructions can be found here.
+Usage tips
+
+We have released a series of models here, including MVP, MVP with task-specific prompts, and multi-task pre-trained variants.
+If you want to use a model without prompts (standard Transformer), you can load it through MvpForConditionalGeneration.from_pretrained('RUCAIBox/mvp').
+If you want to use a model with task-specific prompts, such as summarization, you can load it through MvpForConditionalGeneration.from_pretrained('RUCAIBox/mvp-summarization').
+Our mo

@@ -1,0 +1,10 @@
+fig
+PersimmonModel
+[[autodoc]] PersimmonModel
+    - forward
+PersimmonForCausalLM
+[[autodoc]] PersimmonForCausalLM
+    - forward
+PersimmonForSequenceClassification
+[[autodoc]] PersimmonForSequenceClassification
+    - forward

@@ -1,0 +1,11 @@
+rQuestionAnswering] is supported by this example script.
+Question answering chapter of the 🤗 Hugging Face Course.
+Question answering task guide
+
+Multiple choice
+- [BertForMultipleChoice] is supported by this example script and notebook.
+- [TFBertForMultipleChoice] is supported by this example script and notebook.
+- Multiple choice task guide
+⚡️ Inference
+- A blog post on how to Accelerate BERT inference with Hugging Face Transformers and AWS Inferentia.
+- A blog post on how to Accelerate BERT inference with

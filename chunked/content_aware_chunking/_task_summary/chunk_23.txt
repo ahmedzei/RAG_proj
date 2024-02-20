@@ -1,0 +1,27 @@
+POS is useful for helping translation systems understand how two identical words are grammatically different (bank as a noun versus bank as a verb).
+
+from transformers import pipeline
+classifier = pipeline(task="ner")
+preds = classifier("Hugging Face is a French company based in New York City.")
+preds = [
+     {
+         "entity": pred["entity"],
+         "score": round(pred["score"], 4),
+         "index": pred["index"],
+         "word": pred["word"],
+         "start": pred["start"],
+         "end": pred["end"],
+     }
+     for pred in preds
+ ]
+print(*preds, sep="\n")
+{'entity': 'I-ORG', 'score': 0.9968, 'index': 1, 'word': 'Hu', 'start': 0, 'end': 2}
+{'entity': 'I-ORG', 'score': 0.9293, 'index': 2, 'word': '##gging', 'start': 2, 'end': 7}
+{'entity': 'I-ORG', 'score': 0.9763, 'index': 3, 'word': 'Face', 'start': 8, 'end': 12}
+{'entity': 'I-MISC', 'score': 0.9983, 'index': 6, 'word': 'French', 'start': 18, 'end': 24}
+{'entity': 'I-LOC', 'score': 0.999, 'index': 10, 'word': 'New', 'start': 42, 'end': 45}
+{'entity': 'I-LOC', 'score': 0.9987, 'index': 11, 'word': 'York', 'start': 46, 'end': 50}
+{'entity': 'I-LOC', 'score': 0.9992, 'index': 12, 'word': 'City', 'start': 51, 'end': 55}
+
+Question answering
+Question answering is another token-level task that returns an answer to a question, sometimes with context (open-domain) and other times without context (closed-domain).

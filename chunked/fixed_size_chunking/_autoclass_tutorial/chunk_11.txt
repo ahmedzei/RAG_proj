@@ -1,0 +1,5 @@
+be loaded within PyTorch architectures using the from_tf and from_flax kwargs for the from_pretrained method to circumvent this issue.
+
+Generally, we recommend using the AutoTokenizer class and the AutoModelFor class to load pretrained instances of models. This will ensure you load the correct architecture every time. In the next tutorial, learn how to use your newly loaded tokenizer, image processor, feature extractor and processor to preprocess a dataset for fine-tuning.
+
+Finally, the TFAutoModelFor class

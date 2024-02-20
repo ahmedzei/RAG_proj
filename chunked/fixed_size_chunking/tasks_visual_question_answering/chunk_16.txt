@@ -1,0 +1,14 @@
+id', 'image_id', 'answer_type', 'label.ids', 'label.weights'])
+processed_dataset
+Dataset({
+    features: ['input_ids', 'token_type_ids', 'attention_mask', 'pixel_values', 'pixel_mask', 'labels'],
+    num_rows: 200
+})
+
+As a final step, create a batch of examples using [DefaultDataCollator]:
+
+from transformers import DefaultDataCollator
+data_collator = DefaultDataCollator()
+
+Train the model
+You’re ready to start training your model now! Load ViLT with [ViltForQuestionAnswering]. Specify the number of labels 

@@ -1,0 +1,7 @@
+Try to include as much information describing the bug as possible to help us better figure out what's wrong and how we can fix it.
+
+Check the Migration guide if you use an older version of 🤗 Transformers since some important changes have been introduced between versions.
+
+For more details about troubleshooting and getting help, take a look at Chapter 8 of the Hugging Face course.
+Firewalled environments
+Some GPU instances on cloud and intranet setups are firewalled to external connections, resulting in a connection error.

@@ -1,0 +1,8 @@
+i/bertweet-base")
+
+ 
+This implementation is the same as BERT, except for tokenization method. Refer to BERT documentation for 
+API reference information.  
+
+BertweetTokenizer
+[[autodoc]] BertweetTokenizer

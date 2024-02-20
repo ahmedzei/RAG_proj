@@ -1,0 +1,11 @@
+Before you begin, make sure you have all the necessary libraries installed:
+
+pip install transformers datasets evaluate -q
+pip install jiwer -q
+We encourage you to log in to your Hugging Face account so you can upload and share your model with the community. When prompted, enter your token to log in:
+thon
+from huggingface_hub import notebook_login
+notebook_login()
+
+Load the Pokémon BLIP captions dataset
+Use the 🤗 Dataset library to load a dataset that consists of {image-caption} pairs.

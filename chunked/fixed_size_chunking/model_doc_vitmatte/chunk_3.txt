@@ -1,0 +1,11 @@
+g, our method achieves state-of-the-art performance and outperforms prior matting works by a large margin.
+This model was contributed by nielsr.
+The original code can be found here.
+
+ ViTMatte high-level overview. Taken from the original paper. 
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with ViTMatte.
+
+A demo notebook regarding inference with [VitMatteForImageMatting], including background replacement, can be found here.
+
+The model expects bot

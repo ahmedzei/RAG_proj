@@ -1,0 +1,4 @@
+But it can be very effective
+when used in the correct setting. In the API, there is no dynamic
+batching by default (too much opportunity for a slowdown). But for BLOOM inference -
+which is a very large model - dynamic batching is essential to provide a decent experience for everyone..

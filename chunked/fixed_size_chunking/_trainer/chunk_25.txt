@@ -1,0 +1,16 @@
+r: false
+tpu_use_sudo: false
+use_cpu: false
+
+yml
+compute_environment: LOCAL_MACHINE                                                                                             
+deepspeed_config:                                                                                                              
+  gradient_accumulation_steps: 1
+  gradient_clipping: 0.7
+  offload_optimizer_device: cpu
+  offload_param_device: cpu
+  zero3_init_flag: true
+  zero_stage: 2
+distributed_type: DEEPSPEED
+downcast_bf16: 'no'
+m

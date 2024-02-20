@@ -1,0 +1,4 @@
+A subjective human evaluation (mean opinion score, or MOS) on the LJ Speech, a single speaker dataset, shows that our method outperforms the best publicly available TTS systems and achieves a MOS comparable to ground truth.
+This model can also be used with TTS checkpoints from Massively Multilingual Speech (MMS) 
+as these checkpoints use the same architecture and a slightly modified tokenizer.
+This model was contributed by Matthijs and sanchit-gandhi.

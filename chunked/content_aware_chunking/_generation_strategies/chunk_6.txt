@@ -1,0 +1,18 @@
+The default configuration is also used when no custom configuration has been saved with
+the model.
+When you load a model explicitly, you can inspect the generation configuration that comes with it through
+ model.generation_config:
+thon
+
+from transformers import AutoModelForCausalLM
+model = AutoModelForCausalLM.from_pretrained("distilbert/distilgpt2")
+model.generation_config
+GenerationConfig {
+    "bos_token_id": 50256,
+    "eos_token_id": 50256,
+}
+
+Printing out the model.generation_config reveals only the values that are different from the default generation
+configuration, and does not list any of the default values.
+The default generation configuration limits the size of the output combined with the input prompt to a maximum of 20
+tokens to avoid running into resource limitations.

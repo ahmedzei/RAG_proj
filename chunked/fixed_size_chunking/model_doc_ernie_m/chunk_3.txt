@@ -1,0 +1,11 @@
+M is a BERT-like model so it is a stacked Transformer Encoder.
+Instead of using MaskedLM for pretraining (like BERT) the authors used two novel techniques: Cross-attention Masked Language Modeling and Back-translation Masked Language Modeling. For now these two LMHead objectives are not implemented here.
+It is a multilingual language model.
+Next Sentence Prediction was not used in pretraining process.
+
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Mu

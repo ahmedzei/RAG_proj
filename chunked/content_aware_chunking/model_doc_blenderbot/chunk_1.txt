@@ -1,0 +1,6 @@
+While prior work has shown that
+scaling neural models in the number of parameters and the size of the data they are trained on gives improved results,
+we show that other ingredients are important for a high-performing chatbot. Good conversation requires a number of
+skills that an expert conversationalist blends in a seamless way: providing engaging talking points and listening to
+their partners, and displaying knowledge, empathy and personality appropriately, while maintaining a consistent
+persona.

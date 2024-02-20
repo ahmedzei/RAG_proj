@@ -1,0 +1,12 @@
+setting padding=True, dynamic padding is more efficient.
+Unlike other data collators, this specific data collator needs to apply a different padding method to input_values and labels:
+
+import torch
+from dataclasses import dataclass, field
+from typing import Any, Dict, List, Optional, Union
+@dataclass
+ class DataCollatorCTCWithPadding:
+     processor: AutoProcessor
+     padding: Union[bool, str] = "longest"
+
+     def call(self, features: List[Dict[str, Union[List[int], torch.Tensor]]]) -> Dict[str, torch.Ten

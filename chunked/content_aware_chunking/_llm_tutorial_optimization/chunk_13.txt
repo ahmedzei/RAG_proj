@@ -1,0 +1,4 @@
+Therefore the back-of-the-envelope formula can also be understood as an "at most X GB" computation.
+Note that if we had tried to run the model in full float32 precision, a whopping 64 GB of VRAM would have been required.
+
+Almost all models are trained in bfloat16 nowadays, there is no reason to run the model in full float32 precision if your GPU supports bfloat16.

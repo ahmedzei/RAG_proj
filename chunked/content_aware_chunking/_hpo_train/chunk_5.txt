@@ -1,0 +1,1 @@
+Only the rank-zero process will generate the search trial and pass the argument to other ranks..

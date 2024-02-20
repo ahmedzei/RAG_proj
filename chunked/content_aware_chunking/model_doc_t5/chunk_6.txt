@@ -1,0 +1,20 @@
+Encoder input padding can be done on the left and on the right.
+
+See the training, inference and resources sections below for all details regarding usage.
+
+T5 comes in different sizes:
+
+google-t5/t5-small
+
+google-t5/t5-base
+
+google-t5/t5-large
+
+google-t5/t5-3b
+
+google-t5/t5-11b.
+
+Based on the original T5 model, Google has released some follow-up works:
+
+T5v1.1: T5v1.1 is an improved version of T5 with some architectural tweaks, and is pre-trained on C4 only without
+  mixing in the supervised tasks.

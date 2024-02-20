@@ -1,0 +1,4 @@
+Mask generation task is supported by Segment Anything Model (SAM). It's a powerful model that consists of a Vision Transformer-based image encoder, a prompt encoder, and a two-way transformer mask decoder. Images and prompts are encoded, and the decoder takes these embeddings and generates valid masks. 
+
+SAM serves as a powerful foundation model for segmentation as it has large data coverage. It is trained on 
+SA-1B, a dataset with 1 million images and 1.1 billion masks.

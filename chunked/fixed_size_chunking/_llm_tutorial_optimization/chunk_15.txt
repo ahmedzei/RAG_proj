@@ -1,0 +1,16 @@
+pretrained(, torch_dtype=) except when the original type is float32 in which case one can use both float16 or bfloat16 for inference.
+Let's define a flush() function to free all allocated memory so that we can accurately measure the peak allocated GPU memory.
+thon
+del pipe
+del model
+import gc
+import torch
+def flush():
+  gc.collect()
+  torch.cuda.empty_cache()
+  torch.cuda.reset_peak_memory_stats()
+
+Let's call it now for the next experiment.
+python
+flush()
+In the recent version of the accelerate library, you

@@ -1,0 +1,3 @@
+e having comparable performance to SOTA on WikiSQL, with a much simpler architecture.
+The abstract from the paper is the following:
+Answering natural language questions over tables is usually seen as a semantic parsing task. To alleviate the collection cost of full logical forms, one popular approach focuses on weak supervision consisting of denotations instead of logical forms. However, training semantic parsers from weak supervision poses difficulties, and in addition, the generated logical forms are only

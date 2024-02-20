@@ -1,0 +1,12 @@
+e=True, add_generation_prompt=True, return_tensors="pt")
+print(tokenizer.decode(tokenized_chat[0]))
+This will yield a string in the input format that Zephyr expects.text
+<|system|>
+You are a friendly chatbot who always responds in the style of a pirate 
+<|user|>
+How many helicopters can a human eat in one sitting? 
+<|assistant|>
+
+Now that our input is formatted correctly for Zephyr, we can use the model to generate a response to the user's question:
+python
+outputs = model.generate(tokenized_chat, max_new_to

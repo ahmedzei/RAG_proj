@@ -1,0 +1,6 @@
+This way instead of assigning the query key embedding vectors to one of \((1,\ldots,
+n_{\text{buckets}})\) they are assigned to one of \((1-1,\ldots, n_{\text{buckets}}^1-1, \ldots,
+1-n_{\text{buckets}}^2, \ldots, n_{\text{buckets}}^1-n_{\text{buckets}}^2)\). This is crucial for very long sequences to
+save memory.
+When training a model from scratch, it is recommended to leave config.num_buckets=None, so that depending on the
+sequence length a good value for num_buckets is calculated on the fly.

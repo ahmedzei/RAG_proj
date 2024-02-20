@@ -1,0 +1,10 @@
+ies.
+LUKE treats entities as input tokens; therefore, it takes entity_ids, entity_attention_mask,
+  entity_token_type_ids and entity_position_ids as extra input. You can obtain those using
+  [LukeTokenizer].
+
+[LukeTokenizer] takes entities and entity_spans (character-based start and end
+  positions of the entities in the input text) as extra input. entities typically consist of [MASK] entities or
+  Wikipedia entities. The brief description when inputting these entities are as follows:
+
+Inputting [MASK] enti

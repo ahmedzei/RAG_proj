@@ -1,0 +1,12 @@
+For example, we can load and run the model with ONNX
+Runtime as follows:
+thon
+
+from transformers import AutoTokenizer
+from optimum.onnxruntime import ORTModelForQuestionAnswering
+tokenizer = AutoTokenizer.from_pretrained("distilbert_base_uncased_squad_onnx")
+model = ORTModelForQuestionAnswering.from_pretrained("distilbert_base_uncased_squad_onnx")
+inputs = tokenizer("What am I using?", "Using DistilBERT with ONNX Runtime!", return_tensors="pt")
+outputs = model(**inputs)
+
+The process is identical for TensorFlow checkpoints on the Hub.

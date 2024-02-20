@@ -1,0 +1,20 @@
+[
+        Route("/", homepage, methods=["POST"]),
+    ],
+)
+@app.on_event("startup")
+async def startup_event():
+    q = asyncio.Queue()
+    app.model_queue = q
+    asyncio.create_task(server_loop(q))
+
+Now you can start it with:
+
+uvicorn server:app
+And you can query it:
+```bash
+curl -X POST -d "test [MASK]" http://localhost:8000/
+[{"score":0.7742936015129089,"token":1012,"token_str":".","sequence":"test."},]
+
+And there you go, now you have a good idea of how to create a webserver!
+What is really important is 

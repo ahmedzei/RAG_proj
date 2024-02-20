@@ -1,0 +1,8 @@
+Visual Question Answering
+[[open-in-colab]]
+Visual Question Answering (VQA) is the task of answering open-ended questions based on an image. 
+The input to models supporting this task is typically a combination of an image and a question, and the output is an 
+answer expressed in natural language.
+Some noteworthy use case examples for VQA include:
+* Accessibility applications for visually impaired individuals.
+* Education: posing questions about visual materials presented in lectures or textbooks.

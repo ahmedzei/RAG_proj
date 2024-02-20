@@ -1,0 +1,6 @@
+eeds to be chunked into multiple parts to be processed by a model. The pipeline performs this chunk batching for you.
+Task specific parameters
+All tasks provide task specific parameters which allow for additional flexibility and options to help you get your job done.
+For instance, the [transformers.AutomaticSpeechRecognitionPipeline.__call__] method has a return_timestamps parameter which sounds promising for subtitling videos:
+
+transcriber = pipeline(model="openai/whisper-large-v2", return_timestamps=True)

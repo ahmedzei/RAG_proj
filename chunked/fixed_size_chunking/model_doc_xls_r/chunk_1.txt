@@ -1,0 +1,5 @@
+2B parameters on nearly half a million hours of publicly available speech audio in 128
+languages, an order of magnitude more public data than the largest known prior work. Our evaluation covers a wide range
+of tasks, domains, data regimes and languages, both high and low-resource. On the CoVoST-2 speech translation
+benchmark, we improve the previous state of the art by an average of 7.4 BLEU over 21 translation directions into
+English. For speech recognition, XLS-R improves over the best known prior work on

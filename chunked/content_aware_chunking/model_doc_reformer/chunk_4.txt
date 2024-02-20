@@ -1,0 +1,7 @@
+It’s a technique to avoid computing the full product query-key in the attention layers.
+Avoid storing the intermediate results of each layer by using reversible transformer layers to obtain them during the backward pass (subtracting the residuals from the input of the next layer gives them back) or recomputing them for results inside a given layer (less efficient than storing them but saves memory).
+Compute the feedforward operations by chunks and not on the whole batch.
+
+Axial Positional Encodings
+Axial Positional Encodings were first implemented in Google's trax library
+and developed by the authors of this model's paper.

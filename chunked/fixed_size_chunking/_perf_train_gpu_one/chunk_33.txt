@@ -1,0 +1,6 @@
+t training speed is the ability to feed the GPU at the maximum speed it 
+can handle. By default, everything happens in the main process, and it might not be able to read the data from disk fast 
+enough, and thus create a bottleneck, leading to GPU under-utilization. Configure the following arguments to reduce the bottleneck:
+
+DataLoader(pin_memory=True, ) - ensures the data gets preloaded into the pinned memory on CPU and typically leads to much faster transfers from CPU to GPU memory.
+DataLoader(num_worker

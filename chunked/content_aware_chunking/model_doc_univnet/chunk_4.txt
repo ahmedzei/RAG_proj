@@ -1,0 +1,4 @@
+These results, including the best subjective score for text-to-speech, demonstrate the potential for fast adaptation to new speakers without a need for training from scratch.
+Tips:
+
+The noise_sequence argument for [UnivNetModel.forward] should be standard Gaussian noise (such as from torch.randn) of shape ([batch_size], noise_length, model.config.model_in_channels), where noise_length should match the length dimension (dimension 1) of the input_features argument.

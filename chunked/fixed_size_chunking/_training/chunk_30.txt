@@ -1,0 +1,14 @@
+ts
+     predictions = torch.argmax(logits, dim=-1)
+     metric.add_batch(predictions=predictions, references=batch["labels"])
+
+metric.compute()
+
+Additional resources
+For more fine-tuning examples, refer to:
+
+🤗 Transformers Examples includes scripts
+  to train common NLP tasks in PyTorch and TensorFlow.
+
+🤗 Transformers Notebooks contains various notebooks on how to fine-tune a model for specific tasks in PyTorch and TensorFlow.
+

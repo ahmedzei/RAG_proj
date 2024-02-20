@@ -1,0 +1,6 @@
+a, Maryam Fazel-Zarandi, Tom Sercu, Sal Candido and Alexander Rives.
+Also introduced in this paper was ESMFold. It uses an ESM-2 stem with a head that can predict folded protein
+structures with state-of-the-art accuracy. Unlike AlphaFold2,
+it relies on the token embeddings from the large pre-trained protein language model stem and does not perform a multiple
+sequence alignment (MSA) step at inference time, which means that ESMFold checkpoints are fully "standalone" -
+they do not require a database of known 

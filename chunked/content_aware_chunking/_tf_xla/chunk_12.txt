@@ -1,0 +1,13 @@
+import tensorflow as tf
+from transformers import AutoTokenizer, TFAutoModelForCausalLM
+tokenizer = AutoTokenizer.from_pretrained("openai-community/gpt2", padding_side="left", pad_token="")
+model = TFAutoModelForCausalLM.from_pretrained("openai-community/gpt2")
+input_string = ["TensorFlow is"]
+xla_generate = tf.function(model.generate, jit_compile=True)
+Here, we call the tokenizer with padding options.
+tokenized_input = tokenizer(input_string, pad_to_multiple_of=8, padding=True, return_tensors="tf")
+generated_tokens = xla_generate(**tokenized_input, num_beams=2)
+decoded_text = tokenizer.decode(generated_tokens[0], skip_special_tokens=True)
+print(f"Generated -- {decoded_text}")
+
+This way, you can ensure that the inputs to xla_generate() will always receive inputs with the shape it was traced with and thus leading to speed-ups in the generation time.

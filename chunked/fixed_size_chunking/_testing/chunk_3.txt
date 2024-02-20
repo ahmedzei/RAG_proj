@@ -1,0 +1,18 @@
+hey are CPU cores (which could be too many if you don't have a ton of RAM!)
+ensure that all tests from the same file will be run by the same test process
+do not capture output
+run in verbose mode
+
+Getting the list of all tests
+All tests of the test suite:
+
+pytest --collect-only -q
+All tests of a given test file:
+
+pytest tests/test_optimization.py --collect-only -q
+Run a specific test module
+To run an individual test module:
+
+pytest tests/utils/test_logging.py
+Run specific tests
+Since unittest is used inside

@@ -1,0 +1,3 @@
+When using pre-trained models for inference
+within a [pipeline], the models call the PreTrainedModel.generate() method that applies a default generation
+configuration under the hood.

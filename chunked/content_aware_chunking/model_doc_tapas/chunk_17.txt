@@ -1,0 +1,22 @@
+Here, learning the appropriate aggregation operator is much easier.
+
+To summarize:
+| Task                            | Example dataset | Description                                                                                         |
+|-------------------------------------|---------------------|---------------------------------------------------------------------------------------------------------|
+| Conversational                      | SQA                 | Conversational, only cell selection questions                                                           |
+| Weak supervision for aggregation    | WTQ                 | Questions might involve aggregation, and the model must learn this given only the answer as supervision |
+| Strong supervision for aggregation  | WikiSQL-supervised  | Questions might involve aggregation, and the model must learn this given the gold aggregation operator  |
+
+Initializing a model with a pre-trained base and randomly initialized classification heads from the hub can be done as shown below.
+
+from transformers import TapasConfig, TapasForQuestionAnswering
+for example, the base sized model with default SQA configuration
+model = TapasForQuestionAnswering.from_pretrained("google/tapas-base")
+or, the base sized model with WTQ configuration
+config = TapasConfig.from_pretrained("google/tapas-base-finetuned-wtq")
+model = TapasForQuestionAnswering.from_pretrained("google/tapas-base", config=config)
+or, the base sized model with WikiSQL configuration
+config = TapasConfig("google-base-finetuned-wikisql-supervised")
+model = TapasForQuestionAnswering.from_pretrained("google/tapas-base", config=config)
+
+Of course, you don't necessarily have to follow one of these three ways in which TAPAS was fine-tuned.

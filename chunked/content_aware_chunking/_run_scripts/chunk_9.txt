@@ -1,0 +1,4 @@
+The TensorFlow script will use multiple GPUs by default if they are available.
+Run a script on a TPU
+
+Tensor Processing Units (TPUs) are specifically designed to accelerate performance. PyTorch supports TPUs with the XLA deep learning compiler (see here for more details).

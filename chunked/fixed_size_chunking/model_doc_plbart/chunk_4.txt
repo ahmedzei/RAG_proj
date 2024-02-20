@@ -1,0 +1,6 @@
+ext format is [tgt_lang_code] X [eos]. bos is never used.
+However, for fine-tuning, in some cases no language token is provided in cases where a single language is used. Please refer to the paper to learn more about this.
+In cases where the language code is needed, the regular [~PLBartTokenizer.__call__] will encode source text format 
+when you pass texts as the first argument or with the keyword argument text, and will encode target text format if
+it's passed with the text_target keyword argument.
+Supervis

@@ -1,0 +1,7 @@
+ely not a requirement that you understand all facets of the model at this stage. Nevertheless, we highly
+encourage you to clear any pressing questions in our forum.
+4. Model implementation
+Now it's time to finally start coding. Our suggested starting point is the PyTorch file itself: copy the contents of
+modeling_brand_new_bert.py inside src/transformers/models/brand_new_bert/ into
+modeling_tf_brand_new_bert.py. The goal of this section is to modify the file and update the import structure of
+🤗 Transformers

@@ -1,0 +1,8 @@
+You should be proud of your work and share
+   your achievement with the community - your model can now be used by thousands of engineers and researchers around
+   the world 🌍! We will be happy to retweet your posts and help you share your work with the community.
+Adding TensorFlow weights to 🤗 Hub
+Assuming that the TensorFlow model architecture is available in 🤗 Transformers, converting PyTorch weights into
+TensorFlow weights is a breeze!
+Here's how to do it:
+1.

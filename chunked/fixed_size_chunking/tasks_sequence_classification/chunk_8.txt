@@ -1,0 +1,12 @@
+training.
+Train
+Before you start training your model, create a map of the expected ids to their labels with id2label and label2id:
+
+id2label = {0: "NEGATIVE", 1: "POSITIVE"}
+label2id = {"NEGATIVE": 0, "POSITIVE": 1}
+
+If you aren't familiar with finetuning a model with the [Trainer], take a look at the basic tutorial here!
+
+You're ready to start training your model now! Load DistilBERT with [AutoModelForSequenceClassification] along with the number of expected labels, and the label mappings:
+
+from transforme

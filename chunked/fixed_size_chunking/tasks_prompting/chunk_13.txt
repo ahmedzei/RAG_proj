@@ -1,0 +1,12 @@
+arn about 
+in Text generation strategies guide.
+
+Named Entity Recognition
+Named Entity Recognition (NER) is a task of finding named entities in a piece of text, such as a person, location, or organization.
+Let's modify the instructions in the prompt to make the LLM perform this task. Here, let's also set return_full_text = False 
+so that output doesn't contain the prompt:
+thon
+
+torch.manual_seed(1) # doctest: +IGNORE_RESULT
+prompt = """Return a list of named entities in the text.
+ Text: The Golden State War

@@ -1,0 +1,10 @@
+is task, load the seqeval framework (see the 🤗 Evaluate quick tour to learn more about how to load and compute a metric). Seqeval actually produces several scores: precision, recall, F1, and accuracy.
+
+import evaluate
+seqeval = evaluate.load("seqeval")
+
+Get the NER labels first, and then create a function that passes your true predictions and true labels to [~evaluate.EvaluationModule.compute] to calculate the scores:
+
+import numpy as np
+labels = [label_list[i] for i in example[f"ner_tags"]]
+def compute_met

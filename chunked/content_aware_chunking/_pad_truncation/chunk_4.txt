@@ -1,0 +1,5 @@
+This will
+    truncate token by token, removing a token from the longest sequence in the pair until the proper length is
+    reached.
+'only_second': truncate to a maximum length specified by the max_length argument or the maximum
+    length accepted by the model if no max_length is provided (max_length=None).

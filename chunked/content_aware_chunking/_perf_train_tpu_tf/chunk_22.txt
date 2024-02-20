@@ -1,0 +1,3 @@
+This often only increases the number of tokens by a small amount, but it hugely reduces the number of unique input shapes, because every input shape now has to be a multiple of 32 or 64. Fewer unique input shapes means fewer XLA compilations!
+
+🤗Specific HuggingFace Tip🤗: Our tokenizers and data collators have methods that can help you here. You can use padding="max_length" or padding="longest" when calling tokenizers to get them to output padded data.

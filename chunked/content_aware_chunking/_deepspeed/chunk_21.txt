@@ -1,0 +1,3 @@
+This allows offloading model parameters to the CPU.
+pin_memory: true can improve throughput, but less memory becomes available for other processes because the pinned memory is reserved for the specific process that requested it and it's typically accessed much faster than normal CPU memory.
+stage3_max_live_parameters is the upper limit on how many full parameters you want to keep on the GPU at any given time.

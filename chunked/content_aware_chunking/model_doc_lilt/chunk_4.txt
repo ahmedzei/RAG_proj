@@ -1,0 +1,7 @@
+Taken from the original paper. 
+This model was contributed by nielsr.
+The original code can be found here.
+Usage tips
+
+To combine the Language-Independent Layout Transformer with a new RoBERTa checkpoint from the hub, refer to this guide.
+The script will result in config.json and pytorch_model.bin files being stored locally.

@@ -1,0 +1,6 @@
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+
+Description of GPT-J.
+A blog on how to Deploy GPT-J 6B for inference using Hugging Face Transformers and Amazon SageMaker.
+A blog on how to Accelerate GPT-J inference with DeepSpeed-Inference on GPUs.
+A blog post introducing GPT-J-6B: 6B JAX-Based Transformer.

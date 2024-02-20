@@ -1,0 +1,5 @@
+le architecture, most models are a variant of an encoder, decoder, or encoder-decoder structure. In addition to Transformer models, our library also has several convolutional neural networks (CNNs), which are still used today for computer vision tasks. We'll also explain how a modern CNN works.
+To explain how tasks are solved, we'll walk through what goes on inside the model to output useful predictions.
+
+Wav2Vec2 for audio classification and automatic speech recognition (ASR)
+Vision Transformer (ViT) and C

@@ -1,0 +1,13 @@
+ted to the S2ST task, the rest is exactly the same code: 
+thon
+
+from transformers import SeamlessM4Tv2ForSpeechToSpeech
+model = SeamlessM4Tv2ForSpeechToSpeech.from_pretrained("facebook/seamless-m4t-v2-large")
+
+Or you can replace the text-to-text generation snippet with the model dedicated to the T2TT task, you only have to remove generate_speech=False.
+thon
+
+from transformers import SeamlessM4Tv2ForTextToText
+model = SeamlessM4Tv2ForTextToText.from_pretrained("facebook/seamless-m4t-v2-large")
+
+Feel free to 

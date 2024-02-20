@@ -1,0 +1,2 @@
+Feel free to open a PR and add what's missing to have a full integration with the hugging face trainer!
+This model is very slow, and takes 8h to generate a minute long audio using the 5b top prior on a V100 GPU.

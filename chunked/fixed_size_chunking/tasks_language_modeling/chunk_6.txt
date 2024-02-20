@@ -1,0 +1,7 @@
+: '7h191n',
+ 'title': 'What does the tax bill that was passed today mean? How will it affect Americans in each tax bracket?',
+ 'selftext': '',
+ 'category': 'Economics',
+ 'subreddit': 'explainlikeimfive',
+ 'answers.a_id': ['dqnds8l', 'dqnd1jl', 'dqng3i1', 'dqnku5x'],
+ 'answers.text': ["The tax bill is 500 pages long and there were a lot of changes still going on right to the end. It's not just an adjustment to the income tax brackets, it's a whole bunch of changes. As such there is no good answer to your que

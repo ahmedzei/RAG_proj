@@ -1,0 +1,8 @@
+Draw.Draw(image_target)
+scores = results["scores"].tolist()
+boxes = results["boxes"].tolist()
+for box, score, label in zip(boxes, scores, labels):
+     xmin, ymin, xmax, ymax = box
+     draw.rectangle((xmin, ymin, xmax, ymax), outline="white", width=4)
+image_target
+

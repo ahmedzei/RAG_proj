@@ -1,0 +1,10 @@
+h ("natural" data), by default don't batch, measure and
+    try tentatively to add it, add OOM checks to recover when it will fail (and it will at some point if you don't
+    control the sequence_length.)
+
+If your sequence_length is super regular, then batching is more likely to be VERY interesting, measure and push
+    it until you get OOMs.
+The larger the GPU the more likely batching is going to be more interesting
+As soon as you enable batching, make sure you can handle OOMs nicely.
+
+Pipeline chunk batch

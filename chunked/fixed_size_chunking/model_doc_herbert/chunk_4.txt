@@ -1,0 +1,13 @@
+outputs = model(encoded_input)
+HerBERT can also be loaded using AutoTokenizer and AutoModel:
+import torch
+from transformers import AutoModel, AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("allegro/herbert-klej-cased-tokenizer-v1")
+model = AutoModel.from_pretrained("allegro/herbert-klej-cased-v1")
+
+Herbert implementation is the same as BERT except for the tokenization method. Refer to BERT documentation 
+for API reference and examples.  
+
+HerbertTokenizer
+[[autodoc]] HerbertTokenizer
+HerbertTokeniz

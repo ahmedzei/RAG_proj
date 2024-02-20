@@ -1,0 +1,6 @@
+esitate to open an issue, or
+even a pull request in the original repository. The maintainers of this repository are most likely very happy about
+someone looking into their code!
+At this point, it is really up to you which debugging environment and strategy you prefer to use to debug the original
+model. We strongly advise against setting up a costly GPU environment, but simply work on a CPU both when starting to
+dive into the original repository and also when starting to write the 🤗 Transformers implementati

@@ -1,0 +1,6 @@
+u want inference parallelformers provides this support for most of our models. So until this is implemented in the core you can use theirs. And hopefully training mode will be supported too.
+- Deepspeed-Inference also supports our BERT, GPT-2, and GPT-Neo models in their super-fast CUDA-kernel-based inference mode, see more here
+🤗 Accelerate integrates with TP from Megatron-LM.
+Data Parallelism + Pipeline Parallelism
+The following diagram from the DeepSpeed pipeline tutorial demonstrates 
+how one can combin

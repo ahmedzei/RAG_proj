@@ -1,0 +1,14 @@
+ts.
+
+Build tensors
+Finally, you want the tokenizer to return the actual tensors that get fed to the model.
+Set the return_tensors parameter to either pt for PyTorch, or tf for TensorFlow:
+
+batch_sentences = [
+     "But what about second breakfast?",
+     "Don't think he knows about second breakfast, Pip.",
+     "What about elevensies?",
+ ]
+encoded_input = tokenizer(batch_sentences, padding=True, truncation=True, return_tensors="pt")
+print(encoded_input)
+{'input_ids': tensor([[101, 1252, 1184, 1164, 1248, 64

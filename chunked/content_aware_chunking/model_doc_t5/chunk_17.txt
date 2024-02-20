@@ -1,0 +1,5 @@
+In PyTorch and Tensorflow, this can be done by replacing them with -100, which is the ignore_index
+of the CrossEntropyLoss. In Flax, one can use the decoder_attention_mask to ignore padded tokens from
+the loss (see the Flax summarization script for details). We also pass
+attention_mask as additional input to the model, which makes sure that padding tokens of the inputs are
+ignored.

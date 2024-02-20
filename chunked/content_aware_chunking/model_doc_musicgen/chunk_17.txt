@@ -1,0 +1,5 @@
+For inference, the trained decoder can
+be combined with the frozen text encoder and audio encoder/decoders to recover the composite [MusicgenForConditionalGeneration]
+model.
+Tips:
+* MusicGen is trained on the 32kHz checkpoint of Encodec.

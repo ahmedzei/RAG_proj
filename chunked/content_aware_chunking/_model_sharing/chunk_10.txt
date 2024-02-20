@@ -1,0 +1,7 @@
+🤗 Transformers will even automatically add training hyperparameters, training results and framework versions to your model card!
+
+trainer.push_to_hub()
+``
+</pt>
+<tf>
+Share a model to the Hub with [PushToHubCallback].

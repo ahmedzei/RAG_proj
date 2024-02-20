@@ -1,0 +1,13 @@
+This can be seen in the following diagram.
+
+This diagram is from a blog post 3D parallelism: Scaling to trillion-parameter models, which is a good read as well.
+Since each dimension requires at least 2 GPUs, here you'd need at least 8 GPUs.
+Implementations:
+- DeepSpeed - DeepSpeed also includes an even more efficient DP, which they call ZeRO-DP.
+- Megatron-LM
+- Varuna
+- SageMaker
+- OSLO
+🤗 Transformers status: not yet implemented, since we have no PP and TP.
+ZeRO Data Parallelism + Pipeline Parallelism + Tensor Parallelism
+One of the main features of DeepSpeed is ZeRO, which is a super-scalable extension of DP.

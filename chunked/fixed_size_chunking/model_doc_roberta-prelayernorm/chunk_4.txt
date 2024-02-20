@@ -1,0 +1,19 @@
+
+    - forward
+
+TFRobertaPreLayerNormModel
+[[autodoc]] TFRobertaPreLayerNormModel
+    - call
+TFRobertaPreLayerNormForCausalLM
+[[autodoc]] TFRobertaPreLayerNormForCausalLM
+    - call
+TFRobertaPreLayerNormForMaskedLM
+[[autodoc]] TFRobertaPreLayerNormForMaskedLM
+    - call
+TFRobertaPreLayerNormForSequenceClassification
+[[autodoc]] TFRobertaPreLayerNormForSequenceClassification
+    - call
+TFRobertaPreLayerNormForMultipleChoice
+[[autodoc]] TFRobertaPreLayerNormForMultipleChoice
+    - call
+TFRobertaPreLayerNormFo

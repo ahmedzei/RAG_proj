@@ -1,0 +1,10 @@
+here are two PyTorch modules, JIT and
+TRACE, that allow developers to export their
+models to be reused in other programs like efficiency-oriented C++ programs.
+We provide an interface that allows you to export 🤗 Transformers models to TorchScript
+so they can be reused in a different environment than PyTorch-based Python programs.
+Here, we explain how to export and use our models using TorchScript.
+Exporting a model requires two things:
+
+model instantiation with the torchscript flag
+a forward pass with dummy

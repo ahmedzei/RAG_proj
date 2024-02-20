@@ -1,0 +1,3 @@
+The amount of CPU and memory limits/requests defined in the yaml should be less than the amount of
+available CPU/memory capacity on a single machine. It is usually a good idea to not use the entire machine's capacity in
+order to leave some resources for the kubelet and OS.

@@ -1,0 +1,3 @@
+The projections \( \mathbf{Q} \) and \( \mathbf{K} \) will each consist of \( N \) vectors resulting in the \( \mathbf{QK}^T \) being of size \( N^2 \) .
+LLMs usually have multiple attention heads, thus doing multiple self-attention computations in parallel.
+Assuming, the LLM has 40 attention heads and runs in bfloat16 precision, we can calculate the memory requirement to store the \( \mathbf{QK^T} \) matrices to be \( 40 * 2 * N^2 \) bytes.

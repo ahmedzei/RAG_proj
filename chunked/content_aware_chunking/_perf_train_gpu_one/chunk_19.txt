@@ -1,0 +1,7 @@
+Check 
+out the NVIDIA Blog to learn more about 
+the differences between these data types.
+fp16
+The main advantage of mixed precision training comes from saving the activations in half precision (fp16). 
+Although the gradients are also computed in half precision they are converted back to full precision for the optimization 
+step so no memory is saved here.

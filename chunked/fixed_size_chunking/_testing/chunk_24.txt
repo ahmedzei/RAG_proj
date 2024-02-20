@@ -1,0 +1,13 @@
+at least one GPU under pytorch, here is
+how to set it up:
+python no-style
+@require_torch_gpu
+@slow
+def test_example_slow_on_gpu():
+Some decorators like @parametrized rewrite test names, therefore @require_* skip decorators have to be listed
+last for them to work correctly. Here is an example of the correct usage:
+python no-style
+@parameterized.expand()
+@require_torch_multi_gpu
+def test_integration_foo():
+This order problem doesn't exist with @pytest.mark.parametrize, you can put it first or last and it will

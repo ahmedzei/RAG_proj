@@ -1,0 +1,17 @@
+s. 
+Make sure to set batched=True and batch_size=-1 in dataset.map() so that all transcriptions are available at once for 
+the mapping function.
+
+def extract_all_chars(batch):
+     all_text = " ".join(batch["normalized_text"])
+     vocab = list(set(all_text))
+     return {"vocab": [vocab], "all_text": [all_text]}
+vocabs = dataset.map(
+     extract_all_chars,
+     batched=True,
+     batch_size=-1,
+     keep_in_memory=True,
+     remove_columns=dataset.column_names,
+ )
+dataset_vocab = set(vocabs["vocab"][0])
+t

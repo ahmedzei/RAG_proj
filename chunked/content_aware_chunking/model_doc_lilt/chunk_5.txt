@@ -1,0 +1,35 @@
+After doing this, one can do the following (assuming you're logged in with your HuggingFace account):
+
+thon
+from transformers import LiltModel
+model = LiltModel.from_pretrained("path_to_your_files")
+model.push_to_hub("name_of_repo_on_the_hub")
+
+When preparing data for the model, make sure to use the token vocabulary that corresponds to the RoBERTa checkpoint you combined with the Layout Transformer.
+As lilt-roberta-en-base uses the same vocabulary as LayoutLMv3, one can use [LayoutLMv3TokenizerFast] to prepare data for the model.
+The same is true for lilt-roberta-en-base: one can use [LayoutXLMTokenizerFast] for that model.
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with LiLT.
+
+Demo notebooks for LiLT can be found here.
+
+Documentation resources
+- Text classification task guide
+- Token classification task guide
+- Question answering task guide
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it! The resource should ideally demonstrate something new instead of duplicating an existing resource.
+LiltConfig
+[[autodoc]] LiltConfig
+LiltModel
+[[autodoc]] LiltModel
+    - forward
+LiltForSequenceClassification
+[[autodoc]] LiltForSequenceClassification
+    - forward
+LiltForTokenClassification
+[[autodoc]] LiltForTokenClassification
+    - forward
+LiltForQuestionAnswering
+[[autodoc]] LiltForQuestionAnswering
+    - forward.

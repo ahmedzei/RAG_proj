@@ -1,0 +1,10 @@
+av2Vec2ForPreTraining, the last two linear layers need to have the initialization of the regular PyTorch nn.Linear
+but all the other ones should use an initialization as above. This is coded like this:
+py
+def _init_weights(self, module):
+    """Initialize the weights"""
+    if isinstance(module, Wav2Vec2ForPreTraining):
+        module.project_hid.reset_parameters()
+        module.project_q.reset_parameters()
+        module.project_hid._is_hf_initialized = True
+        module.project_q._is_hf_initialized = T

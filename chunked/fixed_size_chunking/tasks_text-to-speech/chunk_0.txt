@@ -1,0 +1,8 @@
+
+Text to speech
+[[open-in-colab]]
+Text-to-speech (TTS) is the task of creating natural-sounding speech from text, where the speech can be generated in multiple 
+languages and for multiple speakers. Several text-to-speech models are currently available in 🤗 Transformers, such as 
+Bark, MMS, VITS and SpeechT5. 
+You can easily generate audio using the "text-to-audio" pipeline (or its alias - "text-to-speech"). Some models, like Bark, 
+can also be conditioned to generate non-verbal communications such as laughi

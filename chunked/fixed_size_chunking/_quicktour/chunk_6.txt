@@ -1,0 +1,4 @@
+ecognition”) |
+| Visual question answering    | answer a question about the image, given an image and a question                                             | Multimodal      | pipeline(task=“vqa”)                          |
+| Document question answering  | answer a question about the document, given a document and a question                                        | Multimodal      | pipeline(task="document-question-answering")  |
+| Image captioning             | generate a caption for a given image        

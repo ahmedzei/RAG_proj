@@ -1,0 +1,9 @@
+ful illustration for that:
+
+Parallelizing the multi-headed attention layers is even simpler, since they are already inherently parallel, due to having 
+multiple independent heads!
+
+Special considerations: TP requires very fast network, and therefore it's not advisable to do TP across more than one node. 
+Practically, if a node has 4 GPUs, the highest TP degree is therefore 4. If you need a TP degree of 8, you need to use
+nodes that have at least 8 GPUs.
+This section is based on the original much more detail

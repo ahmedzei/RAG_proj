@@ -1,0 +1,3 @@
+ummarize. For T5, you need to prefix your input depending on the task you're working on. For summarization you should prefix your input as shown below:
+
+text = "summarize: The Inflation Reduction Act lowers prescription drug costs, health care costs, and energy costs. It's the most aggressive action on tackling the climate crisis in American history, which will lift up American workers and create good-paying, union jobs across the country. It'll lower the deficit and ask the ultra-wealthy and corporations t

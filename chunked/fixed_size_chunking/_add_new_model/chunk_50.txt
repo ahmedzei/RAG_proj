@@ -1,0 +1,6 @@
+em or question.
+To do so, you can go to the “Files changed” tab where you see all of your changes, go to a line regarding which you
+want to ask a question, and click on the “+” symbol to add a comment. Whenever a question or problem has been solved,
+you can click on the “Resolve” button of the created comment.
+In the same way, the Hugging Face team will open comments when reviewing your code. We recommend asking most questions
+on GitHub on your PR. For some very general questions that are not very useful fo

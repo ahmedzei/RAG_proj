@@ -1,0 +1,11 @@
+ token_embedding) as the prefix (Bart uses
+    <s/>),
+Code to bulk convert models can be found in convert_marian_to_pytorch.py.
+
+Naming
+
+All model names use the following format: Helsinki-NLP/opus-mt-{src}-{tgt}
+The language codes used to name models are inconsistent. Two digit codes can usually be found here, three digit codes require googling "language
+  code {code}".
+Codes formatted like es_AR are usually code_{region}. That one is Spanish from Argentina.
+The models were converted in two stages. The firs

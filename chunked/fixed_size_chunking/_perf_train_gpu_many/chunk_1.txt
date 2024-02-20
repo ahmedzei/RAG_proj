@@ -1,0 +1,6 @@
+on a single GPU, consider moving to multiple GPUs.
+Transitioning from a single GPU to multiple GPUs requires the introduction of some form of parallelism, as the workload 
+must be distributed across the resources. Multiple techniques can be employed to achieve parallelism, such as data 
+parallelism, tensor parallelism, and pipeline parallelism. It's important to note that there isn't a one-size-fits-all 
+solution, and the optimal settings depend on the specific hardware configuration you are using. 
+This gu

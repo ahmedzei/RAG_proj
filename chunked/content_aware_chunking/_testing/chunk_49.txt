@@ -1,0 +1,11 @@
+Therefore, with some exceptions for essential tests, slow tests should be
+marked as in the example below:
+python no-style
+from transformers.testing_utils import slow
+@slow
+def test_integration_foo():
+Once a test is marked as @slow, to run such tests set RUN_SLOW=1 env var, e.g.:
+
+RUN_SLOW=1 pytest tests
+Some decorators like @parameterized rewrite test names, therefore @slow and the rest of the skip decorators
+@require_* have to be listed last for them to work correctly.

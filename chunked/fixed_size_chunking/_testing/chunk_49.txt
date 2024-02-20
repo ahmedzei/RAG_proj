@@ -1,0 +1,18 @@
+ the test summary.
+
+One of the important differences between the two is that skip doesn't run the test, and xfail does. So if the
+code that's buggy causes some bad state that will affect other tests, do not use xfail.
+Implementation
+
+Here is how to skip whole test unconditionally:
+
+python no-style
+@unittest.skip("this bug needs to be fixed")
+def test_feature_x():
+or via pytest:
+python no-style
+@pytest.mark.skip(reason="this bug needs to be fixed")
+or the xfail way:
+python no-style
+@pytest.mark.xfail
+def tes

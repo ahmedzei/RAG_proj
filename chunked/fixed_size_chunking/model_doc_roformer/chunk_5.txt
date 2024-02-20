@@ -1,0 +1,23 @@
+g
+[[autodoc]] RoFormerForQuestionAnswering
+    - forward
+
+TFRoFormerModel
+[[autodoc]] TFRoFormerModel
+    - call
+TFRoFormerForMaskedLM
+[[autodoc]] TFRoFormerForMaskedLM
+    - call
+TFRoFormerForCausalLM
+[[autodoc]] TFRoFormerForCausalLM
+    - call
+TFRoFormerForSequenceClassification
+[[autodoc]] TFRoFormerForSequenceClassification
+    - call
+TFRoFormerForMultipleChoice
+[[autodoc]] TFRoFormerForMultipleChoice
+    - call
+TFRoFormerForTokenClassification
+[[autodoc]] TFRoFormerForTokenClassification
+    - call
+TF

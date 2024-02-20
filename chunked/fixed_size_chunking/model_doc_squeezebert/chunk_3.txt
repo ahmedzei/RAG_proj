@@ -1,0 +1,10 @@
+al operations in
+self-attention layers with grouped convolutions, and we use this technique in a novel network architecture called
+SqueezeBERT, which runs 4.3x faster than BERT-base on the Pixel 3 while achieving competitive accuracy on the GLUE test
+set. The SqueezeBERT code will be released.
+This model was contributed by forresti.
+Usage tips
+
+SqueezeBERT is a model with absolute position embeddings so it's usually advised to pad the inputs on the right
+  rather than the left.
+SqueezeBERT is similar to BER

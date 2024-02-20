@@ -1,0 +1,8 @@
+nfigure these optimizations 
+with 🤗 Accelerate.
+If these methods do not result in sufficient gains, you can explore the following options: 
+* Look into building your own custom Docker container with efficient softare prebuilds
+* Consider a model that uses Mixture of Experts (MoE)
+* Convert your model to BetterTransformer to leverage PyTorch native attention
+Finally, if all of the above is still not enough, even after switching to a server-grade GPU like A100, consider moving 
+to a multi-GPU setup. All these

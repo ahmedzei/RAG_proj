@@ -1,0 +1,14 @@
+odelForObjectDetection
+AutoModelForImageSegmentation
+[[autodoc]] AutoModelForImageSegmentation
+AutoModelForImageToImage
+[[autodoc]] AutoModelForImageToImage
+AutoModelForSemanticSegmentation
+[[autodoc]] AutoModelForSemanticSegmentation
+TFAutoModelForSemanticSegmentation
+[[autodoc]] TFAutoModelForSemanticSegmentation
+AutoModelForInstanceSegmentation
+[[autodoc]] AutoModelForInstanceSegmentation
+AutoModelForUniversalSegmentation
+[[autodoc]] AutoModelForUniversalSegmentation
+AutoModelForZeroShotImageClassificati

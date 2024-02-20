@@ -1,0 +1,49 @@
+
+LayoutXLM
+Overview
+LayoutXLM was proposed in LayoutXLM: Multimodal Pre-training for Multilingual Visually-rich Document Understanding by Yiheng Xu, Tengchao Lv, Lei Cui, Guoxin Wang, Yijuan Lu, Dinei Florencio, Cha
+Zhang, Furu Wei. It's a multilingual extension of the LayoutLMv2 model trained
+on 53 languages.
+The abstract from the paper is the following:
+Multimodal pre-training with text, layout, and image has achieved SOTA performance for visually-rich document
+understanding tasks recently, which demonstrates the great potential for joint learning across different modalities. In
+this paper, we present LayoutXLM, a multimodal pre-trained model for multilingual document understanding, which aims to
+bridge the language barriers for visually-rich document understanding. To accurately evaluate LayoutXLM, we also
+introduce a multilingual form understanding benchmark dataset named XFUN, which includes form understanding samples in
+7 languages (Chinese, Japanese, Spanish, French, Italian, German, Portuguese), and key-value pairs are manually labeled
+for each language. Experiment results show that the LayoutXLM model has significantly outperformed the existing SOTA
+cross-lingual pre-trained models on the XFUN dataset.
+This model was contributed by nielsr. The original code can be found here.
+Usage tips and examples
+One can directly plug in the weights of LayoutXLM into a LayoutLMv2 model, like so:
+thon
+from transformers import LayoutLMv2Model
+model = LayoutLMv2Model.from_pretrained("microsoft/layoutxlm-base")
+
+Note that LayoutXLM has its own tokenizer, based on
+[LayoutXLMTokenizer]/[LayoutXLMTokenizerFast]. You can initialize it as
+follows:
+thon
+from transformers import LayoutXLMTokenizer
+tokenizer = LayoutXLMTokenizer.from_pretrained("microsoft/layoutxlm-base")
+
+Similar to LayoutLMv2, you can use [LayoutXLMProcessor] (which internally applies
+[LayoutLMv2ImageProcessor] and
+[LayoutXLMTokenizer]/[LayoutXLMTokenizerFast] in sequence) to prepare all
+data for the model.
+
+As LayoutXLM's architecture is equivalent to that of LayoutLMv2, one can refer to LayoutLMv2's documentation page for all tips, code examples and notebooks.
+
+LayoutXLMTokenizer
+[[autodoc]] LayoutXLMTokenizer
+    - call
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+LayoutXLMTokenizerFast
+[[autodoc]] LayoutXLMTokenizerFast
+    - call
+LayoutXLMProcessor
+[[autodoc]] LayoutXLMProcessor
+    - call

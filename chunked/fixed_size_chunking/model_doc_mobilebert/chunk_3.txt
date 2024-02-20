@@ -1,0 +1,9 @@
+ASE), and 62 ms
+latency on a Pixel 4 phone. On the SQuAD v1.1/v2.0 question answering task, MobileBERT achieves a dev F1 score of
+90.0/79.2 (1.5/2.1 higher than BERT_BASE).
+This model was contributed by vshampor. The original code can be found here.
+Usage tips
+
+MobileBERT is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather
+  than the left.
+MobileBERT is similar to BERT and therefore relies on the masked language modeling (MLM) objective. It is therefore

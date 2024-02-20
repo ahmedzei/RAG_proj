@@ -1,0 +1,4 @@
+Because in this approach some computations are performed 
+in half-precision, while some are still in full precision, the approach is called mixed precision training.
+Most commonly mixed precision training is achieved by using fp16 (float16) data types, however, some GPU architectures 
+(such as the Ampere architecture) offer bf16 and tf32 (CUDA internal data type) data types.

@@ -1,0 +1,4 @@
+It means that it can detect objects in images based on free-text queries without
+the need to fine-tune the model on labeled datasets.
+OWL-ViT leverages multi-modal representations to perform open-vocabulary detection. It combines CLIP with
+lightweight object classification and localization heads.

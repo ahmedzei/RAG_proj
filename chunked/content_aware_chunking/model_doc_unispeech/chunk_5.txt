@@ -1,0 +1,26 @@
+Please
+  use [Wav2Vec2Processor] for the feature extraction.
+UniSpeech model can be fine-tuned using connectionist temporal classification (CTC) so the model output has to be
+  decoded using [Wav2Vec2CTCTokenizer].
+
+Resources
+
+Audio classification task guide
+Automatic speech recognition task guide
+
+UniSpeechConfig
+[[autodoc]] UniSpeechConfig
+UniSpeech specific outputs
+[[autodoc]] models.unispeech.modeling_unispeech.UniSpeechForPreTrainingOutput
+UniSpeechModel
+[[autodoc]] UniSpeechModel
+    - forward
+UniSpeechForCTC
+[[autodoc]] UniSpeechForCTC
+    - forward
+UniSpeechForSequenceClassification
+[[autodoc]] UniSpeechForSequenceClassification
+    - forward
+UniSpeechForPreTraining
+[[autodoc]] UniSpeechForPreTraining
+    - forward.

@@ -1,0 +1,13 @@
+enefits persist as scale increases. As part of our contribution, we release: (i) an improved and refreshed mC4 multilingual corpus consisting of 29 trillion characters across 107 languages, and (ii) a suite of pretrained umT5 model checkpoints trained with UniMax sampling.
+Google has released the following variants:
+
+google/umt5-small
+google/umt5-base
+google/umt5-xl
+google/umt5-xxl.
+
+This model was contributed by agemagician and stefan-it. The original code can be
+found here.
+Usage tips
+
+UMT5 was only pre-t

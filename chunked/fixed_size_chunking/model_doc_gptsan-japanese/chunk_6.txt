@@ -1,0 +1,11 @@
+1 1 0 0 0 |
+ｱ   | 1 1 1 0 0 0 |
+ｲ   | 1 1 1 0 0 0 |
+SEG | 1 1 1 1 0 0 |
+ｳ   | 1 1 1 1 1 0 |
+ｴ   | 1 1 1 1 1 1 |
+
+Spout Vector
+A Spout Vector is a special vector for controlling text generation.
+This vector is treated as the first embedding in self-attention to bring extraneous attention to the generated tokens.
+In the pre-trained model published from Tanrei/GPTSAN-japanese, the Spout Vector is a 128-dimensional vector that passes through 8 fully connected layers in the model and is projected into the space 

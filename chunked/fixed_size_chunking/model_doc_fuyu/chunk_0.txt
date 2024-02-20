@@ -1,0 +1,6 @@
+
+Fuyu
+Overview
+The Fuyu model was created by ADEPT, and authored by Rohan Bavishi, Erich Elsen, Curtis Hawthorne, Maxwell Nye, Augustus Odena, Arushi Somani, Sağnak Taşırlar. 
+The authors introduced Fuyu-8B, a decoder-only multimodal model based on the classic transformers architecture, with query and key normalization. A linear encoder is added to create multimodal embeddings from image inputs. 
+By treating image tokens like text tokens and using a special image-newline character, the model knows when an i

@@ -1,0 +1,11 @@
+I will use the tool translator to do this.
+py
+translated_question = translator(question=question, src_lang="French", tgt_lang="English")
+print(f"The translated question is {translated_question}.")
+answer = image_qa(text=translated_question, image=image)
+print(f"The answer is {answer}")
+=====
+[]
+`
+Contrary, to the examples of the run prompt, each chat prompt example has one or more exchanges between the 
+Human and the Assistant. Every exchange is structured similarly to the example of the run prompt.

@@ -1,0 +1,10 @@
+              8             0.002
+bert-6-lay                 8               32            0.003
+bert-6-lay                 8              128            0.0011
+bert-6-lay                 8              512            0.074
+
+====================      INFERENCE - MEMORY - RESULT       ====================
+Model Name             Batch Size     Seq Length      Memory in MB
+bert-base                  8               8             1330
+bert-base                  8               32            1330
+bert-base      

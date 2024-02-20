@@ -1,0 +1,6 @@
+elerate config, you'll be prompted with a series of options to configure your training environment. This section covers some of the most important FSDP options. To learn more about the other available FSDP options, take a look at the fsdp_config parameters.
+Sharding strategy
+FSDP offers a number of sharding strategies to select from:
+
+FULL_SHARD - shards model parameters, gradients and optimizer states across workers; select 1 for this option
+SHARD_GRAD_OP- shard gradients and optimizer states across worker

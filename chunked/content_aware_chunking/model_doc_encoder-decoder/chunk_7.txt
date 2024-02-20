@@ -1,0 +1,9 @@
+Nearly 800 thousand customers were "
+     "scheduled to be affected by the shutoffs which were expected to last through at least midday tomorrow."
+ )
+input_ids = tokenizer(ARTICLE_TO_SUMMARIZE, return_tensors="pt").input_ids
+autoregressively generate summary (uses greedy decoding by default)
+generated_ids = model.generate(input_ids)
+generated_text = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+print(generated_text)
+nearly 800 thousand customers were affected by the shutoffs.

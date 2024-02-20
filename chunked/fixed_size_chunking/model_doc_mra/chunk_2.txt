@@ -1,0 +1,11 @@
+rmance profile across most criteria of interest. We undertake an extensive set of experiments and demonstrate that this multi-resolution scheme outperforms most efficient self-attention proposals and is favorable for both short and long sequences. Code is available at https://github.com/mlpen/mra-attention.
+This model was contributed by novice03.
+The original code can be found here.
+MraConfig
+[[autodoc]] MraConfig
+MraModel
+[[autodoc]] MraModel
+    - forward
+MraForMaskedLM
+[[autodoc]] MraForMaskedLM
+    - fo

@@ -1,0 +1,16 @@
+    - forward
+UniSpeechSatForCTC
+[[autodoc]] UniSpeechSatForCTC
+    - forward
+UniSpeechSatForSequenceClassification
+[[autodoc]] UniSpeechSatForSequenceClassification
+    - forward
+UniSpeechSatForAudioFrameClassification
+[[autodoc]] UniSpeechSatForAudioFrameClassification
+    - forward
+UniSpeechSatForXVector
+[[autodoc]] UniSpeechSatForXVector
+    - forward
+UniSpeechSatForPreTraining
+[[autodoc]] UniSpeechSatForPreTraining
+    - forward

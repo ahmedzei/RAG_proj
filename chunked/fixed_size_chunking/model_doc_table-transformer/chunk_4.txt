@@ -1,0 +1,15 @@
+, columns etc. in a table).
+This model was contributed by nielsr. The original code can be
+found here.
+Resources
+
+A demo notebook for the Table Transformer can be found here.
+It turns out padding of images is quite important for detection. An interesting Github thread with replies from the authors can be found here.
+
+TableTransformerConfig
+[[autodoc]] TableTransformerConfig
+TableTransformerModel
+[[autodoc]] TableTransformerModel
+    - forward
+TableTransformerForObjectDetection
+[[autodoc]] TableTransformerFo

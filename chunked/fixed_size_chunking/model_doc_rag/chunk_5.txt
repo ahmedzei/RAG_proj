@@ -1,0 +1,15 @@
+docs, pass them to a seq2seq model, then marginalize to generate outputs. The retriever and seq2seq 
+modules are initialized from pretrained models, and fine-tuned jointly, allowing both retrieval and generation to adapt 
+to downstream tasks.
+RagConfig
+[[autodoc]] RagConfig
+RagTokenizer
+[[autodoc]] RagTokenizer
+Rag specific outputs
+[[autodoc]] models.rag.modeling_rag.RetrievAugLMMarginOutput
+[[autodoc]] models.rag.modeling_rag.RetrievAugLMOutput
+RagRetriever
+[[autodoc]] RagRetriever
+
+RagModel
+[[autodoc]] Ra

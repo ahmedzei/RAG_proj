@@ -1,0 +1,9 @@
+,\ldots, d\right] \text{ and } j \in \left[1,\ldots, n_s\right]$$
+which alone has over 500M parameters to store. Axial positional encodings factorize \(X_{i,j}\) into two matrices:
+$$X^{1}_{i,j}, \text{ with } i \in \left[1,\ldots, d^1\right] \text{ and } j \in \left[1,\ldots, n_s^1\right]$$
+and
+$$X^{2}_{i,j}, \text{ with } i \in \left[1,\ldots, d^2\right] \text{ and } j \in \left[1,\ldots, n_s^2\right]$$
+with:
+$$d = d^1 + d^2 \text{ and } n_s = n_s^1 \times n_s^2 .$$
+Therefore the following holds:
+$$X_{i,j

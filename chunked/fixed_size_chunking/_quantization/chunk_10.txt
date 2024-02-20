@@ -1,0 +1,7 @@
+ techniques such as FlashAttention-2.
+
+To enable fused modules for supported architectures, create an [AwqConfig] and set the parameters fuse_max_seq_len and do_fuse=True. The fuse_max_seq_len parameter is the total sequence length and it should include the context length and the expected generation length. You can set it to a larger value to be safe.
+For example, to fuse the AWQ modules of the TheBloke/Mistral-7B-OpenOrca-AWQ model.
+thon
+import torch
+from transformers import AwqConfig, AutoModelForCausalLM

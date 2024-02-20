@@ -1,0 +1,3 @@
+When exporting a local model, first make sure that you 
+saved both the model's weights and tokenizer files in the same directory (local_path). When using CLI, pass the 
+local_path to the model argument instead of the checkpoint name on 🤗 Hub and provide the --task argument.

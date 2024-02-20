@@ -1,0 +1,3 @@
+We hear you screaming "Arbitrary code execution!" in the back, but let us explain why that is not the case.
+The only functions that can be called are the tools you provided and the print function, so you're already 
+limited in what can be executed. You should be safe if it's limited to Hugging Face tools.

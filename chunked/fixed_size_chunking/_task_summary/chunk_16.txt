@@ -1,0 +1,10 @@
+t-chonk.jpeg"
+ )
+preds = [{"score": round(pred["score"], 4), "label": pred["label"]} for pred in preds]
+print(*preds, sep="\n")
+{'score': 0.9879, 'label': 'LABEL_184'}
+{'score': 0.9973, 'label': 'snow'}
+{'score': 0.9972, 'label': 'cat'}
+
+Depth estimation
+Depth estimation predicts the distance of each pixel in an image from the camera. This computer vision task is especially important for scene understanding and reconstruction. For example, in self-driving cars, vehicles need to understand how far objects li

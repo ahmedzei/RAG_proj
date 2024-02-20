@@ -1,0 +1,6 @@
+Its performance surpasses the previous state-of-the-art by a large margin of +2.7 box AP and
++2.6 mask AP on COCO, and +3.2 mIoU on ADE20K, demonstrating the potential of Transformer-based models as vision backbones.
+The hierarchical design and the shifted window approach also prove beneficial for all-MLP architectures.
+
+ Swin Transformer architecture. Taken from the original paper.
+This model was contributed by novice03. The Tensorflow version of this model was contributed by amyeroberts.

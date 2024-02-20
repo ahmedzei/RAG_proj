@@ -1,0 +1,7 @@
+This is handled by objects called processors, which group together two or more processing objects
+such as tokenizers (for the text modality), image processors (for vision) and feature extractors (for audio).
+Those processors inherit from the following base class that implements the saving and loading functionality:
+[[autodoc]] ProcessorMixin
+Deprecated processors
+All processors follow the same architecture which is that of the
+[~data.processors.utils.DataProcessor].

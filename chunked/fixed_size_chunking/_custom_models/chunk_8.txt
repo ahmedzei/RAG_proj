@@ -1,0 +1,9 @@
+g.save_pretrained("custom-resnet")
+This will save a file named config.json inside the folder custom-resnet. You can then reload your config with the
+from_pretrained method:
+py
+resnet50d_config = ResnetConfig.from_pretrained("custom-resnet")
+You can also use any other method of the [PretrainedConfig] class, like [~PretrainedConfig.push_to_hub] to
+directly upload your config to the Hub.
+Writing a custom model
+Now that we have our ResNet configuration, we can go on writing the model. We will actually write two

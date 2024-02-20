@@ -1,0 +1,5 @@
+The decoder generates a token sequence given a prompt. The prompt is represented by a special token for each downstream task. For example, document parsing has a special parsing token that is combined with the encoder hidden states to parse the document into a structured output format (JSON).
+Reinforcement learning
+
+Decoder[[rl-decoder]]
+The Decision and Trajectory Transformer casts the state, action, and reward as a sequence modeling problem.

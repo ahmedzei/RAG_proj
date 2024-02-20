@@ -1,0 +1,13 @@
+ion
+    - call
+    - encode
+    - decode
+FlaxBartForQuestionAnswering
+[[autodoc]] FlaxBartForQuestionAnswering
+    - call
+    - encode
+    - decode
+FlaxBartForCausalLM
+[[autodoc]] FlaxBartForCausalLM
+    - call
+

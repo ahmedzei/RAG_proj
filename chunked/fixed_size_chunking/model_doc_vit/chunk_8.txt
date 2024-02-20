@@ -1,0 +1,7 @@
+d on the hub.
+The available checkpoints are either (1) pre-trained on ImageNet-21k (a collection of
+  14 million images and 21k classes) only, or (2) also fine-tuned on ImageNet (also referred to as ILSVRC 2012, a collection of 1.3 million
+  images and 1,000 classes).
+The Vision Transformer was pre-trained using a resolution of 224x224. During fine-tuning, it is often beneficial to
+  use a higher resolution than pre-training (Touvron et al., 2019), (Kolesnikov
+  et al., 2020). In order to fine-tune at highe

@@ -1,0 +1,8 @@
+
+Nezha
+Overview
+The Nezha model was proposed in NEZHA: Neural Contextualized Representation for Chinese Language Understanding by Junqiu Wei et al.
+The abstract from the paper is the following:
+The pre-trained language models have achieved great successes in various natural language understanding (NLU) tasks
+due to its capacity to capture the deep contextualized information in text by pre-training on large-scale corpora.
+In this technical report, we present our practice of pre-training language models named

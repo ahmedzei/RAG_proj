@@ -1,0 +1,12 @@
+So if we parallelize them by operator dimension into 2 
+devices (cuda:0, cuda:1), first we copy input data into both devices, and cuda:0 computes std, cuda:1 computes mean at the same time.
+
+Attribute
+
+We have 10 batches of 512 length. If we parallelize them by attribute dimension into 2 devices, 10 x 512 will be 10 x 2 x 256.
+
+Parameter
+
+It is similar with tensor model parallelism or naive layer-wise model parallelism.
+
+The significance of this framework is that it takes resources like (1) GPU/TPU/CPU vs.

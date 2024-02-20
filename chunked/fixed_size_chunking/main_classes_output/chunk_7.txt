@@ -1,0 +1,13 @@
+_outputs.TokenClassifierOutput
+QuestionAnsweringModelOutput
+[[autodoc]] modeling_outputs.QuestionAnsweringModelOutput
+Seq2SeqQuestionAnsweringModelOutput
+[[autodoc]] modeling_outputs.Seq2SeqQuestionAnsweringModelOutput
+Seq2SeqSpectrogramOutput
+[[autodoc]] modeling_outputs.Seq2SeqSpectrogramOutput
+SemanticSegmenterOutput
+[[autodoc]] modeling_outputs.SemanticSegmenterOutput
+ImageClassifierOutput
+[[autodoc]] modeling_outputs.ImageClassifierOutput
+ImageClassifierOutputWithNoAttention
+[[autodoc]] modeling_output

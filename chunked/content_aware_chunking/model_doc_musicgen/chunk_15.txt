@@ -1,0 +1,4 @@
+Audio encoder/decoder: used to encode an audio prompt to use as prompt tokens, and recover the audio waveform from the audio tokens predicted by the decoder
+Thus, the MusicGen model can either be used as a standalone decoder model, corresponding to the class [MusicgenForCausalLM],
+or as a composite model that includes the text encoder and audio encoder/decoder, corresponding to the class
+[MusicgenForConditionalGeneration].

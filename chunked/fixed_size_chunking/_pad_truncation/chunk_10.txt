@@ -1,0 +1,4 @@
+tokenizer(batch_sentences, padding='max_length', truncation=True) or                 |
+|                                      |                                   | tokenizer(batch_sentences, padding='max_length', truncation=STRATEGY)                |
+|                                      | padding to specific length        | Not possible                                                                                |
+| truncation to specific length        | no padding                        | tokenizer(bat

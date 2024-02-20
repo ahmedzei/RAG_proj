@@ -1,0 +1,8 @@
+Hence check the
+execution speed report in CI logs instead (the output of pytest --durations=0 tests).
+That report is also useful to find slow outliers that aren't marked as such, or which need to be re-written to be fast.
+If you notice that the test suite starts getting slow on CI, the top listing of this report will show the slowest
+tests.
+Testing the stdout/stderr output
+In order to test functions that write to stdout and/or stderr, the test can access those streams using the
+pytest's capsys system.

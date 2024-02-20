@@ -1,0 +1,3 @@
+The speaker embedding is an additional input into the model that captures a particular speaker's voice characteristics.
+To generate these speaker embeddings, use the pre-trained spkrec-xvect-voxceleb 
+model from SpeechBrain.

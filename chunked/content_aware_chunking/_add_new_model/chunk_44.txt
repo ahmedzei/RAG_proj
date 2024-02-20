@@ -1,0 +1,5 @@
+It is not efficient if your pretrained model is so big that your forward pass takes more than 10 seconds.
+  In case only very large checkpoints are available, it might make more sense to create a dummy model in the new
+  environment with randomly initialized weights and save those weights for comparison with the 🤗 Transformers version
+  of your model
+Make sure you are using the easiest way of calling a forward pass in the original repository.

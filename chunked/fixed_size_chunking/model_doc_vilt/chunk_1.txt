@@ -1,0 +1,5 @@
+rely on image feature extraction processes, most of which involve region supervision
+(e.g., object detection) and the convolutional architecture (e.g., ResNet). Although disregarded in the literature, we
+find it problematic in terms of both (1) efficiency/speed, that simply extracting input features requires much more
+computation than the multimodal interaction steps; and (2) expressive power, as it is upper bounded to the expressive
+power of the visual embedder and its predefined visual vocabulary. In this

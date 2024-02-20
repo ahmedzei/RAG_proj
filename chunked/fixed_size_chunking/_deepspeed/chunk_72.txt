@@ -1,0 +1,9 @@
+Offline
+DeepSpeed provides a zero_to_fp32.py script at the top-level of the checkpoint folder for extracting weights at any point. This is a standalone script and you don't need a configuration file or [Trainer].
+For example, if your checkpoint folder looked like this:
+
+$ ls -l output_dir/checkpoint-1/
+-rw-rw-r-- 1 stas stas 1.4K Mar 27 20:42 config.json
+drwxrwxr-x 2 stas stas 4.0K Mar 25 19:52 global_step1/
+-rw-rw-r-- 1 stas stas   12 Mar 27 13:16 latest
+-rw-rw-r-- 1 stas stas 827K Mar 27 20:42 optimizer.p

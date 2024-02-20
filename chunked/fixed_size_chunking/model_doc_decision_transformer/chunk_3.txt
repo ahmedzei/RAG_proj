@@ -1,0 +1,5 @@
+ionTransformerGPT2Model
+    - forward
+DecisionTransformerModel
+[[autodoc]] DecisionTransformerModel
+    - forward

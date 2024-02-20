@@ -1,0 +1,7 @@
+
+Export to ONNX
+Deploying 🤗 Transformers models in production environments often requires, or can benefit from exporting the models into 
+a serialized format that can be loaded and executed on specialized runtimes and hardware.
+🤗 Optimum is an extension of Transformers that enables exporting models from PyTorch or TensorFlow to serialized formats 
+such as ONNX and TFLite through its exporters module. 🤗 Optimum also provides a set of performance optimization tools to train 
+and run models on targeted hardwar

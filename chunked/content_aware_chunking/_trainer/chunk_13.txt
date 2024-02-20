@@ -1,0 +1,32 @@
+In other words, a callback can't be used to implement something like a custom loss function and you'll need to subclass and override the [~Trainer.compute_loss] method for that.
+For example, if you want to add an early stopping callback to the training loop after 10 steps.
+
+from transformers import TrainerCallback
+class EarlyStoppingCallback(TrainerCallback):
+    def init(self, num_steps=10):
+        self.num_steps = num_steps
+def on_step_end(self, args, state, control, **kwargs):
+    if state.global_step >= self.num_steps:
+        return {"should_training_stop": True}
+    else:
+        return {}
+
+Then pass it to the [Trainer]'s callback parameter.
+
+from transformers import Trainer
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=dataset["train"],
+    eval_dataset=dataset["test"],
+    tokenizer=tokenizer,
+    data_collator=data_collator,
+    compute_metrics=compute_metrics,
+    callback=[EarlyStoppingCallback()],
+)
+
+Logging
+
+Check out the logging API reference for more information about the different logging levels.
+
+The [Trainer] is set to logging.INFO by default which reports errors, warnings, and other basic information.

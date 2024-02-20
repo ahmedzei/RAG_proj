@@ -1,0 +1,5 @@
+Conde, Ui-Jin Choi, Maxime Burchi, Radu Timofte.
+Swin2R improves the SwinIR model by incorporating Swin Transformer v2 layers which mitigates issues such as training instability, resolution gaps between pre-training
+and fine-tuning, and hunger on data.
+The abstract from the paper is the following:
+Compression plays an important role on the efficient transmission and storage of images and videos through band-limited systems such as streaming services, virtual reality or videogames.

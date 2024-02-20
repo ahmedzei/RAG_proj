@@ -1,0 +1,8 @@
+ster_for_auto_class()
+ResnetModel.register_for_auto_class("AutoModel")
+ResnetModelForImageClassification.register_for_auto_class("AutoModelForImageClassification")
+Note that there is no need to specify an auto class for the configuration (there is only one auto class for them,
+[AutoConfig]) but it's different for models. Your custom model could be suitable for many different tasks, so you
+have to specify which one of the auto classes is the correct one for your model.
+
+Use register_for_auto_class() if you w
