@@ -1,0 +1,2 @@
+BLIP-2 leverages frozen pre-trained image encoders and large language models (LLMs) by training a lightweight, 12-layer Transformer
+encoder in between them, achieving state-of-the-art performance on various vision-language tasks.

@@ -1,0 +1,2 @@
+Generate
+Using multiple GPUs with ZeRO-3 for generation requires synchronizing the GPUs by setting synced_gpus=True in the [~GenerationMixin.generate] method.

@@ -1,0 +1,1 @@
+This means that for training, we always need an input sequence and a corresponding target sequence.

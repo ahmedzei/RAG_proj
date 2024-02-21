@@ -1,0 +1,1 @@
+Each tokenizer works differently but the underlying mechanism remains the same.

@@ -1,0 +1,6 @@
+previous_word_idx = None
+         label_ids = []
+         for word_idx in word_ids:  # Set the special tokens to -100.
+             if word_idx is None:
+                 label_ids.append(-100)
+             elif word_idx != previous_word_idx:  # Only label the first token of a given word.

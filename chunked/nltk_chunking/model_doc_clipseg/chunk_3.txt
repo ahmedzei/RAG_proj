@@ -1,0 +1,2 @@
+Incorporating additional classes or more complex queries later is expensive
+as it requires re-training the model on a dataset that encompasses these expressions.

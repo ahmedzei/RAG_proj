@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Multilingual pre-trained models are known to suffer from the curse of multilinguality, which causes per-language performance to drop as they cover more languages.

@@ -1,0 +1,1 @@
+The attention is computed from these separate vectors instead of a single vector containing the word and position embeddings.

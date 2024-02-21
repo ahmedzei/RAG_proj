@@ -1,0 +1,8 @@
+encoded_dict = tokenizer(sequence_a, sequence_b)
+decoded = tokenizer.decode(encoded_dict["input_ids"])
+
+which will return:
+thon
+
+print(decoded)
+[CLS] HuggingFace is based in NYC [SEP] Where is HuggingFace based?

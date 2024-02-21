@@ -1,0 +1,3 @@
+forward peak memory/batch size
+
+generate throughput/batch size

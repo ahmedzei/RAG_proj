@@ -1,0 +1,8 @@
+Load BERT with [AutoModelForMultipleChoice]:
+
+from transformers import AutoModelForMultipleChoice, TrainingArguments, Trainer
+model = AutoModelForMultipleChoice.from_pretrained("google-bert/bert-base-uncased")
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [TrainingArguments].

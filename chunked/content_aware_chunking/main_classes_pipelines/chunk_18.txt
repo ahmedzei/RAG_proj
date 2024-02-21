@@ -1,0 +1,3 @@
+[[autodoc]] pipeline
+Pipeline batching
+All pipelines can use batching.

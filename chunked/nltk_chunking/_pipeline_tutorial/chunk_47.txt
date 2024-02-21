@@ -1,0 +1,2 @@
+Using pipelines on a dataset
+The pipeline can also run inference on a large dataset.

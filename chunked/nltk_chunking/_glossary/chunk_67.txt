@@ -1,0 +1,5 @@
+thon
+
+inputs = tokenizer(sequence)
+
+The tokenizer returns a dictionary with all the arguments necessary for its corresponding model to work properly.

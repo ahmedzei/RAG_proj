@@ -1,0 +1,1 @@
+Assistant: I will use the tool image_qa to answer the question on the input image.

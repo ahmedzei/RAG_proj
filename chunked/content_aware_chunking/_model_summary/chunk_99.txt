@@ -1,0 +1,1 @@
+It uses a Swin Transformer as the encoder and multilingual BART as the decoder.

@@ -1,0 +1,4 @@
+The words and
+normalized bounding boxes are then provided to [LayoutLMv2Tokenizer] or
+[LayoutLMv2TokenizerFast], which converts them to token-level input_ids,
+attention_mask, token_type_ids, bbox.

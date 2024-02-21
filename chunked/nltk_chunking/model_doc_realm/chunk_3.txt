@@ -1,0 +1,2 @@
+However, this knowledge is stored implicitly in the parameters of a neural network,
+requiring ever-larger networks to cover more facts.

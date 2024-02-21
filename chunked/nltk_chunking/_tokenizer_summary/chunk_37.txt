@@ -1,0 +1,3 @@
+learning a meaningful context-independent
+representation for the letter "t" is much harder than learning a context-independent representation for the word
+"today".

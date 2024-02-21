@@ -1,0 +1,7 @@
+:
+
+pytest --random-order-seed=573663
+[]
+Using --random-order-bucket=module
+Using --random-order-seed=573663
+It will only reproduce the exact order if you use the exact same list of tests (or no list at all).

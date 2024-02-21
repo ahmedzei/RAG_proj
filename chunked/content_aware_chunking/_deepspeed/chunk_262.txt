@@ -1,0 +1,3 @@
+Attempted loss scale: 1, reducing to 1
+ 15%|█████████████████▏                                                                                                  | 28/189 [00:14<01:13,  2.18it/s]
+ [deepscale] OVERFLOW!

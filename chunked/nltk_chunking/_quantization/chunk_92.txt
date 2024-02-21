@@ -1,0 +1,1 @@
+However, you can still customize the device map with the device_map parameter if you want to (device_map="auto" should only be used for inference).

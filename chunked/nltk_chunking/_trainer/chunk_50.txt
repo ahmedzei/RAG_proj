@@ -1,0 +1,1 @@
+To use Accelerate with [Trainer], run the accelerate.config command to set up training for your training environment.

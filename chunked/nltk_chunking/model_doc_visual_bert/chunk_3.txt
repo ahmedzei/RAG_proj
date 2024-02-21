@@ -1,0 +1,2 @@
+VisualBERT consists of a stack of Transformer layers that implicitly align elements of an input text and regions in an
+associated input image with self-attention.

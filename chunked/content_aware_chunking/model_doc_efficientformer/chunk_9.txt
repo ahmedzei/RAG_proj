@@ -1,0 +1,1 @@
+Finally, we perform latency-driven slimming to get a series of final models dubbed EfficientFormer.

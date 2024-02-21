@@ -1,0 +1,3 @@
+Following the original Vision Transformer, some follow-up works have been made:
+
+DeiT (Data-efficient Image Transformers) by Facebook AI.

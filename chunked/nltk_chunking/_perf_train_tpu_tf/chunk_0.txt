@@ -1,0 +1,4 @@
+
+Training on TPU with TensorFlow
+
+If you don't need long explanations and just want TPU code samples to get started with, check out our TPU example notebook!

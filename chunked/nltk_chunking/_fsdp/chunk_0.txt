@@ -1,0 +1,3 @@
+
+Fully Sharded Data Parallel
+Fully Sharded Data Parallel (FSDP) is a data parallel method that shards a model's parameters, gradients and optimizer states across the number of available GPUs (also called workers or rank).

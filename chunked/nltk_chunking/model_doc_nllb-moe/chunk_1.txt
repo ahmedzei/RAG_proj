@@ -1,0 +1,2 @@
+The abstract of the paper is the following:
+Driven by the goal of eradicating language barriers on a global scale, machine translation has solidified itself as a key focus of artificial intelligence research today.

@@ -1,0 +1,2 @@
+The pre-training
+objective is to match the prototypes assigned to the unmasked views of the images to that of the masked views of the same images.

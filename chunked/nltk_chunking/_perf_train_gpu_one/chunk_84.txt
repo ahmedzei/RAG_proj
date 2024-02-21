@@ -1,0 +1,2 @@
+Adafactor
+Adafactor doesn't store rolling averages for each element in weight matrices.

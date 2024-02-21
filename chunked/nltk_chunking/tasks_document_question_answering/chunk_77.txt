@@ -1,0 +1,2 @@
+* word_ids will help match the answer found in the original words to the same answer in the full encoded input and determine
+the start/end position of the answer in the encoded input.

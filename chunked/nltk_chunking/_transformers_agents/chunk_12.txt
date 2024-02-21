@@ -1,0 +1,3 @@
+The openAI
+models perform better (but require you to have an openAI API key, so cannot be used for free); Hugging Face is
+providing free access to endpoints for BigCode and OpenAssistant models.

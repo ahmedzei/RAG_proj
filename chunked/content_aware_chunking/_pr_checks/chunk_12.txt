@@ -1,0 +1,5 @@
+You can see here this is done with the comment:
+
+Copied from transformers.models.roberta.modeling_roberta.RobertaForMaskedLM with Roberta->Camembert, ROBERTA->CAMEMBERT
+
+If the order matters (because one of the replacements might conflict with a previous one), the replacements are executed from left to right.

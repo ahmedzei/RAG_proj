@@ -1,0 +1,1 @@
+Donut is a more general visual document understanding model that doesn't rely on OCR-based approaches.

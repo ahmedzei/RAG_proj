@@ -1,0 +1,1 @@
+You can disable normalisation by setting normalize=False in the call to the tokenizer, but this will lead to un-expected behaviour and is discouraged.

@@ -1,0 +1,11 @@
+If the default for this value does not work for you, you can change it in your project by setting a configuration
+option in setup.cfg:
+ini
+[tool:pytest]
+looponfailroots = transformers tests
+or pytest.ini/tox.ini files:
+ini
+[pytest]
+looponfailroots = transformers tests
+This would lead to only looking for file changes in the respective directories, specified relatively to the ini-file’s
+directory.

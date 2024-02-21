@@ -1,0 +1,2 @@
+Let's say you want to watch the absolute min and max values for all the ingredients of each forward call of a given
+batch, and only do that for batches 1 and 3.

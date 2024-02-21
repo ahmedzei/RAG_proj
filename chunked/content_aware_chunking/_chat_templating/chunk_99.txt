@@ -1,0 +1,3 @@
+Let's see a Jinja template that can format inputs
+similarly to the way LLaMA formats them (note that the real LLaMA template includes handling for default system
+messages and slightly different system message handling in general - don't use this one in your actual code!)

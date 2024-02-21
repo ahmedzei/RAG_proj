@@ -1,0 +1,13 @@
+PreTrainedTokenizer
+[[autodoc]] PreTrainedTokenizer
+    - call
+    - add_tokens
+    - add_special_tokens
+    - apply_chat_template
+    - batch_decode
+    - decode
+    - encode
+    - push_to_hub
+    - all
+PreTrainedTokenizerFast
+The [PreTrainedTokenizerFast] depend on the tokenizers library.

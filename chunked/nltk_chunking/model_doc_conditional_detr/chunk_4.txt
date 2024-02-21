@@ -1,0 +1,1 @@
+In this paper, we handle the critical issue, slow training convergence, and present a conditional cross-attention mechanism for fast DETR training.

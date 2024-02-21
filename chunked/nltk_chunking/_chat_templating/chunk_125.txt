@@ -1,0 +1,2 @@
+If you're training a model from scratch, or fine-tuning a base language model for chat, on the other hand,
+you have a lot of freedom to choose an appropriate template!

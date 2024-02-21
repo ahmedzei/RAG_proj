@@ -1,0 +1,2 @@
+The Hungarian matching algorithm is used to find
+an optimal one-to-one mapping of each of the N queries to each of the N annotations.

@@ -1,0 +1,9 @@
+python
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_ds,
+    eval_dataset=test_ds,
+    compute_metrics=compute_metrics,
+)
+To start training, simply call [~Trainer.train] on the [Trainer] object.

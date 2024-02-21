@@ -1,0 +1,1 @@
+When using a TPU VM, you connect directly to the machine that the TPU is attached to, much like training on a GPU VM.

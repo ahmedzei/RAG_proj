@@ -1,0 +1,2 @@
+accelerate config
+When you run accelerate config, you'll be prompted with a series of options to configure your training environment.

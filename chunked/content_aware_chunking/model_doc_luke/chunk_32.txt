@@ -1,0 +1,3 @@
+[LukeTokenizer] has a task argument, which enables you to easily create an input to these
+  head models by specifying task="entity_classification", task="entity_pair_classification", or
+  task="entity_span_classification".

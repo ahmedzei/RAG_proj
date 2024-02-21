@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Answering natural language questions over tables is usually seen as a semantic parsing task.

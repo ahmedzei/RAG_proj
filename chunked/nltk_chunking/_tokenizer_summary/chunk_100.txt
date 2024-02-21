@@ -1,0 +1,3 @@
+"u", followed by "g" would have only been
+merged if the probability of "ug" divided by "u", "g" would have been greater than for any other symbol
+pair.

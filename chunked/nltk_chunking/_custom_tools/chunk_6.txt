@@ -1,0 +1,2 @@
+The language model powering the agent is conditioned on a long 
+prompt and completes the prompt by generating the next tokens until the stop token is reached.

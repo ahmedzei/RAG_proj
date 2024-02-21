@@ -1,0 +1,12 @@
+thon
+import torch
+from transformers import AwqConfig, AutoModelForCausalLM
+model_id = "TheBloke/Mistral-7B-OpenOrca-AWQ"
+quantization_config = AwqConfig(
+    bits=4,
+    fuse_max_seq_len=512,
+    do_fuse=True,
+)
+model = AutoModelForCausalLM.from_pretrained(model_id, quantization_config=quantization_config).to(0)
+
+For architectures that don't support fused modules yet, you need to create a custom fusing mapping to define which modules need to be fused with the modules_to_fuse parameter.

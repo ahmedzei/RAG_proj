@@ -1,0 +1,1 @@
+Extensive experiments on the COCO benchmark demonstrate the effectiveness of our approach.

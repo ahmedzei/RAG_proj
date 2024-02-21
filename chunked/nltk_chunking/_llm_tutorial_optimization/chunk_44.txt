@@ -1,0 +1,1 @@
+Float32 won't give better inference results than the precision that was used to train the model.

@@ -1,0 +1,3 @@
+If a
+model does not have a chat template set, but there is a default template for its model class, the TextGenerationPipeline
+class and methods like apply_chat_template will use the class template instead.

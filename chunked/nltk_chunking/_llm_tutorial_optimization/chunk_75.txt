@@ -1,0 +1,1 @@
+That's really not a lot for a >15 billion parameter model.

@@ -1,0 +1,2 @@
+Suppose that we want to fine-tune the model for translation for example, and we have a training example: the input
+sequence "The house is wonderful."

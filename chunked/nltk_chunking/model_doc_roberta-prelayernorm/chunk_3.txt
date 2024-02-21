@@ -1,0 +1,1 @@
+The toolkit is based on PyTorch and supports distributed training across multiple GPUs and machines.

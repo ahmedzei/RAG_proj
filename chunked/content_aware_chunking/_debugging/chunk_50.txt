@@ -1,0 +1,2 @@
+So when this training was done under fp16 mixed precision the very
+last step overflowed (since under fp16 the largest number before inf is 64e3).

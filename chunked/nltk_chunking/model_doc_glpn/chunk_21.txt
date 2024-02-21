@@ -1,0 +1,16 @@
+Monocular depth estimation task guide
+
+GLPNConfig
+[[autodoc]] GLPNConfig
+GLPNFeatureExtractor
+[[autodoc]] GLPNFeatureExtractor
+    - call
+GLPNImageProcessor
+[[autodoc]] GLPNImageProcessor
+    - preprocess
+GLPNModel
+[[autodoc]] GLPNModel
+    - forward
+GLPNForDepthEstimation
+[[autodoc]] GLPNForDepthEstimation
+    - forward

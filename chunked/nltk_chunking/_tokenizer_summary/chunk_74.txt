@@ -1,0 +1,2 @@
+However, the most frequent symbol pair is "u" followed by
+"g", occurring 10 + 5 + 5 = 20 times in total.

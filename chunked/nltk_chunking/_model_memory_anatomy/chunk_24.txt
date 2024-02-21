@@ -1,0 +1,2 @@
+So now we can 
+start training the model and see how the GPU memory consumption changes.

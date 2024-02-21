@@ -1,0 +1,1 @@
+For each class, there are 30 videos in the training set.

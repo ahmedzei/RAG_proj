@@ -1,0 +1,4 @@
+
+ViTMatte
+Overview
+The ViTMatte model was proposed in Boosting Image Matting with Pretrained Plain Vision Transformers by Jingfeng Yao, Xinggang Wang, Shusheng Yang, Baoyuan Wang.

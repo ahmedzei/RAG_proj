@@ -1,0 +1,2 @@
+This is a pretty simple template - it doesn't add any control tokens, and it doesn't support "system" messages, which 
+are a common way to give the model directives about how it should behave in the subsequent conversation.

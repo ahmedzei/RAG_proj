@@ -1,0 +1,3 @@
+Usage tips
+
+Splinter was trained to predict answers spans conditioned on a special [QUESTION] token.

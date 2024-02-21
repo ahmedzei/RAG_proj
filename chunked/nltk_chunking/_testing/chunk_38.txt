@@ -1,0 +1,3 @@
+Test order and repetition
+It's good to repeat the tests several times, in sequence, randomly, or in sets, to detect any potential
+inter-dependency and state-related bugs (tear down).

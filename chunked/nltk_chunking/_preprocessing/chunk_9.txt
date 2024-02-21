@@ -1,0 +1,1 @@
+A tokenizer splits text into tokens according to a set of rules.

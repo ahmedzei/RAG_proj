@@ -1,0 +1,6 @@
+Load the feature extractor with [AutoFeatureExtractor.from_pretrained]:
+
+from transformers import AutoFeatureExtractor
+feature_extractor = AutoFeatureExtractor.from_pretrained("facebook/wav2vec2-base")
+
+Pass the audio array to the feature extractor.

@@ -1,0 +1,2 @@
+The model is significantly faster
+than the BERT model because it has fewer parameters and is more memory efficient.

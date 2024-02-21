@@ -1,0 +1,3 @@
+Step-by-step recipe to add a model to 🤗 Transformers
+Everyone has different preferences of how to port a model so it can be very helpful for you to take a look at summaries
+of how other contributors ported models to Hugging Face.

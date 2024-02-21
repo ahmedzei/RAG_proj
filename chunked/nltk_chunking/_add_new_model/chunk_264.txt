@@ -1,0 +1,2 @@
+The Cookiecutter should have automatically added a test file for your model, probably under
+the same tests/models/brand_new_bert/test_modeling_brand_new_bert.py.

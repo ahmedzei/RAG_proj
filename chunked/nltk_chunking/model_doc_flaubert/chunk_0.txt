@@ -1,0 +1,5 @@
+
+FlauBERT
+
+Overview
+The FlauBERT model was proposed in the paper FlauBERT: Unsupervised Language Model Pre-training for French by Hang Le et al.

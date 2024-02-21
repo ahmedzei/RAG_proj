@@ -1,0 +1,2 @@
+If you want to train the model in a distributed environment across multiple nodes, then one should update the
+  get_num_masks function inside in the MaskFormerLoss class of modeling_maskformer.py.

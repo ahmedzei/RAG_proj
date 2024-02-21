@@ -1,0 +1,4 @@
+To run only tests whose name contains adam:
+
+pytest -k adam tests/test_optimization.py
+Logical and and or can be used to indicate whether all keywords should match or either.

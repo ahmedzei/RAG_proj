@@ -1,0 +1,2 @@
+Speech and audio
+Wav2Vec2 is a self-supervised model pretrained on unlabeled speech data and finetuned on labeled data for audio classification and automatic speech recognition.

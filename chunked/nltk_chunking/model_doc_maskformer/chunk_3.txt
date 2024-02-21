@@ -1,0 +1,2 @@
+Overview
+The MaskFormer model was proposed in Per-Pixel Classification is Not All You Need for Semantic Segmentation by Bowen Cheng, Alexander G. Schwing, Alexander Kirillov.

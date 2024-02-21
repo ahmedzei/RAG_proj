@@ -1,0 +1,8 @@
+Load a tokenizer with [AutoTokenizer.from_pretrained]:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-uncased")
+
+Then tokenize your input as shown below:
+
+sequence = "In a hole in the ground there lived a hobbit."

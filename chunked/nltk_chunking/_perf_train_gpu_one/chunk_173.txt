@@ -1,0 +1,1 @@
+This is the case, for example, during masked language modeling or causal language modeling.

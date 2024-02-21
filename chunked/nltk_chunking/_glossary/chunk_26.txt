@@ -1,0 +1,4 @@
+D
+DataParallel (DP)
+Parallelism technique for training on multiple GPUs where the same setup is replicated multiple times, with each instance 
+receiving a distinct data slice.

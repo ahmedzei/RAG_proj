@@ -1,0 +1,6 @@
+',
+ 'selftext': '',
+ 'category': 'Economics',
+ 'subreddit': 'explainlikeimfive',
+ 'answers': {'a_id': ['dqnds8l', 'dqnd1jl', 'dqng3i1', 'dqnku5x'],
+  'text': ["The tax bill is 500 pages long and there were a lot of changes still going on right to the end.

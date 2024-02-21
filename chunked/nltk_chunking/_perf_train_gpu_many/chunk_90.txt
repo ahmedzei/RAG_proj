@@ -1,0 +1,2 @@
+Upon completion of the 7th layer, there is often 
+a need to send the data back to layer 0 where the labels are (or alternatively send the labels to the last layer).

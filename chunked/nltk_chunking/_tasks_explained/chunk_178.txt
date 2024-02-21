@@ -1,0 +1,1 @@
+This makes GPT-2 especially good at tasks that involve generating text.

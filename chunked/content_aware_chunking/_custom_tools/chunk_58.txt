@@ -1,0 +1,2 @@
+Without going into too much detail, the chat template has the same prompt structure with the 
+examples having a slightly different style, e.g.

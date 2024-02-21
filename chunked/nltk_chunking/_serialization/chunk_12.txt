@@ -1,0 +1,2 @@
+These configuration objects come 
+ready-made for a number of model architectures, and are designed to be easily extendable to other architectures.

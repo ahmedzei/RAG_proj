@@ -1,0 +1,1 @@
+tgt_text = "La vie est comme une boîte de chocolat."

@@ -1,0 +1,5 @@
+Question answering task guide
+
+Multiple choice
+
+[XLMRobertaForMultipleChoice] is supported by this example script and notebook.

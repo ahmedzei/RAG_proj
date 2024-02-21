@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+The Transformer architecture has become a dominant choice in many domains, such as natural language processing and computer vision.

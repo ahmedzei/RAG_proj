@@ -1,0 +1,3 @@
+Our model, dubbed XLM-R, significantly
+outperforms multilingual BERT (mBERT) on a variety of cross-lingual benchmarks, including +13.8% average accuracy on
+XNLI, +12.3% average F1 score on MLQA, and +2.1% average F1 score on NER.

@@ -1,0 +1,1 @@
+The context comes from the output of an OCR engine, here it is Google's Tesseract.

@@ -1,0 +1,1 @@
+This is a really useful trick, so remember it if you need to convert your own code to XLA!

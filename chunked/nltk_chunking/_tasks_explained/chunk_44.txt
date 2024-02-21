@@ -1,0 +1,1 @@
+Just like how text is tokenized into words, an image is "tokenized" into a sequence of patches.

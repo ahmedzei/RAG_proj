@@ -1,0 +1,2 @@
+This only works, however, if the string you pass to
+  [fairseq.encode] starts with a space.

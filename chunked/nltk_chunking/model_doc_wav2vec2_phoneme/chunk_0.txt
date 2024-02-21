@@ -1,0 +1,5 @@
+
+Wav2Vec2Phoneme
+Overview
+The Wav2Vec2Phoneme model was proposed in Simple and Effective Zero-shot Cross-lingual Phoneme Recognition (Xu et al.,
+2021 by Qiantong Xu, Alexei Baevski, Michael Auli.

@@ -1,0 +1,5 @@
+:
+-   Retrieval augmented Questions Answering,
+-   Summarization,
+-   Chat
+Note that chat not only requires the LLM to handle long text inputs, but it also necessitates that the LLM is able to efficiently handle the back-and-forth dialogue between user and assistant (such as ChatGPT).

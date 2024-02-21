@@ -1,0 +1,6 @@
+See the following guides that dive into iterating over whole datasets or using pipelines in a webserver:
+of the docs:
+* Using pipelines on a dataset
+* Using pipelines for a webserver
+Parameters
+[pipeline] supports many parameters; some are task specific, and some are general to all pipelines.

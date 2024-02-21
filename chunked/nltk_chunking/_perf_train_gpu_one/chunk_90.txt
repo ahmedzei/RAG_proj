@@ -1,0 +1,2 @@
+Quantization 
+means that it stores the state with lower precision and dequantizes it only for the optimization.

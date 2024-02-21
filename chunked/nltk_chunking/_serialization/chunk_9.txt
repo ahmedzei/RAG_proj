@@ -1,0 +1,2 @@
+- run with ONNX Runtime via ORTModelForXXX classes,
+which follow the same AutoModel API as the one you are used to in 🤗 Transformers.

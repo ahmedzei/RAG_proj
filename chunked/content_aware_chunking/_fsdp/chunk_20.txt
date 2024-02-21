@@ -1,0 +1,1 @@
+You can resume training with the sharded state dicts with the [~accelerate.Accelerator.load_state]` method.

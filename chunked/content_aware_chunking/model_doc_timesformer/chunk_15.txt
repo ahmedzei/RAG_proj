@@ -1,0 +1,12 @@
+Resources
+
+Video classification task guide
+
+TimesformerConfig
+[[autodoc]] TimesformerConfig
+TimesformerModel
+[[autodoc]] TimesformerModel
+    - forward
+TimesformerForVideoClassification
+[[autodoc]] TimesformerForVideoClassification
+    - forward

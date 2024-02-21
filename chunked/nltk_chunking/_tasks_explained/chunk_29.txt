@@ -1,0 +1,1 @@
+Each logit represents a token class (the number of tokens comes from the task vocabulary).

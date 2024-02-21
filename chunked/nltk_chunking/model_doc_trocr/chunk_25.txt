@@ -1,0 +1,1 @@
+A notebook on how to finetune TrOCR on IAM Handwriting Database using Seq2SeqTrainer.

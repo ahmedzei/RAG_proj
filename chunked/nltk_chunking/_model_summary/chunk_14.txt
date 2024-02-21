@@ -1,0 +1,1 @@
+It splits an image into fixed-size patches and uses them to create an embedding, just like how a sentence is split into tokens.

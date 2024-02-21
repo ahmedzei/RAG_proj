@@ -1,0 +1,5 @@
+To specify a new backend with backend-specific device functions when running the test suite, create a Python device specification file in the format:
+
+import torch
+import torch_npu
+!

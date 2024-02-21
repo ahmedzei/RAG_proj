@@ -1,0 +1,1 @@
+These were also tested against the bitsandbytes quantization methods as well as a native fp16 model.

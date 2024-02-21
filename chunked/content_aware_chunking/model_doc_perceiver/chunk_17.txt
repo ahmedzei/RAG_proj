@@ -1,0 +1,2 @@
+These are
+randomly initialized, after which they are trained end-to-end using backpropagation.

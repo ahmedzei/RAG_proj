@@ -1,0 +1,1 @@
+The prediction, whether it is the next sentence or not, is passed to a feedforward network with a softmax over the two classes (IsNext and NotNext).

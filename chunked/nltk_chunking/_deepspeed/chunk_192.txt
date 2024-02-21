@@ -1,0 +1,1 @@
+But if you have a lot of free CPU memory, it is possible to save the fp32 weights during training.

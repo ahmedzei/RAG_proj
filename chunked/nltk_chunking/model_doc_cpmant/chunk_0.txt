@@ -1,0 +1,4 @@
+
+CPMAnt
+Overview
+CPM-Ant is an open-source Chinese pre-trained language model (PLM) with 10B parameters.

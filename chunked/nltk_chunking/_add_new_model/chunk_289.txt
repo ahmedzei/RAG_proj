@@ -1,0 +1,3 @@
+It can
+happen that you forgot to add some .to(self.device) statements to internal tensors of the model, which in such a
+test would show in an error.

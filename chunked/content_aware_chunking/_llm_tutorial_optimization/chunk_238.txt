@@ -1,0 +1,1 @@
+While processing the shortened input prompt, it's computed key-value vectors are concatenated to the key-value cache of the first decoding.

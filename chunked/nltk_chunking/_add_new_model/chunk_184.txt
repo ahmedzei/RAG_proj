@@ -1,0 +1,2 @@
+This way, the Hugging Face team will always be notified when you are committing new code or
+if you have a question.

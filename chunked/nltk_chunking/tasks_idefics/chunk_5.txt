@@ -1,0 +1,2 @@
+It can answer questions about images, describe visual content, 
+create stories grounded in multiple images, and so on.

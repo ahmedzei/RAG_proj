@@ -1,0 +1,2 @@
+BARThez was pretrained on a very large monolingual French corpus from past research
+that we adapted to suit BART's perturbation schemes.

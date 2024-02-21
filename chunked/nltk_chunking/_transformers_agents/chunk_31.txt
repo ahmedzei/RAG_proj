@@ -1,0 +1,3 @@
+", picture=picture)
+
+This can be helpful when the model is unable to understand your request and mixes tools.

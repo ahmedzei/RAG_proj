@@ -1,0 +1,1 @@
+Before creating QDQBERT model, one has to set the default QuantDescriptor defining default tensor quantizers.

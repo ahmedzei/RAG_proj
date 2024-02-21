@@ -1,0 +1,3 @@
+According to the TorchScript documentation:
+
+TorchScript is a way to create serializable and optimizable models from PyTorch code.

@@ -1,0 +1,1 @@
+If you are using the facebook/mbart-large-50-many-to-one-mmt checkpoint, you don't need to force the target language id as the first generated token otherwise the usage is the same.

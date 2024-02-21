@@ -1,0 +1,3 @@
+Once the
+columns have been added, you can stream batches from the dataset and add padding to each batch, which greatly
+reduces the number of padding tokens compared to padding the entire dataset.

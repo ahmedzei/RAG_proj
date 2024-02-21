@@ -1,0 +1,2 @@
+We show that this reliance on CNNs is not necessary and a pure transformer applied directly to
+sequences of image patches can perform very well on image classification tasks.

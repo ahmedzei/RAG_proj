@@ -1,0 +1,1 @@
+* A Docker container that includes your model training script and all the dependencies needed to run the script.

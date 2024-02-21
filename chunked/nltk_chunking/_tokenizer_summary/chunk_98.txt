@@ -1,0 +1,3 @@
+Referring to the previous example, maximizing the likelihood of the training data is
+equivalent to finding the symbol pair, whose probability divided by the probabilities of its first symbol followed by
+its second symbol is the greatest among all symbol pairs.

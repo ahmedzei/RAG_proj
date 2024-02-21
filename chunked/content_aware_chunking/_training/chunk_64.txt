@@ -1,0 +1,3 @@
+corrupting tokens for masked language
+modelling), you can use the collate_fn argument instead to pass a function that will be called to transform the
+list of samples into a batch and apply any preprocessing you want.

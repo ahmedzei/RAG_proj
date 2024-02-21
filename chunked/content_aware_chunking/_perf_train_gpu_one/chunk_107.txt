@@ -1,0 +1,1 @@
+When using [Trainer], the corresponding [TrainingArguments] are: dataloader_pin_memory (True by default), and dataloader_num_workers (defaults to 0).

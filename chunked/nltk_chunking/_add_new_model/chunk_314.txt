@@ -1,0 +1,1 @@
+The push_to_hub method, present in all models in transformers, is a quick and efficient way to push your checkpoint to the hub.

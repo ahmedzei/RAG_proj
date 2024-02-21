@@ -1,0 +1,1 @@
+To use a TPU, pass the name of the TPU resource to the tpu argument.

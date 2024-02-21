@@ -1,0 +1,15 @@
+To find the best threshold for your model, we recommend experimenting with the llm_int8_threshold parameter in [BitsAndBytesConfig]:
+
+from transformers import AutoModelForCausalLM, BitsAndBytesConfig
+model_id = "bigscience/bloom-1b7"
+quantization_config = BitsAndBytesConfig(
+    llm_int8_threshold=10,
+)
+model_8bit = AutoModelForCausalLM.from_pretrained(
+    model_id,
+    device_map=device_map,
+    quantization_config=quantization_config,
+)
+
+Skip module conversion
+For some models, like Jukebox, you don't need to quantize every module to 8-bit which can actually cause instability.

@@ -1,0 +1,1 @@
+There are two important components of the model architecture that quickly become memory and/or performance bottlenecks for large input sequences.

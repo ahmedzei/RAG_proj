@@ -1,0 +1,1 @@
+To do so, the EncoderDecoderModel class provides a [EncoderDecoderModel.from_encoder_decoder_pretrained] method.

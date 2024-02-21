@@ -1,0 +1,3 @@
+torchrun --nproc_per_node=2  trainer-program.py 
+
+Use --num_processes to select how many GPUs to use.

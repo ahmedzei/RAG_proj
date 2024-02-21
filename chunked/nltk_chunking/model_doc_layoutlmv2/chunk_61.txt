@@ -1,0 +1,2 @@
+Optionally, one can provide word labels to the processor,
+which are turned into token-level labels.

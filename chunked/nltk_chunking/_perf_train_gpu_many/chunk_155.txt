@@ -1,0 +1,1 @@
+Here it's important to see how DP rank 0 doesn't see GPU2 and DP rank 1 doesn't see GPU3.

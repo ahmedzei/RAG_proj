@@ -1,0 +1,3 @@
+To enable both of these features:
+
+Add the fp16 argument to enable mixed precision.

@@ -1,0 +1,1 @@
+Compiling a model takes time, so it's useful if you are compiling the model only once instead of every time you infer.

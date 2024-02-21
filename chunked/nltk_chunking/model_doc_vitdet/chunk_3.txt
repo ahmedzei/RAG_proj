@@ -1,0 +1,1 @@
+This design enables the original ViT architecture to be fine-tuned for object detection without needing to redesign a hierarchical backbone for pre-training.

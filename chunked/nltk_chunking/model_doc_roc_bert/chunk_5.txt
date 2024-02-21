@@ -1,0 +1,2 @@
+It is pretrained with the contrastive learning objective which maximizes the label consistency
+under different synthesized adversarial examples.

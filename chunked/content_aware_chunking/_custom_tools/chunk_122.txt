@@ -1,0 +1,7 @@
+Let's take a look at the description and name of controlnet_transformer:
+py
+print(f"Description: '{controlnet_transformer.description}'")
+print(f"Name: '{controlnet_transformer.name}'")
+gives 
+text
+Description: 'This is a tool that transforms an image with ControlNet according to a prompt.

@@ -1,0 +1,2 @@
+Experiments show that our multilingual speech recognition model more than halves the word error rate of 
+Whisper on 54 languages of the FLEURS benchmark while being trained on a small fraction of the labeled data.

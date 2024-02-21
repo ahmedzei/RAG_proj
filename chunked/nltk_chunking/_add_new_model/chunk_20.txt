@@ -1,0 +1,4 @@
+Let's take a look:
+
+As you can see, we do make use of inheritance in 🤗 Transformers, but we keep the level of abstraction to an absolute
+minimum.

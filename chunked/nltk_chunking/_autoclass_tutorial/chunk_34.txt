@@ -1,0 +1,1 @@
+Finally, the TFAutoModelFor classes let you load a pretrained model for a given task (see here for a complete list of available tasks).

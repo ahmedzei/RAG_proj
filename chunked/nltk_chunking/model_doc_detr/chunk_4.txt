@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+We present a new method that views object detection as a direct set prediction problem.

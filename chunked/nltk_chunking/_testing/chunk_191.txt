@@ -1,0 +1,1 @@
+RUN_SLOW=1 pytest tests/deepspeed

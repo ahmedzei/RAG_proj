@@ -1,0 +1,2 @@
+If one now masks out certain of these 2048 tokens, one can define the
+outputs as being of shape: (batch_size, 2048, 768).

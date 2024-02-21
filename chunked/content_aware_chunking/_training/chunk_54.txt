@@ -1,0 +1,1 @@
+That’s going to make your array even bigger, and all those padding tokens will slow down training too!

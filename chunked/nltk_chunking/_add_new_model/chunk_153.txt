@@ -1,0 +1,1 @@
+Use the smallest pretrained checkpoint you can find.

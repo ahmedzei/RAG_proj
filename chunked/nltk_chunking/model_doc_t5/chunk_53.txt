@@ -1,0 +1,2 @@
+Also note the task prefix: we prepend the input sequence with 'translate
+English to German: ' before encoding it.

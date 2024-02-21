@@ -1,0 +1,11 @@
+Apply the softmax function to the logits to retrieve the probabilities:
+
+from torch import nn
+pt_predictions = nn.functional.softmax(pt_outputs.logits, dim=-1)
+print(pt_predictions)
+tensor([[0.0021, 0.0018, 0.0115, 0.2121, 0.7725],
+        [0.2084, 0.1826, 0.1969, 0.1755, 0.2365]], grad_fn=)
+``
+</pt>
+<tf>
+🤗 Transformers provides a simple and unified way to load pretrained instances.

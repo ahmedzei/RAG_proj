@@ -1,0 +1,5 @@
+For example:
+
+TRANSFORMERS_VERBOSITY=error ./myprogram.py
+Additionally, some warnings can be disabled by setting the environment variable
+TRANSFORMERS_NO_ADVISORY_WARNINGS to a true value, like 1.

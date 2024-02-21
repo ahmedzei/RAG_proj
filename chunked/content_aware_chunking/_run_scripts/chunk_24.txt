@@ -1,0 +1,1 @@
+The TensorFlow script will use multiple GPUs by default if they are available.

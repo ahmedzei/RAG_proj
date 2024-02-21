@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+We study the capabilities of speech processing systems trained simply to predict large amounts of transcripts of audio on the internet.

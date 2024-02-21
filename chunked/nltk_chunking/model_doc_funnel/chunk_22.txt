@@ -1,0 +1,71 @@
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+FunnelConfig
+[[autodoc]] FunnelConfig
+FunnelTokenizer
+[[autodoc]] FunnelTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+FunnelTokenizerFast
+[[autodoc]] FunnelTokenizerFast
+Funnel specific outputs
+[[autodoc]] models.funnel.modeling_funnel.FunnelForPreTrainingOutput
+[[autodoc]] models.funnel.modeling_tf_funnel.TFFunnelForPreTrainingOutput
+
+FunnelBaseModel
+[[autodoc]] FunnelBaseModel
+    - forward
+FunnelModel
+[[autodoc]] FunnelModel
+    - forward
+FunnelModelForPreTraining
+[[autodoc]] FunnelForPreTraining
+    - forward
+FunnelForMaskedLM
+[[autodoc]] FunnelForMaskedLM
+    - forward
+FunnelForSequenceClassification
+[[autodoc]] FunnelForSequenceClassification
+    - forward
+FunnelForMultipleChoice
+[[autodoc]] FunnelForMultipleChoice
+    - forward
+FunnelForTokenClassification
+[[autodoc]] FunnelForTokenClassification
+    - forward
+FunnelForQuestionAnswering
+[[autodoc]] FunnelForQuestionAnswering
+    - forward
+
+TFFunnelBaseModel
+[[autodoc]] TFFunnelBaseModel
+    - call
+TFFunnelModel
+[[autodoc]] TFFunnelModel
+    - call
+TFFunnelModelForPreTraining
+[[autodoc]] TFFunnelForPreTraining
+    - call
+TFFunnelForMaskedLM
+[[autodoc]] TFFunnelForMaskedLM
+    - call
+TFFunnelForSequenceClassification
+[[autodoc]] TFFunnelForSequenceClassification
+    - call
+TFFunnelForMultipleChoice
+[[autodoc]] TFFunnelForMultipleChoice
+    - call
+TFFunnelForTokenClassification
+[[autodoc]] TFFunnelForTokenClassification
+    - call
+TFFunnelForQuestionAnswering
+[[autodoc]] TFFunnelForQuestionAnswering
+    - call

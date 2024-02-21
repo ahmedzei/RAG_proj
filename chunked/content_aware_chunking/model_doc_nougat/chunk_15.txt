@@ -1,0 +1,2 @@
+The [NougatImageProcessor] class is responsible for preprocessing the input image and
+[NougatTokenizerFast] decodes the generated target tokens to the target string.

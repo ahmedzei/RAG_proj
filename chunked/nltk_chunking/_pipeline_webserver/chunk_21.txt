@@ -1,0 +1,1 @@
+But maybe it does make sense if batching is really crucial for your use case.

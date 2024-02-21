@@ -1,0 +1,5 @@
+The Megatron-LM paper authors 
+provide a helpful illustration for that:
+
+Parallelizing the multi-headed attention layers is even simpler, since they are already inherently parallel, due to having 
+multiple independent heads!

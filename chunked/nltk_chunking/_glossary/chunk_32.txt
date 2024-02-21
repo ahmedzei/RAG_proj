@@ -1,0 +1,2 @@
+In such models,
+passing the labels is the preferred way to handle training.

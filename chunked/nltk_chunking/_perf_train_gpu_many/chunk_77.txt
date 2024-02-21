@@ -1,0 +1,1 @@
+While reading the literature on this topic you may encounter the following synonyms: Sharded, Partitioned.

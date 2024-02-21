@@ -1,0 +1,2 @@
+You can see here, that T5DenseGatedGeluDense.forward resulted in output activations, whose absolute max value was
+around 62.7K, which is very close to fp16's top limit of 64K.

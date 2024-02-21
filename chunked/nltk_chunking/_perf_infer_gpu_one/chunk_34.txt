@@ -1,0 +1,4 @@
+Then you can enable BetterTransformer with the [PreTrainedModel.to_bettertransformer] method:
+python
+model = model.to_bettertransformer()
+You can return the original Transformers model with the [~PreTrainedModel.reverse_bettertransformer] method.

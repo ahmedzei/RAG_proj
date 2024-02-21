@@ -1,0 +1,2 @@
+Every model is fully coded in a given subfolder
+of the repository with no abstraction, so you can easily copy a modeling file and tweak it to your needs.

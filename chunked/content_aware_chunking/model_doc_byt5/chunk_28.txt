@@ -1,0 +1,6 @@
+input_ids = tokenizer(input_ids_prompt).input_ids
+Note that we cannot add "{extra_id_}" to the string directly
+as the Byte tokenizer would incorrectly merge the tokens
+For ByT5, we need to work directly on the character level
+Contrary to T5, ByT5 does not use sentinel tokens for masking, but instead
+uses final utf character ids.

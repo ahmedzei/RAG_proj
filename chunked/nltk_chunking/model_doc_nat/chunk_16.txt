@@ -1,0 +1,2 @@
+Notes:
+- NAT depends on NATTEN's implementation of Neighborhood Attention.

@@ -1,0 +1,1 @@
+To load a model in 8-bit for inference, use the load_in_8bit parameter.

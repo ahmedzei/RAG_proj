@@ -1,0 +1,6 @@
+thon
+from transformers import Swin2SRForImageSuperResolution, Swin2SRImageProcessor 
+model = Swin2SRForImageSuperResolution.from_pretrained("caidas/swin2SR-lightweight-x2-64").to(device)
+processor = Swin2SRImageProcessor("caidas/swin2SR-lightweight-x2-64")
+
+pipeline abstracts away the preprocessing and postprocessing steps that we have to do ourselves, so let's preprocess the image.

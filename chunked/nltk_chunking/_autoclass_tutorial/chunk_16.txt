@@ -1,0 +1,6 @@
+from transformers import AutoImageProcessor
+image_processor = AutoImageProcessor.from_pretrained("google/vit-base-patch16-224")
+
+AutoBackbone
+
+A Swin backbone with multiple stages for outputting a feature map.

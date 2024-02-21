@@ -1,0 +1,1 @@
+For a more detailed discussion about the pros and cons of each quantization method, read the Overview of natively supported quantization schemes in 🤗 Transformers blog post.

@@ -1,0 +1,1 @@
+BLIP-2 bridges the modality gap with a lightweight Querying Transformer, which is pre-trained in two stages.

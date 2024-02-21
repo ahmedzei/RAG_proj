@@ -1,0 +1,1 @@
+The number of float values amounts to two times the sequence length times the number of attention heads times the attention head dimension and times the number of layers.

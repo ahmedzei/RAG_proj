@@ -1,0 +1,1 @@
+Attributes like num_hidden_layers from the configuration are used to define the architecture.

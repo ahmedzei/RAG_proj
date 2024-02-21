@@ -1,0 +1,1 @@
+Conditional DETR shows much faster convergence compared to the original DETR.

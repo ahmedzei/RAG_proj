@@ -1,0 +1,2 @@
+However, their memory footprint, inference latency, and power consumption are prohibitive for
+efficient inference at the edge, and even at the data center.

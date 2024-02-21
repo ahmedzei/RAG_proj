@@ -1,0 +1,1 @@
+XLA compilation will happen implicitly on TPU, so remember to remove that line before actually running your code on a TPU!

@@ -1,0 +1,5 @@
+
+ViTMAE
+Overview
+The ViTMAE model was proposed in Masked Autoencoders Are Scalable Vision Learners by Kaiming He, Xinlei Chen, Saining Xie, Yanghao Li,
+Piotr Dollár, Ross Girshick.

@@ -1,0 +1,3 @@
+Calling
+[~PreTrainedModel.save_pretrained] will automatically call
+[~PretrainedConfig.save_pretrained], so that both model and configuration are saved.

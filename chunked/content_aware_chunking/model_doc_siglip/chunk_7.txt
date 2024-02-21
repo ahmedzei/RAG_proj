@@ -1,0 +1,1 @@
+The disentanglement of the batch size from the loss further allows us to study the impact of examples vs pairs and negative to positive ratio.

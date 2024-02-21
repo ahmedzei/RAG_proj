@@ -1,0 +1,10 @@
+This can be configured with the bnb_4bit_quant_type parameter in the [BitsAndBytesConfig]:
+
+from transformers import BitsAndBytesConfig
+nf4_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+)
+model_nf4 = AutoModelForCausalLM.from_pretrained(model_id, quantization_config=nf4_config)
+
+For inference, the bnb_4bit_quant_type does not have a huge impact on performance.

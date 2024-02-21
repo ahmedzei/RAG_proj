@@ -1,0 +1,3 @@
+Further, while the cross-modality encoder
+  contains self-attention for each respective modality and cross-attention, only the cross attention is returned and
+  both self attention outputs are disregarded.

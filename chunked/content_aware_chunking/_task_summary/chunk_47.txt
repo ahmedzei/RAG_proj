@@ -1,0 +1,6 @@
+preds = [{"score": round(pred["score"], 4), "label": pred["label"]} for pred in preds]
+preds
+[{'score': 0.9991, 'label': 'POSITIVE'}]
+
+Token classification
+In any NLP task, text is preprocessed by separating the sequence of text into individual words or subwords.

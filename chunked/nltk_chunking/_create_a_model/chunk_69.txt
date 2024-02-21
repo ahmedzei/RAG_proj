@@ -1,0 +1,1 @@
+Then you can pass the model config to the model head.

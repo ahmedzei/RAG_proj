@@ -1,0 +1,2 @@
+XLA Rule #3: XLA will need to recompile your model for every different input shape it sees
+This is the big one.

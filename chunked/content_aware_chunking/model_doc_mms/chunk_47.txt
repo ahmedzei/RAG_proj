@@ -1,0 +1,1 @@
+MMS-TTS uses the same model architecture as VITS, refer to VITS's documentation page for API reference.

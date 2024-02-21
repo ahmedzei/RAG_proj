@@ -1,0 +1,2 @@
+ValueError: Unrecognized configuration class XYZ for this kind of AutoModel
+Generally, we recommend using the [AutoModel] class to load pretrained instances of models.

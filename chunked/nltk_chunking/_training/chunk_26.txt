@@ -1,0 +1,2 @@
+Train with PyTorch Trainer
+🤗 Transformers provides a [Trainer] class optimized for training 🤗 Transformers models, making it easier to start training without manually writing your own training loop.

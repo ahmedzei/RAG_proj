@@ -1,0 +1,2 @@
+🌎 
+- A notebook on how to load a PEFT adapter LLaMA model with LangChain.

@@ -1,0 +1,1 @@
+It is usually connected to a head which accepts the features as its input to make a prediction.

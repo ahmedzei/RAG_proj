@@ -1,0 +1,1 @@
+Update your local transformers to the development version: pip uninstall -y transformers && pip install git+https://github.com/huggingface/transformers.

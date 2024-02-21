@@ -1,0 +1,1 @@
+It is important you don't remove unused columns because this'll drop the image column.

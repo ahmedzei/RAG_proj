@@ -1,0 +1,3 @@
+For other
+  tasks, the full model is used; this full model has a decoder that upsamples the final hidden states to the same
+  sequence length as the input.

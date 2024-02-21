@@ -1,0 +1,2 @@
+IPEX graph optimization
+Intel® Extension for PyTorch (IPEX) provides further optimizations in JIT mode for Intel CPUs, and we recommend combining it with TorchScript for even faster performance.

@@ -1,0 +1,17 @@
+PatchTSMixerConfig
+[[autodoc]] PatchTSMixerConfig
+PatchTSMixerModel
+[[autodoc]] PatchTSMixerModel
+    - forward
+PatchTSMixerForPrediction
+[[autodoc]] PatchTSMixerForPrediction
+    - forward
+PatchTSMixerForTimeSeriesClassification
+[[autodoc]] PatchTSMixerForTimeSeriesClassification
+    - forward
+PatchTSMixerForPretraining
+[[autodoc]] PatchTSMixerForPretraining
+    - forward
+PatchTSMixerForRegression
+[[autodoc]] PatchTSMixerForRegression
+    - forward

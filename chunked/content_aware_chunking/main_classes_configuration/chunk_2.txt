@@ -1,0 +1,2 @@
+Common attributes present in all config classes are:
+hidden_size, num_attention_heads, and num_hidden_layers.

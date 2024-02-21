@@ -1,0 +1,2 @@
+Finally, our results show that the positional encoding, 
+a crucial component in existing Vision Transformers, can be safely removed in our model, simplifying the design for higher resolution vision tasks.

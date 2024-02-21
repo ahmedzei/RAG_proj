@@ -1,0 +1,2 @@
+Usage example
+OWLv2 is, just like its predecessor OWL-ViT, a zero-shot text-conditioned object detection model.

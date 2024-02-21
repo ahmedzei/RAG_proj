@@ -1,0 +1,1 @@
+The first time, the key-value cache is empty and the input prompt is "User: How many people live in France?"

@@ -1,0 +1,1 @@
+Do not use the 2 splits at one end of the same cable (also known as pigtail cable).

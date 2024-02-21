@@ -1,0 +1,24 @@
+For example, create a default [ViTImageProcessor] if you are using ViT for image classification:
+
+from transformers import ViTImageProcessor
+vit_extractor = ViTImageProcessor()
+print(vit_extractor)
+ViTImageProcessor {
+  "do_normalize": true,
+  "do_resize": true,
+  "image_processor_type": "ViTImageProcessor",
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "resample": 2,
+  "size": 224
+}
+
+If you aren't looking for any customization, just use the from_pretrained method to load a model's default image processor parameters.

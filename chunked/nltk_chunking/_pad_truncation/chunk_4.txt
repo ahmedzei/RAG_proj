@@ -1,0 +1,1 @@
+In most cases, padding your batch to the length of the longest sequence and truncating to the maximum length a model can accept works pretty well.

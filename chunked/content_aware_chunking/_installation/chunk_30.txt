@@ -1,0 +1,1 @@
+Shell environment variable: XDG_CACHE_HOME + /huggingface.

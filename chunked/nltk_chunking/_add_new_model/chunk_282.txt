@@ -1,0 +1,2 @@
+Analogous to the modeling test files of brand_new_bert, the tokenization test files of brand_new_bert should
+contain a couple of hard-coded integration tests.

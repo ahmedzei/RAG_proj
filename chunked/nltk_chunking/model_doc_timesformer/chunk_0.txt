@@ -1,0 +1,4 @@
+
+TimeSformer
+Overview
+The TimeSformer model was proposed in TimeSformer: Is Space-Time Attention All You Need for Video Understanding?

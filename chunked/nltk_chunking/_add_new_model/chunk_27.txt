@@ -1,0 +1,2 @@
+Every new model requires a
+configuration class, called BrandNewBertConfig.

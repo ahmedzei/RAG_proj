@@ -1,0 +1,1 @@
+When used with NVMe offload, sub_group_size determines when model states are moved in and out of CPU memory from during the optimization step.

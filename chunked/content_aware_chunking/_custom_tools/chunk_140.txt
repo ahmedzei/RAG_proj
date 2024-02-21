@@ -1,0 +1,2 @@
+Adding new tools
+In this section, we show how to create a new tool that can be added to the agent.

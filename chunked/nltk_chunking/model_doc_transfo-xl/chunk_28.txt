@@ -1,0 +1,41 @@
+TransformerXL does not work with torch.nn.DataParallel due to a bug in PyTorch, see issue #36035
+
+Resources
+
+Text classification task guide
+Causal language modeling task guide
+
+TransfoXLConfig
+[[autodoc]] TransfoXLConfig
+TransfoXLTokenizer
+[[autodoc]] TransfoXLTokenizer
+    - save_vocabulary
+TransfoXL specific outputs
+[[autodoc]] models.deprecated.transfo_xl.modeling_transfo_xl.TransfoXLModelOutput
+[[autodoc]] models.deprecated.transfo_xl.modeling_transfo_xl.TransfoXLLMHeadModelOutput
+[[autodoc]] models.deprecated.transfo_xl.modeling_tf_transfo_xl.TFTransfoXLModelOutput
+[[autodoc]] models.deprecated.transfo_xl.modeling_tf_transfo_xl.TFTransfoXLLMHeadModelOutput
+
+TransfoXLModel
+[[autodoc]] TransfoXLModel
+    - forward
+TransfoXLLMHeadModel
+[[autodoc]] TransfoXLLMHeadModel
+    - forward
+TransfoXLForSequenceClassification
+[[autodoc]] TransfoXLForSequenceClassification
+    - forward
+
+TFTransfoXLModel
+[[autodoc]] TFTransfoXLModel
+    - call
+TFTransfoXLLMHeadModel
+[[autodoc]] TFTransfoXLLMHeadModel
+    - call
+TFTransfoXLForSequenceClassification
+[[autodoc]] TFTransfoXLForSequenceClassification
+    - call
+
+Internal Layers
+[[autodoc]] AdaptiveEmbedding
+[[autodoc]] TFAdaptiveEmbedding

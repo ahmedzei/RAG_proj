@@ -1,0 +1,3 @@
+The
+[DonutProcessor] wraps [DonutImageProcessor] and [XLMRobertaTokenizer/XLMRobertaTokenizerFast]
+into a single instance to both extract the input features and decode the predicted token ids.

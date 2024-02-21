@@ -1,0 +1,2 @@
+The next most frequent symbol pair is "h" followed by
+"ug", occurring 15 times.

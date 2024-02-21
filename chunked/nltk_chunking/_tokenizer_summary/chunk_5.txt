@@ -1,0 +1,2 @@
+Note that on each model page, you can look at the documentation of the associated tokenizer to know which tokenizer
+type was used by the pretrained model.

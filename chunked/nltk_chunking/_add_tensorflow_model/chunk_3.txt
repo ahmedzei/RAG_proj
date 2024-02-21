@@ -1,0 +1,2 @@
+Whether you wish to have a deeper understanding of large TensorFlow models, make a major open-source contribution, or
+enable TensorFlow for your model of choice, this guide is for you.

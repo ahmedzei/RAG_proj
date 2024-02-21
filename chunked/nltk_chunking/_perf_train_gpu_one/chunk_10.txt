@@ -1,0 +1,15 @@
+The methods and tools covered in this guide can be classified based on the effect they have on the training process:
+| Method/tool                                                | Improves training speed | Optimizes memory utilization |
+|:-----------------------------------------------------------|:------------------------|:-----------------------------|
+| Batch size choice                    | Yes                     | Yes                          |
+| Gradient accumulation            | No                      | Yes                          |
+| Gradient checkpointing          | No                      | Yes                          |
+| Mixed precision training      | Yes                     | (No)                         |
+| Optimizer choice                      | Yes                     | Yes                          |
+| Data preloading                        | Yes                     | No                           |
+| DeepSpeed Zero                          | No                      | Yes                          |
+| torch.compile                       | Yes                     | No                           |
+| Parameter-Efficient Fine Tuning (PEFT)            | No                      | Yes                          |
+
+Note: when using mixed precision with a small model and a large batch size, there will be some memory savings but with a 
+large model and a small batch size, the memory use will be larger.

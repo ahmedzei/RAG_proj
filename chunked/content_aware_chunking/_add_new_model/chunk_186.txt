@@ -1,0 +1,2 @@
+To do so, you can go to the “Files changed” tab where you see all of your changes, go to a line regarding which you
+want to ask a question, and click on the “+” symbol to add a comment.

@@ -1,0 +1,2 @@
+A common problem is that the agent confuses image generation with image transformation/modification when 
+used a lot for image generation tasks, e.g.

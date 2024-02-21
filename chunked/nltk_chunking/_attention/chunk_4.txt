@@ -1,0 +1,2 @@
+In the softmax(QK^t), only the biggest elements (in the softmax
+dimension) of the matrix QK^t are going to give useful contributions.

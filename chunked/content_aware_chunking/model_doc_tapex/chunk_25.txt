@@ -1,0 +1,9 @@
+encoding = tokenizer(table, question, return_tensors="pt")
+let the model generate an answer autoregressively
+outputs = model.generate(**encoding)
+decode back to text
+predicted_answer = tokenizer.batch_decode(outputs, skip_special_tokens=True)[0]
+print(predicted_answer)
+53
+
+Note that [TapexTokenizer] also supports batched inference.

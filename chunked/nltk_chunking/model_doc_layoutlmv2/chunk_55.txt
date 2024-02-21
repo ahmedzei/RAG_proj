@@ -1,0 +1,2 @@
+The image processor
+handles the image modality, while the tokenizer handles the text modality.

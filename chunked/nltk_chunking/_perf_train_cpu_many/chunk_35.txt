@@ -1,0 +1,3 @@
+In order to get "guaranteed"
+quality of service for the worker pods,
+set the same CPU and memory amounts for both the resource limits and requests.

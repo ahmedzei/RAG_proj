@@ -1,0 +1,1 @@
+As image input to the model, you can use either an image object (PIL.Image) or a url from which the image can be retrieved.

@@ -1,0 +1,2 @@
+Alternatively, one can also define a custom collate_fn in order to batch images together, using
+  [~transformers.DetrImageProcessor.pad_and_create_pixel_mask].

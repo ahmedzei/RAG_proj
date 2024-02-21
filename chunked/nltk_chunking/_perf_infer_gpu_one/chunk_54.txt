@@ -1,0 +1,2 @@
+Combine optimizations
+It is often possible to combine several of the optimization techniques described above to get the best inference performance possible for your model.

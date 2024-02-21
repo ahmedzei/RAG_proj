@@ -1,0 +1,2 @@
+Prepare transformers dev environment
+Having selected the model architecture, open a draft PR to signal your intention to work on it.

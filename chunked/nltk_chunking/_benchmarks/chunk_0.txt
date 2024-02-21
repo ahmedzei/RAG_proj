@@ -1,0 +1,5 @@
+
+Benchmarks
+
+Hugging Face's Benchmarking tools are deprecated and it is advised to use external Benchmarking libraries to measure the speed 
+and memory complexity of Transformer models.

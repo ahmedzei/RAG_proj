@@ -1,0 +1,6 @@
+
+TrOCR
+Overview
+The TrOCR model was proposed in TrOCR: Transformer-based Optical Character Recognition with Pre-trained
+Models by Minghao Li, Tengchao Lv, Lei Cui, Yijuan Lu, Dinei Florencio, Cha Zhang,
+Zhoujun Li, Furu Wei.

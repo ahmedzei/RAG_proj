@@ -1,0 +1,3 @@
+In that case, the prediction head is trained using regular cross-entropy between
+  the prediction of the head and the ground-truth label, while the distillation prediction head is trained using hard distillation
+  (cross-entropy between the prediction of the distillation head and the label predicted by the teacher).

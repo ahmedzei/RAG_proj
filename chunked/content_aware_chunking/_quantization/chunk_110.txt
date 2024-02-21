@@ -1,0 +1,2 @@
+Fused AWQ modules
+The TheBloke/Mistral-7B-OpenOrca-AWQ model was benchmarked with batch_size=1 with and without fused modules.

@@ -1,0 +1,8 @@
+lj_speech = lj_speech.cast_column("audio", Audio(sampling_rate=16_000))
+
+Load a processor with [AutoProcessor.from_pretrained]:
+
+from transformers import AutoProcessor
+processor = AutoProcessor.from_pretrained("facebook/wav2vec2-base-960h")
+
+Create a function to process the audio data contained in array to input_values, and tokenize text to labels.

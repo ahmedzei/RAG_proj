@@ -1,0 +1,8 @@
+When
+pytest-random-order is installed it will print the random seed it used for that session, e.g:
+
+pytest tests
+[]
+Using --random-order-bucket=module
+Using --random-order-seed=573663
+So that if the given particular sequence fails, you can reproduce it by adding that exact seed, e.g.

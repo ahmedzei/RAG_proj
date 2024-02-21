@@ -1,0 +1,1 @@
+The key is padding - if you pad all your inputs to the same length, and then use an attention_mask, you can get the same results as you’d get from variable shapes, but without any XLA issues.

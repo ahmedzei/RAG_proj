@@ -1,0 +1,1 @@
+Mask generation task is supported by Segment Anything Model (SAM).

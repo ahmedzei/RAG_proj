@@ -1,0 +1,2 @@
+This approach involves iteratively calculating gradients in smaller batches by performing forward 
+and backward passes through the model and accumulating the gradients during the process.

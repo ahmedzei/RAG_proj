@@ -1,0 +1,3 @@
+Therefore:
+Use [SplinterTokenizer] (rather than [BertTokenizer]), as it already
+  contains this special token.

@@ -1,0 +1,6 @@
+
+
+Before you begin, make sure you have all the necessary libraries installed:
+
+pip install transformers datasets evaluate sacrebleu
+We encourage you to login to your Hugging Face account so you can upload and share your model with the community.

@@ -1,0 +1,1 @@
+As explained earlier this allows detection of coupled tests - where one test's state affects the state of another.

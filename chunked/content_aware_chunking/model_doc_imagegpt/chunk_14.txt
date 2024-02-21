@@ -1,0 +1,2 @@
+However, feeding a
+  sequence of 32x32x3=3072 tokens from 0..255 into a Transformer is still prohibitively large.

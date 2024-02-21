@@ -1,0 +1,1 @@
+Some models, like google-bert/bert-base-multilingual-uncased, can be used just like a monolingual model.

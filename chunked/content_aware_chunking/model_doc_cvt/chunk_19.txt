@@ -1,0 +1,16 @@
+CvtConfig
+[[autodoc]] CvtConfig
+
+CvtModel
+[[autodoc]] CvtModel
+    - forward
+CvtForImageClassification
+[[autodoc]] CvtForImageClassification
+    - forward
+
+TFCvtModel
+[[autodoc]] TFCvtModel
+    - call
+TFCvtForImageClassification
+[[autodoc]] TFCvtForImageClassification
+    - call

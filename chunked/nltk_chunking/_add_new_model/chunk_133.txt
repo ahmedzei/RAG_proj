@@ -1,0 +1,2 @@
+if the original
+code-base can easily be run in eager mode, it is usually worth the effort to do so.

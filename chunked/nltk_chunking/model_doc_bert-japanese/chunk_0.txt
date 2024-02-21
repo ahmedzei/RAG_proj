@@ -1,0 +1,4 @@
+
+BertJapanese
+Overview
+The BERT models trained on Japanese text.

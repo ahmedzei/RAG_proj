@@ -1,0 +1,2 @@
+If you need a TP degree of 8, you need to use
+nodes that have at least 8 GPUs.

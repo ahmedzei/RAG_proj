@@ -1,0 +1,1 @@
+All gather and scatter operations are performed in the same data type the data is in.

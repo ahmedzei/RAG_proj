@@ -1,0 +1,2 @@
+In this paper, we show that a Bernoulli sampling 
+attention mechanism based on Locality Sensitive Hashing (LSH), decreases the quadratic complexity of such models to linear.

@@ -1,0 +1,1 @@
+Specifically, we represent refer expressions as links in Markdown, i.e., ``text span'', where object descriptions are sequences of location tokens.

@@ -1,0 +1,2 @@
+This self-supervised pre-training strategy is particularly scalable when applied to Vision Transformers since only the
+unmasked patches are processed by the network.

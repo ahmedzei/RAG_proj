@@ -1,0 +1,1 @@
+It is important your audio data's sampling rate matches the sampling rate of the dataset used to pretrain the model.

@@ -1,0 +1,2 @@
+The Cookiecutter should have added a template file called
+docs/source/model_doc/brand_new_bert.md that you should fill out.

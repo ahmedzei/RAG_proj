@@ -1,0 +1,3 @@
+IDEFICS instruct for conversational use
+For conversational use cases, you can find fine-tuned instructed versions of the model on the 🤗 Hub: 
+HuggingFaceM4/idefics-80b-instruct and HuggingFaceM4/idefics-9b-instruct.

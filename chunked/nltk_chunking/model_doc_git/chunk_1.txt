@@ -1,0 +1,2 @@
+GIT is a decoder-only Transformer
+that leverages CLIP's vision encoder to condition the model on vision inputs besides text.

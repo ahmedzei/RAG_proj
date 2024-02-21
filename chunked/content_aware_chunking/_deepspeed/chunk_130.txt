@@ -1,0 +1,1 @@
+However, if you use gradient accumulation with bf16, gradients are accumulated in bf16 which may not be desired because this format's low precision can lead to lossy accumulation.

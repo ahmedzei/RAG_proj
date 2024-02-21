@@ -1,0 +1,1 @@
+But instead of calculating and reporting the metric at the end of each epoch, this time you'll accumulate all the batches with [~evaluate.add_batch] and calculate the metric at the very end.

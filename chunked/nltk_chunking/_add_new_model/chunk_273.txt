@@ -1,0 +1,2 @@
+Implement the tokenizer
+Next, we should add the tokenizer of brand_new_bert.

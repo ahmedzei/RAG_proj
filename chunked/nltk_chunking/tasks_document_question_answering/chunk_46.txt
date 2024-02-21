@@ -1,0 +1,25 @@
+def subfinder(words_list, answer_list):
+     matches = []
+     start_indices = []
+     end_indices = []
+     for idx, i in enumerate(range(len(words_list))):
+         if words_list[i] == answer_list[0] and words_list[i : i + len(answer_list)] == answer_list:
+             matches.append(answer_list)
+             start_indices.append(idx)
+             end_indices.append(idx + len(answer_list) - 1)
+     if matches:
+         return matches[0], start_indices[0], end_indices[0]
+     else:
+         return None, 0, 0
+
+To illustrate how this function finds the position of the answer, let's use it on an example:
+
+example = dataset_with_ocr["train"][1]
+words = [word.lower() for word in example["words"]]
+match, word_idx_start, word_idx_end = subfinder(words, example["answer"].lower().split())
+print("Question: ", example["question"])
+print("Words:", words)
+print("Answer: ", example["answer"])
+print("start_index", word_idx_start)
+print("end_index", word_idx_end)
+Question:  Who is in  cc in this letter?

@@ -1,0 +1,1 @@
+As of now, only Swin2SR models are supported in this pipeline.

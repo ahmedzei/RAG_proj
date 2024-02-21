@@ -1,0 +1,2 @@
+The resulting model, the Reformer, performs on par with Transformer models
+while being much more memory-efficient and much faster on long sequences.

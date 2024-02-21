@@ -1,0 +1,6 @@
+The two optimizations in the fastpath execution are:
+
+fusion, which combines multiple sequential operations into a single "kernel" to reduce the number of computation steps
+skipping the inherent sparsity of padding tokens to avoid unnecessary computation with nested tensors
+
+BetterTransformer also converts all attention operations to use the more memory-efficient scaled dot product attention (SDPA), and it calls optimized kernels like FlashAttention under the hood.

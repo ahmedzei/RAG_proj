@@ -1,0 +1,3 @@
+Diverse beam search decoding
+The diverse beam search decoding strategy is an extension of the beam search strategy that allows for generating a more diverse
+set of beam sequences to choose from.

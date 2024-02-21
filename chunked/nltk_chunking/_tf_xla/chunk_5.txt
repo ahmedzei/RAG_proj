@@ -1,0 +1,1 @@
+Several TensorFlow methods in 🤗 Transformers have been rewritten to be XLA-compatible, including text generation for models such as GPT2, T5 and OPT, as well as speech processing for models such as Whisper.

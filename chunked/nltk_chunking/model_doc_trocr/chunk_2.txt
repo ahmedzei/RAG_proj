@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Text recognition is a long-standing research problem for document digitalization.

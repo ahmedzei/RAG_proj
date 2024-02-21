@@ -1,0 +1,3 @@
+If a model's max
+input size is \(k\), we then approximate the likelihood of a token \(x_t\) by conditioning only on the
+\(k-1\) tokens that precede it rather than the entire context.

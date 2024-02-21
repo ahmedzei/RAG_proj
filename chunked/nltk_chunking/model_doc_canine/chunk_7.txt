@@ -1,0 +1,2 @@
+To use its finer-grained input effectively and efficiently, CANINE combines downsampling, which reduces the input
+sequence length, with a deep transformer stack, which encodes context.

@@ -1,0 +1,1 @@
+In addition to image generation, ImageGPT could also be finetuned for image classification.

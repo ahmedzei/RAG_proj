@@ -1,0 +1,1 @@
+In practice, there is currently absolutely no reason to not use Flash Attention if available.

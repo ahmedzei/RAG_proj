@@ -1,0 +1,2 @@
+IDEFICS comes in two variants - 80 billion parameters 
+and 9 billion parameters, both of which are available on the 🤗 Hub.

@@ -1,0 +1,8 @@
+:
+thon
+
+instantiate sentence fusion model
+sentence_fuser = EncoderDecoderModel.from_pretrained("google/roberta2roberta_L-24_discofuse")
+tokenizer = AutoTokenizer.from_pretrained("google/roberta2roberta_L-24_discofuse")
+input_ids = tokenizer(
+     "This is the first sentence.

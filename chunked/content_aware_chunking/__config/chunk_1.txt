@@ -1,0 +1,2 @@
+pip install transformers datasets
+To install from source instead of the last release, comment the command above and uncomment the following one.

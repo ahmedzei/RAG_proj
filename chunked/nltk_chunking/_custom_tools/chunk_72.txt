@@ -1,0 +1,1 @@
+Great now that we know how the prompt is structured, let's see how we can customize it!

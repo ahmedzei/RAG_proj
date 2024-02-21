@@ -1,0 +1,6 @@
+Recently, relative positional embeddings that can tackle the above mentioned problems have become more popular, most notably:
+
+Rotary Position Embedding (RoPE)
+ALiBi
+
+Both RoPE and ALiBi argue that it's best to cue the LLM about sentence order directly in the self-attention algorithm as it's there that word tokens are put into relation with each other.

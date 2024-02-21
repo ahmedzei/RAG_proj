@@ -1,0 +1,12 @@
+First install the 🤗 Transformers library, g2p-en:
+
+pip install --upgrade pip
+pip install --upgrade transformers g2p-en
+
+Run inference via the Transformers modelling code with the model and hifigan separately
+
+thon
+from transformers import FastSpeech2ConformerTokenizer, FastSpeech2ConformerModel, FastSpeech2ConformerHifiGan
+import soundfile as sf
+tokenizer = FastSpeech2ConformerTokenizer.from_pretrained("espnet/fastspeech2_conformer")
+inputs = tokenizer("Hello, my dog is cute.

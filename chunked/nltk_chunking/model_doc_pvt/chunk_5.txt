@@ -1,0 +1,3 @@
+Unlike the recently proposed Vision 
+Transformer (ViT) that was designed for image classification specifically, we introduce the Pyramid Vision Transformer 
+(PVT), which overcomes the difficulties of porting Transformer to various dense prediction tasks.

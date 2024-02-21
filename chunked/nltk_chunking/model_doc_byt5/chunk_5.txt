@@ -1,0 +1,2 @@
+In this paper, we show that a standard Transformer architecture can be used with
+minimal modifications to process byte sequences.

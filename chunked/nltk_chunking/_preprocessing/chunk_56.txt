@@ -1,0 +1,1 @@
+For this tutorial, you'll use the Wav2Vec2 model.

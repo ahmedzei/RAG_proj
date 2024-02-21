@@ -1,0 +1,5 @@
+
+GPT-NeoX
+Overview
+We introduce GPT-NeoX-20B, a 20 billion parameter autoregressive language model trained on the Pile, whose weights will
+be made freely and openly available to the public through a permissive license.

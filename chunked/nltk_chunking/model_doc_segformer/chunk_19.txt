@@ -1,0 +1,2 @@
+In addition, there's
+  [SegformerForImageClassification] which can be used to - you guessed it - classify images.

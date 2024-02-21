@@ -1,0 +1,1 @@
+BARThez implementation is the same as BART, except for tokenization.

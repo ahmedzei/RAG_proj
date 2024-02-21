@@ -1,0 +1,1 @@
+Specially, a set of different visual prompts are applied to uniformly-sampled frames of one untrimmed video in order.

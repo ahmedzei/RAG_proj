@@ -1,0 +1,1 @@
+A pretrained CNN backbone takes an image, represented by its pixel values, and creates a low-resolution feature map of it.

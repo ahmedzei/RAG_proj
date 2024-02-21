@@ -1,0 +1,1 @@
+This is because the probability score computed by \( \mathbf{QK}^T \) relates each word token to each other word token in \( O(1) \) computations regardless of their relative positional distance to each other.

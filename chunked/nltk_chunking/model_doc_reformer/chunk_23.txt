@@ -1,0 +1,2 @@
+Therefore, the key
+query embedding vectors are also tied.

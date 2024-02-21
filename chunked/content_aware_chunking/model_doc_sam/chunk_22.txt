@@ -1,0 +1,18 @@
+SamConfig
+[[autodoc]] SamConfig
+SamVisionConfig
+[[autodoc]] SamVisionConfig
+SamMaskDecoderConfig
+[[autodoc]] SamMaskDecoderConfig
+SamPromptEncoderConfig
+[[autodoc]] SamPromptEncoderConfig
+SamProcessor
+[[autodoc]] SamProcessor
+SamImageProcessor
+[[autodoc]] SamImageProcessor
+SamModel
+[[autodoc]] SamModel
+    - forward
+TFSamModel
+[[autodoc]] TFSamModel
+    - call

@@ -1,0 +1,2 @@
+The first sequence needs to be padded up to the length
+of the second one, or the second one needs to be truncated down to the length of the first one.

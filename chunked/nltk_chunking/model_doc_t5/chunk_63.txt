@@ -1,0 +1,3 @@
+We also pass
+attention_mask as additional input to the model, which makes sure that padding tokens of the inputs are
+ignored.

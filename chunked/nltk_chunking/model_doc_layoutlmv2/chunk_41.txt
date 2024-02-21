@@ -1,0 +1,3 @@
+More generally, the last hidden states
+  will have a shape of seq_length + image_feature_pool_shape[0] *
+  config.image_feature_pool_shape[1].

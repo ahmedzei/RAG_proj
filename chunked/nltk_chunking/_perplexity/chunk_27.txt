@@ -1,0 +1,2 @@
+The following
+is an example of how we could do this with a stride of 512.

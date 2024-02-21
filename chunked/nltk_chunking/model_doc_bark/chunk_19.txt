@@ -1,0 +1,4 @@
+It only requires one line of code to export the model to 🤗 Better Transformer:
+python
+model =  model.to_bettertransformer()
+Note that 🤗 Optimum must be installed before using this feature.

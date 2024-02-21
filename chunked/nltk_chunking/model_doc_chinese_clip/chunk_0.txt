@@ -1,0 +1,4 @@
+
+Chinese-CLIP
+Overview
+The Chinese-CLIP model was proposed in Chinese CLIP: Contrastive Vision-Language Pretraining in Chinese by An Yang, Junshu Pan, Junyang Lin, Rui Men, Yichang Zhang, Jingren Zhou, Chang Zhou.

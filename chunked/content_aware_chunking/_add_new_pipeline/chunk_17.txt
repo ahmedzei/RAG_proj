@@ -1,0 +1,2 @@
+_sanitize_parameters exists to allow users to pass any parameters whenever they wish, be it at initialization
+time pipeline(., maybe_arg=4) or at call time pipe = pipeline(); output = pipe(., maybe_arg=4).

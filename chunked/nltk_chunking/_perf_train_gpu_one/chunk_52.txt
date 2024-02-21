@@ -1,0 +1,3 @@
+Check 
+out the NVIDIA Blog to learn more about 
+the differences between these data types.

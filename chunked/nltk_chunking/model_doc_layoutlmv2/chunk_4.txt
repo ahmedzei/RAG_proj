@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+Pre-training of text and layout has proved effective in a variety of visually-rich document understanding tasks due to
+its effective model architecture and the advantage of large-scale unlabeled scanned/digital-born documents.

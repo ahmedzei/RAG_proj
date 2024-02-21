@@ -1,0 +1,3 @@
+The significance of this framework is that it takes resources like (1) GPU/TPU/CPU vs. (2) RAM/DRAM vs. (3) 
+fast-intra-connect/slow-inter-connect and it automatically optimizes all these algorithmically deciding which 
+parallelisation to use where.

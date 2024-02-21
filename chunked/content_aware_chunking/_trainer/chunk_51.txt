@@ -1,0 +1,1 @@
+This command creates a config_file.yaml that'll be used when you launch your training script.

@@ -1,0 +1,1 @@
+Many recent studies try to solve the task by developing pre-trained language models focusing on combining visual features from document images with texts and their layout.

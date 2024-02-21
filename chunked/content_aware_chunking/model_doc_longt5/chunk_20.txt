@@ -1,0 +1,2 @@
+This is achieved via splitting an input sequence into blocks of a fixed
+length k (with a default k=16).

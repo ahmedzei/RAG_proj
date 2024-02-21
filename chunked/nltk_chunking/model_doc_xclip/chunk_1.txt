@@ -1,0 +1,1 @@
+X-CLIP is a minimal extension of CLIP for video.

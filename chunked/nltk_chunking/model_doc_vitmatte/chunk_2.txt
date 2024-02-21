@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Recently, plain vision Transformers (ViTs) have shown impressive performance on various computer vision tasks, thanks to their strong modeling capacity and large-scale pretraining.

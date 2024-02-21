@@ -1,0 +1,1 @@
+After GPT-2, language models grew even bigger and are now known as large language models (LLMs).

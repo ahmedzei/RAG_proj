@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+Recent progress in self-training, self-supervised pretraining and unsupervised learning enabled well performing speech
+recognition systems without any labeled data.

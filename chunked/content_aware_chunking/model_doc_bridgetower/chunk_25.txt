@@ -1,0 +1,1 @@
+Please refer to Table 5 for BridgeTower's performance on Image Retrieval and other down stream tasks.

@@ -1,0 +1,4 @@
+Usage tips
+
+QDQBERT model adds fake quantization operations (pair of QuantizeLinear/DequantizeLinear ops) to (i) linear layer
+  inputs and weights, (ii) matmul inputs, (iii) residual add inputs, in BERT model.

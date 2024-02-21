@@ -1,0 +1,2 @@
+To make sure, the implementation is fully compatible with 🤗 Transformers, all
+common tests should pass.

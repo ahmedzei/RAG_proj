@@ -1,0 +1,2 @@
+So if we parallelize them by operator dimension into 2 
+devices (cuda:0, cuda:1), first we copy input data into both devices, and cuda:0 computes std, cuda:1 computes mean at the same time.

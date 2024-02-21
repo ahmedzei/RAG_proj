@@ -1,0 +1,2 @@
+It's more efficient to dynamically pad the
+sentences to the longest length in a batch during collation, instead of padding the whole dataset to the maximum length.

@@ -1,0 +1,1 @@
+If the forward parameter order does not match the tuple input order in jit.trace, like a text classification model, jit.trace will fail and we are capturing this with the exception here to make it fallback.

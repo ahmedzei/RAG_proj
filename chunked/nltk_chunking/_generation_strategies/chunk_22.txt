@@ -1,0 +1,2 @@
+As an alternative to using the output's length as a stopping criteria, you can choose
+to stop generation whenever the full generation exceeds some amount of time.

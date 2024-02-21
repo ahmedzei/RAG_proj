@@ -1,0 +1,3 @@
+updated_dataset = updated_dataset.filter(lambda x: len(x["words"]) + len(x["question"].split()) < 512)
+
+At this point let's also remove the OCR features from this dataset.

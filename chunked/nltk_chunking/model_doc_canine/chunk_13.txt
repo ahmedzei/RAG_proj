@@ -1,0 +1,1 @@
+Next, after downsampling, a "deep" encoder is applied.

@@ -1,0 +1,2 @@
+On top of those three base classes, the library provides two APIs: [pipeline] for quickly
+    using a model for inference on a given task and [Trainer] to quickly train or fine-tune a PyTorch model (all TensorFlow models are compatible with Keras.fit).

@@ -1,0 +1,2 @@
+It was introduced in the Mixtral of Experts blogpost with the following introduction:
+Today, the team is proud to release Mixtral 8x7B, a high-quality sparse mixture of experts models (SMoE) with open weights.

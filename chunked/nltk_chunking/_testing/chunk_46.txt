@@ -1,0 +1,3 @@
+Once you start to
+manually narrowing down the list you can no longer rely on the seed, but have to list them manually in the exact order
+they failed and tell pytest to not randomize them instead using --random-order-bucket=none, e.g.

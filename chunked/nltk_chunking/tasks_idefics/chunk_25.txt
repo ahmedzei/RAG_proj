@@ -1,0 +1,2 @@
+Without a text prompt, the model will start generating text from the 
+BOS (beginning-of-sequence) token thus creating a caption.

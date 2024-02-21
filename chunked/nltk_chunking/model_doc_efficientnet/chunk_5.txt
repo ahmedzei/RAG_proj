@@ -1,0 +1,1 @@
+We demonstrate the effectiveness of this method on scaling up MobileNets and ResNet.

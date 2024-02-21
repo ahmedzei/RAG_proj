@@ -1,0 +1,2 @@
+DETR can be naturally extended to perform panoptic segmentation (which unifies semantic segmentation and instance
+segmentation).

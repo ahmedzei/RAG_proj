@@ -1,0 +1,2 @@
+Another option is to use the original codebase to
+  train/fine-tune the model on TPU and then convert the model to Transformers format for inference.

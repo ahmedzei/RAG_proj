@@ -1,0 +1,10 @@
+``
+</pt>
+<tf>
+Tokenize the text and return theinput_ids` as TensorFlow tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("my_awesome_opus_books_model")
+inputs = tokenizer(text, return_tensors="tf").input_ids
+
+Use the [~transformers.generation_tf_utils.TFGenerationMixin.generate] method to create the translation.

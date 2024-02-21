@@ -1,0 +1,5 @@
+Next, install the latest version of Flash Attention 2:
+
+pip install -U flash-attn --no-build-isolation
+Usage
+To load a model using Flash Attention 2, we can pass the attn_implementation="flash_attention_2" flag to .from_pretrained.

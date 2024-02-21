@@ -1,0 +1,5 @@
+Create a pretrained model with [~TFPreTrainedModel.from_pretrained]:
+
+tf_model = TFDistilBertModel.from_pretrained("distilbert/distilbert-base-uncased")
+
+When you load pretrained weights, the default model configuration is automatically loaded if the model is provided by 🤗 Transformers.

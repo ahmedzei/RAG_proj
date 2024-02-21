@@ -1,0 +1,1 @@
+One can use [Blip2Processor] to prepare images for the model, and decode the predicted tokens ID's back to text.

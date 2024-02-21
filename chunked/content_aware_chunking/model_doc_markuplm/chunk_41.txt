@@ -1,0 +1,6 @@
+encoding = processor(html_string, questions=question, return_tensors="pt")
+print(encoding.keys())
+dict_keys(['input_ids', 'token_type_ids', 'attention_mask', 'xpath_tags_seq', 'xpath_subs_seq'])
+
+Use case 5: web page question answering (inference), parse_html=False
+For question answering tasks (such as WebSRC), you can provide a question to the processor.

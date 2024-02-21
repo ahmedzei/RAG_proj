@@ -1,0 +1,2 @@
+Special tokens are never split, 
+ensuring that your control tokens are always handled as single tokens rather than being tokenized in pieces.

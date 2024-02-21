@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+We introduce dense vision transformers, an architecture that leverages vision transformers in place of convolutional networks as a backbone for dense prediction tasks.

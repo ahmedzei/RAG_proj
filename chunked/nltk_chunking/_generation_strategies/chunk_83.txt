@@ -1,0 +1,3 @@
+If
+do_sample=True, then the token validation with resampling introduced in the
+speculative decoding paper is used.

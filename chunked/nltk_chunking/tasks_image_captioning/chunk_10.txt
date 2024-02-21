@@ -1,0 +1,1 @@
+In those cases, a common strategy is to randomly sample a caption amongst the available ones during training.

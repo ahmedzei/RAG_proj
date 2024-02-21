@@ -1,0 +1,2 @@
+Therefore, the deployment of ViT for real-time applications is particularly 
+challenging, especially on resource-constrained hardware such as mobile devices.

@@ -1,0 +1,1 @@
+Going beyond Transformers, we design Autoformer as a novel decomposition architecture with an Auto-Correlation mechanism.

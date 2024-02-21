@@ -1,0 +1,1 @@
+The hidden states represent the learned features from each audio frame which can have varying lengths.

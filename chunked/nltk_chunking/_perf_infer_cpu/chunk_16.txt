@@ -1,0 +1,13 @@
+With the [Trainer] class, you can enable JIT mode for CPU inference by setting the --jit_mode_eval flag:
+
+python run_qa.py \
+--model_name_or_path csarron/bert-base-uncased-squad-v1 \
+--dataset_name squad \
+--do_eval \
+--max_seq_length 384 \
+--doc_stride 128 \
+--output_dir /tmp/ \
+--no_cuda \
+--jit_mode_eval
+
+For PyTorch >= 1.14.0, JIT-mode could benefit any model for prediction and evaluation since the dict input is supported in jit.trace.

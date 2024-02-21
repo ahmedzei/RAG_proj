@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Detection Transformer (DETR) directly transforms queries to unique objects by using one-to-one bipartite matching during training and enables end-to-end object detection.

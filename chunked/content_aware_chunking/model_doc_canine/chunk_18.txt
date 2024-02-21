@@ -1,0 +1,2 @@
+Classification can be done by placing a linear layer on top of the final hidden state of the special [CLS] token
+  (which has a predefined Unicode code point).

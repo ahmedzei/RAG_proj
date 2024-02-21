@@ -1,0 +1,3 @@
+hostname1 slots=8
+hostname2 slots=8
+Then you can launch the training with the following command.

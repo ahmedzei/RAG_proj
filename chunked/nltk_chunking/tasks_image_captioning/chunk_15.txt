@@ -1,0 +1,11 @@
+thon
+def transforms(example_batch):
+    images = [x for x in example_batch["image"]]
+    captions = [x for x in example_batch["text"]]
+    inputs = processor(images=images, text=captions, padding="max_length")
+    inputs.update({"labels": inputs["input_ids"]})
+    return inputs
+train_ds.set_transform(transforms)
+test_ds.set_transform(transforms)
+
+With the dataset ready, you can now set up the model for fine-tuning.

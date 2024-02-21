@@ -1,0 +1,1 @@
+DeepSpeed offers several optimizers (Adam, AdamW, OneBitAdam, and LAMB) but you can also import other optimizers from PyTorch.

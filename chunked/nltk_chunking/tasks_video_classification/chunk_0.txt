@@ -1,0 +1,6 @@
+
+
+Before you begin, make sure you have all the necessary libraries installed:
+
+pip install -q pytorchvideo transformers evaluate
+You will use PyTorchVideo (dubbed pytorchvideo) to process and prepare the videos.

@@ -1,0 +1,1 @@
+You can potentially reduce memory usage up to 20x for larger sequence lengths.

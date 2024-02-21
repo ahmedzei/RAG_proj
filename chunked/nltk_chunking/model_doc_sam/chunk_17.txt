@@ -1,0 +1,1 @@
+Demo notebook for inference with MedSAM, a fine-tuned version of SAM on the medical domain.

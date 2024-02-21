@@ -1,0 +1,1 @@
+The classification head is a linear layer that accepts the encoder's hidden states.

@@ -1,0 +1,4 @@
+For instance
+python
+model = AutoModel.from_pretrained("google-bert/bert-base-cased")
+will create a model that is an instance of [BertModel].

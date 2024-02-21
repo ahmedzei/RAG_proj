@@ -1,0 +1,1 @@
+In this case, you'll need to truncate the sequence to a shorter length.

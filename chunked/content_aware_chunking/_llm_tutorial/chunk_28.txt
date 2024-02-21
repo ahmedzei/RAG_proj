@@ -1,0 +1,1 @@
+On the other hand, input-grounded tasks like audio transcription or translation benefit from greedy decoding.

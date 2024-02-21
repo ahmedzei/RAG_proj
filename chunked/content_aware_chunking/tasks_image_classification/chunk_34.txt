@@ -1,0 +1,1 @@
+Define the training hyperparameters, and set up an optimizer and a learning rate schedule.

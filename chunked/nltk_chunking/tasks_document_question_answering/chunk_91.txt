@@ -1,0 +1,1 @@
+In this case the output_dir will also be the name of the repo where your model checkpoint will be pushed.

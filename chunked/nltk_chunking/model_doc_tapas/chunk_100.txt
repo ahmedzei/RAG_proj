@@ -1,0 +1,2 @@
+In case your dataset involves conversational questions (such as in SQA), then you should first group together the queries, answer_coordinates and answer_text per table (in the order of their position
+index) and batch encode each table with its questions.

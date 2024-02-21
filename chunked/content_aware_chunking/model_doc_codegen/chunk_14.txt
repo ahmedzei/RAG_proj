@@ -1,0 +1,3 @@
+Checkpoint Naming
+
+CodeGen model checkpoints are available on different pre-training data with variable sizes.

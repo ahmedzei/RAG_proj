@@ -1,0 +1,2 @@
+I- indicates a token is contained inside the same entity (for example, the State token is a part of an entity like
+  Empire State Building).

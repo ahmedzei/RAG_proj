@@ -1,0 +1,3 @@
+ConvNeXT modernizes a CNN in five ways:
+
+Change the number of blocks in each stage and "patchify" an image with a larger stride and corresponding kernel size.

@@ -1,0 +1,8 @@
+GraphormerConfig
+[[autodoc]] GraphormerConfig
+GraphormerModel
+[[autodoc]] GraphormerModel
+    - forward
+GraphormerForGraphClassification
+[[autodoc]] GraphormerForGraphClassification
+    - forward

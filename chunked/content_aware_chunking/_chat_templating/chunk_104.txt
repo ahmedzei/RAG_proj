@@ -1,0 +1,2 @@
+You may find it easier to start with an 
+existing template from another model and simply edit it for your needs!

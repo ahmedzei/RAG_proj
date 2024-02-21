@@ -1,0 +1,3 @@
+Tips:
+
+The noise_sequence argument for [UnivNetModel.forward] should be standard Gaussian noise (such as from torch.randn) of shape ([batch_size], noise_length, model.config.model_in_channels), where noise_length should match the length dimension (dimension 1) of the input_features argument.

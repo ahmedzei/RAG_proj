@@ -1,0 +1,1 @@
+This new encoder's embeddings are passed to the pretrained encoder instead of the original word embeddings.

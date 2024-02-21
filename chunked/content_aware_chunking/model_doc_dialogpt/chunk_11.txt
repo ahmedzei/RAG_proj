@@ -1,0 +1,3 @@
+To cite the official paper: We
+follow the OpenAI GPT-2 to model a multiturn dialogue session as a long text and frame the generation task as language
+modeling.

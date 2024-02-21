@@ -1,0 +1,3 @@
+Registering a model with custom code to the auto classes
+If you are writing a library that extends 🤗 Transformers, you may want to extend the auto classes to include your own
+model.

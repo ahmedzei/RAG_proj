@@ -1,0 +1,1 @@
+Another way when the patterns are just different casings of the same replacement (with an uppercased and a lowercased variants) is just to add the option all-casing.

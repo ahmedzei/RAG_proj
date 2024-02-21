@@ -1,0 +1,4 @@
+
+MGP-STR
+Overview
+The MGP-STR model was proposed in Multi-Granularity Prediction for Scene Text Recognition by Peng Wang, Cheng Da, and Cong Yao.

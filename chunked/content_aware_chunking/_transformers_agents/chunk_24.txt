@@ -1,0 +1,4 @@
+py
+agent.run("Draw me a picture of the sea then transform the picture to add an island")
+
+Every [~Agent.run] operation is independent, so you can run it several times in a row with different tasks.

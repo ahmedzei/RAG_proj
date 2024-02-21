@@ -1,0 +1,1 @@
+However, state-of-the-art vision-language models do not perform well on these data.

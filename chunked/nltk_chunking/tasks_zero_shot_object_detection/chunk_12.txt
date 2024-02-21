@@ -1,0 +1,2 @@
+Here we'll use the image of astronaut Eileen Collins that is
+a part of the NASA Great Images dataset.

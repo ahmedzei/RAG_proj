@@ -1,0 +1,2 @@
+Translation
+Translation is another example of a sequence-to-sequence task, which means you can use an encoder-decoder model like BART or T5 to do it.

@@ -1,0 +1,8 @@
+DinatConfig
+[[autodoc]] DinatConfig
+DinatModel
+[[autodoc]] DinatModel
+    - forward
+DinatForImageClassification
+[[autodoc]] DinatForImageClassification
+    - forward

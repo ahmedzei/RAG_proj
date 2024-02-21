@@ -1,0 +1,1 @@
+With a modern NVMe, you can expect peak transfer speeds of ~3.5GB/s for read and ~3GB/s for write operations.

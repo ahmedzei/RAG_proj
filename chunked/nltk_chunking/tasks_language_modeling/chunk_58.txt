@@ -1,0 +1,6 @@
+Instantiate a pipeline for text generation with your model, and pass your text to it:
+
+from transformers import pipeline
+generator = pipeline("text-generation", model="username/my_awesome_eli5_clm-model")
+generator(prompt)
+[{'generated_text': "Somatic hypermutation allows the immune system to be able to effectively reverse the damage caused by an infection.\n\n\nThe damage caused by an infection is caused by the immune system's ability to perform its own self-correcting tasks."}]

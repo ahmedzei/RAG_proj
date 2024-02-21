@@ -1,0 +1,2 @@
+Therefore, when coding it's crucial to think 
+strategically about such temporary variables and sometimes to explicitly free those as soon as they are no longer needed.

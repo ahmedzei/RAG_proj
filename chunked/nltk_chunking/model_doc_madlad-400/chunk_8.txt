@@ -1,0 +1,1 @@
+This is a machine translation model that supports many low-resource languages, and that is competitive with models that are significantly larger.

@@ -1,0 +1,2 @@
+The second column shows the value of the absolute largest element, so if you have a closer look at the last few frames,
+the inputs and outputs were in the range of 1e4.

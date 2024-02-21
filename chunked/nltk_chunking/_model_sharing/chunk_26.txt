@@ -1,0 +1,5 @@
+trainer.push_to_hub()
+``
+</pt>
+<tf>
+Share a model to the Hub with [PushToHubCallback].

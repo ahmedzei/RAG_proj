@@ -1,0 +1,1 @@
+UL2 has the same architecture as T5v1.1 but uses the Gated-SiLU activation function instead of Gated-GELU.

@@ -1,0 +1,1 @@
+It's an image classification model, based on google/vit-base-patch16-224-in21k fine-tuned on beans dataset.

@@ -1,0 +1,4 @@
+Computer vision
+There are two ways to approach computer vision tasks:
+
+Split an image into a sequence of patches and process them in parallel with a Transformer.

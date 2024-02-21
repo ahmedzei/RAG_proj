@@ -1,0 +1,2 @@
+Each choice
+of semantics defines a task.

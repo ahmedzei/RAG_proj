@@ -1,0 +1,1 @@
+SigLIP evaluation results compared to CLIP.

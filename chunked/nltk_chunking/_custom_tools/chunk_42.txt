@@ -1,0 +1,2 @@
+Check the naming and description of the curated Transformers tools to better understand what name and 
+description a tool is expected to have.

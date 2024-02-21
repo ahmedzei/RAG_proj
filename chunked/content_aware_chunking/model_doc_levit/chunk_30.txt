@@ -1,0 +1,2 @@
+Note that one should use [LevitImageProcessor] in order to
+  prepare images for the model.

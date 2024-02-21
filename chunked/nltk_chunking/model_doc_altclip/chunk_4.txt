@@ -1,0 +1,3 @@
+Starting from the pretrained multimodal representation model CLIP released by OpenAI, we switched its text encoder with a pretrained 
+multilingual text encoder XLM-R, and aligned both languages and image representations by a two-stage training schema consisting of 
+teacher learning and contrastive learning.

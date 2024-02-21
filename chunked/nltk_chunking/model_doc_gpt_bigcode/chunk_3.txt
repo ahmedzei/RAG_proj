@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+The BigCode project is an open-scientific collaboration working on the responsible development of large language models for code.

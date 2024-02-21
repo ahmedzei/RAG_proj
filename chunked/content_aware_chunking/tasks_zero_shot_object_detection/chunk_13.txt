@@ -1,0 +1,8 @@
+import skimage
+import numpy as np
+from PIL import Image
+image = skimage.data.astronaut()
+image = Image.fromarray(np.uint8(image)).convert("RGB")
+image
+
+Pass the image and the candidate object labels to look for to the pipeline.

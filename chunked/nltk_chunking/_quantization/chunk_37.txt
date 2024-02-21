@@ -1,0 +1,1 @@
+"mlp": The names of the MLP layers you want to fuse into a single MLP layer in the order: (gate (dense, layer, post-attention) / up / down layers).

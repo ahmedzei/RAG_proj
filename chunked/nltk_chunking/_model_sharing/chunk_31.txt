@@ -1,0 +1,5 @@
+Specify your model name in push_to_hub:
+
+pt_model.push_to_hub("my-awesome-model")
+
+This creates a repository under your username with the model name my-awesome-model.

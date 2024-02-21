@@ -1,0 +1,1 @@
+One very useful trick is to pad batches of samples up to a multiple of a number like 32 or 64 tokens.

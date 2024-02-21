@@ -1,0 +1,2 @@
+The text input is concatenated in the front of the visual embeddings in the embedding
+layer, and is expected to be bound by [CLS] and a [SEP] tokens, as in BERT.

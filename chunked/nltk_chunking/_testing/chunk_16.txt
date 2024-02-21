@@ -1,0 +1,4 @@
+As mentioned earlier you can see what tests are contained inside the OptimizationTest class by running:
+
+pytest tests/test_optimization.py::OptimizationTest --collect-only -q
+You can run tests by keyword expressions.

@@ -1,0 +1,2 @@
+According to the abstract, MBART is a sequence-to-sequence denoising auto-encoder pretrained on large-scale monolingual
+corpora in many languages using the BART objective.

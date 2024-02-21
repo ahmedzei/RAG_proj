@@ -1,0 +1,2 @@
+The stereo versions generate 2 sets of codebooks, 1 for each channel (left/right), 
+and each set of codebooks is decoded independently through the audio compression model.

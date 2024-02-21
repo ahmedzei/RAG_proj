@@ -1,0 +1,2 @@
+Image processor
+An image processor processes vision inputs.

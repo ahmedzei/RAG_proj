@@ -1,0 +1,3 @@
+Note that the first
+newline after each block as well as any preceding whitespace before a block are ignored by default, using the 
+Jinja trim_blocks and lstrip_blocks flags.

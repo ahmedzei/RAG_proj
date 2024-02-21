@@ -1,0 +1,1 @@
+If you're not especially picky about contributing a specific model, you can filter by the New model label to see if there are any unclaimed model requests and work on it.

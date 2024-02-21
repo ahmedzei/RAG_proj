@@ -1,0 +1,1 @@
+To deploy, add --deepspeed ds_config.json to the [Trainer] command line.

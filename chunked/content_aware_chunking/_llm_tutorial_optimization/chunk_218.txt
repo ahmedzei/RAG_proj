@@ -1,0 +1,1 @@
+Making use of the key-value cache means that the \( \mathbf{QK}^T \) is essentially reduced to \( \mathbf{q}_c\mathbf{K}^T \) with \( \mathbf{q}_c \) being the query projection of the currently passed input token which is always just a single vector.

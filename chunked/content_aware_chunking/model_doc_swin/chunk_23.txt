@@ -1,0 +1,22 @@
+SwinConfig
+[[autodoc]] SwinConfig
+
+SwinModel
+[[autodoc]] SwinModel
+    - forward
+SwinForMaskedImageModeling
+[[autodoc]] SwinForMaskedImageModeling
+    - forward
+SwinForImageClassification
+[[autodoc]] transformers.SwinForImageClassification
+    - forward
+
+TFSwinModel
+[[autodoc]] TFSwinModel
+    - call
+TFSwinForMaskedImageModeling
+[[autodoc]] TFSwinForMaskedImageModeling
+    - call
+TFSwinForImageClassification
+[[autodoc]] transformers.TFSwinForImageClassification
+    - call

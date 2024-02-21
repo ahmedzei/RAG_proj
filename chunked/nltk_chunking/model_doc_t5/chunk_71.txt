@@ -1,0 +1,2 @@
+only padding up to the longest example in a
+batch) leads to very slow training on TPU.

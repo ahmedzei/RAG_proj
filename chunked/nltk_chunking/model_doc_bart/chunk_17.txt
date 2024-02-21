@@ -1,0 +1,2 @@
+[~generation.GenerationMixin.generate] should be used for conditional generation tasks like
+  summarization, see the example in that docstrings.

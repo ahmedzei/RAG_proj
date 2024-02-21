@@ -1,0 +1,9 @@
+To ensure that those
+tests are passing, run
+
+RUN_SLOW=1 pytest -sv tests/models/brand_new_bert/test_modeling_brand_new_bert.py::BrandNewBertModelIntegrationTests
+
+In case you are using Windows, you should replace RUN_SLOW=1 with SET RUN_SLOW=1
+
+Second, all features that are special to brand_new_bert should be tested additionally in a separate test under
+BrandNewBertModelTester/`BrandNewBertModelTest.

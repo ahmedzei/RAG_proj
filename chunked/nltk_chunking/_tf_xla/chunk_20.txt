@@ -1,0 +1,2 @@
+Gotchas to be aware of
+When you are executing an XLA-enabled function (like xla_generate() above) for the first time, it will internally try to infer the computation graph, which is time-consuming.

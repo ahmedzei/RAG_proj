@@ -1,0 +1,2 @@
+!pip install bitsandbytes
+We can then load models in 8-bit quantization by simply adding a load_in_8bit=True flag to from_pretrained.

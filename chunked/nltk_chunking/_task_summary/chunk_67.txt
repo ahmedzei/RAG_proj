@@ -1,0 +1,2 @@
+)
+[{'summary_text': ' The Transformer is the first sequence transduction model based entirely on attention .

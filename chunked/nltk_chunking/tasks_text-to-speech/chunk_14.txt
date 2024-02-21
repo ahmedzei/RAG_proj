@@ -1,0 +1,8 @@
+When prompted, enter your token to log in:
+
+from huggingface_hub import notebook_login
+notebook_login()
+
+Load the dataset
+VoxPopuli is a large-scale multilingual speech corpus consisting of 
+data sourced from 2009-2020 European Parliament event recordings.

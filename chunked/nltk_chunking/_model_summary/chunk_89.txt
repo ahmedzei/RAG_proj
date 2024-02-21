@@ -1,0 +1,1 @@
+CLIP takes a different approach and makes a pair prediction of (image, text) .

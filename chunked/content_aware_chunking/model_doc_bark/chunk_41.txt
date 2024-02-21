@@ -1,0 +1,5 @@
+inputs = processor("♪ Hello, my dog is cute ♪")
+audio_array = model.generate(**inputs)
+audio_array = audio_array.cpu().numpy().squeeze()
+
+The model can also produce nonverbal communications like laughing, sighing and crying.

@@ -1,0 +1,1 @@
+Gradients from each GPU are sent to GPU 0 and averaged.

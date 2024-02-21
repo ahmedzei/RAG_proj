@@ -1,0 +1,1 @@
+It replaces the recurrent layers most commonly used in encoder-decoder architectures with multi-headed self-attention .

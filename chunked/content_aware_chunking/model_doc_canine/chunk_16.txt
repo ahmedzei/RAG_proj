@@ -1,0 +1,1 @@
+CANINE uses a max sequence length of 2048 characters by default.

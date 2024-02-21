@@ -1,0 +1,1 @@
+One can use [ViTMAEForPreTraining] for this purpose.

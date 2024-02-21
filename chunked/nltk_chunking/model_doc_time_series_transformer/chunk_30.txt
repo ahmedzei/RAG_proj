@@ -1,0 +1,2 @@
+So the set-up of training is similar to a GPT model for language, except that there's no notion of decoder_start_token_id (we just use the last value
+of the context as initial input for the decoder).

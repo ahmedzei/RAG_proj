@@ -1,0 +1,1 @@
+This is relatively easy to implement in the proposed code since there is a single queue.

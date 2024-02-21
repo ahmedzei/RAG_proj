@@ -1,0 +1,2 @@
+self-attention
+Each element of the input finds out which other elements of the input they should attend to.

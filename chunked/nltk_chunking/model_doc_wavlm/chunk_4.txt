@@ -1,0 +1,2 @@
+WavLM is built based on the HuBERT framework, with an emphasis on both spoken content modeling and speaker identity
+preservation.

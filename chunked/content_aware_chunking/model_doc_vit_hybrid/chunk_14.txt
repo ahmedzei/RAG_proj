@@ -1,0 +1,11 @@
+ViTHybridConfig
+[[autodoc]] ViTHybridConfig
+ViTHybridImageProcessor
+[[autodoc]] ViTHybridImageProcessor
+    - preprocess
+ViTHybridModel
+[[autodoc]] ViTHybridModel
+    - forward
+ViTHybridForImageClassification
+[[autodoc]] ViTHybridForImageClassification
+    - forward

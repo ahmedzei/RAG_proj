@@ -1,0 +1,1 @@
+They follow the architecture described in Generating Long Sequences with Sparse Transformers, modified to support longer context length.

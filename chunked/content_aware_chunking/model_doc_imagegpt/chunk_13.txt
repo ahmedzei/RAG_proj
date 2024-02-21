@@ -1,0 +1,2 @@
+As the time- and memory requirements of the attention mechanism of Transformers scales quadratically in the sequence
+  length, the authors pre-trained ImageGPT on smaller input resolutions, such as 32x32 and 64x64.

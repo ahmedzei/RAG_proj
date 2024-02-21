@@ -1,0 +1,3 @@
+It's a
+bidirectional transformer pretrained using a combination of masked language modeling objective and next sentence
+prediction on a large corpus comprising the Toronto Book Corpus and Wikipedia.

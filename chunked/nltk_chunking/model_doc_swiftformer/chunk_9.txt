@@ -1,0 +1,1 @@
+Unlike previous state-of-the-art methods, our efficient formulation of self-attention enables its usage at all stages of the network.

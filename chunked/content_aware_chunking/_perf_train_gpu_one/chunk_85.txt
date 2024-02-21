@@ -1,0 +1,2 @@
+Instead, it keeps aggregated information 
+(sums of rolling averages row- and column-wise), significantly reducing its footprint.

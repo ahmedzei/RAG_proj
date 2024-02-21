@@ -1,0 +1,15 @@
+To disable output capturing and to get the stdout and stderr normally, use -s or --capture=no:
+
+pytest -s tests/utils/test_logging.py
+To send test results to JUnit format output:
+
+py.test tests --junitxml=result.xml
+Color control
+To have no color (e.g., yellow on white background is not readable):
+
+pytest --color=no tests/utils/test_logging.py
+Sending test report to online pastebin service
+Creating a URL for each test failure:
+
+pytest --pastebin=failed tests/utils/test_logging.py
+This will submit test run information to a remote Paste service and provide a URL for each failure.

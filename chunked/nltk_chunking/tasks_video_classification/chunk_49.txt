@@ -1,0 +1,9 @@
+video_tensor = video_tensor.permute(1, 0, 2, 3)
+     gif_filename = create_gif(video_tensor, gif_name)
+     return Image(filename=gif_filename)
+sample_video = next(iter(train_dataset))
+video_tensor = sample_video["video"]
+display_gif(video_tensor)
+
+Train the model
+Leverage Trainer from  🤗 Transformers for training the model.

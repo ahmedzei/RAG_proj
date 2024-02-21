@@ -1,0 +1,1 @@
+Our visual representation achieves strong performance when transferred to classification tasks such as ImageNet and VTAB.

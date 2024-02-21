@@ -1,0 +1,2 @@
+self-supervised learning
+A category of machine learning techniques in which a model creates its own learning objective from unlabeled data.

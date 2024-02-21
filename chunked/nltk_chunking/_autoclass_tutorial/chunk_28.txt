@@ -1,0 +1,1 @@
+This security risk is partially mitigated for public models hosted on the Hugging Face Hub, which are scanned for malware at each commit.

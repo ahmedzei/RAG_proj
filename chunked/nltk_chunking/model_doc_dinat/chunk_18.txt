@@ -1,0 +1,1 @@
+The reshaped_hidden_states have a shape of (batch, num_channels, height, width) rather than (batch_size, height, width, num_channels).

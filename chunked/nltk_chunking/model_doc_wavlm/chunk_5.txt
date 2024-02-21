@@ -1,0 +1,2 @@
+We first equip the Transformer structure with gated relative position bias to improve its capability on
+recognition tasks.

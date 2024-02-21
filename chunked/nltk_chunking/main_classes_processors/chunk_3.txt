@@ -1,0 +1,5 @@
+Those processors inherit from the following base class that implements the saving and loading functionality:
+[[autodoc]] ProcessorMixin
+Deprecated processors
+All processors follow the same architecture which is that of the
+[~data.processors.utils.DataProcessor].

@@ -1,0 +1,10 @@
+Example:
+thon
+import os
+from transformers.testing_utils import ExtendSysPath
+bindir = os.path.abspath(os.path.dirname(file))
+with ExtendSysPath(f"{bindir}/.."):
+    from test_trainer import TrainerIntegrationCommon  # noqa
+
+Skipping tests
+This is useful when a bug is found and a new test is written, yet the bug is not fixed yet.

@@ -1,0 +1,2 @@
+By conditioning an autoregressive model on the desired return (reward), past states, and actions, our 
+ Decision Transformer model can generate future actions that achieve the desired return.

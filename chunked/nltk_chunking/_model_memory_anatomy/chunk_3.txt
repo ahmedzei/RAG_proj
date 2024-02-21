@@ -1,0 +1,2 @@
+You might be familiar 
+with the nvidia-smi command in the terminal - this library allows to access the same information in Python directly.

@@ -1,0 +1,1 @@
+If your model is very similar to a model inside the library, you can re-use the same configuration as this model.

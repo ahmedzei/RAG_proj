@@ -1,0 +1,35 @@
+processor_output = processor(raw_speech=sample["array"], sampling_rate=sample["sampling_rate"], text=text, return_tensors="pt")
+generated_output = model.generate(**processor_output)
+
+ClvpConfig
+[[autodoc]] ClvpConfig
+    - from_sub_model_configs
+ClvpEncoderConfig
+[[autodoc]] ClvpEncoderConfig
+ClvpDecoderConfig
+[[autodoc]] ClvpDecoderConfig
+ClvpTokenizer
+[[autodoc]] ClvpTokenizer
+    - save_vocabulary
+ClvpFeatureExtractor
+[[autodoc]] ClvpFeatureExtractor
+    - call
+ClvpProcessor
+[[autodoc]] ClvpProcessor
+    - call
+    - decode
+    - batch_decode
+ClvpModelForConditionalGeneration
+[[autodoc]] ClvpModelForConditionalGeneration
+    - forward
+    - generate
+    - get_text_features
+    - get_speech_features
+ClvpForCausalLM
+[[autodoc]] ClvpForCausalLM
+ClvpModel
+[[autodoc]] ClvpModel
+ClvpEncoder
+[[autodoc]] ClvpEncoder
+ClvpDecoder
+[[autodoc]] ClvpDecoder

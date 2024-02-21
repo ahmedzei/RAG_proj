@@ -1,0 +1,3 @@
+Please refer to the
+SpeechEncoderDecoder class on how to combine Speech2Text2 with any speech encoder-only
+model.

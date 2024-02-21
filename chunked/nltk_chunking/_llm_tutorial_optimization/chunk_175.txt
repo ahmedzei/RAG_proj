@@ -1,0 +1,1 @@
+where each vector \( \mathbf{p}_i \) is computed as a sinusoidal function of its position \( i \) .

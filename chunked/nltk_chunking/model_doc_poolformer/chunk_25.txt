@@ -1,0 +1,14 @@
+PoolFormerConfig
+[[autodoc]] PoolFormerConfig
+PoolFormerFeatureExtractor
+[[autodoc]] PoolFormerFeatureExtractor
+    - call
+PoolFormerImageProcessor
+[[autodoc]] PoolFormerImageProcessor
+    - preprocess
+PoolFormerModel
+[[autodoc]] PoolFormerModel
+    - forward
+PoolFormerForImageClassification
+[[autodoc]] PoolFormerForImageClassification
+    - forward

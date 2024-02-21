@@ -1,0 +1,1 @@
+- OSLO has the tensor parallelism implementation based on the Transformers.

@@ -1,0 +1,1 @@
+Note that "locally" and "globally" attending tokens are projected by different query, key and value matrices.

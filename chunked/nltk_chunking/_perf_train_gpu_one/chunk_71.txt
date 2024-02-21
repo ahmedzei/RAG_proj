@@ -1,0 +1,3 @@
+For additional information on tf32 vs other precisions, please refer to the following benchmarks: 
+RTX-3090 and
+A100.

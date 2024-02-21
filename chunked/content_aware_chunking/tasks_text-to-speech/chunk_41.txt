@@ -1,0 +1,2 @@
+With a total of 20,968 examples in the dataset, this information will give us a better understanding of the distribution of 
+speakers and examples in the data.

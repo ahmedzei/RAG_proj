@@ -1,0 +1,1 @@
+BigBirdPegasus uses the PegasusTokenizer.

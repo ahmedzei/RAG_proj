@@ -1,0 +1,2 @@
+If training on TPU, it is recommended to pad all examples of the dataset to the same length or make use of
+pad_to_multiple_of to have a small number of predefined bucket sizes to fit all examples in.

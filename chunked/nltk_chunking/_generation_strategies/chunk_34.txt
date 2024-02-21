@@ -1,0 +1,1 @@
+You can later instantiate them with [GenerationConfig.from_pretrained].

@@ -1,0 +1,1 @@
+The Model Hub's built-in versioning is based on git and git-lfs.

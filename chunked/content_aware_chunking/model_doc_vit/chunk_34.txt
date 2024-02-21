@@ -1,0 +1,1 @@
+The Vision Transformer was pre-trained using a resolution of 224x224.

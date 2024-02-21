@@ -1,0 +1,4 @@
+python
+def bytes_to_giga_bytes(bytes):
+  return bytes / 1024 / 1024 / 1024
+Let's call torch.cuda.max_memory_allocated to measure the peak GPU memory allocation.

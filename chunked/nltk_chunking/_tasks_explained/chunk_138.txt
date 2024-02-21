@@ -1,0 +1,1 @@
+BERT also adds a segment embedding to denote whether a token belongs to the first or second sentence in a pair of sentences.

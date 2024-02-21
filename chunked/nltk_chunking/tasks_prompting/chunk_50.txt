@@ -1,0 +1,2 @@
+You can choose to use encoder-decoder models for this task, however, here,
+for the simplicity of the examples, we'll keep using Falcon-7b-instruct, which does a decent job.

@@ -1,0 +1,1 @@
+To be able to build batches, data collators may apply some processing (like padding).

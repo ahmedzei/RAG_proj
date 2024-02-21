@@ -1,0 +1,1 @@
+When using learned position embeddings, the LLM has to be trained on a fixed input length \( N \), which makes it difficult to extrapolate to an input length longer than what it was trained on.

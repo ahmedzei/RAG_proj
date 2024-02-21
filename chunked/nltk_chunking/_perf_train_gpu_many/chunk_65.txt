@@ -1,0 +1,1 @@
+In parallel, GPU1 gets another mini-batch - x1.

@@ -1,0 +1,9 @@
+The Wav2Vec2 tokenizer is only trained on uppercase characters so you'll need to make sure the text matches the tokenizer's vocabulary:
+
+def uppercase(example):
+     return {"transcription": example["transcription"].upper()}
+minds = minds.map(uppercase)
+
+Now create a preprocessing function that:
+
+Calls the audio column to load and resample the audio file.

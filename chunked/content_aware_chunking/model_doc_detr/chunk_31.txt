@@ -1,0 +1,3 @@
+Next, standard cross-entropy (for
+the classes) and a linear combination of the L1 and generalized IoU loss (for the
+bounding boxes) are used to optimize the parameters of the model.

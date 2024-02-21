@@ -1,0 +1,4 @@
+The experimental results show that NEZHA
+achieves the state-of-the-art performances when finetuned on several representative Chinese tasks, including
+named entity recognition (People's Daily NER), sentence matching (LCQMC), Chinese sentiment classification (ChnSenti)
+and natural language inference (XNLI).

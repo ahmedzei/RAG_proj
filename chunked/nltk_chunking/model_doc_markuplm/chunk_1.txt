@@ -1,0 +1,2 @@
+MarkupLM is BERT, but
+applied to HTML pages instead of raw text documents.

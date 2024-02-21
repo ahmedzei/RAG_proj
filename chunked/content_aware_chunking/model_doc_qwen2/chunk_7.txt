@@ -1,0 +1,1 @@
+Note that we have used the ChatML format for dialog, in this demo we show how to leverage apply_chat_template for this purpose.

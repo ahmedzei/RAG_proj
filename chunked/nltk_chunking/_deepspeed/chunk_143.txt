@@ -1,0 +1,1 @@
+This is especially the case with bf16 which has a lower precision than fp16.

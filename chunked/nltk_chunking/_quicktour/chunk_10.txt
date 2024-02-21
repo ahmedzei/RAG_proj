@@ -1,0 +1,6 @@
+for result in results:
+     print(f"label: {result['label']}, with score: {round(result['score'], 4)}")
+label: POSITIVE, with score: 0.9998
+label: NEGATIVE, with score: 0.5309
+
+The [pipeline] can also iterate over an entire dataset for any task you like.

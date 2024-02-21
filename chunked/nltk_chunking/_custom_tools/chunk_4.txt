@@ -1,0 +1,8 @@
+In this guide we'll take a look at:
+
+How to customize the prompt
+How to use custom tools
+How to create custom tools
+
+Customizing the prompt
+As explained in Transformers Agents agents can run in [~Agent.run] and [~Agent.chat] mode.

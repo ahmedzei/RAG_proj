@@ -1,0 +1,3 @@
+answer = image_qa(image=image, question=translated_question)
+print(f"The answer is {answer}")
+Task: "Identify the oldest person in the document and create an image showcasing the result as a banner."

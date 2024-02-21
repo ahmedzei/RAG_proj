@@ -1,0 +1,1 @@
+The [Trainer] is set to logging.INFO by default which reports errors, warnings, and other basic information.

@@ -1,0 +1,5 @@
+audio = feature_extractor.batch_decode(**audio)[0]
+Convert to wav file
+write("sample_audio.wav", feature_extractor.sampling_rate, audio)
+
+This model was contributed by dg845.

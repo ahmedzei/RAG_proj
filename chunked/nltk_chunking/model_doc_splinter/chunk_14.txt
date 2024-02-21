@@ -1,0 +1,2 @@
+Also, its default behavior is to use this token when two sequences are given (for
+  example, in the run_qa.py script).

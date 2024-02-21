@@ -1,0 +1,1 @@
+Feel free to work in whichever direction you prefer (starting with the most memory efficient or fastest) to discover the appropriate balance between speed and memory usage.

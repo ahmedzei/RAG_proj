@@ -1,0 +1,2 @@
+By using stride = 512 and thereby employing our striding window
+strategy, this jumps down to 16.45.

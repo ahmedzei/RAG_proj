@@ -1,0 +1,2 @@
+Note that you can still use your own parsing solution of
+choice, and provide the nodes and xpaths yourself to [MarkupLMTokenizer] or [MarkupLMTokenizerFast].

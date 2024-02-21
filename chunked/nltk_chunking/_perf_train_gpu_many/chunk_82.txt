@@ -1,0 +1,1 @@
+As data flows through these layers, it is moved to the same GPU as the layer, while the other layers remain untouched.

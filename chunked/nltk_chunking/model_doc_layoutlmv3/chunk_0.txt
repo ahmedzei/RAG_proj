@@ -1,0 +1,4 @@
+
+LayoutLMv3
+Overview
+The LayoutLMv3 model was proposed in LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking by Yupan Huang, Tengchao Lv, Lei Cui, Yutong Lu, Furu Wei.

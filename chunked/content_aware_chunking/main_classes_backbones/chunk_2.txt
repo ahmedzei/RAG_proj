@@ -1,0 +1,1 @@
+[~utils.BackboneConfigMixin] sets the output features and indices of the backbone configuration.

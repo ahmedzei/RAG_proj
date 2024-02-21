@@ -1,0 +1,1 @@
+The language embedding is a tensor filled with 0 since that is the language id for English.

@@ -1,0 +1,7 @@
+To export a 🤗 Transformers model to ONNX with tranformers.onnx, install extra dependencies:
+
+pip install transformers[onnx]
+Use transformers.onnx package as a Python module to export a checkpoint using a ready-made configuration:
+
+python -m transformers.onnx --model=distilbert/distilbert-base-uncased onnx/
+This exports an ONNX graph of the checkpoint defined by the --model argument.

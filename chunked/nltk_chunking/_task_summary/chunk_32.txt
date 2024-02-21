@@ -1,0 +1,1 @@
+Segmentation can detect objects at a pixel-level.

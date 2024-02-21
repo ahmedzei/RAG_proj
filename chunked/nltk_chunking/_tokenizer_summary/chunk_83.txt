@@ -1,0 +1,3 @@
+For instance,
+the word "bug" would be tokenized to ["b", "ug"] but "mug" would be tokenized as ["<unk>", "ug"] since
+the symbol "m" is not in the base vocabulary.

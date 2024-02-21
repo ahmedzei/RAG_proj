@@ -1,0 +1,1 @@
+You can change the logging level with the log_level and log_level_replica parameters in [TrainingArguments].

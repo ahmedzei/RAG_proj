@@ -1,0 +1,2 @@
+In the following example, we show how to do this using the default [Wav2Vec2Model] configuration for the encoder
+and the default [BertForCausalLM] configuration for the decoder.

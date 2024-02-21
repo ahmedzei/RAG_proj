@@ -1,0 +1,2 @@
+This allows computation to proceed much faster while still giving the model a large context to make
+predictions at each step.

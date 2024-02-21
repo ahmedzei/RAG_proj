@@ -1,0 +1,3 @@
+
+Image Processor
+An image processor is in charge of preparing input features for vision models and post processing their outputs.

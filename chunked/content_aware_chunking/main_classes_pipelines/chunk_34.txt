@@ -1,0 +1,2 @@
+If your sequence_length is super regular, then batching is more likely to be VERY interesting, measure and push
+    it until you get OOMs.

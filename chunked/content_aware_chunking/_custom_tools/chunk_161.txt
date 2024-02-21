@@ -1,0 +1,12 @@
+Having the agent use the tool
+We now have our tool that lives on the Hub which can be instantiated as such (change the user name for your tool):
+thon
+from transformers import load_tool
+tool = load_tool("lysandre/hf-model-downloads")
+
+In order to use it in the agent, simply pass it in the additional_tools parameter of the agent initialization method:
+thon
+from transformers import HfAgent
+agent = HfAgent("https://api-inference.huggingface.co/models/bigcode/starcoder", additional_tools=[tool])
+agent.run(
+    "Can you read out loud the name of the model that has the most downloads in the 'text-to-video' task on the Hugging Face Hub?"

@@ -1,0 +1,1 @@
+If you had a 224x224 pixel image, you could split it into 196 16x16 image patches.

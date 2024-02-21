@@ -1,0 +1,2 @@
+In order to specify that you'd like to translate from a different language,
+you should specify the BCP-47 code in the src_lang keyword argument of the tokenizer initialization.

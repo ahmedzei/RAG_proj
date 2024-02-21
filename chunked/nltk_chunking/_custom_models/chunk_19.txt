@@ -1,0 +1,2 @@
+Defining a model_type for your configuration (here model_type="resnet") is not mandatory, unless you want to
+register your model with the auto classes (see last section).

@@ -1,0 +1,2 @@
+Important to note is that the visual backbone expects BGR channels instead of RGB, as all models
+  in Detectron2 are pre-trained using the BGR format.

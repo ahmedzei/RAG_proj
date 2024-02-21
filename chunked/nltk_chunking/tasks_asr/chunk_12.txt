@@ -1,0 +1,1 @@
+It'll also dynamically pad your text and labels to the length of the longest element in its batch (instead of the entire dataset) so they are a uniform length.

@@ -1,0 +1,1 @@
+They found that intermediate pre-training further improves performance on SQA, achieving a new state-of-the-art as well as state-of-the-art on TabFact, a large-scale dataset with 16k Wikipedia tables for table entailment (a binary classification task).

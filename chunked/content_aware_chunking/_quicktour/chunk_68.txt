@@ -1,0 +1,1 @@
+To customize something like the loss function, you need to subclass the [Trainer] instead.

@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+While existing large vision-language multimodal models focus on whole image understanding, there is a prominent gap in achieving region-specific comprehension.

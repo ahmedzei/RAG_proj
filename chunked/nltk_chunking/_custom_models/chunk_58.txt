@@ -1,0 +1,3 @@
+Using a model with custom code
+You can use any configuration, model or tokenizer with custom code files in its repository with the auto-classes and
+the from_pretrained method.

@@ -1,0 +1,3 @@
+The [Speech2TextProcessor] wraps [Speech2TextFeatureExtractor] and
+[Speech2TextTokenizer] into a single instance to both extract the input features and decode the
+predicted token ids.

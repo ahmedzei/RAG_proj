@@ -1,0 +1,4 @@
+Next prepare your environment
+
+Fork the repository by clicking on the ‘Fork' button on the
+   repository's page.

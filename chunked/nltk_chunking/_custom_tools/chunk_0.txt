@@ -1,0 +1,5 @@
+
+Custom Tools and Prompts
+
+If you are not aware of what tools and agents are in the context of transformers, we recommend you read the
+Transformers Agents page first.

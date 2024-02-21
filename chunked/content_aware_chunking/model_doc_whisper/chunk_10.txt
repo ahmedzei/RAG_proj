@@ -1,0 +1,1 @@
+One can use [WhisperProcessor] to prepare audio for the model, and decode the predicted ID's back into text.

@@ -1,0 +1,40 @@
+Documentation resources
+- Text classification task guide
+- Question answering task guide
+- Causal language modeling task guide
+GPTJConfig
+[[autodoc]] GPTJConfig
+    - all
+
+GPTJModel
+[[autodoc]] GPTJModel
+    - forward
+GPTJForCausalLM
+[[autodoc]] GPTJForCausalLM
+    - forward
+GPTJForSequenceClassification
+[[autodoc]] GPTJForSequenceClassification
+    - forward
+GPTJForQuestionAnswering
+[[autodoc]] GPTJForQuestionAnswering
+    - forward
+
+TFGPTJModel
+[[autodoc]] TFGPTJModel
+    - call
+TFGPTJForCausalLM
+[[autodoc]] TFGPTJForCausalLM
+    - call
+TFGPTJForSequenceClassification
+[[autodoc]] TFGPTJForSequenceClassification
+    - call
+TFGPTJForQuestionAnswering
+[[autodoc]] TFGPTJForQuestionAnswering
+    - call
+
+FlaxGPTJModel
+[[autodoc]] FlaxGPTJModel
+    - call
+FlaxGPTJForCausalLM
+[[autodoc]] FlaxGPTJForCausalLM
+    - call

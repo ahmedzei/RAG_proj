@@ -1,0 +1,1 @@
+For auto-regressive decoding, the required memory bandwidth for the constant reloading can become a serious time bottleneck.

@@ -1,0 +1,2 @@
+It's a sub-class of
+unittest.TestCase, so we can easily inherit from it in the test modules.

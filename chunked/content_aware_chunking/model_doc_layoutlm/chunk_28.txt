@@ -1,0 +1,28 @@
+LayoutLMConfig
+[[autodoc]] LayoutLMConfig
+LayoutLMTokenizer
+[[autodoc]] LayoutLMTokenizer
+LayoutLMTokenizerFast
+[[autodoc]] LayoutLMTokenizerFast
+
+LayoutLMModel
+[[autodoc]] LayoutLMModel
+LayoutLMForMaskedLM
+[[autodoc]] LayoutLMForMaskedLM
+LayoutLMForSequenceClassification
+[[autodoc]] LayoutLMForSequenceClassification
+LayoutLMForTokenClassification
+[[autodoc]] LayoutLMForTokenClassification
+LayoutLMForQuestionAnswering
+[[autodoc]] LayoutLMForQuestionAnswering
+
+TFLayoutLMModel
+[[autodoc]] TFLayoutLMModel
+TFLayoutLMForMaskedLM
+[[autodoc]] TFLayoutLMForMaskedLM
+TFLayoutLMForSequenceClassification
+[[autodoc]] TFLayoutLMForSequenceClassification
+TFLayoutLMForTokenClassification
+[[autodoc]] TFLayoutLMForTokenClassification
+TFLayoutLMForQuestionAnswering
+[[autodoc]] TFLayoutLMForQuestionAnswering

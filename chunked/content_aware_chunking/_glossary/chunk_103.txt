@@ -1,0 +1,3 @@
+position IDs
+Contrary to RNNs that have the position of each token embedded within them, transformers are unaware of the position of
+each token.

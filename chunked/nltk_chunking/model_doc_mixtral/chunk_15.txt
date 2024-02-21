@@ -1,0 +1,1 @@
+They also provide an instruction fine-tuned model: mistralai/Mixtral-8x7B-v0.1 which can be used for chat-based inference.

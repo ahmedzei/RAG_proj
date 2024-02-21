@@ -1,0 +1,1 @@
+Sequence-to-sequence model with an encoder and a decoder.

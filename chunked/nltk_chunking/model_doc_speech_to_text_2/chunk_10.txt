@@ -1,0 +1,2 @@
+The [Wav2Vec2FeatureExtractor] class is responsible for preprocessing the input speech and
+[Speech2Text2Tokenizer] decodes the generated target tokens to the target string.

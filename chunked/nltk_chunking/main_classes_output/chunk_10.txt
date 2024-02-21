@@ -1,0 +1,4 @@
+Here for instance, it has two elements, loss then logits, so
+python
+outputs[:2]
+will return the tuple (outputs.loss, outputs.logits) for instance.

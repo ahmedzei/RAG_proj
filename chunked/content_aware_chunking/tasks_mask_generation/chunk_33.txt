@@ -1,0 +1,10 @@
+thon
+import matplotlib.patches as patches
+fig, ax = plt.subplots()
+ax.imshow(image)
+rectangle = patches.Rectangle((2350, 1600, 500, 500, linewidth=2, edgecolor='r', facecolor='none')
+ax.add_patch(rectangle)
+ax.axis("off")
+plt.show()
+
+You can see the inference output below.

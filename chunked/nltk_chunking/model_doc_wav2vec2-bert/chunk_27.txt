@@ -1,0 +1,1 @@
+You can also adapt these notebooks on how to finetune a speech recognition model in English, and how to finetune a speech recognition model in any language.

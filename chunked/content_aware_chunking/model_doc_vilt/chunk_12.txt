@@ -1,0 +1,1 @@
+ViLT is a model that takes both pixel_values and input_ids as input.

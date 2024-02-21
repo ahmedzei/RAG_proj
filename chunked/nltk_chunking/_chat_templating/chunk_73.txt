@@ -1,0 +1,7 @@
+Let's see an example:
+thon
+from transformers import AutoTokenizer
+from datasets import Dataset
+tokenizer = AutoTokenizer.from_pretrained("HuggingFaceH4/zephyr-7b-beta")
+chat1 = [
+    {"role": "user", "content": "Which is bigger, the moon or the sun?

@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+Vision-and-language reasoning requires an understanding of visual concepts, language semantics, and, most importantly,
+the alignment and relationships between these two modalities.

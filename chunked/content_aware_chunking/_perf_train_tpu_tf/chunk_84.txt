@@ -1,0 +1,1 @@
+You can use padding="max_length" or padding="longest" when calling tokenizers to get them to output padded data.

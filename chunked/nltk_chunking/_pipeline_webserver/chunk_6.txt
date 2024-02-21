@@ -1,0 +1,2 @@
+Pipelines on the other hand (and mostly the underlying models)
+are not really great for parallelism; they take up a lot of RAM, so it's best to give them all the available resources when they are running or it's a compute-intensive job.

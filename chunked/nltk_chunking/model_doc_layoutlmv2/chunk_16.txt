@@ -1,0 +1,2 @@
+LayoutLMv2 uses Facebook AI's Detectron2 package for its visual
+  backbone.

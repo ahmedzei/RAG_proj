@@ -1,0 +1,1 @@
+A bottleneck layer shrinks the number of channels and then restores it because it is faster to do a 1x1 convolution, and you can increase the depth.

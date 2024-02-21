@@ -1,0 +1,1 @@
+Only labeling the first token of a given word.

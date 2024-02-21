@@ -1,0 +1,1 @@
+For example, modern ConvNets, represented by ConvNeXt, have demonstrated strong performance in various scenarios.

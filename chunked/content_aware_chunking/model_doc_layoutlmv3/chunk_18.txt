@@ -1,0 +1,1 @@
+Regarding usage of [LayoutLMv3Processor], we refer to the usage guide of its predecessor.

@@ -1,0 +1,1 @@
+However, compression unavoidably leads to artifacts and the loss of the original information, which may severely degrade the visual quality.

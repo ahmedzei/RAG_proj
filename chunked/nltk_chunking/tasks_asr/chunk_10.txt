@@ -1,0 +1,1 @@
+You can speed up map by increasing the number of processes with the num_proc parameter.

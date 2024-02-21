@@ -1,0 +1,1 @@
+ConvNeXT also makes several layer design changes that imitate Transformer models.

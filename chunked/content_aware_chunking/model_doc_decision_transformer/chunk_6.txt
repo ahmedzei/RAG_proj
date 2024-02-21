@@ -1,0 +1,3 @@
+Despite its simplicity, 
+ Decision Transformer matches or exceeds the performance of state-of-the-art model-free offline RL baselines on 
+ Atari, OpenAI Gym, and Key-to-Door tasks.

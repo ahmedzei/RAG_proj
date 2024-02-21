@@ -1,0 +1,3 @@
+pytorch_model.bin
+
+Run python zero_to_fp32.py -h for more usage details.

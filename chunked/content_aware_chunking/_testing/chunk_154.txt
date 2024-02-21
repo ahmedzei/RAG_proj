@@ -1,0 +1,2 @@
+Then the @slow tests can use large
+slow models to do qualitative testing.

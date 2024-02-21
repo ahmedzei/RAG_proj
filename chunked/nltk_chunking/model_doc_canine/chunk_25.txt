@@ -1,0 +1,36 @@
+encoding = tokenizer(inputs, padding="longest", truncation=True, return_tensors="pt")
+outputs = model(**encoding)  # forward pass
+pooled_output = outputs.pooler_output
+sequence_output = outputs.last_hidden_state
+
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Multiple choice task guide
+
+CanineConfig
+[[autodoc]] CanineConfig
+CanineTokenizer
+[[autodoc]] CanineTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+CANINE specific outputs
+[[autodoc]] models.canine.modeling_canine.CanineModelOutputWithPooling
+CanineModel
+[[autodoc]] CanineModel
+    - forward
+CanineForSequenceClassification
+[[autodoc]] CanineForSequenceClassification
+    - forward
+CanineForMultipleChoice
+[[autodoc]] CanineForMultipleChoice
+    - forward
+CanineForTokenClassification
+[[autodoc]] CanineForTokenClassification
+    - forward
+CanineForQuestionAnswering
+[[autodoc]] CanineForQuestionAnswering
+    - forward

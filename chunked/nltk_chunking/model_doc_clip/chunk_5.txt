@@ -1,0 +1,2 @@
+Learning directly from raw text about images is a promising alternative which leverages a
+much broader source of supervision.

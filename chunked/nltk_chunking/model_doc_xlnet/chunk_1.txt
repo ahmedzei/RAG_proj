@@ -1,0 +1,3 @@
+XLnet is an extension of the Transformer-XL model pre-trained using an autoregressive method to learn
+bidirectional contexts by maximizing the expected likelihood over all permutations of the input sequence factorization
+order.

@@ -1,0 +1,6 @@
+Before you begin, install 🤗 Datasets so you can load some datasets to experiment with:
+
+pip install datasets
+Natural Language Processing
+
+The main tool for preprocessing textual data is a tokenizer.

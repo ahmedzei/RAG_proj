@@ -1,0 +1,1 @@
+BORT uses the RoBERTa tokenizer instead of the BERT tokenizer, refer to RoBERTa's documentation page for the tokenizer's API reference as well as usage examples.

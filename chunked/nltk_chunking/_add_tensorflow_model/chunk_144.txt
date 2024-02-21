@@ -1,0 +1,2 @@
+You might even decide to open the
+model architecture code for the two frameworks, and find that they look identical.

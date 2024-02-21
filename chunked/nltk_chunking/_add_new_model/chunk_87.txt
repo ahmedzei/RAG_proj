@@ -1,0 +1,4 @@
+If that's the case make sure to install the Deep Learning framework you are working with
+(PyTorch, TensorFlow and/or Flax) then do:
+
+pip install -e ".

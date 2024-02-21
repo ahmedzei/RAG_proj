@@ -1,0 +1,1 @@
+This may cause images to be different sizes in a batch.

@@ -1,0 +1,1 @@
+For the 75B model, it's thus 145GB of RAM needed.

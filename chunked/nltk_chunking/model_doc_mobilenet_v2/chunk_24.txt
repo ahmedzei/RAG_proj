@@ -1,0 +1,1 @@
+For inputs that are larger than the recommended image size, this gives a pooled output that is larger than 1x1.

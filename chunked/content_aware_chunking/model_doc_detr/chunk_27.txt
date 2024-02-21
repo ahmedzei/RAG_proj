@@ -1,0 +1,2 @@
+The decoder updates these embeddings through multiple self-attention and encoder-decoder attention layers
+to output decoder_hidden_states of the same shape: (batch_size, num_queries, d_model).

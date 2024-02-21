@@ -1,0 +1,4 @@
+Audio
+
+Encoder[[audio-encoder]]
+Wav2Vec2 uses a Transformer encoder to learn speech representations directly from raw audio waveforms.

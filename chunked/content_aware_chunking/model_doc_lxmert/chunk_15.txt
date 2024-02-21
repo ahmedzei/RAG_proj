@@ -1,0 +1,2 @@
+The bidirectional cross-modality encoder attention only returns attention values when the language modality is used
+  as the input and the vision modality is used as the context vector.

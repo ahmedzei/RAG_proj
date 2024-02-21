@@ -1,0 +1,1 @@
+Randomly initializing EncoderDecoderModel from model configurations.

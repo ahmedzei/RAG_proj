@@ -1,0 +1,2 @@
+In case you want all wordpieces of a word to be labeled, you can
+initialize the tokenizer with only_label_first_subword set to False.

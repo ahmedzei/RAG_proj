@@ -1,0 +1,26 @@
+Resources
+
+Text classification task guide
+Question answering task guide
+Causal language modeling task guide
+Translation task guide
+Summarization task guide
+
+BigBirdPegasusConfig
+[[autodoc]] BigBirdPegasusConfig
+    - all
+BigBirdPegasusModel
+[[autodoc]] BigBirdPegasusModel
+    - forward
+BigBirdPegasusForConditionalGeneration
+[[autodoc]] BigBirdPegasusForConditionalGeneration
+    - forward
+BigBirdPegasusForSequenceClassification
+[[autodoc]] BigBirdPegasusForSequenceClassification
+    - forward
+BigBirdPegasusForQuestionAnswering
+[[autodoc]] BigBirdPegasusForQuestionAnswering
+    - forward
+BigBirdPegasusForCausalLM
+[[autodoc]] BigBirdPegasusForCausalLM
+    - forward

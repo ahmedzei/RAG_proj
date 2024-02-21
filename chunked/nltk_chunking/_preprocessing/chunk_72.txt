@@ -1,0 +1,2 @@
+These steps
+include but are not limited to resizing, normalizing, color channel correction, and converting images to tensors.

@@ -1,0 +1,1 @@
+All tests that need to do a training not specifically optimized to be fast should be set to slow.

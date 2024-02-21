@@ -1,0 +1,1 @@
+E.g., Transformer XL uses space and punctuation tokenization, resulting in a vocabulary size of 267,735!

@@ -1,0 +1,1 @@
+To this end, we propose several simple yet effective structural encoding methods to help Graphormer better model graph-structured data.

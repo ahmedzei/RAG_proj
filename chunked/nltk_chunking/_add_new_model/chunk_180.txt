@@ -1,0 +1,3 @@
+Make sure to add the
+   GitHub handle of some members of the Hugging Face team as reviewers, so that the Hugging Face team gets notified for
+   future changes.

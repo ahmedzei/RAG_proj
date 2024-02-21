@@ -1,0 +1,3 @@
+🤗
+In addition to the model file itself, you will also need to add the pointers to the model classes and related
+documentation pages.

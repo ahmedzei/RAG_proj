@@ -1,0 +1,2 @@
+Combining OPT and Flash Attention 2
+First, make sure to install the latest version of Flash Attention 2 to include the sliding window attention feature.

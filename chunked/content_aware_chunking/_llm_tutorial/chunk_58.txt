@@ -1,0 +1,4 @@
+Related libraries
+
+text-generation-inference, a production-ready server for LLMs;
+optimum, an extension of 🤗 Transformers that optimizes for specific hardware devices.

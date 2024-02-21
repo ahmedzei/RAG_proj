@@ -1,0 +1,3 @@
+For reference, check out NVIDIA's recommendation for input/output neuron counts and 
+batch size for 
+fully connected layers (which are involved in GEMMs (General Matrix Multiplications)).

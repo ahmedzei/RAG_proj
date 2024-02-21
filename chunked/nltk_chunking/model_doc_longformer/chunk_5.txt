@@ -1,0 +1,2 @@
+In
+contrast to most prior work, we also pretrain Longformer and finetune it on a variety of downstream tasks.

@@ -1,0 +1,1 @@
+To address this issue, we propose a simple yet effective Language-independent Layout Transformer (LiLT) for structured document understanding.

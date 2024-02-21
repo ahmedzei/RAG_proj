@@ -1,0 +1,2 @@
+pip install intel_extension_for_pytorch==<version_name> -f https://developer.intel.com/ipex-whl-stable-cpu
+You can check the latest versions in ipex-whl-stable-cpu if needed.

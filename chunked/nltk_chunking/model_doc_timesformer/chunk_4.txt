@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+We present a convolution-free approach to video classification built exclusively on self-attention over space and time.

@@ -1,0 +1,6 @@
+_ = model.generate(**inputs, streamer=streamer, max_new_tokens=20)
+An increasing sequence: one, two, three, four, five, six, seven, eight, nine, ten, eleven,
+
+Decoding strategies
+Certain combinations of the generate() parameters, and ultimately generation_config, can be used to enable specific
+decoding strategies.

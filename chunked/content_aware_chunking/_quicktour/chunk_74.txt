@@ -1,0 +1,4 @@
+model.fit(tf_dataset)  # doctest: +SKIP
+   
+
+What's next?

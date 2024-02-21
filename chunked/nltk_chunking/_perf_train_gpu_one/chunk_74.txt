@@ -1,0 +1,2 @@
+Optimizer choice
+The most common optimizer used to train transformer models is Adam or AdamW (Adam with weight decay).

@@ -1,0 +1,2 @@
+Encoder-decoder[[audio-encoder-decoder]]
+Speech2Text is a speech model designed for automatic speech recognition (ASR) and speech translation.

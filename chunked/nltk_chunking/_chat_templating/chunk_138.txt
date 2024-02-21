@@ -1,0 +1,2 @@
+If you have any chat models, you should set their tokenizer.chat_template attribute and test it using
+[~PreTrainedTokenizer.apply_chat_template], then push the updated tokenizer to the Hub.

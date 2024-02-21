@@ -1,0 +1,2 @@
+It can be used for visual question answering, multiple choice,
+visual reasoning and region-to-phrase correspondence tasks.

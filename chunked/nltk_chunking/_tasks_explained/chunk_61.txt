@@ -1,0 +1,1 @@
+It computes some features from it, such as a particular texture or curvature of a line.

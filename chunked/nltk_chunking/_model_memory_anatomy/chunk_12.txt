@@ -1,0 +1,2 @@
+To see how 
+much it is we load a tiny tensor into the GPU which triggers the kernels to be loaded as well.

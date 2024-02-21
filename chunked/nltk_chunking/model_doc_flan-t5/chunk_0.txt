@@ -1,0 +1,4 @@
+
+FLAN-T5
+Overview
+FLAN-T5 was released in the paper Scaling Instruction-Finetuned Language Models - it is an enhanced version of T5 that has been finetuned in a mixture of tasks.

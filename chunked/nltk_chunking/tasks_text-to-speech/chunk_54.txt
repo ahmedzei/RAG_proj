@@ -1,0 +1,2 @@
+While we believe that this model will still generate 
+reasonable speaker embeddings for our Dutch dataset, this assumption may not hold true in all cases.

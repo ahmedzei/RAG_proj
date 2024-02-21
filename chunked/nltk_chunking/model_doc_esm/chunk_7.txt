@@ -1,0 +1,5 @@
+Unlike AlphaFold2,
+it relies on the token embeddings from the large pre-trained protein language model stem and does not perform a multiple
+sequence alignment (MSA) step at inference time, which means that ESMFold checkpoints are fully "standalone" -
+they do not require a database of known protein sequences and structures with associated external query tools
+to make predictions, and are much faster as a result.

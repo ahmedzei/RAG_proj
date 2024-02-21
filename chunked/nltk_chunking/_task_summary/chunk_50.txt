@@ -1,0 +1,3 @@
+Two common types of token classification are:
+
+named entity recognition (NER): label a token according to an entity category like organization, person, location or date.

@@ -1,0 +1,2 @@
+This is very important to test future compatibility, meaning if someone adds a new model for
+XXXForQuestionAnswering then the pipeline test will attempt to run on it.

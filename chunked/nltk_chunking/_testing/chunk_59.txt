@@ -1,0 +1,1 @@
+Some tests must be run on CPU-only, others on either CPU or GPU or TPU, yet others on multiple-GPUs.

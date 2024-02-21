@@ -1,0 +1,1 @@
+The results should be the same as test_small_model_tf.

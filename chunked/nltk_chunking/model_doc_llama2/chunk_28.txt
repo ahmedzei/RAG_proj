@@ -1,0 +1,1 @@
+When using Trainer, it is simply specifying either fp16 or bf16 to True.

@@ -1,0 +1,1 @@
+Even though the checkpoint is trained on images of specific size, the model will work on images of any size.

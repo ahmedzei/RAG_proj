@@ -1,0 +1,2 @@
+We'll use the CoLA dataset from the GLUE benchmark,
+since it's a simple binary text classification task, and just take the training split for now.

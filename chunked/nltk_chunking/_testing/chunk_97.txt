@@ -1,0 +1,17 @@
+Here is the same example, this time using pytest's parametrize marker:
+thon
+test_this2.py
+import pytest
+@pytest.mark.parametrize(
+    "name, input, expected",
+    [
+        ("negative", -1.5, -2.0),
+        ("integer", 1, 1.0),
+        ("large fraction", 1.6, 1),
+    ],
+)
+def test_floor(name, input, expected):
+    assert_equal(math.floor(input), expected)
+
+Same as with parameterized, with pytest.mark.parametrize you can have a fine control over which sub-tests are
+run, if the -k filter doesn't do the job.

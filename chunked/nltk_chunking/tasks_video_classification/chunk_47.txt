@@ -1,0 +1,3 @@
+The video tensor is expected to have the following shape:
+     (num_frames, num_channels, height, width).
+     """

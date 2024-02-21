@@ -1,0 +1,3 @@
+The algorithm was outlined in Japanese and Korean
+Voice Search (Schuster et al., 2012) and is very similar to
+BPE.

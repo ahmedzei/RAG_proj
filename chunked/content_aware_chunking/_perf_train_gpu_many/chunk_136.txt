@@ -1,0 +1,2 @@
+Tensor Parallelism
+In Tensor Parallelism, each GPU processes a slice of a tensor and only aggregates the full tensor for operations requiring it.

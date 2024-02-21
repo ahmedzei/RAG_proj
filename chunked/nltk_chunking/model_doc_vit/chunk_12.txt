@@ -1,0 +1,2 @@
+There are 4 variants available (in 3 different sizes): facebook/deit-tiny-patch16-224,
+  facebook/deit-small-patch16-224, facebook/deit-base-patch16-224 and facebook/deit-base-patch16-384.

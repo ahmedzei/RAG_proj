@@ -1,0 +1,5 @@
+from accelerate import Accelerator
+accelerator = Accelerator()
+
+Prepare to accelerate
+The next step is to pass all the relevant training objects to the [~accelerate.Accelerator.prepare] method.

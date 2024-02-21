@@ -1,0 +1,15 @@
+If you want to try simply you can:
+
+Subclass your pipeline of choice
+
+thon
+class MyPipeline(TextClassificationPipeline):
+    def postprocess():
+        # Your code goes here
+        scores = scores * 100
+        # And here
+my_pipeline = MyPipeline(model=model, tokenizer=tokenizer, )
+or if you use pipeline function, then:
+my_pipeline = pipeline(model="xxxx", pipeline_class=MyPipeline)
+
+That should enable you to do all the custom code you want.

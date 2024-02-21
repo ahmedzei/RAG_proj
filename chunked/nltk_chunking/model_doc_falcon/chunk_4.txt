@@ -1,0 +1,2 @@
+Both 'base' models trained only as causal language models as well as
+'instruct' models that have received further fine-tuning are available.

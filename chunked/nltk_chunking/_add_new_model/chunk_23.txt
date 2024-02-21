@@ -1,0 +1,2 @@
+As a general rule, we want to make sure that a new model only depends on
+[PreTrainedModel].

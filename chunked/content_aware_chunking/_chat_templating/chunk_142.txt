@@ -1,0 +1,2 @@
+By ensuring that models have this attribute, we can make sure that the whole community gets to use the full power of
+open-source models.

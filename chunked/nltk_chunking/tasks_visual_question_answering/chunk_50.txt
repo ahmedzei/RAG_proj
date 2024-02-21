@@ -1,0 +1,8 @@
+trainer.train() 
+
+Once training is completed, share your model to the Hub with the [~Trainer.push_to_hub] method to share your final model on the 🤗 Hub:
+
+trainer.push_to_hub()
+
+Inference
+Now that you have fine-tuned a ViLT model, and uploaded it to the 🤗 Hub, you can use it for inference.

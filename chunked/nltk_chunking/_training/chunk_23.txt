@@ -1,0 +1,1 @@
+As you now know, you need a tokenizer to process the text and include a padding and truncation strategy to handle any variable sequence lengths.

@@ -1,0 +1,1 @@
+If you want to fine-tune SigLIP or train from scratch, refer to the loss function from OpenCLIP, which leverages various torch.distributed utilities.

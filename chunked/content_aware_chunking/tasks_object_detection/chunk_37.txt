@@ -1,0 +1,1 @@
+In the final step, create a custom collate_fn to batch images together.

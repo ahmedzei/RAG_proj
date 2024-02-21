@@ -1,0 +1,4 @@
+
+Wav2Vec2-Conformer
+Overview
+The Wav2Vec2-Conformer was added to an updated version of fairseq S2T: Fast Speech-to-Text Modeling with fairseq by Changhan Wang, Yun Tang, Xutai Ma, Anne Wu, Sravya Popuri, Dmytro Okhonko, Juan Pino.

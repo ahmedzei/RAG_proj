@@ -1,0 +1,1 @@
+From a high-level perspective, a convolution is an operation where a smaller matrix (kernel) is multiplied by a small window of the image pixels.

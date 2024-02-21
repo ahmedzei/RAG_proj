@@ -1,0 +1,1 @@
+If using MEGA as a decoder, be sure to set bidirectional=False to avoid errors with default bidirectional.

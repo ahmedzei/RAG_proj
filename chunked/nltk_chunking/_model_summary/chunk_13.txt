@@ -1,0 +1,1 @@
+ViT uses a standard Transformer encoder, but its main breakthrough was how it treated an image.

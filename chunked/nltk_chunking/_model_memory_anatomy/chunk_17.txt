@@ -1,0 +1,2 @@
+We load the model weights directly to the GPU so that we can check 
+how much space just the weights use.

@@ -1,0 +1,1 @@
+The model parameters are frozen in this first step, and all the model parameters are trained together in the second step.

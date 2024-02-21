@@ -1,0 +1,2 @@
+It combines CLIP with
+lightweight object classification and localization heads.

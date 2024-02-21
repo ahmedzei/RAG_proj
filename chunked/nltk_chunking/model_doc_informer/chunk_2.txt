@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Many real-world applications require the prediction of long sequence time-series, such as electricity consumption planning.

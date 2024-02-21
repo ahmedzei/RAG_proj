@@ -1,0 +1,2 @@
+To address this limitation, we propose Nyströmformer -- a model that exhibits favorable scalability as a
+function of sequence length.

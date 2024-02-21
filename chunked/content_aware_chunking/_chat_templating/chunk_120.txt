@@ -1,0 +1,4 @@
+Even when
+the class template is appropriate for your model, we strongly recommend overriding the default template by
+setting the chat_template attribute explicitly to make it clear to users that your model has been correctly configured
+for chat, and to future-proof in case the default templates are ever altered or deprecated.

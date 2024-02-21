@@ -1,0 +1,1 @@
+Quantization reduces your model size compared to its native full precision version, making it easier to fit large models onto GPUs with limited memory.

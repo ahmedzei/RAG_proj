@@ -1,0 +1,1 @@
+(Note that [UnivNetFeatureExtractor] will return generated noise by default, so it shouldn't be necessary to generate noise_sequence manually.)

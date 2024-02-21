@@ -1,0 +1,2 @@
+This hierarchical architecture has the flexibility to model at
+various scales and has linear computational complexity with respect to image size.

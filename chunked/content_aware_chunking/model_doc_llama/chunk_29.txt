@@ -1,0 +1,3 @@
+🌎
+🚀 Deploy
+- A notebook on how to fine-tune LLaMA model using LoRA method via the 🤗 PEFT library with intuitive UI.

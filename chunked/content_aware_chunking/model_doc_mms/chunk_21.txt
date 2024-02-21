@@ -1,0 +1,20 @@
+from datasets import load_dataset, Audio
+English
+stream_data = load_dataset("mozilla-foundation/common_voice_13_0", "en", split="test", streaming=True)
+stream_data = stream_data.cast_column("audio", Audio(sampling_rate=16000))
+en_sample = next(iter(stream_data))["audio"]["array"]
+French
+stream_data = load_dataset("mozilla-foundation/common_voice_13_0", "fr", split="test", streaming=True)
+stream_data = stream_data.cast_column("audio", Audio(sampling_rate=16000))
+fr_sample = next(iter(stream_data))["audio"]["array"]
+
+Next, we load the model and processor
+
+from transformers import Wav2Vec2ForCTC, AutoProcessor
+import torch
+model_id = "facebook/mms-1b-all"
+processor = AutoProcessor.from_pretrained(model_id)
+model = Wav2Vec2ForCTC.from_pretrained(model_id)
+
+Now we process the audio data, pass the processed audio data to the model and transcribe the model output,
+just like we usually do for [Wav2Vec2ForCTC].

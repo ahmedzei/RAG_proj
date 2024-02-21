@@ -1,0 +1,3 @@
+Slow tests
+The library of tests is ever-growing, and some of the tests take minutes to run, therefore we can't afford waiting for
+an hour for the test suite to complete on CI.

@@ -1,0 +1,60 @@
+Documentation resources
+
+Text classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Translation task guide
+Summarization task guide
+
+MBartConfig
+[[autodoc]] MBartConfig
+MBartTokenizer
+[[autodoc]] MBartTokenizer
+    - build_inputs_with_special_tokens
+MBartTokenizerFast
+[[autodoc]] MBartTokenizerFast
+MBart50Tokenizer
+[[autodoc]] MBart50Tokenizer
+MBart50TokenizerFast
+[[autodoc]] MBart50TokenizerFast
+
+MBartModel
+[[autodoc]] MBartModel
+MBartForConditionalGeneration
+[[autodoc]] MBartForConditionalGeneration
+MBartForQuestionAnswering
+[[autodoc]] MBartForQuestionAnswering
+MBartForSequenceClassification
+[[autodoc]] MBartForSequenceClassification
+MBartForCausalLM
+[[autodoc]] MBartForCausalLM
+    - forward
+
+TFMBartModel
+[[autodoc]] TFMBartModel
+    - call
+TFMBartForConditionalGeneration
+[[autodoc]] TFMBartForConditionalGeneration
+    - call
+
+FlaxMBartModel
+[[autodoc]] FlaxMBartModel
+    - call
+    - encode
+    - decode
+FlaxMBartForConditionalGeneration
+[[autodoc]] FlaxMBartForConditionalGeneration
+    - call
+    - encode
+    - decode
+FlaxMBartForSequenceClassification
+[[autodoc]] FlaxMBartForSequenceClassification
+    - call
+    - encode
+    - decode
+FlaxMBartForQuestionAnswering
+[[autodoc]] FlaxMBartForQuestionAnswering
+    - call
+    - encode
+    - decode

@@ -1,0 +1,1 @@
+For example, let's define where to save the model in output_dir and push the model to the Hub after training with push_to_hub=True.

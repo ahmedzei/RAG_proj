@@ -1,0 +1,2 @@
+The authors
+also add absolute position embeddings, and feed the resulting sequence of vectors to a standard Transformer encoder.

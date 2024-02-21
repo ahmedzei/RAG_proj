@@ -1,0 +1,4 @@
+
+Preprocess
+[[open-in-colab]]
+Before you can train a model on a dataset, it needs to be preprocessed into the expected model input format.

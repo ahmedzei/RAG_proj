@@ -1,0 +1,12 @@
+This library hosts a processor for each of the two versions:
+Processors
+Those processors are:
+
+[~data.processors.utils.SquadV1Processor]
+[~data.processors.utils.SquadV2Processor]
+
+They both inherit from the abstract class [~data.processors.utils.SquadProcessor]
+[[autodoc]] data.processors.squad.SquadProcessor
+    - all
+Additionally, the following method can be used to convert SQuAD examples into
+[~data.processors.utils.SquadFeatures] that can be used as model inputs.

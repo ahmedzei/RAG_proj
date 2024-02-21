@@ -1,0 +1,1 @@
+Notice how the entire chat is condensed into a single string.

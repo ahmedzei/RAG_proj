@@ -1,0 +1,3 @@
+Customizing the whole prompt
+To give the user maximum flexibility, the whole prompt template as explained in above
+can be overwritten by the user.

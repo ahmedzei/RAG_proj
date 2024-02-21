@@ -1,0 +1,8 @@
+MQA has seen wide adoption by the community and is now used by many of the most popular LLMs:
+
+Falcon
+PaLM
+MPT
+BLOOM
+
+Also, the checkpoint used in this notebook - bigcode/octocoder - makes use of MQA.

@@ -1,0 +1,1 @@
+ViTMatte leverages plain Vision Transformers for the task of image matting, which is the process of accurately estimating the foreground object in images and videos.

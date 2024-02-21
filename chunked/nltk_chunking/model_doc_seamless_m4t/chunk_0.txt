@@ -1,0 +1,4 @@
+
+SeamlessM4T
+Overview
+The SeamlessM4T model was proposed in SeamlessM4T — Massively Multilingual & Multimodal Machine Translation by the Seamless Communication team from Meta AI.

@@ -1,0 +1,25 @@
+Save a model
+
+Once your model is fine-tuned, you can save it with its tokenizer using [PreTrainedModel.save_pretrained]:
+
+pt_save_directory = "./pt_save_pretrained"
+tokenizer.save_pretrained(pt_save_directory)  # doctest: +IGNORE_RESULT
+pt_model.save_pretrained(pt_save_directory)
+
+When you are ready to use the model again, reload it with [PreTrainedModel.from_pretrained]:
+
+pt_model = AutoModelForSequenceClassification.from_pretrained("./pt_save_pretrained")
+``
+</pt>
+<tf>
+Once your model is fine-tuned, you can save it with its tokenizer using [TFPreTrainedModel.save_pretrained`]:
+
+tf_save_directory = "./tf_save_pretrained"
+tokenizer.save_pretrained(tf_save_directory)  # doctest: +IGNORE_RESULT
+tf_model.save_pretrained(tf_save_directory)
+
+When you are ready to use the model again, reload it with [TFPreTrainedModel.from_pretrained]:
+
+tf_model = TFAutoModelForSequenceClassification.from_pretrained("./tf_save_pretrained")
+
+One particularly cool 🤗 Transformers feature is the ability to save a model and reload it as either a PyTorch or TensorFlow model.

@@ -1,0 +1,1 @@
+All you really need to change in your code is to add a few lines to initialize your TPU, and to ensure that your model and dataset are created inside a TPUStrategy scope.

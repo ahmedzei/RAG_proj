@@ -1,0 +1,2 @@
+GPT-2 is trained with a simple objective: predict the next word, given all of the previous words within some
+text.

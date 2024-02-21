@@ -1,0 +1,2 @@
+Usage in Trainer
+To enable auto mixed precision with IPEX in Trainer, users should add use_ipex, bf16 and no_cuda in training command arguments.

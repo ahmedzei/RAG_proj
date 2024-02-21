@@ -1,0 +1,1 @@
+You can access a model's pad_token_id to see its value.

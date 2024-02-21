@@ -1,0 +1,9 @@
+)
+inputs = ["text"]
+outputs = ["text"]
+
+def __call__(self, task: str):
+    model = next(iter(list_models(filter=task, sort="downloads", direction=-1)))
+    return model.id
+
+We now have our tool handy.

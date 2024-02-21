@@ -1,0 +1,2 @@
+In prompting mode, the model only returns the mask over the object 
+that the prompt is pointing out.

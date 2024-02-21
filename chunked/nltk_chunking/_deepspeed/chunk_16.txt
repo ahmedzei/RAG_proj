@@ -1,0 +1,1 @@
+If you have enough GPU memory make sure you disable CPU/NVMe offload to make everything faster.

@@ -1,0 +1,1 @@
+Then we introduce a dimension-consistent pure transformer (without MobileNet blocks) as a design paradigm.

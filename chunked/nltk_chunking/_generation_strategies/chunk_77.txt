@@ -1,0 +1,4 @@
+Each design principle serves as a tool that allows us to integrate all "
+     "the separate parts of a design, referred to as elements, into a functional, synergistic, "
+     "whole system, where the elements harmoniously interact and work together in the most "
+     "efficient way possible."

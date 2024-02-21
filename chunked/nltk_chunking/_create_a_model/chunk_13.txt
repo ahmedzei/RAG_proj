@@ -1,0 +1,1 @@
+These attributes specify the number of attention heads or hidden layers to construct a model with.

@@ -1,0 +1,9 @@
+Preprocess
+The next step is to load a BERT tokenizer to process the sentence starts and the four possible endings:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-uncased")
+
+The preprocessing function you want to create needs to:
+
+Make four copies of the sent1 field and combine each of them with sent2 to recreate how a sentence starts.

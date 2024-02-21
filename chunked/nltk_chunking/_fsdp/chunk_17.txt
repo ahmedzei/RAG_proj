@@ -1,0 +1,1 @@
+Otherwise, you can choose a size-based wrapping policy where FSDP is applied to a layer if it exceeds a certain number of parameters.

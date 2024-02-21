@@ -1,0 +1,1 @@
+One-letter variable names are strongly discouraged unless it's an index in a for loop.

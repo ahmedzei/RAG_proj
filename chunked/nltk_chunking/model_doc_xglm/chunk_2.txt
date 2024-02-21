@@ -1,0 +1,2 @@
+While these models are known to be able to jointly represent many different languages, 
+their training data is dominated by English, potentially limiting their cross-lingual generalization.

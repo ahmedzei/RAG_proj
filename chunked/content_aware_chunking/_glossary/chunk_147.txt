@@ -1,0 +1,2 @@
+They are represented as a binary mask identifying
+the two types of sequence in the model.

@@ -1,0 +1,2 @@
+Note that we use bidirectional attention instead of casual attention
+and we take the [CLS] token in XLM-R to represent text embedding.

@@ -1,0 +1,2 @@
+Note that you can still use the feature extractor and tokenizer separately,
+if you only want to handle one of the two tasks.

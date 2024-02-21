@@ -1,0 +1,2 @@
+As a result, MSNs improve the scalability of joint-embedding architectures,
+while producing representations of a high semantic level that perform competitively on low-shot image classification.

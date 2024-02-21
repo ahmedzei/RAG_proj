@@ -1,0 +1,1 @@
+Pipelines are more refactored and often combine several tasks in one.

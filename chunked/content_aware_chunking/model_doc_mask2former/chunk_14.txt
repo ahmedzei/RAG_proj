@@ -1,0 +1,1 @@
+Use [Mask2FormerImageProcessor] or [AutoImageProcessor] to prepare images and optional targets for the model.

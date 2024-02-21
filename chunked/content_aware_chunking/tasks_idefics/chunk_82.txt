@@ -1,0 +1,22 @@
+In a very similar fashion, you can run inference 
+for a batch of examples by passing a list of prompts:
+
+prompts = [
+     [   "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3501&q=80",
+         "This is an image of ",
+     ],
+     [   "https://images.unsplash.com/photo-1623944889288-cd147dbb517c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+         "This is an image of ",
+     ],
+     [   "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+         "This is an image of ",
+     ],
+ ]
+inputs = processor(prompts, return_tensors="pt").to("cuda")
+bad_words_ids = processor.tokenizer(["", ""], add_special_tokens=False).input_ids
+generated_ids = model.generate(**inputs, max_new_tokens=10, bad_words_ids=bad_words_ids)
+generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)
+for i,t in enumerate(generated_text):
+     print(f"{i}:\n{t}\n") 
+0:
+This is an image of the Eiffel Tower in Paris, France.

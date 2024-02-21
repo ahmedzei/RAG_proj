@@ -1,0 +1,2 @@
+The task involves
+predicting randomly masked words and entities in a large entity-annotated corpus retrieved from Wikipedia.

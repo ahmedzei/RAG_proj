@@ -1,0 +1,2 @@
+It's easy to measure the run-time incorrectly if for example there is an overheard of downloading a huge model, but if
+you test it locally the downloaded files would be cached and thus the download time not measured.

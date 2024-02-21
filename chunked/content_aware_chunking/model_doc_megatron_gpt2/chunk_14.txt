@@ -1,0 +1,2 @@
+In particular, it 
+contains a hybrid model parallel approach using "tensor parallel" and "pipeline parallel" techniques.

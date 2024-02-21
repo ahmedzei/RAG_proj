@@ -1,0 +1,15 @@
+self.block_type = block_type
+    self.layers = layers
+    self.num_classes = num_classes
+    self.input_channels = input_channels
+    self.cardinality = cardinality
+    self.base_width = base_width
+    self.stem_width = stem_width
+    self.stem_type = stem_type
+    self.avg_down = avg_down
+    super().__init__(**kwargs)
+
+The three important things to remember when writing you own configuration are the following:
+- you have to inherit from PretrainedConfig,
+- the __init__ of your PretrainedConfig must accept any kwargs,
+- those kwargs need to be passed to the superclass __init__.

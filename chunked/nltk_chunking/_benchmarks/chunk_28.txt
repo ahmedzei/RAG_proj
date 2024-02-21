@@ -1,0 +1,2 @@
+Benchmark best practices
+This section lists a couple of best practices one should be aware of when benchmarking a model.

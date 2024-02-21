@@ -1,0 +1,4 @@
+More information about models that can be converted out of the box on Inferentia can be
+found in the Model Architecture
+Fit
+section of the Neuron documentation.

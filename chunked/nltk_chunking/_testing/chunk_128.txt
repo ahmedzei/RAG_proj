@@ -1,0 +1,2 @@
+Common examples are skipping windows-only tests on non-windows platforms, or skipping
+  tests that depend on an external resource which is not available at the moment (for example a database).

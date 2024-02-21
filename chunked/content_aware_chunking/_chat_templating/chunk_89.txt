@@ -1,0 +1,1 @@
+Jinja is a templating language that allows you to write simple code that generates text.

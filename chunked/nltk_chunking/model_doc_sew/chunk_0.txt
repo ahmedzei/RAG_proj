@@ -1,0 +1,6 @@
+
+SEW
+Overview
+SEW (Squeezed and Efficient Wav2Vec) was proposed in Performance-Efficiency Trade-offs in Unsupervised Pre-training
+for Speech Recognition by Felix Wu, Kwangyoun Kim, Jing Pan, Kyu Han, Kilian Q.
+Weinberger, Yoav Artzi.

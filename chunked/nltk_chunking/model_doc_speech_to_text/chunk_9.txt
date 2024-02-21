@@ -1,0 +1,2 @@
+The
+generate() method can be used for inference.

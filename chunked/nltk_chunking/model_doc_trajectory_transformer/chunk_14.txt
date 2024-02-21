@@ -1,0 +1,2 @@
+To use it, you need to create sequences from
+actions, states and rewards from all previous timesteps.

@@ -1,0 +1,1 @@
+One can use [MobileViTImageProcessor] to prepare images for the model.

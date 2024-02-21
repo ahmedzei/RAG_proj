@@ -1,0 +1,4 @@
+Usage tips
+
+When fine-tuning the Audio Spectrogram Transformer (AST) on your own dataset, it's recommended to take care of the input normalization (to make
+sure the input has mean of 0 and std of 0.5).

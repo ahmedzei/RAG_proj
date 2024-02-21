@@ -1,0 +1,2 @@
+Let's illustrate some simple prompts that you can use with tiiuae/falcon-7b-instruct 
+to solve some common NLP tasks.

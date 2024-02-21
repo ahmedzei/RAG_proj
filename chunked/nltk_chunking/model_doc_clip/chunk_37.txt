@@ -1,0 +1,70 @@
+CLIPConfig
+[[autodoc]] CLIPConfig
+    - from_text_vision_configs
+CLIPTextConfig
+[[autodoc]] CLIPTextConfig
+CLIPVisionConfig
+[[autodoc]] CLIPVisionConfig
+CLIPTokenizer
+[[autodoc]] CLIPTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+CLIPTokenizerFast
+[[autodoc]] CLIPTokenizerFast
+CLIPImageProcessor
+[[autodoc]] CLIPImageProcessor
+    - preprocess
+CLIPFeatureExtractor
+[[autodoc]] CLIPFeatureExtractor
+CLIPProcessor
+[[autodoc]] CLIPProcessor
+
+CLIPModel
+[[autodoc]] CLIPModel
+    - forward
+    - get_text_features
+    - get_image_features
+CLIPTextModel
+[[autodoc]] CLIPTextModel
+    - forward
+CLIPTextModelWithProjection
+[[autodoc]] CLIPTextModelWithProjection
+    - forward
+CLIPVisionModelWithProjection
+[[autodoc]] CLIPVisionModelWithProjection
+    - forward
+CLIPVisionModel
+[[autodoc]] CLIPVisionModel
+    - forward
+CLIPForImageClassification
+[[autodoc]] CLIPForImageClassification
+    - forward
+
+TFCLIPModel
+[[autodoc]] TFCLIPModel
+    - call
+    - get_text_features
+    - get_image_features
+TFCLIPTextModel
+[[autodoc]] TFCLIPTextModel
+    - call
+TFCLIPVisionModel
+[[autodoc]] TFCLIPVisionModel
+    - call
+
+FlaxCLIPModel
+[[autodoc]] FlaxCLIPModel
+    - call
+    - get_text_features
+    - get_image_features
+FlaxCLIPTextModel
+[[autodoc]] FlaxCLIPTextModel
+    - call
+FlaxCLIPTextModelWithProjection
+[[autodoc]] FlaxCLIPTextModelWithProjection
+    - call
+FlaxCLIPVisionModel
+[[autodoc]] FlaxCLIPVisionModel
+    - call

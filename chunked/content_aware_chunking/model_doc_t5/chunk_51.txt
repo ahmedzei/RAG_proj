@@ -1,0 +1,3 @@
+The model will automatically create the decoder_input_ids based on the labels, by
+shifting them one position to the right and prepending the config.decoder_start_token_id, which for T5 is
+equal to 0 (i.e.

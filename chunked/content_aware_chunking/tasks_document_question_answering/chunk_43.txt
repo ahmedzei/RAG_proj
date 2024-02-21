@@ -1,0 +1,2 @@
+If this condition is true, it means that a match has been found, and the function will record the match, its starting index (idx),
+and its ending index (idx + len(answer_list) - 1).

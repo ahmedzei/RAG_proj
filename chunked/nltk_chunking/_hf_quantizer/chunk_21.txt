@@ -1,0 +1,1 @@
+required_packages: A list of strings of the required packages to use the quantized weights.

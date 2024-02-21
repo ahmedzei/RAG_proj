@@ -1,0 +1,1 @@
+ResNet introduced residual connections, they allow to train networks with an unseen number of layers (up to 1000).

@@ -1,0 +1,22 @@
+You can verify this with the code below:
+
+import time
+import tensorflow as tf
+from transformers import AutoTokenizer, TFAutoModelForCausalLM
+tokenizer = AutoTokenizer.from_pretrained("openai-community/gpt2", padding_side="left", pad_token="")
+model = TFAutoModelForCausalLM.from_pretrained("openai-community/gpt2")
+xla_generate = tf.function(model.generate, jit_compile=True)
+for input_string in ["TensorFlow is", "TensorFlow is a", "TFLite is a"]:
+    tokenized_input = tokenizer(input_string, pad_to_multiple_of=8, padding=True, return_tensors="tf")
+    start = time.time_ns()
+    generated_tokens = xla_generate(**tokenized_input, num_beams=2)
+    end = time.time_ns()
+    print(f"Execution time -- {(end - start) / 1e6:.1f} ms\n")
+
+On a Tesla T4 GPU, you can expect the outputs like so:
+```bash
+Execution time -- 30819.6 ms
+Execution time -- 79.0 ms
+Execution time -- 78.9 ms
+``
+The first call toxla_generate()` is time-consuming because of tracing, but the successive calls are orders of magnitude faster.

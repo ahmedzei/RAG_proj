@@ -1,0 +1,3 @@
+Usage tips
+We have provided pretrained GPT2-345M checkpoints
+for use to evaluate or finetuning downstream tasks.

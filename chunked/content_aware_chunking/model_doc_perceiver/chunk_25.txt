@@ -1,0 +1,2 @@
+In a follow-up
+work, PerceiverIO, they generalized it to let the model also produce outputs of arbitrary size.

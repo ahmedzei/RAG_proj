@@ -1,0 +1,2 @@
+Therefore, the authors
+  applied k-means clustering to the (R,G,B) pixel values with k=512.

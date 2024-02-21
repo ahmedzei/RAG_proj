@@ -1,0 +1,2 @@
+Wrapping policy
+FSDP is applied by wrapping each layer in the network.

@@ -1,0 +1,1 @@
+This leads to an important question: can transformers run as fast as MobileNet while obtaining high performance?

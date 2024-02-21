@@ -1,0 +1,1 @@
+As can be seen space and punctuation tokenization, as well as rule-based tokenization, is used here.

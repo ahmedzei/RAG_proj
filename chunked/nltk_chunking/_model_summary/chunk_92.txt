@@ -1,0 +1,1 @@
+OWL-ViT builds on top of CLIP by using it as its backbone for zero-shot object detection.

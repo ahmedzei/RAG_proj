@@ -1,0 +1,2 @@
+When a test passes despite being expected to fail (marked with
+  pytest.mark.xfail), it’s an xpass and will be reported in the test summary.

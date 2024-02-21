@@ -1,0 +1,1 @@
+IDEFICS modeling code in Transformers is for finetuning and inferencing the pre-trained IDEFICS models.

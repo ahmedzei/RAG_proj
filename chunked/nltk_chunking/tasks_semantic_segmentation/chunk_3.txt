@@ -1,0 +1,1 @@
+annotation: a PIL image of the segmentation map, which is also the model's target.

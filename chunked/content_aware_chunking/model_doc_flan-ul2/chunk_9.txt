@@ -1,0 +1,3 @@
+Google has released the following variants:
+
+The original checkpoints can be found here.

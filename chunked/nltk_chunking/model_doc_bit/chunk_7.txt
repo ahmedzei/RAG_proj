@@ -1,0 +1,1 @@
+BiT performs well across a surprisingly wide range of data regimes -- from 1 example per class to 1M total examples.

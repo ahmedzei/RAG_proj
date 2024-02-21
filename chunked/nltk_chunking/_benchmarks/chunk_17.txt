@@ -1,0 +1,2 @@
+In the example output above the first
+two sections show the result corresponding to inference time and inference memory.

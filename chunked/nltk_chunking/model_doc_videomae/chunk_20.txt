@@ -1,0 +1,3 @@
+Video classification
+- A notebook that shows how
+to fine-tune a VideoMAE model on a custom dataset.

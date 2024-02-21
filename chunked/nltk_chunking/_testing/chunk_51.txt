@@ -1,0 +1,3 @@
+This
+module has a very similar functionality/interface, but it doesn't have the bucket modes available in
+pytest-random-order.

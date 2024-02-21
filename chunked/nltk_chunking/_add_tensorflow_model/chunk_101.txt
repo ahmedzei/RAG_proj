@@ -1,0 +1,2 @@
+A TensorFlow model can be loaded from PyTorch weights using TFBrandNewBert.from_pretrained(model_repo, from_pt=True)
+6.

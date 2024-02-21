@@ -1,0 +1,1 @@
+If you plan on using a pretrained model, it's important to use the associated pretrained tokenizer.

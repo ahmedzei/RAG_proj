@@ -1,0 +1,1 @@
+🤗 Transformers will use the shell environment variables PYTORCH_TRANSFORMERS_CACHE or PYTORCH_PRETRAINED_BERT_CACHE if you are coming from an earlier iteration of this library and have set those environment variables, unless you specify the shell environment variable TRANSFORMERS_CACHE.

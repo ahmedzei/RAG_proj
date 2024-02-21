@@ -1,0 +1,1 @@
+In the second benchmark we use NCCL_P2P_DISABLE=1 to tell the GPUs not to use NVLink.

@@ -1,0 +1,2 @@
+Usually, it is enough to copy an already existing conversion script and
+slightly adapt it for your use case.

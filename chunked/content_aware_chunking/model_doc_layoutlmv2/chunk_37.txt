@@ -1,0 +1,1 @@
+This feature map is then flattened to obtain a sequence of image tokens.

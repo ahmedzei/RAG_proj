@@ -1,0 +1,2 @@
+For some models, an exact height and
+width are expected, for others only the shortest_edge is defined.

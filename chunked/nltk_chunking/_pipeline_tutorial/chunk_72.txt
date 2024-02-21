@@ -1,0 +1,3 @@
+", do_sample=True, top_p=0.95)
+
+Note that you can replace the checkpoint with any of the Hugging Face model that supports large model loading such as BLOOM!

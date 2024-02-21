@@ -1,0 +1,4 @@
+These qualities of Swin Transformer make it
+compatible with a broad range of vision tasks, including image classification (87.3 top-1 accuracy on ImageNet-1K) and dense
+prediction tasks such as object detection (58.7 box AP and 51.1 mask AP on COCO test-dev) and semantic segmentation
+(53.5 mIoU on ADE20K val).

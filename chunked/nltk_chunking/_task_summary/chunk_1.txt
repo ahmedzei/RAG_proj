@@ -1,0 +1,1 @@
+Not only does the library contain Transformer models, but it also has non-Transformer models like modern convolutional networks for computer vision tasks.

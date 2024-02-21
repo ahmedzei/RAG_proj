@@ -1,0 +1,2 @@
+The largest version of GPT-2, for example, has a fixed length of 1024 tokens, so we
+cannot calculate \(p_\theta(x_t|x_{<t})\) directly when \(t\) is greater than 1024.

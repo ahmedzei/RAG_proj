@@ -1,0 +1,1 @@
+An inverted bottleneck does the opposite by expanding the number of channels and shrinking them, which is more memory efficient.

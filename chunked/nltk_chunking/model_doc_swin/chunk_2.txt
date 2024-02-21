@@ -1,0 +1,2 @@
+Challenges in adapting Transformer from language to vision arise from differences between the two domains,
+such as large variations in the scale of visual entities and the high resolution of pixels in images compared to words in text.

@@ -1,0 +1,2 @@
+When training a model from scratch, it is recommended to leave config.num_buckets=None, so that depending on the
+sequence length a good value for num_buckets is calculated on the fly.

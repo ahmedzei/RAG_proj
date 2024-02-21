@@ -1,0 +1,2 @@
+test_small_model_tf : Define 1 small model for this pipeline (doesn't matter if the results don't make sense)
+  and test the pipeline outputs.

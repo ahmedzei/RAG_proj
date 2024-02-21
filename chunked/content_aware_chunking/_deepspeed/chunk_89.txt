@@ -1,0 +1,4 @@
+py
+tensor([1.0], device="cuda:0", dtype=torch.float16, requires_grad=True)
+
+For more information about initializing large models with ZeRO-3 and accessing the parameters, take a look at the Constructing Massive Models and Gathering Parameters guides.

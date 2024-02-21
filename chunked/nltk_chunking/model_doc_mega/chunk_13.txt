@@ -1,0 +1,1 @@
+Mega-chunk is a variant of mega that reduces time and spaces complexity from quadratic to linear.

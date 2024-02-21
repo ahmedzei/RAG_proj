@@ -1,0 +1,2 @@
+More often than not, there are at least two reference implementations you should check: the
+PyTorch equivalent of the model you are implementing and other TensorFlow models for the same class of problems.

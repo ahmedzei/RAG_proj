@@ -1,0 +1,1 @@
+To use a TPU, launch the xla_spawn.py script and use the num_cores argument to set the number of TPU cores you want to use.

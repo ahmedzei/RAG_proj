@@ -1,0 +1,1 @@
+Transformer-XL is one of the few models that has no sequence length limit.

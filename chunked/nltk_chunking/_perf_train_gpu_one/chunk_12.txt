@@ -1,0 +1,3 @@
+These techniques are available to you whether you are 
+training your model with [Trainer] or writing a pure PyTorch loop, in which case you can configure these optimizations 
+with 🤗 Accelerate.

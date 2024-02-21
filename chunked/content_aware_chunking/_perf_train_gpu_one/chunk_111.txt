@@ -1,0 +1,2 @@
+However, if the model doesn't fit onto a single GPU or you can't fit a small batch, you can 
+leverage DeepSpeed ZeRO + CPU Offload, or NVMe Offload for much larger models.

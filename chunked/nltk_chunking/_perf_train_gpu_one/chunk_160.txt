@@ -1,0 +1,1 @@
+Next follow the instructions to download and deploy the docker image.

@@ -1,0 +1,13 @@
+The authors suggest to use the following prompt for image captioning: f"Generate a coco-style caption.\\n"
+
+FuyuConfig
+[[autodoc]] FuyuConfig
+FuyuForCausalLM
+[[autodoc]] FuyuForCausalLM
+    - forward
+FuyuImageProcessor
+[[autodoc]] FuyuImageProcessor
+    - call
+FuyuProcessor
+[[autodoc]] FuyuProcessor
+    - call

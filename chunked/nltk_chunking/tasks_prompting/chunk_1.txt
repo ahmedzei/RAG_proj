@@ -1,0 +1,2 @@
+are pretrained transformer models initially trained to predict the 
+next token given some input text.

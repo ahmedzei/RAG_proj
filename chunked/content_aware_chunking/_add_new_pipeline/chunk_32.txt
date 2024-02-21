@@ -1,0 +1,2 @@
+The run_pipeline_test function will be very generic and run on small random models on every possible
+architecture as defined by model_mapping and tf_model_mapping.

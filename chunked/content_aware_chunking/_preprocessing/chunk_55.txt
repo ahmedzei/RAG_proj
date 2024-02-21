@@ -1,0 +1,1 @@
+sampling_rate refers to how many data points in the speech signal are measured per second.

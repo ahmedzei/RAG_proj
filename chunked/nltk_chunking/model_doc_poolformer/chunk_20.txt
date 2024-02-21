@@ -1,0 +1,1 @@
+As most models, PoolFormer comes in different sizes, the details of which can be found in the table below.

@@ -1,0 +1,2 @@
+Given a list of categories and using its image and text understanding 
+capabilities, the model can infer which category the image likely belongs to.

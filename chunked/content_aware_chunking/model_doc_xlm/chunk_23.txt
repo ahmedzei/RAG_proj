@@ -1,0 +1,1 @@
+To predict one of the masked tokens, the model can use both, the surrounding context in language 1 and the context given by language 2.

@@ -1,0 +1,2 @@
+Note that one should
+  use [DeiTImageProcessor] in order to prepare images for the model.

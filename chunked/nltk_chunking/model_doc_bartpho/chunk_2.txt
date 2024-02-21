@@ -1,0 +1,2 @@
+Our BARTpho uses the "large" architecture and pre-training
+scheme of the sequence-to-sequence denoising model BART, thus especially suitable for generative NLP tasks.

@@ -1,0 +1,2 @@
+Furthermore, it uses a different pre-training objective
+inspired by the pre-training of [PegasusForConditionalGeneration].

@@ -1,0 +1,1 @@
+However, LLMs often require advanced features like quantization and fine control of the token selection step, which is best done through [~generation.GenerationMixin.generate].

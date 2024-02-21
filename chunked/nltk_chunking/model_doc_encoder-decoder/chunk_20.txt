@@ -1,0 +1,1 @@
+This method supports various forms of decoding, such as greedy, beam search and multinomial sampling.

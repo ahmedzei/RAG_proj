@@ -1,0 +1,9 @@
+For example, to save the model on a CPU:
+
+quantized_model.save_pretrained("opt-125m-gptq")
+tokenizer.save_pretrained("opt-125m-gptq")
+if quantized with device_map set
+quantized_model.to("cpu")
+quantized_model.save_pretrained("opt-125m-gptq")
+
+Reload a quantized model with the [~PreTrainedModel.from_pretrained] method, and set device_map="auto" to automatically distribute the model on all available GPUs to load the model faster without using more memory than needed.

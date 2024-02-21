@@ -1,0 +1,2 @@
+Make sure that the forward pass in your debugging
+  environment is deterministic so that the dropout layers are not used.

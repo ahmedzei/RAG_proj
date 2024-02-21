@@ -1,0 +1,3 @@
+Tips:
+
+Usage of X-CLIP is identical to CLIP.

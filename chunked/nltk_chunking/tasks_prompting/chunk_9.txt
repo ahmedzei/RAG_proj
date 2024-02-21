@@ -1,0 +1,2 @@
+While there is no exact recipe for creating prompts to match all cases, researchers have worked out a number of best 
+practices that help to achieve optimal results more consistently.

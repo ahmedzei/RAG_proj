@@ -1,0 +1,3 @@
+However, some smaller checkpoints, such as
+  facebook/blenderbot_small_90M, have a different architecture and consequently should be used with
+  BlenderbotSmall.

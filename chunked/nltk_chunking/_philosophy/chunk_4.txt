@@ -1,0 +1,4 @@
+All of these classes can be initialized in a simple and unified way from pretrained instances by using a common
+    from_pretrained() method which downloads (if needed), caches and
+    loads the related class instance and associated data (configurations' hyperparameters, tokenizers' vocabulary,
+    and models' weights) from a pretrained checkpoint provided on Hugging Face Hub or your own saved checkpoint.

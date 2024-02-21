@@ -1,0 +1,1 @@
+To make adding and using these quantization methods with Transformers models easier, you should use the [HfQuantizer] class.

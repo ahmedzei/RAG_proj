@@ -1,0 +1,41 @@
+encoding = processor(nodes=nodes, xpaths=xpaths, questions=question, return_tensors="pt")
+print(encoding.keys())
+dict_keys(['input_ids', 'token_type_ids', 'attention_mask', 'xpath_tags_seq', 'xpath_subs_seq'])
+
+Resources
+
+Demo notebooks
+Text classification task guide
+Token classification task guide
+Question answering task guide
+
+MarkupLMConfig
+[[autodoc]] MarkupLMConfig
+    - all
+MarkupLMFeatureExtractor
+[[autodoc]] MarkupLMFeatureExtractor
+    - call
+MarkupLMTokenizer
+[[autodoc]] MarkupLMTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+MarkupLMTokenizerFast
+[[autodoc]] MarkupLMTokenizerFast
+    - all
+MarkupLMProcessor
+[[autodoc]] MarkupLMProcessor
+    - call
+MarkupLMModel
+[[autodoc]] MarkupLMModel
+    - forward
+MarkupLMForSequenceClassification
+[[autodoc]] MarkupLMForSequenceClassification
+    - forward
+MarkupLMForTokenClassification
+[[autodoc]] MarkupLMForTokenClassification
+    - forward
+MarkupLMForQuestionAnswering
+[[autodoc]] MarkupLMForQuestionAnswering
+    - forward

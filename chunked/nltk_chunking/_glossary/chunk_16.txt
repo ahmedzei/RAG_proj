@@ -1,0 +1,3 @@
+C
+causal language modeling
+A pretraining task where the model reads the texts in order and has to predict the next word.

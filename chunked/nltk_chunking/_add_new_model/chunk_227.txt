@@ -1,0 +1,2 @@
+An incorrect shape is most likely due to an incorrect setting of the config parameters in BrandNewBertConfig() that
+do not exactly match those that were used for the checkpoint you want to convert.

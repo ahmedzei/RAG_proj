@@ -1,0 +1,2 @@
+This allows the agent to have access to past interactions,
+seemingly giving the agent some kind of memory.

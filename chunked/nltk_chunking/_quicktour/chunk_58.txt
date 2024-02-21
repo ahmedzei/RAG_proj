@@ -1,0 +1,2 @@
+Trainer - a PyTorch optimized training loop
+All models are a standard torch.nn.Module so you can use them in any typical training loop.

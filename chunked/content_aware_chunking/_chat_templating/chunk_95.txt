@@ -1,0 +1,1 @@
+If the message is not the last message, add two spaces after it.

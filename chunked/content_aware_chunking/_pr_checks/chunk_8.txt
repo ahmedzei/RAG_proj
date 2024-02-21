@@ -1,0 +1,1 @@
+This means the code is copied with all instances of foo being replaced by bar.

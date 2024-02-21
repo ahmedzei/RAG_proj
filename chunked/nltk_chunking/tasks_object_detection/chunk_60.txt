@@ -1,0 +1,2 @@
+You can use one of the existing metrics implementations, but here you'll use the one from torchvision to evaluate the final
+model that you pushed to the Hub.

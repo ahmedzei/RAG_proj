@@ -1,0 +1,2 @@
+If no chat template is set, the
+default template for that model class is used instead.

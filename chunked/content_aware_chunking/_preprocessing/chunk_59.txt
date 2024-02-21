@@ -1,0 +1,1 @@
+If your data's sampling rate isn't the same, then you need to resample your data.

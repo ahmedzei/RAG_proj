@@ -1,0 +1,3 @@
+STEP 3: Convert your data into tensors using TapasTokenizer
+
+Third, given that you've prepared your data in this TSV/CSV format (and corresponding CSV files containing the tabular data), you can then use [TapasTokenizer] to convert table-question pairs into input_ids, attention_mask, token_type_ids and so on.

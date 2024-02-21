@@ -1,0 +1,2 @@
+"},
+    {"role": "user", "content": "Can I ask a question?"}

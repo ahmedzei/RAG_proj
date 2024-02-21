@@ -1,0 +1,2 @@
+The model cards should highlight the
+specific characteristics of this particular checkpoint, e.g.

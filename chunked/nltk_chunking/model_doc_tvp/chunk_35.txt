@@ -1,0 +1,2 @@
+target_fps (int): the input video may have different fps, convert it to
+            the target video fps before frame sampling.

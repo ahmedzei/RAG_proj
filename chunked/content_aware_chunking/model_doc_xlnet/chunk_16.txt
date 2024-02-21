@@ -1,0 +1,1 @@
+XLNet also uses the same recurrence mechanism as Transformer-XL to build long-term dependencies.

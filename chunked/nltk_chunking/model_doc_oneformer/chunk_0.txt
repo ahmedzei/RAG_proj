@@ -1,0 +1,4 @@
+
+OneFormer
+Overview
+The OneFormer model was proposed in OneFormer: One Transformer to Rule Universal Image Segmentation by Jitesh Jain, Jiachen Li, MangTik Chiu, Ali Hassani, Nikita Orlov, Humphrey Shi.

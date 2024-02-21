@@ -1,0 +1,34 @@
+OwlViTConfig
+[[autodoc]] OwlViTConfig
+    - from_text_vision_configs
+OwlViTTextConfig
+[[autodoc]] OwlViTTextConfig
+OwlViTVisionConfig
+[[autodoc]] OwlViTVisionConfig
+OwlViTImageProcessor
+[[autodoc]] OwlViTImageProcessor
+    - preprocess
+    - post_process_object_detection
+    - post_process_image_guided_detection
+OwlViTFeatureExtractor
+[[autodoc]] OwlViTFeatureExtractor
+    - call
+    - post_process
+    - post_process_image_guided_detection
+OwlViTProcessor
+[[autodoc]] OwlViTProcessor
+OwlViTModel
+[[autodoc]] OwlViTModel
+    - forward
+    - get_text_features
+    - get_image_features
+OwlViTTextModel
+[[autodoc]] OwlViTTextModel
+    - forward
+OwlViTVisionModel
+[[autodoc]] OwlViTVisionModel
+    - forward
+OwlViTForObjectDetection
+[[autodoc]] OwlViTForObjectDetection
+    - forward
+    - image_guided_detection

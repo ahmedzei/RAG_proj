@@ -1,0 +1,2 @@
+In principle, all the Bernoulli random variables can be sampled with
+a single hash.

@@ -1,0 +1,10 @@
+Here's an example of that:
+
+from transformers import TapasTokenizer, TapasForQuestionAnswering
+import pandas as pd
+model_name = "google/tapas-base-finetuned-wtq"
+model = TapasForQuestionAnswering.from_pretrained(model_name)
+tokenizer = TapasTokenizer.from_pretrained(model_name)
+data = {"Actors": ["Brad Pitt", "Leonardo Di Caprio", "George Clooney"], "Number of movies": ["87", "53", "69"]}
+queries = [
+     "What is the name of the first actor?

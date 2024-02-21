@@ -1,0 +1,8 @@
+Load DistilRoBERTa with [AutoModelForMaskedLM]:
+
+from transformers import AutoModelForMaskedLM
+model = AutoModelForMaskedLM.from_pretrained("distilbert/distilroberta-base")
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [TrainingArguments].

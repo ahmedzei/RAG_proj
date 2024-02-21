@@ -1,0 +1,2 @@
+It does so until
+the vocabulary has attained the desired vocabulary size.

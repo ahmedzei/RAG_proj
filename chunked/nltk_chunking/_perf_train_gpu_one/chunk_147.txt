@@ -1,0 +1,2 @@
+Implementing these optimization techniques with 🤗 Accelerate only takes a handful of lines of code and comes with the 
+benefit of more flexibility in the training loop.

@@ -1,0 +1,1 @@
+The [CLIPImageProcessor] can be used to resize (or rescale) and normalize images for the model.

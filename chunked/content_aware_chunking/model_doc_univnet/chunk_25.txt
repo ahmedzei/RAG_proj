@@ -1,0 +1,1 @@
+To the best of my knowledge, there is no official code release, but an unofficial implementation can be found at maum-ai/univnet with pretrained checkpoints here.

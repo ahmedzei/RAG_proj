@@ -1,0 +1,1 @@
+For each message, if the message is a user message, add a blank space before it, otherwise print nothing.

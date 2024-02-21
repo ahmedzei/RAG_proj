@@ -1,0 +1,3 @@
+Sinusoidal and learned position embeddings used to be the predominant methods to encode sentence order into LLMs, but a couple of problems related to these positional encodings were found:
+
+Sinusoidal and learned position embeddings are both absolute positional embeddings, i.e.

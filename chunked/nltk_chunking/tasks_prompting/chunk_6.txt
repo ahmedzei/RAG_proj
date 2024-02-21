@@ -1,0 +1,2 @@
+Natural languages are much more flexible and expressive 
+than programming languages, however, they can also introduce some ambiguity.

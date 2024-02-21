@@ -1,0 +1,6 @@
+generated_output = model.generate(**tokens, use_cache=True, max_new_tokens=10)
+tokenizer.batch_decode(generated_output)[0]
+'If I were an AI that had just achieved a breakthrough in machine learning, I would be thrilled'
+
+Expected speedups
+Below is an expected speedup diagram that compares pure inference time between the native implementation in transformers using microsoft/phi-1 checkpoint and the Flash Attention 2 version of the model using a sequence length of 2048.

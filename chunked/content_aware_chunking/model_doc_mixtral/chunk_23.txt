@@ -1,0 +1,1 @@
+To enable sliding window attention, just make sure to have a flash-attn version that is compatible with sliding window attention (>=2.3.0).

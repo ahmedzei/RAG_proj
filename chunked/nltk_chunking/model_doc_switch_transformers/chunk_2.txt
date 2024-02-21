@@ -1,0 +1,1 @@
+A routing mechanism (top 1 in this case) associates each token to one of the expert, where each expert is a dense MLP.

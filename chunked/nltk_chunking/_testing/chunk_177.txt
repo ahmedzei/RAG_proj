@@ -1,0 +1,2 @@
+Create a new dedicated job that tests what needs to be tested
+The new job must always succeed so that it gives us a green ✓ (details below).

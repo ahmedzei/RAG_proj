@@ -1,0 +1,4 @@
+AWS
+Neuron is the SDK for
+Inferentia that supports tracing and optimizing transformers models for deployment on
+Inf1.

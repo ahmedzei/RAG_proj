@@ -1,0 +1,4 @@
+Training
+During training, we must ensure that the sequence length is set to a value that can be divided by the least common
+multiple of config.lsh_chunk_length and config.local_chunk_length and that the parameters of the Axial
+Positional Encodings are correctly set as described above.

@@ -1,0 +1,1 @@
+A blog on how to Accelerate GPT-J inference with DeepSpeed-Inference on GPUs.

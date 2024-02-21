@@ -1,0 +1,4 @@
+Rather than pre-training the model to predict the class
+of an image (as done in the original ViT paper), BEiT models are pre-trained to
+predict visual tokens from the codebook of OpenAI's DALL-E model given masked
+patches.

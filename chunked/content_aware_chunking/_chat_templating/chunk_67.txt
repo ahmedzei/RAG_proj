@@ -1,0 +1,2 @@
+The exact
+effect that add_generation_prompt has will depend on the template being used.

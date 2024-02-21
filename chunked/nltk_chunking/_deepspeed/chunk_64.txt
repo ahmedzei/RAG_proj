@@ -1,0 +1,1 @@
+If the parameter is going to be reused (if the value is less than stage3_max_reuse_distance), then it is kept to reduce communication overhead.

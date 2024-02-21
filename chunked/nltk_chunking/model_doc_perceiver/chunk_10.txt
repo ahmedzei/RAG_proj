@@ -1,0 +1,2 @@
+Perceiver IO still decouples model depth from data size and still scales
+linearly with data size, but now with respect to both input and output sizes.

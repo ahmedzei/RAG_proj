@@ -1,0 +1,2 @@
+finetuned models
+Finetuning is a form of transfer learning which involves taking a pretrained model, freezing its weights, and replacing the output layer with a newly added model head.

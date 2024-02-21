@@ -1,0 +1,3 @@
+All of the
+other important functionalities, such as BrandNewBertModel.forward should be completely defined in the new
+modeling_brand_new_bert.py script.

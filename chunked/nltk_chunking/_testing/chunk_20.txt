@@ -1,0 +1,5 @@
+If you want to include only tests that include both patterns, and is to be used:
+
+pytest -k "test and ada" tests/test_optimization.py
+Run accelerate tests
+Sometimes you need to run accelerate tests on your models.

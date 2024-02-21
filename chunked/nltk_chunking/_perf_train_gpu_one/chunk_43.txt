@@ -1,0 +1,2 @@
+For 
+an in-depth explanation of gradient checkpointing, refer to this great article.

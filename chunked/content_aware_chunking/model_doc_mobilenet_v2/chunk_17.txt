@@ -1,0 +1,1 @@
+However, the model predicts 1001 classes: the 1000 classes from ImageNet plus an extra “background” class (index 0).

@@ -1,0 +1,2 @@
+The dot
+product between the projected image and text features is then used as a similar score.

@@ -1,0 +1,6 @@
+thon
+from transformers import AutoProcessor
+checkpoint = "microsoft/git-base"
+processor = AutoProcessor.from_pretrained(checkpoint)
+
+The processor will internally pre-process the image (which includes resizing, and pixel scaling) and tokenize the caption.

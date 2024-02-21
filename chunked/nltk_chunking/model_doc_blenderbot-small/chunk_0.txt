@@ -1,0 +1,5 @@
+
+Blenderbot Small
+Note that [BlenderbotSmallModel] and
+[BlenderbotSmallForConditionalGeneration] are only used in combination with the checkpoint
+facebook/blenderbot-90M.

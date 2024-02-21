@@ -1,0 +1,16 @@
+VisionTextDualEncoderConfig
+[[autodoc]] VisionTextDualEncoderConfig
+VisionTextDualEncoderProcessor
+[[autodoc]] VisionTextDualEncoderProcessor
+
+VisionTextDualEncoderModel
+[[autodoc]] VisionTextDualEncoderModel
+    - forward
+
+FlaxVisionTextDualEncoderModel
+[[autodoc]] FlaxVisionTextDualEncoderModel
+    - call
+
+TFVisionTextDualEncoderModel
+[[autodoc]] TFVisionTextDualEncoderModel
+    - call

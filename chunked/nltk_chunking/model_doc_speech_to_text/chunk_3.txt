@@ -1,0 +1,2 @@
+The model is trained with standard autoregressive cross-entropy loss and generates the
+transcripts/translations autoregressively.

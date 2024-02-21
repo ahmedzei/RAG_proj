@@ -1,0 +1,1 @@
+When the communication is done in fp16 or bf16, it is more likely to be lossy because adding multiple numbers in low precision isn't exact.

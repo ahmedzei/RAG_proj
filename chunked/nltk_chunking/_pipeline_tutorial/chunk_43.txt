@@ -1,0 +1,8 @@
+For instance, the [~transformers.AutomaticSpeechRecognitionPipeline] has a chunk_length_s parameter which is helpful 
+for working on really long audio files (for example, subtitling entire movies or hour-long videos) that a model typically 
+cannot handle on its own:
+thon
+
+transcriber = pipeline(model="openai/whisper-large-v2", chunk_length_s=30, return_timestamps=True)
+transcriber("https://huggingface.co/datasets/sanchit-gandhi/librispeech_long/resolve/main/audio.wav")
+{'text': " Chapter 16.

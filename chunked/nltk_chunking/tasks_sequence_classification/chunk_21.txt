@@ -1,0 +1,1 @@
+label: a value that is either 0 for a negative review or 1 for a positive review.

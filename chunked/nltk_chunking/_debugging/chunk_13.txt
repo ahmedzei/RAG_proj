@@ -1,0 +1,5 @@
+Take a look at the contents of these environment variables first:
+
+echo $PATH
+echo $LD_LIBRARY_PATH
+PATH lists the locations of the executables and LD_LIBRARY_PATH lists where to look for shared libraries.

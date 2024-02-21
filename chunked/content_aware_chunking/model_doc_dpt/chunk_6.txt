@@ -1,0 +1,1 @@
+Our experiments show that this architecture yields substantial improvements on dense prediction tasks, especially when a large amount of training data is available.

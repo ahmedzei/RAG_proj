@@ -1,0 +1,32 @@
+SiglipConfig
+[[autodoc]] SiglipConfig
+    - from_text_vision_configs
+SiglipTextConfig
+[[autodoc]] SiglipTextConfig
+SiglipVisionConfig
+[[autodoc]] SiglipVisionConfig
+SiglipTokenizer
+[[autodoc]] SiglipTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+SiglipImageProcessor
+[[autodoc]] SiglipImageProcessor
+    - preprocess
+SiglipProcessor
+[[autodoc]] SiglipProcessor
+SiglipModel
+[[autodoc]] SiglipModel
+    - forward
+    - get_text_features
+    - get_image_features
+SiglipTextModel
+[[autodoc]] SiglipTextModel
+    - forward
+SiglipVisionModel
+[[autodoc]] SiglipVisionModel
+    - forward
+SiglipForImageClassification
+[[autodoc]] SiglipForImageClassification
+    - forward

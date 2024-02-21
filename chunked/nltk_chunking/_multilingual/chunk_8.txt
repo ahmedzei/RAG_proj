@@ -1,0 +1,17 @@
+In this example, load the FacebookAI/xlm-clm-enfr-1024 checkpoint (Causal language modeling, English-French):
+
+import torch
+from transformers import XLMTokenizer, XLMWithLMHeadModel
+tokenizer = XLMTokenizer.from_pretrained("FacebookAI/xlm-clm-enfr-1024")
+model = XLMWithLMHeadModel.from_pretrained("FacebookAI/xlm-clm-enfr-1024")
+
+The lang2id attribute of the tokenizer displays this model's languages and their ids:
+
+print(tokenizer.lang2id)
+{'en': 0, 'fr': 1}
+
+Next, create an example input:
+
+input_ids = torch.tensor([tokenizer.encode("Wikipedia was used to")])  # batch size of 1
+
+Set the language id as "en" and use it to define the language embedding.

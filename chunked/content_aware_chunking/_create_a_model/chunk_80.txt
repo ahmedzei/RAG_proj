@@ -1,0 +1,1 @@
+For example, let's use the [Wav2Vec2Processor] for an automatic speech recognition task (ASR).

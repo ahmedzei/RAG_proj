@@ -1,0 +1,1 @@
+Fine tuning CLIP with Remote Sensing (Satellite) images and captions, a blog post about how to fine-tune CLIP with RSICD dataset and comparison of performance changes due to data augmentation.

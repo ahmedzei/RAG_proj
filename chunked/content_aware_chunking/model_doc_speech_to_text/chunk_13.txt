@@ -1,0 +1,2 @@
+You could either install those as extra speech dependencies with
+pip install transformers"[speech, sentencepiece]" or install the packages separately with pip install torchaudio sentencepiece.

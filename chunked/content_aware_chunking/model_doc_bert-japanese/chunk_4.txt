@@ -1,0 +1,1 @@
+To use MecabTokenizer, you should pip install transformers["ja"] (or pip install -e .

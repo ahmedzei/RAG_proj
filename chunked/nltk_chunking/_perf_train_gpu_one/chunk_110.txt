@@ -1,0 +1,2 @@
+If your model fits onto a single GPU and you have enough space to fit a small batch size, you don't need to use DeepSpeed
+as it'll only slow things down.

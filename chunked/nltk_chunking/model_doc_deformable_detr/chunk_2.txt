@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+DETR has been recently proposed to eliminate the need for many hand-designed components in object detection while demonstrating good performance.

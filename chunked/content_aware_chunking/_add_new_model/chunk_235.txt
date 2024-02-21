@@ -1,0 +1,2 @@
+In Get familiar with the original repository, you have already created a script that runs a forward
+pass of the model using the original repository.

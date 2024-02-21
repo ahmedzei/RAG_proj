@@ -1,0 +1,3 @@
+Usage tips
+
+TAPAS is a model that uses relative position embeddings by default (restarting the position embeddings at every cell of the table).

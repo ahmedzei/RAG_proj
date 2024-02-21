@@ -1,0 +1,1 @@
+We believe OneFormer is a significant step towards making image segmentation more universal and accessible.

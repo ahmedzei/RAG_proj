@@ -1,0 +1,7 @@
+This will use the inputs as labels shifted to the right by one element:
+
+from transformers import DataCollatorForLanguageModeling
+tokenizer.pad_token = tokenizer.eos_token
+data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
+
+Use the end-of-sequence token as the padding token and set mlm=False.

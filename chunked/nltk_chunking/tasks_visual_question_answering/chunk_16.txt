@@ -1,0 +1,1 @@
+More recent models, such as BLIP, BLIP-2, and InstructBLIP, treat VQA as a generative task.

@@ -1,0 +1,5 @@
+Local Self Attention
+Local self attention is essentially a "normal" self attention layer with key, query and value projections, but is
+chunked so that in each chunk of length config.local_chunk_length the query embedding vectors only attends to
+the key embedding vectors in its chunk and to the key embedding vectors of config.local_num_chunks_before
+previous neighboring chunks and config.local_num_chunks_after following neighboring chunks.

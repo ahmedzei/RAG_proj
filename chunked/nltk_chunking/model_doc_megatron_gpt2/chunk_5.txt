@@ -1,0 +1,2 @@
+We
+illustrate this approach by converging transformer based models up to 8.3 billion parameters using 512 GPUs.

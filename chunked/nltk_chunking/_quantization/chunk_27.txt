@@ -1,0 +1,1 @@
+To enable fused modules for supported architectures, create an [AwqConfig] and set the parameters fuse_max_seq_len and do_fuse=True.

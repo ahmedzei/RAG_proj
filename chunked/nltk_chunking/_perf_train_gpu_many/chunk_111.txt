@@ -1,0 +1,2 @@
+To calculate the global batch size of the DP + PP setup, 
+use the formula: mbs * chunks * dp_degree (8 * 32 * 4 = 1024).

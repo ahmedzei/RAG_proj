@@ -1,0 +1,7 @@
+Computing this for our LLM at a hypothetical input sequence length of 16000 gives:
+python
+config = model.config
+2 * 16_000 * config.n_layer * config.n_head * config.n_embd // config.n_head
+Output:
+7864320000
+Roughly 8 billion float values!

@@ -1,0 +1,4 @@
+
+Mask2Former
+Overview
+The Mask2Former model was proposed in Masked-attention Mask Transformer for Universal Image Segmentation by Bowen Cheng, Ishan Misra, Alexander G. Schwing, Alexander Kirillov, Rohit Girdhar.

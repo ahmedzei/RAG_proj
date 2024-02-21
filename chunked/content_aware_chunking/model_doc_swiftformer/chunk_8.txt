@@ -1,0 +1,1 @@
+Our design shows that the key-value interaction can be replaced with a linear layer without sacrificing any accuracy.

@@ -1,0 +1,3 @@
+In this tutorial, you'll learn that for:
+
+Text, use a Tokenizer to convert text into a sequence of tokens, create a numerical representation of the tokens, and assemble them into tensors.

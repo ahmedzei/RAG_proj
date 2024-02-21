@@ -1,0 +1,8 @@
+Preprocess
+
+The next step is to load a DistilGPT2 tokenizer to process the text subfield:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("distilbert/distilgpt2")
+
+You'll notice from the example above, the text field is actually nested inside answers.

@@ -1,0 +1,2 @@
+As the Vision Transformer expects each image to be of the same size (resolution), one can use
+  [ViTImageProcessor] to resize (or rescale) and normalize images for the model.

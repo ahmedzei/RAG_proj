@@ -1,0 +1,1 @@
+By default the image processing tool returns an image of size 512x512 pixels.

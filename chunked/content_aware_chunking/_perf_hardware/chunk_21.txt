@@ -1,0 +1,2 @@
+Multi-GPU Connectivity
+If you use multiple GPUs the way cards are inter-connected can have a huge impact on the total training time.

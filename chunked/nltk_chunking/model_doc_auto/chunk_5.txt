@@ -1,0 +1,2 @@
+Extending the Auto Classes
+Each of the auto classes has a method to be extended with your custom classes.

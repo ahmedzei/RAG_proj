@@ -1,0 +1,3 @@
+Further, we show that transformer-based
+object detection models trained on PubTables-1M produce excellent results for all three tasks of detection, structure recognition, and functional analysis without the need for any
+special customization for these tasks.

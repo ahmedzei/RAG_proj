@@ -1,0 +1,1 @@
+If you're interested in writing models in a tensor-parallelism-friendly way, feel free to have a look at the text-generation-inference library.

@@ -1,0 +1,1 @@
+[BarkCoarseModel] (also referred to as the 'coarse acoustics' model): a causal autoregressive transformer, that takes as input the results of the [BarkSemanticModel] model.

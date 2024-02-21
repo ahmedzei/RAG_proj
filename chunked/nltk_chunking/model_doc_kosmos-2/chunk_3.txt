@@ -1,0 +1,2 @@
+The data format is
+similar to “hyperlinks” that connect the object regions in an image to their text span in the corresponding caption.

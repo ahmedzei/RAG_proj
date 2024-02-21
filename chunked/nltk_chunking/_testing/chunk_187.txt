@@ -1,0 +1,7 @@
+You can vote for this feature and see where it is at these CI-specific threads:
+
+Github Actions:
+CircleCI:
+
+DeepSpeed integration
+For a PR that involves the DeepSpeed integration, keep in mind our CircleCI PR CI setup doesn't have GPUs.

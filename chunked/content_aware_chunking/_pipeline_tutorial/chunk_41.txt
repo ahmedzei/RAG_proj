@@ -1,0 +1,1 @@
+As you can see, the model inferred the text and also outputted when the various sentences were pronounced.

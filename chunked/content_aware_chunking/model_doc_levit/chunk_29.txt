@@ -1,0 +1,3 @@
+The 5 variants available are (all trained on images of size 224x224):
+  facebook/levit-128S, facebook/levit-128, facebook/levit-192, facebook/levit-256 and
+  facebook/levit-384.

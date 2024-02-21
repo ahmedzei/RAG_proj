@@ -1,0 +1,2 @@
+This special value 
+instructs the model to ignore that part of the spectrogram when calculating the spectrogram loss.

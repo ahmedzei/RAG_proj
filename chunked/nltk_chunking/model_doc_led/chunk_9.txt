@@ -1,0 +1,2 @@
+[LEDTokenizer] is an alias of
+  [BartTokenizer].

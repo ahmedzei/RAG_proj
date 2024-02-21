@@ -1,0 +1,1 @@
+They outperform the original model (ViT) when fine-tuned on ImageNet-1K and CIFAR-100.

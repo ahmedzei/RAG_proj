@@ -1,0 +1,1 @@
+In the following, the definition weights will be used to signify all model weight matrices and vectors.

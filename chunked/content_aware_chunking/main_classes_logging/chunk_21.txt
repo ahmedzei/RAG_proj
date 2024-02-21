@@ -1,0 +1,4 @@
+We should respect the following heuristic:
+- warnings should be favored for developers of the library and libraries dependent on transformers
+- logging should be used for end-users of the library using it in every-day projects
+See reference of the captureWarnings method below.

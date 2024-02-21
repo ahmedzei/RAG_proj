@@ -1,0 +1,2 @@
+However, due to the massive number of parameters and model design, e.g., attention mechanism, ViT-based models are generally 
+times slower than lightweight convolutional networks.

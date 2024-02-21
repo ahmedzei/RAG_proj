@@ -1,0 +1,2 @@
+Model Details
+Qwen2 is a language model series including decoder language models of different model sizes.

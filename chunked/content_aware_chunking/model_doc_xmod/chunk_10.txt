@@ -1,0 +1,3 @@
+Usage tips
+Tips:
+- X-MOD is similar to XLM-R, but a difference is that the input language needs to be specified so that the correct language adapter can be activated.

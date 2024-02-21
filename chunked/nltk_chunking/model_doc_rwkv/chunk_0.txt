@@ -1,0 +1,5 @@
+
+RWKV
+Overview
+The RWKV model was proposed in this repo
+It suggests a tweak in the traditional Transformer attention to make it linear.

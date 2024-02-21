@@ -1,0 +1,13 @@
+For now, Transformers supports SDPA inference and training for the following architectures:
+* Bart
+* GPTBigCode
+* Falcon
+* Llama
+* Phi
+* Idefics
+* Whisper
+* Mistral
+* Mixtral
+* Qwen2
+
+FlashAttention can only be used for models with the fp16 or bf16 torch type, so make sure to cast your model to the appropriate type first.

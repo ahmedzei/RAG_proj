@@ -1,0 +1,7 @@
+Check if 🤗 Transformers has been properly installed by running the following command:
+
+python -c "from transformers import pipeline; print(pipeline('sentiment-analysis')('I love you'))"
+Editable install
+You will need an editable install if you'd like to:
+
+Use the main version of the source code.

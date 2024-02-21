@@ -1,0 +1,42 @@
+Start by defining the hyperparameters, optimizer and learning rate schedule:
+
+from transformers import create_optimizer
+batch_size = 16
+num_epochs = 5
+num_train_steps = len(food["train"]) * num_epochs
+learning_rate = 3e-5
+weight_decay_rate = 0.01
+optimizer, lr_schedule = create_optimizer(
+     init_lr=learning_rate,
+     num_train_steps=num_train_steps,
+     weight_decay_rate=weight_decay_rate,
+     num_warmup_steps=0,
+ )
+
+Then, load ViT with [TFAutoModelForImageClassification] along with the label mappings:
+
+from transformers import TFAutoModelForImageClassification
+model = TFAutoModelForImageClassification.from_pretrained(
+     checkpoint,
+     id2label=id2label,
+     label2id=label2id,
+ )
+
+Convert your datasets to the tf.data.Dataset format using the [~datasets.Dataset.to_tf_dataset] and your data_collator:
+
+converting our train dataset to tf.data.Dataset
+tf_train_dataset = food["train"].to_tf_dataset(
+     columns="pixel_values", label_cols="label", shuffle=True, batch_size=batch_size, collate_fn=data_collator
+ )
+converting our test dataset to tf.data.Dataset
+tf_eval_dataset = food["test"].to_tf_dataset(
+     columns="pixel_values", label_cols="label", shuffle=True, batch_size=batch_size, collate_fn=data_collator
+ )
+
+Configure the model for training with compile():
+
+from tensorflow.keras.losses import SparseCategoricalCrossentropy
+loss = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
+model.compile(optimizer=optimizer, loss=loss)
+
+To compute the accuracy from the predictions and push your model to the 🤗 Hub, use Keras callbacks.

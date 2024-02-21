@@ -1,0 +1,2 @@
+Multimodal
+Multimodal tasks require a model to process multiple data modalities (text, image, audio, video) to solve a particular problem.

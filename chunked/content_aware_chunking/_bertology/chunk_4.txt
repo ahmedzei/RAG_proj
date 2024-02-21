@@ -1,0 +1,2 @@
+To help you understand and use these features, we have added a specific example script: bertology.py while extract information and prune a model pre-trained on
+GLUE.

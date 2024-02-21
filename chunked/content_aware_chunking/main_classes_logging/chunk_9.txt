@@ -1,0 +1,5 @@
+In order (from the least
+verbose to the most verbose), those levels (with their corresponding int values in parenthesis) are:
+
+transformers.logging.CRITICAL or transformers.logging.FATAL (int value, 50): only report the most
+  critical errors.

@@ -1,0 +1,3 @@
+Overview of models
+To successfully add a model, it is important to understand the interaction between your model and its config,
+[PreTrainedModel], and [PretrainedConfig].

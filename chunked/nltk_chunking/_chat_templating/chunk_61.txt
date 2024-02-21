@@ -1,0 +1,3 @@
+This ensures that when the model
+generates text it will write a bot response instead of doing something unexpected, like continuing the user's 
+message.

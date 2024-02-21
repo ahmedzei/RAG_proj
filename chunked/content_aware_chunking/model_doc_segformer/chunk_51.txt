@@ -1,0 +1,36 @@
+SegformerConfig
+[[autodoc]] SegformerConfig
+SegformerFeatureExtractor
+[[autodoc]] SegformerFeatureExtractor
+    - call
+    - post_process_semantic_segmentation
+SegformerImageProcessor
+[[autodoc]] SegformerImageProcessor
+    - preprocess
+    - post_process_semantic_segmentation
+
+SegformerModel
+[[autodoc]] SegformerModel
+    - forward
+SegformerDecodeHead
+[[autodoc]] SegformerDecodeHead
+    - forward
+SegformerForImageClassification
+[[autodoc]] SegformerForImageClassification
+    - forward
+SegformerForSemanticSegmentation
+[[autodoc]] SegformerForSemanticSegmentation
+    - forward
+
+TFSegformerDecodeHead
+[[autodoc]] TFSegformerDecodeHead
+    - call
+TFSegformerModel
+[[autodoc]] TFSegformerModel
+    - call
+TFSegformerForImageClassification
+[[autodoc]] TFSegformerForImageClassification
+    - call
+TFSegformerForSemanticSegmentation
+[[autodoc]] TFSegformerForSemanticSegmentation
+    - call

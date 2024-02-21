@@ -1,0 +1,2 @@
+We are going to solve that by having the webserver handle the light load of receiving
+and sending requests, and having a single thread handling the actual work.

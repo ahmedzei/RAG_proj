@@ -1,0 +1,2 @@
+Nested quantization
+Nested quantization is a technique that can save additional memory at no additional performance cost.

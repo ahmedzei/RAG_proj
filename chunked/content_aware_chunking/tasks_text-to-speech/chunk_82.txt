@@ -1,0 +1,2 @@
+Depending on your GPU, 
+it is possible that you will encounter a CUDA "out-of-memory" error when you start training.

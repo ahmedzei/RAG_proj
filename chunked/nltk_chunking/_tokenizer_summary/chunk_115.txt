@@ -1,0 +1,2 @@
+Unigram saves the probability of each token in the training corpus on top of saving the vocabulary so that
+the probability of each possible tokenization can be computed after training.

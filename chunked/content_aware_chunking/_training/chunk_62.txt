@@ -1,0 +1,1 @@
+If all the samples in your dataset are the same length and no padding is necessary, you can skip this argument.

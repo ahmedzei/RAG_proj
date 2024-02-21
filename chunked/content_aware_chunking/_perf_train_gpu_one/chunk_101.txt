@@ -1,0 +1,3 @@
+Data preloading
+One of the important requirements to reach great training speed is the ability to feed the GPU at the maximum speed it 
+can handle.

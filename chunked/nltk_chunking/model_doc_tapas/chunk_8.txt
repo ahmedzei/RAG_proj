@@ -1,0 +1,1 @@
+To alleviate the collection cost of full logical forms, one popular approach focuses on weak supervision consisting of denotations instead of logical forms.

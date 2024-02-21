@@ -1,0 +1,4 @@
+
+Informer
+Overview
+The Informer model was proposed in Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting by Haoyi Zhou, Shanghang Zhang, Jieqi Peng, Shuai Zhang, Jianxin Li, Hui Xiong, and Wancai Zhang.

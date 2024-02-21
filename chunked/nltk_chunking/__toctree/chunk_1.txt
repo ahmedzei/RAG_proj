@@ -1,0 +1,2 @@
+local: add_new_model
+    title: How to add a model to 🤗 Transformers?

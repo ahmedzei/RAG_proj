@@ -1,0 +1,1 @@
+The portion of the unlabeled data that the model predicts with the most confidence gets added to the labeled dataset and used to retrain the model.

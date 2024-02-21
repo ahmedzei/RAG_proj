@@ -1,0 +1,7 @@
+Most related papers and implementations are built around Tensorflow/TPUs:
+
+GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding
+Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity
+GLaM: Generalist Language Model (GLaM)
+
+And for Pytorch DeepSpeed has built one as well: DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale, Mixture of Experts - blog posts:  1, 2 and specific deployment with large transformer-based natural language generation models: blog post, Megatron-Deepspeed branch.

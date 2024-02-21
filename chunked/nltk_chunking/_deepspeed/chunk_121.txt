@@ -1,0 +1,1 @@
+You can control it from the [Trainer] by setting --tf32 to enable it, and --tf32 0 or --no_tf32 to disable it.

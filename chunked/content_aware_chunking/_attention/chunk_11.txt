@@ -1,0 +1,3 @@
+Also, by stacking attention layers that have a small
+window, the last layer will have a receptive field of more than just the tokens in the window, allowing them to build a
+representation of the whole sentence.

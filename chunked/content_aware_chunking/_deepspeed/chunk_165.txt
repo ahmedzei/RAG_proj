@@ -1,0 +1,1 @@
+By default, DeepSpeed expects your multi-node environment to use a shared storage.

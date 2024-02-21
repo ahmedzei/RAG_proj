@@ -1,0 +1,2 @@
+So we are shrinking the sequence length at the cost of a bigger
+  embedding matrix.

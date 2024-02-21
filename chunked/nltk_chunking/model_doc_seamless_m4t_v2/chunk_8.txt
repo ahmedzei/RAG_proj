@@ -1,0 +1,1 @@
+First, we contribute an improved version of the massively multilingual and multimodal SeamlessM4T model—SeamlessM4T v2.

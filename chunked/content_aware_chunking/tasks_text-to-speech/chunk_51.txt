@@ -1,0 +1,2 @@
+To generate these speaker embeddings, use the pre-trained spkrec-xvect-voxceleb 
+model from SpeechBrain.

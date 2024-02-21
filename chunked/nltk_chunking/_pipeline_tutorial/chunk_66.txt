@@ -1,0 +1,11 @@
+",
+ )
+[{'score': 0.42515, 'answer': 'us-001', 'start': 16, 'end': 16}]
+
+To run the example above you need to have pytesseract installed in addition to 🤗 Transformers:
+
+sudo apt install -y tesseract-ocr
+pip install pytesseract
+
+Using pipeline on large models with 🤗 accelerate:
+You can easily run pipeline on large models using 🤗 accelerate!

@@ -1,0 +1,7 @@
+Usage example
+thon
+
+from transformers import HerbertTokenizer, RobertaModel
+tokenizer = HerbertTokenizer.from_pretrained("allegro/herbert-klej-cased-tokenizer-v1")
+model = RobertaModel.from_pretrained("allegro/herbert-klej-cased-v1")
+encoded_input = tokenizer.encode("Kto ma lepszą sztukę, ma lepszy rząd – to jasne.

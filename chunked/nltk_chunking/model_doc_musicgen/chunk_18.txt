@@ -1,0 +1,2 @@
+In practice, sampling leads to significantly
+better results than greedy, thus we encourage sampling mode to be used where possible.

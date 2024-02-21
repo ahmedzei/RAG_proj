@@ -1,0 +1,1 @@
+However, most Transformer models continued to trend towards more parameters, leading to new models focused on improving training efficiency.

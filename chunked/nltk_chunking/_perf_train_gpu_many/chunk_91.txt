@@ -1,0 +1,2 @@
+Now the loss can be 
+computed and the optimizer can do its work.

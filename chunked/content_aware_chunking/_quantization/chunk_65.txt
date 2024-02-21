@@ -1,0 +1,1 @@
+This overwrites the attributes related to the ExLlama kernels in the quantization config of the config.json file.

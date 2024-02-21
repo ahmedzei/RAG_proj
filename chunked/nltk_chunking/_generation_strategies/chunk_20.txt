@@ -1,0 +1,4 @@
+Some of the
+commonly adjusted parameters include:
+
+max_new_tokens: the maximum number of tokens to generate.

@@ -1,0 +1,1 @@
+Persimmon-8B is a fully permissively-licensed model with approximately 8 billion parameters, released under the Apache license.

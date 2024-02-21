@@ -1,0 +1,1 @@
+This is because there are other components that also require memory storage.

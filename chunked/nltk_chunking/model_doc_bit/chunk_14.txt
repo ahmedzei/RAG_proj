@@ -1,0 +1,2 @@
+The authors show that the combination of both is useful for training with large batch sizes, and has a significant
+impact on transfer learning.

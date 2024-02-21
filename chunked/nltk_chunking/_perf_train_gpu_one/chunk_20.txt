@@ -1,0 +1,2 @@
+For instance, for fp16 data type a multiple of 8 is recommended, unless 
+it's an A100 GPU, in which case use multiples of 64.

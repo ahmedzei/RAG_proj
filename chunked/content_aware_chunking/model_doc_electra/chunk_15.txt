@@ -1,0 +1,3 @@
+Usage tips
+
+ELECTRA is the pretraining approach, therefore there is nearly no changes done to the underlying model: BERT.

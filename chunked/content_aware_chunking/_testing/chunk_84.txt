@@ -1,0 +1,5 @@
+You will need at least 2 GPUs to see these tests in action:
+
+CUDA_VISIBLE_DEVICES=0,1 RUN_SLOW=1 pytest -sv tests/test_trainer_distributed.py
+Output capture
+During test execution any output sent to stdout and stderr is captured.

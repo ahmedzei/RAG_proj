@@ -1,0 +1,2 @@
+Every token with a non-zero probability has a chance of being selected, thus reducing the
+risk of repetition.

@@ -1,0 +1,2 @@
+As you can see, only 2 inputs are required for the model in order to compute a loss: pixel_values (which are the
+images) and labels (which are the input_ids of the encoded target sequence).

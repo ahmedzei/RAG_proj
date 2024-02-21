@@ -1,0 +1,1 @@
+The sigmoid cross-entropy and dice loss is calculated between the logits and the ground truth mask to find the most likely mask.

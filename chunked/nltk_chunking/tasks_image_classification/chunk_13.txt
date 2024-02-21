@@ -1,0 +1,3 @@
+return tf.expand_dims(tf_image, 0)
+def preprocess_train(example_batch):
+     """Apply train_transforms across a batch."""

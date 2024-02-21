@@ -1,0 +1,1 @@
+For the LLM to understand sentence order, an additional cue is needed and is usually applied in the form of positional encodings (or also called positional embeddings).

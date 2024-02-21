@@ -1,0 +1,1 @@
+For example torch.cuda.manual_seed may need to be replaced with a device-specific seed setter like torch.npu.manual_seed to correctly set a random seed on the device.

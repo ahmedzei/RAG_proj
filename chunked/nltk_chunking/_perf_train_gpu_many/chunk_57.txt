@@ -1,0 +1,3 @@
+Then, at 
+run-time when the full layer parameters are needed just for the given layer, all GPUs synchronize to give each other 
+parts that they miss.

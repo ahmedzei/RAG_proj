@@ -1,0 +1,4 @@
+Usage tips
+
+Wav2Vec2-Conformer follows the same architecture as Wav2Vec2, but replaces the Attention-block with a Conformer-block
+  as introduced in Conformer: Convolution-augmented Transformer for Speech Recognition.

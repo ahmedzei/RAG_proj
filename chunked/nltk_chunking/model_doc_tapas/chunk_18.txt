@@ -1,0 +1,1 @@
+For more details, see their follow-up paper: Understanding tables with intermediate pre-training by Julian Martin Eisenschlos, Syrine Krichene and Thomas Müller.

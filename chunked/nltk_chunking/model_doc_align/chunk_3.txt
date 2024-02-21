@@ -1,0 +1,1 @@
+ALIGN features a dual-encoder architecture with EfficientNet as its vision encoder and BERT as its text encoder, and learns to align visual and text representations with contrastive learning.

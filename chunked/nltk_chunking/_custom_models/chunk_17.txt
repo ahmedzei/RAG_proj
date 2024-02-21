@@ -1,0 +1,2 @@
+The inheritance is to make sure you get all the functionality from the 🤗 Transformers library, while the two other
+constraints come from the fact a PretrainedConfig has more fields than the ones you are setting.

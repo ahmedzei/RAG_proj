@@ -1,0 +1,5 @@
+Usage
+Currently 6 checkpoints are available for MatCha:
+
+google/matcha: the base MatCha model, used to fine-tune MatCha on downstream tasks
+google/matcha-chartqa: MatCha model fine-tuned on ChartQA dataset.

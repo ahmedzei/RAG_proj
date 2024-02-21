@@ -1,0 +1,9 @@
+from transformers import AutoModelForObjectDetection
+model = AutoModelForObjectDetection.from_pretrained(
+     checkpoint,
+     id2label=id2label,
+     label2id=label2id,
+     ignore_mismatched_sizes=True,
+ )
+
+In the [TrainingArguments] use output_dir to specify where to save your model, then configure hyperparameters as you see fit.

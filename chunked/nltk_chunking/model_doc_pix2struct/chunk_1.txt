@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+
+Visually-situated language is ubiquitous -- sources range from textbooks with diagrams to web pages with images and tables, to mobile apps with buttons and forms.

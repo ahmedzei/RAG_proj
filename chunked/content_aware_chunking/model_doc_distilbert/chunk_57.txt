@@ -1,0 +1,67 @@
+encoded_input = tokenizer(text, return_tensors='pt').to(device)
+model.to(device)
+output = model(**encoded_input)
+
+DistilBertConfig
+[[autodoc]] DistilBertConfig
+DistilBertTokenizer
+[[autodoc]] DistilBertTokenizer
+DistilBertTokenizerFast
+[[autodoc]] DistilBertTokenizerFast
+
+DistilBertModel
+[[autodoc]] DistilBertModel
+    - forward
+DistilBertForMaskedLM
+[[autodoc]] DistilBertForMaskedLM
+    - forward
+DistilBertForSequenceClassification
+[[autodoc]] DistilBertForSequenceClassification
+    - forward
+DistilBertForMultipleChoice
+[[autodoc]] DistilBertForMultipleChoice
+    - forward
+DistilBertForTokenClassification
+[[autodoc]] DistilBertForTokenClassification
+    - forward
+DistilBertForQuestionAnswering
+[[autodoc]] DistilBertForQuestionAnswering
+    - forward
+
+TFDistilBertModel
+[[autodoc]] TFDistilBertModel
+    - call
+TFDistilBertForMaskedLM
+[[autodoc]] TFDistilBertForMaskedLM
+    - call
+TFDistilBertForSequenceClassification
+[[autodoc]] TFDistilBertForSequenceClassification
+    - call
+TFDistilBertForMultipleChoice
+[[autodoc]] TFDistilBertForMultipleChoice
+    - call
+TFDistilBertForTokenClassification
+[[autodoc]] TFDistilBertForTokenClassification
+    - call
+TFDistilBertForQuestionAnswering
+[[autodoc]] TFDistilBertForQuestionAnswering
+    - call
+
+FlaxDistilBertModel
+[[autodoc]] FlaxDistilBertModel
+    - call
+FlaxDistilBertForMaskedLM
+[[autodoc]] FlaxDistilBertForMaskedLM
+    - call
+FlaxDistilBertForSequenceClassification
+[[autodoc]] FlaxDistilBertForSequenceClassification
+    - call
+FlaxDistilBertForMultipleChoice
+[[autodoc]] FlaxDistilBertForMultipleChoice
+    - call
+FlaxDistilBertForTokenClassification
+[[autodoc]] FlaxDistilBertForTokenClassification
+    - call
+FlaxDistilBertForQuestionAnswering
+[[autodoc]] FlaxDistilBertForQuestionAnswering
+    - call

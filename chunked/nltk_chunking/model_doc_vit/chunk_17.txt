@@ -1,0 +1,2 @@
+Vision Transformers trained using
+  the DINO method show very interesting properties not seen with convolutional models.

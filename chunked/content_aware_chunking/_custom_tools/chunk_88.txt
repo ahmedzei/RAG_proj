@@ -1,0 +1,6 @@
+py
+agent.run("Create an image of a tree", return_code=True)
+gives:
+``text
+==Explanation from the agent==
+I will use the following toolimage_generator` to generate an image of a tree.

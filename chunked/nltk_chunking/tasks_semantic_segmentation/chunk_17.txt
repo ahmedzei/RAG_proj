@@ -1,0 +1,1 @@
+For the test set, the image processor crops and normalizes the images, and only crops the labels because no data augmentation is applied during testing.

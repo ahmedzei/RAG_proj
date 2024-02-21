@@ -1,0 +1,1 @@
+You can check out this checkpoint which was obtained by fine-tuning MCG-NJU/videomae-base-finetuned-kinetics.

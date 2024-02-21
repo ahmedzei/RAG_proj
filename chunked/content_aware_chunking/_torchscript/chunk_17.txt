@@ -1,0 +1,3 @@
+It is therefore constrained by
+the dimensions of the dummy input, and will not work for any other sequence length or
+batch size.

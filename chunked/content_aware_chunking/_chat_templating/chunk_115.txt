@@ -1,0 +1,1 @@
+Before the introduction of chat templates, chat handling was hardcoded at the model class level.

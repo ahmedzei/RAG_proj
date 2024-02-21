@@ -1,0 +1,4 @@
+Recommended posts for learning more about XLA and TensorFlow graphs in general:
+XLA: Optimizing Compiler for Machine Learning
+Introduction to graphs and tf.function
+Better performance with tf.function

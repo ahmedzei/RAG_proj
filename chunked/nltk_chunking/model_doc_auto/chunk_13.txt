@@ -1,0 +1,36 @@
+AutoModelForDepthEstimation
+[[autodoc]] AutoModelForDepthEstimation
+AutoModelForImageClassification
+[[autodoc]] AutoModelForImageClassification
+TFAutoModelForImageClassification
+[[autodoc]] TFAutoModelForImageClassification
+FlaxAutoModelForImageClassification
+[[autodoc]] FlaxAutoModelForImageClassification
+AutoModelForVideoClassification
+[[autodoc]] AutoModelForVideoClassification
+AutoModelForMaskedImageModeling
+[[autodoc]] AutoModelForMaskedImageModeling
+TFAutoModelForMaskedImageModeling
+[[autodoc]] TFAutoModelForMaskedImageModeling
+AutoModelForObjectDetection
+[[autodoc]] AutoModelForObjectDetection
+AutoModelForImageSegmentation
+[[autodoc]] AutoModelForImageSegmentation
+AutoModelForImageToImage
+[[autodoc]] AutoModelForImageToImage
+AutoModelForSemanticSegmentation
+[[autodoc]] AutoModelForSemanticSegmentation
+TFAutoModelForSemanticSegmentation
+[[autodoc]] TFAutoModelForSemanticSegmentation
+AutoModelForInstanceSegmentation
+[[autodoc]] AutoModelForInstanceSegmentation
+AutoModelForUniversalSegmentation
+[[autodoc]] AutoModelForUniversalSegmentation
+AutoModelForZeroShotImageClassification
+[[autodoc]] AutoModelForZeroShotImageClassification
+TFAutoModelForZeroShotImageClassification
+[[autodoc]] TFAutoModelForZeroShotImageClassification
+AutoModelForZeroShotObjectDetection
+[[autodoc]] AutoModelForZeroShotObjectDetection
+Audio
+The following auto classes are available for the following audio tasks.

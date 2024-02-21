@@ -1,0 +1,8 @@
+Load SegFormer with [AutoModelForSemanticSegmentation], and pass the model the mapping between label ids and label classes:
+
+from transformers import AutoModelForSemanticSegmentation, TrainingArguments, Trainer
+model = AutoModelForSemanticSegmentation.from_pretrained(checkpoint, id2label=id2label, label2id=label2id)
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [TrainingArguments].

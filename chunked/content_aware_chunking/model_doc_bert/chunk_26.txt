@@ -1,0 +1,1 @@
+A notebook for Finetuning BERT for named-entity recognition using only the first wordpiece of each word in the word label during tokenization.

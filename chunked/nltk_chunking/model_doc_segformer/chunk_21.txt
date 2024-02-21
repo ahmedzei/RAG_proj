@@ -1,0 +1,2 @@
+Next, they throw
+  away the classification head, and replace it by the all-MLP decode head.

@@ -1,0 +1,3 @@
+Usage tips
+
+Ernie-M is a BERT-like model so it is a stacked Transformer Encoder.

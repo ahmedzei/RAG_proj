@@ -1,0 +1,3 @@
+Come up with some text and two candidate answers:
+
+prompt = "France has a bread law, Le Décret Pain, with strict rules on what is allowed in a traditional baguette."

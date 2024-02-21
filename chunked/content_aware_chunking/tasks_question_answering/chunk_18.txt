@@ -1,0 +1,2 @@
+Use the [~tokenizers.Encoding.sequence_ids] method to
+   find which part of the offset corresponds to the question and which corresponds to the context.

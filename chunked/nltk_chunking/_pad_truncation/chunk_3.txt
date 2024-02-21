@@ -1,0 +1,1 @@
+Truncation works in the other direction by truncating long sequences.

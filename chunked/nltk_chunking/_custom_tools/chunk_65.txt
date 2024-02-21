@@ -1,0 +1,7 @@
+answer = image_qa(text=translated_question, image=image)
+print(f"The answer is {answer}")
+=====
+[]
+`
+Contrary, to the examples of the run prompt, each chat prompt example has one or more exchanges between the 
+Human and the Assistant.

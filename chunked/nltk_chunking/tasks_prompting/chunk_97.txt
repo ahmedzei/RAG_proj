@@ -1,0 +1,4 @@
+Advanced prompting techniques
+Few-shot prompting
+The basic prompts in the sections above are the examples of "zero-shot" prompts, meaning, the model has been given 
+instructions and context, but no examples with solutions.

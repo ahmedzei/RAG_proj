@@ -1,0 +1,2 @@
+[AutoImageProcessor] takes care of processing image data to create pixel_values, pixel_mask, and
+labels that a DETR model can train with.

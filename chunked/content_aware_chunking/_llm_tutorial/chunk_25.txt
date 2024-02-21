@@ -1,0 +1,1 @@
+Keep in mind LLMs (more precisely, decoder-only models) also return the input prompt as part of the output.

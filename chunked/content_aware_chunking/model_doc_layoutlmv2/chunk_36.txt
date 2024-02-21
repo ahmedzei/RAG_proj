@@ -1,0 +1,3 @@
+Internally, [~transformers.LayoutLMv2Model] will send the image input through its visual backbone to
+  obtain a lower-resolution feature map, whose shape is equal to the image_feature_pool_shape attribute of
+  [~transformers.LayoutLMv2Config].

@@ -1,0 +1,1 @@
+We also pass text descriptions for all items we want to query the image for.

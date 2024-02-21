@@ -1,0 +1,10 @@
+Load DistilBERT with [AutoModelForSequenceClassification] along with the number of expected labels, and the label mappings:
+
+from transformers import AutoModelForSequenceClassification, TrainingArguments, Trainer
+model = AutoModelForSequenceClassification.from_pretrained(
+     "distilbert/distilbert-base-uncased", num_labels=2, id2label=id2label, label2id=label2id
+ )
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [TrainingArguments].

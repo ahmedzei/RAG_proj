@@ -1,0 +1,1 @@
+Un-prefixed inputs behave like normal generative models.

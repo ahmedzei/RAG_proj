@@ -1,0 +1,3 @@
+Two general ways computer vision tasks can be solved are:
+
+Use convolutions to learn the hierarchical features of an image from low-level features to high-level abstract things.

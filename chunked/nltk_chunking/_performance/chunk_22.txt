@@ -1,0 +1,2 @@
+When making contributions that A is better than B, please try to include a reproducible benchmark and/or a link to the 
+source of that information (unless it comes directly from you).

@@ -1,0 +1,2 @@
+The line that sets the config_class is not mandatory, unless
+you want to register your model with the auto classes (see last section).

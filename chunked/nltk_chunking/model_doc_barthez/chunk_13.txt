@@ -1,0 +1,4 @@
+Resources
+
+BARThez can be fine-tuned on sequence-to-sequence tasks in a similar way as BART, check:
+  examples/pytorch/summarization/.

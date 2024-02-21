@@ -1,0 +1,2 @@
+A template of those model tests has already added by the
+Cookiecutter, called BrandNewBertModelIntegrationTests and only has to be filled out by you.

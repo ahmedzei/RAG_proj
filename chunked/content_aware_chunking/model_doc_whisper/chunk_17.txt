@@ -1,0 +1,1 @@
+A fork with a script to convert a Whisper model in Hugging Face format to OpenAI format.

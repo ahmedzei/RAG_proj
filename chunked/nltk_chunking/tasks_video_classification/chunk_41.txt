@@ -1,0 +1,1 @@
+So, if you want to use a custom dataset not supported off-the-shelf by PyTorchVideo, you can extend the LabeledVideoDataset class accordingly.

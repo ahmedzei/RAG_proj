@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+This paper shows that masked autoencoders (MAE) are scalable self-supervised learners for computer vision.

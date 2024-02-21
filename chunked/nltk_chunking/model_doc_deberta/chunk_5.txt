@@ -1,0 +1,2 @@
+Second, an enhanced mask decoder is used to replace the output softmax layer to
+predict the masked tokens for model pretraining.

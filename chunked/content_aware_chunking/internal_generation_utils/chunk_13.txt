@@ -1,0 +1,123 @@
+PyTorch
+[[autodoc]] AlternatingCodebooksLogitsProcessor
+    - call
+[[autodoc]] ClassifierFreeGuidanceLogitsProcessor
+    - call
+[[autodoc]] EncoderNoRepeatNGramLogitsProcessor
+    - call
+[[autodoc]] EncoderRepetitionPenaltyLogitsProcessor
+    - call
+[[autodoc]] EpsilonLogitsWarper
+    - call
+[[autodoc]] EtaLogitsWarper
+    - call
+[[autodoc]] ExponentialDecayLengthPenalty
+    - call
+[[autodoc]] ForcedBOSTokenLogitsProcessor
+    - call
+[[autodoc]] ForcedEOSTokenLogitsProcessor
+    - call
+[[autodoc]] ForceTokensLogitsProcessor
+    - call
+[[autodoc]] HammingDiversityLogitsProcessor
+    - call
+[[autodoc]] InfNanRemoveLogitsProcessor
+    - call
+[[autodoc]] LogitNormalization
+    - call
+[[autodoc]] LogitsProcessor
+    - call
+[[autodoc]] LogitsProcessorList
+    - call
+[[autodoc]] LogitsWarper
+    - call
+[[autodoc]] MinLengthLogitsProcessor
+    - call
+[[autodoc]] MinNewTokensLengthLogitsProcessor
+    - call
+[[autodoc]] NoBadWordsLogitsProcessor
+    - call
+[[autodoc]] NoRepeatNGramLogitsProcessor
+    - call
+[[autodoc]] PrefixConstrainedLogitsProcessor
+    - call
+[[autodoc]] RepetitionPenaltyLogitsProcessor
+    - call
+[[autodoc]] SequenceBiasLogitsProcessor
+    - call
+[[autodoc]] SuppressTokensAtBeginLogitsProcessor
+    - call
+[[autodoc]] SuppressTokensLogitsProcessor
+    - call
+[[autodoc]] TemperatureLogitsWarper
+    - call
+[[autodoc]] TopKLogitsWarper
+    - call
+[[autodoc]] TopPLogitsWarper
+    - call
+[[autodoc]] TypicalLogitsWarper
+    - call
+[[autodoc]] UnbatchedClassifierFreeGuidanceLogitsProcessor
+    - call
+[[autodoc]] WhisperTimeStampLogitsProcessor
+    - call
+TensorFlow
+[[autodoc]] TFForcedBOSTokenLogitsProcessor
+    - call
+[[autodoc]] TFForcedEOSTokenLogitsProcessor
+    - call
+[[autodoc]] TFForceTokensLogitsProcessor
+    - call
+[[autodoc]] TFLogitsProcessor
+    - call
+[[autodoc]] TFLogitsProcessorList
+    - call
+[[autodoc]] TFLogitsWarper
+    - call
+[[autodoc]] TFMinLengthLogitsProcessor
+    - call
+[[autodoc]] TFNoBadWordsLogitsProcessor
+    - call
+[[autodoc]] TFNoRepeatNGramLogitsProcessor
+    - call
+[[autodoc]] TFRepetitionPenaltyLogitsProcessor
+    - call
+[[autodoc]] TFSuppressTokensAtBeginLogitsProcessor
+    - call
+[[autodoc]] TFSuppressTokensLogitsProcessor
+    - call
+[[autodoc]] TFTemperatureLogitsWarper
+    - call
+[[autodoc]] TFTopKLogitsWarper
+    - call
+[[autodoc]] TFTopPLogitsWarper
+    - call
+FLAX
+[[autodoc]] FlaxForcedBOSTokenLogitsProcessor
+    - call
+[[autodoc]] FlaxForcedEOSTokenLogitsProcessor
+    - call
+[[autodoc]] FlaxForceTokensLogitsProcessor
+    - call
+[[autodoc]] FlaxLogitsProcessor
+    - call
+[[autodoc]] FlaxLogitsProcessorList
+    - call
+[[autodoc]] FlaxLogitsWarper
+    - call
+[[autodoc]] FlaxMinLengthLogitsProcessor
+    - call
+[[autodoc]] FlaxSuppressTokensAtBeginLogitsProcessor
+    - call
+[[autodoc]] FlaxSuppressTokensLogitsProcessor
+    - call
+[[autodoc]] FlaxTemperatureLogitsWarper
+    - call
+[[autodoc]] FlaxTopKLogitsWarper
+    - call
+[[autodoc]] FlaxTopPLogitsWarper
+    - call
+[[autodoc]] FlaxWhisperTimeStampLogitsProcessor
+    - call
+StoppingCriteria
+A [StoppingCriteria] can be used to change when to stop generation (other than EOS token).

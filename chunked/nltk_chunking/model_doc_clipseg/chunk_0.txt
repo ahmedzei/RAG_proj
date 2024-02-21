@@ -1,0 +1,5 @@
+
+CLIPSeg
+Overview
+The CLIPSeg model was proposed in Image Segmentation Using Text and Image Prompts by Timo Lüddecke
+and Alexander Ecker.

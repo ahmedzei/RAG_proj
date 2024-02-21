@@ -1,0 +1,2 @@
+It is a model
+trained on 138GB of French text.

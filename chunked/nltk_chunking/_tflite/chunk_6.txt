@@ -1,0 +1,2 @@
+The exported model was saved at: bert_tflite
+The example above illustrates exporting a checkpoint from 🤗 Hub.

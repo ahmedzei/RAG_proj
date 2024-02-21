@@ -1,0 +1,9 @@
+Since our model is just a wrapper around it, it's going to be
+easy to transfer those weights:
+
+import timm
+pretrained_model = timm.create_model("resnet50d", pretrained=True)
+resnet50d.model.load_state_dict(pretrained_model.state_dict())
+
+Now let's see how to make sure that when we do [~PreTrainedModel.save_pretrained] or [~PreTrainedModel.push_to_hub], the
+code of the model is saved.

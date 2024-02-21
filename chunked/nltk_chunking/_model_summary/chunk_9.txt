@@ -1,0 +1,1 @@
+ConvNeXt flipped this exchange around and incorporated design choices from Transformers to modernize a CNN.

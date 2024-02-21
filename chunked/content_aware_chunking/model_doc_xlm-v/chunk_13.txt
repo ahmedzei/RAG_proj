@@ -1,0 +1,1 @@
+XLM-V architecture is the same as XLM-RoBERTa, refer to XLM-RoBERTa documentation for API reference, and examples.

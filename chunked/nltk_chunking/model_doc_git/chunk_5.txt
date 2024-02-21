@@ -1,0 +1,1 @@
+In GIT, we simplify the architecture as one image encoder and one text decoder under a single language modeling task.

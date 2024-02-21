@@ -1,0 +1,1 @@
+Padding added by [UnivNetFeatureExtractor] can be removed from the [UnivNetModel] output through the [UnivNetFeatureExtractor.batch_decode] method, as shown in the usage example below.

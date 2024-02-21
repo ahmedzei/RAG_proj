@@ -1,0 +1,5 @@
+To port brand_new_bert, you will also need access to its original repository:
+
+git clone https://github.com/org_that_created_brand_new_bert_org/brand_new_bert.git
+cd brand_new_bert
+pip install -e .

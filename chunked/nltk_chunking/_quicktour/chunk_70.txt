@@ -1,0 +1,1 @@
+🤗 Transformers provides the [~TFPreTrainedModel.prepare_tf_dataset] method to easily load your dataset as a tf.data.Dataset so you can start training right away with Keras' compile and fit methods.

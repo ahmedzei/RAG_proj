@@ -1,0 +1,1 @@
+Since each dimension requires at least 2 GPUs, here you'd need at least 8 GPUs.

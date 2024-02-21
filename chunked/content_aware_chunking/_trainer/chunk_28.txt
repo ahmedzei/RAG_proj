@@ -1,0 +1,1 @@
+Many of the [Trainer]'s method can be subclassed and overridden to support the functionality you want, without having to rewrite the entire training loop from scratch to accommodate it.

@@ -1,0 +1,1 @@
+The most important is the TrainingArguments, which is a class that contains all the attributes to configure the training.

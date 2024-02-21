@@ -1,0 +1,6 @@
+This guide describes:
+* default generation configuration
+* common decoding strategies and their main parameters
+* saving and sharing custom generation configurations with your fine-tuned model on 🤗 Hub
+Default text generation configuration
+A decoding strategy for a model is defined in its generation configuration.

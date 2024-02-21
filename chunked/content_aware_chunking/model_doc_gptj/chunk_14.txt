@@ -1,0 +1,4 @@
+Instructions for
+  that could be found here
+
+Although the embedding matrix has a size of 50400, only 50257 entries are used by the GPT-2 tokenizer.

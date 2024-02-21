@@ -1,0 +1,1 @@
+As the first of its kind, SeamlessStreaming enables simultaneous speech-to-speech/text translation for multiple source and target languages.

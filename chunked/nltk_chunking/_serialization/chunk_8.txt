@@ -1,0 +1,2 @@
+Once exported to ONNX format, a model can be:
+- optimized for inference via techniques such as graph optimization and quantization.

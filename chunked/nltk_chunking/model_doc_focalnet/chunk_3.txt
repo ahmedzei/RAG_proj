@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+We propose focal modulation networks (FocalNets in short), where self-attention (SA) is completely replaced by a focal modulation mechanism for modeling token interactions in vision.

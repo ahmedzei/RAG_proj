@@ -1,0 +1,9 @@
+GPTSanJapaneseConfig
+[[autodoc]] GPTSanJapaneseConfig
+GPTSanJapaneseTokenizer
+[[autodoc]] GPTSanJapaneseTokenizer
+GPTSanJapaneseModel
+[[autodoc]] GPTSanJapaneseModel
+GPTSanJapaneseForConditionalGeneration
+[[autodoc]] GPTSanJapaneseForConditionalGeneration
+    - forward

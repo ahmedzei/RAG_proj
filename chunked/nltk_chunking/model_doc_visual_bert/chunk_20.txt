@@ -1,0 +1,2 @@
+They also add absolute position embeddings, and feed the resulting sequence of
+vectors to a standard BERT model.

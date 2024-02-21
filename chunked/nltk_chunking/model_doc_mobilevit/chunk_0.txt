@@ -1,0 +1,4 @@
+
+MobileViT
+Overview
+The MobileViT model was proposed in MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer by Sachin Mehta and Mohammad Rastegari.

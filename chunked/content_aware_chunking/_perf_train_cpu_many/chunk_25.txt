@@ -1,0 +1,3 @@
+For
+  distributed CPU training jobs, this typically includes PyTorch, Transformers, Intel Extension for PyTorch, Intel
+  oneCCL Bindings for PyTorch, and OpenSSH to communicate between the containers.

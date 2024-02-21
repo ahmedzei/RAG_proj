@@ -1,0 +1,4 @@
+py
+transcriber = pipeline(model="openai/whisper-large-v2", device=0)
+If the model is too large for a single GPU and you are using PyTorch, you can set device_map="auto" to automatically 
+determine how to load and store the model weights.

@@ -1,0 +1,7 @@
+import matplotlib.pyplot as plt
+plt.figure()
+plt.imshow(processed_example["labels"].T)
+plt.show()
+
+Side note: If you find this spectrogram confusing, it may be due to your familiarity with the convention of placing low frequencies 
+at the bottom and high frequencies at the top of a plot.

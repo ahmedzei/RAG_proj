@@ -1,0 +1,3 @@
+For instance, in
+Wav2Vec2ForPreTraining, the last two linear layers need to have the initialization of the regular PyTorch nn.Linear
+but all the other ones should use an initialization as above.

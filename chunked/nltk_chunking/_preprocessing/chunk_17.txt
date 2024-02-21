@@ -1,0 +1,1 @@
+attention_mask indicates whether a token should be attended to or not.

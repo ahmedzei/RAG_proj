@@ -1,0 +1,3 @@
+Then, we don't allow any attribute lookup or imports (which shouldn't be needed anyway for passing along 
+inputs/outputs to a small set of functions) so all the most obvious attacks (and you'd need to prompt the LLM 
+to output them anyway) shouldn't be an issue.

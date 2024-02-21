@@ -1,0 +1,4 @@
+Set the return_tensors parameter to either pt for PyTorch, or tf for TensorFlow:
+
+batch_sentences = [
+     "But what about second breakfast?

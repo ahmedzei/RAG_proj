@@ -1,0 +1,1 @@
+We are also releasing our logbook detailing the infrastructure challenges we faced, along with code for experimenting with all of the released models.

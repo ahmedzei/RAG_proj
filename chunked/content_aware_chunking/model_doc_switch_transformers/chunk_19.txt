@@ -1,0 +1,23 @@
+Resources
+
+Translation task guide
+Summarization task guide
+
+SwitchTransformersConfig
+[[autodoc]] SwitchTransformersConfig
+SwitchTransformersTop1Router
+[[autodoc]] SwitchTransformersTop1Router
+    - _compute_router_probabilities
+    - forward
+SwitchTransformersSparseMLP
+[[autodoc]] SwitchTransformersSparseMLP
+    - forward
+SwitchTransformersModel
+[[autodoc]] SwitchTransformersModel
+    - forward
+SwitchTransformersForConditionalGeneration
+[[autodoc]] SwitchTransformersForConditionalGeneration
+    - forward
+SwitchTransformersEncoderModel
+[[autodoc]] SwitchTransformersEncoderModel
+    - forward

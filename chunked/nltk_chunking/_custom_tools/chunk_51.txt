@@ -1,0 +1,4 @@
+image = image_generator("A banner showing " + answer)
+`
+The pattern the model is prompted to repeat has three parts: The task statement, the agent's explanation of 
+what it intends to do, and finally the generated code.

@@ -1,0 +1,1 @@
+FocalNets completely replace self-attention (used in models like ViT and Swin) by a focal modulation mechanism for modeling token interactions in vision.

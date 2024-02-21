@@ -1,0 +1,9 @@
+You can also do batched inference, like so:
+thon
+
+from transformers import T5Tokenizer, T5ForConditionalGeneration
+tokenizer = T5Tokenizer.from_pretrained("google-t5/t5-small")
+model = T5ForConditionalGeneration.from_pretrained("google-t5/t5-small")
+task_prefix = "translate English to German: "
+use different length sentences to test batching
+sentences = ["The house is wonderful.

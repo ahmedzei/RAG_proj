@@ -1,0 +1,2 @@
+The target sequence is shifted to the right, i.e., prepended by a
+start-sequence token and fed to the decoder using the decoder_input_ids.

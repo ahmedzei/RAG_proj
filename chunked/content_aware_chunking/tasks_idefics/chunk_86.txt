@@ -1,0 +1,2 @@
+These checkpoints are the result of fine-tuning the respective base models on a mixture of supervised and instruction 
+fine-tuning datasets, which boosts the downstream performance while making the models more usable in conversational settings.

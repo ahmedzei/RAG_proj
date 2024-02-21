@@ -1,0 +1,1 @@
+However, in assisted decoding, reducing the temperature may help improve the latency.

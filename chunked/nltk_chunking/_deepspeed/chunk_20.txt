@@ -1,0 +1,16 @@
+A general process you can use is (start with batch size of 1):
+
+enable gradient checkpointing
+try ZeRO-2
+try ZeRO-2 and offload the optimizer
+try ZeRO-3
+try ZeRO-3 and offload parameters to the CPU
+try ZeRO-3 and offload parameters and the optimizer to the CPU
+try lowering various default values like a narrower search beam if you're using the [~GenerationMixin.generate] method
+try mixed half-precision (fp16 on older GPU architectures and bf16 on Ampere) over full-precision weights
+add more hardware if possible or enable Infinity to offload parameters and the optimizer to a NVMe
+once you're not running out of memory, measure effective throughput and then try to increase the batch size as large as you can to maximize GPU efficiency
+lastly, try to optimize your training setup by disabling some offload features or use a faster ZeRO stage and increasing/decreasing the batch size to find the best tradeoff between speed and memory usage
+
+DeepSpeed configuration file
+DeepSpeed works with the [Trainer] class by way of a config file containing all the parameters for configuring how you want setup your training run.

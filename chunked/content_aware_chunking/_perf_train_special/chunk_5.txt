@@ -1,0 +1,1 @@
+To avoid this, you should set the environment variable PYTORCH_ENABLE_MPS_FALLBACK=1 to use the CPU kernels instead (you'll still see a UserWarning).

@@ -1,0 +1,4 @@
+
+FocalNet
+Overview
+The FocalNet model was proposed in Focal Modulation Networks by Jianwei Yang, Chunyuan Li, Xiyang Dai, Lu Yuan, Jianfeng Gao.

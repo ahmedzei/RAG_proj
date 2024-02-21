@@ -1,0 +1,2 @@
+It also has the added benefit of predicting punctuation and casing, neither of which are possible with
+Wav2Vec2.

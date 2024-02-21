@@ -1,0 +1,2 @@
+The third part includes a set of curated examples that show the agent exactly what code it should produce
+for what kind of user request.

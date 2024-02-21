@@ -1,0 +1,1 @@
+Extensive experiments show the superiority of EfficientFormer in performance and speed on mobile devices.

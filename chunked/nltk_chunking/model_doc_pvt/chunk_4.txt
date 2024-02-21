@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+Although convolutional neural networks (CNNs) have achieved great success in computer vision, this work investigates a 
+simpler, convolution-free backbone network useful for many dense prediction tasks.

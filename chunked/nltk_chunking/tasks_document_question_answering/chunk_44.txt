@@ -1,0 +1,1 @@
+If more than one match was found, the function will return only the first one.

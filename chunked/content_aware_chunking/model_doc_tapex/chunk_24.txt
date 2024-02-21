@@ -1,0 +1,10 @@
+thon
+
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+import pandas as pd
+tokenizer = AutoTokenizer.from_pretrained("microsoft/tapex-large-finetuned-wtq")
+model = AutoModelForSeq2SeqLM.from_pretrained("microsoft/tapex-large-finetuned-wtq")
+prepare table + question
+data = {"Actors": ["Brad Pitt", "Leonardo Di Caprio", "George Clooney"], "Number of movies": ["87", "53", "69"]}
+table = pd.DataFrame.from_dict(data)
+question = "how many movies does Leonardo Di Caprio have?"

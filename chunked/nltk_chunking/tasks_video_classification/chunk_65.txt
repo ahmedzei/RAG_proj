@@ -1,0 +1,1 @@
+Each batch consists of 2 keys, namely pixel_values and labels.

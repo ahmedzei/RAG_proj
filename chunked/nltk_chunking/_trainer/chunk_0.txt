@@ -1,0 +1,3 @@
+
+Trainer
+The [Trainer] is a complete training and evaluation loop for PyTorch models implemented in the Transformers library.

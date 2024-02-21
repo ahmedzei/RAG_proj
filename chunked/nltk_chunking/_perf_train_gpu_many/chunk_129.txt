@@ -1,0 +1,1 @@
+🤗 Transformers status: as of this writing none of the models supports full-PP.

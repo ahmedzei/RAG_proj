@@ -1,0 +1,1 @@
+The following table summarizes the recommended way to setup padding and truncation.

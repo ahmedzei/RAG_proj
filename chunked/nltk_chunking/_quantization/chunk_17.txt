@@ -1,0 +1,1 @@
+Activation-aware Weight Quantization (AWQ) doesn't quantize all the weights in a model, and instead, it preserves a small percentage of weights that are important for LLM performance.

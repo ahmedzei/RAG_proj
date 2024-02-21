@@ -1,0 +1,14 @@
+Such a script could look like this (in
+pseudocode):
+python
+model = BrandNewBertModel.load_pretrained_checkpoint("/path/to/checkpoint/")
+input_ids = [0, 4, 5, 2, 3, 7, 9]  # vector of input ids
+original_output = model.predict(input_ids)
+Next, regarding the debugging strategy, there are generally a few from which to choose from:
+
+Decompose the original model into many small testable components and run a forward pass on each of those for
+  verification
+Decompose the original model only into the original tokenizer and the original model, run a forward pass on
+  those, and use intermediate print statements or breakpoints for verification
+
+Again, it is up to you which strategy to choose.

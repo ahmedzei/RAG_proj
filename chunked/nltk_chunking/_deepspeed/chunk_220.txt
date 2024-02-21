@@ -1,0 +1,5 @@
+!/usr/bin/env python
+This script demonstrates how to use Deepspeed ZeRO in an inference mode when one can't fit a model
+into a single GPU
+
+1.

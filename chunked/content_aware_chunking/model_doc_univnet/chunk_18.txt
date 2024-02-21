@@ -1,0 +1,1 @@
+Padding the end of each waveform with silence can reduce artifacts at the end of the generated audio sample.

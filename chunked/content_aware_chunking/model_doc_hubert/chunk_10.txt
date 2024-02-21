@@ -1,0 +1,24 @@
+Resources
+
+Audio classification task guide
+Automatic speech recognition task guide
+
+HubertConfig
+[[autodoc]] HubertConfig
+
+HubertModel
+[[autodoc]] HubertModel
+    - forward
+HubertForCTC
+[[autodoc]] HubertForCTC
+    - forward
+HubertForSequenceClassification
+[[autodoc]] HubertForSequenceClassification
+    - forward
+
+TFHubertModel
+[[autodoc]] TFHubertModel
+    - call
+TFHubertForCTC
+[[autodoc]] TFHubertForCTC
+    - call

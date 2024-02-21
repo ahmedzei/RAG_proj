@@ -1,0 +1,2 @@
+Refer to BART documentation for information on 
+configuration classes and their parameters.

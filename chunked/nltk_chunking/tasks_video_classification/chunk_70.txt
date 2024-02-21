@@ -1,0 +1,12 @@
+Instantiate a pipeline for video classification with your model, and pass your video to it:
+
+from transformers import pipeline
+video_cls = pipeline(model="my_awesome_video_cls_model")
+video_cls("https://huggingface.co/datasets/sayakpaul/ucf101-subset/resolve/main/v_BasketballDunk_g14_c06.avi")
+[{'score': 0.9272987842559814, 'label': 'BasketballDunk'},
+ {'score': 0.017777055501937866, 'label': 'BabyCrawling'},
+ {'score': 0.01663011871278286, 'label': 'BalanceBeam'},
+ {'score': 0.009560945443809032, 'label': 'BandMarching'},
+ {'score': 0.0068979403004050255, 'label': 'BaseballPitch'}]
+
+You can also manually replicate the results of the pipeline if you'd like.

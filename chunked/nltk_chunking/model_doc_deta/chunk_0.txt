@@ -1,0 +1,4 @@
+
+DETA
+Overview
+The DETA model was proposed in NMS Strikes Back by Jeffrey Ouyang-Zhang, Jang Hyun Cho, Xingyi Zhou, Philipp Krähenbühl.

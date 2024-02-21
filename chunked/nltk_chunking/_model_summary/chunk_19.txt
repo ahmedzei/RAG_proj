@@ -1,0 +1,1 @@
+Attention is only computed within a local window, and the window is shifted between attention layers to create connections to help the model learn better.

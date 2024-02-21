@@ -1,0 +1,1 @@
+Set device_map="auto" to automatically offload the model to a CPU to help fit the model in memory, and allow the model modules to be moved between the CPU and GPU for quantization.

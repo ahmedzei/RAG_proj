@@ -1,0 +1,1 @@
+4-bit quantization compresses a model even further, and it is commonly used with QLoRA to finetune quantized LLMs.

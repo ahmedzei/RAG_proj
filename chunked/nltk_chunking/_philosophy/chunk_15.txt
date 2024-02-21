@@ -1,0 +1,1 @@
+Easily switch between PyTorch, TensorFlow 2.0 and Flax, allowing training with one framework and inference with another.

@@ -1,0 +1,2 @@
+The [ViTImageProcessor/DeiTImageProcessor] class is responsible for preprocessing the input image and
+[RobertaTokenizer/XLMRobertaTokenizer] decodes the generated target tokens to the target string.

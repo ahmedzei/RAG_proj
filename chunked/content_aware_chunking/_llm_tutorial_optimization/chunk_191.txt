@@ -1,0 +1,1 @@
+By doing so, the propability score between \( \mathbf{q}_i \) and \( \mathbf{q}_j \) is only affected if \( i \ne j \) and solely depends on the relative distance \( i - j \) regardless of each vector's specific positions \( i \) and \( j \) .

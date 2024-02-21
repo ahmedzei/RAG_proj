@@ -1,0 +1,1 @@
+Finally, all of the embeddings are passed to the Transformer encoder.

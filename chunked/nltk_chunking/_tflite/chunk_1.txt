@@ -1,0 +1,2 @@
+TFLite is designed to optimize and run models efficiently on these devices with limited computational power, memory, and 
+power consumption.

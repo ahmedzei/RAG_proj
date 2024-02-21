@@ -1,0 +1,3 @@
+Model Inference
+Point Prompting
+You can also use the model without the pipeline.

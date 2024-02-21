@@ -1,0 +1,3 @@
+The
+resulting model is fine-tuned on labeled data and experiments show that cross-lingual pretraining significantly
+outperforms monolingual pretraining.

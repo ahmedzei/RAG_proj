@@ -1,0 +1,1 @@
+In general, most neural network code obeys rule #2 by default.

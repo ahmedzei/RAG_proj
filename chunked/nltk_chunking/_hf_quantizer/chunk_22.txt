@@ -1,0 +1,1 @@
+You might need to define some new utility methods such as is_auto_awq_available in transformers/src/utils/import_utils.py.

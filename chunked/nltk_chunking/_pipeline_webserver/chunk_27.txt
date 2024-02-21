@@ -1,0 +1,2 @@
+It means they 
+return proper errors when they're overloaded instead of just waiting for the query indefinitely.

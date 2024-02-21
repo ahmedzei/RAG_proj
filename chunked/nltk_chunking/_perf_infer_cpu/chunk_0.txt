@@ -1,0 +1,3 @@
+
+CPU inference
+With some optimizations, it is possible to efficiently run large model inference on a CPU.

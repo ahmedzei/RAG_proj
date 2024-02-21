@@ -1,0 +1,3 @@
+During 
+inference, the text encodings are up-sampled based on the duration prediction module, and then mapped into the 
+waveform using a cascade of the flow module and HiFi-GAN decoder.

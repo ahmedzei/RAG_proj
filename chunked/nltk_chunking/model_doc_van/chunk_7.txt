@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+While originally designed for natural language processing tasks, the self-attention mechanism has recently taken various computer vision areas by storm.

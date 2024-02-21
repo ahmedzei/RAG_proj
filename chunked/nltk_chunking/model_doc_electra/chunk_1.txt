@@ -1,0 +1,2 @@
+ELECTRA is a new pretraining approach which trains two
+transformer models: the generator and the discriminator.

@@ -1,0 +1,1 @@
+Both tokenizers support common methods such as encoding and decoding, adding new tokens, and managing special tokens.

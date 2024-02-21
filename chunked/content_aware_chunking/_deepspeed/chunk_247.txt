@@ -1,0 +1,2 @@
+DeepSpeed process killed at startup
+When the DeepSpeed process is killed during launch without a traceback, that usually means the program tried to allocate more CPU memory than your system has or your process tried to allocate more CPU memory than allowed leading the OS kernel to terminate the process.

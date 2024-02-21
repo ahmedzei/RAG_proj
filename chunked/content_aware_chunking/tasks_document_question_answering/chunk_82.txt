@@ -1,0 +1,2 @@
+If you'd like to implement it yourself, check out the Question Answering chapter
+of the Hugging Face course for inspiration.

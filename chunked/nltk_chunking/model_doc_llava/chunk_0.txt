@@ -1,0 +1,4 @@
+
+LLaVa
+Overview
+LLaVa is an open-source chatbot trained by fine-tuning LlamA/Vicuna on GPT-generated multimodal instruction-following data.

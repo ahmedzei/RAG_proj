@@ -1,0 +1,2 @@
+It's an
+encoder-decoder transformer pre-trained in a text-to-text denoising generative setting.

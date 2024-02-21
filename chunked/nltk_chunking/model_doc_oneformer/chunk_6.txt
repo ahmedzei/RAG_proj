@@ -1,0 +1,1 @@
+Ideally, a truly universal framework should be trained only once and achieve SOTA performance across all three image segmentation tasks.

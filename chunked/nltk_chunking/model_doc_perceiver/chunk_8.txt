@@ -1,0 +1,2 @@
+While the Perceiver supports many kinds of
+inputs, it can only produce very simple outputs such as class scores.

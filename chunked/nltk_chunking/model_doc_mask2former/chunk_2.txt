@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Image segmentation groups pixels with different semantics, e.g., category or instance membership.

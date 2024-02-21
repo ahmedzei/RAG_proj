@@ -1,0 +1,1 @@
+You should also set the model.config.pad_token_id.

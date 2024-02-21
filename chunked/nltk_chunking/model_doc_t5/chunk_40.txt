@@ -1,0 +1,2 @@
+One can use [T5ForConditionalGeneration] (or the Tensorflow/Flax variant), which includes the
+language modeling head on top of the decoder.

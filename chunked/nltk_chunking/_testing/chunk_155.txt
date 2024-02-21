@@ -1,0 +1,5 @@
+To see the use of these simply look for tiny models with:
+
+grep tiny tests examples
+Here is a an example of a script that created the tiny model
+stas/tiny-wmt19-en-de.

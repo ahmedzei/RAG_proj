@@ -1,0 +1,3 @@
+These
+[~data.processors.utils.InputExample] can be converted to
+[~data.processors.utils.InputFeatures] in order to be fed to the model.

@@ -1,0 +1,1 @@
+Spatial resolution to which the video frames will be resized.

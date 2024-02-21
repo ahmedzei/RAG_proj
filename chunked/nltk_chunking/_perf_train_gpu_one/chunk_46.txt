@@ -1,0 +1,3 @@
+Mixed precision training
+Mixed precision training is a technique that aims to optimize the computational efficiency of training models by 
+utilizing lower-precision numerical formats for certain variables.

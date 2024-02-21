@@ -1,0 +1,2 @@
+However, it could also be that
+PyTorch's implementation of a layer requires the weight to be transposed beforehand.

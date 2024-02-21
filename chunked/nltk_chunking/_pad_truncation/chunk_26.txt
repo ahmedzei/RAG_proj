@@ -1,0 +1,2 @@
+If you use pairs of input sequences in any of the following examples, you can replace truncation=True by a STRATEGY selected in
+['only_first', 'only_second', 'longest_first'], i.e.

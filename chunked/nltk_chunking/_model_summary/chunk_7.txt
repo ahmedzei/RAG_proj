@@ -1,0 +1,4 @@
+Computer vision
+
+Convolutional network
+For a long time, convolutional networks (CNNs) were the dominant paradigm for computer vision tasks until the Vision Transformer demonstrated its scalability and efficiency.

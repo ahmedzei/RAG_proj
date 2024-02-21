@@ -1,0 +1,2 @@
+google/canine-s: Pre-trained with subword loss, 12-layer,
+    768-hidden, 12-heads, 121M parameters (size ~500 MB).

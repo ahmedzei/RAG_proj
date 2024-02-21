@@ -1,0 +1,12 @@
+A composition of the following transformations are applied on the pretraining tasks for the encoder:
+
+mask random tokens (like in BERT)
+
+delete random tokens
+mask a span of k tokens with a single mask token (a span of 0 tokens is an insertion of a mask token)
+permute sentences
+rotate the document to make it start at a specific token
+
+Implementation Notes
+
+Bart doesn't use token_type_ids for sequence classification.

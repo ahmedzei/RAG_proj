@@ -1,0 +1,4 @@
+TAPAS has been fine-tuned on several datasets: 
+- SQA (Sequential Question Answering by Microsoft)
+- WTQ (Wiki Table Questions by Stanford University)
+- WikiSQL (by Salesforce).

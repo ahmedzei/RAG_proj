@@ -1,0 +1,1 @@
+As these models have increased in parameter count and depth, vocabulary size has remained largely unchanged.

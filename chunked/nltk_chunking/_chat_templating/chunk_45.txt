@@ -1,0 +1,3 @@
+In the past,
+we used to use a dedicated "ConversationalPipeline" class, but this has now been deprecated and its functionality
+has been merged into the [TextGenerationPipeline].

@@ -1,0 +1,2 @@
+But for BLOOM inference -
+which is a very large model - dynamic batching is essential to provide a decent experience for everyone.

@@ -1,0 +1,2 @@
+Usage tips
+InstructBLIP uses the same architecture as BLIP-2 with a tiny but important difference: it also feeds the text prompt (instruction) to the Q-Former.

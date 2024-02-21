@@ -1,0 +1,30 @@
+Resources
+
+Causal language modeling task guide
+Translation task guide
+Summarization task guide
+
+ProphetNetConfig
+[[autodoc]] ProphetNetConfig
+ProphetNetTokenizer
+[[autodoc]] ProphetNetTokenizer
+ProphetNet specific outputs
+[[autodoc]] models.prophetnet.modeling_prophetnet.ProphetNetSeq2SeqLMOutput
+[[autodoc]] models.prophetnet.modeling_prophetnet.ProphetNetSeq2SeqModelOutput
+[[autodoc]] models.prophetnet.modeling_prophetnet.ProphetNetDecoderModelOutput
+[[autodoc]] models.prophetnet.modeling_prophetnet.ProphetNetDecoderLMOutput
+ProphetNetModel
+[[autodoc]] ProphetNetModel
+    - forward
+ProphetNetEncoder
+[[autodoc]] ProphetNetEncoder
+    - forward
+ProphetNetDecoder
+[[autodoc]] ProphetNetDecoder
+    - forward
+ProphetNetForConditionalGeneration
+[[autodoc]] ProphetNetForConditionalGeneration
+    - forward
+ProphetNetForCausalLM
+[[autodoc]] ProphetNetForCausalLM
+    - forward

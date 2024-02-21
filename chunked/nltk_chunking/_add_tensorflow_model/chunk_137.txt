@@ -1,0 +1,3 @@
+Adding TensorFlow weights to 🤗 Hub
+Assuming that the TensorFlow model architecture is available in 🤗 Transformers, converting PyTorch weights into
+TensorFlow weights is a breeze!

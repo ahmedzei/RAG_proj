@@ -1,0 +1,1 @@
+To make batching of videos and audios possible, the authors use a pixel_mask that indicates which pixels are real/padding and audio_mask that indicates which audio values are real/padding.

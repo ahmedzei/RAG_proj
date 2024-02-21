@@ -1,0 +1,3 @@
+For translation from English to French, you should prefix your input as shown below:
+
+text = "translate English to French: Legumes share resources with nitrogen-fixing bacteria."

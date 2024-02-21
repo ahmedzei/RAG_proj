@@ -1,0 +1,7 @@
+thon
+from transformers import TimmBackboneConfig, TimmBackbone
+backbone_config = TimmBackboneConfig("resnet50")
+model = TimmBackbone(config=backbone_config)
+
+Feature extractor
+A feature extractor processes audio inputs.

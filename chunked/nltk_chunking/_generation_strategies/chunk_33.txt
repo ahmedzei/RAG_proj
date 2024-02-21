@@ -1,0 +1,17 @@
+Save a custom decoding strategy with your model
+If you would like to share your fine-tuned model with a specific generation configuration, you can:
+* Create a [GenerationConfig] class instance
+* Specify the decoding strategy parameters
+* Save your generation configuration with [GenerationConfig.save_pretrained], making sure to leave its config_file_name argument empty
+* Set push_to_hub to True to upload your config to the model's repo
+thon
+
+from transformers import AutoModelForCausalLM, GenerationConfig
+model = AutoModelForCausalLM.from_pretrained("my_account/my_model")  # doctest: +SKIP
+generation_config = GenerationConfig(
+     max_new_tokens=50, do_sample=True, top_k=50, eos_token_id=model.config.eos_token_id
+ )
+generation_config.save_pretrained("my_account/my_model", push_to_hub=True)  # doctest: +SKIP
+
+You can also store several generation configurations in a single directory, making use of the config_file_name
+argument in [GenerationConfig.save_pretrained].

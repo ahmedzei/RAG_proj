@@ -1,0 +1,3 @@
+token
+A part of a sentence, usually a word, but can also be a subword (non-common words are often split in subwords) or a
+punctuation symbol.

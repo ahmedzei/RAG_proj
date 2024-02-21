@@ -1,0 +1,4 @@
+['TRRF Vice President', 'lee a. waller']
+
+Next, instantiate a pipeline for
+document question answering with your model, and pass the image + question combination to it.

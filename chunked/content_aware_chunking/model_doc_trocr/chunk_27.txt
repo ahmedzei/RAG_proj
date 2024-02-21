@@ -1,0 +1,1 @@
+A notebook on finetune TrOCR on the IAM Handwriting Database using native PyTorch.

@@ -1,0 +1,3 @@
+Generate Outputs
+The output of [~generation.GenerationMixin.generate] is an instance of a subclass of
+[~utils.ModelOutput].

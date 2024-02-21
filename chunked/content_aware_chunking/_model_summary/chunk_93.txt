@@ -1,0 +1,1 @@
+After pretraining, an object detection head is added to make a set prediction over the (class, bounding box) pairs.

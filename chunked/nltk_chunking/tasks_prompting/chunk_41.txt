@@ -1,0 +1,4 @@
+Sentiment:
+Positive
+
+As a result, the output contains a classification label from the list we have provided in the instructions, and it is a correct one!

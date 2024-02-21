@@ -1,0 +1,1 @@
+\( \theta \) is not learned during training, but instead set to a pre-defined value that depends on the maximum input sequence length during training.

@@ -1,0 +1,3 @@
+We will actually write two: one that
+extracts the hidden features from a batch of images (like [BertModel]) and one that is suitable for image
+classification (like [BertForSequenceClassification]).

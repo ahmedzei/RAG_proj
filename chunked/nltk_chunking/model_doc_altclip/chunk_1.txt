@@ -1,0 +1,2 @@
+AltCLIP
+(Altering the Language Encoder in CLIP) is a neural network trained on a variety of image-text and text-text pairs.

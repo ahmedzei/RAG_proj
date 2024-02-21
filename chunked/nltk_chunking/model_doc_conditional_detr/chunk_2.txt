@@ -1,0 +1,1 @@
+Conditional DETR converges 6.7× to 10× faster than DETR.

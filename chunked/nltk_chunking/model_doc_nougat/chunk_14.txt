@@ -1,0 +1,3 @@
+Inference
+Nougat's [VisionEncoderDecoder] model accepts images as input and makes use of
+[~generation.GenerationMixin.generate] to autoregressively generate text given the input image.

@@ -1,0 +1,2 @@
+In this technical report, we release the
+Chinese Pre-trained Language Model (CPM) with generative pre-training on large-scale Chinese training data.

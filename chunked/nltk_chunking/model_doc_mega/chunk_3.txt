@@ -1,0 +1,2 @@
+MEGA's compute efficiency allows it to scale to very long sequences, making it an 
+attractive option for long-document NLP tasks.

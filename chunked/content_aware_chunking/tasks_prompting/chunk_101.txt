@@ -1,0 +1,1 @@
+In few-shot prompting, we provide examples in the prompt giving the model more context to improve the performance.

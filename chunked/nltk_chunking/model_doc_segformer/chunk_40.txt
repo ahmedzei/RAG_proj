@@ -1,0 +1,2 @@
+As most models, SegFormer comes in different sizes, the details of which can be found in the table below
+  (taken from Table 7 of the original paper).

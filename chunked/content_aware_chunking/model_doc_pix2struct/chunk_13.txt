@@ -1,0 +1,1 @@
+If you want to use Pix2Struct for image captioning, you should use the model fine tuned on the natural images captioning dataset and so on.

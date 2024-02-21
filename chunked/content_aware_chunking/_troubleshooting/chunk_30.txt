@@ -1,0 +1,9 @@
+attention_mask = torch.tensor([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 0]])
+output = model(input_ids, attention_mask=attention_mask)
+print(output.logits)
+tensor([[ 0.0082, -0.2307],
+        [-0.1008, -0.4061]], grad_fn=)
+
+🤗 Transformers doesn't automatically create an attention_mask to mask a padding token if it is provided because:
+
+Some models don't have a padding token.

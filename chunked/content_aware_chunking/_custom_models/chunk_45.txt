@@ -1,0 +1,2 @@
+The configuration file contains the code for ResnetConfig and the modeling file
+contains the code of ResnetModel and ResnetModelForImageClassification.

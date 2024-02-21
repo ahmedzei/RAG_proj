@@ -1,0 +1,1 @@
+This diagram is from a blog post 3D parallelism: Scaling to trillion-parameter models, which is a good read as well.

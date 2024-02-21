@@ -1,0 +1,2 @@
+A processor combines both, which is ideal
+for a multi-modal model like LayoutLMv2.

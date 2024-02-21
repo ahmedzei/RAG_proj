@@ -1,0 +1,5 @@
+Image classification task guide
+
+Semantic segmentation:
+
+[SegformerForSemanticSegmentation] is supported by this example script.

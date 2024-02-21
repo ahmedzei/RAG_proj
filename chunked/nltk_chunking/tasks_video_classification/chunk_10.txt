@@ -1,0 +1,3 @@
+Also, create two dictionaries that'll be helpful when initializing the model:
+
+label2id: maps the class names to integers.

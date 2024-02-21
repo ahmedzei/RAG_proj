@@ -1,0 +1,2 @@
+Here for instance generation_output.scores are all the generated prediction scores of the
+language modeling head, and generation_output.attentions is None.

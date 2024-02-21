@@ -1,0 +1,1 @@
+Note, however that while very effective, this naive pipeline parallelism does not tackle the issues of GPU idling.

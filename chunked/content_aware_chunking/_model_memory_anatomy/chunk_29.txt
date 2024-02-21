@@ -1,0 +1,2 @@
+So ideally we want to tune the batch size to our
+model's needs and not to the GPU limitations.

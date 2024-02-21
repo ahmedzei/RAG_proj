@@ -1,0 +1,1 @@
+The decoder hidden states are passed into a linear layer and transformed into logits over the class labels.

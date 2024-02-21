@@ -1,0 +1,4 @@
+
+Swin Transformer V2
+Overview
+The Swin Transformer V2 model was proposed in Swin Transformer V2: Scaling Up Capacity and Resolution by Ze Liu, Han Hu, Yutong Lin, Zhuliang Yao, Zhenda Xie, Yixuan Wei, Jia Ning, Yue Cao, Zheng Zhang, Li Dong, Furu Wei, Baining Guo.

@@ -1,0 +1,2 @@
+The abstract of the paper states the following:
+Visual language data such as plots, charts, and infographics are ubiquitous in the human world.

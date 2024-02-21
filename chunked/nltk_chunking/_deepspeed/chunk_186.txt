@@ -1,0 +1,1 @@
+A model trained with ZeRO-2 saves the pytorch_model.bin weights in fp16.

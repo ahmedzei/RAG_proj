@@ -1,0 +1,3 @@
+
+Run training on Amazon SageMaker
+The documentation has been moved to hf.co/docs/sagemaker.

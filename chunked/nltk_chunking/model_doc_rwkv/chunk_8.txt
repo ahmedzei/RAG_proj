@@ -1,0 +1,3 @@
+Replacing the softmax by its value gives:
+$$O_{i} = \frac{\sum_{j=1}^{i} e^{Q_{i} K_{j}^{T} / \sqrt{d}} V_{j}}{\sum_{j=1}^{i} e^{Q_{i} K_{j}^{T} / \sqrt{d}}}$$
+Note that the entries in \(QK^{T}\) corresponding to \(j > i\) are masked (the sum stops at j) because the attention is not allowed to look at future tokens (only past ones).

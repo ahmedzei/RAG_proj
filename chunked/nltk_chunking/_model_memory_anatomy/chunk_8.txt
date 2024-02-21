@@ -1,0 +1,1 @@
+That looks good: the GPU memory is not occupied as we would expect before we load any models.

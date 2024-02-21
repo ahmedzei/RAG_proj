@@ -1,0 +1,1 @@
+text-generation pipelines support max_length, truncation, padding and add_special_tokens.

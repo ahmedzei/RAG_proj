@@ -1,0 +1,3 @@
+The main change ViT introduced was in how images are fed to a Transformer:
+
+An image is split into square non-overlapping patches, each of which gets turned into a vector or patch embedding.

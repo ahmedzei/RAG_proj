@@ -1,0 +1,2 @@
+But, say, if you have 40GB cards and need to fit a 45GB model you can with 4x 40GB cards (but barely because of the gradient and optimizer states)
+- Copying shared embeddings: Shared embeddings may need to get copied back and forth between GPUs.

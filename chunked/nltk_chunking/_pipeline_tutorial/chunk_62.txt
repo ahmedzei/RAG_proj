@@ -1,0 +1,1 @@
+For example, a visual question answering (VQA) task combines text and image.

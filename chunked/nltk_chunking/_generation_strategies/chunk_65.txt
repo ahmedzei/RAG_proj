@@ -1,0 +1,4 @@
+"\n\nHe added: "I am very proud of the work I have been able to do in the last few years.\n\n"I have']
+
+Beam-search multinomial sampling
+As the name implies, this decoding strategy combines beam search with multinomial sampling.

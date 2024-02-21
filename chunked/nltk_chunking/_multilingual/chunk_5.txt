@@ -1,0 +1,1 @@
+The nine remaining model checkpoints can be split into two categories: the checkpoints that use language embeddings and those that don't.

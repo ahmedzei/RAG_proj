@@ -1,0 +1,5 @@
+
+Dilated Neighborhood Attention Transformer
+Overview
+DiNAT was proposed in Dilated Neighborhood Attention Transformer
+by Ali Hassani and Humphrey Shi.

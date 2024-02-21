@@ -1,0 +1,1 @@
+- Patch size of 4 is only supported at the moment.

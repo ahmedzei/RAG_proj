@@ -1,0 +1,2 @@
+thon
+system_prompt = """Below are a series of dialogues between various people and an AI technical assistant.

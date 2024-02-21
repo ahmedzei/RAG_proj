@@ -1,0 +1,2 @@
+It's a transformer model pretrained using a masked language
+modeling (MLM) objective (like BERT).

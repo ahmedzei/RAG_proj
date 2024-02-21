@@ -1,0 +1,2 @@
+For automatic speech recognition models, ([Wav2Vec2ForCTC]), the model expects a tensor of dimension (batch_size,
+  target_length) with each value corresponding to the expected label of each individual token.

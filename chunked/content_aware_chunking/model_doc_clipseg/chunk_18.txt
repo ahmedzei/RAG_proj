@@ -1,0 +1,2 @@
+A prompt can be either a text
+(provided to the model as input_ids) or an image (provided to the model as conditional_pixel_values).

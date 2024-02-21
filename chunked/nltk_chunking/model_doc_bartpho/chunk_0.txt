@@ -1,0 +1,4 @@
+
+BARTpho
+Overview
+The BARTpho model was proposed in BARTpho: Pre-trained Sequence-to-Sequence Models for Vietnamese by Nguyen Luong Tran, Duong Minh Le and Dat Quoc Nguyen.

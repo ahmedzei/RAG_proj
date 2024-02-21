@@ -1,0 +1,1 @@
+Image preprocessing consists of several steps that convert images into the input expected by the model.

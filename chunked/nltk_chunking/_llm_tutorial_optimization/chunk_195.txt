@@ -1,0 +1,6 @@
+ALiBi is used in multiple of today's most important LLMs, such as:
+
+MPT
+BLOOM
+
+Both RoPE and ALiBi position encodings can extrapolate to input lengths not seen during training whereas it has been shown that extrapolation works much better out-of-the-box for ALiBi as compared to RoPE.

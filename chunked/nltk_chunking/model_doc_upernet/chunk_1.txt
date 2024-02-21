@@ -1,0 +1,2 @@
+UPerNet is a general framework to effectively segment
+a wide range of concepts from images, leveraging any vision backbone like ConvNeXt or Swin.

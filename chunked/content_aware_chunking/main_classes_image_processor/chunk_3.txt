@@ -1,0 +1,8 @@
+ImageProcessingMixin
+[[autodoc]] image_processing_utils.ImageProcessingMixin
+    - from_pretrained
+    - save_pretrained
+BatchFeature
+[[autodoc]] BatchFeature
+BaseImageProcessor
+[[autodoc]] image_processing_utils.BaseImageProcessor

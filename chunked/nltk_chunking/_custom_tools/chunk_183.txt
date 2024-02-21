@@ -1,0 +1,2 @@
+In order to handle these tools,
+Langchain requires textual inputs and outputs, even when working with different modalities.

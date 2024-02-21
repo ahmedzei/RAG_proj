@@ -1,0 +1,3 @@
+The accuracy of the LSH mechanism can be improved by increasing config.num_hashes or directly the argument
+num_hashes of the forward function so that the output of the LSH self attention better approximates the output
+of the "normal" full self attention.

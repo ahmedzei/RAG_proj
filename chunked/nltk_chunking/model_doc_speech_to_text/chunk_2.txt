@@ -1,0 +1,2 @@
+It uses a convolutional downsampler to reduce the length of speech inputs by 3/4th before they are
+fed into the encoder.

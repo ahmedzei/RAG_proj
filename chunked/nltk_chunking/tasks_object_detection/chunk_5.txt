@@ -1,0 +1,17 @@
+Start by loading the dataset:
+
+from datasets import load_dataset
+cppe5 = load_dataset("cppe-5")
+cppe5
+DatasetDict({
+    train: Dataset({
+        features: ['image_id', 'image', 'width', 'height', 'objects'],
+        num_rows: 1000
+    })
+    test: Dataset({
+        features: ['image_id', 'image', 'width', 'height', 'objects'],
+        num_rows: 29
+    })
+})
+
+You'll see that this dataset already comes with a training set containing 1000 images and a test set with 29 images.

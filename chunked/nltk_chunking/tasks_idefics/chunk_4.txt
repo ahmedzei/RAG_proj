@@ -1,0 +1,2 @@
+The model accepts arbitrary sequences of image 
+and text inputs and generates coherent text as output.

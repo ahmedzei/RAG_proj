@@ -1,0 +1,3 @@
+Usage: MarkupLMProcessor
+The easiest way to prepare data for the model is to use [MarkupLMProcessor], which internally combines a feature extractor
+([MarkupLMFeatureExtractor]) and a tokenizer ([MarkupLMTokenizer] or [MarkupLMTokenizerFast]).

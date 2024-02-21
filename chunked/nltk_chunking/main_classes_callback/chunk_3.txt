@@ -1,0 +1,1 @@
+By default, TrainingArguments.report_to is set to "all", so a [Trainer] will use the following callbacks.

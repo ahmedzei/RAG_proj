@@ -1,0 +1,3 @@
+Writing good user inputs
+While large language models are getting better and better at understanding users' intentions, it helps 
+enormously to be as precise as possible to help the agent pick the correct task.

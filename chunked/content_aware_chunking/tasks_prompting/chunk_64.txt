@@ -1,0 +1,12 @@
+Summary:
+ """
+sequences = pipe(
+     prompt,
+     max_new_tokens=30,
+     do_sample=True,
+     top_k=10,
+     return_full_text = False,
+ )
+for seq in sequences:
+     print(f"{seq['generated_text']}")
+Permaculture is an ecological design mimicking natural ecosystems to meet basic needs and prepare for climate change.

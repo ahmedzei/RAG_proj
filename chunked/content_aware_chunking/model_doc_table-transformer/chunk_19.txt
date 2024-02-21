@@ -1,0 +1,8 @@
+TableTransformerConfig
+[[autodoc]] TableTransformerConfig
+TableTransformerModel
+[[autodoc]] TableTransformerModel
+    - forward
+TableTransformerForObjectDetection
+[[autodoc]] TableTransformerForObjectDetection
+    - forward

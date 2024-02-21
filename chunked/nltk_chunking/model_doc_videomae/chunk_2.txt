@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Pre-training video transformers on extra large-scale datasets is generally required to achieve premier performance on relatively small datasets.

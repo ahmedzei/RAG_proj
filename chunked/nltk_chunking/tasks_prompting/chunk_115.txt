@@ -1,0 +1,2 @@
+There are two ways of steering a model to producing the reasoning steps:
+- few-shot prompting by illustrating examples with detailed answers to questions, showing the model how to work through a problem.

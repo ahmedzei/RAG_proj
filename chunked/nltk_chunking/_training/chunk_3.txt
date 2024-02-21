@@ -1,0 +1,1 @@
+When you use a pretrained model, you train it on a dataset specific to your task.

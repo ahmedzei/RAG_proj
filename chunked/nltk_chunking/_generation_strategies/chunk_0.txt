@@ -1,0 +1,4 @@
+
+Text generation strategies
+Text generation is essential to many NLP tasks, such as open-ended text generation, summarization, translation, and
+more.

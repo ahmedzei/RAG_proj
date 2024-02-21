@@ -1,0 +1,2 @@
+Draw the predictions
+as before except now there are no labels.

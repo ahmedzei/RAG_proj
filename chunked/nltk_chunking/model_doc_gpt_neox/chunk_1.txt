@@ -1,0 +1,2 @@
+It is, to the best of our knowledge,
+the largest dense autoregressive model that has publicly available weights at the time of submission.

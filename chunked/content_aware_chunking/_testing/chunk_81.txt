@@ -1,0 +1,2 @@
+If this is attempted - the sub-processes don't do the right
+thing and end up thinking they are pytest and start running the test suite in loops.

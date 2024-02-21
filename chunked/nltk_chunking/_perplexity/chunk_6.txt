@@ -1,0 +1,1 @@
+This is also equivalent to the exponentiation of the cross-entropy between the data and model predictions.

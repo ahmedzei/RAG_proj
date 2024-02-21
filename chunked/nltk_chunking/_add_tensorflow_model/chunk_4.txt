@@ -1,0 +1,2 @@
+This guide empowers you, a member of our community, to contribute TensorFlow model weights and/or
+architectures to be used in 🤗 Transformers, with minimal supervision from the Hugging Face team.

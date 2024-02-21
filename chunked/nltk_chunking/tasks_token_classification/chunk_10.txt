@@ -1,0 +1,7 @@
+For example:
+
+example = wnut["train"][0]
+tokenized_input = tokenizer(example["tokens"], is_split_into_words=True)
+tokens = tokenizer.convert_ids_to_tokens(tokenized_input["input_ids"])
+tokens
+['[CLS]', '@', 'paul', '##walk', 'it', "'", 's', 'the', 'view', 'from', 'where', 'i', "'", 'm', 'living', 'for', 'two', 'weeks', '.

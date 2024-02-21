@@ -1,0 +1,1 @@
+In addition, we offer a synthetic data generator that helps the model pre-training to be flexible in various languages and domains.

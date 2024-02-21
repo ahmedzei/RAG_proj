@@ -1,0 +1,11 @@
+{% for message in messages %}
+    {% if message['role'] == 'user' %}
+        {{ bos_token + '[INST] ' + message['content'] + ' [/INST]' }}
+    {% elif message['role'] == 'system' %}
+        {{ '<<SYS>>\\n' + message['content'] + '\\n<</SYS>>\\n\\n' }}
+    {% elif message['role'] == 'assistant' %}
+        {{ ' '  + message['content'] + ' ' + eos_token }}
+    {% endif %}
+{% endfor %}
+Hopefully if you stare at this for a little bit you can see what this template is doing - it adds specific tokens based
+on the "role" of each message, which represents who sent it.

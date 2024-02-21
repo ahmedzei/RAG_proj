@@ -1,0 +1,4 @@
+The huge 10B model from Self-supervised Pretraining of Visual Features in the Wild, 
+trained on  one billion Instagram images, is available on the hub
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with RegNet.

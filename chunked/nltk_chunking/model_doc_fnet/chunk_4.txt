@@ -1,0 +1,4 @@
+The abstract from the
+paper is the following:
+We show that Transformer encoder architectures can be sped up, with limited accuracy costs, by replacing the
+self-attention sublayers with simple linear transformations that "mix" input tokens.

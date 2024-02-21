@@ -1,0 +1,1 @@
+When this format is not applied, you will get a silent performance degradation: the model kinda works, but not as well as if you were following the expected prompt.

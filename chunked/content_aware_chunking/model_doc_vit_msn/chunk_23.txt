@@ -1,0 +1,8 @@
+ViTMSNConfig
+[[autodoc]] ViTMSNConfig
+ViTMSNModel
+[[autodoc]] ViTMSNModel
+    - forward
+ViTMSNForImageClassification
+[[autodoc]] ViTMSNForImageClassification
+    - forward

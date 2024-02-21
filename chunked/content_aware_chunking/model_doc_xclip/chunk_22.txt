@@ -1,0 +1,20 @@
+XCLIPProcessor
+[[autodoc]] XCLIPProcessor
+XCLIPConfig
+[[autodoc]] XCLIPConfig
+    - from_text_vision_configs
+XCLIPTextConfig
+[[autodoc]] XCLIPTextConfig
+XCLIPVisionConfig
+[[autodoc]] XCLIPVisionConfig
+XCLIPModel
+[[autodoc]] XCLIPModel
+    - forward
+    - get_text_features
+    - get_video_features
+XCLIPTextModel
+[[autodoc]] XCLIPTextModel
+    - forward
+XCLIPVisionModel
+[[autodoc]] XCLIPVisionModel
+    - forward

@@ -1,0 +1,15 @@
+Let's load the first 200 examples from the validation split and explore the dataset's features:  
+thon
+
+from datasets import load_dataset
+dataset = load_dataset("Graphcore/vqa", split="validation[:200]")
+dataset
+Dataset({
+    features: ['question', 'question_type', 'question_id', 'image_id', 'answer_type', 'label'],
+    num_rows: 200
+})
+
+Let's take a look at an example to understand the dataset's features:
+
+dataset[0]
+{'question': 'Where is he looking?

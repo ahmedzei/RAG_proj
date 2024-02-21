@@ -1,0 +1,7 @@
+Here we'll use the same checkpoint as before:
+
+from transformers import AutoProcessor, AutoModelForZeroShotImageClassification
+model = AutoModelForZeroShotImageClassification.from_pretrained(checkpoint)
+processor = AutoProcessor.from_pretrained(checkpoint)
+
+Let's take a different image to switch things up.

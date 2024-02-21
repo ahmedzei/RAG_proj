@@ -1,0 +1,2 @@
+Compared to BERT, TAPAS uses relative position embeddings and has 7 
+token types that encode tabular structure.

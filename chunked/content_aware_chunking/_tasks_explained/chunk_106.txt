@@ -1,0 +1,1 @@
+The key to Mask2Former is the masked attention mechanism in the decoder.

@@ -1,0 +1,2 @@
+Notes:
+- DiNAT depends on NATTEN's implementation of Neighborhood Attention and Dilated Neighborhood Attention.

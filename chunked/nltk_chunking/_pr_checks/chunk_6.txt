@@ -1,0 +1,5 @@
+For instance here you can see how RobertaPreTrainedModel._init_weights is copied from the same method in BertPreTrainedModel with the comment:
+
+Copied from transformers.models.bert.modeling_bert.BertPreTrainedModel._init_weights
+
+Sometimes the copy is exactly the same except for names: for instance in RobertaAttention, we use RobertaSelfAttention insted of BertSelfAttention but other than that, the code is exactly the same.

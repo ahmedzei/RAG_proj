@@ -1,0 +1,9 @@
+forward peak memory/batch size
+
+generate peak memory/batch size
+
+generate throughput/batch size
+
+forward latency/batch size
+
+The benchmarks indicate AWQ quantization is the fastest for inference, text generation, and has the lowest peak memory for text generation.

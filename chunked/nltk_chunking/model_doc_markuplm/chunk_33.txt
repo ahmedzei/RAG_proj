@@ -1,0 +1,14 @@
+thon
+
+from transformers import MarkupLMProcessor
+processor = MarkupLMProcessor.from_pretrained("microsoft/markuplm-base")
+processor.parse_html = False
+nodes = ["hello", "world", "how", "are"]
+xpaths = ["/html/body/div/li[1]/div/span", "/html/body/div/li[1]/div/span", "html/body", "html/body/div"]
+encoding = processor(nodes=nodes, xpaths=xpaths, return_tensors="pt")
+print(encoding.keys())
+dict_keys(['input_ids', 'token_type_ids', 'attention_mask', 'xpath_tags_seq', 'xpath_subs_seq'])
+
+Use case 3: token classification (training), parse_html=False
+For token classification tasks (such as SWDE), one can also provide the
+corresponding node labels in order to train a model.

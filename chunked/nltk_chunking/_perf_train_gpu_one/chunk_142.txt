@@ -1,0 +1,2 @@
+During the prepare 
+call the dataloader will also be distributed across workers should we use multiple GPUs.

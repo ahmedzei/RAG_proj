@@ -1,0 +1,2 @@
+Inference example
+[MgpstrModel] accepts images as input and generates three types of predictions, which represent textual information at different granularities.

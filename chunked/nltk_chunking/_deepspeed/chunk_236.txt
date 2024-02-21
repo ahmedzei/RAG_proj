@@ -1,0 +1,3 @@
+Review: this is the best cast iron skillet you will ever buy"
+elif rank == 1:
+    text_in = "Is this review positive or negative?

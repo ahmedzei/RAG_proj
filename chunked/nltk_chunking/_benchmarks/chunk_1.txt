@@ -1,0 +1,2 @@
+[[open-in-colab]]
+Let's take a look at how 🤗 Transformers models can be benchmarked, best practices, and already available benchmarks.

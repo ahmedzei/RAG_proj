@@ -1,0 +1,1 @@
+Furthermore, we also leverage image features to incorporate words' visual information into LayoutLM.

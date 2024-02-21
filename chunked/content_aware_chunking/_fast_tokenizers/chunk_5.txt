@@ -1,0 +1,9 @@
+The
+[PreTrainedTokenizerFast] class allows for easy instantiation, by accepting the instantiated
+tokenizer object as an argument:
+thon
+
+from transformers import PreTrainedTokenizerFast
+fast_tokenizer = PreTrainedTokenizerFast(tokenizer_object=tokenizer)
+
+This object can now be used with all the methods shared by the 🤗 Transformers tokenizers!

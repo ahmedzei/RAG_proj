@@ -1,0 +1,1 @@
+Remember, architecture refers to the skeleton of the model and checkpoints are the weights for a given architecture.

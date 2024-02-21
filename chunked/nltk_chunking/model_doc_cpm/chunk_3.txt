@@ -1,0 +1,2 @@
+However, applying GPT-3 to address Chinese NLP tasks is still challenging, as the training corpus
+of GPT-3 is primarily English, and the parameters are not publicly available.

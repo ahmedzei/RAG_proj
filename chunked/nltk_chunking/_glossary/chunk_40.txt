@@ -1,0 +1,1 @@
+Some examples of feature extraction include transforming raw text into word embeddings and extracting important features such as edges or shapes from image/video data.

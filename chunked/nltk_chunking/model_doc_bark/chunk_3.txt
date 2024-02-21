@@ -1,0 +1,1 @@
+It aims at predicting the first two audio codebooks necessary for EnCodec.

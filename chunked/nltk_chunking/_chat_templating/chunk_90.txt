@@ -1,0 +1,2 @@
+In many ways, the code and
+syntax resembles Python.

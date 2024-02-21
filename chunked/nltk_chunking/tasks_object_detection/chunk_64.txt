@@ -1,0 +1,2 @@
+However, images
+should stay as they are.

@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Transfer of pre-trained representations improves sample efficiency and simplifies hyperparameter tuning when training deep neural networks for vision.

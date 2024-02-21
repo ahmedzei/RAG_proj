@@ -1,0 +1,2 @@
+It can rely on relative imports to some other files as
+long as all the files are in the same directory (we don't support submodules for this feature yet).

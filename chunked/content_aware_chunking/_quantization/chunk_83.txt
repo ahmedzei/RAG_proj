@@ -1,0 +1,2 @@
+Offloading
+8-bit models can offload weights between the CPU and GPU to support fitting very large models into memory.

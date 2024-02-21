@@ -1,0 +1,1 @@
+If speech generation is required, the second seq2seq model, generates unit tokens in an non auto-regressive way.

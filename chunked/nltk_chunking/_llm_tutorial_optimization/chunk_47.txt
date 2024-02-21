@@ -1,0 +1,1 @@
+It is recommended to set the model to the same precision type as written in the config when loading with from_pretrained(, torch_dtype=) except when the original type is float32 in which case one can use both float16 or bfloat16 for inference.

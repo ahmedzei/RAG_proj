@@ -1,0 +1,1 @@
+Major challenges in scaling self-training are the choice of label space, pseudo-annotation filtering, and training efficiency.

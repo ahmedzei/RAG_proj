@@ -1,0 +1,1 @@
+LayoutLMv2 on the other hand normalizes the images internally and expects the channels in BGR format.

@@ -1,0 +1,2 @@
+In Flax, one can use the decoder_attention_mask to ignore padded tokens from
+the loss (see the Flax summarization script for details).

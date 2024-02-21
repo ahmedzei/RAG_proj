@@ -1,0 +1,4 @@
+
+BioGPT
+Overview
+The BioGPT model was proposed in BioGPT: generative pre-trained transformer for biomedical text generation and mining by Renqian Luo, Liai Sun, Yingce Xia, Tao Qin, Sheng Zhang, Hoifung Poon and Tie-Yan Liu.

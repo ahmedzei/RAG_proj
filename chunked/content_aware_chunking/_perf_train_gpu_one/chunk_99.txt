@@ -1,0 +1,3 @@
+multi_tensor
+pytorch-nightly introduced torch.optim._multi_tensor which should significantly speed up the optimizers for situations 
+with lots of small feature tensors.

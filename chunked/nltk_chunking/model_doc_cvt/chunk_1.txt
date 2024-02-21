@@ -1,0 +1,1 @@
+The Convolutional vision Transformer (CvT) improves the Vision Transformer (ViT) in performance and efficiency by introducing convolutions into ViT to yield the best of both designs.

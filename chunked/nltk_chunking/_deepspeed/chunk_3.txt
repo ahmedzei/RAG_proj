@@ -1,0 +1,1 @@
+DeepSpeed is integrated with the Transformers [Trainer] class for all ZeRO stages and offloading.

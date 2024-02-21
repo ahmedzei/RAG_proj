@@ -1,0 +1,1 @@
+🤗 Optimum offers functionality to export 🤗 Transformers models to TFLite through the exporters.tflite module.

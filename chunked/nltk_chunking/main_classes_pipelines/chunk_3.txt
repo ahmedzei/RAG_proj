@@ -1,0 +1,3 @@
+There are two categories of pipeline abstractions to be aware about:
+
+The [pipeline] which is the most powerful object encapsulating all other pipelines.

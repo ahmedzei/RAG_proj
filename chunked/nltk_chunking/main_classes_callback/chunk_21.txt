@@ -1,0 +1,49 @@
+Available Callbacks
+Here is the list of the available [TrainerCallback] in the library:
+[[autodoc]] integrations.CometCallback
+    - setup
+[[autodoc]] DefaultFlowCallback
+[[autodoc]] PrinterCallback
+[[autodoc]] ProgressCallback
+[[autodoc]] EarlyStoppingCallback
+[[autodoc]] integrations.TensorBoardCallback
+[[autodoc]] integrations.WandbCallback
+    - setup
+[[autodoc]] integrations.MLflowCallback
+    - setup
+[[autodoc]] integrations.AzureMLCallback
+[[autodoc]] integrations.CodeCarbonCallback
+[[autodoc]] integrations.NeptuneCallback
+[[autodoc]] integrations.ClearMLCallback
+[[autodoc]] integrations.DagsHubCallback
+[[autodoc]] integrations.FlyteCallback
+[[autodoc]] integrations.DVCLiveCallback
+    - setup
+TrainerCallback
+[[autodoc]] TrainerCallback
+Here is an example of how to register a custom callback with the PyTorch [Trainer]:
+thon
+class MyCallback(TrainerCallback):
+    "A callback that prints a message at the beginning of training"
+def on_train_begin(self, args, state, control, **kwargs):
+    print("Starting training")
+
+trainer = Trainer(
+    model,
+    args,
+    train_dataset=train_dataset,
+    eval_dataset=eval_dataset,
+    callbacks=[MyCallback],  # We can either pass the callback class this way or an instance of it (MyCallback())
+)
+
+Another way to register a callback is to call trainer.add_callback() as follows:
+thon
+trainer = Trainer()
+trainer.add_callback(MyCallback)
+Alternatively, we can pass an instance of the callback class
+trainer.add_callback(MyCallback())
+
+TrainerState
+[[autodoc]] TrainerState
+TrainerControl
+[[autodoc]] TrainerControl

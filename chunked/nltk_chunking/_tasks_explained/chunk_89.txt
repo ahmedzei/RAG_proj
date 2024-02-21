@@ -1,0 +1,1 @@
+This loss function encourages DETR to find a one-to-one assignment between the predictions and ground truth labels.

@@ -1,0 +1,1 @@
+This is only to make sure the image processor configuration file (stored as JSON) will also be uploaded to the repo on the Hub.

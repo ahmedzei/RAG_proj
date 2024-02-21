@@ -1,0 +1,1 @@
+You can choose the communication data type by setting the communication_data_type parameter in the config file.

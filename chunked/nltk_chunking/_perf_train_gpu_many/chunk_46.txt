@@ -1,0 +1,1 @@
+This is not an exhaustive list of differences between DP and DDP, however, other nuances are out of scope of this guide.

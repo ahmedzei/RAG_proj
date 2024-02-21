@@ -1,0 +1,1 @@
+GPT-J is an LLM with 6B parameters and trained on 400B tokens.

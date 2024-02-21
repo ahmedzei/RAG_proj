@@ -1,0 +1,1 @@
+The lib64 sub-directory contains various CUDA .so objects (like libcudart.so) and while it is unlikely your system names them differently, you should check the actual names and change them accordingly.

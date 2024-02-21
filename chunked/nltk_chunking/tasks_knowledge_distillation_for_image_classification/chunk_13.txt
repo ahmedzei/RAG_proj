@@ -1,0 +1,1 @@
+We will use the map() method of dataset to apply the preprocessing to every split of the dataset.

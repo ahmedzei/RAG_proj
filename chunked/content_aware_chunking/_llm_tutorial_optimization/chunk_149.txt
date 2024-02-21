@@ -1,0 +1,3 @@
+python
+model.to_bettertransformer()
+Now we run the exact same code snippet as before and under the hood Transformers will make use of Flash Attention.

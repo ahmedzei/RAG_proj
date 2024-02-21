@@ -1,0 +1,7 @@
+python
+upscaled = pipe(image)
+print(upscaled.size)
+```bash
+(1072, 880)
+
+If you wish to do inference yourself with no pipeline, you can use the Swin2SRForImageSuperResolution and Swin2SRImageProcessor classes of transformers.

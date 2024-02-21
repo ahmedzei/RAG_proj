@@ -1,0 +1,2 @@
+Although TTS technology has numerous useful applications, it 
+may also be used for malicious purposes, such as impersonating someone's voice without their knowledge or consent.

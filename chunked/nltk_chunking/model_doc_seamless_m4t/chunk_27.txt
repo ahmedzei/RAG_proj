@@ -1,0 +1,2 @@
+Change the speaker identity
+You have the possibility to change the speaker used for speech synthesis with the spkr_id argument.

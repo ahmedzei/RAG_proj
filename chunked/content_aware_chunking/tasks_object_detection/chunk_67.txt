@@ -1,0 +1,48 @@
+import json
+format annotations the same as for training, no need for data augmentation
+def val_formatted_anns(image_id, objects):
+     annotations = []
+     for i in range(0, len(objects["id"])):
+         new_ann = {
+             "id": objects["id"][i],
+             "category_id": objects["category"][i],
+             "iscrowd": 0,
+             "image_id": image_id,
+             "area": objects["area"][i],
+             "bbox": objects["bbox"][i],
+         }
+         annotations.append(new_ann)
+
+     return annotations
+
+Save images and annotations into the files torchvision.datasets.CocoDetection expects
+def save_cppe5_annotation_file_images(cppe5):
+     output_json = {}
+     path_output_cppe5 = f"{os.getcwd()}/cppe5/"
+
+     if not os.path.exists(path_output_cppe5):
+         os.makedirs(path_output_cppe5)
+     path_anno = os.path.join(path_output_cppe5, "cppe5_ann.json")
+     categories_json = [{"supercategory": "none", "id": id, "name": id2label[id]} for id in id2label]
+     output_json["images"] = []
+     output_json["annotations"] = []
+     for example in cppe5:
+         ann = val_formatted_anns(example["image_id"], example["objects"])
+         output_json["images"].append(
+             {
+                 "id": example["image_id"],
+                 "width": example["image"].width,
+                 "height": example["image"].height,
+                 "file_name": f"{example['image_id']}.png",
+             }
+         )
+         output_json["annotations"].extend(ann)
+     output_json["categories"] = categories_json
+     with open(path_anno, "w") as file:
+         json.dump(output_json, file, ensure_ascii=False, indent=4)
+     for im, img_id in zip(cppe5["image"], cppe5["image_id"]):
+         path_img = os.path.join(path_output_cppe5, f"{img_id}.png")
+         im.save(path_img)
+     return path_output_cppe5, path_anno
+
+Next, prepare an instance of a CocoDetection class that can be used with cocoevaluator.

@@ -1,0 +1,2 @@
+The pretraining task involves randomly shuffling the order of the original sentences and a novel in-filling scheme,
+  where spans of text are replaced with a single mask token.

@@ -1,0 +1,2 @@
+Optimizer and scheduler
+DeepSpeed and Transformers optimizer and scheduler can be mixed and matched as long as you don't enable offload_optimizer.

@@ -1,0 +1,6 @@
+Start by creating a [pipeline] and specify the inference task:
+
+from transformers import pipeline
+transcriber = pipeline(task="automatic-speech-recognition")
+
+Pass your input to the [pipeline].

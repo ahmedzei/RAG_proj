@@ -1,0 +1,5 @@
+Other tricks
+Axial positional encodings
+Reformer uses axial positional encodings: in traditional transformer models, the positional encoding
+E is a matrix of size \(l\) by \(d\), \(l\) being the sequence length and \(d\) the dimension of the
+hidden state.

@@ -1,0 +1,1 @@
+These approaches model the process of image generation as a step-wise probabilistic processes and leverage large amounts of compute and data to learn the image distribution.

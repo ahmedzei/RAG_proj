@@ -1,0 +1,1 @@
+[OneformerProcessor] wraps [OneFormerImageProcessor] and [CLIPTokenizer] into a single instance to both prepare the images and encode the task inputs.

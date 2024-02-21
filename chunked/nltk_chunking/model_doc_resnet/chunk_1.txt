@@ -1,0 +1,1 @@
+Our implementation follows the small changes made by Nvidia, we apply the stride=2 for downsampling in bottleneck's 3x3 conv and not in the first 1x1.

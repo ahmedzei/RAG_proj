@@ -1,0 +1,1 @@
+This is faster and leads to better performance because the local features of an image are enough for the model to learn from.

@@ -1,0 +1,4 @@
+Usage tips
+
+Compared to ViT, DeiT models use a so-called distillation token to effectively learn from a teacher (which, in the
+  DeiT paper, is a ResNet like-model).

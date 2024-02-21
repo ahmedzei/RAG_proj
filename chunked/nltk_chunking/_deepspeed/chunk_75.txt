@@ -1,0 +1,1 @@
+In this case, reduce sub_group_size to reduce memory usage of the temporary buffers.

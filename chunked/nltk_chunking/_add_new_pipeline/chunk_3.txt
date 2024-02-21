@@ -1,0 +1,2 @@
+It can be strings, raw bytes,
+dictionaries or whatever seems to be the most likely desired input.

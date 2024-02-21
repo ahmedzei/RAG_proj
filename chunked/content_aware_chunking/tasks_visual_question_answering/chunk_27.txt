@@ -1,0 +1,21 @@
+',
+ 'question_type': 'none of the above',
+ 'question_id': 262148000,
+ 'image_id': '/root/.cache/huggingface/datasets/downloads/extracted/ca733e0e000fb2d7a09fbcc94dbfe7b5a30750681d0e965f8e0a23b1c2f98c75/val2014/COCO_val2014_000000262148.jpg',
+ 'answer_type': 'other',
+ 'label': {'ids': ['at table', 'down', 'skateboard', 'table'],
+  'weights': [0.30000001192092896,
+   1.0,
+   0.30000001192092896,
+   0.30000001192092896]}}
+
+The features relevant to the task include: 
+* question: the question to be answered from the image
+* image_id: the path to the image the question refers to
+* label: the annotations
+We can remove the rest of the features as they won't be necessary: 
+ 
+
+dataset = dataset.remove_columns(['question_type', 'question_id', 'answer_type'])
+
+As you can see, the label feature contains several answers to the same question (called ids here) collected by different human annotators.

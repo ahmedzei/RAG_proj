@@ -1,0 +1,3 @@
+In contrast to BPE or
+WordPiece, Unigram initializes its base vocabulary to a large number of symbols and progressively trims down each
+symbol to obtain a smaller vocabulary.

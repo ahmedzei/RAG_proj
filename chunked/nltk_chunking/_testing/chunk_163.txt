@@ -1,0 +1,3 @@
+There is no problem with pytest, but with pytest -s these
+characters get included in the buffer, so to be able to have the test run with and without -s, you have to make an
+extra cleanup to the captured output, using re.sub(r'~.

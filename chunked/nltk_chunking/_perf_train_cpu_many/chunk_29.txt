@@ -1,0 +1,2 @@
+This location can be
+used for the dataset, checkpoint files, and the saved model after training completes.

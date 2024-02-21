@@ -1,0 +1,2 @@
+You can check ast/src/get_norm_stats.py to see how
+the authors compute the stats for a downstream dataset.

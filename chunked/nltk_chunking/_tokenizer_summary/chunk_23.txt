@@ -1,0 +1,2 @@
+A pretrained model only performs properly if you feed it an
+input that was tokenized with the same rules that were used to tokenize its training data.

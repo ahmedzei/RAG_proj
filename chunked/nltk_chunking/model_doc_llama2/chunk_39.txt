@@ -1,0 +1,4 @@
+🌎🇰🇷
+
+⚗️ Optimization
+- Fine-tune Llama 2 with DPO, a guide to using the TRL library's DPO method to fine tune Llama 2 on a specific dataset.

@@ -1,0 +1,1 @@
+=> mask to "The dog [258]a ball [257]park."

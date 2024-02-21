@@ -1,0 +1,4 @@
+Rather, it is
+advised to add a first unclean, copy-pasted version of the original code to
+src/transformers/models/brand_new_bert/modeling_brand_new_bert.py until you feel like all the necessary code is
+added.

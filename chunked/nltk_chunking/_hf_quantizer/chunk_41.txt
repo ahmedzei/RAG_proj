@@ -1,0 +1,1 @@
+You should add tests by first adding the package in our nightly Dockerfile inside docker/transformers-all-latest-gpu and then adding a new test file in tests/quantization/xxx.

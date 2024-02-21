@@ -1,0 +1,1 @@
+I will use the following tools: translator to translate the question into English and then image_qa to answer the question on the input image.

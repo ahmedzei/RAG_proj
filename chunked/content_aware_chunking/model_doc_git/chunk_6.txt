@@ -1,0 +1,1 @@
+We also scale up the pre-training data and the model size to boost the model performance.

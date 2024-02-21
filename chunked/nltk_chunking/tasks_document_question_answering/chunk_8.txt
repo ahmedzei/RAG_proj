@@ -1,0 +1,6 @@
+When prompted, enter your token to log in:
+
+from huggingface_hub import notebook_login
+notebook_login()
+
+Let's define some global variables.

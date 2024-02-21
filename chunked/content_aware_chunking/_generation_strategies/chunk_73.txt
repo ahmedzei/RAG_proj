@@ -1,0 +1,8 @@
+thon
+
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+checkpoint = "google/pegasus-xsum"
+prompt = (
+     "The Permaculture Design Principles are a set of universal design principles "
+     "that can be applied to any location, climate and culture, and they allow us to design "
+     "the most efficient and sustainable human habitation and food production systems. "

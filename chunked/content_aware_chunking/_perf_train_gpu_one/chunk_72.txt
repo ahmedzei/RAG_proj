@@ -1,0 +1,2 @@
+Flash Attention 2
+You can speedup the training throughput by using Flash Attention 2 integration in transformers.

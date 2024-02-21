@@ -1,0 +1,2 @@
+Statistical Normalizations
+Softmax and layer normalization are less compute-intensive than tensor contractions, and involve one or more reduction operations, the result of which is then applied via a map.

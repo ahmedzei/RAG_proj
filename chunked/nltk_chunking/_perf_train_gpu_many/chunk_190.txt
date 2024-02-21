@@ -1,0 +1,1 @@
+If we parallelize them by attribute dimension into 2 devices, 10 x 512 will be 10 x 2 x 256.

@@ -1,0 +1,1 @@
+By stacking multiple attention layers, the receptive field can be increased to multiple previous segments.

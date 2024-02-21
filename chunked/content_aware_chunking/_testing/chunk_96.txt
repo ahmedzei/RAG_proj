@@ -1,0 +1,2 @@
+If, however, the test is not a unittest, you may use pytest.mark.parametrize (or you may see it being used in
+some existing tests, mostly under examples).

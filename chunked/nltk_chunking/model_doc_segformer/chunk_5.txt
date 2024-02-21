@@ -1,0 +1,1 @@
+2) SegFormer avoids complex decoders.

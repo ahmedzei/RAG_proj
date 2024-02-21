@@ -1,0 +1,2 @@
+It relies on a distillation
+token ensuring that the student learns from the teacher through attention.

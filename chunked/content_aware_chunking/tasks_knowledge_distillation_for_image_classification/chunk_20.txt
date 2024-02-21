@@ -1,0 +1,1 @@
+Given two data P and Q, KL Divergence explains how much extra information we need to represent P using Q.

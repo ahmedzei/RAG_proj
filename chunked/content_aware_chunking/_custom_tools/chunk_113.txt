@@ -1,0 +1,6 @@
+Note that the chat mode always uses the following format for the exchanges:
+```text
+Human: <>
+Assistant:
+
+Therefore it is important that the examples of the custom chat prompt template also make use of this format.

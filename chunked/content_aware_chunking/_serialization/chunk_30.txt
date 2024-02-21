@@ -1,0 +1,1 @@
+The resulting model.onnx file can then be run on one of the many accelerators that support the ONNX standard.

@@ -1,0 +1,1 @@
+If your outputs aren't aligned with what you're expecting, we've created a list of the most common pitfalls and how to avoid them.

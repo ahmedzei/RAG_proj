@@ -1,0 +1,2 @@
+Don't hesitate to ping the Hugging Face team
+regarding the docstrings.

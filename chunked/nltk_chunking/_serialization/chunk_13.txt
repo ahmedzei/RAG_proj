@@ -1,0 +1,1 @@
+For the list of ready-made configurations, please refer to 🤗 Optimum documentation.

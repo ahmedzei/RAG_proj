@@ -1,0 +1,7 @@
+When prompted, enter your token to login:
+
+from huggingface_hub import notebook_login
+notebook_login()
+
+Load MInDS-14 dataset
+Start by loading a smaller subset of the MInDS-14 dataset from the 🤗 Datasets library.

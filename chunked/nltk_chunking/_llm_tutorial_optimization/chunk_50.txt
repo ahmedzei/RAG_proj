@@ -1,0 +1,9 @@
+python
+flush()
+In the recent version of the accelerate library, you can also use an utility method called release_memory()
+thon
+from accelerate.utils import release_memory
+
+release_memory(model)
+
+Now what if your GPU does not have 32 GB of VRAM?

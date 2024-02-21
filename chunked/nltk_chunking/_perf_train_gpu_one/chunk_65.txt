@@ -1,0 +1,3 @@
+It's "magical" in the sense that 
+you can use the normal fp32 training and/or inference code and by enabling tf32 support you can get up to 3x throughput 
+improvement.

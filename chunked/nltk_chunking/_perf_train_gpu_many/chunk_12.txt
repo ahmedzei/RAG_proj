@@ -1,0 +1,3 @@
+Parallelization strategy for a single Node / multi-GPU setup
+When training a model on a single node with multiple GPUs, your choice of parallelization strategy can significantly 
+impact performance.

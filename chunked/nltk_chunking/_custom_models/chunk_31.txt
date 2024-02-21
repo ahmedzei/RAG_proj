@@ -1,0 +1,2 @@
+Using another output format is fine as long as you are planning on using your own
+training loop or another library for training.

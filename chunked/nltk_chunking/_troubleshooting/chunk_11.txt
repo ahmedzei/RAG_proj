@@ -1,0 +1,2 @@
+When your script attempts to download model weights or datasets, the download will hang and then timeout with the following message:
+ValueError: Connection error, and we cannot find the requested files in the cached path.

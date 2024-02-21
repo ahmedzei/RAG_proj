@@ -1,0 +1,2 @@
+The smaller the checkpoint, the faster your debug cycle
+  becomes.

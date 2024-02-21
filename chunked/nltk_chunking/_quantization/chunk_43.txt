@@ -1,0 +1,3 @@
+AutoGPTQ
+
+Try GPTQ quantization with PEFT in this notebook and learn more about it's details in this blog post!

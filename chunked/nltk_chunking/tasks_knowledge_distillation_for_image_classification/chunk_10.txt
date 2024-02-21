@@ -1,0 +1,1 @@
+We will distill this model to a randomly initialized MobileNetV2.

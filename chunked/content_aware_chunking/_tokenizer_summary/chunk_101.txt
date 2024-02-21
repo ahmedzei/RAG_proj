@@ -1,0 +1,2 @@
+Intuitively, WordPiece is slightly different to BPE in that it evaluates what it loses by merging two symbols
+to ensure it's worth it.

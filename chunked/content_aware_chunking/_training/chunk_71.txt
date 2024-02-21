@@ -1,0 +1,15 @@
+Let's use the AdamW optimizer from PyTorch:
+
+from torch.optim import AdamW
+optimizer = AdamW(model.parameters(), lr=5e-5)
+
+Create the default learning rate scheduler from [Trainer]:
+
+from transformers import get_scheduler
+num_epochs = 3
+num_training_steps = num_epochs * len(train_dataloader)
+lr_scheduler = get_scheduler(
+     name="linear", optimizer=optimizer, num_warmup_steps=0, num_training_steps=num_training_steps
+ )
+
+Lastly, specify device to use a GPU if you have access to one.

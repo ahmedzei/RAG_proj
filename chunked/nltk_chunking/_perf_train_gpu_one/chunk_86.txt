@@ -1,0 +1,2 @@
+However, compared to Adam, 
+Adafactor may have slower convergence in certain cases.

@@ -1,0 +1,2 @@
+If
+chunk_size is set to 0, no feed forward chunking is done.

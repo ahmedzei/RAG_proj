@@ -1,0 +1,1 @@
+For some quantization methods, they may require "pre-quantizing" the models through data calibration (e.g., AWQ).

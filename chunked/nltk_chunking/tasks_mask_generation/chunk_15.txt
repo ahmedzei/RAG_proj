@@ -1,0 +1,7 @@
+thon
+
+from transformers import pipeline
+checkpoint = "facebook/sam-vit-base"
+mask_generator = pipeline(model=checkpoint, task="mask-generation")
+
+Let's see the image.

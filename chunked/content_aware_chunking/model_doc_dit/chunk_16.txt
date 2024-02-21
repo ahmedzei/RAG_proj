@@ -1,0 +1,1 @@
+Note that this won't include the language modeling head on top, used to predict visual tokens.

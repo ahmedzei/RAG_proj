@@ -1,0 +1,2 @@
+Finally,
+  after upsampling, a "shallow" encoder is used to create the final character embeddings.

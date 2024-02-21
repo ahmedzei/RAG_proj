@@ -1,0 +1,17 @@
+LevitConfig
+[[autodoc]] LevitConfig
+LevitFeatureExtractor
+[[autodoc]] LevitFeatureExtractor
+    - call
+LevitImageProcessor
+[[autodoc]] LevitImageProcessor
+    - preprocess
+LevitModel
+[[autodoc]] LevitModel
+    - forward
+LevitForImageClassification
+[[autodoc]] LevitForImageClassification
+    - forward
+LevitForImageClassificationWithTeacher
+[[autodoc]] LevitForImageClassificationWithTeacher
+    - forward

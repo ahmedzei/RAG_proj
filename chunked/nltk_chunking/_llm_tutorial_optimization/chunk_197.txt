@@ -1,0 +1,1 @@
+For RoPE, keeping the same \( \theta \) that was used during training leads to poor results when passing text inputs much longer than those seen during training, c.f Press et al..

@@ -1,0 +1,2 @@
+fp16
+The main advantage of mixed precision training comes from saving the activations in half precision (fp16).

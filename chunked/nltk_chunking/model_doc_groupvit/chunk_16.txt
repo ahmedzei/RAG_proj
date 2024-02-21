@@ -1,0 +1,31 @@
+GroupViTConfig
+[[autodoc]] GroupViTConfig
+    - from_text_vision_configs
+GroupViTTextConfig
+[[autodoc]] GroupViTTextConfig
+GroupViTVisionConfig
+[[autodoc]] GroupViTVisionConfig
+
+GroupViTModel
+[[autodoc]] GroupViTModel
+    - forward
+    - get_text_features
+    - get_image_features
+GroupViTTextModel
+[[autodoc]] GroupViTTextModel
+    - forward
+GroupViTVisionModel
+[[autodoc]] GroupViTVisionModel
+    - forward
+
+TFGroupViTModel
+[[autodoc]] TFGroupViTModel
+    - call
+    - get_text_features
+    - get_image_features
+TFGroupViTTextModel
+[[autodoc]] TFGroupViTTextModel
+    - call
+TFGroupViTVisionModel
+[[autodoc]] TFGroupViTVisionModel
+    - call

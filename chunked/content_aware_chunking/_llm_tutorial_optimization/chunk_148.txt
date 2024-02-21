@@ -1,0 +1,1 @@
+To do so, we convert the model to BetterTransformer and by doing so enabling PyTorch's SDPA self-attention which in turn is able to use Flash Attention.

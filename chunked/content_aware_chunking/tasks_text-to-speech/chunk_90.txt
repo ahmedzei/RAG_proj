@@ -1,0 +1,21 @@
+Let's get it from an example in the test dataset: 
+
+example = dataset["test"][304]
+speaker_embeddings = torch.tensor(example["speaker_embeddings"]).unsqueeze(0)
+
+Now you can pass the text and speaker embeddings to the pipeline, and it will take care of the rest: 
+
+forward_params = {"speaker_embeddings": speaker_embeddings}
+output = pipe(text, forward_params=forward_params)
+output
+{'audio': array([-6.82714235e-05, -4.26525949e-04,  1.06134125e-04, ,
+        -1.22392643e-03, -7.76011671e-04,  3.29112721e-04], dtype=float32),
+ 'sampling_rate': 16000}
+
+You can then listen to the result:
+
+from IPython.display import Audio
+Audio(output['audio'], rate=output['sampling_rate']) 
+
+Run inference manually
+You can achieve the same inference results without using the pipeline, however, more steps will be required.

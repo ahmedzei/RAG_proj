@@ -1,0 +1,1 @@
+At inference time, we give the final value of the past_values as input to the decoder.

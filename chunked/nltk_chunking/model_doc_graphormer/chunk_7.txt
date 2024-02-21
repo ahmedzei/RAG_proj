@@ -1,0 +1,1 @@
+Our key insight to utilizing Transformer in the graph is the necessity of effectively encoding the structural information of a graph into the model.

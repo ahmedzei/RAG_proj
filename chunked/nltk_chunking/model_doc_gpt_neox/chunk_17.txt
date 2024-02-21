@@ -1,0 +1,23 @@
+Resources
+
+Causal language modeling task guide
+
+GPTNeoXConfig
+[[autodoc]] GPTNeoXConfig
+GPTNeoXTokenizerFast
+[[autodoc]] GPTNeoXTokenizerFast
+GPTNeoXModel
+[[autodoc]] GPTNeoXModel
+    - forward
+GPTNeoXForCausalLM
+[[autodoc]] GPTNeoXForCausalLM
+    - forward
+GPTNeoXForQuestionAnswering
+[[autodoc]] GPTNeoXForQuestionAnswering
+    - forward
+GPTNeoXForSequenceClassification
+[[autodoc]] GPTNeoXForSequenceClassification
+    - forward
+GPTNeoXForTokenClassification
+[[autodoc]] GPTNeoXForTokenClassification
+    - forward

@@ -1,0 +1,1 @@
+By default, ImageProcessor will handle the resizing.

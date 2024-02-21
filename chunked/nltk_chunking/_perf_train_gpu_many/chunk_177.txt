@@ -1,0 +1,1 @@
+ZeRO stage 3 is not a good choice either for the same reason - more inter-node communications required.

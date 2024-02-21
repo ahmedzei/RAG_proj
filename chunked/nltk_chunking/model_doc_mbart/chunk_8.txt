@@ -1,0 +1,2 @@
+The
+target text format is [tgt_lang_code] X [eos].

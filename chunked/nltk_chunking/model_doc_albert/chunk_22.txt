@@ -1,0 +1,2 @@
+Resources
+The resources provided in the following sections consist of a list of official Hugging Face and community (indicated by 🌎) resources to help you get started with AlBERT.

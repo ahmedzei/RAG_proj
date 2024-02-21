@@ -1,0 +1,1 @@
+Knowing how encoders, decoders, and attention work will aid you in understanding how different Transformer models work.

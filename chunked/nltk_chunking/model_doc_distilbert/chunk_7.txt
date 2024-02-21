@@ -1,0 +1,3 @@
+Our smaller, faster and lighter model is cheaper to pre-train and we
+demonstrate its capabilities for on-device computations in a proof-of-concept experiment and a comparative on-device
+study.

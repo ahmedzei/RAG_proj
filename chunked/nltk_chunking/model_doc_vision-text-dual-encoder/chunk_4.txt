@@ -1,0 +1,2 @@
+The projection layers are randomly initialized so the model should be fine-tuned on a
+downstream task.

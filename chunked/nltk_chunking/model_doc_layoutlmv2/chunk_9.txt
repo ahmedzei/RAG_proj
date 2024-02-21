@@ -1,0 +1,2 @@
+The pre-trained LayoutLMv2 model is publicly available at
+this https URL.

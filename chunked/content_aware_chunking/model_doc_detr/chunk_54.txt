@@ -1,0 +1,1 @@
+At inference time, the shortest side is set to 800.

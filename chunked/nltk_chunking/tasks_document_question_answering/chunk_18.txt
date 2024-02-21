@@ -1,0 +1,2 @@
+We can truncate the examples but to avoid the situation where the answer might be at the end of a large document and end up truncated,
+here we'll remove the few examples where the embedding is likely to end up longer than 512.

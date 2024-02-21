@@ -1,0 +1,1 @@
+VitDet leverages the plain Vision Transformer for the task of object detection.

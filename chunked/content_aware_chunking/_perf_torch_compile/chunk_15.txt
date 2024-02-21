@@ -1,0 +1,1 @@
+Note that OwlViT results in OOM in larger batch sizes.

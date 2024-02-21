@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+What does it take to create the Babel Fish, a tool that can help individuals translate speech between any two languages?

@@ -1,0 +1,1 @@
+This results in better performance in terms of zero-shot classification accuracy on ImageNet.

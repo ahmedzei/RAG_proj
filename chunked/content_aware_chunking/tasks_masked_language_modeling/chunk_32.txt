@@ -1,0 +1,6 @@
+Here is a first preprocessing function to join the list of strings for each example and tokenize the result:
+
+def preprocess_function(examples):
+     return tokenizer([" ".join(x) for x in examples["answers.text"]])
+
+To apply this preprocessing function over the entire dataset, use the 🤗 Datasets [~datasets.Dataset.map] method.

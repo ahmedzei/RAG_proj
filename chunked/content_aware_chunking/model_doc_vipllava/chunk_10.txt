@@ -1,0 +1,1 @@
+We advise users to use padding_side="left" when computing batched generation as it leads to more accurate results.

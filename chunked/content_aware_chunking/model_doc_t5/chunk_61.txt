@@ -1,0 +1,2 @@
+In PyTorch and Tensorflow, this can be done by replacing them with -100, which is the ignore_index
+of the CrossEntropyLoss.

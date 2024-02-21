@@ -1,0 +1,2 @@
+By pushing the code of a tool to a Hugging Face Space or a model repository, you're then able to leverage the tool 
+directly with the agent.

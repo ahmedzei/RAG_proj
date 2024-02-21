@@ -1,0 +1,3 @@
+By
+warm-starting from the publicly released checkpoints, NLP practitioners have pushed the state-of-the-art on multiple
+benchmarks while saving significant amounts of compute time.

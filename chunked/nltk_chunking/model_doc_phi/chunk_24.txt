@@ -1,0 +1,6 @@
+thon
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+model = AutoModelForCausalLM.from_pretrained("microsoft/phi-2")
+tokenizer = AutoTokenizer.from_pretrained("microsoft/phi-2")
+inputs = tokenizer('Can you help me write a formal email to a potential business partner proposing a joint venture?

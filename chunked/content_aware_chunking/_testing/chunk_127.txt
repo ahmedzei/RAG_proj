@@ -1,0 +1,4 @@
+Methods:
+
+A skip means that you expect your test to pass only if some conditions are met, otherwise pytest should skip
+  running the test altogether.

@@ -1,0 +1,1 @@
+Summarization is a sequence-to-sequence task; it outputs a shorter text sequence than the input.

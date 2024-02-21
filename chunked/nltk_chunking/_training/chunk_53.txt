@@ -1,0 +1,3 @@
+Because the tokenized array and labels would have to be fully loaded into memory, and because NumPy doesn’t handle
+“jagged” arrays, so every tokenized sample would have to be padded to the length of the longest sample in the whole
+dataset.

@@ -1,0 +1,2 @@
+The tokenizers obtained from the 🤗 tokenizers library can be
+loaded very simply into 🤗 transformers.

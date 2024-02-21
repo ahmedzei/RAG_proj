@@ -1,0 +1,20 @@
+For this task, load the ROUGE metric (see the 🤗 Evaluate quick tour to learn more about how to load and compute a metric):
+
+import evaluate
+rouge = evaluate.load("rouge")
+
+Then create a function that passes your predictions and labels to [~evaluate.EvaluationModule.compute] to calculate the ROUGE metric:
+
+import numpy as np
+def compute_metrics(eval_pred):
+     predictions, labels = eval_pred
+     decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
+     labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
+     decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+
+     result = rouge.compute(predictions=decoded_preds, references=decoded_labels, use_stemmer=True)
+     prediction_lens = [np.count_nonzero(pred != tokenizer.pad_token_id) for pred in predictions]
+     result["gen_len"] = np.mean(prediction_lens)
+     return {k: round(v, 4) for k, v in result.items()}
+
+Your compute_metrics function is ready to go now, and you'll return to it when you setup your training.

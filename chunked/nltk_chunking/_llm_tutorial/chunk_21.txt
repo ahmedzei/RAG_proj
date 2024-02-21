@@ -1,0 +1,2 @@
+Common pitfalls
+There are many generation strategies, and sometimes the default values may not be appropriate for your use case.

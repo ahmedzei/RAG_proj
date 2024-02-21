@@ -1,0 +1,2 @@
+The process of selecting output tokens to generate text is known as decoding, and you can customize the decoding strategy
+that the generate() method will use.

@@ -1,0 +1,3 @@
+A good
+practical compromise is to employ a strided sliding window, moving the context by larger strides rather than sliding by
+1 token a time.

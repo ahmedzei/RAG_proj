@@ -1,0 +1,4 @@
+Transformer protein language models were introduced in the paper Biological structure and function emerge from scaling
+unsupervised learning to 250 million protein sequences by 
+Alexander Rives, Joshua Meier, Tom Sercu, Siddharth Goyal, Zeming Lin, Jason Liu, Demi Guo, Myle Ott, 
+C. Lawrence Zitnick, Jerry Ma, and Rob Fergus.

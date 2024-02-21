@@ -1,0 +1,1 @@
+Note that as of the time this guide is released, image-to-image pipeline only supports super resolution task.

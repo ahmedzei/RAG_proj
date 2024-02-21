@@ -1,0 +1,5 @@
+
+FNet
+Overview
+The FNet model was proposed in FNet: Mixing Tokens with Fourier Transforms by
+James Lee-Thorp, Joshua Ainslie, Ilya Eckstein, Santiago Ontanon.

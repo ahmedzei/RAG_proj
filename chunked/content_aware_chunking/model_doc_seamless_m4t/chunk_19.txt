@@ -1,0 +1,2 @@
+Text
+Similarly, you can generate translated text from audio files or from text with the same model.

@@ -1,0 +1,1 @@
+In all cases, we generate 400 semantic tokens on a 40GB A100 GPU with PyTorch 2.1.

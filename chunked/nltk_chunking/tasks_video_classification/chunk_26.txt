@@ -1,0 +1,1 @@
+Note that this checkpoint leads to better performance on this task as the checkpoint was obtained fine-tuning on a similar downstream task having considerable domain overlap.

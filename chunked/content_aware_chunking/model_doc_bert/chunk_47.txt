@@ -1,0 +1,1 @@
+- A blog post on Autoscaling BERT with Hugging Face Transformers, Amazon SageMaker and Terraform module.

@@ -1,0 +1,2 @@
+- Assigning the name attribute correctly in TensorFlow functions is critical to do the from_pt=True weight
+   cross-loading.

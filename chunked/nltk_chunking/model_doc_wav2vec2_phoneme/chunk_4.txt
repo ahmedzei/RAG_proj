@@ -1,0 +1,2 @@
+This is done by
+mapping phonemes of the training languages to the target language using articulatory features.

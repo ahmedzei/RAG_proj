@@ -1,0 +1,1 @@
+One example of self-supervised learning is masked language modeling, where a model is passed sentences with a proportion of its tokens removed and learns to predict the missing tokens.

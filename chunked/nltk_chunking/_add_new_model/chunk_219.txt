@@ -1,0 +1,2 @@
+In the conversion script, you should fill those randomly initialized weights with the exact weights of the
+corresponding layer in the checkpoint.

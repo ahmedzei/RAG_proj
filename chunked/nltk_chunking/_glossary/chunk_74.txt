@@ -1,0 +1,3 @@
+For masked language modeling, ([BertForMaskedLM]), the model expects a tensor of dimension (batch_size,
+  seq_length) with each value corresponding to the expected label of each individual token: the labels being the token
+  ID for the masked token, and values to be ignored for the rest (usually -100).

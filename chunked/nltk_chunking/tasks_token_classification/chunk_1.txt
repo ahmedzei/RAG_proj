@@ -1,0 +1,17 @@
+When prompted, enter your token to login:
+
+from huggingface_hub import notebook_login
+notebook_login()
+
+Load WNUT 17 dataset
+Start by loading the WNUT 17 dataset from the 🤗 Datasets library:
+
+from datasets import load_dataset
+wnut = load_dataset("wnut_17")
+
+Then take a look at an example:
+
+wnut["train"][0]
+{'id': '0',
+ 'ner_tags': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8, 8, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0],
+ 'tokens': ['@paulwalk', 'It', "'s", 'the', 'view', 'from', 'where', 'I', "'m", 'living', 'for', 'two', 'weeks', '.

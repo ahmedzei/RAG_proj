@@ -1,0 +1,1 @@
+Waveforms are continuous by nature, so they can't be divided into separate units like a sequence of text can be split into words.

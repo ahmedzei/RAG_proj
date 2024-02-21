@@ -1,0 +1,8 @@
+Enable BetterTransformer with the [PreTrainedModel.to_bettertransformer] method:
+
+from transformers import AutoModelForCausalLM
+model = AutoModelForCausalLM.from_pretrained("bigcode/starcoder")
+model.to_bettertransformer()
+
+TorchScript
+TorchScript is an intermediate PyTorch model representation that can be run in production environments where performance is important.

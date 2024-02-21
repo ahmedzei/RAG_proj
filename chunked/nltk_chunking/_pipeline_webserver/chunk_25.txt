@@ -1,0 +1,2 @@
+But keep in mind it may also be a security risk to reveal all those errors depending 
+on your security context.

@@ -1,0 +1,7 @@
+Tokenize the text and return the input_ids as PyTorch tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("username/my_awesome_eli5_clm-model")
+inputs = tokenizer(prompt, return_tensors="pt").input_ids
+
+Use the [~transformers.generation_utils.GenerationMixin.generate] method to generate text.

@@ -1,0 +1,2 @@
+This will work
+whenever the pipeline uses its streaming ability (so when passing lists or Dataset or generator).

@@ -1,0 +1,1 @@
+Take an argmax on the last dimension of both the start_logits and end_logits to get the predicted start_idx and end_idx.

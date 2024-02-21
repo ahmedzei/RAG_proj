@@ -1,0 +1,1 @@
+Try to include as much information describing the bug as possible to help us better figure out what's wrong and how we can fix it.

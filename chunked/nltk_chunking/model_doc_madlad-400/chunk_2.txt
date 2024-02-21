@@ -1,0 +1,3 @@
+We discuss 
+the limitations revealed by self-auditing MADLAD-400, and the role data auditing
+had in the dataset creation process.

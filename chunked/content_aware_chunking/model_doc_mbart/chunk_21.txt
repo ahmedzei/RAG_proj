@@ -1,0 +1,1 @@
+MBart-50 has its own tokenizer [MBart50Tokenizer].

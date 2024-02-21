@@ -1,0 +1,1 @@
+However, the API supports more strategies if you need them.

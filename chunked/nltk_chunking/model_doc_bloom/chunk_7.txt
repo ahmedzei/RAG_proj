@@ -1,0 +1,1 @@
+[BloomForCausalLM] is supported by this causal language modeling example script and notebook.

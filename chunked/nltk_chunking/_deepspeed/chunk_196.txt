@@ -1,0 +1,1 @@
+You'll need to initialize the DeepSpeed engine again since model.load_state_dict(state_dict) removes all the DeepSpeed magic from it.

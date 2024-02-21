@@ -1,0 +1,2 @@
+To feed images to the model, each image is passed through a pre-trained object detector and the regions and the
+bounding boxes are extracted.

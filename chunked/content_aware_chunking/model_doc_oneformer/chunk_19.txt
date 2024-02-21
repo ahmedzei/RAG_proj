@@ -1,0 +1,1 @@
+During training, OneFormer only uses panoptic annotations.

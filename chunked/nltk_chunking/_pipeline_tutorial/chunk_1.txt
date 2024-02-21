@@ -1,0 +1,1 @@
+Even if you don't have experience with a specific modality or aren't familiar with the underlying code behind the models, you can still use them for inference with the [pipeline]!

@@ -1,0 +1,5 @@
+Usage tips
+
+[LEDForConditionalGeneration] is an extension of
+  [BartForConditionalGeneration] exchanging the traditional self-attention layer with
+  Longformer's chunked self-attention layer.

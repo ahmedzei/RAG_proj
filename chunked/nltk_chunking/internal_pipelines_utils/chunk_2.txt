@@ -1,0 +1,11 @@
+Argument handling
+[[autodoc]] pipelines.ArgumentHandler
+[[autodoc]] pipelines.ZeroShotClassificationArgumentHandler
+[[autodoc]] pipelines.QuestionAnsweringArgumentHandler
+Data format
+[[autodoc]] pipelines.PipelineDataFormat
+[[autodoc]] pipelines.CsvPipelineDataFormat
+[[autodoc]] pipelines.JsonPipelineDataFormat
+[[autodoc]] pipelines.PipedPipelineDataFormat
+Utilities
+[[autodoc]] pipelines.PipelineException

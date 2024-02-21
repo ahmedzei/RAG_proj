@@ -1,0 +1,1 @@
+BeIT is pretrained by masked image modeling (MIM); the image patches are randomly masked, and the image is also tokenized into visual tokens.

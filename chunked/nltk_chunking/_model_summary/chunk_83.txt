@@ -1,0 +1,4 @@
+Multimodal
+
+Encoder[[mm-encoder]]
+VisualBERT is a multimodal model for vision-language tasks released shortly after BERT.

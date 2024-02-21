@@ -1,0 +1,5 @@
+You can often get around this restriction by using tf.cond (see the documentation here) or by removing the conditional and finding a clever math trick with indicator variables instead, like so:
+python
+sum_over_10 = tf.cast(tf.reduce_sum(tensor) > 10, tf.float32)
+tensor = tensor / (1.0 + sum_over_10)
+This code has exactly the same effect as the code above, but by avoiding a conditional, we ensure it will compile with XLA without problems!

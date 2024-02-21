@@ -1,0 +1,2 @@
+[~integrations.CodeCarbonCallback] if codecarbon is
+  installed.

@@ -1,0 +1,5 @@
+
+Model training anatomy
+To understand performance optimization techniques that one can apply to improve efficiency of model training 
+speed and memory utilization, it's helpful to get familiar with how GPU is utilized during training, and how compute 
+intensity varies depending on an operation performed.

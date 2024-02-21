@@ -1,0 +1,2 @@
+Automatic speech recognition
+To use the pretrained model for automatic speech recognition, add a language modeling head on top of the base Wav2Vec2 model for connectionist temporal classification (CTC).

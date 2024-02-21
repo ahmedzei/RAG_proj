@@ -1,0 +1,5 @@
+
+Text to speech
+[[open-in-colab]]
+Text-to-speech (TTS) is the task of creating natural-sounding speech from text, where the speech can be generated in multiple 
+languages and for multiple speakers.

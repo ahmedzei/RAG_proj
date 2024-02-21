@@ -1,0 +1,1 @@
+BART is pretrained by corrupting the input and then reconstructing it with the decoder.

@@ -1,0 +1,4 @@
+This is shown in Figure 2d of the paper, see below for a sample attention mask:
+
+Using those attention matrices with less parameters then allows the model to have inputs having a bigger sequence
+length.

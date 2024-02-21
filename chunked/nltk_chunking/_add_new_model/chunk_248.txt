@@ -1,0 +1,3 @@
+Common mistakes why the outputs are not identical are:
+
+Some layers were not added, i.e.

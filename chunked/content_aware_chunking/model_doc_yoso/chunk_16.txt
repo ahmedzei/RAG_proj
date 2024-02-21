@@ -1,0 +1,1 @@
+To use the custom kernels, the user should set config.use_expectation = False.

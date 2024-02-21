@@ -1,0 +1,7 @@
+:
+
+pytest --random-order-bucket=none tests/test_a.py tests/test_c.py tests/test_b.py
+To disable the shuffling for all tests:
+
+pytest --random-order-bucket=none
+By default --random-order-bucket=module is implied, which will shuffle the files on the module levels.

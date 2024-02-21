@@ -1,0 +1,10 @@
+Usage example:
+thon
+
+from transformers import LukeTokenizer, LukeModel, LukeForEntityPairClassification
+model = LukeModel.from_pretrained("studio-ousia/luke-base")
+tokenizer = LukeTokenizer.from_pretrained("studio-ousia/luke-base")
+
+Example 1: Computing the contextualized entity representation corresponding to the entity mention "Beyoncé"
+
+text = "Beyoncé lives in Los Angeles."

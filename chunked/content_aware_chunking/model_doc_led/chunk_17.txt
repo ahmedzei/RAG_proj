@@ -1,0 +1,1 @@
+This can be done by executing model.gradient_checkpointing_enable().

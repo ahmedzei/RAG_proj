@@ -1,0 +1,4 @@
+For example, consider the following chat:
+python
+messages = [
+    {"role": "user", "content": "Hi there!

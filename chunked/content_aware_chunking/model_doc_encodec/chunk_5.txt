@@ -1,0 +1,1 @@
+Finally, we study how lightweight Transformer models can be used to further compress the obtained representation by up to 40%, while staying faster than real time.

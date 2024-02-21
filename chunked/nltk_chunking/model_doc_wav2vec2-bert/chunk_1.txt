@@ -1,0 +1,1 @@
+This model was pre-trained on 4.5M hours of unlabeled audio data covering more than 143 languages.

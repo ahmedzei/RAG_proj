@@ -1,0 +1,90 @@
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+ElectraConfig
+[[autodoc]] ElectraConfig
+ElectraTokenizer
+[[autodoc]] ElectraTokenizer
+ElectraTokenizerFast
+[[autodoc]] ElectraTokenizerFast
+Electra specific outputs
+[[autodoc]] models.electra.modeling_electra.ElectraForPreTrainingOutput
+[[autodoc]] models.electra.modeling_tf_electra.TFElectraForPreTrainingOutput
+
+ElectraModel
+[[autodoc]] ElectraModel
+    - forward
+ElectraForPreTraining
+[[autodoc]] ElectraForPreTraining
+    - forward
+ElectraForCausalLM
+[[autodoc]] ElectraForCausalLM
+    - forward
+ElectraForMaskedLM
+[[autodoc]] ElectraForMaskedLM
+    - forward
+ElectraForSequenceClassification
+[[autodoc]] ElectraForSequenceClassification
+    - forward
+ElectraForMultipleChoice
+[[autodoc]] ElectraForMultipleChoice
+    - forward
+ElectraForTokenClassification
+[[autodoc]] ElectraForTokenClassification
+    - forward
+ElectraForQuestionAnswering
+[[autodoc]] ElectraForQuestionAnswering
+    - forward
+
+TFElectraModel
+[[autodoc]] TFElectraModel
+    - call
+TFElectraForPreTraining
+[[autodoc]] TFElectraForPreTraining
+    - call
+TFElectraForMaskedLM
+[[autodoc]] TFElectraForMaskedLM
+    - call
+TFElectraForSequenceClassification
+[[autodoc]] TFElectraForSequenceClassification
+    - call
+TFElectraForMultipleChoice
+[[autodoc]] TFElectraForMultipleChoice
+    - call
+TFElectraForTokenClassification
+[[autodoc]] TFElectraForTokenClassification
+    - call
+TFElectraForQuestionAnswering
+[[autodoc]] TFElectraForQuestionAnswering
+    - call
+
+FlaxElectraModel
+[[autodoc]] FlaxElectraModel
+    - call
+FlaxElectraForPreTraining
+[[autodoc]] FlaxElectraForPreTraining
+    - call
+FlaxElectraForCausalLM
+[[autodoc]] FlaxElectraForCausalLM
+    - call
+FlaxElectraForMaskedLM
+[[autodoc]] FlaxElectraForMaskedLM
+    - call
+FlaxElectraForSequenceClassification
+[[autodoc]] FlaxElectraForSequenceClassification
+    - call
+FlaxElectraForMultipleChoice
+[[autodoc]] FlaxElectraForMultipleChoice
+    - call
+FlaxElectraForTokenClassification
+[[autodoc]] FlaxElectraForTokenClassification
+    - call
+FlaxElectraForQuestionAnswering
+[[autodoc]] FlaxElectraForQuestionAnswering
+    - call

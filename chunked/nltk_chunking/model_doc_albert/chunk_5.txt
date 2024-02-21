@@ -1,0 +1,2 @@
+To address these problems, we present two parameter-reduction
+techniques to lower memory consumption and increase the training speed of BERT.

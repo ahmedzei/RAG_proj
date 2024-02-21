@@ -1,0 +1,2 @@
+do_sample: if set to True, this parameter enables decoding strategies such as multinomial sampling, beam-search
+multinomial sampling, Top-K sampling and Top-p sampling.

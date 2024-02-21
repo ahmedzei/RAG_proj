@@ -1,0 +1,11 @@
+thon
+del pipe
+del model
+import gc
+import torch
+def flush():
+  gc.collect()
+  torch.cuda.empty_cache()
+  torch.cuda.reset_peak_memory_stats()
+
+Let's call it now for the next experiment.

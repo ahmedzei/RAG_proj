@@ -1,0 +1,1 @@
+Our method adopts variational inference augmented with normalizing flows and an adversarial training process, which improves the expressive power of generative modeling.

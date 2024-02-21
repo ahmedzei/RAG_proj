@@ -1,0 +1,3 @@
+Usage tips
+
+Reformer does not work with torch.nn.DataParallel due to a bug in PyTorch, see issue #36035.

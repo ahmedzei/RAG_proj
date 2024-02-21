@@ -1,0 +1,1 @@
+With these two experiments the authors successfully showed the huge impact of quality of training data when training machine learning models.

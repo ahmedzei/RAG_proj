@@ -1,0 +1,1 @@
+You can check out demo notebooks regarding inference as well as fine-tuning on custom data here (you can just replace [ViTFeatureExtractor] by [AutoImageProcessor] and [ViTForImageClassification] by [CvtForImageClassification]).

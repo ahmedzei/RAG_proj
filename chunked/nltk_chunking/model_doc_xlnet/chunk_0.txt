@@ -1,0 +1,6 @@
+
+XLNet
+
+Overview
+The XLNet model was proposed in XLNet: Generalized Autoregressive Pretraining for Language Understanding by Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov,
+Quoc V. Le.

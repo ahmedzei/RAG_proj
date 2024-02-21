@@ -1,0 +1,14 @@
+from transformers.utils import check_min_version
+check_min_version("4.21.0")
+tokenizer = AutoTokenizer.from_pretrained("openai-community/gpt2", padding_side="left", pad_token="")
+model = TFAutoModelForCausalLM.from_pretrained("openai-community/gpt2")
+input_string = ["TensorFlow is"]
+One line to create an XLA generation function
+xla_generate = tf.function(model.generate, jit_compile=True)
+tokenized_input = tokenizer(input_string, return_tensors="tf")
+generated_tokens = xla_generate(**tokenized_input, num_beams=2)
+decoded_text = tokenizer.decode(generated_tokens[0], skip_special_tokens=True)
+print(f"Generated -- {decoded_text}")
+Generated -- TensorFlow is an open-source, open-source, distributed-source application # framework for the
+
+As you can notice, enabling XLA on generate() is just a single line of code.

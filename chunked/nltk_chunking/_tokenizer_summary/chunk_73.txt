@@ -1,0 +1,3 @@
+In
+the example above "h" followed by "u" is present 10 + 5 = 15 times (10 times in the 10 occurrences of
+"hug", 5 times in the 5 occurrences of "hugs").

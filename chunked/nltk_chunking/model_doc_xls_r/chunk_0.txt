@@ -1,0 +1,5 @@
+
+XLS-R
+Overview
+The XLS-R model was proposed in XLS-R: Self-supervised Cross-lingual Speech Representation Learning at Scale by Arun Babu, Changhan Wang, Andros Tjandra, Kushal Lakhotia, Qiantong Xu, Naman
+Goyal, Kritika Singh, Patrick von Platen, Yatharth Saraf, Juan Pino, Alexei Baevski, Alexis Conneau, Michael Auli.

@@ -1,0 +1,9 @@
+images = [image, im]
+text_queries = [
+     ["human face", "rocket", "nasa badge", "star-spangled banner"],
+     ["hat", "book", "sunglasses", "camera"],
+ ]
+inputs = processor(text=text_queries, images=images, return_tensors="pt")
+
+Previously for post-processing you passed the single image's size as a tensor, but you can also pass a tuple, or, in case
+of several images, a list of tuples.

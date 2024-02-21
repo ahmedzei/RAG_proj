@@ -1,0 +1,2 @@
+A tiktoken library needs to be installed
+to perform the conversion of the OpenAI tokenizer to the tokenizers version.

@@ -1,0 +1,1 @@
+It should be noted that each of the first three modules can support conditional speaker embeddings to condition the output sound according to specific predefined voice.

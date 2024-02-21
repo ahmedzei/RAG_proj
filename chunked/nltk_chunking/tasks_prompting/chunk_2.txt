@@ -1,0 +1,2 @@
+They typically have billions of parameters and have been trained on trillions of 
+tokens for an extended period of time.

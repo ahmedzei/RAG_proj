@@ -1,0 +1,15 @@
+It can be used with any vision backbone, like so:
+
+from transformers import SwinConfig, UperNetConfig, UperNetForSemanticSegmentation
+backbone_config = SwinConfig(out_features=["stage1", "stage2", "stage3", "stage4"])
+config = UperNetConfig(backbone_config=backbone_config)
+model = UperNetForSemanticSegmentation(config)
+
+To use another vision backbone, like ConvNeXt, simply instantiate the model with the appropriate backbone:
+
+from transformers import ConvNextConfig, UperNetConfig, UperNetForSemanticSegmentation
+backbone_config = ConvNextConfig(out_features=["stage1", "stage2", "stage3", "stage4"])
+config = UperNetConfig(backbone_config=backbone_config)
+model = UperNetForSemanticSegmentation(config)
+
+Note that this will randomly initialize all the weights of the model.

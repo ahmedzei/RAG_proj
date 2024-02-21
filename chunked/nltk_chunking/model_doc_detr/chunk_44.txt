@@ -1,0 +1,2 @@
+For the position embeddings of the image, one can choose between fixed sinusoidal or learned
+  absolute position embeddings.

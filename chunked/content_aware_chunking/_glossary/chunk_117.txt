@@ -1,0 +1,3 @@
+R
+recurrent neural network (RNN)
+A type of model that uses a loop over a layer to process texts.

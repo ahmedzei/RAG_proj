@@ -1,0 +1,3 @@
+Further analysis demonstrates that VisualBERT can ground elements of language to image regions without any
+explicit supervision and is even sensitive to syntactic relationships, tracking, for example, associations between
+verbs and image regions corresponding to their arguments.

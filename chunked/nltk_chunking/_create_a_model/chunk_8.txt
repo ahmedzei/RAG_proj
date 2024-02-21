@@ -1,0 +1,1 @@
+Create an image processor for vision tasks.

@@ -1,0 +1,1 @@
+The ExLlama kernels are only supported when the entire model is on the GPU.

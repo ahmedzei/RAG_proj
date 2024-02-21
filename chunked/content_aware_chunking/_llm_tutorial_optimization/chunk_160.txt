@@ -1,0 +1,7 @@
+Architectural Innovations
+So far we have looked into improving computational and memory efficiency by:
+
+Casting the weights to a lower precision format
+Replacing the self-attention algorithm with a more memory- and compute efficient version
+
+Let's now look into how we can change the architecture of an LLM so that it is most effective and efficient for task that require long text inputs, e.g.

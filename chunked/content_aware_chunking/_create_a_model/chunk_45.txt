@@ -1,0 +1,6 @@
+from transformers import DistilBertForQuestionAnswering
+model = DistilBertForQuestionAnswering.from_pretrained("distilbert/distilbert-base-uncased")
+``
+</pt>
+<tf>
+For example, [TFDistilBertForSequenceClassification`] is a base DistilBERT model with a sequence classification head.

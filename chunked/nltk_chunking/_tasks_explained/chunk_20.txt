@@ -1,0 +1,2 @@
+Audio classification
+To use the pretrained model for audio classification, add a sequence classification head on top of the base Wav2Vec2 model.

@@ -1,0 +1,3 @@
+Data Parallelism + Pipeline Parallelism
+The following diagram from the DeepSpeed pipeline tutorial demonstrates 
+how one can combine DP with PP.

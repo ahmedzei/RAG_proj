@@ -1,0 +1,3 @@
+Usage tips
+
+Compared to ViT, LeViT models use an additional distillation head to effectively learn from a teacher (which, in the LeViT paper, is a ResNet like-model).

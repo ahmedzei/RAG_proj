@@ -1,0 +1,1 @@
+Demo notebooks for BLIP-2 for image captioning, visual question answering (VQA) and chat-like conversations can be found here.

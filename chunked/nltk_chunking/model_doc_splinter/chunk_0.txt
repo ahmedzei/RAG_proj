@@ -1,0 +1,4 @@
+
+Splinter
+Overview
+The Splinter model was proposed in Few-Shot Question Answering by Pretraining Span Selection by Ori Ram, Yuval Kirstain, Jonathan Berant, Amir Globerson, Omer Levy.

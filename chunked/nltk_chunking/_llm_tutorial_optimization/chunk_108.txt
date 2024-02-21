@@ -1,0 +1,3 @@
+The main takeaway here is:
+
+By keeping track of softmax normalization statistics and by using some smart mathematics, Flash Attention gives numerical identical outputs compared to the default self-attention layer at a memory cost that only increases linearly with \( N \) .

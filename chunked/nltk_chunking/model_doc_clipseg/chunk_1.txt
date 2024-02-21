@@ -1,0 +1,1 @@
+CLIPSeg adds a minimal decoder on top of a frozen CLIP model for zero- and one-shot image segmentation.

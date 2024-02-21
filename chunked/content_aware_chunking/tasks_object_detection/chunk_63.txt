@@ -1,0 +1,2 @@
+Just like
+when you prepared your data for training, the annotations from the cppe5["test"] need to be formatted.

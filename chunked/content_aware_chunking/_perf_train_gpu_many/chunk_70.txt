@@ -1,0 +1,1 @@
+As soon as the calculation is done, the data that is no longer needed gets dropped - it's only used during the calculation.

@@ -1,0 +1,2 @@
+Once a sufficient number of 
+gradients have been accumulated, the model's optimization step is executed.

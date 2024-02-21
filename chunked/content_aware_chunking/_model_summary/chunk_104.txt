@@ -1,0 +1,4 @@
+Reinforcement learning
+
+Decoder[[rl-decoder]]
+The Decision and Trajectory Transformer casts the state, action, and reward as a sequence modeling problem.

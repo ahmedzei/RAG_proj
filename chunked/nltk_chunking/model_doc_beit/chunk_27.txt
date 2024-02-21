@@ -1,0 +1,2 @@
+During pre-training, the authors shared the
+  relative position bias among the several self-attention layers.

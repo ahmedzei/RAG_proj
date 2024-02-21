@@ -1,0 +1,1 @@
+If you're able to load fp16 weights, then make sure you specify torch_dtype=torch.float16 in [~PreTrainedModel.from_pretrained].

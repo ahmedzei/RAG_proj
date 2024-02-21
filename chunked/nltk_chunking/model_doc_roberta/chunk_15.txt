@@ -1,0 +1,10 @@
+Just
+  separate your segments with the separation token tokenizer.sep_token (or </s>)
+
+Same as BERT with better pretraining tricks:
+
+dynamic masking: tokens are masked differently at each epoch, whereas BERT does it once and for all
+together to reach 512 tokens (so the sentences are in an order than may span several documents)
+train with larger batches
+use BPE with bytes as a subunit and not characters (because of unicode characters)
+CamemBERT is a wrapper around RoBERTa.

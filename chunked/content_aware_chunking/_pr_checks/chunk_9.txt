@@ -1,0 +1,5 @@
+You can see how it used here in RobertaAttention with the comment:
+
+Copied from transformers.models.bert.modeling_bert.BertAttention with Bert->Roberta
+
+Note that there shouldn't be any spaces around the arrow (unless that space is part of the pattern to replace of course).

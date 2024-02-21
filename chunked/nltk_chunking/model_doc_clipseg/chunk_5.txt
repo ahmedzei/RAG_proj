@@ -1,0 +1,2 @@
+A prompt can be either a text or an
+image.

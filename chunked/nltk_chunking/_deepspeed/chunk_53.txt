@@ -1,0 +1,1 @@
+round_robin_gradients is available in DeepSpeed 0.4.4 for CPU offloading.

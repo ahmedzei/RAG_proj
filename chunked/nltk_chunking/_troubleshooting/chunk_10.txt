@@ -1,0 +1,2 @@
+Firewalled environments
+Some GPU instances on cloud and intranet setups are firewalled to external connections, resulting in a connection error.

@@ -1,0 +1,14 @@
+ConvNextV2Config
+[[autodoc]] ConvNextV2Config
+ConvNextV2Model
+[[autodoc]] ConvNextV2Model
+    - forward
+ConvNextV2ForImageClassification
+[[autodoc]] ConvNextV2ForImageClassification
+    - forward
+TFConvNextV2Model
+[[autodoc]] TFConvNextV2Model
+    - call
+TFConvNextV2ForImageClassification
+[[autodoc]] TFConvNextV2ForImageClassification
+    - call

@@ -1,0 +1,1 @@
+updated_picture = agent.run("Transform the image in `picture` to add an island to it.

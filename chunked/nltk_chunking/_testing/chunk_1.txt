@@ -1,0 +1,8 @@
+There are 2 test suites in the repository:
+
+tests -- tests for the general API
+examples -- tests primarily for various applications that aren't part of the API
+
+How transformers are tested
+
+Once a PR is submitted it gets tested with 9 CircleCi jobs.

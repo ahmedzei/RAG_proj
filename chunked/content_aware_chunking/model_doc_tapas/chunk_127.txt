@@ -1,0 +1,2 @@
+Predicted answer: COUNT > 69
+What is the total number of movies?

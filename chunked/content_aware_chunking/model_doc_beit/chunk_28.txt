@@ -1,0 +1,2 @@
+During fine-tuning, each layer's relative position
+  bias is initialized with the shared relative position bias obtained after pre-training.

@@ -1,0 +1,1 @@
+If GPU memory is not a constraint for your use case, there is often no need to look into quantization.

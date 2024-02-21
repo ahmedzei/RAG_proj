@@ -1,0 +1,2 @@
+VITS (Variational Inference with adversarial learning for end-to-end Text-to-Speech) is an end-to-end 
+speech synthesis model that predicts a speech waveform conditional on an input text sequence.

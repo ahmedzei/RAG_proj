@@ -1,0 +1,1 @@
+Logging is used to notify users.

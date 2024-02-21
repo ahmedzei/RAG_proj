@@ -1,0 +1,1 @@
+stage3_max_live_parameters is the upper limit on how many full parameters you want to keep on the GPU at any given time.

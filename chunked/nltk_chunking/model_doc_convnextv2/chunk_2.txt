@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Driven by improved architectures and better representation learning frameworks, the field of visual recognition has enjoyed rapid modernization and performance boost in the early 2020s.

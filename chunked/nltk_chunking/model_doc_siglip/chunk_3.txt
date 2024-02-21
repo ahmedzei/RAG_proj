@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+We propose a simple pairwise Sigmoid loss for Language-Image Pre-training (SigLIP).

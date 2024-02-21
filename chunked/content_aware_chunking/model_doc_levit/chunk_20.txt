@@ -1,0 +1,2 @@
+At inference time,
+  one takes the average prediction between both heads as final prediction.

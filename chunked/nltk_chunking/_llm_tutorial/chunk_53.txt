@@ -1,0 +1,4 @@
+As we can see, it followed a proper thug style 😎
+
+Further resources
+While the autoregressive generation process is relatively straightforward, making the most out of your LLM can be a challenging endeavor because there are many moving parts.

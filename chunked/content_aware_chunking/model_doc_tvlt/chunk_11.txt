@@ -1,0 +1,3 @@
+Usage tips
+
+TVLT is a model that takes both pixel_values and audio_values as input.

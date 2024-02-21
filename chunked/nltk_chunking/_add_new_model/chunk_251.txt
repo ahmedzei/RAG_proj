@@ -1,0 +1,4 @@
+pass self.training to PyTorch's functional dropout
+
+The best way to fix the problem is usually to look at the forward pass of the original implementation and the 🤗
+Transformers implementation side-by-side and check if there are any differences.

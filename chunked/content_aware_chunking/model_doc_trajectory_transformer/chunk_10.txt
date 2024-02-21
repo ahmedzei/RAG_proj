@@ -1,0 +1,2 @@
+Further, we show that this approach can be combined with
+existing model-free algorithms to yield a state-of-the-art planner in sparse-reward, long-horizon tasks.

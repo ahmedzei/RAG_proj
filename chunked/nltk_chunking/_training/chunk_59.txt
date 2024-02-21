@@ -1,0 +1,9 @@
+Before you can use [~TFPreTrainedModel.prepare_tf_dataset], you will need to add the tokenizer outputs to your dataset as columns, as shown in
+the following code sample:
+
+def tokenize_dataset(data):
+    # Keys of the returned dictionary will be added to the dataset as columns
+    return tokenizer(data["text"])
+dataset = dataset.map(tokenize_dataset)
+
+Remember that Hugging Face datasets are stored on disk by default, so this will not inflate your memory usage!

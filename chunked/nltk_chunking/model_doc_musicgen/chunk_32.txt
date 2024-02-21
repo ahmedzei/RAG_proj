@@ -1,0 +1,2 @@
+Audio-Prompted Generation
+The same [MusicgenProcessor] can be used to pre-process an audio prompt that is used for audio continuation.

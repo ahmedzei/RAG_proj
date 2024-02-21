@@ -1,0 +1,2 @@
+The abstract from the paper is the following: 
+We introduce MADLAD-400, a manually audited, general domain 3T token monolingual dataset based on CommonCrawl, spanning 419 languages.

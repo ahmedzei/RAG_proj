@@ -1,0 +1,1 @@
+It differs from object detection, which uses bounding boxes to label and predict objects in an image because segmentation is more granular.

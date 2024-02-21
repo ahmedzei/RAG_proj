@@ -1,0 +1,2 @@
+feed forward chunking
+In each residual attention block in transformers the self-attention layer is usually followed by 2 feed forward layers.

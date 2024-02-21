@@ -1,0 +1,2 @@
+However, when used to generate longer outputs, greedy search can start
+producing highly repetitive results.

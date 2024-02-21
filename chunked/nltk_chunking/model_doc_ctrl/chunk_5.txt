@@ -1,0 +1,2 @@
+These codes also allow CTRL to predict which parts of the
+training data are most likely given a sequence.

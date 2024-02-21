@@ -1,0 +1,6 @@
+Setup
+This example assumes that you have:
+* Access to a Kubernetes cluster with Kubeflow installed
+* kubectl installed and configured to access the Kubernetes cluster
+* A Persistent Volume Claim (PVC) that can be used
+  to store datasets and model files.

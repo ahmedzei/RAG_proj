@@ -1,0 +1,2 @@
+If you want to load adapter weights of another language 
+make sure to specify target_lang=<your-chosen-target-lang> as well as "ignore_mismatched_sizes=True.

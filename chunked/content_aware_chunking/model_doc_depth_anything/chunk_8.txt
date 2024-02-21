@@ -1,0 +1,1 @@
+Second, an auxiliary supervision is developed to enforce the model to inherit rich semantic priors from pre-trained encoders.

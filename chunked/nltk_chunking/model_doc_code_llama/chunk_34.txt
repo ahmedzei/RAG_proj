@@ -1,0 +1,1 @@
+Code Llama has the same architecture as the Llama2 models, refer to Llama2's documentation page for the API reference.

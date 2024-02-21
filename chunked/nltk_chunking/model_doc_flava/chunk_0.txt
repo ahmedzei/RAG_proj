@@ -1,0 +1,4 @@
+
+FLAVA
+Overview
+The FLAVA model was proposed in FLAVA: A Foundational Language And Vision Alignment Model by Amanpreet Singh, Ronghang Hu, Vedanuj Goswami, Guillaume Couairon, Wojciech Galuba, Marcus Rohrbach, and Douwe Kiela and is accepted at CVPR 2022.

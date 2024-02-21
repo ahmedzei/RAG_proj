@@ -1,0 +1,2 @@
+This is primarily because we prioritize optimizing zero-shot performance of our
+model on any pair of 200 languages at a minor cost to supervised performance.

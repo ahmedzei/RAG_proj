@@ -1,0 +1,4 @@
+Inference
+Speech2Text2's [SpeechEncoderDecoderModel] model accepts raw waveform input values from speech and
+makes use of [~generation.GenerationMixin.generate] to translate the input speech
+autoregressively to the target language.

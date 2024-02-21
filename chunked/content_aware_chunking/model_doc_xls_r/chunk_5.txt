@@ -1,0 +1,2 @@
+For speech recognition, XLS-R improves over the best known prior work on BABEL, MLS, CommonVoice as well as
+VoxPopuli, lowering error rates by 14-34% relative on average.

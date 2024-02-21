@@ -1,0 +1,2 @@
+Moreover, rather than just creating a one-hot encoded vector, one creates a 
+soft encoding, based on the number of times a certain answer appeared in the annotations.

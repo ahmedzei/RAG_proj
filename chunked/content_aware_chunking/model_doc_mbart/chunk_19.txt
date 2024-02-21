@@ -1,0 +1,2 @@
+Training of MBart-50
+The text format for MBart-50 is slightly different from mBART.

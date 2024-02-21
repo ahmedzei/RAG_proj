@@ -1,0 +1,1 @@
+line = "Tôi là sinh_viên trường đại_học Công_nghệ ."

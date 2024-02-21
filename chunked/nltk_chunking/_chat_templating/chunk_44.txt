@@ -1,0 +1,1 @@
+Our text generation pipelines support chat inputs, which makes it easy to use chat models.

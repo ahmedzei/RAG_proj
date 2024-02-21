@@ -1,0 +1,3 @@
+question: string
+table_file: string, name of a csv file containing the tabular data
+answer_coordinates: list of one or more tuples (each tuple being a cell coordinate, i.e.

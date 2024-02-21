@@ -1,0 +1,4 @@
+Using Longformer self attention, the memory and time complexity of the query-key matmul operation, which usually
+represents the memory and time bottleneck, can be reduced from \(\mathcal{O}(n_s \times n_s)\) to
+\(\mathcal{O}(n_s \times w)\), with \(n_s\) being the sequence length and \(w\) being the average window
+size.

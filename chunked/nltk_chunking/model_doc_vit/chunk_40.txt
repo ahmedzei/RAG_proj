@@ -1,0 +1,2 @@
+Resources
+Demo notebooks regarding inference as well as fine-tuning ViT on custom data can be found here.

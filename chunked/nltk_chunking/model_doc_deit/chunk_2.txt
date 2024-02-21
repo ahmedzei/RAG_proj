@@ -1,0 +1,2 @@
+However, the ViT models introduced in that paper required training on
+expensive infrastructure for multiple weeks, using external data.

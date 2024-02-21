@@ -1,0 +1,2 @@
+As a result, the contextual representations learned by our
+approach substantially outperform the ones learned by BERT given the same model size, data, and compute.

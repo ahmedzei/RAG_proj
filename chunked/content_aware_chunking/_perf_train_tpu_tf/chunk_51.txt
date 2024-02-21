@@ -1,0 +1,3 @@
+We’ve distilled them into three core rules below:
+
+🤗Specific HuggingFace Tip🤗: We’ve put a lot of effort into rewriting our TensorFlow models and loss functions to be XLA-compatible.

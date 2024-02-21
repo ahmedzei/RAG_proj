@@ -1,0 +1,1 @@
+ending: suggests a possible ending for how a sentence can end, but only one of them is correct.

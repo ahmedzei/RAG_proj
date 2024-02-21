@@ -1,0 +1,6 @@
+[[autodoc]] data.processors.utils.DataProcessor
+[[autodoc]] data.processors.utils.InputExample
+[[autodoc]] data.processors.utils.InputFeatures
+GLUE
+General Language Understanding Evaluation (GLUE) is a benchmark that evaluates the
+performance of models across a diverse set of existing NLU tasks.

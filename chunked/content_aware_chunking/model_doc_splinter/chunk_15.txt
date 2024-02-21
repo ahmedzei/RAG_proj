@@ -1,0 +1,2 @@
+If you plan on using Splinter outside run_qa.py, please keep in mind the question token - it might be important for
+  the success of your model, especially in a few-shot setting.

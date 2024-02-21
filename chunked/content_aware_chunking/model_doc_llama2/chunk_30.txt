@@ -1,0 +1,1 @@
+This is required because the Flash Attention only support fp16 and bf16 data type.

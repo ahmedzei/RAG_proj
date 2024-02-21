@@ -1,0 +1,2 @@
+To access a modality that only attends to
+  itself, select the vision/language hidden states from the first input in the tuple.

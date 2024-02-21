@@ -1,0 +1,2 @@
+Hence, when adding a model, the user is not only the
+person who will use your model, but also everybody who will read, try to understand, and possibly tweak your code.

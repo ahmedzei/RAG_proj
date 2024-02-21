@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+The cost of vision-and-language pre-training has become increasingly prohibitive due to end-to-end training of large-scale models.

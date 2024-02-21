@@ -1,0 +1,8 @@
+You'll learn:
+
+Basics of prompting
+Best practices of LLM prompting
+Advanced prompting techniques: few-shot prompting and chain-of-thought
+When to fine-tune instead of prompting
+
+Prompt engineering is only a part of the LLM output optimization process.

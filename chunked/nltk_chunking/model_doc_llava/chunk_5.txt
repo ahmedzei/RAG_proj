@@ -1,0 +1,1 @@
+In this note, we show that the fully-connected vision-language cross-modal connector in LLaVA is surprisingly powerful and data-efficient.

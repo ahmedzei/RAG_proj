@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+We present pure-transformer based models for video classification, drawing upon the recent success of such models in image classification.

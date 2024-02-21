@@ -1,0 +1,3 @@
+Here's a TLDR explaining how Perceiver works:
+The main problem with the self-attention mechanism of the Transformer is that the time and memory requirements scale
+quadratically with the sequence length.

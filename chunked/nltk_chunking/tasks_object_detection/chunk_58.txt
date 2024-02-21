@@ -1,0 +1,1 @@
+Upon training completion, push the final model to the Hub as well by calling the [~transformers.Trainer.push_to_hub] method.

@@ -1,0 +1,3 @@
+Only
+at the very end, when the model has already been successfully ported to 🤗 Transformers, one should verify that the
+model also works as expected on GPU.

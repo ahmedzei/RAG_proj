@@ -1,0 +1,11 @@
+from transformers import PushToHubCallback
+push_to_hub_callback = PushToHubCallback(
+     output_dir="./your_model_save_path", tokenizer=tokenizer, hub_model_id="your-username/my-awesome-model"
+ )
+
+Add the callback to fit, and 🤗 Transformers will push the trained model to the Hub:
+
+model.fit(tf_train_dataset, validation_data=tf_validation_dataset, epochs=3, callbacks=push_to_hub_callback)
+
+Use the push_to_hub function
+You can also call push_to_hub directly on your model to upload it to the Hub.

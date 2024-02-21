@@ -1,0 +1,4 @@
+We'll benchmark the differences between DP and 
+DDP with an added context of NVLink presence:  
+
+Hardware: 2x TITAN RTX 24GB each + NVlink with 2 NVLinks (NV2 in nvidia-smi topo -m).

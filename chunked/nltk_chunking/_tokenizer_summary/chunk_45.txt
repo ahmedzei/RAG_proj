@@ -1,0 +1,2 @@
+In addition, subword tokenization enables the model to process words it has never
+seen before, by decomposing them into known subwords.

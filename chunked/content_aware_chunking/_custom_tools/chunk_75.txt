@@ -1,0 +1,1 @@
+The agent sees a list of tool names and their description in its prompt.

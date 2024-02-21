@@ -1,0 +1,1 @@
+Some other cards may use a PCI-E 12-Pin connectors, and these can deliver up to 500-600W of power.

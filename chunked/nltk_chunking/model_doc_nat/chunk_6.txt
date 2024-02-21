@@ -1,0 +1,2 @@
+We further present Neighborhood Attention Transformer (NAT), a new hierarchical transformer design based on NA
+that boosts image classification and downstream vision performance.

@@ -1,0 +1,18 @@
+DonutSwinConfig
+[[autodoc]] DonutSwinConfig
+DonutImageProcessor
+[[autodoc]] DonutImageProcessor
+    - preprocess
+DonutFeatureExtractor
+[[autodoc]] DonutFeatureExtractor
+    - call
+DonutProcessor
+[[autodoc]] DonutProcessor
+    - call
+    - from_pretrained
+    - save_pretrained
+    - batch_decode
+    - decode
+DonutSwinModel
+[[autodoc]] DonutSwinModel
+    - forward

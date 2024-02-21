@@ -1,0 +1,2 @@
+This way it gets access to the doc of the 
+tools you are using, especially their expected inputs and outputs, and can generate the relevant code.

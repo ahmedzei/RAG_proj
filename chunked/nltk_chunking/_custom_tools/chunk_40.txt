@@ -1,0 +1,3 @@
+Note that the only
+information the agent has about the tool is its name and description, so one should make sure that both 
+are precisely written and match the style of the existing tools in the toolbox.

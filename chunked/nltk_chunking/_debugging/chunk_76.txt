@@ -1,0 +1,31 @@
+Here is a sample truncated output for such configuration:
+
+                  *** Starting batch number=1 ***
+abs min  abs max  metadata
+                  shared Embedding
+1.01e-06 7.92e+02 weight
+0.00e+00 2.47e+04 input[0]
+5.36e-05 7.92e+02 output
+[]
+                  decoder.dropout Dropout
+1.60e-07 2.27e+01 input[0]
+0.00e+00 2.52e+01 output
+                  decoder T5Stack
+     not a tensor output
+                  lm_head Linear
+1.01e-06 7.92e+02 weight
+0.00e+00 1.11e+00 input[0]
+6.06e-02 8.39e+01 output
+                   T5ForConditionalGeneration
+     not a tensor output
+              *** Starting batch number=3 ***
+
+abs min  abs max  metadata
+                  shared Embedding
+1.01e-06 7.92e+02 weight
+0.00e+00 2.78e+04 input[0]
+5.36e-05 7.92e+02 output
+[]
+
+Here you will get a huge number of frames dumped - as many as there were forward calls in your model, so it may or may
+not what you want, but sometimes it can be easier to use for debugging purposes than a normal debugger.

@@ -1,0 +1,2 @@
+Analysis shows that the latent discrete speech representations are shared across languages with
+increased sharing for related languages.

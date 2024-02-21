@@ -1,0 +1,8 @@
+The following example shows how to get the last hidden state using [VisualBertModel]:
+thon
+
+import torch
+from transformers import BertTokenizer, VisualBertModel
+model = VisualBertModel.from_pretrained("uclanlp/visualbert-vqa-coco-pre")
+tokenizer = BertTokenizer.from_pretrained("google-bert/bert-base-uncased")
+inputs = tokenizer("What is the man eating?

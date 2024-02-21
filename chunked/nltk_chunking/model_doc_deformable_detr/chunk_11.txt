@@ -1,0 +1,3 @@
+Usage tips
+
+Training Deformable DETR is equivalent to training the original DETR model.

@@ -1,0 +1,2 @@
+Note that config.attention_window can be of type List to define a
+different \(w\) for each layer.

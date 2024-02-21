@@ -1,0 +1,3 @@
+This information can optionally be saved in a .csv file
+when adding the argument save_to_csv=True to [PyTorchBenchmarkArguments] and
+[TensorFlowBenchmarkArguments] respectively.

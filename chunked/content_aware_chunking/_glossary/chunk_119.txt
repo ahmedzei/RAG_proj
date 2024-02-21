@@ -1,0 +1,1 @@
+Some examples of representation learning techniques include word embeddings, autoencoders, and Generative Adversarial Networks (GANs).

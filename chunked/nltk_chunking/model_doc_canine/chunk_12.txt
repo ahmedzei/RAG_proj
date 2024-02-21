@@ -1,0 +1,2 @@
+First, a "shallow" encoder is used to contextualize
+  the character embeddings, using local attention.

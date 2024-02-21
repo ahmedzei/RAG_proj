@@ -1,0 +1,2 @@
+You can install it with pre-built wheels for Linux by referring to shi-labs.com/natten,
+or build on your system by running pip install natten.

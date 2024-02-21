@@ -1,0 +1,2 @@
+tokens = tokenizer(prompt, return_tensors="pt").to("cuda")
+use the model to generate new tokens.

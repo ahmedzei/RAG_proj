@@ -1,0 +1,1 @@
+ConvNeXT is a CNN architecture that adopts new and modern network designs to improve performance.

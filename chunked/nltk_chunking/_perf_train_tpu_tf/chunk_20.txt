@@ -1,0 +1,1 @@
+The reason for this is that even though they create a tf.data.Dataset it is not a “pure” tf.data pipeline and uses tf.numpy_function or Dataset.from_generator() to stream data from the underlying HuggingFace Dataset.

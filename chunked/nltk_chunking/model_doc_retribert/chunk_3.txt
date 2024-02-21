@@ -1,0 +1,3 @@
+Overview
+The RetriBERT model was proposed in the blog post Explain Anything Like I'm Five: A Model for Open Domain Long Form
+Question Answering.

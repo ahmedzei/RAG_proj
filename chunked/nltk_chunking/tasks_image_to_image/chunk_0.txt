@@ -1,0 +1,4 @@
+
+Image-to-Image Task Guide
+[[open-in-colab]]
+Image-to-Image task is the task where an application receives an image and outputs another image.

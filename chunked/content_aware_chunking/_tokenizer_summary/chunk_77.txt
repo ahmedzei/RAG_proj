@@ -1,0 +1,4 @@
+The set of words then
+becomes
+("h" "ug", 10), ("p" "ug", 5), ("p" "u" "n", 12), ("b" "u" "n", 4), ("h" "ug" "s", 5)
+BPE then identifies the next most common symbol pair.

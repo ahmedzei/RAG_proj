@@ -1,0 +1,2 @@
+In vision, on top of ongoing efforts into plain transformers, hierarchical transformers have
+also gained significant attention, thanks to their performance and easy integration into existing frameworks.

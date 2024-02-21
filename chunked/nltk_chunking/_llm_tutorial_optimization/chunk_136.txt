@@ -1,0 +1,5 @@
+thon
+import time
+start_time = time.time()
+result = pipe(long_prompt, max_new_tokens=60)[0]["generated_text"][len(long_prompt):]
+print(f"Generated in {time.time() - start_time} seconds.")

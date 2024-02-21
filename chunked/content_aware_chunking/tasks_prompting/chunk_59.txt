@@ -1,0 +1,1 @@
+Typically, it's better to place the instruction on one of the extreme ends.

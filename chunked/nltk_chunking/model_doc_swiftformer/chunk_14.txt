@@ -1,0 +1,8 @@
+SwiftFormerConfig
+[[autodoc]] SwiftFormerConfig
+SwiftFormerModel
+[[autodoc]] SwiftFormerModel
+    - forward
+SwiftFormerForImageClassification
+[[autodoc]] SwiftFormerForImageClassification
+    - forward

@@ -1,0 +1,3 @@
+Summary
+This guide covered running distributed PyTorch training jobs using multiple CPUs on bare metal and on a Kubernetes
+cluster.

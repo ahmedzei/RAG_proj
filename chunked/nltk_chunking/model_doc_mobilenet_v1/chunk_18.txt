@@ -1,0 +1,1 @@
+In the original model it is possible to use a 7x7 average pooling layer with stride 2 instead of global pooling.

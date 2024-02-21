@@ -1,0 +1,8 @@
+AutoModel
+[[autodoc]] AutoModel
+TFAutoModel
+[[autodoc]] TFAutoModel
+FlaxAutoModel
+[[autodoc]] FlaxAutoModel
+Generic pretraining classes
+The following auto classes are available for instantiating a model with a pretraining head.

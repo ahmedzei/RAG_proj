@@ -1,0 +1,3 @@
+Answer:
+py
+answer = document_qa(document, question="What is the oldest person?")

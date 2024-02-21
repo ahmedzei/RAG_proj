@@ -1,0 +1,2 @@
+We release BARTpho to facilitate future
+research and applications of generative Vietnamese NLP tasks.

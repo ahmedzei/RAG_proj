@@ -1,0 +1,1 @@
+See the Hub documentation for best practices like signed commit verification with GPG.

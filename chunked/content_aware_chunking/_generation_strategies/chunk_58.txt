@@ -1,0 +1,4 @@
+Multinomial sampling
+As opposed to greedy search that always chooses a token with the highest probability as the
+next token, multinomial sampling (also called ancestral sampling) randomly selects the next token based on the probability distribution over the entire
+vocabulary given by the model.

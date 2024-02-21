@@ -1,0 +1,1 @@
+To configure PyTorch AMP-like fp16 mixed precision reduces memory usage and accelerates training speed.

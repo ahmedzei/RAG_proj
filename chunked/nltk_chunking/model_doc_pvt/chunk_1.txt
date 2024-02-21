@@ -1,0 +1,2 @@
+The PVT is a type of
+vision transformer that utilizes a pyramid structure to make it an effective backbone for dense prediction tasks.

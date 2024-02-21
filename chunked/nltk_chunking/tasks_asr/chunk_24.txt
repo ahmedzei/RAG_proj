@@ -1,0 +1,1 @@
+At the end of each epoch, the [Trainer] will evaluate the WER and save the training checkpoint.

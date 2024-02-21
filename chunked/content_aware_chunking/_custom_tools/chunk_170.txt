@@ -1,0 +1,3 @@
+This can be good if you have a better
+prompt suited for the task, but it can also result in your tool being selected way more than others or for other
+tools to be selected instead of the one you have defined.

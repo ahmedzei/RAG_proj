@@ -1,0 +1,7 @@
+Fine-tune on GPU
+
+Multilingual Models
+
+All model names use the following format: Helsinki-NLP/opus-mt-{src}-{tgt}:
+If a model can output multiple languages, and you should specify a language code by prepending the desired output
+  language to the src_text.

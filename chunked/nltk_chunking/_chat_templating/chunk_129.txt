@@ -1,0 +1,2 @@
+The one-liner also includes
+handy support for generation prompts, but note that it doesn't add BOS or EOS tokens!

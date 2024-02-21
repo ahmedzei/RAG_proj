@@ -1,0 +1,3 @@
+Operator
+
+If we perform layer normalization, we compute std first and mean second, and then we can normalize data.

@@ -1,0 +1,2 @@
+- The logic of the base model class, BrandNewBertModel, will actually reside in TFBrandNewBertMainLayer, a Keras
+   layer subclass (example).

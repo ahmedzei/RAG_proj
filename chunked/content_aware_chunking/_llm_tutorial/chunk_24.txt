@@ -1,0 +1,1 @@
+We highly recommend manually setting max_new_tokens in your generate call to control the maximum number of new tokens it can return.

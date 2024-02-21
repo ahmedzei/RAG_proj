@@ -1,0 +1,1 @@
+Image processors preprocess vision inputs, feature extractors preprocess audio inputs, and a processor handles multimodal inputs.

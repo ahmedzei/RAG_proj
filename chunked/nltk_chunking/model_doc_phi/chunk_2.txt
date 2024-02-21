@@ -1,0 +1,2 @@
+Summary
+In Phi-1 and Phi-1.5 papers, the authors showed how important the quality of the data is in training relative to the model size.

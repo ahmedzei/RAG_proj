@@ -1,0 +1,2 @@
+If you pay close attention the way ZeRO partitions the model's weights - it looks very similar to tensor parallelism 
+which will be discussed later.

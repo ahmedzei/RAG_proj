@@ -1,0 +1,34 @@
+DeiTConfig
+[[autodoc]] DeiTConfig
+DeiTFeatureExtractor
+[[autodoc]] DeiTFeatureExtractor
+    - call
+DeiTImageProcessor
+[[autodoc]] DeiTImageProcessor
+    - preprocess
+
+DeiTModel
+[[autodoc]] DeiTModel
+    - forward
+DeiTForMaskedImageModeling
+[[autodoc]] DeiTForMaskedImageModeling
+    - forward
+DeiTForImageClassification
+[[autodoc]] DeiTForImageClassification
+    - forward
+DeiTForImageClassificationWithTeacher
+[[autodoc]] DeiTForImageClassificationWithTeacher
+    - forward
+
+TFDeiTModel
+[[autodoc]] TFDeiTModel
+    - call
+TFDeiTForMaskedImageModeling
+[[autodoc]] TFDeiTForMaskedImageModeling
+    - call
+TFDeiTForImageClassification
+[[autodoc]] TFDeiTForImageClassification
+    - call
+TFDeiTForImageClassificationWithTeacher
+[[autodoc]] TFDeiTForImageClassificationWithTeacher
+    - call

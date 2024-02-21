@@ -1,0 +1,1 @@
+You can also run inference using bfloat16, and we recommend you check inference results with both float16 and bfloat16 after fine-tuning.

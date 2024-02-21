@@ -1,0 +1,3 @@
+pred = onnx_qa(question, context)
+
+If you have an Intel CPU, take a look at 🤗 Optimum Intel which supports a variety of compression techniques (quantization, pruning, knowledge distillation) and tools for converting models to the OpenVINO format for higher performance inference.

@@ -1,0 +1,5 @@
+└── resnet_model
+    ├── __init__.py
+    ├── configuration_resnet.py
+    └── modeling_resnet.py
+The __init__.py can be empty, it's just there so that Python detects resnet_model can be use as a module.

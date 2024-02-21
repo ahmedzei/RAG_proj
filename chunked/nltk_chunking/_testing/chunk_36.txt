@@ -1,0 +1,2 @@
+--dist=loadfile puts the
+tests located in one file onto the same process.

@@ -1,0 +1,2 @@
+Module oneccl_bindings_for_pytorch (torch_ccl before version 1.12)  implements PyTorch C10D ProcessGroup API and can be dynamically loaded as external ProcessGroup and only works on Linux platform now
+Check more detailed information for oneccl_bind_pt.

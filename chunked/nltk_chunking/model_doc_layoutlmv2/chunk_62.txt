@@ -1,0 +1,2 @@
+[LayoutLMv2Processor] uses PyTesseract, a Python
+wrapper around Google's Tesseract OCR engine, under the hood.

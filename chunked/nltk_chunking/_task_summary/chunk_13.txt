@@ -1,0 +1,2 @@
+Audio classification
+Audio classification is a task that labels audio data from a predefined set of classes.

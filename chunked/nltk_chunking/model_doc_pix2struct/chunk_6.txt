@@ -1,0 +1,1 @@
+Intuitively, this objective subsumes common pretraining signals such as OCR, language modeling, image captioning.

@@ -1,0 +1,2 @@
+The pre-trained MusicGen models use a frozen text encoder from either T5 or Flan-T5
+2.

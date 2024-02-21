@@ -1,0 +1,1 @@
+For each size, we release the base language model and the aligned chat model.

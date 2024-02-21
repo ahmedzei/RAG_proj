@@ -1,0 +1,2 @@
+We pre-train ProphetNet using a base scale dataset (16GB) and a large scale
+dataset (160GB) respectively.

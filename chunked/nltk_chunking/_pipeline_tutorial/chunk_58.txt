@@ -1,0 +1,2 @@
+from transformers import pipeline
+This model is a zero-shot-classification model.

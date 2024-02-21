@@ -1,0 +1,1 @@
+Next, so-called object queries are sent through the decoder.

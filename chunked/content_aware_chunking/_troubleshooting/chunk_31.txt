@@ -1,0 +1,1 @@
+For some use-cases, users want a model to attend to a padding token.

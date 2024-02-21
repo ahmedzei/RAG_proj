@@ -1,0 +1,3 @@
+Grab some text you'd like to run inference on:
+
+text = "The Golden State Warriors are an American professional basketball team based in San Francisco."

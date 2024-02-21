@@ -1,0 +1,33 @@
+But, then we have a helper context manager wrapper to automatically take care of it all, regardless of whether it has
+some \r's in it or not, so it's a simple:
+thon
+from transformers.testing_utils import CaptureStdout
+with CaptureStdout() as cs:
+    function_that_writes_to_stdout()
+print(cs.out)
+
+Here is a full test example:
+thon
+from transformers.testing_utils import CaptureStdout
+msg = "Secret message\r"
+final = "Hello World"
+with CaptureStdout() as cs:
+    print(msg + final)
+assert cs.out == final + "\n", f"captured: {cs.out}, expecting {final}"
+
+If you'd like to capture stderr use the CaptureStderr class instead:
+thon
+from transformers.testing_utils import CaptureStderr
+with CaptureStderr() as cs:
+    function_that_writes_to_stderr()
+print(cs.err)
+
+If you need to capture both streams at once, use the parent CaptureStd class:
+thon
+from transformers.testing_utils import CaptureStd
+with CaptureStd() as cs:
+    function_that_writes_to_stdout_and_stderr()
+print(cs.err, cs.out)
+
+Also, to aid debugging test issues, by default these context managers automatically replay the captured streams on exit
+from the context.

@@ -1,0 +1,3 @@
+-name '*json')
+
+The DeepSpeed configuration file is passed as a path to a JSON file if you're training from the command line interface or as a nested dict object if you're using the [Trainer] in a notebook setting.

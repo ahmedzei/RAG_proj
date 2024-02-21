@@ -1,0 +1,2 @@
+Overview
+The M-CTC-T model was proposed in Pseudo-Labeling For Massively Multilingual Speech Recognition by Loren Lugosch, Tatiana Likhomanenko, Gabriel Synnaeve, and Ronan Collobert.

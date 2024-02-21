@@ -1,0 +1,1 @@
+Some preselected input tokens are still given global attention, but the attention matrix has way less parameters, resulting in a speed-up.

@@ -1,0 +1,1 @@
+From here, the feature is passed into a Selective Feature Fusion (SFF) module, which selects and combines local and global features from an attention map for each feature and then upsamples it to 1/8th.

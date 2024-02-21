@@ -1,0 +1,2 @@
+ZeRO Data Parallelism + Pipeline Parallelism + Tensor Parallelism
+One of the main features of DeepSpeed is ZeRO, which is a super-scalable extension of DP.

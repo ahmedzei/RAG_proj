@@ -1,0 +1,1 @@
+Likewise, if DETR predicts an object that doesn't exist, it is penalized.

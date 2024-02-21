@@ -1,0 +1,2 @@
+When there's a need to use such model for a classification task that introduces a
+new set of labels, fine-tuning is required to "recalibrate" the model.

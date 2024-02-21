@@ -1,0 +1,3 @@
+🤗 Transformers status:
+- core: not yet implemented in the core
+- but if you want inference parallelformers provides this support for most of our models.

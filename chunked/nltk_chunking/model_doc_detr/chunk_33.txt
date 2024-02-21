@@ -1,0 +1,2 @@
+[~transformers.DetrForSegmentation] adds a segmentation mask head on top of
+[~transformers.DetrForObjectDetection].

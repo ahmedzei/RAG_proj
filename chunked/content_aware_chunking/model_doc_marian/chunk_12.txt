@@ -1,0 +1,1 @@
+Codes formatted like es_AR are usually code_{region}.

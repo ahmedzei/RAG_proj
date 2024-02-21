@@ -1,0 +1,1 @@
+By treating image tokens like text tokens and using a special image-newline character, the model knows when an image line ends.

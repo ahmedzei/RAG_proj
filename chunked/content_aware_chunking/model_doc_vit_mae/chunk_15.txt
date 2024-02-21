@@ -1,0 +1,3 @@
+Usage tips
+
+MAE (masked auto encoding) is a method for self-supervised pre-training of Vision Transformers (ViTs).

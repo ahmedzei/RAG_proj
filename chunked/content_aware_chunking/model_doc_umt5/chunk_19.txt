@@ -1,0 +1,6 @@
+",
+     return_tensors="pt",
+ )
+outputs = model.generate(**inputs)
+print(tokenizer.batch_decode(outputs))
+['nyone who drink a alcohol A A.

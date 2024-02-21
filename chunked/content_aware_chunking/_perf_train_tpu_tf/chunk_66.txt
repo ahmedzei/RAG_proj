@@ -1,0 +1,1 @@
+Because the shape of masked_outputs and masked_labels depends on how many positions are masked - that makes it a data-dependent shape.

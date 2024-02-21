@@ -1,0 +1,2 @@
+The default generation configuration limits the size of the output combined with the input prompt to a maximum of 20
+tokens to avoid running into resource limitations.

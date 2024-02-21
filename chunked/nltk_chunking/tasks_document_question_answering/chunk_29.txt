@@ -1,0 +1,5 @@
+from transformers import AutoProcessor
+processor = AutoProcessor.from_pretrained(model_checkpoint)
+
+Preprocessing document images
+First, let's prepare the document images for the model with the help of the image_processor from the processor.

@@ -1,0 +1,83 @@
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+RoFormerConfig
+[[autodoc]] RoFormerConfig
+RoFormerTokenizer
+[[autodoc]] RoFormerTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+RoFormerTokenizerFast
+[[autodoc]] RoFormerTokenizerFast
+    - build_inputs_with_special_tokens
+
+RoFormerModel
+[[autodoc]] RoFormerModel
+    - forward
+RoFormerForCausalLM
+[[autodoc]] RoFormerForCausalLM
+    - forward
+RoFormerForMaskedLM
+[[autodoc]] RoFormerForMaskedLM
+    - forward
+RoFormerForSequenceClassification
+[[autodoc]] RoFormerForSequenceClassification
+    - forward
+RoFormerForMultipleChoice
+[[autodoc]] RoFormerForMultipleChoice
+    - forward
+RoFormerForTokenClassification
+[[autodoc]] RoFormerForTokenClassification
+    - forward
+RoFormerForQuestionAnswering
+[[autodoc]] RoFormerForQuestionAnswering
+    - forward
+
+TFRoFormerModel
+[[autodoc]] TFRoFormerModel
+    - call
+TFRoFormerForMaskedLM
+[[autodoc]] TFRoFormerForMaskedLM
+    - call
+TFRoFormerForCausalLM
+[[autodoc]] TFRoFormerForCausalLM
+    - call
+TFRoFormerForSequenceClassification
+[[autodoc]] TFRoFormerForSequenceClassification
+    - call
+TFRoFormerForMultipleChoice
+[[autodoc]] TFRoFormerForMultipleChoice
+    - call
+TFRoFormerForTokenClassification
+[[autodoc]] TFRoFormerForTokenClassification
+    - call
+TFRoFormerForQuestionAnswering
+[[autodoc]] TFRoFormerForQuestionAnswering
+    - call
+
+FlaxRoFormerModel
+[[autodoc]] FlaxRoFormerModel
+    - call
+FlaxRoFormerForMaskedLM
+[[autodoc]] FlaxRoFormerForMaskedLM
+    - call
+FlaxRoFormerForSequenceClassification
+[[autodoc]] FlaxRoFormerForSequenceClassification
+    - call
+FlaxRoFormerForMultipleChoice
+[[autodoc]] FlaxRoFormerForMultipleChoice
+    - call
+FlaxRoFormerForTokenClassification
+[[autodoc]] FlaxRoFormerForTokenClassification
+    - call
+FlaxRoFormerForQuestionAnswering
+[[autodoc]] FlaxRoFormerForQuestionAnswering
+    - call

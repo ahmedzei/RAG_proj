@@ -1,0 +1,2 @@
+Start by inheriting the base class Pipeline with the 4 methods needed to implement preprocess,
+_forward, postprocess, and _sanitize_parameters.

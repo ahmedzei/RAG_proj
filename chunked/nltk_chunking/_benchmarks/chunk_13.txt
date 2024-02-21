@@ -1,0 +1,3 @@
+Alternatively, running the following shell
+commands from root will print out a descriptive list of all configurable parameters for PyTorch and Tensorflow
+respectively.

@@ -1,0 +1,1 @@
+The numerator and denominator can both be expressed recursively.

@@ -1,0 +1,2 @@
+pip install oneccl_bind_pt=={pytorch_version} -f https://developer.intel.com/ipex-whl-stable-cpu
+where {pytorch_version} should be your PyTorch version, for instance 2.1.0.

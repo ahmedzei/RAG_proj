@@ -1,0 +1,1 @@
+* 8bit BNB quantized optimizer will use only (2*3) 6GB if all optimizer states are quantized.

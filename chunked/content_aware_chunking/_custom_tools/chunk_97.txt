@@ -1,0 +1,6 @@
+py
+agent.run("Make an image of a house and a car", return_code=True)
+returns
+``text
+==Explanation from the agent== 
+I will use the following toolsimage_generatorto generate an image of a house andimage_transformer` to transform the image of a car into the image of a house.

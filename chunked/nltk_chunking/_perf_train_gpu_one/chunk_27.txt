@@ -1,0 +1,2 @@
+However, it is important to note that the additional forward and backward passes introduced by gradient accumulation can 
+slow down the training process.

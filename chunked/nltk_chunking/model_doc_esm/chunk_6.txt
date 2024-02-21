@@ -1,0 +1,2 @@
+It uses an ESM-2 stem with a head that can predict folded protein
+structures with state-of-the-art accuracy.

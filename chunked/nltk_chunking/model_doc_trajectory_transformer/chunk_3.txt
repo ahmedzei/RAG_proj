@@ -1,0 +1,2 @@
+Overview
+The Trajectory Transformer model was proposed in Offline Reinforcement Learning as One Big Sequence Modeling Problem  by Michael Janner, Qiyang Li, Sergey Levine.

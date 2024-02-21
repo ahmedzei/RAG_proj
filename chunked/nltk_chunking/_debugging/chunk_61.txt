@@ -1,0 +1,3 @@
+In the next frame we have Dropout which renormalizes
+the weights, after it zeroed some of the elements, which pushes the absolute max value to more than 64K, and we get an
+overflow (inf).

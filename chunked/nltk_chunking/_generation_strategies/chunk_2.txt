@@ -1,0 +1,2 @@
+Some of the models that can generate text include
+GPT2, XLNet, OpenAI GPT, CTRL, TransformerXL, XLM, Bart, T5, GIT, Whisper.

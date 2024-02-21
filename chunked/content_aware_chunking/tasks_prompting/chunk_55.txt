@@ -1,0 +1,3 @@
+Text summarization
+Similar to the translation, text summarization is another generative task where the output heavily relies on the input, 
+and encoder-decoder models can be a better choice.

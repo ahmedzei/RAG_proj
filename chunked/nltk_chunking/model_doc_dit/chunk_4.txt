@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+*Image Transformer has recently achieved significant progress for natural image understanding, either using supervised (ViT, DeiT, etc.)

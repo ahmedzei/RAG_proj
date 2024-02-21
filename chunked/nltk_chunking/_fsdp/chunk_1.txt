@@ -1,0 +1,1 @@
+Unlike DistributedDataParallel (DDP), FSDP reduces memory-usage because a model is replicated on each GPU.

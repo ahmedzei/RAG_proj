@@ -1,0 +1,4 @@
+According to the abstract,
+
+Bart uses a standard seq2seq/machine translation architecture with a bidirectional encoder (like BERT) and a
+  left-to-right decoder (like GPT).

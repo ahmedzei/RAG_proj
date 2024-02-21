@@ -1,0 +1,7 @@
+When prompted, enter your token to log in:
+thon
+from huggingface_hub import notebook_login
+notebook_login()
+
+Load the Pokémon BLIP captions dataset
+Use the 🤗 Dataset library to load a dataset that consists of {image-caption} pairs.

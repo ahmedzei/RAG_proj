@@ -1,0 +1,1 @@
+overlap_comm when set to true trades off increased GPU memory usage to lower allreduce latency.

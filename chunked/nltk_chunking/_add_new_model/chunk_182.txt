@@ -1,0 +1,2 @@
+In the following, whenever you have made some progress, don't forget to commit your work and push it to your account so
+that it shows in the pull request.

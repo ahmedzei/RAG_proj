@@ -1,0 +1,1 @@
+InstructBLIP leverages the BLIP-2 architecture for visual instruction tuning.

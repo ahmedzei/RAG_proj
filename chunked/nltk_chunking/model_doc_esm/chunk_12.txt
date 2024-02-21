@@ -1,0 +1,2 @@
+The resulting model contains information about biological
+properties in its representations.

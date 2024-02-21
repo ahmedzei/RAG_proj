@@ -1,0 +1,6 @@
+
+Models
+The base classes [PreTrainedModel], [TFPreTrainedModel], and
+[FlaxPreTrainedModel] implement the common methods for loading/saving a model either from a local
+file or directory, or from a pretrained model configuration provided by the library (downloaded from HuggingFace's AWS
+S3 repository).

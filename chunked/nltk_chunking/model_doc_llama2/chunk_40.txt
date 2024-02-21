@@ -1,0 +1,1 @@
+- Extended Guide: Instruction-tune Llama 2, a guide to training Llama 2 to generate instructions from inputs, transforming the model from instruction-following to instruction-giving.

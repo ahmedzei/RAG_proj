@@ -1,0 +1,1 @@
+Remember that the template handler will receive the conversation history as a variable called messages.

@@ -1,0 +1,27 @@
+Resources
+
+Audio classification task guide
+Automatic speech recognition task guide
+
+UniSpeechSatConfig
+[[autodoc]] UniSpeechSatConfig
+UniSpeechSat specific outputs
+[[autodoc]] models.unispeech_sat.modeling_unispeech_sat.UniSpeechSatForPreTrainingOutput
+UniSpeechSatModel
+[[autodoc]] UniSpeechSatModel
+    - forward
+UniSpeechSatForCTC
+[[autodoc]] UniSpeechSatForCTC
+    - forward
+UniSpeechSatForSequenceClassification
+[[autodoc]] UniSpeechSatForSequenceClassification
+    - forward
+UniSpeechSatForAudioFrameClassification
+[[autodoc]] UniSpeechSatForAudioFrameClassification
+    - forward
+UniSpeechSatForXVector
+[[autodoc]] UniSpeechSatForXVector
+    - forward
+UniSpeechSatForPreTraining
+[[autodoc]] UniSpeechSatForPreTraining
+    - forward

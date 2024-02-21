@@ -1,0 +1,8 @@
+tokenizer = M2M100Tokenizer.from_pretrained("facebook/m2m100_418M", src_lang="zh")
+model = M2M100ForConditionalGeneration.from_pretrained("facebook/m2m100_418M")
+
+Tokenize the text:
+
+encoded_zh = tokenizer(chinese_text, return_tensors="pt")
+
+M2M100 forces the target language id as the first generated token to translate to the target language.

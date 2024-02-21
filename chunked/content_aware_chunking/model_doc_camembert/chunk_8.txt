@@ -1,0 +1,2 @@
+CamemBERT improves the state of the art
+for most of the tasks considered.

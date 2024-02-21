@@ -1,0 +1,3 @@
+We can use the model for running a forward pass like so:
+
+Generate random inputs for the model.

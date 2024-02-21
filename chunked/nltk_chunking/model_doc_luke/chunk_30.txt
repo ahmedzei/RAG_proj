@@ -1,0 +1,1 @@
+This model places a linear head on top of the output entity representations.

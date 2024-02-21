@@ -1,0 +1,5 @@
+accelerate launch my-trainer-script.py
+
+accelerate launch --fsdp="full shard" --fsdp_config="path/to/fsdp_config/ my-trainer-script.py
+Next steps
+FSDP can be a powerful tool for training really large models and you have access to more than one GPU or TPU.

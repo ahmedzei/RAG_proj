@@ -1,0 +1,1 @@
+We show that the combined model at scale can generate high-fidelity and diverse songs with coherence up to multiple minutes.

@@ -1,0 +1,1 @@
+The xxx should contain the whole path to the class of function which is being copied below.

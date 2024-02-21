@@ -1,0 +1,24 @@
+pip install transformers[agents]
+To use openAI models, you instantiate an [OpenAiAgent] after installing the openai dependency:
+
+pip install openai
+
+from transformers import OpenAiAgent
+agent = OpenAiAgent(model="text-davinci-003", api_key="")
+
+To use BigCode or OpenAssistant, start by logging in to have access to the Inference API:
+
+from huggingface_hub import login
+login("")
+
+Then, instantiate the agent
+
+from transformers import HfAgent
+Starcoder
+agent = HfAgent("https://api-inference.huggingface.co/models/bigcode/starcoder")
+StarcoderBase
+agent = HfAgent("https://api-inference.huggingface.co/models/bigcode/starcoderbase")
+OpenAssistant
+agent = HfAgent(url_endpoint="https://api-inference.huggingface.co/models/OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5")
+
+This is using the inference API that Hugging Face provides for free at the moment.

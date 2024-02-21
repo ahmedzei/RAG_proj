@@ -1,0 +1,3 @@
+For xxxForQuestionAnswering models
+in 🤗 Transformers, the labels consist of the start_positions and end_positions, indicating which token is at the
+start and which token is at the end of the answer.

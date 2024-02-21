@@ -1,0 +1,2 @@
+It's a quantized version of RoBERTa running
+inference up to four times faster.

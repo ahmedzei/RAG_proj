@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+We extract an optimal subset of architectural parameters for the BERT architecture from Devlin et al.

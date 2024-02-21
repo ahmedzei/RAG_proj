@@ -1,0 +1,20 @@
+*?>", "", sequence, count=1).strip()  # remove first task start token
+print(processor.token2json(sequence))
+{'menu': {'nm': 'CINNAMON SUGAR', 'unitprice': '17,000', 'cnt': '1 x', 'price': '17,000'}, 'sub_total': {'subtotal_price': '17,000'}, 'total': {'total_price': '17,000', 'cashprice': '20,000', 'changeprice': '3,000'}}
+
+Step-by-step Document Visual Question Answering (DocVQA)
+
+import re
+from transformers import DonutProcessor, VisionEncoderDecoderModel
+from datasets import load_dataset
+import torch
+processor = DonutProcessor.from_pretrained("naver-clova-ix/donut-base-finetuned-docvqa")
+model = VisionEncoderDecoderModel.from_pretrained("naver-clova-ix/donut-base-finetuned-docvqa")
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model.to(device)  # doctest: +IGNORE_RESULT
+load document image from the DocVQA dataset
+dataset = load_dataset("hf-internal-testing/example-documents", split="test")
+image = dataset[0]["image"]
+prepare decoder inputs
+task_prompt = "{user_input}"
+question = "When is the coffee break?"

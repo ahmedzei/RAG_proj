@@ -1,0 +1,2 @@
+A set of spectrogram-based acoustic features are predicted by the flow-based module, which is formed of a Transformer-based
+text encoder and multiple coupling layers.

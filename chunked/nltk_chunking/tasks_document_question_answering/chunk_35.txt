@@ -1,0 +1,2 @@
+This involves converting the words and boxes that we got in the previous step to token-level input_ids, attention_mask,
+token_type_ids and bbox.

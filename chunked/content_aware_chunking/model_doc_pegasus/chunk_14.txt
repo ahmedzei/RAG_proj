@@ -1,0 +1,1 @@
+Distilled checkpoints are described in this paper.

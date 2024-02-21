@@ -1,0 +1,2 @@
+ViLT is trained with images of various sizes: the authors resize the shorter edge of input images to 384 and limit the longer edge to
+  under 640 while preserving the aspect ratio.

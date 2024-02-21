@@ -1,0 +1,1 @@
+Callbacks do not modify anything in the training loop itself.

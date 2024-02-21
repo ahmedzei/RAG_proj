@@ -1,0 +1,1 @@
+Document question answering can be used to parse structured documents and extract key information from it.

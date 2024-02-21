@@ -1,0 +1,2 @@
+Benchmarks
+To compare the speed, throughput, and latency of each quantization scheme, check the following benchmarks obtained from the optimum-benchmark library.

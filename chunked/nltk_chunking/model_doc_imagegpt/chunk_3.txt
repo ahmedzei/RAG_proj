@@ -1,0 +1,2 @@
+We train a sequence Transformer to auto-regressively predict pixels,
+without incorporating knowledge of the 2D input structure.

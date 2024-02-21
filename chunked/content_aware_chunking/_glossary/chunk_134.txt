@@ -1,0 +1,1 @@
+Data is fed into the model being trained, and its predictions are compared to the known labels.

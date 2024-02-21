@@ -1,0 +1,2 @@
+While the main concepts discussed in this guide are likely applicable across frameworks, here we focus on 
+PyTorch-based implementations.

@@ -1,0 +1,2 @@
+Implementation differences with SwitchTransformers
+The biggest difference is the way the tokens are routed.

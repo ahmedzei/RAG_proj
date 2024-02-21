@@ -1,0 +1,1 @@
+Next, we train the student model to minimize the difference between it's outputs and the teacher's outputs, thus making it mimic the behavior.

@@ -1,0 +1,2 @@
+Note that the authors also did try soft distillation for (2) (in which case the distillation prediction head is
+  trained using KL divergence to match the softmax output of the teacher), but hard distillation gave the best results.

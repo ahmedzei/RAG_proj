@@ -1,0 +1,11 @@
+Google has released the following variants:
+
+google/t5-v1_1-small
+
+google/t5-v1_1-base
+
+google/t5-v1_1-large
+
+google/t5-v1_1-xl
+
+google/t5-v1_1-xxl.

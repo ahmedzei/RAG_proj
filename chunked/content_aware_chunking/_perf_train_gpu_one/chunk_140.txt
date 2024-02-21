@@ -1,0 +1,1 @@
+Then we can enable gradient checkpointing by calling the model's [~PreTrainedModel.gradient_checkpointing_enable] method.

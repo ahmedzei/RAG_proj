@@ -1,0 +1,1 @@
+When offload_optimizer is enabled, you could use a non-DeepSpeed optimizer (except for LAMB) as long as it has both a CPU and GPU implementation.

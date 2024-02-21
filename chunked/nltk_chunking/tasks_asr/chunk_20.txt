@@ -1,0 +1,1 @@
+Specify the reduction to apply with the ctc_loss_reduction parameter.

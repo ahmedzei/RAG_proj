@@ -1,0 +1,3 @@
+XLM-V outperforms XLM-R on every task we
+tested on ranging from natural language inference (XNLI), question answering (MLQA, XQuAD, TyDiQA), and
+named entity recognition (WikiAnn) to low-resource tasks (Americas NLI, MasakhaNER).

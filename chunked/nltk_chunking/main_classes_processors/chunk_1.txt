@@ -1,0 +1,3 @@
+Multi-modal processors
+Any multi-modal model will require an object to encode or decode the data that groups several modalities (among text,
+vision and audio).

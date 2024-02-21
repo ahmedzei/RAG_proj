@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+GPT-2 is a large transformer-based language model with 1.5 billion parameters, trained on a dataset[1] of 8 million
+web pages.

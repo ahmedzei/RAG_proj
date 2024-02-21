@@ -1,0 +1,1 @@
+The size of the images will determine the amount of memory being used, and will thus determine the batch_size.

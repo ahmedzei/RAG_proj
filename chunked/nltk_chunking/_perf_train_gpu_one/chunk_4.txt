@@ -1,0 +1,6 @@
+When training large models, there are two aspects that should be considered at the same time: 
+
+Data throughput/training time
+Model performance
+
+Maximizing the throughput (samples/second) leads to lower training cost.

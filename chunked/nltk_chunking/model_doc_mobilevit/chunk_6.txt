@@ -1,0 +1,1 @@
+Unlike CNNs, ViTs are heavy-weight.

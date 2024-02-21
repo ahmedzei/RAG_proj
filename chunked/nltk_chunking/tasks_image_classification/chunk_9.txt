@@ -1,0 +1,2 @@
+Here we use Keras preprocessing layers to define the transformations for the training data (includes data augmentation),
+and transformations for the validation data (only center cropping, resizing and normalizing).

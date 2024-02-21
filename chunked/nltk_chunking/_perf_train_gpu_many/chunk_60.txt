@@ -1,0 +1,6 @@
+Now let's see how this works: 
+Each of these GPUs will get the usual mini-batch as it works in DP:
+x0 => GPU0
+x1 => GPU1
+x2 => GPU2
+The inputs are passed without modifications as if they would be processed by the original model.

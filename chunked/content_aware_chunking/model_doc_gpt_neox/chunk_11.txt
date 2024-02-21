@@ -1,0 +1,2 @@
+Installation
+First, check whether your hardware is compatible with Flash Attention 2.

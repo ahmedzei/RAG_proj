@@ -1,0 +1,18 @@
+MptConfig
+[[autodoc]] MptConfig
+    - all
+MptModel
+[[autodoc]] MptModel
+    - forward
+MptForCausalLM
+[[autodoc]] MptForCausalLM
+    - forward
+MptForSequenceClassification
+[[autodoc]] MptForSequenceClassification
+    - forward
+MptForTokenClassification
+[[autodoc]] MptForTokenClassification
+    - forward
+MptForQuestionAnswering
+[[autodoc]] MptForQuestionAnswering
+    - forward

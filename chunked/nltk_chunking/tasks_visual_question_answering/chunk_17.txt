@@ -1,0 +1,2 @@
+Later in this guide we 
+illustrate how to use them for zero-shot VQA inference.

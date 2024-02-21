@@ -1,0 +1,7 @@
+`torch.float16``)
+To load and run a model using Flash Attention 2, refer to the snippet below:
+thon
+
+import torch
+from transformers import PhiForCausalLM, AutoTokenizer
+define the model and tokenizer and push the model and tokens to the GPU.

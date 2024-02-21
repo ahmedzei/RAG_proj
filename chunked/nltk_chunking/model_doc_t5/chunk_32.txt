@@ -1,0 +1,2 @@
+Training
+T5 is an encoder-decoder model and converts all NLP problems into a text-to-text format.

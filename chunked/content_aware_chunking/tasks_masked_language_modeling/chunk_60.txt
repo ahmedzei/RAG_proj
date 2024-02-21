@@ -1,0 +1,5 @@
+'},
+ {'score': 0.06434620916843414,
+  'token': 650,
+  'token_str': ' small',
+  'sequence': 'The Milky Way is a small galaxy.'}]

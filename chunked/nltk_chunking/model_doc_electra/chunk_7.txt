@@ -1,0 +1,2 @@
+Instead of masking the input, our approach
+corrupts it by replacing some tokens with plausible alternatives sampled from a small generator network.

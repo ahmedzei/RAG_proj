@@ -1,0 +1,2 @@
+By default, it will only label the first wordpiece of a word, and label the remaining wordpieces with -100, which is the
+ignore_index of PyTorch's CrossEntropyLoss.

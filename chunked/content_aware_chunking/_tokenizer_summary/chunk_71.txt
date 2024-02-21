@@ -1,0 +1,4 @@
+As an example, let's assume that after pre-tokenization, the following set of words including their frequency has been
+determined:
+("hug", 10), ("pug", 5), ("pun", 12), ("bun", 4), ("hugs", 5)
+Consequently, the base vocabulary is ["b", "g", "h", "n", "p", "s", "u"].

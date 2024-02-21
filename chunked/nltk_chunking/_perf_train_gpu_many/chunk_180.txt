@@ -1,0 +1,2 @@
+Implementations:
+- Megatron-DeepSpeed and Megatron-Deepspeed from BigScience, which is the fork of the former repo.

@@ -1,0 +1,2 @@
+Shards gets 
+processed separately and in parallel on different GPUs and the results are synced at the end of the processing step.

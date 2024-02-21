@@ -1,0 +1,18 @@
+A summarization script using a custom dataset would look like this:
+
+python examples/pytorch/summarization/run_summarization.py \
+    --model_name_or_path google-t5/t5-small \
+    --do_train \
+    --do_eval \
+    --train_file path_to_csv_or_jsonlines_file \
+    --validation_file path_to_csv_or_jsonlines_file \
+    --text_column text_column_name \
+    --summary_column summary_column_name \
+    --source_prefix "summarize: " \
+    --output_dir /tmp/tst-summarization \
+    --overwrite_output_dir \
+    --per_device_train_batch_size=4 \
+    --per_device_eval_batch_size=4 \
+    --predict_with_generate
+Test a script
+It is often a good idea to run your script on a smaller number of dataset examples to ensure everything works as expected before committing to an entire dataset which may take hours to complete.

@@ -1,0 +1,2 @@
+The pipeline abstraction
+The pipeline abstraction is a wrapper around all the other available pipelines.

@@ -1,0 +1,8 @@
+Sample = Data Parallelism (sample-wise parallel)
+Operator = Parallelize a single operation into several sub-operations
+Attribute = Data Parallelism (length-wise parallel)
+Parameter = Model Parallelism (regardless of dimension - horizontal or vertical)
+
+Examples:
+* Sample
+Let's take 10 batches of sequence length 512.

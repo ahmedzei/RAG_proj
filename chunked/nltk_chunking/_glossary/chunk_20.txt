@@ -1,0 +1,2 @@
+connectionist temporal classification (CTC)
+An algorithm which allows a model to learn without knowing exactly how the input and output are aligned; CTC calculates the distribution of all possible outputs for a given input and chooses the most likely output from it.

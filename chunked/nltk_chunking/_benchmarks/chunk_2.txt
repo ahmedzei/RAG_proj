@@ -1,0 +1,1 @@
+A notebook explaining in more detail how to benchmark 🤗 Transformers models can be found here.

@@ -1,0 +1,8 @@
+Usage example
+thon
+
+import torch
+from transformers import AutoModel, AutoTokenizer
+bartpho = AutoModel.from_pretrained("vinai/bartpho-syllable")
+tokenizer = AutoTokenizer.from_pretrained("vinai/bartpho-syllable")
+line = "Chúng tôi là những nghiên cứu viên."

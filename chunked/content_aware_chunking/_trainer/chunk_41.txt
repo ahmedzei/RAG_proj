@@ -1,0 +1,1 @@
+To configure the log level setting for each node, use the log_on_each_node parameter to determine whether to use the log level on each node or only on the main node.

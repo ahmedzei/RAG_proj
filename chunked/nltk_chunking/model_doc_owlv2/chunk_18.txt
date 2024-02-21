@@ -1,0 +1,1 @@
+Open-vocabulary classification is enabled by replacing the fixed classification layer weights with the class-name embeddings obtained from the text model.

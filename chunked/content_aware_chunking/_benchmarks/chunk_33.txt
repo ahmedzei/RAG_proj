@@ -1,0 +1,3 @@
+To ensure accurate
+  memory measurement it is recommended to run each memory benchmark in a separate process by making sure
+  no_multi_processing is set to True.

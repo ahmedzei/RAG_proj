@@ -1,0 +1,4 @@
+Set seed or reproducibility -- you don't need this unless you want full reproducibility
+from transformers import set_seed
+set_seed(42)
+model_inputs = tokenizer(["I am a cat.

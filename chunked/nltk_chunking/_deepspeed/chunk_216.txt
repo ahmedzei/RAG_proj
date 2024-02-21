@@ -1,0 +1,3 @@
+Make sure to:
+
+disable CPU offload if you have enough GPU memory (since it slows things down).

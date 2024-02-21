@@ -1,0 +1,1 @@
+All models are transformer encoder-decoders with 6 layers in each component.

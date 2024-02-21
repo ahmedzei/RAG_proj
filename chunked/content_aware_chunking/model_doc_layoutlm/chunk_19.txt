@@ -1,0 +1,5 @@
+image = Image.open(name_of_your_document).convert("RGB")
+width, height = image.size
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with LayoutLM.

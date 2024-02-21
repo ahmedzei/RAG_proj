@@ -1,0 +1,2 @@
+Tensor Core Requirements 
+define the multiplier based on the dtype and the hardware.

@@ -1,0 +1,2 @@
+To post-process the model output, pass the outputs and
+original_sizes and reshaped_input_sizes we take from the processor's initial output.

@@ -1,0 +1,1 @@
+We also recommend adding the sampling_rate argument in the feature extractor in order to better debug any silent errors that may occur.

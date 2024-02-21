@@ -1,0 +1,6 @@
+You should use this before saving your model to use the canonical Transformers modeling:
+py
+model = model.reverse_bettertransformer()
+model.save_pretrained("saved_model")
+bitsandbytes
+bitsandbytes is a quantization library that includes support for 4-bit and 8-bit quantization.

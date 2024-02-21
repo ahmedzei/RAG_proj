@@ -1,0 +1,1 @@
+This blog post provides an overview of the comparison benchmarks for XLA-compatible models along with a friendly introduction to XLA in TensorFlow.

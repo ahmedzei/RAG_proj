@@ -1,0 +1,3 @@
+Text classification task guide
+
+[LayoutLMv3ForTokenClassification] is supported by this example script and notebook.

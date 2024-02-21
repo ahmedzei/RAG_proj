@@ -1,0 +1,2 @@
+In this technical report, we present our practice of pre-training language models named NEZHA (NEural contextualiZed
+representation for CHinese lAnguage understanding) on Chinese corpora and finetuning for the Chinese NLU tasks.

@@ -1,0 +1,2 @@
+For instance GPT has a vocabulary size of 40,478 since they have 478 base characters
+and chose to stop training after 40,000 merges.

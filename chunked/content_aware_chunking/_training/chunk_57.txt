@@ -1,0 +1,3 @@
+Because it is a method
+on your model, it can inspect the model to automatically figure out which columns are usable as model inputs, and
+discard the others to make a simpler, more performant dataset.

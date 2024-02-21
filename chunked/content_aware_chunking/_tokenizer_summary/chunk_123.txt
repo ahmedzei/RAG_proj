@@ -1,0 +1,2 @@
+It then uses the BPE or unigram
+algorithm to construct the appropriate vocabulary.

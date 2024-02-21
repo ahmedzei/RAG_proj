@@ -1,0 +1,2 @@
+If you have extracted
+all nodes and xpaths yourself, you can provide them directly to the processor.

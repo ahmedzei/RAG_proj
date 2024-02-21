@@ -1,0 +1,2 @@
+Configuration
+A configuration refers to a model's specific attributes.

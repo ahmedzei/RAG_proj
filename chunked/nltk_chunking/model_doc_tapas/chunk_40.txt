@@ -1,0 +1,1 @@
+It is therefore efficient at predicting masked tokens and at NLU in general, but is not optimal for text generation.

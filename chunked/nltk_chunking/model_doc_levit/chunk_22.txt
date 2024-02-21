@@ -1,0 +1,2 @@
+In terms of models, (1) corresponds
+  to [LevitForImageClassification] and (2) corresponds to [LevitForImageClassificationWithTeacher].

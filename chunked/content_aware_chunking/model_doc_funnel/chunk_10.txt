@@ -1,0 +1,3 @@
+Usage tips
+
+Since Funnel Transformer uses pooling, the sequence length of the hidden states changes after each block of layers.

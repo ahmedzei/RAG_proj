@@ -1,0 +1,4 @@
+updated_dataset = updated_dataset.remove_columns("words")
+updated_dataset = updated_dataset.remove_columns("bounding_boxes")
+
+Finally, the data exploration won't be complete if we don't peek at an image example.

@@ -1,0 +1,2 @@
+It also plays a role in a variety of mixed-modality applications that have text as an output like speech-to-text
+and vision-to-text.

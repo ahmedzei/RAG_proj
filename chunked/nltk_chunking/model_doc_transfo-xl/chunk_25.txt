@@ -1,0 +1,1 @@
+This allows the model to pay attention to information that was in the previous segment as well as the current one.

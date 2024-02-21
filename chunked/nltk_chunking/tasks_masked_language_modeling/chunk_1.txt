@@ -1,0 +1,7 @@
+When prompted, enter your token to log in:
+
+from huggingface_hub import notebook_login
+notebook_login()
+
+Load ELI5 dataset
+Start by loading the first 5000 examples from the ELI5-Category dataset with the 🤗 Datasets library.

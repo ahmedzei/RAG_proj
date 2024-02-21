@@ -1,0 +1,3 @@
+This
+method takes care of encoding the input and feeding the encoded hidden states via cross-attention layers to the decoder
+and auto-regressively generates the decoder output.

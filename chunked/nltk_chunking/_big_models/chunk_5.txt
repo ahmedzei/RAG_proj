@@ -1,0 +1,1 @@
+Even worse, if you are using torch.distributed to launch a distributed training, each process will load the pretrained model and store these two copies in RAM.

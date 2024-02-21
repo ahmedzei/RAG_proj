@@ -1,0 +1,2 @@
+[~transformers.DetrForObjectDetection] and [~transformers.DetrForSegmentation] can be initialized with
+  any convolutional backbone available in the timm library.

@@ -1,0 +1,1 @@
+SeamlessExpressive enables translation that preserves vocal styles and prosody.

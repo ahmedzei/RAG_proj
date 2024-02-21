@@ -1,0 +1,8 @@
+VanConfig
+[[autodoc]] VanConfig
+VanModel
+[[autodoc]] VanModel
+    - forward
+VanForImageClassification
+[[autodoc]] VanForImageClassification
+    - forward

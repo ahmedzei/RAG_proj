@@ -1,0 +1,2 @@
+Usage: inference
+Below, we illustrate how to use TAPEX for table question answering.

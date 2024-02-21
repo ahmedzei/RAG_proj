@@ -1,0 +1,1 @@
+In addition, the proposed decoder shows better performance than the previously proposed decoders, with considerably less computational complexity.

@@ -1,0 +1,3 @@
+Usage tips
+
+Transformer-XL uses relative sinusoidal positional embeddings.

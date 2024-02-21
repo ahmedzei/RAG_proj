@@ -1,0 +1,2 @@
+Go into the release's notes for the desired release, check that the environment's 
+components are matching your needs (including NVIDIA Driver requirements!)

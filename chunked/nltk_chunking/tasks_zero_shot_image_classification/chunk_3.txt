@@ -1,0 +1,2 @@
+In contrast, zero-shot or open vocabulary image classification models are typically multi-modal models that have been trained on a large
+dataset of images and associated descriptions.

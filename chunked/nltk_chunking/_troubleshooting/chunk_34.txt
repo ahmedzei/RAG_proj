@@ -1,0 +1,3 @@
+If you see
+this ValueError when loading a model from a checkpoint, this means the Auto class couldn't find a mapping from
+the configuration in the given checkpoint to the kind of model you are trying to load.

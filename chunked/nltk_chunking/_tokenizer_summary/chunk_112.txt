@@ -1,0 +1,2 @@
+Because Unigram is not based on merge rules (in contrast to BPE and WordPiece), the algorithm has several ways of
+tokenizing new text after training.

@@ -1,0 +1,1 @@
+The ExLlama kernel is activated by default when you create a [GPTQConfig] object.

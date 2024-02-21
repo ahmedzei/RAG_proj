@@ -1,0 +1,2 @@
+[SegformerModel] is the hierarchical Transformer encoder (which in the paper is also referred to
+  as Mix Transformer or MiT).

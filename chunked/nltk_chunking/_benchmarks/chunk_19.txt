@@ -1,0 +1,2 @@
+the GPU type, the system, the library versions, etc are printed
+out in the third section under ENVIRONMENT INFORMATION.

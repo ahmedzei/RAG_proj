@@ -1,0 +1,5 @@
+VitDetConfig
+[[autodoc]] VitDetConfig
+VitDetModel
+[[autodoc]] VitDetModel
+    - forward

@@ -1,0 +1,67 @@
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+MobileBertConfig
+[[autodoc]] MobileBertConfig
+MobileBertTokenizer
+[[autodoc]] MobileBertTokenizer
+MobileBertTokenizerFast
+[[autodoc]] MobileBertTokenizerFast
+MobileBert specific outputs
+[[autodoc]] models.mobilebert.modeling_mobilebert.MobileBertForPreTrainingOutput
+[[autodoc]] models.mobilebert.modeling_tf_mobilebert.TFMobileBertForPreTrainingOutput
+
+MobileBertModel
+[[autodoc]] MobileBertModel
+    - forward
+MobileBertForPreTraining
+[[autodoc]] MobileBertForPreTraining
+    - forward
+MobileBertForMaskedLM
+[[autodoc]] MobileBertForMaskedLM
+    - forward
+MobileBertForNextSentencePrediction
+[[autodoc]] MobileBertForNextSentencePrediction
+    - forward
+MobileBertForSequenceClassification
+[[autodoc]] MobileBertForSequenceClassification
+    - forward
+MobileBertForMultipleChoice
+[[autodoc]] MobileBertForMultipleChoice
+    - forward
+MobileBertForTokenClassification
+[[autodoc]] MobileBertForTokenClassification
+    - forward
+MobileBertForQuestionAnswering
+[[autodoc]] MobileBertForQuestionAnswering
+    - forward
+
+TFMobileBertModel
+[[autodoc]] TFMobileBertModel
+    - call
+TFMobileBertForPreTraining
+[[autodoc]] TFMobileBertForPreTraining
+    - call
+TFMobileBertForMaskedLM
+[[autodoc]] TFMobileBertForMaskedLM
+    - call
+TFMobileBertForNextSentencePrediction
+[[autodoc]] TFMobileBertForNextSentencePrediction
+    - call
+TFMobileBertForSequenceClassification
+[[autodoc]] TFMobileBertForSequenceClassification
+    - call
+TFMobileBertForMultipleChoice
+[[autodoc]] TFMobileBertForMultipleChoice
+    - call
+TFMobileBertForTokenClassification
+[[autodoc]] TFMobileBertForTokenClassification
+    - call
+TFMobileBertForQuestionAnswering
+[[autodoc]] TFMobileBertForQuestionAnswering
+    - call

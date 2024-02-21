@@ -1,0 +1,6 @@
+thon
+device = "cuda" if torch.cuda.is_available() else "cpu"
+inputs = processor(images=image, return_tensors="pt").to(device)
+pixel_values = inputs.pixel_values
+
+Call [generate] and decode the predictions.

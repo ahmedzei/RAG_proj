@@ -1,0 +1,2 @@
+After pre-tokenization, a set of unique words has been created and the frequency with which each word occurred in the
+training data has been determined.

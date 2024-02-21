@@ -1,0 +1,2 @@
+SLURM
+In a SLURM environment, you'll need to adapt your SLURM script to your specific SLURM environment.

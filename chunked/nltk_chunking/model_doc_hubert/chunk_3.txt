@@ -1,0 +1,3 @@
+A key ingredient of our
+approach is applying the prediction loss over the masked regions only, which forces the model to learn a combined
+acoustic and language model over the continuous inputs.

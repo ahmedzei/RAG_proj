@@ -1,0 +1,2 @@
+We bypass the quadratic cost by considering self-attention as a sum of individual tokens associated with Bernoulli random 
+variables that can, in principle, be sampled at once by a single hash (although in practice, this number may be a small constant).

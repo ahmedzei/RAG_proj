@@ -1,0 +1,1 @@
+In Transformers, we can retrieve the key-value cache by passing the use_cache flag to the forward call and can then pass it with the current token.

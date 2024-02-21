@@ -1,0 +1,1 @@
+For instance, if you want to use Pix2Struct for UI captioning, you should use the model fine tuned on the UI dataset.

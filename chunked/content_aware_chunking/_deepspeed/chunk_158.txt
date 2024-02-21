@@ -1,0 +1,1 @@
+Minimize memory fragmentation with it's smart GPU memory management system which also allows you to fit bigger models and data batches.

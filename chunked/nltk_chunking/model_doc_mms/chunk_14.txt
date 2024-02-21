@@ -1,0 +1,1 @@
+You can load different language adapter weights for different languages via [~Wav2Vec2PreTrainedModel.load_adapter].

@@ -1,0 +1,2 @@
+Your custom model could be suitable for many different tasks, so you
+have to specify which one of the auto classes is the correct one for your model.

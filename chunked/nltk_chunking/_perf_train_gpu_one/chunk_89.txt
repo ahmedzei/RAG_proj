@@ -1,0 +1,2 @@
+8-bit Adam
+Instead of aggregating optimizer states like Adafactor, 8-bit Adam keeps the full state and quantizes it.

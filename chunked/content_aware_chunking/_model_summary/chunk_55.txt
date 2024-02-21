@@ -1,0 +1,1 @@
+But GPT-2 lacked the bidirectional context from BERT's pretraining, which made it unsuitable for certain tasks.

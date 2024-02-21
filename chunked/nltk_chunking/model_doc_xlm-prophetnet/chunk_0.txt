@@ -1,0 +1,8 @@
+
+XLM-ProphetNet
+
+DISCLAIMER: If you see something strange, file a Github Issue and assign
+@patrickvonplaten
+Overview
+The XLM-ProphetNet model was proposed in ProphetNet: Predicting Future N-gram for Sequence-to-Sequence Pre-training, by Yu Yan, Weizhen Qi, Yeyun Gong, Dayiheng Liu, Nan Duan, Jiusheng Chen, Ruofei
+Zhang, Ming Zhou on 13 Jan, 2020.

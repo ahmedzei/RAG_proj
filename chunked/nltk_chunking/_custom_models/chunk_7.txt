@@ -1,0 +1,2 @@
+The configuration of a model is an object that
+will contain all the necessary information to build the model.

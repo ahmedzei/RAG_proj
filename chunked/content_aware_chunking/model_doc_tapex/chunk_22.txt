@@ -1,0 +1,1 @@
+As one can see, one can directly plug in the weights of TAPEX into a BART model.

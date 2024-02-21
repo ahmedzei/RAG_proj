@@ -1,0 +1,1 @@
+We can then infer with the pipeline by calling it with an image.

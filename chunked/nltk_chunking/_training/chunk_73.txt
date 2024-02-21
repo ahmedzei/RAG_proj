@@ -1,0 +1,5 @@
+import torch
+device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
+model.to(device)
+
+Get free access to a cloud GPU if you don't have one with a hosted notebook like Colaboratory or SageMaker StudioLab.

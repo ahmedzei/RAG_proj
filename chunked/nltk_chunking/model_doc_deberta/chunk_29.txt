@@ -1,0 +1,51 @@
+Question answering task guide
+
+DebertaConfig
+[[autodoc]] DebertaConfig
+DebertaTokenizer
+[[autodoc]] DebertaTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+DebertaTokenizerFast
+[[autodoc]] DebertaTokenizerFast
+    - build_inputs_with_special_tokens
+    - create_token_type_ids_from_sequences
+
+DebertaModel
+[[autodoc]] DebertaModel
+    - forward
+DebertaPreTrainedModel
+[[autodoc]] DebertaPreTrainedModel
+DebertaForMaskedLM
+[[autodoc]] DebertaForMaskedLM
+    - forward
+DebertaForSequenceClassification
+[[autodoc]] DebertaForSequenceClassification
+    - forward
+DebertaForTokenClassification
+[[autodoc]] DebertaForTokenClassification
+    - forward
+DebertaForQuestionAnswering
+[[autodoc]] DebertaForQuestionAnswering
+    - forward
+
+TFDebertaModel
+[[autodoc]] TFDebertaModel
+    - call
+TFDebertaPreTrainedModel
+[[autodoc]] TFDebertaPreTrainedModel
+    - call
+TFDebertaForMaskedLM
+[[autodoc]] TFDebertaForMaskedLM
+    - call
+TFDebertaForSequenceClassification
+[[autodoc]] TFDebertaForSequenceClassification
+    - call
+TFDebertaForTokenClassification
+[[autodoc]] TFDebertaForTokenClassification
+    - call
+TFDebertaForQuestionAnswering
+[[autodoc]] TFDebertaForQuestionAnswering
+    - call

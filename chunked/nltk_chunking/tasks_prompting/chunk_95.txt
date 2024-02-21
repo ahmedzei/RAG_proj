@@ -1,0 +1,2 @@
+Use advanced techniques like Few-shot prompting and Chain-of-thought
+Test your prompts with different models to assess their robustness.

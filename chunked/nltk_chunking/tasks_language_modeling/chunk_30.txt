@@ -1,0 +1,10 @@
+URL_0'],
+ 'answers.score': [21, 19, 5, 3],
+ 'answers.text_urls': [[],
+  [],
+  [],
+  ['https://www.investopedia.com/news/trumps-tax-reform-what-can-be-done/']],
+ 'title_urls': ['url'],
+ 'selftext_urls': ['url']}
+
+Each subfield is now a separate column as indicated by the answers prefix, and the text field is a list now.

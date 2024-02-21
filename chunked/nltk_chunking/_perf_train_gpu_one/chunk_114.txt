@@ -1,0 +1,1 @@
+If you prefer to use 🤗 Accelerate, refer to 🤗 Accelerate DeepSpeed guide.

@@ -1,0 +1,3 @@
+The [CLIPProcessor] wraps
+[CLIPImageProcessor] and [CLIPTokenizer] into a single instance to both
+encode the text and prepare the images.

@@ -1,0 +1,2 @@
+Transfer performance in downstream
+tasks outperforms supervised pre-training and shows promising scaling behavior.

@@ -1,0 +1,2 @@
+We validate PVT through extensive experiments, showing that it boosts the performance of many downstream tasks, including
+object detection, instance and semantic segmentation.

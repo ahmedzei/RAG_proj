@@ -1,0 +1,4 @@
+For example:
+
+pytest tests/test_optimization.py::OptimizationTest
+will run all the tests inside that class.

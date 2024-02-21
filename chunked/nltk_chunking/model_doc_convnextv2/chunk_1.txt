@@ -1,0 +1,1 @@
+ConvNeXt V2 is a pure convolutional model (ConvNet), inspired by the design of Vision Transformers, and a successor of ConvNeXT.

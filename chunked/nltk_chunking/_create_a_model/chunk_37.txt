@@ -1,0 +1,6 @@
+However, you can still replace - some or all of - the default model configuration attributes with your own if you'd like:
+
+tf_model = TFDistilBertModel.from_pretrained("distilbert/distilbert-base-uncased", config=my_config)
+
+Model heads
+At this point, you have a base DistilBERT model which outputs the hidden states.

@@ -1,0 +1,1 @@
+This reduces the degradative effect outlier values have on a model's performance.

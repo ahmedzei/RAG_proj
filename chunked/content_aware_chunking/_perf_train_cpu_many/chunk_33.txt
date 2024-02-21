@@ -1,0 +1,2 @@
+The amount of CPU and memory limits/requests defined in the yaml should be less than the amount of
+available CPU/memory capacity on a single machine.

@@ -1,0 +1,9 @@
+Load a feature extractor with [AutoFeatureExtractor.from_pretrained]:
+
+from transformers import AutoFeatureExtractor
+feature_extractor = AutoFeatureExtractor.from_pretrained(
+     "ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition"
+ )
+
+AutoProcessor
+Multimodal tasks require a processor that combines two types of preprocessing tools.

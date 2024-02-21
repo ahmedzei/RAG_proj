@@ -1,0 +1,1 @@
+Same happens to GPU2 that gets the mini-batch x2.

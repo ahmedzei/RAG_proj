@@ -1,0 +1,2 @@
+Falcon's architecture is modern and optimized for inference, with multi-query attention and support for efficient
+attention variants like FlashAttention.

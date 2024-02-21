@@ -1,0 +1,1 @@
+- for older GPUs you can enable fp16, but it'll only work for non-bf16 pretrained models - e.g.

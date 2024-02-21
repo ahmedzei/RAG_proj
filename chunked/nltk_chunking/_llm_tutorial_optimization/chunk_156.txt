@@ -1,0 +1,5 @@
+python
+bytes_to_giga_bytes(torch.cuda.max_memory_allocated())
+Output:
+32.617331981658936
+And we're almost back to our original 29GB peak GPU memory from the beginning.

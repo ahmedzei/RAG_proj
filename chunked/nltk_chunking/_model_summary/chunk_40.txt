@@ -1,0 +1,1 @@
+However, there was still room for improvement in BERT's pretraining strategy.

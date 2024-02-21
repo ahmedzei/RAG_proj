@@ -1,0 +1,2 @@
+This leads to an increase in inference speed
+-   The maximum required memory is not increased quadratically with the number of generated tokens, but only increases linearly.

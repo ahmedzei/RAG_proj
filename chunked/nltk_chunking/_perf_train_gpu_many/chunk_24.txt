@@ -1,0 +1,3 @@
+Data Parallelism
+Even with only 2 GPUs, you can readily leverage the accelerated training capabilities offered by PyTorch's built-in features, 
+such as DataParallel (DP) and DistributedDataParallel (DDP).

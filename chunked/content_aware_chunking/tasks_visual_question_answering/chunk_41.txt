@@ -1,0 +1,1 @@
+In this representation, each element corresponds to a possible answer (label).

@@ -1,0 +1,17 @@
+Start by defining the hyperparameters, optimizer and learning rate schedule:
+
+from transformers import create_optimizer
+batch_size = 2
+num_epochs = 50
+num_train_steps = len(train_ds) * num_epochs
+learning_rate = 6e-5
+weight_decay_rate = 0.01
+optimizer, lr_schedule = create_optimizer(
+     init_lr=learning_rate,
+     num_train_steps=num_train_steps,
+     weight_decay_rate=weight_decay_rate,
+     num_warmup_steps=0,
+ )
+
+Then, load SegFormer with [TFAutoModelForSemanticSegmentation] along with the label mappings, and compile it with the
+optimizer.

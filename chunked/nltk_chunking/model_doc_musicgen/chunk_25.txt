@@ -1,0 +1,2 @@
+The audio streams for each 
+channel are combined to give the final stereo output.

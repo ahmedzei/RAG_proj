@@ -1,0 +1,2 @@
+Usage tips and examples
+BridgeTower consists of a visual encoder, a textual encoder and cross-modal encoder with multiple lightweight bridge layers.

@@ -1,0 +1,2 @@
+Image classification
+ViT and ConvNeXT can both be used for image classification; the main difference is that ViT uses an attention mechanism while ConvNeXT uses convolutions.

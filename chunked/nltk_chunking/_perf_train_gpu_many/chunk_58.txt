@@ -1,0 +1,1 @@
+To illustrate this idea, consider a simple model with 3 layers (La, Lb, and Lc), where each layer has 3 parameters.

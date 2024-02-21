@@ -1,0 +1,2 @@
+Our work exploits recent findings in attention-based architectures,
+which are competitive on highly parallel processing hardware.

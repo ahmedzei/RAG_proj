@@ -1,0 +1,1 @@
+UniSpeechSat performs especially well on speaker verification, speaker identification, and speaker diarization tasks.

@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Self-attention has become a defacto choice for capturing global context in various vision applications.

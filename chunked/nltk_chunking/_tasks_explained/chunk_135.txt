@@ -1,0 +1,1 @@
+To tell the difference between a single sentence and a pair of sentences, a special [SEP] token is added to differentiate them.

@@ -1,0 +1,3 @@
+The number of queries determines the maximum
+  number of objects that can be detected in a single image, and is set to 100 by default (see parameter
+  num_queries of [~transformers.DetrConfig]).

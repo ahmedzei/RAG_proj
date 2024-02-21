@@ -1,0 +1,2 @@
+Usage examples
+Both the VITS and MMS-TTS checkpoints can be used with the same API.

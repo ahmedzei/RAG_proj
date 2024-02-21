@@ -1,0 +1,1 @@
+Take an image and a question, prepare them for the model using the processor from your model.

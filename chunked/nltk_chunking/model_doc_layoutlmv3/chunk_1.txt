@@ -1,0 +1,2 @@
+LayoutLMv3 simplifies LayoutLMv2 by using patch embeddings (as in ViT) instead of leveraging a CNN backbone, and pre-trains the model on 3 objectives: masked language modeling (MLM), masked image modeling (MIM)
+and word-patch alignment (WPA).

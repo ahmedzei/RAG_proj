@@ -1,0 +1,2 @@
+Preprocess
+The next step is to load a SegFormer image processor to prepare the images and annotations for the model.

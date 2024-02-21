@@ -1,0 +1,5 @@
+
+ByT5
+Overview
+The ByT5 model was presented in ByT5: Towards a token-free future with pre-trained byte-to-byte models by Linting Xue, Aditya Barua, Noah Constant, Rami Al-Rfou, Sharan Narang, Mihir
+Kale, Adam Roberts, Colin Raffel.

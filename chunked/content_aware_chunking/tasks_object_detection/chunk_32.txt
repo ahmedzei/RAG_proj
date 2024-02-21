@@ -1,0 +1,2 @@
+This method applies
+transformations on the fly when you load an element of the dataset.

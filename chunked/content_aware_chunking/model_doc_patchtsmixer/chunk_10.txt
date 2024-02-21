@@ -1,0 +1,1 @@
+Additionally, a simple gated attention mechanism is introduced in the backbone to prioritize important features.

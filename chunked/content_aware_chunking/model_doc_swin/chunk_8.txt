@@ -1,0 +1,1 @@
+The hierarchical design and the shifted window approach also prove beneficial for all-MLP architectures.

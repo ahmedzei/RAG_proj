@@ -1,0 +1,4 @@
+Model Details
+Mistral-7B-v0.1 is a decoder-based LM with the following architectural choices:
+* Sliding Window Attention - Trained with 8k context length and fixed cache size, with a theoretical attention span of 128K tokens
+* GQA (Grouped Query Attention) - allowing faster inference and lower cache size.

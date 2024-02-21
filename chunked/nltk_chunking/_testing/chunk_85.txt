@@ -1,0 +1,2 @@
+If a test or a setup method fails, its
+according captured output will usually be shown along with the failure traceback.

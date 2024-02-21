@@ -1,0 +1,2 @@
+TFBrandNewBertMainLayer is decorated with @keras_serializable
+5.

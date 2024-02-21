@@ -1,0 +1,1 @@
+In the following example, it is shown how a BERT model of type bert-base-cased can be benchmarked.

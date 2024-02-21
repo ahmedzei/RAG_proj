@@ -1,0 +1,1 @@
+Finetuning the model in float16 is not recommended and known to produce nan, as such the model should be fine-tuned in bfloat16.

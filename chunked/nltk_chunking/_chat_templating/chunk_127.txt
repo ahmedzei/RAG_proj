@@ -1,0 +1,2 @@
+Our default template for models that don't have a class-specific template follows the 
+ChatML format, and this is a good, flexible choice for many use-cases.

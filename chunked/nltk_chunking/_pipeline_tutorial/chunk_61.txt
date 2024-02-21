@@ -1,0 +1,4 @@
+', 'labels': ['urgent', 'phone', 'computer', 'not urgent', 'tablet'], 'scores': [0.504, 0.479, 0.013, 0.003, 0.002]}
+
+Multimodal pipeline
+The [pipeline] supports more than one modality.

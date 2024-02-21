@@ -1,0 +1,5 @@
+- Megatron-LM
+- Varuna
+- SageMaker
+- OSLO
+🤗 Transformers status: not yet implemented, since we have no PP and TP.

@@ -1,0 +1,1 @@
+This method can also take arguments if you would like to pass non-text types or specific prompts.

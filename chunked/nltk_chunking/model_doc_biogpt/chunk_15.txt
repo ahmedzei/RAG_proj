@@ -1,0 +1,1 @@
+Leveraging this feature allows BioGPT to generate syntactically coherent text as it can be observed in the run_generation.py example script.

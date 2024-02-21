@@ -1,0 +1,2 @@
+In order to transform the phonemes to a sequence of words one
+  should make use of a dictionary and language model.

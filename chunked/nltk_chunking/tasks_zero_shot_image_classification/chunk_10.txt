@@ -1,0 +1,1 @@
+The candidate labels can be simple words like in this example, or more descriptive.

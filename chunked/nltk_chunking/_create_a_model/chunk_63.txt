@@ -1,0 +1,1 @@
+It inherits from the base [~image_processing_utils.ImageProcessingMixin] class.

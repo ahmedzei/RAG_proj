@@ -1,0 +1,1 @@
+FSDP is integrated with the Accelerate, a library for easily managing training in distributed environments, which means it is available for use from the [Trainer] class.

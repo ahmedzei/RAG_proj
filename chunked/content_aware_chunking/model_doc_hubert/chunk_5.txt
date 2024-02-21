@@ -1,0 +1,4 @@
+Starting with a simple k-means
+teacher of 100 clusters, and using two iterations of clustering, the HuBERT model either matches or improves upon the
+state-of-the-art wav2vec 2.0 performance on the Librispeech (960h) and Libri-light (60,000h) benchmarks with 10min, 1h,
+10h, 100h, and 960h fine-tuning subsets.

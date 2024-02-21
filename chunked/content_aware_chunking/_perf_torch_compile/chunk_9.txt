@@ -1,0 +1,1 @@
+We benchmarked torch.compile with different computer vision models, tasks, types of hardware, and batch sizes on torch version 2.0.1.

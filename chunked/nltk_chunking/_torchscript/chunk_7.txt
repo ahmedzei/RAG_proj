@@ -1,0 +1,3 @@
+TorchScript flag and tied weights
+The torchscript flag is necessary because most of the 🤗 Transformers language models
+have tied weights between their Embedding layer and their Decoding layer.

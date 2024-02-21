@@ -1,0 +1,3 @@
+HfDeepSpeedConfig
+[[autodoc]] integrations.HfDeepSpeedConfig
+    - all

@@ -1,0 +1,1 @@
+PhoBERT-specific tokenizer is documented below.

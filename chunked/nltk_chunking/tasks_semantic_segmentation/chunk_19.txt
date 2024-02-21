@@ -1,0 +1,6 @@
+The transform is applied on the fly which is faster and consumes less disk space:
+
+train_ds.set_transform(train_transforms)
+test_ds.set_transform(val_transforms)
+
+It is common to apply some data augmentations to an image dataset to make a model more robust against overfitting.

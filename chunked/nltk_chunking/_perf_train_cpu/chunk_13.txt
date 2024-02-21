@@ -1,0 +1,29 @@
+Take an example of the use cases on Transformers question-answering
+
+Training with IPEX using BF16 auto mixed precision on CPU:
+
+ python run_qa.py \
+--model_name_or_path google-bert/bert-base-uncased \
+--dataset_name squad \
+--do_train \
+--do_eval \
+--per_device_train_batch_size 12 \
+--learning_rate 3e-5 \
+--num_train_epochs 2 \
+--max_seq_length 384 \
+--doc_stride 128 \
+--output_dir /tmp/debug_squad/ \
+--use_ipex \
+--bf16 \
+--use_cpu
+If you want to enable use_ipex and bf16 in your script, add these parameters to TrainingArguments like this:
+diff
+training_args = TrainingArguments(
+    output_dir=args.output_path,
++   bf16=True,
++   use_ipex=True,
++   use_cpu=True,
+    **kwargs
+)
+Practice example
+Blog: Accelerating PyTorch Transformers with Intel Sapphire Rapids

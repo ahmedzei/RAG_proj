@@ -1,0 +1,2 @@
+Also we want to get the temporary files and directories removed at the end of each test that created
+them.

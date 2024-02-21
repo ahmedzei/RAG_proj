@@ -1,0 +1,2 @@
+One very important aspect is that FlexFlow is designed for optimizing DNN parallelizations for models with static and 
+fixed workloads, since models with dynamic behavior may prefer different parallelization strategies across iterations.

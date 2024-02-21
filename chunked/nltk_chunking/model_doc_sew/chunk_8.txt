@@ -1,0 +1,16 @@
+Resources
+
+Audio classification task guide
+Automatic speech recognition task guide
+
+SEWConfig
+[[autodoc]] SEWConfig
+SEWModel
+[[autodoc]] SEWModel
+    - forward
+SEWForCTC
+[[autodoc]] SEWForCTC
+    - forward
+SEWForSequenceClassification
+[[autodoc]] SEWForSequenceClassification
+    - forward

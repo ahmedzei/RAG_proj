@@ -1,0 +1,17 @@
+GitVisionConfig
+[[autodoc]] GitVisionConfig
+GitVisionModel
+[[autodoc]] GitVisionModel
+    - forward
+GitConfig
+[[autodoc]] GitConfig
+    - all
+GitProcessor
+[[autodoc]] GitProcessor
+    - call
+GitModel
+[[autodoc]] GitModel
+    - forward
+GitForCausalLM
+[[autodoc]] GitForCausalLM
+    - forward

@@ -1,0 +1,2 @@
+PVT inherits the advantages of both CNN and Transformer, making it a unified 
+backbone for various vision tasks without convolutions, where it can be used as a direct replacement for CNN backbones.

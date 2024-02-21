@@ -1,0 +1,1 @@
+bf16 has the same dynamic range as fp32 and doesn’t require loss scaling.

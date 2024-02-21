@@ -1,0 +1,1 @@
+A LLM based on self-attention, but without position embeddings would have great difficulties in understanding the positions of the text inputs to each other.

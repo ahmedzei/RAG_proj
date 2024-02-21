@@ -1,0 +1,2 @@
+The only
+thing we need to do before writing this class is a map between the block types and actual block classes.

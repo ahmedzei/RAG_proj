@@ -1,0 +1,1 @@
+To fix it, try a higher initial_scale_power value (32 usually works).

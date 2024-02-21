@@ -1,0 +1,1 @@
+With the release of PyTorch v1.12, you can take advantage of training models with Apple's silicon GPUs for significantly faster performance and training.

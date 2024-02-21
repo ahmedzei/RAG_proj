@@ -1,0 +1,1 @@
+It predicts relation from one token (of one entity) to another token (of another entity) if these two entities share some relation.

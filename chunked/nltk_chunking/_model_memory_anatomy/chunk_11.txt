@@ -1,0 +1,1 @@
+When a model is loaded to the GPU the kernels are also loaded, which can take up 1-2GB of memory.

@@ -1,0 +1,2 @@
+By employing gradient accumulation, it 
+becomes possible to increase the effective batch size beyond the limitations imposed by the GPU's memory capacity.

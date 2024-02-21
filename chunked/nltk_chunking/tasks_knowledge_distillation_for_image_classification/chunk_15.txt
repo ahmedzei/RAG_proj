@@ -1,0 +1,1 @@
+To achieve this, we first get the logits output from the teacher and the student.

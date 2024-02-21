@@ -1,0 +1,2 @@
+Wav2Vec2-Conformer can use either no relative position embeddings, Transformer-XL-like position embeddings, or
+  rotary position embeddings by setting the correct config.position_embeddings_type.

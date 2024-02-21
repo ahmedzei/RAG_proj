@@ -1,0 +1,1 @@
+What's interesting is that we use much more memory than the size of the model.

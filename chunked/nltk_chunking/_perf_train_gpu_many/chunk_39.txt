@@ -1,0 +1,1 @@
+DDP performs only a single communication per batch - sending gradients, while DP performs five different data exchanges per batch.

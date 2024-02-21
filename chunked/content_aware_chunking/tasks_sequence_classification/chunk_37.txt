@@ -1,0 +1,1 @@
+In this case, you don't need to specify a data collator explicitly.

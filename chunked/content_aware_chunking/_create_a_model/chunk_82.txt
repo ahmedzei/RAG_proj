@@ -1,0 +1,16 @@
+Create a feature extractor to handle the audio inputs:
+
+from transformers import Wav2Vec2FeatureExtractor
+feature_extractor = Wav2Vec2FeatureExtractor(padding_value=1.0, do_normalize=True)
+
+Create a tokenizer to handle the text inputs:
+
+from transformers import Wav2Vec2CTCTokenizer
+tokenizer = Wav2Vec2CTCTokenizer(vocab_file="my_vocab_file.txt")
+
+Combine the feature extractor and tokenizer in [Wav2Vec2Processor]:
+
+from transformers import Wav2Vec2Processor
+processor = Wav2Vec2Processor(feature_extractor=feature_extractor, tokenizer=tokenizer)
+
+With two basic classes - configuration and model - and an additional preprocessing class (tokenizer, image processor, feature extractor, or processor), you can create any of the models supported by 🤗 Transformers.

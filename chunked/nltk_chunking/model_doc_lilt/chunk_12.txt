@@ -1,0 +1,1 @@
+The script will result in config.json and pytorch_model.bin files being stored locally.

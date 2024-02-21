@@ -1,0 +1,4 @@
+Usage tips
+
+CTRL makes use of control codes to generate text: it requires generations to be started by certain words, sentences
+  or links to generate coherent text.

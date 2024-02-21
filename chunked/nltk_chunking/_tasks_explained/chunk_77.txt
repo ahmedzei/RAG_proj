@@ -1,0 +1,2 @@
+Object detection
+DETR, DEtection TRansformer, is an end-to-end object detection model that combines a CNN with a Transformer encoder-decoder.

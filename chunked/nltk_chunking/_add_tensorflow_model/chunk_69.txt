@@ -1,0 +1,3 @@
+The goal of this section is to modify the file and update the import structure of
+🤗 Transformers such that you can import TFBrandNewBert and
+TFBrandNewBert.from_pretrained(model_repo, from_pt=True) successfully loads a working TensorFlow BrandNewBert model.

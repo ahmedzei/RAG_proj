@@ -1,0 +1,1 @@
+We document here all output types.

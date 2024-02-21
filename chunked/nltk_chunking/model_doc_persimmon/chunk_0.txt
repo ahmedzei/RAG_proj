@@ -1,0 +1,4 @@
+
+Persimmon
+Overview
+The Persimmon model was created by ADEPT, and authored by Erich Elsen, Augustus Odena, Maxwell Nye, Sağnak Taşırlar, Tri Dao, Curtis Hawthorne, Deepak Moparthi, Arushi Somani.

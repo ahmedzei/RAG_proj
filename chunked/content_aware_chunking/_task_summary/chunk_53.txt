@@ -1,0 +1,1 @@
+POS is useful for helping translation systems understand how two identical words are grammatically different (bank as a noun versus bank as a verb).

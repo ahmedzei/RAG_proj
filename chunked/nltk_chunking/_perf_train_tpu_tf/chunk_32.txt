@@ -1,0 +1,1 @@
+A single TPU (a v2-8/v3-8/v4-8) runs 8 replicas.

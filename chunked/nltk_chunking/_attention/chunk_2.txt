@@ -1,0 +1,2 @@
+Longformer and reformer are models that try to be more efficient and
+use a sparse version of the attention matrix to speed up training.

@@ -1,0 +1,3 @@
+Some examples
+- DeepSpeed
+- Megatron-LM has an internal implementation - no API.

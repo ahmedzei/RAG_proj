@@ -1,0 +1,2 @@
+Without the image column, you
+can't create pixel_values.

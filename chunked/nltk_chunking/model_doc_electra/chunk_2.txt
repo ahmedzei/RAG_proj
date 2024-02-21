@@ -1,0 +1,2 @@
+The generator's role is to replace tokens in a sequence, and
+is therefore trained as a masked language model.

@@ -1,0 +1,2 @@
+Enabling the scale_attn_by_inverse_layer_idx and reorder_and_upcast_attn flags will apply the training stability
+  improvements from Mistral (for PyTorch only).

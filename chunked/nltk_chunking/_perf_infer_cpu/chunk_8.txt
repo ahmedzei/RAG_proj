@@ -1,0 +1,1 @@
+BetterTransformer is not supported for all models.

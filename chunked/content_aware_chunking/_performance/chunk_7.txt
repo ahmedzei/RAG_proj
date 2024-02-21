@@ -1,0 +1,2 @@
+Training
+Training large transformer models efficiently requires an accelerator such as a GPU or TPU.

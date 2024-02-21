@@ -1,0 +1,3 @@
+This is accomplished through 
+two primary modifications: a hierarchy of Transformers containing a new convolutional token embedding, and a convolutional Transformer 
+block leveraging a convolutional projection.

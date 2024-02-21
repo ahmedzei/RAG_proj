@@ -1,0 +1,2 @@
+* Define a function to batch examples together, here the [DefaultDataCollator] will do just fine
+* Pass the training arguments to [Trainer] along with the model, dataset, and data collator.

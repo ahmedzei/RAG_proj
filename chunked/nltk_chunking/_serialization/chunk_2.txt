@@ -1,0 +1,2 @@
+🤗 Optimum also provides a set of performance optimization tools to train 
+and run models on targeted hardware with maximum efficiency.

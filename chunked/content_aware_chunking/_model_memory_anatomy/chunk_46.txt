@@ -1,0 +1,2 @@
+There are the input and output that are being passed and returned by the forward and the backward functions and the 
+forward activations saved for gradient computation.

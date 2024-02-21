@@ -1,0 +1,2 @@
+All these strategies select the next token from the probability
+distribution over the entire vocabulary with various strategy-specific adjustments.

@@ -1,0 +1,3 @@
+Link
+Vision pipeline
+Using a [pipeline] for vision tasks is practically identical.

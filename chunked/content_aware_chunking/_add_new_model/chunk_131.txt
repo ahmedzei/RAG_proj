@@ -1,0 +1,2 @@
+Often, one or the other is advantageous depending on the original code
+base.

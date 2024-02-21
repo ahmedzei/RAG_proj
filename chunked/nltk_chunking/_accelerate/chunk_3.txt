@@ -1,0 +1,5 @@
+Setup
+Get started by installing 🤗 Accelerate:
+
+pip install accelerate
+Then import and create an [~accelerate.Accelerator] object.

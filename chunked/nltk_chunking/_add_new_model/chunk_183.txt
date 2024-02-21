@@ -1,0 +1,7 @@
+Additionally, you should make sure to update your work with the current main from
+time to time by doing:
+
+git fetch upstream
+git merge upstream/main
+In general, all questions you might have regarding the model or your implementation should be asked in your PR and
+discussed/solved in the PR.

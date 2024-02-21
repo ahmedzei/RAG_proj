@@ -1,0 +1,2 @@
+Language adapters only consists of roughly 2 million parameters 
+  and can therefore be efficiently loaded on the fly when needed.

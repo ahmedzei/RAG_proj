@@ -1,0 +1,1 @@
+However, be mindful not to change the meaning of the images with your augmentations.

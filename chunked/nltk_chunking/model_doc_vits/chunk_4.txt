@@ -1,0 +1,2 @@
+The spectrogram is decoded using a stack of transposed convolutional layers,
+much in the same style as the HiFi-GAN vocoder.

@@ -1,0 +1,2 @@
+It seems like the agent has a difficult time 
+to understand the difference between image_generator and image_transformer and often uses the two together.

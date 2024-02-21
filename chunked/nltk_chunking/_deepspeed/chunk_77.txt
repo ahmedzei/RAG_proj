@@ -1,0 +1,1 @@
+In this case, increase sub_group_size to improve bandwidth utilization as a result of increased data buffers.

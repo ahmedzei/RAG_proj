@@ -1,0 +1,8 @@
+Implementations:
+
+DeepSpeed ZeRO-DP stages 1+2+3
+Accelerate integration 
+transformers integration
+
+From Naive Model Parallelism to Pipeline Parallelism
+To explain Pipeline parallelism, we'll first look into Naive Model Parallelism (MP), also known as Vertical MP.

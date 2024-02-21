@@ -1,0 +1,3 @@
+Configure the following arguments to reduce the bottleneck:
+
+DataLoader(pin_memory=True, ) - ensures the data gets preloaded into the pinned memory on CPU and typically leads to much faster transfers from CPU to GPU memory.

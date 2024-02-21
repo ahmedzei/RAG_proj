@@ -1,0 +1,2 @@
+ViLT incorporates text embeddings into a Vision Transformer (ViT), allowing it to have a minimal design
+for Vision-and-Language Pre-training (VLP).

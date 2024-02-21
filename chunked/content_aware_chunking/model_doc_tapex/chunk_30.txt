@@ -1,0 +1,10 @@
+",
+ ]
+encoding = tokenizer(table, questions, padding=True, return_tensors="pt")
+let the model generate an answer autoregressively
+outputs = model.generate(**encoding)
+decode back to text
+tokenizer.batch_decode(outputs, skip_special_tokens=True)
+[' 53', ' george clooney', ' brad pitt']
+
+In case one wants to do table verification (i.e.

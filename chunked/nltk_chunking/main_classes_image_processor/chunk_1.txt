@@ -1,0 +1,1 @@
+This includes transformations such as resizing, normalization, and conversion to PyTorch, TensorFlow, Flax and Numpy tensors.

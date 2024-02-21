@@ -1,0 +1,1 @@
+You must keep the transformers folder if you want to keep using the library.

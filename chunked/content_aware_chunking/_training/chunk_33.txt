@@ -1,0 +1,2 @@
+Training hyperparameters
+Next, create a [TrainingArguments] class which contains all the hyperparameters you can tune as well as flags for activating different training options.

@@ -1,0 +1,2 @@
+Some models use
+other types of positional embeddings, such as sinusoidal position embeddings or relative position embeddings.

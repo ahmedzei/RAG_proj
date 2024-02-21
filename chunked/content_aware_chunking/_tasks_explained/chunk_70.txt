@@ -1,0 +1,1 @@
+Replace the typical 3x3 convolutional layer in the bottleneck layer with depthwise convolution, which applies a convolution to each input channel separately and then stacks them back together at the end.

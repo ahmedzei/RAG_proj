@@ -1,0 +1,3 @@
+Thorough experiments
+demonstrate this new pretraining task is more efficient than MLM because the task is defined over all input tokens
+rather than just the small subset that was masked out.

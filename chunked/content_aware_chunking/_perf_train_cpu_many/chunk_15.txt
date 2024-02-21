@@ -1,0 +1,2 @@
+Usage in Trainer
+To enable multi CPU distributed training in the Trainer with the ccl backend, users should add --ddp_backend ccl in the command arguments.

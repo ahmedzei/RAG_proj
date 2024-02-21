@@ -1,0 +1,1 @@
+For the spectrogram labels, the padded portions are replaced with the special value -100.

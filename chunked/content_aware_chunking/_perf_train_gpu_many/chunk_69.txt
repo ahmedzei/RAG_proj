@@ -1,0 +1,1 @@
+This way each of the 3 GPUs gets the full tensors reconstructed and makes a forward pass with its own mini-batch.

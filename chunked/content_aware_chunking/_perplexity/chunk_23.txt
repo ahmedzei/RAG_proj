@@ -1,0 +1,3 @@
+Since
+this dataset is small and we're just doing one forward pass over the set, we can just load and encode the entire
+dataset in memory.

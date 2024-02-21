@@ -1,0 +1,1 @@
+[ViTMAEForPreTraining] is supported by this example script, allowing you to pre-train the model from scratch/further pre-train the model on custom data.

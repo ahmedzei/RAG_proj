@@ -1,0 +1,7 @@
+For example:
+
+thon
+
+from transformers import MBartForConditionalGeneration
+bartpho = MBartForConditionalGeneration.from_pretrained("vinai/bartpho-syllable")
+TXT = "Chúng tôi là  nghiên cứu viên."

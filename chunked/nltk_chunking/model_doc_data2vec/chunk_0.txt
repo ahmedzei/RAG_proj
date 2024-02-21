@@ -1,0 +1,4 @@
+
+Data2Vec
+Overview
+The Data2Vec model was proposed in data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language by Alexei Baevski, Wei-Ning Hsu, Qiantong Xu, Arun Babu, Jiatao Gu and Michael Auli.

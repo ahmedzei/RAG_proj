@@ -1,0 +1,20 @@
+You can always have a look at the toolbox that is currently available to the agent via the agent.toolbox attribute:
+py
+print("\n".join([f"- {a}" for a in agent.toolbox.keys()]))
+text
+- document_qa
+- image_captioner
+- image_qa
+- image_segmenter
+- transcriber
+- summarizer
+- text_classifier
+- text_qa
+- text_reader
+- translator
+- image_transformer
+- text_downloader
+- image_generator
+- video_generator
+- image_upscaler
+Note how image_upscaler is now part of the agents' toolbox.

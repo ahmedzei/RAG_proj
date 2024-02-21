@@ -1,0 +1,3 @@
+Some important parameters to configure for better performance include:
+
+offload_optimizer should be enabled to reduce GPU memory usage.

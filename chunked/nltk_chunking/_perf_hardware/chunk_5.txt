@@ -1,0 +1,2 @@
+Power:
+Some high end consumer GPU cards have 2 and sometimes 3 PCI-E 8-Pin power sockets.

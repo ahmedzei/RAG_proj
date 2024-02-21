@@ -1,0 +1,1 @@
+BERT uses WordPiece tokenization to generate a token embedding of the text.

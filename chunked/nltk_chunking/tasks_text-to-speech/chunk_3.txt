@@ -1,0 +1,2 @@
+Some models, like Bark, 
+can also be conditioned to generate non-verbal communications such as laughing, sighing and crying, or even add music.

@@ -1,0 +1,2 @@
+It doesn't share embeddings tokens
+  either.

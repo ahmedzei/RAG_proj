@@ -1,0 +1,5 @@
+
+CANINE
+Overview
+The CANINE model was proposed in CANINE: Pre-training an Efficient Tokenization-Free Encoder for Language
+Representation by Jonathan H. Clark, Dan Garrette, Iulia Turc, John Wieting.

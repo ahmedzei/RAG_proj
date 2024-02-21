@@ -1,0 +1,3 @@
+Usage tips
+
+For an in-detail explanation on how BigBird's attention works, see this blog post.

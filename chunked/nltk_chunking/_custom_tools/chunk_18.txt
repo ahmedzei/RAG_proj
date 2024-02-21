@@ -1,0 +1,1 @@
+It takes an input named document which should be the document containing the information, as well as a question that is the question about the document.

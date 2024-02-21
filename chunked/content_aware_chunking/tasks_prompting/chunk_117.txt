@@ -1,0 +1,6 @@
+If we apply the CoT technique to the muffins example from the reasoning section and use a larger model, 
+such as (tiiuae/falcon-180B-chat) which you can play with in the HuggingChat, 
+we'll get a significant improvement on the reasoning result:
+text
+Let's go through this step-by-step:
+1.

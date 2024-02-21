@@ -1,0 +1,1 @@
+A linear encoder is added to create multimodal embeddings from image inputs.

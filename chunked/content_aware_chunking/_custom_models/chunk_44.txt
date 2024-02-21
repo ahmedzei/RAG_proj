@@ -1,0 +1,3 @@
+For our example,
+we'll define a modeling_resnet.py file and a configuration_resnet.py file in a folder of the current working
+directory named resnet_model.

@@ -1,0 +1,2 @@
+torch.long
+instead of torch.float32.

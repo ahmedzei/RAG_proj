@@ -1,0 +1,4 @@
+Both image preprocessing and image augmentation
+transform image data, but they serve different purposes:
+
+Image augmentation alters images in a way that can help prevent overfitting and increase the robustness of the model.

@@ -1,0 +1,1 @@
+To propagate the label of the word to all wordpieces, see this version of the notebook instead.

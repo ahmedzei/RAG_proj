@@ -1,0 +1,1 @@
+The available semantic segmentation checkpoints are pre-trained on PASCAL VOC.

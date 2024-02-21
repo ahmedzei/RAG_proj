@@ -1,0 +1,1 @@
+For the few that are available through APIs, no access is granted to the full model weights, making them difficult to study.

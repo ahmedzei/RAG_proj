@@ -1,0 +1,1 @@
+First and foremost, you need to decide the raw entries the pipeline will be able to take.

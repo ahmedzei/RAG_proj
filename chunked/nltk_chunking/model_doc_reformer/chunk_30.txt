@@ -1,0 +1,2 @@
+Note that config.num_buckets can also be factorized into a list \((n_{\text{buckets}}^1,
+n_{\text{buckets}}^2)\).

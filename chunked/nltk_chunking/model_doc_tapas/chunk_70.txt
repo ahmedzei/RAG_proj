@@ -1,0 +1,1 @@
+Only required in case of conversational setup (SQA).

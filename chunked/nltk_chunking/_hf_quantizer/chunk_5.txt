@@ -1,0 +1,2 @@
+Requirements
+Before integrating a new quantization method into Transformers, ensure the method you are trying to add meets the following prerequisites.

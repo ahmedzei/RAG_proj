@@ -1,0 +1,1 @@
+If you don’t get any errors and performance is good, that’s a great sign that you’re ready to move to TPU!

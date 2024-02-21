@@ -1,0 +1,10 @@
+For example, 
+load and run the model with ONNX Runtime as follows:
+thon
+
+from transformers import AutoTokenizer
+from onnxruntime import InferenceSession
+tokenizer = AutoTokenizer.from_pretrained("distilbert/distilbert-base-uncased")
+session = InferenceSession("onnx/model.onnx")
+ONNX Runtime expects NumPy arrays as input
+inputs = tokenizer("Using DistilBERT with ONNX Runtime!

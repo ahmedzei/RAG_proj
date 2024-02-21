@@ -1,0 +1,2 @@
+To address these scenarios PyTorch and NVIDIA released a new version of NGC docker container which already comes with 
+everything prebuilt.

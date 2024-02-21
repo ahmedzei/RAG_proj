@@ -1,0 +1,1 @@
+A zero-shot image classification demo.

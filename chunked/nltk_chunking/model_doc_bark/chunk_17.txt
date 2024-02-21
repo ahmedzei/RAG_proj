@@ -1,0 +1,2 @@
+Using Better Transformer
+Better Transformer is an 🤗 Optimum feature that performs kernel fusion under the hood.

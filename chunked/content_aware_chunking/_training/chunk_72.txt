@@ -1,0 +1,1 @@
+Otherwise, training on a CPU may take several hours instead of a couple of minutes.

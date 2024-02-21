@@ -1,0 +1,3 @@
+It was released with the paper Language models of protein sequences at the scale of evolution enable accurate
+structure prediction by Zeming Lin, Halil Akin, Roshan Rao, Brian Hie,
+Zhongkai Zhu, Wenting Lu, Allan dos Santos Costa, Maryam Fazel-Zarandi, Tom Sercu, Sal Candido and Alexander Rives.

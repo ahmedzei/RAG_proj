@@ -1,0 +1,4 @@
+It also displays surprising emergent
+properties compared to phi-1-base, our model before our finetuning stage on a dataset of coding
+exercises, and phi-1-small, a smaller model with 350M parameters trained with the same pipeline as
+phi-1 that still achieves 45% on HumanEval.

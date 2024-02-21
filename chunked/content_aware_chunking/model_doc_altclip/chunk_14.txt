@@ -1,0 +1,2 @@
+AltCLIP uses a ViT like transformer to get visual features and a bidirectional language model to get the text
+features.

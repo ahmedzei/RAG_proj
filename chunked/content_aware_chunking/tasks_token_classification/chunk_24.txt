@@ -1,0 +1,9 @@
+from transformers import DataCollatorForTokenClassification
+data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer)
+</pt>
+<tf>py
+from transformers import DataCollatorForTokenClassification
+data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer, return_tensors="tf")
+
+Evaluate
+Including a metric during training is often helpful for evaluating your model's performance.

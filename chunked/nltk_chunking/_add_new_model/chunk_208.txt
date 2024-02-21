@@ -1,0 +1,3 @@
+By setting it to
+True for module.project_q and module.project_hid, we make sure the custom initialization we did is not overridden later on,
+the _init_weights function won't be applied to them.

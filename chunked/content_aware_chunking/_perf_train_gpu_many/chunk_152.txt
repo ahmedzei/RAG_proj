@@ -1,0 +1,1 @@
+And hopefully training mode will be supported too.

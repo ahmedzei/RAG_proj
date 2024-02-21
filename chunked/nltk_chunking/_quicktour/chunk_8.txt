@@ -1,0 +1,5 @@
+[{'label': 'POSITIVE', 'score': 0.9998}]
+
+If you have more than one input, pass your inputs as a list to the [pipeline] to return a list of dictionaries:
+
+results = classifier(["We are very happy to show you the 🤗 Transformers library.

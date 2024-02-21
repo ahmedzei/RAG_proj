@@ -1,0 +1,1 @@
+This makes it easy to represent an image as a matrix of pixel values.

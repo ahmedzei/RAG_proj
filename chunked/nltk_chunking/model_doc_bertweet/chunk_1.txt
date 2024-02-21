@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+We present BERTweet, the first public large-scale pre-trained language model for English Tweets.

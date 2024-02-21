@@ -1,0 +1,1 @@
+The model updates its weights based on how incorrect its predictions were, and the process is repeated to optimize model performance.

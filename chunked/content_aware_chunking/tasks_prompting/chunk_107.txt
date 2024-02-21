@@ -1,0 +1,4 @@
+Date: 09/28/1960
+
+In the above code snippet we used a single example to demonstrate the desired output to the model, so this can be called a 
+"one-shot" prompting.

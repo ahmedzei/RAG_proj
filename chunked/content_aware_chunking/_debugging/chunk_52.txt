@@ -1,0 +1,1 @@
+At the very start of the trace you can discover at which batch number the problem occurred (here Detected inf/nan during batch_number=0 means the problem occurred on the first batch).

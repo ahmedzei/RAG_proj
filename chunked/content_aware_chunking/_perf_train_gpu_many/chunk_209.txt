@@ -1,0 +1,1 @@
+You can also reverse the order of the GPUs to use 2 first.

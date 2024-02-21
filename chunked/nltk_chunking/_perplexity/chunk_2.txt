@@ -1,0 +1,1 @@
+Perplexity is defined as the exponentiated average negative log-likelihood of a sequence.

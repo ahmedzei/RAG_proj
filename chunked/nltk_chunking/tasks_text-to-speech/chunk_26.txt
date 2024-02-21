@@ -1,0 +1,1 @@
+Because SpeechT5 was trained on the English language, it may not recognize certain characters in the Dutch dataset.

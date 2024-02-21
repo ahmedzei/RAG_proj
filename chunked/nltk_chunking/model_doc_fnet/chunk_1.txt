@@ -1,0 +1,2 @@
+The model replaces the self-attention layer in a BERT
+model with a fourier transform which returns only the real parts of the transform.

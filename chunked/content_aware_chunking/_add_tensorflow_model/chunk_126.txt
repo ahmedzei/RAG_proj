@@ -1,0 +1,6 @@
+Finally, when the TensorFlow weights get merged, you have at least 3 reviewer approvals, and all CI checks are
+green, double-check the tests locally one last time
+
+NVIDIA_TF32_OVERRIDE=0 RUN_SLOW=1 RUN_PT_TF_CROSS_TESTS=1 \
+py.test -vv tests/models/brand_new_bert/test_modeling_tf_brand_new_bert.py
+and we will merge your PR!

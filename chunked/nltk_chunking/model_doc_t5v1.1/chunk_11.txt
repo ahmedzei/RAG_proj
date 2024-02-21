@@ -1,0 +1,2 @@
+The model shapes are a bit different - larger d_model and smaller
+  num_heads and d_ff.

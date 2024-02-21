@@ -1,0 +1,1 @@
+On multiple datasets, schedules, and architectures, we consistently show bipartite matching is unnecessary for performant detection transformers.

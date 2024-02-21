@@ -1,0 +1,30 @@
+Resources
+
+Text classification task guide
+Causal language modeling task guide
+
+CTRLConfig
+[[autodoc]] CTRLConfig
+CTRLTokenizer
+[[autodoc]] CTRLTokenizer
+    - save_vocabulary
+
+CTRLModel
+[[autodoc]] CTRLModel
+    - forward
+CTRLLMHeadModel
+[[autodoc]] CTRLLMHeadModel
+    - forward
+CTRLForSequenceClassification
+[[autodoc]] CTRLForSequenceClassification
+    - forward
+
+TFCTRLModel
+[[autodoc]] TFCTRLModel
+    - call
+TFCTRLLMHeadModel
+[[autodoc]] TFCTRLLMHeadModel
+    - call
+TFCTRLForSequenceClassification
+[[autodoc]] TFCTRLForSequenceClassification
+    - call

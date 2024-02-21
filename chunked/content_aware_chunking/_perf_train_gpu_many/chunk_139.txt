@@ -1,0 +1,2 @@
+The dot dot-product part of it, following the Megatron's paper notation, can be written as Y = GeLU(XA), where X is 
+an input vector, Y is the output vector, and A is the weight matrix.

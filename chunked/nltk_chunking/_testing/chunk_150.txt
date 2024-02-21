@@ -1,0 +1,1 @@
+If a test completes under 1 second on CI (including downloads if any) then it should be a normal test regardless.

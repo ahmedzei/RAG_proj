@@ -1,0 +1,1 @@
+Low end cards may use 6-Pin connectors, which supply up to 75W of power.

@@ -1,0 +1,1 @@
+Most of the recent quantization method packs int2/int4 weights inside torch.uint8 weights, so this flag should not be really required (set to False by default).

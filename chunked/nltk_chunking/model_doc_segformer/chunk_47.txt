@@ -1,0 +1,1 @@
+More demo notebooks on SegFormer (both inference + fine-tuning on a custom dataset) can be found here.

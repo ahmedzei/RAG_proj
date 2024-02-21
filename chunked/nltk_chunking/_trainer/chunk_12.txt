@@ -1,0 +1,6 @@
+```bash
+pip install accelerate
+upgrade
+pip install accelerate --upgrade
+
+This guide provides an overview of the [Trainer] class.

@@ -1,0 +1,2 @@
+We show that ViLT is up to tens of
+times faster than previous VLP models, yet with competitive or better downstream task performance.

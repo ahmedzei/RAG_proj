@@ -1,0 +1,5 @@
+You'll need the tokenizer part of the processor to process the text:
+
+tokenizer = processor.tokenizer
+
+The dataset examples contain raw_text and normalized_text features.

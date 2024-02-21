@@ -1,0 +1,10 @@
+thon
+from PIL import Image
+import requests
+url = "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/tasks/cat.jpg"
+image = Image.open(requests.get(url, stream=True).raw)
+print(image.size)
+bash
+(532, 432)
+
+We can now do inference with the pipeline.

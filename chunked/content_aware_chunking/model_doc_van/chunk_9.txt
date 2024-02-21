@@ -1,0 +1,1 @@
+(1) Treating images as 1D sequences neglects their 2D structures.

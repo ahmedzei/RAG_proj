@@ -1,0 +1,58 @@
+AutoModelForCausalLM
+[[autodoc]] AutoModelForCausalLM
+TFAutoModelForCausalLM
+[[autodoc]] TFAutoModelForCausalLM
+FlaxAutoModelForCausalLM
+[[autodoc]] FlaxAutoModelForCausalLM
+AutoModelForMaskedLM
+[[autodoc]] AutoModelForMaskedLM
+TFAutoModelForMaskedLM
+[[autodoc]] TFAutoModelForMaskedLM
+FlaxAutoModelForMaskedLM
+[[autodoc]] FlaxAutoModelForMaskedLM
+AutoModelForMaskGeneration
+[[autodoc]] AutoModelForMaskGeneration
+TFAutoModelForMaskGeneration
+[[autodoc]] TFAutoModelForMaskGeneration
+AutoModelForSeq2SeqLM
+[[autodoc]] AutoModelForSeq2SeqLM
+TFAutoModelForSeq2SeqLM
+[[autodoc]] TFAutoModelForSeq2SeqLM
+FlaxAutoModelForSeq2SeqLM
+[[autodoc]] FlaxAutoModelForSeq2SeqLM
+AutoModelForSequenceClassification
+[[autodoc]] AutoModelForSequenceClassification
+TFAutoModelForSequenceClassification
+[[autodoc]] TFAutoModelForSequenceClassification
+FlaxAutoModelForSequenceClassification
+[[autodoc]] FlaxAutoModelForSequenceClassification
+AutoModelForMultipleChoice
+[[autodoc]] AutoModelForMultipleChoice
+TFAutoModelForMultipleChoice
+[[autodoc]] TFAutoModelForMultipleChoice
+FlaxAutoModelForMultipleChoice
+[[autodoc]] FlaxAutoModelForMultipleChoice
+AutoModelForNextSentencePrediction
+[[autodoc]] AutoModelForNextSentencePrediction
+TFAutoModelForNextSentencePrediction
+[[autodoc]] TFAutoModelForNextSentencePrediction
+FlaxAutoModelForNextSentencePrediction
+[[autodoc]] FlaxAutoModelForNextSentencePrediction
+AutoModelForTokenClassification
+[[autodoc]] AutoModelForTokenClassification
+TFAutoModelForTokenClassification
+[[autodoc]] TFAutoModelForTokenClassification
+FlaxAutoModelForTokenClassification
+[[autodoc]] FlaxAutoModelForTokenClassification
+AutoModelForQuestionAnswering
+[[autodoc]] AutoModelForQuestionAnswering
+TFAutoModelForQuestionAnswering
+[[autodoc]] TFAutoModelForQuestionAnswering
+FlaxAutoModelForQuestionAnswering
+[[autodoc]] FlaxAutoModelForQuestionAnswering
+AutoModelForTextEncoding
+[[autodoc]] AutoModelForTextEncoding
+TFAutoModelForTextEncoding
+[[autodoc]] TFAutoModelForTextEncoding
+Computer vision
+The following auto classes are available for the following computer vision tasks.

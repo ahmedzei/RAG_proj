@@ -1,0 +1,2 @@
+The 🤗 Datasets library documentation has a detailed guide on how to augment images for object detection,
+and it uses the exact same dataset as an example.

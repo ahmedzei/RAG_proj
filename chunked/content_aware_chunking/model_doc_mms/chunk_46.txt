@@ -1,0 +1,2 @@
+The MMS for ASR architecture is based on the Wav2Vec2 model, refer to Wav2Vec2's documentation page for further 
+details on how to finetune with models for various downstream tasks.

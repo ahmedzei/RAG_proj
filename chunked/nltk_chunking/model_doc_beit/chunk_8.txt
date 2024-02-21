@@ -1,0 +1,2 @@
+The pre-training
+objective is to recover the original visual tokens based on the corrupted image patches.

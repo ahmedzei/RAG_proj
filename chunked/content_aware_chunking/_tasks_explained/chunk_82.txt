@@ -1,0 +1,1 @@
+Next, the encoder hidden states are combined with object queries in the decoder.

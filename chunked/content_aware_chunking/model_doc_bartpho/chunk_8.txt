@@ -1,0 +1,13 @@
+input_ids = tokenizer(line, return_tensors="pt")
+with torch.no_grad():
+     features = bartpho(**input_ids)  # Models outputs are now tuples
+With TensorFlow 2.0+:
+from transformers import TFAutoModel
+bartpho = TFAutoModel.from_pretrained("vinai/bartpho-syllable")
+input_ids = tokenizer(line, return_tensors="tf")
+features = bartpho(**input_ids)
+
+Usage tips
+
+Following mBART, BARTpho uses the "large" architecture of BART with an additional layer-normalization layer on top of
+  both the encoder and decoder.

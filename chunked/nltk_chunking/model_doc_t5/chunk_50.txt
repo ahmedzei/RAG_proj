@@ -1,0 +1,9 @@
+", return_tensors="pt").input_ids
+the forward function automatically creates the correct decoder_input_ids
+loss = model(input_ids=input_ids, labels=labels).loss
+loss.item()
+0.2542
+
+As you can see, only 2 inputs are required for the model in order to compute a loss: input_ids (which are the
+input_ids of the encoded input sequence) and labels (which are the input_ids of the encoded
+target sequence).

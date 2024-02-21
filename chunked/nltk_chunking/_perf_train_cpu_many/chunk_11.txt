@@ -1,0 +1,1 @@
+oneccl_bindings_for_pytorch is installed along with the MPI tool set.

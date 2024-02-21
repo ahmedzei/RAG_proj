@@ -1,0 +1,1 @@
+As a result, DistributedDataParallel (DDP) is generally faster than DataParallel (DP) unless you have slow GPU card inter-connectivity.

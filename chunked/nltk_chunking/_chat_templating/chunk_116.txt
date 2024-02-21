@@ -1,0 +1,2 @@
+For backwards 
+compatibility, we have retained this class-specific handling as default templates, also set at the class level.

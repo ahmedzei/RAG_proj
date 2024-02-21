@@ -1,0 +1,1 @@
+It treats program synthesis as a sequence prediction problem, in which the specification is expressed in natural language and the desired program is conditionally sampled.

@@ -1,0 +1,22 @@
+A100
+| Task/Model | Batch Size | torch 2.0 - no compile | torch 2.0 - compile |
+|:---:|:---:|:---:|:---:|
+| Image Classification/ConvNeXT | Unbatched | 11.758 | 7.335 | 
+| Image Classification/ConvNeXT | 4 | 23.171 | 21.490 | 
+| Image Classification/ResNet | Unbatched | 7.435 | 3.801 | 
+| Image Classification/ResNet | 4 | 7.261 | 2.187 | 
+| Object Detection/Conditional-DETR | Unbatched | 32.823 | 11.627  | 
+| Object Detection/Conditional-DETR | 4 | 50.622 | 33.831  | 
+| Image Segmentation/MobileNet | Unbatched | 9.869 | 4.244 |
+| Image Segmentation/MobileNet | 4 | 14.385 | 7.946 |
+T4
+| Task/Model | Batch Size | torch 2.0 - no compile | torch 2.0 - compile | 
+|:---:|:---:|:---:|:---:|
+| Image Classification/ConvNeXT | Unbatched | 32.137 | 31.84 | 
+| Image Classification/ConvNeXT | 4 | 120.944 | 110.209 | 
+| Image Classification/ResNet | Unbatched | 9.761 | 7.698 | 
+| Image Classification/ResNet | 4 | 15.215 | 13.871 | 
+| Object Detection/Conditional-DETR | Unbatched | 72.150 | 57.660  | 
+| Object Detection/Conditional-DETR | 4 | 301.494 | 247.543  | 
+| Image Segmentation/MobileNet | Unbatched | 22.266 | 19.339  |
+| Image Segmentation/MobileNet | 4 | 78.311 | 50.983 |

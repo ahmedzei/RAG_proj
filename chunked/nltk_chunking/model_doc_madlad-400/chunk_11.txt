@@ -1,0 +1,11 @@
+Google has released the following variants:
+
+google/madlad400-3b-mt
+
+google/madlad400-7b-mt
+
+google/madlad400-7b-mt-bt
+
+google/madlad400-10b-mt
+
+The original checkpoints can be found here.

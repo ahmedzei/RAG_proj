@@ -1,0 +1,1 @@
+GPT-2's pretraining objective is based entirely on causal language modeling, predicting the next word in a sequence.

@@ -1,0 +1,15 @@
+Streaming no batching
+100%|█████████████████████████████████████████████████████████████████████| 1000/1000 [00:05<00:00, 183.69it/s]
+
+Streaming batch_size=8
+100%|█████████████████████████████████████████████████████████████████████| 1000/1000 [00:03<00:00, 265.74it/s]
+
+Streaming batch_size=64
+100%|██████████████████████████████████████████████████████████████████████| 1000/1000 [00:26<00:00, 37.80it/s]
+
+Streaming batch_size=256
+  0%|                                                                                 | 0/1000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/nicolas/src/transformers/test.py", line 42, in 
+    for out in tqdm(pipe(dataset, batch_size=256), total=len(dataset)):
+.

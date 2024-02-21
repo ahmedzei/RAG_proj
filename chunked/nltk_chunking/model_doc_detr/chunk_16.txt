@@ -1,0 +1,2 @@
+This means that the input to the backbone is a
+tensor of shape (batch_size, 3, height, width), assuming the image has 3 color channels (RGB).

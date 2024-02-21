@@ -1,0 +1,2 @@
+If you want to
+perform OCR yourself, you can provide your own words and (normalized) bounding boxes to the processor.

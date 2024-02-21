@@ -1,0 +1,1 @@
+For torchrun, you have to ssh to each node and run the following command on both of them.

@@ -1,0 +1,5 @@
+Once training is completed, share your model to the Hub with the [~Trainer.push_to_hub] method so everyone can use your model:
+python
+trainer.push_to_hub()
+Inference
+Take a sample image from test_ds to test the model.

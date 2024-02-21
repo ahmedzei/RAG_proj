@@ -1,0 +1,42 @@
+predictions = detector(
+     image,
+     candidate_labels=["human face", "rocket", "nasa badge", "star-spangled banner"],
+ )
+predictions
+[{'score': 0.3571370542049408,
+  'label': 'human face',
+  'box': {'xmin': 180, 'ymin': 71, 'xmax': 271, 'ymax': 178}},
+ {'score': 0.28099656105041504,
+  'label': 'nasa badge',
+  'box': {'xmin': 129, 'ymin': 348, 'xmax': 206, 'ymax': 427}},
+ {'score': 0.2110239565372467,
+  'label': 'rocket',
+  'box': {'xmin': 350, 'ymin': -1, 'xmax': 468, 'ymax': 288}},
+ {'score': 0.13790413737297058,
+  'label': 'star-spangled banner',
+  'box': {'xmin': 1, 'ymin': 1, 'xmax': 105, 'ymax': 509}},
+ {'score': 0.11950037628412247,
+  'label': 'nasa badge',
+  'box': {'xmin': 277, 'ymin': 338, 'xmax': 327, 'ymax': 380}},
+ {'score': 0.10649408400058746,
+  'label': 'rocket',
+  'box': {'xmin': 358, 'ymin': 64, 'xmax': 424, 'ymax': 280}}]
+
+Let's visualize the predictions:
+
+from PIL import ImageDraw
+draw = ImageDraw.Draw(image)
+for prediction in predictions:
+     box = prediction["box"]
+     label = prediction["label"]
+     score = prediction["score"]
+
+     xmin, ymin, xmax, ymax = box.values()
+     draw.rectangle((xmin, ymin, xmax, ymax), outline="red", width=1)
+     draw.text((xmin, ymin), f"{label}: {round(score,2)}", fill="white")
+
+image
+
+Text-prompted zero-shot object detection by hand
+Now that you've seen how to use the zero-shot object detection pipeline, let's replicate the same
+result manually.

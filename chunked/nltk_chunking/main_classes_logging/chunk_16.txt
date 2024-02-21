@@ -1,0 +1,1 @@
+[logging.disable_progress_bar] and [logging.enable_progress_bar] can be used to suppress or unsuppress this behavior.

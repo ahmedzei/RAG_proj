@@ -1,0 +1,3 @@
+Masked spans
+are replaced with a special token, viewed as a question representation, that is later used during fine-tuning to select
+the answer span.

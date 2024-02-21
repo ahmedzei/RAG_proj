@@ -1,0 +1,1 @@
+"xl" and "xxl" replace "3B" and "11B".

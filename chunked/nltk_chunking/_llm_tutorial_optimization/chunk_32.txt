@@ -1,0 +1,1 @@
+In this guide, we will use bigcode/octocoder as it can be run on a single 40 GB A100 GPU device chip.

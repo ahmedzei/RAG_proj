@@ -1,0 +1,1 @@
+Padding and truncation are strategies for dealing with this problem, to create rectangular tensors from batches of varying lengths.

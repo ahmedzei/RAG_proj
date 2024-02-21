@@ -1,0 +1,2 @@
+If you are looking to fine-tune a TTS model, the only text-to-speech models currently available in 🤗 Transformers 
+are SpeechT5 and FastSpeech2Conformer, though more will be added in the future.

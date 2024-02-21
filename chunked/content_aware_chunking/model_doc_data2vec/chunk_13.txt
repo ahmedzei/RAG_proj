@@ -1,0 +1,3 @@
+Usage tips
+
+Data2VecAudio, Data2VecText, and Data2VecVision have all been trained using the same self-supervised learning method.

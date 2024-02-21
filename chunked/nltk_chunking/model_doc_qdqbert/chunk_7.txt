@@ -1,0 +1,1 @@
+QDQBERT requires the dependency of Pytorch Quantization Toolkit.

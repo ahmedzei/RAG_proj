@@ -1,0 +1,11 @@
+from transformers import Seq2SeqTrainer
+trainer = Seq2SeqTrainer(
+     args=training_args,
+     model=model,
+     train_dataset=dataset["train"],
+     eval_dataset=dataset["test"],
+     data_collator=data_collator,
+     tokenizer=processor,
+ )
+
+And with that, you're ready to start training!

@@ -1,0 +1,2 @@
+By default, the parameter position_embedding_type of
+  [~transformers.DetrConfig] is set to "sine".

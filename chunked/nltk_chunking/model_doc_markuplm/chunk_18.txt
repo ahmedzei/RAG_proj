@@ -1,0 +1,3 @@
+The feature extractor is
+used to extract all nodes and xpaths from the HTML strings, which are then provided to the tokenizer, which turns them into the
+token-level inputs of the model (input_ids etc.).

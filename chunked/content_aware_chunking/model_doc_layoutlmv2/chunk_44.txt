@@ -1,0 +1,2 @@
+If you want to train the model in a distributed environment, make sure to call [synchronize_batch_norm] on the
+  model in order to properly synchronize the batch normalization layers of the visual backbone.

@@ -1,0 +1,1 @@
+TheAudioConditioner upsamples the outputs of the previous prior to raw tokens at a certain audio frame per second resolution.

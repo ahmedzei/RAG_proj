@@ -1,0 +1,2 @@
+For additional information, please refer to batch size and gradient accumulation benchmarks for RTX-3090
+and A100.

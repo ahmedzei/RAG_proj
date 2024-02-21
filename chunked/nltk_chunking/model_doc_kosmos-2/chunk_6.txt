@@ -1,0 +1,1 @@
+Together with multimodal corpora, we construct large-scale data of grounded image-text pairs (called GrIT) to train the model.

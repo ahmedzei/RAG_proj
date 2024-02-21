@@ -1,0 +1,4 @@
+
+GPTSAN-japanese
+Overview
+The GPTSAN-japanese model was released in the repository by Toshiyuki Sakamoto (tanreinama).

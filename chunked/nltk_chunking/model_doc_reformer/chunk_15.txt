@@ -1,0 +1,3 @@
+Axial Positional Encodings
+Axial Positional Encodings were first implemented in Google's trax library
+and developed by the authors of this model's paper.

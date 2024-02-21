@@ -1,0 +1,2 @@
+According to NVIDIA research, the 
+majority of machine learning training workloads show the same perplexity and convergence with tf32 training as with fp32.

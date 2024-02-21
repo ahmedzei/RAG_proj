@@ -1,0 +1,2 @@
+Create a function create_speaker_embedding() that takes an input audio waveform and outputs a 512-element vector 
+containing the corresponding speaker embedding.

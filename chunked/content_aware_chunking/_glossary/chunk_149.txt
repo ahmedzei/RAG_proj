@@ -1,0 +1,3 @@
+Some models, like [XLNetModel] use an additional token represented by a 2.
+transfer learning
+A technique that involves taking a pretrained model and adapting it to a dataset specific to your task.

@@ -1,0 +1,3 @@
+Token classification task guide
+
+[BertForMaskedLM] is supported by this example script and notebook.

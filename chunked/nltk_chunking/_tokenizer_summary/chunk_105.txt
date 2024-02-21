@@ -1,0 +1,2 @@
+Unigram is not used directly for any of the models in the transformers, but it's used in
+conjunction with SentencePiece.

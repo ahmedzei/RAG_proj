@@ -1,0 +1,3 @@
+If you make the life of the maintainers easy with your
+TensorFlow implementation, by replicating the same patterns as in other TensorFlow models and minimizing the mismatch
+to the PyTorch implementation, you ensure your contribution will be long lived.

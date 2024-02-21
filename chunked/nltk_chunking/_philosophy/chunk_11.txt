@@ -1,0 +1,5 @@
+A few other goals:
+
+Expose the models' internals as consistently as possible:
+
+We give access, using a single API, to the full hidden-states and attention weights.

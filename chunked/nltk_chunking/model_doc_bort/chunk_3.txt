@@ -1,0 +1,3 @@
+Overview
+The BORT model was proposed in Optimal Subarchitecture Extraction for BERT by
+Adrian de Wynter and Daniel J. Perry.

@@ -1,0 +1,1 @@
+This allows to use the DPT framework with various computer vision backbones available in the library, such as [VitDetBackbone] or [Dinov2Backbone].

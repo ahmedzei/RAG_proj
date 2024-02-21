@@ -1,0 +1,2 @@
+One additional thing to keep in mind is that one can initialize [SegformerImageProcessor] with
+  reduce_labels set to True or False.

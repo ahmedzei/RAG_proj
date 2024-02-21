@@ -1,0 +1,2 @@
+Load a pretrained image processor
+Load a pretrained feature extractor.

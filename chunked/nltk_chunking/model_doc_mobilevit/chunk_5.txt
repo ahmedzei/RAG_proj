@@ -1,0 +1,1 @@
+To learn global representations, self-attention-based vision trans-formers (ViTs) have been adopted.

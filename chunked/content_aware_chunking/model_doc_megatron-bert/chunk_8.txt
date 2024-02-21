@@ -1,0 +1,2 @@
+We show that careful attention to the placement of layer normalization in
+BERT-like models is critical to achieving increased performance as the model size grows.

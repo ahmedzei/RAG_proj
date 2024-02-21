@@ -1,0 +1,1 @@
+In addition to masked language modeling, Pegasus is pretrained by gap sentence generation (GSG).

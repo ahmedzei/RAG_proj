@@ -1,0 +1,3 @@
+The important functionalities that are automatically provided to every new
+model are [~PreTrainedModel.from_pretrained] and
+[~PreTrainedModel.save_pretrained], which are used for serialization and deserialization.

@@ -1,0 +1,4 @@
+Start by creating a virtual environment in your project directory:
+
+python -m venv .env
+Activate the virtual environment.

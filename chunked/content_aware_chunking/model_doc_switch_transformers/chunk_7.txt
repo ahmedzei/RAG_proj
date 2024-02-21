@@ -1,0 +1,1 @@
+Mixture of Experts (MoE) defies this and instead selects different parameters for each incoming example.

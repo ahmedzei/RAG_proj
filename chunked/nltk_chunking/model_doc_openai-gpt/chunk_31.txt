@@ -1,0 +1,36 @@
+OpenAIGPTConfig
+[[autodoc]] OpenAIGPTConfig
+OpenAIGPTTokenizer
+[[autodoc]] OpenAIGPTTokenizer
+    - save_vocabulary
+OpenAIGPTTokenizerFast
+[[autodoc]] OpenAIGPTTokenizerFast
+OpenAI specific outputs
+[[autodoc]] models.openai.modeling_openai.OpenAIGPTDoubleHeadsModelOutput
+[[autodoc]] models.openai.modeling_tf_openai.TFOpenAIGPTDoubleHeadsModelOutput
+
+OpenAIGPTModel
+[[autodoc]] OpenAIGPTModel
+    - forward
+OpenAIGPTLMHeadModel
+[[autodoc]] OpenAIGPTLMHeadModel
+    - forward
+OpenAIGPTDoubleHeadsModel
+[[autodoc]] OpenAIGPTDoubleHeadsModel
+    - forward
+OpenAIGPTForSequenceClassification
+[[autodoc]] OpenAIGPTForSequenceClassification
+    - forward
+
+TFOpenAIGPTModel
+[[autodoc]] TFOpenAIGPTModel
+    - call
+TFOpenAIGPTLMHeadModel
+[[autodoc]] TFOpenAIGPTLMHeadModel
+    - call
+TFOpenAIGPTDoubleHeadsModel
+[[autodoc]] TFOpenAIGPTDoubleHeadsModel
+    - call
+TFOpenAIGPTForSequenceClassification
+[[autodoc]] TFOpenAIGPTForSequenceClassification
+    - call

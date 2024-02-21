@@ -1,0 +1,1 @@
+We will simply take the most likely next token via torch.argmax.

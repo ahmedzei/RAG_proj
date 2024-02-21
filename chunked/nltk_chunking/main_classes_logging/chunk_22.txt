@@ -1,0 +1,16 @@
+[[autodoc]] logging.captureWarnings
+Base setters
+[[autodoc]] logging.set_verbosity_error
+[[autodoc]] logging.set_verbosity_warning
+[[autodoc]] logging.set_verbosity_info
+[[autodoc]] logging.set_verbosity_debug
+Other functions
+[[autodoc]] logging.get_verbosity
+[[autodoc]] logging.set_verbosity
+[[autodoc]] logging.get_logger
+[[autodoc]] logging.enable_default_handler
+[[autodoc]] logging.disable_default_handler
+[[autodoc]] logging.enable_explicit_format
+[[autodoc]] logging.reset_format
+[[autodoc]] logging.enable_progress_bar
+[[autodoc]] logging.disable_progress_bar

@@ -1,0 +1,1 @@
+If full-band spectral features are used as the input, the vocoder can be provided with as much acoustic information as possible.

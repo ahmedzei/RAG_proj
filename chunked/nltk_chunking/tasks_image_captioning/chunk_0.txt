@@ -1,0 +1,4 @@
+
+Image captioning
+[[open-in-colab]]
+Image captioning is the task of predicting a caption for a given image.

@@ -1,0 +1,1 @@
+You can review the list of supported tasks in the 🤗 Optimum documentation.

@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+In recent years, the field of image generation has been revolutionized by the application of autoregressive transformers and DDPMs.

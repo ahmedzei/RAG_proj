@@ -1,0 +1,2 @@
+Resources
+DeepSpeed ZeRO is a powerful technology for training and loading very large models for inference with limited GPU resources, making it more accessible to everyone.

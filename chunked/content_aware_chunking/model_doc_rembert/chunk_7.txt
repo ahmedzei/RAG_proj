@@ -1,0 +1,3 @@
+Usage tips
+For fine-tuning, RemBERT can be thought of as a bigger version of mBERT with an ALBERT-like factorization of the
+embedding layer.

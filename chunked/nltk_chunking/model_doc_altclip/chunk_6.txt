@@ -1,0 +1,2 @@
+We set new state-of-the-art 
+performances on a bunch of tasks including ImageNet-CN, Flicker30k- CN, and COCO-CN.

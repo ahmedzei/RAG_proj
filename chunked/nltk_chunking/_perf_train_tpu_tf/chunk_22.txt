@@ -1,0 +1,1 @@
+The second way to access a TPU is via a TPU VM.

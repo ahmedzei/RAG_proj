@@ -1,0 +1,6 @@
+Instantiating a big model
+Troubleshooting performance issues
+
+Contribute
+This document is far from being complete and a lot more needs to be added, so if you have additions or corrections to 
+make please don't hesitate to open a PR or if you aren't sure start an Issue and we can discuss the details there.

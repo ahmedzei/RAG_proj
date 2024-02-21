@@ -1,0 +1,1 @@
+For example, if you're training with bf16, the data is also gathered in bf16 because gathering is a non-lossy operation.

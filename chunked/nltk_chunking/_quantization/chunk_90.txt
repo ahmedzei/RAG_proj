@@ -1,0 +1,15 @@
+With Jukebox, there are several lm_head modules that should be skipped using the llm_int8_skip_modules parameter in [BitsAndBytesConfig]:
+
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+model_id = "bigscience/bloom-1b7"
+quantization_config = BitsAndBytesConfig(
+    llm_int8_skip_modules=["lm_head"],
+)
+model_8bit = AutoModelForCausalLM.from_pretrained(
+    model_id,
+    device_map="auto",
+    quantization_config=quantization_config,
+)
+
+Finetuning
+With the PEFT library, you can finetune large models like flan-t5-large and facebook/opt-6.7b with 8-bit quantization.

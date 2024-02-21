@@ -1,0 +1,1 @@
+By pretraining on a massive body of text, GPT-2 became really good at generating text, even if the text is only sometimes accurate or true.

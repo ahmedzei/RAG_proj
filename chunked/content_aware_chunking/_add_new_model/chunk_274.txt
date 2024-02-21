@@ -1,0 +1,2 @@
+Usually, the tokenizer is equivalent to or very similar to an
+already existing tokenizer of 🤗 Transformers.

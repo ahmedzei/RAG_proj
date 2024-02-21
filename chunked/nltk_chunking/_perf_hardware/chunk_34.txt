@@ -1,0 +1,3 @@
+Four
+links provide 56.25 GB/sec bandwidth in each direction, and 112.5 GB/sec total bandwidth
+between two GPUs.

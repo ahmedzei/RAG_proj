@@ -1,0 +1,2 @@
+It will be automatically removed at the end of the
+test.

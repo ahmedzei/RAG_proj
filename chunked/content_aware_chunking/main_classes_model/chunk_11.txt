@@ -1,0 +1,1 @@
+Even if the model is split across several devices, it will run as you would normally expect.

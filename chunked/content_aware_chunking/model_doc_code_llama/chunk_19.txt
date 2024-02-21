@@ -1,0 +1,1 @@
+As mentioned above, the dtype of the storage weights is mostly irrelevant unless you are using torch_dtype="auto" when initializing a model using.

@@ -1,0 +1,3 @@
+As a consequence of the capability to handle longer context,
+BigBird has shown improved performance on various long document NLP tasks, such as question answering and
+summarization, compared to BERT or RoBERTa.

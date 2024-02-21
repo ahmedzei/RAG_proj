@@ -1,0 +1,4 @@
+Read more
+For an example of using torch.compile with 🤗 Transformers, check out this blog post on fine-tuning a BERT model for Text Classification using the newest PyTorch 2.0 features
+Using 🤗 PEFT
+Parameter-Efficient Fine Tuning (PEFT) methods freeze the pretrained model parameters during fine-tuning and add a small number of trainable parameters (the adapters) on top of it.

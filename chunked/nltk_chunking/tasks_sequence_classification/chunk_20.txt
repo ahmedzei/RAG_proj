@@ -1,0 +1,6 @@
+",
+}
+
+There are two fields in this dataset:
+
+text: the movie review text.

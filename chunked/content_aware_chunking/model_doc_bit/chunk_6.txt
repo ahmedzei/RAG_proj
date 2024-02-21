@@ -1,0 +1,1 @@
+By combining a few carefully selected components, and transferring using a simple heuristic, we achieve strong performance on over 20 datasets.

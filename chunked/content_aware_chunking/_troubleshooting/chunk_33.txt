@@ -1,0 +1,2 @@
+This class
+can automatically infer and load the correct architecture from a given checkpoint based on the configuration.

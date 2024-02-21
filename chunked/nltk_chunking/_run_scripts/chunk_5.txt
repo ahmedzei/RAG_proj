@@ -1,0 +1,1 @@
+For any feature you'd like to implement in an example script, please discuss it on the forum or in an issue before submitting a Pull Request.

@@ -1,0 +1,2 @@
+(The original GPTSAN repository calls it hybrid)
+In GPTSAN, the Prefix part of Prefix-LM, that is, the input position that can be referenced by both tokens, can be specified with any length.

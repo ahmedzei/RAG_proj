@@ -1,0 +1,2 @@
+Skip a test module
+If you want to run all test modules, except a few you can exclude them by giving an explicit list of tests to run.

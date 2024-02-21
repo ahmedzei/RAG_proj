@@ -1,0 +1,8 @@
+If you have access to an 8 x 80GB A100 node, you could load BLOOM as follows
+
+!pip install transformers accelerate bitsandbytes optimum
+thon
+from transformers import AutoModelForCausalLM
+model = AutoModelForCausalLM.from_pretrained("bigscience/bloom", device_map="auto", pad_token_id=0)
+
+By using device_map="auto" the attention layers would be equally distributed over all available GPUs.

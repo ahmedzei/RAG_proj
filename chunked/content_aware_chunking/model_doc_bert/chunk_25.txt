@@ -1,0 +1,3 @@
+Text classification task guide
+
+A blog post on how to use Hugging Face Transformers with Keras: Fine-tune a non-English BERT for Named Entity Recognition.

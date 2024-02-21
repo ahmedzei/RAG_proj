@@ -1,0 +1,3 @@
+Text classification task guide
+
+A notebook on how to  fine-tune LayoutLM for token classification on the FUNSD dataset.

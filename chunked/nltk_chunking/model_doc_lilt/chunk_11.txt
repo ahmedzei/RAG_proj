@@ -1,0 +1,3 @@
+Usage tips
+
+To combine the Language-Independent Layout Transformer with a new RoBERTa checkpoint from the hub, refer to this guide.

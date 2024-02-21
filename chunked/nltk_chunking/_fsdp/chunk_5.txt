@@ -1,0 +1,3 @@
+pip install accelerate
+FSDP configuration
+To start, run the accelerate config command to create a configuration file for your training environment.

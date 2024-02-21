@@ -1,0 +1,2 @@
+What's cool about language modeling
+tasks is you don't need labels (also known as an unsupervised task) because the next word is the label.

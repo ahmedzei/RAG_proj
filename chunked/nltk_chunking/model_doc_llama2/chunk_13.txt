@@ -1,0 +1,1 @@
+The reason is that the model will first be downloaded ( using the dtype of the checkpoints online), then it will be casted to the default dtype of torch (becomes torch.float32), and finally, if there is a torch_dtype provided in the config, it will be used.

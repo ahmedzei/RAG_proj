@@ -1,0 +1,1 @@
+We also provide StableLM Zephyr 3B, an instruction fine-tuned version of the model that can be used for chat-based applications.

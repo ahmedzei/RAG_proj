@@ -1,0 +1,5 @@
+generated_ids = model.generate(**model_inputs)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+'A list of colors: red, blue, green, yellow, orange, purple, pink,'
+
+Finally, you don't need to do it one sequence at a time!

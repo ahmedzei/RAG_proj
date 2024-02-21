@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+We introduce a self-supervised vision representation model BEiT, which stands for Bidirectional Encoder representation
+from Image Transformers.

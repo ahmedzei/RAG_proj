@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+The recently-developed DETR approach applies the transformer encoder and decoder architecture to object detection and achieves promising performance.

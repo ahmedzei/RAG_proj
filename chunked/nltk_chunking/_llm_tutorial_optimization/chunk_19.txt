@@ -1,0 +1,1 @@
+4.5689 which is usually stored in either float32, bfloat16, or float16 format.

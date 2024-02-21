@@ -1,0 +1,2 @@
+The following example shows how to translate between Hindi to French and Arabic to English using the
+  facebook/mbart-50-large-many-to-many checkpoint.

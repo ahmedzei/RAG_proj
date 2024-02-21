@@ -1,0 +1,1 @@
+A universal set of visual prompts and text prompts to be integrated into sampled video frames and textual features, respectively.

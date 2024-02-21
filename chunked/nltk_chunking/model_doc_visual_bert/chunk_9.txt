@@ -1,0 +1,3 @@
+Usage tips
+
+Most of the checkpoints provided work with the [VisualBertForPreTraining] configuration.

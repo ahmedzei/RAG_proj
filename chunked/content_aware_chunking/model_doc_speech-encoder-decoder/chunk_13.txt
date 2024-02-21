@@ -1,0 +1,1 @@
+GPT2, as well as the pretrained decoder part of sequence-to-sequence models, e.g.

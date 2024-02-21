@@ -1,0 +1,1 @@
+We see that already a relatively small batch size almost fills up our GPU's entire memory.

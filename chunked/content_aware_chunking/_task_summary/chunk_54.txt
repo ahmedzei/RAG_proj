@@ -1,0 +1,3 @@
+from transformers import pipeline
+classifier = pipeline(task="ner")
+preds = classifier("Hugging Face is a French company based in New York City.")

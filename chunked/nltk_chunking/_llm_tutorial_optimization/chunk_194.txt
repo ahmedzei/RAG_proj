@@ -1,0 +1,1 @@
+As shown in the ALiBi paper, this simple relative positional encoding allows the model to retain a high performance even at very long text input sequences.

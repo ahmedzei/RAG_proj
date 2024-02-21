@@ -1,0 +1,1 @@
+This is super helpful when activation checkpointing is enabled and you want to keep the parameter in the forward recompute until the backward pass.

@@ -1,0 +1,10 @@
+thon
+import av
+import cv2
+import numpy as np
+import torch
+from huggingface_hub import hf_hub_download
+from transformers import AutoProcessor, TvpForVideoGrounding
+def pyav_decode(container, sampling_rate, num_frames, clip_idx, num_clips, target_fps):
+    '''
+    Convert the video from its original fps to the target_fps and decode the video with PyAV decoder.

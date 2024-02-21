@@ -1,0 +1,4 @@
+Unsupervised denoising training
+
+In this setup, spans of the input sequence are masked by so-called sentinel tokens (a.k.a unique mask tokens) and
+the output sequence is formed as a concatenation of the same sentinel tokens and the real masked tokens.

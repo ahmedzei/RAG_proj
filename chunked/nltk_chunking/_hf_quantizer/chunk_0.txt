@@ -1,0 +1,3 @@
+
+Contribute new quantization method
+Transformers supports and integrates many quantization methods such as QLoRA, GPTQ, LLM.int8, and AWQ.

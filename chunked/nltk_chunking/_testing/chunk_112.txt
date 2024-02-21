@@ -1,0 +1,6 @@
+Create a unique temporary dir:
+
+python
+def test_whatever(self):
+    tmp_dir = self.get_auto_remove_tmp_dir()
+tmp_dir will contain the path to the created temporary dir.

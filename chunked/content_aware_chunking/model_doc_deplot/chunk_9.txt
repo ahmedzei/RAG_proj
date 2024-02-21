@@ -1,0 +1,1 @@
+DePlot can then be used off-the-shelf together with LLMs in a plug-and-play fashion.

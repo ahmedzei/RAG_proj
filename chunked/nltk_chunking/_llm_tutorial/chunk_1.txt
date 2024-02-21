@@ -1,0 +1,1 @@
+Ideally, the stopping condition is dictated by the model, which should learn when to output an end-of-sequence (EOS) token.

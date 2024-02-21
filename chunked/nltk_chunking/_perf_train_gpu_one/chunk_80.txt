@@ -1,0 +1,3 @@
+Let's take a closer look at two alternatives to AdamW optimizer:
+1. adafactor which is available in [Trainer]
+2. adamw_bnb_8bit is also available in Trainer, but a third-party integration is provided below for demonstration.

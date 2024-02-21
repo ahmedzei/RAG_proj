@@ -1,0 +1,2 @@
+getting the
+   index of the token comprising a given character or the span of characters corresponding to a given token).

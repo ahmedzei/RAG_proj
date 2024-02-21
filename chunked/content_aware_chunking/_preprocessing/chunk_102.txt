@@ -1,0 +1,2 @@
+You can use [DetrImageProcessor.pad]
+from [DetrImageProcessor] and define a custom collate_fn to batch images together.

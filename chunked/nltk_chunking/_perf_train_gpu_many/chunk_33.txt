@@ -1,0 +1,1 @@
+3. forward is executed, and output from each GPU is sent to GPU 0 to compute the loss.

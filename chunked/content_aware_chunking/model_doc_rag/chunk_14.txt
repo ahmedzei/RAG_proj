@@ -1,0 +1,2 @@
+Usage tips
+Retrieval-augmented generation ("RAG") models combine the powers of pretrained dense retrieval (DPR) and Seq2Seq models.

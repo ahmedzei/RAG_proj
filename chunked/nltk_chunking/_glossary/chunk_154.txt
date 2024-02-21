@@ -1,0 +1,1 @@
+Unsupervised learning techniques leverage statistical information of the data distribution to find patterns useful for the task at hand.

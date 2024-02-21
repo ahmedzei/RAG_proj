@@ -1,0 +1,1 @@
+UTF-8 is represented by 8 bits and ByT5 has 3 special tokens.

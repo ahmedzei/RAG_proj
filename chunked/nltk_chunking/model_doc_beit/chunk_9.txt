@@ -1,0 +1,2 @@
+After pre-training BEiT, we
+directly fine-tune the model parameters on downstream tasks by appending task layers upon the pretrained encoder.

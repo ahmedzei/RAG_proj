@@ -1,0 +1,2 @@
+Due to the difficulty of training a fully auto-regressive model over various factorization order, XLNet is pretrained
+  using only a sub-set of the output tokens as target which are selected with the target_mapping input.

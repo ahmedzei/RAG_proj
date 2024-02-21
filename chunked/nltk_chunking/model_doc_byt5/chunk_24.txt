@@ -1,0 +1,3 @@
+However, 
+since the model works directly on characters, the pretraining task is a bit 
+different.

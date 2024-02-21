@@ -1,0 +1,1 @@
+A notebook on how to fine-tune LayoutLM on the FUNSD dataset with image embeddings.

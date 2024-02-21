@@ -1,0 +1,4 @@
+
+VITS
+Overview
+The VITS model was proposed in Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech by Jaehyeon Kim, Jungil Kong, Juhee Son.

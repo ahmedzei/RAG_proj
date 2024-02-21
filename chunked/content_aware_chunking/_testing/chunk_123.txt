@@ -1,0 +1,2 @@
+Each test can register multiple temporary directories and they all will get auto-removed, unless requested
+otherwise.

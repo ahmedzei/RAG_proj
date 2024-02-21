@@ -1,0 +1,1 @@
+A notebook on how to finetune GPT2 to generate lyrics in the style of your favorite artist.

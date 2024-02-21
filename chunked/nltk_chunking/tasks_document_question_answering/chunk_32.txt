@@ -1,0 +1,1 @@
+Write a function that applies the default image processing to a batch of images and returns the results of OCR.

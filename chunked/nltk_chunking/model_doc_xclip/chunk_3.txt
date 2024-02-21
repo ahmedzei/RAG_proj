@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Contrastive language-image pretraining has shown great success in learning visual-textual joint representation from web-scale data, demonstrating remarkable "zero-shot" generalization ability for various image tasks.

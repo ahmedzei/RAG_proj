@@ -1,0 +1,1 @@
+Because of the chunks, PP introduces the notion of micro-batches (MBS).

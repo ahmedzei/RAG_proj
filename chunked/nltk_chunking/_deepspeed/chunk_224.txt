@@ -1,0 +1,2 @@
+To use a larger model like "bigscience/T0" which needs about 50GB, unless you have an 80GB GPU -
+you will need 2-4 gpus.

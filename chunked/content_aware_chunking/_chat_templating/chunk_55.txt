@@ -1,0 +1,1 @@
+You may have noticed that the apply_chat_template method has an add_generation_prompt argument.

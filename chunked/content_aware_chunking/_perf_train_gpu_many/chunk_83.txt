@@ -1,0 +1,1 @@
+We refer to this Model parallelism as "Vertical" because of how models are typically visualized.

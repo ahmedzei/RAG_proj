@@ -1,0 +1,2 @@
+However, to caption an image, you do not have to provide a text prompt to the 
+model, only the preprocessed input image.

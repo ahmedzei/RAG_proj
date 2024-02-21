@@ -1,0 +1,1 @@
+A transformer model replacing the attention matrices by sparse matrices to go faster.

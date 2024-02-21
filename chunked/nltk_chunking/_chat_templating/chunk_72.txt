@@ -1,0 +1,3 @@
+When training, you should usually set 
+add_generation_prompt=False, because the added tokens to prompt an assistant response will not be helpful during 
+training.

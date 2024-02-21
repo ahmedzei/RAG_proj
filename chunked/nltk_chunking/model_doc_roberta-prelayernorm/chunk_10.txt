@@ -1,0 +1,77 @@
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+RobertaPreLayerNormConfig
+[[autodoc]] RobertaPreLayerNormConfig
+
+RobertaPreLayerNormModel
+[[autodoc]] RobertaPreLayerNormModel
+    - forward
+RobertaPreLayerNormForCausalLM
+[[autodoc]] RobertaPreLayerNormForCausalLM
+    - forward
+RobertaPreLayerNormForMaskedLM
+[[autodoc]] RobertaPreLayerNormForMaskedLM
+    - forward
+RobertaPreLayerNormForSequenceClassification
+[[autodoc]] RobertaPreLayerNormForSequenceClassification
+    - forward
+RobertaPreLayerNormForMultipleChoice
+[[autodoc]] RobertaPreLayerNormForMultipleChoice
+    - forward
+RobertaPreLayerNormForTokenClassification
+[[autodoc]] RobertaPreLayerNormForTokenClassification
+    - forward
+RobertaPreLayerNormForQuestionAnswering
+[[autodoc]] RobertaPreLayerNormForQuestionAnswering
+    - forward
+
+TFRobertaPreLayerNormModel
+[[autodoc]] TFRobertaPreLayerNormModel
+    - call
+TFRobertaPreLayerNormForCausalLM
+[[autodoc]] TFRobertaPreLayerNormForCausalLM
+    - call
+TFRobertaPreLayerNormForMaskedLM
+[[autodoc]] TFRobertaPreLayerNormForMaskedLM
+    - call
+TFRobertaPreLayerNormForSequenceClassification
+[[autodoc]] TFRobertaPreLayerNormForSequenceClassification
+    - call
+TFRobertaPreLayerNormForMultipleChoice
+[[autodoc]] TFRobertaPreLayerNormForMultipleChoice
+    - call
+TFRobertaPreLayerNormForTokenClassification
+[[autodoc]] TFRobertaPreLayerNormForTokenClassification
+    - call
+TFRobertaPreLayerNormForQuestionAnswering
+[[autodoc]] TFRobertaPreLayerNormForQuestionAnswering
+    - call
+
+FlaxRobertaPreLayerNormModel
+[[autodoc]] FlaxRobertaPreLayerNormModel
+    - call
+FlaxRobertaPreLayerNormForCausalLM
+[[autodoc]] FlaxRobertaPreLayerNormForCausalLM
+    - call
+FlaxRobertaPreLayerNormForMaskedLM
+[[autodoc]] FlaxRobertaPreLayerNormForMaskedLM
+    - call
+FlaxRobertaPreLayerNormForSequenceClassification
+[[autodoc]] FlaxRobertaPreLayerNormForSequenceClassification
+    - call
+FlaxRobertaPreLayerNormForMultipleChoice
+[[autodoc]] FlaxRobertaPreLayerNormForMultipleChoice
+    - call
+FlaxRobertaPreLayerNormForTokenClassification
+[[autodoc]] FlaxRobertaPreLayerNormForTokenClassification
+    - call
+FlaxRobertaPreLayerNormForQuestionAnswering
+[[autodoc]] FlaxRobertaPreLayerNormForQuestionAnswering
+    - call

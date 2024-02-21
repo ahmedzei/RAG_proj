@@ -1,0 +1,8 @@
+Here is an example of its usage:
+thon
+from transformers.testing_utils import TestCasePlus
+class ExamplesTests(TestCasePlus):
+    def test_whatever(self):
+        tmp_dir = self.get_auto_remove_tmp_dir()
+
+This code creates a unique temporary directory, and sets tmp_dir to its location.

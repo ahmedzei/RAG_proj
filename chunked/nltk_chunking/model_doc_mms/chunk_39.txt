@@ -1,0 +1,1 @@
+Hence, the model is agnostic to casing and punctuation, so these should be avoided in the text prompt.

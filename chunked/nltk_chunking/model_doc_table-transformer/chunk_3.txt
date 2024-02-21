@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Recently, significant progress has been made applying machine learning to the problem of table structure inference and extraction from unstructured documents.

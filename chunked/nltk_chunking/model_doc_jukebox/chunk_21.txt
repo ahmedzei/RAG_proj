@@ -1,0 +1,1 @@
+In order automaticallay handle the device on which the model should execute, use accelerate.

@@ -1,0 +1,1 @@
+Note: mT5 was only pre-trained on mC4 excluding any supervised training.

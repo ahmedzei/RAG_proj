@@ -1,0 +1,2 @@
+It is a conditional variational 
+autoencoder (VAE) comprised of a posterior encoder, decoder, and conditional prior.

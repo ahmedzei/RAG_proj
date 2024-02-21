@@ -1,0 +1,1 @@
+This example script shows how to train a CLIP-like vision-text dual encoder model using a pre-trained vision and text encoder using COCO dataset.

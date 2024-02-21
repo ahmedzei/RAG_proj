@@ -1,0 +1,1 @@
+For \( N=1000 \) only around 50 MB of VRAM are needed, however, for \( N=16000 \) we would need 19 GB of VRAM, and for \( N=100,000 \) we would need almost 1TB just to store the \( \mathbf{QK}^T \) matrices.

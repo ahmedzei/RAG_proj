@@ -1,0 +1,2 @@
+ZeRO Data Parallelism
+ZeRO-powered data parallelism (ZeRO-DP) is illustrated in the following diagram from this blog post.

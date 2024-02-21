@@ -1,0 +1,3 @@
+By nature of Pipeline Parallelism, 
+small micro-batches are used and instead the focus is on trying to balance arithmetic intensity (micro-batch size) with
+minimizing the Pipeline bubble (number of micro-batches).

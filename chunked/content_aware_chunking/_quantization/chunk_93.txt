@@ -1,0 +1,3 @@
+4-bit
+
+Try 4-bit quantization in this notebook and learn more about it's details in this blog post.

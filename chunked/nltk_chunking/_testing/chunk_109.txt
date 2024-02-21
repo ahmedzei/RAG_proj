@@ -1,0 +1,1 @@
+A helper class transformers.test_utils.TestCasePlus is best used for such purposes.

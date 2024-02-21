@@ -1,0 +1,1 @@
+As the name suggests MobileViT was designed to be performant and efficient on mobile phones.

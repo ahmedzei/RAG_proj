@@ -1,0 +1,2 @@
+Let's see an example with the question-answering example
+The following command enables training with 2 processes on one Xeon node, with one process running per one socket.

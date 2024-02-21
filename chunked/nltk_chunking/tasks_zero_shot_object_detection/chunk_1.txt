@@ -1,0 +1,1 @@
+Zero-shot object detection is supported by the OWL-ViT model which uses a different approach.

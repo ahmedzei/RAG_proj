@@ -1,0 +1,3 @@
+In LiT: Zero-Shot Transfer with Locked-image Text Tuning it is shown how
+leveraging pre-trained (locked/frozen) image and text model for contrastive learning yields significant improvement on
+new zero-shot vision tasks such as image classification or retrieval.

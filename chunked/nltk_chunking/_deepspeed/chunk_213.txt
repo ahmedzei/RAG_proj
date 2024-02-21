@@ -1,0 +1,12 @@
+To efficiently deploy ZeRO-3, you must instantiate the [HfDeepSpeedConfig] object before the model and keep that object alive:
+
+from transformers.integrations import HfDeepSpeedConfig
+from transformers import AutoModel
+import deepspeed
+ds_config = {}  # deepspeed config object or path to the file
+must run before instantiating the model to detect zero 3
+dschf = HfDeepSpeedConfig(ds_config)  # keep this object alive
+model = AutoModel.from_pretrained("openai-community/gpt2")
+engine = deepspeed.initialize(model=model, config_params=ds_config, )
+
+[HfDeepSpeedConfig] is not required for ZeRO-1 or ZeRO-2.

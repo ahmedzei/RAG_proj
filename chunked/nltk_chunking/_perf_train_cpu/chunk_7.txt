@@ -1,0 +1,1 @@
+You can get better performance and user experience with IPEX AMP.

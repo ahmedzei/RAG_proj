@@ -1,0 +1,2 @@
+To do this, write the extract_all_chars mapping function that concatenates 
+the transcriptions from all examples into one string and converts it to a set of characters.

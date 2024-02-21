@@ -1,0 +1,1 @@
+Note that for resizing, we can get the image size requirements from the image_processor.

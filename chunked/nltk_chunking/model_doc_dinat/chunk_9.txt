@@ -1,0 +1,2 @@
+Our large model is faster and ahead of its Swin counterpart by 1.5% box AP in COCO object detection,
+1.3% mask AP in COCO instance segmentation, and 1.1% mIoU in ADE20K semantic segmentation.

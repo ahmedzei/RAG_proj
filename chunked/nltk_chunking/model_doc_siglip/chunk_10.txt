@@ -1,0 +1,1 @@
+The main difference is the training loss, which does not require a global view of all the pairwise similarities of images and texts within a batch.

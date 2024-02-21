@@ -1,0 +1,12 @@
+git commit
+
+Fetch and rebase to current main
+
+git fetch upstream
+git rebase upstream/main
+
+Push the changes to your account using:
+
+git push -u origin a-descriptive-name-for-my-changes
+
+Once you are satisfied, go to the webpage of your fork on GitHub.

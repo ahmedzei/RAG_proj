@@ -1,0 +1,2 @@
+Then make sure that the model is not jitted when
+  running the forward pass, e.g.

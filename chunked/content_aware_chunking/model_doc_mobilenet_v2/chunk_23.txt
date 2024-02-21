@@ -1,0 +1,1 @@
+In the original model it is possible to use an average pooling layer with a fixed 7x7 window and stride 1 instead of global pooling.

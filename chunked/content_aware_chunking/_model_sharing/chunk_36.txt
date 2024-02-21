@@ -1,0 +1,2 @@
+Upload with the web interface
+Users who prefer a no-code approach are able to upload a model through the Hub's web interface.

@@ -1,0 +1,3 @@
+Bark is made of 4 main models:
+
+[BarkSemanticModel] (also referred to as the 'text' model): a causal auto-regressive transformer model that takes as input tokenized text, and predicts semantic text tokens that capture the meaning of the text.

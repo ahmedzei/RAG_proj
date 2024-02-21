@@ -1,0 +1,5 @@
+thon
+from huggingface_hub import notebook_login
+notebook_login()
+
+Let's set the TrainingArguments, the teacher model and the student model.

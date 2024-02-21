@@ -1,0 +1,2 @@
+If copying a modeling files from the library, you will need to replace all the relative imports at the top of the file
+to import from the transformers package.

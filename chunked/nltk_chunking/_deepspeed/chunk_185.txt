@@ -1,0 +1,7 @@
+%%bash
+git clone https://github.com/huggingface/transformers
+cd transformers
+deepspeed examples/pytorch/translation/run_translation.py 
+
+Save model weights
+DeepSpeed stores the main full precision fp32 weights in custom checkpoint optimizer files (the glob pattern looks like global_step*/*optim_states.pt) and are saved under the normal checkpoint.

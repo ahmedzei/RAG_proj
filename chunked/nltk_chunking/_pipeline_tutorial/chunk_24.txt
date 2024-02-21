@@ -1,0 +1,4 @@
+In general, you can specify parameters anywhere you want:
+
+transcriber = pipeline(model="openai/whisper-large-v2", my_parameter=1)
+out = transcriber()  # This will use my_parameter=1.

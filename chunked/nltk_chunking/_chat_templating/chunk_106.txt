@@ -1,0 +1,2 @@
+Next time you use [~PreTrainedTokenizer.apply_chat_template], it will
+use your new template!

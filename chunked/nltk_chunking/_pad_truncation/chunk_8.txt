@@ -1,0 +1,4 @@
+It can be a boolean or a string:
+
+True or 'longest': pad to the longest sequence in the batch (no padding is applied if you only provide
+    a single sequence).

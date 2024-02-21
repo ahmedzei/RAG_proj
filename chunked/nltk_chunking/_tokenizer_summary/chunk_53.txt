@@ -1,0 +1,5 @@
+As another example, [~transformers.XLNetTokenizer] tokenizes our previously exemplary text as follows:
+
+from transformers import XLNetTokenizer
+tokenizer = XLNetTokenizer.from_pretrained("xlnet/xlnet-base-cased")
+tokenizer.tokenize("Don't you love 🤗 Transformers?

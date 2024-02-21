@@ -1,0 +1,3 @@
+Dynamic batching
+In general, batching is not necessarily an improvement over passing 1 item at 
+a time (see batching details for more information).

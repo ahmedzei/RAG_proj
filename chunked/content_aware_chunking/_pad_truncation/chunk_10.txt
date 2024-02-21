@@ -1,0 +1,1 @@
+Padding will still be applied if you only provide a single sequence.

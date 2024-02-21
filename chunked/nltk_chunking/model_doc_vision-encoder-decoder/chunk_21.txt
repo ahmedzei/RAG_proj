@@ -1,0 +1,8 @@
+thon
+
+from transformers import VisionEncoderDecoderModel
+model = VisionEncoderDecoderModel.from_encoder_decoder_pretrained(
+     "microsoft/swin-base-patch4-window7-224-in22k", "google-bert/bert-base-uncased"
+ )
+
+Loading an existing VisionEncoderDecoderModel checkpoint and perform inference.

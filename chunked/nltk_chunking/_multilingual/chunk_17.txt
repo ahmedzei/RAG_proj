@@ -1,0 +1,7 @@
+M2M100
+The following M2M100 models can be used for multilingual translation:
+
+facebook/m2m100_418M (Translation)
+facebook/m2m100_1.2B (Translation)
+
+In this example, load the facebook/m2m100_418M checkpoint to translate from Chinese to English.

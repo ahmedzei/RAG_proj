@@ -1,0 +1,2 @@
+These recorded operations are then used to create the trace of the
+model.

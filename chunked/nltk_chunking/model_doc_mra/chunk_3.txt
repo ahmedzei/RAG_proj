@@ -1,0 +1,1 @@
+Effective ideas include various prespecified sparsity patterns, low-rank basis expansions and combinations thereof.

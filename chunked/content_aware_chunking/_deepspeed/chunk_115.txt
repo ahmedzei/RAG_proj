@@ -1,0 +1,6 @@
+Transformers and DeepSpeed provide two of the same schedulers:
+
+WarmupLR is the same as --lr_scheduler_type constant_with_warmup in Transformers
+WarmupDecayLR is the same as  --lr_scheduler_type linear in Transformers (this is the default scheduler used in Transformers)
+
+If you don't configure the scheduler in the config, the [Trainer] automatically selects WarmupDecayLR and either uses the supplied values or the default values for the following parameters from the command line: warmup_min_lr, warmup_max_lr, warmup_num_steps, total_num_steps (automatically calculated during run time if max_steps is not provided).

@@ -1,0 +1,1 @@
+You can use callbacks to integrate with other libraries and inspect the training loop to report on progress or stop the training early.

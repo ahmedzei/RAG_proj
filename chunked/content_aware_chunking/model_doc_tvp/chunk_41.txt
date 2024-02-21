@@ -1,0 +1,1 @@
+sampling_rate (int): frame sampling rate (interval between two sampled frames).

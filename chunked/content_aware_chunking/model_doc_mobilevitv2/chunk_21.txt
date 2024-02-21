@@ -1,0 +1,11 @@
+MobileViTV2Config
+[[autodoc]] MobileViTV2Config
+MobileViTV2Model
+[[autodoc]] MobileViTV2Model
+    - forward
+MobileViTV2ForImageClassification
+[[autodoc]] MobileViTV2ForImageClassification
+    - forward
+MobileViTV2ForSemanticSegmentation
+[[autodoc]] MobileViTV2ForSemanticSegmentation
+    - forward

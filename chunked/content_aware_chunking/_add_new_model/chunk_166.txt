@@ -1,0 +1,2 @@
+Or use transformers.utils.set_seed
+  if the old and new implementations are in the same framework.

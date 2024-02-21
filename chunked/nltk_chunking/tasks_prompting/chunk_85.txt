@@ -1,0 +1,4 @@
+Best practices of LLM prompting
+In this section of the guide we have compiled a list of best practices that tend to improve the prompt results:
+
+When choosing the model to work with, the latest and most capable models are likely to perform better.

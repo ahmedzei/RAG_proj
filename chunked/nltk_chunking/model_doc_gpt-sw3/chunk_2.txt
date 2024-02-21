@@ -1,0 +1,2 @@
+GPT-Sw3 is a collection of large decoder-only pretrained transformer language models that were developed by AI Sweden
+in collaboration with RISE and the WASP WARA for Media and Language.

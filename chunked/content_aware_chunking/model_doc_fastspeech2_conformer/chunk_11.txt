@@ -1,0 +1,2 @@
+🤗 Model Architecture
+FastSpeech2's general structure with a Mel-spectrogram decoder was implemented, and the traditional transformer blocks were replaced with with conformer blocks as done in the ESPnet library.

@@ -1,0 +1,1 @@
+Storing 8 billion float values in float16 precision requires around 15 GB of RAM which is circa half as much as the model weights themselves!

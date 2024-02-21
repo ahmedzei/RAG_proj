@@ -1,0 +1,1 @@
+Check out our complete image classification guide to learn how to finetune ViT and use it for inference!

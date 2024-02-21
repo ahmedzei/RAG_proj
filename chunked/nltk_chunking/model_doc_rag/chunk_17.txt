@@ -1,0 +1,33 @@
+RagConfig
+[[autodoc]] RagConfig
+RagTokenizer
+[[autodoc]] RagTokenizer
+Rag specific outputs
+[[autodoc]] models.rag.modeling_rag.RetrievAugLMMarginOutput
+[[autodoc]] models.rag.modeling_rag.RetrievAugLMOutput
+RagRetriever
+[[autodoc]] RagRetriever
+
+RagModel
+[[autodoc]] RagModel
+    - forward
+RagSequenceForGeneration
+[[autodoc]] RagSequenceForGeneration
+    - forward
+    - generate
+RagTokenForGeneration
+[[autodoc]] RagTokenForGeneration
+    - forward
+    - generate
+
+TFRagModel
+[[autodoc]] TFRagModel
+    - call
+TFRagSequenceForGeneration
+[[autodoc]] TFRagSequenceForGeneration
+    - call
+    - generate
+TFRagTokenForGeneration
+[[autodoc]] TFRagTokenForGeneration
+    - call
+    - generate

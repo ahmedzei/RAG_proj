@@ -1,0 +1,4 @@
+ds = datasets.load_dataset("hf-internal-testing/librispeech_asr_dummy", "clean", split="validation")
+ds = ds.cast_column("audio", datasets.Audio(sampling_rate=22050))
+sample = ds[0]["audio"]
+Define processor and model.

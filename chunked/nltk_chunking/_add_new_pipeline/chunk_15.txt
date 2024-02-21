@@ -1,0 +1,2 @@
+If anything is
+linked to a real model it belongs in the _forward method, anything else is in the preprocess/postprocess.

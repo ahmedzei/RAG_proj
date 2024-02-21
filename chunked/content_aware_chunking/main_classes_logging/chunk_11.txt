@@ -1,0 +1,2 @@
+transformers.logging.WARNING or transformers.logging.WARN (int value, 30): only reports error and
+  warnings.

@@ -1,0 +1,2 @@
+This
+  is not including the activations and data batches, which would again require some more GPU RAM.

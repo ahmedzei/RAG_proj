@@ -1,0 +1,1 @@
+And if the number of chunks (or GAS) is 32 we end up with a micro-batch size of 8 (256/32).

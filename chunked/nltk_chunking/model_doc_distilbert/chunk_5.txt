@@ -1,0 +1,3 @@
+While most prior work investigated the use of distillation for building task-specific models, we leverage
+knowledge distillation during the pretraining phase and show that it is possible to reduce the size of a BERT model by
+40%, while retaining 97% of its language understanding capabilities and being 60% faster.

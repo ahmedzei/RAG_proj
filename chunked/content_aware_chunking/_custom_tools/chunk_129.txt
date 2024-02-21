@@ -1,0 +1,1 @@
+The upscaler tool was given the name image_upscaler which is not yet present in the default toolbox and is therefore simply added to the list of tools.

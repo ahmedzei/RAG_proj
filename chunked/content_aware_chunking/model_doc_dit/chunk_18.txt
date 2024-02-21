@@ -1,0 +1,1 @@
+A notebook that illustrates inference for document image classification can be found here.

@@ -1,0 +1,1 @@
+For multiple GPUs with different architectures, list them like TORCH_CUDA_ARCH_LIST="6.1;8.6".

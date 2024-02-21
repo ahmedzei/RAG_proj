@@ -1,0 +1,5 @@
+According to the abstract,
+
+Pegasus' pretraining task is intentionally similar to summarization: important sentences are removed/masked from an
+  input document and are generated together as one output sequence from the remaining sentences, similar to an
+  extractive summary.

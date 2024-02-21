@@ -1,0 +1,1 @@
+Use a higher dropout ratio for the attention probabilities with the attention_dropout parameter.

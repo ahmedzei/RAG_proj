@@ -1,0 +1,4 @@
+Usage tips
+
+Bounding boxes are not necessary to be used in the visual feature embeddings, any kind of visual-spacial features
+  will work.

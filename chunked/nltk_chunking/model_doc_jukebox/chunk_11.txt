@@ -1,0 +1,1 @@
+The priors are linked to the previous priors respectively via an AudioConditioner module.

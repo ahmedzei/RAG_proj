@@ -1,0 +1,1 @@
+Current implementation doesn't support num_random_blocks = 0.

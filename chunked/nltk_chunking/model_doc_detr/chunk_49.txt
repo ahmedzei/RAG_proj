@@ -1,0 +1,2 @@
+When training on multiple nodes, this should be
+  set to the average number of target boxes across all nodes, as can be seen in the original implementation here.

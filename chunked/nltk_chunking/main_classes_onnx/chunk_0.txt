@@ -1,0 +1,4 @@
+
+Exporting 🤗 Transformers models to ONNX
+🤗 Transformers provides a transformers.onnx package that enables you to
+convert model checkpoints to an ONNX graph by leveraging configuration objects.

@@ -1,0 +1,1 @@
+This costly curation process limits the size of datasets and hence hinders the scaling of trained models.

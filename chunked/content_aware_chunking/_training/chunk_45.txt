@@ -1,0 +1,2 @@
+Note that the labels are already a list of 0 and 1s,
+so we can just convert that directly to a NumPy array without tokenization!

@@ -1,0 +1,2 @@
+After all reviewers are happy with the state of your PR, the final action point is to remove the from_pt=True flag in
+.from_pretrained() calls.

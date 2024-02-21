@@ -1,0 +1,1 @@
+As a result, we propose LeVIT: a hybrid neural network for fast inference image classification.

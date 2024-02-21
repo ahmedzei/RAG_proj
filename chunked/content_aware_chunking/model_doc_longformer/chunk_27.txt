@@ -1,0 +1,2 @@
+It is assumed that the number of "globally" attending tokens is insignificant as compared to the number of
+"locally" attending tokens.

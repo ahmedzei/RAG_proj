@@ -1,0 +1,2 @@
+Whenever a question or problem has been solved,
+you can click on the “Resolve” button of the created comment.

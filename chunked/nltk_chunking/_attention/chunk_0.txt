@@ -1,0 +1,3 @@
+
+Attention mechanisms
+Most transformer models use full attention in the sense that the attention matrix is square.

@@ -1,0 +1,6 @@
+A drum line',
+ 'video-id': 'anetv_jkn6uvmqwh4'}
+
+While it looks like there are a lot of fields here, it is actually pretty straightforward:
+
+sent1 and sent2: these fields show how a sentence starts, and if you put the two together, you get the startphrase field.

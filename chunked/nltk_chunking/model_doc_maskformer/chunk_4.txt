@@ -1,0 +1,1 @@
+MaskFormer addresses semantic segmentation with a mask classification paradigm instead of performing classic pixel-level classification.

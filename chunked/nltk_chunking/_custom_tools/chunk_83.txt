@@ -1,0 +1,4 @@
+py
+agent.toolbox["image_generator"].description
+text
+'This is a tool that creates an image according to a prompt, which is a text description.

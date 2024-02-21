@@ -1,0 +1,1 @@
+Unlike other encoders with specific corruption strategies, BART can apply any type of corruption.

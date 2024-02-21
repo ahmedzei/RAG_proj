@@ -1,0 +1,6 @@
+This model was contributed by Younes Belkada
+VipLlavaConfig
+[[autodoc]] VipLlavaConfig
+VipLlavaForConditionalGeneration
+[[autodoc]] VipLlavaForConditionalGeneration
+    - forward

@@ -1,0 +1,5 @@
+You can enable BF16 in the 🤗 Trainer with:
+python
+training_args = TrainingArguments(bf16=True, **default_args)
+TF32
+The Ampere hardware uses a magical data type called tf32.

@@ -1,0 +1,2 @@
+However, you are not limited
+to these roles - templating is extremely flexible, and any string can be a role.

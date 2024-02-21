@@ -1,0 +1,2 @@
+Encoder-decoder[[nlp-encoder-decoder]]
+BART keeps the original Transformer architecture, but it modifies the pretraining objective with text infilling corruption, where some text spans are replaced with a single mask token.

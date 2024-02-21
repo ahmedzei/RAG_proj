@@ -1,0 +1,2 @@
+Adding all necessary model tests
+At this point, you have successfully added a new model.

@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+This paper is a study of performance-efficiency trade-offs in pre-trained models for automatic speech recognition
+(ASR).

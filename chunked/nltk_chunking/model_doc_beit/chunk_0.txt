@@ -1,0 +1,5 @@
+
+BEiT
+Overview
+The BEiT model was proposed in BEiT: BERT Pre-Training of Image Transformers by
+Hangbo Bao, Li Dong and Furu Wei.

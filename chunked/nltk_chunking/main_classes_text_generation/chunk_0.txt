@@ -1,0 +1,5 @@
+
+Generation
+Each framework has a generate method for text generation implemented in their respective GenerationMixin class:
+
+PyTorch [~generation.GenerationMixin.generate] is implemented in [~generation.GenerationMixin].

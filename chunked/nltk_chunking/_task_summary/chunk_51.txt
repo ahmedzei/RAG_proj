@@ -1,0 +1,1 @@
+NER is especially popular in biomedical settings, where it can label genes, proteins, and drug names.

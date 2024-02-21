@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Can Transformer perform 2D object- and region-level recognition from a pure sequence-to-sequence perspective with minimal knowledge about the 2D spatial structure?

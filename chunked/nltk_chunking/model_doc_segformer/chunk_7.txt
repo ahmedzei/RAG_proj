@@ -1,0 +1,2 @@
+We
+show that this simple and lightweight design is the key to efficient segmentation on Transformers.

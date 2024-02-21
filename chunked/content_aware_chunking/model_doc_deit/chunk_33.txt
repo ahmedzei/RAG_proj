@@ -1,0 +1,5 @@
+See also: Image classification task guide
+
+Besides that:
+
+[DeiTForMaskedImageModeling] is supported by this example script.

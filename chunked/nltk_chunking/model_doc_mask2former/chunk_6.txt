@@ -1,0 +1,1 @@
+Its key components include masked attention, which extracts localized features by constraining cross-attention within predicted mask regions.

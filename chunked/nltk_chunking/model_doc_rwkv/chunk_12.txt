@@ -1,0 +1,9 @@
+Naming them \(N_{i}\) and \(D_{i}\) we have:
+$$N_{i} = e^{u + K_{i}} V_{i} + \hat{N}{i} \hbox{  where  } \hat{N}{i} = e^{K_{i-1}} V_{i-1} + e^{w + K_{i-2}} V_{i-2} \cdots + e^{(i-2)w + K_{1}} V_{1}$$
+so \(\hat{N}_{i}\) (called numerator_state in the code) satisfies
+$$\hat{N}{0} = 0 \hbox{  and  } \hat{N}{j+1} = e^{K_{j}} V_{j} + e^{w} \hat{N}_{j}$$
+and
+$$D_{i} = e^{u + K_{i}} + \hat{D}{i} \hbox{  where  } \hat{D}{i} = e^{K_{i-1}} + e^{w + K_{i-2}} \cdots + e^{(i-2)w + K_{1}}$$
+so \(\hat{D}_{i}\) (called denominator_state in the code) satisfies
+$$\hat{D}{0} = 0 \hbox{  and  } \hat{D}{j+1} = e^{K_{j}} + e^{w} \hat{D}_{j}$$
+The actual recurrent formula used are a tiny bit more complex, as for numerical stability we don't want to compute exponentials of big numbers.

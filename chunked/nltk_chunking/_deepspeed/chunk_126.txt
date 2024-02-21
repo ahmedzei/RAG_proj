@@ -1,0 +1,1 @@
+To configure Apex-like fp16 mixed precision, setup the config as shown below with "auto" or your own values.

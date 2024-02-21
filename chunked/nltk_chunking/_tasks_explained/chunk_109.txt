@@ -1,0 +1,1 @@
+Like DETR, Mask2Former also uses learned object queries and combines them with the image features from the pixel decoder to make a set prediction (class label, mask prediction).

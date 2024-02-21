@@ -1,0 +1,4 @@
+
+MobileViTV2
+Overview
+The MobileViTV2 model was proposed in Separable Self-attention for Mobile Vision Transformers by Sachin Mehta and Mohammad Rastegari.

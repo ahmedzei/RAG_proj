@@ -1,0 +1,3 @@
+Usually the softmax is not computed as is, but the exponential of the maximum term is divided of the numerator and denominator:
+$$\frac{e^{x_{i}}}{\sum_{j=1}^{n} e^{x_{j}}} = \frac{e^{x_{i} - M}}{\sum_{j=1}^{n} e^{x_{j} - M}}$$
+with \(M\) the maximum of all \(x_{j}\).

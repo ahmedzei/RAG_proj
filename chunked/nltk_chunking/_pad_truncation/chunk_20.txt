@@ -1,0 +1,1 @@
+False or 'do_not_truncate': no truncation is applied.

@@ -1,0 +1,3 @@
+Tips:
+
+All ASR models accept a float array corresponding to the raw waveform of the speech signal.

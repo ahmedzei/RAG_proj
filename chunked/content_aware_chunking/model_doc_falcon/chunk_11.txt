@@ -1,0 +1,2 @@
+This will convert your checkpoint in-place, and
+you can immediately load it from the directory afterwards with e.g.

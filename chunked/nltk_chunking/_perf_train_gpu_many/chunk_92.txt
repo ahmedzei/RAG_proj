@@ -1,0 +1,2 @@
+Naive Model Parallelism comes several shortcomings:
+- All but one GPU are idle at any given moment: if 4 GPUs are used, it's nearly identical to quadrupling the amount of memory of a single GPU, and ignoring the rest of the hardware.

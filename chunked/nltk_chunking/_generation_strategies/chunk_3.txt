@@ -1,0 +1,6 @@
+Check out a few examples that use [~transformers.generation_utils.GenerationMixin.generate] method to produce
+text outputs for different tasks:
+* Text summarization
+* Image captioning
+* Audio transcription
+Note that the inputs to the generate method depend on the model's modality.

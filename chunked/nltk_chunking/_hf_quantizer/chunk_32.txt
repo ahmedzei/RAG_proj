@@ -1,0 +1,1 @@
+In Transformers, the quantized models are initialized first on the "meta" device before loading the weights.

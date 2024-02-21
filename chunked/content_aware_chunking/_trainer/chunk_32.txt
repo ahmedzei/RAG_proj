@@ -1,0 +1,1 @@
+They inspect the training loop state and then execute some action (early stopping, logging results, etc.)

@@ -1,0 +1,1 @@
+When padding textual data, a 0 is added for shorter sequences.

@@ -1,0 +1,1 @@
+A good first starting point to better understand the library is to read the documentation of our philosophy.

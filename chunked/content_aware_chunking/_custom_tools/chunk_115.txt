@@ -1,0 +1,6 @@
+thon
+template = """ [] """
+agent = HfAgent(url_endpoint=your_endpoint, chat_prompt_template=template)
+
+Please make sure to have the <<all_tools>> string defined somewhere in the template so that the agent can be aware 
+of the tools, it has available to it.

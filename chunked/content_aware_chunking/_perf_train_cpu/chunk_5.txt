@@ -1,0 +1,1 @@
+Auto Mixed Precision (AMP) for CPU backends has been enabled since PyTorch 1.10.

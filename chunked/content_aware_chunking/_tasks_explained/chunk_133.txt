@@ -1,0 +1,2 @@
+Text classification
+BERT is an encoder-only model and is the first model to effectively implement deep bidirectionality to learn richer representations of the text by attending to words on both sides.

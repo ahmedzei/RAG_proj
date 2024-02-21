@@ -1,0 +1,1 @@
+To load fine-tuned checkpoints of the EncoderDecoderModel class, [EncoderDecoderModel] provides the from_pretrained() method just like any other model architecture in Transformers.

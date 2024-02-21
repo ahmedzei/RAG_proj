@@ -1,0 +1,1 @@
+BROS encode relative spatial information instead of using absolute spatial information.

@@ -1,0 +1,1 @@
+Task-specific pipelines are available for audio, computer vision, natural language processing, and multimodal tasks.

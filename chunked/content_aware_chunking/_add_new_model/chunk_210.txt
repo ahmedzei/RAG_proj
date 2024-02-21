@@ -1,0 +1,4 @@
+Write a conversion script
+Next, you should write a conversion script that lets you convert the checkpoint you used to debug brand_new_bert in
+the original repository to a checkpoint compatible with your just created 🤗 Transformers implementation of
+brand_new_bert.

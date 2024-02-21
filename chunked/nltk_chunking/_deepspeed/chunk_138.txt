@@ -1,0 +1,6 @@
+yaml
+{
+    "gradient_clipping": "auto"
+}
+Communication data type
+For communication collectives like reduction, gathering and scattering operations, a separate data type is used.

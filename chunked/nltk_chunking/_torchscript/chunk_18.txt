@@ -1,0 +1,4 @@
+When trying with a different size, the following error is raised:
+`The expanded size of the tensor (3) must match the existing size (7) at non-singleton dimension 2`
+We recommended you trace the model with a dummy input size at least as large as the
+largest input that will be fed to the model during inference.

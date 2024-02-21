@@ -1,0 +1,12 @@
+If we decode the previous sequence of ids,
+thon
+
+decoded_sequence = tokenizer.decode(encoded_sequence)
+
+we will see
+thon
+
+print(decoded_sequence)
+[CLS] A Titan RTX has 24GB of VRAM [SEP]
+
+because this is the way a [BertModel] is going to expect its inputs.

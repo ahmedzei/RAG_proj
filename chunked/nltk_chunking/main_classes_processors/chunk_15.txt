@@ -1,0 +1,2 @@
+The first version
+(v1.1) was released together with the paper SQuAD: 100,000+ Questions for Machine Comprehension of Text.

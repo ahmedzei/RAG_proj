@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Open-vocabulary object detection has benefited greatly from pretrained vision-language models, but is still limited by the amount of available detection training data.

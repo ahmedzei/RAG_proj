@@ -1,0 +1,5 @@
+from datasets import load_dataset
+dataset = load_dataset("glue", "cola")
+dataset = dataset["train"]  # Just take the training split for now
+
+Next, load a tokenizer and tokenize the data as NumPy arrays.

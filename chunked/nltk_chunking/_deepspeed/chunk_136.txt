@@ -1,0 +1,7 @@
+```yaml
+{
+    "gradient_accumulation_steps": "auto"
+}
+
+Gradient clipping
+Gradient clipping can be auto-configured or explicitly set.

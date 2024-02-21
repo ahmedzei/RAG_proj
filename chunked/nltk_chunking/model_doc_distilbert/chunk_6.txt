@@ -1,0 +1,3 @@
+To leverage the inductive
+biases learned by larger models during pretraining, we introduce a triple loss combining language modeling,
+distillation and cosine-distance losses.

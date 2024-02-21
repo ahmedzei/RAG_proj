@@ -1,0 +1,1 @@
+Target labels are created by a clustering step in which segments of similar audio are assigned to a cluster which becomes a hidden unit.

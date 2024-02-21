@@ -1,0 +1,3 @@
+The authors released 2 models, one for table detection in 
+documents, one for table structure recognition 
+(the task of recognizing the individual rows, columns etc.

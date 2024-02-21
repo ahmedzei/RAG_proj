@@ -1,0 +1,5 @@
+This part is often forgotten but is extremely useful in two
+ways:
+
+It helps to transfer the knowledge you have acquired during the model addition to the community by showing how the
+  special features of brand_new_bert should work.

@@ -1,0 +1,2 @@
+The user's input is appended to behind Human: and the agent is prompted to first generate what needs to be done 
+before generating code.

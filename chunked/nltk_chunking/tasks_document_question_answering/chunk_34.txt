@@ -1,0 +1,4 @@
+dataset_with_ocr = updated_dataset.map(get_ocr_words_and_boxes, batched=True, batch_size=2)
+
+Preprocessing text data
+Once we have applied OCR to the images, we need to encode the text part of the dataset to prepare it for the model.

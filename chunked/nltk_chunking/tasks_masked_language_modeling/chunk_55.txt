@@ -1,0 +1,3 @@
+Come up with some text you'd like the model to fill in the blank with, and use the special <mask> token to indicate the blank:
+
+text = "The Milky Way is a  galaxy."

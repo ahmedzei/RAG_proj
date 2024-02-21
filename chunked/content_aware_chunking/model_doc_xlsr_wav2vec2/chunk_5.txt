@@ -1,0 +1,2 @@
+On BABEL, our approach improves word error rate by 16% relative compared to
+a comparable system.

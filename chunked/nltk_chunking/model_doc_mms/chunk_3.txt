@@ -1,0 +1,2 @@
+The main ingredients are a new dataset based on readings of publicly available religious texts and effectively leveraging
+self-supervised learning.

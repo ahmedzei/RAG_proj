@@ -1,0 +1,1 @@
+To deploy DeepSpeed on multiple GPUs, add the --num_gpus parameter.

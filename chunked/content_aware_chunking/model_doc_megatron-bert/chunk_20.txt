@@ -1,0 +1,44 @@
+We assume that the folder models/megatron_bert contains
+megatron_bert_345m_v0_1_{cased, uncased}.zip and that the commands are run from inside that folder:
+
+python3 $PATH_TO_TRANSFORMERS/models/megatron_bert/convert_megatron_bert_checkpoint.py megatron_bert_345m_v0_1_uncased.zip
+
+python3 $PATH_TO_TRANSFORMERS/models/megatron_bert/convert_megatron_bert_checkpoint.py megatron_bert_345m_v0_1_cased.zip
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+MegatronBertConfig
+[[autodoc]] MegatronBertConfig
+MegatronBertModel
+[[autodoc]] MegatronBertModel
+    - forward
+MegatronBertForMaskedLM
+[[autodoc]] MegatronBertForMaskedLM
+    - forward
+MegatronBertForCausalLM
+[[autodoc]] MegatronBertForCausalLM
+    - forward
+MegatronBertForNextSentencePrediction
+[[autodoc]] MegatronBertForNextSentencePrediction
+    - forward
+MegatronBertForPreTraining
+[[autodoc]] MegatronBertForPreTraining
+    - forward
+MegatronBertForSequenceClassification
+[[autodoc]] MegatronBertForSequenceClassification
+    - forward
+MegatronBertForMultipleChoice
+[[autodoc]] MegatronBertForMultipleChoice
+    - forward
+MegatronBertForTokenClassification
+[[autodoc]] MegatronBertForTokenClassification
+    - forward
+MegatronBertForQuestionAnswering
+[[autodoc]] MegatronBertForQuestionAnswering
+    - forward

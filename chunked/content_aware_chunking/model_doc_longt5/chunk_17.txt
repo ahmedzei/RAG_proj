@@ -1,0 +1,1 @@
+The complexity of the mechanism is linear in input sequence length l: O(l*r).

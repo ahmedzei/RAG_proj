@@ -1,0 +1,1 @@
+Since batching could speed things up, it may be useful to try tuning the batch_size parameter here.

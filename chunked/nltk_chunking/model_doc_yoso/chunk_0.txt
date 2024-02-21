@@ -1,0 +1,5 @@
+
+YOSO
+Overview
+The YOSO model was proposed in You Only Sample (Almost) Once: Linear Cost Self-Attention Via Bernoulli Sampling
+by Zhanpeng Zeng, Yunyang Xiong, Sathya N. Ravi, Shailesh Acharya, Glenn Fung, Vikas Singh.

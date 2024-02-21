@@ -1,0 +1,3 @@
+The formula to compute the output \( \mathbf{O} \) of a self-attention layer for an input \( \mathbf{X} \) of length \( N \) is:
+$$ \textbf{O} = \text{Attn}(\mathbf{X}) = \mathbf{V} \times \text{Softmax}(\mathbf{QK}^T) \text{ with } \mathbf{Q} = \mathbf{W}_q \mathbf{X}, \mathbf{V} = \mathbf{W}_v \mathbf{X}, \mathbf{K} = \mathbf{W}_k \mathbf{X} $$
+\(  \mathbf{X} = (\mathbf{x}1,  \mathbf{x}{N}) \) is thereby the input sequence to the attention layer.

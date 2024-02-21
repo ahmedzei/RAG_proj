@@ -1,0 +1,1 @@
+Data2Vec proposes a unified framework for self-supervised learning across different data modalities - text, audio and images.

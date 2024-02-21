@@ -1,0 +1,1 @@
+The authors have only released pre-trained weights of the backbone (ImageNet-1k pre-training).

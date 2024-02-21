@@ -1,0 +1,1 @@
+Our better depth model also results in a better depth-conditioned ControlNet.

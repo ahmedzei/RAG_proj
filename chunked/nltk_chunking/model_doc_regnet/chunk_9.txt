@@ -1,0 +1,1 @@
+We analyze the RegNet design space and arrive at interesting findings that do not match the current practice of network design.

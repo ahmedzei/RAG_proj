@@ -1,0 +1,2 @@
+Usage tips and example
+The usage of AltCLIP is very similar to the CLIP.

@@ -1,0 +1,9 @@
+input_ids = torch.tensor([tokenizer.encode(line)])
+with torch.no_grad():
+     features = phobert(input_ids)  # Models outputs are now tuples
+With TensorFlow 2.0+:
+from transformers import TFAutoModel
+phobert = TFAutoModel.from_pretrained("vinai/phobert-base")
+
+ 
+PhoBERT implementation is the same as BERT, except for tokenization.

@@ -1,0 +1,1 @@
+Multimodal inputs, use a Processor to combine a tokenizer and a feature extractor or image processor.

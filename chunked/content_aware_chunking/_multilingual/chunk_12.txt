@@ -1,0 +1,7 @@
+XLM without language embeddings
+The following XLM models do not require language embeddings during inference:
+
+FacebookAI/xlm-mlm-17-1280 (Masked language modeling, 17 languages)
+FacebookAI/xlm-mlm-100-1280 (Masked language modeling, 100 languages)
+
+These models are used for generic sentence representations, unlike the previous XLM checkpoints.

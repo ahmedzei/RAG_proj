@@ -1,0 +1,3 @@
+On the CoVoST-2 speech translation
+benchmark, we improve the previous state of the art by an average of 7.4 BLEU over 21 translation directions into
+English.

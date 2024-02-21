@@ -1,0 +1,3 @@
+Usage tips
+
+[CLIPSegForImageSegmentation] adds a decoder on top of [CLIPSegModel].

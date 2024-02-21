@@ -1,0 +1,2 @@
+The image input corresponds to the original document image in which the text
+  tokens occur.

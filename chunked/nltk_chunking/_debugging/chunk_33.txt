@@ -1,0 +1,8 @@
+For training on multiple machines with the same setup, you'll need to make a binary wheel:
+
+git clone https://github.com/microsoft/DeepSpeed/
+cd DeepSpeed
+rm -rf build
+TORCH_CUDA_ARCH_LIST="8.6" DS_BUILD_CPU_ADAM=1 DS_BUILD_UTILS=1 \
+python setup.py build_ext -j8 bdist_wheel
+This command generates a binary wheel that'll look something like dist/deepspeed-0.3.13+8cd046f-cp38-cp38-linux_x86_64.whl.

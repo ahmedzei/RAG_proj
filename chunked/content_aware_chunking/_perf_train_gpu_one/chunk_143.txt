@@ -1,0 +1,1 @@
+We use the same 8-bit optimizer from the earlier example.

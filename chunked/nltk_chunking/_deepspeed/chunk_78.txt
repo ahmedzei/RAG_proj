@@ -1,0 +1,1 @@
+reduce_bucket_size, stage3_prefetch_bucket_size, and stage3_param_persistence_threshold are dependent on a model's hidden size.

@@ -1,0 +1,2 @@
+Instead
+of tokenizing each sentence separately, convert the list to a string so you can jointly tokenize them.

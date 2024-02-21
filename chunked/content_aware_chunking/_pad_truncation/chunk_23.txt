@@ -1,0 +1,1 @@
+It can be an integer or None, in which case it will default to the maximum length the model can accept.

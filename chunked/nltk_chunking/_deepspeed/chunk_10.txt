@@ -1,0 +1,6 @@
+pip install deepspeed
+
+pip install transformers[deepspeed]
+
+Memory requirements
+Before you begin, it is a good idea to check whether you have enough GPU and CPU memory to fit your model.

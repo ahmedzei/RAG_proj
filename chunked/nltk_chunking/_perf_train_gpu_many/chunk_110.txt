@@ -1,0 +1,2 @@
+Each 
+Pipeline stage works with a single micro-batch at a time.

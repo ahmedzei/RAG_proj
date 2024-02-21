@@ -1,0 +1,1 @@
+Textual and image prompts can be passed to the model's processor as a single list to create appropriate inputs.

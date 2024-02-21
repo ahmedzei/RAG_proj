@@ -1,0 +1,1 @@
+But for use cases like image generation, the decoder is a natural fit, as we've seen from text generation models like GPT-2.

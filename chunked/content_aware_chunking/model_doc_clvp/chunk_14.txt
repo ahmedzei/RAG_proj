@@ -1,0 +1,1 @@
+The [ClvpForCausalLM] uses those embeddings to generate multiple speech candidates.

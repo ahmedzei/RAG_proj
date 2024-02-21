@@ -1,0 +1,2 @@
+Coupling these two designs
+enables us to train large models efficiently and effectively: we accelerate training (by 3x or more) and improve accuracy.

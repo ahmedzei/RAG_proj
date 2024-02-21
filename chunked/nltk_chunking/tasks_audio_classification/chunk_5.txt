@@ -1,0 +1,1 @@
+intent_class: represents the class id of the speaker's intent.

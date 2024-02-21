@@ -1,0 +1,8 @@
+The modeling code is the same as [BartForConditionalGeneration] with a few minor modifications:
+
+static (sinusoid) positional embeddings (MarianConfig.static_position_embeddings=True)
+
+no layernorm_embedding (MarianConfig.normalize_embedding=False)
+the model starts generating with pad_token_id (which has 0 as a token_embedding) as the prefix (Bart uses
+    <s/>),
+Code to bulk convert models can be found in convert_marian_to_pytorch.py.

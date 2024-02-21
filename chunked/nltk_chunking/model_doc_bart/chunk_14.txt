@@ -1,0 +1,1 @@
+A typical use case of this feature is mask filling.

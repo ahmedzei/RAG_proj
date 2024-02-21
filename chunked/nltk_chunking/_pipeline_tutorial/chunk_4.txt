@@ -1,0 +1,1 @@
+Use a [pipeline] for audio, vision, and multimodal tasks.

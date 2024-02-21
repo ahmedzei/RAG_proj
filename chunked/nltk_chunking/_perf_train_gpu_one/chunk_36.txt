@@ -1,0 +1,2 @@
+This results in the same effective batch size while making better use of 
+the available GPU resources.

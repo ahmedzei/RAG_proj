@@ -1,0 +1,11 @@
+Google has released the following variants:
+
+google/flan-t5-small
+
+google/flan-t5-base
+
+google/flan-t5-large
+
+google/flan-t5-xl
+
+google/flan-t5-xxl.

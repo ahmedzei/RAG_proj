@@ -1,0 +1,1 @@
+In this guide, you'll only need image and annotation, both of which are PIL images.

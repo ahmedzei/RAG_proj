@@ -1,0 +1,2 @@
+However, existing methods only exploit entity information in pretraining
+and do not explicitly use entities in downstream tasks.

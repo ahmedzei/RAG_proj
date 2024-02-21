@@ -1,0 +1,1 @@
+From here, just continue training like you would with a standard language modelling task, using the formatted_chat column.

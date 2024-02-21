@@ -1,0 +1,2 @@
+The bad news is
+   that you'll have to venture into the source implementation of said instruction.

@@ -1,0 +1,1 @@
+You can find the patch_size - or resolution - of the model in its configuration.

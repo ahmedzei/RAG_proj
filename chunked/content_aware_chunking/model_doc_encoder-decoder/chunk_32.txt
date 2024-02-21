@@ -1,0 +1,4 @@
+model.config = _model.config
+
+Training
+Once the model is created, it can be fine-tuned similar to BART, T5 or any other encoder-decoder model.

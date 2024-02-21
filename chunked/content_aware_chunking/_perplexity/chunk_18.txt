@@ -1,0 +1,1 @@
+The downside is that it requires a separate forward pass for each token in the corpus.

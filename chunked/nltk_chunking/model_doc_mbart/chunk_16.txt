@@ -1,0 +1,2 @@
+Instead of finetuning on one
+direction, a pretrained model is finetuned on many directions at the same time.

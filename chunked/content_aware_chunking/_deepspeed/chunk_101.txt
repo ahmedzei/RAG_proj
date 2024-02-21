@@ -1,0 +1,1 @@
+For a non-Hugging Face model, use the DeepSpeed Activation Checkpointing API.

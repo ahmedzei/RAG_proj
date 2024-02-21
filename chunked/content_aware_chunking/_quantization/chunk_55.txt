@@ -1,0 +1,1 @@
+Before you quantize a model, it is a good idea to check the Hub if a GPTQ-quantized version of the model already exists.

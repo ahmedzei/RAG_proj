@@ -1,0 +1,10 @@
+best_trial = trainer.hyperparameter_search(
+     direction="maximize",
+     backend="optuna",
+     hp_space=optuna_hp_space,
+     n_trials=20,
+     compute_objective=compute_objective,
+ )
+
+Hyperparameter search For DDP finetune
+Currently, Hyperparameter search for DDP is enabled for optuna and sigopt.

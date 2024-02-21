@@ -1,0 +1,4 @@
+Usage tips
+
+This implementation is the same as [RobertaModel] with the addition of entity embeddings as well
+  as an entity-aware self-attention mechanism, which improves performance on tasks involving reasoning about entities.

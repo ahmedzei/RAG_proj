@@ -1,0 +1,2 @@
+These require two different sequences to be joined in a single "input_ids" entry, which usually is performed with the
+help of special tokens, such as the classifier ([CLS]) and separator ([SEP]) tokens.

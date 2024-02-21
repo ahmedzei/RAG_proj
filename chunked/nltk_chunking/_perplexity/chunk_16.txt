@@ -1,0 +1,2 @@
+This involves repeatedly
+sliding the context window so that the model has more context when making each prediction.

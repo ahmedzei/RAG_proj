@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+We present PhoBERT with two versions, PhoBERT-base and PhoBERT-large, the first public large-scale monolingual
+language models pre-trained for Vietnamese.

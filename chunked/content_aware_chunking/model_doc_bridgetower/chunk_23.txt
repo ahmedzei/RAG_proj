@@ -1,0 +1,3 @@
+Tips:
+
+This implementation of BridgeTower uses [RobertaTokenizer] to generate text embeddings and OpenAI's CLIP/ViT model to compute visual embeddings.

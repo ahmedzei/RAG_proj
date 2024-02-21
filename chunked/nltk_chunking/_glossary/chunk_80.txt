@@ -1,0 +1,2 @@
+For semantic segmentation models, ([SegformerForSemanticSegmentation]), the model expects a tensor of dimension
+  (batch_size, height, width) with each value of the batch corresponding to the expected label of each individual pixel.

@@ -1,0 +1,8 @@
+NatConfig
+[[autodoc]] NatConfig
+NatModel
+[[autodoc]] NatModel
+    - forward
+NatForImageClassification
+[[autodoc]] NatForImageClassification
+    - forward

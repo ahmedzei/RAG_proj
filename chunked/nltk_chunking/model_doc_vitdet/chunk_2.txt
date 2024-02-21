@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+We explore the plain, non-hierarchical Vision Transformer (ViT) as a backbone network for object detection.

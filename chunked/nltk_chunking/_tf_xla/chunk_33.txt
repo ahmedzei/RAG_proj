@@ -1,0 +1,1 @@
+This Colab Notebook provides an interactive demonstration if you want to fiddle with the XLA-compatible encoder-decoder (like T5) and decoder-only (like GPT2) text generation models.

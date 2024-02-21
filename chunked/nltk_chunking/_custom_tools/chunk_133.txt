@@ -1,0 +1,12 @@
+from diffusers.utils import load_image
+image = load_image(
+    "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/rivers_and_lakes.png"
+)
+
+ 
+Let's transform the image into a beautiful winter landscape:
+py
+image = agent.run("Transform the image: 'A frozen lake and snowy forest'", image=image)
+``text
+==Explanation from the agent==
+I will use the following tool:image_transformer` to transform the image.

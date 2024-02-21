@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+In deep learning, models typically reuse the same parameters for all inputs.

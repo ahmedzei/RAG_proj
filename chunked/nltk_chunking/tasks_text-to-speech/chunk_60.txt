@@ -1,0 +1,27 @@
+def prepare_dataset(example):
+     audio = example["audio"]
+
+     example = processor(
+         text=example["normalized_text"],
+         audio_target=audio["array"],
+         sampling_rate=audio["sampling_rate"],
+         return_attention_mask=False,
+     )
+     # strip off the batch dimension
+     example["labels"] = example["labels"][0]
+     # use SpeechBrain to obtain x-vector
+     example["speaker_embeddings"] = create_speaker_embedding(audio["array"])
+     return example
+
+Verify the processing is correct by looking at a single example:
+
+processed_example = prepare_dataset(dataset[0])
+list(processed_example.keys())
+['input_ids', 'labels', 'stop_labels', 'speaker_embeddings']
+
+Speaker embeddings should be a 512-element vector:
+
+processed_example["speaker_embeddings"].shape
+(512,)
+
+The labels should be a log-mel spectrogram with 80 mel bins.

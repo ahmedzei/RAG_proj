@@ -1,0 +1,3 @@
+Usage tips
+
+Swin pads the inputs supporting any input height and width (if divisible by 32).

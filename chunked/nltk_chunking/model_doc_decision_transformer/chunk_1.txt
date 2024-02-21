@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+We introduce a framework that abstracts Reinforcement Learning (RL) as a sequence modeling problem.

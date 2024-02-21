@@ -1,0 +1,1 @@
+You can train a model in PyTorch and then export it to TorchScript to free the model from Python performance constraints.

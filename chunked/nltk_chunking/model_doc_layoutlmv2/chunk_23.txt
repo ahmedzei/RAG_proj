@@ -1,0 +1,2 @@
+You don't need to normalize the channels, as this is
+  done by the model.

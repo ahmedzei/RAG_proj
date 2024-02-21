@@ -1,0 +1,2 @@
+Multiple techniques can be employed to achieve parallelism, such as data 
+parallelism, tensor parallelism, and pipeline parallelism.

@@ -1,0 +1,3 @@
+As in the previous section, we suggest you start by copying the test_modeling_brand_new_bert.py file in
+tests/models/brand_new_bert/ into test_modeling_tf_brand_new_bert.py, and continue by making the necessary
+TensorFlow replacements.

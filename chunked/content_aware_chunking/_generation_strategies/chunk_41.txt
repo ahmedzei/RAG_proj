@@ -1,0 +1,2 @@
+The streamer input is compatible with any instance
+from a class that has the following methods: put() and end().

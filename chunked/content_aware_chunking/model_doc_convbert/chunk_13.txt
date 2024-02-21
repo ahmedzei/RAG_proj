@@ -1,0 +1,56 @@
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+ConvBertConfig
+[[autodoc]] ConvBertConfig
+ConvBertTokenizer
+[[autodoc]] ConvBertTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+ConvBertTokenizerFast
+[[autodoc]] ConvBertTokenizerFast
+
+ConvBertModel
+[[autodoc]] ConvBertModel
+    - forward
+ConvBertForMaskedLM
+[[autodoc]] ConvBertForMaskedLM
+    - forward
+ConvBertForSequenceClassification
+[[autodoc]] ConvBertForSequenceClassification
+    - forward
+ConvBertForMultipleChoice
+[[autodoc]] ConvBertForMultipleChoice
+    - forward
+ConvBertForTokenClassification
+[[autodoc]] ConvBertForTokenClassification
+    - forward
+ConvBertForQuestionAnswering
+[[autodoc]] ConvBertForQuestionAnswering
+    - forward
+
+TFConvBertModel
+[[autodoc]] TFConvBertModel
+    - call
+TFConvBertForMaskedLM
+[[autodoc]] TFConvBertForMaskedLM
+    - call
+TFConvBertForSequenceClassification
+[[autodoc]] TFConvBertForSequenceClassification
+    - call
+TFConvBertForMultipleChoice
+[[autodoc]] TFConvBertForMultipleChoice
+    - call
+TFConvBertForTokenClassification
+[[autodoc]] TFConvBertForTokenClassification
+    - call
+TFConvBertForQuestionAnswering
+[[autodoc]] TFConvBertForQuestionAnswering
+    - call

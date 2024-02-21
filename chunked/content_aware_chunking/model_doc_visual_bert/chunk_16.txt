@@ -1,0 +1,2 @@
+VisualBERT uses a BERT-like transformer to prepare
+embeddings for image-text pairs.

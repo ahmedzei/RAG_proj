@@ -1,0 +1,2 @@
+In practice, one trains deep learning models in
+batches.

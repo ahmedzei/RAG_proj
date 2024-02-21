@@ -1,0 +1,2 @@
+If you want to process images manually,
+check out the LayoutLMv2 model documentation to learn what input format the model expects.

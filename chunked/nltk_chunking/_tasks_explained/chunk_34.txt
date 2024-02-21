@@ -1,0 +1,1 @@
+Use a modern CNN, like ConvNeXT, which relies on convolutional layers but adopts modern network designs.

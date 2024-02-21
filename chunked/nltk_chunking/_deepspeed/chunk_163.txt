@@ -1,0 +1,1 @@
+The first node can be accessed ssh hostname1 and the second node with ssh hostname2.

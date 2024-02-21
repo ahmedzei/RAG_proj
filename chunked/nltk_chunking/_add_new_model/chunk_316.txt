@@ -1,0 +1,3 @@
+brand_new_bert.push_to_hub("/brand_new_bert")
+
+It is worth spending some time to create fitting model cards for each checkpoint.

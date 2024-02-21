@@ -1,0 +1,2 @@
+The paper presents a joint-embedding architecture to match the prototypes
+of masked patches with that of the unmasked patches.

@@ -1,0 +1,4 @@
+In this guide, you will learn how to:
+- Infer in segment everything mode with batching,
+- Infer in point prompting mode,
+- Infer in box prompting mode.

@@ -1,0 +1,1 @@
+There are never more than two levels of abstraction for any model in the library.

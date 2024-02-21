@@ -1,0 +1,2 @@
+Internally, the processor first uses
+[MarkupLMFeatureExtractor] to get a list of nodes and corresponding xpaths.

@@ -1,0 +1,1 @@
+The following example shows how to get the image-text similarity scores using [AlignProcessor] and [AlignModel].

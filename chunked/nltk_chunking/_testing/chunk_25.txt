@@ -1,0 +1,4 @@
+pip install pytest-picked
+
+pytest --picked
+All tests will be run from files and folders which are modified, but not yet committed.

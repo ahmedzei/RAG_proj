@@ -1,0 +1,3 @@
+Flash Attention 2 is also consistently faster than Better Transformer, and its performance improves even more as batch sizes increase:
+
+To put this into perspective, on an NVIDIA A100 and when generating 400 semantic tokens with a batch size of 16, you can get 17 times the throughput and still be 2 seconds faster than generating sentences one by one with the native model implementation.

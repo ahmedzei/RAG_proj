@@ -1,0 +1,1 @@
+By default, tqdm progress bars will be displayed during model download.

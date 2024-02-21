@@ -1,0 +1,9 @@
+You can check whether you require the uroman package for your language by inspecting the is_uroman attribute of 
+the pre-trained tokenizer:
+thon
+from transformers import VitsTokenizer
+tokenizer = VitsTokenizer.from_pretrained("facebook/mms-tts-eng")
+print(tokenizer.is_uroman)
+
+If required, you should apply the uroman package to your text inputs prior to passing them to the VitsTokenizer, 
+since currently the tokenizer does not support performing the pre-processing itself.

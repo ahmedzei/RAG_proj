@@ -1,0 +1,1 @@
+Wav2Vec2-Conformer uses the same tokenizer and feature extractor as Wav2Vec2.

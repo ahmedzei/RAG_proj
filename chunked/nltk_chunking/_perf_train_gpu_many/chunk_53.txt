@@ -1,0 +1,2 @@
+The real difference will depend on how much data each GPU needs to sync with the others - the more there is to sync, 
+the more a slow link will impede the overall runtime.

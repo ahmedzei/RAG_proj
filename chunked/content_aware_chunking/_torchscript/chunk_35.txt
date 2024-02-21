@@ -1,0 +1,3 @@
+Converting a model for AWS Neuron
+Convert a model for AWS NEURON using the same code from Using TorchScript in
+Python to trace a BertModel.

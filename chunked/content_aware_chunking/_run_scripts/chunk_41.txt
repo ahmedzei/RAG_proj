@@ -1,0 +1,1 @@
+This will ensure you can pick up where you left off without starting over if your training gets interrupted.

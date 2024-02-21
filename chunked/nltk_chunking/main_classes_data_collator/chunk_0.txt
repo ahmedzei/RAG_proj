@@ -1,0 +1,3 @@
+
+Data Collator
+Data collators are objects that will form a batch by using a list of dataset elements as input.

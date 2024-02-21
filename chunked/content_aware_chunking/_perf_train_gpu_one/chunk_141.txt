@@ -1,0 +1,2 @@
+When we initialize the Accelerator 
+we can specify if we want to use mixed precision training and it will take care of it for us in the [prepare] call.

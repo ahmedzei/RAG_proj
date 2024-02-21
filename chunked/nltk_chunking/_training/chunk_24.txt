@@ -1,0 +1,15 @@
+To process your dataset in one step, use 🤗 Datasets map method to apply a preprocessing function over the entire dataset:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-cased")
+def tokenize_function(examples):
+     return tokenizer(examples["text"], padding="max_length", truncation=True)
+tokenized_datasets = dataset.map(tokenize_function, batched=True)
+
+If you like, you can create a smaller subset of the full dataset to fine-tune on to reduce the time it takes:
+
+small_train_dataset = tokenized_datasets["train"].shuffle(seed=42).select(range(1000))
+small_eval_dataset = tokenized_datasets["test"].shuffle(seed=42).select(range(1000))
+
+Train
+At this point, you should follow the section corresponding to the framework you want to use.

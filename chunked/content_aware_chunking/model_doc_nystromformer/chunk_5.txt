@@ -1,0 +1,2 @@
+Our idea is based on adapting the Nyström method to approximate standard self-attention
+with O(n) complexity.

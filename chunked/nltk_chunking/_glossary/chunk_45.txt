@@ -1,0 +1,2 @@
+For models employing the function [apply_chunking_to_forward], the chunk_size defines the number of output
+embeddings that are computed in parallel and thus defines the trade-off between memory and time complexity.

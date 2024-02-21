@@ -1,0 +1,1 @@
+While we welcome bug fixes, it is unlikely we will merge a Pull Request that adds more functionality at the cost of readability.

@@ -1,0 +1,2 @@
+The discriminator, which is the model we're interested in, tries to
+identify which tokens were replaced by the generator in the sequence.

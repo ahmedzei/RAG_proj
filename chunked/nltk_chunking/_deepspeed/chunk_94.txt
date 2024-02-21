@@ -1,0 +1,1 @@
+You should also make sure the nvme_path is pointing to an NVMe device, because while it still works with a normal hard drive or solid state drive, it'll be significantly slower.

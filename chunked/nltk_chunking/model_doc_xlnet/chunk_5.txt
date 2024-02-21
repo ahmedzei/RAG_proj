@@ -1,0 +1,2 @@
+Furthermore, XLNet integrates ideas from Transformer-XL, the state-of-the-art autoregressive model, into
+pretraining.

@@ -1,0 +1,2 @@
+In addition to sparse
+attention, BigBird also applies global attention as well as random attention to the input sequence.

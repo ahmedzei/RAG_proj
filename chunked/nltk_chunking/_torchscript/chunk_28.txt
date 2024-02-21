@@ -1,0 +1,4 @@
+The Neuron SDK provides:
+
+Easy-to-use API with one line of code change to trace and optimize a TorchScript
+   model for inference in the cloud.

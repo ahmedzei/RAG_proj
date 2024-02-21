@@ -1,0 +1,2 @@
+test_large_model_tf (optional): Tests the pipeline on a real pipeline where the results are supposed to
+  make sense.

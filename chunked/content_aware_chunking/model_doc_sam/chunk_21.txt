@@ -1,0 +1,1 @@
+Checkpoints can be found on the hub, and they can be used as a drop-in replacement of SAM.

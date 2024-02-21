@@ -1,0 +1,25 @@
+FlashAttention-2 is a faster and more efficient implementation of the standard attention mechanism that can significantly speedup inference by:
+
+additionally parallelizing the attention computation over sequence length
+partitioning the work between GPU threads to reduce communication and shared memory reads/writes between them
+
+FlashAttention-2 is currently supported for the following architectures:
+* Bark
+* Bart
+* DistilBert
+* GPTBigCode
+* GPTNeo
+* GPTNeoX
+* Falcon
+* Llama
+* Llava
+* VipLlava
+* MBart
+* Mistral
+* Mixtral
+* OPT
+* Phi
+* StableLm
+* Qwen2
+* Whisper
+You can request to add FlashAttention-2 support for another model by opening a GitHub Issue or Pull Request.

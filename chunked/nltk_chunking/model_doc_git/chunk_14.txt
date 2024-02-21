@@ -1,0 +1,3 @@
+Usage tips
+
+GIT is implemented in a very similar way to GPT-2, the only difference being that the model is also conditioned on pixel_values.

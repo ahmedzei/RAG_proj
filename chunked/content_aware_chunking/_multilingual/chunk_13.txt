@@ -1,0 +1,7 @@
+BERT
+The following BERT models can be used for multilingual tasks:
+
+google-bert/bert-base-multilingual-uncased (Masked language modeling + Next sentence prediction, 102 languages)
+google-bert/bert-base-multilingual-cased (Masked language modeling + Next sentence prediction, 104 languages)
+
+These models do not require language embeddings during inference.

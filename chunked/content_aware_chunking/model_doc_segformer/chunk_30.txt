@@ -1,0 +1,2 @@
+Note that this image processor is fairly basic and does not include all data augmentations used in
+  the original paper.

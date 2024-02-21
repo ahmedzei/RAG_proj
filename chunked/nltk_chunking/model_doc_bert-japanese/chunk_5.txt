@@ -1,0 +1,2 @@
+["ja"] if you install
+from source) to install dependencies.

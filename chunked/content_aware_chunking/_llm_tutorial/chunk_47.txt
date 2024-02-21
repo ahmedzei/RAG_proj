@@ -1,0 +1,9 @@
+Let's see an example with a chat LLM, which makes use of chat templating:
+thon
+
+tokenizer = AutoTokenizer.from_pretrained("HuggingFaceH4/zephyr-7b-alpha")
+model = AutoModelForCausalLM.from_pretrained(
+     "HuggingFaceH4/zephyr-7b-alpha", device_map="auto", load_in_4bit=True
+ )
+set_seed(0)
+prompt = """How many helicopters can a human eat in one sitting?

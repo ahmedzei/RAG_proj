@@ -1,0 +1,1 @@
+\n Assistant: Roughly 75 million people live in France \n User: And how many in Germany?".

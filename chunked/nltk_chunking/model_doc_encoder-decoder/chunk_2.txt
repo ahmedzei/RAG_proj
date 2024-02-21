@@ -1,0 +1,2 @@
+After such an [EncoderDecoderModel] has been trained/fine-tuned, it can be saved/loaded just like
+any other models (see the examples for more information).

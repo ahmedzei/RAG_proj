@@ -1,0 +1,4 @@
+This is most likely because either
+you used incorrect parameters in BrandNewBertConfig(), have a wrong architecture in the 🤗 Transformers
+implementation, you have a bug in the init() functions of one of the components of the 🤗 Transformers
+implementation or you need to transpose one of the checkpoint weights.

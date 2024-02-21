@@ -1,0 +1,2 @@
+However, since the model is traced with a larger input size, the
+dimensions of the matrix will also be large, resulting in more calculations.

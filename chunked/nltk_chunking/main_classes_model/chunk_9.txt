@@ -1,0 +1,4 @@
+from transformers import AutoModelForSeq2SeqLM
+t0pp = AutoModelForSeq2SeqLM.from_pretrained("bigscience/T0pp", low_cpu_mem_usage=True)
+
+Moreover, you can directly place the model on different devices if it doesn't fully fit in RAM (only works for inference for now).

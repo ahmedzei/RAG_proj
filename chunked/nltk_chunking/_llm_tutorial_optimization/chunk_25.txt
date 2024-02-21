@@ -1,0 +1,1 @@
+🤗 Transformers does not support tensor parallelism out of the box as it requires the model architecture to be written in a specific way.

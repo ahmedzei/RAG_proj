@@ -1,0 +1,2 @@
+Here we pass the image directly; other suitable options
+include a local path to an image or an image url.

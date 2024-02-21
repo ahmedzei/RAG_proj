@@ -1,0 +1,4 @@
+
+Transformer XL
+
+This model is in maintenance mode only, so we won't accept any new PRs changing its code.

@@ -1,0 +1,1 @@
+A tokenizer converts your input into a format that can be processed by the model.

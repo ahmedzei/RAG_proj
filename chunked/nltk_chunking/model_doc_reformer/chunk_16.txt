@@ -1,0 +1,3 @@
+In models that are treating very long input sequences, the
+conventional position id encodings store an embeddings vector of size \(d\) being the config.hidden_size for
+every position \(i, \ldots, n_s\), with \(n_s\) being config.max_embedding_size.

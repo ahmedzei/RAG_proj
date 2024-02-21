@@ -1,0 +1,1 @@
+to generate text, like autoregressive_sample, generate.

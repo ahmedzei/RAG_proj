@@ -1,0 +1,2 @@
+Donut consists of an image Transformer encoder and an autoregressive text Transformer decoder to perform document understanding
+tasks such as document image classification, form understanding and visual question answering.

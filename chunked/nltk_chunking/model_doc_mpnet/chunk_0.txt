@@ -1,0 +1,4 @@
+
+MPNet
+Overview
+The MPNet model was proposed in MPNet: Masked and Permuted Pre-training for Language Understanding by Kaitao Song, Xu Tan, Tao Qin, Jianfeng Lu, Tie-Yan Liu.

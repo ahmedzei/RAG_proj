@@ -1,0 +1,1 @@
+To perform inference, one uses the [generate] method, which allows to autoregressively generate text.

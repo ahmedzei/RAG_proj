@@ -1,0 +1,2 @@
+We add a new tool for image upscaling to the default toolbox: 
+  diffusers/latent-upscaler-tool replace the existing image-transformation tool.

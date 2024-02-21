@@ -1,0 +1,1 @@
+As shown on the following figure, Jukebox is made of 3 priors which are decoder only models.

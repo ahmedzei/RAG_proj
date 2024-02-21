@@ -1,0 +1,4 @@
+Usage tips
+
+T5 is an encoder-decoder model pre-trained on a multi-task mixture of unsupervised and supervised tasks and for which
+each task is converted into a text-to-text format.

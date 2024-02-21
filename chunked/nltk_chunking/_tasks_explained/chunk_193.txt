@@ -1,0 +1,1 @@
+The output from the decoder is passed to a language modeling head, which performs a linear transformation to convert the hidden states into logits.

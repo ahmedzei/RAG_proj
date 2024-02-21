@@ -1,0 +1,5 @@
+Checkpoints
+All the checkpoints are fine-tuned for summarization, besides
+pegasus-large, whence the other checkpoints are fine-tuned:
+
+Each checkpoint is 2.2 GB on disk and 568M parameters.

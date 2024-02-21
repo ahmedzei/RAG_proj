@@ -1,0 +1,1 @@
+To address these issues, in this paper, we introduce a novel OCR-free VDU model named Donut, which stands for Document understanding transformer.

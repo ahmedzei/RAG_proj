@@ -1,0 +1,2 @@
+With this setup, their method yields excellent performance in the low-shot and extreme low-shot
+regimes.

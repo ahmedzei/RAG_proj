@@ -1,0 +1,1 @@
+The tokenizer used for this model is identical to the [CodeGenTokenizer].

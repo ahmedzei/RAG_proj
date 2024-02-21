@@ -1,0 +1,5 @@
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1", padding_side="left")
+model_inputs = tokenizer(["A list of colors: red, blue"], return_tensors="pt").to("cuda")
+
+The model_inputs variable holds the tokenized text input, as well as the attention mask.

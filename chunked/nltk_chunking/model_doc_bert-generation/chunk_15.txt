@@ -1,0 +1,11 @@
+BertGenerationConfig
+[[autodoc]] BertGenerationConfig
+BertGenerationTokenizer
+[[autodoc]] BertGenerationTokenizer
+    - save_vocabulary
+BertGenerationEncoder
+[[autodoc]] BertGenerationEncoder
+    - forward
+BertGenerationDecoder
+[[autodoc]] BertGenerationDecoder
+    - forward

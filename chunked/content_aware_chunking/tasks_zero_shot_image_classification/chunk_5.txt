@@ -1,0 +1,2 @@
+This is a more flexible approach to image classification that allows models to generalize to new and unseen categories
+without the need for additional training data and enables users to query images with free-form text descriptions of their target objects .

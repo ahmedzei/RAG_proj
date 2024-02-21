@@ -1,0 +1,1 @@
+Now, the mapping is cuda:1 for GPU 0 and cuda:0 for GPU 2.

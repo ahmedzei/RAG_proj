@@ -1,0 +1,2 @@
+This allows MEGA to perform competitively to Transformers on standard benchmarks including LRA 
+while also having significantly fewer parameters.

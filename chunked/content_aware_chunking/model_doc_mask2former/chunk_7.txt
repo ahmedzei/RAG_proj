@@ -1,0 +1,1 @@
+In addition to reducing the research effort by at least three times, it outperforms the best specialized architectures by a significant margin on four popular datasets.

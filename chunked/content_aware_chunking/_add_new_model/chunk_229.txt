@@ -1,0 +1,2 @@
+Finally, you should also check that all required weights are initialized and print out all checkpoint weights that
+were not used for initialization to make sure the model is correctly converted.

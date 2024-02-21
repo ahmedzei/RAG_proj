@@ -1,0 +1,4 @@
+Alice is drinking a beer and Bob is drinking a']
+
+When using assisted decoding with sampling methods, you can use the temperature argument to control the randomness,
+just like in multinomial sampling.

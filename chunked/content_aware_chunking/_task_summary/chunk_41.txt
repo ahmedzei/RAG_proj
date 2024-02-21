@@ -1,0 +1,1 @@
+To get text into a format recognized by a model, it needs to be tokenized.

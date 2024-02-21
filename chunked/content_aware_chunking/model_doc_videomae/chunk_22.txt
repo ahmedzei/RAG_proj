@@ -1,0 +1,13 @@
+VideoMAEConfig
+[[autodoc]] VideoMAEConfig
+VideoMAEFeatureExtractor
+[[autodoc]] VideoMAEFeatureExtractor
+    - call
+VideoMAEImageProcessor
+[[autodoc]] VideoMAEImageProcessor
+    - preprocess
+VideoMAEModel
+[[autodoc]] VideoMAEModel
+    - forward
+VideoMAEForPreTraining
+VideoMAEForPreTraining includes the decoder on top for self-supervised pre-training.

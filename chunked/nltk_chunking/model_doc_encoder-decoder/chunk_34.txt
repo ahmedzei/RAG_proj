@@ -1,0 +1,9 @@
+thon
+
+from transformers import BertTokenizer, EncoderDecoderModel
+tokenizer = BertTokenizer.from_pretrained("google-bert/bert-base-uncased")
+model = EncoderDecoderModel.from_encoder_decoder_pretrained("google-bert/bert-base-uncased", "google-bert/bert-base-uncased")
+model.config.decoder_start_token_id = tokenizer.cls_token_id
+model.config.pad_token_id = tokenizer.pad_token_id
+input_ids = tokenizer(
+     "The tower is 324 metres (1,063 ft) tall, about the same height as an 81-storey building, and the tallest structure in Paris.

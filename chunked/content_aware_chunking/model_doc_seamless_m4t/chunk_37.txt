@@ -1,0 +1,1 @@
+Additionally, for speech output, a vocoder inspired by the HiFi-GAN architecture is placed on top of the second seq2seq model.

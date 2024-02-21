@@ -1,0 +1,2 @@
+The first one, called predicted_depth, is a tensor with the values
+being the depth expressed in meters for each pixel.

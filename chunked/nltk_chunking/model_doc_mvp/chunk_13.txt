@@ -1,0 +1,8 @@
+thon
+
+from transformers import MvpTokenizer, MvpForConditionalGeneration
+tokenizer = MvpTokenizer.from_pretrained("RUCAIBox/mvp")
+model = MvpForConditionalGeneration.from_pretrained("RUCAIBox/mvp")
+model_with_prompt = MvpForConditionalGeneration.from_pretrained("RUCAIBox/mvp-summarization")
+inputs = tokenizer(
+     "Summarize: You may want to stick it to your boss and leave your job, but don't do it if these are your reasons.

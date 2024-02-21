@@ -1,0 +1,2 @@
+For now, in all .from_pretrained() calls, you should use the from_pt=True flag to load
+the existing PyTorch weights.

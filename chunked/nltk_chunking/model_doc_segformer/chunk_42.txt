@@ -1,0 +1,2 @@
+For
+SegFormer's results on the segmentation datasets like ADE20k, refer to the paper.

@@ -1,0 +1,1 @@
+Each derived config class implements model specific attributes.

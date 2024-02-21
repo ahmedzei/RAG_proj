@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Entity representations are useful in natural language tasks involving entities.

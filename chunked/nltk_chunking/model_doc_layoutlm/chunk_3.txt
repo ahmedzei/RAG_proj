@@ -1,0 +1,2 @@
+receipt understanding: the SROIE dataset (a collection of 626 receipts for
+  training and 347 receipts for testing).

@@ -1,0 +1,4 @@
+CpmTokenizer
+[[autodoc]] CpmTokenizer
+CpmTokenizerFast
+[[autodoc]] CpmTokenizerFast

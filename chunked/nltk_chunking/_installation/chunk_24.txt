@@ -1,0 +1,5 @@
+Now you can easily update your clone to the latest version of 🤗 Transformers with the following command:
+
+cd ~/transformers/
+git pull
+Your Python environment will find the main version of 🤗 Transformers on the next run.

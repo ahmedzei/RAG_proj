@@ -1,0 +1,4 @@
+from torchvision.transforms import ColorJitter
+jitter = ColorJitter(brightness=0.25, contrast=0.25, saturation=0.25, hue=0.1)
+
+Now create two preprocessing functions to prepare the images and annotations for the model.

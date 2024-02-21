@@ -1,0 +1,8 @@
+Sample usage
+thon
+
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+model = AutoModelForSeq2SeqLM.from_pretrained("google/umt5-small")
+tokenizer = AutoTokenizer.from_pretrained("google/umt5-small")
+inputs = tokenizer(
+     "A  walks into a bar and orders a  with  pinch of .

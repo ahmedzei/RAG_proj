@@ -1,0 +1,1 @@
+The benchmark was run on a NVIDIA A1000 for the TheBloke/Mistral-7B-v0.1-AWQ and TheBloke/Mistral-7B-v0.1-GPTQ models.

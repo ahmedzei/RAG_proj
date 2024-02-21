@@ -1,0 +1,3 @@
+Next, the timeout is reset on every queue fetch, meaning you could
+wait much more than 1ms before running the inference (delaying the first request 
+by that much).

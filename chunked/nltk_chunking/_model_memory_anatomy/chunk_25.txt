@@ -1,0 +1,13 @@
+First, we set up a few standard training 
+arguments:
+py
+default_args = {
+    "output_dir": "tmp",
+    "evaluation_strategy": "steps",
+    "num_train_epochs": 1,
+    "log_level": "error",
+    "report_to": "none",
+}
+
+If you plan to run multiple experiments, in order to properly clear the memory between experiments, restart the Python 
+ kernel between experiments.

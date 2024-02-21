@@ -1,0 +1,1 @@
+This function will be used during the training process to compute the accuracy & f1 of our model.

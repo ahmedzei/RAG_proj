@@ -1,0 +1,2 @@
+LayoutLMv2 adds both a relative 1D attention bias as well as a spatial 2D attention bias to the attention scores in
+  the self-attention layers.

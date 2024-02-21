@@ -1,0 +1,3 @@
+To install pip install pytorch-quantization --extra-index-url https://pypi.ngc.nvidia.com
+QDQBERT model can be loaded from any checkpoint of HuggingFace BERT model (for example google-bert/bert-base-uncased), and
+  perform Quantization Aware Training/Post Training Quantization.

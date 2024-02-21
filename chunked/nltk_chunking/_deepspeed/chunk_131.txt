@@ -1,0 +1,1 @@
+bf16 can be setup in the config file or enabled from the command line when the following arguments are passed: --bf16 or --bf16_full_eval.

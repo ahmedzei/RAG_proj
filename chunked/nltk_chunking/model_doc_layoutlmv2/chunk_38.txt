@@ -1,0 +1,2 @@
+As
+  the size of the feature map is 7x7 by default, one obtains 49 image tokens.

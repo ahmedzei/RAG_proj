@@ -1,0 +1,2 @@
+DeepSpeed ZeRO
+DeepSpeed is an open-source deep learning optimization library that is integrated with 🤗 Transformers and 🤗 Accelerate.

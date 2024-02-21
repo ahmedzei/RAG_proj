@@ -1,0 +1,3 @@
+The proposed
+model treats words and entities in a given text as independent tokens, and outputs contextualized representations of
+them.

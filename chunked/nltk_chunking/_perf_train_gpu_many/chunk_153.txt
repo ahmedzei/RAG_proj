@@ -1,0 +1,2 @@
+- Deepspeed-Inference also supports our BERT, GPT-2, and GPT-Neo models in their super-fast CUDA-kernel-based inference mode, see more here
+🤗 Accelerate integrates with TP from Megatron-LM.

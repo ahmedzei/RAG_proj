@@ -1,0 +1,2 @@
+It is particularly powerful when it comes 
+to multimodal tasks, so let's take it for a spin to generate images and read text out loud.

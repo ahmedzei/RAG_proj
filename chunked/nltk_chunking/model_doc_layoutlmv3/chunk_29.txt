@@ -1,0 +1,1 @@
+A notebook for how to finetune [LayoutLMv2ForTokenClassification] with the 🤗 Trainer.

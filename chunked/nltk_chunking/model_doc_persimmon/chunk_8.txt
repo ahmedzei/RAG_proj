@@ -1,0 +1,1 @@
+The authors present a fast inference code that outperforms traditional implementations through operator fusion and CUDA graph utilization while maintaining code coherence.

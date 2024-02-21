@@ -1,0 +1,3 @@
+Mixture of Experts
+Some recent papers reported a 4-5x training speedup and a faster inference by integrating
+Mixture of Experts (MoE) into the Transformer models.

@@ -1,0 +1,11 @@
+FeatureExtractionMixin
+[[autodoc]] feature_extraction_utils.FeatureExtractionMixin
+    - from_pretrained
+    - save_pretrained
+SequenceFeatureExtractor
+[[autodoc]] SequenceFeatureExtractor
+    - pad
+BatchFeature
+[[autodoc]] BatchFeature
+ImageFeatureExtractionMixin
+[[autodoc]] image_utils.ImageFeatureExtractionMixin

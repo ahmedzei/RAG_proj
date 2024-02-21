@@ -1,0 +1,5 @@
+More recent solutions include:
+- Varuna
+- Sagemaker
+We have not experimented with Varuna and SageMaker but their papers report that they have overcome the list of problems 
+mentioned above and that they require smaller changes to the user's model.

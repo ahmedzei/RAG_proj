@@ -1,0 +1,1 @@
+For example, to fuse the AWQ modules of the TheBloke/Mistral-7B-OpenOrca-AWQ model.

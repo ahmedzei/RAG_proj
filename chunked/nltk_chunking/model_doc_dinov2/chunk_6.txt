@@ -1,0 +1,1 @@
+We revisit existing approaches and combine different techniques to scale our pretraining in terms of data and model size.

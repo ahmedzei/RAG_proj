@@ -1,0 +1,2 @@
+The user can define which tokens attend "locally" and which tokens attend "globally" by setting the tensor
+global_attention_mask at run-time appropriately.

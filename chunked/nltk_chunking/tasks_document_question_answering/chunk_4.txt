@@ -1,0 +1,1 @@
+LayoutLMv2 depends on detectron2, torchvision and tesseract.

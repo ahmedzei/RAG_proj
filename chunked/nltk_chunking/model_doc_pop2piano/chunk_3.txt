@@ -1,0 +1,2 @@
+With Pop2Piano you 
+can directly generate a cover from a song's audio waveform.

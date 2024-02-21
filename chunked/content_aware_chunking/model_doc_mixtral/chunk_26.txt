@@ -1,0 +1,11 @@
+MixtralConfig
+[[autodoc]] MixtralConfig
+MixtralModel
+[[autodoc]] MixtralModel
+    - forward
+MixtralForCausalLM
+[[autodoc]] MixtralForCausalLM
+    - forward
+MixtralForSequenceClassification
+[[autodoc]] MixtralForSequenceClassification
+    - forward

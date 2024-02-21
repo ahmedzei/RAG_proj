@@ -1,0 +1,59 @@
+BartConfig
+[[autodoc]] BartConfig
+    - all
+BartTokenizer
+[[autodoc]] BartTokenizer
+    - all
+BartTokenizerFast
+[[autodoc]] BartTokenizerFast
+    - all
+
+BartModel
+[[autodoc]] BartModel
+    - forward
+BartForConditionalGeneration
+[[autodoc]] BartForConditionalGeneration
+    - forward
+BartForSequenceClassification
+[[autodoc]] BartForSequenceClassification
+    - forward
+BartForQuestionAnswering
+[[autodoc]] BartForQuestionAnswering
+    - forward
+BartForCausalLM
+[[autodoc]] BartForCausalLM
+    - forward
+
+TFBartModel
+[[autodoc]] TFBartModel
+    - call
+TFBartForConditionalGeneration
+[[autodoc]] TFBartForConditionalGeneration
+    - call
+TFBartForSequenceClassification
+[[autodoc]] TFBartForSequenceClassification
+    - call
+
+FlaxBartModel
+[[autodoc]] FlaxBartModel
+    - call
+    - encode
+    - decode
+FlaxBartForConditionalGeneration
+[[autodoc]] FlaxBartForConditionalGeneration
+    - call
+    - encode
+    - decode
+FlaxBartForSequenceClassification
+[[autodoc]] FlaxBartForSequenceClassification
+    - call
+    - encode
+    - decode
+FlaxBartForQuestionAnswering
+[[autodoc]] FlaxBartForQuestionAnswering
+    - call
+    - encode
+    - decode
+FlaxBartForCausalLM
+[[autodoc]] FlaxBartForCausalLM
+    - call

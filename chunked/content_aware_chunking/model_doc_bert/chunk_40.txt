@@ -1,0 +1,4 @@
+Question answering task guide
+
+Multiple choice
+- [BertForMultipleChoice] is supported by this example script and notebook.

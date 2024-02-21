@@ -1,0 +1,2 @@
+Paper: "Beyond Data and Model Parallelism for Deep Neural Networks" by Zhihao Jia, Matei Zaharia, Alex Aiken
+It performs a sort of 4D Parallelism over Sample-Operator-Attribute-Parameter.

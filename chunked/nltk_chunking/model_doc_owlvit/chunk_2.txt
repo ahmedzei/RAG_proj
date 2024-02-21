@@ -1,0 +1,1 @@
+It can be used to query an image with one or multiple text queries to search for and detect target objects described in text.

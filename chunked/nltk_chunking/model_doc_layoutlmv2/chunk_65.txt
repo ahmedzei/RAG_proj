@@ -1,0 +1,1 @@
+In total, there are 5 use cases that are supported by the processor.

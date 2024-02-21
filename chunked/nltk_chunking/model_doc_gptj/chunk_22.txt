@@ -1,0 +1,12 @@
+)
+input_ids = tokenizer(prompt, return_tensors="pt").input_ids.to(device)
+gen_tokens = model.generate(
+     input_ids,
+     do_sample=True,
+     temperature=0.9,
+     max_length=100,
+ )
+gen_text = tokenizer.batch_decode(gen_tokens)[0]
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with GPT-J.

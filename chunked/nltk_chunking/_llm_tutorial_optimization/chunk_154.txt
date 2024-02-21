@@ -1,0 +1,2 @@
+Here is a function that does that.\n\ndef
+We're getting the exact same result as before, but can observe a very significant speed-up thanks to Flash Attention.

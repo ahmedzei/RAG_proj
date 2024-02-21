@@ -1,0 +1,2 @@
+We will illustrate all of this on a ResNet model, by wrapping the ResNet class of the
+timm library into a [PreTrainedModel].

@@ -1,0 +1,1 @@
+VisualBERT is a neural network trained on a variety of (image, text) pairs.

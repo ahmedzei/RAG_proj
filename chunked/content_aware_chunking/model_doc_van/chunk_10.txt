@@ -1,0 +1,1 @@
+(2) The quadratic complexity is too expensive for high-resolution images.

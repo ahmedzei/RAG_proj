@@ -1,0 +1,1 @@
+While [~generation.GenerationMixin.generate] does its best effort to infer the attention mask when it is not passed, we recommend passing it whenever possible for optimal results.

@@ -1,0 +1,3 @@
+At Hugging Face, one of our main goals is to make people
+stand on the shoulders of giants which translates here very well into taking a working model and rewriting it to make
+it as accessible, user-friendly, and beautiful as possible.

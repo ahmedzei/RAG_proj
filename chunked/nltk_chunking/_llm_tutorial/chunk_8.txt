@@ -1,0 +1,1 @@
+Autoregressive generation with LLMs is also resource-intensive and should be executed on a GPU for adequate throughput.

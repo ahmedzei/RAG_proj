@@ -1,0 +1,1 @@
+It requires finetuning to be used for downstream tasks such as Automatic Speech Recognition (ASR), or Audio Classification.

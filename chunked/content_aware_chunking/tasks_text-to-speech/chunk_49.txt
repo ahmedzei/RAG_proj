@@ -1,0 +1,2 @@
+Speaker embeddings
+To enable the TTS model to differentiate between multiple speakers, you'll need to create a speaker embedding for each example.

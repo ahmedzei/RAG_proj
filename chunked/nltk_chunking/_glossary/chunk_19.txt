@@ -1,0 +1,1 @@
+In 🤗 Transformers, the channel can be the first or last dimension of an image's tensor: [n_channels, height, width] or [height, width, n_channels].

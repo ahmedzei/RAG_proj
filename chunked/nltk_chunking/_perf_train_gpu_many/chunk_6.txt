@@ -1,0 +1,2 @@
+This guide offers an in-depth overview of individual types of parallelism, as well as guidance on ways to combine 
+techniques and choosing an appropriate approach.

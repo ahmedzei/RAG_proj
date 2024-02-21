@@ -1,0 +1,3 @@
+[SEP] wie baw brown & williamson tobacco corporation research & development 
+
+We'll need to find the position of the answer in the encoded input.

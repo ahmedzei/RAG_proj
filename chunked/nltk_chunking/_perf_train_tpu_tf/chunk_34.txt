@@ -1,0 +1,1 @@
+When you use more than a single TPU but less than a whole pod (for example, a v3-32), your TPU fleet is referred to as a pod slice.

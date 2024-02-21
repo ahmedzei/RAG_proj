@@ -1,0 +1,1 @@
+Let's start by exploring a motivating example of GPU utilization and the training run of a model.

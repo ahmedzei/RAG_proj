@@ -1,0 +1,2 @@
+Note that you can still use both separately, if you only want to handle one
+modality.

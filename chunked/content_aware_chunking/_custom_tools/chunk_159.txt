@@ -1,0 +1,4 @@
+To do so, just call push_to_hub on the tool variable:
+python
+tool.push_to_hub("hf-model-downloads")
+You now have your code on the Hub!

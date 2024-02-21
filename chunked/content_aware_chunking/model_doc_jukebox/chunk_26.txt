@@ -1,0 +1,25 @@
+JukeboxConfig
+[[autodoc]] JukeboxConfig
+JukeboxPriorConfig
+[[autodoc]] JukeboxPriorConfig
+JukeboxVQVAEConfig
+[[autodoc]] JukeboxVQVAEConfig
+JukeboxTokenizer
+[[autodoc]] JukeboxTokenizer
+    - save_vocabulary
+JukeboxModel
+[[autodoc]] JukeboxModel
+    - ancestral_sample
+    - primed_sample
+    - continue_sample
+    - upsample
+    - _sample
+JukeboxPrior
+[[autodoc]] JukeboxPrior
+    - sample
+    - forward
+JukeboxVQVAE
+[[autodoc]] JukeboxVQVAE
+    - forward
+    - encode
+    - decode

@@ -1,0 +1,5 @@
+DeepSpeed and Megatron-LM integrations are available in 🤗 Accelerate
+Other approaches:
+DeepSpeed, Varuna and SageMaker use the concept of an Interleaved Pipeline
+
+Here the bubble (idle time) is further minimized by prioritizing backward passes.

@@ -1,0 +1,2 @@
+Therefore a small speed-up is
+  gained, when [LEDTokenizer] is used with the pad_to_multiple_of argument.

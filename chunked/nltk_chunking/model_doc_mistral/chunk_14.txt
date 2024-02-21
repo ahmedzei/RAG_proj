@@ -1,0 +1,17 @@
+MistralConfig
+[[autodoc]] MistralConfig
+MistralModel
+[[autodoc]] MistralModel
+    - forward
+MistralForCausalLM
+[[autodoc]] MistralForCausalLM
+    - forward
+MistralForSequenceClassification
+[[autodoc]] MistralForSequenceClassification
+    - forward
+FlaxMistralModel
+[[autodoc]] FlaxMistralModel
+    - call
+FlaxMistralForCausalLM
+[[autodoc]] FlaxMistralForCausalLM
+    - call

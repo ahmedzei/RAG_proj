@@ -1,0 +1,6 @@
+resume from latest checkpoint
+trainer.train(resume_from_checkpoint=True)
+resume from specific checkpoint saved in output directory
+trainer.train(resume_from_checkpoint="your-model/checkpoint-1000")
+
+You can save your checkpoints (the optimizer state is not saved by default) to the Hub by setting push_to_hub=True in [TrainingArguments] to commit and push them.

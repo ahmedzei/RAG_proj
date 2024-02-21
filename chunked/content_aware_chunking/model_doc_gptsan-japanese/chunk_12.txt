@@ -1,0 +1,1 @@
+GPTSAN has a sparse Feed Forward based on Switch-Transformer.

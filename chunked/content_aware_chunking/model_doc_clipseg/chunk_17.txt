@@ -1,0 +1,1 @@
+[CLIPSegForImageSegmentation] can generate image segmentations based on arbitrary prompts at test time.

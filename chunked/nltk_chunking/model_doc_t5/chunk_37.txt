@@ -1,0 +1,2 @@
+In teacher-forcing style, the target
+sequence is then appended by the EOS token and corresponds to the labels.

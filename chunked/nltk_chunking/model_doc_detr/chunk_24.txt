@@ -1,0 +1,2 @@
+This is a tensor of shape
+(batch_size, num_queries, d_model), with num_queries typically set to 100 and initialized with zeros.

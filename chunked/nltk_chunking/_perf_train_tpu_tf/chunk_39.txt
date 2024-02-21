@@ -1,0 +1,1 @@
+In JAX it is the only compiler, whereas in TensorFlow it is optional (but mandatory on TPU!).

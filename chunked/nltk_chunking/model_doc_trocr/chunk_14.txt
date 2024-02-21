@@ -1,0 +1,1 @@
+TrOCR is pre-trained in 2 stages before being fine-tuned on downstream datasets.

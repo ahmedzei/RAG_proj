@@ -1,0 +1,3 @@
+This way instead of assigning the query key embedding vectors to one of \((1,\ldots,
+n_{\text{buckets}})\) they are assigned to one of \((1-1,\ldots, n_{\text{buckets}}^1-1, \ldots,
+1-n_{\text{buckets}}^2, \ldots, n_{\text{buckets}}^1-n_{\text{buckets}}^2)\).

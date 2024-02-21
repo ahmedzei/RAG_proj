@@ -1,0 +1,2 @@
+Notably, it achieves 75.7% top-1 accuracy with only 1% of ImageNet-1K
+labels when fine-tuned.

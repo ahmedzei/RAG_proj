@@ -1,0 +1,1 @@
+These models learn aligned vision-language representations that can be used for many downstream tasks including zero-shot image classification.

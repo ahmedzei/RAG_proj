@@ -1,0 +1,2 @@
+Empirical studies show that MobileBERT is
+4.3x smaller and 5.5x faster than BERT_BASE while achieving competitive results on well-known benchmarks.

@@ -1,0 +1,8 @@
+Let's load the data:
+
+from datasets import load_dataset, Audio
+dataset = load_dataset("facebook/voxpopuli", "nl", split="train")
+len(dataset)
+20968
+
+20968 examples should be sufficient for fine-tuning.

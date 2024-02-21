@@ -1,0 +1,4 @@
+Set the padding parameter to True to pad the shorter sequences in the batch to match the longest sequence:
+
+batch_sentences = [
+     "But what about second breakfast?

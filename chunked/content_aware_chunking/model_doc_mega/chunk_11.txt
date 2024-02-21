@@ -1,0 +1,1 @@
+See Appendix D in the MEGA paper for examples of architectural specs which perform well in various settings.

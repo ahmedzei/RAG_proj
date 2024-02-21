@@ -1,0 +1,2 @@
+Agents
+The "agent" here is a large language model, and we're prompting it so that it has access to a specific set of tools.

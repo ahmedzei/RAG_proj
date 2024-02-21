@@ -1,0 +1,2 @@
+Note that VoxPopuli or any other automated speech recognition (ASR) dataset may not be the most suitable 
+option for training TTS models.

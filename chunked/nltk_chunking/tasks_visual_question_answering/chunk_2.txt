@@ -1,0 +1,2 @@
+Some noteworthy use case examples for VQA include:
+* Accessibility applications for visually impaired individuals.

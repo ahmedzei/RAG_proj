@@ -1,0 +1,6 @@
+"},
+]
+print(pipe(messages, max_new_tokens=128)[0]['generated_text'][-1])  # Print the assistant's response
+
+text
+{'role': 'assistant', 'content': "Matey, I'm afraid I must inform ye that humans cannot eat helicopters.

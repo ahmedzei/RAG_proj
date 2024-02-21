@@ -1,0 +1,1 @@
+DeepSpeed is integrated with the [Trainer] class and most of the setup is automatically taken care of for you.

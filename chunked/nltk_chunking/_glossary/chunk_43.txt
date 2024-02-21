@@ -1,0 +1,3 @@
+For an input of size [batch_size, sequence_length], the memory required to store the intermediate feed forward
+embeddings [batch_size, sequence_length, config.intermediate_size] can account for a large fraction of the memory
+use.

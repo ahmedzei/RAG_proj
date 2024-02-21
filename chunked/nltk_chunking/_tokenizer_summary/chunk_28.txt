@@ -1,0 +1,3 @@
+Space and
+punctuation tokenization and rule-based tokenization are both examples of word tokenization, which is loosely defined
+as splitting sentences into words.

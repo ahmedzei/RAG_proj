@@ -1,0 +1,1 @@
+- Use Linear layers instead of Conv1D (good speedup but makes the checkpoints incompatible).

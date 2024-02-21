@@ -1,0 +1,2 @@
+Our MAE approach is simple: we mask random patches of the
+input image and reconstruct the missing pixels.

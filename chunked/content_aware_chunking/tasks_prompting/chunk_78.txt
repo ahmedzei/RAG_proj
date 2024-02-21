@@ -1,0 +1,5 @@
+Let's increase the complexity a little and see if we can still get away with a basic prompt:
+thon
+
+torch.manual_seed(6) # doctest: +IGNORE_RESULT
+prompt = """I baked 15 muffins.

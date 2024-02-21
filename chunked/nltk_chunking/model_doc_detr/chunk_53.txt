@@ -1,0 +1,2 @@
+At training time, scale augmentation is used such that the shortest side is randomly set to at
+  least 480 and at most 800 pixels.

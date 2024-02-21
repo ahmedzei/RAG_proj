@@ -1,0 +1,7 @@
+The device_map parameter is optional, but we recommend setting it to "auto" to allow 🤗 Accelerate to automatically and efficiently allocate the model given the available resources in the environment:
+
+from transformers import AutoModelForCausalLM
+model_name = "bigscience/bloom-2b5"
+model_8bit = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", load_in_8bit=True)
+
+If you're loading a model in 8-bit for text generation, you should use the [~transformers.GenerationMixin.generate] method instead of the [Pipeline] function which is not optimized for 8-bit models and will be slower.

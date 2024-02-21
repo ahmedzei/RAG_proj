@@ -1,0 +1,1 @@
+For example, the function tf.unique cannot be compiled with XLA, because it returns a tensor containing one instance of each unique value in the input.

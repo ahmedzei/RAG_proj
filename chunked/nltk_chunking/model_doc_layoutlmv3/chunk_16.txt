@@ -1,0 +1,1 @@
+text is tokenized using byte-pair encoding (BPE), as opposed to WordPiece.

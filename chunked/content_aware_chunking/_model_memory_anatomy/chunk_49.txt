@@ -1,0 +1,2 @@
+Functionality-specific memory
+Then, your software could have special memory needs.

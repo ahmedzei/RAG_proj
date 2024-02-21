@@ -1,0 +1,2 @@
+One can use [ImageGPTImageProcessor] to prepare
+  images for the model.

@@ -1,0 +1,9 @@
+After that, anyone can use it as long as they provide the option
+trust_remote_code=True:
+
+from transformers import pipeline
+classifier = pipeline(model="{your_username}/test-dynamic-pipeline", trust_remote_code=True)
+
+Add the pipeline to 🤗 Transformers
+If you want to contribute your pipeline to 🤗 Transformers, you will need to add a new module in the pipelines submodule
+with the code of your pipeline, then add it to the list of tasks defined in pipelines/__init__.py.

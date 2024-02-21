@@ -1,0 +1,2 @@
+To 
+determine this, we can count the number of unique speakers and the number of examples each speaker contributes to the dataset.

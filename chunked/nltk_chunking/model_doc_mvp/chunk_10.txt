@@ -1,0 +1,1 @@
+If you want to use a model with task-specific prompts, such as summarization, you can load it through MvpForConditionalGeneration.from_pretrained('RUCAIBox/mvp-summarization').

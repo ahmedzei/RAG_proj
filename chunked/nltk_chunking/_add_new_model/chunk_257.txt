@@ -1,0 +1,3 @@
+From our experience, a simple and efficient way is to add many print statements
+in both the original implementation and 🤗 Transformers implementation, at the same positions in the network
+respectively, and to successively remove print statements showing the same values for intermediate presentations.

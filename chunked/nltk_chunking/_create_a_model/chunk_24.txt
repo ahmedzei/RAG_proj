@@ -1,0 +1,1 @@
+Every model shares the base class [PreTrainedModel] and a few common methods like resizing input embeddings and pruning self-attention heads.

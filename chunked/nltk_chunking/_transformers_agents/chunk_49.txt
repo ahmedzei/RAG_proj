@@ -1,0 +1,2 @@
+Tools are meant to be focused on
+one very simple task only.

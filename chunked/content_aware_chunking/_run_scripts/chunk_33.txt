@@ -1,0 +1,1 @@
+🤗 Accelerate supported scripts will have a task_no_trainer.py file in the folder.

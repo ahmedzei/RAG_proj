@@ -1,0 +1,26 @@
+DocumentQuestionAnsweringPipeline
+[[autodoc]] DocumentQuestionAnsweringPipeline
+    - call
+    - all
+FeatureExtractionPipeline
+[[autodoc]] FeatureExtractionPipeline
+    - call
+    - all
+ImageFeatureExtractionPipeline
+[[autodoc]] ImageFeatureExtractionPipeline
+    - call
+    - all
+ImageToTextPipeline
+[[autodoc]] ImageToTextPipeline
+    - call
+    - all
+MaskGenerationPipeline
+[[autodoc]] MaskGenerationPipeline
+    - call
+    - all
+VisualQuestionAnsweringPipeline
+[[autodoc]] VisualQuestionAnsweringPipeline
+    - call
+    - all
+Parent class: Pipeline
+[[autodoc]] Pipeline

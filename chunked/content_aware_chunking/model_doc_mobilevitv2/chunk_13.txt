@@ -1,0 +1,1 @@
+It does not work on sequence data but on batches of images.

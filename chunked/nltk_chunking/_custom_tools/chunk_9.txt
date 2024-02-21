@@ -1,0 +1,2 @@
+Structure of the prompt
+Let's take a closer look at how the prompt is structured to understand how it can be best customized.

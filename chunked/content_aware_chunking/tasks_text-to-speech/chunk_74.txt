@@ -1,0 +1,1 @@
+The decoder then predicts a sequence that is twice as long.

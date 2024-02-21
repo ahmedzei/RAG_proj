@@ -1,0 +1,1 @@
+You could also replace the Transformers modeling code and replace torch.utils.checkpoint with the DeepSpeed API.

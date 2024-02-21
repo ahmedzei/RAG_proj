@@ -1,0 +1,2 @@
+Usage example
+The code snippet below shows how to randomly initialize a PatchTSMixer model.

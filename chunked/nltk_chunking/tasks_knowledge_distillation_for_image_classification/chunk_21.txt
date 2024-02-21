@@ -1,0 +1,1 @@
+If two are identical, their KL divergence is zero, as there's no other information needed to explain P from Q.

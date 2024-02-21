@@ -1,0 +1,1 @@
+You only have to pass generate_speech=False to [SeamlessM4TModel.generate].

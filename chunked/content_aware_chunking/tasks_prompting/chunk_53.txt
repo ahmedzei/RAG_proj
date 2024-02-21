@@ -1,0 +1,12 @@
+Translation:
+ """
+sequences = pipe(
+     prompt,
+     max_new_tokens=20,
+     do_sample=True,
+     top_k=10,
+     return_full_text = False,
+ )
+for seq in sequences:
+     print(f"{seq['generated_text']}")
+A volte, ho creduto a sei impossibili cose prima di colazione.

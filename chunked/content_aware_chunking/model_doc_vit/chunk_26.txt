@@ -1,0 +1,4 @@
+Usage tips
+
+To feed images to the Transformer encoder, each image is split into a sequence of fixed-size non-overlapping patches,
+  which are then linearly embedded.

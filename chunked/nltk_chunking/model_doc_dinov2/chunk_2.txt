@@ -1,0 +1,1 @@
+This method enables all-purpose visual features, i.e., features that work across image distributions and tasks without finetuning.

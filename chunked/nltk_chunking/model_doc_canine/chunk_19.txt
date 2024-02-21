@@ -1,0 +1,2 @@
+For token classification tasks however, the downsampled sequence of
+  tokens needs to be upsampled again to match the length of the original character sequence (which is 2048).

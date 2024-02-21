@@ -1,0 +1,3 @@
+Usage tips
+
+XLM has many different checkpoints, which were trained using different objectives: CLM, MLM or TLM.

@@ -1,0 +1,7 @@
+When prompted, enter your token to log in:
+
+from huggingface_hub import notebook_login
+notebook_login()
+
+Load UCF101 dataset
+Start by loading a subset of the UCF-101 dataset.

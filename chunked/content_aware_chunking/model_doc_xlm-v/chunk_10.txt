@@ -1,0 +1,4 @@
+Usage tips
+
+XLM-V is compatible with the XLM-RoBERTa model architecture, only model weights from fairseq
+  library had to be converted.

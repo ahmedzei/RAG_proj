@@ -1,0 +1,1 @@
+As for images, the processor will leverage [ViltImageProcessor] to resize and normalize the image, and create pixel_values and pixel_mask.

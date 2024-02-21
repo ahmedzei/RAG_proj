@@ -1,0 +1,1 @@
+One can use [OneFormerProcessor] to prepare input images and task inputs for the model and optional targets for the model.

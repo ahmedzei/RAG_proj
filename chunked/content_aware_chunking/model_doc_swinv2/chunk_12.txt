@@ -1,0 +1,1 @@
+[Swinv2ForImageClassification] is supported by this example script and notebook.

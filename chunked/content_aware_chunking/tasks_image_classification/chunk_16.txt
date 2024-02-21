@@ -1,0 +1,2 @@
+Unlike other data collators in 🤗 Transformers, the
+DefaultDataCollator does not apply additional preprocessing, such as padding.

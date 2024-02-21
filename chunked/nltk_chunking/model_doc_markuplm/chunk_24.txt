@@ -1,0 +1,2 @@
+[MarkupLMFeatureExtractor] uses Beautiful Soup, a Python library for
+pulling data out of HTML and XML files, under the hood.

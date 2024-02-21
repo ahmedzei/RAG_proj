@@ -1,0 +1,6 @@
+Once again, here's how 
+you can write a basic prompt to instruct a model to translate a piece of text from English to Italian: 
+thon
+
+torch.manual_seed(2) # doctest: +IGNORE_RESULT
+prompt = """Translate the English text to Italian.

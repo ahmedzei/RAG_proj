@@ -1,0 +1,4 @@
+Naming
+
+All model names use the following format: Helsinki-NLP/opus-mt-{src}-{tgt}
+The language codes used to name models are inconsistent.

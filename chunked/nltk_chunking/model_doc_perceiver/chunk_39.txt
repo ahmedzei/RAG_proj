@@ -1,0 +1,2 @@
+Refer to the blog post if you want to fully understand how the model works and
+is implemented in the library.

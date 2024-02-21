@@ -1,0 +1,4 @@
+We
+developed a Transformer-based sequence-to-sequence model that is compatible with publicly available pre-trained BERT,
+GPT-2 and RoBERTa checkpoints and conducted an extensive empirical study on the utility of initializing our model, both
+encoder and decoder, with these checkpoints.

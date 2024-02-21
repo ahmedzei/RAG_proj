@@ -1,0 +1,2 @@
+This implementation
+works with image and audio objects.

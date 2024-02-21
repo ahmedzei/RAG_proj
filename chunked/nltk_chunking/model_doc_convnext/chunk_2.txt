@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+The "Roaring 20s" of visual recognition began with the introduction of Vision Transformers (ViTs), which quickly superseded ConvNets as the state-of-the-art image classification model.

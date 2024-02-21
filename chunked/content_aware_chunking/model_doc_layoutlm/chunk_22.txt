@@ -1,0 +1,3 @@
+A blog post on fine-tuning
+  LayoutLM for document-understanding using Keras & Hugging Face
+  Transformers.

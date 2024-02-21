@@ -1,0 +1,2 @@
+The only difference is that the model includes
+  additional embedding layers for the language modality.

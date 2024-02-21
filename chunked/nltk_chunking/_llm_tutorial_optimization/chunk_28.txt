@@ -1,0 +1,1 @@
+For this, simply load the model with device="auto" which will automatically place the different layers on the available GPUs as explained here.

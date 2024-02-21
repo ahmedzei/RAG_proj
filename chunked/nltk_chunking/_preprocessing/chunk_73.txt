@@ -1,0 +1,1 @@
+Image preprocessing often follows some form of image augmentation.

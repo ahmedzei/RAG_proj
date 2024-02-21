@@ -1,0 +1,3 @@
+
+Tokenizer
+A tokenizer is in charge of preparing the inputs for a model.

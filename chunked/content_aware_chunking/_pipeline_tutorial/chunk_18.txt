@@ -1,0 +1,1 @@
+For a deep-dive comparison on Wav2Vec2 vs Whisper, refer to the Audio Transformers Course.

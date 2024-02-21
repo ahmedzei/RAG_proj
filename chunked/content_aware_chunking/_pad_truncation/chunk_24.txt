@@ -1,0 +1,1 @@
+If the model has no specific maximum input length, truncation or padding to max_length is deactivated.

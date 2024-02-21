@@ -1,0 +1,1 @@
+the word "love" attends to the word "Hello" with 5%, to "I" with 30%, and to itself with 65%.

@@ -1,0 +1,2 @@
+This model can also be used with TTS checkpoints from Massively Multilingual Speech (MMS) 
+as these checkpoints use the same architecture and a slightly modified tokenizer.

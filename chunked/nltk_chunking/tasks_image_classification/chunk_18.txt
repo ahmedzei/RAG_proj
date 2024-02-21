@@ -1,0 +1,2 @@
+You can quickly load an
+evaluation method with the 🤗 Evaluate library.

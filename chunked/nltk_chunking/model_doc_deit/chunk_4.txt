@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+Recently, neural networks purely based on attention were shown to address image understanding tasks such as image
+classification.

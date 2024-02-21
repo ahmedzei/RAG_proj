@@ -1,0 +1,2 @@
+The [Speech2TextFeatureExtractor] class is responsible for extracting the log-mel filter-bank
+features.

@@ -1,0 +1,2 @@
+In this guide, you'll use tf.image to randomly change the color properties of an image, but you can also use any image
+library you like.

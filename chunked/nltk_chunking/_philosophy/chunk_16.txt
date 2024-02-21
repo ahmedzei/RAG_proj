@@ -1,0 +1,4 @@
+Main concepts
+The library is built around three types of classes for each model:
+
+Model classes can be PyTorch models (torch.nn.Module), Keras models (tf.keras.Model) or JAX/Flax models (flax.linen.Module) that work with the pretrained weights provided in the library.

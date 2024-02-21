@@ -1,0 +1,1 @@
+It automatically selects the tool (or tools) appropriate for the task you want to perform and runs them appropriately.

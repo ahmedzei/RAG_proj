@@ -1,0 +1,1 @@
+At Hugging Face, we created the 🤗 Accelerate library to help users easily train a 🤗 Transformers model on any type of distributed setup, whether it is multiple GPU's on one machine or multiple GPU's across several machines.

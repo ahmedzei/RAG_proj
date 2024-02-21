@@ -1,0 +1,2 @@
+It, furthermore, allows each input token to
+interact with all other tokens in the layer.

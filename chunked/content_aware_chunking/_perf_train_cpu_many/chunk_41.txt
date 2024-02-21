@@ -1,0 +1,2 @@
+When you are done
+with the job, the PyTorchJob resource can be deleted from the cluster using kubectl delete -f pytorchjob.yaml.

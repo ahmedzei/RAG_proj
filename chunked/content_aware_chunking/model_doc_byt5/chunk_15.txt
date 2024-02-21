@@ -1,0 +1,9 @@
+Usage example
+ByT5 works on raw UTF-8 bytes, so it can be used without a tokenizer:
+thon
+
+from transformers import T5ForConditionalGeneration
+import torch
+model = T5ForConditionalGeneration.from_pretrained("google/byt5-small")
+num_special_tokens = 3
+Model has 3 special tokens which take up the input ids 0,1,2 of ByT5.

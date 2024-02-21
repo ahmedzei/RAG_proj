@@ -1,0 +1,4 @@
+
+MVP
+Overview
+The MVP model was proposed in MVP: Multi-task Supervised Pre-training for Natural Language Generation by Tianyi Tang, Junyi Li, Wayne Xin Zhao and Ji-Rong Wen.

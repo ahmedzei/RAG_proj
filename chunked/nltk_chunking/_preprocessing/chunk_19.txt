@@ -1,0 +1,4 @@
+Return your input by decoding the input_ids:
+
+tokenizer.decode(encoded_input["input_ids"])
+'[CLS] Do not meddle in the affairs of wizards, for they are subtle and quick to anger.

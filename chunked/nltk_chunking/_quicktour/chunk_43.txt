@@ -1,0 +1,1 @@
+This means you can load an [TFAutoModel] like you would load an [AutoTokenizer].

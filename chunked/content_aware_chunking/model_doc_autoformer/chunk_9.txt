@@ -1,0 +1,1 @@
+This design empowers Autoformer with progressive decomposition capacities for complex time series.

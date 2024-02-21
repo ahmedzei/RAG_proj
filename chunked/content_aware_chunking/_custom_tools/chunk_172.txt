@@ -1,0 +1,1 @@
+It supports many existing Spaces as well as custom Spaces to be designed with it.

@@ -1,0 +1,62 @@
+Data2VecTextConfig
+[[autodoc]] Data2VecTextConfig
+Data2VecAudioConfig
+[[autodoc]] Data2VecAudioConfig
+Data2VecVisionConfig
+[[autodoc]] Data2VecVisionConfig
+
+Data2VecAudioModel
+[[autodoc]] Data2VecAudioModel
+    - forward
+Data2VecAudioForAudioFrameClassification
+[[autodoc]] Data2VecAudioForAudioFrameClassification
+    - forward
+Data2VecAudioForCTC
+[[autodoc]] Data2VecAudioForCTC
+    - forward
+Data2VecAudioForSequenceClassification
+[[autodoc]] Data2VecAudioForSequenceClassification
+    - forward
+Data2VecAudioForXVector
+[[autodoc]] Data2VecAudioForXVector
+    - forward
+Data2VecTextModel
+[[autodoc]] Data2VecTextModel
+    - forward
+Data2VecTextForCausalLM
+[[autodoc]] Data2VecTextForCausalLM
+    - forward
+Data2VecTextForMaskedLM
+[[autodoc]] Data2VecTextForMaskedLM
+    - forward
+Data2VecTextForSequenceClassification
+[[autodoc]] Data2VecTextForSequenceClassification
+    - forward
+Data2VecTextForMultipleChoice
+[[autodoc]] Data2VecTextForMultipleChoice
+    - forward
+Data2VecTextForTokenClassification
+[[autodoc]] Data2VecTextForTokenClassification
+    - forward
+Data2VecTextForQuestionAnswering
+[[autodoc]] Data2VecTextForQuestionAnswering
+    - forward
+Data2VecVisionModel
+[[autodoc]] Data2VecVisionModel
+    - forward
+Data2VecVisionForImageClassification
+[[autodoc]] Data2VecVisionForImageClassification
+    - forward
+Data2VecVisionForSemanticSegmentation
+[[autodoc]] Data2VecVisionForSemanticSegmentation
+    - forward
+
+TFData2VecVisionModel
+[[autodoc]] TFData2VecVisionModel
+    - call
+TFData2VecVisionForImageClassification
+[[autodoc]] TFData2VecVisionForImageClassification
+    - call
+TFData2VecVisionForSemanticSegmentation
+[[autodoc]] TFData2VecVisionForSemanticSegmentation
+    - call

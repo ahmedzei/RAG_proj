@@ -1,0 +1,7 @@
+For your next steps to help you dive deeper into LLM usage and understanding:
+Advanced generate usage
+
+Guide on how to control different generation methods, how to set up the generation configuration file, and how to stream the output;
+Guide on the prompt template for chat LLMs;
+Guide on to get the most of prompt design;
+API reference on [~generation.GenerationConfig], [~generation.GenerationMixin.generate], and generate-related classes.

@@ -1,0 +1,4 @@
+
+RoCBert
+Overview
+The RoCBert model was proposed in RoCBert: Robust Chinese Bert with Multimodal Contrastive Pretraining  by HuiSu, WeiweiShi, XiaoyuShen, XiaoZhou, TuoJi, JiaruiFang, JieZhou.

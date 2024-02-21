@@ -1,0 +1,2 @@
+Then, a global token for such a block is obtained via summing and normalizing the embeddings of every token
+in the block.

@@ -1,0 +1,1 @@
+Due to these differences in data preprocessing, one can use [LayoutLMv3Processor] which internally combines a [LayoutLMv3ImageProcessor] (for the image modality) and a [LayoutLMv3Tokenizer]/[LayoutLMv3TokenizerFast] (for the text modality) to prepare all data for the model.

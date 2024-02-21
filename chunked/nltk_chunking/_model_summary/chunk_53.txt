@@ -1,0 +1,1 @@
+It masks tokens to the right so the model can't "cheat" by looking ahead.

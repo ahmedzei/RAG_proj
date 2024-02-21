@@ -1,0 +1,1 @@
+This vector is treated as the first embedding in self-attention to bring extraneous attention to the generated tokens.

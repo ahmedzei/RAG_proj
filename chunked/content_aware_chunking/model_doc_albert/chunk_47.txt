@@ -1,0 +1,78 @@
+AlbertConfig
+[[autodoc]] AlbertConfig
+AlbertTokenizer
+[[autodoc]] AlbertTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+AlbertTokenizerFast
+[[autodoc]] AlbertTokenizerFast
+Albert specific outputs
+[[autodoc]] models.albert.modeling_albert.AlbertForPreTrainingOutput
+[[autodoc]] models.albert.modeling_tf_albert.TFAlbertForPreTrainingOutput
+
+AlbertModel
+[[autodoc]] AlbertModel
+    - forward
+AlbertForPreTraining
+[[autodoc]] AlbertForPreTraining
+    - forward
+AlbertForMaskedLM
+[[autodoc]] AlbertForMaskedLM
+    - forward
+AlbertForSequenceClassification
+[[autodoc]] AlbertForSequenceClassification
+    - forward
+AlbertForMultipleChoice
+[[autodoc]] AlbertForMultipleChoice
+AlbertForTokenClassification
+[[autodoc]] AlbertForTokenClassification
+    - forward
+AlbertForQuestionAnswering
+[[autodoc]] AlbertForQuestionAnswering
+    - forward
+
+TFAlbertModel
+[[autodoc]] TFAlbertModel
+    - call
+TFAlbertForPreTraining
+[[autodoc]] TFAlbertForPreTraining
+    - call
+TFAlbertForMaskedLM
+[[autodoc]] TFAlbertForMaskedLM
+    - call
+TFAlbertForSequenceClassification
+[[autodoc]] TFAlbertForSequenceClassification
+    - call
+TFAlbertForMultipleChoice
+[[autodoc]] TFAlbertForMultipleChoice
+    - call
+TFAlbertForTokenClassification
+[[autodoc]] TFAlbertForTokenClassification
+    - call
+TFAlbertForQuestionAnswering
+[[autodoc]] TFAlbertForQuestionAnswering
+    - call
+
+FlaxAlbertModel
+[[autodoc]] FlaxAlbertModel
+    - call
+FlaxAlbertForPreTraining
+[[autodoc]] FlaxAlbertForPreTraining
+    - call
+FlaxAlbertForMaskedLM
+[[autodoc]] FlaxAlbertForMaskedLM
+    - call
+FlaxAlbertForSequenceClassification
+[[autodoc]] FlaxAlbertForSequenceClassification
+    - call
+FlaxAlbertForMultipleChoice
+[[autodoc]] FlaxAlbertForMultipleChoice
+    - call
+FlaxAlbertForTokenClassification
+[[autodoc]] FlaxAlbertForTokenClassification
+    - call
+FlaxAlbertForQuestionAnswering
+[[autodoc]] FlaxAlbertForQuestionAnswering
+    - call

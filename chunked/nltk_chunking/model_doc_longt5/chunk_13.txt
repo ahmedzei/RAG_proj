@@ -1,0 +1,2 @@
+LongT5 model is designed to work efficiently and very well on long-range sequence-to-sequence tasks where the
+input sequence exceeds commonly used 512 tokens.

@@ -1,0 +1,9 @@
+There are two common types of question answering:
+
+extractive: given a question and some context, the answer is a span of text from the context the model must extract
+abstractive: given a question and some context, the answer is generated from the context; this approach is handled by the [Text2TextGenerationPipeline] instead of the [QuestionAnsweringPipeline] shown below
+
+from transformers import pipeline
+question_answerer = pipeline(task="question-answering")
+preds = question_answerer(
+     question="What is the name of the repository?

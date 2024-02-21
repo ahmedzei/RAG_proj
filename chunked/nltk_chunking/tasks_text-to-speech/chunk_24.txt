@@ -1,0 +1,2 @@
+In normalized_text the numbers are written 
+out as text.

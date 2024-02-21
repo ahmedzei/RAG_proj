@@ -1,0 +1,4 @@
+", return_tensors="pt")
+outputs = model.generate(**inputs)
+print(tokenizer.batch_decode(outputs, skip_special_tokens=True))
+['Eu amo pizza!']

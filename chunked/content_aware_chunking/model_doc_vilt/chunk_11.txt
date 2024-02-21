@@ -1,0 +1,4 @@
+Usage tips
+
+The quickest way to get started with ViLT is by checking the example notebooks
+  (which showcase both inference and fine-tuning on custom data).

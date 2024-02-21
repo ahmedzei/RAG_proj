@@ -1,0 +1,2 @@
+Performance
+If you'd like a faster training and inference performance, install NVIDIA APEX for NVIDIA GPUs, or ROCm APEX for AMD GPUs and then the model will automatically use apex.normalization.FusedRMSNorm instead of T5LayerNorm.

@@ -1,0 +1,1 @@
+The wrapping is usually applied in a nested way where the full weights are discarded after each forward pass to save memory for use in the next layer.

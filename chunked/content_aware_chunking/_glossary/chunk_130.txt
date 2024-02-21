@@ -1,0 +1,2 @@
+Sharded DDP
+Another name for the foundational ZeRO concept as used by various other implementations of ZeRO.

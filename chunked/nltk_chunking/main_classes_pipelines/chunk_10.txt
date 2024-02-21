@@ -1,0 +1,2 @@
+This should work just as fast as custom loops on
+GPU.

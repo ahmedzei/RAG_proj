@@ -1,0 +1,5 @@
+For example, to launch run_translation.py:
+py
+!git clone https://github.com/huggingface/transformers
+!cd transformers; deepspeed examples/pytorch/translation/run_translation.py 
+You could also use %%bash magic and write multi-line code to run the shell program, but you won't be able to view the logs until training is complete.

@@ -1,0 +1,2 @@
+When using CLI, pass the 
+local_path to the model argument instead of the checkpoint name on 🤗 Hub.

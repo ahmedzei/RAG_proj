@@ -1,0 +1,1 @@
+For the validation and evaluation dataset transformations, keep the same transformation chain except for random cropping and horizontal flipping.

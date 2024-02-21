@@ -1,0 +1,1 @@
+This processor wraps a image processor (for the image modality) and a tokenizer (for the language modality) into one.

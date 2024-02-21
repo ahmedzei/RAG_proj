@@ -1,0 +1,1 @@
+We're down to just a bit over 15 GBs and could therefore run this model on consumer GPUs like the 4090.

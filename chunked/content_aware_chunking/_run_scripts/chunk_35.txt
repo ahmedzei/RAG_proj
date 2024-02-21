@@ -1,0 +1,3 @@
+When you use your own dataset, you need to specify several additional arguments:
+
+train_file and validation_file specify the path to your training and validation files.

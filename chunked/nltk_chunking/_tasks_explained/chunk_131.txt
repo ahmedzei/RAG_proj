@@ -1,0 +1,1 @@
+Some tasks lend themselves to the Transformer's encoder structure, while others are better suited for the decoder.

@@ -1,0 +1,2 @@
+XLSR-Wav2Vec2 model was trained using connectionist temporal classification (CTC) so the model output has to be
+  decoded using [Wav2Vec2CTCTokenizer].

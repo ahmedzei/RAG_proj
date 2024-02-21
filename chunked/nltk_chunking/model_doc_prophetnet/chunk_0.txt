@@ -1,0 +1,6 @@
+
+ProphetNet
+
+Overview
+The ProphetNet model was proposed in ProphetNet: Predicting Future N-gram for Sequence-to-Sequence Pre-training, by Yu Yan, Weizhen Qi, Yeyun Gong, Dayiheng Liu, Nan Duan, Jiusheng Chen, Ruofei
+Zhang, Ming Zhou on 13 Jan, 2020.

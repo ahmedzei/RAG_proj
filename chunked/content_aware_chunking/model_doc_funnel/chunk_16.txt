@@ -1,0 +1,1 @@
+In those cases, the final hidden states are upsampled to the input sequence length and go through two additional layers.

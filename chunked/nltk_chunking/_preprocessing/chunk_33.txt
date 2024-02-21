@@ -1,0 +1,4 @@
+Set the truncation parameter to True to truncate a sequence to the maximum length accepted by the model:
+
+batch_sentences = [
+     "But what about second breakfast?

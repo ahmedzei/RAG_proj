@@ -1,0 +1,3 @@
+For summarization you should prefix your input as shown below:
+
+text = "summarize: The Inflation Reduction Act lowers prescription drug costs, health care costs, and energy costs.

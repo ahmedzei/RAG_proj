@@ -1,0 +1,2 @@
+AQLM configurations
+AQLM quantization setpus vary mainly on the number of codebooks used as well as codebook sizes in bits.

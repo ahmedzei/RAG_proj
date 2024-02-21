@@ -1,0 +1,5 @@
+:
+
+RUN_SLOW=1 pytest tests
+Some decorators like @parameterized rewrite test names, therefore @slow and the rest of the skip decorators
+@require_* have to be listed last for them to work correctly.

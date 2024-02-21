@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+The recently-proposed Perceiver model obtains good results on several domains (images, audio, multimodal, point
+clouds) while scaling linearly in compute and memory with the input size.

@@ -1,0 +1,1 @@
+You can reduce the batch size, increase your RAM, or decrease the UNREACHABLE_NODE_DISTANCE parameter in algos_graphormer.pyx, but it will be hard to go above 700 nodes/edges.

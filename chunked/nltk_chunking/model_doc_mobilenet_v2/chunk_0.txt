@@ -1,0 +1,4 @@
+
+MobileNet V2
+Overview
+The MobileNet model was proposed in MobileNetV2: Inverted Residuals and Linear Bottlenecks by Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, Liang-Chieh Chen.

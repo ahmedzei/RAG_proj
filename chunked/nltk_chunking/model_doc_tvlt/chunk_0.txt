@@ -1,0 +1,5 @@
+
+TVLT
+Overview
+The TVLT model was proposed in TVLT: Textless Vision-Language Transformer
+by Zineng Tang, Jaemin Cho, Yixin Nie, Mohit Bansal (the first three authors contributed equally).

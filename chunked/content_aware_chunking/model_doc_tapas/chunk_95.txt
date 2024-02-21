@@ -1,0 +1,18 @@
+",
+ ]
+answer_coordinates = [[(0, 0)], [(2, 1)], [(0, 1), (1, 1), (2, 1)]]
+answer_text = [["Brad Pitt"], ["69"], ["209"]]
+table = pd.DataFrame.from_dict(data)
+inputs = tokenizer(
+     table=table,
+     queries=queries,
+     answer_coordinates=answer_coordinates,
+     answer_text=answer_text,
+     padding="max_length",
+     return_tensors="tf",
+ )
+inputs
+{'input_ids': tensor([[  ]]), 'attention_mask': tensor([[]]), 'token_type_ids': tensor([[[]]]),
+'numeric_values': tensor([[  ]]), 'numeric_values_scale: tensor([[  ]]), labels: tensor([[  ]])}
+
+Note that [TapasTokenizer] expects the data of the table to be text-only.

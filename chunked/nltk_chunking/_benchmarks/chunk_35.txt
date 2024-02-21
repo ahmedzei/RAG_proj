@@ -1,0 +1,3 @@
+Results can vary
+  heavily between different GPU devices, library versions, etc., so that benchmark results on their own are not very
+  useful for the community.

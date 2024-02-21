@@ -1,0 +1,3 @@
+[BatchEncoding] holds the output of the
+[~tokenization_utils_base.PreTrainedTokenizerBase]'s encoding methods (__call__,
+encode_plus and batch_encode_plus) and is derived from a Python dictionary.

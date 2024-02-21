@@ -1,0 +1,1 @@
+An image encoder (ViT) and a text encoder (Transformer) are jointly trained on a 400 million (image, text) pair dataset to maximize the similarity between the image and text embeddings of the (image, text) pairs.

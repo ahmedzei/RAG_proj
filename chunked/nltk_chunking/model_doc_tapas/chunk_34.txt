@@ -1,0 +1,1 @@
+TAPAS has checkpoints fine-tuned on SQA, which are capable of answering questions related to a table in a conversational set-up.

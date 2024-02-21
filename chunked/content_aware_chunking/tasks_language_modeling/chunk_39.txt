@@ -1,0 +1,12 @@
+result = {
+         k: [t[i : i + block_size] for i in range(0, total_length, block_size)]
+         for k, t in concatenated_examples.items()
+     }
+     result["labels"] = result["input_ids"].copy()
+     return result
+
+Apply the group_texts function over the entire dataset:
+
+lm_dataset = tokenized_eli5.map(group_texts, batched=True, num_proc=4)
+
+Now create a batch of examples using [DataCollatorForLanguageModeling].

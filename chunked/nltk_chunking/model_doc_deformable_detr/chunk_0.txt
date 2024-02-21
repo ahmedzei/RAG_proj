@@ -1,0 +1,4 @@
+
+Deformable DETR
+Overview
+The Deformable DETR model was proposed in Deformable DETR: Deformable Transformers for End-to-End Object Detection by Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, Jifeng Dai.

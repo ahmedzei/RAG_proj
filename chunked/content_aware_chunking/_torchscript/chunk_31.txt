@@ -1,0 +1,8 @@
+Implications
+Transformers models based on the BERT (Bidirectional Encoder Representations from
+Transformers)
+architecture, or its variants such as
+distilBERT and
+roBERTa run best on
+Inf1 for non-generative tasks such as extractive question answering, sequence
+classification, and token classification.

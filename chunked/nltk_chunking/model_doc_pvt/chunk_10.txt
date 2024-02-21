@@ -1,0 +1,2 @@
+For example, with a comparable number of parameters, PVT+RetinaNet 
+achieves 40.4 AP on the COCO dataset, surpassing ResNet50+RetinNet (36.3 AP) by 4.1 absolute AP (see Figure 2).

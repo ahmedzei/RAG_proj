@@ -1,0 +1,6 @@
+The results are:
+| NVlink | Time |
+| -----  | ---: |
+| Y      | 101s |
+| N      | 131s |
+You can see that NVLink completes the training ~23% faster.

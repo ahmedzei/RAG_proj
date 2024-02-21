@@ -1,0 +1,3 @@
+Zero-shot object detection task guide
+
+The architecture of OWLv2 is identical to OWL-ViT, however the object detection head now also includes an objectness classifier, which predicts the (query-agnostic) likelihood that a predicted box contains an object (as opposed to background).

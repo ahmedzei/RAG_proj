@@ -1,0 +1,1 @@
+It consists in a streaming encoder-decoder architecture with quantized latent space trained in an end-to-end fashion.

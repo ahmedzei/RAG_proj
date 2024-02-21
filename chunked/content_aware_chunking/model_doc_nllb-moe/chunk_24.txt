@@ -1,0 +1,6 @@
+thon
+
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("facebook/nllb-moe-54b")
+model = AutoModelForSeq2SeqLM.from_pretrained("facebook/nllb-moe-54b")
+article = "Previously, Ring's CEO, Jamie Siminoff, remarked the company started when his doorbell wasn't audible from his shop in his garage."

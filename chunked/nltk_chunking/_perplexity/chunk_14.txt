@@ -1,0 +1,3 @@
+This is quick to compute since the perplexity of each segment can be computed in one forward pass, but serves as a poor
+approximation of the fully-factorized perplexity and will typically yield a higher (worse) PPL because the model will
+have less context at most of the prediction steps.

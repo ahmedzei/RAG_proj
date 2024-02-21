@@ -1,0 +1,1 @@
+Our results show that MobileViT significantly outperforms CNN- and ViT-based networks across different tasks and datasets.

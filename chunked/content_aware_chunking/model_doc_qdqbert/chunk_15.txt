@@ -1,0 +1,22 @@
+After setting up the tensor quantizers, one can use the following example to calibrate the model:
+thon
+
+Find the TensorQuantizer and enable calibration
+for name, module in model.named_modules():
+     if name.endswith("_input_quantizer"):
+         module.enable_calib()
+         module.disable_quant()  # Use full precision data to calibrate
+Feeding data samples
+model(x)
+
+Finalize calibration
+for name, module in model.named_modules():
+     if name.endswith("_input_quantizer"):
+         module.load_calib_amax()
+         module.enable_quant()
+If running on GPU, it needs to call .cuda() again because new tensors will be created by calibration process
+model.cuda()
+Keep running the quantized model
+
+Export to ONNX
+The goal of exporting to ONNX is to deploy inference by TensorRT.

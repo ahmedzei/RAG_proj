@@ -1,0 +1,1 @@
+For this guide, let's assume there are two nodes with 8 GPUs each.

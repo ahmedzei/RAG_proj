@@ -1,0 +1,8 @@
+thon
+
+pipe = pipeline("text-classification")
+pipe(["This restaurant is awesome", "This restaurant is awful"])
+[{'label': 'POSITIVE', 'score': 0.9998743534088135},
+ {'label': 'NEGATIVE', 'score': 0.9996669292449951}]
+
+To iterate over full datasets it is recommended to use a dataset directly.

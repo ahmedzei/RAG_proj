@@ -1,0 +1,8 @@
+thon
+pipe = pipeline("text-generation", model=model, tokenizer=tokenizer)
+result = pipe(prompt, max_new_tokens=60)[0]["generated_text"][len(prompt):]
+result
+
+Output:
+Here is a Python function that transforms bytes to Giga bytes:\n\npython\ndef bytes_to_giga_bytes(bytes):\n    return bytes / 1024 / 1024 / 1024\n\n\nThis function takes a single
+Nice, we're getting the same result as before, so no loss in accuracy!

@@ -1,0 +1,3 @@
+
+Distributed training with 🤗 Accelerate
+As models get bigger, parallelism has emerged as a strategy for training larger models on limited hardware and accelerating training speed by several orders of magnitude.

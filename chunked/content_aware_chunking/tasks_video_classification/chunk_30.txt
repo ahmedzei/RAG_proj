@@ -1,0 +1,18 @@
+import pytorchvideo.data
+from pytorchvideo.transforms import (
+     ApplyTransformToKey,
+     Normalize,
+     RandomShortSideScale,
+     RemoveKey,
+     ShortSideScale,
+     UniformTemporalSubsample,
+ )
+from torchvision.transforms import (
+     Compose,
+     Lambda,
+     RandomCrop,
+     RandomHorizontalFlip,
+     Resize,
+ )
+
+For the training dataset transformations, use a combination of uniform temporal subsampling, pixel normalization, random cropping, and random horizontal flipping.

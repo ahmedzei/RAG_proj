@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Grouping and recognition are important components of visual scene understanding, e.g., for object detection and semantic segmentation.

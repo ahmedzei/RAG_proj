@@ -1,0 +1,1 @@
+Currently, only MANUAL_SEED_FN, EMPTY_CACHE_FN and DEVICE_COUNT_FN are supported for device-specific dispatch.

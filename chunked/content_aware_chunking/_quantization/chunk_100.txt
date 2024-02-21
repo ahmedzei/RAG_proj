@@ -1,0 +1,1 @@
+This feature performs a second quantization of the already quantized weights to save an addition 0.4 bits/parameter.

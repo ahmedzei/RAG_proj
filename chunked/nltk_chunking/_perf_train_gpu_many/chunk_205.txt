@@ -1,0 +1,4 @@
+deepspeed --num_gpus 2 trainer-program.py 
+
+Order of GPUs
+Now, to select which GPUs to use and their order, you'll use the CUDA_VISIBLE_DEVICES environment variable.

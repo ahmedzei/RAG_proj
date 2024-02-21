@@ -1,0 +1,1 @@
+Pass the training arguments to [Seq2SeqTrainer] along with the model, dataset, tokenizer, data collator, and compute_metrics function.

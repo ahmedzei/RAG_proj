@@ -1,0 +1,10 @@
+It can also be enabled from the command line when the following arguments are passed: --fp16, --fp16_backend apex or --fp16_opt_level 01.
+yaml
+{
+    "amp": {
+        "enabled": "auto",
+        "opt_level": "auto"
+    }
+}
+
+To use bf16, you'll need at least DeepSpeed==0.6.0.

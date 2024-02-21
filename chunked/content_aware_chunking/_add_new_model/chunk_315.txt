@@ -1,0 +1,4 @@
+A little snippet is pasted below:
+thon
+brand_new_bert.push_to_hub("brand_new_bert")
+Uncomment the following line to push to an organization.

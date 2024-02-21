@@ -1,0 +1,1 @@
+You start from scratch when you initialize a model from a custom configuration class.

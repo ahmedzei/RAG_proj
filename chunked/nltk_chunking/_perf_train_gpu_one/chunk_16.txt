@@ -1,0 +1,2 @@
+It is recommended to use batch sizes and 
+input/output neuron counts that are of size 2^N.

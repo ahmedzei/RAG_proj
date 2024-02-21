@@ -1,0 +1,5 @@
+img = (img * std) + mean
+     img = (img * 255).astype("uint8")
+     return img.clip(0, 255)
+def create_gif(video_tensor, filename="sample.gif"):
+     """Prepares a GIF from a video tensor.

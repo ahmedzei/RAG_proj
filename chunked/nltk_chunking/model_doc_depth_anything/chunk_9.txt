@@ -1,0 +1,1 @@
+We evaluate its zero-shot capabilities extensively, including six public datasets and randomly captured photos.

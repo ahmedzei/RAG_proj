@@ -1,0 +1,1 @@
+TensorFlow and Flax checkpoints are not affected, and can be loaded within PyTorch architectures using the from_tf and from_flax kwargs for the from_pretrained method to circumvent this issue.

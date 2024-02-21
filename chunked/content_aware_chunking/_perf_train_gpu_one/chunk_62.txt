@@ -1,0 +1,2 @@
+which 
+is about the same as fp32 - because both have 8-bits used for the numerical range.

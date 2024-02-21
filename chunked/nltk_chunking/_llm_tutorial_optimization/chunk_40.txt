@@ -1,0 +1,1 @@
+We can see the number is not exactly correct as going from bytes to kilobytes requires a multiplication of 1024 instead of 1000.

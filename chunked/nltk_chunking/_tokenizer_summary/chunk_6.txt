@@ -1,0 +1,2 @@
+For instance, if we look at [BertTokenizer], we can see
+that the model uses WordPiece.

@@ -1,0 +1,1 @@
+X-MOD extends multilingual masked language models like XLM-R to include language-specific modular components (language adapters) during pre-training.

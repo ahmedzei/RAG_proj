@@ -1,0 +1,1 @@
+GPT-2 uses byte pair encoding (BPE) to tokenize words and generate a token embedding.

@@ -1,0 +1,1 @@
+Thirdly, we propose using a query-text contrastive loss during training to establish better inter-task and inter-class distinctions.

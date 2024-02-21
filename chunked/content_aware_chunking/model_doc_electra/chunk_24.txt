@@ -1,0 +1,2 @@
+Once converted to the HuggingFace format, these checkpoints may be loaded into all
+  available ELECTRA models, however.

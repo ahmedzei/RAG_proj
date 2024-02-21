@@ -1,0 +1,13 @@
+This emulates a launcher in the notebook
+import os
+os.environ["MASTER_ADDR"] = "localhost"
+os.environ["MASTER_PORT"] = "9994"  # modify if RuntimeError: Address already in use
+os.environ["RANK"] = "0"
+os.environ["LOCAL_RANK"] = "0"
+os.environ["WORLD_SIZE"] = "1"
+Now proceed as normal, plus pass the DeepSpeed config file
+training_args = TrainingArguments(, deepspeed="ds_config_zero3.json")
+trainer = Trainer()
+trainer.train()
+
+If you want to create the config file on the fly in the notebook in the current directory, you could have a dedicated cell.

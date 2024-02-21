@@ -1,0 +1,8 @@
+Let's illustrate this:
+thon
+
+prepare table + question
+data = {"Actors": ["Brad Pitt", "Leonardo Di Caprio", "George Clooney"], "Number of movies": ["87", "53", "69"]}
+table = pd.DataFrame.from_dict(data)
+questions = [
+     "how many movies does Leonardo Di Caprio have?

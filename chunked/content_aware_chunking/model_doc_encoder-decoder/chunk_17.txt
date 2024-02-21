@@ -1,0 +1,7 @@
+thon
+
+from transformers import EncoderDecoderModel, BertTokenizer
+tokenizer = BertTokenizer.from_pretrained("google-bert/bert-base-uncased")
+model = EncoderDecoderModel.from_encoder_decoder_pretrained("google-bert/bert-base-uncased", "google-bert/bert-base-uncased")
+
+Loading an existing EncoderDecoderModel checkpoint and perform inference.

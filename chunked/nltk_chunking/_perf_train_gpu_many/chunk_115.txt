@@ -1,0 +1,2 @@
+You may notice a bubble of "dead" time on the diagram that can't be parallelized because the last forward stage 
+has to wait for backward to complete the pipeline.

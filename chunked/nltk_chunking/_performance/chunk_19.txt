@@ -1,0 +1,2 @@
+In the following 
+sections we go through the steps to run inference on CPU and single/multi-GPU setups.

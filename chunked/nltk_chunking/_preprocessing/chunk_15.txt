@@ -1,0 +1,8 @@
+This downloads the vocab a model was pretrained with:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-cased")
+
+Then pass your text to the tokenizer:
+
+encoded_input = tokenizer("Do not meddle in the affairs of wizards, for they are subtle and quick to anger.")

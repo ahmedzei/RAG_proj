@@ -1,0 +1,1 @@
+Whisper is also an ASR model, but unlike many other speech models, it is pretrained on a massive amount of ✨ labeled ✨ audio transcription data for zero-shot performance.

@@ -1,0 +1,1 @@
+ALBERT reduces memory consumption by lowering the number of parameters in two ways: separating the larger vocabulary embedding into two smaller matrices and allowing layers to share parameters.

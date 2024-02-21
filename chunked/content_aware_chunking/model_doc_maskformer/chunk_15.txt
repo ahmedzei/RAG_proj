@@ -1,0 +1,3 @@
+Usage tips
+
+MaskFormer's Transformer decoder is identical to the decoder of DETR.

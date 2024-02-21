@@ -1,0 +1,10 @@
+On Linux and MacOs:
+
+source .env/bin/activate
+Activate Virtual environment on Windows
+
+.env/Scripts/activate
+Now you're ready to install 🤗 Transformers with the following command:
+
+pip install transformers
+For CPU-support only, you can conveniently install 🤗 Transformers and a deep learning library in one line.

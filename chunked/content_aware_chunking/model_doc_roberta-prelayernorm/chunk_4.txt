@@ -1,0 +1,1 @@
+We also support fast mixed-precision training and inference on modern GPUs.

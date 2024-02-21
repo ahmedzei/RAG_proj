@@ -1,0 +1,1 @@
+You can set the parameters to "auto" or manually input your own desired values.

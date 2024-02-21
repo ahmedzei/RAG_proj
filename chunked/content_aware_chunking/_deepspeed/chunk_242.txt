@@ -1,0 +1,1 @@
+For Transformers>=4.28, if synced_gpus is automatically set to True if multiple GPUs are detected during generation.

@@ -1,0 +1,1 @@
+We begin by disentangling architectural archetypes with pre-training objectives -- two concepts that are commonly conflated.

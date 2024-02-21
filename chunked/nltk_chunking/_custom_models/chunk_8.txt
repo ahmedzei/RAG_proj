@@ -1,0 +1,2 @@
+As we will see in the next section, the model can only
+take a config to be initialized, so we really need that object to be as complete as possible.

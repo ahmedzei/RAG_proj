@@ -1,0 +1,3 @@
+Before diving in, we should note
+that the metric applies specifically to classical language models (sometimes called autoregressive or causal language
+models) and is not well defined for masked language models like BERT (see summary of the models).

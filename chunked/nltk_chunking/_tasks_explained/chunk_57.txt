@@ -1,0 +1,1 @@
+If you're unfamiliar with convolutions, check out the Convolution Neural Networks chapter from the fastai book!

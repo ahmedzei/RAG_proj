@@ -1,0 +1,2 @@
+The final part to make sure the 🤗 Transformers implementation works correctly is to ensure that the outputs are
+equivalent to a precision of 1e-3.

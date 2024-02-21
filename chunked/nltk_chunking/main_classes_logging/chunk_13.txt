@@ -1,0 +1,1 @@
+transformers.logging.INFO (int value, 20): reports error, warnings and basic information.

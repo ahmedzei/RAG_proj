@@ -1,0 +1,1 @@
+When you execute your training script, DeepSpeed logs the configuration it received from [Trainer] to the console so you can see exactly what configuration was used.

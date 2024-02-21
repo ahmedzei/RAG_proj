@@ -1,0 +1,2 @@
+If you wish to normalize images as a part of the augmentation transformation, use the image_processor.image_mean,
+and image_processor.image_std values.

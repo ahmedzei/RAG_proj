@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+Self-supervised learning (SSL) is a long-standing goal for speech processing, since it utilizes large-scale unlabeled
+data and avoids extensive human labeling.

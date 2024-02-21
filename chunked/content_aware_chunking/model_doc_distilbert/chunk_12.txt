@@ -1,0 +1,2 @@
+Just
+  separate your segments with the separation token tokenizer.sep_token (or [SEP]).

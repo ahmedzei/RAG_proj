@@ -1,0 +1,3 @@
+It could look similar to this (in pseudo-code):
+python
+input_str = "This is a long example input string containing special characters .$?-, numbers 2872 234 12 and words."

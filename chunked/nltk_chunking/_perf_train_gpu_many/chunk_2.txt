@@ -1,0 +1,2 @@
+Once you have employed those strategies and found them insufficient for your 
+case on a single GPU, consider moving to multiple GPUs.

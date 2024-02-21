@@ -1,0 +1,1 @@
+You don't need this column in case you're going for WTQ/WikiSQL-supervised.

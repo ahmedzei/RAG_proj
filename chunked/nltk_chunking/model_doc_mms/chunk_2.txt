@@ -1,0 +1,1 @@
+The Massively Multilingual Speech (MMS) project increases the number of supported languages by 10-40x, depending on the task.

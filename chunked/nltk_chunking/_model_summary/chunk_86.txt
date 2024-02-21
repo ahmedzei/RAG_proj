@@ -1,0 +1,1 @@
+When ViT was released, ViLT adopted ViT in its architecture because it was easier to get the image embeddings this way.

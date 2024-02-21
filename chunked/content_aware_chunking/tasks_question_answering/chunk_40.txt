@@ -1,0 +1,3 @@
+Come up with a question and some context you'd like the model to predict:
+
+question = "How many programming languages does BLOOM support?"

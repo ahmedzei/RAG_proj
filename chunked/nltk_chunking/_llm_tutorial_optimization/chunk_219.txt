@@ -1,0 +1,2 @@
+Using the key-value cache has two advantages:
+-   Significant increase in computational efficiency as less computations are performed compared to computing the full \( \mathbf{QK}^T \) matrix.

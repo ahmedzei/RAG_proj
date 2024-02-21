@@ -1,0 +1,2 @@
+If you have your own inference
+endpoint for this model (or another one) you can replace the URL above with your URL endpoint.

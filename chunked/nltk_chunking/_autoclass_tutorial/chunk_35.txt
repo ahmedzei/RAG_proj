@@ -1,0 +1,11 @@
+For example, load a model for sequence classification with [TFAutoModelForSequenceClassification.from_pretrained]:
+
+from transformers import TFAutoModelForSequenceClassification
+model = TFAutoModelForSequenceClassification.from_pretrained("distilbert/distilbert-base-uncased")
+
+Easily reuse the same checkpoint to load an architecture for a different task:
+
+from transformers import TFAutoModelForTokenClassification
+model = TFAutoModelForTokenClassification.from_pretrained("distilbert/distilbert-base-uncased")
+
+Generally, we recommend using the AutoTokenizer class and the TFAutoModelFor class to load pretrained instances of models.

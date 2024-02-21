@@ -1,0 +1,5 @@
+
+UMT5
+
+Overview
+The UMT5 model was proposed in UniMax: Fairer and More Effective Language Sampling for Large-Scale Multilingual Pretraining by Hyung Won Chung, Xavier Garcia, Adam Roberts, Yi Tay, Orhan Firat, Sharan Narang, Noah Constant.

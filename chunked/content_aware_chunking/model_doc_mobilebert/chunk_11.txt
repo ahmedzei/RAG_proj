@@ -1,0 +1,2 @@
+On the SQuAD v1.1/v2.0 question answering task, MobileBERT achieves a dev F1 score of
+90.0/79.2 (1.5/2.1 higher than BERT_BASE).

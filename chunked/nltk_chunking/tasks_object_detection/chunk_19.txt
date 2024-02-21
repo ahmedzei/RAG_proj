@@ -1,0 +1,2 @@
+Such "runaway" bounding boxes can raise
+errors during training and should be addressed at this stage.

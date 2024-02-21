@@ -1,0 +1,14 @@
+from transformers import VideoMAEImageProcessor, VideoMAEForVideoClassification
+model_ckpt = "MCG-NJU/videomae-base"
+image_processor = VideoMAEImageProcessor.from_pretrained(model_ckpt)
+model = VideoMAEForVideoClassification.from_pretrained(
+     model_ckpt,
+     label2id=label2id,
+     id2label=id2label,
+     ignore_mismatched_sizes=True,  # provide this in case you're planning to fine-tune an already fine-tuned checkpoint
+ )
+
+While the model is loading, you might notice the following warning:
+
+Some weights of the model checkpoint at MCG-NJU/videomae-base were not used when initializing VideoMAEForVideoClassification: [, 'decoder.decoder_layers.1.attention.output.dense.bias', 'decoder.decoder_layers.2.attention.attention.key.weight']
+- This IS expected if you are initializing VideoMAEForVideoClassification from the checkpoint of a model trained on another task or with another architecture (e.g.

@@ -1,0 +1,1 @@
+after=True: the temporary dir will always be deleted at the end of the test.

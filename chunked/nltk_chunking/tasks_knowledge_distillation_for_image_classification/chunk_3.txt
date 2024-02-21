@@ -1,0 +1,1 @@
+It was first introduced in Distilling the Knowledge in a Neural Network by Hinton et al.

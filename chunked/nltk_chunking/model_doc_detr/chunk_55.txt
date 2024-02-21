@@ -1,0 +1,3 @@
+One can use
+  [~transformers.DetrImageProcessor] to prepare images (and optional annotations in COCO format) for the
+  model.

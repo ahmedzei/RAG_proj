@@ -1,0 +1,2 @@
+This design ensures that each position embedding vector
+\(x_j\) is unique.

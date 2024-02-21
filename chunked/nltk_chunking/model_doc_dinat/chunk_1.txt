@@ -1,0 +1,2 @@
+It extends NAT by adding a Dilated Neighborhood Attention pattern to capture global context,
+and shows significant performance improvements over it.

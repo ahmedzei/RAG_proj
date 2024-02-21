@@ -1,0 +1,1 @@
+Otherwise, the [Trainer] won't save the weights in fp16 and it won't create a pytorch_model.bin file.

@@ -1,0 +1,1 @@
+However, the grouping of the fields inside objects differs from the annotation format DETR requires.

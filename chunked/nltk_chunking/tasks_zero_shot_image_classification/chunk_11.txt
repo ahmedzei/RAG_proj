@@ -1,0 +1,10 @@
+predictions = detector(image, candidate_labels=["fox", "bear", "seagull", "owl"])
+predictions
+[{'score': 0.9996670484542847, 'label': 'owl'},
+ {'score': 0.000199399160919711, 'label': 'seagull'},
+ {'score': 7.392891711788252e-05, 'label': 'fox'},
+ {'score': 5.96074532950297e-05, 'label': 'bear'}]
+
+Zero-shot image classification by hand
+Now that you've seen how to use the zero-shot image classification pipeline, let's take a look how you can run zero-shot
+image classification manually.

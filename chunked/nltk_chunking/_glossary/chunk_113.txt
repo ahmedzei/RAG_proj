@@ -1,0 +1,4 @@
+Pretraining methods involve a
+self-supervised objective, which can be reading the text and trying to predict the next word (see causal language
+modeling) or masking some words and trying to predict them (see masked language
+modeling).

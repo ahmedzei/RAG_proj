@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Most neural vocoders employ band-limited mel-spectrograms to generate waveforms.

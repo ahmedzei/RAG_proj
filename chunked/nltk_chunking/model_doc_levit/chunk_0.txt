@@ -1,0 +1,4 @@
+
+LeViT
+Overview
+The LeViT model was proposed in LeViT: Introducing Convolutions to Vision Transformers by Ben Graham, Alaaeldin El-Nouby, Hugo Touvron, Pierre Stock, Armand Joulin, Hervé Jégou, Matthijs Douze.

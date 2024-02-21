@@ -1,0 +1,1 @@
+In masked language modeling, some percentage of the input tokens are randomly masked, and the model needs to predict these.

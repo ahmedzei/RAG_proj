@@ -1,0 +1,2 @@
+Installation
+DeepSpeed is available to install from PyPI or Transformers (for more detailed installation options, take a look at the DeepSpeed installation details or the GitHub README).

@@ -1,0 +1,1 @@
+When working with large context, models apply various optimizations to prevent Attention complexity from scaling quadratically.

@@ -1,0 +1,1 @@
+Pass the training arguments to [Trainer] along with the model, datasets, and data collator.

@@ -1,0 +1,4 @@
+
+Speech Encoder Decoder Models
+The [SpeechEncoderDecoderModel] can be used to initialize a speech-to-text model
+with any pretrained speech autoencoding model as the encoder (e.g.

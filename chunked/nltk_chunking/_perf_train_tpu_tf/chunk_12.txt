@@ -1,0 +1,1 @@
+When you use a TPU Node, you are effectively indirectly accessing a remote TPU.

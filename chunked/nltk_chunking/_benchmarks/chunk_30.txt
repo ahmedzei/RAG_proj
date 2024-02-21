@@ -1,0 +1,3 @@
+When benchmarking on GPU, it is recommended that the user
+  specifies on which device the code should be run by setting the CUDA_VISIBLE_DEVICES environment variable in the
+  shell, e.g.

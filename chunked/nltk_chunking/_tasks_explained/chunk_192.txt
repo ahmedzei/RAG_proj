@@ -1,0 +1,1 @@
+This gives additional context to help the decoder restore the original text.

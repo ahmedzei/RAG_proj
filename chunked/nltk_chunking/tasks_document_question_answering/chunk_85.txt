@@ -1,0 +1,2 @@
+Training involves the following steps:
+* Load the model with [AutoModelForDocumentQuestionAnswering] using the same checkpoint as in the preprocessing.

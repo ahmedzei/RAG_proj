@@ -1,0 +1,1 @@
+The encoder's output is passed to the decoder, which must predict the masked tokens and any uncorrupted tokens from the encoder's output.

@@ -1,0 +1,2 @@
+Encoder-decoder[[cv-encoder-decoder]]
+Vision models commonly use an encoder (also known as a backbone) to extract important image features before passing them to a Transformer decoder.

@@ -1,0 +1,1 @@
+ViT, BEiT, DeiT) and any pretrained text autoencoding model as the text encoder (e.g.

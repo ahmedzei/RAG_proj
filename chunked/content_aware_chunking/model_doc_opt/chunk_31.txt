@@ -1,0 +1,1 @@
+Below is an expected speedup diagram that compares pure inference time between the native implementation in transformers using facebook/opt-350m checkpoint and the Flash Attention 2 version of the model using two different sequence lengths.

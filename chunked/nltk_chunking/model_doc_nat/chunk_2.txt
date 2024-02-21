@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+*We present Neighborhood Attention (NA), the first efficient and scalable sliding-window attention mechanism for vision.

@@ -1,0 +1,3 @@
+A notable example is the batch normalization layer's
+   epsilon (1e-5 in PyTorch
+   and 1e-3 in TensorFlow).

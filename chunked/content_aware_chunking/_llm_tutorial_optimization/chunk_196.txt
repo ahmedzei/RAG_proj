@@ -1,0 +1,1 @@
+For ALiBi, one simply increases the values of the lower triangular position matrix to match the length of the input sequence.

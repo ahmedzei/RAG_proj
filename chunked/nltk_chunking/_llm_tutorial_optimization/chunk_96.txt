@@ -1,0 +1,1 @@
+Assuming, the LLM has 40 attention heads and runs in bfloat16 precision, we can calculate the memory requirement to store the \( \mathbf{QK^T} \) matrices to be \( 40 * 2 * N^2 \) bytes.

@@ -1,0 +1,1 @@
+You need to be aware of those to realize the speed-ups that XLA can bring in.

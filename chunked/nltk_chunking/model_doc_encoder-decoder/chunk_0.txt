@@ -1,0 +1,5 @@
+
+Encoder Decoder Models
+Overview
+The [EncoderDecoderModel] can be used to initialize a sequence-to-sequence model with any
+pretrained autoencoding model as the encoder and any pretrained autoregressive model as the decoder.

@@ -1,0 +1,7 @@
+Specify where to save the checkpoints from your training:
+
+from transformers import TrainingArguments
+training_args = TrainingArguments(output_dir="test_trainer")
+
+Evaluate
+[Trainer] does not automatically evaluate model performance during training.

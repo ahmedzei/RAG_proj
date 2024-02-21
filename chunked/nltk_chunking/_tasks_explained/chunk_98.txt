@@ -1,0 +1,1 @@
+Traditional segmentation models are typically tailored towards a particular subtask of image segmentation, like instance, semantic or panoptic segmentation.

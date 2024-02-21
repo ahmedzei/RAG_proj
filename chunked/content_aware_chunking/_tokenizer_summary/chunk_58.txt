@@ -1,0 +1,2 @@
+As one can see,
+the rare word "Transformers" has been split into the more frequent subwords "Transform" and "ers".

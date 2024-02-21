@@ -1,0 +1,1 @@
+Simple, just write a jinja template and set tokenizer.chat_template.

@@ -1,0 +1,1 @@
+For this tutorial you can start with the default training hyperparameters, but feel free to experiment with these to find your optimal settings.

@@ -1,0 +1,2 @@
+For example, when generating text using beam search, the software 
+needs to maintain multiple copies of inputs and outputs.

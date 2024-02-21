@@ -1,0 +1,2 @@
+A simple way of tokenizing this text is to split it by spaces, which would give:
+["Don't", "you", "love", "🤗", "Transformers?

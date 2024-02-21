@@ -1,0 +1,10 @@
+).convert("RGB")
+encoding = processor(
+    image, return_tensors="pt"
+)  # you can also add all tokenizer parameters here such as padding, truncation
+print(encoding.keys())
+dict_keys(['input_ids', 'token_type_ids', 'attention_mask', 'bbox', 'image'])
+
+Use case 2: document image classification (training, inference) + token classification (inference), apply_ocr=False
+In case one wants to do OCR themselves, one can initialize the image processor with apply_ocr set to
+False.

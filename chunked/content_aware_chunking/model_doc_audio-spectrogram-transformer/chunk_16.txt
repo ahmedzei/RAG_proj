@@ -1,0 +1,2 @@
+Note that the AST needs a low learning rate (the authors use a 10 times smaller learning rate compared to their CNN model proposed in the
+PSLA paper) and converges quickly, so please search for a suitable learning rate and learning rate scheduler for your task.

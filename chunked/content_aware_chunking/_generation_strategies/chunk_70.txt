@@ -1,0 +1,1 @@
+To learn how it works, refer to Diverse Beam Search: Decoding Diverse Solutions from Neural Sequence Models.

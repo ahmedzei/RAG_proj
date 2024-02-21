@@ -1,0 +1,2 @@
+First, make sure that the
+hard-coded input_ids in both scripts are identical.

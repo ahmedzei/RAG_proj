@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Large multimodal models (LMM) have recently shown encouraging progress with visual instruction tuning.

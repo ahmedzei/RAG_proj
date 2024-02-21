@@ -1,0 +1,3 @@
+Some of them (like
+[DataCollatorForLanguageModeling]) also apply some random data augmentation (like random masking)
+on the formed batch.

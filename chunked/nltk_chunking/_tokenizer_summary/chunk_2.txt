@@ -1,0 +1,2 @@
+Converting words or subwords to ids is
+straightforward, so in this summary, we will focus on splitting a text into words or subwords (i.e.

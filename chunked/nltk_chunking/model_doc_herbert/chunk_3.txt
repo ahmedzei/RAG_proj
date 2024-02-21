@@ -1,0 +1,2 @@
+Such a fast pace of research would not be possible without general NLU benchmarks, which
+allow for a fair comparison of the proposed methods.

@@ -1,0 +1,5 @@
+You just have to unpack the dictionary by adding **:
+
+pt_outputs = pt_model(**pt_batch)
+
+The model outputs the final activations in the logits attribute.

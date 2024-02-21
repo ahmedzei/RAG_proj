@@ -1,0 +1,1 @@
+However, the community has found a couple of effective tricks that adapt \( \theta \), thereby allowing RoPE position embeddings to work well for extrapolated text input sequences (see here).

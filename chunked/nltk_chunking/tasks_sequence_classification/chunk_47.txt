@@ -1,0 +1,3 @@
+Grab some text you'd like to run inference on:
+
+text = "This was a masterpiece.

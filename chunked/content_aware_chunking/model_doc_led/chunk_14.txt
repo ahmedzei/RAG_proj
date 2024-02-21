@@ -1,0 +1,2 @@
+For summarization, it is advised to put global attention only on the first
+  <s> token.

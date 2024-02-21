@@ -1,0 +1,2 @@
+If name is not
+   properly set, you will see it in the error message when loading the model weights.

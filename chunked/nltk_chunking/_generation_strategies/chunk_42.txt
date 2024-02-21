@@ -1,0 +1,2 @@
+Internally, put() is used to push new tokens and
+end() is used to flag the end of text generation.

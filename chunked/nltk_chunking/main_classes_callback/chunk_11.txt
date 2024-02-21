@@ -1,0 +1,2 @@
+[~integrations.AzureMLCallback] if azureml-sdk is
+  installed.

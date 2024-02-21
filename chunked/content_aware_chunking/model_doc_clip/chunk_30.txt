@@ -1,0 +1,5 @@
+🌎
+
+Image retrieval
+
+A notebook on image retrieval using pretrained CLIP and computing MRR(Mean Reciprocal Rank) score.

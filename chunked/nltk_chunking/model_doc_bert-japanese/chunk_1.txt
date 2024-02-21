@@ -1,0 +1,3 @@
+There are models with two different tokenization methods:
+
+Tokenize with MeCab and WordPiece.

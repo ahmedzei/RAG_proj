@@ -1,0 +1,13 @@
+thon
+
+from transformers import AutoTokenizer, AutoModelForCausalLM, set_seed
+set_seed(0)  # For reproducibility
+checkpoint = "openai-community/gpt2-large"
+tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+model = AutoModelForCausalLM.from_pretrained(checkpoint)
+prompt = "Today was an amazing day because"
+inputs = tokenizer(prompt, return_tensors="pt")
+outputs = model.generate(**inputs, do_sample=True, num_beams=1, max_new_tokens=100)
+tokenizer.batch_decode(outputs, skip_special_tokens=True)
+['Today was an amazing day because when you go to the World Cup and you don\'t, or when you don\'t get invited,
+that\'s a terrible feeling."']

@@ -1,0 +1,2 @@
+a source-to-target-translation pair, an article-to-summary pair, a question-to-answer pair, etc… If none
+of the ported checkpoints has been fine-tuned on a downstream task it is enough to simply rely on the model tests.

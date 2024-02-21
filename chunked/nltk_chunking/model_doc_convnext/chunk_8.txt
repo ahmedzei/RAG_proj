@@ -1,0 +1,2 @@
+The outcome of this exploration is a family of pure ConvNet models
+dubbed ConvNeXt.

@@ -1,0 +1,5 @@
+You can enable this mode in the 🤗 Trainer:
+python
+TrainingArguments(tf32=True, **default_args)
+
+tf32 can't be accessed directly via tensor.to(dtype=torch.tf32) because it is an internal CUDA data type.

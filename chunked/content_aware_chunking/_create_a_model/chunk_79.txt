@@ -1,0 +1,17 @@
+Modify any of the [Wav2Vec2FeatureExtractor] parameters to create your custom feature extractor:
+
+from transformers import Wav2Vec2FeatureExtractor
+w2v2_extractor = Wav2Vec2FeatureExtractor(sampling_rate=8000, do_normalize=False)
+print(w2v2_extractor)
+Wav2Vec2FeatureExtractor {
+  "do_normalize": false,
+  "feature_extractor_type": "Wav2Vec2FeatureExtractor",
+  "feature_size": 1,
+  "padding_side": "right",
+  "padding_value": 0.0,
+  "return_attention_mask": false,
+  "sampling_rate": 8000
+}
+
+Processor
+For models that support multimodal tasks, 🤗 Transformers offers a processor class that conveniently wraps processing classes such as a feature extractor and a tokenizer into a single object.

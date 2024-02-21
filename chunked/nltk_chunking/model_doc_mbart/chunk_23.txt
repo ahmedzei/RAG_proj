@@ -1,0 +1,2 @@
+To force the
+  target language id as the first generated token, pass the forced_bos_token_id parameter to the generate method.

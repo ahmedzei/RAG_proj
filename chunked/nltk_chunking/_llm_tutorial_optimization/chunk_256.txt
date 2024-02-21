@@ -1,0 +1,1 @@
+Let's compute the number of float values that need to be stored in the key-value cache for the LLM bigcode/octocoder that we used before.

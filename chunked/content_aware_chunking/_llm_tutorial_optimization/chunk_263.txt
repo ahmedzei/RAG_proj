@@ -1,0 +1,1 @@
+By using a single head-value projection weight pair, the key value vectors \( \mathbf{k}_i, \mathbf{v}_i \) have to be identical across all attention heads which in turn means that we only need to store 1 key-value projection pair in the cache instead of n_head ones.

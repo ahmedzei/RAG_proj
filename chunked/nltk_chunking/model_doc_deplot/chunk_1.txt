@@ -1,0 +1,2 @@
+The abstract of the paper states the following:
+Visual language such as charts and plots is ubiquitous in the human world.

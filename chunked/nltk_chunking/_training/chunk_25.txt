@@ -1,0 +1,3 @@
+You can use the links
+in the right sidebar to jump to the one you want - and if you want to hide all of the content for a given framework,
+just use the button at the top-right of that framework's block!

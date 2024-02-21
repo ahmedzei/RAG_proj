@@ -1,0 +1,4 @@
+
+SwitchTransformers
+Overview
+The SwitchTransformers model was proposed in Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity by William Fedus, Barret Zoph, Noam Shazeer.

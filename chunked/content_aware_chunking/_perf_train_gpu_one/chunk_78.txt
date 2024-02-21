@@ -1,0 +1,2 @@
+[Trainer] integrates a variety of optimizers that can be used out of box: adamw_hf, adamw_torch, adamw_torch_fused, 
+adamw_apex_fused, adamw_anyprecision, adafactor, or adamw_bnb_8bit.

@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+This paper presents XLS-R, a large-scale model for cross-lingual speech representation learning based on wav2vec 2.0.

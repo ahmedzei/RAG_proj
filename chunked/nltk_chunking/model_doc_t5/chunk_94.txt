@@ -1,0 +1,3 @@
+🌎
+
+A notebook for how to finetune T5 for named entity recognition.

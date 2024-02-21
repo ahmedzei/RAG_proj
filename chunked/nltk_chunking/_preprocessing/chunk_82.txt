@@ -1,0 +1,13 @@
+from datasets import load_dataset
+dataset = load_dataset("food101", split="train[:100]")
+
+Next, take a look at the image with 🤗 Datasets Image feature:
+
+dataset[0]["image"]
+
+Load the image processor with [AutoImageProcessor.from_pretrained]:
+
+from transformers import AutoImageProcessor
+image_processor = AutoImageProcessor.from_pretrained("google/vit-base-patch16-224")
+
+First, let's add some image augmentation.

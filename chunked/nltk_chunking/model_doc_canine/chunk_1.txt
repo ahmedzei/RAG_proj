@@ -1,0 +1,3 @@
+It's
+among the first papers that trains a Transformer without using an explicit tokenization step (such as Byte Pair
+Encoding (BPE), WordPiece or SentencePiece).

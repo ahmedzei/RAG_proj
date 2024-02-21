@@ -1,0 +1,1 @@
+We equip BERT with this mixed attention design and build a ConvBERT model.

@@ -1,0 +1,4 @@
+Distributional Output
+[[autodoc]] time_series_utils.NormalOutput
+[[autodoc]] time_series_utils.StudentTOutput
+[[autodoc]] time_series_utils.NegativeBinomialOutput

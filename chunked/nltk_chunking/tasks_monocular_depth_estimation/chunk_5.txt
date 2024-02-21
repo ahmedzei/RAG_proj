@@ -1,0 +1,6 @@
+Let's take a look at the visualized result:
+
+predictions["depth"]
+
+Depth estimation inference by hand
+Now that you've seen how to use the depth estimation pipeline, let's see how we can replicate the same result by hand.

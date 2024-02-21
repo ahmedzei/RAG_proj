@@ -1,0 +1,7 @@
+py
+commit_hash = "ed94a7c6247d8aedce4647f00f20de6875b5b292"
+model = AutoModelForImageClassification.from_pretrained(
+    "sgugger/custom-resnet50d", trust_remote_code=True, revision=commit_hash
+)
+Note that when browsing the commit history of the model repo on the Hub, there is a button to easily copy the commit
+hash of any commit.

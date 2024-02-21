@@ -1,0 +1,1 @@
+While DeepSpeed has a pip installable PyPI package, it is highly recommended to install it from source to best match your hardware and to support certain features, like 1-bit Adam, which aren’t available in the PyPI distribution.

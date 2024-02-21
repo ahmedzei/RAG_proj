@@ -1,0 +1,1 @@
+ViTMAE has a similar pretraining objective, except it must predict the pixels instead of visual tokens.

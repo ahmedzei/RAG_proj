@@ -1,0 +1,17 @@
+thon
+
+from transformers import BridgeTowerProcessor, BridgeTowerForMaskedLM
+from PIL import Image
+import requests
+url = "http://images.cocodataset.org/val2017/000000360943.jpg"
+image = Image.open(requests.get(url, stream=True).raw).convert("RGB")
+text = "a  looking out of the window"
+processor = BridgeTowerProcessor.from_pretrained("BridgeTower/bridgetower-base-itm-mlm")
+model = BridgeTowerForMaskedLM.from_pretrained("BridgeTower/bridgetower-base-itm-mlm")
+prepare inputs
+encoding = processor(image, text, return_tensors="pt")
+forward pass
+outputs = model(**encoding)
+results = processor.decode(outputs.logits.argmax(dim=-1).squeeze(0).tolist())
+print(results)
+.a cat looking out of the window.

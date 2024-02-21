@@ -1,0 +1,1 @@
+[T5ForConditionalGeneration] is supported by this example script and notebook.

@@ -1,0 +1,4 @@
+The
+[Speech2Text2Processor] wraps [Wav2Vec2FeatureExtractor] and
+[Speech2Text2Tokenizer] into a single instance to both extract the input features and decode the
+predicted token ids.

@@ -1,0 +1,6 @@
+Code style
+When coding your new model, keep in mind that Transformers is an opinionated library and we have a few quirks of our
+own regarding how code should be written :-)
+
+The forward pass of your model should be fully written in the modeling file while being fully independent of other
+   models in the library.

@@ -1,0 +1,5 @@
+)
+width, height = image.size
+
+However, this model includes a brand new [~transformers.LayoutLMv2Processor] which can be used to directly
+prepare data for the model (including applying OCR under the hood).

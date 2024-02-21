@@ -1,0 +1,2 @@
+The new tokenizer allocates
+additional tokens to whitespace characters, making the model more suitable for certain tasks like code generation.

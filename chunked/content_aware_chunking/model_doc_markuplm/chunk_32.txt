@@ -1,0 +1,2 @@
+In that case, one should
+provide the nodes and corresponding xpaths themselves to the processor, and make sure to set parse_html to False.

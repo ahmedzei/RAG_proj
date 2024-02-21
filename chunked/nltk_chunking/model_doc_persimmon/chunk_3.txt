@@ -1,0 +1,1 @@
+Some of the key attributes of Persimmon-8B are long context size (16K), performance, and capabilities for multimodal extensions.

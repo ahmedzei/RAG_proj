@@ -1,0 +1,1 @@
+We also propose a stochastic duration predictor to synthesize speech with diverse rhythms from input text.

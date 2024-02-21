@@ -1,0 +1,5 @@
+Note that sentencepiece is required to use our tokenizer and can be installed with pip install transformers[sentencepiece] or pip install sentencepiece
+
+GPTSw3Tokenizer
+[[autodoc]] GPTSw3Tokenizer
+    - save_vocabulary

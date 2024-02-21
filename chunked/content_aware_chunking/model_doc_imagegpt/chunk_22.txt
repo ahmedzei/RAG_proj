@@ -1,0 +1,3 @@
+The authors showed that the
+  features in the middle of the network are the most performant, and can be used as-is to train a linear model (such as
+  a sklearn logistic regression model for example).

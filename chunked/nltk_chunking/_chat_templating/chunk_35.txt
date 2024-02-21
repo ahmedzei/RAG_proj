@@ -1,0 +1,14 @@
+<|assistant|>
+
+Now that our input is formatted correctly for Zephyr, we can use the model to generate a response to the user's question:
+python
+outputs = model.generate(tokenized_chat, max_new_tokens=128) 
+print(tokenizer.decode(outputs[0]))
+This will yield:
+text
+<|system|>
+You are a friendly chatbot who always responds in the style of a pirate</s> 
+<|user|>
+How many helicopters can a human eat in one sitting?</s> 
+<|assistant|>
+Matey, I'm afraid I must inform ye that humans cannot eat helicopters.

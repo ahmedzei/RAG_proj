@@ -1,0 +1,1 @@
+ViT has a global receptive field which means it can see more of an image at once thanks to its attention mechanism.

@@ -1,0 +1,2 @@
+Speech Synthesis (TTS)
+MMS-TTS uses the same model architecture as VITS, which was added to 🤗 Transformers in v4.33.

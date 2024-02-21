@@ -1,0 +1,10 @@
+",
+     context="The name of the repository is huggingface/transformers",
+ )
+print(
+     f"score: {round(preds['score'], 4)}, start: {preds['start']}, end: {preds['end']}, answer: {preds['answer']}"
+ )
+score: 0.9327, start: 30, end: 54, answer: huggingface/transformers
+
+Summarization
+Summarization creates a shorter version of a text from a longer one while trying to preserve most of the meaning of the original document.

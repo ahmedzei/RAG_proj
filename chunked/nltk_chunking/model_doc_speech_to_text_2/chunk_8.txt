@@ -1,0 +1,1 @@
+Speech2Text2's tokenizer is based on fastBPE.

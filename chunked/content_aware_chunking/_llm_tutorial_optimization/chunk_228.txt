@@ -1,0 +1,2 @@
+Assistant: Roughly 75 million people live in France
+User: And how many are in Germany?

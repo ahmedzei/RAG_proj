@@ -1,0 +1,1 @@
+Dequantization and re-quantization is performed sequentially for all weight matrices as the inputs run through the network graph.

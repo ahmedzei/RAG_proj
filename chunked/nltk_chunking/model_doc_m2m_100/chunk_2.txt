@@ -1,0 +1,2 @@
+However, much of this work is English-Centric by training
+only on data which was translated from or to English.

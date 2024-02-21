@@ -1,0 +1,5 @@
+If you're using [Trainer], you just need to add:
+
+--debug underflow_overflow
+to the normal command line arguments, or pass debug="underflow_overflow" when creating the
+[TrainingArguments] object.

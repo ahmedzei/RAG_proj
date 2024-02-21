@@ -1,0 +1,3 @@
+While the inputs' values are
+propagated through the layers, PyTorch keeps track of the different operations executed
+on each tensor.

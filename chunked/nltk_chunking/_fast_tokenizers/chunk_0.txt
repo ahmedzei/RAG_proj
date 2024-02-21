@@ -1,0 +1,3 @@
+
+Use tokenizers from 🤗 Tokenizers
+The [PreTrainedTokenizerFast] depends on the 🤗 Tokenizers library.

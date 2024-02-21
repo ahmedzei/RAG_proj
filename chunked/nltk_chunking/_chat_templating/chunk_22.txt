@@ -1,0 +1,4 @@
+"},
+ ]
+tokenizer.apply_chat_template(chat, tokenize=False)
+"[INST] Hello, how are you?

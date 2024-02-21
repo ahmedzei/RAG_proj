@@ -1,0 +1,1 @@
+Before you start, make sure Accelerate is installed and at least PyTorch 2.1.0 or newer.

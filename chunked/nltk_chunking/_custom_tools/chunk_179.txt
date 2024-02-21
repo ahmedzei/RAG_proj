@@ -1,0 +1,5 @@
+image = image_generator(improved_prompt)
+
+Before finally generating the image:
+
+gradio-tools requires textual inputs and outputs, even when working with different modalities.

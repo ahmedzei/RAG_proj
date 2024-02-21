@@ -1,0 +1,2 @@
+It also matches the state of the art specialized semantic segmentation models on ADE20K (58.2 mIoU),
+and ranks second on Cityscapes (84.5 mIoU) (no extra data).

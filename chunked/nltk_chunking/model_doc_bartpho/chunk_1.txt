@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+We present BARTpho with two versions -- BARTpho_word and BARTpho_syllable -- the first public large-scale monolingual
+sequence-to-sequence models pre-trained for Vietnamese.

@@ -1,0 +1,2 @@
+CPU offload
+You could also offload parameters and gradients when they are not in use to the CPU to save even more GPU memory and help you fit large models where even FSDP may not be sufficient.

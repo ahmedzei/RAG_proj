@@ -1,0 +1,1 @@
+The models finetuned on chart2text-pew and chart2text-statista are more suited for summarization, whereas the models finetuned on plotqa and chartqa are more suited for question answering.

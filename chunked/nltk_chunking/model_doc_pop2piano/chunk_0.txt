@@ -1,0 +1,5 @@
+
+Pop2Piano
+
+Overview
+The Pop2Piano model was proposed in Pop2Piano : Pop Audio-based Piano Cover Generation by Jongho Choi and Kyogu Lee.

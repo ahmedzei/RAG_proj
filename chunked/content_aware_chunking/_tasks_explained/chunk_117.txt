@@ -1,0 +1,1 @@
+Like ViT, an image is split into a sequence of patches, except these image patches are smaller.

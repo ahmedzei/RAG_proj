@@ -1,0 +1,1 @@
+Create a new file inside src/transformers/quantizers/ named quantizer_your_method.py, and make it inherit from src/transformers/quantizers/base.py::HfQuantizer.

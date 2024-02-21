@@ -1,0 +1,1 @@
+Now that wav2vec2 is pretrained, you can finetune it on your data for audio classification or automatic speech recognition!

@@ -1,0 +1,2 @@
+Two projection layers are added on top of both the vision and text encoder to project the output embeddings
+to a shared latent space.

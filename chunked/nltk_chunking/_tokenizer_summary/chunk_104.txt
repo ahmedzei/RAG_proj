@@ -1,0 +1,2 @@
+The base vocabulary could for instance correspond to all pre-tokenized words and
+the most common substrings.

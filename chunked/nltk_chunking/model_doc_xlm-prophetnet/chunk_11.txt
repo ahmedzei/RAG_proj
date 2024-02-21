@@ -1,0 +1,20 @@
+Resources
+
+Causal language modeling task guide
+Translation task guide
+Summarization task guide
+
+XLMProphetNetConfig
+[[autodoc]] XLMProphetNetConfig
+XLMProphetNetTokenizer
+[[autodoc]] XLMProphetNetTokenizer
+XLMProphetNetModel
+[[autodoc]] XLMProphetNetModel
+XLMProphetNetEncoder
+[[autodoc]] XLMProphetNetEncoder
+XLMProphetNetDecoder
+[[autodoc]] XLMProphetNetDecoder
+XLMProphetNetForConditionalGeneration
+[[autodoc]] XLMProphetNetForConditionalGeneration
+XLMProphetNetForCausalLM
+[[autodoc]] XLMProphetNetForCausalLM

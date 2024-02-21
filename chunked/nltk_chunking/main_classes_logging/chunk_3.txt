@@ -1,0 +1,2 @@
+For instance, here is how to change the verbosity
+to the INFO level.

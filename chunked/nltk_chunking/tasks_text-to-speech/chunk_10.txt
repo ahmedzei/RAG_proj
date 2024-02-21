@@ -1,0 +1,3 @@
+The remainder of this guide illustrates how to:
+
+Fine-tune SpeechT5 that was originally trained on English speech on the Dutch (nl) language subset of the VoxPopuli dataset.

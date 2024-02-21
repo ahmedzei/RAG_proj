@@ -1,0 +1,1 @@
+For instance here CamemberForMaskedLM is a direct copy of RobertaForMaskedLM with two replacements: Roberta to Camembert and ROBERTA to CAMEMBERT.

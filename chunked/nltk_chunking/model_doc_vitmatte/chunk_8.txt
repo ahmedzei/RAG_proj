@@ -1,0 +1,1 @@
+It inherits many superior properties from ViT to matting, including various pretraining strategies, concise architecture design, and flexible inference strategies.

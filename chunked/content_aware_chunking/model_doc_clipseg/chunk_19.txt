@@ -1,0 +1,2 @@
+One can also provide custom
+conditional embeddings (provided to the model as conditional_embeddings).

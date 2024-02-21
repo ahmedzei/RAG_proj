@@ -1,0 +1,4 @@
+an activation layer was not added, or the residual connection was forgotten
+The word embedding matrix was not tied
+The wrong positional embeddings are used because the original implementation uses on offset
+Dropout is applied during the forward pass.

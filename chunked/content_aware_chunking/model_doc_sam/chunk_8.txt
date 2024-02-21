@@ -1,0 +1,2 @@
+The model predicts much better results if input 2D points and/or input bounding boxes are provided
+You can prompt multiple points for the same image, and predict a single mask.

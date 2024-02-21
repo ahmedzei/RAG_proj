@@ -1,0 +1,1 @@
+Setting the sampling rate to 44.1 kHz when loading the audio file can give good performance.

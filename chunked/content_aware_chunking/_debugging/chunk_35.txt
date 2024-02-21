@@ -1,0 +1,3 @@
+pip install deepspeed-0.3.13+8cd046f-cp38-cp38-linux_x86_64.whl
+Multi-GPU Network Issues Debug
+When training or inferencing with DistributedDataParallel and multiple GPU, if you run into issue of inter-communication between processes and/or nodes, you can use the following script to diagnose network issues.

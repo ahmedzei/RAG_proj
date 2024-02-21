@@ -1,0 +1,2 @@
+So for GPT-J it would take at least 48GB
+  RAM to just load the model.

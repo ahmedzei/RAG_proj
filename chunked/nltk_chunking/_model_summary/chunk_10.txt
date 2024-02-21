@@ -1,0 +1,1 @@
+For example, ConvNeXt uses non-overlapping sliding windows to patchify an image and a larger kernel to increase its global receptive field.

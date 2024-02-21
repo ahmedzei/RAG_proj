@@ -1,0 +1,1 @@
+First make sure you have installed accelerate with pip install accelerate.

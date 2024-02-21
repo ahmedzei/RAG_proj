@@ -1,0 +1,1 @@
+Using TPU Nodes can have some quite unexpected behaviour for people who aren’t used to them!

@@ -1,0 +1,1 @@
+A [CLS] token is added to serve as representation of an entire image.

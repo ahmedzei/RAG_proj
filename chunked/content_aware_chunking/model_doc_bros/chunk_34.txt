@@ -1,0 +1,17 @@
+BrosConfig
+[[autodoc]] BrosConfig
+BrosProcessor
+[[autodoc]] BrosProcessor
+    - call
+BrosModel
+[[autodoc]] BrosModel
+    - forward
+BrosForTokenClassification
+[[autodoc]] BrosForTokenClassification
+    - forward
+BrosSpadeEEForTokenClassification
+[[autodoc]] BrosSpadeEEForTokenClassification
+    - forward
+BrosSpadeELForTokenClassification
+[[autodoc]] BrosSpadeELForTokenClassification
+    - forward

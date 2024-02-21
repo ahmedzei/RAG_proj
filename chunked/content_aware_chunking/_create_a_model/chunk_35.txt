@@ -1,0 +1,1 @@
+It is generally better to use a pretrained model to obtain better results faster, while using only a fraction of the resources required for training.

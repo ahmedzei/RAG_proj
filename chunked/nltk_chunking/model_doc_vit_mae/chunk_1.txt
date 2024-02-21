@@ -1,0 +1,2 @@
+The paper shows that, by pre-training a Vision Transformer (ViT) to reconstruct pixel values for masked patches, one can get results after
+fine-tuning that outperform supervised pre-training.

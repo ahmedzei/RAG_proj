@@ -1,0 +1,7 @@
+RoPE is used in multiple of today's most important LLMs, such as:
+
+Falcon
+Llama
+PaLM
+
+As an alternative, ALiBi proposes a much simpler relative position encoding scheme.

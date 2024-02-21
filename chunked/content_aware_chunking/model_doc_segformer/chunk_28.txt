@@ -1,0 +1,1 @@
+SegFormer works on any input size, as it pads the input to be divisible by config.patch_sizes.

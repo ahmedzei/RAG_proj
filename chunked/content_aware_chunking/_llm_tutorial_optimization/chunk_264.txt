@@ -1,0 +1,1 @@
+As most LLMs use between 20 and 100 attention heads, MQA significantly reduces the memory consumption of the key-value cache.

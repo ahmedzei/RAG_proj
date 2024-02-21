@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Self-supervised pre-training techniques have achieved remarkable progress in Document AI.

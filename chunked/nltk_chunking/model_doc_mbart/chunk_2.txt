@@ -1,0 +1,3 @@
+mBART is one of the first methods for pretraining a complete
+sequence-to-sequence model by denoising full texts in multiple languages, while previous approaches have focused only
+on the encoder, decoder, or reconstructing parts of the text.

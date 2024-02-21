@@ -1,0 +1,4 @@
+How DETR works
+Here's a TLDR explaining how [~transformers.DetrForObjectDetection] works:
+First, an image is sent through a pre-trained convolutional backbone (in the paper, the authors use
+ResNet-50/ResNet-101).

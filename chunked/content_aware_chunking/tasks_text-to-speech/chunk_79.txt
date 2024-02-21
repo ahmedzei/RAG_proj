@@ -1,0 +1,27 @@
+Instead, we'll 
+only look at the loss:
+thon
+
+from transformers import Seq2SeqTrainingArguments
+training_args = Seq2SeqTrainingArguments(
+     output_dir="speecht5_finetuned_voxpopuli_nl",  # change to a repo name of your choice
+     per_device_train_batch_size=4,
+     gradient_accumulation_steps=8,
+     learning_rate=1e-5,
+     warmup_steps=500,
+     max_steps=4000,
+     gradient_checkpointing=True,
+     fp16=True,
+     evaluation_strategy="steps",
+     per_device_eval_batch_size=2,
+     save_steps=1000,
+     eval_steps=1000,
+     logging_steps=25,
+     report_to=["tensorboard"],
+     load_best_model_at_end=True,
+     greater_is_better=False,
+     label_names=["labels"],
+     push_to_hub=True,
+ )
+
+Instantiate the Trainer object  and pass the model, dataset, and data collator to it.

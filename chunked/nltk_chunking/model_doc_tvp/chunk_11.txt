@@ -1,0 +1,1 @@
+These prompts provide additional spatial-temporal context, improving the model's ability to accurately determine event timings in the video.

@@ -1,0 +1,2 @@
+It's a simple but effective pretraining method of text and layout for document image understanding and
+information extraction tasks, such as form understanding and receipt understanding.

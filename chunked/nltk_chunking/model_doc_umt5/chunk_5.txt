@@ -1,0 +1,1 @@
+We find that UniMax outperforms standard temperature-based sampling, and the benefits persist as scale increases.

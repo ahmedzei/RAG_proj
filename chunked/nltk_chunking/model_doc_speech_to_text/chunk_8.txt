@@ -1,0 +1,1 @@
+It's a transformer-based seq2seq model, so the transcripts/translations are generated autoregressively.

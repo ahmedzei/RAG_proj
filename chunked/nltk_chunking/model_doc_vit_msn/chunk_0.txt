@@ -1,0 +1,5 @@
+
+ViTMSN
+Overview
+The ViTMSN model was proposed in Masked Siamese Networks for Label-Efficient Learning by Mahmoud Assran, Mathilde Caron, Ishan Misra, Piotr Bojanowski, Florian Bordes,
+Pascal Vincent, Armand Joulin, Michael Rabbat, Nicolas Ballas.

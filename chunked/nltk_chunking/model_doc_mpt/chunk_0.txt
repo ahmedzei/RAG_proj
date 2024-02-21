@@ -1,0 +1,4 @@
+
+MPT
+Overview
+The MPT model was proposed by the MosaicML team and released with multiple sizes and finetuned variants.

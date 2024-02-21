@@ -1,0 +1,3 @@
+
+Feature Extractor
+A feature extractor is in charge of preparing input features for audio or vision models.

@@ -1,0 +1,3 @@
+Semantic segmentation task guide
+
+If you're interested in submitting a resource to be included here, please feel free to open a Pull Request and we'll review it!

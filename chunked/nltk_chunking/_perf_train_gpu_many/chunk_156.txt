@@ -1,0 +1,2 @@
+To DP there is just GPUs 0 
+and 1 where it feeds data as if there were just 2 GPUs.

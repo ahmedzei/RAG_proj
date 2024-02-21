@@ -1,0 +1,15 @@
+yaml
+{
+   "scheduler": {
+         "type": "WarmupDecayLR",
+         "params": {
+             "total_num_steps": "auto",
+             "warmup_min_lr": "auto",
+             "warmup_max_lr": "auto",
+             "warmup_num_steps": "auto"
+         }
+     }
+}
+
+Precision
+Deepspeed supports fp32, fp16, and bf16 mixed precision.

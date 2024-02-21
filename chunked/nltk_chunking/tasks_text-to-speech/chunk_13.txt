@@ -1,0 +1,8 @@
+If you're working in a notebook, run the following line to check if a GPU is available: 
+
+!nvidia-smi
+or alternatively for AMD GPUs:
+
+!rocm-smi
+
+We encourage you to log in to your Hugging Face account to upload and share your model with the community.

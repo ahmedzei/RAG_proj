@@ -1,0 +1,1 @@
+(ii) the self-attention distilling highlights dominating attention by halving cascading layer input, and efficiently handles extreme long input sequences.

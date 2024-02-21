@@ -1,0 +1,7 @@
+Inference on a single CPU
+Inference on a single GPU
+Multi-GPU inference
+XLA Integration for TensorFlow Models
+
+Training and inference
+Here you'll find techniques, tips and tricks that apply whether you are training a model, or running inference with it.

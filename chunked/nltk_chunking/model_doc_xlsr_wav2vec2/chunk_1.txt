@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+This paper presents XLSR which learns cross-lingual speech representations by pretraining a single model from the raw
+waveform of speech in multiple languages.

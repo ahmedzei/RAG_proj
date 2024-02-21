@@ -1,0 +1,3 @@
+It has 40% less parameters than
+google-bert/bert-base-uncased, runs 60% faster while preserving over 95% of BERT's performances as measured on the GLUE language
+understanding benchmark.

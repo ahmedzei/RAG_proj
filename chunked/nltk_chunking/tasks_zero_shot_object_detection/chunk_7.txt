@@ -1,0 +1,1 @@
+associate images and their corresponding textual descriptions, and ViT processes image patches as inputs.

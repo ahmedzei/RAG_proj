@@ -1,0 +1,2 @@
+Each reported frame starts by declaring the fully qualified entry for the corresponding module this frame is reporting
+for.

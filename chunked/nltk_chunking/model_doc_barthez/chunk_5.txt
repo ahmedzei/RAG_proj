@@ -1,0 +1,3 @@
+Unlike already existing BERT-based French language models such as
+CamemBERT and FlauBERT, BARThez is particularly well-suited for generative tasks, since not only its encoder but also
+its decoder is pretrained.

@@ -1,0 +1,2 @@
+Moreover, DETR can also be
+naturally extended to perform panoptic segmentation, by simply adding a mask head on top of the decoder outputs.

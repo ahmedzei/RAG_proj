@@ -1,0 +1,11 @@
+It will download a pretrained model:
+
+python -c "from transformers import pipeline; print(pipeline('sentiment-analysis')('we love you'))"
+Then print out the label and score:
+
+[{'label': 'POSITIVE', 'score': 0.9998704791069031}]
+Install from source
+Install 🤗 Transformers from source with the following command:
+
+pip install git+https://github.com/huggingface/transformers
+This command installs the bleeding edge main version rather than the latest stable version.

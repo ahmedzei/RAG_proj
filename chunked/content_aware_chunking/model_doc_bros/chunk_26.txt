@@ -1,0 +1,3 @@
+Usage tips and examples
+
+[~transformers.BrosModel.forward] requires input_ids and bbox (bounding box).

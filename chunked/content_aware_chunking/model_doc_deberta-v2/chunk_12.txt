@@ -1,0 +1,6 @@
+You can
+find more details about this submission in the authors'
+blog
+New in v2:
+
+Vocabulary In v2 the tokenizer is changed to use a new vocabulary of size 128K built from the training data.

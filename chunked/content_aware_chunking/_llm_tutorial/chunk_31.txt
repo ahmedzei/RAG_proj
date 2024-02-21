@@ -1,0 +1,5 @@
+"], return_tensors="pt").to("cuda")
+LLM + greedy decoding = repetitive, boring output
+generated_ids = model.generate(**model_inputs)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+'I am a cat.

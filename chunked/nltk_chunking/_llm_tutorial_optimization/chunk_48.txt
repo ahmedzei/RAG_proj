@@ -1,0 +1,1 @@
+Let's define a flush() function to free all allocated memory so that we can accurately measure the peak allocated GPU memory.

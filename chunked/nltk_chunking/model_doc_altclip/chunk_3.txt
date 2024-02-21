@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+In this work, we present a conceptually simple and effective method to train a strong bilingual multimodal representation model.

@@ -1,0 +1,2 @@
+Decoder[[cv-decoder]]
+Decoder-only vision models are rare because most vision models rely on an encoder to learn an image representation.

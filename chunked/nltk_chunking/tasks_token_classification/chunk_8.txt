@@ -1,0 +1,8 @@
+Preprocess
+
+The next step is to load a DistilBERT tokenizer to preprocess the tokens field:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("distilbert/distilbert-base-uncased")
+
+As you saw in the example tokens field above, it looks like the input has already been tokenized.

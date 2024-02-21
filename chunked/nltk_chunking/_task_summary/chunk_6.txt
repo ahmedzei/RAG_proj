@@ -1,0 +1,2 @@
+Audio
+Audio and speech processing tasks are a little different from the other modalities mainly because audio as an input is a continuous signal.

@@ -1,0 +1,1 @@
+MGP-STR is trained on two synthetic datasets MJSynth (MJ) and SynthText (ST) without fine-tuning on other datasets.

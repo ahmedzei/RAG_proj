@@ -1,0 +1,2 @@
+To access these checkpoints, first sign up for and setup the NVIDIA GPU Cloud (NGC)
+Registry CLI.

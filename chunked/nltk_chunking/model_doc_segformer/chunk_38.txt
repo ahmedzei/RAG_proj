@@ -1,0 +1,2 @@
+However, other datasets use the 0 index as
+  background class and include this class as part of all labels.

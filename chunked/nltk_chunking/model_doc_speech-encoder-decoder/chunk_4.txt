@@ -1,0 +1,1 @@
+An example of how to use a [SpeechEncoderDecoderModel] for inference can be seen in Speech2Text2.

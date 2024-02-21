@@ -1,0 +1,1 @@
+Checkpoints for pre-trained bridgeTower-base and bridgetower masked language modeling and image text matching are released.

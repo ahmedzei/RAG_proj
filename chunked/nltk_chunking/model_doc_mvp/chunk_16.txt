@@ -1,0 +1,1 @@
+For lightweight tuning, i.e., fixing the model and only tuning prompts, you can load MVP with randomly initialized prompts or with task-specific prompts.

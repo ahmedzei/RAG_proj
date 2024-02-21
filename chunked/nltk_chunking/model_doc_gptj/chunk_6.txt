@@ -1,0 +1,2 @@
+The torch_dtype argument can be
+  used to initialize the model in half-precision on a CUDA device only.

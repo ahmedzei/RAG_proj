@@ -1,0 +1,4 @@
+Those can be obtained using the Python Image Library (PIL) library for example, as follows:
+thon
+from PIL import Image
+Document can be a png, jpg, etc.

@@ -1,0 +1,2 @@
+Encoding text as a sequence of tokens requires a tokenizer, which is typically created as an independent artifact from
+the model.

@@ -1,0 +1,2 @@
+Text classification
+Like classification tasks in any modality, text classification labels a sequence of text (it can be sentence-level, a paragraph, or a document) from a predefined set of classes.

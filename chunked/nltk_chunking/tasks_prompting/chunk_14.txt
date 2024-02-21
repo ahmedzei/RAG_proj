@@ -1,0 +1,2 @@
+By tweaking the text generation parameters, you can reduce 
+repetition in the generated text and make it more coherent and human-sounding.

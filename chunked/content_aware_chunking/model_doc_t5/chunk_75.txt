@@ -1,0 +1,2 @@
+There's also this blog post which explains how
+generation works in general in encoder-decoder models.

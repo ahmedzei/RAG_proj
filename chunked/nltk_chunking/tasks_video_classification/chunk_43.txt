@@ -1,0 +1,1 @@
+Also, if your dataset follows a similar structure (as shown above), then using the pytorchvideo.data.Ucf101() should work just fine.

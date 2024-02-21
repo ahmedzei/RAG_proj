@@ -1,0 +1,4 @@
+To enable mixed precision training, set the fp16 flag to True:
+py
+training_args = TrainingArguments(per_device_train_batch_size=4, fp16=True, **default_args)
+If you prefer to use 🤗 Accelerate, find the 🤗 Accelerate example further in this guide.

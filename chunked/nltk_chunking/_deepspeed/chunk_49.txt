@@ -1,0 +1,1 @@
+If your GPU memory is 8GB or less, you should reduce overlap_comm to lower the memory requirements and prevent an out-of-memory (OOM) error.

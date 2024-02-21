@@ -1,0 +1,5 @@
+UperNetConfig
+[[autodoc]] UperNetConfig
+UperNetForSemanticSegmentation
+[[autodoc]] UperNetForSemanticSegmentation
+    - forward

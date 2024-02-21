@@ -1,0 +1,9 @@
+yaml
+{
+    "bf16": {
+        "enabled": "auto"
+    }
+}
+
+Batch size
+The batch size can be auto-configured or explicitly set.

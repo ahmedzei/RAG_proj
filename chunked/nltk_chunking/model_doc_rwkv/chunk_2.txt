@@ -1,0 +1,1 @@
+This can be more efficient than a regular Transformer and can deal with sentence of any length (even if the model uses a fixed context length for training).

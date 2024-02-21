@@ -1,0 +1,2 @@
+Traditionally, image classification requires training a model on a specific set of labeled images, and this model learns to
+"map" certain image features to labels.

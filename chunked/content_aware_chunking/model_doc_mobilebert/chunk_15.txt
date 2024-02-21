@@ -1,0 +1,1 @@
+MobileBERT is similar to BERT and therefore relies on the masked language modeling (MLM) objective.

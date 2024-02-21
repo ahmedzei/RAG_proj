@@ -1,0 +1,1 @@
+It is easiest to set the environment variable in a ~/bashrc or another startup config file.

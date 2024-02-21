@@ -1,0 +1,2 @@
+XLM-R performs particularly well on
+low-resource languages, improving 11.8% in XNLI accuracy for Swahili and 9.2% for Urdu over the previous XLM model.

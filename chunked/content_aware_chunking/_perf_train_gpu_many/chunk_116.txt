@@ -1,0 +1,2 @@
+The purpose of finding the best value for chunks is to enable a high 
+concurrent GPU utilization across all participating GPUs which translates to minimizing the size of the bubble.

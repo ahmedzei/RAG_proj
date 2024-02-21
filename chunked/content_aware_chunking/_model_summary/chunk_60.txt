@@ -1,0 +1,1 @@
+GPT-J was followed by OPT, a family of decoder-only models, the largest of which is 175B and trained on 180B tokens.

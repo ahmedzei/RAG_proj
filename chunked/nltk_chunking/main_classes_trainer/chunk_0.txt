@@ -1,0 +1,3 @@
+
+Trainer
+The [Trainer] class provides an API for feature-complete training in PyTorch, and it supports distributed training on multiple GPUs/TPUs, mixed precision for NVIDIA GPUs, AMD GPUs, and torch.amp for PyTorch.

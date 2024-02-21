@@ -1,0 +1,1 @@
+Next, the first (also called top_prior) prior attends to the last hidden states extracted from the lyrics encoder.

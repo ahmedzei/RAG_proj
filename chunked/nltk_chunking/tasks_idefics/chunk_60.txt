@@ -1,0 +1,4 @@
+Category: Vegetables
+```  
+
+In the example above we instruct the model to classify the image into a single category, however, you can also prompt the model to do rank classification.

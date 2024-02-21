@@ -1,0 +1,2 @@
+So a difference with NLP models is that the sequence length is actually
+longer than usual, but with a smaller d_model (which in NLP is typically 768 or higher).

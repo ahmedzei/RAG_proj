@@ -1,0 +1,3 @@
+Similar to image 
+captioning it can be used in accessibility applications, but also in education (reasoning about visual materials), customer 
+service (questions about products based on images), and image retrieval.

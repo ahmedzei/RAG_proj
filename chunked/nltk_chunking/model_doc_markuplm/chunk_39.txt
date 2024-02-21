@@ -1,0 +1,15 @@
+thon
+
+from transformers import MarkupLMProcessor
+processor = MarkupLMProcessor.from_pretrained("microsoft/markuplm-base")
+html_string = """
+  <!DOCTYPE html>
+  
+  
+  Hello world
+  
+  
+  Welcome
+  My name is Niels.
+  
+  """

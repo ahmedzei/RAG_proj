@@ -1,0 +1,1 @@
+As a result the memory associated to the optimizer states and gradients are greatly reduced.

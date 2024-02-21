@@ -1,0 +1,1 @@
+Additionally, we find that it is important to remove non-linearities in the narrow layers in order to maintain representational power.

@@ -1,0 +1,1 @@
+With probability 50%, the sentences are consecutive in the corpus, in the remaining 50% they are not related.

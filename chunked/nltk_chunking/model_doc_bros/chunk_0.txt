@@ -1,0 +1,4 @@
+
+BROS
+Overview
+The BROS model was proposed in BROS: A Pre-trained Language Model Focusing on Text and Layout for Better Key Information Extraction from Documents by Teakgyu Hong, Donghyun Kim, Mingi Ji, Wonseok Hwang, Daehyun Nam, Sungrae Park.

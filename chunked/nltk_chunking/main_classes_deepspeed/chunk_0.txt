@@ -1,0 +1,3 @@
+
+DeepSpeed
+DeepSpeed, powered by Zero Redundancy Optimizer (ZeRO), is an optimization library for training and fitting very large models onto a GPU.

@@ -1,0 +1,2 @@
+These methods convert model's raw outputs into meaningful predictions such as bounding boxes,
+or segmentation maps.

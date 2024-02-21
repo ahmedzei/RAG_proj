@@ -1,0 +1,2 @@
+Activation/gradient checkpointing
+Activation and gradient checkpointing trades speed for more GPU memory which allows you to overcome scenarios where your GPU is out of memory or to increase your batch size for better performance.

@@ -1,0 +1,3 @@
+
+DeepSpeed
+DeepSpeed is a PyTorch optimization library that makes distributed training memory-efficient and fast.

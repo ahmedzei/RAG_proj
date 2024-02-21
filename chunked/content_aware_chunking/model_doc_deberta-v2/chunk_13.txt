@@ -1,0 +1,2 @@
+Instead of a GPT2-based tokenizer, the tokenizer is now
+  sentencepiece-based tokenizer.

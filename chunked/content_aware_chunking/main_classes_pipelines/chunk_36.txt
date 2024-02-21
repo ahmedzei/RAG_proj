@@ -1,0 +1,3 @@
+Pipeline chunk batching
+zero-shot-classification and question-answering are slightly specific in the sense, that a single input might yield
+multiple forward pass of a model.

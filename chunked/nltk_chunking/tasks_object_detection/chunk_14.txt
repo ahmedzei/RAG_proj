@@ -1,0 +1,2 @@
+Including these maps will make your model reusable by others if you share
+it on the Hugging Face Hub.

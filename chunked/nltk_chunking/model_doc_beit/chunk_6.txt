@@ -1,0 +1,2 @@
+We first "tokenize" the original image into
+visual tokens.

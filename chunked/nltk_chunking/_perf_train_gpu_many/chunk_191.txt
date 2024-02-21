@@ -1,0 +1,3 @@
+Parameter
+
+It is similar with tensor model parallelism or naive layer-wise model parallelism.

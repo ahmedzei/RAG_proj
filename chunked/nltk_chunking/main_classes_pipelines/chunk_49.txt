@@ -1,0 +1,46 @@
+ConversationalPipeline
+[[autodoc]] Conversation
+[[autodoc]] ConversationalPipeline
+    - call
+    - all
+FillMaskPipeline
+[[autodoc]] FillMaskPipeline
+    - call
+    - all
+QuestionAnsweringPipeline
+[[autodoc]] QuestionAnsweringPipeline
+    - call
+    - all
+SummarizationPipeline
+[[autodoc]] SummarizationPipeline
+    - call
+    - all
+TableQuestionAnsweringPipeline
+[[autodoc]] TableQuestionAnsweringPipeline
+    - call
+TextClassificationPipeline
+[[autodoc]] TextClassificationPipeline
+    - call
+    - all
+TextGenerationPipeline
+[[autodoc]] TextGenerationPipeline
+    - call
+    - all
+Text2TextGenerationPipeline
+[[autodoc]] Text2TextGenerationPipeline
+    - call
+    - all
+TokenClassificationPipeline
+[[autodoc]] TokenClassificationPipeline
+    - call
+    - all
+TranslationPipeline
+[[autodoc]] TranslationPipeline
+    - call
+    - all
+ZeroShotClassificationPipeline
+[[autodoc]] ZeroShotClassificationPipeline
+    - call
+    - all
+Multimodal
+Pipelines available for multimodal tasks include the following.

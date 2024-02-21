@@ -1,0 +1,20 @@
+MraConfig
+[[autodoc]] MraConfig
+MraModel
+[[autodoc]] MraModel
+    - forward
+MraForMaskedLM
+[[autodoc]] MraForMaskedLM
+    - forward
+MraForSequenceClassification
+[[autodoc]] MraForSequenceClassification
+    - forward
+MraForMultipleChoice
+[[autodoc]] MraForMultipleChoice
+    - forward
+MraForTokenClassification
+[[autodoc]] MraForTokenClassification
+    - forward
+MraForQuestionAnswering
+[[autodoc]] MraForQuestionAnswering
+    - forward

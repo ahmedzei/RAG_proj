@@ -1,0 +1,2 @@
+Note that you can still use your own OCR engine of
+choice, and provide the words and normalized boxes yourself.

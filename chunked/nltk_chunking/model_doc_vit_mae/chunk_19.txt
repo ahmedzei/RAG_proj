@@ -1,0 +1,2 @@
+This means that after
+fine-tuning, one can directly plug in the weights into a [ViTForImageClassification].

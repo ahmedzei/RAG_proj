@@ -1,0 +1,1 @@
+The product \(QK^{T}\) then has shape seq_len x seq_len and we can take the matrix product with \(V\) to get the output \(O\) of the same shape as the others.

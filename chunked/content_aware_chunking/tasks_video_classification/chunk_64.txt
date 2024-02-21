@@ -1,0 +1,1 @@
+Also, define a collate_fn, which will be used to batch examples together.

@@ -1,0 +1,3 @@
+Techniques like data
+  augmentation, optimization, and regularization were used in order to simulate training on a much larger dataset
+  (while only using ImageNet-1k for pre-training).

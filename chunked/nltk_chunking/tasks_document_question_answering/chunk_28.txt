@@ -1,0 +1,1 @@
+Let's start by loading the [LayoutLMv2Processor], which internally combines an image processor that can handle image data and a tokenizer that can encode text data.

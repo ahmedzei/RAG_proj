@@ -1,0 +1,3 @@
+Usage tips
+
+You may specify output_segmentation=True in the forward of GroupViTModel to get the segmentation logits of input texts.

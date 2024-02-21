@@ -1,0 +1,2 @@
+Note that we converted the weights from Ross Wightman's timm library, 
+who already converted the weights from JAX to PyTorch.

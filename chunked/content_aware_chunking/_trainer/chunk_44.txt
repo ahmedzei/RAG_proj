@@ -1,0 +1,3 @@
+my_app.py  --log_level warning --log_level_replica error
+
+Add the log_on_each_node 0 parameter for multi-node environments.

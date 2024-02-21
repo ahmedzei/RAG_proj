@@ -1,0 +1,1 @@
+For inference, only input_ids, attention_mask and token_type_ids (which you can obtain using [TapasTokenizer]) have to be provided to the model to obtain the logits.

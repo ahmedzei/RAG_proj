@@ -1,0 +1,3 @@
+For encoder-decoder models, one
+typically defines a max_source_length and max_target_length, which determine the maximum length of the
+input and output sequences respectively (otherwise they are truncated).

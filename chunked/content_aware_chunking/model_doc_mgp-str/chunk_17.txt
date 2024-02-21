@@ -1,0 +1,1 @@
+The three types of predictions are fused to give the final prediction result.

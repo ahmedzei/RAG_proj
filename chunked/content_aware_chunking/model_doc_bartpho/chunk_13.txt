@@ -1,0 +1,2 @@
+BartphoTokenizer
+[[autodoc]] BartphoTokenizer

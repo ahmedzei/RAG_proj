@@ -1,0 +1,1 @@
+In terms of having one single checkpoint when you do model.save_pretrained(save_dir), you will end up with several partial checkpoints (each of which being of size < 10GB) and an index that maps parameter names to the files they are stored in.

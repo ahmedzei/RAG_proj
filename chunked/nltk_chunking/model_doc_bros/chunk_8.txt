@@ -1,0 +1,1 @@
+It predicts the label of each token.

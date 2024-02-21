@@ -1,0 +1,4 @@
+You need to
+figure out the following:
+
+Where to find the pretrained weights?

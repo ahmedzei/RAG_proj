@@ -1,0 +1,5 @@
+
+MarkupLM
+Overview
+The MarkupLM model was proposed in MarkupLM: Pre-training of Text and Markup Language for Visually-rich Document
+Understanding by Junlong Li, Yiheng Xu, Lei Cui, Furu Wei.

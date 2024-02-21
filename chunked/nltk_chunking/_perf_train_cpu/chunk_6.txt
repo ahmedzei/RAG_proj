@@ -1,0 +1,1 @@
+AMP support for bf16 on CPUs and bf16 operator optimization is also supported in IPEX and partially upstreamed to the main PyTorch branch.

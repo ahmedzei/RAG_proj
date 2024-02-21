@@ -1,0 +1,17 @@
+with torch.no_grad():
+     outputs = model(**inputs)
+     target_sizes = [x.size[::-1] for x in images]
+     results = processor.post_process_object_detection(outputs, threshold=0.1, target_sizes=target_sizes)
+image_idx = 1
+draw = ImageDraw.Draw(images[image_idx])
+scores = results[image_idx]["scores"].tolist()
+labels = results[image_idx]["labels"].tolist()
+boxes = results[image_idx]["boxes"].tolist()
+for box, score, label in zip(boxes, scores, labels):
+     xmin, ymin, xmax, ymax = box
+     draw.rectangle((xmin, ymin, xmax, ymax), outline="red", width=1)
+     draw.text((xmin, ymin), f"{text_queries[image_idx][label]}: {round(score,2)}", fill="white")
+images[image_idx]
+
+Image-guided object detection
+In addition to zero-shot object detection with text queries, OWL-ViT offers image-guided object detection.

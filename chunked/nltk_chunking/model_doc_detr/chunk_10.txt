@@ -1,0 +1,2 @@
+Moreover, DETR can be easily
+generalized to produce panoptic segmentation in a unified manner.

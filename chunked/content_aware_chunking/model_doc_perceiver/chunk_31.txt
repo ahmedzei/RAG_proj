@@ -1,0 +1,2 @@
+Next, one performs cross-attention with the final hidden states
+of the latents to update the outputs tensor.

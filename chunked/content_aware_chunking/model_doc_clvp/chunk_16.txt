@@ -1,0 +1,1 @@
+At the end, we compare each speech vector with the text vector to see which speech vector is most similar to the text vector.

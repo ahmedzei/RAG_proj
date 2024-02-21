@@ -1,0 +1,3 @@
+Different versions of FlauBERT as well as a unified evaluation
+protocol for the downstream tasks, called FLUE (French Language Understanding Evaluation), are shared to the research
+community for further reproducible experiments in French NLP.

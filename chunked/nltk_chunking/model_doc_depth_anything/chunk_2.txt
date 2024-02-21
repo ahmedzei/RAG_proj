@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+This work presents Depth Anything, a highly practical solution for robust monocular depth estimation.

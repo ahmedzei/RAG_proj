@@ -1,0 +1,2 @@
+When using a pipeline to generate text with an LLM, it's important to know what type of LLM you are using, because 
+they use different pipelines.

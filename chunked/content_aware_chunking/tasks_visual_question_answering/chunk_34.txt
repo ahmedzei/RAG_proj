@@ -1,0 +1,11 @@
+To later instantiate the model with an appropriate classification head, let's create two dictionaries: one that maps 
+the label name to an integer and vice versa:
+
+import itertools
+labels = [item['ids'] for item in dataset['label']]
+flattened_labels = list(itertools.chain(*labels))
+unique_labels = list(set(flattened_labels))
+label2id = {label: idx for idx, label in enumerate(unique_labels)}
+id2label = {idx: label for label, idx in label2id.items()} 
+
+Now that we have the mappings, we can replace the string answers with their ids, and flatten the dataset for a more convenient further preprocessing.

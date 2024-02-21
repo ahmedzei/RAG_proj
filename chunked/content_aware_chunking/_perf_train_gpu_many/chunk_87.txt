@@ -1,0 +1,2 @@
+same physical machine) this copying is fast, but if the GPUs are distributed 
+across different compute nodes (e.g.

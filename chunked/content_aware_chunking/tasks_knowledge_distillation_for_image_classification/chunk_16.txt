@@ -1,0 +1,1 @@
+Then, we divide each of them by the parameter temperature which controls the importance of each soft target.

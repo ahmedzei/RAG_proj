@@ -1,0 +1,3 @@
+Testing the stdout/stderr output
+In order to test functions that write to stdout and/or stderr, the test can access those streams using the
+pytest's capsys system.

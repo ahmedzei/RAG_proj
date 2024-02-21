@@ -1,0 +1,4 @@
+Generation process
+Here's how the generation process works:
+
+Input text or speech is processed through its specific encoder.

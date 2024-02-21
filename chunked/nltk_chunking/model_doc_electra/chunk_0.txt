@@ -1,0 +1,6 @@
+
+ELECTRA
+
+Overview
+The ELECTRA model was proposed in the paper ELECTRA: Pre-training Text Encoders as Discriminators Rather Than
+Generators.

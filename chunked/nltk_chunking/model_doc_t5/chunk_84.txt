@@ -1,0 +1,2 @@
+Because T5 has been trained with the span-mask denoising objective,
+it can be used to predict the sentinel (masked-out) tokens during inference.

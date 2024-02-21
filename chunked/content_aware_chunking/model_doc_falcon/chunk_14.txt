@@ -1,0 +1,18 @@
+FalconConfig
+[[autodoc]] FalconConfig
+    - all
+FalconModel
+[[autodoc]] FalconModel
+    - forward
+FalconForCausalLM
+[[autodoc]] FalconForCausalLM
+    - forward
+FalconForSequenceClassification
+[[autodoc]] FalconForSequenceClassification
+    - forward
+FalconForTokenClassification
+[[autodoc]] FalconForTokenClassification
+    - forward
+FalconForQuestionAnswering
+[[autodoc]] FalconForQuestionAnswering
+    - forward

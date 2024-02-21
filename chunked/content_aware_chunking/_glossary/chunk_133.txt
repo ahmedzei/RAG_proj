@@ -1,0 +1,2 @@
+supervised learning
+A form of model training that directly uses labeled data to correct and instruct model performance.

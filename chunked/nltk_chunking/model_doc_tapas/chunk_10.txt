@@ -1,0 +1,1 @@
+In this paper, we present TAPAS, an approach to question answering over tables without generating logical forms.

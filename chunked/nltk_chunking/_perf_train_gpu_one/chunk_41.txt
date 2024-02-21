@@ -1,0 +1,2 @@
+The alternative approach of discarding the activations and recalculating them when needed 
+during the backward pass, would introduce a considerable computational overhead and slow down the training process.

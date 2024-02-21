@@ -1,0 +1,2 @@
+BEiT models outperform supervised pre-trained
+  vision transformers using a self-supervised method inspired by BERT (masked image modeling) and based on a VQ-VAE.

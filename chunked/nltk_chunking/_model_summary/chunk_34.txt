@@ -1,0 +1,1 @@
+DETR has a pretrained backbone, but it also uses the complete Transformer encoder-decoder architecture for object detection.

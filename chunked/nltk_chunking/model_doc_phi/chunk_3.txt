@@ -1,0 +1,2 @@
+They selected high quality "textbook" data alongside with synthetically generated data for training their small sized Transformer
+based model Phi-1 with 1.3B parameters.

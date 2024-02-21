@@ -1,0 +1,2 @@
+FSMT's modeling code is based on BART, while FSMT's tokenizer code
+  is based on XLM.

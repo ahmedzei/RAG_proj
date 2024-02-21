@@ -1,0 +1,5 @@
+model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
+initialise Deepspeed ZeRO and store only the engine object
+ds_engine = deepspeed.initialize(model=model, config_params=ds_config)[0]
+ds_engine.module.eval()  # inference
+Deepspeed ZeRO can process unrelated inputs on each GPU.

@@ -1,0 +1,1 @@
+Yet, it has not achieved competitive performance on popular leaderboards of graph-level prediction compared to mainstream GNN variants.

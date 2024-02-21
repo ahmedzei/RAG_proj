@@ -1,0 +1,3 @@
+DP splits the global data batch size into 
+mini-batches, so if you have a DP degree of 4, a global batch size of 1024 gets split up into 4 mini-batches of 
+256 each (1024/4).

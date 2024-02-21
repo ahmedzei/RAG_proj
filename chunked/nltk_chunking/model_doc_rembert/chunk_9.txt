@@ -1,0 +1,2 @@
+The tokenizer is
+also similar to the Albert one rather than the BERT one.

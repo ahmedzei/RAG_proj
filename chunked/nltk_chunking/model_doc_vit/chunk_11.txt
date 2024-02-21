@@ -1,0 +1,2 @@
+The authors of DeiT also released more efficiently trained ViT models, which you can directly plug into [ViTModel] or
+  [ViTForImageClassification].

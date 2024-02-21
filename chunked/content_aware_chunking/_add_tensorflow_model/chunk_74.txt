@@ -1,0 +1,2 @@
+For example, torch.nn.Linear corresponds to
+  tf.keras.layers.Dense, torch.nn.Dropout corresponds to tf.keras.layers.Dropout, etc.

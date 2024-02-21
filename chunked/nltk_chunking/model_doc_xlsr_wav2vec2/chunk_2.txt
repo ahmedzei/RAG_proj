@@ -1,0 +1,2 @@
+We build on wav2vec 2.0 which is trained by solving a contrastive task over
+masked latent speech representations and jointly learns a quantization of the latents shared across languages.

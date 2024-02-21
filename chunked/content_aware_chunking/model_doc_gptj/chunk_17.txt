@@ -1,0 +1,3 @@
+Usage examples
+The [~generation.GenerationMixin.generate] method can be used to generate text using GPT-J
+model.

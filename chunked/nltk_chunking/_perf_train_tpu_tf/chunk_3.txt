@@ -1,0 +1,1 @@
+They are hardware designed by Google, which are used to greatly speed up the tensor computations within neural networks, much like GPUs.

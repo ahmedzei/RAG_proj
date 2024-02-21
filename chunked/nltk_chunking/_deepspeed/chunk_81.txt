@@ -1,0 +1,1 @@
+The [TrainingArguments] object must be created before calling the model [~PreTrainedModel.from_pretrained].

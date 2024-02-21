@@ -1,0 +1,1 @@
+Note that T5 was pre-trained using the AdaFactor optimizer.

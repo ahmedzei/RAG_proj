@@ -1,0 +1,2 @@
+It includes
+the 1.5B model used for the SuperGLUE single-model submission and achieving 89.9, versus human baseline 89.8.

@@ -1,0 +1,2 @@
+Rename reorder_and_upcast_attn->attention_softmax_in_fp32
+- Cache the attention mask value to avoid recreating it every time.

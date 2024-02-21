@@ -1,0 +1,1 @@
+When using the standalone [SiglipTokenizer] or [SiglipProcessor], make sure to pass padding="max_length" as that's how the model was trained.

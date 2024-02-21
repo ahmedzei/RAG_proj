@@ -1,0 +1,1 @@
+This paper describes a way to apply advances in the image generative domain to speech synthesis.

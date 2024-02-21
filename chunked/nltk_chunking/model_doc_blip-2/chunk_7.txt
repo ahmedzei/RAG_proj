@@ -1,0 +1,1 @@
+The second stage bootstraps vision-to-language generative learning from a frozen language model.

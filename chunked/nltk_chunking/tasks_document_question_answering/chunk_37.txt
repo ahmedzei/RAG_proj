@@ -1,0 +1,3 @@
+tokenizer = processor.tokenizer
+
+On top of the preprocessing mentioned above, we also need to add the labels for the model.

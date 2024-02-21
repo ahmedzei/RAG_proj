@@ -1,0 +1,2 @@
+We focus on wav2vec 2.0, and formalize several architecture designs that influence both the model performance
+and its efficiency.

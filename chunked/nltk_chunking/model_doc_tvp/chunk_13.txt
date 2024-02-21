@@ -1,0 +1,1 @@
+Although 3D inputs offer more spatial-temporal detail, they are also more time-consuming to process.

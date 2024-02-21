@@ -1,0 +1,2 @@
+',
+ 'title': 'An act to add Section 10295.35 to the Public Contract Code, relating to public contracts.'}

@@ -1,0 +1,1 @@
+part-of-speech tagging (POS): label a token according to its part-of-speech like noun, verb, or adjective.

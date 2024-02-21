@@ -1,0 +1,24 @@
+cppe5["train"][0]
+{'image_id': 15,
+ 'image': ,
+ 'width': 943,
+ 'height': 663,
+ 'objects': {'id': [114, 115, 116, 117],
+  'area': [3796, 1596, 152768, 81002],
+  'bbox': [[302.0, 109.0, 73.0, 52.0],
+   [810.0, 100.0, 57.0, 28.0],
+   [160.0, 31.0, 248.0, 616.0],
+   [741.0, 68.0, 202.0, 401.0]],
+  'category': [4, 4, 0, 0]}}
+
+The examples in the dataset have the following fields:
+- image_id: the example image id
+- image: a PIL.Image.Image object containing the image
+- width: width of the image
+- height: height of the image
+- objects: a dictionary containing bounding box metadata for the objects in the image:
+  - id: the annotation id
+  - area: the area of the bounding box
+  - bbox: the object's bounding box (in the COCO format )
+  - category: the object's category, with possible values including Coverall (0), Face_Shield (1), Gloves (2), Goggles (3) and Mask (4)
+You may notice that the bbox field follows the COCO format, which is the format that the DETR model expects.

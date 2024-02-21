@@ -1,0 +1,2 @@
+gptq_config = GPTQConfig(bits=4, dataset=dataset, tokenizer=tokenizer)
+Load a model to quantize and pass the gptq_config to the [~AutoModelForCausalLM.from_pretrained] method.

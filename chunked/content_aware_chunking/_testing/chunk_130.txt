@@ -1,0 +1,2 @@
+A common example is a test for a feature not yet
+  implemented, or a bug not yet fixed.

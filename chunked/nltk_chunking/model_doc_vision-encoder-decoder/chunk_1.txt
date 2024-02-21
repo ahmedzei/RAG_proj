@@ -1,0 +1,2 @@
+ViT, BEiT, DeiT, Swin)
+and any pretrained language model as the decoder (e.g.

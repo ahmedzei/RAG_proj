@@ -1,0 +1,2 @@
+- run with optimized inference pipelines,
+which has the same API as the [pipeline] function in 🤗 Transformers.

@@ -1,0 +1,23 @@
+RegNetConfig
+[[autodoc]] RegNetConfig
+
+RegNetModel
+[[autodoc]] RegNetModel
+    - forward
+RegNetForImageClassification
+[[autodoc]] RegNetForImageClassification
+    - forward
+
+TFRegNetModel
+[[autodoc]] TFRegNetModel
+    - call
+TFRegNetForImageClassification
+[[autodoc]] TFRegNetForImageClassification
+    - call
+
+FlaxRegNetModel
+[[autodoc]] FlaxRegNetModel
+    - call
+FlaxRegNetForImageClassification
+[[autodoc]] FlaxRegNetForImageClassification
+    - call

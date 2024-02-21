@@ -1,0 +1,12 @@
+prompt = f"Question: {question} Answer:" 
+
+Now we need to preprocess the image/prompt with the model's processor, pass the processed input through the model, and decode the output:
+
+inputs = processor(image, text=prompt, return_tensors="pt").to(device, torch.float16)
+generated_ids = model.generate(**inputs, max_new_tokens=10)
+generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)[0].strip()
+print(generated_text)
+"He is looking at the crowd" 
+
+As you can see, the model recognized the crowd, and the direction of the face (looking down), however, it seems to miss 
+the fact the crowd is behind the skater.

@@ -1,0 +1,1 @@
+[MobileNetV1ForImageClassification] is supported by this example script and notebook.

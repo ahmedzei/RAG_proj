@@ -1,0 +1,30 @@
+thon
+from transformers import AutoModelForImageClassification, MobileNetV2Config, MobileNetV2ForImageClassification
+training_args = TrainingArguments(
+    output_dir="my-awesome-model",
+    num_train_epochs=30,
+    fp16=True,
+    logging_dir=f"{repo_name}/logs",
+    logging_strategy="epoch",
+    evaluation_strategy="epoch",
+    save_strategy="epoch",
+    load_best_model_at_end=True,
+    metric_for_best_model="accuracy",
+    report_to="tensorboard",
+    push_to_hub=True,
+    hub_strategy="every_save",
+    hub_model_id=repo_name,
+    )
+num_labels = len(processed_datasets["train"].features["labels"].names)
+initialize models
+teacher_model = AutoModelForImageClassification.from_pretrained(
+    "merve/beans-vit-224",
+    num_labels=num_labels,
+    ignore_mismatched_sizes=True
+)
+training MobileNetV2 from scratch
+student_config = MobileNetV2Config()
+student_config.num_labels = num_labels
+student_model = MobileNetV2ForImageClassification(student_config)
+
+We can use compute_metrics function to evaluate our model on the test set.

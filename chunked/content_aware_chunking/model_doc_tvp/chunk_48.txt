@@ -1,0 +1,20 @@
+assert clip_idx >= -2, "Not a valied clip_idx {}".format(clip_idx)
+    frames, fps = pyav_decode(container, sampling_rate, num_frames, clip_idx, num_clips, target_fps)
+    clip_size = sampling_rate * num_frames / target_fps * fps
+    index = np.linspace(0, clip_size - 1, num_frames)
+    index = np.clip(index, 0, len(frames) - 1).astype(np.int64)
+    frames = np.array([frames[idx].to_rgb().to_ndarray() for idx in index])
+    frames = frames.transpose(0, 3, 1, 2)
+    return frames
+file = hf_hub_download(repo_id="Intel/tvp_demo", filename="AK2KG.mp4", repo_type="dataset")
+model = TvpForVideoGrounding.from_pretrained("Intel/tvp-base")
+decoder_kwargs = dict(
+    container=av.open(file, metadata_errors="ignore"),
+    sampling_rate=1,
+    num_frames=model.config.num_frames,
+    clip_idx=0,
+    num_clips=1,
+    target_fps=3,
+)
+raw_sampled_frms = decode(**decoder_kwargs)
+text = "a person is sitting on a bed."

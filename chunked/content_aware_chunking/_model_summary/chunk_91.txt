@@ -1,0 +1,1 @@
+After pretraining, you can use natural language to instruct CLIP to predict the text given an image or vice versa.

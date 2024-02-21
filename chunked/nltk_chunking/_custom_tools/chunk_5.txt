@@ -1,0 +1,1 @@
+Both the run and chat modes underlie the same logic.

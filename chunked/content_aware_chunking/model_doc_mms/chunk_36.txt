@@ -1,0 +1,11 @@
+You can either rely on using the bash variable 
+UROMAN to point to the uroman repository, or you can pass the uroman directory as an argument to the uromaize function:
+thon
+import torch
+from transformers import VitsTokenizer, VitsModel, set_seed
+import os
+import subprocess
+tokenizer = VitsTokenizer.from_pretrained("facebook/mms-tts-kor")
+model = VitsModel.from_pretrained("facebook/mms-tts-kor")
+def uromanize(input_string, uroman_path):
+    """Convert non-Roman strings to Roman using the uroman perl package."""

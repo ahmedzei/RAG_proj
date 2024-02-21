@@ -1,0 +1,2 @@
+🌎
+[Wav2Vec2ForCTC] is supported by a notebook on how to finetune a speech recognition model in English, and how to finetune a speech recognition model in any language.

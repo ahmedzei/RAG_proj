@@ -1,0 +1,1 @@
+During backward, once the local gradients are ready, they are averaged across all processes.

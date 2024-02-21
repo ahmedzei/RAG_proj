@@ -1,0 +1,1 @@
+The pretraining includes both supervised and self-supervised training.

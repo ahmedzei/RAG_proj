@@ -1,0 +1,5 @@
+You can switch to Adafactor by setting optim="adafactor" in [TrainingArguments]:
+py
+training_args = TrainingArguments(per_device_train_batch_size=4, optim="adafactor", **default_args)
+Combined with other approaches (gradient accumulation, gradient checkpointing, and mixed precision training) 
+you can notice up to 3x improvement while maintaining the throughput!

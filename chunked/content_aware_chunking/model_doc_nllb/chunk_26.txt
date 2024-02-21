@@ -1,0 +1,15 @@
+thon
+
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("facebook/nllb-200-distilled-600M")
+model = AutoModelForSeq2SeqLM.from_pretrained("facebook/nllb-200-distilled-600M")
+article = "UN Chief says there is no military solution in Syria"
+inputs = tokenizer(article, return_tensors="pt")
+translated_tokens = model.generate(
+     **inputs, forced_bos_token_id=tokenizer.lang_code_to_id["fra_Latn"], max_length=30
+ )
+tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
+Le chef de l'ONU dit qu'il n'y a pas de solution militaire en Syrie
+
+Generating from any other language than English
+English (eng_Latn) is set as the default language from which to translate.

@@ -1,0 +1,1 @@
+Add 🤗 Datasets to your offline training workflow with the environment variable HF_DATASETS_OFFLINE=1.

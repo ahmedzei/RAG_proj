@@ -1,0 +1,2 @@
+For best results when finetuning on sequence classification tasks, it is recommended to start with the
+  squeezebert/squeezebert-mnli-headless checkpoint.

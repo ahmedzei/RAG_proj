@@ -1,0 +1,3 @@
+Text classification
+One of the most common forms of text classification is sentiment analysis, which assigns a label like "positive", "negative", 
+or "neutral" to a sequence of text.

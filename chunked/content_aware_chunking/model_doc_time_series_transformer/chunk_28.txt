@@ -1,0 +1,2 @@
+This means that, during training, one shifts the
+future_values one position to the right as input to the decoder, prepended by the last value of past_values.

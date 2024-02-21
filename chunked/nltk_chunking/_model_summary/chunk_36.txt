@@ -1,0 +1,1 @@
+DETR predicts the bounding box coordinates and class label for each object query.

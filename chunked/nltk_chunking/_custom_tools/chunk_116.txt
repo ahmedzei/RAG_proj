@@ -1,0 +1,1 @@
+In both cases, you can pass a repo ID instead of the prompt template if you would like to use a template hosted by someone in the community.

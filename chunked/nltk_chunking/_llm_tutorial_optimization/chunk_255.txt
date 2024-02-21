@@ -1,0 +1,1 @@
+Remember that the key-value cache needs to store the key-value vectors for all previous input vectors \( \mathbf{x}_i \text{, for } i \in {1, \ldots, c - 1} \) for all self-attention layers and for all attention heads.

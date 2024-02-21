@@ -1,0 +1,5 @@
+It obtains state-of-the-art results
+on several downstream tasks:
+
+form understanding: the FUNSD dataset (a collection of 199 annotated
+  forms comprising more than 30,000 words).

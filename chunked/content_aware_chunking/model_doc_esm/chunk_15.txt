@@ -1,0 +1,2 @@
+Information about secondary and tertiary structure is encoded in the representations and
+can be identified by linear projections.

@@ -1,0 +1,1 @@
+(prevents an overhead with the merged key and values, but makes the checkpoints incompatible with the original openai-community/gpt2 model).

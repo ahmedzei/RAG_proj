@@ -1,0 +1,2 @@
+However, at some point further model increases become harder due to GPU/TPU memory limitations,
+longer training times, and unexpected model degradation.

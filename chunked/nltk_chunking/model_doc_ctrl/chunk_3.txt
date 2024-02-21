@@ -1,0 +1,2 @@
+We release CTRL, a 1.63 billion-parameter conditional transformer language model,
+trained to condition on control codes that govern style, content, and task-specific behavior.

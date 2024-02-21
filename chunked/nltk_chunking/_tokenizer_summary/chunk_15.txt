@@ -1,0 +1,3 @@
+We should take the
+punctuation into account so that a model does not have to learn a different representation of a word and every possible
+punctuation symbol that could follow it, which would explode the number of representations the model has to learn.

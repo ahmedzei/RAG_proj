@@ -1,0 +1,1 @@
+Both nodes must be able to communicate with each other locally over ssh without a password.

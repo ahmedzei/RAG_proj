@@ -1,0 +1,1 @@
+However, the 2D nature of images brings three challenges for applying self-attention in computer vision.

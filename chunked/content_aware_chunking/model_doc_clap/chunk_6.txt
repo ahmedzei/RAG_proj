@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Contrastive learning has shown remarkable success in the field of multimodal representation learning.

@@ -1,0 +1,3 @@
+It was
+introduced in Dense Passage Retrieval for Open-Domain Question Answering by
+Vladimir Karpukhin, Barlas Oğuz, Sewon Min, Patrick Lewis, Ledell Wu, Sergey Edunov, Danqi Chen, Wen-tau Yih.

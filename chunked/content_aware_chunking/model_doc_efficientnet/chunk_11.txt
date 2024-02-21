@@ -1,0 +1,11 @@
+EfficientNetConfig
+[[autodoc]] EfficientNetConfig
+EfficientNetImageProcessor
+[[autodoc]] EfficientNetImageProcessor
+    - preprocess
+EfficientNetModel
+[[autodoc]] EfficientNetModel
+    - forward
+EfficientNetForImageClassification
+[[autodoc]] EfficientNetForImageClassification
+    - forward

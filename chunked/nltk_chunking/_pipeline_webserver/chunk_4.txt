@@ -1,0 +1,3 @@
+The key thing to understand is that we can use an iterator, just like you would on a
+dataset, since a webserver is basically a system that waits for requests and
+treats them as they come in.

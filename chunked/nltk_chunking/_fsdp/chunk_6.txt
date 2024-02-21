@@ -1,0 +1,1 @@
+Accelerate uses this configuration file to automatically setup the correct training environment based on your selected training options in accelerate config.

@@ -1,0 +1,1 @@
+There are two methods to resume training from a checkpoint.

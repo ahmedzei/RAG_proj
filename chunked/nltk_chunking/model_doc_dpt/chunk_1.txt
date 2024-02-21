@@ -1,0 +1,1 @@
+DPT is a model that leverages the Vision Transformer (ViT) as backbone for dense prediction tasks like semantic segmentation and depth estimation.

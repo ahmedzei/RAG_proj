@@ -1,0 +1,24 @@
+script_path = os.path.join(uroman_path, "bin", "uroman.pl")
+command = ["perl", script_path]
+
+process = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+# Execute the perl command
+stdout, stderr = process.communicate(input=input_string.encode())
+
+if process.returncode != 0:
+    raise ValueError(f"Error {process.returncode}: {stderr.decode()}")
+
+# Return the output as a string and skip the new-line character at the end
+return stdout.decode()[:-1]
+
+text = "이봐 무슨 일이야"
+uromaized_text = uromanize(text, uroman_path=os.environ["UROMAN"])
+inputs = tokenizer(text=uromaized_text, return_tensors="pt")
+set_seed(555)  # make deterministic
+with torch.no_grad():
+   outputs = model(inputs["input_ids"])
+waveform = outputs.waveform[0]
+
+Tips:
+
+The MMS-TTS checkpoints are trained on lower-cased, un-punctuated text.

@@ -1,0 +1,12 @@
+input_ids = [0, 4, 4, 3, 2, 4, 1, 7, 19]
+The outputs of the following layers often consist of multi-dimensional float arrays and can look like this:
+[[
+ [-0.1465, -0.6501,  0.1993,  ,  0.1451,  0.3430,  0.6024],
+ [-0.4417, -0.5920,  0.3450,  , -0.3062,  0.6182,  0.7132],
+ [-0.5009, -0.7122,  0.4548,  , -0.3662,  0.6091,  0.7648],
+ ,
+ [-0.5613, -0.6332,  0.4324,  , -0.3792,  0.7372,  0.9288],
+ [-0.5416, -0.6345,  0.4180,  , -0.3564,  0.6992,  0.9191],
+ [-0.5334, -0.6403,  0.4271,  , -0.3339,  0.6533,  0.8694]]],
+We expect that every model added to 🤗 Transformers passes a couple of integration tests, meaning that the original
+model and the reimplemented version in 🤗 Transformers have to give the exact same output up to a precision of 0.001!

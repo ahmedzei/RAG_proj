@@ -1,0 +1,1 @@
+If the model is quantized to 4bits, a single A100 is enough to fit the entire 45B model.

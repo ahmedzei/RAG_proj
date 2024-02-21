@@ -1,0 +1,2 @@
+Implementations:
+- DeepSpeed - DeepSpeed also includes an even more efficient DP, which they call ZeRO-DP.

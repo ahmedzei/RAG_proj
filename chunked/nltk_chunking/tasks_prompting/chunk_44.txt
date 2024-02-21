@@ -1,0 +1,2 @@
+Named Entity Recognition
+Named Entity Recognition (NER) is a task of finding named entities in a piece of text, such as a person, location, or organization.

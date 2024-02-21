@@ -1,0 +1,6 @@
+
+OpenAI GPT2
+
+Overview
+OpenAI GPT-2 model was proposed in Language Models are Unsupervised Multitask Learners by Alec
+Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei and Ilya Sutskever from OpenAI.

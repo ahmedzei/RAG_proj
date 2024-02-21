@@ -1,0 +1,3 @@
+Training & inference backends:
+* dynamo.optimize("inductor") - Uses TorchInductor backend with AotAutograd and cudagraphs by leveraging codegened Triton kernels  Read more
+* dynamo.optimize("nvfuser") -  nvFuser with TorchScript.

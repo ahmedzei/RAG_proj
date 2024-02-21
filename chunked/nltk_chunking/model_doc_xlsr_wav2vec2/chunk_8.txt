@@ -1,0 +1,2 @@
+We hope to catalyze research in low-resource speech understanding by releasing
+XLSR-53, a large model pretrained in 53 languages.

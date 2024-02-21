@@ -1,0 +1,1 @@
+The fuse_max_seq_len parameter is the total sequence length and it should include the context length and the expected generation length.

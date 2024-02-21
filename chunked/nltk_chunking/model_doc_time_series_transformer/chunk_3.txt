@@ -1,0 +1,2 @@
+Note that this is a so-called probabilistic forecasting model, not a
+point forecasting model.

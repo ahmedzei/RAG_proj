@@ -1,0 +1,2 @@
+RAG models retrieve documents, pass them to a seq2seq model, then marginalize to generate
+outputs.

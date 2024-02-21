@@ -1,0 +1,1 @@
+See the respective [PatchTSMixerForTimeSeriesClassification] and [PatchTSMixerForRegression] classes.

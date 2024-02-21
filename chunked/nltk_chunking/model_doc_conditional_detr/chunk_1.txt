@@ -1,0 +1,1 @@
+Conditional DETR presents a conditional cross-attention mechanism for fast DETR training.

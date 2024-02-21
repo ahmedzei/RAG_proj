@@ -1,0 +1,4 @@
+
+Video Vision Transformer (ViViT)
+Overview
+The Vivit model was proposed in ViViT: A Video Vision Transformer by Anurag Arnab, Mostafa Dehghani, Georg Heigold, Chen Sun, Mario Lučić, Cordelia Schmid.

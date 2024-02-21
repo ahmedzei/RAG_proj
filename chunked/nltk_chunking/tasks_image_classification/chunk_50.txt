@@ -1,0 +1,1 @@
+For a more in-depth example of how to finetune a model for image classification, take a look at the corresponding PyTorch notebook.

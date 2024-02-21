@@ -1,0 +1,2 @@
+Both parts of the diagram show a parallelism level of degree 4, meaning that 4 GPUs 
+are involved in the pipeline.

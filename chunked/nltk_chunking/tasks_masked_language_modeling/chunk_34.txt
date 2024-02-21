@@ -1,0 +1,10 @@
+Remove any columns you don't need:
+
+tokenized_eli5 = eli5.map(
+     preprocess_function,
+     batched=True,
+     num_proc=4,
+     remove_columns=eli5["train"].column_names,
+ )
+
+This dataset contains the token sequences, but some of these are longer than the maximum input length for the model.

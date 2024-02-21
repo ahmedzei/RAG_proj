@@ -1,0 +1,2 @@
+So, to use that on your own image classification dataset,
+use the [ViTMSNForImageClassification] class which is initialized from [ViTMSNModel].

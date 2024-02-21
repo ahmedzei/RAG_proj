@@ -1,0 +1,5 @@
+updated_dataset["train"][11]["image"]
+
+Preprocess the data
+The Document Question Answering task is a multimodal task, and you need to make sure that the inputs from each modality
+are preprocessed according to the model's expectations.

@@ -1,0 +1,2 @@
+To train MobileBERT, we first train a specially designed teacher model, an inverted-bottleneck incorporated BERT_LARGE
+model.

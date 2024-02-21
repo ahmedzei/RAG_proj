@@ -1,0 +1,3 @@
+To avoid overflows under
+fp16 the activations must remain way below 1e4, because 1e4 * 1e4 = 1e8 so any matrix multiplication with
+large activations is going to lead to a numerical overflow condition.

@@ -1,0 +1,1 @@
+This approach is more flexible because you can offload the forward activations to the CPU memory instead of recalculating them.

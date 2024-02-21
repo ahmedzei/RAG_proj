@@ -1,0 +1,1 @@
+Model is a general term that can mean either architecture or checkpoint.

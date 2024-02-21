@@ -1,0 +1,2 @@
+For 
+inference there are no optimizer states and gradients, so we can subtract those.

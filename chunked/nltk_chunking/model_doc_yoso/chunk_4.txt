@@ -1,0 +1,3 @@
+Central to the transformer model is 
+the self-attention mechanism, which captures the interactions of token pairs in the input sequences and depends quadratically 
+on the sequence length.

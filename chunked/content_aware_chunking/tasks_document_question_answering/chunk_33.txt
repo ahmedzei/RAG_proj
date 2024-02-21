@@ -1,0 +1,11 @@
+image_processor = processor.image_processor
+def get_ocr_words_and_boxes(examples):
+     images = [image.convert("RGB") for image in examples["image"]]
+     encoded_inputs = image_processor(images)
+
+     examples["image"] = encoded_inputs.pixel_values
+     examples["words"] = encoded_inputs.words
+     examples["boxes"] = encoded_inputs.boxes
+     return examples
+
+To apply this preprocessing to the entire dataset in a fast way, use [~datasets.Dataset.map].

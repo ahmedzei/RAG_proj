@@ -1,0 +1,2 @@
+In some datasets (like ADE20k), the 0 index is used in the annotated
+  segmentation maps for background.

@@ -1,0 +1,2 @@
+🌎
+A notebook on how to finetune GPT2 to generate tweets in the style of your favorite Twitter user.

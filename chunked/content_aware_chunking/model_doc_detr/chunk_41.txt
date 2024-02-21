@@ -1,0 +1,2 @@
+This is different from language models like GPT-2,
+  which use autoregressive decoding instead of parallel.

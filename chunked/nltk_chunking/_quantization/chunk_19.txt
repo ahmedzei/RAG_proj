@@ -1,0 +1,1 @@
+There are several libraries for quantizing models with the AWQ algorithm, such as llm-awq, autoawq or optimum-intel.

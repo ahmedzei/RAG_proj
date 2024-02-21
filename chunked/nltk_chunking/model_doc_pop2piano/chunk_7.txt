@@ -1,0 +1,2 @@
+The decoder 
+uses these latent representations to generate token ids in an autoregressive way.

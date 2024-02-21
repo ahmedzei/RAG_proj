@@ -1,0 +1,6 @@
+Here are some tests that use it:
+
+test_trainer_distributed.py
+test_deepspeed.py
+
+To jump right into the execution point, search for the execute_subprocess_async call in those tests.

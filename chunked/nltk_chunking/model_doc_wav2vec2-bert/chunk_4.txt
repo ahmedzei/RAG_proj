@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Recent advancements in automatic speech translation have dramatically expanded language coverage, improved multimodal capabilities, and enabled a wide range of tasks and functionalities.

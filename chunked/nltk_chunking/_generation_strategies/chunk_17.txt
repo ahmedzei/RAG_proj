@@ -1,0 +1,2 @@
+For many tasks
+and small output sizes this works well.

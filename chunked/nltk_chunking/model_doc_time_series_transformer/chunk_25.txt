@@ -1,0 +1,2 @@
+An example here is the image representation of the product for which you have the time-series values (like the ResNet embedding of a "shoe" picture,
+if your time-series is about the sales of shoes).

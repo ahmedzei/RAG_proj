@@ -1,0 +1,8 @@
+thon
+
+from transformers import MarkupLMProcessor
+processor = MarkupLMProcessor.from_pretrained("microsoft/markuplm-base")
+processor.parse_html = False
+nodes = ["hello", "world", "how", "are"]
+xpaths = ["/html/body/div/li[1]/div/span", "/html/body/div/li[1]/div/span", "html/body", "html/body/div"]
+question = "What's his name?"

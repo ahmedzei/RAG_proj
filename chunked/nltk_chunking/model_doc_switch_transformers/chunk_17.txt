@@ -1,0 +1,3 @@
+Usage tips
+
+SwitchTransformers uses the [T5Tokenizer], which can be loaded directly from each model's repository.

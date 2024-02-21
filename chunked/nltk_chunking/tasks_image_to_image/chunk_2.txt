@@ -1,0 +1,3 @@
+This guide will show you how to:
+- Use an image-to-image pipeline for super resolution task,
+- Run image-to-image models for same task without a pipeline.

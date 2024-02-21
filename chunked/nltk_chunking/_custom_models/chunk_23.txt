@@ -1,0 +1,2 @@
+Writing a custom model
+Now that we have our ResNet configuration, we can go on writing the model.

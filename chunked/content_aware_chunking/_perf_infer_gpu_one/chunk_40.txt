@@ -1,0 +1,10 @@
+For example, to distribute 600MB of memory to the first GPU and 1GB of memory to the second GPU:
+py
+max_memory_mapping = {0: "600MB", 1: "1GB"}
+model_name = "bigscience/bloom-3b"
+model_4bit = AutoModelForCausalLM.from_pretrained(
+    model_name, device_map="auto", load_in_4bit=True, max_memory=max_memory_mapping
+)
+8-bit
+
+If you're curious and interested in learning more about the concepts underlying 8-bit quantization, read the Gentle Introduction to 8-bit Matrix Multiplication for transformers at scale using Hugging Face Transformers, Accelerate and bitsandbytes blog post.

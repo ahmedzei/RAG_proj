@@ -1,0 +1,1 @@
+When applied to semantic segmentation, dense vision transformers set a new state of the art on ADE20K with 49.02% mIoU.

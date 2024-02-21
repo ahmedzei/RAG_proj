@@ -1,0 +1,1 @@
+For the last K timesteps, each of the three modalities are converted into token embeddings and processed by a GPT-like model to predict a future action token.

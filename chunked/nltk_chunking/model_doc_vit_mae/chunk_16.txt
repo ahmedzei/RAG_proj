@@ -1,0 +1,2 @@
+The pre-training objective is relatively simple:
+by masking a large portion (75%) of the image patches, the model must reconstruct raw pixel values.

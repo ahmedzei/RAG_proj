@@ -1,0 +1,1 @@
+Image preprocessing guarantees that the images match the model’s expected input format.

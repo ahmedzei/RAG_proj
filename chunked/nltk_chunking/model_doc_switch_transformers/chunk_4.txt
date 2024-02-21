@@ -1,0 +1,1 @@
+During a forward pass, only a fraction of the weights are used.

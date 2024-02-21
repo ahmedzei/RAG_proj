@@ -1,0 +1,1 @@
+Once your model is quantized, you can push the model and tokenizer to the Hub where it can be easily shared and accessed.

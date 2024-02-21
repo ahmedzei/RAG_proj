@@ -1,0 +1,1 @@
+If the synthesized speech sounds poor, try using a different speaker embedding.

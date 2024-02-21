@@ -1,0 +1,2 @@
+After you feel like you have gotten a good overview of the architecture of the model, you might want to write to the
+Hugging Face team with any questions you might have.

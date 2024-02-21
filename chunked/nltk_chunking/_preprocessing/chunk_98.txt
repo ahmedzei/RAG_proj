@@ -1,0 +1,7 @@
+import numpy as np
+import matplotlib.pyplot as plt
+img = dataset[0]["pixel_values"]
+plt.imshow(img.permute(1, 2, 0))
+
+For tasks like object detection, semantic segmentation, instance segmentation, and panoptic segmentation, ImageProcessor
+offers post processing methods.

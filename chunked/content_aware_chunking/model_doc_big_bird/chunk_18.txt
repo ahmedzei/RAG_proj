@@ -1,0 +1,1 @@
+The code currently uses window size of 3 blocks and 2 global blocks.

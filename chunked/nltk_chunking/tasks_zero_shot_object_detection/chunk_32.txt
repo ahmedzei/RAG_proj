@@ -1,0 +1,11 @@
+with torch.no_grad():
+     outputs = model.image_guided_detection(**inputs)
+     target_sizes = torch.tensor([image_target.size[::-1]])
+     results = processor.post_process_image_guided_detection(outputs=outputs, target_sizes=target_sizes)[0]
+draw = ImageDraw.Draw(image_target)
+scores = results["scores"].tolist()
+boxes = results["boxes"].tolist()
+for box, score, label in zip(boxes, scores, labels):
+     xmin, ymin, xmax, ymax = box
+     draw.rectangle((xmin, ymin, xmax, ymax), outline="white", width=4)
+image_target

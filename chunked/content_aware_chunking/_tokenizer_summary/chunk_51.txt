@@ -1,0 +1,2 @@
+Consequently, the
+tokenizer splits "gpu" into known subwords: ["gp" and "##u"].

@@ -1,0 +1,1 @@
+This processor wraps an image processor (for the image/video modality) and an audio feature extractor (for the audio modality) into one.

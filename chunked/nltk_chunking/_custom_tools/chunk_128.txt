@@ -1,0 +1,3 @@
+Beware that the custom tool should follow the exact same API 
+as the overwritten tool in this case, or you should adapt the prompt template to make sure all examples using that
+tool are updated.

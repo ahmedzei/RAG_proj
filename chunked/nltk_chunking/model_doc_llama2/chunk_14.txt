@@ -1,0 +1,1 @@
+Training the model in float16 is not recommended and is known to produce nan; as such, the model should be trained in bfloat16.

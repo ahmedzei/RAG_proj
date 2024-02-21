@@ -1,0 +1,1 @@
+However, if you want to use DeepSpeed without the [Trainer], Transformers provides a [HfDeepSpeedConfig] class.

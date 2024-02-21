@@ -1,0 +1,8 @@
+Load DistilBERT with [AutoModelForQuestionAnswering]:
+
+from transformers import AutoModelForQuestionAnswering, TrainingArguments, Trainer
+model = AutoModelForQuestionAnswering.from_pretrained("distilbert/distilbert-base-uncased")
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [TrainingArguments].

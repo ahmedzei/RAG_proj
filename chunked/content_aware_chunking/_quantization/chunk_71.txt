@@ -1,0 +1,1 @@
+This works for any model in any modality, as long as it supports loading with Accelerate and contains torch.nn.Linear layers.

@@ -1,0 +1,1 @@
+You can then for example ask "what's the total number of goals Cristiano Ronaldo made in his career?".

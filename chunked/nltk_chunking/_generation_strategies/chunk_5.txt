@@ -1,0 +1,2 @@
+If a model's preprocessor creates more than one kind of input, pass all
+the inputs to generate().

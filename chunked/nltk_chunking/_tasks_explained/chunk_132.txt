@@ -1,0 +1,1 @@
+Still, other tasks make use of both the Transformer's encoder-decoder structure.

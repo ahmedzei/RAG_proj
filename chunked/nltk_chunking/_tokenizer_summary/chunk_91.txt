@@ -1,0 +1,2 @@
+With some additional rules to deal with punctuation, the GPT2's
+tokenizer can tokenize every text without the need for the  symbol.

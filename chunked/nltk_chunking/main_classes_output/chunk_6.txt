@@ -1,0 +1,1 @@
+Some models apply normalization or subsequent process to the last hidden state when it's returned.

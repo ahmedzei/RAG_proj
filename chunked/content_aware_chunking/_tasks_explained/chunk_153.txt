@@ -1,0 +1,2 @@
+Token classification
+To use BERT for token classification tasks like named entity recognition (NER), add a token classification head on top of the base BERT model.

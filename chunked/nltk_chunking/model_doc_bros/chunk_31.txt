@@ -1,0 +1,1 @@
+It is a mask to filter out non-first tokens of each box.

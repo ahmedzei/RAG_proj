@@ -1,0 +1,2 @@
+This guide focuses on PyTorch-based DDP enabling
+distributed CPU training efficiently on bare metal and Kubernetes.

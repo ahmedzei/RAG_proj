@@ -1,0 +1,38 @@
+',
+ 'Y esto al español']
+
+Resources
+
+Translation task guide
+Summarization task guide
+Causal language modeling task guide
+
+MarianConfig
+[[autodoc]] MarianConfig
+MarianTokenizer
+[[autodoc]] MarianTokenizer
+    - build_inputs_with_special_tokens
+
+MarianModel
+[[autodoc]] MarianModel
+    - forward
+MarianMTModel
+[[autodoc]] MarianMTModel
+    - forward
+MarianForCausalLM
+[[autodoc]] MarianForCausalLM
+    - forward
+
+TFMarianModel
+[[autodoc]] TFMarianModel
+    - call
+TFMarianMTModel
+[[autodoc]] TFMarianMTModel
+    - call
+
+FlaxMarianModel
+[[autodoc]] FlaxMarianModel
+    - call
+FlaxMarianMTModel
+[[autodoc]] FlaxMarianMTModel
+    - call

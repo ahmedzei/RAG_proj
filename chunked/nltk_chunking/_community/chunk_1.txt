@@ -1,0 +1,4 @@
+Community resources:
+| Resource     |      Description      |      Author      |
+|:----------|:-------------|------:|
+| Hugging Face Transformers Glossary Flashcards | A set of flashcards based on the Transformers Docs Glossary that has been put into a form which can be easily learned/revised using Anki an open source, cross platform app specifically designed for long term knowledge retention.

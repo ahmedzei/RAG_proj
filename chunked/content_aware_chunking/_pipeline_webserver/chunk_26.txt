@@ -1,0 +1,2 @@
+Circuit breaking
+Webservers usually look better when they do circuit breaking.

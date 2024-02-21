@@ -1,0 +1,2 @@
+Check the model_type field of the config.json of your model of choice
+(example).

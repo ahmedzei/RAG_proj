@@ -1,0 +1,2 @@
+Decoding
+strategies like greedy search and contrastive search return a single output sequence.

@@ -1,0 +1,1 @@
+With %%bash magic, you don't need to emulate a distributed environment.

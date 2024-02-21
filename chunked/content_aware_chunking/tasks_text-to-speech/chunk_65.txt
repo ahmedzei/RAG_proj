@@ -1,0 +1,3 @@
+dataset = dataset.map(prepare_dataset, remove_columns=dataset.column_names)
+
+You'll see a warning saying that some examples in the dataset are longer than the maximum input length the model can handle (600 tokens).

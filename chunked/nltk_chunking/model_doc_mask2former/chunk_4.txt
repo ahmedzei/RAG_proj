@@ -1,0 +1,1 @@
+While only the semantics of each task differ, current research focuses on designing specialized architectures for each task.

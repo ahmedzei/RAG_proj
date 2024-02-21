@@ -1,0 +1,2 @@
+Note that the desired vocabulary size is a hyperparameter to
+define before training the tokenizer.

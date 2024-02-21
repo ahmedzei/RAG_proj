@@ -1,0 +1,2 @@
+The JAX/FLAX version of this model was
+contributed by kamalkraj.

@@ -1,0 +1,1 @@
+Under DP, GPU 0 performs significantly more work than other GPUs, resulting in GPU under-utilization.

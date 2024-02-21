@@ -1,0 +1,1 @@
+Take a look at the Using tokenizers from 🤗 tokenizers page to understand how this is done.

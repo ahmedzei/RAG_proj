@@ -1,0 +1,1 @@
+Because all TensorFlow models in 🤗 Transformers are Keras models, most of the methods in this document are generally applicable to TPU training for any Keras model!

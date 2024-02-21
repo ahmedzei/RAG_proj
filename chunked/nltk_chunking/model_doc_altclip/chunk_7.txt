@@ -1,0 +1,2 @@
+Further, we obtain very close performances with 
+CLIP on almost all tasks, suggesting that one can simply alter the text encoder in CLIP for extended capabilities such as multilingual understanding.

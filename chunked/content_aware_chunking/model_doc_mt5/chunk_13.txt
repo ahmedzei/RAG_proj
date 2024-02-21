@@ -1,0 +1,10 @@
+Resources
+
+Translation task guide
+Summarization task guide
+
+MT5Config
+[[autodoc]] MT5Config
+MT5Tokenizer
+[[autodoc]] MT5Tokenizer
+See [T5Tokenizer] for all details.

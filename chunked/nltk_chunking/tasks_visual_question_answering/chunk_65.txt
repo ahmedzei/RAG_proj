@@ -1,0 +1,2 @@
+It introduced a new visual-language pre-training 
+paradigm in which any combination of pre-trained vision encoder and LLM can be used (learn more in the BLIP-2 blog post).

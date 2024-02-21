@@ -1,0 +1,1 @@
+We investigate two simple yet effective strategies that make data scaling-up promising.

@@ -1,0 +1,2 @@
+Gradient checkpointing offers a compromise between these two approaches and saves strategically selected activations 
+throughout the computational graph so only a fraction of the activations need to be re-computed for the gradients.

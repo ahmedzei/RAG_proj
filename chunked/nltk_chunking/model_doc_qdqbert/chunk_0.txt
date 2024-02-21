@@ -1,0 +1,6 @@
+
+QDQBERT
+Overview
+The QDQBERT model can be referenced in Integer Quantization for Deep Learning Inference: Principles and Empirical
+Evaluation by Hao Wu, Patrick Judd, Xiaojie Zhang, Mikhail Isaev and Paulius
+Micikevicius.

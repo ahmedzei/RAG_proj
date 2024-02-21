@@ -1,0 +1,3 @@
+Temporary Memory
+Additionally, there are all kinds of temporary variables which get released once the calculation is done, but in the 
+moment these could require additional memory and could push to OOM.

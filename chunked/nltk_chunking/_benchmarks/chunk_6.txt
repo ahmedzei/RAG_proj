@@ -1,0 +1,2 @@
+The benchmark classes [PyTorchBenchmark] and [TensorFlowBenchmark] expect an object of type [PyTorchBenchmarkArguments] and
+[TensorFlowBenchmarkArguments], respectively, for instantiation.

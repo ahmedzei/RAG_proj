@@ -1,0 +1,2 @@
+google-bert/bert-base-uncased, the user can
+alternatively benchmark an arbitrary configuration of any available model class.

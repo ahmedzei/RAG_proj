@@ -1,0 +1,2 @@
+stride
+In convolution or pooling, the stride refers to the distance the kernel is moved over a matrix.

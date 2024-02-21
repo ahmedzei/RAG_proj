@@ -1,0 +1,2 @@
+RoBERTa has the same architecture as BERT, but uses a byte-level BPE as a tokenizer (same as GPT-2) and uses a
+  different pretraining scheme.

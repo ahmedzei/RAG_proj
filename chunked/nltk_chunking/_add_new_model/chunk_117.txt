@@ -1,0 +1,2 @@
+Do you have to add print statements, can you
+  work with an interactive debugger like ipdb, or should you use an efficient IDE to debug the model, like PyCharm?

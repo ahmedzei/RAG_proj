@@ -1,0 +1,3 @@
+Then, instead
+of training a model that predicts the original identities of the corrupted tokens, we train a discriminative model that
+predicts whether each token in the corrupted input was replaced by a generator sample or not.

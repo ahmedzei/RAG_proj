@@ -1,0 +1,8 @@
+Here's what our class looks like now:
+thon
+from transformers import Tool
+from huggingface_hub import list_models
+class HFModelDownloadsTool(Tool):
+    name = "model_download_counter"
+    description = (
+        "This is a tool that returns the most downloaded model of a given task on the Hugging Face Hub. "

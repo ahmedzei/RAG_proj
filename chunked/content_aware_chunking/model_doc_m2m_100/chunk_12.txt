@@ -1,0 +1,2 @@
+The source text format is [lang_code] X [eos], where lang_code is source language
+id for source text and target language id for target text, with X being the source or target text.

@@ -1,0 +1,23 @@
+sf.write("speech.wav", speech["audio"].squeeze(), samplerate=speech["sampling_rate"])
+
+FastSpeech2ConformerConfig
+[[autodoc]] FastSpeech2ConformerConfig
+FastSpeech2ConformerHifiGanConfig
+[[autodoc]] FastSpeech2ConformerHifiGanConfig
+FastSpeech2ConformerWithHifiGanConfig
+[[autodoc]] FastSpeech2ConformerWithHifiGanConfig
+FastSpeech2ConformerTokenizer
+[[autodoc]] FastSpeech2ConformerTokenizer
+    - call
+    - save_vocabulary
+    - decode
+    - batch_decode
+FastSpeech2ConformerModel
+[[autodoc]] FastSpeech2ConformerModel
+    - forward
+FastSpeech2ConformerHifiGan
+[[autodoc]] FastSpeech2ConformerHifiGan
+    - forward
+FastSpeech2ConformerWithHifiGan
+[[autodoc]] FastSpeech2ConformerWithHifiGan
+    - forward

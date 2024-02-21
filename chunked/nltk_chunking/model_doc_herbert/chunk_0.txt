@@ -1,0 +1,5 @@
+
+HerBERT
+Overview
+The HerBERT model was proposed in KLEJ: Comprehensive Benchmark for Polish Language Understanding by Piotr Rybak, Robert Mroczkowski, Janusz Tracz, and
+Ireneusz Gawlik.

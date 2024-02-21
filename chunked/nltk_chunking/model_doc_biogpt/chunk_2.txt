@@ -1,0 +1,1 @@
+BioGPT follows the Transformer language model backbone, and is pre-trained on 15M PubMed abstracts from scratch.

@@ -1,0 +1,1 @@
+It can also be used to achieve the same effect as CUDA_VISIBLE_DEVICES by targeting specific GPUs or testing in CPU-only mode.

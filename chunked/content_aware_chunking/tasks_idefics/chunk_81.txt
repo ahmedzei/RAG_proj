@@ -1,0 +1,2 @@
+Running inference in batch mode
+All of the earlier sections illustrated IDEFICS for a single example.

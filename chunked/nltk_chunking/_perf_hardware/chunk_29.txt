@@ -1,0 +1,1 @@
+If the GPUs need to sync rarely, as in DDP, the impact of a slower connection will be less significant.

@@ -1,0 +1,1 @@
+As the title says, Noam found out that instead of using n_head key-value projections weights, one can use a single head-value projection weight pair that is shared across all attention heads without that the model's performance significantly degrades.

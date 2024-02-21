@@ -1,0 +1,8 @@
+Load a processor with [AutoProcessor.from_pretrained]:
+
+from transformers import AutoProcessor
+processor = AutoProcessor.from_pretrained("microsoft/layoutlmv2-base-uncased")
+
+AutoModel
+
+The AutoModelFor classes let you load a pretrained model for a given task (see here for a complete list of available tasks).

@@ -1,0 +1,1 @@
+Make sure to add the new quantizer and quantization config in the quantization auto-mapping in src/transformers/quantizers/auto.py.

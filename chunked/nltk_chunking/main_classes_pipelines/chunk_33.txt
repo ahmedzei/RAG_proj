@@ -1,0 +1,5 @@
+If you are using throughput (you want to run your model on a bunch of static data), on GPU, then:
+
+If you have no clue about the size of the sequence_length ("natural" data), by default don't batch, measure and
+    try tentatively to add it, add OOM checks to recover when it will fail (and it will at some point if you don't
+    control the sequence_length.)

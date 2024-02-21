@@ -1,0 +1,2 @@
+Generating from any other language than English
+English (eng_Latn) is set as the default language from which to translate.

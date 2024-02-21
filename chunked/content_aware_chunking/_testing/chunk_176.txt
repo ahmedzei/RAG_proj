@@ -1,0 +1,2 @@
+Therefore if a
+new CI feature is to be added, it should be done as following.

@@ -1,0 +1,2 @@
+The linearized table has the following format: 
+  col: col1 | col2 | col 3 row 1 : val1 | val2 | val3 row 2 : .

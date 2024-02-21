@@ -1,0 +1,3 @@
+[PrinterCallback] or [ProgressCallback] to display progress and print the
+  logs (the first one is used if you deactivate tqdm through the [TrainingArguments], otherwise
+  it's the second one).

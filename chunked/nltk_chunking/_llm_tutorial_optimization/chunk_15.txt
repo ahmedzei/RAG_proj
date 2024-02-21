@@ -1,0 +1,2 @@
+Lower Precision
+Memory requirements of LLMs can be best understood by seeing the LLM as a set of weight matrices and vectors and the text inputs as a sequence of vectors.

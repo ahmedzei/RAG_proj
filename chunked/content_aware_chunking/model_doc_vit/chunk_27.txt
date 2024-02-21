@@ -1,0 +1,2 @@
+A [CLS] token is added to serve as representation of an entire image, which can be
+  used for classification.

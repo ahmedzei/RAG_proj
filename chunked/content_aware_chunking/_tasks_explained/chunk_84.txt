@@ -1,0 +1,1 @@
+The decoder hidden states are passed to a feedforward network that predicts the bounding box coordinates and class label for each object query, or no object if there isn't one.

@@ -1,0 +1,2 @@
+A special language id token is added in both the
+source and target text.

@@ -1,0 +1,2 @@
+fps (float): the number of frames per second of the video.
+    '''

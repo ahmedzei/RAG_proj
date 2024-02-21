@@ -1,0 +1,3 @@
+Moreover, we show that with sufficient model size, cross-lingual pretraining can outperform
+English-only pretraining when translating English speech into other languages, a setting which favors monolingual
+pretraining.

@@ -1,0 +1,11 @@
+Google has released the following variants:
+
+google/mt5-small
+
+google/mt5-base
+
+google/mt5-large
+
+google/mt5-xl
+
+google/mt5-xxl.

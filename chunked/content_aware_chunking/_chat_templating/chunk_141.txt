@@ -1,0 +1,2 @@
+tokenizer.apply_chat_template will now work correctly for that
+model, which means it is also automatically supported in places like TextGenerationPipeline!

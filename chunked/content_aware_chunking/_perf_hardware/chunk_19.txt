@@ -1,0 +1,1 @@
+But other than throttling performance a prolonged very high temperature is likely to reduce the lifespan of a GPU.

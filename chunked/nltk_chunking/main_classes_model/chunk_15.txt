@@ -1,0 +1,2 @@
+Model Instantiation dtype
+Under Pytorch a model normally gets instantiated with torch.float32 format.

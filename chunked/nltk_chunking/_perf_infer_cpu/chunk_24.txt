@@ -1,0 +1,1 @@
+ONNX Runtime (ORT) is a model accelerator that runs inference on CPUs by default.

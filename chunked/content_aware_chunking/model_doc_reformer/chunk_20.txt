@@ -1,0 +1,2 @@
+Using the above example again, axial position encoding with \(d^1 = 2^9, d^2 = 2^9, n_s^1 = 2^9, n_s^2 = 2^{10}\)
+can drastically reduced the number of parameters from 500 000 000 to \(2^{18} + 2^{19} \approx 780 000\) parameters, this means 85% less memory usage.

@@ -1,0 +1,1 @@
+Deformable DETR mitigates the slow convergence issues and limited feature spatial resolution of the original DETR by leveraging a new deformable attention module which only attends to a small set of key sampling points around a reference.

@@ -1,0 +1,2 @@
+We compare two RAG formulations, one which conditions on the same retrieved passages
+across the whole generated sequence, the other can use different passages per token.

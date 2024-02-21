@@ -1,0 +1,1 @@
+You can pass direction in hyperparameter_search and define your own compute_objective to return multiple objective values.

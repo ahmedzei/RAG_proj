@@ -1,0 +1,23 @@
+import torchvision
+class CocoDetection(torchvision.datasets.CocoDetection):
+     def init(self, img_folder, image_processor, ann_file):
+         super().init(img_folder, ann_file)
+         self.image_processor = image_processor
+
+     def getitem(self, idx):
+         # read in PIL image and target in COCO format
+         img, target = super(CocoDetection, self).getitem(idx)
+         # preprocess image and target: converting target to DETR format,
+         # resizing + normalization of both image and target)
+         image_id = self.ids[idx]
+         target = {"image_id": image_id, "annotations": target}
+         encoding = self.image_processor(images=img, annotations=target, return_tensors="pt")
+         pixel_values = encoding["pixel_values"].squeeze()  # remove batch dimension
+         target = encoding["labels"][0]  # remove batch dimension
+         return {"pixel_values": pixel_values, "labels": target}
+
+im_processor = AutoImageProcessor.from_pretrained("devonho/detr-resnet-50_finetuned_cppe5")
+path_output_cppe5, path_anno = save_cppe5_annotation_file_images(cppe5["test"])
+test_ds_coco_format = CocoDetection(path_output_cppe5, im_processor, path_anno)
+
+Finally, load the metrics and run the evaluation.

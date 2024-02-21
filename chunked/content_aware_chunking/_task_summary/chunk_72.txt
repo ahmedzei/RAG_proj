@@ -1,0 +1,1 @@
+Along with summarization, translation is a sequence-to-sequence task, meaning the model receives an input sequence and returns a target output sequence.

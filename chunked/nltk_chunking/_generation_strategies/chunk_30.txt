@@ -1,0 +1,2 @@
+This option is only available for
+the decoding strategies that support multiple sequence candidates, e.g.

@@ -1,0 +1,3 @@
+:
+
+text = "hallo allemaal, ik praat nederlands.

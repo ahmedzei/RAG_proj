@@ -1,0 +1,1 @@
+MGP-STR is a conceptually simple yet powerful vision Scene Text Recognition (STR) model, which is built upon the Vision Transformer (ViT).

@@ -1,0 +1,1 @@
+OWL-ViT is an open-vocabulary object detection network trained on a variety of (image, text) pairs.

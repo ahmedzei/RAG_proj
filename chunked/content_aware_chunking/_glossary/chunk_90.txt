@@ -1,0 +1,3 @@
+N
+Natural language generation (NLG)
+All tasks related to generating text (for instance, Write With Transformers, translation).

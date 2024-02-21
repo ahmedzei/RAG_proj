@@ -1,0 +1,1 @@
+TVP consists of a visual encoder and cross-modal encoder.

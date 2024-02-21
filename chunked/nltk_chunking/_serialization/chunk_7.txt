@@ -1,0 +1,2 @@
+For example, a model trained in PyTorch can be exported to
+ONNX format and then imported in TensorFlow (and vice versa).

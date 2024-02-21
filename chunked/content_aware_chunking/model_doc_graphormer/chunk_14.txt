@@ -1,0 +1,1 @@
+This model does not use a tokenizer, but instead a special collator during training.

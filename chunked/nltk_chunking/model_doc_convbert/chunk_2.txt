@@ -1,0 +1,2 @@
+However, BERT heavily relies on the global self-attention block and thus suffers
+large memory footprint and computation cost.

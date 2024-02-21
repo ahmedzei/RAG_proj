@@ -1,0 +1,1 @@
+[AlignProcessor] wraps [EfficientNetImageProcessor] and [BertTokenizer] into a single instance to both encode the text and preprocess the images.

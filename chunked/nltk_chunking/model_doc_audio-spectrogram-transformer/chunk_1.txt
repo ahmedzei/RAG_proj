@@ -1,0 +1,1 @@
+The Audio Spectrogram Transformer applies a Vision Transformer to audio, by turning audio into an image (spectrogram).

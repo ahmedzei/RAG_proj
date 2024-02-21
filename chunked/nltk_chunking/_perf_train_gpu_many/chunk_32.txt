@@ -1,0 +1,1 @@
+The up-to-date model is replicated from GPU 0 to each GPU.

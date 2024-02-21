@@ -1,0 +1,2 @@
+- Video classification task guide
+- A 🤗 Space showing how to perform inference with a video classification model.

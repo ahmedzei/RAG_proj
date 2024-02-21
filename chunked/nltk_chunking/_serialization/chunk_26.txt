@@ -1,0 +1,3 @@
+Exporting a model with transformers.onnx
+
+tranformers.onnx is no longer maintained, please export models with 🤗 Optimum as described above.

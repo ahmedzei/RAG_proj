@@ -1,0 +1,2 @@
+For example, try using config.reduction_factor = 1 to 
+see if this improves the results.

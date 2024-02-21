@@ -1,0 +1,2 @@
+Because in this approach some computations are performed 
+in half-precision, while some are still in full precision, the approach is called mixed precision training.

@@ -1,0 +1,2 @@
+Scalability strategy
+Begin by estimating how much vRAM is required to train your model.

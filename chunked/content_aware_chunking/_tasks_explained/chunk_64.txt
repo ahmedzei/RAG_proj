@@ -1,0 +1,1 @@
+You can feed this output to another convolutional layer, and with each successive layer, the network learns more complex and abstract things like hotdogs or rockets.

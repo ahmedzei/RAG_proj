@@ -1,0 +1,3 @@
+Here is a rough decision making mechanism for choosing which tests should be marked as slow:
+If the test is focused on one of the library's internal components (e.g., modeling files, tokenization files,
+pipelines), then we should run that test in the non-slow test suite.

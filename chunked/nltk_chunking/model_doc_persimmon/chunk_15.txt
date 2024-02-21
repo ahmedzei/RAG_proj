@@ -1,0 +1,1 @@
+Users should specify the torch_dtype they want, and if they don't it will be torch.float32.

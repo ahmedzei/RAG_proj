@@ -1,0 +1,5 @@
+pip install pytest-sugar
+To run tests without it, run:
+
+pytest -p no:sugar
+or uninstall it.

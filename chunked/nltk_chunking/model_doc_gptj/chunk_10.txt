@@ -1,0 +1,1 @@
+So it would need at least 4x model size GPU memory, even with mixed precision as gradient updates are in fp32.

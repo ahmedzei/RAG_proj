@@ -1,0 +1,1 @@
+OWL-ST unlocks Web-scale training for open-world localization, similar to what has been seen for image classification and language modelling.

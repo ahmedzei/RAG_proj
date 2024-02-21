@@ -1,0 +1,3 @@
+Overview
+The Transformer-XL model was proposed in Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context by Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, Ruslan
+Salakhutdinov.

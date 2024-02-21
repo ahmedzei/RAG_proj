@@ -1,0 +1,1 @@
+So if simple space and punctuation tokenization is unsatisfactory, why not simply tokenize on characters?

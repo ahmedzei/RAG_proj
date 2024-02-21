@@ -1,0 +1,2 @@
+TrOCR consists of an image Transformer encoder and an autoregressive text Transformer decoder to
+perform optical character recognition (OCR).

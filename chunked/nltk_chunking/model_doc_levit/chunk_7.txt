@@ -1,0 +1,2 @@
+We consider different measures of efficiency on different hardware platforms, so as to best reflect a wide range of
+application scenarios.

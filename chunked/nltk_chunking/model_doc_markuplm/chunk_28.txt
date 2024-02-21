@@ -1,0 +1,2 @@
+Note that each of these
+use cases work for both batched and non-batched inputs (we illustrate them for non-batched inputs).

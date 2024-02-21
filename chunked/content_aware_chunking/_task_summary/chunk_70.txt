@@ -1,0 +1,2 @@
+Translation
+Translation converts a sequence of text in one language to another.

@@ -1,0 +1,2 @@
+[]
+Task: "Answer the question in the variable question about the image stored in the variable image.

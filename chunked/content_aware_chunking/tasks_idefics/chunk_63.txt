@@ -1,0 +1,3 @@
+Let's prompt IDEFICS to write a story based on a simple image of a red door: 
+
+Photo by Craig Tidball.

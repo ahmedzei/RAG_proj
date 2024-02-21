@@ -1,0 +1,2 @@
+document visual question answering: the DocVQA dataset (a collection of 50,000
+  questions defined on 12,000+ document images).

@@ -1,0 +1,2 @@
+To address this, we develop a new, more
+comprehensive dataset for table extraction, called PubTables-1M.

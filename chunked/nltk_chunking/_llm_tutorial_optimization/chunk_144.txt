@@ -1,0 +1,6 @@
+python
+bytes_to_giga_bytes(torch.cuda.max_memory_allocated())
+Output:
+
+37.668193340301514
+As we can see the peak GPU memory requirement is now significantly higher than in the beginning, which is largely due to the longer input sequence.

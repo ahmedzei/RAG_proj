@@ -1,0 +1,2 @@
+We also evaluate the model with a
+multilingual cloze prompt task with the mLAMA dataset.

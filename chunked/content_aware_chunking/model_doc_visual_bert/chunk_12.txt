@@ -1,0 +1,1 @@
+For the VCR task, the authors use a fine-tuned detector for generating visual embeddings, for all the checkpoints.

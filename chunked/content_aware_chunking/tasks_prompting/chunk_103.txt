@@ -1,0 +1,5 @@
+Here's an example: 
+thon
+
+torch.manual_seed(0) # doctest: +IGNORE_RESULT
+prompt = """Text: The first human went into space and orbited the Earth on April 12, 1961.

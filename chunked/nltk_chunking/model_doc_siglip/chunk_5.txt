@@ -1,0 +1,1 @@
+The sigmoid loss simultaneously allows further scaling up the batch size, while also performing better at smaller batch sizes.

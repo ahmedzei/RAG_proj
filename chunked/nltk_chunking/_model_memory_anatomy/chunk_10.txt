@@ -1,0 +1,2 @@
+However, not all free GPU memory can be used by 
+the user.

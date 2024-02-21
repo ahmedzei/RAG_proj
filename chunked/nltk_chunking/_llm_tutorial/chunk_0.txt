@@ -1,0 +1,5 @@
+
+
+"Autoregressive generation iteratively selects the next token from a probability distribution to generate text"
+
+The process depicted above is repeated iteratively until some stopping condition is reached.

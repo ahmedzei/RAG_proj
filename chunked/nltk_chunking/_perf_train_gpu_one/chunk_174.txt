@@ -1,0 +1,1 @@
+BetterTransformer is not suited for fine-tuning models on tasks that require a padding mask.

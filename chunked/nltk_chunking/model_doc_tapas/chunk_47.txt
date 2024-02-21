@@ -1,0 +1,1 @@
+Here, questions do not involve any aggregation (all questions are cell selection questions).

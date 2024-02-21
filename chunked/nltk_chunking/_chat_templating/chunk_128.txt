@@ -1,0 +1,5 @@
+It looks like this:
+{% for message in messages %}
+    {{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}
+{% endfor %}
+If you like this one, here it is in one-liner form, ready to copy into your code.

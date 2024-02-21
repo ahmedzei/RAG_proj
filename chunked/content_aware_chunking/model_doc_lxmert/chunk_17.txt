@@ -1,0 +1,33 @@
+Resources
+
+Question answering task guide
+
+LxmertConfig
+[[autodoc]] LxmertConfig
+LxmertTokenizer
+[[autodoc]] LxmertTokenizer
+LxmertTokenizerFast
+[[autodoc]] LxmertTokenizerFast
+Lxmert specific outputs
+[[autodoc]] models.lxmert.modeling_lxmert.LxmertModelOutput
+[[autodoc]] models.lxmert.modeling_lxmert.LxmertForPreTrainingOutput
+[[autodoc]] models.lxmert.modeling_lxmert.LxmertForQuestionAnsweringOutput
+[[autodoc]] models.lxmert.modeling_tf_lxmert.TFLxmertModelOutput
+[[autodoc]] models.lxmert.modeling_tf_lxmert.TFLxmertForPreTrainingOutput
+
+LxmertModel
+[[autodoc]] LxmertModel
+    - forward
+LxmertForPreTraining
+[[autodoc]] LxmertForPreTraining
+    - forward
+LxmertForQuestionAnswering
+[[autodoc]] LxmertForQuestionAnswering
+    - forward
+
+TFLxmertModel
+[[autodoc]] TFLxmertModel
+    - call
+TFLxmertForPreTraining
+[[autodoc]] TFLxmertForPreTraining
+    - call

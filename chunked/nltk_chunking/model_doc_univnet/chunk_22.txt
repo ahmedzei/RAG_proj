@@ -1,0 +1,2 @@
+ds = ds.cast_column("audio", Audio(sampling_rate=feature_extractor.sampling_rate))
+Pad the end of the converted waveforms to reduce artifacts at the end of the output audio samples.

@@ -1,0 +1,2 @@
+Using these
+hash codes, the lsh_cumulation function approximates self-attention via LSH-based Bernoulli sampling.

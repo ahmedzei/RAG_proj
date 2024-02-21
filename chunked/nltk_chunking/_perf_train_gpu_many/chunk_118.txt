@@ -1,0 +1,1 @@
+- Currently the Pipeline API is very restricted.

@@ -1,0 +1,2 @@
+ZeRO configuration
+There are three configurations, each corresponding to a different ZeRO stage.

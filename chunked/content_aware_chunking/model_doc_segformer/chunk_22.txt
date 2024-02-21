@@ -1,0 +1,2 @@
+Next, they fine-tune the model altogether on
+  ADE20K, Cityscapes and COCO-stuff, which are important benchmarks for semantic segmentation.

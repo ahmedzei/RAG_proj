@@ -1,0 +1,10 @@
+The output looks like this:
+text
+<|im_start|>system
+You are a helpful chatbot that will do its best not to say anything so stupid that people tweet about it.<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+I'm doing great!<|im_end|>
+The "user", "system" and "assistant" roles are the standard for chat, and we recommend using them when it makes sense,
+particularly if you want your model to operate well with [TextGenerationPipeline].

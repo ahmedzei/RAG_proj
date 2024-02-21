@@ -1,0 +1,1 @@
+Inspired by CLIP, GroupViT is a vision-language model that can perform zero-shot semantic segmentation on any given vocabulary categories.

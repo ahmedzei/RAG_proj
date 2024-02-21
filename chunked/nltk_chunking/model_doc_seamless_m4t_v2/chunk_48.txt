@@ -1,0 +1,2 @@
+This achievement is made possible by:
+- the use of character-level embeddings, meaning that each character of the predicted translated text has its own embeddings, which are then used to predict the unit tokens.

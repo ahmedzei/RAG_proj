@@ -1,0 +1,2 @@
+Encoder-decoder-style models are typically used in generative tasks where the output heavily relies on the input, for 
+example, in translation and summarization.

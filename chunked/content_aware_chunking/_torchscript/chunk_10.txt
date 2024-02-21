@@ -1,0 +1,1 @@
+Training would desynchronize the two layers, leading to unexpected results.

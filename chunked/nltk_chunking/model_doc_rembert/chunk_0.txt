@@ -1,0 +1,4 @@
+
+RemBERT
+Overview
+The RemBERT model was proposed in Rethinking Embedding Coupling in Pre-trained Language Models by Hyung Won Chung, Thibault Févry, Henry Tsai, Melvin Johnson, Sebastian Ruder.

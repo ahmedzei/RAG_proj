@@ -1,0 +1,9 @@
+The ZeRO-1 config can be setup like this:
+yml
+{
+    "zero_optimization": {
+        "stage": 1
+    }
+}
+
+ZeRO-2 shards the optimizer and gradients across GPUs.

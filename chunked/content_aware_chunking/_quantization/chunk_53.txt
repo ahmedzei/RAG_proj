@@ -1,0 +1,5 @@
+If this is the case, try passing the max_memory parameter to allocate the amount of memory to use on your device (GPU and CPU):
+py
+quantized_model = AutoModelForCausalLM.from_pretrained(model_id, device_map="auto", max_memory={0: "30GiB", 1: "46GiB", "cpu": "30GiB"}, quantization_config=gptq_config)
+
+Depending on your hardware, it can take some time to quantize a model from scratch.

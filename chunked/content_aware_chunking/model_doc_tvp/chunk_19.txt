@@ -1,0 +1,2 @@
+Usage tips and examples
+Prompts are optimized perturbation patterns, which would be added to input video frames or text features.

@@ -1,0 +1,1 @@
+Convolutional neural networks (CNNs) are commonly used in computer vision.

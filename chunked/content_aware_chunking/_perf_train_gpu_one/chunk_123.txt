@@ -1,0 +1,1 @@
+* dynamo.optimize("aot_eager") - Uses AotAutograd with no compiler, i.e, just using PyTorch eager for the AotAutograd's extracted forward and backward graphs.

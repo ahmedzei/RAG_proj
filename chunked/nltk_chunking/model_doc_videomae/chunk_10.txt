@@ -1,0 +1,1 @@
+(3) VideoMAE shows that data quality is more important than data quantity for SSVP.

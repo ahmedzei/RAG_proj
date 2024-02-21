@@ -1,0 +1,1 @@
+Without pursuing novel technical modules, we aim to build a simple yet powerful foundation model dealing with any images under any circumstances.

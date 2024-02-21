@@ -1,0 +1,1 @@
+LLMs usually have multiple attention heads, thus doing multiple self-attention computations in parallel.

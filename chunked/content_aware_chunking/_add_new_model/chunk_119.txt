@@ -1,0 +1,2 @@
+Also, remember that you are working with an open-source library, so do not hesitate to open an issue, or
+even a pull request in the original repository.

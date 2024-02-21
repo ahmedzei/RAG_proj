@@ -1,0 +1,2 @@
+Install with pip
+You should install 🤗 Transformers in a virtual environment.

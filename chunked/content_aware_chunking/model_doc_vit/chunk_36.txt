@@ -1,0 +1,2 @@
+In order to fine-tune at higher resolution, the authors perform
+  2D interpolation of the pre-trained position embeddings, according to their location in the original image.

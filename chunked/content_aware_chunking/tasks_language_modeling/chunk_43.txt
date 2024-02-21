@@ -1,0 +1,8 @@
+This will use the inputs as labels shifted to the right by one element:
+
+from transformers import DataCollatorForLanguageModeling
+data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False, return_tensors="tf")
+
+Train
+
+If you aren't familiar with finetuning a model with the [Trainer], take a look at the basic tutorial!

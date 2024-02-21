@@ -1,0 +1,1 @@
+Otherwise, [~Wav2Vec2ProcessorWithLM.batch_decode] performance will be slower than calling [~Wav2Vec2ProcessorWithLM.decode] for each audio individually, as it internally instantiates a new Pool for every call.

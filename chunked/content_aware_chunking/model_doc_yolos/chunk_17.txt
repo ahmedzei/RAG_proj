@@ -1,0 +1,18 @@
+YolosConfig
+[[autodoc]] YolosConfig
+YolosImageProcessor
+[[autodoc]] YolosImageProcessor
+    - preprocess
+    - pad
+    - post_process_object_detection
+YolosFeatureExtractor
+[[autodoc]] YolosFeatureExtractor
+    - call
+    - pad
+    - post_process_object_detection
+YolosModel
+[[autodoc]] YolosModel
+    - forward
+YolosForObjectDetection
+[[autodoc]] YolosForObjectDetection
+    - forward

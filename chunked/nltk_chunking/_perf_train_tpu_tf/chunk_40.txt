@@ -1,0 +1,1 @@
+The easiest way to enable it when training a Keras model is to pass the argument jit_compile=True to model.compile().

@@ -1,0 +1,1 @@
+A TensorFlow Lite model is represented in a special efficient portable format identified by the .tflite file extension.

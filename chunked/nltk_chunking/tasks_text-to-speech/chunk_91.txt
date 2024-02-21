@@ -1,0 +1,5 @@
+Load the model from the 🤗 Hub: 
+
+model = SpeechT5ForTextToSpeech.from_pretrained("YOUR_ACCOUNT/speecht5_finetuned_voxpopuli_nl")
+
+Pick an example from the test dataset obtain a speaker embedding.

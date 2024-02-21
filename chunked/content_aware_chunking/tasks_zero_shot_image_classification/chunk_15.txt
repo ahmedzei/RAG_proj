@@ -1,0 +1,2 @@
+The processor combines an image processor that prepares the
+image for the model by resizing and normalizing it, and a tokenizer that takes care of the text inputs.

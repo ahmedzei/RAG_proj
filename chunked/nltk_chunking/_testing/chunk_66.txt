@@ -1,0 +1,4 @@
+For example, to test on CPU only:
+
+TRANSFORMERS_TEST_DEVICE="cpu" pytest tests/utils/test_logging.py
+This variable is useful for testing custom or less common PyTorch backends such as mps.

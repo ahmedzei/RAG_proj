@@ -1,0 +1,1 @@
+About half of the feature vectors are randomly masked, and the masked feature vector is fed to a context network, which is a Transformer encoder that also adds relative positional embeddings.

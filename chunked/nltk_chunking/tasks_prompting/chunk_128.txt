@@ -1,0 +1,3 @@
+Prompting vs fine-tuning
+You can achieve great results by optimizing your prompts, however, you may still ponder whether fine-tuning a model 
+would work better for your case.

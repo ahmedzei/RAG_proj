@@ -1,0 +1,1 @@
+* token_type_ids tells us which tokens are part of the question, and which ones are part of the document's words.

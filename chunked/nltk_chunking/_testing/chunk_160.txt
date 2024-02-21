@@ -1,0 +1,2 @@
+If you notice that the test suite starts getting slow on CI, the top listing of this report will show the slowest
+tests.

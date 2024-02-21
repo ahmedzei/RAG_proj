@@ -1,0 +1,3 @@
+sbatch launch.slurm
+Notebook
+The deepspeed launcher doesn't support deployment from a notebook so you'll need to emulate the distributed environment.

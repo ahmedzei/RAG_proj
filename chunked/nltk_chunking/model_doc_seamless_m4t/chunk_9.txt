@@ -1,0 +1,1 @@
+To build this, we used 1 million hours of open speech audio data to learn self-supervised speech representations with w2v-BERT 2.0.

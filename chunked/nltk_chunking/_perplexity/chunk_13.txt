@@ -1,0 +1,3 @@
+When evaluating the model's perplexity of a
+sequence, a tempting but suboptimal approach is to break the sequence into disjoint chunks and add up the decomposed
+log-likelihoods of each segment independently.

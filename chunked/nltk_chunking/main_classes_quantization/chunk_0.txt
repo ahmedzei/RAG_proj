@@ -1,0 +1,3 @@
+
+Quantization
+Quantization techniques reduces memory and computational costs by representing weights and activations with lower-precision data types like 8-bit integers (int8).

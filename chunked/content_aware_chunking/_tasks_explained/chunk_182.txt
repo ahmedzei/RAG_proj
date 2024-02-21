@@ -1,0 +1,2 @@
+Summarization
+Encoder-decoder models like BART and T5 are designed for the sequence-to-sequence pattern of a summarization task.

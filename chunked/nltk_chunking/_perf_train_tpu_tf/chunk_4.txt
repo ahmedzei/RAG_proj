@@ -1,0 +1,1 @@
+They can be used for both network training and inference.

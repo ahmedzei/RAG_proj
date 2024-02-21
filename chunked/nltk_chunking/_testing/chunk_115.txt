@@ -1,0 +1,5 @@
+python
+def test_whatever(self):
+    tmp_dir = self.get_auto_remove_tmp_dir("./xxx")
+This is useful for debug when you want to monitor a specific directory and want to make sure the previous tests didn't
+leave any data in there.

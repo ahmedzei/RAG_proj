@@ -1,0 +1,1 @@
+It can take ~5 minutes to quantize the facebook/opt-350m model on a free-tier Google Colab GPU, but it'll take ~4 hours to quantize a 175B parameter model on a NVIDIA A100.

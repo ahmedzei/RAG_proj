@@ -1,0 +1,3 @@
+The retriever and seq2seq 
+modules are initialized from pretrained models, and fine-tuned jointly, allowing both retrieval and generation to adapt 
+to downstream tasks.

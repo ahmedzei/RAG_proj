@@ -1,0 +1,2 @@
+And thus we end up with 6 bytes per 
+model parameter for mixed precision inference, plus activation memory.

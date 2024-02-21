@@ -1,0 +1,1 @@
+For instance, if a bug has been fixed since the last official release but a new release hasn't been rolled out yet.

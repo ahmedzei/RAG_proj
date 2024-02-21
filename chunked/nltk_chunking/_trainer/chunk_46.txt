@@ -1,0 +1,1 @@
+To enable it in [Trainer], set the neftune_noise_alpha parameter in [TrainingArguments] to control how much noise is added.

@@ -1,0 +1,1 @@
+All you need to do is provide a config file or you can use a provided template.

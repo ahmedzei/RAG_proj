@@ -1,0 +1,1 @@
+Specify your task and pass your image to the classifier.

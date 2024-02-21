@@ -1,0 +1,1 @@
+We document here the generic model outputs that are used by more than one model type.

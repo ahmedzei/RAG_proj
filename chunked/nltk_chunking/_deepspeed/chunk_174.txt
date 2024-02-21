@@ -1,0 +1,5 @@
+An example SLURM script may look like:
+```bash
+SBATCH --job-name=test-nodes        # name
+SBATCH --nodes=2                    # nodes
+SBATCH --ntasks-per-node=1          # crucial - only 1 task per dist per node!

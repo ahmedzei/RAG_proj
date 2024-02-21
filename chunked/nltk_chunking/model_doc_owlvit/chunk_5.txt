@@ -1,0 +1,1 @@
+In this paper, we propose a strong recipe for transferring image-text models to open-vocabulary object detection.

@@ -1,0 +1,3 @@
+Tips:
+
+VAN does not have an embedding layer, thus the hidden_states will have a length equal to the number of stages.

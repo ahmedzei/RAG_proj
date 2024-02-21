@@ -1,0 +1,1 @@
+These tensors must have a batch size as the very first dimension, since pipeline is going to chunk the mini batch into micro-batches.

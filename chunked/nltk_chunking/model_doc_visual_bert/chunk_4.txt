@@ -1,0 +1,2 @@
+We further propose two visually-grounded language model objectives for
+pre-training VisualBERT on image caption data.

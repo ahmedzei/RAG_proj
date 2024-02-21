@@ -1,0 +1,1 @@
+Clicking on the Files tab will display all the files you've uploaded to the repository.

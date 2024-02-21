@@ -1,0 +1,2 @@
+We show that for both cases, I-BERT achieves similar (and slightly higher) accuracy as compared to
+the full-precision baseline.

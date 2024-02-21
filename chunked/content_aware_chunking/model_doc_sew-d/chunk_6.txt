@@ -1,0 +1,4 @@
+This model was contributed by anton-l.
+Usage tips
+
+SEW-D is a speech model that accepts a float array corresponding to the raw waveform of the speech signal.

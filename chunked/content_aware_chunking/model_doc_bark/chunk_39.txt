@@ -1,0 +1,2 @@
+", voice_preset="fr_speaker_5")
+Bark can also generate music.

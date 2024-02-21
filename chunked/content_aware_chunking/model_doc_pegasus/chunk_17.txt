@@ -1,0 +1,3 @@
+more beams are used (num_beams=8)
+All pretrained pegasus checkpoints are the same besides three attributes: tokenizer.model_max_length (maximum
+  input size), max_length (the maximum number of tokens to generate) and length_penalty.

@@ -1,0 +1,5 @@
+dataset_vocab - tokenizer_vocab
+{' ', 'à', 'ç', 'è', 'ë', 'í', 'ï', 'ö', 'ü'}
+
+To handle the unsupported characters identified in the previous step, define a function that maps these characters to 
+valid tokens.

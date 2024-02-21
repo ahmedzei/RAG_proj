@@ -1,0 +1,2 @@
+LSH attention
+Reformer uses LSH attention.

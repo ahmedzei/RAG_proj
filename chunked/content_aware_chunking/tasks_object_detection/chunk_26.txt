@@ -1,0 +1,1 @@
+Instantiate the image processor from the same checkpoint as the model you want to finetune.

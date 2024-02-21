@@ -1,0 +1,1 @@
+The instructions on how to quantize models yourself, as well as all the relevant code can be found in the corresponding GitHub repository.

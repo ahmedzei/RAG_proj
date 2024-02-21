@@ -1,0 +1,2 @@
+Using this (past_key_values or past) value prevents the model from re-computing
+  pre-computed values in the context of text generation.

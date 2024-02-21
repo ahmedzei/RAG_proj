@@ -1,0 +1,3 @@
+In this tutorial, you will learn two methods for sharing a trained or fine-tuned model on the Model Hub:
+
+Programmatically push your files to the Hub.

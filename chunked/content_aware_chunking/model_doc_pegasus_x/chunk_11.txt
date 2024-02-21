@@ -1,0 +1,8 @@
+PegasusXConfig
+[[autodoc]] PegasusXConfig
+PegasusXModel
+[[autodoc]] PegasusXModel
+    - forward
+PegasusXForConditionalGeneration
+[[autodoc]] PegasusXForConditionalGeneration
+    - forward

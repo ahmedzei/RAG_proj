@@ -1,0 +1,29 @@
+ViltConfig
+[[autodoc]] ViltConfig
+ViltFeatureExtractor
+[[autodoc]] ViltFeatureExtractor
+    - call
+ViltImageProcessor
+[[autodoc]] ViltImageProcessor
+    - preprocess
+ViltProcessor
+[[autodoc]] ViltProcessor
+    - call
+ViltModel
+[[autodoc]] ViltModel
+    - forward
+ViltForMaskedLM
+[[autodoc]] ViltForMaskedLM
+    - forward
+ViltForQuestionAnswering
+[[autodoc]] ViltForQuestionAnswering
+    - forward
+ViltForImagesAndTextClassification
+[[autodoc]] ViltForImagesAndTextClassification
+    - forward
+ViltForImageAndTextRetrieval
+[[autodoc]] ViltForImageAndTextRetrieval
+    - forward
+ViltForTokenClassification
+[[autodoc]] ViltForTokenClassification
+    - forward

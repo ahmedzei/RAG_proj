@@ -1,0 +1,2 @@
+These are then concatenated with the text
+  tokens, and send through the Transformer encoder.

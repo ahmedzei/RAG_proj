@@ -1,0 +1,2 @@
+[SegformerForSemanticSegmentation] adds the all-MLP decoder head on
+  top to perform semantic segmentation of images.

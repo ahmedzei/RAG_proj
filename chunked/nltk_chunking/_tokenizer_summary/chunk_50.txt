@@ -1,0 +1,1 @@
+We can see that the words ["i", "have", "a", "new"] are present in the tokenizer's vocabulary, but the word "gpu" is not.

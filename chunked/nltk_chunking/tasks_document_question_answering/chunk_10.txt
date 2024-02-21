@@ -1,0 +1,2 @@
+If you'd like to use the full
+DocVQA dataset, you can register and download it on DocVQA homepage.

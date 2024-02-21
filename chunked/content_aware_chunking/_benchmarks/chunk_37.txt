@@ -1,0 +1,2 @@
+All of those tests were
+done across CPUs (except for TensorFlow XLA) and GPUs.

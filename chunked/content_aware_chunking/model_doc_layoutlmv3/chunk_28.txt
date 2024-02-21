@@ -1,0 +1,1 @@
+A notebook for how to perform inference with [LayoutLMv2ForTokenClassification] and a notebook for how to perform inference when no labels are available with [LayoutLMv2ForTokenClassification].

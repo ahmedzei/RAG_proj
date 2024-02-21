@@ -1,0 +1,1 @@
+As LayoutXLM's architecture is equivalent to that of LayoutLMv2, one can refer to LayoutLMv2's documentation page for all tips, code examples and notebooks.

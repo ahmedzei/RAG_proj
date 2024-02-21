@@ -1,0 +1,6 @@
+You can then reload your config with the
+from_pretrained method:
+py
+resnet50d_config = ResnetConfig.from_pretrained("custom-resnet")
+You can also use any other method of the [PretrainedConfig] class, like [~PretrainedConfig.push_to_hub] to
+directly upload your config to the Hub.

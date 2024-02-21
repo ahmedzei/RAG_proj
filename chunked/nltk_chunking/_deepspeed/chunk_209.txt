@@ -1,0 +1,3 @@
+deepspeed --num_gpus=2 your_program.py <normal cl args> --do_eval --deepspeed ds_config.json
+Non-Trainer DeepSpeed integration
+DeepSpeed also works with Transformers without the [Trainer] class.

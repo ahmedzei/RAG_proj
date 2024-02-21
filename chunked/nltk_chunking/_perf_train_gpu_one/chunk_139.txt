@@ -1,0 +1,28 @@
+Suppose you have combined the methods in the [TrainingArguments] like so:
+py
+training_args = TrainingArguments(
+    per_device_train_batch_size=1,
+    gradient_accumulation_steps=4,
+    gradient_checkpointing=True,
+    fp16=True,
+    **default_args,
+)
+The full example training loop with 🤗 Accelerate is only a handful of lines of code long:
+
+from accelerate import Accelerator
+from torch.utils.data.dataloader import DataLoader
+dataloader = DataLoader(ds, batch_size=training_args.per_device_train_batch_size)
+if training_args.gradient_checkpointing:
+    model.gradient_checkpointing_enable()
+accelerator = Accelerator(fp16=training_args.fp16)
+model, optimizer, dataloader = accelerator.prepare(model, adam_bnb_optim, dataloader)
+model.train()
+for step, batch in enumerate(dataloader, start=1):
+    loss = model(**batch).loss
+    loss = loss / training_args.gradient_accumulation_steps
+    accelerator.backward(loss)
+    if step % training_args.gradient_accumulation_steps == 0:
+        optimizer.step()
+        optimizer.zero_grad()
+
+First we wrap the dataset in a DataLoader.

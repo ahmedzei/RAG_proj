@@ -1,0 +1,2 @@
+Model architecture
+SeamlessM4T features a versatile architecture that smoothly handles the sequential generation of text and speech.

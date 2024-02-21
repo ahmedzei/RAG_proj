@@ -1,0 +1,4 @@
+"], padding="longest", return_tensors="pt"
+ )
+labels_dict = tokenizer(
+     ["La vie est comme une boîte de chocolat.

@@ -1,0 +1,5 @@
+thon
+import transformers
+transformers.logging.set_verbosity_info()
+
+You can also use the environment variable TRANSFORMERS_VERBOSITY to override the default verbosity.

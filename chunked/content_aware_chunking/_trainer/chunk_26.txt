@@ -1,0 +1,1 @@
+Keep in mind though that by making certain settings deterministic, training may be slower.

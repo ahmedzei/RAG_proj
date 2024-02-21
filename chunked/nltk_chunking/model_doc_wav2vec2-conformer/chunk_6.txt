@@ -1,0 +1,2 @@
+For the same number of layers, Wav2Vec2-Conformer requires more parameters than Wav2Vec2, but also yields 
+an improved word error rate.

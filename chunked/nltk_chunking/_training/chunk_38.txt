@@ -1,0 +1,29 @@
+Before passing your predictions to compute, you need to convert the logits to predictions (remember all 🤗 Transformers models return logits):
+
+def compute_metrics(eval_pred):
+     logits, labels = eval_pred
+     predictions = np.argmax(logits, axis=-1)
+     return metric.compute(predictions=predictions, references=labels)
+
+If you'd like to monitor your evaluation metrics during fine-tuning, specify the evaluation_strategy parameter in your training arguments to report the evaluation metric at the end of each epoch:
+
+from transformers import TrainingArguments, Trainer
+training_args = TrainingArguments(output_dir="test_trainer", evaluation_strategy="epoch")
+
+Trainer
+Create a [Trainer] object with your model, training arguments, training and test datasets, and evaluation function:
+
+trainer = Trainer(
+     model=model,
+     args=training_args,
+     train_dataset=small_train_dataset,
+     eval_dataset=small_eval_dataset,
+     compute_metrics=compute_metrics,
+ )
+
+Then fine-tune your model by calling [~transformers.Trainer.train]:
+
+trainer.train()
+
+Train a TensorFlow model with Keras
+You can also train 🤗 Transformers models in TensorFlow with the Keras API!

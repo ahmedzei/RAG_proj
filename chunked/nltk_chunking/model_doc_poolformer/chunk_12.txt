@@ -1,0 +1,1 @@
+Additionally, our proposed PoolFormer could serve as a starting baseline for future MetaFormer architecture design.

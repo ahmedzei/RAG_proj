@@ -1,0 +1,3 @@
+The
+  only change is the separation of the embedding size and the hidden size: the embedding size is generally smaller,
+  while the hidden size is larger.

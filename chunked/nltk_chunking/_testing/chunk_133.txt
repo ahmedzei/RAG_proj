@@ -1,0 +1,2 @@
+So if the
+code that's buggy causes some bad state that will affect other tests, do not use xfail.

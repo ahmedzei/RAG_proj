@@ -1,0 +1,2 @@
+Quantized model
+If high-memory GPU availability is an issue, you can load the quantized version of the model.

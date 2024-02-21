@@ -1,0 +1,1 @@
+ELECTRA is a transformer model pretrained with the use of another (small) masked language model.

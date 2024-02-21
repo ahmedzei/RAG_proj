@@ -1,0 +1,2 @@
+In this work, we introduce BARThez, the first BART model for the French language
+(to the best of our knowledge).

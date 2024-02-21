@@ -1,0 +1,2 @@
+We show the interest of this token-based
+distillation, especially when using a convnet as a teacher.

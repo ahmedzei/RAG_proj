@@ -1,0 +1,2 @@
+Pre-trained on 
+ImageNet-22k, our CvT-W24 obtains a top-1 accuracy of 87.7\% on the ImageNet-1k val set.

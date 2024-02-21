@@ -1,0 +1,15 @@
+Image Classification 
+- google/vit-base-patch16-224
+- microsoft/beit-base-patch16-224-pt22k-ft22k
+- facebook/convnext-large-224
+- microsoft/resnet-50
+Image Segmentation 
+- nvidia/segformer-b0-finetuned-ade-512-512
+- facebook/mask2former-swin-tiny-coco-panoptic
+- facebook/maskformer-swin-base-ade
+- google/deeplabv3_mobilenet_v2_1.0_513
+Object Detection 
+- google/owlvit-base-patch32
+- facebook/detr-resnet-101
+- microsoft/conditional-detr-resnet-50
+Below you can find visualization of inference durations with and without torch.compile() and percentage improvements for each model in different hardware and batch sizes.

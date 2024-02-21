@@ -1,0 +1,3 @@
+In cases where the language code is needed, the regular [~PLBartTokenizer.__call__] will encode source text format 
+when you pass texts as the first argument or with the keyword argument text, and will encode target text format if
+it's passed with the text_target keyword argument.

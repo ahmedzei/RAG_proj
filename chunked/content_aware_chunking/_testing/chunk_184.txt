@@ -1,0 +1,21 @@
+the last command must be a success: echo "done" or just true will do
+
+Here is an example:
+yaml
+- run:
+    name: run CI experiment
+    command: |
+        set +euo pipefail
+        echo "setting run-all-despite-any-errors-mode"
+        this_command_will_fail
+        echo "but bash continues to run"
+        # emulate another failure
+        false
+        # but the last command must be a success
+        echo "during experiment do not remove: reporting success to CI, even if there were failures"
+For simple commands you could also do:
+
+cmd_that_may_fail || true
+Of course, once satisfied with the results, integrate the experimental step or job with the rest of the normal jobs,
+while removing set +euo pipefail or any other things you may have added to ensure that the experimental job doesn't
+interfere with the normal CI functioning.

@@ -1,0 +1,6 @@
+Previous behaviour:
+thon
+
+from transformers import NllbTokenizer
+tokenizer = NllbTokenizer.from_pretrained("facebook/nllb-200-distilled-600M")
+tokenizer("How was your day?

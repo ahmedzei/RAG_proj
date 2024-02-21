@@ -1,0 +1,7 @@
+For text (or sequence) classification, you should load [AutoModelForSequenceClassification]:
+
+from transformers import AutoModelForSequenceClassification
+model_name = "nlptown/bert-base-multilingual-uncased-sentiment"
+pt_model = AutoModelForSequenceClassification.from_pretrained(model_name)
+
+See the task summary for tasks supported by an [AutoModel] class.

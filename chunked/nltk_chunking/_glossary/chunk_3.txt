@@ -1,0 +1,6 @@
+For example, consider these two sequences:
+thon
+
+from transformers import BertTokenizer
+tokenizer = BertTokenizer.from_pretrained("google-bert/bert-base-cased")
+sequence_a = "This is a short sequence."

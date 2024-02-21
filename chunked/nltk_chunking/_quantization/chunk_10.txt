@@ -1,0 +1,1 @@
+It quantizes multiple weights together and take advantage of interdependencies between them.

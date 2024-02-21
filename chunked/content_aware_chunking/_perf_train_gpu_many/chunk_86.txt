@@ -1,0 +1,2 @@
+If the participating 
+GPUs are on the same compute node (e.g.

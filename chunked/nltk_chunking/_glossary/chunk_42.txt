@@ -1,0 +1,2 @@
+The intermediate embedding size of the feed forward layers is often bigger than the hidden size of the model (e.g., for
+google-bert/bert-base-uncased).

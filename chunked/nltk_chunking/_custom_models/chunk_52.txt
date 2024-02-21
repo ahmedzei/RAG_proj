@@ -1,0 +1,1 @@
+Use register_for_auto_class() if you want the code files to be copied.

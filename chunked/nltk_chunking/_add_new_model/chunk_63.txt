@@ -1,0 +1,3 @@
+The goal is
+not to get a deep theoretical understanding of the paper, but to extract the necessary information required to
+effectively re-implement the model in 🤗 Transformers.

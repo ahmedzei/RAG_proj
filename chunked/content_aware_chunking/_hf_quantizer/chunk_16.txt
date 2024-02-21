@@ -1,0 +1,3 @@
+Build a new HFQuantizer class
+
+Create a new quantization config class inside src/transformers/utils/quantization_config.py and make sure to expose the new quantization config inside Transformers main init by adding it to the _import_structure object of src/transformers/init.py.

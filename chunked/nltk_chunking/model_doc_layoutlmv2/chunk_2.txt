@@ -1,0 +1,2 @@
+document image classification: the RVL-CDIP dataset (a collection of
+  400,000 images belonging to one of 16 classes).

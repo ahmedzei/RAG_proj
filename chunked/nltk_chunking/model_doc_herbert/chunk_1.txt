@@ -1,0 +1,2 @@
+It is a BERT-based Language Model trained on Polish Corpora using only MLM objective with dynamic
+masking of whole words.

@@ -1,0 +1,4 @@
+Usage tips
+
+In addition to input_ids, [~transformers.LayoutLMModel.forward] also expects the input bbox, which are
+  the bounding boxes (i.e.

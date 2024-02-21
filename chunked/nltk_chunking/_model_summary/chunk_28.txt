@@ -1,0 +1,1 @@
+After pretraining, the decoder is thrown away, and the encoder is ready to be used in downstream tasks.

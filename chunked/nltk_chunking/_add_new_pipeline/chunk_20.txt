@@ -1,0 +1,2 @@
+That
+allows to keep the default arguments in the function definition which is always more "natural".

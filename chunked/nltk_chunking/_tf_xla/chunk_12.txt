@@ -1,0 +1,7 @@
+_ = model(random_inputs)
+
+In order to run the forward pass with an XLA-compiled function, we’d need to do:
+py
+xla_fn = tf.function(model, jit_compile=True)
+_ = xla_fn(random_inputs)
+The default call() function of the model is used for compiling the XLA graph.

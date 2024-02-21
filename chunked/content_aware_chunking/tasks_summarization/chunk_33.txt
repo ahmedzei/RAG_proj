@@ -1,0 +1,26 @@
+To finetune a model in TensorFlow, start by setting up an optimizer function, learning rate schedule, and some training hyperparameters:
+
+from transformers import create_optimizer, AdamWeightDecay
+optimizer = AdamWeightDecay(learning_rate=2e-5, weight_decay_rate=0.01)
+
+Then you can load T5 with [TFAutoModelForSeq2SeqLM]:
+
+from transformers import TFAutoModelForSeq2SeqLM
+model = TFAutoModelForSeq2SeqLM.from_pretrained(checkpoint)
+
+Convert your datasets to the tf.data.Dataset format with [~transformers.TFPreTrainedModel.prepare_tf_dataset]:
+
+tf_train_set = model.prepare_tf_dataset(
+     tokenized_billsum["train"],
+     shuffle=True,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+tf_test_set = model.prepare_tf_dataset(
+     tokenized_billsum["test"],
+     shuffle=False,
+     batch_size=16,
+     collate_fn=data_collator,
+ )
+
+Configure the model for training with compile.

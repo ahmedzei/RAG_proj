@@ -1,0 +1,10 @@
+To upload your custom prompt on a repo on the Hub and share it with the community just make sure:
+- to use a dataset repository
+- to put the prompt template for the run command in a file named run_prompt_template.txt
+- to put the prompt template for the chat command in a file named chat_prompt_template.txt
+Using custom tools
+In this section, we'll be leveraging two existing custom tools that are specific to image generation:
+
+We replace huggingface-tools/image-transformation,
+  with diffusers/controlnet-canny-tool 
+  to allow for more image modifications.

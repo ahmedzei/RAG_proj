@@ -1,0 +1,1 @@
+Please note there are two different checkpoints for each size of Splinter.

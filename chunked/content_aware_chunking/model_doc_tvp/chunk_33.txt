@@ -1,0 +1,2 @@
+If clip_idx is larger than -1, uniformly split the video to num_clips
+            clips, and select the clip_idx-th video clip.

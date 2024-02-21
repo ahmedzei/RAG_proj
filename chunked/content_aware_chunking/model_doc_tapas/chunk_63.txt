@@ -1,0 +1,1 @@
+A note here is that the already fine-tuned checkpoint on WTQ has some issues due to the L2-loss which is somewhat brittle.

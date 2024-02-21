@@ -1,0 +1,3 @@
+Unlike some XLM multilingual models, it does
+  not require lang tensors to understand which language is used, and should be able to determine the correct
+  language from the input ids.

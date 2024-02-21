@@ -1,0 +1,1 @@
+As a consequence, tokens never depend on previous tokens, more specifically the \( \mathbf{q}i \) vector is never put in relation with any key, values vectors \( \mathbf{k}_j, \mathbf{v}_j \) if \( j > i \) .

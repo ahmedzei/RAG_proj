@@ -1,0 +1,2 @@
+Traditionally, most models use 32-bit floating point 
+precision (fp32 or float32) to represent and process variables.

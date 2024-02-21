@@ -1,0 +1,8 @@
+from transformers import HfAgent
+agent = HfAgent("https://api-inference.huggingface.co/models/bigcode/starcoder")
+agent.run("Show me a tree", return_code=True)
+
+gives:
+``text
+==Explanation from the agent==
+I will use the following tool:image_segmenter` to create a segmentation mask for the image.

@@ -1,0 +1,3 @@
+In this paper, we introduce a new approach for scaling to very large multilingual vocabularies by
+de-emphasizing token sharing between languages with little lexical overlap and assigning vocabulary capacity
+to achieve sufficient coverage for each individual language.

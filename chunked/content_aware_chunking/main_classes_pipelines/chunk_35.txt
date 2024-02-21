@@ -1,0 +1,2 @@
+The larger the GPU the more likely batching is going to be more interesting
+As soon as you enable batching, make sure you can handle OOMs nicely.

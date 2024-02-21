@@ -1,0 +1,8 @@
+The actual objective is a combination of:
+
+finding the same probabilities as the teacher model
+predicting the masked tokens correctly (but no next-sentence objective)
+a cosine similarity between the hidden states of the student and the teacher model
+
+Resources
+A list of official Hugging Face and community (indicated by 🌎) resources to help you get started with DistilBERT.

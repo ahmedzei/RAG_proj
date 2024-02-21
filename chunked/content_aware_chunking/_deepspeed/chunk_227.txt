@@ -1,0 +1,2 @@
+If you have enough GPU memory the program will
+run faster if you don't want offload to CPU - so disable that section then.

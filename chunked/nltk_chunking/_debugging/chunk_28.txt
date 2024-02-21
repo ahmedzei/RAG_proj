@@ -1,0 +1,13 @@
+To check the PyTorch version that corresponds to your architecture, run the following command:
+
+python -c "import torch; print(torch.cuda.get_arch_list())"
+Find the architecture for a GPU with the following command:
+
+CUDA_VISIBLE_DEVICES=0 python -c "import torch; print(torch.cuda.get_device_capability())"
+
+To find the architecture for GPU 0:
+
+CUDA_VISIBLE_DEVICES=0 python -c "import torch; \
+print(torch.cuda.get_device_properties(torch.device('cuda')))
+"_CudaDeviceProperties(name='GeForce RTX 3090', major=8, minor=6, total_memory=24268MB, multi_processor_count=82)"
+This means your GPU architecture is 8.6.

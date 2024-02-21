@@ -1,0 +1,26 @@
+Backbones are supported for the following models:
+
+BEiT
+BiT
+ConvNet
+ConvNextV2
+DiNAT
+DINOV2
+FocalNet
+MaskFormer
+NAT
+ResNet
+Swin Transformer
+Swin Transformer v2
+ViTDet
+
+AutoBackbone
+[[autodoc]] AutoBackbone
+BackboneMixin
+[[autodoc]] utils.BackboneMixin
+BackboneConfigMixin
+[[autodoc]] utils.BackboneConfigMixin
+TimmBackbone
+[[autodoc]] models.timm_backbone.TimmBackbone
+TimmBackboneConfig
+[[autodoc]] models.timm_backbone.TimmBackboneConfig

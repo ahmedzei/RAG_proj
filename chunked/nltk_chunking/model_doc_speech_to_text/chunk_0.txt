@@ -1,0 +1,4 @@
+
+Speech2Text
+Overview
+The Speech2Text model was proposed in fairseq S2T: Fast Speech-to-Text Modeling with fairseq by Changhan Wang, Yun Tang, Xutai Ma, Anne Wu, Dmytro Okhonko, Juan Pino.

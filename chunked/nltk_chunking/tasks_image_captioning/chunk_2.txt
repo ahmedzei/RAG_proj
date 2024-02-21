@@ -1,0 +1,2 @@
+Therefore, image captioning
+helps to improve content accessibility for people by describing images to them.

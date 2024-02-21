@@ -1,0 +1,4 @@
+You can speed up map by setting batched=True to process multiple elements of the dataset at once:
+py
+tokenized_imdb = imdb.map(preprocess_function, batched=True)
+Now create a batch of examples using [DataCollatorWithPadding].

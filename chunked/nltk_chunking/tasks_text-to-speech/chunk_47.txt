@@ -1,0 +1,3 @@
+However, 
+determining the total amount of audio for each speaker requires scanning through the entire dataset, which is a 
+time-consuming process that involves loading and decoding each audio file.

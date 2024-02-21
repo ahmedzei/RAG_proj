@@ -1,0 +1,1 @@
+BART adapts to translation by adding a separate randomly initialized encoder to map a source language to an input that can be decoded into the target language.

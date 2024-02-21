@@ -1,0 +1,2 @@
+OWL-ViT
+is an open-vocabulary object detector.

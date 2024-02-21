@@ -1,0 +1,1 @@
+is_serializable: A property method to determine whether the method is serializable or not.

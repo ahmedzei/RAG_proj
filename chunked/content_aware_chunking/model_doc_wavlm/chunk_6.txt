@@ -1,0 +1,2 @@
+For better speaker discrimination, we propose an utterance mixing training strategy, where
+additional overlapped utterances are created unsupervisedly and incorporated during model training.

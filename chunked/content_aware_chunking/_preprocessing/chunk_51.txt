@@ -1,0 +1,6 @@
+Load the MInDS-14 dataset (see the 🤗 Datasets tutorial for more details on how to load a dataset) to see how you can use a feature extractor with audio datasets:
+
+from datasets import load_dataset, Audio
+dataset = load_dataset("PolyAI/minds14", name="en-US", split="train")
+
+Access the first element of the audio column to take a look at the input.

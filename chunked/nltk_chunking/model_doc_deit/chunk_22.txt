@@ -1,0 +1,3 @@
+In terms of models, (1) corresponds to
+  [DeiTForImageClassification] and (2) corresponds to
+  [DeiTForImageClassificationWithTeacher].

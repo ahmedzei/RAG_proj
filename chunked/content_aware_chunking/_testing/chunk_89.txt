@@ -1,0 +1,2 @@
+You can read here which features are supported, but the important
+thing to remember is that most pytest fixtures don't work.

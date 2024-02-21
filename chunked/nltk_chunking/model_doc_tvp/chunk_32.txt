@@ -1,0 +1,1 @@
+clip_idx (int): if clip_idx is -1, perform random temporal sampling.

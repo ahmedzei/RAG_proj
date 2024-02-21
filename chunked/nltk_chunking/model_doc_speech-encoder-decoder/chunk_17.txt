@@ -1,0 +1,1 @@
+To do so, the SpeechEncoderDecoderModel class provides a [SpeechEncoderDecoderModel.from_encoder_decoder_pretrained] method.

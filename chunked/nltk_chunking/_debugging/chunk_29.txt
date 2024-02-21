@@ -1,0 +1,1 @@
+If you get 8, 6, then you can set TORCH_CUDA_ARCH_LIST="8.6".

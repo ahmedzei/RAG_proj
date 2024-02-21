@@ -1,0 +1,3 @@
+According to the abstract,
+
+MVP follows a standard Transformer encoder-decoder architecture.

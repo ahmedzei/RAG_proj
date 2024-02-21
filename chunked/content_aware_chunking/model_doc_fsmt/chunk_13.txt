@@ -1,0 +1,2 @@
+Its tokenizer is very similar to [XLMTokenizer] and the main model is derived from
+  [BartModel].

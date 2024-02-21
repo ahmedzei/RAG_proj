@@ -1,0 +1,1 @@
+The base model therefore has a final sequence length that is a quarter of the original one.

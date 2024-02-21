@@ -1,0 +1,4 @@
+
+Efficient Training on Multiple GPUs
+If training a model on a single GPU is too slow or if the model's weights do not fit in a single GPU's memory, transitioning 
+to a multi-GPU setup may be a viable option.

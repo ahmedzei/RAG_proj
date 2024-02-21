@@ -1,0 +1,1 @@
+Images and prompts are encoded, and the decoder takes these embeddings and generates valid masks.

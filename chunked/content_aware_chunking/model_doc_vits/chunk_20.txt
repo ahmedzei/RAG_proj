@@ -1,0 +1,2 @@
+Since the flow-based model is non-deterministic, it 
+is good practice to set a seed to ensure reproducibility of the outputs.

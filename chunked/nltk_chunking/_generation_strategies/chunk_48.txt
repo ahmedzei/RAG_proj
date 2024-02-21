@@ -1,0 +1,1 @@
+If you are new to this concept, we recommend reading this blog post that illustrates how common decoding strategies work.

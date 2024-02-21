@@ -1,0 +1,9 @@
+Let's see if it at least 
+learned something from the data and take the first example from the dataset to illustrate inference:
+
+example = dataset[0]
+image = Image.open(example['image_id'])
+question = example['question']
+print(question)
+pipe(image, question, top_k=1)
+"Where is he looking?"

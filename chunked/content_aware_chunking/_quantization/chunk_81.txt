@@ -1,0 +1,11 @@
+You can check your memory footprint with the get_memory_footprint method:
+py
+print(model.get_memory_footprint())
+Quantized models can be loaded from the [~PreTrainedModel.from_pretrained] method without needing to specify the load_in_8bit or load_in_4bit parameters:
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+model = AutoModelForCausalLM.from_pretrained("{your_username}/bloom-560m-8bit", device_map="auto")
+
+8-bit
+
+Learn more about the details of 8-bit quantization in this blog post!

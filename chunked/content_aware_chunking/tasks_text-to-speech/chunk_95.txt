@@ -1,0 +1,13 @@
+inputs = processor(text=text, return_tensors="pt")
+
+Create a spectrogram with your model: 
+
+spectrogram = model.generate_speech(inputs["input_ids"], speaker_embeddings)
+
+Visualize the spectrogram, if you'd like to: 
+
+plt.figure()
+plt.imshow(spectrogram.T)
+plt.show()
+
+Finally, use the vocoder to turn the spectrogram into sound.

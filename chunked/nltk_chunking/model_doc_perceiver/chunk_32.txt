@@ -1,0 +1,2 @@
+After cross-attention, one still has a tensor of shape (batch_size,
+2048, 768).

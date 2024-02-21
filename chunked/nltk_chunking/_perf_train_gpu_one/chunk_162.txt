@@ -1,0 +1,2 @@
+Since it has been discovered that more parameters lead to better performance, this technique allows to increase the 
+number of parameters by an order of magnitude without increasing training costs.

@@ -1,0 +1,1 @@
+The model can be used to predict segmentation masks of any object of interest given an input image.

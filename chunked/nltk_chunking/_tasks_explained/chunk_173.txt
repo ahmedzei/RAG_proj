@@ -1,0 +1,1 @@
+This is different from BERT's [mask] token because, in masked self-attention, an attention mask is used to set the score to 0 for future tokens.

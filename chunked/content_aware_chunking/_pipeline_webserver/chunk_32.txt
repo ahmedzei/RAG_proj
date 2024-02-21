@@ -1,0 +1,2 @@
+That means it would be better if PyTorch was forced to run
+on its own thread/process.

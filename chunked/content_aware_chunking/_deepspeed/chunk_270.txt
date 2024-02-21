@@ -1,0 +1,5 @@
+The following papers are also a great resource for learning more about ZeRO:
+
+ZeRO: Memory Optimizations Toward Training Trillion Parameter Models
+ZeRO-Offload: Democratizing Billion-Scale Model Training
+ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning

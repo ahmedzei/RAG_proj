@@ -1,0 +1,10 @@
+Create a branch with a descriptive name from your main branch
+
+git checkout -b add_tf_brand_new_bert
+
+Fetch and rebase to current main
+
+git fetch upstream
+git rebase upstream/main
+
+Add an empty .py file in transformers/src/models/brandnewbert/ named modeling_tf_brandnewbert.py.

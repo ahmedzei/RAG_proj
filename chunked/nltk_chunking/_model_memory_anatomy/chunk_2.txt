@@ -1,0 +1,5 @@
+For the demonstration, 
+we'll need to install a few libraries: 
+
+pip install transformers datasets accelerate nvidia-ml-py3
+The nvidia-ml-py3 library allows us to monitor the memory usage of the models from within Python.

@@ -1,0 +1,5 @@
+For example, to use only the
+second gpu if you have gpus 0 and 1, you can run:
+
+CUDA_VISIBLE_DEVICES="1" pytest tests/utils/test_logging.py
+This is handy when you want to run different tasks on different GPUs.

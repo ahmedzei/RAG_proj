@@ -1,0 +1,2 @@
+We need to pass these 
+since the processor resizes the image, and the output needs to be extrapolated.

@@ -1,0 +1,23 @@
+For example, to enable offloading for the bigscience/bloom-1b7 model, start by creating a [BitsAndBytesConfig]:
+
+from transformers import AutoModelForCausalLM, BitsAndBytesConfig
+quantization_config = BitsAndBytesConfig(llm_int8_enable_fp32_cpu_offload=True)
+
+Design a custom device map to fit everything on your GPU except for the lm_head, which you'll dispatch to the CPU:
+py
+device_map = {
+    "transformer.word_embeddings": 0,
+    "transformer.word_embeddings_layernorm": 0,
+    "lm_head": "cpu",
+    "transformer.h": 0,
+    "transformer.ln_f": 0,
+}
+Now load your model with the custom device_map and quantization_config:
+py
+model_8bit = AutoModelForCausalLM.from_pretrained(
+    "bigscience/bloom-1b7",
+    device_map=device_map,
+    quantization_config=quantization_config,
+)
+Outlier threshold
+An "outlier" is a hidden state value greater than a certain threshold, and these values are computed in fp16.

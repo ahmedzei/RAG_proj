@@ -1,0 +1,3 @@
+EfficientFormer proposes a
+dimension-consistent pure transformer that can be run on mobile devices for dense prediction tasks like image classification, object
+detection and semantic segmentation.

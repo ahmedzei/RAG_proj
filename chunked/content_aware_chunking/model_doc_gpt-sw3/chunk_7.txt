@@ -1,0 +1,9 @@
+Men ibland är det fint
+
+Resources
+
+Text classification task guide
+Token classification task guide
+Causal language modeling task guide
+
+The implementation uses the GPT2Model coupled with our GPTSw3Tokenizer.

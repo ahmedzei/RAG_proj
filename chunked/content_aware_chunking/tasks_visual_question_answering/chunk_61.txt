@@ -1,0 +1,1 @@
+From the logits, get the most likely answer's id, and find the actual answer in the id2label.

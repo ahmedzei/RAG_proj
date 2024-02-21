@@ -1,0 +1,4 @@
+Then the queuing mechanism allows you to do fancy stuff like maybe accumulating a few
+items before inferring to use dynamic batching:
+
+The code sample below is intentionally written like pseudo-code for readability.

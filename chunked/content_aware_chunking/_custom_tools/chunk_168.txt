@@ -1,0 +1,7 @@
+Here's how one would do so:
+thon
+from transformers import HfAgent, load_tool
+agent = HfAgent("https://api-inference.huggingface.co/models/bigcode/starcoder")
+agent.toolbox["image-transformation"] = load_tool("diffusers/controlnet-canny-tool")
+
+Beware when replacing tools with others!

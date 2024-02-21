@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Extending the forecasting time is a critical demand for real applications, such as extreme weather early warning and long-term energy consumption planning.

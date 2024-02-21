@@ -1,0 +1,2 @@
+This model can be used
+  directly for tasks that just require a sentence summary (like sequence classification or multiple choice).

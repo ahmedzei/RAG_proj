@@ -1,0 +1,2 @@
+Use [BartTokenizer] or
+  [~BartTokenizer.encode] to get the proper splitting.

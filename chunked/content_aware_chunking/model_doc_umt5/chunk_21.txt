@@ -1,0 +1,20 @@
+UMT5Config
+[[autodoc]] UMT5Config
+UMT5Model
+[[autodoc]] UMT5Model
+    - forward
+UMT5ForConditionalGeneration
+[[autodoc]] UMT5ForConditionalGeneration
+    - forward
+UMT5EncoderModel
+[[autodoc]] UMT5EncoderModel
+    - forward
+UMT5ForSequenceClassification
+[[autodoc]] UMT5ForSequenceClassification
+    - forward
+UMT5ForTokenClassification
+[[autodoc]] UMT5ForTokenClassification
+    - forward
+UMT5ForQuestionAnswering
+[[autodoc]] UMT5ForQuestionAnswering
+    - forward

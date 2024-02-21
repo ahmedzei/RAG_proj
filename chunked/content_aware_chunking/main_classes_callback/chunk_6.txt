@@ -1,0 +1,2 @@
+[~integrations.TensorBoardCallback] if tensorboard is accessible (either through PyTorch >= 1.4
+  or tensorboardX).

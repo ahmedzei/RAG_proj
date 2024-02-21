@@ -1,0 +1,4 @@
+python
+logger.info(f"Initialize PyTorch weight {layer_name} from {pretrained_weight.name}")
+If either the shape or the name doesn't match, you probably assigned the wrong checkpoint weight to a randomly
+initialized layer of the 🤗 Transformers implementation.

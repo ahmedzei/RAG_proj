@@ -1,0 +1,4 @@
+start_time = time.time()
+with torch.backends.cuda.sdp_kernel(enable_flash=True, enable_math=False, enable_mem_efficient=False):
+    result = pipe(long_prompt, max_new_tokens=60)[0]["generated_text"][len(long_prompt):]
+print(f"Generated in {time.time() - start_time} seconds.")

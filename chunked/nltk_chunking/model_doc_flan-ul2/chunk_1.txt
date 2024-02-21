@@ -1,0 +1,1 @@
+It uses the same configuration as the UL2 model released earlier last year.

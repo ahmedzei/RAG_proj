@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+Natural language understanding comprises a wide range of diverse tasks such as textual entailment, question answering,
+semantic similarity assessment, and document classification.

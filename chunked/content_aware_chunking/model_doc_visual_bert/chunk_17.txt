@@ -1,0 +1,2 @@
+Both the text and visual features are then projected to a latent space with identical
+dimension.

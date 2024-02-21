@@ -1,0 +1,4 @@
+
+GPT-NeoX-Japanese
+Overview
+We introduce GPT-NeoX-Japanese, which is an autoregressive language model for Japanese, trained on top of https://github.com/EleutherAI/gpt-neox.

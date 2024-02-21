@@ -1,0 +1,2 @@
+For some very general questions that are not very useful for the public, feel free to ping the
+Hugging Face team by Slack or email.

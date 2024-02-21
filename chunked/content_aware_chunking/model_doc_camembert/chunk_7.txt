@@ -1,0 +1,3 @@
+We measure the
+performance of CamemBERT compared to multilingual models in multiple downstream tasks, namely part-of-speech tagging,
+dependency parsing, named-entity recognition, and natural language inference.

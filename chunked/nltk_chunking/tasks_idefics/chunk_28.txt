@@ -1,0 +1,1 @@
+You can set it on-the-fly as in this guide, or store in the GenerationConfig as described in the Text generation strategies guide.

@@ -1,0 +1,2 @@
+In that case, one should provide the words and corresponding (normalized) bounding boxes themselves to
+the processor.

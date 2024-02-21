@@ -1,0 +1,12 @@
+When prompted, enter your token to login:
+
+from huggingface_hub import notebook_login
+notebook_login()
+
+Load MInDS-14 dataset
+Start by loading the MInDS-14 dataset from the 🤗 Datasets library:
+
+from datasets import load_dataset, Audio
+minds = load_dataset("PolyAI/minds14", name="en-US", split="train")
+
+Split the dataset's train split into a smaller train and test set with the [~datasets.Dataset.train_test_split] method.

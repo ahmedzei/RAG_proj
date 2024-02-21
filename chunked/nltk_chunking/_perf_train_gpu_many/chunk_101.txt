@@ -1,0 +1,2 @@
+PP introduces a new hyperparameter to tune - chunks, which determines how many data chunks are sent in a sequence 
+through the same pipe stage.

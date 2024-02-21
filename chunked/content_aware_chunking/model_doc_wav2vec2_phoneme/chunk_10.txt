@@ -1,0 +1,3 @@
+Wav2Vec2Phoneme can be fine-tuned on multiple language at once and decode unseen languages in a single forward pass
+  to a sequence of phonemes
+By default, the model outputs a sequence of phonemes.

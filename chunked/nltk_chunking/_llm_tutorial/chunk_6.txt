@@ -1,0 +1,1 @@
+If you're interested in basic LLM usage, our high-level Pipeline interface is a great starting point.

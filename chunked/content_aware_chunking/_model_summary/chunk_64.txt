@@ -1,0 +1,1 @@
+Pegasus is similar to BART, but Pegasus masks entire sentences instead of text spans.

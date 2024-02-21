@@ -1,0 +1,2 @@
+900M model & 1.5B model Two additional model sizes are available: 900M and 1.5B, which significantly improves the
+  performance of downstream tasks.

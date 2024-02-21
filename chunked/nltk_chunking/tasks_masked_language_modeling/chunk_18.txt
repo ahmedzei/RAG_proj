@@ -1,0 +1,6 @@
+This means you'll need to extract the text subfield from its nested structure with the flatten method:
+
+eli5 = eli5.flatten()
+eli5["train"][0]
+{'q_id': '7h191n',
+ 'title': 'What does the tax bill that was passed today mean?

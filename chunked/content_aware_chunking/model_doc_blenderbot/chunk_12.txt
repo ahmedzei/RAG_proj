@@ -1,0 +1,4 @@
+inputs = tokenizer([UTTERANCE], return_tensors="pt")
+reply_ids = model.generate(**inputs)
+print(tokenizer.batch_decode(reply_ids))
+[" That's unfortunate.

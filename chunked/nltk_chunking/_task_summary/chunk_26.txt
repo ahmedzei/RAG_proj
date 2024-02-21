@@ -1,0 +1,1 @@
+Split an image into patches and use a Transformer to gradually learn how each image patch is related to each other to form an image.

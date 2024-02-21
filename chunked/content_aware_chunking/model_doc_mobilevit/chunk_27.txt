@@ -1,0 +1,1 @@
+The TensorFlow versions of the MobileViT models are fully compatible with TensorFlow Lite.

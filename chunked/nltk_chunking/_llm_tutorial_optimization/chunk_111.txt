@@ -1,0 +1,1 @@
+Essentially, Flash Attention makes sure that all intermediate write and read operations can be done using the fast on-chip SRAM memory instead of having to access the slower VRAM memory to compute the output vector \( \mathbf{O} \) .

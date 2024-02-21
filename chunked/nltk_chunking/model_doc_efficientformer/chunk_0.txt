@@ -1,0 +1,5 @@
+
+EfficientFormer
+Overview
+The EfficientFormer model was proposed in EfficientFormer: Vision Transformers at MobileNet Speed 
+by Yanyu Li, Geng Yuan, Yang Wen, Eric Hu, Georgios Evangelidis, Sergey Tulyakov, Yanzhi Wang, Jian Ren.

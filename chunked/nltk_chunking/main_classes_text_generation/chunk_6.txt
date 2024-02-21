@@ -1,0 +1,2 @@
+The guide also explains how to use related features,
+like token streaming.

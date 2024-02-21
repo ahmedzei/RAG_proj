@@ -1,0 +1,2 @@
+They are returned by the model's preprocessor
+class, such as AutoTokenizer or AutoProcessor.

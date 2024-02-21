@@ -1,0 +1,5 @@
+See also: Image classification task guide
+
+Besides that:
+
+[SwinForMaskedImageModeling] is supported by this example script.

@@ -1,0 +1,1 @@
+In this example, they're set to 5e8 which means it requires 9GB of GPU memory.

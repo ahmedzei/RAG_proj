@@ -1,0 +1,1 @@
+Note that some speakers with few examples may actually have more audio available if the examples are long.

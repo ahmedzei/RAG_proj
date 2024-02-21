@@ -1,0 +1,1 @@
+The question answering head is similar to the sequence classification head except it is a linear layer on top of the hidden states output.

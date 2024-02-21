@@ -1,0 +1,1 @@
+It combines BERT and a pretrained object detection system to extract image features into visual embeddings, passed alongside text embeddings to BERT.

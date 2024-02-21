@@ -1,0 +1,6 @@
+Having correctly loaded the checkpoint into the 🤗 Transformers implementation, you can then save
+the model under a folder of your choice /path/to/converted/checkpoint/folder that should then contain both a
+pytorch_model.bin file and a config.json file:
+python
+model.save_pretrained("/path/to/converted/checkpoint/folder")
+7.

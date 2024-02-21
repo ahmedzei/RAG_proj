@@ -1,0 +1,7 @@
+A helper class
+transformers.test_utils.TestCasePlus solves this problem by sorting out all the basic paths and provides easy
+accessors to them:
+
+pathlib objects (all fully resolved):
+
+test_file_path - the current test file path, i.e.

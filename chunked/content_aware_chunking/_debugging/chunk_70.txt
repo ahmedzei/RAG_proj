@@ -1,0 +1,2 @@
+Additionally, if you're instantiating the debugger in your own code, you can adjust the number of frames printed from
+its default, e.g.

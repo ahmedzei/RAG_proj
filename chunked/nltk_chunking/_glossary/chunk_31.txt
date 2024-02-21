@@ -1,0 +1,1 @@
+Most encoder-decoder models (BART, T5) create their decoder_input_ids on their own from the labels.

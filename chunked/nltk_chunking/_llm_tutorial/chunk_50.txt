@@ -1,0 +1,9 @@
+Let's see what happens when we write
+a better prompt and use the right template for this model (through tokenizer.apply_chat_template)
+set_seed(0)
+messages = [
+     {
+         "role": "system",
+         "content": "You are a friendly chatbot who always responds in the style of a thug",
+     },
+     {"role": "user", "content": "How many helicopters can a human eat in one sitting?

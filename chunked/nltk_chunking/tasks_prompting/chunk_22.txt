@@ -1,0 +1,2 @@
+Base vs instruct/chat models
+Most of the recent LLM checkpoints available on 🤗 Hub come in two versions: base and instruct (or chat).

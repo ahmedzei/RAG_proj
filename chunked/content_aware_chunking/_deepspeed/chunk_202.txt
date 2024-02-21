@@ -1,0 +1,2 @@
+py
+python zero_to_fp32.py .

@@ -1,0 +1,6 @@
+Wrap all the code responsible for training in a function, and pass it to [~accelerate.notebook_launcher]:
+
+from accelerate import notebook_launcher
+notebook_launcher(training_function)
+
+For more information about 🤗 Accelerate and its rich features, refer to the documentation.

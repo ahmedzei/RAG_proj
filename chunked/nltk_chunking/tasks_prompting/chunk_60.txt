@@ -1,0 +1,4 @@
+thon
+
+torch.manual_seed(3) # doctest: +IGNORE_RESULT
+prompt = """Permaculture is a design process mimicking the diversity, functionality and resilience of natural ecosystems.

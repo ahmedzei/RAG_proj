@@ -1,0 +1,12 @@
+[[autodoc]] PreTrainedTokenizerFast
+    - call
+    - add_tokens
+    - add_special_tokens
+    - apply_chat_template
+    - batch_decode
+    - decode
+    - encode
+    - push_to_hub
+    - all
+BatchEncoding
+[[autodoc]] BatchEncoding

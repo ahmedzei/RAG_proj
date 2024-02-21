@@ -1,0 +1,2 @@
+In this approach every other FFN layer is replaced with a MoE Layer which consists of many experts, with a gated function 
+that trains each expert in a balanced way depending on the input token's position in a sequence.

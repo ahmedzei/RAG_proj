@@ -1,0 +1,1 @@
+For smaller output strides, the original model invokes dilated convolution to prevent the spatial resolution from being reduced further.

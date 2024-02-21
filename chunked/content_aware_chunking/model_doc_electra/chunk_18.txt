@@ -1,0 +1,2 @@
+In the case where the embedding size is the same as the hidden size, no projection
+  layer is used.

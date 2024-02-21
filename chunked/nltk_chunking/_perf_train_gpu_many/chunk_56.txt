@@ -1,0 +1,2 @@
+The difference is that instead of 
+replicating the full model parameters, gradients and optimizer states, each GPU stores only a slice of it.

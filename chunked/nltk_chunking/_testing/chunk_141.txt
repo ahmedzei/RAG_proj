@@ -1,0 +1,2 @@
+But it also means that it's important to run the slow tests on your
+machine before submitting the PR.

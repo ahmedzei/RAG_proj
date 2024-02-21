@@ -1,0 +1,2 @@
+It introduces a generative music model which can produce minute long samples that can be conditioned on
+an artist, genres and lyrics.

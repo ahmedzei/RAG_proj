@@ -1,0 +1,2 @@
+XNLI is crowd-sourced dataset based on MultiNLI: pairs of text are labeled with textual entailment annotations for 15
+different languages (including both high-resource language such as English and low-resource languages such as Swahili).

@@ -1,0 +1,11 @@
+ASTConfig
+[[autodoc]] ASTConfig
+ASTFeatureExtractor
+[[autodoc]] ASTFeatureExtractor
+    - call
+ASTModel
+[[autodoc]] ASTModel
+    - forward
+ASTForAudioClassification
+[[autodoc]] ASTForAudioClassification
+    - forward

@@ -1,0 +1,4 @@
+
+UL2
+Overview
+The T5 model was presented in Unifying Language Learning Paradigms by Yi Tay, Mostafa Dehghani, Vinh Q. Tran, Xavier Garcia, Dara Bahri, Tal Schuster, Huaixiu Steven Zheng, Neil Houlsby, Donald Metzler.

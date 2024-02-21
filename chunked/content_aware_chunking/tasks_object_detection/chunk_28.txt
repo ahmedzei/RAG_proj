@@ -1,0 +1,2 @@
+Here we use Albumentations 
+This library ensures that transformations affect the image and update the bounding boxes accordingly.

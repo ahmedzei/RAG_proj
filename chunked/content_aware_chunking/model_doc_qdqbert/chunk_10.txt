@@ -1,0 +1,3 @@
+Set default quantizers
+QDQBERT model adds fake quantization operations (pair of QuantizeLinear/DequantizeLinear ops) to BERT by
+TensorQuantizer in Pytorch Quantization Toolkit.

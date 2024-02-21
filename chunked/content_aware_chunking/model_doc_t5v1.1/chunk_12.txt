@@ -1,0 +1,2 @@
+Note: T5 Version 1.1 was only pre-trained on C4 excluding any supervised
+training.

@@ -1,0 +1,2 @@
+All these approaches are still valid in a multi-GPU setup, plus you can leverage additional parallelism 
+techniques outlined in the multi-GPU section.

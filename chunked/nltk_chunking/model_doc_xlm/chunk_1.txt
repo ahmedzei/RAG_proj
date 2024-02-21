@@ -1,0 +1,8 @@
+It's a transformer pretrained using one of the following objectives:
+
+a causal language modeling (CLM) objective (next token prediction),
+a masked language modeling (MLM) objective (BERT-like), or
+a Translation Language Modeling (TLM) object (extension of BERT's MLM to multiple language inputs)
+
+The abstract from the paper is the following:
+Recent studies have demonstrated the efficiency of generative pretraining for English natural language understanding.

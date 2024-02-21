@@ -1,0 +1,1 @@
+While generating the target text set the forced_bos_token_id to the target language id.

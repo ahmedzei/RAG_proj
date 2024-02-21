@@ -1,0 +1,4 @@
+
+MaskFormer
+
+This is a recently introduced model so the API hasn't been tested extensively.

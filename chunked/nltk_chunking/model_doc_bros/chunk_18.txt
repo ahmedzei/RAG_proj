@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Key information extraction (KIE) from document images requires understanding the contextual and spatial semantics of texts in two-dimensional (2D) space.

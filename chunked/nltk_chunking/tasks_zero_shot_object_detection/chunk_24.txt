@@ -1,0 +1,2 @@
+For batch processing, you should pass text queries as a nested list to the processor and images as lists of PIL images,
+PyTorch tensors, or NumPy arrays.

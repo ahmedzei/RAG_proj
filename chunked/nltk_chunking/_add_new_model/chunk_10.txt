@@ -1,0 +1,2 @@
+🤗 Transformers is a very opinionated library, so there is a
+chance that you don't agree with some of the library's philosophies or design choices.

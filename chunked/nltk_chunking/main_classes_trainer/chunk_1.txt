@@ -1,0 +1,1 @@
+[Trainer] goes hand-in-hand with the [TrainingArguments] class, which offers a wide range of options to customize how a model is trained.

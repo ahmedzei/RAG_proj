@@ -1,0 +1,2 @@
+local: add_new_pipeline
+    title: How to add a pipeline to 🤗 Transformers?

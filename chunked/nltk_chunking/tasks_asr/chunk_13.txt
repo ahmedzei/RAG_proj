@@ -1,0 +1,1 @@
+While it is possible to pad your text in the tokenizer function by setting padding=True, dynamic padding is more efficient.

@@ -1,0 +1,1 @@
+byT5: byT5 is a T5 model pre-trained on byte sequences rather than SentencePiece subword token sequences.

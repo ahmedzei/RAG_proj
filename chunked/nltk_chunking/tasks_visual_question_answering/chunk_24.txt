@@ -1,0 +1,2 @@
+As an alternative to the Graphcore/vqa dataset, you can download the 
+same data manually from the official VQA dataset page.

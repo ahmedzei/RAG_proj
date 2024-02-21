@@ -1,0 +1,9 @@
+Load a tokenizer with [AutoTokenizer]:
+
+from transformers import AutoTokenizer
+model_name = "nlptown/bert-base-multilingual-uncased-sentiment"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+Pass your text to the tokenizer:
+
+encoding = tokenizer("We are very happy to show you the 🤗 Transformers library.")

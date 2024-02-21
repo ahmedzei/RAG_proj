@@ -1,0 +1,2 @@
+"Don't" stands for
+"do not", so it would be better tokenized as ["Do", "n't"].

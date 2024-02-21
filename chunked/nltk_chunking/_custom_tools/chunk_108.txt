@@ -1,0 +1,2 @@
+Both the agent itself and the underlying prompt will be further improved in the coming 
+months making sure that agents become more robust to a variety of user inputs.

@@ -1,0 +1,3 @@
+The following
+  example shows how to transate English speech to French text using the facebook/s2t-medium-mustc-multilingual-st
+  checkpoint.

@@ -1,0 +1,2 @@
+Instantiating one of [AutoConfig], [AutoModel], and
+[AutoTokenizer] will directly create a class of the relevant architecture.

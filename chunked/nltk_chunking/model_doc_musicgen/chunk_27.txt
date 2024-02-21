@@ -1,0 +1,8 @@
+To listen
+to the generated audio samples, you can either play them in an ipynb notebook:
+thon
+from IPython.display import Audio
+sampling_rate = model.config.audio_encoder.sampling_rate
+Audio(audio_values[0].numpy(), rate=sampling_rate)
+
+Or save them as a .wav file using a third-party library, e.g.

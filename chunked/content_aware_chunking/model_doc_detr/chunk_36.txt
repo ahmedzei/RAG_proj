@@ -1,0 +1,2 @@
+Note that predicting boxes is
+required for the training to be possible, since the Hungarian matching is computed using distances between boxes.

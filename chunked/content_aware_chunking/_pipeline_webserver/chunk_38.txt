@@ -1,0 +1,2 @@
+In the API, there is no dynamic
+batching by default (too much opportunity for a slowdown).

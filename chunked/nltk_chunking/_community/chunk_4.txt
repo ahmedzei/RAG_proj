@@ -1,0 +1,18 @@
+This notebook demonstrates a Question & Answer task implemented in Tensorflow 2 using SQUAD | Muhammad Harris | |
+| Train T5 on TPU  | How to train T5 on SQUAD with Transformers and Nlp | Suraj Patil | |
+| Fine-tune T5 for Classification and Multiple Choice  | How to fine-tune T5 for classification and multiple choice tasks using a text-to-text format with PyTorch Lightning |  Suraj Patil |  |
+| Fine-tune DialoGPT on New Datasets and Languages  | How to fine-tune the DialoGPT model on a new dataset for open-dialog conversational chatbots |  Nathan Cooper |  |
+| Long Sequence Modeling with Reformer  | How to train on sequences as long as 500,000 tokens with Reformer |  Patrick von Platen |   |
+| Fine-tune BART for Summarization | How to fine-tune BART for summarization with fastai using blurr | Wayde Gilliam |  |
+| Fine-tune a pre-trained Transformer on anyone's tweets | How to generate tweets in the style of your favorite Twitter account by fine-tuning a GPT-2 model |  Boris Dayma |  |
+| Optimize 🤗 Hugging Face models with Weights & Biases | A complete tutorial showcasing W&B integration with Hugging Face | Boris Dayma |  |
+| Pretrain Longformer  | How to build a "long" version of existing pretrained models |  Iz Beltagy |  |
+| Fine-tune Longformer for QA | How to fine-tune longformer model for QA task | Suraj Patil |  |
+| Evaluate Model with 🤗nlp | How to evaluate longformer on TriviaQA with nlp | Patrick von Platen |  |
+| Fine-tune T5 for Sentiment Span Extraction  | How to fine-tune T5 for sentiment span extraction using a text-to-text format with PyTorch Lightning |  Lorenzo Ampil |  |
+| Fine-tune DistilBert for Multiclass Classification | How to fine-tune DistilBert for multiclass classification with PyTorch | Abhishek Kumar Mishra | |
+|Fine-tune BERT for Multi-label Classification|How to fine-tune BERT for multi-label classification using PyTorch|Abhishek Kumar Mishra ||
+|Fine-tune T5 for Summarization|How to fine-tune T5 for summarization in PyTorch and track experiments with WandB|Abhishek Kumar Mishra ||
+|Speed up Fine-Tuning in Transformers with Dynamic Padding / Bucketing|How to speed up fine-tuning by a factor of 2 using dynamic padding / bucketing|Michael Benesty ||
+|Pretrain Reformer for Masked Language Modeling| How to train a Reformer model with bi-directional self-attention layers | Patrick von Platen | |
+|Expand and Fine Tune Sci-BERT| How to increase vocabulary of a pretrained SciBERT model from AllenAI on the CORD dataset and pipeline it.

@@ -1,0 +1,1 @@
+Let's try the Whisper large-v2 model from OpenAI.

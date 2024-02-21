@@ -1,0 +1,2 @@
+One can also check out this interactive demo on Hugging Face Spaces
+  to try out a SegFormer model on custom images.

@@ -1,0 +1,1 @@
+A large chunk of the dataset also contains non-English languages, meaning Whisper can also be used for low-resource languages.

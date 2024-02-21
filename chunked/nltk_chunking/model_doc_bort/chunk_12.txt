@@ -1,0 +1,4 @@
+Usage tips
+
+BORT's model architecture is based on BERT, refer to BERT's documentation page for the
+  model's API reference as well as usage examples.

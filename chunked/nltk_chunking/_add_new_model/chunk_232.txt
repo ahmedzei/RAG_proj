@@ -1,0 +1,2 @@
+This step should be iterated with the previous step until all weights of the checkpoint are correctly loaded in the
+Transformers model.

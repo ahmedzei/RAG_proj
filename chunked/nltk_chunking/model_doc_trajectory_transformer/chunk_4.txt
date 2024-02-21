@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+Reinforcement learning (RL) is typically concerned with estimating stationary policies or single-step models,
+leveraging the Markov property to factorize problems in time.

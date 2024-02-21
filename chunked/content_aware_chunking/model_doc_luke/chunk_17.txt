@@ -1,0 +1,4 @@
+The brief description when inputting these entities are as follows:
+
+Inputting [MASK] entities to compute entity representations: The [MASK] entity is used to mask entities to be
+    predicted during pretraining.

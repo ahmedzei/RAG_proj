@@ -1,0 +1,2 @@
+The input audio 
+is transformed to its waveform and passed to the encoder, which transforms it to a latent representation.

@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+We re-evaluate the standard practice of sharing weights between input and output embeddings in state-of-the-art
+pre-trained language models.

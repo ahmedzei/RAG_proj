@@ -1,0 +1,1 @@
+Start by loading the model and associated processor from a checkpoint on the Hugging Face Hub.

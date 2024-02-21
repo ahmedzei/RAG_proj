@@ -1,0 +1,2 @@
+Let's use the previous image of the Eiffel Tower as an example for the model and build a prompt that demonstrates to the model 
+that in addition to learning what the object in an image is, we would also like to get some interesting information about it.

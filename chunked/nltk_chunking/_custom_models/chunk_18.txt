@@ -1,0 +1,3 @@
+When reloading a
+config with the from_pretrained method, those fields need to be accepted by your config and then sent to the
+superclass.

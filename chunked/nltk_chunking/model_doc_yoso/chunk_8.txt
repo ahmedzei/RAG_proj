@@ -1,0 +1,2 @@
+This leads to an efficient sampling scheme to estimate self-attention which relies on specific modifications of 
+LSH (to enable deployment on GPU architectures).

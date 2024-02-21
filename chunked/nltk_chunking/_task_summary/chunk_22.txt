@@ -1,0 +1,1 @@
+An image is composed of pixels, and each pixel has a numerical value.

@@ -1,0 +1,2 @@
+Generate Embeddings for VisualBERT (Colab Notebook) : This notebook contains
+  an example on how to generate visual embeddings.

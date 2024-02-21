@@ -1,0 +1,1 @@
+As DiT's architecture is equivalent to that of BEiT, one can refer to BEiT's documentation page for all tips, code examples and notebooks.

@@ -1,0 +1,3 @@
+\(W\) is a new vector that represents the position of the token and is given by
+$$W_{0} = u \hbox{  and  } W_{k} = (k-1)w \hbox{ for } k \geq 1$$
+with \(u\) and \(w\) learnable parameters called in the code time_first and time_decay respectively.

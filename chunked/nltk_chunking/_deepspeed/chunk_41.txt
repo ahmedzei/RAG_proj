@@ -1,0 +1,1 @@
+The following configurations must be setup with DeepSpeed because the [Trainer] doesn't provide equivalent command line arguments.

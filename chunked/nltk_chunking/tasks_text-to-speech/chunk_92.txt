@@ -1,0 +1,4 @@
+example = dataset["test"][304]
+speaker_embeddings = torch.tensor(example["speaker_embeddings"]).unsqueeze(0)
+
+Define the input text and tokenize it.

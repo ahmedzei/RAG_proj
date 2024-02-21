@@ -1,0 +1,2 @@
+Leveraging this feature allows CTRL to generate syntactically coherent text as it can be
+  observed in the run_generation.py example script.

@@ -1,0 +1,2 @@
+The regular [~MBartTokenizer.__call__] will encode source text format passed as first argument or with the text
+keyword, and target text format passed with the text_label keyword argument.

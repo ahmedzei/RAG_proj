@@ -1,0 +1,1 @@
+This guide will show you how to integrate a new quantization method with the [HfQuantizer] class.

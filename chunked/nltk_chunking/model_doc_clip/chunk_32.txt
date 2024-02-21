@@ -1,0 +1,2 @@
+🌎
+A notebook on how to map images and texts to the same vector space using Multilingual CLIP.

@@ -1,0 +1,2 @@
+For the VQA task, a classifier 
+head is placed on top (a linear layer on top of the final hidden state of the [CLS] token) and randomly initialized.

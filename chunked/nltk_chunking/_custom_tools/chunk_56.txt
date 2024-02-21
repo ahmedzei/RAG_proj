@@ -1,0 +1,5 @@
+For the above example, the user ran:
+py
+agent.run("Draw me a picture of rivers and lakes")
+The user input - a.k.a the task: "Draw me a picture of rivers and lakes" is cast into the 
+prompt template: "Task:  \n\n I will use the following".

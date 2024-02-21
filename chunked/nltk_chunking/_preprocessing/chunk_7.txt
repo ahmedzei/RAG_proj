@@ -1,0 +1,1 @@
+AutoProcessor always works and automatically chooses the correct class for the model you're using, whether you're using a tokenizer, image processor, feature extractor or processor.

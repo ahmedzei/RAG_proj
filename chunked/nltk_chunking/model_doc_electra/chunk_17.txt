@@ -1,0 +1,2 @@
+An additional projection layer (linear) is used to project the embeddings from their
+  embedding size to the hidden size.

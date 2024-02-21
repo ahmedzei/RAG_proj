@@ -1,0 +1,4 @@
+
+CLVP
+Overview
+The CLVP (Contrastive Language-Voice Pretrained Transformer) model was proposed in Better speech synthesis through scaling by James Betker.

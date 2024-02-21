@@ -1,0 +1,3 @@
+For example, we want to take
+advantage of the StableDiffusionPromptGeneratorTool tool offered in the gradio-tools toolkit so as to
+improve our prompts and generate better images.

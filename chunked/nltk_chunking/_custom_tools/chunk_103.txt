@@ -1,0 +1,6 @@
+py
+agent.run("Make an image of a house and a car", return_code=True)
+Now we're getting:
+``text
+==Explanation from the agent==
+I will use the following tools:image_generatorto generate an image of a house, thenimage_generator` to generate an image of a car.

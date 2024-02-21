@@ -1,0 +1,5 @@
+TrajectoryTransformerConfig
+[[autodoc]] TrajectoryTransformerConfig
+TrajectoryTransformerModel
+[[autodoc]] TrajectoryTransformerModel
+    - forward

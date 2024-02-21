@@ -1,0 +1,2 @@
+For example if you have NVIDIA/apex installed for NVIDIA GPUs, or ROCmSoftwarePlatform/apex for AMD GPUs, adamw_apex_fused will give you the
+fastest training experience among all supported AdamW optimizers.

@@ -1,0 +1,1 @@
+Second, we construct a contrastive language-audio pretraining model by considering different audio encoders and text encoders.

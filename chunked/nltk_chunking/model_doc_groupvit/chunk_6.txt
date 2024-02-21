@@ -1,0 +1,1 @@
+We train GroupViT jointly with a text encoder on a large-scale image-text dataset via contrastive losses.

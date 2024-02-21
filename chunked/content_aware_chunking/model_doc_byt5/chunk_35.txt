@@ -1,0 +1,3 @@
+ByT5Tokenizer
+[[autodoc]] ByT5Tokenizer
+See [ByT5Tokenizer] for all details.

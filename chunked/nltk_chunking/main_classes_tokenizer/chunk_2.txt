@@ -1,0 +1,3 @@
+Most
+of the tokenizers are available in two flavors: a full python implementation and a "Fast" implementation based on the
+Rust library 🤗 Tokenizers.

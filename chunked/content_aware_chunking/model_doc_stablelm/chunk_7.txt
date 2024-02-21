@@ -1,0 +1,2 @@
+pip install -U flash-attn --no-build-isolation
+Also make sure that your hardware is compatible with Flash-Attention 2.

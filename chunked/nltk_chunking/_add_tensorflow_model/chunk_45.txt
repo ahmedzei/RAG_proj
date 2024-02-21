@@ -1,0 +1,1 @@
+Making the new model work on CPU is sufficient.

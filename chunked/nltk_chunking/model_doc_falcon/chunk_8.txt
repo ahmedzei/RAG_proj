@@ -1,0 +1,3 @@
+If you fine-tuned a model from a custom code checkpoint, we recommend converting
+your checkpoint to the new in-library format, as this should give significant improvements to stability and
+performance, especially for generation, as well as removing the need to use trust_remote_code=True!

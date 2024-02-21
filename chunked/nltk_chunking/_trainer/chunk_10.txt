@@ -1,0 +1,1 @@
+[Seq2SeqTrainer] is designed for sequence-to-sequence tasks and [~trl.SFTTrainer] is designed for training language models.

@@ -1,0 +1,12 @@
+The from_pt or from_tf parameter can convert the model from one framework to the other:
+
+from transformers import AutoModel
+tokenizer = AutoTokenizer.from_pretrained(tf_save_directory)
+pt_model = AutoModelForSequenceClassification.from_pretrained(tf_save_directory, from_tf=True)
+
+from transformers import TFAutoModel
+tokenizer = AutoTokenizer.from_pretrained(pt_save_directory)
+tf_model = TFAutoModelForSequenceClassification.from_pretrained(pt_save_directory, from_pt=True)
+
+Custom model builds
+You can modify the model's configuration class to change how a model is built.

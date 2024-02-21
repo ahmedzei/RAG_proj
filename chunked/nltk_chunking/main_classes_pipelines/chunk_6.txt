@@ -1,0 +1,2 @@
+It is instantiated as any other
+pipeline but can provide additional quality of life.

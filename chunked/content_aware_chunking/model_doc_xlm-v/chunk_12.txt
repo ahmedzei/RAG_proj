@@ -1,0 +1,1 @@
+A XLM-V (base size) model is available under the facebook/xlm-v-base identifier.

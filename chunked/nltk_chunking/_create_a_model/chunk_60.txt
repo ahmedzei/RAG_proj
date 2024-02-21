@@ -1,0 +1,11 @@
+Create a tokenizer with a pretrained model's vocabulary with the [DistilBertTokenizer] class:
+
+from transformers import DistilBertTokenizer
+slow_tokenizer = DistilBertTokenizer.from_pretrained("distilbert/distilbert-base-uncased")
+
+Create a fast tokenizer with the [DistilBertTokenizerFast] class:
+
+from transformers import DistilBertTokenizerFast
+fast_tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert/distilbert-base-uncased")
+
+By default, [AutoTokenizer] will try to load a fast tokenizer.

@@ -1,0 +1,108 @@
+Instantiate a pipeline for NER with your model, and pass your text to it:
+
+from transformers import pipeline
+classifier = pipeline("ner", model="stevhliu/my_awesome_wnut_model")
+classifier(text)
+[{'entity': 'B-location',
+  'score': 0.42658573,
+  'index': 2,
+  'word': 'golden',
+  'start': 4,
+  'end': 10},
+ {'entity': 'I-location',
+  'score': 0.35856336,
+  'index': 3,
+  'word': 'state',
+  'start': 11,
+  'end': 16},
+ {'entity': 'B-group',
+  'score': 0.3064001,
+  'index': 4,
+  'word': 'warriors',
+  'start': 17,
+  'end': 25},
+ {'entity': 'B-location',
+  'score': 0.65523505,
+  'index': 13,
+  'word': 'san',
+  'start': 80,
+  'end': 83},
+ {'entity': 'B-location',
+  'score': 0.4668663,
+  'index': 14,
+  'word': 'francisco',
+  'start': 84,
+  'end': 93}]
+
+You can also manually replicate the results of the pipeline if you'd like:
+
+Tokenize the text and return PyTorch tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("stevhliu/my_awesome_wnut_model")
+inputs = tokenizer(text, return_tensors="pt")
+
+Pass your inputs to the model and return the logits:
+
+from transformers import AutoModelForTokenClassification
+model = AutoModelForTokenClassification.from_pretrained("stevhliu/my_awesome_wnut_model")
+with torch.no_grad():
+     logits = model(**inputs).logits
+
+Get the class with the highest probability, and use the model's id2label mapping to convert it to a text label:
+
+predictions = torch.argmax(logits, dim=2)
+predicted_token_class = [model.config.id2label[t.item()] for t in predictions[0]]
+predicted_token_class
+['O',
+ 'O',
+ 'B-location',
+ 'I-location',
+ 'B-group',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'B-location',
+ 'B-location',
+ 'O',
+ 'O']
+
+Tokenize the text and return TensorFlow tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("stevhliu/my_awesome_wnut_model")
+inputs = tokenizer(text, return_tensors="tf")
+
+Pass your inputs to the model and return the logits:
+
+from transformers import TFAutoModelForTokenClassification
+model = TFAutoModelForTokenClassification.from_pretrained("stevhliu/my_awesome_wnut_model")
+logits = model(**inputs).logits
+
+Get the class with the highest probability, and use the model's id2label mapping to convert it to a text label:
+
+predicted_token_class_ids = tf.math.argmax(logits, axis=-1)
+predicted_token_class = [model.config.id2label[t] for t in predicted_token_class_ids[0].numpy().tolist()]
+predicted_token_class
+['O',
+ 'O',
+ 'B-location',
+ 'I-location',
+ 'B-group',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'O',
+ 'B-location',
+ 'B-location',
+ 'O',
+ 'O']

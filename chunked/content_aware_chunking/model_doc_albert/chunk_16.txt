@@ -1,0 +1,1 @@
+Layers are split in groups that share parameters (to save memory).

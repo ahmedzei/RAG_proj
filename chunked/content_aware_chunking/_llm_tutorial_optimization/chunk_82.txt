@@ -1,0 +1,1 @@
+As a conclusion, it is important to remember that model quantization trades improved memory efficiency against accuracy and in some cases inference time.

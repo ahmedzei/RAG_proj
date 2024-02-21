@@ -1,0 +1,8 @@
+tokenizer = AutoTokenizer.from_pretrained("facebook/mbart-large-50-many-to-many-mmt", src_lang="fi_FI")
+model = AutoModelForSeq2SeqLM.from_pretrained("facebook/mbart-large-50-many-to-many-mmt")
+
+Tokenize the text:
+
+encoded_en = tokenizer(en_text, return_tensors="pt")
+
+MBart forces the target language id as the first generated token to translate to the target language.

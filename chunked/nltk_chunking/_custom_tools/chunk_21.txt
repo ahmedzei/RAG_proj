@@ -1,0 +1,1 @@
+It takes an input named image which should be the image to the caption and returns a text that contains the description in English.

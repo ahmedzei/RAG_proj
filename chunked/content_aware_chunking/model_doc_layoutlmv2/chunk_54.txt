@@ -1,0 +1,6 @@
+See also: Token classification task guide
+
+Usage: LayoutLMv2Processor
+The easiest way to prepare data for the model is to use [LayoutLMv2Processor], which internally
+combines a image processor ([LayoutLMv2ImageProcessor]) and a tokenizer
+([LayoutLMv2Tokenizer] or [LayoutLMv2TokenizerFast]).

@@ -1,0 +1,1 @@
+Therefore the input prompt only consists of "User: And how many in Germany?".

@@ -1,0 +1,42 @@
+At a high level, the dataset is organized like so:
+
+UCF101_subset/
+    train/
+        BandMarching/
+            video_1.mp4
+            video_2.mp4
+            
+        Archery
+            video_1.mp4
+            video_2.mp4
+            
+        
+    val/
+        BandMarching/
+            video_1.mp4
+            video_2.mp4
+            
+        Archery
+            video_1.mp4
+            video_2.mp4
+            
+        
+    test/
+        BandMarching/
+            video_1.mp4
+            video_2.mp4
+            
+        Archery
+            video_1.mp4
+            video_2.mp4
+            
+        
+The (sorted) video paths appear like so:
+
+'UCF101_subset/train/ApplyEyeMakeup/v_ApplyEyeMakeup_g07_c04.avi',
+'UCF101_subset/train/ApplyEyeMakeup/v_ApplyEyeMakeup_g07_c06.avi',
+'UCF101_subset/train/ApplyEyeMakeup/v_ApplyEyeMakeup_g08_c01.avi',
+'UCF101_subset/train/ApplyEyeMakeup/v_ApplyEyeMakeup_g09_c02.avi',
+'UCF101_subset/train/ApplyEyeMakeup/v_ApplyEyeMakeup_g09_c06.avi'
+
+You will notice that there are video clips belonging to the same group / scene where group is denoted by g in the video file paths.

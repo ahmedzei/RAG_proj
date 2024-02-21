@@ -1,0 +1,4 @@
+Please have a look at:
+py
+processor.tokenizer.vocab.keys()
+to see all supported languages.

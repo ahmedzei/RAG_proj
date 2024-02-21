@@ -1,0 +1,8 @@
+"], padding="longest", return_tensors="pt"
+ )
+labels = labels_dict.input_ids
+loss = model(**model_inputs, labels=labels).loss
+loss.item()
+17.9
+
+Similar to T5, ByT5 was trained on the span-mask denoising task.

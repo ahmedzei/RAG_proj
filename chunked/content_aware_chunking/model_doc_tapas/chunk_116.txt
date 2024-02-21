@@ -1,0 +1,5 @@
+Predicted answer: SUM > 87, 53, 69
+``
+</pt>
+<tf>
+Here we explain how you can use [TFTapasForQuestionAnswering] for inference (i.e.

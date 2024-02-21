@@ -1,0 +1,2 @@
+One can use [CanineTokenizer]
+  to prepare text for the model.

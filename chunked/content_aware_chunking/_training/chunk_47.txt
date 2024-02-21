@@ -1,0 +1,8 @@
+Note that Transformers models all have a default task-relevant loss function, so you don't need to specify one unless you want to:
+
+from transformers import TFAutoModelForSequenceClassification
+from tensorflow.keras.optimizers import Adam
+Load and compile our model
+model = TFAutoModelForSequenceClassification.from_pretrained("google-bert/bert-base-cased")
+Lower learning rates are often better for fine-tuning transformers
+model.compile(optimizer=Adam(3e-5))  # No loss argument!

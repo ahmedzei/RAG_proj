@@ -1,0 +1,2 @@
+"##" means that the rest of the token should
+be attached to the previous one, without space (for decoding or reversal of the tokenization).

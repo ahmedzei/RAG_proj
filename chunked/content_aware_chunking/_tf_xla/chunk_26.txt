@@ -1,0 +1,7 @@
+import tensorflow as tf
+from transformers import AutoTokenizer, TFAutoModelForCausalLM
+tokenizer = AutoTokenizer.from_pretrained("openai-community/gpt2", padding_side="left", pad_token="")
+model = TFAutoModelForCausalLM.from_pretrained("openai-community/gpt2")
+input_string = ["TensorFlow is"]
+xla_generate = tf.function(model.generate, jit_compile=True)
+Here, we call the tokenizer with padding options.

@@ -1,0 +1,1 @@
+It randomly masks text tokens and predicts with the same information as TMLM, but it masks text blocks (areas).

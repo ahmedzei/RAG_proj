@@ -1,0 +1,3 @@
+
+Pipelines
+The pipelines are a great and easy way to use models for inference.

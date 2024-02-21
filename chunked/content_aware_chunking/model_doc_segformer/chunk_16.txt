@@ -1,0 +1,3 @@
+Usage tips
+
+SegFormer consists of a hierarchical Transformer encoder, and a lightweight all-MLP decoder head.

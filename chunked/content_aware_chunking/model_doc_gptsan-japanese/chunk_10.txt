@@ -1,0 +1,1 @@
+Spout is pre-trained with random inputs, but you can specify a class of text or an arbitrary vector during fine-tuning.

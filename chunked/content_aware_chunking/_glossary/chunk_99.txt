@@ -1,0 +1,2 @@
+pixel values
+A tensor of the numerical representations of an image that is passed to a model.

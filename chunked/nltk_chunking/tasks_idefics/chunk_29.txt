@@ -1,0 +1,2 @@
+Prompted image captioning
+You can extend image captioning by providing a text prompt, which the model will continue given the image.

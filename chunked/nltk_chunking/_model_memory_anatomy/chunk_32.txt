@@ -1,0 +1,2 @@
+Anatomy of Model's Operations
+Transformers architecture includes 3 main groups of operations grouped below by compute-intensity.

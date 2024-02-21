@@ -1,0 +1,1 @@
+A basic convolution without padding or stride, taken from A guide to convolution arithmetic for deep learning.

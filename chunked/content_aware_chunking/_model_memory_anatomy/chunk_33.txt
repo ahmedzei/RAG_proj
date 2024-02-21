@@ -1,0 +1,2 @@
+Tensor Contractions
+Linear layers and components of Multi-Head Attention all do batched matrix-matrix multiplications.

@@ -1,0 +1,3 @@
+We can also see
+how gradient accumulation works: we normalize the loss, so we get the average at the end of accumulation and once we have 
+enough steps we run the optimization.

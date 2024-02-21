@@ -1,0 +1,4 @@
+You can use it with one line of code as follows:
+python
+model.enable_cpu_offload()
+Note that 🤗 Accelerate must be installed before using this feature.

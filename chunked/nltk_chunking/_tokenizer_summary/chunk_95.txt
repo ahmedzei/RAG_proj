@@ -1,0 +1,2 @@
+WordPiece first initializes the vocabulary to include every character present in the training data and
+progressively learns a given number of merge rules.

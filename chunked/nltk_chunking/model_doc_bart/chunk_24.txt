@@ -1,0 +1,1 @@
+A notebook on how to finetune BART for summarization with fastai using blurr.

@@ -1,0 +1,9 @@
+thon
+model = AutoModelForCausalLM.from_pretrained("bigcode/octocoder", load_in_4bit=True, low_cpu_mem_usage=True, pad_token_id=0)
+pipe = pipeline("text-generation", model=model, tokenizer=tokenizer)
+result = pipe(prompt, max_new_tokens=60)[0]["generated_text"][len(prompt):]
+result
+
+Output:
+Here is a Python function that transforms bytes to Giga bytes:\n\n\ndef bytes_to_gigabytes(bytes):\n    return bytes / 1024 / 1024 / 1024\n\n\nThis function takes a single argument
+We're almost seeing the same output text as before - just the python is missing just before the code snippet.

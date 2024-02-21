@@ -1,0 +1,1 @@
+In this paper, we propose LayoutLMv3 to pre-train multimodal Transformers for Document AI with unified text and image masking.

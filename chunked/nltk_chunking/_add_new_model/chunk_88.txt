@@ -1,0 +1,2 @@
+[quality]"
+which should be enough for most use cases.

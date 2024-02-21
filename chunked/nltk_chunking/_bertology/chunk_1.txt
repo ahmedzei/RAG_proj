@@ -1,0 +1,5 @@
+Some good examples of this field are:
+
+BERT Rediscovers the Classical NLP Pipeline by Ian Tenney, Dipanjan Das, Ellie Pavlick:
+  https://arxiv.org/abs/1905.05950
+Are Sixteen Heads Really Better than One?

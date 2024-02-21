@@ -1,0 +1,2 @@
+The resultant representations can capture
+information more correlated with phonetic structures and improve the generalization across languages and domains.

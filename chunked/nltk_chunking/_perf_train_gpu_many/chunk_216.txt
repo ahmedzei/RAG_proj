@@ -1,0 +1,10 @@
+You can either order them by:
+
+PCIe bus ID's that matches the order of nvidia-smi and rocm-smi for NVIDIA and AMD GPUs respectively
+
+export CUDA_DEVICE_ORDER=PCI_BUS_ID
+
+GPU compute ability
+
+export CUDA_DEVICE_ORDER=FASTEST_FIRST
+The CUDA_DEVICE_ORDER is especially useful if your training setup consists of an older and newer GPU, where the older GPU appears first, but you cannot physically swap the cards to make the newer GPU appear first.

@@ -1,0 +1,2 @@
+There's also a demo notebook available which showcases how to combine DALL-E's image tokenizer with BEiT for
+  performing masked image modeling.

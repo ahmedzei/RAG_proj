@@ -1,0 +1,1 @@
+This commonly arises in NLP models, where input texts have variable lengths after tokenization.

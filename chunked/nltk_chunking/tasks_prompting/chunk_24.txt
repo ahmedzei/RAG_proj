@@ -1,0 +1,2 @@
+Base models are excellent at completing the text when given an initial prompt, however, they are not ideal for NLP tasks 
+where they need to follow instructions, or for conversational use.

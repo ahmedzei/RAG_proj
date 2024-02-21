@@ -1,0 +1,2 @@
+Writing a custom configuration
+Before we dive into the model, let's first write its configuration.

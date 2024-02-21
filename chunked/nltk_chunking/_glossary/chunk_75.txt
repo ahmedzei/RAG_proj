@@ -1,0 +1,3 @@
+For sequence to sequence tasks, ([BartForConditionalGeneration], [MBartForConditionalGeneration]), the model
+  expects a tensor of dimension (batch_size, tgt_seq_length) with each value corresponding to the target sequences
+  associated with each input sequence.

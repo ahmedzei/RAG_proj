@@ -1,0 +1,19 @@
+To export a model to TFLite, install the required dependencies:
+
+pip install optimum[exporters-tf]
+To check out all available arguments, refer to the 🤗 Optimum docs, 
+or view help in command line:
+
+optimum-cli export tflite --help
+To export a model's checkpoint from the 🤗 Hub, for example, google-bert/bert-base-uncased, run the following command:
+
+optimum-cli export tflite --model google-bert/bert-base-uncased --sequence_length 128 bert_tflite/
+You should see the logs indicating progress and showing where the resulting model.tflite is saved, like this:
+
+Validating TFLite model
+    -[✓] TFLite model output names match reference model (logits)
+    - Validating TFLite Model output "logits":
+        -[✓] (1, 128, 30522) matches (1, 128, 30522)
+        -[x] values not close enough, max diff: 5.817413330078125e-05 (atol: 1e-05)
+The TensorFlow Lite export succeeded with the warning: The maximum absolute difference between the output of the reference model and the TFLite exported model is not within the set tolerance 1e-05:
+- logits: max diff = 5.817413330078125e-05.

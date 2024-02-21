@@ -1,0 +1,2 @@
+Models that load the facebook/bart-large-cnn weights will not have a mask_token_id, or be able to perform
+  mask-filling tasks.

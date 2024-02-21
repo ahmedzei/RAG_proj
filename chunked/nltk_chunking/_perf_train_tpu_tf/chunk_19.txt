@@ -1,0 +1,1 @@
+🤗Specific Hugging Face Tip🤗: The methods Dataset.to_tf_dataset() and its higher-level wrapper model.prepare_tf_dataset() , which you will see throughout our TF code examples, will both fail on a TPU Node.

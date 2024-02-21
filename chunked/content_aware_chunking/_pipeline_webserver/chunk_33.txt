@@ -1,0 +1,2 @@
+This wasn't done here because the code is a lot more
+complex (mostly because threads and async and queues don't play nice together).

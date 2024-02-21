@@ -1,0 +1,3 @@
+Pad
+In some cases, for instance, when fine-tuning DETR, the model applies scale augmentation at training
+time.

@@ -1,0 +1,4 @@
+
+SigLIP
+Overview
+The SigLIP model was proposed in Sigmoid Loss for Language Image Pre-Training by Xiaohua Zhai, Basil Mustafa, Alexander Kolesnikov, Lucas Beyer.

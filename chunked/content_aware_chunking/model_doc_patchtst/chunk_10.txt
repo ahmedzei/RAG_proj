@@ -1,0 +1,2 @@
+Usage tips
+The model can also be used for time series classification and time series regression.

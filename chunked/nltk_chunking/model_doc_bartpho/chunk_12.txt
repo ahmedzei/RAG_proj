@@ -1,0 +1,2 @@
+Other languages, if employing this pre-trained multilingual SentencePiece model "vocab_file" for subword
+  segmentation, can reuse BartphoTokenizer with their own language-specialized "monolingual_vocab_file".

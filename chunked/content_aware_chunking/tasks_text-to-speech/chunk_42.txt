@@ -1,0 +1,6 @@
+from collections import defaultdict
+speaker_counts = defaultdict(int)
+for speaker_id in dataset["speaker_id"]:
+     speaker_counts[speaker_id] += 1
+
+By plotting a histogram you can get a sense of how much data there is for each speaker.

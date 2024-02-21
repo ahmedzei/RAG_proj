@@ -1,0 +1,2 @@
+Both the language hidden states and the visual hidden states that LXMERT outputs are passed through the
+  cross-modality layer, so they contain information from both modalities.

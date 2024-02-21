@@ -1,0 +1,1 @@
+Thus, it is a better fit, and we recommend using    normalized_text as input text.

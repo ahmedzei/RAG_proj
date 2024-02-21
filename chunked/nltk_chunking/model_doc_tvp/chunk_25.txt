@@ -1,0 +1,1 @@
+In principle, one can apply any visual, cross-modal encoder in the proposed architecture.

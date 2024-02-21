@@ -1,0 +1,1 @@
+The example ZeRO-3/Infinity configuration file below sets most of the parameter values to auto, but you could also manually add these values.

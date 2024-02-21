@@ -1,0 +1,1 @@
+Earlier entries are prioritized over later ones, and : is used to separate multiple entries.

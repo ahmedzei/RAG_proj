@@ -1,0 +1,2 @@
+Greedy Search
+[generate] uses greedy search decoding by default so you don't have to pass any parameters to enable it.

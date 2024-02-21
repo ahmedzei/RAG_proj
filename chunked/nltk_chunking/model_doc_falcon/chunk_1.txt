@@ -1,0 +1,3 @@
+The largest Falcon checkpoints
+have been trained on >=1T tokens of text, with a particular emphasis on the RefinedWeb
+corpus.

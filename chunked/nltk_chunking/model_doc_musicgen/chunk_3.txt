@@ -1,0 +1,2 @@
+MusicGen is then trained to predict discrete audio tokens, or audio codes,
+conditioned on these hidden-states.

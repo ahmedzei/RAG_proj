@@ -1,0 +1,2 @@
+Different
+configurations will then give us the different types of ResNets that are possible.

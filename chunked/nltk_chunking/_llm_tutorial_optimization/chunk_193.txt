@@ -1,0 +1,1 @@
+The relative distance that input tokens have to each other is added as a negative integer scaled by a pre-defined value m to each query-key entry of the \( \mathbf{QK}^T \) matrix right before the softmax computation.

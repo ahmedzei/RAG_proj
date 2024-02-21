@@ -1,0 +1,1 @@
+The UnivNet model shared in transformers is the generator, which maps a conditioning log-mel spectrogram and optional noise sequence to a speech waveform (e.g.

@@ -1,0 +1,2 @@
+This is similar to the 
+idea behind mixed precision training.

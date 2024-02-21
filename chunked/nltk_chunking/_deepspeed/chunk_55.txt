@@ -1,0 +1,1 @@
+Performance benefit grows with gradient accumulation steps (more copying between optimizer steps) or GPU count (increased parallelism).

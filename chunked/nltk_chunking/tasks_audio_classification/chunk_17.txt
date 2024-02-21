@@ -1,0 +1,11 @@
+Load Wav2Vec2 with [AutoModelForAudioClassification] along with the number of expected labels, and the label mappings:
+
+from transformers import AutoModelForAudioClassification, TrainingArguments, Trainer
+num_labels = len(id2label)
+model = AutoModelForAudioClassification.from_pretrained(
+     "facebook/wav2vec2-base", num_labels=num_labels, label2id=label2id, id2label=id2label
+ )
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [TrainingArguments].

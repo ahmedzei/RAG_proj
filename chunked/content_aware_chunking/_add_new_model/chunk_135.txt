@@ -1,0 +1,2 @@
+However, if the original code-base is very complex or only allows intermediate components to be run in a compiled mode,
+it might be too time-consuming or even impossible to separate the model into smaller testable sub-components.

@@ -1,0 +1,7 @@
+from datasets import load_dataset, Audio
+dataset = load_dataset("PolyAI/minds14", name="en-US", split="train")
+dataset = dataset.cast_column("audio", Audio(sampling_rate=16000))
+sampling_rate = dataset.features["audio"].sampling_rate
+audio_file = dataset[0]["audio"]["path"]
+
+The simplest way to try out your finetuned model for inference is to use it in a [pipeline].

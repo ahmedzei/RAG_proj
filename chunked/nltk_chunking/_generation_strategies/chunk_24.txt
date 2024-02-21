@@ -1,0 +1,2 @@
+num_beams: by specifying a number of beams higher than 1, you are effectively switching from greedy search to
+beam search.

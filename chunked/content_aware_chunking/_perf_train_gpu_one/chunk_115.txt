@@ -1,0 +1,3 @@
+Using torch.compile
+PyTorch 2.0 introduced a new compile function that doesn't require any modification to existing PyTorch code but can 
+optimize your code by adding a single line of code: model = torch.compile(model).

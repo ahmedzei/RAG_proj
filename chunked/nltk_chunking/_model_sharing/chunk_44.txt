@@ -1,0 +1,2 @@
+Add a model card
+To make sure users understand your model's capabilities, limitations, potential biases and ethical considerations, please add a model card to your repository.

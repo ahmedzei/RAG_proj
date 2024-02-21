@@ -1,0 +1,3 @@
+Usage tips
+
+PoolFormer has a hierarchical architecture, where instead of Attention, a simple Average Pooling layer is present.

@@ -1,0 +1,2 @@
+We do not provide the detector and its weights as a part of the package, but it will be available in the research
+   projects, and the states can be loaded directly into the detector provided.

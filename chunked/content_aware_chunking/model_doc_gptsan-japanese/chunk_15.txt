@@ -1,0 +1,2 @@
+Prefix-LM Model
+GPTSAN has the structure of the model named Prefix-LM in the T5 paper.

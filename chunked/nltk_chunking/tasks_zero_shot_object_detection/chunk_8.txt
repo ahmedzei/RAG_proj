@@ -1,0 +1,3 @@
+The authors
+of OWL-ViT first trained CLIP from scratch and then fine-tuned OWL-ViT end to end on standard object detection datasets using
+a bipartite matching loss.

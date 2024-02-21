@@ -1,0 +1,2 @@
+🌎
+A notebook on how to fine-tune the "Llama-v2-7b-guanaco" model with 4-bit QLoRA and generate Q&A datasets from PDFs.

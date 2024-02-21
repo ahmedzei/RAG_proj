@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+Transfer learning, where a model is first pre-trained on a data-rich task before being fine-tuned on a downstream
+task, has emerged as a powerful technique in natural language processing (NLP).

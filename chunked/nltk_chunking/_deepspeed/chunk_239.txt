@@ -1,0 +1,3 @@
+Review: this is the worst restaurant ever
+  out=negative
+This is a very basic example and you'll want to adapt it to your use case.

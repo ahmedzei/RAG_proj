@@ -1,0 +1,1 @@
+This significantly reduces quantization loss such that you can run models in 4-bit precision without experiencing any performance degradation.

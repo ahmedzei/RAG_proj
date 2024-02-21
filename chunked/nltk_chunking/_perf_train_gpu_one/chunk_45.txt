@@ -1,0 +1,1 @@
+While gradient checkpointing may improve memory efficiency, it slows training by approximately 20%.

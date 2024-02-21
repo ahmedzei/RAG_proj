@@ -1,0 +1,25 @@
+Default data collator
+[[autodoc]] data.data_collator.default_data_collator
+DefaultDataCollator
+[[autodoc]] data.data_collator.DefaultDataCollator
+DataCollatorWithPadding
+[[autodoc]] data.data_collator.DataCollatorWithPadding
+DataCollatorForTokenClassification
+[[autodoc]] data.data_collator.DataCollatorForTokenClassification
+DataCollatorForSeq2Seq
+[[autodoc]] data.data_collator.DataCollatorForSeq2Seq
+DataCollatorForLanguageModeling
+[[autodoc]] data.data_collator.DataCollatorForLanguageModeling
+    - numpy_mask_tokens
+    - tf_mask_tokens
+    - torch_mask_tokens
+DataCollatorForWholeWordMask
+[[autodoc]] data.data_collator.DataCollatorForWholeWordMask
+    - numpy_mask_tokens
+    - tf_mask_tokens
+    - torch_mask_tokens
+DataCollatorForPermutationLanguageModeling
+[[autodoc]] data.data_collator.DataCollatorForPermutationLanguageModeling
+    - numpy_mask_tokens
+    - tf_mask_tokens
+    - torch_mask_tokens

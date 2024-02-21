@@ -1,0 +1,1 @@
+Try to separate the tokenization from the model's forward pass.

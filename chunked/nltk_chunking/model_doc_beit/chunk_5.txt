@@ -1,0 +1,2 @@
+Specifically, each image has two views in our pre-training, i.e, image
+patches (such as 16x16 pixels), and visual tokens (i.e., discrete tokens).

@@ -1,0 +1,1 @@
+We can help the agent here by changing the tool name and description of image_transformer.

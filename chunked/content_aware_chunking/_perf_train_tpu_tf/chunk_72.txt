@@ -1,0 +1,1 @@
+What this means is that if your input shapes are very variable, XLA will have to recompile your model over and over, which will create huge performance problems.

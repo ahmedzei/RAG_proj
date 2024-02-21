@@ -1,0 +1,1 @@
+One very common one is when you use label masking, setting your labels to a negative value to indicate that those positions should be ignored when computing the loss.

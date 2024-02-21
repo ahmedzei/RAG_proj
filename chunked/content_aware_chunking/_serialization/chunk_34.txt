@@ -1,0 +1,4 @@
+For example, export a pure TensorFlow checkpoint like so:
+
+python -m transformers.onnx --model=keras-io/transformers-qa onnx/
+To export a model that's stored locally, save the model's weights and tokenizer files in the same directory (e.g.

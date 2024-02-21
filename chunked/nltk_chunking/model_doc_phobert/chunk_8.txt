@@ -1,0 +1,2 @@
+Refer to EART documentation for information on 
+configuration classes and their parameters.

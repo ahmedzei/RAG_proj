@@ -1,0 +1,2 @@
+If you add/remove/replace any parts it'll run and re-optimize the plan 
+for that.

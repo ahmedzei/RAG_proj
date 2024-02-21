@@ -1,0 +1,1 @@
+entity_linker is used to predict the relation between two entities.

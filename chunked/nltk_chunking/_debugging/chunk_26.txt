@@ -1,0 +1,5 @@
+\
+--global-option="build_ext" --global-option="-j8" --no-cache -v \
+--disable-pip-version-check 2>&1 | tee build.log
+
+To use NVMe offload, add the DS_BUILD_AIO=1 parameter to the build command and make sure you install the libaio-dev package system-wide.

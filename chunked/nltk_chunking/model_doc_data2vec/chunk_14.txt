@@ -1,0 +1,2 @@
+For Data2VecAudio, preprocessing is identical to [Wav2Vec2Model], including feature extraction
+For Data2VecText, preprocessing is identical to [RobertaModel], including tokenization.

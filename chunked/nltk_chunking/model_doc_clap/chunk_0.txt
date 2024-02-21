@@ -1,0 +1,5 @@
+
+CLAP
+Overview
+The CLAP model was proposed in Large Scale Contrastive Language-Audio pretraining with
+feature fusion and keyword-to-caption augmentation by Yusong Wu, Ke Chen, Tianyu Zhang, Yuchen Hui, Taylor Berg-Kirkpatrick, Shlomo Dubnov.

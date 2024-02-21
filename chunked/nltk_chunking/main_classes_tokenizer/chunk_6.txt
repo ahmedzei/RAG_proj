@@ -1,0 +1,3 @@
+They both rely on
+[~tokenization_utils_base.PreTrainedTokenizerBase] that contains the common methods, and
+[~tokenization_utils_base.SpecialTokensMixin].

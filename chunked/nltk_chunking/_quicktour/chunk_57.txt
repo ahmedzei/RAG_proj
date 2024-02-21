@@ -1,0 +1,18 @@
+Within [AutoConfig.from_pretrained], you can specify the attribute you want to change, such as the number of attention heads:
+
+from transformers import AutoConfig
+my_config = AutoConfig.from_pretrained("distilbert/distilbert-base-uncased", n_heads=12)
+
+Create a model from your custom configuration with [AutoModel.from_config]:
+
+from transformers import AutoModel
+my_model = AutoModel.from_config(my_config)
+``
+</pt>
+<tf>
+Create a model from your custom configuration with [TFAutoModel.from_config`]:
+
+from transformers import TFAutoModel
+my_model = TFAutoModel.from_config(my_config)
+
+Take a look at the Create a custom architecture guide for more information about building custom configurations.

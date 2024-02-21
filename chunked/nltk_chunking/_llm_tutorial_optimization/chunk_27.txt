@@ -1,0 +1,1 @@
+Naive pipeline parallelism is supported out of the box.

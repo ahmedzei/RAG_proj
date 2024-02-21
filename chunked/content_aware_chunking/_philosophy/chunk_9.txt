@@ -1,0 +1,4 @@
+Provide state-of-the-art models with performances as close as possible to the original models:
+
+We provide at least one example for each architecture which reproduces a result provided by the official authors
+    of said architecture.

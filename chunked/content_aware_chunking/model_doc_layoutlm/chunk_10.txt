@@ -1,0 +1,3 @@
+It achieves new state-of-the-art results in several downstream tasks, including form
+understanding (from 70.72 to 79.27), receipt understanding (from 94.02 to 95.24) and document image classification
+(from 93.07 to 94.42).

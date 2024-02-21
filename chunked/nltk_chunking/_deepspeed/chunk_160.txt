@@ -1,0 +1,2 @@
+Multi-node deployment
+A node is one or more GPUs for running a workload.

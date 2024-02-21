@@ -1,0 +1,1 @@
+If task argument is not provided, it will default to the model architecture without any task specific head.

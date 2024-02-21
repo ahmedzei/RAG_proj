@@ -1,0 +1,1 @@
+A multi-task framework called UPerNet and a training strategy are developed to learn from heterogeneous image annotations.

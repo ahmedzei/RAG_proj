@@ -1,0 +1,18 @@
+thon
+input_ids = tokenizer(prompt, return_tensors="pt")["input_ids"].to("cuda")
+for _ in range(5):
+  next_logits = model(input_ids)["logits"][:, -1:]
+  next_token_id = torch.argmax(next_logits,dim=-1)
+input_ids = torch.cat([input_ids, next_token_id], dim=-1)
+  print("shape of input_ids", input_ids.shape)
+generated_text = tokenizer.batch_decode(input_ids[:, -5:])
+generated_text
+
+Output:
+shape of input_ids torch.Size([1, 21])
+shape of input_ids torch.Size([1, 22])
+shape of input_ids torch.Size([1, 23])
+shape of input_ids torch.Size([1, 24])
+shape of input_ids torch.Size([1, 25])
+[' Here is a Python function']
+As we can see every time we increase the text input tokens by the just sampled token.

@@ -1,0 +1,1 @@
+Note that the encoder of MAE is only used to encode the visual patches.

@@ -1,0 +1,2 @@
+This means
+you can use an image query to find similar objects in the target image.

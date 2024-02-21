@@ -1,0 +1,1 @@
+It is pretrained with a contrastive task to determine the true speech representation from a set of false ones.

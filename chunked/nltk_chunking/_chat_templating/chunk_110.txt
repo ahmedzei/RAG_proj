@@ -1,0 +1,2 @@
+If you're fine-tuning a model for chat, in addition to setting a chat template, you should probably add any new chat
+control tokens as special tokens in the tokenizer.

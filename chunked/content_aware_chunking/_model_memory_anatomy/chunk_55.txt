@@ -1,0 +1,3 @@
+Now that you understand what affects GPU utilization and computation speed, refer to 
+the Methods and tools for efficient training on a single GPU documentation page to learn about 
+performance optimization techniques.

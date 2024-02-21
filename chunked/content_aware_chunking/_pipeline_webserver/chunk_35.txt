@@ -1,0 +1,3 @@
+This would be important if the inference of single items were long (> 1s) because 
+in this case, it means every query during inference would have to wait for 1s before
+even receiving an error.

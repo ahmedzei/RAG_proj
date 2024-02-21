@@ -1,0 +1,3 @@
+audio_model = text_reader(model)
+==Result==
+The model with the most downloads is damo-vilab/text-to-video-ms-1.7b.

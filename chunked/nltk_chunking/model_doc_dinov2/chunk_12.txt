@@ -1,0 +1,2 @@
+Usage tips
+The model can be traced using torch.jit.trace which leverages JIT compilation to optimize the model making it faster to run.

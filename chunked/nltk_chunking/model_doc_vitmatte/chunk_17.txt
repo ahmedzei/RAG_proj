@@ -1,0 +1,1 @@
+Use [ViTMatteImageProcessor] for this purpose.

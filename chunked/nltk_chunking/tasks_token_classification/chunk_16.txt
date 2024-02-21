@@ -1,0 +1,1 @@
+Assigning the label -100 to the special tokens [CLS] and [SEP] so they're ignored by the PyTorch loss function (see CrossEntropyLoss).

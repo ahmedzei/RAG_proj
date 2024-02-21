@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+In the past decade, convolutional neural networks (CNNs) have been widely adopted as the main building block for end-to-end audio classification models, which aim to learn a direct mapping from audio spectrograms to corresponding labels.

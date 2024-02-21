@@ -1,0 +1,1 @@
+This is enabled by setting fsdp_wrap_policy: SIZE_BASED_WRAP and min_num_param to the desired size threshold.

@@ -1,0 +1,1 @@
+Configuration classes store the hyperparameters required to build a model (such as the number of layers and hidden size).

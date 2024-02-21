@@ -1,0 +1,1 @@
+However, the background class isn't actually included in the 150 classes, so you'll need to set reduce_labels=True to subtract one from all the labels.

@@ -1,0 +1,1 @@
+This token helps the model learn how to encode a representation of the image.

@@ -1,0 +1,1 @@
+Generation is limited by the sinusoidal positional embeddings to 30 second inputs.

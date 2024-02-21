@@ -1,0 +1,1 @@
+New users are often very confused by the range of TPUs, and the different ways to access them.

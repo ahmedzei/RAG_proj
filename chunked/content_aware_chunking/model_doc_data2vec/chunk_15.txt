@@ -1,0 +1,1 @@
+For Data2VecVision, preprocessing is identical to [BeitModel], including feature extraction.

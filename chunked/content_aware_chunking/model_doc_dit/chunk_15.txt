@@ -1,0 +1,7 @@
+Usage tips
+One can directly use the weights of DiT with the AutoModel API:
+thon
+from transformers import AutoModel
+model = AutoModel.from_pretrained("microsoft/dit-base")
+
+This will load the model pre-trained on masked image modeling.

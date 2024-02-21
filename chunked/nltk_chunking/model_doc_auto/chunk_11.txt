@@ -1,0 +1,8 @@
+AutoModelForPreTraining
+[[autodoc]] AutoModelForPreTraining
+TFAutoModelForPreTraining
+[[autodoc]] TFAutoModelForPreTraining
+FlaxAutoModelForPreTraining
+[[autodoc]] FlaxAutoModelForPreTraining
+Natural Language Processing
+The following auto classes are available for the following natural language processing tasks.

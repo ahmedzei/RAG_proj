@@ -1,0 +1,1 @@
+No parameter sharing between the embedding and classifier layer.

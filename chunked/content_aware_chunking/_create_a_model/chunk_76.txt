@@ -1,0 +1,1 @@
+It inherits from the base [~feature_extraction_utils.FeatureExtractionMixin] class, and may also inherit from the [SequenceFeatureExtractor] class for processing audio inputs.

@@ -1,0 +1,1 @@
+The Mixtral model was proposed by the Mistral AI team.

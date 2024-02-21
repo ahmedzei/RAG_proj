@@ -1,0 +1,11 @@
+Now fine-tune our model by calling the train method:
+ 
+
+train_results = trainer.train()
+
+Once training is completed, share your model to the Hub with the [~transformers.Trainer.push_to_hub] method so everyone can use your model:
+
+trainer.push_to_hub()
+
+Inference
+Great, now that you have fine-tuned a model, you can use it for inference!

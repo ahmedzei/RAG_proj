@@ -1,0 +1,2 @@
+The branch name has to start with either ci_ or ci- (main triggers it too, but we can't do PRs on
+   main).

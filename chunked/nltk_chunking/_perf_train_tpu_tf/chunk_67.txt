@@ -1,0 +1,1 @@
+However, just like for rule #1, we can often rewrite this code to yield exactly the same output without any data-dependent shapes.

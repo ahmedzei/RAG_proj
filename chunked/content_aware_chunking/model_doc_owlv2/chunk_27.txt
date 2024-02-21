@@ -1,0 +1,1 @@
+Usage of OWLv2 is identical to OWL-ViT with a new, updated image processor ([Owlv2ImageProcessor]).

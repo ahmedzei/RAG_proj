@@ -1,0 +1,3 @@
+It's better for experimentation, 
+but will tend to be much better at single instructions rather than complex instructions (which the [~Agent.run]
+method is better at handling).

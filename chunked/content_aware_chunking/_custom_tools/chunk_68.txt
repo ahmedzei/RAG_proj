@@ -1,0 +1,2 @@
+An exchange can be based on previous exchanges, therefore allowing the user to refer
+to past exchanges as is done e.g.

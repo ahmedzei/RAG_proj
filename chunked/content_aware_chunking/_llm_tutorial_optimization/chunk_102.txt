@@ -1,0 +1,1 @@
+We need a new way to compute the self-attention mechanism that gets rid of the \( QK^T \) matrix.

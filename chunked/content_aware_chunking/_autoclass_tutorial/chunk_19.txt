@@ -1,0 +1,1 @@
+If you don't pass any of these parameters, the backbone returns the feature map from the last layer.

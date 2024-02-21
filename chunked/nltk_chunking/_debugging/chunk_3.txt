@@ -1,0 +1,2 @@
+pip install deepspeed
+DeepSpeed compiles CUDA C++ code and it can be a potential source of errors when building PyTorch extensions that require CUDA.

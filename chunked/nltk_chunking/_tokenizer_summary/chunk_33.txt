@@ -1,0 +1,2 @@
+In general, transformers models rarely have a vocabulary size
+greater than 50,000, especially if they are pretrained only on a single language.

@@ -1,0 +1,1 @@
+BEiT uses relative position embeddings, inspired by the T5 model.

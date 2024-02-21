@@ -1,0 +1,2 @@
+They're both a list of expected
+  values, which can be text, image, or audio.

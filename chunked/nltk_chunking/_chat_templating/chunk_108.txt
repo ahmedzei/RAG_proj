@@ -1,0 +1,5 @@
+python
+template = tokenizer.chat_template
+template = template.replace("SYS", "SYSTEM")  # Change the system token
+tokenizer.chat_template = template  # Set the new template
+tokenizer.push_to_hub("model_name")  # Upload your new template to the Hub!

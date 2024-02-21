@@ -1,0 +1,4 @@
+- there
+   are so many) while monitoring the experimental job's logs (not the overall job green as it's purposefully always
+   green)
+When it's clear that everything is solid, then merge the new changes into existing jobs.

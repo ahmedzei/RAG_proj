@@ -1,0 +1,1 @@
+ImageProcessor can take care of normalizing the images, and generating appropriate tensors.

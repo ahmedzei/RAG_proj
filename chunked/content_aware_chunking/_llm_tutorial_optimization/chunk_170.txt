@@ -1,0 +1,1 @@
+Therefore, for the LLM without position embeddings each token appears to have the same distance to all other tokens, e.g.

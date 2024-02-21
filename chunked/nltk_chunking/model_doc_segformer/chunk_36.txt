@@ -1,0 +1,2 @@
+Therefore, reduce_labels is used to reduce all labels by 1, and to make sure no loss is computed for the
+  background class (i.e.

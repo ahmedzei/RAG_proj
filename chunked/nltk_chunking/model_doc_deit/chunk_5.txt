@@ -1,0 +1,2 @@
+However, these visual transformers are pre-trained with hundreds of millions of images using an
+expensive infrastructure, thereby limiting their adoption.

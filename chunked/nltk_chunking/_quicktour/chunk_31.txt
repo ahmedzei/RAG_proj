@@ -1,0 +1,4 @@
+A tokenizer can also accept a list of inputs, and pad and truncate the text to return a batch with uniform length:
+
+pt_batch = tokenizer(
+     ["We are very happy to show you the 🤗 Transformers library.

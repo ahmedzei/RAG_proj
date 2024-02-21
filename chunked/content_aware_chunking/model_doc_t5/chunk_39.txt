@@ -1,0 +1,1 @@
+T5 can be trained / fine-tuned both in a supervised and unsupervised fashion.

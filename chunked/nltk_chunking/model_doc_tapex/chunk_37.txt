@@ -1,0 +1,4 @@
+TapexTokenizer
+[[autodoc]] TapexTokenizer
+    - call
+    - save_vocabulary

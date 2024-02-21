@@ -1,0 +1,12 @@
+from datasets import load_dataset
+eli5 = load_dataset("eli5_category", split="train[:5000]")
+
+Split the dataset's train split into a train and test set with the [~datasets.Dataset.train_test_split] method:
+
+eli5 = eli5.train_test_split(test_size=0.2)
+
+Then take a look at an example:
+
+eli5["train"][0]
+{'q_id': '7h191n',
+ 'title': 'What does the tax bill that was passed today mean?

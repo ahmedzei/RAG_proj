@@ -1,0 +1,7 @@
+Use the device_map parameter to specify where to place the model:
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+model_id = "TheBloke/zephyr-7B-alpha-AWQ"
+model = AutoModelForCausalLM.from_pretrained(model_id, device_map="cuda:0")
+
+Loading an AWQ-quantized model automatically sets other weights to fp16 by default for performance reasons.

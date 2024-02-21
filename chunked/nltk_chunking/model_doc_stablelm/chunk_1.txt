@@ -1,0 +1,2 @@
+Model Details
+StableLM 3B 4E1T is a decoder-only base language model pre-trained on 1 trillion tokens of diverse English and code datasets for four epochs.

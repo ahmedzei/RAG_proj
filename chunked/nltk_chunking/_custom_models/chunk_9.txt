@@ -1,0 +1,3 @@
+Models in the transformers library itself generally follow the convention that they accept a config object
+in their __init__ method, and then pass the whole config to sub-layers in the model, rather than breaking the 
+config object into multiple arguments that are all passed individually to sub-layers.

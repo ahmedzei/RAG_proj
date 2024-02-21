@@ -1,0 +1,1 @@
+Chat templates are part of the tokenizer.

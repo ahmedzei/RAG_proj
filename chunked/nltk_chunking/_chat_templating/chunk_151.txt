@@ -1,0 +1,3 @@
+Special variables
+Inside your template, you will have access to the list of messages, but you can also access several other special
+variables.

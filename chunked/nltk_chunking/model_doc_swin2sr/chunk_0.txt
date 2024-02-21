@@ -1,0 +1,4 @@
+
+Swin2SR
+Overview
+The Swin2SR model was proposed in Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration by Marcos V. Conde, Ui-Jin Choi, Maxime Burchi, Radu Timofte.

@@ -1,0 +1,1 @@
+The original Chinese-CLIP code is released at this link.

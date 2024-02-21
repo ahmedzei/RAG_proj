@@ -1,0 +1,11 @@
+Call fit() with your training and validation datasets, the number of epochs,
+and your callbacks to fine-tune the model:
+
+model.fit(
+     tf_train_dataset,
+     validation_data=tf_eval_dataset,
+     callbacks=callbacks,
+     epochs=num_epochs,
+ )
+
+Congratulations!

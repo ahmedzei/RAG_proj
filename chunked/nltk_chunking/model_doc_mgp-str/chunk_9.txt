@@ -1,0 +1,1 @@
+Specifically, it achieves an average recognition accuracy of 93.35% on standard benchmarks.

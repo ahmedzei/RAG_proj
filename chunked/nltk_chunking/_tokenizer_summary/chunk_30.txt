@@ -1,0 +1,2 @@
+In this case, space and punctuation tokenization
+usually generates a very big vocabulary (the set of all unique words and tokens used).

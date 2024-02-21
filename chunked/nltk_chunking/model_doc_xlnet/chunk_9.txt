@@ -1,0 +1,3 @@
+Usage tips
+
+The specific attention pattern can be controlled at training and test time using the perm_mask input.

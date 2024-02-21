@@ -1,0 +1,2 @@
+In other words, the vocabulary size of ImageGPT is 512, + 1 for a special "start of sentence" (SOS)
+  token, used at the beginning of every sequence.

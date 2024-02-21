@@ -1,0 +1,1 @@
+Reduce operations are lossy, for example when gradients are averaged across multiple GPUs.

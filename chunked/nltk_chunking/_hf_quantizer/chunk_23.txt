@@ -1,0 +1,1 @@
+requires_parameters_quantization: Only required if your quantization method requires extra attention to the underlying nn.Parameter object.

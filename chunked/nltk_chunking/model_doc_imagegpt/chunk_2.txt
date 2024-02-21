@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+Inspired by progress in unsupervised representation learning for natural language, we examine whether similar models
+can learn useful representations for images.

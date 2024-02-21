@@ -1,0 +1,2 @@
+Using half-precision
+You can speed up inference and reduce memory footprint by 50% simply by loading the model in half-precision.

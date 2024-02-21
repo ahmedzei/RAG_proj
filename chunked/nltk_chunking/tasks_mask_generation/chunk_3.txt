@@ -1,0 +1,1 @@
+Mask generation models are trained on large amounts of data and operate in two modes.

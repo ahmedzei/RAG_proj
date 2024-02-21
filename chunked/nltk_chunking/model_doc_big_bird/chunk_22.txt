@@ -1,0 +1,71 @@
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+BigBirdConfig
+[[autodoc]] BigBirdConfig
+BigBirdTokenizer
+[[autodoc]] BigBirdTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+BigBirdTokenizerFast
+[[autodoc]] BigBirdTokenizerFast
+BigBird specific outputs
+[[autodoc]] models.big_bird.modeling_big_bird.BigBirdForPreTrainingOutput
+
+BigBirdModel
+[[autodoc]] BigBirdModel
+    - forward
+BigBirdForPreTraining
+[[autodoc]] BigBirdForPreTraining
+    - forward
+BigBirdForCausalLM
+[[autodoc]] BigBirdForCausalLM
+    - forward
+BigBirdForMaskedLM
+[[autodoc]] BigBirdForMaskedLM
+    - forward
+BigBirdForSequenceClassification
+[[autodoc]] BigBirdForSequenceClassification
+    - forward
+BigBirdForMultipleChoice
+[[autodoc]] BigBirdForMultipleChoice
+    - forward
+BigBirdForTokenClassification
+[[autodoc]] BigBirdForTokenClassification
+    - forward
+BigBirdForQuestionAnswering
+[[autodoc]] BigBirdForQuestionAnswering
+    - forward
+
+FlaxBigBirdModel
+[[autodoc]] FlaxBigBirdModel
+    - call
+FlaxBigBirdForPreTraining
+[[autodoc]] FlaxBigBirdForPreTraining
+    - call
+FlaxBigBirdForCausalLM
+[[autodoc]] FlaxBigBirdForCausalLM
+    - call
+FlaxBigBirdForMaskedLM
+[[autodoc]] FlaxBigBirdForMaskedLM
+    - call
+FlaxBigBirdForSequenceClassification
+[[autodoc]] FlaxBigBirdForSequenceClassification
+    - call
+FlaxBigBirdForMultipleChoice
+[[autodoc]] FlaxBigBirdForMultipleChoice
+    - call
+FlaxBigBirdForTokenClassification
+[[autodoc]] FlaxBigBirdForTokenClassification
+    - call
+FlaxBigBirdForQuestionAnswering
+[[autodoc]] FlaxBigBirdForQuestionAnswering
+    - call

@@ -1,0 +1,2 @@
+They are capable of segmenting
+  objects, without having ever been trained to do so.

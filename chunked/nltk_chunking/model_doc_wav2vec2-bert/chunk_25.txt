@@ -1,0 +1,1 @@
+Wav2Vec2-BERT also introduces a Conformer-based adapter network instead of a simple convolutional network.

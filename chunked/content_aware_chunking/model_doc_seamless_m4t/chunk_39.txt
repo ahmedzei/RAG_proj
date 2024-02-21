@@ -1,0 +1,1 @@
+A decoder creates text tokens in the desired language.

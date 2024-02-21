@@ -1,0 +1,2 @@
+decoder models
+Also referred to as autoregressive models, decoder models involve a pretraining task (called causal language modeling) where the model reads the texts in order and has to predict the next word.

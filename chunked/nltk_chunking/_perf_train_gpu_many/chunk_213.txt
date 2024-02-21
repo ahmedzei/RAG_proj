@@ -1,0 +1,1 @@
+However, this is not recommended because it can be confusing if you forget how the environment variable was setup and you end up using the wrong GPUs.

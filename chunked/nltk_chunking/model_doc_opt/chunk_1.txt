@@ -1,0 +1,1 @@
+OPT is a series of open-sourced large causal language models which perform similar in performance to GPT3.

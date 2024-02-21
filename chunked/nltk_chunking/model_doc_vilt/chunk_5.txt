@@ -1,0 +1,3 @@
+In this paper, we present a minimal VLP model,
+Vision-and-Language Transformer (ViLT), monolithic in the sense that the processing of visual inputs is drastically
+simplified to just the same convolution-free manner that we process textual inputs.

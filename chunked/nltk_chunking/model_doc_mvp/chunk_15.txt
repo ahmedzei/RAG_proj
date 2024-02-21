@@ -1,0 +1,16 @@
+thon
+
+from transformers import MvpTokenizerFast, MvpForConditionalGeneration
+tokenizer = MvpTokenizerFast.from_pretrained("RUCAIBox/mvp")
+model = MvpForConditionalGeneration.from_pretrained("RUCAIBox/mvp")
+model_with_mtl = MvpForConditionalGeneration.from_pretrained("RUCAIBox/mtl-data-to-text")
+inputs = tokenizer(
+     "Describe the following data: Iron Man | instance of | Superhero [SEP] Stan Lee | creator | Iron Man",
+     return_tensors="pt",
+ )
+generated_ids = model.generate(**inputs)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+['Stan Lee created the character of Iron Man, a fictional superhero appearing in American comic']
+generated_ids = model_with_mtl.generate(**inputs)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+['Iron Man is a fictional superhero appearing in American comic books published by Marvel Comics.']

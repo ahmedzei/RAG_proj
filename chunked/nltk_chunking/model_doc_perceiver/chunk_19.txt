@@ -1,0 +1,1 @@
+One must provide inputs (which could be text, images, audio, you name it!)

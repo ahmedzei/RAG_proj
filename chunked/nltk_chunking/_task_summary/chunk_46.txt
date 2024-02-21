@@ -1,0 +1,3 @@
+from transformers import pipeline
+classifier = pipeline(task="sentiment-analysis")
+preds = classifier("Hugging Face is the best thing since sliced bread!")

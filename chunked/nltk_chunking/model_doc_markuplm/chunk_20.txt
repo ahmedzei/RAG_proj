@@ -1,0 +1,8 @@
+thon
+from transformers import MarkupLMFeatureExtractor, MarkupLMTokenizerFast, MarkupLMProcessor
+feature_extractor = MarkupLMFeatureExtractor()
+tokenizer = MarkupLMTokenizerFast.from_pretrained("microsoft/markuplm-base")
+processor = MarkupLMProcessor(feature_extractor, tokenizer)
+
+In short, one can provide HTML strings (and possibly additional data) to [MarkupLMProcessor],
+and it will create the inputs expected by the model.

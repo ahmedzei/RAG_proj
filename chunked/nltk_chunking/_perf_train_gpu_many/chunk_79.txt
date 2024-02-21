@@ -1,0 +1,2 @@
+This is because it partitions/shards each layer's weights, unlike vertical model parallelism 
+which is discussed next.

@@ -1,0 +1,9 @@
+Next, let's instantiate an agent with controlnet_transformer and upscaler:
+py
+tools = [controlnet_transformer, upscaler]
+agent = HfAgent("https://api-inference.huggingface.co/models/bigcode/starcoder", additional_tools=tools)
+This command should give you the following info:
+text
+image_transformer has been replaced by <transformers_modules.diffusers.controlnet-canny-tool.bd76182c7777eba9612fc03c0
+8718a60c0aa6312.image_transformation.ControlNetTransformationTool object at 0x7f1d3bfa3a00> as provided in `additional_tools`
+The set of curated tools already has an image_transformer tool which is hereby replaced with our custom tool.

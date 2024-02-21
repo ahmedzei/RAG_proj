@@ -1,0 +1,2 @@
+decoder input IDs
+This input is specific to encoder-decoder models, and contains the input IDs that will be fed to the decoder.

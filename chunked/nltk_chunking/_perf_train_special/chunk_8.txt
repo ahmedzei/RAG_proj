@@ -1,0 +1,1 @@
+MPS acceleration is supported on macOS 12.3+.

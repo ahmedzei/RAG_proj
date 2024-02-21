@@ -1,0 +1,5 @@
+Remove the columns you don't need with the [~datasets.Dataset.remove_columns] method:
+
+encoded_minds = minds.map(prepare_dataset, remove_columns=minds.column_names["train"], num_proc=4)
+
+🤗 Transformers doesn't have a data collator for ASR, so you'll need to adapt the [DataCollatorWithPadding] to create a batch of examples.

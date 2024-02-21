@@ -1,0 +1,2 @@
+table detection: the ICDAR 2019 cTDaR dataset (a collection of
+  600 training images and 240 testing images).

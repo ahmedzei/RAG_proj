@@ -1,0 +1,21 @@
+processor = AutoProcessor.from_pretrained("Intel/tvp-base")
+model_inputs = processor(
+    text=[text], videos=list(raw_sampled_frms), return_tensors="pt", max_text_length=100#, size=size
+)
+model_inputs["pixel_values"] = model_inputs["pixel_values"].to(model.dtype)
+output = model(**model_inputs)
+def get_video_duration(filename):
+    cap = cv2.VideoCapture(filename)
+    if cap.isOpened():
+        rate = cap.get(5)
+        frame_num = cap.get(7)
+        duration = frame_num/rate
+        return duration
+    return -1
+duration = get_video_duration(file)
+start, end = processor.post_process_video_grounding(output.logits, duration)
+print(f"The time slot of the video corresponding to the text \"{text}\" is from {start}s to {end}s")
+
+Tips:
+
+This implementation of TVP uses [BertTokenizer] to generate text embeddings and Resnet-50 model to compute visual embeddings.

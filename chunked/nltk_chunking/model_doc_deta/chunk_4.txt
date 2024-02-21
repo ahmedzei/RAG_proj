@@ -1,0 +1,1 @@
+Recently, these models have surpassed traditional detectors on COCO with undeniable elegance.

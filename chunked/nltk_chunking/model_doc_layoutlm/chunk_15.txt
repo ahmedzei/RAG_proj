@@ -1,0 +1,2 @@
+Note that one first needs to normalize the bounding boxes to be on a 0-1000
+  scale.

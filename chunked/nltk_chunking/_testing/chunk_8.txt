@@ -1,0 +1,6 @@
+self-hosted runner: runs normal and slow tests on GPU in
+     tests and examples:
+
+RUN_SLOW=1 pytest tests/
+RUN_SLOW=1 pytest examples/
+The results can be observed here.

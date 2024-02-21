@@ -1,0 +1,3 @@
+Usage tips
+
+Speech2Text2 achieves state-of-the-art results on the CoVoST Speech Translation dataset.

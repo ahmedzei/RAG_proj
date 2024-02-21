@@ -1,0 +1,1 @@
+In the pre-trained model published from Tanrei/GPTSAN-japanese, the Spout Vector is a 128-dimensional vector that passes through 8 fully connected layers in the model and is projected into the space acting as external attention.

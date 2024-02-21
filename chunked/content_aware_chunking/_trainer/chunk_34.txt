@@ -1,0 +1,1 @@
+In other words, a callback can't be used to implement something like a custom loss function and you'll need to subclass and override the [~Trainer.compute_loss] method for that.

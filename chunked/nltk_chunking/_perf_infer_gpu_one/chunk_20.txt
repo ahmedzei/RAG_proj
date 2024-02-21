@@ -1,0 +1,5 @@
+With a relatively small sequence length, a single forward pass creates overhead leading to a small speedup (in the example below, 30% of the input is filled with padding tokens):
+
+But for larger sequence lengths, you can expect even more speedup benefits:
+
+FlashAttention is more memory efficient, meaning you can train on much larger sequence lengths without running into out-of-memory issues.

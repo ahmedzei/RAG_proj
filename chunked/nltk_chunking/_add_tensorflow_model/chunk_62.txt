@@ -1,0 +1,2 @@
+This is a great chance to confirm that a working implementation matches your expectations for the
+model, as well as to foresee technical challenges on the TensorFlow side.

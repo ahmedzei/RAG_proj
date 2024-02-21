@@ -1,0 +1,6 @@
+- OSLO
+Important papers:
+
+Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model
+
+🤗 Transformers status: not yet implemented, since we have no PP and TP.

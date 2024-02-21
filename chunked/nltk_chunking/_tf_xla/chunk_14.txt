@@ -1,0 +1,8 @@
+You can install it by running:
+
+pip install transformers --upgrade
+And then you can run the following code:
+
+import tensorflow as tf
+from transformers import AutoTokenizer, TFAutoModelForCausalLM
+Will error if the minimal version of Transformers is not installed.

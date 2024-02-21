@@ -1,0 +1,1 @@
+Object queries are learned embeddings that focus on the different regions of an image, and they're updated as they progress through each attention layer.

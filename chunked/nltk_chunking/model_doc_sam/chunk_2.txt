@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+We introduce the Segment Anything (SA) project: a new task, model, and dataset for image segmentation.

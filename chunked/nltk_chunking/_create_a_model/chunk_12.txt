@@ -1,0 +1,1 @@
+Each model configuration has different attributes; for instance, all NLP models have the hidden_size, num_attention_heads, num_hidden_layers and vocab_size attributes in common.

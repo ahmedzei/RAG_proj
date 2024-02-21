@@ -1,0 +1,5 @@
+All these classes can be instantiated from pretrained instances, saved locally, and shared on the Hub with three methods:
+
+from_pretrained() lets you instantiate a model, configuration, and preprocessing class from a pretrained version either
+  provided by the library itself (the supported models can be found on the Model Hub) or
+  stored locally (or on a server) by the user.

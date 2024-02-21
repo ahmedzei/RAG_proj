@@ -1,0 +1,3 @@
+We also continue the pretraining of an already
+pretrained multilingual BART on BARThez's corpus, and we show that the resulting model, which we call mBARTHez,
+provides a significant boost over vanilla BARThez, and is on par with or outperforms CamemBERT and FlauBERT.

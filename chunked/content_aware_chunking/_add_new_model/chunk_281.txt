@@ -1,0 +1,4 @@
+tokenizer = BrandNewBertTokenizer.from_pretrained("/path/to/tokenizer/folder/")
+input_ids = tokenizer(input_str).input_ids
+
+When both input_ids yield the same values, as a final step a tokenizer test file should also be added.

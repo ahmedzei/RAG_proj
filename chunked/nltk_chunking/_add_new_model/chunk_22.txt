@@ -1,0 +1,3 @@
+BrandNewBertModel
+inherits from BrandNewBertPreTrainedModel which in turn inherits from [PreTrainedModel] and
+that's it.

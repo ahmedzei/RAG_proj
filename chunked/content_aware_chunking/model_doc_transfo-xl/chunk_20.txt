@@ -1,0 +1,2 @@
+The
+  original implementation trains on SQuAD with padding on the left, therefore the padding defaults are set to left.

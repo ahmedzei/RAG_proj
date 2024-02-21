@@ -1,0 +1,2 @@
+Dummy inputs and standard lengths
+The dummy inputs are used for a models forward pass.

@@ -1,0 +1,1 @@
+You can batch your inputs, which will greatly improve the throughput at a small latency and memory cost.

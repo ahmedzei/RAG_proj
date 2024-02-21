@@ -1,0 +1,2 @@
+IDEFICS is an open-access vision and language model based on Flamingo, 
+a state-of-the-art visual language model initially developed by DeepMind.

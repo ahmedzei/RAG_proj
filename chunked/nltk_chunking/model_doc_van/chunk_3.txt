@@ -1,0 +1,2 @@
+Overview
+The VAN model was proposed in Visual Attention Network by Meng-Hao Guo, Cheng-Ze Lu, Zheng-Ning Liu, Ming-Ming Cheng, Shi-Min Hu.

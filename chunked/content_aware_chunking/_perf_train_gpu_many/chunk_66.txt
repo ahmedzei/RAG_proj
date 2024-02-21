@@ -1,0 +1,1 @@
+GPU1 has the a1 parameter, but needs a0 and a2, so it gets those from GPU0 and GPU2.

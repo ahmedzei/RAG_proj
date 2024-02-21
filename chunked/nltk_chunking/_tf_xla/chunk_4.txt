@@ -1,0 +1,1 @@
+However, XLA is not limited to these methods - it can also be used to accelerate any arbitrary tf.function.

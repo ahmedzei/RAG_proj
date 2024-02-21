@@ -1,0 +1,2 @@
+To remedy this, we propose, BigBird, a sparse attention mechanism that
+reduces this quadratic dependency to linear.

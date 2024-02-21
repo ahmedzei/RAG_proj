@@ -1,0 +1,3 @@
+Those are
+data structures containing all the information returned by the model, but that can also be used as tuples or
+dictionaries.

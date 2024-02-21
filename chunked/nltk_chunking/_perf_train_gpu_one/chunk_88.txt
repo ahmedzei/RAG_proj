@@ -1,0 +1,2 @@
+However, as mentioned before, the convergence of 
+Adafactor can be worse than Adam.

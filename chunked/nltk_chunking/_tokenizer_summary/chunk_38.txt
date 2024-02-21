@@ -1,0 +1,1 @@
+Therefore, character tokenization is often accompanied by a loss of performance.

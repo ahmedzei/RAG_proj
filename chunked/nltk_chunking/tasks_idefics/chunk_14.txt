@@ -1,0 +1,2 @@
+The IDEFICS processor wraps a [LlamaTokenizer] and IDEFICS image processor into a single processor to take care of 
+preparing text and image inputs for the model.

@@ -1,0 +1,2 @@
+The model obtains state-of-the-art results on
+image captioning and visual question answering benchmarks.

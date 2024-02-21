@@ -1,0 +1,1 @@
+Contrary to the paper, the order of the priors goes from 0 to 1 as it felt more intuitive : we sample starting from 0.

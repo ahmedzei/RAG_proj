@@ -1,0 +1,2 @@
+Encoder[[cv-encoder]]
+The Vision Transformer (ViT) opened the door to computer vision tasks without convolutions.

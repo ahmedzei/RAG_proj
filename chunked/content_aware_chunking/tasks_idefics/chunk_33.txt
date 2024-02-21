@@ -1,0 +1,3 @@
+Few-shot prompting
+While IDEFICS demonstrates great zero-shot results, your task may require a certain format of the caption, or come with 
+other restrictions or requirements that increase task's complexity.

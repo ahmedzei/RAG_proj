@@ -1,0 +1,1 @@
+Return a 503 error instead of waiting for a super long time or a 504 after a long time.

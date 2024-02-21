@@ -1,0 +1,14 @@
+from transformers import Trainer
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=dataset["train"],
+    eval_dataset=dataset["test"],
+    tokenizer=tokenizer,
+    data_collator=data_collator,
+    compute_metrics=compute_metrics,
+)
+trainer.train()
+
+Checkpoints
+The [Trainer] class saves your model checkpoints to the directory specified in the output_dir parameter of [TrainingArguments].

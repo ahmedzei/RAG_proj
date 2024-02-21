@@ -1,0 +1,1 @@
+Take a look at this table to check if a model has fast tokenizer support.

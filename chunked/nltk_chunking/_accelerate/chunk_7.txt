@@ -1,0 +1,21 @@
+This includes your training and evaluation DataLoaders, a model and an optimizer:
+
+train_dataloader, eval_dataloader, model, optimizer = accelerator.prepare(
+     train_dataloader, eval_dataloader, model, optimizer
+ )
+
+Backward
+The last addition is to replace the typical loss.backward() in your training loop with 🤗 Accelerate's [~accelerate.Accelerator.backward]method:
+
+for epoch in range(num_epochs):
+     for batch in train_dataloader:
+         outputs = model(**batch)
+         loss = outputs.loss
+         accelerator.backward(loss)
+
+         optimizer.step()
+         lr_scheduler.step()
+         optimizer.zero_grad()
+         progress_bar.update(1)
+
+As you can see in the following code, you only need to add four additional lines of code to your training loop to enable distributed training!

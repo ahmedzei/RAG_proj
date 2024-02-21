@@ -1,0 +1,2 @@
+In addition, we must make sure that padding token id's of the labels are not taken into account by the loss
+function.

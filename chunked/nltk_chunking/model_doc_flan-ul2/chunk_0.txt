@@ -1,0 +1,4 @@
+
+FLAN-UL2
+Overview
+Flan-UL2 is an encoder decoder model based on the T5 architecture.

@@ -1,0 +1,4 @@
+
+GPT-J
+Overview
+The GPT-J model was released in the kingoflolz/mesh-transformer-jax repository by Ben Wang and Aran Komatsuzaki.

@@ -1,0 +1,1 @@
+The paper argues that more model performance can be kept by less drastically reducing the number of query head projection weights.

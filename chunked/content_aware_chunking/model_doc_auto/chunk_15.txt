@@ -1,0 +1,16 @@
+AutoModelForTableQuestionAnswering
+[[autodoc]] AutoModelForTableQuestionAnswering
+TFAutoModelForTableQuestionAnswering
+[[autodoc]] TFAutoModelForTableQuestionAnswering
+AutoModelForDocumentQuestionAnswering
+[[autodoc]] AutoModelForDocumentQuestionAnswering
+TFAutoModelForDocumentQuestionAnswering
+[[autodoc]] TFAutoModelForDocumentQuestionAnswering
+AutoModelForVisualQuestionAnswering
+[[autodoc]] AutoModelForVisualQuestionAnswering
+AutoModelForVision2Seq
+[[autodoc]] AutoModelForVision2Seq
+TFAutoModelForVision2Seq
+[[autodoc]] TFAutoModelForVision2Seq
+FlaxAutoModelForVision2Seq
+[[autodoc]] FlaxAutoModelForVision2Seq

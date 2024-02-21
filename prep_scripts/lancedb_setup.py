@@ -23,7 +23,7 @@ def main():
     parser.add_argument("--vec-column", help="vector column name in the table", type=str, default="vector")
     parser.add_argument("--text-column", help="text column name in the table", type=str, default="text")
     parser.add_argument("--db-loc", help="database location", type=str,
-                        default=str(Path().resolve() / "gradio_app" / ".lancedb"))
+                        default=str(Path().resolve() / ".lancedb"))
     parser.add_argument("--batch-size", help="batch size for embedding model", type=int, default=32)
     parser.add_argument("--num-partitions", help="number of partitions for index", type=int, default=256)
     parser.add_argument("--num-sub-vectors", help="number of sub-vectors for index", type=int, default=96)
@@ -58,12 +58,13 @@ def main():
     tbl = db.create_table(args.table, schema=schema, mode="overwrite")
 
     input_dir = Path(args.input_dir)
-    files = list(input_dir.rglob("*"))
 
+    files = list(input_dir.rglob("*"))
     sentences = []
     for file in files:
-        with open(file) as f:
-            sentences.append(f.read())
+        if file.is_file():
+            with open(file, encoding='utf-8') as f:
+                sentences.append(f.read())
 
     for i in tqdm.tqdm(range(0, int(np.ceil(len(sentences) / args.batch_size)))):
         try:

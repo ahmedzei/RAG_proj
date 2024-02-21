@@ -1,0 +1,2 @@
+Although the gradients are also computed in half precision they are converted back to full precision for the optimization 
+step so no memory is saved here.

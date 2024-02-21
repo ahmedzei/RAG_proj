@@ -1,0 +1,6 @@
+thon
+from transformers import pipeline
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+pipe = pipeline(task="image-to-image", model="caidas/swin2SR-lightweight-x2-64", device=device)
+
+Now, let's load an image.

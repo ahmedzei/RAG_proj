@@ -1,0 +1,2 @@
+Inference
+At inference time, it is recommended to use [~generation.GenerationMixin.generate].

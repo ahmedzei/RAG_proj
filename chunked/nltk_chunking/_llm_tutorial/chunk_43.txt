@@ -1,0 +1,7 @@
+model_inputs = tokenizer(
+     ["1, 2, 3", "A, B, C, D, E"], padding=True, return_tensors="pt"
+ ).to("cuda")
+generated_ids = model.generate(**model_inputs)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+'1, 2, 33333333333'
+With left-padding, it works as expected!

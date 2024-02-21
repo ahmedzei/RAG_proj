@@ -1,0 +1,2 @@
+NLLB-MoE uses a top-2-gate which means that for each input, only the top two experts are selected based on the 
+highest predicted probabilities from the gating network, and the remaining experts are ignored.

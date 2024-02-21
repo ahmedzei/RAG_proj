@@ -1,0 +1,11 @@
+BitConfig
+[[autodoc]] BitConfig
+BitImageProcessor
+[[autodoc]] BitImageProcessor
+    - preprocess
+BitModel
+[[autodoc]] BitModel
+    - forward
+BitForImageClassification
+[[autodoc]] BitForImageClassification
+    - forward

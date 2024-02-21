@@ -1,0 +1,1 @@
+truncation='only_second' or truncation='longest_first' to control how both sequences in the pair are truncated as detailed before.

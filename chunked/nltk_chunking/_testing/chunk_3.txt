@@ -1,0 +1,3 @@
+These jobs
+   are defined in this config file, so that if needed you can reproduce the same
+   environment on your machine.

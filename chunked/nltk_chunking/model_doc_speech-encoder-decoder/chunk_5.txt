@@ -1,0 +1,1 @@
+Randomly initializing SpeechEncoderDecoderModel from model configurations.

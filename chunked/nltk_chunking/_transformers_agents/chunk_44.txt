@@ -1,0 +1,2 @@
+Tools
+Tools are very simple: they're a single function, with a name, and a description.

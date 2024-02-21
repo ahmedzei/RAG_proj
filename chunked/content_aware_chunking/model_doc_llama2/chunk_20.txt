@@ -1,0 +1,1 @@
+After filling out the form and gaining access to the model checkpoints, you should be able to use the already converted checkpoints.

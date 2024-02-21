@@ -1,0 +1,3 @@
+Tips:
+
+The model predicts binary masks that states the presence or not of the object of interest given an image.

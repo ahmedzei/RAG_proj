@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Understanding document images (e.g., invoices) is a core but challenging task since it requires complex functions such as reading text and a holistic understanding of the document.

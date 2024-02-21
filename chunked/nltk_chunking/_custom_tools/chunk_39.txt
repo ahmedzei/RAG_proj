@@ -1,0 +1,1 @@
+A good tool name and tool description are very important for the agent to correctly use it.

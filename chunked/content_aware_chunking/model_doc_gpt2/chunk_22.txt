@@ -1,0 +1,1 @@
+A blog on Training CodeParrot 🦜 from Scratch, a large GPT-2 model.

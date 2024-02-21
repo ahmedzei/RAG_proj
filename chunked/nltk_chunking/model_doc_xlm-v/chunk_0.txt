@@ -1,0 +1,4 @@
+
+XLM-V
+Overview
+XLM-V is multilingual language model with a one million token vocabulary trained on 2.5TB of data from Common Crawl (same as XLM-R).

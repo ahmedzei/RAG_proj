@@ -1,0 +1,9 @@
+Implementations:
+- DeepSpeed
+- Megatron-LM
+- Varuna
+- SageMaker
+- OSLO
+🤗 Transformers status: not yet implemented
+Data Parallelism + Pipeline Parallelism + Tensor Parallelism
+To get an even more efficient training a 3D parallelism is used where PP is combined with TP and DP.

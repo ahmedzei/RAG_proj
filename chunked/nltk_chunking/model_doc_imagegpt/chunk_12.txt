@@ -1,0 +1,2 @@
+ImageGPT
+  also doesn't have tied input- and output embeddings.

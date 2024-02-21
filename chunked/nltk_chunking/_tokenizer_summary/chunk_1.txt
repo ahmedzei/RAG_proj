@@ -1,0 +1,2 @@
+As we saw in the preprocessing tutorial, tokenizing a text is splitting it into words or
+subwords, which then are converted to ids through a look-up table.

@@ -1,0 +1,2 @@
+The abstract from the original FastSpeech2 paper is the following:
+Non-autoregressive text to speech (TTS) models such as FastSpeech (Ren et al., 2019) can synthesize speech significantly faster than previous autoregressive models with comparable quality.

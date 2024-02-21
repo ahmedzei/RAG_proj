@@ -1,0 +1,1 @@
+One can use [ViltProcessor] to prepare data for the model.

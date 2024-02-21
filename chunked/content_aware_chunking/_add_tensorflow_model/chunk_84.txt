@@ -1,0 +1,5 @@
+See the following
+   example: PyTorch /
+   TensorFlow
+- If the PyTorch model has a #copied from  on top of a function, the odds are that your TensorFlow model can also
+   borrow that function from the architecture it was copied from, assuming it has a TensorFlow architecture.

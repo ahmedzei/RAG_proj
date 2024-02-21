@@ -1,0 +1,2 @@
+We leverage and adapt logging's captureWarning method to allow
+management of these warning messages by the verbosity setters above.

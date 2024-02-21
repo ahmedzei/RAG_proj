@@ -1,0 +1,5 @@
+yaml
+xla: True # must be set to True to enable PyTorch/XLA
+xla_fsdp_settings: # XLA-specific FSDP parameters
+xla_fsdp_grad_ckpt: True # use gradient checkpointing
+The xla_fsdp_settings allow you to configure additional XLA-specific parameters for FSDP.

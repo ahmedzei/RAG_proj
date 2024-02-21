@@ -1,0 +1,27 @@
+See also: Audio classification task guide
+
+Wav2Vec2BertConfig
+[[autodoc]] Wav2Vec2BertConfig
+Wav2Vec2BertProcessor
+[[autodoc]] Wav2Vec2BertProcessor
+    - call
+    - pad
+    - from_pretrained
+    - save_pretrained
+    - batch_decode
+    - decode
+Wav2Vec2BertModel
+[[autodoc]] Wav2Vec2BertModel
+    - forward
+Wav2Vec2BertForCTC
+[[autodoc]] Wav2Vec2BertForCTC
+    - forward
+Wav2Vec2BertForSequenceClassification
+[[autodoc]] Wav2Vec2BertForSequenceClassification
+    - forward
+Wav2Vec2BertForAudioFrameClassification
+[[autodoc]] Wav2Vec2BertForAudioFrameClassification
+    - forward
+Wav2Vec2BertForXVector
+[[autodoc]] Wav2Vec2BertForXVector
+    - forward

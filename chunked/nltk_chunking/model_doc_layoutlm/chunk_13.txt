@@ -1,0 +1,2 @@
+These can be obtained using an external OCR engine such
+  as Google's Tesseract (there's a Python wrapper available).

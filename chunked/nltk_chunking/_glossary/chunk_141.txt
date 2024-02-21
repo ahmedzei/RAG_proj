@@ -1,0 +1,2 @@
+token Type IDs
+Some models' purpose is to do classification on pairs of sentences or question answering.

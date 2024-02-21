@@ -1,0 +1,2 @@
+Subword tokenization allows the model to have a reasonable vocabulary size while being able to learn meaningful
+context-independent representations.

@@ -1,0 +1,1 @@
+For the validation and evaluation splits, you wouldn't want to have video clips from the same group / scene to prevent data leakage.

@@ -1,0 +1,1 @@
+This is an opinionated document, so here’s our opinion: Avoid using TPU Node if possible.

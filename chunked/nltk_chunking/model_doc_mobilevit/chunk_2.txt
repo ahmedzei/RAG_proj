@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Light-weight convolutional neural networks (CNNs) are the de-facto for mobile vision tasks.

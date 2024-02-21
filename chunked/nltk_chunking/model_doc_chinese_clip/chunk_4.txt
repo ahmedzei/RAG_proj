@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+The tremendous success of CLIP (Radford et al., 2021) has promoted the research and application of contrastive learning for vision-language pretraining.

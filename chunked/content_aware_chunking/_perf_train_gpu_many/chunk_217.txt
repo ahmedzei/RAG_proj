@@ -1,0 +1,1 @@
+In this case, set CUDA_DEVICE_ORDER=FASTEST_FIRST to always use the newer and faster GPU first (nvidia-smi or rocm-smi still reports the GPUs in their PCIe order).

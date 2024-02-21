@@ -1,0 +1,3 @@
+[dev]"
+Depending on your OS, and since the number of optional dependencies of Transformers is growing, you might get a
+failure with this command.

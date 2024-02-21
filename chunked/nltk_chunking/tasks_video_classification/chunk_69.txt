@@ -1,0 +1,6 @@
+Load a video for inference:
+ 
+
+sample_test_video = next(iter(test_dataset))
+
+The simplest way to try out your fine-tuned model for inference is to use it in a pipeline.

@@ -1,0 +1,1 @@
+direction can be"minimize" or "maximize", which indicates whether to optimize greater or lower objective.

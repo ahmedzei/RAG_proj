@@ -1,0 +1,2 @@
+XLA Rule #2: Your code cannot have “data-dependent shapes”
+What this means is that the shape of all of the tf.Tensor objects in your code cannot depend on their values.

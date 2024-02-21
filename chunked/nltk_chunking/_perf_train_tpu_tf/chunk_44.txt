@@ -1,0 +1,1 @@
+XLA compiled code is usually faster - so even if you’re not planning to run on TPU, adding jit_compile=True can improve your performance.

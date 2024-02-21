@@ -1,0 +1,1 @@
+You may notice that in addition to the prompt, we pass a max_new_tokens parameter.

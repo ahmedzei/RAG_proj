@@ -1,0 +1,10 @@
+The only preprocessing you have to do is to take the argmax of our predicted logits:
+
+import evaluate
+metric = evaluate.load("accuracy")
+def compute_metrics(eval_pred):
+    predictions = np.argmax(eval_pred.predictions, axis=1)
+    return metric.compute(predictions=predictions, references=eval_pred.label_ids)
+
+A note on evaluation:
+In the VideoMAE paper, the authors use the following evaluation strategy.

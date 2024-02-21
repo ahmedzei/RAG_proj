@@ -1,0 +1,2 @@
+Current approaches to VLP heavily rely on image feature extraction processes, most of which involve region supervision
+(e.g., object detection) and the convolutional architecture (e.g., ResNet).

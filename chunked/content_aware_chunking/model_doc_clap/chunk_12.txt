@@ -1,0 +1,1 @@
+The results demonstrate that our model achieves superior performance in text-to-audio retrieval task.

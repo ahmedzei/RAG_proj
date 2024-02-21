@@ -1,0 +1,1 @@
+To mitigate these issues, we proposed Deformable DETR, whose attention modules only attend to a small set of key sampling points around a reference.

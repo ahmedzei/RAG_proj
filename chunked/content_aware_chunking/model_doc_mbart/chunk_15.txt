@@ -1,0 +1,2 @@
+According to the abstract
+Multilingual translation models can be created through multilingual finetuning.

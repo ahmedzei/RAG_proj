@@ -1,0 +1,2 @@
+Usually webservers are multiplexed (multithreaded, async, etc..) to handle various
+requests concurrently.

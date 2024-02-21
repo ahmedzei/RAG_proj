@@ -1,0 +1,3 @@
+Some important parameters to configure include:
+
+device: "cpu" can help if you're running out of GPU memory and if you have free CPU memory available.

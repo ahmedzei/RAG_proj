@@ -1,0 +1,3 @@
+Note that all of those tokenization
+algorithms rely on some form of training which is usually done on the corpus the corresponding model will be trained
+on.

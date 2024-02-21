@@ -1,0 +1,2 @@
+Thus, the first merge rule the tokenizer learns is to group all
+"u" symbols followed by a "g" symbol together.

@@ -1,0 +1,2 @@
+This is not a problem, as these parameters are batch normalization
+  statistics, which are going to have values when fine-tuning on a custom dataset.

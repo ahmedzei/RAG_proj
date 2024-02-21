@@ -1,0 +1,2 @@
+convolution
+A type of layer in a neural network where the input matrix is multiplied element-wise by a smaller matrix (kernel or filter) and the values are summed up in a new matrix.

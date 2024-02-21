@@ -1,0 +1,4 @@
+
+OWLv2
+Overview
+OWLv2 was proposed in Scaling Open-Vocabulary Object Detection by Matthias Minderer, Alexey Gritsenko, Neil Houlsby.

@@ -1,0 +1,3 @@
+PipelineParallel (PP)
+Parallelism technique in which the model is split up vertically (layer-level) across multiple GPUs, so that only one or 
+several layers of the model are placed on a single GPU.

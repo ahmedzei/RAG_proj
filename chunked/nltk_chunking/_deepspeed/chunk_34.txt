@@ -1,0 +1,6 @@
+You could also modify the DeepSpeed configuration and edit [TrainingArguments] from it:
+
+Create or load a DeepSpeed configuration to used as the main configuration
+Create a [TrainingArguments] object based on these DeepSpeed configuration values
+
+Some values, such as scheduler.params.total_num_steps are calculated by the [Trainer] during training.

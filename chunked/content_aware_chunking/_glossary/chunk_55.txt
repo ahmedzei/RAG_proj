@@ -1,0 +1,3 @@
+I
+image patch
+Vision-based Transformers models split an image into smaller patches which are linearly embedded, and then passed as a sequence to the model.

@@ -1,0 +1,1 @@
+CFG is enabled by setting guidance_scale > 1.

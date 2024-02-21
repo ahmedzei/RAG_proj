@@ -1,0 +1,1 @@
+It requires an output folder name, which will be used to save the checkpoints of the model.

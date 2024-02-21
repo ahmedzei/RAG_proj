@@ -1,0 +1,3 @@
+T5 works well on a variety of tasks out-of-the-box by prepending a
+different prefix to the input corresponding to each task, e.g., for translation: translate English to German: ,
+for summarization: summarize: .

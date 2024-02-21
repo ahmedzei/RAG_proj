@@ -1,0 +1,1 @@
+For example, if you have gcc-9 but CUDA wants gcc-7.

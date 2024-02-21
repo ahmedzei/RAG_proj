@@ -1,0 +1,3 @@
+Therefore, the [MASK] entity can be used to address
+    downstream tasks requiring the information of entities in text such as entity typing, relation classification, and
+    named entity recognition.

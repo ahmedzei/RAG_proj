@@ -1,0 +1,1 @@
+In this paper, we propose a novel structure and training strategy for monocular depth estimation to further improve the prediction accuracy of the network.

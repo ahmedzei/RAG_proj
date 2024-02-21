@@ -1,0 +1,1 @@
+Token classification assigns each token a label from a predefined set of classes.

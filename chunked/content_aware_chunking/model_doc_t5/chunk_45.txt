@@ -1,0 +1,3 @@
+Supervised training
+
+In this setup, the input sequence and output sequence are a standard sequence-to-sequence input-output mapping.

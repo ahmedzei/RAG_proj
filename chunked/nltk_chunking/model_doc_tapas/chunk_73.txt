@@ -1,0 +1,3 @@
+row, column pair that is part of the answer)
+answer_text: list of one or more strings (each string being a cell value that is part of the answer)
+aggregation_label: index of the aggregation operator.

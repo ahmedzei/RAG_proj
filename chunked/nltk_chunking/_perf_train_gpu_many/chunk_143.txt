@@ -1,0 +1,1 @@
+Practically, if a node has 4 GPUs, the highest TP degree is therefore 4.

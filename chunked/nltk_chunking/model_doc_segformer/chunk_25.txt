@@ -1,0 +1,1 @@
+One can also check out the blog post introducing SegFormer and illustrating how it can be fine-tuned on custom data.

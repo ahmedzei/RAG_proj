@@ -1,0 +1,1 @@
+Transient Global Attention is an extension of the Local Attention.

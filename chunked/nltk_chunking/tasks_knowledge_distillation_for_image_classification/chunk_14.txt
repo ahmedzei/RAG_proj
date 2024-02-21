@@ -1,0 +1,9 @@
+thon
+from transformers import AutoImageProcessor
+teacher_processor = AutoImageProcessor.from_pretrained("merve/beans-vit-224")
+def process(examples):
+    processed_inputs = teacher_processor(examples["image"])
+    return processed_inputs
+processed_datasets = dataset.map(process, batched=True)
+
+Essentially, we want the student model (a randomly initialized MobileNet) to mimic the teacher model (fine-tuned vision transformer).

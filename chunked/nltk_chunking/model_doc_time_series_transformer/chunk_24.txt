@@ -1,0 +1,1 @@
+static_real_features: real-valued features which are static over time (i.e., have the same value for all past_values and future_values).

@@ -1,0 +1,2 @@
+Agents
+We provide three types of agents: [HfAgent] uses inference endpoints for opensource models, [LocalAgent] uses a model of your choice locally and [OpenAiAgent] uses OpenAI closed models.

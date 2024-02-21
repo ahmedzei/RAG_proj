@@ -1,0 +1,2 @@
+3.2.3 Grouped-Query-Attention (GQA)
+Grouped-Query-Attention, as proposed by Ainslie et al.

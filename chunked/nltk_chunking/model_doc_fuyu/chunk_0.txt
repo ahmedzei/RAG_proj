@@ -1,0 +1,4 @@
+
+Fuyu
+Overview
+The Fuyu model was created by ADEPT, and authored by Rohan Bavishi, Erich Elsen, Curtis Hawthorne, Maxwell Nye, Augustus Odena, Arushi Somani, Sağnak Taşırlar.

@@ -1,0 +1,2 @@
+Computer vision
+One of the first and earliest successful computer vision tasks was recognizing images of zip code numbers using a convolutional neural network (CNN).

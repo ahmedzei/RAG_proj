@@ -1,0 +1,12 @@
+An Analysis of BERT's Attention by Kevin Clark, Urvashi Khandelwal, Omer Levy, Christopher D.
+  Manning: https://arxiv.org/abs/1906.04341
+CAT-probing: A Metric-based Approach to Interpret How Pre-trained Models for Programming Language Attend Code Structure: https://arxiv.org/abs/2210.04633
+
+In order to help this new field develop, we have included a few additional features in the BERT/GPT/GPT-2 models to
+help people access the inner representations, mainly adapted from the great work of Paul Michel
+(https://arxiv.org/abs/1905.10650):
+
+accessing all the hidden-states of BERT/GPT/GPT-2,
+accessing all the attention weights for each head of BERT/GPT/GPT-2,
+retrieving heads output values and gradients to be able to compute head importance score and prune head as explained
+  in https://arxiv.org/abs/1905.10650.

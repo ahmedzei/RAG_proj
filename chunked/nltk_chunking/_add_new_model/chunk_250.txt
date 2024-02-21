@@ -1,0 +1,2 @@
+To fix this make sure model.training is False and that no dropout
+  layer is falsely activated during the forward pass, i.e.

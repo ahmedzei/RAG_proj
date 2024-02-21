@@ -1,0 +1,1 @@
+If there are fewer ground truth labels in the set of N labels, then they're padded with a no object class.

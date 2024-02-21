@@ -1,0 +1,3 @@
+Pipeline usage
+While each task has an associated [pipeline], it is simpler to use the general [pipeline] abstraction which contains 
+all the task-specific pipelines.

@@ -1,0 +1,1 @@
+By reducing the size of the key-value vectors less memory needs to be accessed, thus reducing the memory bandwidth bottleneck.

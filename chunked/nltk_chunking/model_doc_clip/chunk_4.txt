@@ -1,0 +1,3 @@
+This
+restricted form of supervision limits their generality and usability since additional labeled data is needed to specify
+any other visual concept.

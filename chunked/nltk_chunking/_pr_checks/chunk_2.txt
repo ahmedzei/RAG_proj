@@ -1,0 +1,1 @@
+If a file is a full copy of another file, you should register it in the constant FULL_COPIES of utils/check_copies.py.

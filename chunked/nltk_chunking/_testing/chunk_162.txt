@@ -1,0 +1,52 @@
+Here is how this is accomplished:
+thon
+import sys
+def print_to_stdout(s):
+    print(s)
+def print_to_stderr(s):
+    sys.stderr.write(s)
+def test_result_and_stdout(capsys):
+    msg = "Hello"
+    print_to_stdout(msg)
+    print_to_stderr(msg)
+    out, err = capsys.readouterr()  # consume the captured output streams
+    # optional: if you want to replay the consumed streams:
+    sys.stdout.write(out)
+    sys.stderr.write(err)
+    # test:
+    assert msg in out
+    assert msg in err
+
+And, of course, most of the time, stderr will come as a part of an exception, so try/except has to be used in such
+a case:
+thon
+def raise_exception(msg):
+    raise ValueError(msg)
+def test_something_exception():
+    msg = "Not a good value"
+    error = ""
+    try:
+        raise_exception(msg)
+    except Exception as e:
+        error = str(e)
+        assert msg in error, f"{msg} is in the exception:\n{error}"
+
+Another approach to capturing stdout is via contextlib.redirect_stdout:
+thon
+from io import StringIO
+from contextlib import redirect_stdout
+def print_to_stdout(s):
+    print(s)
+def test_result_and_stdout():
+    msg = "Hello"
+    buffer = StringIO()
+    with redirect_stdout(buffer):
+        print_to_stdout(msg)
+    out = buffer.getvalue()
+    # optional: if you want to replay the consumed streams:
+    sys.stdout.write(out)
+    # test:
+    assert msg in out
+
+An important potential issue with capturing stdout is that it may contain \r characters that in normal print
+reset everything that has been printed so far.

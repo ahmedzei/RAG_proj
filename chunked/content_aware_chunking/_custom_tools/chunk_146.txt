@@ -1,0 +1,8 @@
+We'll create a class that inherits from it:
+thon
+from transformers import Tool
+class HFModelDownloadsTool(Tool):
+    pass
+
+This class has a few needs:
+- An attribute name, which corresponds to the name of the tool itself.

@@ -1,0 +1,3 @@
+For more
+intuition about perplexity and its relationship to Bits Per Character (BPC) and data compression, check out this
+fantastic blog post on The Gradient.

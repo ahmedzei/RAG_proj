@@ -1,0 +1,3 @@
+/usr/local/cuda-10.2
+/usr/local/cuda-11.0
+Typically, package installers set the paths to whatever the last version was installed.

@@ -1,0 +1,2 @@
+LSH Self Attention
+In Locality sensitive hashing (LSH) self attention the key and query projection weights are tied.

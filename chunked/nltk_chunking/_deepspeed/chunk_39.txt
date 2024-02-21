@@ -1,0 +1,1 @@
+DeepSpeed doesn’t validate parameter names and any typos fallback on the parameter's default setting.

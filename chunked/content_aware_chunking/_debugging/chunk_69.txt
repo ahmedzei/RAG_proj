@@ -1,0 +1,2 @@
+Actually, the detector already reports these because each of the calls in the example above is a nn.Module, but
+let's say if you had some local direct calculations this is how you'd do that.

@@ -1,0 +1,2 @@
+To use this script, simply call it with 
+python convert_custom_code_checkpoint.py --checkpoint_dir my_model.

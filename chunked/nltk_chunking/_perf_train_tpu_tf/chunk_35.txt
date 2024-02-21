@@ -1,0 +1,1 @@
+When you access a free TPU via Colab, you generally get a single v2-8 TPU.

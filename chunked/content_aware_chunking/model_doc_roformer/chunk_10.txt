@@ -1,0 +1,2 @@
+Usage tips
+RoFormer is a BERT-like autoencoding model with rotary position embeddings.

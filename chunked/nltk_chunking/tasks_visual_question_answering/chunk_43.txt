@@ -1,0 +1,21 @@
+The following function applies the processor to the images and questions and formats the labels as described above:
+
+import torch
+def preprocess_data(examples):
+     image_paths = examples['image_id']
+     images = [Image.open(image_path) for image_path in image_paths]
+     texts = examples['question']    
+
+     encoding = processor(images, texts, padding="max_length", truncation=True, return_tensors="pt")
+     for k, v in encoding.items():
+           encoding[k] = v.squeeze()
+     targets = []
+     for labels, scores in zip(examples['label.ids'], examples['label.weights']):
+         target = torch.zeros(len(id2label))
+         for label, score in zip(labels, scores):
+             target[label] = score
+         targets.append(target)
+     encoding["labels"] = targets
+     return encoding
+
+To apply the preprocessing function over the entire dataset, use 🤗 Datasets [~datasets.map] function.

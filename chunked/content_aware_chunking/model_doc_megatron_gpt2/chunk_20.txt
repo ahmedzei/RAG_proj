@@ -1,0 +1,6 @@
+We assume that the folder models/megatron_gpt2 contains
+megatron_gpt2_345m_v0_0.zip and that the command is run from that folder:
+
+python3 $PATH_TO_TRANSFORMERS/models/megatron_gpt2/convert_megatron_gpt2_checkpoint.py megatron_gpt2_345m_v0_0.zip
+ 
+MegatronGPT2 architecture is the same as OpenAI GPT-2 .

@@ -1,0 +1,1 @@
+Here, we scale up detection data with self-training, which uses an existing detector to generate pseudo-box annotations on image-text pairs.

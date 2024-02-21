@@ -1,0 +1,3 @@
+Predicted answer: SUM > 87, 53, 69
+
+In case of a conversational set-up, then each table-question pair must be provided sequentially to the model, such that the prev_labels token types can be overwritten by the predicted labels of the previous table-question pair.

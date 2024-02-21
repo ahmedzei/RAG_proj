@@ -1,0 +1,2 @@
+The [DonutImageProcessor] class is responsible for preprocessing the input image and
+[XLMRobertaTokenizer/XLMRobertaTokenizerFast] decodes the generated target tokens to the target string.

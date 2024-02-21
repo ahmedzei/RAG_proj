@@ -1,0 +1,1 @@
+- The main models – base and large – have adapters for 81 languages.

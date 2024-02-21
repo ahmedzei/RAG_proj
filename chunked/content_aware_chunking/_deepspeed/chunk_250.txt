@@ -1,0 +1,2 @@
+NaN loss
+NaN loss often occurs when a model is pretrained in bf16 and then you try to use it with fp16 (especially relevant for TPU trained models).

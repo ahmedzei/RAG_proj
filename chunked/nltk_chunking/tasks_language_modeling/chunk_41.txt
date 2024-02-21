@@ -1,0 +1,1 @@
+Use the end-of-sequence token as the padding token and set mlm=False.

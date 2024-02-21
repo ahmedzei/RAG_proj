@@ -1,0 +1,2 @@
+In other words, the size of the output sequence, not
+including the tokens in the prompt.

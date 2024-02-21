@@ -1,0 +1,10 @@
+Preprocess
+
+The next step is to load a DistilBERT tokenizer to process the question and context fields:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("distilbert/distilbert-base-uncased")
+
+There are a few preprocessing steps particular to question answering tasks you should be aware of:
+
+Some examples in a dataset may have a very long context that exceeds the maximum input length of the model.

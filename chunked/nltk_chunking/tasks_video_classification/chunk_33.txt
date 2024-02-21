@@ -1,0 +1,3 @@
+Use the image_processor associated with the pre-trained model to obtain the following information:
+
+Image mean and standard deviation with which the video frame pixels will be normalized.

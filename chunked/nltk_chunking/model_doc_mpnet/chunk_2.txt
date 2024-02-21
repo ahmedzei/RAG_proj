@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+BERT adopts masked language modeling (MLM) for pre-training and is one of the most successful pre-training models.

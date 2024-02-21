@@ -1,0 +1,1 @@
+We develop 5 Chinese CLIP models of multiple sizes, spanning from 77 to 958 million parameters.

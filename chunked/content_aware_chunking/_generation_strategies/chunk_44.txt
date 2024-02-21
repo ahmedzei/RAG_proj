@@ -1,0 +1,1 @@
+In practice, you can craft your own streaming class for all sorts of purposes!

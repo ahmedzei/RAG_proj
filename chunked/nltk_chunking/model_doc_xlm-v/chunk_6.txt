@@ -1,0 +1,3 @@
+Tokenizations using our vocabulary are typically
+more semantically meaningful and shorter compared to XLM-R. Leveraging this improved vocabulary, we train XLM-V,
+a multilingual language model with a one million token vocabulary.

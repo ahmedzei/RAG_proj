@@ -1,0 +1,2 @@
+The methods that you can apply to improve training efficiency on a single GPU extend to other setups 
+such as multiple GPU.

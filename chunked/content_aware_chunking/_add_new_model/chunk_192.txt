@@ -1,0 +1,2 @@
+Adapt the generated models code for brand_new_bert
+At first, we will focus only on the model itself and not care about the tokenizer.

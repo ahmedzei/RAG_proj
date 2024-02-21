@@ -1,0 +1,1 @@
+Make sure that the audio data is sampled to 16000 kHz.

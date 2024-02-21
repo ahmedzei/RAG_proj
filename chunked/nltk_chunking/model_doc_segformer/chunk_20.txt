@@ -1,0 +1,2 @@
+The
+  authors of SegFormer first pre-trained the Transformer encoder on ImageNet-1k to classify images.

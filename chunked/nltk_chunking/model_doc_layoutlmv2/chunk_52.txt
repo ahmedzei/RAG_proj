@@ -1,0 +1,4 @@
+See also: Question answering task guide
+See also: Document question answering task guide
+
+A notebook on how to finetune LayoutLMv2 for token-classification on CORD dataset.

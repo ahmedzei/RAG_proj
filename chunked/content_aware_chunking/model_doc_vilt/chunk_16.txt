@@ -1,0 +1,2 @@
+To make batching of images possible, the authors use a pixel_mask that indicates
+  which pixel values are real and which are padding.

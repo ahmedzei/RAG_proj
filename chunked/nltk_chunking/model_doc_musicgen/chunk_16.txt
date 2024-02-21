@@ -1,0 +1,2 @@
+The pre-trained checkpoints can be found on the
+Hugging Face Hub.

@@ -1,0 +1,4 @@
+from transformers import AutoModelForDocumentQuestionAnswering
+model = AutoModelForDocumentQuestionAnswering.from_pretrained(model_checkpoint)
+
+In the [TrainingArguments] use output_dir to specify where to save your model, and configure hyperparameters as you see fit.

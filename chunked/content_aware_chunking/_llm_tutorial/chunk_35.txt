@@ -1,0 +1,3 @@
+generated_ids = model.generate(**model_inputs, do_sample=True)
+tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+'I am a cat.

@@ -1,0 +1,1 @@
+Deformable DETR can achieve better performance than DETR (especially on small objects) with 10 times less training epochs.

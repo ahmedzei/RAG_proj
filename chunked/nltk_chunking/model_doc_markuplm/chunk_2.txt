@@ -1,0 +1,2 @@
+The model incorporates additional embedding layers to improve
+performance, similar to LayoutLM.

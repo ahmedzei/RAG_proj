@@ -1,0 +1,2 @@
+This is not the case for models that do not have a language model head, as those do not
+have tied weights.

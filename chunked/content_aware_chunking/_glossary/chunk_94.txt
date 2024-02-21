@@ -1,0 +1,1 @@
+Some example stages found in a pipeline might be data preprocessing, feature extraction, and normalization.

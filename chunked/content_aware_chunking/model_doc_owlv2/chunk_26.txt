@@ -1,0 +1,1 @@
+The objectness score can be used to rank or filter predictions independently of text queries.

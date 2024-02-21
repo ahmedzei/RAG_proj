@@ -1,0 +1,2 @@
+The wrapped objects should continue behaving as initially; a text object should still behave as a string, an image
+object should still behave as a PIL.Image.

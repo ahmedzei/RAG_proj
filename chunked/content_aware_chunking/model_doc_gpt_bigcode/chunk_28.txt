@@ -1,0 +1,14 @@
+GPTBigCodeConfig
+[[autodoc]] GPTBigCodeConfig
+GPTBigCodeModel
+[[autodoc]] GPTBigCodeModel
+    - forward
+GPTBigCodeForCausalLM
+[[autodoc]] GPTBigCodeForCausalLM
+    - forward
+GPTBigCodeForSequenceClassification
+[[autodoc]] GPTBigCodeForSequenceClassification
+    - forward
+GPTBigCodeForTokenClassification
+[[autodoc]] GPTBigCodeForTokenClassification
+    - forward

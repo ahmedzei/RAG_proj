@@ -1,0 +1,13 @@
+Let's define a dummy model in
+PyTorch, called SimpleModel as follows:
+thon
+from torch import nn
+class SimpleModel(nn.Module):
+    def init(self):
+        super().init()
+        self.dense = nn.Linear(10, 10)
+        self.intermediate = nn.Linear(10, 10)
+        self.layer_norm = nn.LayerNorm(10)
+
+Now we can create an instance of this model definition which will fill all weights: dense, intermediate,
+layer_norm with random weights.

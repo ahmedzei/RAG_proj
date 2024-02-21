@@ -1,0 +1,1 @@
+[Owlv2Processor] wraps [Owlv2ImageProcessor] and [CLIPTokenizer] into a single instance to both encode the text and prepare the images.

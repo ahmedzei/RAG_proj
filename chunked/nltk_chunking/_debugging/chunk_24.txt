@@ -1,0 +1,7 @@
+```bash
+adapt the path to your system
+sudo ln -s /usr/bin/gcc-7  /usr/local/cuda-10.2/bin/gcc
+sudo ln -s /usr/bin/g++-7  /usr/local/cuda-10.2/bin/g++
+
+Prebuild
+If you're still having issues with installing DeepSpeed or if you're building DeepSpeed at run time, you can try to prebuild the DeepSpeed modules before installing them.

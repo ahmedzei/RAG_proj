@@ -1,0 +1,1 @@
+Most of the technical contributions aim at accelerating and stabilizing the training at scale.

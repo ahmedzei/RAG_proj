@@ -1,0 +1,1 @@
+For example, BERT is an architecture, while google-bert/bert-base-uncased is a checkpoint.

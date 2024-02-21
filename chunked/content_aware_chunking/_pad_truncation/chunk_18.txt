@@ -1,0 +1,2 @@
+'only_first': truncate to a maximum length specified by the max_length argument or the maximum
+    length accepted by the model if no max_length is provided (max_length=None).

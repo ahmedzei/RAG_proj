@@ -1,0 +1,3 @@
+Usage Tips
+
+The architecture is similar to LLaMA but with RoPE applied to 25% of head embedding dimensions, LayerNorm instead of RMSNorm, and optional QKV bias terms.

@@ -1,0 +1,1 @@
+Going forward, accelerators such as GPUs, TPUs, etc will only get faster and allow for more memory, but one should nevertheless always make sure to use the best available algorithms and architectures to get the most bang for your buck 🤗

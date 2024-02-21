@@ -1,0 +1,3 @@
+Usage tips
+
+One can use the [AutoImageProcessor] API to prepare images for the model.

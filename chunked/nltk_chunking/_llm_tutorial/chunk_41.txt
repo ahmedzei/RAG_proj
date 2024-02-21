@@ -1,0 +1,2 @@
+The tokenizer initialized above has right-padding active by default: the 1st sequence,
+which is shorter, has padding on the right side.

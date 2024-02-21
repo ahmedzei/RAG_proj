@@ -1,0 +1,3 @@
+Usage tips and examples
+
+The Llama2 family models, on which Code Llama is based, were trained using bfloat16, but the original inference uses float16.

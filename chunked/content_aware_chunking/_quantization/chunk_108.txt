@@ -1,0 +1,1 @@
+However, AWQ has the largest forward latency per batch size.

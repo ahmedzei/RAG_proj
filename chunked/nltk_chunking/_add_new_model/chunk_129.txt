@@ -1,0 +1,2 @@
+For each code-base, a good first step is always to load a small pretrained checkpoint and to be able to reproduce a
+single forward pass using a dummy integer vector of input IDs as an input.

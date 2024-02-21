@@ -1,0 +1,2 @@
+[TFVisionEncoderDecoderModel.from_pretrained] currently doesn't support initializing the model from a
+PyTorch checkpoint.

@@ -1,0 +1,2 @@
+We release the pretrained model for CamemBERT hoping to foster research and
+downstream applications for French NLP.

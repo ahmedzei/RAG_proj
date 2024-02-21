@@ -1,0 +1,1 @@
+- the use of an intermediate duration predictor, that predicts speech duration at the character-level on the predicted translated text.

@@ -1,0 +1,3 @@
+If you're interested in learning more, the following may be helpful:
+
+Follow along with the more in-depth Accelerate guide for FSDP.

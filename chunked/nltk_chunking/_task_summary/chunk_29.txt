@@ -1,0 +1,22 @@
+Like most classification tasks, there are many practical use cases for image classification, some of which include:
+
+healthcare: label medical images to detect disease or monitor patient health
+environment: label satellite images to monitor deforestation, inform wildland management or detect wildfires
+agriculture: label images of crops to monitor plant health or satellite images for land use monitoring 
+ecology: label images of animal or plant species to monitor wildlife populations or track endangered species
+
+from transformers import pipeline
+classifier = pipeline(task="image-classification")
+preds = classifier(
+     "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/pipeline-cat-chonk.jpeg"
+ )
+preds = [{"score": round(pred["score"], 4), "label": pred["label"]} for pred in preds]
+print(*preds, sep="\n")
+{'score': 0.4335, 'label': 'lynx, catamount'}
+{'score': 0.0348, 'label': 'cougar, puma, catamount, mountain lion, painter, panther, Felis concolor'}
+{'score': 0.0324, 'label': 'snow leopard, ounce, Panthera uncia'}
+{'score': 0.0239, 'label': 'Egyptian cat'}
+{'score': 0.0229, 'label': 'tiger cat'}
+
+Object detection
+Unlike image classification, object detection identifies multiple objects within an image and the objects' positions in an image (defined by the bounding box).

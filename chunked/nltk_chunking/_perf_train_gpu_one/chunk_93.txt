@@ -1,0 +1,2 @@
+First, follow the installation guide in the GitHub repo to install the bitsandbytes library 
+that implements the 8-bit Adam optimizer.

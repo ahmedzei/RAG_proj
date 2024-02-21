@@ -1,0 +1,1 @@
+Create a new file tests/test_pipelines_MY_PIPELINE.py with examples of the other tests.

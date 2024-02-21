@@ -1,0 +1,2 @@
+However, Falcon is now fully
+supported in the Transformers library.

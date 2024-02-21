@@ -1,0 +1,2 @@
+This will only truncate
+    the second sentence of a pair if a pair of sequences (or a batch of pairs of sequences) is provided.

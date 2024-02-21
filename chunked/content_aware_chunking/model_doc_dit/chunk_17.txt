@@ -1,0 +1,11 @@
+To include the head, you can load the weights into a BeitForMaskedImageModeling model, like so:
+thon
+from transformers import BeitForMaskedImageModeling
+model = BeitForMaskedImageModeling.from_pretrained("microsoft/dit-base")
+
+You can also load a fine-tuned model from the hub, like so:
+thon
+from transformers import AutoModelForImageClassification
+model = AutoModelForImageClassification.from_pretrained("microsoft/dit-base-finetuned-rvlcdip")
+
+This particular checkpoint was fine-tuned on RVL-CDIP, an important benchmark for document image classification.

@@ -1,0 +1,1 @@
+One way to reduce computational costs is using a smaller model like DistilBERT.

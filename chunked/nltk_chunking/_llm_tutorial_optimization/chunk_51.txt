@@ -1,0 +1,1 @@
+It has been found that model weights can be quantized to 8-bit or 4-bits without a significant loss in performance (see Dettmers et al.).

@@ -1,0 +1,2 @@
+In addition to input_ids, [~LayoutLMv2Model.forward] expects 2 additional inputs, namely
+  image and bbox.

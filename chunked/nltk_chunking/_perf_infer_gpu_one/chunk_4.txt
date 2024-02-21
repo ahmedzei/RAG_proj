@@ -1,0 +1,1 @@
+The majority of the optimizations described here also apply to multi-GPU setups!

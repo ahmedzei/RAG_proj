@@ -1,0 +1,9 @@
+IPEX installation:
+IPEX release is following PyTorch, to install via pip:
+| PyTorch Version   | IPEX version   |
+| :---------------: | :----------:   |
+| 2.1.x             |  2.1.100+cpu   |
+| 2.0.x             |  2.0.100+cpu   |
+| 1.13              |  1.13.0+cpu    |
+| 1.12              |  1.12.300+cpu  |
+Please run pip list | grep torch to get your pytorch_version, so you can get the IPEX version_name.

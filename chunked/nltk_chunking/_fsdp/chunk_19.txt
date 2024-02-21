@@ -1,0 +1,2 @@
+Checkpointing
+Intermediate checkpoints should be saved with fsdp_state_dict_type: SHARDED_STATE_DICT because saving the full state dict with CPU offloading on rank 0 takes a lot of time and often results in NCCL Timeout errors due to indefinite hanging during broadcasting.

@@ -1,0 +1,22 @@
+The top filtered result returns a multilingual BERT model finetuned for sentiment analysis you can use for French text:
+
+model_name = "nlptown/bert-base-multilingual-uncased-sentiment"
+
+Use [AutoModelForSequenceClassification] and [AutoTokenizer] to load the pretrained model and it's associated tokenizer (more on an AutoClass in the next section):
+
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+model = AutoModelForSequenceClassification.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+``
+</pt>
+<tf>
+Use [TFAutoModelForSequenceClassification] and [AutoTokenizer] to load the pretrained model and it's associated tokenizer (more on anTFAutoClass` in the next section):
+
+from transformers import AutoTokenizer, TFAutoModelForSequenceClassification
+model = TFAutoModelForSequenceClassification.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+Specify the model and tokenizer in the [pipeline], and now you can apply the classifier on French text:
+
+classifier = pipeline("sentiment-analysis", model=model, tokenizer=tokenizer)
+classifier("Nous sommes très heureux de vous présenter la bibliothèque 🤗 Transformers.")

@@ -1,0 +1,3 @@
+S
+sampling rate
+A measurement in hertz of the number of samples (the audio signal) taken per second.

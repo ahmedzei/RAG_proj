@@ -1,0 +1,2 @@
+We use the Auto API, which will automatically instantiate the appropriate tokenizer ([TapexTokenizer]) and model ([BartForConditionalGeneration]) for us,
+based on the configuration file of the checkpoint on the hub.

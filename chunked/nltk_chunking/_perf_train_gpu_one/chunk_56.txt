@@ -1,0 +1,1 @@
+This is because the model is now present on the GPU in both 16-bit and 32-bit precision (1.5x the original model on the GPU).

@@ -1,0 +1,2 @@
+creating logits of shape (batch_size, 2048, 262) (as Perceiver uses a vocabulary
+size of 262 byte IDs).

@@ -1,0 +1,2 @@
+If your model expects those, they won't be added automatically by apply_chat_template - in other words, the
+text will be tokenized with add_special_tokens=False.

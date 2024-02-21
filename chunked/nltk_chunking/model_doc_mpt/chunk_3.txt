@@ -1,0 +1,5 @@
+MPT base: MPT base pre-trained models on next token prediction 
+MPT instruct: MPT base models fine-tuned on instruction based tasks
+MPT storywriter: MPT base models fine-tuned for 2500 steps on 65k-token excerpts of fiction books contained in the books3 corpus, this enables the model to handle very long sequences
+
+The original code is available at the  llm-foundry repository.

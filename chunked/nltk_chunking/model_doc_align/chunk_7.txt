@@ -1,0 +1,1 @@
+For vision applications, representations are mostly learned using datasets with explicit class labels such as ImageNet or OpenImages.

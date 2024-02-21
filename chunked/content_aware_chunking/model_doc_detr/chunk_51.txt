@@ -1,0 +1,3 @@
+Initializing with a MobileNet backbone for example can be done by setting the backbone attribute of
+  [~transformers.DetrConfig] to "tf_mobilenetv3_small_075", and then initializing the model with that
+  config.

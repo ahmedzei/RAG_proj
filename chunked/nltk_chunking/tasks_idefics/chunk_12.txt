@@ -1,0 +1,3 @@
+pip install -q bitsandbytes sentencepiece accelerate transformers
+
+To run the following examples with a non-quantized version of the model checkpoint you will need at least 20GB of GPU memory.

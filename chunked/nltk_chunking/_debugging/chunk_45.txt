@@ -1,0 +1,2 @@
+Luckily
+you can accomplish that easily by activating a special module that will do the detection automatically.

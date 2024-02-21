@@ -1,0 +1,2 @@
+Fine-tuning the model is not supported yet
+According to the paper, textual input should be also supported.

@@ -1,0 +1,2 @@
+In addition, we train a 8B-parameter language model, and assess the results on few-shot
+translation.

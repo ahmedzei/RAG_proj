@@ -1,0 +1,1 @@
+For example, if you'd like a model capable of handling French text, use the tags on the Hub to filter for an appropriate model.

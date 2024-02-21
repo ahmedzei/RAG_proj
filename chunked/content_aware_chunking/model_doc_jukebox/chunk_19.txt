@@ -1,0 +1,1 @@
+Feel free to open a PR and add what's missing to have a full integration with the hugging face trainer!

@@ -1,0 +1,8 @@
+It obtains
+state-of-the-art results on 2 important benchmarks:
+- WebSRC, a dataset for Web-Based Structural Reading Comprehension (a bit like SQuAD but for web pages)
+- SWDE, a dataset
+for information extraction from web pages (basically named-entity recognition on web pages)
+The abstract from the paper is the following:
+Multimodal pre-training with text, layout, and image has made significant progress for Visually-rich Document
+Understanding (VrDU), especially the fixed-layout documents such as scanned document images.

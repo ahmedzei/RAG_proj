@@ -1,0 +1,1 @@
+DINOv2 is an upgrade of DINO, a self-supervised method applied on Vision Transformers.

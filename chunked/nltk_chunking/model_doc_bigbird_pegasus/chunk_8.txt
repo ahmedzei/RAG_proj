@@ -1,0 +1,2 @@
+We show that BigBird is a universal approximator of sequence functions and
+is Turing complete, thereby preserving these properties of the quadratic, full attention model.

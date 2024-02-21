@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+We propose VisualBERT, a simple and flexible framework for modeling a broad range of vision-and-language tasks.

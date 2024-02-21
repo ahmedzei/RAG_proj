@@ -1,0 +1,8 @@
+Usage example
+thon
+
+import torch
+from transformers import AutoModel, AutoTokenizer
+phobert = AutoModel.from_pretrained("vinai/phobert-base")
+tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base")
+INPUT TEXT MUST BE ALREADY WORD-SEGMENTED!

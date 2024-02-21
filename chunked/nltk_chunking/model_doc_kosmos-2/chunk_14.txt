@@ -1,0 +1,3 @@
+caption, entities = processor.post_process_generation(generated_text)
+caption
+'An image of a snowman warming himself by a fire.'

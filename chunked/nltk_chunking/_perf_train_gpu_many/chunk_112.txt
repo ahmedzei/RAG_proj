@@ -1,0 +1,1 @@
+With chunks=1 you end up with the naive MP, which is inefficient.

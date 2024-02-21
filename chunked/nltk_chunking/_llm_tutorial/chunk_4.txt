@@ -1,0 +1,1 @@
+That is why we have a [~generation.GenerationConfig] file associated with each model, which contains a good default generative parameterization and is loaded alongside your model.

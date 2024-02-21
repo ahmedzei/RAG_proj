@@ -1,0 +1,6 @@
+
+ERNIE
+Overview
+ERNIE is a series of powerful models proposed by baidu, especially in Chinese tasks,
+including ERNIE1.0, ERNIE2.0,
+ERNIE3.0, ERNIE-Gram, ERNIE-health, etc.

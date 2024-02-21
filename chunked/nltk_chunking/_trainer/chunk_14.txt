@@ -1,0 +1,1 @@
+You only need to provide the essential components required for training, such as a model and a dataset, and the [Trainer] class handles everything else.

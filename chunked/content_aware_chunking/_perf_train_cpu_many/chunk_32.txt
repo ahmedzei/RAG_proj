@@ -1,0 +1,3 @@
+The CPU resource limits/requests in the yaml are defined in cpu units
+where 1 CPU unit is equivalent to 1 physical CPU core or 1 virtual core (depending on whether the node is a physical
+host or a VM).

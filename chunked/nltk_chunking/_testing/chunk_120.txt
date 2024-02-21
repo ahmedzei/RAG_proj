@@ -1,0 +1,3 @@
+In order to run the equivalent of rm -r safely, only subdirs of the project repository checkout are allowed if
+an explicit tmp_dir is used, so that by mistake no /tmp or similar important part of the filesystem will
+get nuked.

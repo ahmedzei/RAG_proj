@@ -1,0 +1,2 @@
+the base vocabulary size + the number of merges, is a hyperparameter
+to choose.

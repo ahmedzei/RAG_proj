@@ -1,0 +1,1 @@
+We will pass the image to the processor and then move the pixel values to GPU.

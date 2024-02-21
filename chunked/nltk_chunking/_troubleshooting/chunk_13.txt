@@ -1,0 +1,1 @@
+In this case, you should try to run 🤗 Transformers on offline mode to avoid the connection error.

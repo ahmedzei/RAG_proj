@@ -1,0 +1,2 @@
+ESMFold has similar accuracy to AlphaFold2 and RoseTTAFold for
+sequences with low perplexity that are well understood by the language model.

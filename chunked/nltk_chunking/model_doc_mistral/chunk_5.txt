@@ -1,0 +1,33 @@
+Usage tips
+Mistral-7B-v0.1 and Mistral-7B-Instruct-v0.1 can be found on the Huggingface Hub
+These ready-to-use checkpoints can be downloaded and used via the HuggingFace Hub:
+thon
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+device = "cuda" # the device to load the model onto
+model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-v0.1")
+tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1")
+prompt = "My favourite condiment is"
+model_inputs = tokenizer([prompt], return_tensors="pt").to(device)
+model.to(device)
+generated_ids = model.generate(**model_inputs, max_new_tokens=100, do_sample=True)
+tokenizer.batch_decode(generated_ids)[0]
+"The expected output"
+
+Raw weights for Mistral-7B-v0.1 and Mistral-7B-Instruct-v0.1 can be downloaded from:
+| Model Name                 | Checkpoint                                                                              |
+|----------------------------|-----------------------------------------------------------------------------------------|
+| Mistral-7B-v0.1          | Raw Checkpoint          |
+| Mistral-7B-Instruct-v0.1 | Raw Checkpoint |
+To use these raw checkpoints with HuggingFace you can use the convert_mistral_weights_to_hf.py script to convert them to the HuggingFace format:
+
+python src/transformers/models/mistral/convert_mistral_weights_to_hf.py \
+    --input_dir /path/to/downloaded/mistral/weights --model_size 7B --output_dir /output/path
+You can then load the converted model from the output/path:
+thon
+from transformers import MistralForCausalLM, LlamaTokenizer
+tokenizer = LlamaTokenizer.from_pretrained("/output/path")
+model = MistralForCausalLM.from_pretrained("/output/path")
+
+Combining Mistral and Flash Attention 2
+First, make sure to install the latest version of Flash Attention 2 to include the sliding window attention feature.

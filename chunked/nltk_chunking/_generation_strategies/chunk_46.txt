@@ -1,0 +1,10 @@
+For example, you can use the [TextStreamer] class to stream the output of generate() into
+your screen, one word at a time:
+thon
+
+from transformers import AutoModelForCausalLM, AutoTokenizer, TextStreamer
+tok = AutoTokenizer.from_pretrained("openai-community/gpt2")
+model = AutoModelForCausalLM.from_pretrained("openai-community/gpt2")
+inputs = tok(["An increasing sequence: one,"], return_tensors="pt")
+streamer = TextStreamer(tok)
+Despite returning the usual output, the streamer will also print the generated text to stdout.

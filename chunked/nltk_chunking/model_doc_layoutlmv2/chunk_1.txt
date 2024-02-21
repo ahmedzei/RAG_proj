@@ -1,0 +1,9 @@
+LayoutLMV2 improves LayoutLM to obtain
+state-of-the-art results across several document image understanding benchmarks:
+
+information extraction from scanned documents: the FUNSD dataset (a
+  collection of 199 annotated forms comprising more than 30,000 words), the CORD
+  dataset (a collection of 800 receipts for training, 100 for validation and 100 for testing), the SROIE dataset (a collection of 626 receipts for training and 347 receipts for testing)
+  and the Kleister-NDA dataset (a collection of non-disclosure
+  agreements from the EDGAR database, including 254 documents for training, 83 documents for validation, and 203
+  documents for testing).

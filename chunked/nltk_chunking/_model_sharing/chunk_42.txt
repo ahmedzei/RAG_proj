@@ -1,0 +1,1 @@
+Now click on the Files tab and click on the Add file button to upload a new file to your repository.

@@ -1,0 +1,4 @@
+Make sure you are logged into Hugging Face before you begin:
+
+huggingface-cli login
+Then add the push_to_hub argument to the script.

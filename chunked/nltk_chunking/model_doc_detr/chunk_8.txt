@@ -1,0 +1,2 @@
+The new model is conceptually simple and does not require a specialized library, unlike many
+other modern detectors.

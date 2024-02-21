@@ -1,0 +1,1 @@
+All released checkpoints were pre-trained and fine-tuned on ImageNet-1k only.

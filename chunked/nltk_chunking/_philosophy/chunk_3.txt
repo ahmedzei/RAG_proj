@@ -1,0 +1,7 @@
+The library was designed with two strong goals in mind:
+
+Be as easy and fast to use as possible:
+
+We strongly limited the number of user-facing abstractions to learn, in fact, there are almost no abstractions,
+    just three standard classes required to use each model: configuration,
+    models, and a preprocessing class (tokenizer for NLP, image processor for vision, feature extractor for audio, and processor for multimodal inputs).

@@ -1,0 +1,11 @@
+FocalNetConfig
+[[autodoc]] FocalNetConfig
+FocalNetModel
+[[autodoc]] FocalNetModel
+    - forward
+FocalNetForMaskedImageModeling
+[[autodoc]] FocalNetForMaskedImageModeling
+    - forward
+FocalNetForImageClassification
+[[autodoc]] FocalNetForImageClassification
+    - forward

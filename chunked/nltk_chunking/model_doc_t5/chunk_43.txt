@@ -1,0 +1,2 @@
+As a default, 100 sentinel tokens are available in
+[T5Tokenizer].

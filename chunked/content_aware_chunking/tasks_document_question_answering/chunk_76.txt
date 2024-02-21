@@ -1,0 +1,1 @@
+* tokenizer.cls_token_id will help find the special token at the beginning of the input.

@@ -1,0 +1,3 @@
+Speculative Decoding
+Speculative decoding (also known as assisted decoding) is a modification of the decoding strategies above, that uses an
+assistant model (ideally a much smaller one) with the same tokenizer, to generate a few candidate tokens.

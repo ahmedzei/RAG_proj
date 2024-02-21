@@ -1,0 +1,2 @@
+🤗 Transformers status: Transformers models are FX-trace-able via transformers.utils.fx, 
+which is a prerequisite for FlexFlow, however, changes are required on the FlexFlow side to make it work with Transformers models.

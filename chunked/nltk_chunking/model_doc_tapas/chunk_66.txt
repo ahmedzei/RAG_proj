@@ -1,0 +1,2 @@
+STEP 2: Prepare your data in the SQA format
+Second, no matter what you picked above, you should prepare your dataset in the SQA format.

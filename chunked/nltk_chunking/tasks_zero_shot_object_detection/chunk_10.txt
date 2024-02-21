@@ -1,0 +1,9 @@
+In this guide, you will learn how to use OWL-ViT:
+- to detect objects based on text prompts
+- for batch object detection
+- for image-guided object detection
+Before you begin, make sure you have all the necessary libraries installed:
+
+pip install -q transformers
+Zero-shot object detection pipeline
+The simplest way to try out inference with OWL-ViT is to use it in a [pipeline].

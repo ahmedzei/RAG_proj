@@ -1,0 +1,2 @@
+Decoder[[nlp-decoder]]
+GPT-2 is a decoder-only Transformer that predicts the next word in the sequence.

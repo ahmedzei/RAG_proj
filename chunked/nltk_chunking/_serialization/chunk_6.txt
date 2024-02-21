@@ -1,0 +1,2 @@
+By exposing a graph with standardized operators and data types, ONNX makes it easy to
+switch between frameworks.

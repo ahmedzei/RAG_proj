@@ -1,0 +1,3 @@
+As an example, if a trained Unigram tokenizer exhibits the vocabulary:
+["b", "g", "h", "n", "p", "s", "u", "ug", "un", "hug"],
+"hugs" could be tokenized both as ["hug", "s"], ["h", "ug", "s"] or ["h", "u", "g", "s"].

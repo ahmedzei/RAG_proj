@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=2,0 torchrun trainer-program.py 
+You can also set the CUDA_VISIBLE_DEVICES environment variable to an empty value to create an environment without GPUs.

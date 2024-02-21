@@ -1,0 +1,14 @@
+Enums and namedtuples
+[[autodoc]] utils.ExplicitEnum
+[[autodoc]] utils.PaddingStrategy
+[[autodoc]] utils.TensorType
+Special Decorators
+[[autodoc]] utils.add_start_docstrings
+[[autodoc]] utils.add_start_docstrings_to_model_forward
+[[autodoc]] utils.add_end_docstrings
+[[autodoc]] utils.add_code_sample_docstrings
+[[autodoc]] utils.replace_return_docstrings
+Special Properties
+[[autodoc]] utils.cached_property
+Other Utilities
+[[autodoc]] utils._LazyModule

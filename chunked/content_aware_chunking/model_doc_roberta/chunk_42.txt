@@ -1,0 +1,78 @@
+- Multiple choice task guide
+RobertaConfig
+[[autodoc]] RobertaConfig
+RobertaTokenizer
+[[autodoc]] RobertaTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+RobertaTokenizerFast
+[[autodoc]] RobertaTokenizerFast
+    - build_inputs_with_special_tokens
+
+RobertaModel
+[[autodoc]] RobertaModel
+    - forward
+RobertaForCausalLM
+[[autodoc]] RobertaForCausalLM
+    - forward
+RobertaForMaskedLM
+[[autodoc]] RobertaForMaskedLM
+    - forward
+RobertaForSequenceClassification
+[[autodoc]] RobertaForSequenceClassification
+    - forward
+RobertaForMultipleChoice
+[[autodoc]] RobertaForMultipleChoice
+    - forward
+RobertaForTokenClassification
+[[autodoc]] RobertaForTokenClassification
+    - forward
+RobertaForQuestionAnswering
+[[autodoc]] RobertaForQuestionAnswering
+    - forward
+
+TFRobertaModel
+[[autodoc]] TFRobertaModel
+    - call
+TFRobertaForCausalLM
+[[autodoc]] TFRobertaForCausalLM
+    - call
+TFRobertaForMaskedLM
+[[autodoc]] TFRobertaForMaskedLM
+    - call
+TFRobertaForSequenceClassification
+[[autodoc]] TFRobertaForSequenceClassification
+    - call
+TFRobertaForMultipleChoice
+[[autodoc]] TFRobertaForMultipleChoice
+    - call
+TFRobertaForTokenClassification
+[[autodoc]] TFRobertaForTokenClassification
+    - call
+TFRobertaForQuestionAnswering
+[[autodoc]] TFRobertaForQuestionAnswering
+    - call
+
+FlaxRobertaModel
+[[autodoc]] FlaxRobertaModel
+    - call
+FlaxRobertaForCausalLM
+[[autodoc]] FlaxRobertaForCausalLM
+    - call
+FlaxRobertaForMaskedLM
+[[autodoc]] FlaxRobertaForMaskedLM
+    - call
+FlaxRobertaForSequenceClassification
+[[autodoc]] FlaxRobertaForSequenceClassification
+    - call
+FlaxRobertaForMultipleChoice
+[[autodoc]] FlaxRobertaForMultipleChoice
+    - call
+FlaxRobertaForTokenClassification
+[[autodoc]] FlaxRobertaForTokenClassification
+    - call
+FlaxRobertaForQuestionAnswering
+[[autodoc]] FlaxRobertaForQuestionAnswering
+    - call

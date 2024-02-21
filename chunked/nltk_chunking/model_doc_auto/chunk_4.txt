@@ -1,0 +1,1 @@
+There is one class of AutoModel for each task, and for each backend (PyTorch, TensorFlow, or Flax).

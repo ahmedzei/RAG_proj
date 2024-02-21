@@ -1,0 +1,10 @@
+As a result, you can load a specific model version with the revision parameter:
+
+model = AutoModel.from_pretrained(
+     "julien-c/EsperBERTo-small", revision="v2.0.1"  # tag name, or branch name, or commit hash
+ )
+
+Files are also easily edited in a repository, and you can view the commit history as well as the difference:
+
+Setup
+Before sharing a model to the Hub, you will need your Hugging Face credentials.

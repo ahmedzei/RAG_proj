@@ -1,0 +1,2 @@
+In this paper, we introduce and share FlauBERT, a model learned on a very large and
+heterogeneous French corpus.

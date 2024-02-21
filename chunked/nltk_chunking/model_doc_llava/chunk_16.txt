@@ -1,0 +1,8 @@
+For better results, we recommend users to prompt the model with the correct prompt format: 
+
+"USER: <image>\n<prompt>ASSISTANT:"
+For multiple turns conversation:
+
+"USER: <image>\n<prompt1>ASSISTANT: <answer1>USER: <prompt2>ASSISTANT: <answer2>USER: <prompt3>ASSISTANT:"
+Using Flash Attention 2
+Flash Attention 2 is an even faster, optimized version of the previous optimization, please refer to the Flash Attention 2 section of performance docs.

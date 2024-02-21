@@ -1,0 +1,1 @@
+The hidden states are mapped to the closest codebook vector from the VQVAE in order to convert them to raw audio.

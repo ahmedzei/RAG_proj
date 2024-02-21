@@ -1,0 +1,1 @@
+ViT was soon followed by other vision models that could also handle dense vision tasks like segmentation as well as detection.

@@ -1,0 +1,2 @@
+If you're adding a new model, you
+  should create and upload to the hub a tiny version of it (with random weights) for integration tests.

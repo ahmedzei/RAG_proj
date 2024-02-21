@@ -1,0 +1,12 @@
+TrOCRConfig
+[[autodoc]] TrOCRConfig
+TrOCRProcessor
+[[autodoc]] TrOCRProcessor
+    - call
+    - from_pretrained
+    - save_pretrained
+    - batch_decode
+    - decode
+TrOCRForCausalLM
+[[autodoc]] TrOCRForCausalLM
+     - forward

@@ -1,0 +1,2 @@
+Longformer Self Attention
+Longformer self attention employs self attention on both a "local" context and a "global" context.

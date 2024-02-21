@@ -1,0 +1,4 @@
+not in fully bi-directional setting), use the perm_mask and
+  target_mapping inputs to control the attention span and outputs (see examples in
+  examples/pytorch/text-generation/run_generation.py)
+XLNet is one of the few models that has no sequence length limit.

@@ -1,0 +1,1 @@
+We call flush() to free GPU memory for our next experiment.

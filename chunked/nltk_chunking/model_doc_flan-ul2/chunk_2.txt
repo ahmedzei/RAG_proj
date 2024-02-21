@@ -1,0 +1,1 @@
+It was fine tuned using the "Flan" prompt tuning and dataset collection.

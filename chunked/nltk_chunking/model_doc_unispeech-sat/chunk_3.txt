@@ -1,0 +1,2 @@
+In
+this paper, we aim to improve the existing SSL framework for speaker representation learning.

@@ -1,0 +1,1 @@
+timm models are loaded with the [TimmBackbone] and [TimmBackboneConfig] classes.

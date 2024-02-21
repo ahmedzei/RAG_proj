@@ -1,0 +1,1 @@
+Learn more about FSDP sharding strategies, CPU offloading, and more with the [Trainer] in the Fully Sharded Data Parallel guide.

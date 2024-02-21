@@ -1,0 +1,3 @@
+Calculating PPL with fixed-length models
+If we weren't limited by a model's context size, we would evaluate the model's perplexity by autoregressively
+factorizing a sequence and conditioning on the entire preceding subsequence at each step, as shown below.

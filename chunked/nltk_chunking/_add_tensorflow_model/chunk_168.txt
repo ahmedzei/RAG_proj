@@ -1,0 +1,2 @@
+When the mismatch is very small in the output layers of the model (but potentially large in the hidden states), we
+might decide to ignore it in favor of distributing the model.

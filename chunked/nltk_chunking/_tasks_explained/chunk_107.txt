@@ -1,0 +1,1 @@
+Unlike cross-attention which can attend to the entire image, masked attention only focuses on a certain area of the image.

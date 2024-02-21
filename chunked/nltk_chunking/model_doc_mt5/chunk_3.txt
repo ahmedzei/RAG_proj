@@ -1,0 +1,3 @@
+We detail
+the design and modified training of mT5 and demonstrate its state-of-the-art performance on many multilingual
+benchmarks.

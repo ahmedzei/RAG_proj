@@ -1,0 +1,1 @@
+Since this is stage 1 optimizer states can be offloaded to CPU.

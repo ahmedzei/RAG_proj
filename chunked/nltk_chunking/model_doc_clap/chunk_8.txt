@@ -1,0 +1,1 @@
+To accomplish this target, we first release LAION-Audio-630K, a large collection of 633,526 audio-text pairs from different data sources.

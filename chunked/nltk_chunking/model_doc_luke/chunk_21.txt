@@ -1,0 +1,3 @@
+By
+    using Wikipedia entities as input tokens, LUKE outputs token representations enriched by the information stored in
+    the embeddings of these entities.

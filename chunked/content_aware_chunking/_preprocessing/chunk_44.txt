@@ -1,0 +1,9 @@
+",
+ ]
+encoded_input = tokenizer(batch_sentences, padding=True, truncation=True, return_tensors="tf")
+print(encoded_input)
+{'input_ids': ,
+ 'token_type_ids': ,
+ 'attention_mask': }
+
+Different pipelines support tokenizer arguments in their __call__() differently.

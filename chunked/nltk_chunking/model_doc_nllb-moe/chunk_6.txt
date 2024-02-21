@@ -1,0 +1,2 @@
+More specifically, we developed a conditional compute model based on Sparsely Gated Mixture of
+Experts that is trained on data obtained with novel and effective data mining techniques tailored for low-resource languages.

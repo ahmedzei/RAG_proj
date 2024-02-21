@@ -1,0 +1,2 @@
+Fixed
+sin/cos position embeddings are added both to the input of the encoder and the decoder.

@@ -1,0 +1,21 @@
+Resources
+
+Audio classification task guide
+Automatic speech recognition task guide
+
+UniSpeechConfig
+[[autodoc]] UniSpeechConfig
+UniSpeech specific outputs
+[[autodoc]] models.unispeech.modeling_unispeech.UniSpeechForPreTrainingOutput
+UniSpeechModel
+[[autodoc]] UniSpeechModel
+    - forward
+UniSpeechForCTC
+[[autodoc]] UniSpeechForCTC
+    - forward
+UniSpeechForSequenceClassification
+[[autodoc]] UniSpeechForSequenceClassification
+    - forward
+UniSpeechForPreTraining
+[[autodoc]] UniSpeechForPreTraining
+    - forward

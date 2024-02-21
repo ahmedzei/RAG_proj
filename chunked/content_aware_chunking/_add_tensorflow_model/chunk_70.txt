@@ -1,0 +1,1 @@
+Sadly, there is no prescription to convert a PyTorch model into TensorFlow.

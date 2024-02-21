@@ -1,0 +1,1 @@
+At the end of each encoder block is a patch merging layer for creating hierarchical representations.

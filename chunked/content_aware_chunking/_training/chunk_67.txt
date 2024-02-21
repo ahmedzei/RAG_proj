@@ -1,0 +1,5 @@
+model.fit(tf_dataset)
+
+Train in native PyTorch
+
+[Trainer] takes care of the training loop and allows you to fine-tune a model in a single line of code.

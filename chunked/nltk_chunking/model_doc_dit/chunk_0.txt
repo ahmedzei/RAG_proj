@@ -1,0 +1,4 @@
+
+DiT
+Overview
+DiT was proposed in DiT: Self-supervised Pre-training for Document Image Transformer by Junlong Li, Yiheng Xu, Tengchao Lv, Lei Cui, Cha Zhang, Furu Wei.

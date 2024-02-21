@@ -1,0 +1,2 @@
+Since the detection is happening in a forward hook, these reports are printed immediately after each forward
+returns.

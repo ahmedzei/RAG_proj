@@ -1,0 +1,2 @@
+An application of this architecture could be to leverage two pretrained [BertModel] as the encoder
+and decoder for a summarization model as was shown in: Text Summarization with Pretrained Encoders by Yang Liu and Mirella Lapata.

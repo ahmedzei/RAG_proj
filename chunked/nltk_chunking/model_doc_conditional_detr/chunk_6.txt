@@ -1,0 +1,1 @@
+Our approach, named conditional DETR, learns a conditional spatial query from the decoder embedding for decoder multi-head cross-attention.

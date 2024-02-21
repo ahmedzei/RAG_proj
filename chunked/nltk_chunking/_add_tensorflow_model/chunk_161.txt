@@ -1,0 +1,2 @@
+As a fallback, scan popular pages
+   like StackOverflow and GitHub issues.

@@ -1,0 +1,57 @@
+Text classification task guide
+Token classification task guide
+Causal language modeling task guide
+
+GPT2Config
+[[autodoc]] GPT2Config
+GPT2Tokenizer
+[[autodoc]] GPT2Tokenizer
+    - save_vocabulary
+GPT2TokenizerFast
+[[autodoc]] GPT2TokenizerFast
+GPT2 specific outputs
+[[autodoc]] models.gpt2.modeling_gpt2.GPT2DoubleHeadsModelOutput
+[[autodoc]] models.gpt2.modeling_tf_gpt2.TFGPT2DoubleHeadsModelOutput
+
+GPT2Model
+[[autodoc]] GPT2Model
+    - forward
+GPT2LMHeadModel
+[[autodoc]] GPT2LMHeadModel
+    - forward
+GPT2DoubleHeadsModel
+[[autodoc]] GPT2DoubleHeadsModel
+    - forward
+GPT2ForQuestionAnswering
+[[autodoc]] GPT2ForQuestionAnswering
+    - forward
+GPT2ForSequenceClassification
+[[autodoc]] GPT2ForSequenceClassification
+    - forward
+GPT2ForTokenClassification
+[[autodoc]] GPT2ForTokenClassification
+    - forward
+
+TFGPT2Model
+[[autodoc]] TFGPT2Model
+    - call
+TFGPT2LMHeadModel
+[[autodoc]] TFGPT2LMHeadModel
+    - call
+TFGPT2DoubleHeadsModel
+[[autodoc]] TFGPT2DoubleHeadsModel
+    - call
+TFGPT2ForSequenceClassification
+[[autodoc]] TFGPT2ForSequenceClassification
+    - call
+TFSequenceClassifierOutputWithPast
+[[autodoc]] modeling_tf_outputs.TFSequenceClassifierOutputWithPast
+TFGPT2Tokenizer
+[[autodoc]] TFGPT2Tokenizer
+
+FlaxGPT2Model
+[[autodoc]] FlaxGPT2Model
+    - call
+FlaxGPT2LMHeadModel
+[[autodoc]] FlaxGPT2LMHeadModel
+    - call

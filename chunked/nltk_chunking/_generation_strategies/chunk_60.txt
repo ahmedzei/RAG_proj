@@ -1,0 +1,1 @@
+To enable multinomial sampling set do_sample=True and num_beams=1.

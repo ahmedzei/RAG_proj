@@ -1,0 +1,6 @@
+
+OpenAI GPT
+
+Overview
+OpenAI GPT model was proposed in Improving Language Understanding by Generative Pre-Training
+by Alec Radford, Karthik Narasimhan, Tim Salimans and Ilya Sutskever.

@@ -1,0 +1,1 @@
+In this paper, we propose BLIP, a new VLP framework which transfers flexibly to both vision-language understanding and generation tasks.

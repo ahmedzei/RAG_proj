@@ -1,0 +1,1 @@
+You only need to replace the 🤗 Transformers AutoClass with its equivalent [~optimum.onnxruntime.ORTModel] for the task you're solving, and load a checkpoint in the ONNX format.

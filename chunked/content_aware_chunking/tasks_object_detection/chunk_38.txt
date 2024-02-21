@@ -1,0 +1,2 @@
+Pad images (which are now pixel_values) to the largest image in a batch, and create a corresponding pixel_mask
+to indicate which pixels are real (1) and which are padding (0).

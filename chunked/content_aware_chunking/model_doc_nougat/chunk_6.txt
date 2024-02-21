@@ -1,0 +1,1 @@
+We release the models and code to accelerate future work on scientific text recognition.

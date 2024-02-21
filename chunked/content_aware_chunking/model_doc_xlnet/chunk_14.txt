@@ -1,0 +1,1 @@
+It permutes the tokens in the sentence, then allows the model to use the last n tokens to predict the token n+1.

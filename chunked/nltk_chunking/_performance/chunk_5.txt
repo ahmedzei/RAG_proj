@@ -1,0 +1,2 @@
+Within each section you'll find separate guides for different hardware configurations, such as single GPU vs. multi-GPU 
+for training or CPU vs. GPU for inference.

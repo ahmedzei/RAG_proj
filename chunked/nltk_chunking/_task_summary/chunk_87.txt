@@ -1,0 +1,1 @@
+For a task like image captioning, the model learns relationships between image embeddings and text embeddings.

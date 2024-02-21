@@ -1,0 +1,3 @@
+Activations are usually 
+bandwidth-limited, and it’s typical for an activation to have to read more data in the backward than in the forward 
+(e.g.

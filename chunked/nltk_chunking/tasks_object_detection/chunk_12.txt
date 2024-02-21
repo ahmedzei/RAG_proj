@@ -1,0 +1,1 @@
+You'll also want to create dictionaries that map a label id to a label class (id2label) and the other way around (label2id).

@@ -1,0 +1,1 @@
+SageMaker combines TP with DP for a more efficient processing.

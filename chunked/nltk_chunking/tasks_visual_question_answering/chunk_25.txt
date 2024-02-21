@@ -1,0 +1,3 @@
+If you prefer to follow the 
+tutorial with your custom data, check out how to Create an image dataset
+guide in the 🤗 Datasets documentation.

@@ -1,0 +1,1 @@
+ORT uses optimization techniques like fusing common operations into a single node and constant folding to reduce the number of computations performed and speedup inference.

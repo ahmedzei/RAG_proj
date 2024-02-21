@@ -1,0 +1,20 @@
+from transformers import AutoModel
+model = AutoModel.from_pretrained("google-bert/bert-base-cased")
+
+If you save it using [~PreTrainedModel.save_pretrained], you will get a new folder with two files: the config of the model and its weights:
+
+import os
+import tempfile
+with tempfile.TemporaryDirectory() as tmp_dir:
+     model.save_pretrained(tmp_dir)
+     print(sorted(os.listdir(tmp_dir)))
+['config.json', 'pytorch_model.bin']
+
+Now let's use a maximum shard size of 200MB:
+
+with tempfile.TemporaryDirectory() as tmp_dir:
+     model.save_pretrained(tmp_dir, max_shard_size="200MB")
+     print(sorted(os.listdir(tmp_dir)))
+['config.json', 'pytorch_model-00001-of-00003.bin', 'pytorch_model-00002-of-00003.bin', 'pytorch_model-00003-of-00003.bin', 'pytorch_model.bin.index.json']
+
+On top of the configuration of the model, we see three different weights files, and an index.json file which is our index.

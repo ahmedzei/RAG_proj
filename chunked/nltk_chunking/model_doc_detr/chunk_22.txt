@@ -1,0 +1,2 @@
+Next, this is sent through the encoder, outputting encoder_hidden_states of the same shape (you can consider
+these as image features).

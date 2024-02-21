@@ -1,0 +1,3 @@
+However, text generation tasks can still be
+adapted to run on Inf1 according to this AWS Neuron MarianMT
+tutorial.

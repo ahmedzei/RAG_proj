@@ -1,0 +1,2 @@
+Don't hesitate to create an issue for your task at hand, the goal of the pipeline is to be easy to use and support most
+cases, so transformers could maybe support your use case.

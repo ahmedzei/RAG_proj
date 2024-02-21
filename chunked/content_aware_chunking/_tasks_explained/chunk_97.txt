@@ -1,0 +1,2 @@
+Image segmentation
+Mask2Former is a universal architecture for solving all types of image segmentation tasks.

@@ -1,0 +1,2 @@
+from transformers import pipeline
+text = "translate English to French: Hugging Face is a community-based open-source platform for machine learning."

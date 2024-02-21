@@ -1,0 +1,1 @@
+BetterTransformer accelerates inference with its fastpath (native PyTorch specialized implementation of Transformer functions) execution.

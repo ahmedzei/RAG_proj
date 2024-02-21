@@ -1,0 +1,3 @@
+Control codes were
+derived from structure that naturally co-occurs with raw text, preserving the advantages of unsupervised learning while
+providing more explicit control over text generation.

@@ -1,0 +1,1 @@
+Take a look at the following script to get a better idea of how to run ZeRO Inference without the [Trainer] on a model that won't fit on a single GPU.

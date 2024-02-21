@@ -1,0 +1,2 @@
+However, these models suffer from heavy model sizes and high latency such that they cannot
+be deployed to resource-limited mobile devices.

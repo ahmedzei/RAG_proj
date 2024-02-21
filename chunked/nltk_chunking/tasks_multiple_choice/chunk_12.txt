@@ -1,0 +1,1 @@
+Flatten these two lists so you can tokenize them, and then unflatten them afterward so each example has a corresponding input_ids, attention_mask, and labels field.

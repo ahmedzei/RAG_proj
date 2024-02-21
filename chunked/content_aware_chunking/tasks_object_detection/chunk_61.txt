@@ -1,0 +1,1 @@
+To use the torchvision evaluator, you'll need to prepare a ground truth COCO dataset.

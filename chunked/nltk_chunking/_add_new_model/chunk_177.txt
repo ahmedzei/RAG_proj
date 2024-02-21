@@ -1,0 +1,9 @@
+You should do the following:
+
+Create a branch with a descriptive name from your main branch
+
+git checkout -b add_brand_new_bert
+
+Commit the automatically generated code:
+
+git add .

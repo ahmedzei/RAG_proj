@@ -1,0 +1,1 @@
+For example, bitsandbytes uses Params4bit and Int8Param, which requires some extra attention when quantizing the model.

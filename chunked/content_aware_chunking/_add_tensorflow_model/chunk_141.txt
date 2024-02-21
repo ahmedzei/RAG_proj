@@ -1,0 +1,3 @@
+Run transformers-cli pt-to-tf --model-name foo/bar, where foo/bar is the name of the model repository
+   containing the PyTorch weights you want to convert
+3.

@@ -1,0 +1,2 @@
+Non-identical CUDA toolkits
+PyTorch comes with its own CUDA toolkit, but to use DeepSpeed with PyTorch, you need to have an identical version of CUDA installed system-wide.

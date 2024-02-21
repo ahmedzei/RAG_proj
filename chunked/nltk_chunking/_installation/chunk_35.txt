@@ -1,0 +1,1 @@
+You can also bypass loading a model from the Hub from each [~PreTrainedModel.from_pretrained] call with the [local_files_only] parameter.

@@ -1,0 +1,1 @@
+It is trained on Common Voice (version 6.1, December 2020 release) and VoxPopuli.

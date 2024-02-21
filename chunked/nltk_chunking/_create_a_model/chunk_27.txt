@@ -1,0 +1,7 @@
+Load your custom configuration attributes into the model:
+
+from transformers import DistilBertModel
+my_config = DistilBertConfig.from_pretrained("./your_model_save_path/config.json")
+model = DistilBertModel(my_config)
+
+This creates a model with random values instead of pretrained weights.

@@ -1,0 +1,3 @@
+Adam achieves 
+good convergence by storing the rolling average of the previous gradients; however, it adds an additional memory 
+footprint of the order of the number of model parameters.

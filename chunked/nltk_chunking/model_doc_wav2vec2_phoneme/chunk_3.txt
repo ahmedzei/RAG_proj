@@ -1,0 +1,2 @@
+This paper extends previous work on zero-shot cross-lingual transfer
+learning by fine-tuning a multilingually pretrained wav2vec 2.0 model to transcribe unseen languages.

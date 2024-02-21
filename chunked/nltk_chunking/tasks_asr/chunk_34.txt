@@ -1,0 +1,22 @@
+You can also manually replicate the results of the pipeline if you'd like:
+
+Load a processor to preprocess the audio file and transcription and return the input as PyTorch tensors:
+
+from transformers import AutoProcessor
+processor = AutoProcessor.from_pretrained("stevhliu/my_awesome_asr_mind_model")
+inputs = processor(dataset[0]["audio"]["array"], sampling_rate=sampling_rate, return_tensors="pt")
+
+Pass your inputs to the model and return the logits:
+
+from transformers import AutoModelForCTC
+model = AutoModelForCTC.from_pretrained("stevhliu/my_awesome_asr_mind_model")
+with torch.no_grad():
+     logits = model(**inputs).logits
+
+Get the predicted input_ids with the highest probability, and use the processor to decode the predicted input_ids back into text:
+
+import torch
+predicted_ids = torch.argmax(logits, dim=-1)
+transcription = processor.batch_decode(predicted_ids)
+transcription
+['I WOUL LIKE O SET UP JOINT ACOUNT WTH Y PARTNER']

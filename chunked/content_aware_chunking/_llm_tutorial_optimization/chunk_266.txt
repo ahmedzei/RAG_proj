@@ -1,0 +1,1 @@
+In addition to memory savings, MQA also leads to improved computational efficiency as explained in the following.

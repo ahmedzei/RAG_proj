@@ -1,0 +1,8 @@
+yaml
+{
+    "zero_optimization": {
+        "stage3_gather_16bit_weights_on_model_save": true
+    }
+}
+
+The full precision weights shouldn't be saved during training because it can require a lot of memory.

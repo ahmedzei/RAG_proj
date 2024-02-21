@@ -1,0 +1,1 @@
+Instead, the model is trained directly at a Unicode character-level.

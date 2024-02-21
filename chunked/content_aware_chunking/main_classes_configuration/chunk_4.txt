@@ -1,0 +1,4 @@
+PretrainedConfig
+[[autodoc]] PretrainedConfig
+    - push_to_hub
+    - all

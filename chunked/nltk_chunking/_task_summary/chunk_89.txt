@@ -1,0 +1,1 @@
+Unlike a token-level question answering task which takes text as input, document question answering takes an image of a document as input along with a question about the document and returns an answer.

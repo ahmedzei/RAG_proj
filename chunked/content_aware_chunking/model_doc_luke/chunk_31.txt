@@ -1,0 +1,2 @@
+You
+    can address NER using this model by inputting all possible entity spans in the text to the model.

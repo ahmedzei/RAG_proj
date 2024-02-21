@@ -1,0 +1,4 @@
+docstyle-ignore
+INSTALL_CONTENT = """
+Transformers installation
+!

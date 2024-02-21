@@ -1,0 +1,1 @@
+This is a simplified view, since the pipeline can handle automatically the batch to !

@@ -1,0 +1,1 @@
+The AutoGPTQ library implements the GPTQ algorithm, a post-training quantization technique where each row of the weight matrix is quantized independently to find a version of the weights that minimizes the error.

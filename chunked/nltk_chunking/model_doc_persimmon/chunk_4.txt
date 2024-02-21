@@ -1,0 +1,1 @@
+The authors showcase their approach to model evaluation, focusing on practical text generation, mirroring how users interact with language models.

@@ -1,0 +1,1 @@
+Quantizing the model to 4-bit can be done with the same API as before - this time by passing load_in_4bit=True instead of load_in_8bit=True.

@@ -1,0 +1,8 @@
+Causal language modeling task guide
+Translation task guide
+Summarization task guide
+
+PegasusConfig
+[[autodoc]] PegasusConfig
+PegasusTokenizer
+warning: add_tokens does not work at the moment.

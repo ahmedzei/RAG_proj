@@ -1,0 +1,1 @@
+Multi-GPU training section: explore this section to learn about further optimization methods that apply to a multi-GPU settings, such as data, tensor, and pipeline parallelism.

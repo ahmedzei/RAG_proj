@@ -1,0 +1,5 @@
+Visit huggingface.co/new to create a new repository:
+
+From here, add some information about your model:
+
+Select the owner of the repository.

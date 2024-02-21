@@ -1,0 +1,2 @@
+Next, make sure that the docstring added to src/transformers/models/brand_new_bert/modeling_brand_new_bert.py is
+correct and included all necessary inputs and outputs.

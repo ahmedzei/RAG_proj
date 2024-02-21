@@ -1,0 +1,3 @@
+For example, to load a ResNet backbone into a MaskFormer model with an instance segmentation head:
+
+Set use_pretrained_backbone=True to load pretrained ResNet weights for the backbone.

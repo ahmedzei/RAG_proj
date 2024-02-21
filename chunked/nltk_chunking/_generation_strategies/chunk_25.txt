@@ -1,0 +1,2 @@
+This strategy evaluates several hypotheses at each time step and eventually chooses the hypothesis that
+has the overall highest probability for the entire sequence.

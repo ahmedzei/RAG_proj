@@ -1,0 +1,2 @@
+Auto-modeling tests, which save and load large files to disk, are a good example of tests that are marked
+  as @slow.

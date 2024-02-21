@@ -1,0 +1,1 @@
+It turns out padding of images is quite important for detection.

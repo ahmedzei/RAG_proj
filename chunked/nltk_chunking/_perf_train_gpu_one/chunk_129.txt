@@ -1,0 +1,2 @@
+Read more
+* dynamo.optimize("fx2trt") -  Uses NVIDIA TensorRT for inference optimizations.

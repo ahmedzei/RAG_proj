@@ -1,0 +1,4 @@
+Use case 1: document image classification (training, inference) + token classification (inference), apply_ocr =
+True
+This is the simplest case, in which the processor (actually the image processor) will perform OCR on the image to get
+the words and normalized bounding boxes.

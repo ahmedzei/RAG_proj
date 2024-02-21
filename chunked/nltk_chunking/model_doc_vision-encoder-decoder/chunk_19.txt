@@ -1,0 +1,1 @@
+Initializing [VisionEncoderDecoderModel] from a pretrained encoder and decoder checkpoint requires the model to be fine-tuned on a downstream task, as has been shown in the Warm-starting-encoder-decoder blog post.

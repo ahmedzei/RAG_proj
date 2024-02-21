@@ -1,0 +1,3 @@
+*?>", "", sequence, count=1).strip()  # remove first task start token
+print(processor.token2json(sequence))
+{'question': 'When is the coffee break?

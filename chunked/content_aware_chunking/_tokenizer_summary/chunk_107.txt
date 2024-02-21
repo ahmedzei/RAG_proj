@@ -1,0 +1,2 @@
+Then, for each symbol in the vocabulary, the algorithm
+computes how much the overall loss would increase if the symbol was to be removed from the vocabulary.

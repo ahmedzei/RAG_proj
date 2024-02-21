@@ -1,0 +1,3 @@
+Now the output of the second sequence matches its actual output:
+
+By default, the tokenizer creates an attention_mask for you based on your specific tokenizer's defaults.

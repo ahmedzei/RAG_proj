@@ -1,0 +1,3 @@
+Overview
+The TAPEX model was proposed in TAPEX: Table Pre-training via Learning a Neural SQL Executor by Qian Liu,
+Bei Chen, Jiaqi Guo, Morteza Ziyadi, Zeqi Lin, Weizhu Chen, Jian-Guang Lou.

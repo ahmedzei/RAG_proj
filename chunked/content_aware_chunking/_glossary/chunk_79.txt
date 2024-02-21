@@ -1,0 +1,2 @@
+For image classification models, ([ViTForImageClassification]), the model expects a tensor of dimension
+  (batch_size) with each value of the batch corresponding to the expected label of each individual image.

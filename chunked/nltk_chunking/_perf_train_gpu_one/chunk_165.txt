@@ -1,0 +1,2 @@
+The main drawback of this approach is that it requires staggering amounts of GPU memory - almost an order of magnitude 
+larger than its dense equivalent.

@@ -1,0 +1,1 @@
+Transformers supports loading models quantized with the llm-awq and autoawq libraries.

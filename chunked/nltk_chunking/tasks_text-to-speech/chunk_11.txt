@@ -1,0 +1,1 @@
+Use your refined model for inference in one of two ways: using a pipeline or directly.

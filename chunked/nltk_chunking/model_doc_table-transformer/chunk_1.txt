@@ -1,0 +1,2 @@
+The authors introduce a new dataset, PubTables-1M, to benchmark progress in table extraction from unstructured documents,
+as well as table structure recognition and functional analysis.

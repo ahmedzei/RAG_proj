@@ -1,0 +1,3 @@
+python
+trainer.evaluate(processed_datasets["test"])
+On test set, our model reaches 72 percent accuracy.

@@ -1,0 +1,2 @@
+Benefits of torch.compile
+Depending on the model and the GPU, torch.compile() yields up to 30% speed-up during inference.

@@ -1,0 +1,1 @@
+Note: You don't need to have CUDA installed.

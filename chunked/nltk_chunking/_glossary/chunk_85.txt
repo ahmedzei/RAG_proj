@@ -1,0 +1,2 @@
+large language models (LLM)
+A generic term that refers to transformer language models (GPT-3, BLOOM, OPT) that were trained on a large quantity of data.

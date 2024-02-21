@@ -1,0 +1,1 @@
+num_clips (int): overall number of clips to uniformly sample from the given video.

@@ -1,0 +1,3 @@
+Usage tips
+
+BLIP-2 can be used for conditional text generation given an image and an optional text prompt.

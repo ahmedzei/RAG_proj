@@ -1,0 +1,2 @@
+In this guide, we will see how to create a custom pipeline and share it on the Hub or add it to the
+🤗 Transformers library.

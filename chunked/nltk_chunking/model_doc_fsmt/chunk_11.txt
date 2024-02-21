@@ -1,0 +1,3 @@
+Implementation Notes
+
+FSMT uses source and target vocabulary pairs that aren't combined into one.

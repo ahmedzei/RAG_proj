@@ -1,0 +1,2 @@
+Applying them on our example, spaCy and Moses would output something like:
+["Do", "n't", "you", "love", "🤗", "Transformers", "?

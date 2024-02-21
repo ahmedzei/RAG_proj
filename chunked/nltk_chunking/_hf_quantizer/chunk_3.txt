@@ -1,0 +1,1 @@
+The [HfQuantizer] is designed as an internal helper class for adding a quantization method instead of something you apply to every PyTorch module.

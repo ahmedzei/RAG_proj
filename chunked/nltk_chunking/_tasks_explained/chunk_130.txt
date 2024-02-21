@@ -1,0 +1,2 @@
+Natural language processing
+The Transformer was initially designed for machine translation, and since then, it has practically become the default architecture for solving all NLP tasks.

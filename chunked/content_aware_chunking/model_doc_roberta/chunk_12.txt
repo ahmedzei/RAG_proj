@@ -1,0 +1,4 @@
+Usage tips
+
+This implementation is the same as [BertModel] with a tiny embeddings tweak as well as a setup
+  for Roberta pretrained models.

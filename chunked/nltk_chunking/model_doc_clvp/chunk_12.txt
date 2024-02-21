@@ -1,0 +1,3 @@
+Brief Explanation:
+
+The [ClvpTokenizer] tokenizes the text input, and the [ClvpFeatureExtractor] extracts the log mel-spectrogram from the desired audio.

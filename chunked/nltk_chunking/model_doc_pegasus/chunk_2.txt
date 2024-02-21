@@ -1,0 +1,1 @@
+Pegasus achieves SOTA summarization performance on all 12 downstream tasks, as measured by ROUGE and human eval.

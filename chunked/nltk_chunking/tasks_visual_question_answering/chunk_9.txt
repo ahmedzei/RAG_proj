@@ -1,0 +1,3 @@
+In this guide you'll learn how to:
+
+Fine-tune a classification VQA model, specifically ViLT, on the Graphcore/vqa dataset.

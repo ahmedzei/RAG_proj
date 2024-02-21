@@ -1,0 +1,10 @@
+)
+tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+inputs = tokenizer(prompt, return_tensors="pt")
+model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
+outputs = model.generate(**inputs, num_beams=5, num_beam_groups=5, max_new_tokens=30, diversity_penalty=1.0)
+tokenizer.decode(outputs[0], skip_special_tokens=True)
+'The Design Principles are a set of universal design principles that can be applied to any location, climate and
+culture, and they allow us to design the'
+
+This guide illustrates the main parameters that enable various decoding strategies.

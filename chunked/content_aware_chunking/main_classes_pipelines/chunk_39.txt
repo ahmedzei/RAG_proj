@@ -1,0 +1,14 @@
+In short:
+python
+preprocessed = pipe.preprocess(inputs)
+model_outputs = pipe.forward(preprocessed)
+outputs = pipe.postprocess(model_outputs)
+Now becomes:
+python
+all_model_outputs = []
+for preprocessed in pipe.preprocess(inputs):
+    model_outputs = pipe.forward(preprocessed)
+    all_model_outputs.append(model_outputs)
+outputs = pipe.postprocess(all_model_outputs)
+This should be very transparent to your code because the pipelines are used in
+the same way.

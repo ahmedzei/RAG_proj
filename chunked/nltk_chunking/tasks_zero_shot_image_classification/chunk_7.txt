@@ -1,0 +1,8 @@
+Instantiate a pipeline from a checkpoint on the Hugging Face Hub:
+thon
+
+from transformers import pipeline
+checkpoint = "openai/clip-vit-large-patch14"
+detector = pipeline(model=checkpoint, task="zero-shot-image-classification")
+
+Next, choose an image you'd like to classify.

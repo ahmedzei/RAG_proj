@@ -1,0 +1,1 @@
+In addition, there's LayoutXLM, which is a multilingual version of LayoutLMv2.

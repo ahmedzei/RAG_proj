@@ -1,0 +1,4 @@
+Usage tips
+
+Wav2Vec2Phoneme uses the exact same architecture as Wav2Vec2
+Wav2Vec2Phoneme is a speech model that accepts a float array corresponding to the raw waveform of the speech signal.

@@ -1,0 +1,1 @@
+A notebook on how to finetune LayoutLMv2 for token-classification on FUNSD dataset.

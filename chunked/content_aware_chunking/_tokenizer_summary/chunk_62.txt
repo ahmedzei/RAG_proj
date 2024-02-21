@@ -1,0 +1,2 @@
+BPE relies on a pre-tokenizer that splits the training data into
+words.

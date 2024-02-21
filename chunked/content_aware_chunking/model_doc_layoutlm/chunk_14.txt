@@ -1,0 +1,3 @@
+Each bounding box should be in (x0, y0, x1, y1) format, where
+  (x0, y0) corresponds to the position of the upper left corner in the bounding box, and (x1, y1) represents the
+  position of the lower right corner.

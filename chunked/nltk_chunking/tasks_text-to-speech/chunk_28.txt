@@ -1,0 +1,2 @@
+However, in Dutch, certain characters like à are 
+used to stress syllables.

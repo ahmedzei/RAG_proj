@@ -1,0 +1,2 @@
+Implementation details
+The main differences compared to GPT2.

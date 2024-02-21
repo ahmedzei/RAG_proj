@@ -1,0 +1,1 @@
+To ensure xla_generate() always operates with the same input shapes, you can specify the padding arguments when calling the tokenizer.

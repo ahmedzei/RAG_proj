@@ -1,0 +1,1 @@
+The sequence classification head is a linear layer on top of the pooled outputs.

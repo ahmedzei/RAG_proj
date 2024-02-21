@@ -1,0 +1,1 @@
+To do so, a grid of points is generated and overlaid on the image for inference.

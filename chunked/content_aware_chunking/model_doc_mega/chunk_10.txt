@@ -1,0 +1,3 @@
+Usage tips
+
+MEGA can perform quite well with relatively few parameters.

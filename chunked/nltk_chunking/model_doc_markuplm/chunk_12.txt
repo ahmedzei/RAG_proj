@@ -1,0 +1,1 @@
+These are the XPATH tags and subscripts respectively for each token in the input sequence.

@@ -1,0 +1,1 @@
+Each speech candidate is passed through the speech encoder ([ClvpEncoder]) which converts them into a vector representation, and the text encoder ([ClvpEncoder]) converts the text tokens into the same latent space.

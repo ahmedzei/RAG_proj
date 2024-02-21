@@ -1,0 +1,19 @@
+PVTv1 on ImageNet-1K
+
+| Model variant  |Size |Acc@1|Params (M)|
+|--------------------|:-------:|:-------:|:------------:|
+| PVT-Tiny           |    224  |   75.1  |     13.2     |
+| PVT-Small          |    224  |   79.8  |     24.5     |
+| PVT-Medium         |    224  |   81.2  |     44.2     |
+| PVT-Large          |    224  |   81.7  |     61.4     |
+PvtConfig
+[[autodoc]] PvtConfig
+PvtImageProcessor
+[[autodoc]] PvtImageProcessor
+    - preprocess
+PvtForImageClassification
+[[autodoc]] PvtForImageClassification
+    - forward
+PvtModel
+[[autodoc]] PvtModel
+    - forward

@@ -1,0 +1,1 @@
+A blog post on BERT Text Classification in a different language.

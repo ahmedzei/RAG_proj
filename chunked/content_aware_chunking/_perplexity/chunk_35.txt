@@ -1,0 +1,2 @@
+This is not only a more favorable score, but is calculated in a way that is
+closer to the true autoregressive decomposition of a sequence likelihood.

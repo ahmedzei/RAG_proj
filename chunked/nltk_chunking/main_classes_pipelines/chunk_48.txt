@@ -1,0 +1,34 @@
+DepthEstimationPipeline
+[[autodoc]] DepthEstimationPipeline
+    - call
+    - all
+ImageClassificationPipeline
+[[autodoc]] ImageClassificationPipeline
+    - call
+    - all
+ImageSegmentationPipeline
+[[autodoc]] ImageSegmentationPipeline
+    - call
+    - all
+ImageToImagePipeline
+[[autodoc]] ImageToImagePipeline
+    - call
+    - all
+ObjectDetectionPipeline
+[[autodoc]] ObjectDetectionPipeline
+    - call
+    - all
+VideoClassificationPipeline
+[[autodoc]] VideoClassificationPipeline
+    - call
+    - all
+ZeroShotImageClassificationPipeline
+[[autodoc]] ZeroShotImageClassificationPipeline
+    - call
+    - all
+ZeroShotObjectDetectionPipeline
+[[autodoc]] ZeroShotObjectDetectionPipeline
+    - call
+    - all
+Natural Language Processing
+Pipelines available for natural language processing tasks include the following.

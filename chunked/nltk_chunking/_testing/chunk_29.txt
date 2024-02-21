@@ -1,0 +1,3 @@
+pip install pytest-xdist
+To enter the mode: pytest -f or pytest --looponfail
+File changes are detected by looking at looponfailroots root directories and all of their contents (recursively).

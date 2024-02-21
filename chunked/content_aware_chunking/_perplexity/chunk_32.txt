@@ -1,0 +1,1 @@
+When we run the above with stride = 1024, i.e.

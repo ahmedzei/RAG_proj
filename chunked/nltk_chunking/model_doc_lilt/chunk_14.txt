@@ -1,0 +1,1 @@
+As lilt-roberta-en-base uses the same vocabulary as LayoutLMv3, one can use [LayoutLMv3TokenizerFast] to prepare data for the model.

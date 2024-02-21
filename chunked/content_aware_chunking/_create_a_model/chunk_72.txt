@@ -1,0 +1,6 @@
+from transformers import MaskFormerConfig, MaskFormerForInstanceSegmentation, ResNetConfig
+backbone_config = ResNetConfig.from_pretrained("microsoft/resnet-50")
+config = MaskFormerConfig(backbone_config=backbone_config)
+model = MaskFormerForInstanceSegmentation(config)
+
+Set use_pretrained_backbone=False to randomly initialize a ResNet backbone.

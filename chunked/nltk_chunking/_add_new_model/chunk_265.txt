@@ -1,0 +1,8 @@
+Run this test file to verify that all common
+tests pass:
+
+pytest tests/models/brand_new_bert/test_modeling_brand_new_bert.py
+Having fixed all common tests, it is now crucial to ensure that all the nice work you have done is well tested, so that
+
+a) The community can easily understand your work by looking at specific tests of brand_new_bert
+b) Future changes to your model will not break any important feature of the model.

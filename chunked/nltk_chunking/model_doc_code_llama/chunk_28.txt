@@ -1,0 +1,15 @@
+result = ""
+for c in s:
+    if ord(c) < 128:
+        result += c
+return result
+
+If you only want the infilled part:
+thon
+
+from transformers import pipeline
+import torch
+generator = pipeline("text-generation",model="codellama/CodeLlama-7b-hf",torch_dtype=torch.float16, device_map="auto")
+generator('def remove_non_ascii(s: str) -> str:\n    """ \n    return result', max_new_tokens = 128, return_type = 1)
+
+Under the hood, the tokenizer automatically splits by <FILL_ME> to create a formatted input string that follows the original training pattern.

@@ -1,0 +1,6 @@
+There are two types of language modeling:
+
+causal: the model's objective is to predict the next token in a sequence, and future tokens are masked
+
+from transformers import pipeline
+prompt = "Hugging Face is a community-based open-source platform for machine learning."

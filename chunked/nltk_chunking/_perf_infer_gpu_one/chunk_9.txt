@@ -1,0 +1,1 @@
+FlashAttention-2 is also supported on AMD GPUs and current support is limited to Instinct MI210 and Instinct MI250.

@@ -1,0 +1,2 @@
+Now it's time to add tests to make sure that your model behaves as
+expected.

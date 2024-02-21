@@ -1,0 +1,1 @@
+PyTorch traces a model to return a [ScriptFunction] that is optimized with just-in-time compilation (JIT).

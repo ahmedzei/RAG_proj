@@ -1,0 +1,2 @@
+This approach
+involves distributing groups of model layers across multiple GPUs by assigning specific layers to specific GPUs with .to().

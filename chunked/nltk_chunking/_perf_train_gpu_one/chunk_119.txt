@@ -1,0 +1,1 @@
+torch.compile has a growing list of backends, which can be found in by calling torchdynamo.list_backends(), each of which with its optional dependencies.

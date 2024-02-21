@@ -1,0 +1,1 @@
+If either the bounding boxes or class labels aren't correct, a loss is incurred.

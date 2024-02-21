@@ -1,0 +1,1 @@
+Fused modules cannot be combined with other optimization techniques such as FlashAttention-2.

@@ -1,0 +1,5 @@
+
+Table Transformer
+Overview
+The Table Transformer model was proposed in PubTables-1M: Towards comprehensive table extraction from unstructured documents by
+Brandon Smock, Rohith Pesala, Robin Abraham.

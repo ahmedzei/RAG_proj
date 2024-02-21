@@ -1,0 +1,4 @@
+Usage tips
+
+MobileBERT is a model with absolute position embeddings so it's usually advised to pad the inputs on the right rather
+  than the left.

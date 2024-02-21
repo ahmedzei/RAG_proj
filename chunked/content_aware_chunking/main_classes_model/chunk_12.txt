@@ -1,0 +1,40 @@
+When passing a device_map, low_cpu_mem_usage is automatically set to True, so you don't need to specify it:
+
+from transformers import AutoModelForSeq2SeqLM
+t0pp = AutoModelForSeq2SeqLM.from_pretrained("bigscience/T0pp", device_map="auto")
+
+You can inspect how the model was split across devices by looking at its hf_device_map attribute:
+py
+t0pp.hf_device_map
+python out
+{'shared': 0,
+ 'decoder.embed_tokens': 0,
+ 'encoder': 0,
+ 'decoder.block.0': 0,
+ 'decoder.block.1': 1,
+ 'decoder.block.2': 1,
+ 'decoder.block.3': 1,
+ 'decoder.block.4': 1,
+ 'decoder.block.5': 1,
+ 'decoder.block.6': 1,
+ 'decoder.block.7': 1,
+ 'decoder.block.8': 1,
+ 'decoder.block.9': 1,
+ 'decoder.block.10': 1,
+ 'decoder.block.11': 1,
+ 'decoder.block.12': 1,
+ 'decoder.block.13': 1,
+ 'decoder.block.14': 1,
+ 'decoder.block.15': 1,
+ 'decoder.block.16': 1,
+ 'decoder.block.17': 1,
+ 'decoder.block.18': 1,
+ 'decoder.block.19': 1,
+ 'decoder.block.20': 1,
+ 'decoder.block.21': 1,
+ 'decoder.block.22': 'cpu',
+ 'decoder.block.23': 'cpu',
+ 'decoder.final_layer_norm': 'cpu',
+ 'decoder.dropout': 'cpu',
+ 'lm_head': 'cpu'}
+You can also write your own device map following the same format (a dictionary layer name to device).

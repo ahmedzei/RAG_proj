@@ -1,0 +1,2 @@
+If the desired batch size exceeds the limits of the GPU memory, 
+the memory optimization techniques, such as gradient accumulation, can help.

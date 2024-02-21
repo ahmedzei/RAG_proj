@@ -1,0 +1,2 @@
+The Inf1 instances are powered by the AWS Inferentia chip, a custom-built hardware
+accelerator, specializing in deep learning inferencing workloads.

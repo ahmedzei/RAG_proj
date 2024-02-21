@@ -1,0 +1,2 @@
+Each object query will look for a particular object
+in the image.

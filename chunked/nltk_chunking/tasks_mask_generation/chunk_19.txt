@@ -1,0 +1,1 @@
+Moreover, SAM only enables batching over points and not the images.

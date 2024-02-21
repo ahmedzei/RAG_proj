@@ -1,0 +1,2 @@
+ZeRO Inference
+ZeRO Inference places the model weights in CPU or NVMe memory to avoid burdening the GPU which makes it possible to run inference with huge models on a GPU.

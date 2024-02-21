@@ -1,0 +1,1 @@
+This is what is sometimes called horizontal parallelism, as the splitting happens on horizontal level.

@@ -1,0 +1,7 @@
+So we actually use
+$$\tilde{N}{i} = e^{-M{i}} \hat{N}{i} \hbox{  and  } \tilde{D}{i} = e^{-M_{i}} \hat{D}_{i}$$
+defined by the following recurrent formulas:
+$$\tilde{N}{0} = 0 \hbox{  and  } \tilde{N}{j+1} = e^{K_{j} - q} V_{j} + e^{w + M_{j} - q} \tilde{N}{j} \hbox{  where  } q = \max(K{j}, w + M_{j})$$
+and
+$$\tilde{D}{0} = 0 \hbox{  and  } \tilde{D}{j+1} = e^{K_{j} - q} + e^{w + M_{j} - q} \tilde{D}{j} \hbox{  where  } q = \max(K{j}, w + M_{j})$$
+and \(M_{j+1} = q\).

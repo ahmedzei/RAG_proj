@@ -1,0 +1,1 @@
+Modern CPUs such as 3rd and 4th Gen Intel® Xeon® Scalable processors natively support bf16, so you should get more performance out of the box by enabling mixed precision training with bf16.

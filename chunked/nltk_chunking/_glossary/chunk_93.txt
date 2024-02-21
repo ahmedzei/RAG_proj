@@ -1,0 +1,3 @@
+P
+pipeline
+A pipeline in 🤗 Transformers is an abstraction referring to a series of steps that are executed in a specific order to preprocess and transform data and return a prediction from a model.

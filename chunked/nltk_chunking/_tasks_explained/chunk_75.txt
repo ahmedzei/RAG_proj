@@ -1,0 +1,1 @@
+There are fewer activation and normalization layers,  the activation function is switched to GELU instead of ReLU, and it uses LayerNorm instead of BatchNorm.

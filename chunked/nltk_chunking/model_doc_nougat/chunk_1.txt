@@ -1,0 +1,2 @@
+Nougat uses the same architecture as Donut, meaning an image Transformer
+encoder and an autoregressive text Transformer decoder to translate scientific PDFs to markdown, enabling easier access to them.

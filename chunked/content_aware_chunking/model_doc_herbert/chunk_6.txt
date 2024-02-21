@@ -1,0 +1,2 @@
+It consists of a diverse set of tasks, adopted from existing
+datasets for named entity recognition, question-answering, textual entailment, and others.

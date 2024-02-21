@@ -1,0 +1,17 @@
+StableLM 3B 4E1T and StableLM Zephyr 3B can be found on the Huggingface Hub
+The following code snippet demonstrates how to use StableLM 3B 4E1T for inference:
+thon
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+device = "cuda" # the device to load the model onto
+tokenizer = AutoTokenizer.from_pretrained("stabilityai/stablelm-3b-4e1t")
+model = AutoModelForCausalLM.from_pretrained("stabilityai/stablelm-3b-4e1t")
+model.to(device)
+model_inputs = tokenizer("The weather is always wonderful in", return_tensors="pt").to(model.device)
+generated_ids = model.generate(**model_inputs, max_length=32, do_sample=True)
+responses = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+responses
+['The weather is always wonderful in Santa Barbara and, for visitors hoping to make the move to our beautiful seaside city, this town offers plenty of great places to']
+
+Combining StableLM and Flash Attention 2
+First, make sure to install the latest version of Flash Attention v2.

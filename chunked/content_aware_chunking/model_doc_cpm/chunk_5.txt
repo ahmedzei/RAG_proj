@@ -1,0 +1,4 @@
+To the best
+of our knowledge, CPM, with 2.6 billion parameters and 100GB Chinese training data, is the largest Chinese pre-trained
+language model, which could facilitate several downstream Chinese NLP tasks, such as conversation, essay generation,
+cloze test, and language understanding.

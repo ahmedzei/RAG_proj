@@ -1,0 +1,1 @@
+When using Keras methods like fit() and predict(), you can enable XLA simply by passing the jit_compile argument to model.compile().

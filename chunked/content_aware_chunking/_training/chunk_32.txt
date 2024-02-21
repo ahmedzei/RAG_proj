@@ -1,0 +1,1 @@
+You will fine-tune this new model head on your sequence classification task, transferring the knowledge of the pretrained model to it.

@@ -1,0 +1,7 @@
+For example, you can replace the audio-to-audio generation snippet with the model dedicated to the S2ST task, the rest is exactly the same code: 
+thon
+
+from transformers import SeamlessM4Tv2ForSpeechToSpeech
+model = SeamlessM4Tv2ForSpeechToSpeech.from_pretrained("facebook/seamless-m4t-v2-large")
+
+Or you can replace the text-to-text generation snippet with the model dedicated to the T2TT task, you only have to remove generate_speech=False.

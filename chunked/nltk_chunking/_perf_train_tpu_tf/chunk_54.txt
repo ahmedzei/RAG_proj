@@ -1,0 +1,2 @@
+XLA Rule #1: Your code cannot have “data-dependent conditionals”
+What that means is that any if statement cannot depend on values inside a tf.Tensor.

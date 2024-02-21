@@ -1,0 +1,2 @@
+It's a bidirectional transformer based on the BERT model, which is compressed and accelerated using several
+approaches.

@@ -1,0 +1,1 @@
+[Trainer] automatically configure amp based on the values of args.fp16_backend and args.fp16_opt_level.

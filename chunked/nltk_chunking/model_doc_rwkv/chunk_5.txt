@@ -1,0 +1,7 @@
+Usage example
+
+import torch
+from transformers import AutoTokenizer, RwkvConfig, RwkvModel
+model = RwkvModel.from_pretrained("sgugger/rwkv-430M-pile")
+tokenizer = AutoTokenizer.from_pretrained("sgugger/rwkv-430M-pile")
+inputs = tokenizer("This is an example.

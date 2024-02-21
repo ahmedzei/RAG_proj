@@ -1,0 +1,1 @@
+In addition to the sharding strategies and wrapping options specified above, you can add the parameters shown below to the file.

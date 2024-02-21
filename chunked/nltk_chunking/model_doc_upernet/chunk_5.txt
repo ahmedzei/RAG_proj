@@ -1,0 +1,1 @@
+We benchmark our framework on Unified Perceptual Parsing and show that it is able to effectively segment a wide range of concepts from images.

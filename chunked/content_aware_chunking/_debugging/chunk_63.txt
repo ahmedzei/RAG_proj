@@ -1,0 +1,19 @@
+Let's match the report to the code from models/t5/modeling_t5.py:
+thon
+class T5DenseGatedGeluDense(nn.Module):
+    def init(self, config):
+        super().init()
+        self.wi_0 = nn.Linear(config.d_model, config.d_ff, bias=False)
+        self.wi_1 = nn.Linear(config.d_model, config.d_ff, bias=False)
+        self.wo = nn.Linear(config.d_ff, config.d_model, bias=False)
+        self.dropout = nn.Dropout(config.dropout_rate)
+        self.gelu_act = ACT2FN["gelu_new"]
+def forward(self, hidden_states):
+    hidden_gelu = self.gelu_act(self.wi_0(hidden_states))
+    hidden_linear = self.wi_1(hidden_states)
+    hidden_states = hidden_gelu * hidden_linear
+    hidden_states = self.dropout(hidden_states)
+    hidden_states = self.wo(hidden_states)
+    return hidden_states
+
+Now it's easy to see the dropout call, and all the previous calls as well.

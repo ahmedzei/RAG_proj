@@ -1,0 +1,5 @@
+
+VisionTextDualEncoder
+Overview
+The [VisionTextDualEncoderModel] can be used to initialize a vision-text dual encoder model with
+any pretrained vision autoencoding model as the vision encoder (e.g.

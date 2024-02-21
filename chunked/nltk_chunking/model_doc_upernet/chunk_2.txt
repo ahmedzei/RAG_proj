@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Humans recognize the visual world at multiple levels: we effortlessly categorize scenes and detect objects inside, while also identifying the textures and surfaces of the objects along with their different compositional parts.

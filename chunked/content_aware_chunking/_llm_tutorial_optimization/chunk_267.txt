@@ -1,0 +1,1 @@
+In auto-regressive decoding, large key-value vectors need to be reloaded, concatenated with the current key-value vector pair to be then fed into the \( \mathbf{q}_c\mathbf{K}^T \) computation at every step.

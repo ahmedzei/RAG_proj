@@ -1,0 +1,17 @@
+thon
+test_this1.py
+import unittest
+from parameterized import parameterized
+class TestMathUnitTest(unittest.TestCase):
+    @parameterized.expand(
+        [
+            ("negative", -1.5, -2.0),
+            ("integer", 1, 1.0),
+            ("large fraction", 1.6, 1),
+        ]
+    )
+    def test_floor(self, name, input, expected):
+        assert_equal(math.floor(input), expected)
+
+Now, by default this test will be run 3 times, each time with the last 3 arguments of test_floor being assigned the
+corresponding arguments in the parameter list.

@@ -1,0 +1,4 @@
+
+Perplexity of fixed-length models
+[[open-in-colab]]
+Perplexity (PPL) is one of the most common metrics for evaluating language models.

@@ -1,0 +1,1 @@
+You can also experiment by defining any hyperparameters you want when initializing [TapasConfig], and then create a [TFTapasForQuestionAnswering] based on that configuration.

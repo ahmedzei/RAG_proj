@@ -1,0 +1,1 @@
+You can still use the ones with absolute position embeddings by passing in an additional argument revision="no_reset" when calling the from_pretrained() method.

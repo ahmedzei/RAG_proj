@@ -1,0 +1,1 @@
+It uses a combination of local windowed attention (attention only calculated from fixed window size around each token) and global attention (only for specific task tokens like [CLS] for classification) to create a sparse attention matrix instead of a full attention matrix.

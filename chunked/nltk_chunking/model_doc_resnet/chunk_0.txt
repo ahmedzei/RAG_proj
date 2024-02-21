@@ -1,0 +1,4 @@
+
+ResNet
+Overview
+The ResNet model was proposed in Deep Residual Learning for Image Recognition by Kaiming He, Xiangyu Zhang, Shaoqing Ren and Jian Sun.

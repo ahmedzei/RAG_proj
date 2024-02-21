@@ -1,0 +1,1 @@
+It supports bytefallback, which is only available in tokenizers==0.14.0 for the fast tokenizer.

@@ -1,0 +1,1 @@
+WikiSQL-supervised: this dataset is based on WikiSQL with the model being given the ground truth aggregation operator during training.

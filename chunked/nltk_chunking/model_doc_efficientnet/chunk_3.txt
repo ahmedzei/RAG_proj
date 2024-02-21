@@ -1,0 +1,1 @@
+In this paper, we systematically study model scaling and identify that carefully balancing network depth, width, and resolution can lead to better performance.

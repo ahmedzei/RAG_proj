@@ -1,0 +1,3 @@
+model.fit(tokenized_data, labels)
+
+You don't have to pass a loss argument to your models when you compile() them!

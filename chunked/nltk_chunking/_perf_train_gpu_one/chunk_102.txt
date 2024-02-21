@@ -1,0 +1,2 @@
+By default, everything happens in the main process, and it might not be able to read the data from disk fast 
+enough, and thus create a bottleneck, leading to GPU under-utilization.

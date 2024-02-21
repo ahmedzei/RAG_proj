@@ -1,0 +1,4 @@
+
+Open-Llama
+
+This model is in maintenance mode only, we don't accept any new PRs changing its code.

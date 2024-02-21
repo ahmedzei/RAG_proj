@@ -1,0 +1,4 @@
+In practice, the parameter config.axial_pos_embds_dim is set to a tuple \((d^1, d^2)\) which sum has to be
+equal to config.hidden_size and config.axial_pos_shape is set to a tuple \((n_s^1, n_s^2)\) which
+product has to be equal to config.max_embedding_size, which during training has to be equal to the sequence
+length of the input_ids.

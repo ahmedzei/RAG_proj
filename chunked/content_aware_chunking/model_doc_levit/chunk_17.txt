@@ -1,0 +1,1 @@
+They also draw inspiration from convolution neural networks to use activation maps with decreasing resolutions to increase the efficiency.

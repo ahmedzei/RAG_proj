@@ -1,0 +1,2 @@
+Overall, LeViT significantly outperforms existing convnets and vision transformers with respect
+to the speed/accuracy tradeoff.

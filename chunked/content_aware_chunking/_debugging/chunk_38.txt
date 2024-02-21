@@ -1,0 +1,1 @@
+You will find a lot more details inside the diagnostics script and even a recipe to how you could run it in a SLURM environment.

@@ -1,0 +1,3 @@
+Meaning you don't have to care
+about how many forward passes you inputs are actually going to trigger, you can optimize the batch_size
+independently of the inputs.

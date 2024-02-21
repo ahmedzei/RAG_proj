@@ -1,0 +1,48 @@
+Example where it's mostly a speedup:
+
+thon
+from transformers import pipeline
+from torch.utils.data import Dataset
+from tqdm.auto import tqdm
+pipe = pipeline("text-classification", device=0)
+class MyDataset(Dataset):
+    def len(self):
+        return 5000
+def __getitem__(self, i):
+    return "This is a test"
+
+dataset = MyDataset()
+for batch_size in [1, 8, 64, 256]:
+    print("-" * 30)
+    print(f"Streaming batch_size={batch_size}")
+    for out in tqdm(pipe(dataset, batch_size=batch_size), total=len(dataset)):
+        pass
+
+On GTX 970
+
+Streaming no batching
+100%|██████████████████████████████████████████████████████████████████████| 5000/5000 [00:26<00:00, 187.52it/s]
+
+Streaming batch_size=8
+100%|█████████████████████████████████████████████████████████████████████| 5000/5000 [00:04<00:00, 1205.95it/s]
+
+Streaming batch_size=64
+100%|█████████████████████████████████████████████████████████████████████| 5000/5000 [00:02<00:00, 2478.24it/s]
+
+Streaming batch_size=256
+100%|█████████████████████████████████████████████████████████████████████| 5000/5000 [00:01<00:00, 2554.43it/s]
+(diminishing returns, saturated the GPU)
+
+Example where it's most a slowdown:
+thon
+class MyDataset(Dataset):
+    def len(self):
+        return 5000
+def __getitem__(self, i):
+    if i % 64 == 0:
+        n = 100
+    else:
+        n = 1
+    return "This is a test" * n
+
+This is a occasional very long sentence compared to the other.

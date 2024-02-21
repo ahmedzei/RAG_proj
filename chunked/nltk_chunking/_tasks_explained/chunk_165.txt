@@ -1,0 +1,2 @@
+Text generation
+GPT-2 is a decoder-only model pretrained on a large amount of text.

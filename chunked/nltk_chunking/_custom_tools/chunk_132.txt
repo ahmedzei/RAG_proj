@@ -1,0 +1,1 @@
+We will re-use the image we generated in Transformers Agents Quickstart.

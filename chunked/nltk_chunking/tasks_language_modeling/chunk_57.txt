@@ -1,0 +1,5 @@
+Come up with a prompt you'd like to generate text from:
+
+prompt = "Somatic hypermutation allows the immune system to"
+
+The simplest way to try out your finetuned model for inference is to use it in a [pipeline].

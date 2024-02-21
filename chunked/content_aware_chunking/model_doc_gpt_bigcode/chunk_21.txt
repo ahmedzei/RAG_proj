@@ -1,0 +1,1 @@
+- Use the memory layout (self.num_heads, 3, self.head_dim) instead of (3, self.num_heads, self.head_dim) for the QKV tensor with MHA.

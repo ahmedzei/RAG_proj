@@ -1,0 +1,3 @@
+Unigram
+Unigram is a subword tokenization algorithm introduced in Subword Regularization: Improving Neural Network Translation
+Models with Multiple Subword Candidates (Kudo, 2018).

@@ -1,0 +1,2 @@
+Simply build a list of messages, with role
+and content keys, and then pass it to the [~PreTrainedTokenizer.apply_chat_template] method.

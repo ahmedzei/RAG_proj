@@ -1,0 +1,1 @@
+candidate1 = "The law does not apply to croissants and brioche."

@@ -1,0 +1,2 @@
+When calling [~transformers.LayoutLMv2Model.from_pretrained], a warning will be printed with a long list of
+  parameter names that are not initialized.

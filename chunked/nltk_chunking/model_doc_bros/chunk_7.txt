@@ -1,0 +1,1 @@
+BrosForTokenClassification has a simple linear layer on top of BrosModel.

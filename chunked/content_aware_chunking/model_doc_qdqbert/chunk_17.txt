@@ -1,0 +1,3 @@
+After setting static member of
+TensorQuantizer to use Pytorch’s own fake quantization functions, fake quantized model can be exported to ONNX, follow
+the instructions in torch.onnx.

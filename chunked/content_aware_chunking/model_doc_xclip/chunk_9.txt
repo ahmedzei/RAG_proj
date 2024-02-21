@@ -1,0 +1,1 @@
+Extensive experiments demonstrate that our approach is effective and can be generalized to different video recognition scenarios.

@@ -1,0 +1,7 @@
+thon
+from PIL import Image
+import requests
+img_url = "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/bee.jpg"
+image = Image.open(requests.get(img_url, stream=True).raw).convert("RGB")
+
+Let's segment everything.

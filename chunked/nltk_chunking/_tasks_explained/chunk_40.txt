@@ -1,0 +1,1 @@
+If you're familiar with the original Transformer, then you're already most of the way toward understanding ViT.

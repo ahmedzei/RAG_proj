@@ -1,0 +1,1 @@
+It only uses masked language modeling on sentences coming from one language.

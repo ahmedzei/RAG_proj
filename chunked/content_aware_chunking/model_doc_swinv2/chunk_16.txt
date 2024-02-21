@@ -1,0 +1,11 @@
+Swinv2Config
+[[autodoc]] Swinv2Config
+Swinv2Model
+[[autodoc]] Swinv2Model
+    - forward
+Swinv2ForMaskedImageModeling
+[[autodoc]] Swinv2ForMaskedImageModeling
+    - forward
+Swinv2ForImageClassification
+[[autodoc]] transformers.Swinv2ForImageClassification
+    - forward

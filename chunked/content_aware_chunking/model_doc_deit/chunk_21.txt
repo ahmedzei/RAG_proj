@@ -1,0 +1,2 @@
+(2) is also called "fine-tuning with distillation", because one relies on a
+  teacher that has already been fine-tuned on the downstream dataset.

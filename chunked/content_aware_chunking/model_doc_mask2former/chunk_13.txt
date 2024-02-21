@@ -1,0 +1,3 @@
+Usage tips
+
+Mask2Former uses the same preprocessing and postprocessing steps as MaskFormer.

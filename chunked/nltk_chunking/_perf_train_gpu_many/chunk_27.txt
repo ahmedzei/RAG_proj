@@ -1,0 +1,7 @@
+DataParallel vs DistributedDataParallel
+To understand the key differences in inter-GPU communication overhead between the two methods, let's review the processes per batch:
+DDP:
+
+At the start time the main process replicates the model once from GPU 0 to the rest of GPUs
+Then for each batch:
+Each GPU directly consumes its mini-batch of data.

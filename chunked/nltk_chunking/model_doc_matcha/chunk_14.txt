@@ -1,0 +1,1 @@
+google/matcha-plotqa-v1: MatCha model fine-tuned on PlotQA dataset.

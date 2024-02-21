@@ -1,0 +1,3 @@
+Image classification
+IDEFICS is capable of classifying images into different categories without being explicitly trained on data containing 
+labeled examples from those specific categories.

@@ -1,0 +1,2 @@
+During training, both BART and T5 will make the appropriate
+  decoder_input_ids and decoder attention masks internally.

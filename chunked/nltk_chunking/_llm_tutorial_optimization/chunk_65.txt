@@ -1,0 +1,5 @@
+python
+bytes_to_giga_bytes(torch.cuda.max_memory_allocated())
+Output:
+15.219234466552734
+Significantly less!

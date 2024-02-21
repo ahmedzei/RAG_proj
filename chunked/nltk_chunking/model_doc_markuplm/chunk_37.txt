@@ -1,0 +1,14 @@
+thon
+
+from transformers import MarkupLMProcessor
+processor = MarkupLMProcessor.from_pretrained("microsoft/markuplm-base")
+processor.parse_html = False
+nodes = ["hello", "world", "how", "are"]
+xpaths = ["/html/body/div/li[1]/div/span", "/html/body/div/li[1]/div/span", "html/body", "html/body/div"]
+node_labels = [1, 2, 2, 1]
+encoding = processor(nodes=nodes, xpaths=xpaths, node_labels=node_labels, return_tensors="pt")
+print(encoding.keys())
+dict_keys(['input_ids', 'token_type_ids', 'attention_mask', 'xpath_tags_seq', 'xpath_subs_seq', 'labels'])
+
+Use case 4: web page question answering (inference), parse_html=True
+For question answering tasks on web pages, you can provide a question to the processor.

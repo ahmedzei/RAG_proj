@@ -1,0 +1,2 @@
+I am a cat'
+With sampling, the output becomes more creative!

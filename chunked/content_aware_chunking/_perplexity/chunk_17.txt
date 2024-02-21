@@ -1,0 +1,2 @@
+This is a closer approximation to the true decomposition of the sequence probability and will typically yield a more
+favorable score.

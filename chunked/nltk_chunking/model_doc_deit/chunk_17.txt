@@ -1,0 +1,2 @@
+The distillation token is learned through backpropagation, by interacting with
+  the class ([CLS]) and patch tokens through the self-attention layers.

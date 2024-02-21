@@ -1,0 +1,1 @@
+MVP is supervised pre-trained using labeled datasets.

@@ -1,0 +1,1 @@
+Such module is lightweight and can be plugged into pretrained language-image models seamlessly.

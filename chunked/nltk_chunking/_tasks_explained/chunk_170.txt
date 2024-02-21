@@ -1,0 +1,1 @@
+The input embeddings are passed through multiple decoder blocks to output some final hidden state.

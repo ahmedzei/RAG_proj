@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+Self-supervised learning (SSL) achieves great success in speech recognition, while limited exploration has been
+attempted for other speech processing tasks.

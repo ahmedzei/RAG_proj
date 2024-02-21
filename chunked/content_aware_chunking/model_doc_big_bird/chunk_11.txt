@@ -1,0 +1,2 @@
+As a consequence of the capability to handle longer context,
+BigBird drastically improves performance on various NLP tasks such as question answering and summarization.

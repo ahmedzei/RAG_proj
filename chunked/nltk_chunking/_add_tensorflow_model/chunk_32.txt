@@ -1,0 +1,4 @@
+If the specific model you want to use with TensorFlow already has a TensorFlow architecture implementation in
+🤗 Transformers but is lacking weights, feel free to jump straight into the
+weight conversion section
+of this page.

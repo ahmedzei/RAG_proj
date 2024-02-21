@@ -1,0 +1,1 @@
+One or multiple text queries per image can be used to perform zero-shot text-conditioned object detection.

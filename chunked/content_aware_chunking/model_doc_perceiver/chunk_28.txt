@@ -1,0 +1,1 @@
+So let's say one wants to perform masked language modeling (BERT-style) with the Perceiver.

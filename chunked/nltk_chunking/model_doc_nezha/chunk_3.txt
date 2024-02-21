@@ -1,0 +1,3 @@
+The current version of NEZHA is based on BERT with a collection of proven improvements, which include Functional 
+Relative Positional Encoding as an effective positional encoding scheme, Whole Word Masking strategy,
+Mixed Precision Training and the LAMB Optimizer in training the models.

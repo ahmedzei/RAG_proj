@@ -1,0 +1,2 @@
+Combining optimization techniques
+You can combine optimization techniques, and use CPU offload, half-precision and Flash Attention 2 (or 🤗 Better Transformer) all at once.

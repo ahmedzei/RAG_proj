@@ -1,0 +1,3 @@
+⚡️ Inference
+
+An interactive-demo on TrOCR handwritten character recognition.

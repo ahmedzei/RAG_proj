@@ -1,0 +1,1 @@
+If you have access to a machine with multiple GPUs, these approaches are still valid, plus you can leverage additional methods outlined in the multi-GPU section.

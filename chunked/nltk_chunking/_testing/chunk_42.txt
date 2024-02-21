@@ -1,0 +1,5 @@
+Run tests in a random order
+
+pip install pytest-random-order
+Important: the presence of pytest-random-order will automatically randomize tests, no configuration change or
+command line options is required.

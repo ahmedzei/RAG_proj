@@ -1,0 +1,1 @@
+Then the whole process is repeated for layer Lb, then Lc forward-wise, and then backward Lc -> Lb -> La.

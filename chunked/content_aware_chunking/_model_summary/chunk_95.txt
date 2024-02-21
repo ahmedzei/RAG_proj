@@ -1,0 +1,1 @@
+TrOCR simplifies the process using an end-to-end Transformer.

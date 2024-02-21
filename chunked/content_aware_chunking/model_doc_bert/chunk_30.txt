@@ -1,0 +1,1 @@
+[FlaxBertForTokenClassification] is supported by this example script.

@@ -1,0 +1,2 @@
+LiLT allows to combine any pre-trained RoBERTa text encoder with a lightweight Layout Transformer, to enable LayoutLM-like document understanding for many
+languages.

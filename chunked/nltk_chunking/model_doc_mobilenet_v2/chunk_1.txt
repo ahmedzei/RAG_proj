@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+In this paper we describe a new mobile architecture, MobileNetV2, that improves the state of the art performance of mobile models on multiple tasks and benchmarks as well as across a spectrum of different model sizes.

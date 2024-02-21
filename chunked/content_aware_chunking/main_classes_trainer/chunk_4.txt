@@ -1,0 +1,2 @@
+The [Trainer] class is optimized for 🤗 Transformers models and can have surprising behaviors
+when used with other models.

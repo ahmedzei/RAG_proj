@@ -1,0 +1,1 @@
+These methods are called before creating the quantized model to ensure users use the right configuration.

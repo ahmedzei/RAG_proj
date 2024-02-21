@@ -1,0 +1,2 @@
+Writing a new model
+is no small feat, but hopefully this guide will make it less of a rollercoaster 🎢 and more of a walk in the park 🚶.

@@ -1,0 +1,2 @@
+pooling
+An operation that reduces a matrix into a smaller matrix, either by taking the maximum or average of the pooled dimension(s).

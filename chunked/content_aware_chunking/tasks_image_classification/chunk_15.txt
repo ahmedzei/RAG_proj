@@ -1,0 +1,11 @@
+images = [
+         val_data_augmentation(convert_to_tf_tensor(image.convert("RGB"))) for image in example_batch["image"]
+     ]
+     example_batch["pixel_values"] = [tf.transpose(tf.squeeze(image)) for image in images]
+     return example_batch
+
+Use 🤗 Datasets [~datasets.Dataset.set_transform] to apply the transformations on the fly:
+py
+food["train"].set_transform(preprocess_train)
+food["test"].set_transform(preprocess_val)
+As a final preprocessing step, create a batch of examples using DefaultDataCollator.

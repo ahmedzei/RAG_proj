@@ -1,0 +1,2 @@
+Using Flash Attention 2
+Flash Attention 2 is an even faster, optimized version of the previous optimization.

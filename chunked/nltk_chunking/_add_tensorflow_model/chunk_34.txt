@@ -1,0 +1,1 @@
+Before starting the work on a TensorFlow model architecture, double-check that there is no ongoing effort to do so.

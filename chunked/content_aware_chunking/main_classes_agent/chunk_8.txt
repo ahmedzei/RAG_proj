@@ -1,0 +1,13 @@
+These types have three specific purposes:
+
+Calling to_raw on the type should return the underlying object
+Calling to_string on the type should return the object as a string: that can be the string in case of an AgentText
+  but will be the path of the serialized version of the object in other instances
+Displaying it in an ipython kernel should display the object correctly
+
+AgentText
+[[autodoc]] transformers.tools.agent_types.AgentText
+AgentImage
+[[autodoc]] transformers.tools.agent_types.AgentImage
+AgentAudio
+[[autodoc]] transformers.tools.agent_types.AgentAudio

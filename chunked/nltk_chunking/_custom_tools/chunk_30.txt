@@ -1,0 +1,6 @@
+image = image_generator("A banner showing " + answer)
+[]
+Task: "Draw me a picture of rivers and lakes"
+I will use the following
+`
+The introduction (the text before "Tools:") explains precisely how the model shall behave and what it should do.

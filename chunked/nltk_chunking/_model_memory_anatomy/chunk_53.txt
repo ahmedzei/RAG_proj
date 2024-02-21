@@ -1,0 +1,2 @@
+activation forward reads once, writes once, activation backward reads twice, gradOutput and output of the forward, 
+and writes once, gradInput).

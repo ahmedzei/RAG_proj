@@ -1,0 +1,9 @@
+To use bitsandbytes, make sure you have the following libraries installed:
+
+pip install transformers accelerate bitsandbytes>0.37.0
+
+pip install bitsandbytes>=0.39.0
+pip install --upgrade accelerate
+pip install --upgrade transformers
+
+Now you can quantize a model with the load_in_8bit or load_in_4bit parameters in the [~PreTrainedModel.from_pretrained] method.

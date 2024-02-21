@@ -1,0 +1,7 @@
+checkpoint = "google-t5/t5-small"
+tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+inputs = tokenizer(prompt, return_tensors="pt")
+model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
+outputs = model.generate(**inputs, num_beams=5, do_sample=True)
+tokenizer.decode(outputs[0], skip_special_tokens=True)
+'Das Haus ist wunderbar.'

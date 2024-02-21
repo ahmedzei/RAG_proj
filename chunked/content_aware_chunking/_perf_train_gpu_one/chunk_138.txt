@@ -1,0 +1,3 @@
+Using 🤗 Accelerate
+With 🤗 Accelerate you can use the above methods while gaining full 
+control over the training loop and can essentially write the loop in pure PyTorch with some minor modifications.

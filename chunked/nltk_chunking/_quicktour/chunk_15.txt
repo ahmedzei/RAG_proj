@@ -1,0 +1,2 @@
+Use another model and tokenizer in the pipeline
+The [pipeline] can accommodate any model from the Hub, making it easy to adapt the [pipeline] for other use-cases.

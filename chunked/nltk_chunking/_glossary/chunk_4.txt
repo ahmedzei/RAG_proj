@@ -1,0 +1,1 @@
+sequence_b = "This is a rather long sequence.

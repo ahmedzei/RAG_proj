@@ -1,0 +1,1 @@
+Donut is pretrained to read text by predicting the next word based on the image and text annotations.

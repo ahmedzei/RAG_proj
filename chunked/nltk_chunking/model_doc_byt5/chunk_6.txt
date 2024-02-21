@@ -1,0 +1,3 @@
+We carefully characterize the trade-offs in terms of parameter count,
+training FLOPs, and inference speed, and show that byte-level models are competitive with their token-level
+counterparts.

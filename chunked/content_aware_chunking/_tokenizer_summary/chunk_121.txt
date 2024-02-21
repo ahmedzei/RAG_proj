@@ -1,0 +1,1 @@
+XLM uses a specific Chinese, Japanese, and Thai pre-tokenizer).

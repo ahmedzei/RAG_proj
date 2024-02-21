@@ -1,0 +1,2 @@
+CANINE outperforms a comparable mBERT model by
+2.8 F1 on TyDi QA, a challenging multilingual benchmark, despite having 28% fewer model parameters.

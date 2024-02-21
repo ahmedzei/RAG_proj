@@ -1,0 +1,2 @@
+Instead, we can use the [LayoutLMv2Processor] on the original data for both OCR and
+tokenization.

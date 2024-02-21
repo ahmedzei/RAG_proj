@@ -1,0 +1,2 @@
+However, when plotting spectrograms as an image using the matplotlib library, 
+the y-axis is flipped and the spectrograms appear upside down.

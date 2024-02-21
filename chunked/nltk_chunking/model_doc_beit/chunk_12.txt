@@ -1,0 +1,2 @@
+Moreover, large-size BEiT obtains
+86.3% only using ImageNet-1K, even outperforming ViT-L with supervised pre-training on ImageNet-22K (85.2%).

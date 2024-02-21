@@ -1,0 +1,2 @@
+Swin2R improves the SwinIR model by incorporating Swin Transformer v2 layers which mitigates issues such as training instability, resolution gaps between pre-training
+and fine-tuning, and hunger on data.

@@ -1,0 +1,1 @@
+It's a pretrained Chinese language model that is robust under various forms of adversarial attacks.

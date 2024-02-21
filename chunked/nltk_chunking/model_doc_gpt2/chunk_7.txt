@@ -1,0 +1,2 @@
+GPT-2 is one of them and is available in five
+different sizes: small, medium, large, xl and a distilled version of the small checkpoint: distilgpt-2.

@@ -1,0 +1,1 @@
+We analyze different variants of the latter image-based prompts in detail.

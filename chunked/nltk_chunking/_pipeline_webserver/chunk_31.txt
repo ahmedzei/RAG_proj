@@ -1,0 +1,3 @@
+Blocking the main thread
+Currently PyTorch is not async aware, and computation will block the main
+thread while running.

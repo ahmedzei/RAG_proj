@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+While the Transformer architecture has become the de-facto standard for natural language processing tasks, its
+applications to computer vision remain limited.

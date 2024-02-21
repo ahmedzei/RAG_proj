@@ -1,0 +1,1 @@
+Use [YolosImageProcessor] for preparing images (and optional targets) for the model.

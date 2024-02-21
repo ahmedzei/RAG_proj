@@ -1,0 +1,2 @@
+Not all models need
+special tokens, but if they do, the tokenizer automatically adds them for you.

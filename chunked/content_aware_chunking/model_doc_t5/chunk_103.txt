@@ -1,0 +1,3 @@
+Summarization task guide
+
+[FlaxT5ForConditionalGeneration] is supported by this example script for training T5 with a span-masked language model objective.

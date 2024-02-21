@@ -1,0 +1,2 @@
+).convert("RGB")
+question = "What's his name?"

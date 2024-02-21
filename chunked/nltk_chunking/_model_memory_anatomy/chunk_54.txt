@@ -1,0 +1,1 @@
+As you can see, there are potentially a few places where we could save GPU memory or speed up operations.

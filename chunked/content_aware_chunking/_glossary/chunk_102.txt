@@ -1,0 +1,1 @@
+Pooling layers are commonly found between convolutional layers to downsample the feature representation.

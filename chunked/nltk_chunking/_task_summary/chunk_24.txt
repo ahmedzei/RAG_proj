@@ -1,0 +1,1 @@
+Each particular combination of pixel values describes the colors of an image.

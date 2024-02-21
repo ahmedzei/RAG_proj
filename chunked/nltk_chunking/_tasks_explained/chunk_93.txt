@@ -1,0 +1,1 @@
+An object detection head is added on top of DETR to find the class label and the coordinates of the bounding box.

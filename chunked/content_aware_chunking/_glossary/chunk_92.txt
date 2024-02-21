@@ -1,0 +1,3 @@
+Natural language understanding (NLU)
+All tasks related to understanding what is in a text (for instance classifying the
+whole text, individual words).

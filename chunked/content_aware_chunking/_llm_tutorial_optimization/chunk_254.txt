@@ -1,0 +1,1 @@
+While the required peak memory for the \( \mathbf{QK}^T \) matrix is significantly reduced, holding the key-value cache in memory can become very memory expensive for long input sequences or multi-turn chat.

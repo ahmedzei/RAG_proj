@@ -1,0 +1,3 @@
+MT5TokenizerFast
+[[autodoc]] MT5TokenizerFast
+See [T5TokenizerFast] for all details.

@@ -1,0 +1,3 @@
+Although large unlabeled text corpora are abundant,
+labeled data for learning these specific tasks is scarce, making it challenging for discriminatively trained models to
+perform adequately.

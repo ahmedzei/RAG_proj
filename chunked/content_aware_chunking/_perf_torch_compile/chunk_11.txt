@@ -1,0 +1,1 @@
+We warm up the GPU before inference and take the mean time of 300 inferences, using the same image each time.

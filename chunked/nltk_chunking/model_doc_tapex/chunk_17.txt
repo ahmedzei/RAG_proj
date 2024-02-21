@@ -1,0 +1,1 @@
+Sentences + tables are presented to the model as sentence + " " + linearized table.

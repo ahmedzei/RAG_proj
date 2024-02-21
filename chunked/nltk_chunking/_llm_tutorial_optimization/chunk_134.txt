@@ -1,0 +1,4 @@
+We append the original text prompt"Question: Please write a function in Python that transforms bytes to Giga bytes.\n\nAnswer: Here"`
+python
+long_prompt = 10 * system_prompt + prompt
+We instantiate our model again in bfloat16 precision.

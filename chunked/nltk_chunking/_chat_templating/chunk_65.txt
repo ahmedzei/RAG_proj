@@ -1,0 +1,2 @@
+Some models, like BlenderBot and LLaMA, don't have any
+special tokens before bot responses.

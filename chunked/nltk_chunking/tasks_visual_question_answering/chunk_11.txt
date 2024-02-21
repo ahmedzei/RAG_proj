@@ -1,0 +1,1 @@
+Run zero-shot VQA inference with a generative model, like BLIP-2.

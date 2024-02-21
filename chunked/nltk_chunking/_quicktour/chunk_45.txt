@@ -1,0 +1,7 @@
+For text (or sequence) classification, you should load [TFAutoModelForSequenceClassification`]:
+
+from transformers import TFAutoModelForSequenceClassification
+model_name = "nlptown/bert-base-multilingual-uncased-sentiment"
+tf_model = TFAutoModelForSequenceClassification.from_pretrained(model_name)
+
+See the task summary for tasks supported by an [AutoModel] class.

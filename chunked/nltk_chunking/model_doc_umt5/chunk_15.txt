@@ -1,0 +1,1 @@
+UmT5 is based on mT5, with a non-shared relative positional bias that is computed for each layer.

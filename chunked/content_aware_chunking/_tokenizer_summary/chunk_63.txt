@@ -1,0 +1,1 @@
+Pretokenization can be as simple as space tokenization, e.g.

@@ -1,0 +1,10 @@
+PreTrainedTokenizerBase
+[[autodoc]] tokenization_utils_base.PreTrainedTokenizerBase
+    - call
+    - all
+SpecialTokensMixin
+[[autodoc]] tokenization_utils_base.SpecialTokensMixin
+Enums and namedtuples
+[[autodoc]] tokenization_utils_base.TruncationStrategy
+[[autodoc]] tokenization_utils_base.CharSpan
+[[autodoc]] tokenization_utils_base.TokenSpan

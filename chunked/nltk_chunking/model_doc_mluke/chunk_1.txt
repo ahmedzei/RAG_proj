@@ -1,0 +1,2 @@
+It's a multilingual extension
+of the LUKE model trained on the basis of XLM-RoBERTa.

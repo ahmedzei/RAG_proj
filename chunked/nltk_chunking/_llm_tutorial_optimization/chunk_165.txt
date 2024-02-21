@@ -1,0 +1,3 @@
+As an example, the \( \text{Softmax}(\mathbf{QK}^T) \) matrix of the text input sequence "Hello", "I", "love", "you" could look as follows:
+
+Each word token is given a probability mass at which it attends all other word tokens and, therefore is put into relation with all other word tokens.

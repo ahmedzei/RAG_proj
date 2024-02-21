@@ -1,0 +1,3 @@
+Usage tips
+
+DETR uses so-called object queries to detect objects in an image.

@@ -1,0 +1,1 @@
+Unlike text, a raw audio waveform can't be neatly split into discrete chunks the way a sentence can be divided into words.

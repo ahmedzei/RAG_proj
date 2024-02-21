@@ -1,0 +1,2 @@
+Only when the other GPUs begin to complete their work, GPU0 starts to work again doing the backward path for chunks 
+3, 2, 1 and 0 (B0,3, B0,2, B0,1, B0,0).

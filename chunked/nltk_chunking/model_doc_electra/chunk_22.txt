@@ -1,0 +1,2 @@
+The ELECTRA checkpoints saved using Google Research's implementation
+  contain both the generator and discriminator.

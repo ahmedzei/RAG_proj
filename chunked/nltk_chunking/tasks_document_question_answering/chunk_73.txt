@@ -1,0 +1,9 @@
+Riehl
+start_index 17
+end_index 18
+
+Once examples are encoded, however, they will look like this:
+
+encoding = tokenizer(example["question"], example["words"], example["boxes"])
+tokenizer.decode(encoding["input_ids"])
+[CLS] who is in cc in this letter?

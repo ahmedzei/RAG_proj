@@ -1,0 +1,3 @@
+As speech signal contains multi-faceted information including speaker
+identity, paralinguistics, spoken content, etc., learning universal representations for all speech tasks is
+challenging.

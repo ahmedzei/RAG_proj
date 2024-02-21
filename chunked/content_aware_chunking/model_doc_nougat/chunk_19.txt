@@ -1,0 +1,13 @@
+NougatImageProcessor
+[[autodoc]] NougatImageProcessor
+    - preprocess
+NougatTokenizerFast
+[[autodoc]] NougatTokenizerFast
+NougatProcessor
+[[autodoc]] NougatProcessor
+    - call
+    - from_pretrained
+    - save_pretrained
+    - batch_decode
+    - decode
+    - post_process_generation

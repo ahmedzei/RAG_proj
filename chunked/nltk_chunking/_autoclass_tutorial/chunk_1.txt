@@ -1,0 +1,1 @@
+As a part of 🤗 Transformers core philosophy to make the library easy, simple and flexible to use, an AutoClass automatically infers and loads the correct architecture from a given checkpoint.

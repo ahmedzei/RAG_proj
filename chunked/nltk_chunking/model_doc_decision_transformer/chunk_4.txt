@@ -1,0 +1,3 @@
+Unlike prior approaches to RL that fit value functions or 
+ compute policy gradients, Decision Transformer simply outputs the optimal actions by leveraging a causally masked 
+ Transformer.

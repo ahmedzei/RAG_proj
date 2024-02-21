@@ -1,0 +1,1 @@
+Interestingly, these conversion scripts are not perfect (the answer_coordinates and float_answer fields are populated based on the answer_text), meaning that WTQ and WikiSQL results could actually be improved.

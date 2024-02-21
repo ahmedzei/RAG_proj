@@ -1,0 +1,1 @@
+But, in this case, you need the unused features ('video' in particular) in order to create pixel_values (which is a mandatory key our model expects in its inputs).

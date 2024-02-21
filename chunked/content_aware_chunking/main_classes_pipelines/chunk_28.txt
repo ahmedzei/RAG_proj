@@ -1,0 +1,5 @@
+Rule of
+thumb:
+For users, a rule of thumb is:
+
+Measure performance on your load, with your hardware.

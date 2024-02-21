@@ -1,0 +1,2 @@
+An example of how to train [BartForConditionalGeneration] with a Hugging Face datasets object can be found in this forum discussion
+Summarization chapter of the 🤗 Hugging Face course.

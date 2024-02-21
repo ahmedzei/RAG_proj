@@ -1,0 +1,3 @@
+While recent tokenization approaches based on data-derived subword
+lexicons are less brittle than manually engineered tokenizers, these techniques are not equally suited to all
+languages, and the use of any fixed vocabulary may limit a model's ability to adapt.

@@ -1,0 +1,3 @@
+
+GPU inference
+GPUs are the standard choice of hardware for machine learning, unlike CPUs, because they are optimized for memory bandwidth and parallelism.

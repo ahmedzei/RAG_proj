@@ -1,0 +1,1 @@
+BART has since been followed up by a multilingual version, mBART, intended for translation and pretrained on many different languages.

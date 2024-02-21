@@ -1,0 +1,1 @@
+Now pass your preprocessed batch of inputs directly to the model.

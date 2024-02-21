@@ -1,0 +1,1 @@
+SAM serves as a powerful foundation model for segmentation as it has large data coverage.

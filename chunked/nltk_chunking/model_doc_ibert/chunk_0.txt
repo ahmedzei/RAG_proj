@@ -1,0 +1,5 @@
+
+I-BERT
+Overview
+The I-BERT model was proposed in I-BERT: Integer-only BERT Quantization by
+Sehoon Kim, Amir Gholami, Zhewei Yao, Michael W. Mahoney and Kurt Keutzer.

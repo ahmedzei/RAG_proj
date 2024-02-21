@@ -1,0 +1,1 @@
+Unlike text queries, only a single example image is allowed.

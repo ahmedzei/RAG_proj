@@ -1,0 +1,4 @@
+Usage tips
+
+To load GPT-J in float32 one would need at least 2x model size
+  RAM: 1x for initial weights and another 1x to load the checkpoint.

@@ -1,0 +1,1 @@
+See the Pipeline for inference tutorial to learn how to perform inference with 🤗 Transformers.

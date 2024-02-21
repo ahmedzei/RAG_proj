@@ -1,0 +1,2 @@
+For object detection models, ([DetrForObjectDetection]), the model expects a list of dictionaries with a
+  class_labels and boxes key where each value of the batch corresponds to the expected label and number of bounding boxes of each individual image.

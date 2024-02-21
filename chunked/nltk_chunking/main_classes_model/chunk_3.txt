@@ -1,0 +1,7 @@
+PreTrainedModel
+[[autodoc]] PreTrainedModel
+    - push_to_hub
+    - all
+
+Large model loading
+In Transformers 4.20.0, the [~PreTrainedModel.from_pretrained] method has been reworked to accommodate large models using Accelerate.

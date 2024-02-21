@@ -1,0 +1,3 @@
+While prior work has shown that
+scaling neural models in the number of parameters and the size of the data they are trained on gives improved results,
+we show that other ingredients are important for a high-performing chatbot.

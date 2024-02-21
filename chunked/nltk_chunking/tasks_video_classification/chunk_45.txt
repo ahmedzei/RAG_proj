@@ -1,0 +1,12 @@
+print(train_dataset.num_videos, val_dataset.num_videos, test_dataset.num_videos)
+
+(300, 30, 75)
+
+Visualize the preprocessed video for better debugging
+ 
+
+import imageio
+import numpy as np
+from IPython.display import Image
+def unnormalize_img(img):
+     """Un-normalizes the image pixels."""

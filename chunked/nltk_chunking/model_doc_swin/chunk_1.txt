@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+This paper presents a new vision Transformer, called Swin Transformer, that capably serves as a general-purpose backbone
+for computer vision.

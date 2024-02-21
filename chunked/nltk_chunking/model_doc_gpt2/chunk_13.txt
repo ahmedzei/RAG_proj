@@ -1,0 +1,2 @@
+The model can take the past_key_values (for PyTorch) or past (for TF) as input, which is the previously computed
+  key/value attention pairs.

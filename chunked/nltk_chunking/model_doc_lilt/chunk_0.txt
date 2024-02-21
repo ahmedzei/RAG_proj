@@ -1,0 +1,4 @@
+
+LiLT
+Overview
+The LiLT model was proposed in LiLT: A Simple yet Effective Language-Independent Layout Transformer for Structured Document Understanding by Jiapeng Wang, Lianwen Jin, Kai Ding.

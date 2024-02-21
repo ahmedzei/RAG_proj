@@ -1,0 +1,2 @@
+It's a
+bidirectional transformer similar to the BERT model.

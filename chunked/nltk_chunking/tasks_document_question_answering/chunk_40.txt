@@ -1,0 +1,1 @@
+Define a helper function that can find a sublist (the answer split into words) in a larger list (the words list).

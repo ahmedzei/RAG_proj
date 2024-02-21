@@ -1,0 +1,1 @@
+Positional encodings, encode the position of each token into a numerical presentation that the LLM can leverage to better understand sentence order.

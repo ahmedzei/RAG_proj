@@ -1,0 +1,2 @@
+We can see
+that it happened during the first layer, of the 2nd block, during the very first batch.

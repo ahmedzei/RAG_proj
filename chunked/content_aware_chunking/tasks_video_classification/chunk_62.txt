@@ -1,0 +1,1 @@
+They evaluate the model on several clips from test videos and apply different crops to those clips and report the aggregate score.

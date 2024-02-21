@@ -1,0 +1,2 @@
+This collator will pad shorter sequences with padding 
+tokens, ensuring that all examples have the same length.

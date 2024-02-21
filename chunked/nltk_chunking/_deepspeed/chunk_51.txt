@@ -1,0 +1,1 @@
+The smaller their values, the slower communication is and the more GPU memory is available.

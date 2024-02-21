@@ -1,0 +1,1 @@
+Longformer also focused on making attention more efficient, especially for processing documents with longer sequence lengths.

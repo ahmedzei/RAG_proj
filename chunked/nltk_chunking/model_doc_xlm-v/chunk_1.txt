@@ -1,0 +1,2 @@
+It was introduced in the XLM-V: Overcoming the Vocabulary Bottleneck in Multilingual Masked Language Models
+paper by Davis Liang, Hila Gonen, Yuning Mao, Rui Hou, Naman Goyal, Marjan Ghazvininejad, Luke Zettlemoyer and Madian Khabsa.

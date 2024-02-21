@@ -1,0 +1,2 @@
+Thus, usage examples in the documentation of BART, when adapting to use
+  with BARTpho, should be adjusted by replacing the BART-specialized classes with the mBART-specialized counterparts.

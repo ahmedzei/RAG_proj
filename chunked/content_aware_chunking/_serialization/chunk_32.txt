@@ -1,0 +1,5 @@
+", return_tensors="np")
+outputs = session.run(output_names=["last_hidden_state"], input_feed=dict(inputs))
+
+The required output names (like ["last_hidden_state"]) can be obtained by taking a look at the ONNX configuration of 
+each model.

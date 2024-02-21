@@ -1,0 +1,4 @@
+
+Glossary
+This glossary defines general machine learning and 🤗 Transformers terms to help you better understand the
+documentation.

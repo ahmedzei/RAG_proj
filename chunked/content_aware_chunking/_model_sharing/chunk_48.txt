@@ -1,0 +1,1 @@
+Take a look at the DistilBert model card for a good example of the type of information a model card should include.

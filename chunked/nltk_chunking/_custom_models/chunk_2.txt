@@ -1,0 +1,1 @@
+If you are writing a brand new model, it might be easier to start from scratch.

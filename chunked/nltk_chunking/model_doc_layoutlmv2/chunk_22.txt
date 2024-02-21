@@ -1,0 +1,2 @@
+This can be either a
+  torch.Tensor or a Detectron2.structures.ImageList.

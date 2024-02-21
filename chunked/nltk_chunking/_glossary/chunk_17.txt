@@ -1,0 +1,2 @@
+It's usually done by
+reading the whole sentence but using a mask inside the model to hide the future tokens at a certain timestep.

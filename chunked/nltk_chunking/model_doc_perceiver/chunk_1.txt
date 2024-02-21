@@ -1,0 +1,2 @@
+Perceiver IO is a generalization of Perceiver to handle arbitrary outputs in
+addition to arbitrary inputs.

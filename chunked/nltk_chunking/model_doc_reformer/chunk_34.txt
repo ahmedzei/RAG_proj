@@ -1,0 +1,2 @@
+This value will then automatically be
+saved in the config and should be reused for inference.

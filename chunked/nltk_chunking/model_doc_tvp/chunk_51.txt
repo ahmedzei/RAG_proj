@@ -1,0 +1,1 @@
+Please refer to Table 2 for TVP's performance on Temporal Video Grounding task.

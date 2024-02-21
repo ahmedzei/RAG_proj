@@ -1,0 +1,3 @@
+Since the order of executed tests is different and unpredictable, if running the test suite with pytest-xdist
+produces failures (meaning we have some undetected coupled tests), use pytest-replay to replay the tests in the same order, which should help with then somehow
+reducing that failing sequence to a minimum.

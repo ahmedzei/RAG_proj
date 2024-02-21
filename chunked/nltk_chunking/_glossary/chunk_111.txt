@@ -1,0 +1,1 @@
+To gain a better idea of what preprocessing looks like for other input types, check out the Preprocess tutorial.

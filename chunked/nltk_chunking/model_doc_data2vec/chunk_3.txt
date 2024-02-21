@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+While the general idea of self-supervised learning is identical across modalities, the actual algorithms and
+objectives differ widely because they were developed with a single modality in mind.

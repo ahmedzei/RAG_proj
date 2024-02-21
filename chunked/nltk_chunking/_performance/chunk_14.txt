@@ -1,0 +1,1 @@
+CPU training section: learn about mixed precision training on CPU.

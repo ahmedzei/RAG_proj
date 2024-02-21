@@ -1,0 +1,13 @@
+The authors suggest to use the following prompt format for the chat mode: f"human: {prompt}\n\nadept:"
+
+PersimmonConfig
+[[autodoc]] PersimmonConfig
+PersimmonModel
+[[autodoc]] PersimmonModel
+    - forward
+PersimmonForCausalLM
+[[autodoc]] PersimmonForCausalLM
+    - forward
+PersimmonForSequenceClassification
+[[autodoc]] PersimmonForSequenceClassification
+    - forward

@@ -1,0 +1,3 @@
+Usage tips
+
+DistilBERT doesn't have token_type_ids, you don't need to indicate which token belongs to which segment.

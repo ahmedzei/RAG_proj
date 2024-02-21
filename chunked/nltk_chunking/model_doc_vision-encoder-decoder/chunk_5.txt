@@ -1,0 +1,2 @@
+An example application is image captioning, in which the encoder is used to encode the image, after which an autoregressive language model generates
+the caption.

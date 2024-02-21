@@ -1,0 +1,2 @@
+This model also uses adaptive softmax
+inputs and outputs (tied).

@@ -1,0 +1,1 @@
+In other words, while one sub-model is in use, the other sub-models are idle.

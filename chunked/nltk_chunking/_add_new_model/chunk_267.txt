@@ -1,0 +1,2 @@
+Those integration tests essentially do the same as the debugging scripts
+you used earlier to implement the model to 🤗 Transformers.

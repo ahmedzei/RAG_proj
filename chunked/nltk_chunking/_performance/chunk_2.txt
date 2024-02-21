@@ -1,0 +1,2 @@
+In the deployment 
+phase, the model can struggle to handle the required throughput in a production environment.

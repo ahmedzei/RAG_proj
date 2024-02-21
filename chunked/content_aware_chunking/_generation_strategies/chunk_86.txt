@@ -1,0 +1,1 @@
+To enable assisted decoding, set the assistant_model argument with a model.

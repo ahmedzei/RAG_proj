@@ -1,0 +1,2 @@
+🚀 Deploy
+- A blog post on how to deploy T5 11B for inference for less than $500.

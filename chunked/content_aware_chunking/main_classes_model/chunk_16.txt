@@ -1,0 +1,2 @@
+This can be an issue if one tries to
+load a model whose weights are in fp16, since it'd require twice as much memory.

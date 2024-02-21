@@ -1,0 +1,3 @@
+dataset[0].keys()
+
+Here is what the image looks like after the transforms are applied.

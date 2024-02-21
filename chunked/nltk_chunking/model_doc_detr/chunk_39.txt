@@ -1,0 +1,2 @@
+Note that it's good to have some slack (in COCO, the
+  authors used 100, while the maximum number of objects in a COCO image is ~70).

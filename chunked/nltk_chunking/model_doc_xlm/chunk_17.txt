@@ -1,0 +1,3 @@
+There are three different type of training for this model and the library provides checkpoints for all of them:
+
+Causal language modeling (CLM) which is the traditional autoregressive training (so this model could be in the previous section as well).

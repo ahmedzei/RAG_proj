@@ -1,0 +1,1 @@
+Both RoPE and ALiBi lower the query-key probability of tokens far away from each other.

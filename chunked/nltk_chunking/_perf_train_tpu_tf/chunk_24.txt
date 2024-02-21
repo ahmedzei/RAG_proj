@@ -1,0 +1,1 @@
+TPU VMs are generally easier to work with, particularly when it comes to your data pipeline.

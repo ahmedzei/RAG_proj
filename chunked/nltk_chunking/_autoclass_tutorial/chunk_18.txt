@@ -1,0 +1,6 @@
+You should specify one of the following parameters in [~PretrainedConfig.from_pretrained]:
+
+out_indices is the index of the layer you'd like to get the feature map from
+out_features is the name of the layer you'd like to get the feature map from
+
+These parameters can be used interchangeably, but if you use both, make sure they're aligned with each other!

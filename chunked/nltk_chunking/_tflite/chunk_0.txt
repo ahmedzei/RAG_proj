@@ -1,0 +1,4 @@
+
+Export to TFLite
+TensorFlow Lite is a lightweight framework for deploying machine learning models 
+on resource-constrained devices, such as mobile phones, embedded systems, and Internet of Things (IoT) devices.

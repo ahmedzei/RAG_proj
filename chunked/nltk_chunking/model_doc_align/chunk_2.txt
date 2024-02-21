@@ -1,0 +1,1 @@
+It can be used for image-text similarity and for zero-shot image classification.

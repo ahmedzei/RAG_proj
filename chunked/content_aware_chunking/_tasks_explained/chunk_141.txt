@@ -1,0 +1,1 @@
+This solves the issue of bidirectionality, where the model could cheat and see all the words and "predict" the next word.

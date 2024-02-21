@@ -1,0 +1,14 @@
+Axial positional encodings factorize \(X_{i,j}\) into two matrices:
+$$X^{1}_{i,j}, \text{ with } i \in \left[1,\ldots, d^1\right] \text{ and } j \in \left[1,\ldots, n_s^1\right]$$
+and
+$$X^{2}_{i,j}, \text{ with } i \in \left[1,\ldots, d^2\right] \text{ and } j \in \left[1,\ldots, n_s^2\right]$$
+with:
+$$d = d^1 + d^2 \text{ and } n_s = n_s^1 \times n_s^2 .$$
+Therefore the following holds:
+$$X_{i,j} = \begin{cases}
+X^{1}{i, k}, & \text{if }\ i < d^1 \text{ with } k = j \mod n_s^1 \
+X^{2}{i - d^1, l}, & \text{if } i \ge d^1 \text{ with } l = \lfloor\frac{j}{n_s^1}\rfloor
+\end{cases}$$
+Intuitively, this means that a position embedding vector \(x_j \in \mathbb{R}^{d}\) is now the composition of two
+factorized embedding vectors: \(x^1_{k, l} + x^2_{l, k}\), where as the config.max_embedding_size dimension
+\(j\) is factorized into \(k \text{ and } l\).

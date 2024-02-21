@@ -1,0 +1,3 @@
+The main ingredients of the
+new framework, called DEtection TRansformer or DETR, are a set-based global loss that forces unique predictions via
+bipartite matching, and a transformer encoder-decoder architecture.

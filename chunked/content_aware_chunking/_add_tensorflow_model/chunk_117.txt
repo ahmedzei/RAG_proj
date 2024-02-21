@@ -1,0 +1,2 @@
+Submit the pull request
+Once you're done with the implementation and the tests, it's time to submit a pull request.

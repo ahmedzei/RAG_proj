@@ -1,0 +1,4 @@
+It gets the
+[TrainingArguments] used to instantiate the [Trainer], can access that
+Trainer's internal state via [TrainerState], and can take some actions on the training loop via
+[TrainerControl].

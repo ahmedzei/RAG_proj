@@ -1,0 +1,4 @@
+", return_tensors="pt")
+outputs = model(**inputs)
+
+The process is identical for TensorFlow checkpoints on the Hub.

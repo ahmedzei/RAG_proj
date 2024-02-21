@@ -1,0 +1,5 @@
+
+BARThez
+Overview
+The BARThez model was proposed in BARThez: a Skilled Pretrained French Sequence-to-Sequence Model by Moussa Kamal Eddine, Antoine J.-P. Tixier, Michalis Vazirgiannis on 23 Oct,
+2020.

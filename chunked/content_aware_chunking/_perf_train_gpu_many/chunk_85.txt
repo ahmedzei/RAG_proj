@@ -1,0 +1,2 @@
+However, passing data 
+from layer 3 to 4 requires moving it from GPU0 to GPU1, introducing a communication overhead.

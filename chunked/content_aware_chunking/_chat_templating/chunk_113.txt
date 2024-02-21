@@ -1,0 +1,1 @@
+This will ensure that text generation tools can correctly figure out when to stop generating text.

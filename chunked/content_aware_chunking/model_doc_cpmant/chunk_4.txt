@@ -1,0 +1,1 @@
+Besides the full model, we also provide various compressed versions to meet the requirements of different hardware configurations.

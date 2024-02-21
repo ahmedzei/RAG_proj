@@ -1,0 +1,3 @@
+For example:
+
+[GPT2ForSequenceClassification] is a sequence classification head - a linear layer - on top of the base [GPT2Model].

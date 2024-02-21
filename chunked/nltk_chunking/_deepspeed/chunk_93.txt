@@ -1,0 +1,1 @@
+Depending on the CPU and/or NVMe memory available, you can offload both the optimizer states and parameters, just one of them, or none.

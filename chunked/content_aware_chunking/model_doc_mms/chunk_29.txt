@@ -1,0 +1,2 @@
+MMS trains a separate 
+model checkpoint for each of the 1100+ languages in the project.

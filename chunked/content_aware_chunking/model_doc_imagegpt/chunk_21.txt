@@ -1,0 +1,2 @@
+without the use of any labels), ImageGPT produces fairly
+  performant image features useful for downstream tasks, such as image classification.

@@ -1,0 +1,1 @@
+This approach has three main parameters: num_beams, num_beam_groups, and diversity_penalty.

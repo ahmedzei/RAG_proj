@@ -1,0 +1,2 @@
+This mechanism is similar to an efficient group backpacking strategy: person A carries the tent, person B carries the stove,
+and person C carries the axe.

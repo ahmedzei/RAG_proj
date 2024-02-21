@@ -1,0 +1,2 @@
+In other words, it throws away every 
+other timestep from the target sequence.

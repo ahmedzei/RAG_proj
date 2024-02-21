@@ -1,0 +1,4 @@
+
+OPT
+Overview
+The OPT model was proposed in Open Pre-trained Transformer Language Models by Meta AI.

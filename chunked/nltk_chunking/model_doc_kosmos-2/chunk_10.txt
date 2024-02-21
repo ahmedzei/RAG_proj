@@ -1,0 +1,1 @@
+Code and pretrained models are available at https://aka.ms/kosmos-2.

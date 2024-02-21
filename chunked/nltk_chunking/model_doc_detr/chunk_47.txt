@@ -1,0 +1,3 @@
+If you set the parameter auxiliary_loss of
+  [~transformers.DetrConfig] to True, then prediction feedforward neural networks and Hungarian losses
+  are added after each decoder layer (with the FFNs sharing parameters).

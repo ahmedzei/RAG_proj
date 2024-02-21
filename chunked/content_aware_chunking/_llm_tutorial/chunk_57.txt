@@ -1,0 +1,4 @@
+Latency, throughput and memory utilization
+
+Guide on how to optimize LLMs for speed and memory;
+Guide on quantization such as bitsandbytes and autogptq, which shows you how to drastically reduce your memory requirements.

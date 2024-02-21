@@ -1,0 +1,2 @@
+The [XLNetTokenizer] uses SentencePiece for example, which is also why in the example earlier the
+"▁" character was included in the vocabulary.

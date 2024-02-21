@@ -1,0 +1,104 @@
+BertConfig
+[[autodoc]] BertConfig
+    - all
+BertTokenizer
+[[autodoc]] BertTokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+
+BertTokenizerFast
+[[autodoc]] BertTokenizerFast
+
+TFBertTokenizer
+[[autodoc]] TFBertTokenizer
+
+Bert specific outputs
+[[autodoc]] models.bert.modeling_bert.BertForPreTrainingOutput
+[[autodoc]] models.bert.modeling_tf_bert.TFBertForPreTrainingOutput
+[[autodoc]] models.bert.modeling_flax_bert.FlaxBertForPreTrainingOutput
+
+BertModel
+[[autodoc]] BertModel
+    - forward
+BertForPreTraining
+[[autodoc]] BertForPreTraining
+    - forward
+BertLMHeadModel
+[[autodoc]] BertLMHeadModel
+    - forward
+BertForMaskedLM
+[[autodoc]] BertForMaskedLM
+    - forward
+BertForNextSentencePrediction
+[[autodoc]] BertForNextSentencePrediction
+    - forward
+BertForSequenceClassification
+[[autodoc]] BertForSequenceClassification
+    - forward
+BertForMultipleChoice
+[[autodoc]] BertForMultipleChoice
+    - forward
+BertForTokenClassification
+[[autodoc]] BertForTokenClassification
+    - forward
+BertForQuestionAnswering
+[[autodoc]] BertForQuestionAnswering
+    - forward
+
+TFBertModel
+[[autodoc]] TFBertModel
+    - call
+TFBertForPreTraining
+[[autodoc]] TFBertForPreTraining
+    - call
+TFBertModelLMHeadModel
+[[autodoc]] TFBertLMHeadModel
+    - call
+TFBertForMaskedLM
+[[autodoc]] TFBertForMaskedLM
+    - call
+TFBertForNextSentencePrediction
+[[autodoc]] TFBertForNextSentencePrediction
+    - call
+TFBertForSequenceClassification
+[[autodoc]] TFBertForSequenceClassification
+    - call
+TFBertForMultipleChoice
+[[autodoc]] TFBertForMultipleChoice
+    - call
+TFBertForTokenClassification
+[[autodoc]] TFBertForTokenClassification
+    - call
+TFBertForQuestionAnswering
+[[autodoc]] TFBertForQuestionAnswering
+    - call
+
+FlaxBertModel
+[[autodoc]] FlaxBertModel
+    - call
+FlaxBertForPreTraining
+[[autodoc]] FlaxBertForPreTraining
+    - call
+FlaxBertForCausalLM
+[[autodoc]] FlaxBertForCausalLM
+    - call
+FlaxBertForMaskedLM
+[[autodoc]] FlaxBertForMaskedLM
+    - call
+FlaxBertForNextSentencePrediction
+[[autodoc]] FlaxBertForNextSentencePrediction
+    - call
+FlaxBertForSequenceClassification
+[[autodoc]] FlaxBertForSequenceClassification
+    - call
+FlaxBertForMultipleChoice
+[[autodoc]] FlaxBertForMultipleChoice
+    - call
+FlaxBertForTokenClassification
+[[autodoc]] FlaxBertForTokenClassification
+    - call
+FlaxBertForQuestionAnswering
+[[autodoc]] FlaxBertForQuestionAnswering
+    - call

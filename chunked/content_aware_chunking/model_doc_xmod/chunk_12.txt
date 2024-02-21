@@ -1,0 +1,4 @@
+Adapter Usage
+Input language
+There are two ways to specify the input language:
+1.

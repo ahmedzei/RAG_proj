@@ -1,0 +1,2 @@
+Cooling:
+When a GPU gets overheated it will start throttling down and will not deliver full performance and it can even shutdown if it gets too hot.

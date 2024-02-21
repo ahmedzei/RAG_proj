@@ -1,0 +1,1 @@
+To use this file to replace equivalent methods in the test suite, set the environment variableTRANSFORMERS_TEST_DEVICE_SPEC` to the path of the spec file.

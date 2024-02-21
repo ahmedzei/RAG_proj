@@ -1,0 +1,1 @@
+Then we randomly mask some image patches and fed them into the backbone Transformer.

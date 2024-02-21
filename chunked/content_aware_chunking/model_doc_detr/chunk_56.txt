@@ -1,0 +1,1 @@
+Due to this resizing, images in a batch can have different sizes.

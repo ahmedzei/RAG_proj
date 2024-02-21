@@ -1,0 +1,2 @@
+DETR solves this by padding images up to the
+  largest size in a batch, and by creating a pixel mask that indicates which pixels are real/which are padding.

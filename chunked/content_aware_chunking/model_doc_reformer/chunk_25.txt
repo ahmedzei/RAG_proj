@@ -1,0 +1,3 @@
+The premise is that the more "similar"
+key query embedding vectors (in terms of cosine similarity) are to each other, the more likely they are assigned to
+the same bucket.

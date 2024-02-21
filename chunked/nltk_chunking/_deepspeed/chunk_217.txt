@@ -1,0 +1,1 @@
+enable bf16 if you have an Ampere or newer GPU to make things faster.

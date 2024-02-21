@@ -1,0 +1,4 @@
+Usage tips
+
+CANINE uses no less than 3 Transformer encoders internally: 2 "shallow" encoders (which only consist of a single
+  layer) and 1 "deep" encoder (which is a regular BERT encoder).

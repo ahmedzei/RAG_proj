@@ -1,0 +1,3 @@
+In this tutorial, you will fine-tune a pretrained model with a deep learning framework of your choice:
+
+Fine-tune a pretrained model with 🤗 Transformers [Trainer].

@@ -1,0 +1,1 @@
+A notebook on how to use a pretrained CLIP for inference with beam search for image captioning.

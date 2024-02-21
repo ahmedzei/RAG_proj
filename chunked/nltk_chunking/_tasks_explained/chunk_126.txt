@@ -1,0 +1,1 @@
+A lightweight decoder takes the last feature map (1/32 scale) from the encoder and upsamples it to 1/16 scale.

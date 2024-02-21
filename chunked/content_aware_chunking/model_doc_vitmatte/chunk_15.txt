@@ -1,0 +1,1 @@
+A demo notebook regarding inference with [VitMatteForImageMatting], including background replacement, can be found here.

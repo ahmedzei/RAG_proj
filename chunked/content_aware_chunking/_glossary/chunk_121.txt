@@ -1,0 +1,1 @@
+The sampling rate is a result of discretizing a continuous signal such as speech.

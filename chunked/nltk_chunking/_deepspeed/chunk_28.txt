@@ -1,0 +1,1 @@
+To make it easier, these shared configuration parameters are configured from the [Trainer] command line arguments.

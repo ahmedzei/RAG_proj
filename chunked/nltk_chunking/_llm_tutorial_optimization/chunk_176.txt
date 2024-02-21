@@ -1,0 +1,1 @@
+The positional encodings are then simply added to the input sequence vectors \( \mathbf{\hat{X}} = \mathbf{\hat{x}}_1, \ldots, \mathbf{\hat{x}}_N \) = \( \mathbf{x}_1 + \mathbf{p}_1, \ldots, \mathbf{x}_N + \mathbf{p}_N \) thereby cueing the model to better learn sentence order.

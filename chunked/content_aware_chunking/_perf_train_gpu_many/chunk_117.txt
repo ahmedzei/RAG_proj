@@ -1,0 +1,6 @@
+Pipeline API solutions have been implemented in:
+- PyTorch
+- DeepSpeed
+- Megatron-LM
+These come with some shortcomings:
+- They have to modify the model quite heavily, because Pipeline requires one to rewrite the normal flow of modules into a nn.Sequential sequence of the same, which may require changes to the design of the model.

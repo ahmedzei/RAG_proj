@@ -1,0 +1,1 @@
+- Combine the attention and causal masks into a single one, pre-computed for the whole model instead of every layer.

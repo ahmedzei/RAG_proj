@@ -1,0 +1,1 @@
+This is known as a convolutional operation which is repeated over the entire input matrix.

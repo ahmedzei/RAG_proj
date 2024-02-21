@@ -1,0 +1,1 @@
+=> There are 2**8+2 = 259 input ids and mask tokens count down from index 258.

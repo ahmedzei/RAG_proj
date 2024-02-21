@@ -1,0 +1,3 @@
+python 
+trainer.train()
+You should see the training loss drop smoothly as training progresses.

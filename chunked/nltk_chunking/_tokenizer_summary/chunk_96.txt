@@ -1,0 +1,2 @@
+In contrast to BPE, WordPiece does not choose the most frequent
+symbol pair, but the one that maximizes the likelihood of the training data once added to the vocabulary.

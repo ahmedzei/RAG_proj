@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+*We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters.

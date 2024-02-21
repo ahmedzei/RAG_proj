@@ -1,0 +1,2 @@
+Hence, models like BERT and RoBERTa are limited to a max sequence length of 512
+tokens.

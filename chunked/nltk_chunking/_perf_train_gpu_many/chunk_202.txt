@@ -1,0 +1,4 @@
+Number of GPUs
+For example, if you have 4 GPUs and you only want to use the first 2:
+
+Use the --nproc_per_node to select how many GPUs to use.

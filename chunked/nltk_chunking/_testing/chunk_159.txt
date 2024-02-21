@@ -1,0 +1,1 @@
+That report is also useful to find slow outliers that aren't marked as such, or which need to be re-written to be fast.

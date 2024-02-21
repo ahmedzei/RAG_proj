@@ -1,0 +1,4 @@
+[[autodoc]] data.processors.glue.glue_convert_examples_to_features
+XNLI
+The Cross-Lingual NLI Corpus (XNLI) is a benchmark that evaluates the
+quality of cross-lingual text representations.

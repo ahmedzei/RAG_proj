@@ -1,0 +1,1 @@
+[~trl.SFTTrainer] also supports features like sequence packing, LoRA, quantization, and DeepSpeed for efficiently scaling to any model size.

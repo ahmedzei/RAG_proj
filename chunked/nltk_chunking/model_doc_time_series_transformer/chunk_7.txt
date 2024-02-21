@@ -1,0 +1,2 @@
+During training, one needs to provide
+pairs of (past_values and future_values) to the model.

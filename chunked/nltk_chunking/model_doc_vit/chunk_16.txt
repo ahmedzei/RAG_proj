@@ -1,0 +1,1 @@
+DINO (a method for self-supervised training of Vision Transformers) by Facebook AI.

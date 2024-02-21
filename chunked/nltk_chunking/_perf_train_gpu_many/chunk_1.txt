@@ -1,0 +1,3 @@
+Prior to making this transition, thoroughly explore all the strategies covered 
+in the Methods and tools for efficient training on a single GPU as they are universally applicable 
+to model training on any number of GPUs.

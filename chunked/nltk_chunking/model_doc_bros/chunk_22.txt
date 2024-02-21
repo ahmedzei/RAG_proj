@@ -1,0 +1,1 @@
+With this optimized training scheme for understanding texts in 2D space, BROS shows comparable or better performance compared to previous methods on four KIE benchmarks (FUNSD, SROIE, CORD, and SciTSR) without relying on visual features.

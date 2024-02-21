@@ -1,0 +1,2 @@
+Use case 1: web page classification (training, inference) + token classification (inference), parse_html = True
+This is the simplest case, in which the processor will use the feature extractor to get all nodes and xpaths from the HTML.

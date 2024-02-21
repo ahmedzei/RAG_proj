@@ -1,0 +1,1 @@
+With minimal adaptations for fine-tuning, our plain-backbone detector can achieve competitive results.

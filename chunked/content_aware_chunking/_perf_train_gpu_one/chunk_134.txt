@@ -1,0 +1,5 @@
+For example with a vanilla AdamW, the memory requirement for the optimizer state would be:
+* fp32 copy of parameters: 4 bytes/param
+* Momentum: 4 bytes/param
+* Variance: 4 bytes/param
+Suppose a model with 7B parameters and 200 millions parameters injected with Low Rank Adapters.

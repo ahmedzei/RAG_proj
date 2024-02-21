@@ -1,0 +1,1 @@
+The use of 2D inputs with the prompting method aims to provide similar levels of context and accuracy more efficiently.

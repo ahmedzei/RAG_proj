@@ -1,0 +1,8 @@
+DecisionTransformerConfig
+[[autodoc]] DecisionTransformerConfig
+DecisionTransformerGPT2Model
+[[autodoc]] DecisionTransformerGPT2Model
+    - forward
+DecisionTransformerModel
+[[autodoc]] DecisionTransformerModel
+    - forward

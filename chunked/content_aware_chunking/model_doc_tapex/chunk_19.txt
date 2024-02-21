@@ -1,0 +1,1 @@
+TAPEX has its own tokenizer, that allows to prepare all data for the model easily.

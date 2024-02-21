@@ -1,0 +1,2 @@
+q = q / math.sqrt(dim_per_head)  # (bs, n_heads, q_length, dim_per_head)
+RuntimeError: CUDA out of memory.

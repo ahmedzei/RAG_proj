@@ -1,0 +1,12 @@
+AutoConfig
+[[autodoc]] AutoConfig
+AutoTokenizer
+[[autodoc]] AutoTokenizer
+AutoFeatureExtractor
+[[autodoc]] AutoFeatureExtractor
+AutoImageProcessor
+[[autodoc]] AutoImageProcessor
+AutoProcessor
+[[autodoc]] AutoProcessor
+Generic model classes
+The following auto classes are available for instantiating a base model class without a specific head.

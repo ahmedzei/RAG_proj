@@ -1,0 +1,1 @@
+For example, document parsing has a special parsing token that is combined with the encoder hidden states to parse the document into a structured output format (JSON).

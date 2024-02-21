@@ -1,0 +1,2 @@
+For instance "annoyingly" might be
+considered a rare word and could be decomposed into "annoying" and "ly".

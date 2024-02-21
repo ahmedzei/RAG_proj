@@ -1,0 +1,2 @@
+Hence check the
+execution speed report in CI logs instead (the output of pytest --durations=0 tests).

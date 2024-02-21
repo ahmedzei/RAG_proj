@@ -1,0 +1,3 @@
+By combining the insights from our exploration
+with scale and our new "Colossal Clean Crawled Corpus", we achieve state-of-the-art results on many benchmarks covering
+summarization, question answering, text classification, and more.

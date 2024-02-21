@@ -1,0 +1,5 @@
+| Audio                                                                                                                                            |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  |
+
+Depending on the LLM, some are quite brittle and require very exact prompts in order to work well.

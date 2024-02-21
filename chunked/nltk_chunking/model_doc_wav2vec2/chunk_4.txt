@@ -1,0 +1,2 @@
+When lowering the amount of labeled data to one hour, wav2vec 2.0 outperforms the previous state
+of the art on the 100 hour subset while using 100 times less labeled data.

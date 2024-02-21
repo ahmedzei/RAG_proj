@@ -1,0 +1,1 @@
+[VisionEncoderDecoderModel] can be initialized from a pretrained encoder checkpoint and a pretrained decoder checkpoint.

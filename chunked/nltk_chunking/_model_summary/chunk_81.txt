@@ -1,0 +1,1 @@
+The audio signal is converted to a log-mel spectrogram encoded by the encoder.

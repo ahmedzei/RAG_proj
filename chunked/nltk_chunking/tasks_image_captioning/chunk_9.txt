@@ -1,0 +1,1 @@
+Many image captioning datasets contain multiple captions per image.

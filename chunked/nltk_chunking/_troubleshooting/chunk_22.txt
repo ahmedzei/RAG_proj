@@ -1,0 +1,2 @@
+RuntimeError: CUDA error: device-side assert triggered
+You should try to run the code on a CPU first to get a more descriptive error message.

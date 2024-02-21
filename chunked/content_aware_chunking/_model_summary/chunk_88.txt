@@ -1,0 +1,1 @@
+From there, ViLT is pretrained by image text matching, masked language modeling, and whole word masking.

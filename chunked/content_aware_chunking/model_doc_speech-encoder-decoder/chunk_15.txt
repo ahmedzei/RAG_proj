@@ -1,0 +1,1 @@
+Depending on which architecture you choose as the decoder, the cross-attention layers might be randomly initialized.

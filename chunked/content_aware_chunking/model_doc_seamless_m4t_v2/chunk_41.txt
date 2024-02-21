@@ -1,0 +1,2 @@
+Generate speech and text at the same time
+Use return_intermediate_token_ids=True with [SeamlessM4Tv2Model] to return both speech and text !

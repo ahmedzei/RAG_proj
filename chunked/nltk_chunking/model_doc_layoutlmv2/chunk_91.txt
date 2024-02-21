@@ -1,0 +1,33 @@
+words = ["hello", "world"]
+boxes = [[1, 2, 3, 4], [5, 6, 7, 8]]  # make sure to normalize your bounding boxes
+encoding = processor(image, question, words, boxes=boxes, return_tensors="pt")
+print(encoding.keys())
+dict_keys(['input_ids', 'token_type_ids', 'attention_mask', 'bbox', 'image'])
+
+LayoutLMv2Config
+[[autodoc]] LayoutLMv2Config
+LayoutLMv2FeatureExtractor
+[[autodoc]] LayoutLMv2FeatureExtractor
+    - call
+LayoutLMv2ImageProcessor
+[[autodoc]] LayoutLMv2ImageProcessor
+    - preprocess
+LayoutLMv2Tokenizer
+[[autodoc]] LayoutLMv2Tokenizer
+    - call
+    - save_vocabulary
+LayoutLMv2TokenizerFast
+[[autodoc]] LayoutLMv2TokenizerFast
+    - call
+LayoutLMv2Processor
+[[autodoc]] LayoutLMv2Processor
+    - call
+LayoutLMv2Model
+[[autodoc]] LayoutLMv2Model
+    - forward
+LayoutLMv2ForSequenceClassification
+[[autodoc]] LayoutLMv2ForSequenceClassification
+LayoutLMv2ForTokenClassification
+[[autodoc]] LayoutLMv2ForTokenClassification
+LayoutLMv2ForQuestionAnswering
+[[autodoc]] LayoutLMv2ForQuestionAnswering

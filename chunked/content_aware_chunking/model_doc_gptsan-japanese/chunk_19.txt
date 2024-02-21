@@ -1,0 +1,1 @@
+The tokenizer returns the mask of the Prefix part of Prefix-LM as token_type_ids.

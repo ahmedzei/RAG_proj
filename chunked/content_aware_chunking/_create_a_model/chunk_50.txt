@@ -1,0 +1,5 @@
+from transformers import TFDistilBertForQuestionAnswering
+tf_model = TFDistilBertForQuestionAnswering.from_pretrained("distilbert/distilbert-base-uncased")
+
+Tokenizer
+The last base class you need before using a model for textual data is a tokenizer to convert raw text to tensors.

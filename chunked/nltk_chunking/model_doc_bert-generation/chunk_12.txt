@@ -1,0 +1,9 @@
+", add_special_tokens=False, return_tensors="pt"
+ ).input_ids
+outputs = sentence_fuser.generate(input_ids)
+print(tokenizer.decode(outputs[0]))
+
+Tips:
+
+[BertGenerationEncoder] and [BertGenerationDecoder] should be used in
+  combination with [EncoderDecoder].

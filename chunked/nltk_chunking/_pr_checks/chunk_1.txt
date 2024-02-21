@@ -1,0 +1,1 @@
+This way, when there is a bug fix, we can see all other impacted models and choose to trickle down the modification or break the copy.

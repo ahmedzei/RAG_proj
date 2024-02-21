@@ -1,0 +1,1 @@
+having predicted all the codebook channels from the [EncodecModel], Bark uses it to decode the output audio array.

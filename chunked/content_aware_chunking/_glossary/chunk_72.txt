@@ -1,0 +1,4 @@
+These labels are different according to the model head, for example:
+
+For sequence classification models, ([BertForSequenceClassification]), the model expects a tensor of dimension
+  (batch_size) with each value of the batch corresponding to the expected label of the entire sequence.

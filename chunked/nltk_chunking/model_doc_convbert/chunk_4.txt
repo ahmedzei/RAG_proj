@@ -1,0 +1,2 @@
+We therefore propose a novel span-based dynamic convolution to
+replace these self-attention heads to directly model local dependencies.

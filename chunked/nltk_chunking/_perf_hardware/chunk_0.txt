@@ -1,0 +1,3 @@
+
+Custom hardware for training
+The hardware you use to run model training and inference can have a big effect on performance.

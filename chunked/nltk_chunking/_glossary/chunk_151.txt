@@ -1,0 +1,1 @@
+This speeds up the learning process and reduces the amount of training data needed.

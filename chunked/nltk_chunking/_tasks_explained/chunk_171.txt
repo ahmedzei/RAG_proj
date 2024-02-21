@@ -1,0 +1,1 @@
+Within each decoder block, GPT-2 uses a masked self-attention layer which means GPT-2 can't attend to future tokens.

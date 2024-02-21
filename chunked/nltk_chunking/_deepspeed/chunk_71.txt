@@ -1,0 +1,1 @@
+Parameters are grouped into buckets of sub_group_size and each bucket is updated one at a time.

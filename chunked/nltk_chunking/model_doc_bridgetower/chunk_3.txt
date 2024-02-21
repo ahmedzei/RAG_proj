@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Vision-Language (VL) models with the TWO-TOWER architecture have dominated visual-language representation learning in recent years.

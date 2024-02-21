@@ -1,0 +1,1 @@
+In addition, the authors have further pre-trained TAPAS to recognize table entailment, by creating a balanced dataset of millions of automatically created training examples which are learned in an intermediate step prior to fine-tuning.

@@ -1,0 +1,1 @@
+PyTorch supports TPUs with the XLA deep learning compiler (see here for more details).

@@ -1,0 +1,1 @@
+If you aren't familiar with the original Transformer model or need a refresher, check out the How do Transformers work chapter from the Hugging Face course.

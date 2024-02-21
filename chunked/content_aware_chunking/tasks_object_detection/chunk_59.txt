@@ -1,0 +1,4 @@
+trainer.push_to_hub()
+
+Evaluate
+Object detection models are commonly evaluated with a set of COCO-style metrics.

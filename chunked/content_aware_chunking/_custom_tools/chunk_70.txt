@@ -1,0 +1,4 @@
+Upon running .chat, the user's input or task is cast into an unfinished example of the form:
+text
+Human: <user-input>\n\nAssistant:
+which the agent completes.

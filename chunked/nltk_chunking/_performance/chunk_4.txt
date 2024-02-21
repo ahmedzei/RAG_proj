@@ -1,0 +1,1 @@
+The guides are divided into training and inference sections, as each comes with different challenges and solutions.

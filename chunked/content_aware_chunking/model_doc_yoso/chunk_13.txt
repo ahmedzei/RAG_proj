@@ -1,0 +1,4 @@
+Usage tips
+
+The YOSO attention algorithm is implemented through custom CUDA kernels, functions written in CUDA C++ that can be executed multiple times
+in parallel on a GPU.

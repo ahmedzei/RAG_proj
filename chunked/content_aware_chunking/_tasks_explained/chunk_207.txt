@@ -1,0 +1,1 @@
+For more information about text generation, check out the text generation strategies guide!

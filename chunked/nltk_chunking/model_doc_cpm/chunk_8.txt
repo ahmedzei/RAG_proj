@@ -1,0 +1,4 @@
+The original implementation can be found
+here: https://github.com/TsinghuaAI/CPM-Generate
+
+CPM's architecture is the same as GPT-2, except for tokenization method.

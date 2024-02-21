@@ -1,0 +1,4 @@
+Single execution (run)
+The single execution method is when using the [~Agent.run] method of the agent:
+py
+agent.run("Draw me a picture of rivers and lakes.")

@@ -1,0 +1,2 @@
+This will disable any warning that is logged using
+[logger.warning_advice].

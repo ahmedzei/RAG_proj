@@ -1,0 +1,1 @@
+We evaluate BioGPT on six biomedical natural language processing tasks and demonstrate that our model outperforms previous models on most tasks.

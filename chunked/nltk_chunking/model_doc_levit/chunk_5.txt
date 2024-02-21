@@ -1,0 +1,2 @@
+We also introduce the attention bias, a new way to integrate positional information
+in vision transformers.

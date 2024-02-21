@@ -1,0 +1,1 @@
+The image processor will come in handy when writing the preprocessing pipeline for our dataset.

@@ -1,0 +1,2 @@
+While 
+bf16 has a worse precision than fp16, it has a much bigger dynamic range.

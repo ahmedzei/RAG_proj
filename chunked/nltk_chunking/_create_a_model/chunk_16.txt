@@ -1,0 +1,3 @@
+For example, you can customize a default model to:
+
+Try a different activation function with the activation parameter.

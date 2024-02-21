@@ -1,0 +1,2 @@
+Internally, [PerceiverModel] will create the latents, which is a tensor of shape (batch_size, num_latents,
+d_latents).

@@ -1,0 +1,3 @@
+In this tutorial, learn to:
+
+Load a pretrained tokenizer.

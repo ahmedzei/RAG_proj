@@ -1,0 +1,4 @@
+You can override the default behavior by directly overriding the before and after args, leading to one of the
+  following behaviors:
+
+before=True: the temporary dir will always be cleared at the beginning of the test.

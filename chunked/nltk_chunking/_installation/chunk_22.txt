@@ -1,0 +1,1 @@
+For example, if your Python packages are typically installed in ~/anaconda3/envs/main/lib/python3.7/site-packages/, Python will also search the folder you cloned to: ~/transformers/.

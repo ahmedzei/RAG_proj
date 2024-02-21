@@ -1,0 +1,6 @@
+Perceiver does not work with torch.nn.DataParallel due to a bug in PyTorch, see issue #36035
+
+Resources
+
+The quickest way to get started with the Perceiver is by checking the tutorial
+  notebooks.

@@ -1,0 +1,6 @@
+Steering the task more toward single image generation should help:
+py
+agent.run("Create image: 'A house and car'", return_code=True)
+``text
+==Explanation from the agent==
+I will use the following tool:image_generator` to generate an image.

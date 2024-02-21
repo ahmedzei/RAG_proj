@@ -1,0 +1,8 @@
+from transformers import AutoImageProcessor
+checkpoint = "facebook/detr-resnet-50"
+image_processor = AutoImageProcessor.from_pretrained(checkpoint)
+
+Before passing the images to the image_processor, apply two preprocessing transformations to the dataset:
+- Augmenting images
+- Reformatting annotations to meet DETR expectations
+First, to make sure the model does not overfit on the training data, you can apply image augmentation with any data augmentation library.

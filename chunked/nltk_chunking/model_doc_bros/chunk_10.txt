@@ -1,0 +1,1 @@
+initial_token_classifier is used to predict the first token of each entity, and subsequent_token_classifier is used to predict the next token of within entity.

@@ -1,0 +1,3 @@
+So to get the best of
+both worlds, transformers models use a hybrid between word-level and character-level tokenization called subword
+tokenization.

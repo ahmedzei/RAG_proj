@@ -1,0 +1,1 @@
+Be able to locate the important components of the model: Where is the model's class?

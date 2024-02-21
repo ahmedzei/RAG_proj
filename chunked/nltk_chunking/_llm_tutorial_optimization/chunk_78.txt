@@ -1,0 +1,1 @@
+Also note that inference here was again a bit slower compared to 8-bit quantization which is due to the more aggressive quantization method used for 4-bit quantization leading to \( \text{quantize} \) and \( \text{dequantize} \) taking longer during inference.

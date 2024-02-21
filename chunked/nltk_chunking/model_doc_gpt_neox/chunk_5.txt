@@ -1,0 +1,2 @@
+Development of the model was led by Sid Black, Stella Biderman and Eric Hallahan, and the model was trained with
+generous the support of CoreWeave.

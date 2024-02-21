@@ -1,0 +1,2 @@
+The pre-trained model plbart-base has been trained using multilingual denoising task
+on Java, Python and English.

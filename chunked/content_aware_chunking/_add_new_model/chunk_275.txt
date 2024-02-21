@@ -1,0 +1,2 @@
+It is very important to find/extract the original tokenizer file and to manage to load this file into the 🤗
+Transformers' implementation of the tokenizer.

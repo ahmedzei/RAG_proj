@@ -1,0 +1,1 @@
+To fine-tune [TFData2VecVisionForImageClassification] on a custom dataset, see this notebook.

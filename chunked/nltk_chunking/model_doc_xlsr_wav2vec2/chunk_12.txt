@@ -1,0 +1,1 @@
+XLSR-Wav2Vec2's architecture is based on the Wav2Vec2 model, so one can refer to Wav2Vec2's documentation page.

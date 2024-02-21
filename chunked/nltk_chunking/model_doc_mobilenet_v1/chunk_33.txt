@@ -1,0 +1,14 @@
+MobileNetV1Config
+[[autodoc]] MobileNetV1Config
+MobileNetV1FeatureExtractor
+[[autodoc]] MobileNetV1FeatureExtractor
+    - preprocess
+MobileNetV1ImageProcessor
+[[autodoc]] MobileNetV1ImageProcessor
+    - preprocess
+MobileNetV1Model
+[[autodoc]] MobileNetV1Model
+    - forward
+MobileNetV1ForImageClassification
+[[autodoc]] MobileNetV1ForImageClassification
+    - forward

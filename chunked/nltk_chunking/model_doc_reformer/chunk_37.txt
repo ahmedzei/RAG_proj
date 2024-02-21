@@ -1,0 +1,3 @@
+Using Local self attention, the memory and time complexity of the query-key matmul operation can be reduced from
+\(\mathcal{O}(n_s \times n_s)\) to \(\mathcal{O}(n_s \times \log(n_s))\), which usually represents the memory
+and time bottleneck in a transformer model, with \(n_s\) being the sequence length.

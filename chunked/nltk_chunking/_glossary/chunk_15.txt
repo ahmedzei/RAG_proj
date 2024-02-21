@@ -1,0 +1,1 @@
+Other models can also use [VitModel] as a backbone such as DPT.

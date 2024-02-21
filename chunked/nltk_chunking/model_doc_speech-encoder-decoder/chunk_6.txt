@@ -1,0 +1,1 @@
+[SpeechEncoderDecoderModel] can be randomly initialized from an encoder and a decoder config.

@@ -1,0 +1,10 @@
+Preprocess
+The next step is to load a T5 tokenizer to process text and summary:
+
+from transformers import AutoTokenizer
+checkpoint = "google-t5/t5-small"
+tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+
+The preprocessing function you want to create needs to:
+
+Prefix the input with a prompt so T5 knows this is a summarization task.

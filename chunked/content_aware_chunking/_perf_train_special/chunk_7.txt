@@ -1,0 +1,7 @@
+With the mps device set, you can:
+
+train larger networks or batch sizes locally
+reduce data retrieval latency because the GPU's unified memory architecture allows direct access to the full memory store
+reduce costs because you don't need to train on cloud-based GPUs or add additional local GPUs
+
+Get started by making sure you have PyTorch installed.

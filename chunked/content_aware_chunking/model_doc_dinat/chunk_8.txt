@@ -1,0 +1,1 @@
+DiNAT variants enjoy significant improvements over strong baselines such as NAT, Swin, and ConvNeXt.

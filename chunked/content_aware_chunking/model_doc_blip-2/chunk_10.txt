@@ -1,0 +1,1 @@
+We also demonstrate the model's emerging capabilities of zero-shot image-to-text generation that can follow natural language instructions.

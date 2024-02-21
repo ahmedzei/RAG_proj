@@ -1,0 +1,1 @@
+[Wav2Vec2ForCTC] is a language modeling head with CTC on top of the base [Wav2Vec2Model].

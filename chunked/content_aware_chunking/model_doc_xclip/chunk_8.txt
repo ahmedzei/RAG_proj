@@ -1,0 +1,1 @@
+Moreover, we propose a video-specific prompting scheme, which leverages video content information for generating discriminative textual prompts.

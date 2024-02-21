@@ -1,0 +1,1 @@
+There is also the [~trl.SFTTrainer] class from the TRL library which wraps the [Trainer] class and is optimized for training language models like Llama-2 and Mistral with autoregressive techniques.

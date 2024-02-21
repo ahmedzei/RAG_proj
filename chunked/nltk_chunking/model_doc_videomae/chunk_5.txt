@@ -1,0 +1,1 @@
+These simple designs turn out to be effective for overcoming information leakage caused by the temporal correlation during video reconstruction.

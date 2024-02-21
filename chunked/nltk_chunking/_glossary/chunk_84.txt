@@ -1,0 +1,2 @@
+The base models ([BertModel]) do not accept labels, as these are the base transformer models, simply outputting
+features.

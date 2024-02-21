@@ -1,0 +1,3 @@
+Generally, it's good if the server outputs the errors to the user, so
+adding a lot of try..except statements to show those errors is a good
+idea.

@@ -1,0 +1,2 @@
+This is important because you don't have to allocate memory for the whole dataset
+and you can feed the GPU as fast as possible.

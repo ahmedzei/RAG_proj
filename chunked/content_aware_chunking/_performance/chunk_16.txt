@@ -1,0 +1,1 @@
+Training on TPU with TensorFlow: if you are new to TPUs, refer to this section for an opinionated introduction to training on TPUs and using XLA.

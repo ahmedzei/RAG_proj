@@ -1,0 +1,3 @@
+Here we propose a system
+that can generate image segmentations based on arbitrary
+prompts at test time.

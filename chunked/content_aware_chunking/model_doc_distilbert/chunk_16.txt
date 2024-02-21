@@ -1,0 +1,1 @@
+Trained by distillation of the pretrained BERT model, meaning it’s been trained to predict the same probabilities as the larger model.

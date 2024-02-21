@@ -1,0 +1,1 @@
+- Segment Everything mode: In segment everything, given an image, the model generates every mask in the image.

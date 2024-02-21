@@ -1,0 +1,6 @@
+thon
+from transformers import AutoModelForCausalLM
+model = AutoModelForCausalLM.from_pretrained(checkpoint)
+
+Evaluate
+Image captioning models are typically evaluated with the Rouge Score or Word Error Rate.

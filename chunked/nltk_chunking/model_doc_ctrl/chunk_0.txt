@@ -1,0 +1,6 @@
+
+CTRL
+
+Overview
+CTRL model was proposed in CTRL: A Conditional Transformer Language Model for Controllable Generation by Nitish Shirish Keskar, Bryan McCann, Lav R. Varshney, Caiming Xiong and
+Richard Socher.

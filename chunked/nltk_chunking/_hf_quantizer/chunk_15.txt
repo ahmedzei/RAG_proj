@@ -1,0 +1,1 @@
+In this case, we prefer to only support inference in Transformers and let the third-party library maintained by the ML community deal with the model quantization itself.

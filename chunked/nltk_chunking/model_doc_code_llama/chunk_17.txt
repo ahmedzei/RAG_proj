@@ -1,0 +1,1 @@
+float16: We recommend running inference using this precision, as it's usually faster than bfloat16, and evaluation metrics show no discernible degradation with respect to bfloat16.

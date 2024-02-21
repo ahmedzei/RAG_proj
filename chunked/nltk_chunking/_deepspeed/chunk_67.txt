@@ -1,0 +1,1 @@
+stage3_gather_16bit_weights_on_model_save consolidates fp16 weights when a model is saved.

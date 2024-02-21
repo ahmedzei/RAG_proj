@@ -1,0 +1,4 @@
+In general, there are two possible debugging environments for running the original model
+
+Jupyter notebooks / google colab
+Local python scripts.

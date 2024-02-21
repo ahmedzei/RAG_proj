@@ -1,0 +1,7 @@
+def prepare_dataset(batch):
+     audio = batch["audio"]
+     batch = processor(audio["array"], sampling_rate=audio["sampling_rate"], text=batch["transcription"])
+     batch["input_length"] = len(batch["input_values"][0])
+     return batch
+
+To apply the preprocessing function over the entire dataset, use 🤗 Datasets [~datasets.Dataset.map] function.

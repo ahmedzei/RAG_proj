@@ -1,0 +1,1 @@
+You should use NF4 for training 4-bit base models.

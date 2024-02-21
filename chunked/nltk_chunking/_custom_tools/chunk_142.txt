@@ -1,0 +1,2 @@
+We'll add the not-so-useful yet fun task of fetching the model on the Hugging Face
+Hub with the most downloads for a given task.

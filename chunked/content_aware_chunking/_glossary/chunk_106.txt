@@ -1,0 +1,2 @@
+If no position_ids are passed to the model, the IDs are automatically created as
+absolute positional embeddings.

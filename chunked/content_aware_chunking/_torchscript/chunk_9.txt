@@ -1,0 +1,2 @@
+Models instantiated with the torchscript flag have their Embedding layer and
+Decoding layer separated, which means that they should not be trained down the line.

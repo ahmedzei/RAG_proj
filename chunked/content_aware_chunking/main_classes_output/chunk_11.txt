@@ -1,0 +1,2 @@
+When considering our outputs object as dictionary, it only considers the attributes that don't have None
+values.

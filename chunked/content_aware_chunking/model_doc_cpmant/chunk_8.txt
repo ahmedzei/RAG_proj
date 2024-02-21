@@ -1,0 +1,12 @@
+CpmAntConfig
+[[autodoc]] CpmAntConfig
+    - all
+CpmAntTokenizer
+[[autodoc]] CpmAntTokenizer
+    - all
+CpmAntModel
+[[autodoc]] CpmAntModel
+    - all
+CpmAntForCausalLM
+[[autodoc]] CpmAntForCausalLM
+    - all

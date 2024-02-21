@@ -1,0 +1,1 @@
+More generally we prefer longer explicit code to short magical one.

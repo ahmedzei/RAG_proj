@@ -1,0 +1,4 @@
+"},
+ ]
+tokenizer.apply_chat_template(chat, tokenize=False)
+" Hello, how are you?

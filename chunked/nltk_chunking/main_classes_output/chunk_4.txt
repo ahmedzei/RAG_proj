@@ -1,0 +1,1 @@
+When passing output_hidden_states=True you may expect the outputs.hidden_states[-1] to match outputs.last_hidden_states exactly.

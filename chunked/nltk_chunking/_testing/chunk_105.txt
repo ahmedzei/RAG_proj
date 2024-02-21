@@ -1,0 +1,10 @@
+For example:
+thon
+from transformers.testing_utils import TestCasePlus
+class PathExampleTest(TestCasePlus):
+    def test_something_involving_stringified_locations(self):
+        examples_dir = self.examples_dir_str
+
+Temporary files and directories
+Using unique temporary files and directories are essential for parallel test running, so that the tests won't overwrite
+each other's data.

@@ -1,0 +1,1 @@
+For instance, our model surpasses the human performance for the first time on TextCaps (138.2 vs. 125.5 in CIDEr).

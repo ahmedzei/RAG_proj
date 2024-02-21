@@ -1,0 +1,2 @@
+it replaces 0 in the annotated maps by 255, which is the ignore_index of the loss function
+  used by [SegformerForSemanticSegmentation]).

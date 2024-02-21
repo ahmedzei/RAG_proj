@@ -1,0 +1,3 @@
+Resources
+
+Fine-tuning Notebook on how to fine-tune MPT-7B on a free Google Colab instance to turn the model into a Chatbot.

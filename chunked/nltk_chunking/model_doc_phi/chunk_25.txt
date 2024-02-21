@@ -1,0 +1,11 @@
+', return_tensors="pt", return_attention_mask=False)
+outputs = model.generate(**inputs, max_length=30)
+text = tokenizer.batch_decode(outputs)[0]
+print(text)
+'Can you help me write a formal email to a potential business partner proposing a joint venture?\nInput: Company A: ABC Inc.\nCompany B: XYZ Ltd.\nJoint Venture: A new online platform for e-commerce'
+
+Example :
+thon
+
+from transformers import PhiForCausalLM, AutoTokenizer
+define the model and tokenizer.

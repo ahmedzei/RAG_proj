@@ -1,0 +1,4 @@
+Similar to Flan-T5,  one can directly use FLAN-UL2 weights without finetuning the model:
+According to the original blog here are the notable improvements:
+
+The original UL2 model was only trained with receptive field of 512, which made it non-ideal for N-shot prompting where N is large.

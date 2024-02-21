@@ -1,0 +1,3 @@
+For that reason, TFBrandNewBertPreTrainedModel
+   will need to hold an example of inputs to the model, the dummy_inputs
+   (example).

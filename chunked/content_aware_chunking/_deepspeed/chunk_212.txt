@@ -1,0 +1,1 @@
+You'll need to follow the DeepSpeed documentation, and manually configure the parameter values in the config file (you can't use the "auto" value).

@@ -1,0 +1,2 @@
+The pre-trained model and training pipeline are publicly released to facilitate research into neural response
+generation and the development of more intelligent open-domain dialogue systems.

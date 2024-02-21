@@ -1,0 +1,2 @@
+It only runs if a commit on main has updated the code in one of the following folders: src,
+     tests, .github (to prevent running on added model cards, notebooks, etc.)

@@ -1,0 +1,8 @@
+For example, if you're running inference on a question answering task, load the optimum/roberta-base-squad2 checkpoint which contains a model.onnx file:
+
+from transformers import AutoTokenizer, pipeline
+from optimum.onnxruntime import ORTModelForQuestionAnswering
+model = ORTModelForQuestionAnswering.from_pretrained("optimum/roberta-base-squad2")
+tokenizer = AutoTokenizer.from_pretrained("deepset/roberta-base-squad2")
+onnx_qa = pipeline("question-answering", model=model, tokenizer=tokenizer)
+question = "What's my name?"

@@ -1,0 +1,1 @@
+To see how much CPU and GPU memory you need for this model or others, try this calculator which can help determine that value.

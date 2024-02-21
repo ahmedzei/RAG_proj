@@ -1,0 +1,2 @@
+For instance, in the example above, because the answer "down" is selected way more often than other answers, it has a 
+score (called weight in the dataset) of 1.0, and the rest of the answers have scores < 1.0.

@@ -1,0 +1,1 @@
+[Trainer] sets the log level separately for each node in the [Trainer.__init__] method, so you may want to consider setting this sooner if you're using other Transformers functionalities before creating the [Trainer] object.

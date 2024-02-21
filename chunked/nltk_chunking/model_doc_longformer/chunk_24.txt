@@ -1,0 +1,5 @@
+All Longformer models employ the following logic for
+global_attention_mask:
+
+0: the token attends "locally",
+1: the token attends "globally".

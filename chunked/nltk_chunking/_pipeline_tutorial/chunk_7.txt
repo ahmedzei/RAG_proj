@@ -1,0 +1,2 @@
+The [pipeline] automatically loads a default model and a preprocessing class capable 
+of inference for your task.

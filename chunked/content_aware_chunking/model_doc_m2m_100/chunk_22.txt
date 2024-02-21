@@ -1,0 +1,19 @@
+Resources
+
+Translation task guide
+Summarization task guide
+
+M2M100Config
+[[autodoc]] M2M100Config
+M2M100Tokenizer
+[[autodoc]] M2M100Tokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+M2M100Model
+[[autodoc]] M2M100Model
+    - forward
+M2M100ForConditionalGeneration
+[[autodoc]] M2M100ForConditionalGeneration
+    - forward

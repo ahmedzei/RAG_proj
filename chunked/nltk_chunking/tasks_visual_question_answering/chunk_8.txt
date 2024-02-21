@@ -1,0 +1,1 @@
+to find all images with dogs from a set of images.

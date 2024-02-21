@@ -1,0 +1,38 @@
+DPRConfig
+[[autodoc]] DPRConfig
+DPRContextEncoderTokenizer
+[[autodoc]] DPRContextEncoderTokenizer
+DPRContextEncoderTokenizerFast
+[[autodoc]] DPRContextEncoderTokenizerFast
+DPRQuestionEncoderTokenizer
+[[autodoc]] DPRQuestionEncoderTokenizer
+DPRQuestionEncoderTokenizerFast
+[[autodoc]] DPRQuestionEncoderTokenizerFast
+DPRReaderTokenizer
+[[autodoc]] DPRReaderTokenizer
+DPRReaderTokenizerFast
+[[autodoc]] DPRReaderTokenizerFast
+DPR specific outputs
+[[autodoc]] models.dpr.modeling_dpr.DPRContextEncoderOutput
+[[autodoc]] models.dpr.modeling_dpr.DPRQuestionEncoderOutput
+[[autodoc]] models.dpr.modeling_dpr.DPRReaderOutput
+
+DPRContextEncoder
+[[autodoc]] DPRContextEncoder
+    - forward
+DPRQuestionEncoder
+[[autodoc]] DPRQuestionEncoder
+    - forward
+DPRReader
+[[autodoc]] DPRReader
+    - forward
+
+TFDPRContextEncoder
+[[autodoc]] TFDPRContextEncoder
+    - call
+TFDPRQuestionEncoder
+[[autodoc]] TFDPRQuestionEncoder
+    - call
+TFDPRReader
+[[autodoc]] TFDPRReader
+    - call

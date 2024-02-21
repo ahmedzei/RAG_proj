@@ -1,0 +1,1 @@
+SlimSAM reduces the size of the SAM models considerably while maintaining the same performance.

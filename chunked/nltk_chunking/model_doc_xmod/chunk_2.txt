@@ -1,0 +1,1 @@
+For fine-tuning, the language adapters in each transformer layer are frozen.

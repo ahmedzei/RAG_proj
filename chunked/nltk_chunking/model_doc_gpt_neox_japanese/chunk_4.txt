@@ -1,0 +1,1 @@
+Following the recommendations from Google's research on PaLM, we have removed bias parameters from transformer blocks, achieving better model performance.

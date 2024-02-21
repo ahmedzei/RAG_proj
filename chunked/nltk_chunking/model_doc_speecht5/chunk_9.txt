@@ -1,0 +1,38 @@
+SpeechT5Config
+[[autodoc]] SpeechT5Config
+SpeechT5HifiGanConfig
+[[autodoc]] SpeechT5HifiGanConfig
+SpeechT5Tokenizer
+[[autodoc]] SpeechT5Tokenizer
+    - call
+    - save_vocabulary
+    - decode
+    - batch_decode
+SpeechT5FeatureExtractor
+[[autodoc]] SpeechT5FeatureExtractor
+    - call
+SpeechT5Processor
+[[autodoc]] SpeechT5Processor
+    - call
+    - pad
+    - from_pretrained
+    - save_pretrained
+    - batch_decode
+    - decode
+SpeechT5Model
+[[autodoc]] SpeechT5Model
+    - forward
+SpeechT5ForSpeechToText
+[[autodoc]] SpeechT5ForSpeechToText
+    - forward
+SpeechT5ForTextToSpeech
+[[autodoc]] SpeechT5ForTextToSpeech
+    - forward
+    - generate
+SpeechT5ForSpeechToSpeech
+[[autodoc]] SpeechT5ForSpeechToSpeech
+    - forward
+    - generate_speech
+SpeechT5HifiGan
+[[autodoc]] SpeechT5HifiGan
+    - forward

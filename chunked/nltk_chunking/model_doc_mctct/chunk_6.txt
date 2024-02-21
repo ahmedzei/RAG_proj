@@ -1,0 +1,1 @@
+After training on Common Voice and VoxPopuli, the model is trained on Common Voice only.

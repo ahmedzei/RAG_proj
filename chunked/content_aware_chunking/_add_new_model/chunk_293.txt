@@ -1,0 +1,2 @@
+The only thing left to add is
+a nice docstring and a doc page.

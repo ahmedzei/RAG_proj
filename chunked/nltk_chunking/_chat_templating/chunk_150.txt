@@ -1,0 +1,7 @@
+If statements
+If statements in Jinja look like this:
+{% if message['role'] == 'user' %}
+{{ message['content'] }}
+{% endif %}
+Note how where Python uses whitespace to mark the beginnings and ends of for and if blocks, Jinja requires you
+to explicitly end them with {% endfor %} and {% endif %}.

@@ -1,0 +1,2 @@
+To describe this method, this section of the guide relies on the concepts and diagrams from the Megatron-LM 
+paper: Efficient Large-Scale Language Model Training on GPU Clusters.

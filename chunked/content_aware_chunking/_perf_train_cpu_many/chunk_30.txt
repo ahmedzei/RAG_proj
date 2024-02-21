@@ -1,0 +1,2 @@
+The snippet below is an example of a yaml file for a PyTorchJob with 4 workers running the
+question-answering example.

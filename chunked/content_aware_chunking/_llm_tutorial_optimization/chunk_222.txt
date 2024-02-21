@@ -1,0 +1,1 @@
+Transformers has the key-value cache enabled by default when making use of the text pipeline or the generate method.

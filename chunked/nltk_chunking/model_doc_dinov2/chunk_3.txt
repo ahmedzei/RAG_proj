@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+The recent breakthroughs in natural language processing for model pretraining on large quantities of data have opened the way for similar foundation models in computer vision.

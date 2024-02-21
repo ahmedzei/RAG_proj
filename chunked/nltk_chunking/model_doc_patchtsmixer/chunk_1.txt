@@ -1,0 +1,1 @@
+PatchTSMixer is a lightweight time-series modeling approach based on the MLP-Mixer architecture.

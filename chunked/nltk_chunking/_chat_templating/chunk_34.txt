@@ -1,0 +1,9 @@
+"},
+ ]
+tokenized_chat = tokenizer.apply_chat_template(messages, tokenize=True, add_generation_prompt=True, return_tensors="pt")
+print(tokenizer.decode(tokenized_chat[0]))
+This will yield a string in the input format that Zephyr expects.text
+<|system|>
+You are a friendly chatbot who always responds in the style of a pirate 
+<|user|>
+How many helicopters can a human eat in one sitting?

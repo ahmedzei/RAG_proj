@@ -1,0 +1,2 @@
+For customizations that require changes in the training loop, you should
+subclass [Trainer] and override the methods you need (see trainer for examples).

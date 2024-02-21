@@ -1,0 +1,1 @@
+This way, their length is divided by 2, which speeds up the computation of the next hidden states.

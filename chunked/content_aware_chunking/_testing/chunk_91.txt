@@ -1,0 +1,2 @@
+Parametrization
+Often, there is a need to run the same test multiple times, but with different arguments.

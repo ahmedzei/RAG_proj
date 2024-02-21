@@ -1,0 +1,1 @@
+Thanks to the cache, all key-value vectors for the first two sentences are already computed.

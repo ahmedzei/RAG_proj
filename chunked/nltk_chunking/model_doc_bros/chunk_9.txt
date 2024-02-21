@@ -1,0 +1,1 @@
+BrosSpadeEEForTokenClassification has an initial_token_classifier and subsequent_token_classifier on top of BrosModel.

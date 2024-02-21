@@ -1,0 +1,1 @@
+Specifically, we extract duration, pitch and energy from speech waveform and directly take them as conditional inputs in training and use predicted values in inference.

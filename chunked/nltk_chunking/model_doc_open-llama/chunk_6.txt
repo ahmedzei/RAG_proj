@@ -1,0 +1,1 @@
+And the model is pre-trained on both Chinese and English, which gives it better performance on Chinese language tasks.

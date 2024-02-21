@@ -1,0 +1,2 @@
+While it's the most intuitive way to split texts into smaller chunks, this
+tokenization method can lead to problems for massive text corpora.

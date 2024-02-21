@@ -1,0 +1,9 @@
+inputs = processor(en_sample, sampling_rate=16_000, return_tensors="pt")
+with torch.no_grad():
+    outputs = model(**inputs).logits
+ids = torch.argmax(outputs, dim=-1)[0]
+transcription = processor.decode(ids)
+'joe keton disapproved of films and buster also had reservations about the media'
+
+We can now keep the same model in memory and simply switch out the language adapters by
+calling the convenient [~Wav2Vec2ForCTC.load_adapter] function for the model and [~Wav2Vec2CTCTokenizer.set_target_lang] for the tokenizer.

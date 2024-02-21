@@ -1,0 +1,22 @@
+from transformers import AutoModelForSequenceClassification
+import torch
+model = AutoModelForSequenceClassification.from_pretrained("google-bert/bert-base-uncased")
+model.config.pad_token_id
+0
+
+The following example shows the output without masking the padding tokens:
+
+input_ids = torch.tensor([[7592, 2057, 2097, 2393, 9611, 2115], [7592, 0, 0, 0, 0, 0]])
+output = model(input_ids)
+print(output.logits)
+tensor([[ 0.0082, -0.2307],
+        [ 0.1317, -0.1683]], grad_fn=)
+
+Here is the actual output of the second sequence:
+
+input_ids = torch.tensor([[7592]])
+output = model(input_ids)
+print(output.logits)
+tensor([[-0.1008, -0.4061]], grad_fn=)
+
+Most of the time, you should provide an attention_mask to your model to ignore the padding tokens to avoid this silent error.

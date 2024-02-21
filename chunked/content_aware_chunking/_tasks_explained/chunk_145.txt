@@ -1,0 +1,1 @@
+Half of the time sentence B is the next sentence, and the other half of the time, sentence B is a random sentence.

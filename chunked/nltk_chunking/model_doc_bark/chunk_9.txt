@@ -1,0 +1,2 @@
+Optimizing Bark
+Bark can be optimized with just a few extra lines of code, which significantly reduces its memory footprint and accelerates inference.

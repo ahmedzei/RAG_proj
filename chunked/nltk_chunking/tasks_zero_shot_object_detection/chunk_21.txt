@@ -1,0 +1,4 @@
+text_queries = ["hat", "book", "sunglasses", "camera"]
+inputs = processor(text=text_queries, images=im, return_tensors="pt")
+
+Pass the inputs through the model, post-process, and visualize the results.

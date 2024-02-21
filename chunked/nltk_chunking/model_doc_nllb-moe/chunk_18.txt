@@ -1,0 +1,2 @@
+Generating with NLLB-MoE
+The available checkpoints require around 350GB of storage.

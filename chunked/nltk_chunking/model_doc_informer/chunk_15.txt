@@ -1,0 +1,10 @@
+Check out the Informer blog-post in HuggingFace blog: Multivariate Probabilistic Time Series Forecasting with Informer
+
+InformerConfig
+[[autodoc]] InformerConfig
+InformerModel
+[[autodoc]] InformerModel
+    - forward
+InformerForPrediction
+[[autodoc]] InformerForPrediction
+    - forward

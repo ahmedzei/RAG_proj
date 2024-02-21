@@ -1,0 +1,1 @@
+Note that we're using the BCP-47 code for French fra_Latn.

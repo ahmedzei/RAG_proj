@@ -1,0 +1,1 @@
+We decompose the challenge of visual language reasoning into two steps: (1) plot-to-text translation, and (2) reasoning over the translated text.

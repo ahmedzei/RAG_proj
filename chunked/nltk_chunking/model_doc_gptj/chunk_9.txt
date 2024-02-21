@@ -1,0 +1,2 @@
+Adam
+  optimizer for example makes four copies of the model: model, gradients, average and squared average of the gradients.

@@ -1,0 +1,10 @@
+For example, the following instruction
+python
+agent.run("Draw me a picture of rivers and lakes", return_code=True)
+returns the following code
+thon
+from transformers import load_tool
+image_generator = load_tool("huggingface-tools/text-to-image")
+image = image_generator(prompt="rivers and lakes")
+
+that you can then modify and execute yourself.

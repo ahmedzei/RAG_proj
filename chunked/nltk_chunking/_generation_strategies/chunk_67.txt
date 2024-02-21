@@ -1,0 +1,5 @@
+thon
+
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, set_seed
+set_seed(0)  # For reproducibility
+prompt = "translate English to German: The house is wonderful."

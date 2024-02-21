@@ -1,0 +1,2 @@
+LED makes use of global attention by means of the global_attention_mask (see
+  [LongformerModel]).

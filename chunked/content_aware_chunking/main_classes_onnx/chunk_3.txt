@@ -1,0 +1,2 @@
+FeaturesManager
+[[autodoc]] onnx.features.FeaturesManager

@@ -1,0 +1,5 @@
+def bytes_to_megabytes(bytes):
+   return bytes / 1024 / 1024
+Answer: The function takes a number of bytes as input and returns the number of
+
+Great, no additional time is spent recomputing the same key and values for the attention layer!

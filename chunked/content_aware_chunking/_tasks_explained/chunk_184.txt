@@ -1,0 +1,1 @@
+BART's encoder architecture is very similar to BERT and accepts a token and positional embedding of the text.

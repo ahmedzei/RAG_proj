@@ -1,0 +1,1 @@
+Optionally, one can provide node labels to the processor, which are turned into token-level labels.

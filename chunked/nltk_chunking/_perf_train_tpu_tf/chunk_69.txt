@@ -1,0 +1,1 @@
+Note that we use the same trick as in rule #1 - converting a tf.bool to tf.float32 and using it as an indicator variable.

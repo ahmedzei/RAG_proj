@@ -1,0 +1,9 @@
+This can be done by specifying where to push your model and tokenizer in the [~transformers.PushToHubCallback]:
+
+from transformers.keras_callbacks import PushToHubCallback
+callback = PushToHubCallback(
+     output_dir="my_awesome_eli5_clm-model",
+     tokenizer=tokenizer,
+ )
+
+Finally, you're ready to start training your model!

@@ -1,0 +1,2 @@
+We can introduce exceptions if some of these should-be-non-slow tests are excruciatingly slow, and set them to
+  @slow.

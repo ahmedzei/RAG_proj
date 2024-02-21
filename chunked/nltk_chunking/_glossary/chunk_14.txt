@@ -1,0 +1,1 @@
+For example, [ViTModel] is a backbone without a specific head on top.

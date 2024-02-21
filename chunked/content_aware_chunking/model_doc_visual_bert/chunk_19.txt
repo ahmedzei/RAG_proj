@@ -1,0 +1,2 @@
+The authors use the features generated after passing these regions through a pre-trained
+CNN like ResNet as visual embeddings.

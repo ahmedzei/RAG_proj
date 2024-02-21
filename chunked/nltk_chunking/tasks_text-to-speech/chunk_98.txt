@@ -1,0 +1,2 @@
+Since SpeechT5 was pre-trained with English x-vectors, it performs best 
+when using English speaker embeddings.

@@ -1,0 +1,3 @@
+python
+flush()
+For comparison, let's run the same function, but enable Flash Attention instead.

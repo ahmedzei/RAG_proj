@@ -1,0 +1,1 @@
+To understand a bit better why this is the case let's have a look at a model's operations and memory needs.

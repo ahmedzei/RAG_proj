@@ -1,0 +1,4 @@
+
+ViTDet
+Overview
+The ViTDet model was proposed in Exploring Plain Vision Transformer Backbones for Object Detection by Yanghao Li, Hanzi Mao, Ross Girshick, Kaiming He.

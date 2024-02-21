@@ -1,0 +1,2 @@
+pip install transformers datasets accelerate tensorboard evaluate --upgrade
+In this example, we are using the merve/beans-vit-224 model as teacher model.

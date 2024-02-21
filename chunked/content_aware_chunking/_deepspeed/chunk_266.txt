@@ -1,0 +1,3 @@
+Attempted loss scale: 1, reducing to 1
+[]
+This means the DeepSpeed loss scaler is unable to find a scaling coefficient to overcome loss overflow.

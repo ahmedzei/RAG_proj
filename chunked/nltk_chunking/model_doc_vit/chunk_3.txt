@@ -1,0 +1,3 @@
+In vision, attention is either applied in conjunction with
+convolutional networks, or used to replace certain components of convolutional networks while keeping their overall
+structure in place.

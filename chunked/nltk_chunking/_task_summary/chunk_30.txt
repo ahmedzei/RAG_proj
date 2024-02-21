@@ -1,0 +1,19 @@
+Some example applications of object detection include:
+
+self-driving vehicles: detect everyday traffic objects such as other vehicles, pedestrians, and traffic lights
+remote sensing: disaster monitoring, urban planning, and weather forecasting
+defect detection: detect cracks or structural damage in buildings, and manufacturing defects
+
+from transformers import pipeline
+detector = pipeline(task="object-detection")
+preds = detector(
+     "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/pipeline-cat-chonk.jpeg"
+ )
+preds = [{"score": round(pred["score"], 4), "label": pred["label"], "box": pred["box"]} for pred in preds]
+preds
+[{'score': 0.9865,
+  'label': 'cat',
+  'box': {'xmin': 178, 'ymin': 154, 'xmax': 882, 'ymax': 598}}]
+
+Image segmentation
+Image segmentation is a pixel-level task that assigns every pixel in an image to a class.

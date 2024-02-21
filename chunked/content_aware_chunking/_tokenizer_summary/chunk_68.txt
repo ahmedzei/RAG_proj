@@ -1,0 +1,2 @@
+Next, BPE creates a base vocabulary consisting of all symbols that occur in the set
+of unique words and learns merge rules to form a new symbol from two symbols of the base vocabulary.

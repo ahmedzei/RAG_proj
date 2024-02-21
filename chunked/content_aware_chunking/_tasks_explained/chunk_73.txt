@@ -1,0 +1,1 @@
+ConvNeXT attempts to replicate this effect by increasing the kernel size to 7x7.

@@ -1,0 +1,1 @@
+To use native PyTorch padding behavior, create a [MobileNetV2Config] with tf_padding = False.

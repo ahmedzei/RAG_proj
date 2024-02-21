@@ -1,0 +1,14 @@
+Before getting in the specifics, let's first start by creating a dummy tokenizer in a few lines:
+thon
+
+from tokenizers import Tokenizer
+from tokenizers.models import BPE
+from tokenizers.trainers import BpeTrainer
+from tokenizers.pre_tokenizers import Whitespace
+tokenizer = Tokenizer(BPE(unk_token="[UNK]"))
+trainer = BpeTrainer(special_tokens=["[UNK]", "[CLS]", "[SEP]", "[PAD]", "[MASK]"])
+tokenizer.pre_tokenizer = Whitespace()
+files = []
+tokenizer.train(files, trainer)
+
+We now have a tokenizer trained on the files we defined.

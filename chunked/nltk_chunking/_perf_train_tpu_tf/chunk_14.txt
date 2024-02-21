@@ -1,0 +1,1 @@
+When you use a TPU on Google Colab, you are accessing it in the TPU Node style.

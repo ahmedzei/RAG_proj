@@ -1,0 +1,2 @@
+To identify unsupported tokens, extract all unique characters in the dataset using the SpeechT5Tokenizer which 
+works with characters as tokens.

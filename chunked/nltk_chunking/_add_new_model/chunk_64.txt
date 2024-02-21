@@ -1,0 +1,4 @@
+That being said, you don't have to spend too much time on the
+theoretical aspects, but rather focus on the practical ones, namely:
+
+What type of model is brand_new_bert?

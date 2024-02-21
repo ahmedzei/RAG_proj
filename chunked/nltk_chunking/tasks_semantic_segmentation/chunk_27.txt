@@ -1,0 +1,6 @@
+For this task, load the mean Intersection over Union (IoU) metric (see the 🤗 Evaluate quick tour to learn more about how to load and compute a metric):
+
+import evaluate
+metric = evaluate.load("mean_iou")
+
+Then create a function to [~evaluate.EvaluationModule.compute] the metrics.

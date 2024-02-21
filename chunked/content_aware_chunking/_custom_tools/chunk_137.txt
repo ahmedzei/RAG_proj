@@ -1,0 +1,5 @@
+py
+image = agent.run("Upscale the image", image)
+``text
+==Explanation from the agent==
+I will use the following tool:image_upscaler` to upscale the image.

@@ -1,0 +1,2 @@
+Return None if the no
+            video stream was found.

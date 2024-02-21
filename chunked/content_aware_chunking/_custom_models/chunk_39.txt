@@ -1,0 +1,2 @@
+This is different from pushing the code to the Hub in the sense that users will need to import your library to
+get the custom models (contrarily to automatically downloading the model code from the Hub).

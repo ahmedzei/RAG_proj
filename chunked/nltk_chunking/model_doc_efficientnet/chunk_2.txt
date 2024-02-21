@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Convolutional Neural Networks (ConvNets) are commonly developed at a fixed resource budget, and then scaled up for better accuracy if more resources are available.

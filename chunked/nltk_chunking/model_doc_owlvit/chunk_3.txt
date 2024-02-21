@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Combining simple architectures with large-scale pre-training has led to massive improvements in image classification.

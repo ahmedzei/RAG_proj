@@ -1,0 +1,2 @@
+pretrained model
+A model that has been pretrained on some data (for instance all of Wikipedia).

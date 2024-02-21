@@ -1,0 +1,4 @@
+Natural language processing
+
+Encoder[[nlp-encoder]]
+BERT is an encoder-only Transformer that randomly masks certain tokens in the input to avoid seeing other tokens, which would allow it to "cheat".

@@ -1,0 +1,5 @@
+you should install them before using them as the hyperparameter search backend
+
+pip install optuna/sigopt/wandb/ray[tune]
+How to enable Hyperparameter search in example
+Define the hyperparameter search space, different backends need different format.

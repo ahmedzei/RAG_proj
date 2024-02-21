@@ -1,0 +1,4 @@
+from transformers import AutoModelForSequenceClassification
+model = AutoModelForSequenceClassification.from_pretrained("google-bert/bert-large-uncased").to("cuda")
+print_gpu_utilization()
+GPU memory occupied: 2631 MB.

@@ -1,0 +1,2 @@
+The buckets are then sorted and chunked into query key embedding vector chunks
+each of length config.lsh_chunk_length.

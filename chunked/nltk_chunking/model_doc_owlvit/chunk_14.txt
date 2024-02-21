@@ -1,0 +1,2 @@
+Usage tips
+OWL-ViT is a zero-shot text-conditioned object detection model.

@@ -1,0 +1,1 @@
+- Use jit to fuse the attention fp32 casting, masking, softmax, and scaling.

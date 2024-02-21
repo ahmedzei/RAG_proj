@@ -1,0 +1,2 @@
+Question answering
+To use BERT for question answering, add a span classification head on top of the base BERT model.

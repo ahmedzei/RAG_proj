@@ -1,0 +1,3 @@
+processor = ClvpProcessor.from_pretrained("susnato/clvp_dev")
+model = ClvpModelForConditionalGeneration.from_pretrained("susnato/clvp_dev")
+Generate processor output and model output.

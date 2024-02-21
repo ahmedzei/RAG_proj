@@ -1,0 +1,1 @@
+Note that if you do your own preprocessing, the pretrained checkpoints expect images to be in BGR pixel order (not RGB).

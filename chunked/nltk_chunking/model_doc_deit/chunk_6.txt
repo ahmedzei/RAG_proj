@@ -1,0 +1,2 @@
+In this work, we produce a competitive convolution-free
+transformer by training on Imagenet only.

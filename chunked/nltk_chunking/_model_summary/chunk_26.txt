@@ -1,0 +1,1 @@
+What's unusual is 75% of the image patches are masked!

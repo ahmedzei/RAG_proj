@@ -1,0 +1,4 @@
+The first ones should be
+  used for [FunnelModel], [FunnelForPreTraining],
+  [FunnelForMaskedLM], [FunnelForTokenClassification] and
+  [FunnelForQuestionAnswering].

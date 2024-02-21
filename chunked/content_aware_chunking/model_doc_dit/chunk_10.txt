@@ -1,0 +1,1 @@
+document image classification (91.11 → 92.69), document layout analysis (91.0 → 94.9) and table detection (94.23 → 96.55).

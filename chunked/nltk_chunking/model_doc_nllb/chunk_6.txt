@@ -1,0 +1,12 @@
+").input_ids
+[13374, 1398, 4260, 4039, 248130, 2, 256047]
+2: ''
+256047 : 'eng_Latn'
+
+New behaviour
+
+thon
+
+from transformers import NllbTokenizer
+tokenizer = NllbTokenizer.from_pretrained("facebook/nllb-200-distilled-600M")
+tokenizer("How was your day?

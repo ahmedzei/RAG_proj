@@ -1,0 +1,19 @@
+An example would be:
+py
+agent.run("Draw me the picture of a capybara swimming in the sea")
+Here, the model could interpret in two ways:
+- Have the text-to-image generate a capybara swimming in the sea
+- Or, have the text-to-image generate capybara, then use the image-transformation tool to have it swim in the sea
+In case you would like to force the first scenario, you could do so by passing it the prompt as an argument:
+py
+agent.run("Draw me a picture of the `prompt`", prompt="a capybara swimming in the sea")
+
+Chat-based execution (chat)
+The agent also has a chat-based approach, using the [~Agent.chat] method:
+py
+agent.chat("Generate a picture of rivers and lakes")
+ 
+py
+agent.chat("Transform the picture so that there is a rock in there")
+
+This is an interesting approach when you want to keep the state across instructions.

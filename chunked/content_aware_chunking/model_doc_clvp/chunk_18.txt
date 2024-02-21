@@ -1,0 +1,6 @@
+Example :
+thon
+
+import datasets
+from transformers import ClvpProcessor, ClvpModelForConditionalGeneration
+Define the Text and Load the Audio (We are taking an audio example from HuggingFace Hub using datasets library).

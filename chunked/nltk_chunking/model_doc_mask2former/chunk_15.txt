@@ -1,0 +1,1 @@
+To get the final segmentation, depending on the task, you can call [~Mask2FormerImageProcessor.post_process_semantic_segmentation] or [~Mask2FormerImageProcessor.post_process_instance_segmentation] or [~Mask2FormerImageProcessor.post_process_panoptic_segmentation].

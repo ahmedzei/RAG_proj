@@ -1,0 +1,45 @@
+Instantiate a pipeline for sentiment analysis with your model, and pass your text to it:
+
+from transformers import pipeline
+classifier = pipeline("sentiment-analysis", model="stevhliu/my_awesome_model")
+classifier(text)
+[{'label': 'POSITIVE', 'score': 0.9994940757751465}]
+
+You can also manually replicate the results of the pipeline if you'd like:
+
+Tokenize the text and return PyTorch tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("stevhliu/my_awesome_model")
+inputs = tokenizer(text, return_tensors="pt")
+
+Pass your inputs to the model and return the logits:
+
+from transformers import AutoModelForSequenceClassification
+model = AutoModelForSequenceClassification.from_pretrained("stevhliu/my_awesome_model")
+with torch.no_grad():
+     logits = model(**inputs).logits
+
+Get the class with the highest probability, and use the model's id2label mapping to convert it to a text label:
+
+predicted_class_id = logits.argmax().item()
+model.config.id2label[predicted_class_id]
+'POSITIVE'
+
+Tokenize the text and return TensorFlow tensors:
+
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("stevhliu/my_awesome_model")
+inputs = tokenizer(text, return_tensors="tf")
+
+Pass your inputs to the model and return the logits:
+
+from transformers import TFAutoModelForSequenceClassification
+model = TFAutoModelForSequenceClassification.from_pretrained("stevhliu/my_awesome_model")
+logits = model(**inputs).logits
+
+Get the class with the highest probability, and use the model's id2label mapping to convert it to a text label:
+
+predicted_class_id = int(tf.math.argmax(logits, axis=-1)[0])
+model.config.id2label[predicted_class_id]
+'POSITIVE'

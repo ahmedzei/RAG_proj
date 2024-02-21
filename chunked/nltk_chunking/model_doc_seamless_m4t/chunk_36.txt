@@ -1,0 +1,1 @@
+Each modality has its own dedicated encoder with a unique architecture.

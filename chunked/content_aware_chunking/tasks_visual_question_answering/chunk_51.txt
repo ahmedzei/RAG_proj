@@ -1,0 +1,2 @@
+The simplest
+way to try out your fine-tuned model for inference is to use it in a [Pipeline].

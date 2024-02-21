@@ -1,0 +1,3 @@
+This option might suit you better if your engineering skills are better than
+your theoretical skill, if you have trouble understanding BrandNewBert's paper, or if you just enjoy programming
+much more than reading scientific papers.

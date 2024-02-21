@@ -1,0 +1,1 @@
+By default it's True because usually it's ideal to drop unused feature columns, making it easier to unpack inputs into the model's call function.

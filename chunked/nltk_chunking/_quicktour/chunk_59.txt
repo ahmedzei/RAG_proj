@@ -1,0 +1,1 @@
+While you can write your own training loop, 🤗 Transformers provides a [Trainer] class for PyTorch, which contains the basic training loop and adds additional functionality for features like distributed training, mixed precision, and more.

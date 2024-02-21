@@ -1,0 +1,1 @@
+If you want to use the model to perform conditional text captioning, make sure to use the processor with add_special_tokens=False.

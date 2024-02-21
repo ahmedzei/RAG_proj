@@ -1,0 +1,4 @@
+directory containing checkpoints
+accelerator.load_state("ckpt")
+
+However, when training ends, you want to save the full state dict because sharded state dict is only compatible with FSDP.

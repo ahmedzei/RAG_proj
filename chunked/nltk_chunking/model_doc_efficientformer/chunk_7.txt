@@ -1,0 +1,1 @@
+To answer this, we first revisit the network architecture and operators used in ViT-based models and identify inefficient designs.

@@ -1,0 +1,2 @@
+We open-source
+the training and evaluation code, as well as the model weights, at https://github.com/EleutherAI/gpt-neox.

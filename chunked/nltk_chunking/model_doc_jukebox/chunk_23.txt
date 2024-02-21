@@ -1,0 +1,1 @@
+Primed sampling (conditioning the sampling on raw audio) requires more memory than ancestral sampling and should be used with fp16 set to True.

@@ -1,0 +1,4 @@
+
+SwiftFormer
+Overview
+The SwiftFormer model was proposed in SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications by Abdelrahman Shaker, Muhammad Maaz, Hanoona Rasheed, Salman Khan, Ming-Hsuan Yang, Fahad Shahbaz Khan.

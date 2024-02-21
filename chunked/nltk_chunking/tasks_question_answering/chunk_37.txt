@@ -1,0 +1,1 @@
+The [Trainer] still calculates the evaluation loss during training so you're not completely in the dark about your model's performance.

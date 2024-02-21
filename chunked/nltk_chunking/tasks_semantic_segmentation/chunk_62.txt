@@ -1,0 +1,5 @@
+image.size[::-1],
+ )
+pred_seg = tf.math.argmax(upsampled_logits, axis=-1)[0]
+
+To visualize the results, load the dataset color palette as ade_palette() that maps each class to their RGB values.

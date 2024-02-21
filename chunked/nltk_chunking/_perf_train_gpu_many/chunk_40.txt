@@ -1,0 +1,2 @@
+DDP copies data using torch.distributed, while DP copies data within 
+the process via Python threads (which introduces limitations associated with GIL).

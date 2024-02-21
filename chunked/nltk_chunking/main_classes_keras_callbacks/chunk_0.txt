@@ -1,0 +1,8 @@
+
+Keras callbacks
+When training a Transformers model with Keras, there are some library-specific callbacks available to automate common
+tasks:
+KerasMetricCallback
+[[autodoc]] KerasMetricCallback
+PushToHubCallback
+[[autodoc]] PushToHubCallback

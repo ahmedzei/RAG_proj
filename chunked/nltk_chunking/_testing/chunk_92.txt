@@ -1,0 +1,2 @@
+It could be done from within
+the test, but then there is no way of running that test for just one set of arguments.

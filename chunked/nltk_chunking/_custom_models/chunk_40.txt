@@ -1,0 +1,11 @@
+As long as your config has a model_type attribute that is different from existing model types, and that your model
+classes have the right config_class attributes, you can just add them to the auto classes like this:
+
+from transformers import AutoConfig, AutoModel, AutoModelForImageClassification
+AutoConfig.register("resnet", ResnetConfig)
+AutoModel.register(ResnetConfig, ResnetModel)
+AutoModelForImageClassification.register(ResnetConfig, ResnetModelForImageClassification)
+
+Note that the first argument used when registering your custom config to [AutoConfig] needs to match the model_type
+of your custom config, and the first argument used when registering your custom models to any auto model class needs
+to match the config_class of those models.

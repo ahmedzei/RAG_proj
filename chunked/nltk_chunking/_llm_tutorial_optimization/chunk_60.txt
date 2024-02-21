@@ -1,0 +1,2 @@
+To quantize the weights with Transformers, you need to make sure that
+the bitsandbytes library is installed.

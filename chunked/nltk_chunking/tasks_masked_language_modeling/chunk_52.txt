@@ -1,0 +1,5 @@
+Call fit with your training and validation datasets, the number of epochs, and your callback to finetune the model:
+
+model.fit(x=tf_train_set, validation_data=tf_test_set, epochs=3, callbacks=[callback])
+
+Once training is completed, your model is automatically uploaded to the Hub so everyone can use it!

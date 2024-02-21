@@ -1,0 +1,3 @@
+
+PyTorch training on Apple silicon
+Previously, training models on a Mac was limited to the CPU only.

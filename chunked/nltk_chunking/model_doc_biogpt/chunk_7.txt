@@ -1,0 +1,1 @@
+In this paper, we propose BioGPT, a domain-specific generative Transformer language model pre-trained on large-scale biomedical literature.

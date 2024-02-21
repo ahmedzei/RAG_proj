@@ -1,0 +1,1 @@
+ImageGPT comes in different sizes: there's ImageGPT-small, ImageGPT-medium and ImageGPT-large.

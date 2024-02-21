@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+Image segmentation is usually addressed by training a
+model for a fixed set of object classes.

@@ -1,0 +1,2 @@
+Usage tips
+The model was trained without an attention mask as it is based on Fourier Transform.

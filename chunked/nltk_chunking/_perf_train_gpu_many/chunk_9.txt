@@ -1,0 +1,2 @@
+Before diving deeper into the specifics of each technique, let's go over the rough decision process when training 
+large models on a large infrastructure.

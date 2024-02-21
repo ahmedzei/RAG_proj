@@ -1,0 +1,2 @@
+While it's theoretically possible to use ZeRO stage 2 (gradient sharding) with Pipeline Parallelism, it will have negative 
+performance impacts.

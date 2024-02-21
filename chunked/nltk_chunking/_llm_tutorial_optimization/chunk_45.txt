@@ -1,0 +1,1 @@
+If you are unsure in which format the model weights are stored on the Hub, you can always look into the checkpoint's config under "torch_dtype", e.g.

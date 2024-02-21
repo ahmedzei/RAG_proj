@@ -1,0 +1,1 @@
+A xfail means that you expect a test to fail for some reason.

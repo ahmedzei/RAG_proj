@@ -1,0 +1,2 @@
+One can use [SegformerImageProcessor] to prepare images and corresponding segmentation maps
+  for the model.

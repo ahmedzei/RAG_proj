@@ -1,0 +1,2 @@
+Such models
+have the very minimal number of layers (e.g., 2), vocab size (e.g., 1000), etc.

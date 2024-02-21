@@ -1,0 +1,4 @@
+
+MADLAD-400
+Overview
+MADLAD-400 models were released in the paper MADLAD-400: A Multilingual And Document-Level Large Audited Dataset.

@@ -1,0 +1,2 @@
+If you'd like to understand how GPU is utilized during 
+training, please refer to the Model training anatomy conceptual guide first.

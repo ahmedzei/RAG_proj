@@ -1,0 +1,3 @@
+Let's have a look at one example:
+```text
+Task: "Identify the oldest person in thedocument` and create an image showcasing the result as a banner."

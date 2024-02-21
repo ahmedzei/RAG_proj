@@ -1,0 +1,2 @@
+If you do not resize images during image augmentation,
+leave this parameter out.

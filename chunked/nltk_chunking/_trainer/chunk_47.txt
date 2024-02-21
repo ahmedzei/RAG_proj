@@ -1,0 +1,5 @@
+from transformers import TrainingArguments, Trainer
+training_args = TrainingArguments(, neftune_noise_alpha=0.1)
+trainer = Trainer(, args=training_args)
+
+NEFTune is disabled after training to restore the original embedding layer to avoid any unexpected behavior.

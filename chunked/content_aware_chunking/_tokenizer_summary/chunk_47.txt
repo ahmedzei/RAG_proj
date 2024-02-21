@@ -1,0 +1,5 @@
+as follows:
+
+from transformers import BertTokenizer
+tokenizer = BertTokenizer.from_pretrained("google-bert/bert-base-uncased")
+tokenizer.tokenize("I have a new GPU!")

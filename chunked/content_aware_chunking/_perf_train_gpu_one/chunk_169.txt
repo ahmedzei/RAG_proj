@@ -1,0 +1,3 @@
+Using PyTorch native attention and Flash Attention
+PyTorch 2.0 released a native torch.nn.functional.scaled_dot_product_attention (SDPA), 
+that allows using fused GPU kernels such as memory-efficient attention and flash attention.

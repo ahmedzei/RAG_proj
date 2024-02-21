@@ -1,0 +1,1 @@
+That's why the feature vectors are passed to a quantization module, which aims to learn discrete speech units.

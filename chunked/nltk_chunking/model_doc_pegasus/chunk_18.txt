@@ -1,0 +1,2 @@
+The code to convert checkpoints trained in the author's repo can be
+  found in convert_pegasus_tf_to_pytorch.py.

@@ -1,0 +1,1 @@
+A learnable embedding - a special [CLS] token - is added to the beginning of the patch embeddings just like BERT.

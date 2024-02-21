@@ -1,0 +1,6 @@
+from transformers import AutoModelForCausalLM, AutoTokenizer, GPTQConfig
+model_id = "facebook/opt-125m"
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+gptq_config = GPTQConfig(bits=4, dataset="c4", tokenizer=tokenizer)
+
+You could also pass your own dataset as a list of strings, but it is highly recommended to use the same dataset from the GPTQ paper.

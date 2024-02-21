@@ -1,0 +1,1 @@
+DePlot is a Visual Question Answering subset of Pix2Struct architecture.

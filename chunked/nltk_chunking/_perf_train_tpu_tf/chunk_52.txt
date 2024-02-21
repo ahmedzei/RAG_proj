@@ -1,0 +1,1 @@
+Our models and loss functions generally obey rule #1 and #2 by default, so you can skip over them if you’re using transformers models.

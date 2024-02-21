@@ -1,0 +1,3 @@
+If you want to reuse a block from another model, copy the code and paste it with a
+   # Copied from comment on top (see here
+   for a good example and there for more documentation on Copied from).

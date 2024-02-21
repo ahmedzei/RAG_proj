@@ -1,0 +1,3 @@
+Usage tips
+
+Hubert is a speech model that accepts a float array corresponding to the raw waveform of the speech signal.

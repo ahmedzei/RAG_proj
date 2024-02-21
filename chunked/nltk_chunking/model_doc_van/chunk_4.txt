@@ -1,0 +1,1 @@
+This paper introduces a new attention layer based on convolution operations able to capture both local and distant relationships.

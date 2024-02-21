@@ -1,0 +1,1 @@
+We show that OPT-175B is comparable to GPT-3, while requiring only 1/7th the carbon footprint to develop.

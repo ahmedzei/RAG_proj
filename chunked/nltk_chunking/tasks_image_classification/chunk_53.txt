@@ -1,0 +1,50 @@
+Instantiate a pipeline for image classification with your model, and pass your image to it:
+
+from transformers import pipeline
+classifier = pipeline("image-classification", model="my_awesome_food_model")
+classifier(image)
+[{'score': 0.31856709718704224, 'label': 'beignets'},
+ {'score': 0.015232225880026817, 'label': 'bruschetta'},
+ {'score': 0.01519392803311348, 'label': 'chicken_wings'},
+ {'score': 0.013022331520915031, 'label': 'pork_chop'},
+ {'score': 0.012728818692266941, 'label': 'prime_rib'}]
+
+You can also manually replicate the results of the pipeline if you'd like:
+
+Load an image processor to preprocess the image and return the input as PyTorch tensors:
+
+from transformers import AutoImageProcessor
+import torch
+image_processor = AutoImageProcessor.from_pretrained("my_awesome_food_model")
+inputs = image_processor(image, return_tensors="pt")
+
+Pass your inputs to the model and return the logits:
+
+from transformers import AutoModelForImageClassification
+model = AutoModelForImageClassification.from_pretrained("my_awesome_food_model")
+with torch.no_grad():
+     logits = model(**inputs).logits
+
+Get the predicted label with the highest probability, and use the model's id2label mapping to convert it to a label:
+
+predicted_label = logits.argmax(-1).item()
+model.config.id2label[predicted_label]
+'beignets'
+
+Load an image processor to preprocess the image and return the input as TensorFlow tensors:
+
+from transformers import AutoImageProcessor
+image_processor = AutoImageProcessor.from_pretrained("MariaK/food_classifier")
+inputs = image_processor(image, return_tensors="tf")
+
+Pass your inputs to the model and return the logits:
+
+from transformers import TFAutoModelForImageClassification
+model = TFAutoModelForImageClassification.from_pretrained("MariaK/food_classifier")
+logits = model(**inputs).logits
+
+Get the predicted label with the highest probability, and use the model's id2label mapping to convert it to a label:
+
+predicted_class_id = int(tf.math.argmax(logits, axis=-1)[0])
+model.config.id2label[predicted_class_id]
+'beignets'

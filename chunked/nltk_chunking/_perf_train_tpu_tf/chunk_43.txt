@@ -1,0 +1,1 @@
+You don’t have to train for long, of course - just for a few steps to make sure that your model and data pipeline are working like you expect them to.

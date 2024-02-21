@@ -1,0 +1,29 @@
+BloomConfig
+[[autodoc]] BloomConfig
+    - all
+BloomTokenizerFast
+[[autodoc]] BloomTokenizerFast
+    - all
+
+BloomModel
+[[autodoc]] BloomModel
+    - forward
+BloomForCausalLM
+[[autodoc]] BloomForCausalLM
+    - forward
+BloomForSequenceClassification
+[[autodoc]] BloomForSequenceClassification
+    - forward
+BloomForTokenClassification
+[[autodoc]] BloomForTokenClassification
+    - forward
+BloomForQuestionAnswering
+[[autodoc]] BloomForQuestionAnswering
+    - forward
+
+FlaxBloomModel
+[[autodoc]] FlaxBloomModel
+    - call
+FlaxBloomForCausalLM
+[[autodoc]] FlaxBloomForCausalLM
+    - call

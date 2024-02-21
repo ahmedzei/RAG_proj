@@ -1,0 +1,1 @@
+We'll explain how Mask2Former works in this section, and then you can try finetuning SegFormer at the end.

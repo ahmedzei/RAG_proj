@@ -1,0 +1,3 @@
+Note that 
+PyTorch documentation recommends to prefer 
+DistributedDataParallel (DDP) over DataParallel (DP) for multi-GPU training as it works for all models.

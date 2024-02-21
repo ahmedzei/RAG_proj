@@ -1,0 +1,5 @@
+You can then return to the parent directory
+
+cd ..
+
+We recommend adding the PyTorch version of brand_new_bert to Transformers.

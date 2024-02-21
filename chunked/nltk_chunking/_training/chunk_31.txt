@@ -1,0 +1,1 @@
+The pretrained head of the BERT model is discarded, and replaced with a randomly initialized classification head.

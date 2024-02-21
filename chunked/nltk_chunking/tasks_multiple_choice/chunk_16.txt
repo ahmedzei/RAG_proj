@@ -1,0 +1,11 @@
+DataCollatorForMultipleChoice flattens all the model inputs, applies padding, and then unflattens the results:
+
+from dataclasses import dataclass
+from transformers.tokenization_utils_base import PreTrainedTokenizerBase, PaddingStrategy
+from typing import Optional, Union
+import torch
+@dataclass
+ class DataCollatorForMultipleChoice:
+     """
+     Data collator that will dynamically pad the inputs for multiple choice received.
+     """

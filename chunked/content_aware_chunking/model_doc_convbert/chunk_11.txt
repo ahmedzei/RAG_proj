@@ -1,0 +1,4 @@
+The original implementation can be found
+here: https://github.com/yitu-opensource/ConvBert
+Usage tips
+ConvBERT training tips are similar to those of BERT.

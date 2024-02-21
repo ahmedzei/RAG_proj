@@ -1,0 +1,25 @@
+Use the [PreTrainedModel.from_pretrained] and [PreTrainedModel.save_pretrained] workflow:
+
+Download your files ahead of time with [PreTrainedModel.from_pretrained]:
+
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+tokenizer = AutoTokenizer.from_pretrained("bigscience/T0_3B")
+model = AutoModelForSeq2SeqLM.from_pretrained("bigscience/T0_3B")
+
+Save your files to a specified directory with [PreTrainedModel.save_pretrained]:
+
+tokenizer.save_pretrained("./your/path/bigscience_t0")
+model.save_pretrained("./your/path/bigscience_t0")
+
+Now when you're offline, reload your files with [PreTrainedModel.from_pretrained] from the specified directory:
+
+tokenizer = AutoTokenizer.from_pretrained("./your/path/bigscience_t0")
+model = AutoModel.from_pretrained("./your/path/bigscience_t0")
+
+Programmatically download files with the huggingface_hub library:
+
+Install the huggingface_hub library in your virtual environment:
+
+python -m pip install huggingface_hub
+
+Use the hf_hub_download function to download a file to a specific path.

@@ -1,0 +1,7 @@
+The transform is applied on the fly which is faster and consumes less disk space:
+
+train_ds.set_transform(train_transforms)
+test_ds.set_transform(val_transforms)
+
+Evaluate
+Including a metric during training is often helpful for evaluating your model's performance.

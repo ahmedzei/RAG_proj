@@ -1,0 +1,2 @@
+The pipeline will take care of all the details of tokenization and calling apply_chat_template for you -
+once the model has a chat template, all you need to do is initialize the pipeline and pass it the list of messages!

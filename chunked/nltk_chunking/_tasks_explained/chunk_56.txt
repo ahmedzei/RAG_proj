@@ -1,0 +1,3 @@
+CNN
+
+This section briefly explains convolutions, but it'd be helpful to have a prior understanding of how they change an image's shape and size.

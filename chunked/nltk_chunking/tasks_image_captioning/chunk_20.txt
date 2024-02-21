@@ -1,0 +1,1 @@
+For potential limitations and other gotchas of the WER, refer to this guide.

@@ -1,0 +1,5 @@
+model_checkpoint = "microsoft/layoutlmv2-base-uncased"
+batch_size = 4
+
+Load the data
+In this guide we use a small sample of preprocessed DocVQA that you can find on 🤗 Hub.

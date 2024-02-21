@@ -1,0 +1,3 @@
+The obvious disadvantage of Jupyter notebooks is that if you are not used to working with them you will have to spend
+some time adjusting to the new programming environment and you might not be able to use your known debugging tools
+anymore, like ipdb.

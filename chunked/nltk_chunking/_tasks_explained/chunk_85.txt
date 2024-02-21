@@ -1,0 +1,1 @@
+DETR decodes each object query in parallel to output N final predictions, where N is the number of queries.

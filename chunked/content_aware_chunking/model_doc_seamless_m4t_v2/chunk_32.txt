@@ -1,0 +1,6 @@
+thon
+
+from transformers import SeamlessM4Tv2ForTextToText
+model = SeamlessM4Tv2ForTextToText.from_pretrained("facebook/seamless-m4t-v2-large")
+
+Feel free to try out [SeamlessM4Tv2ForSpeechToText] and [SeamlessM4Tv2ForTextToSpeech] as well.

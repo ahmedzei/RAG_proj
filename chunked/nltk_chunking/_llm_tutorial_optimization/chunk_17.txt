@@ -1,0 +1,1 @@
+At the time of writing this guide, LLMs consist of at least a couple billion parameters.

@@ -1,0 +1,3 @@
+Here are some scenarios when fine-tuning a smaller model may be a preferred option:
+
+Your domain is wildly different from what LLMs were pre-trained on and extensive prompt optimization did not yield sufficient results.

@@ -1,0 +1,2 @@
+It's a GPT2 Model trained on 147M conversation-like exchanges extracted from
+Reddit.

@@ -1,0 +1,2 @@
+This is done to support randomly initializing this layer at
+  fine-tuning, as it is shown to yield better results for some cases in the paper.

@@ -1,0 +1,1 @@
+When transferred to downstream tasks, FocalNets exhibit clear superiority.

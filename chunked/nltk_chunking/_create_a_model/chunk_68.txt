@@ -1,0 +1,1 @@
+Start by initializing a backbone in the model config and specify whether you want to load pretrained weights or load randomly initialized weights.

@@ -1,0 +1,2 @@
+As the BEiT models expect each image to be of the same size (resolution), one can use
+  [BeitImageProcessor] to resize (or rescale) and normalize images for the model.

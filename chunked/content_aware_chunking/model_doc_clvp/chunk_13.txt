@@ -1,0 +1,1 @@
+[ClvpConditioningEncoder] takes those text tokens and audio representations and converts them into embeddings conditioned on the text and audio.

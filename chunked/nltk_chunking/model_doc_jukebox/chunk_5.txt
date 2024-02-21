@@ -1,0 +1,1 @@
+We can condition on artist and genre to steer the musical and vocal style, and on unaligned lyrics to make the singing more controllable.

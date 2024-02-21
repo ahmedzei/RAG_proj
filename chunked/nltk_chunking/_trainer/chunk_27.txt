@@ -1,0 +1,2 @@
+Customize the Trainer
+While the [Trainer] class is designed to be accessible and easy-to-use, it also offers a lot of customizability for more adventurous users.

@@ -1,0 +1,1 @@
+In fill-mask pipelines, tokenizer arguments can be passed in the tokenizer_kwargs argument (dictionary).

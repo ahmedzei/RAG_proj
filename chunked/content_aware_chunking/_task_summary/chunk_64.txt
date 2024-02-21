@@ -1,0 +1,1 @@
+For translation tasks, the Transformer can be trained significantly faster than architectures based on recurrent or convolutional layers.

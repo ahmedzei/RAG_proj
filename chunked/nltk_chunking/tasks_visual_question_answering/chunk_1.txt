@@ -1,0 +1,2 @@
+The input to models supporting this task is typically a combination of an image and a question, and the output is an 
+answer expressed in natural language.

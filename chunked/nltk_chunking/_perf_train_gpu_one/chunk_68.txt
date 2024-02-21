@@ -1,0 +1,1 @@
+If you're already using fp16 or bf16 mixed precision it may help with the throughput as well.

@@ -1,0 +1,4 @@
+model_checkpoint = "dandelin/vilt-b32-mlm"
+
+Load the data
+For illustration purposes, in this guide we use a very small sample of the annotated visual question answering Graphcore/vqa dataset.

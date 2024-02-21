@@ -1,0 +1,2 @@
+If that's not the case on 
+your machine make sure to stop all processes that are using GPU memory.

@@ -1,0 +1,2 @@
+Sharing position projection matrix with content projection matrix in attention layer Based on previous
+  experiments, this can save parameters without affecting the performance.

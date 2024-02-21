@@ -1,0 +1,2 @@
+Batch size choice
+To achieve optimal performance, start by identifying the appropriate batch size.

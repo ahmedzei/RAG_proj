@@ -1,0 +1,2 @@
+With a similar inference
+time, SEW reduces word error rate by 25-50% across different model sizes.

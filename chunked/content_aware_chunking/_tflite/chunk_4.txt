@@ -1,0 +1,1 @@
+For the list of supported model architectures, please refer to 🤗 Optimum documentation.

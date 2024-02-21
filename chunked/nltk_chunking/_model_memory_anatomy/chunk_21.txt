@@ -1,0 +1,2 @@
+Note that on newer GPUs a model can sometimes take up more space since the weights are loaded in an 
+optimized fashion that speeds up the usage of the model.

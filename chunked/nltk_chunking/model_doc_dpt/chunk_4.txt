@@ -1,0 +1,1 @@
+The transformer backbone processes representations at a constant and relatively high resolution and has a global receptive field at every stage.

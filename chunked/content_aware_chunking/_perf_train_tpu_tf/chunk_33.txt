@@ -1,0 +1,1 @@
+TPUs exist in pods that can run hundreds or thousands of replicas simultaneously.

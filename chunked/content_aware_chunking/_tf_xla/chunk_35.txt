@@ -1,0 +1,1 @@
+This blog post discusses our design philosophy behind adding XLA support to the TensorFlow models in 🤗 Transformers.

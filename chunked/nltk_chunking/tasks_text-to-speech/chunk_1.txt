@@ -1,0 +1,2 @@
+Several text-to-speech models are currently available in 🤗 Transformers, such as 
+Bark, MMS, VITS and SpeechT5.

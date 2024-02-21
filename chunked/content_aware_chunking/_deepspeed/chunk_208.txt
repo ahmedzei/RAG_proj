@@ -1,0 +1,1 @@
+To run ZeRO Inference, pass your usual training arguments to the [TrainingArguments] class and add the --do_eval argument.

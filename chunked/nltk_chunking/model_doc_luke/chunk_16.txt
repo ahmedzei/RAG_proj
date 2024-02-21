@@ -1,0 +1,2 @@
+entities typically consist of [MASK] entities or
+  Wikipedia entities.

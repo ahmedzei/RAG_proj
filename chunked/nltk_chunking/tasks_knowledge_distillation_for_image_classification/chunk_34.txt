@@ -1,0 +1,1 @@
+We invite the readers to try different pre-trained teacher models, student architectures, distillation parameters and report their findings.

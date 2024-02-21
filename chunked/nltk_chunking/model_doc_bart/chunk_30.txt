@@ -1,0 +1,3 @@
+Summarization task guide
+
+[BartForConditionalGeneration] is supported by this example script and notebook.

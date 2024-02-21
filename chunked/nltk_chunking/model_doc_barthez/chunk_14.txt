@@ -1,0 +1,4 @@
+BarthezTokenizer
+[[autodoc]] BarthezTokenizer
+BarthezTokenizerFast
+[[autodoc]] BarthezTokenizerFast

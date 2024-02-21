@@ -1,0 +1,5 @@
+To quickly find specific examples, you can:
+```bash
+git clone https://github.com/microsoft/DeepSpeedExamples
+cd DeepSpeedExamples
+find .

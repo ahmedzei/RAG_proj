@@ -1,0 +1,3 @@
+See also: Text classification task guide
+
+A notebook on how to finetune LayoutLMv2 for question-answering on DocVQA dataset.

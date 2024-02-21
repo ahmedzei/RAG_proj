@@ -1,0 +1,5 @@
+
+MusicGen
+Overview
+The MusicGen model was proposed in the paper Simple and Controllable Music Generation
+by Jade Copet, Felix Kreuk, Itai Gat, Tal Remez, David Kant, Gabriel Synnaeve, Yossi Adi and Alexandre Défossez.

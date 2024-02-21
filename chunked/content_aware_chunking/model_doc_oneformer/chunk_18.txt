@@ -1,0 +1,3 @@
+Usage tips
+
+OneFormer requires two inputs during inference: image and task token.

@@ -1,0 +1,2 @@
+Training at a character-level inevitably comes with a longer sequence length, which CANINE solves with an efficient
+downsampling strategy, before applying a deep Transformer encoder.

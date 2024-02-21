@@ -1,0 +1,5 @@
+yaml
+{
+   "zero_allow_untested_optimizer": true
+}
+From DeepSpeed==0.8.3 on, if you want to use offload, you'll also need to the following to the top level configuration because offload works best with DeepSpeed's CPU Adam optimizer.

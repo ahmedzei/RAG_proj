@@ -1,0 +1,1 @@
+pytest-xdist's --dist= option allows one to control how the tests are grouped.

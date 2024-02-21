@@ -1,0 +1,1 @@
+Collectively, all the non-slow tests need to cover entirely the different internals, while remaining fast.

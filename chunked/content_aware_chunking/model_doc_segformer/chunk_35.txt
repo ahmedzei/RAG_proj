@@ -1,0 +1,1 @@
+However, ADE20k doesn't include the "background" class in its 150 labels.

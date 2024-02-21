@@ -1,0 +1,1 @@
+[Seq2SeqTrainer] and [Seq2SeqTrainingArguments] inherit from the [Trainer] and [TrainingArgument] classes and they're adapted for training models for sequence-to-sequence tasks such as summarization or translation.

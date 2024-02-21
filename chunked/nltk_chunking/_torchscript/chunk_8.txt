@@ -1,0 +1,2 @@
+TorchScript does not allow you to export models that have tied weights, so it is
+necessary to untie and clone the weights beforehand.

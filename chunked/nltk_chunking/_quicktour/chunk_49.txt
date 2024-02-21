@@ -1,0 +1,1 @@
+Model outputs are special dataclasses so their attributes are autocompleted in an IDE.

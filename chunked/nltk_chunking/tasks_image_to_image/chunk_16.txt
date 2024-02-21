@@ -1,0 +1,6 @@
+thon
+pixel_values = processor(image, return_tensors="pt").pixel_values
+print(pixel_values.shape)
+pixel_values = pixel_values.to(device)
+
+We can now infer the image by passing pixel values to the model.

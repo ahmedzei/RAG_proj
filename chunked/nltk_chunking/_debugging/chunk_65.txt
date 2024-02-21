@@ -1,0 +1,3 @@
+Going back to the full report, to act on it and to fix the problem, we need to go a few frames up where the numbers
+started to go up and most likely switch to the fp32 mode here, so that the numbers don't overflow when multiplied
+or summed up.

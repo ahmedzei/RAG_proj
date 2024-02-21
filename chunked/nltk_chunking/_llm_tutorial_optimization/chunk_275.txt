@@ -1,0 +1,1 @@
+from Google, found that using MQA can often lead to quality degradation compared to using vanilla multi-key-value head projections.

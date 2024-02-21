@@ -1,0 +1,10 @@
+MBart
+The following MBart models can be used for multilingual translation:
+
+facebook/mbart-large-50-one-to-many-mmt (One-to-many multilingual machine translation, 50 languages)
+facebook/mbart-large-50-many-to-many-mmt (Many-to-many multilingual machine translation, 50 languages)
+facebook/mbart-large-50-many-to-one-mmt (Many-to-one multilingual machine translation, 50 languages)
+facebook/mbart-large-50 (Multilingual translation, 50 languages)
+facebook/mbart-large-cc25
+
+In this example, load the facebook/mbart-large-50-many-to-many-mmt checkpoint to translate Finnish to English.

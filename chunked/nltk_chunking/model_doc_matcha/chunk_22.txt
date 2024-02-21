@@ -1,0 +1,6 @@
+", return_tensors="pt").to(0)
+predictions = model.generate(**inputs, max_new_tokens=512)
+print(processor.decode(predictions[0], skip_special_tokens=True))
+
+Fine-tuning
+To fine-tune MatCha, refer to the pix2struct fine-tuning notebook.

@@ -1,0 +1,2 @@
+Make sure to set batched=True and batch_size=-1 in dataset.map() so that all transcriptions are available at once for 
+the mapping function.

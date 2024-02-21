@@ -1,0 +1,1 @@
+Trajectory Transformer also tokenizes the states, actions, and rewards and processes them with a GPT architecture.

@@ -1,0 +1,2 @@
+A common application is to aid visually impaired 
+people navigate through different situations, for instance, explore image content online.

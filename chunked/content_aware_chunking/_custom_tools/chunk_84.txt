@@ -1,0 +1,1 @@
+It takes an input named `prompt` which contains the image description and outputs an image.

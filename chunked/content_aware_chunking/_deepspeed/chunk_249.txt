@@ -1,0 +1,1 @@
+If you have NVMe and ZeRO-3 setup, experiment with offloading to the NVMe (estimate the memory requirements for your model).

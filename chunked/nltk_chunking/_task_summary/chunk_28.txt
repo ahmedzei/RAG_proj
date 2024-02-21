@@ -1,0 +1,2 @@
+Image classification
+Image classification labels an entire image from a predefined set of classes.

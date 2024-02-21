@@ -1,0 +1,3 @@
+To better understand each part, let's look at a shortened version of how the run prompt can look like:
+````text
+I will ask you to perform a task, your job is to come up with a series of simple commands in Python that will perform the task.

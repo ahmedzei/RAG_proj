@@ -1,0 +1,2 @@
+Reformer is very memory efficient so that the model can
+easily be trained on sequences as long as 64000 tokens.

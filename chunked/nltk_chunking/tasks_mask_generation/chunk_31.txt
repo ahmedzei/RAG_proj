@@ -1,0 +1,2 @@
+Take the processor output and directly pass it 
+to the model, then post-process the output again.

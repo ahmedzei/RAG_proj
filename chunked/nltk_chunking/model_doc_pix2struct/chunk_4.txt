@@ -1,0 +1,1 @@
+Pix2Struct is pretrained by learning to parse masked screenshots of web pages into simplified HTML.

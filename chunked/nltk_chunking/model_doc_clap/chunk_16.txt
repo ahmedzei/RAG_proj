@@ -1,0 +1,28 @@
+ClapConfig
+[[autodoc]] ClapConfig
+    - from_text_audio_configs
+ClapTextConfig
+[[autodoc]] ClapTextConfig
+ClapAudioConfig
+[[autodoc]] ClapAudioConfig
+ClapFeatureExtractor
+[[autodoc]] ClapFeatureExtractor
+ClapProcessor
+[[autodoc]] ClapProcessor
+ClapModel
+[[autodoc]] ClapModel
+    - forward
+    - get_text_features
+    - get_audio_features
+ClapTextModel
+[[autodoc]] ClapTextModel
+    - forward
+ClapTextModelWithProjection
+[[autodoc]] ClapTextModelWithProjection
+    - forward
+ClapAudioModel
+[[autodoc]] ClapAudioModel
+    - forward
+ClapAudioModelWithProjection
+[[autodoc]] ClapAudioModelWithProjection
+    - forward

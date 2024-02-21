@@ -1,0 +1,2 @@
+In other cases, a general test might not be directly applicable to your model, in which case we suggest an override
+at the model test class level.

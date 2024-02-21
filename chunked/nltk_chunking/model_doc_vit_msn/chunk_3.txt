@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+We propose Masked Siamese Networks (MSN), a self-supervised learning framework for learning image representations.

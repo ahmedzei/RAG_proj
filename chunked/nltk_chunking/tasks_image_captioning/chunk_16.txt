@@ -1,0 +1,2 @@
+Load a base model
+Load the "microsoft/git-base" into a AutoModelForCausalLM object.

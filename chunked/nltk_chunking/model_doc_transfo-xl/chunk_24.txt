@@ -1,0 +1,1 @@
+Basically, the hidden states of the previous segment are concatenated to the current input to compute the attention scores.

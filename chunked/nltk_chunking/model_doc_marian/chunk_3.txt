@@ -1,0 +1,3 @@
+Implementation Notes
+
+Each model is about 298 MB on disk, there are more than 1,000 models.

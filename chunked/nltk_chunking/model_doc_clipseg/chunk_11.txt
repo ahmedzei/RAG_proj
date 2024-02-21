@@ -1,0 +1,4 @@
+Finally, we find our system to adapt well
+to generalized queries involving affordances or properties
+ 
+ CLIPSeg overview.

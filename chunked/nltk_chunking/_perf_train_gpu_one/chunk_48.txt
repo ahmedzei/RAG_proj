@@ -1,0 +1,2 @@
+However, not all variables require this high precision 
+level to achieve accurate results.

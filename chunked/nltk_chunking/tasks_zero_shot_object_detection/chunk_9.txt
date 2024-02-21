@@ -1,0 +1,1 @@
+With this approach, the model can detect objects based on textual descriptions without prior training on labeled datasets.

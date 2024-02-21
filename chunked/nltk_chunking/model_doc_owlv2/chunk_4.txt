@@ -1,0 +1,1 @@
+While detection training data can be expanded by using Web image-text pairs as weak supervision, this has not been done at scales comparable to image-level pretraining.

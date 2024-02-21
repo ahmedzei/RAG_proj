@@ -1,0 +1,1 @@
+If you'd like to learn more about our coding philosophy for models, check out our Repeat Yourself blog post.

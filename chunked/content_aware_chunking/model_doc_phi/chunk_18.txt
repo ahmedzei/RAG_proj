@@ -1,0 +1,3 @@
+Usage tips
+
+This model is quite similar to Llama with the main difference in [PhiDecoderLayer], where they used [PhiAttention] and [PhiMLP] layers in parallel configuration.

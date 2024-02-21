@@ -1,0 +1,2 @@
+The text descriptions are passed through a frozen text encoder model to obtain a
+sequence of hidden-state representations.

@@ -1,0 +1,5 @@
+oneccl_bindings_for_pytorch 1.12.0 prebuilt wheel does not work with PyTorch 1.12.1 (it is for PyTorch 1.12.0)
+PyTorch 1.12.1 should work with oneccl_bindings_for_pytorch 1.12.100
+
+Intel® MPI library
+Use this standards-based MPI implementation to deliver flexible, efficient, scalable cluster messaging on Intel® architecture.

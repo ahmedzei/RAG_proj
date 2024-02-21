@@ -1,0 +1,2 @@
+Depending on the rules we apply for tokenizing a text, a
+different tokenized output is generated for the same text.

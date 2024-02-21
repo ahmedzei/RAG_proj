@@ -1,0 +1,2 @@
+All tools depend on the superclass Tool that holds the
+main attributes necessary.

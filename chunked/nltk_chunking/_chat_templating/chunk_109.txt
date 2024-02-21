@@ -1,0 +1,2 @@
+The method [~PreTrainedTokenizer.apply_chat_template] which uses your chat template is called by the [TextGenerationPipeline] class, so 
+once you set the correct chat template, your model will automatically become compatible with [TextGenerationPipeline].

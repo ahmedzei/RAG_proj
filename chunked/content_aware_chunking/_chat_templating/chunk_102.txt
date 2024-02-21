@@ -1,0 +1,2 @@
+Advanced: Adding and editing chat templates
+How do I create a chat template?

@@ -1,0 +1,3 @@
+accelerate launch --num_processes 2 trainer-program.py 
+
+Use --num_gpus to select how many GPUs to use.

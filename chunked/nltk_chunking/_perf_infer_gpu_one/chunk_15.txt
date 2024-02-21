@@ -1,0 +1,21 @@
+For example, you can combine FlashAttention-2 with 8-bit or 4-bit quantization:
+
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM
+model_id = "tiiuae/falcon-7b"
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+load in 8bit
+model = AutoModelForCausalLM.from_pretrained(
+    model_id, 
+    load_in_8bit=True,
+    attn_implementation="flash_attention_2",
+)
+load in 4bit
+model = AutoModelForCausalLM.from_pretrained(
+    model_id, 
+    load_in_4bit=True,
+    attn_implementation="flash_attention_2",
+)
+
+Expected speedups
+You can benefit from considerable speedups for inference, especially for inputs with long sequences.

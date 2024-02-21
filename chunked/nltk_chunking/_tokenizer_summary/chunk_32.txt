@@ -1,0 +1,2 @@
+Such a big vocabulary size forces the model to have an enormous embedding matrix as the input and output layer, which
+causes both an increased memory and time complexity.

@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+fairseq is an open-source sequence modeling toolkit that allows researchers and developers to train custom models for translation, summarization, language modeling, and other text generation tasks.

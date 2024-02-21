@@ -1,0 +1,2 @@
+Usage example
+There are 2 main ways to use SigLIP: either using the pipeline API, which abstracts away all the complexity for you, or by using the SiglipModel class yourself.

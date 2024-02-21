@@ -1,0 +1,2 @@
+Accelerate and Trainer
+The [Trainer] class is powered by Accelerate, a library for easily training PyTorch models in distributed environments with support for integrations such as FullyShardedDataParallel (FSDP) and DeepSpeed.

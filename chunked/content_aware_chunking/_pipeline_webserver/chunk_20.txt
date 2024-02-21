@@ -1,0 +1,2 @@
+This will always wait for 1ms even if the queue is empty, which might not be the
+best since you probably want to start doing inference if there's nothing in the queue.

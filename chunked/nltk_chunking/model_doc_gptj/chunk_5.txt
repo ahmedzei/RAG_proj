@@ -1,0 +1,1 @@
+To reduce the RAM usage there are a few options.

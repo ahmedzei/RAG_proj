@@ -1,0 +1,4 @@
+This will store your access token in your Hugging Face cache folder (~/.cache/ by default):
+
+huggingface-cli login
+If you are using a notebook like Jupyter or Colaboratory, make sure you have the huggingface_hub library installed.

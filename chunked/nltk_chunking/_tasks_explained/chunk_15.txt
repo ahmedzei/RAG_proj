@@ -1,0 +1,1 @@
+From the codebook, the vector or speech unit, that best represents the continuous audio input is chosen and forwarded through the model.

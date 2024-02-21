@@ -1,0 +1,2 @@
+It is trained on 
+SA-1B, a dataset with 1 million images and 1.1 billion masks.

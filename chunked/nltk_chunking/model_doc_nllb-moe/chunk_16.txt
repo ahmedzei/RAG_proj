@@ -1,0 +1,2 @@
+In SwitchTransformers, only the top-1 probabilities are computed, 
+which means that tokens have less probability of being forwarded.

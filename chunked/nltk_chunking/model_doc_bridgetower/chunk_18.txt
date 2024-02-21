@@ -1,0 +1,2 @@
+The [BridgeTowerProcessor] wraps [RobertaTokenizer] and [BridgeTowerImageProcessor] into a single instance to both
+encode the text and prepare the images respectively.

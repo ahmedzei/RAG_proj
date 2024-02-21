@@ -1,0 +1,2 @@
+As part of 
+hyperparameter tuning, you should determine which batch size yields the best results and then optimize resources accordingly.

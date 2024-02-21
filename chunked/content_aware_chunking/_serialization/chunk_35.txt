@@ -1,0 +1,4 @@
+local-pt-checkpoint), 
+then export it to ONNX by pointing the --model argument of the transformers.onnx package to the desired directory:
+
+python -m transformers.onnx --model=local-pt-checkpoint onnx/

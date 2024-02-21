@@ -1,0 +1,2 @@
+outputs.shape should yield the same value for the script of the 🤗 Transformers implementation and the original
+implementation.

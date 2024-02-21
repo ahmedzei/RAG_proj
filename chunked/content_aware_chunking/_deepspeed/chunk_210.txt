@@ -1,0 +1,1 @@
+This is handled by the [HfDeepSpeedConfig] which only takes care of gathering ZeRO-3 parameters and splitting a model across multiple GPUs when you call [~PreTrainedModel.from_pretrained].

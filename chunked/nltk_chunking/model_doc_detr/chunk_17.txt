@@ -1,0 +1,2 @@
+The CNN backbone
+outputs a new lower-resolution feature map, typically of shape (batch_size, 2048, height/32, width/32).

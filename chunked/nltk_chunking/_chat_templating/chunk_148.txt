@@ -1,0 +1,7 @@
+You can also use the following tips to convert your code to Jinja:
+For loops
+For loops in Jinja look like this:
+{% for message in messages %}
+{{ message['content'] }}
+{% endfor %}
+Note that whatever's inside the {{ expression block }} will be printed to the output.

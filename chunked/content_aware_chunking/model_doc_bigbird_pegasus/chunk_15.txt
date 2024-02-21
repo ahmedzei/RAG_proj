@@ -1,0 +1,1 @@
+BigBird comes with 2 implementations: original_full & block_sparse.

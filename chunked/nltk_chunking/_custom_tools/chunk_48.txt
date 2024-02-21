@@ -1,0 +1,1 @@
+I will use the following tools: document_qa to find the oldest person in the document, then image_generator to generate an image according to the answer.

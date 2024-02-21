@@ -1,0 +1,5 @@
+😬
+
+NVIDIA_TF32_OVERRIDE=0 RUN_SLOW=1 RUN_PT_TF_CROSS_TESTS=1 \
+py.test -vv tests/models/brand_new_bert/test_modeling_tf_brand_new_bert.py
+The most likely outcome is that you'll see a bunch of errors.

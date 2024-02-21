@@ -1,0 +1,2 @@
+LLMs are smart enough to learn to handle lots of different
+input formats.

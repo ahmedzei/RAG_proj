@@ -1,0 +1,8 @@
+UnivNetConfig
+[[autodoc]] UnivNetConfig
+UnivNetFeatureExtractor
+[[autodoc]] UnivNetFeatureExtractor
+    - call
+UnivNetModel
+[[autodoc]] UnivNetModel
+    - forward

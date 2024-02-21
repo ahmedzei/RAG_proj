@@ -1,0 +1,2 @@
+To find the docker image version you want start with PyTorch release notes, 
+choose one of the latest monthly releases.

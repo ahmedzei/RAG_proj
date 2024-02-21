@@ -1,0 +1,21 @@
+ConvNextConfig
+[[autodoc]] ConvNextConfig
+ConvNextFeatureExtractor
+[[autodoc]] ConvNextFeatureExtractor
+ConvNextImageProcessor
+[[autodoc]] ConvNextImageProcessor
+    - preprocess
+
+ConvNextModel
+[[autodoc]] ConvNextModel
+    - forward
+ConvNextForImageClassification
+[[autodoc]] ConvNextForImageClassification
+    - forward
+
+TFConvNextModel
+[[autodoc]] TFConvNextModel
+    - call
+TFConvNextForImageClassification
+[[autodoc]] TFConvNextForImageClassification
+    - call

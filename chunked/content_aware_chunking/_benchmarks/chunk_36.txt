@@ -1,0 +1,3 @@
+Sharing your benchmark
+Previously all available core models (10 at the time) have been benchmarked for inference time, across many different
+settings: using PyTorch, with and without TorchScript, using TensorFlow, with and without XLA.

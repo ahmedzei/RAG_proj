@@ -1,0 +1,2 @@
+The default configuration is also used when no custom configuration has been saved with
+the model.

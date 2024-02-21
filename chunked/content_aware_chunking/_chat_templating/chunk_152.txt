@@ -1,0 +1,2 @@
+These include special tokens like bos_token and eos_token, as well as the add_generation_prompt
+variable that we discussed above.

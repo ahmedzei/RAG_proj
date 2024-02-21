@@ -1,0 +1,2 @@
+It is usually a good idea to not use the entire machine's capacity in
+order to leave some resources for the kubelet and OS.

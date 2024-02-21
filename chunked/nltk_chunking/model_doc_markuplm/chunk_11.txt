@@ -1,0 +1,3 @@
+Usage tips
+
+In addition to input_ids, [~MarkupLMModel.forward] expects 2 additional inputs, namely xpath_tags_seq and xpath_subs_seq.

@@ -1,0 +1,3 @@
+The
+model transfers non-trivially to most tasks and is often competitive with a fully supervised baseline without the need
+for any dataset specific training.

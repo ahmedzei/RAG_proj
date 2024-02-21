@@ -1,0 +1,1 @@
+DePlot is a model that is trained using Pix2Struct architecture.

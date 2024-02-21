@@ -1,0 +1,4 @@
+To use adamw_bnb_8bit, you simply need to set optim="adamw_bnb_8bit" in [TrainingArguments]:
+py
+training_args = TrainingArguments(per_device_train_batch_size=4, optim="adamw_bnb_8bit", **default_args)
+However, we can also use a third-party implementation of the 8-bit optimizer for demonstration purposes to see how that can be integrated.

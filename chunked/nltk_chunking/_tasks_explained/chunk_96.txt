@@ -1,0 +1,1 @@
+Check out our complete object detection guide to learn how to finetune DETR and use it for inference!

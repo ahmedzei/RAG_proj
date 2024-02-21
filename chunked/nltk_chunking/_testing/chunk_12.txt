@@ -1,0 +1,12 @@
+Run all:
+console
+pytest
+or:
+
+make test
+Note that the latter is defined as:
+
+python -m pytest -n auto --dist=loadfile -s -v ./tests/
+which tells pytest to:
+
+run as many test processes as they are CPU cores (which could be too many if you don't have a ton of RAM!)

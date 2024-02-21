@@ -1,0 +1,3 @@
+In this guide, we will go over the effective techniques for efficient LLM deployment:
+
+Lower Precision: Research has shown that operating at reduced numerical precision, namely 8-bit and 4-bit can achieve computational advantages without a considerable decline in model performance.

@@ -1,0 +1,3 @@
+if total_length >= block_size:
+         total_length = (total_length // block_size) * block_size
+     # Split by chunks of block_size.

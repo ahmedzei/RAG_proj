@@ -1,0 +1,13 @@
+If only the decoder needs to be loaded from the pre-trained checkpoint, it can be loaded by first 
+specifying the correct config, or be accessed through the .decoder attribute of the composite model:
+thon
+
+from transformers import AutoConfig, MusicgenForCausalLM, MusicgenForConditionalGeneration
+Option 1: get decoder config and pass to .from_pretrained
+decoder_config = AutoConfig.from_pretrained("facebook/musicgen-small").decoder
+decoder = MusicgenForCausalLM.from_pretrained("facebook/musicgen-small", **decoder_config)
+Option 2: load the entire composite model, but only return the decoder
+decoder = MusicgenForConditionalGeneration.from_pretrained("facebook/musicgen-small").decoder
+
+Since the text encoder and audio encoder/decoder models are frozen during training, the MusicGen decoder [MusicgenForCausalLM]
+can be trained standalone on a dataset of encoder hidden-states and audio codes.

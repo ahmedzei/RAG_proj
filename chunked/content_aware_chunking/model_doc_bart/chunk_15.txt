@@ -1,0 +1,2 @@
+Model predictions are intended to be identical to the original implementation when
+  forced_bos_token_id=0.

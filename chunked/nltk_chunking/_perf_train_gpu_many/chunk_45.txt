@@ -1,0 +1,1 @@
+DDP supports distributed training across multiple machines, whereas DP does not.

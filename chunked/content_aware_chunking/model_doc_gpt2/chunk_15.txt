@@ -1,0 +1,3 @@
+For PyTorch, see past_key_values argument of the
+  [GPT2Model.forward] method, or for TF the past argument of the
+  [TFGPT2Model.call] method for more information on its usage.

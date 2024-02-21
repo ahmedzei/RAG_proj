@@ -1,0 +1,2 @@
+nGiE(nGram Induced Input Encoding) The DeBERTa-v2 model uses an additional convolution layer aside with the first
+  transformer layer to better learn the local dependency of input tokens.

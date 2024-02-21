@@ -1,0 +1,3 @@
+As the model is
+multilingual it expects the sequences in a certain format: A special language id token is used as prefix in both the
+source and target text.

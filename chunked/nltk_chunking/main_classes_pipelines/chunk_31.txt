@@ -1,0 +1,1 @@
+If you are latency constrained (live product doing inference), don't batch.

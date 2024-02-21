@@ -1,0 +1,3 @@
+The provided deepspeed config also activates CPU memory offloading, so chances are that if you
+have a lot of available CPU memory and you don't mind a slowdown you should be able to load a
+model that doesn't normally fit into a single GPU.

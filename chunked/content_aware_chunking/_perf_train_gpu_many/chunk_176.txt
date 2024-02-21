@@ -1,0 +1,2 @@
+PP already 
+reduces gradient size by 1/PP, and so gradient sharding savings on top of that are less significant than pure DP.

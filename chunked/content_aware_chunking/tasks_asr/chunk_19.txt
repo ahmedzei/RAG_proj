@@ -1,0 +1,1 @@
+Load Wav2Vec2 with [AutoModelForCTC].

@@ -1,0 +1,3 @@
+Some preselected input tokens are also given global attention: for those few tokens, the attention matrix can access
+all tokens and this process is symmetric: all other tokens have access to those specific tokens (on top of the ones in
+their local window).

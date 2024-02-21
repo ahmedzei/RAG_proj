@@ -1,0 +1,3 @@
+The effectiveness of initializing sequence-to-sequence models with pretrained checkpoints for sequence generation tasks
+was shown in Leveraging Pre-trained Checkpoints for Sequence Generation Tasks by
+Sascha Rothe, Shashi Narayan, Aliaksei Severyn.

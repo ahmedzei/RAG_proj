@@ -1,0 +1,4 @@
+
+PhoBERT
+Overview
+The PhoBERT model was proposed in PhoBERT: Pre-trained language models for Vietnamese by Dat Quoc Nguyen, Anh Tuan Nguyen.

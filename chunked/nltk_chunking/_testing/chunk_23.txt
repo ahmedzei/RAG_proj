@@ -1,0 +1,2 @@
+Run only modified tests
+You can run the tests related to the unstaged files or the current branch (according to Git) by using pytest-picked.

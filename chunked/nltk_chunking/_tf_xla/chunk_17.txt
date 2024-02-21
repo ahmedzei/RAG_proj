@@ -1,0 +1,1 @@
+However, there are a couple of gotchas in the above code snippet that are specific to XLA.

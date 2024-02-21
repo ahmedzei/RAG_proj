@@ -1,0 +1,1 @@
+Question: Write a function that takes two lists and returns a list that has alternating elements from each input list.

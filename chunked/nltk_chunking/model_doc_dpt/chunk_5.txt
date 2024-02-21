@@ -1,0 +1,1 @@
+These properties allow the dense vision transformer to provide finer-grained and more globally coherent predictions when compared to fully-convolutional networks.

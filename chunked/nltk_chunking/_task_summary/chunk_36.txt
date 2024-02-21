@@ -1,0 +1,13 @@
+from transformers import pipeline
+segmenter = pipeline(task="image-segmentation")
+preds = segmenter(
+     "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/pipeline-cat-chonk.jpeg"
+ )
+preds = [{"score": round(pred["score"], 4), "label": pred["label"]} for pred in preds]
+print(*preds, sep="\n")
+{'score': 0.9879, 'label': 'LABEL_184'}
+{'score': 0.9973, 'label': 'snow'}
+{'score': 0.9972, 'label': 'cat'}
+
+Depth estimation
+Depth estimation predicts the distance of each pixel in an image from the camera.

@@ -1,0 +1,1 @@
+Additionally, we specify ignore_mismatched_sizes=True to replace the existing classification head with a new one.

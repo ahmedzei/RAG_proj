@@ -1,0 +1,1 @@
+This vocabulary bottleneck limits the representational capabilities of multilingual models like XLM-R.

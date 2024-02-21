@@ -1,0 +1,2 @@
+In that case, reduce_labels should be set to
+  False, as loss should also be computed for the background class.

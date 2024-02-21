@@ -1,0 +1,6 @@
+It was released together with the paper XNLI: Evaluating Cross-lingual Sentence Representations
+This library hosts the processor to load the XNLI data:
+
+[~data.processors.utils.XnliProcessor]
+
+Please note that since the gold labels are available on the test set, evaluation is performed on the test set.

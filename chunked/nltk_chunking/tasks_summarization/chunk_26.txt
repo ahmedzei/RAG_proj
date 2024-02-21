@@ -1,0 +1,8 @@
+Load T5 with [AutoModelForSeq2SeqLM]:
+
+from transformers import AutoModelForSeq2SeqLM, Seq2SeqTrainingArguments, Seq2SeqTrainer
+model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
+
+At this point, only three steps remain:
+
+Define your training hyperparameters in [Seq2SeqTrainingArguments].

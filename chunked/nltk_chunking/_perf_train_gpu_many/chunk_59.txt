@@ -1,0 +1,23 @@
+Layer La, for example, has weights a0, a1 and a2:
+La | Lb | Lc
+---|----|---
+a0 | b0 | c0
+a1 | b1 | c1
+a2 | b2 | c2
+If we have 3 GPUs, ZeRO-DP splits the model onto 3 GPUs like so:
+
+GPU0:
+La | Lb | Lc
+---|----|---
+a0 | b0 | c0
+GPU1:
+La | Lb | Lc
+---|----|---
+a1 | b1 | c1
+GPU2:
+La | Lb | Lc
+---|----|---
+a2 | b2 | c2
+
+In a way, this is the same horizontal slicing as tensor parallelism, as opposed to Vertical 
+slicing, where one puts whole layer-groups on different GPUs.

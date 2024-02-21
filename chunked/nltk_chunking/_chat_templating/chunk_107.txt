@@ -1,0 +1,3 @@
+This attribute will be saved in the tokenizer_config.json file, so you can use
+[~utils.PushToHubMixin.push_to_hub] to upload your new template to the Hub and make sure everyone's using the right
+template for your model!

@@ -1,0 +1,7 @@
+Exporting a model requires two things:
+
+model instantiation with the torchscript flag
+a forward pass with dummy inputs
+
+These necessities imply several things developers should be careful about as detailed
+below.

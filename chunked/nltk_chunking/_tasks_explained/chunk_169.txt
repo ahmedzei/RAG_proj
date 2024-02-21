@@ -1,0 +1,1 @@
+Positional encodings are added to the token embeddings to indicate the position of each token in the sequence.

@@ -1,0 +1,3 @@
+As the Perceiver's input
+length will not have an impact on the computation time of the self-attention layers, one can provide raw bytes,
+providing inputs of length 2048 to the model.

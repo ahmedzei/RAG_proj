@@ -1,0 +1,2 @@
+You need to specify
+the num_beams greater than 1, and set do_sample=True to use this decoding strategy.

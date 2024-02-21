@@ -1,0 +1,1 @@
+A hash function is used to determine if q and k are close.

@@ -1,0 +1,1 @@
+TAPAS is based on BERT, so TAPAS-base for example corresponds to a BERT-base architecture.

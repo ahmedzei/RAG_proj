@@ -1,0 +1,2 @@
+For a full documentation of all features have a look at the 
+Accelerate documentation.

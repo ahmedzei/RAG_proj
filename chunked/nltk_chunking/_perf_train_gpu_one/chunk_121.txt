@@ -1,0 +1,3 @@
+Some of the most commonly used backends are:
+Debugging backends:
+* dynamo.optimize("eager") - Uses PyTorch to run the extracted GraphModule.

@@ -1,0 +1,1 @@
+This is something we do purely for backward compatibility reasons, to avoid breaking any existing workflows.

@@ -1,0 +1,3 @@
+⚡️ Inference
+
+A blog post on how to Accelerate BERT inference with Hugging Face Transformers and AWS Inferentia with DistilBERT.

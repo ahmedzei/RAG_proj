@@ -1,0 +1,4 @@
+
+
+Load SceneParse150 dataset
+Start by loading a smaller subset of the SceneParse150 dataset from the 🤗 Datasets library.

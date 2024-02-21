@@ -1,0 +1,1 @@
+If the model was quantized with the device_map parameter, make sure to move the entire model to a GPU or CPU before saving it.

@@ -1,0 +1,2 @@
+In case you have no access to a GPU, the Hugging Face team can take care of running those
+tests for you.

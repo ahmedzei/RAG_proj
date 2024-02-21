@@ -1,0 +1,11 @@
+Swin2SRImageProcessor
+[[autodoc]] Swin2SRImageProcessor
+    - preprocess
+Swin2SRConfig
+[[autodoc]] Swin2SRConfig
+Swin2SRModel
+[[autodoc]] Swin2SRModel
+    - forward
+Swin2SRForImageSuperResolution
+[[autodoc]] Swin2SRForImageSuperResolution
+    - forward

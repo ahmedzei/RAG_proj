@@ -1,0 +1,2 @@
+For best results,
+use guidance_scale=3 (default).

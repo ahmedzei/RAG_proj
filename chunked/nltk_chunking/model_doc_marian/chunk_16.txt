@@ -1,0 +1,4 @@
+Examples
+
+Since Marian models are smaller than many other translation models available in the library, they can be useful for
+  fine-tuning experiments and integration tests.

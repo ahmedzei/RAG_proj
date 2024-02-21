@@ -1,0 +1,2 @@
+Note that all random initialization should happen in the _init_weights method of your BrandnewBertPreTrainedModel
+class.

@@ -1,0 +1,4 @@
+Difference with SeamlessM4T-v1
+The architecture of this new version differs from the first in a few aspects:
+Improvements on the second-pass model
+The second seq2seq model, named text-to-unit model, is now non-auto regressive, meaning that it computes units in a single forward pass.

@@ -1,0 +1,2 @@
+NA's local attention and DiNA's sparse global attention complement each other, and therefore we
+introduce Dilated Neighborhood Attention Transformer (DiNAT), a new hierarchical vision transformer built upon both.

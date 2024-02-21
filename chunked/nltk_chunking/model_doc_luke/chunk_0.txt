@@ -1,0 +1,4 @@
+
+LUKE
+Overview
+The LUKE model was proposed in LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention by Ikuya Yamada, Akari Asai, Hiroyuki Shindo, Hideaki Takeda and Yuji Matsumoto.

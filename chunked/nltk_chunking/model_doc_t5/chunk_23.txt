@@ -1,0 +1,1 @@
+It is pre-trained on the mC4 corpus, which includes 101 languages.

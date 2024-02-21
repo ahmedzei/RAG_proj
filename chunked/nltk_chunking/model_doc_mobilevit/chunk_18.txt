@@ -1,0 +1,1 @@
+Unlike ViT, there are no embeddings.

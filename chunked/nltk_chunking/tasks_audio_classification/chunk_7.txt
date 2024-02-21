@@ -1,0 +1,1 @@
+Checks if the sampling rate of the audio file matches the sampling rate of the audio data a model was pretrained with.

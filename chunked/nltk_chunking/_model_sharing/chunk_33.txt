@@ -1,0 +1,9 @@
+For example, add a tokenizer to a model repository:
+
+tokenizer.push_to_hub("my-awesome-model")
+
+Or perhaps you'd like to add the TensorFlow version of your fine-tuned PyTorch model:
+
+tf_model.push_to_hub("my-awesome-model")
+
+Now when you navigate to your Hugging Face profile, you should see your newly created model repository.

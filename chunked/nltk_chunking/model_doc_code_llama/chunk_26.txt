@@ -1,0 +1,2 @@
+Args:
+    s: The string to remove non-ASCII characters from.

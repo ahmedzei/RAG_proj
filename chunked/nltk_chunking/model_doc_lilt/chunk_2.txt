@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Structured document understanding has attracted considerable attention and made significant progress recently, owing to its crucial role in intelligent document processing.

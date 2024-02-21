@@ -1,0 +1,4 @@
+batch_size = 16
+input_vector_dim = 10
+random_inputs = tf.random.normal((batch_size, input_vector_dim))
+Run a forward pass.

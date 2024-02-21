@@ -1,0 +1,4 @@
+Add -f to stream the logs, for example:
+
+kubectl logs -n kubeflow transformers-pytorchjob-worker-0 -f
+After the training job completes, the trained model can be copied from the PVC or storage location.

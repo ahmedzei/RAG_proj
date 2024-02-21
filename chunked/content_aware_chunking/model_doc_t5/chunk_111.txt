@@ -1,0 +1,53 @@
+T5Config
+[[autodoc]] T5Config
+T5Tokenizer
+[[autodoc]] T5Tokenizer
+    - build_inputs_with_special_tokens
+    - get_special_tokens_mask
+    - create_token_type_ids_from_sequences
+    - save_vocabulary
+T5TokenizerFast
+[[autodoc]] T5TokenizerFast
+
+T5Model
+[[autodoc]] T5Model
+    - forward
+T5ForConditionalGeneration
+[[autodoc]] T5ForConditionalGeneration
+    - forward
+T5EncoderModel
+[[autodoc]] T5EncoderModel
+    - forward
+T5ForSequenceClassification
+[[autodoc]] T5ForSequenceClassification
+    - forward
+T5ForTokenClassification
+[[autodoc]] T5ForTokenClassification
+    - forward
+T5ForQuestionAnswering
+[[autodoc]] T5ForQuestionAnswering
+    - forward
+
+TFT5Model
+[[autodoc]] TFT5Model
+    - call
+TFT5ForConditionalGeneration
+[[autodoc]] TFT5ForConditionalGeneration
+    - call
+TFT5EncoderModel
+[[autodoc]] TFT5EncoderModel
+    - call
+
+FlaxT5Model
+[[autodoc]] FlaxT5Model
+    - call
+    - encode
+    - decode
+FlaxT5ForConditionalGeneration
+[[autodoc]] FlaxT5ForConditionalGeneration
+    - call
+    - encode
+    - decode
+FlaxT5EncoderModel
+[[autodoc]] FlaxT5EncoderModel
+    - call

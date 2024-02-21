@@ -1,0 +1,1 @@
+The representations also enable cross-modality search with complex text and text + image queries.

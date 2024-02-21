@@ -1,0 +1,1 @@
+However, it may or may not match the actual GPU on the target machine which is why it is better to explicitly specify the correct architecture.

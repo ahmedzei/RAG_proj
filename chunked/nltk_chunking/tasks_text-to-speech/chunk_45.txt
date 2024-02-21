@@ -1,0 +1,15 @@
+def select_speaker(speaker_id):
+     return 100 <= speaker_counts[speaker_id] <= 400
+dataset = dataset.filter(select_speaker, input_columns=["speaker_id"])
+
+Let's check how many speakers remain: 
+
+len(set(dataset["speaker_id"]))
+42
+
+Let's see how many examples are left: 
+
+len(dataset)
+9973
+
+You are left with just under 10,000 examples from approximately 40 unique speakers, which should be sufficient.

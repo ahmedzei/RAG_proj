@@ -1,0 +1,1 @@
+after=False: the temporary dir will always be left intact at the end of the test.

@@ -1,0 +1,5 @@
+Z
+Zero Redundancy Optimizer (ZeRO)
+Parallelism technique which performs sharding of the tensors somewhat similar to TensorParallel, 
+except the whole tensor gets reconstructed in time for a forward or backward computation, therefore the model doesn't need 
+to be modified.

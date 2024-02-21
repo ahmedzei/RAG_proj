@@ -1,0 +1,1 @@
+Unlike a typical autoregressive model that predicts one element at a time, object detection is a set prediction task (bounding box, class label) that makes N predictions in a single pass.

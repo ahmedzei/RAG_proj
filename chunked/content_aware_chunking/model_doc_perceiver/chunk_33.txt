@@ -1,0 +1,2 @@
+One can then place a regular language modeling head on top, to project the last dimension to the
+vocabulary size of the model, i.e.

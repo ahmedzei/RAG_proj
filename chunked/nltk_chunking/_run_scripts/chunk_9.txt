@@ -1,0 +1,6 @@
+Setup
+To successfully run the latest version of the example scripts, you have to install 🤗 Transformers from source in a new virtual environment:
+
+git clone https://github.com/huggingface/transformers
+cd transformers
+pip install .

@@ -1,0 +1,4 @@
+Usage tips
+
+[LongT5ForConditionalGeneration] is an extension of [T5ForConditionalGeneration] exchanging the traditional
+encoder self-attention layer with efficient either local attention or transient-global (tglobal) attention.

@@ -1,0 +1,2 @@
+⚗️ Optimization
+- A notebook on how to fine-tune LLaMA model using xturing library on GPU which has limited memory.

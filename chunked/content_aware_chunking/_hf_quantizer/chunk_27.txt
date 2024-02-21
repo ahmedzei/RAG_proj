@@ -1,0 +1,1 @@
+is_trainable:  A property method to determine whether you can fine-tune models on top of the quantization method (with or without PEFT approaches).

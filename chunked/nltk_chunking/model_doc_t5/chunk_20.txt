@@ -1,0 +1,4 @@
+Based on the original T5 model, Google has released some follow-up works:
+
+T5v1.1: T5v1.1 is an improved version of T5 with some architectural tweaks, and is pre-trained on C4 only without
+  mixing in the supervised tasks.

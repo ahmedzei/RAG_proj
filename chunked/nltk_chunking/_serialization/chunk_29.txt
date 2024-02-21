@@ -1,0 +1,1 @@
+Pass any checkpoint on the 🤗 Hub or one that's stored locally.

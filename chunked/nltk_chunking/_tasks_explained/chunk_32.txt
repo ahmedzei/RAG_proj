@@ -1,0 +1,1 @@
+Check out our complete automatic speech recognition guide to learn how to finetune Wav2Vec2 and use it for inference!

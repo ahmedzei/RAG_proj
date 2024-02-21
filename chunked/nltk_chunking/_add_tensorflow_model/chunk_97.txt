@@ -1,0 +1,3 @@
+Dropout) are called with a training argument, which is
+propagated all the way from the top-level classes
+2.

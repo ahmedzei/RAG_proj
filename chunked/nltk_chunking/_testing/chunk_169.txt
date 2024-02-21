@@ -1,0 +1,2 @@
+Getting reproducible results
+In some situations you may want to remove randomness for your tests.

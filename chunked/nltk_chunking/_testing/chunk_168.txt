@@ -1,0 +1,1 @@
+This helper method creates a copy of the os.environ object, so the original remains intact.

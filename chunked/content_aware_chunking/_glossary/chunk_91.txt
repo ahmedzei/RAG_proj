@@ -1,0 +1,2 @@
+Natural language processing (NLP)
+A generic way to say "deal with texts".

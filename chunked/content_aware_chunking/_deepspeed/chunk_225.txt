@@ -1,0 +1,2 @@
+And then you can adapt the script to handle more gpus if you want to
+process multiple inputs at once.

@@ -1,0 +1,4 @@
+
+SqueezeBERT
+Overview
+The SqueezeBERT model was proposed in SqueezeBERT: What can computer vision teach NLP about efficient neural networks?

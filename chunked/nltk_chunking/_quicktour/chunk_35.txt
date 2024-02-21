@@ -1,0 +1,8 @@
+"],
+     padding=True,
+     truncation=True,
+     max_length=512,
+     return_tensors="tf",
+ )
+
+Check out the preprocess tutorial for more details about tokenization, and how to use an [AutoImageProcessor], [AutoFeatureExtractor] and [AutoProcessor] to preprocess image, audio, and multimodal inputs.

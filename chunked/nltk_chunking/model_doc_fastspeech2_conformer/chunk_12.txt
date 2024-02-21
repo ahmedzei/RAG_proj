@@ -1,0 +1,8 @@
+FastSpeech2 Model Architecture
+
+Conformer Blocks
+
+Convolution Module
+
+🤗 Transformers Usage
+You can run FastSpeech2Conformer locally with the 🤗 Transformers library.

@@ -1,0 +1,2 @@
+However, if the preferred batch size fits into memory, there's no reason to apply memory-optimizing techniques because they can 
+slow down the training.

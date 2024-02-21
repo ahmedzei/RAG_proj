@@ -1,0 +1,1 @@
+Adding new tokens to the vocabulary in a way that is independent of the underlying structure (BPE, SentencePiece).

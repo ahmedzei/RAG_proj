@@ -1,0 +1,2 @@
+"It takes the name of the category (such as text-classification, depth-estimation, etc), and "
+        "returns the name of the checkpoint."

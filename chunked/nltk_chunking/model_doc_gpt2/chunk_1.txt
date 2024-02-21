@@ -1,0 +1,2 @@
+It's a causal (unidirectional)
+transformer pretrained using language modeling on a very large corpus of ~40 GB of text data.

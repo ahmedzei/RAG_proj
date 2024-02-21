@@ -1,0 +1,2 @@
+Each GPU processes in parallel different stages of the pipeline 
+and working on a small chunk of the batch.

@@ -1,0 +1,1 @@
+The diversity penalty ensures the outputs are distinct across groups, and beam search is used within each group.

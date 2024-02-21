@@ -1,0 +1,6 @@
+Or use multiple GPUs instead
+
+First you need to install deepspeed: pip install deepspeed
+
+Here we use a 3B "bigscience/T0_3B" model which needs about 15GB GPU RAM - so 1 largish or 2
+small GPUs can handle it.

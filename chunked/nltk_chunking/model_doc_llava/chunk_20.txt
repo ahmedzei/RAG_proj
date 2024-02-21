@@ -1,0 +1,9 @@
+🌎
+
+LlavaConfig
+[[autodoc]] LlavaConfig
+LlavaProcessor
+[[autodoc]] LlavaProcessor
+LlavaForConditionalGeneration
+[[autodoc]] LlavaForConditionalGeneration
+    - forward

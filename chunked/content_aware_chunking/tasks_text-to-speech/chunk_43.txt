@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+plt.figure()
+plt.hist(speaker_counts.values(), bins=20)
+plt.ylabel("Speakers")
+plt.xlabel("Examples")
+plt.show()
+
+The histogram reveals that approximately one-third of the speakers in the dataset have fewer than 100 examples, while 
+around ten speakers have more than 500 examples.

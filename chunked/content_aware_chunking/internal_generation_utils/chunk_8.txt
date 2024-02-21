@@ -1,0 +1,4 @@
+Here, for instance, it has two elements, loss then logits, so
+python
+generation_output[:2]
+will return the tuple (generation_output.sequences, generation_output.scores) for instance.

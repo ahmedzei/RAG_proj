@@ -1,0 +1,1 @@
+At it's core is the Zero Redundancy Optimizer (ZeRO) which enables training large models at scale.

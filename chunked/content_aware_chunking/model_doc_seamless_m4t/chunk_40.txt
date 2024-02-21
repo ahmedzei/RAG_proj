@@ -1,0 +1,1 @@
+If speech generation is required, the second seq2seq model, following a standard encoder-decoder structure, generates unit tokens.

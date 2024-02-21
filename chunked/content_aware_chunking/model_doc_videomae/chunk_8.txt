@@ -1,0 +1,1 @@
+(2) VideoMAE achieves impressive results on very small datasets (i.e., around 3k-4k videos) without using any extra data.

@@ -1,0 +1,4 @@
+
+Autoformer
+Overview
+The Autoformer model was proposed in Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting by Haixu Wu, Jiehui Xu, Jianmin Wang, Mingsheng Long.

@@ -1,0 +1,2 @@
+Returns:
+        frames (tensor): decoded frames from the video.

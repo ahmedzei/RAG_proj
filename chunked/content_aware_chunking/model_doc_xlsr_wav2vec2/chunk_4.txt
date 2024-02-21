@@ -1,0 +1,2 @@
+On the CommonVoice benchmark, XLSR shows a relative phoneme error rate reduction
+of 72% compared to the best known results.

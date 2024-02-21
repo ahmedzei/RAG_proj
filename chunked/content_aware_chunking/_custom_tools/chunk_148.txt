@@ -1,0 +1,1 @@
+- An attribute description, which will be used to populate the prompt of the agent.

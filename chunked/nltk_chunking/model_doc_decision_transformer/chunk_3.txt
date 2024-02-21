@@ -1,0 +1,2 @@
+In particular, we present Decision Transformer, an architecture that 
+ casts the problem of RL as conditional sequence modeling.

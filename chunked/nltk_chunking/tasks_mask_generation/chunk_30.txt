@@ -1,0 +1,2 @@
+You can simply pass the input box in the format of a list
+[x_min, y_min, x_max, y_max] format along with the image to the processor.

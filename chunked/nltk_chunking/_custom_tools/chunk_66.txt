@@ -1,0 +1,1 @@
+Every exchange is structured similarly to the example of the run prompt.

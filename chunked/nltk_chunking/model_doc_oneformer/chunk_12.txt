@@ -1,0 +1,1 @@
+With new ConvNeXt and DiNAT backbones, we observe even more performance improvement.

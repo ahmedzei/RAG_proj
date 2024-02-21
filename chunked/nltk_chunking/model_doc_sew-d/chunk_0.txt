@@ -1,0 +1,6 @@
+
+SEW-D
+Overview
+SEW-D (Squeezed and Efficient Wav2Vec with Disentangled attention) was proposed in Performance-Efficiency Trade-offs
+in Unsupervised Pre-training for Speech Recognition by Felix Wu, Kwangyoun Kim,
+Jing Pan, Kyu Han, Kilian Q. Weinberger, Yoav Artzi.

@@ -1,0 +1,1 @@
+- Deploy Llama 2 7B/13B/70B on Amazon SageMaker, a guide on using Hugging Face's LLM DLC container for secure and scalable deployment.

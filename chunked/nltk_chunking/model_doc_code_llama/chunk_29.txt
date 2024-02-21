@@ -1,0 +1,1 @@
+This is more robust than preparing the pattern yourself: it avoids pitfalls, such as token glueing, that are very hard to debug.

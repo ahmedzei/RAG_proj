@@ -1,0 +1,2 @@
+In particular, we
+consider smartphones and other mobile devices as crucial platforms for deploying NLP models at scale.

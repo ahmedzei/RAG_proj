@@ -1,0 +1,1 @@
+In order to preserve the meaning of the text, we can replace this character with a regular a.

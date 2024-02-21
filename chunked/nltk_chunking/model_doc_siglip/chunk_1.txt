@@ -1,0 +1,1 @@
+SigLIP proposes to replace the loss function used in CLIP by a simple pairwise sigmoid loss.

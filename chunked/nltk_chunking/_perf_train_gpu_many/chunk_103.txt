@@ -1,0 +1,2 @@
+GPU0 performs the same 
+forward path on chunk 0, 1, 2 and 3 (F0,0, F0,1, F0,2, F0,3) and then it waits for other GPUs to do complete their work.

@@ -1,0 +1,2 @@
+This might mean that you have to possibly write a small script yourself or change the
+  original code so that you can directly input the ids instead of an input string.

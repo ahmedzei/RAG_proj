@@ -1,0 +1,2 @@
+We strongly advise against setting up a costly GPU environment, but simply work on a CPU both when starting to
+dive into the original repository and also when starting to write the 🤗 Transformers implementation of the model.

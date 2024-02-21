@@ -1,0 +1,1 @@
+The encoder is a ViT-style model for image understanding and processes the image as fixed-size patches.

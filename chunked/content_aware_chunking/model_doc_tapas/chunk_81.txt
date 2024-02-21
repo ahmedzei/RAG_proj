@@ -1,0 +1,8 @@
+Again, based on which of the three cases you picked above, [TapasForQuestionAnswering] requires different
+inputs to be fine-tuned:
+| Task                           | Required inputs                                                                                                 |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Conversational                     | input_ids, attention_mask, token_type_ids, labels                                                           |
+|  Weak supervision for aggregation  | input_ids, attention_mask, token_type_ids, labels, numeric_values, numeric_values_scale, float_answer |
+| Strong supervision for aggregation | input ids, attention mask, token type ids, labels, aggregation_labels                                     |
+[TapasTokenizer] creates the labels, numeric_values and numeric_values_scale based on the answer_coordinates and answer_text columns of the TSV file.

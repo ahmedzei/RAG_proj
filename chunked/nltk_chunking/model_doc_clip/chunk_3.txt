@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+State-of-the-art computer vision systems are trained to predict a fixed set of predetermined object categories.

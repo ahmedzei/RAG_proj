@@ -1,0 +1,3 @@
+Usage tips
+
+Usage of SigLIP is similar to CLIP.

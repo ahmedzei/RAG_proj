@@ -1,0 +1,1 @@
+The result is a sparsely-activated model -- with outrageous numbers of parameters -- but a constant computational cost.

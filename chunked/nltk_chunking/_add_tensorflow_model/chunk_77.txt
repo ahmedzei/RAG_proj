@@ -1,0 +1,2 @@
+If you come across a certain operation that doesn't have a direct
+   replacement, the odds are that someone else already had the same problem.

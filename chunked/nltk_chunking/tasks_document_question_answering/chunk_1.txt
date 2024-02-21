@@ -1,0 +1,2 @@
+In other words, the problem is treated as extractive question answering: given the context, extract which piece
+of information answers the question.

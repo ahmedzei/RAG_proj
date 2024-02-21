@@ -1,0 +1,1 @@
+One needs to apply the sigmoid activation function to the logits, rather than the softmax.

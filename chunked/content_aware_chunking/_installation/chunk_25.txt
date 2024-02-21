@@ -1,0 +1,6 @@
+Install with conda
+Install from the conda channel conda-forge:
+
+conda install conda-forge::transformers
+Cache setup
+Pretrained models are downloaded and locally cached at: ~/.cache/huggingface/hub.

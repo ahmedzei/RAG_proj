@@ -1,0 +1,2 @@
+Usage: fine-tuning
+Here we explain how you can fine-tune [TapasForQuestionAnswering] on your own dataset.

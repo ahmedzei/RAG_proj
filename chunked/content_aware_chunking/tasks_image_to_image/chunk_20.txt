@@ -1,0 +1,1 @@
+Then we will arrange axes to have the shape [1072, 880], and finally, bring the output back to range [0, 255].

@@ -1,0 +1,2 @@
+DETR adds position embeddings to the hidden states at each self-attention and cross-attention layer before projecting
+  to queries and keys.

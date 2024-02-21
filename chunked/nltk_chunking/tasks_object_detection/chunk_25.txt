@@ -1,0 +1,2 @@
+These values are crucial
+to replicate when doing inference or finetuning a pre-trained image model.

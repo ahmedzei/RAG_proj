@@ -1,0 +1,2 @@
+Regardless of your framework of choice, you can parameterize the generate method with a [~generation.GenerationConfig]
+class instance.

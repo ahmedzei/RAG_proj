@@ -1,0 +1,2 @@
+We first concatenate all dialog turns within a dialogue session into a long text x_1,, x_N (N is the
+sequence length), ended by the end-of-text token.

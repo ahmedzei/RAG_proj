@@ -1,0 +1,1 @@
+BiT is a simple recipe for scaling up pre-training of ResNet-like architectures (specifically, ResNetv2).

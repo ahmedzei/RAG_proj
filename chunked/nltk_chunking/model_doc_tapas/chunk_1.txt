@@ -1,0 +1,2 @@
+It's a BERT-based model specifically 
+designed (and pre-trained) for answering questions about tabular data.

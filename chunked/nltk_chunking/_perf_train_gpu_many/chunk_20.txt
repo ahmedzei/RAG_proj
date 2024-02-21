@@ -1,0 +1,3 @@
+Case 3: Largest layer of your model does not fit onto a single GPU
+
+If you are not using ZeRO, you have to use TensorParallel (TP), because PipelineParallel (PP) alone won't be sufficient to accommodate the large layer.

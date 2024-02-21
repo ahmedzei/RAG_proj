@@ -1,0 +1,1 @@
+You can control the maximum size before sharding with the max_shard_size parameter, so for the sake of an example, we'll use a normal-size models with a small shard size: let's take a traditional BERT model.

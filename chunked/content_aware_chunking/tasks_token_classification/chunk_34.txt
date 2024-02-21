@@ -1,0 +1,1 @@
+At the end of each epoch, the [Trainer] will evaluate the seqeval scores and save the training checkpoint.

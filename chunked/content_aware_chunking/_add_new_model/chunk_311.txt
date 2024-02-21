@@ -1,0 +1,3 @@
+Upload the models to the model hub
+In this final part, you should convert and upload all checkpoints to the model hub and add a model card for each
+uploaded model checkpoint.

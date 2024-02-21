@@ -1,0 +1,2 @@
+Hereby, inference is defined by a single forward pass, and training is defined by a single forward pass and
+backward pass.

@@ -1,0 +1,10 @@
+For example, for DistilBERT we have:
+thon
+
+from transformers.models.distilbert import DistilBertConfig, DistilBertOnnxConfig
+config = DistilBertConfig()
+onnx_config = DistilBertOnnxConfig(config)
+print(list(onnx_config.outputs.keys()))
+["last_hidden_state"]
+
+The process is identical for TensorFlow checkpoints on the Hub.

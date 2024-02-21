@@ -1,0 +1,1 @@
+Replace traditional attention by LSH (local-sensitive hashing) attention (see below for more details).

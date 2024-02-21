@@ -1,0 +1,1 @@
+We first load the model and tokenizer and then pass both to Transformers' pipeline object.

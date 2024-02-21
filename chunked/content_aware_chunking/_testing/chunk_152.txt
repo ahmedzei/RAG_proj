@@ -1,0 +1,2 @@
+For example,
+a significant coverage can be achieved by testing with specially created tiny models with random weights.

@@ -1,0 +1,1 @@
+To use the pretrained model for text classification, add a sequence classification head on top of the base BERT model.

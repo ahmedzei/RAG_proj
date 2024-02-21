@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+*We design a family of image classification architectures that optimize the trade-off between accuracy
+and efficiency in a high-speed regime.

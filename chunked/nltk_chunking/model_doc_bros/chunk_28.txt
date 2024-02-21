@@ -1,0 +1,1 @@
+Obtaining of Bounding boxes depends on external OCR system.

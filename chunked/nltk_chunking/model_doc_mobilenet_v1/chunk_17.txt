@@ -1,0 +1,3 @@
+Unsupported features:
+
+The [MobileNetV1Model] outputs a globally pooled version of the last hidden state.

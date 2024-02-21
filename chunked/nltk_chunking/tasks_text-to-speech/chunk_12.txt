@@ -1,0 +1,8 @@
+Before you begin, make sure you have all the necessary libraries installed:
+
+pip install datasets soundfile speechbrain accelerate
+Install 🤗Transformers from source as not all the SpeechT5 features have been merged into an official release yet:
+
+pip install git+https://github.com/huggingface/transformers.git
+
+To follow this guide you will need a GPU.

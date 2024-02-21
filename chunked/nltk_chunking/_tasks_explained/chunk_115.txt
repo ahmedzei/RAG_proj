@@ -1,0 +1,1 @@
+Check out our complete image segmentation guide to learn how to finetune SegFormer and use it for inference!

@@ -1,0 +1,3 @@
+Also note
+that every "locally" attending token not only attends to tokens within its window \(w\), but also to all "globally"
+attending tokens so that global attention is symmetric.

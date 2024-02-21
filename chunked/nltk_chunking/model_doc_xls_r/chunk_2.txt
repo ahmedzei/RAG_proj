@@ -1,0 +1,2 @@
+We train models with up to 2B parameters on nearly half a million hours of publicly available speech audio in 128
+languages, an order of magnitude more public data than the largest known prior work.

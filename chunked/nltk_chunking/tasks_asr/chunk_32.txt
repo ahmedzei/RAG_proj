@@ -1,0 +1,8 @@
+Instantiate a pipeline for automatic speech recognition with your model, and pass your audio file to it:
+
+from transformers import pipeline
+transcriber = pipeline("automatic-speech-recognition", model="stevhliu/my_awesome_asr_minds_model")
+transcriber(audio_file)
+{'text': 'I WOUD LIKE O SET UP JOINT ACOUNT WTH Y PARTNER'}
+
+The transcription is decent, but it could be better!

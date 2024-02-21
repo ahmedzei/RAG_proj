@@ -1,0 +1,2 @@
+You can set it
+to one of the following: debug, info, warning, error, critical.

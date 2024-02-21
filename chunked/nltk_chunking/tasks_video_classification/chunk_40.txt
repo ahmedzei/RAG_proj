@@ -1,0 +1,1 @@
+LabeledVideoDataset class is the base class for all things video in the PyTorchVideo dataset.

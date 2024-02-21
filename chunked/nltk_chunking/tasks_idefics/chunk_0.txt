@@ -1,0 +1,5 @@
+
+Image tasks with IDEFICS
+[[open-in-colab]]
+While individual tasks can be tackled by fine-tuning specialized models, an alternative approach 
+that has recently emerged and gained popularity is to use large models for a diverse set of tasks without fine-tuning.

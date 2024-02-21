@@ -1,0 +1,2 @@
+The scalability of Nyströmformer enables application to longer sequences with thousands of
+tokens.

@@ -1,0 +1,1 @@
+Make sure your quantization method is documented in the docs/source/en/quantization.md file.

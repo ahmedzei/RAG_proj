@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+We show for the first time that learning powerful representations from speech audio alone followed by fine-tuning on
+transcribed speech can outperform the best semi-supervised methods while being conceptually simpler.

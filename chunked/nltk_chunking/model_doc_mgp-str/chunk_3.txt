@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Scene text recognition (STR) has been an active research topic in computer vision for years.

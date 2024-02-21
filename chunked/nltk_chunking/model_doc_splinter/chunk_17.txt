@@ -1,0 +1,3 @@
+Both are basically the same, except that
+  one also has the pretrained weights of the QASS layer (tau/splinter-base-qass and tau/splinter-large-qass) and one
+  doesn't (tau/splinter-base and tau/splinter-large).

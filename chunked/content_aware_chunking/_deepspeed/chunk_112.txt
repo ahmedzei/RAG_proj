@@ -1,0 +1,13 @@
+yaml
+{
+   "optimizer": {
+       "type": "AdamW",
+       "params": {
+         "lr": "auto",
+         "betas": "auto",
+         "eps": "auto",
+         "weight_decay": "auto"
+       }
+   }
+}
+You can also use an unsupported optimizer by adding the following to the top level configuration.

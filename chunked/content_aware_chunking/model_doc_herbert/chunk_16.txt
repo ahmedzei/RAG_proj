@@ -1,0 +1,4 @@
+HerbertTokenizer
+[[autodoc]] HerbertTokenizer
+HerbertTokenizerFast
+[[autodoc]] HerbertTokenizerFast

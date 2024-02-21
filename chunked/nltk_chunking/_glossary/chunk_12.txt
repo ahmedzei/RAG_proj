@@ -1,0 +1,14 @@
+This attention mask is in the dictionary returned
+by the tokenizer under the key "attention_mask":
+thon
+
+padded_sequences["attention_mask"]
+[[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+autoencoding models
+See encoder models and masked language modeling
+autoregressive models
+See causal language modeling and decoder models
+B
+backbone
+The backbone is the network (embeddings and layers) that outputs the raw hidden states or features.

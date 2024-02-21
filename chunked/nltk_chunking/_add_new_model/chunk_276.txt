@@ -1,0 +1,2 @@
+To ensure that the tokenizer works correctly, it is recommended to first create a script in the original repository
+that inputs a string and returns the `input_ids``.

@@ -1,0 +1,2 @@
+However, be cautious - although leading whitespace on each
+line is stripped, spaces between blocks on the same line are not.

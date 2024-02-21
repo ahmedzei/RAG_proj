@@ -1,0 +1,21 @@
+Example usage
+Here is an example using the processors as well as the conversion method using data files:
+thon
+Loading a V2 processor
+processor = SquadV2Processor()
+examples = processor.get_dev_examples(squad_v2_data_dir)
+Loading a V1 processor
+processor = SquadV1Processor()
+examples = processor.get_dev_examples(squad_v1_data_dir)
+features = squad_convert_examples_to_features(
+    examples=examples,
+    tokenizer=tokenizer,
+    max_seq_length=max_seq_length,
+    doc_stride=args.doc_stride,
+    max_query_length=max_query_length,
+    is_training=not evaluate,
+)
+
+Using tensorflow_datasets is as easy as using a data file:
+thon
+tensorflow_datasets only handle Squad V1.

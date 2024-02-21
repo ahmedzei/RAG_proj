@@ -1,0 +1,2 @@
+Unigram then
+removes p (with p usually being 10% or 20%) percent of the symbols whose loss increase is the lowest, i.e.

@@ -1,0 +1,9 @@
+Sentiment:
+ """
+sequences = pipe(
+     prompt,
+     max_new_tokens=10,
+ )
+for seq in sequences:
+     print(f"Result: {seq['generated_text']}")
+Result: Classify the text into neutral, negative or positive.

@@ -1,0 +1,1 @@
+The first model translates the input modality into translated text, while the second model generates speech tokens, known as "unit tokens," from the translated text.

@@ -1,0 +1,1 @@
+For instance, large language models can handle such NLP tasks as summarization, translation, classification, and more.

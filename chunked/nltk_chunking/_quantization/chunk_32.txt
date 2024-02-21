@@ -1,0 +1,1 @@
+For example, to fuse the AWQ modules of the TheBloke/Yi-34B-AWQ model.

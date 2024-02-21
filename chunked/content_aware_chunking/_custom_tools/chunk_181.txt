@@ -1,0 +1,2 @@
+The two are currently incompatible, but will rapidly become compatible as we
+work to improve the support.

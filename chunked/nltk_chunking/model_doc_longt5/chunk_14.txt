@@ -1,0 +1,1 @@
+It is capable of handling input sequences of a length up to 16,384 tokens.

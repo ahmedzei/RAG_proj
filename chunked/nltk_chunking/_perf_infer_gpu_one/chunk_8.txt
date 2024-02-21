@@ -1,0 +1,2 @@
+pip install flash-attn --no-build-isolation
+We strongly suggest referring to the detailed installation instructions to learn more about supported hardware and data types!

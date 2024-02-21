@@ -1,0 +1,1 @@
+Check this list to see if a model supports BetterTransformer.

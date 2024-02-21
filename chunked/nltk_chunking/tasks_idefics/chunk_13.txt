@@ -1,0 +1,6 @@
+Loading the model
+Let's start by loading the model's 9 billion parameters checkpoint: 
+
+checkpoint = "HuggingFaceM4/idefics-9b"
+
+Just like for other Transformers models, you need to load a processor and the model itself from the checkpoint.

@@ -1,0 +1,1 @@
+scene_category: a category id that describes the image scene like "kitchen" or "office".

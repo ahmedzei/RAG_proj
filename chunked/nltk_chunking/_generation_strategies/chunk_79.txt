@@ -1,0 +1,2 @@
+More advanced parameters exist for the
+[generate] method, which gives you even further control over the [generate] method's behavior.

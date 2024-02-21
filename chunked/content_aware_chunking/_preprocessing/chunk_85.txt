@@ -1,0 +1,2 @@
+Here we use Compose to chain together a couple of
+transforms - RandomResizedCrop and ColorJitter.

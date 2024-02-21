@@ -1,0 +1,2 @@
+For correct answers, the element holds 
+their respective score (weight), while the remaining elements are set to zero.

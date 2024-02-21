@@ -1,0 +1,1 @@
+(ii) Additionally, we introduce the detail capture module, which just consists of simple lightweight convolutions to complement the detailed information required by matting.

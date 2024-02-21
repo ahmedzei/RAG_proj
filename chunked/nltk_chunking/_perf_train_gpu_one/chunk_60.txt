@@ -1,0 +1,2 @@
+In fp16 the biggest number you can have 
+is 65535 and any number above that will result in an overflow.

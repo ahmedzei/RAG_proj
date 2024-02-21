@@ -1,0 +1,1 @@
+The quantization method is available through a Python package that is pip-installable by anyone (it is also fine if you can only install the package from source).

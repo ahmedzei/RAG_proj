@@ -1,0 +1,3 @@
+The attention mask is
+modified to mask the current token (except at the first position), because it will give a query and a key equal (so
+very similar to each other).

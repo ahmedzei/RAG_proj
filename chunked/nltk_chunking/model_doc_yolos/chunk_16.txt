@@ -1,0 +1,1 @@
+Contrary to DETR, YOLOS doesn't require a pixel_mask to be created.

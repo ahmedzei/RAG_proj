@@ -1,0 +1,14 @@
+thon
+
+from transformers import AutoModel, AutoTokenizer
+import torch
+tokenizer = AutoTokenizer.from_pretrained("Tanrei/GPTSAN-japanese")
+model = AutoModel.from_pretrained("Tanrei/GPTSAN-japanese").cuda()
+x_tok = tokenizer("は、", prefix_text="織田信長", return_tensors="pt")
+torch.manual_seed(0)
+gen_tok = model.generate(x_tok.input_ids.cuda(), token_type_ids=x_tok.token_type_ids.cuda(), max_new_tokens=20)
+tokenizer.decode(gen_tok[0])
+'織田信長は、2004年に『戦国BASARA』のために、豊臣秀吉'
+
+GPTSAN Features
+GPTSAN has some unique features.

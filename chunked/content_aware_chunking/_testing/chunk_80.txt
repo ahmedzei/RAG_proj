@@ -1,0 +1,2 @@
+Distributed training
+pytest can't deal with distributed training directly.

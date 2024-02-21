@@ -1,0 +1,1 @@
+DETR uses a bipartite matching loss during training to compare a fixed number of predictions with a fixed set of ground truth labels.

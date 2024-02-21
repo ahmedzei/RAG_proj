@@ -1,0 +1,2 @@
+WordPiece
+WordPiece is the subword tokenization algorithm used for BERT, DistilBERT, and Electra.

@@ -1,0 +1,32 @@
+Resources
+
+Text classification task guide
+Token classification task guide
+Question answering task guide
+Causal language modeling task guide
+Masked language modeling task guide
+Multiple choice task guide
+
+XLMRobertaXLConfig
+[[autodoc]] XLMRobertaXLConfig
+XLMRobertaXLModel
+[[autodoc]] XLMRobertaXLModel
+    - forward
+XLMRobertaXLForCausalLM
+[[autodoc]] XLMRobertaXLForCausalLM
+    - forward
+XLMRobertaXLForMaskedLM
+[[autodoc]] XLMRobertaXLForMaskedLM
+    - forward
+XLMRobertaXLForSequenceClassification
+[[autodoc]] XLMRobertaXLForSequenceClassification
+    - forward
+XLMRobertaXLForMultipleChoice
+[[autodoc]] XLMRobertaXLForMultipleChoice
+    - forward
+XLMRobertaXLForTokenClassification
+[[autodoc]] XLMRobertaXLForTokenClassification
+    - forward
+XLMRobertaXLForQuestionAnswering
+[[autodoc]] XLMRobertaXLForQuestionAnswering
+    - forward

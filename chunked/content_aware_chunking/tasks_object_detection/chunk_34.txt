@@ -1,0 +1,2 @@
+You should see a tensor
+with pixel_values, a tensor with pixel_mask, and labels.

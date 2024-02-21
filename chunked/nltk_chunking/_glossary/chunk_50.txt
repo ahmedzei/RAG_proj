@@ -1,0 +1,3 @@
+H
+head
+The model head refers to the last layer of a neural network that accepts the raw hidden states and projects them onto a different dimension.

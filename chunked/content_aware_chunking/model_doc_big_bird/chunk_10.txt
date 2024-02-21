@@ -1,0 +1,2 @@
+The proposed sparse attention can handle sequences of length up to
+8x of what was previously possible using similar hardware.

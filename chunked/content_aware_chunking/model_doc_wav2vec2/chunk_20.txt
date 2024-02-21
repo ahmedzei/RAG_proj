@@ -1,0 +1,5 @@
+Automatic speech recognition task guide
+
+🚀 Deploy
+
+A blog post on how to deploy Wav2Vec2 for Automatic Speech Recognition with Hugging Face's Transformers & Amazon SageMaker.

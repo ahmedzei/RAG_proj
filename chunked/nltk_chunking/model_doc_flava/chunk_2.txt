@@ -1,0 +1,3 @@
+The abstract from the paper is the following:
+State-of-the-art vision and vision-and-language models rely on large-scale visio-linguistic pretraining for obtaining good performance on a variety
+of downstream tasks.

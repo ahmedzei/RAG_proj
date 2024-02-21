@@ -1,0 +1,8 @@
+pip install -q transformers datasets
+
+pip install 'git+https://github.com/facebookresearch/detectron2.git'
+pip install torchvision
+
+sudo apt install tesseract-ocr
+pip install -q pytesseract
+Once you have installed all of the dependencies, restart your runtime.

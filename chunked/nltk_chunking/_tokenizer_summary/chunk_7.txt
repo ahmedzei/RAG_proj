@@ -1,0 +1,2 @@
+Introduction
+Splitting a text into smaller chunks is a task that is harder than it looks, and there are multiple ways of doing so.

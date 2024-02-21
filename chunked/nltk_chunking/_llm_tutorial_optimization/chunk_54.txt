@@ -1,0 +1,1 @@
+Note that quantization works especially well for text generation since all we care about is choosing the set of most likely next tokens and don't really care about the exact values of the next token logit distribution.

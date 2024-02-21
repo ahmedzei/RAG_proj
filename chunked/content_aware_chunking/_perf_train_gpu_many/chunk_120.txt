@@ -1,0 +1,1 @@
+Currently, the pipeline interface requires either a single Tensor or a tuple of Tensors as the only input and output.

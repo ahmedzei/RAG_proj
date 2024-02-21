@@ -1,0 +1,3 @@
+Transformers provides an [AutoBackbone] class for initializing a Transformers backbone from pretrained model weights, and two utility classes:
+
+[~utils.BackboneMixin] enables initializing a backbone from Transformers or timm and includes functions for returning the output features and indices.

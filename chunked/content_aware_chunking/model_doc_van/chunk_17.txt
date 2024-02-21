@@ -1,0 +1,1 @@
+The figure below illustrates the architecture of a Visual Attention Layer.

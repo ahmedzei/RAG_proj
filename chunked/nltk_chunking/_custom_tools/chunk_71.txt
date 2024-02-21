@@ -1,0 +1,2 @@
+Contrary to the run command, the chat command then appends the completed example
+to the prompt, thus giving the agent more context for the next chat turn.

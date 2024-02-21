@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+Compression plays an important role on the efficient transmission and storage of images and videos through band-limited systems such as streaming services, virtual reality or videogames.

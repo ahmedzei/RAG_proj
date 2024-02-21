@@ -1,0 +1,1 @@
+It may also include model specific post-processing such as converting logits to segmentation masks.

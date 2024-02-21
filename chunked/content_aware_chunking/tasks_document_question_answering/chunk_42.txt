@@ -1,0 +1,3 @@
+It will then iterate over the words_list and check
+if the current word in the words_list (words_list[i]) is equal to the first word of answer_list (answer_list[0]) and if
+the sublist of words_list starting from the current word and of the same length as answer_list is equal to answer_list.

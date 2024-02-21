@@ -1,0 +1,2 @@
+Existing approaches for text recognition
+are usually built based on CNN for image understanding and RNN for char-level text generation.

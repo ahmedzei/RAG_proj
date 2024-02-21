@@ -1,0 +1,2 @@
+In case you would like to use the code generated in 
+a different setting, the agent can be prompted to return the code, along with tool definition and accurate imports.

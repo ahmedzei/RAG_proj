@@ -1,0 +1,1 @@
+Alternatively, one can further fine-tune the entire model on a downstream dataset, similar to BERT.

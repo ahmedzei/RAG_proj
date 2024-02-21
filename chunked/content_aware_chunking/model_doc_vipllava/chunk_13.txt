@@ -1,0 +1,3 @@
+For better results, we recommend users to prompt the model with the correct prompt format: 
+
+A chat between a curious human and an artificial intelligence assistant.

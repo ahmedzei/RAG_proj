@@ -1,0 +1,3 @@
+
+Mask Generation
+Mask generation is the task of generating semantically meaningful masks for an image.

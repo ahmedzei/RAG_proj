@@ -1,0 +1,2 @@
+It works, however, if one
+spawns a normal process that then spawns off multiple workers and manages the IO pipes.

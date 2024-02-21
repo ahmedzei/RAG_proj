@@ -1,0 +1,2 @@
+Please refer to this class for the complete list of generation parameters, which control the behavior
+of the generation method.

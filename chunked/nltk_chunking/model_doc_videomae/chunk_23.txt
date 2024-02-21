@@ -1,0 +1,5 @@
+[[autodoc]] transformers.VideoMAEForPreTraining
+    - forward
+VideoMAEForVideoClassification
+[[autodoc]] transformers.VideoMAEForVideoClassification
+    - forward

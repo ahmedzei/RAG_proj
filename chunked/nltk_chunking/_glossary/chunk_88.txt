@@ -1,0 +1,4 @@
+M
+masked language modeling (MLM)
+A pretraining task where the model sees a corrupted version of the texts, usually done by
+masking some tokens randomly, and has to predict the original text.

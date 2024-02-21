@@ -1,0 +1,1 @@
+For users who prefer to write their own training loop, you can also fine-tune a 🤗 Transformers model in native PyTorch.

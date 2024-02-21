@@ -1,0 +1,2 @@
+This means that if you have a batch of
+  document images, image should be a tensor of shape (batch_size, 3, 224, 224).

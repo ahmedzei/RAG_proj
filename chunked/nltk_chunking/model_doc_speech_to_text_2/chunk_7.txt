@@ -1,0 +1,1 @@
+Speech2Text2 is always used within the SpeechEncoderDecoder framework.

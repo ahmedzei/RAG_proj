@@ -1,0 +1,2 @@
+Speech2Text2 is a decoder-only transformer model that can be used with any speech encoder-only, such as
+Wav2Vec2 or HuBERT for Speech-to-Text tasks.

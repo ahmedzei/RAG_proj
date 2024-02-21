@@ -1,0 +1,4 @@
+
+XLM-RoBERTa-XL
+Overview
+The XLM-RoBERTa-XL model was proposed in Larger-Scale Transformers for Multilingual Masked Language Modeling by Naman Goyal, Jingfei Du, Myle Ott, Giri Anantharaman, Alexis Conneau.

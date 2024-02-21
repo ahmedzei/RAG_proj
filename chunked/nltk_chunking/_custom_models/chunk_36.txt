@@ -1,0 +1,2 @@
+To go fast for this tutorial,
+we will use the pretrained version of the resnet50d.

@@ -1,0 +1,1 @@
+It compels the model to actively seek extra visual knowledge and acquire robust representations.

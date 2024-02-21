@@ -1,0 +1,2 @@
+This is a great way of quickly testing your changes didn't break
+anything, since it won't run the tests related to files you didn't touch.

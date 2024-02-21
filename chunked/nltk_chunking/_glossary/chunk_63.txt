@@ -1,0 +1,5 @@
+thon
+
+tokenized_sequence = tokenizer.tokenize(sequence)
+
+The tokens are either words or subwords.

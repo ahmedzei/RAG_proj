@@ -1,0 +1,5 @@
+Now that we have our model class, let's create one:
+py
+resnet50d = ResnetModelForImageClassification(resnet50d_config)
+Again, you can use any of the methods of [PreTrainedModel], like [~PreTrainedModel.save_pretrained] or
+[~PreTrainedModel.push_to_hub].

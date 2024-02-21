@@ -1,0 +1,1 @@
+If you want the AutoModel API to cast the load the checkpoints with the storage weights type, you must specify torch_dtype="auto", e.g.

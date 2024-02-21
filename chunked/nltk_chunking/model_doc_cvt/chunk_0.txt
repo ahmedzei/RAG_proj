@@ -1,0 +1,4 @@
+
+Convolutional Vision Transformer (CvT)
+Overview
+The CvT model was proposed in CvT: Introducing Convolutions to Vision Transformers by Haiping Wu, Bin Xiao, Noel Codella, Mengchen Liu, Xiyang Dai, Lu Yuan and Lei Zhang.

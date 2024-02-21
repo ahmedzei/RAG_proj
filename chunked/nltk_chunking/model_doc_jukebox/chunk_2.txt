@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+We introduce Jukebox, a model that generates music with singing in the raw audio domain.

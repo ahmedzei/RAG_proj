@@ -1,0 +1,2 @@
+Usage tips
+Specifying the Prefix part is done with a mask passed to self-attention.

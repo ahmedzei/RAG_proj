@@ -1,0 +1,10 @@
+from torchvision.transforms import RandomResizedCrop, ColorJitter, Compose
+size = (
+     image_processor.size["shortest_edge"]
+     if "shortest_edge" in image_processor.size
+     else (image_processor.size["height"], image_processor.size["width"])
+ )
+_transforms = Compose([RandomResizedCrop(size), ColorJitter(brightness=0.5, hue=0.5)])
+
+The model accepts pixel_values
+as its input.

@@ -1,0 +1,1 @@
+Aside from the optimizer and scheduler parameters, you'll need to ensure your [Trainer] command line arguments match the DeepSpeed configuration.

@@ -1,0 +1,4 @@
+You can steer the model from image captioning to visual question answering by prompting it with appropriate instructions: 
+
+prompt = [
+     "Instruction: Provide an answer to the question.

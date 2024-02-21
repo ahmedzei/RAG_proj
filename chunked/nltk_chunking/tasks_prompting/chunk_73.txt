@@ -1,0 +1,5 @@
+Let's try if we can make a model reason about a simple arithmetics task with a basic prompt: 
+thon
+
+torch.manual_seed(5) # doctest: +IGNORE_RESULT
+prompt = """There are 5 groups of students in the class.

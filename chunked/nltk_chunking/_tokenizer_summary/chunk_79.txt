@@ -1,0 +1,2 @@
+"u",
+"n" is merged to "un" and added to the vocabulary.

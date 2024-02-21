@@ -1,0 +1,3 @@
+Model Structure
+The MusicGen model can be de-composed into three distinct stages:
+1.

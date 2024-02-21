@@ -1,0 +1,1 @@
+We scale up pre-training, and propose a simple recipe that we call Big Transfer (BiT).

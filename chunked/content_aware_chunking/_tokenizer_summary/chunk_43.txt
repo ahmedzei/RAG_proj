@@ -1,0 +1,2 @@
+This is especially useful in agglutinative languages such as Turkish,
+where you can form (almost) arbitrarily long complex words by stringing together subwords.

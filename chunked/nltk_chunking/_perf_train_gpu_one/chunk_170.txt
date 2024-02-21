@@ -1,0 +1,5 @@
+After installing the optimum package, the relevant internal modules can be 
+replaced to use PyTorch's native attention with:
+python
+model = model.to_bettertransformer()
+Once converted, train the model as usual.

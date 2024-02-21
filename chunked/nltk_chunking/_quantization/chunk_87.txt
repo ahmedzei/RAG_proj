@@ -1,0 +1,1 @@
+8-bit quantization works well for values ~5, but beyond that, there is a significant performance penalty.

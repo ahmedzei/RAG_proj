@@ -1,0 +1,1 @@
+Not every model supports a fast tokenizer.

@@ -1,0 +1,1 @@
+The important part to understand here is that reducing the number of key-value attention heads to 1 only makes sense if a key-value cache is used.

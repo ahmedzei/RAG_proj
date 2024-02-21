@@ -1,0 +1,1 @@
+Padding can be done on the left or on the right.

@@ -1,0 +1,1 @@
+Further documentation for downloading models can be found in the NGC documentation.

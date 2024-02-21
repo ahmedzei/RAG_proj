@@ -1,0 +1,2 @@
+AutoTokenizer
+A tokenizer is responsible for preprocessing text into an array of numbers as inputs to a model.

@@ -1,0 +1,4 @@
+- Multiple choice task guide
+⚗️ Optimization
+
+A blog post on how to quantize DistilBERT with 🤗 Optimum and Intel.

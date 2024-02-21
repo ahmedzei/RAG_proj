@@ -1,0 +1,2 @@
+[LukeTokenizer] takes entities and entity_spans (character-based start and end
+  positions of the entities in the input text) as extra input.

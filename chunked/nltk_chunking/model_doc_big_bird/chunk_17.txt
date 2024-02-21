@@ -1,0 +1,2 @@
+For the sequence length < 1024, using
+  original_full is advised as there is no benefit in using block_sparse attention.

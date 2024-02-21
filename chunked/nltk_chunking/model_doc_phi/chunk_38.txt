@@ -1,0 +1,16 @@
+PhiConfig
+[[autodoc]] PhiConfig
+
+PhiModel
+[[autodoc]] PhiModel
+    - forward
+PhiForCausalLM
+[[autodoc]] PhiForCausalLM
+    - forward
+    - generate
+PhiForSequenceClassification
+[[autodoc]] PhiForSequenceClassification
+    - forward
+PhiForTokenClassification
+[[autodoc]] PhiForTokenClassification
+    - forward

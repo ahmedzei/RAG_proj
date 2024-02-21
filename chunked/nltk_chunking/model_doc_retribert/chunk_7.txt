@@ -1,0 +1,9 @@
+RetriBertConfig
+[[autodoc]] RetriBertConfig
+RetriBertTokenizer
+[[autodoc]] RetriBertTokenizer
+RetriBertTokenizerFast
+[[autodoc]] RetriBertTokenizerFast
+RetriBertModel
+[[autodoc]] RetriBertModel
+    - forward

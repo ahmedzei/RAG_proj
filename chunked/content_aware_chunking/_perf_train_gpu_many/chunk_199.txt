@@ -1,0 +1,2 @@
+GPU selection
+When training on multiple GPUs, you can specify the number of GPUs to use and in what order.

@@ -1,0 +1,6 @@
+Wav2Vec2PhonemeCTCTokenizer
+[[autodoc]] Wav2Vec2PhonemeCTCTokenizer
+    - call
+    - batch_decode
+    - decode
+    - phonemize

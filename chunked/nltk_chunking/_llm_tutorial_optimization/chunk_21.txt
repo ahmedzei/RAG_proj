@@ -1,0 +1,5 @@
+Therefore the rule of thumb becomes:
+
+Loading the weights of a model having X billion parameters requires roughly 2 * X GB of VRAM in bfloat16/float16 precision
+
+For shorter text inputs (less than 1024 tokens), the memory requirement for inference is very much dominated by the memory requirement to load the weights.

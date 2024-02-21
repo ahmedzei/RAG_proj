@@ -1,0 +1,2 @@
+These audio tokens are then decoded using an audio compression model, such as EnCodec,
+to recover the audio waveform.

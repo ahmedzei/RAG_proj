@@ -1,0 +1,1 @@
+So here on top of saving the numerator state (\(\hat{N}\)) and the denominator state (\(\hat{D}\)) we also keep track of the maximum of all terms encountered in the exponentials.

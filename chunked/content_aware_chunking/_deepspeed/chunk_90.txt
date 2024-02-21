@@ -1,0 +1,2 @@
+NVMe configuration
+ZeRO-Infinity allows offloading model states to the CPU and/or NVMe to save even more memory.

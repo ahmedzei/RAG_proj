@@ -1,0 +1,6 @@
+python
+del model
+del pipe
+python
+flush()
+Let's see what peak GPU memory consumption 4-bit quantization gives.

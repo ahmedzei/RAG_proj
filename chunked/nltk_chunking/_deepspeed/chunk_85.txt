@@ -1,0 +1,1 @@
+To access all parameters from all the layers at once, such as loading pretrained model weights in [~PreTrainedModel.from_pretrained], one layer is loaded at a time and immediately partitioned to all GPUs.

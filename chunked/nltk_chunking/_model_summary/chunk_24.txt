@@ -1,0 +1,1 @@
+BeIT is trained to predict the visual tokens corresponding to the masked patches.

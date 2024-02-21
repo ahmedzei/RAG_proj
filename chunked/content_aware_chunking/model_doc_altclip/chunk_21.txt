@@ -1,0 +1,2 @@
+The [AltCLIPProcessor] wraps a [CLIPImageProcessor] and a [XLMRobertaTokenizer] into a single instance to both
+encode the text and prepare the images.

@@ -1,0 +1,2 @@
+For evaluation, one should first convert the
+outputs of the model using one of the postprocessing methods of [~transformers.DetrImageProcessor].

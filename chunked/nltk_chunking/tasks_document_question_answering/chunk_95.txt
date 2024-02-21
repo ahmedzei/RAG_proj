@@ -1,0 +1,8 @@
+Let's take an example:
+
+example = dataset["test"][2]
+question = example["query"]["en"]
+image = example["image"]
+print(question)
+print(example["answers"])
+'Who is ‘presiding’ TRRF GENERAL SESSION (PART 1)?'

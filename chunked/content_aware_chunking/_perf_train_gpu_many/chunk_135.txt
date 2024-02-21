@@ -1,0 +1,1 @@
+OSLO has pipeline parallelism implementation based on the Transformers without nn.Sequential conversion.

@@ -1,0 +1,1 @@
+If you had a bunch of Python variables being passed in the very first stage of the Pipeline, you will have to find a way around it.

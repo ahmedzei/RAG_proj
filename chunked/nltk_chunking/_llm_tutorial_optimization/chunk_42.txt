@@ -1,0 +1,1 @@
+Note that if we had tried to run the model in full float32 precision, a whopping 64 GB of VRAM would have been required.

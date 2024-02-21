@@ -1,0 +1,1 @@
+Surprisingly, we observe that the derived model, termed as PoolFormer, achieves competitive performance on multiple computer vision tasks.

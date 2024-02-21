@@ -1,0 +1,3 @@
+Let's check out 3 important ones:
+Device
+If you use device=n, the pipeline automatically puts the model on the specified device.

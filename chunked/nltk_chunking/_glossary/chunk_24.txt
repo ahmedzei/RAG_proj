@@ -1,0 +1,1 @@
+Each operation is applied to a different segment of the input matrix.

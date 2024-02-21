@@ -1,0 +1,2 @@
+Let's take the example of using the [pipeline] for automatic speech recognition (ASR), or
+speech-to-text.

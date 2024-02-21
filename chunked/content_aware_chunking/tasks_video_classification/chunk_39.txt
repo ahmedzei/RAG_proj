@@ -1,0 +1,1 @@
+Under the hood, it returns a pytorchvideo.data.labeled_video_dataset.LabeledVideoDataset object.

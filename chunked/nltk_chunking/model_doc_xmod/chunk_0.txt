@@ -1,0 +1,4 @@
+
+X-MOD
+Overview
+The X-MOD model was proposed in Lifting the Curse of Multilinguality by Pre-training Modular Transformers by Jonas Pfeiffer, Naman Goyal, Xi Lin, Xian Li, James Cross, Sebastian Riedel, and Mikel Artetxe.

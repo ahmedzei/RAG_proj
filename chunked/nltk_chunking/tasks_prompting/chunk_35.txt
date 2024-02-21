@@ -1,0 +1,6 @@
+Note that instead of leaving it at that, we're 
+also adding the beginning of the response - "Sentiment: ":
+thon
+
+torch.manual_seed(0) # doctest: +IGNORE_RESULT
+prompt = """Classify the text into neutral, negative or positive.

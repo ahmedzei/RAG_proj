@@ -1,0 +1,1 @@
+Oftentimes, encoder models are pretrained using techniques like masked language modeling, which masks parts of the input sequence and forces the model to create more meaningful representations.

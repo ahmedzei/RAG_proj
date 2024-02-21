@@ -1,0 +1,2 @@
+The ignore_mismatched_sizes=True keyword has to be passed to allow the language model head to be resized according
+to the vocabulary of the specified language.

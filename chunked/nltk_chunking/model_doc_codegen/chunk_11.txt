@@ -1,0 +1,1 @@
+We make the training library JaxFormer including checkpoints available as open source contribution: this https URL.

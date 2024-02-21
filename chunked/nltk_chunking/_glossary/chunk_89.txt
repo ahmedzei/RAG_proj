@@ -1,0 +1,2 @@
+multimodal
+A task that combines texts with another kind of inputs (for instance images).

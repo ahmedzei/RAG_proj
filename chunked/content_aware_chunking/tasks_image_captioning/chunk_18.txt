@@ -1,0 +1,1 @@
+For this guide, you will use the Word Error Rate (WER).

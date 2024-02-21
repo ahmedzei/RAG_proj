@@ -1,0 +1,2 @@
+This argument tells
+the template to add tokens that indicate the start of a bot response.

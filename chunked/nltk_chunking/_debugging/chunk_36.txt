@@ -1,0 +1,5 @@
+wget https://raw.githubusercontent.com/huggingface/transformers/main/scripts/distributed/torch-distributed-gpu-test.py
+For example to test how 2 GPUs interact do:
+
+python -m torch.distributed.run --nproc_per_node 2 --nnodes 1 torch-distributed-gpu-test.py
+If both processes can talk to each and allocate GPU memory each will print an OK status.

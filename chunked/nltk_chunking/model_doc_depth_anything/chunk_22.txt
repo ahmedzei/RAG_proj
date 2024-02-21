@@ -1,0 +1,5 @@
+DepthAnythingConfig
+[[autodoc]] DepthAnythingConfig
+DepthAnythingForDepthEstimation
+[[autodoc]] DepthAnythingForDepthEstimation
+    - forward

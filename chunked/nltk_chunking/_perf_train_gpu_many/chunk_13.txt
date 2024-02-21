@@ -1,0 +1,6 @@
+Here's a breakdown of your options:
+Case 1: Your model fits onto a single GPU
+If your model can comfortably fit onto a single GPU, you have two primary options:
+
+DDP - Distributed DataParallel
+ZeRO - depending on the situation and configuration used, this method may or may not be faster, however, it's worth experimenting with it.

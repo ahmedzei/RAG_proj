@@ -1,0 +1,2 @@
+The abstract from the paper is the following:
+TSMixer is a lightweight neural architecture exclusively composed of multi-layer perceptron (MLP) modules designed for multivariate forecasting and representation learning on patched time series.

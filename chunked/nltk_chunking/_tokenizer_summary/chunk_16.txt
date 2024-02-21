@@ -1,0 +1,2 @@
+Taking punctuation into account, tokenizing our exemplary text would give:
+["Don", "'", "t", "you", "love", "🤗", "Transformers", "?

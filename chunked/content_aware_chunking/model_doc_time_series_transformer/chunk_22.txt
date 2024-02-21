@@ -1,0 +1,1 @@
+An example here is the store ID or region ID that identifies a given time-series.

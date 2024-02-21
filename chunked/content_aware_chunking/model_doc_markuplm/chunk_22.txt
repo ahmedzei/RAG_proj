@@ -1,0 +1,3 @@
+The nodes and
+xpaths are then provided to [MarkupLMTokenizer] or [MarkupLMTokenizerFast], which converts them
+to token-level input_ids, attention_mask, token_type_ids, xpath_subs_seq, xpath_tags_seq.

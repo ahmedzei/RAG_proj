@@ -1,0 +1,2 @@
+We strongly recommend checking that your template isn't printing extra
+spaces where it shouldn't be before you upload it!

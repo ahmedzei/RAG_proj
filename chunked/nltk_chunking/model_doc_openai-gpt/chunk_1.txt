@@ -1,0 +1,2 @@
+It's a causal (unidirectional) transformer
+pre-trained using language modeling on a large corpus will long range dependencies, the Toronto Book Corpus.

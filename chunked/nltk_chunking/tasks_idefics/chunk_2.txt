@@ -1,0 +1,2 @@
+This approach is no longer limited to a single modality, such as text, and in this guide, we will illustrate how you can 
+solve image-text tasks with a large multimodal model called IDEFICS.

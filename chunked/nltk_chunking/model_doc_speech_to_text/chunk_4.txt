@@ -1,0 +1,2 @@
+Speech2Text has been fine-tuned on several datasets for ASR and ST:
+LibriSpeech, CoVoST 2, MuST-C.

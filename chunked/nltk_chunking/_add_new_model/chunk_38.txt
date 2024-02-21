@@ -1,0 +1,2 @@
+Avoid subclassing nn.Sequential in PyTorch but subclass nn.Module and write the forward pass, so that anyone
+   using your code can quickly debug it by adding print statements or breaking points.

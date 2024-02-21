@@ -1,0 +1,8 @@
+import numpy as np
+import tensorflow as tf
+from PIL import Image
+def convert_to_tf_tensor(image: Image):
+     np_image = np.array(image)
+     tf_image = tf.convert_to_tensor(np_image)
+     # expand_dims() is used to add a batch dimension since
+     # the TF augmentation layers operates on batched inputs.

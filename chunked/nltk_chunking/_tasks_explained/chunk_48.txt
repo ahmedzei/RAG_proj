@@ -1,0 +1,1 @@
+The last thing to add to the patch and learnable embeddings are the position embeddings because the model doesn't know how the image patches are ordered.

@@ -1,0 +1,3 @@
+XLM,
+FlauBERT which uses Moses for most languages, or GPT which uses
+spaCy and ftfy, to count the frequency of each word in the training corpus.

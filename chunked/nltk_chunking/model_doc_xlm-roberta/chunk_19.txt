@@ -1,0 +1,2 @@
+A blog post on how to finetune XLM RoBERTa for multiclass classification with Habana Gaudi on AWS
+[XLMRobertaForSequenceClassification] is supported by this example script and notebook.

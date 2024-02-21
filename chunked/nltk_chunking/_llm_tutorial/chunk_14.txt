@@ -1,0 +1,1 @@
+After tokenizing the inputs, you can call the [~generation.GenerationMixin.generate] method to returns the generated tokens.

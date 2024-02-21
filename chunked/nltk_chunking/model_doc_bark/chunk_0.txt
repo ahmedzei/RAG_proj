@@ -1,0 +1,4 @@
+
+Bark
+Overview
+Bark is a transformer-based text-to-speech model proposed by Suno AI in suno-ai/bark.

@@ -1,0 +1,2 @@
+Depth estimation
+GLPN, Global-Local Path Network, is a Transformer for depth estimation that combines a SegFormer encoder with a lightweight decoder.

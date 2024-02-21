@@ -1,0 +1,1 @@
+Let's create predictions for the two examples, and visualize the second one (image_idx = 1).

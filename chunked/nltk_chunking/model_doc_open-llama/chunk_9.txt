@@ -1,0 +1,11 @@
+OpenLlamaConfig
+[[autodoc]] OpenLlamaConfig
+OpenLlamaModel
+[[autodoc]] OpenLlamaModel
+    - forward
+OpenLlamaForCausalLM
+[[autodoc]] OpenLlamaForCausalLM
+    - forward
+OpenLlamaForSequenceClassification
+[[autodoc]] OpenLlamaForSequenceClassification
+    - forward

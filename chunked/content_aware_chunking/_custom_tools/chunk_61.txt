@@ -1,0 +1,4 @@
+py
+answer = image_qa(text=question, image=image)
+print(f"The answer is {answer}")
+Human: I tried this code, it worked but didn't give me a good result.

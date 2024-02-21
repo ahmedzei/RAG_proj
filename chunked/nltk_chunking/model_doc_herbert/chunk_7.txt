@@ -1,0 +1,2 @@
+We also introduce a new
+sentiment analysis task for the e-commerce domain, named Allegro Reviews (AR).

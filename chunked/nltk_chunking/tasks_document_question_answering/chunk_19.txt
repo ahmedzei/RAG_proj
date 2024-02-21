@@ -1,0 +1,1 @@
+If most of the documents in your dataset are long, you can implement a sliding window strategy - check out this notebook for details.

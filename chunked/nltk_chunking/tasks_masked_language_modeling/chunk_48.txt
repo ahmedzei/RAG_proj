@@ -1,0 +1,29 @@
+training_args = TrainingArguments(
+     output_dir="my_awesome_eli5_mlm_model",
+     evaluation_strategy="epoch",
+     learning_rate=2e-5,
+     num_train_epochs=3,
+     weight_decay=0.01,
+     push_to_hub=True,
+ )
+trainer = Trainer(
+     model=model,
+     args=training_args,
+     train_dataset=lm_dataset["train"],
+     eval_dataset=lm_dataset["test"],
+     data_collator=data_collator,
+ )
+trainer.train()
+
+Once training is completed, use the [~transformers.Trainer.evaluate] method to evaluate your model and get its perplexity:
+
+import math
+eval_results = trainer.evaluate()
+print(f"Perplexity: {math.exp(eval_results['eval_loss']):.2f}")
+Perplexity: 8.76
+
+Then share your model to the Hub with the [~transformers.Trainer.push_to_hub] method so everyone can use your model:
+
+trainer.push_to_hub()
+
+If you aren't familiar with finetuning a model with Keras, take a look at the basic tutorial here!

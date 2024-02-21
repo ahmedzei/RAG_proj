@@ -1,0 +1,3 @@
+predictions = depth_estimator(image)
+
+The pipeline returns a dictionary with two entries.

@@ -1,0 +1,2 @@
+For Local Attention, the sparse sliding-window local attention operation allows a given token to attend only r
+tokens to the left and right of it (with r=127 by default).

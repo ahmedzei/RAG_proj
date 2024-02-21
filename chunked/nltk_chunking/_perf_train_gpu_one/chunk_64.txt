@@ -1,0 +1,2 @@
+It has the same numerical range as fp32 (8-bits), but instead 
+of 23 bits precision it has only 10 bits (same as fp16) and uses only 19 bits in total.

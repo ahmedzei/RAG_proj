@@ -1,0 +1,2 @@
+This means that the last hidden states of the model will have a
+  length of 512 + 49 = 561, if you pad the text tokens up to the max length.

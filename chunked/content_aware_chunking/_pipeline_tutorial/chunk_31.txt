@@ -1,0 +1,2 @@
+Batch size
+By default, pipelines will not batch inference for reasons explained in detail here.

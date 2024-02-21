@@ -1,0 +1,2 @@
+Streaming
+The generate() supports streaming, through its streamer input.

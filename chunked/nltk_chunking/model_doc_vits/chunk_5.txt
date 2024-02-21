@@ -1,0 +1,3 @@
+Motivated by the one-to-many nature of the TTS problem, where the same text 
+input can be spoken in multiple ways, the model also includes a stochastic duration predictor, which allows the model to 
+synthesise speech with different rhythms from the same input text.

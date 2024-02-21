@@ -1,0 +1,1 @@
+This means the _process_model_before_weight_loading method takes care of manipulating the model skeleton to replace some modules (e.g., nn.Linear) with the target modules (quantization modules).

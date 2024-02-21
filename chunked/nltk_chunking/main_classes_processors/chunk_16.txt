@@ -1,0 +1,2 @@
+The second version (v2.0) was released alongside the paper Know What You Don't
+Know: Unanswerable Questions for SQuAD.

@@ -1,0 +1,3 @@
+On the Long Range Arena (LRA) benchmark, 
+for evaluating performance on long sequences, our method achieves results consistent with softmax self-attention but with sizable 
+speed-ups and memory savings and often outperforms other efficient self-attention methods.

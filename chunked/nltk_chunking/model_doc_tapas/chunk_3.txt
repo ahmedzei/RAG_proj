@@ -1,0 +1,2 @@
+TAPAS is pre-trained on the masked language modeling (MLM) objective on a large dataset comprising 
+millions of tables from English Wikipedia and corresponding texts.

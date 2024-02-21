@@ -1,0 +1,8 @@
+thon
+from PIL import Image
+import requests
+url = "https://huggingface.co/datasets/sayakpaul/sample-datasets/resolve/main/pokemon.png"
+image = Image.open(requests.get(url, stream=True).raw)
+image
+
+Prepare image for the model.

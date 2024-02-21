@@ -1,0 +1,2 @@
+Compare this strategy to the simple one where each person has to carry their own tent, stove and axe (similar to 
+DataParallel (DP and DDP) in PyTorch), which would be far more inefficient.

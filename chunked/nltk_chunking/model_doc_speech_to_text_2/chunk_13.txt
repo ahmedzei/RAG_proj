@@ -1,0 +1,21 @@
+Resources
+
+Causal language modeling task guide
+
+Speech2Text2Config
+[[autodoc]] Speech2Text2Config
+Speech2TextTokenizer
+[[autodoc]] Speech2Text2Tokenizer
+    - batch_decode
+    - decode
+    - save_vocabulary
+Speech2Text2Processor
+[[autodoc]] Speech2Text2Processor
+    - call
+    - from_pretrained
+    - save_pretrained
+    - batch_decode
+    - decode
+Speech2Text2ForCausalLM
+[[autodoc]] Speech2Text2ForCausalLM
+    - forward

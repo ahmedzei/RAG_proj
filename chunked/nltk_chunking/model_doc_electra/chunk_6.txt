@@ -1,0 +1,2 @@
+As an alternative, we propose a
+more sample-efficient pretraining task called replaced token detection.

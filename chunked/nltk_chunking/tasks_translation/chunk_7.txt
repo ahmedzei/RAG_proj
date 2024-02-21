@@ -1,0 +1,1 @@
+Truncate sequences to be no longer than the maximum length set by the max_length parameter.

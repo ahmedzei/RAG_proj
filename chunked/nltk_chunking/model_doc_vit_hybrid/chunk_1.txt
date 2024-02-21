@@ -1,0 +1,2 @@
+It's the first paper that successfully trains a Transformer encoder on ImageNet, attaining
+very good results compared to familiar convolutional architectures.

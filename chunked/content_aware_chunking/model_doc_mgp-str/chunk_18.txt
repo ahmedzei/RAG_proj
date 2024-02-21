@@ -1,0 +1,2 @@
+The [ViTImageProcessor] class is responsible for preprocessing the input image and
+[MgpstrTokenizer] decodes the generated character tokens to the target string.

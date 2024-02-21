@@ -1,0 +1,5 @@
+Few things you might want to consider
+Error checking
+There's a lot that can go wrong in production: out of memory, out of space,
+loading the model might fail, the query might be wrong, the query might be
+correct but still fail to run because of a model misconfiguration, and so on.

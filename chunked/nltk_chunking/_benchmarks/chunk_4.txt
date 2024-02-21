@@ -1,0 +1,1 @@
+The benchmark classes allow us to measure the peak memory usage and required time for both inference and training.

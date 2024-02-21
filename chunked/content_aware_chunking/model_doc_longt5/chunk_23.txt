@@ -1,0 +1,2 @@
+As a consequence, TGlobal attention introduces
+a few new parameters -- global relative position biases and a layer normalization for global token's embedding.

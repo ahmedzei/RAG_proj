@@ -1,0 +1,1 @@
+A third approach mixes Transformers with convolutions (for example, Convolutional Vision Transformer or LeViT).

@@ -1,0 +1,2 @@
+Regardless of the issue, don't hesitate to ask for help in your draft pull request if
+you're stuck.

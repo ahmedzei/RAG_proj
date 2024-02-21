@@ -1,0 +1,2 @@
+We focus on quantization techniques that are amenable to acceleration
+by processors with high-throughput integer math pipelines.

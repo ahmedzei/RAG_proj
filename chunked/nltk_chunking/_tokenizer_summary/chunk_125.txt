@@ -1,0 +1,2 @@
+Decoding with SentencePiece is very easy since all tokens can just be
+concatenated and "▁" is replaced by a space.

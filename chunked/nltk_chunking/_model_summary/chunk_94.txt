@@ -1,0 +1,2 @@
+Encoder-decoder[[mm-encoder-decoder]]
+Optical character recognition (OCR) is a long-standing text recognition task that typically involves several components to understand the image and generate the text.
